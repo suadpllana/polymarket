@@ -50,6 +50,39 @@ export function formatPercent(value, absolute = true) {
 }
 
 /**
+ * Formats a wallet or address for display.
+ * @param {string} address - The address to format.
+ * @returns {string} Formatted address.
+ */
+export function formatAddress(address) {
+  return truncateAddress(address);
+}
+
+/**
+ * Formats a date into a simple time-left label.
+ * @param {string|number|Date} value - Date-like value.
+ * @returns {string} Human readable time remaining.
+ */
+export function formatTimeLeft(value) {
+  if (!value) return 'Unknown';
+
+  const targetTime = new Date(value).getTime();
+  if (Number.isNaN(targetTime)) return 'Unknown';
+
+  const diffMs = targetTime - Date.now();
+  if (diffMs <= 0) return 'Ended';
+
+  const totalMinutes = Math.floor(diffMs / 60000);
+  const totalHours = Math.floor(totalMinutes / 60);
+  const totalDays = Math.floor(totalHours / 24);
+
+  if (totalDays > 0) return `${totalDays}d left`;
+  if (totalHours > 0) return `${totalHours}h left`;
+  if (totalMinutes > 0) return `${totalMinutes}m left`;
+  return 'Less than 1m left';
+}
+
+/**
  * Formats a number with commas.
  * @param {number} num - Number to format.
  * @returns {string} Formatted number.
@@ -107,6 +140,18 @@ export function truncateAddress(address) {
   if (!address) return '';
   if (address.length <= 10) return address;
   return `${address.slice(0, 6)}...${address.slice(-4)}`;
+}
+
+/**
+ * Returns a short visual badge for a rank.
+ * @param {number} rank - 1-based rank.
+ * @returns {string} Badge label.
+ */
+export function getRankBadge(rank) {
+  if (rank === 1) return '🥇 #1';
+  if (rank === 2) return '🥈 #2';
+  if (rank === 3) return '🥉 #3';
+  return `#${rank}`;
 }
 
 /**

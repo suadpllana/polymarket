@@ -2,6 +2,14 @@
  * Polymarket API client with caching, concurrency limits, and CORS proxy fallback.
  */
 
+import {
+  formatAddress,
+  formatCurrency,
+  formatPercent,
+  formatTimeLeft,
+  getRankBadge,
+} from './utils.js';
+
 // Caching configuration
 const CACHE_PREFIX = 'polytracker_cache_';
 const DEFAULT_TTL = 5 * 60 * 1000; // 5 minutes in milliseconds
@@ -168,6 +176,125 @@ export async function fetchTrendingEvents(limit = 10, forceRefresh = false) {
   setCachedData(cacheKey, data, 5 * 60 * 1000);
   return data;
 }
+
+function toNumber(value, fallback = 0) {
+  const num = Number(value);
+  return Number.isFinite(num) ? num : fallback;
+}
+
+function normalizeProbability(value) {
+  const num = toNumber(value, 0);
+  if (num > 1 && num <= 100) return num / 100;
+  return Math.max(0, Math.min(1, num));
+}
+
+function normalizeMarket(market, index = 0) {
+  const favoriteProbability = normalizeProbability(
+    market.favoriteProbability ??
+      market.probability ??
+      market.winProbability ??
+      market.yesPrice ??
+      market.price ??
+      market.p
+  );
+  const liquidity = toNumber(market.liquidity ?? market.totalLiquidity ?? market.depth);
+  const volume = toNumber(market.volume ?? market.volume24hr ?? market.volume_24h);
+  const question = market.question ?? market.title ?? market.name ?? `Market ${index + 1}`;
+  const favorite = market.favorite ?? market.outcome ?? market.bestOutcome ?? 'Yes';
+  const category = market.category ?? market.tag ?? market.groupTitle ?? 'General';
+  const endDate = market.endDate ?? market.end_date ?? market.closeDate ?? market.endsAt ?? null;
+  const slug = market.slug ?? market.marketSlug ?? market.conditionId ?? market.id ?? index;
+  const url = market.url ?? (slug ? `https://polymarket.com/event/${slug}` : '#');
+  const spread = toNumber(market.spread ?? market.bidAskSpread ?? market.maxSpread, 0.5);
+  const potentialReturn = favoriteProbability > 0 ? Math.max(0, (1 / favoriteProbability) - 1) : 0;
+
+  const score =
+    market.score ??
+    (
+      favoriteProbability * 0.5 +
+      Math.min(1, Math.log10(liquidity + 1) / 4) * 0.25 +
+      Math.min(1, Math.log10(volume + 1) / 5) * 0.15 +
+      Math.max(0, 1 - Math.min(1, spread)) * 0.1
+    );
+
+  return {
+    ...market,
+    question,
+    favorite,
+    category,
+    favoriteProbability,
+    liquidity,
+    volume,
+    endDate,
+    url,
+    score,
+    potentialReturn,
+  };
+}
+
+function flattenMarkets(items) {
+  const flattened = [];
+
+  items.forEach((item, index) => {
+    if (Array.isArray(item?.markets) && item.markets.length > 0) {
+      item.markets.forEach((market, nestedIndex) => {
+        flattened.push(
+          normalizeMarket(
+            {
+              ...market,
+              title: market.title ?? item.title,
+              category: market.category ?? item.category,
+              endDate: market.endDate ?? item.endDate,
+              url: market.url ?? item.url,
+            },
+            `${index}-${nestedIndex}`
+          )
+        );
+      });
+      return;
+    }
+
+    flattened.push(normalizeMarket(item, index));
+  });
+
+  return flattened;
+}
+
+/**
+ * Backwards-compatible alias for the legacy leaderboard loader.
+ */
+export async function fetchLeaderboard(window = 'all', limit = 100, forceRefresh = false) {
+  return fetchTopTraders(window, limit, forceRefresh);
+}
+
+/**
+ * Backwards-compatible market loader used by the legacy app shell.
+ */
+export async function fetchMarkets(limit = 10, forceRefresh = false) {
+  const events = await fetchTrendingEvents(limit, forceRefresh);
+  return flattenMarkets(Array.isArray(events) ? events : []);
+}
+
+/**
+ * Backwards-compatible best-bets ranking helper.
+ */
+export function rankBestBets(markets, options = {}) {
+  const minProbability = options.minProbability ?? 0.6;
+
+  return (Array.isArray(markets) ? markets : [])
+    .map((market, index) => normalizeMarket(market, index))
+    .filter((market) => market.favoriteProbability >= minProbability)
+    .filter((market) => market.favoriteProbability < 0.95)
+    .sort((a, b) => b.score - a.score);
+}
+
+export {
+  formatAddress,
+  formatCurrency,
+  formatPercent,
+  formatTimeLeft,
+  getRankBadge,
+};
 
 /**
  * Loads positions for a batch of traders with concurrency limit and progress reports
