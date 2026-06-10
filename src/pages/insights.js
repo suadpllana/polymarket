@@ -1,5 +1,5 @@
 import { fetchTopTraders, fetchBatchTraderPositions } from '../api.js';
-import { formatCurrency, formatPercent, getSkeletonLoader } from '../utils.js';
+import { formatCurrency } from '../utils.js';
 
 export default {
   /**
@@ -29,11 +29,11 @@ export default {
           <div class="loader-card__spinner"></div>
           <h3 class="loader-card__title" id="loader-card-title">Scanning Smart Money Wallets...</h3>
           <p class="loader-card__message" id="loader-status">Initializing scanner...</p>
-          
+
           <div class="progress-bar-wrapper">
             <div class="progress-bar-fill" id="loader-progress" style="width: 0%"></div>
           </div>
-          
+
           <div class="loader-stats">
             <div class="loader-stat">
               <span class="loader-stat__label">Wallets Scanned</span>
@@ -59,7 +59,7 @@ export default {
               <option value="15">15+ Traders</option>
             </select>
           </div>
-          
+
           <div class="filter-group">
             <label for="insights-sort-select" class="control-label font-semibold">Sort By:</label>
             <select id="insights-sort-select" class="sort-select inline-select">
@@ -82,13 +82,14 @@ export default {
     const progressBar = document.getElementById('loader-progress');
     const statScanned = document.getElementById('loader-stat-scanned');
     const statPositions = document.getElementById('loader-stat-positions');
-    
+
     const thresholdSelect = document.getElementById('insights-threshold-select');
     const sortSelect = document.getElementById('insights-sort-select');
     const cardsGrid = document.getElementById('insights-cards-grid');
     const windowFilters = document.getElementById('insights-window-filters');
 
     let aggregatedMarkets = [];
+    let scannedTradersCount = 100; // actual number of wallets scanned (for participation %)
     let activePositionsCount = 0;
     let currentWindow = '30d'; // Defaults to monthly
     let isScanning = false;
@@ -108,15 +109,12 @@ export default {
       if (isScanning) return;
       isScanning = true;
 
-      // Visual feedback - disable tabs during scan
       windowFilters.style.pointerEvents = 'none';
       windowFilters.style.opacity = '0.6';
 
-      // Show loader, hide final insights
       loaderOverlay.classList.remove('hidden');
       insightsContent.classList.add('hidden');
 
-      // Reset progress elements
       activePositionsCount = 0;
       progressBar.style.width = '0%';
       statusText.textContent = `Fetching ${timeframeLabels[timeframe]}...`;
@@ -127,6 +125,7 @@ export default {
       try {
         // 1. Fetch top 100 traders for chosen window
         const traders = await fetchTopTraders(timeframe, 100);
+        scannedTradersCount = traders.length || 100;
 
         // 2. Batch fetch portfolios with rate limit concurrency
         const batchData = await fetchBatchTraderPositions(
@@ -145,6 +144,8 @@ export default {
 
         // 3. Aggregate active bets by conditionId
         const marketsMap = new Map();
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
 
         for (const item of batchData) {
           const { trader, positions } = item;
@@ -152,8 +153,6 @@ export default {
 
           for (const pos of positions) {
             // Only aggregate ACTIVE bets (exclude resolved/ended)
-            const today = new Date();
-            today.setHours(0, 0, 0, 0);
             const endDate = pos.endDate ? new Date(pos.endDate) : null;
             const isEnded = endDate && endDate < today;
 
@@ -209,7 +208,7 @@ export default {
           }
         }
 
-        // Convert map to array and sort consensus stats
+        // Convert map to array and compute consensus stats
         aggregatedMarkets = Array.from(marketsMap.values()).map(m => {
           let consensusOutcome = 'Unknown';
           let consensusCount = 0;
@@ -226,23 +225,28 @@ export default {
           });
 
           const consensusStrength = m.tradersCount > 0 ? (consensusCount / m.tradersCount) * 100 : 0;
-          const participationRate = (m.tradersCount / 100) * 100;
+          // FIX: use the real number of scanned wallets instead of hardcoded 100
+          const participationRate = (m.tradersCount / scannedTradersCount) * 100;
+
+          // FIX: biggest positions first so the most meaningful names show up
+          consensusTradersList = [...consensusTradersList].sort(
+            (a, b) => (b.initialValue || 0) - (a.initialValue || 0)
+          );
 
           return {
             ...m,
             consensusOutcome,
             consensusStrength,
+            consensusCapital,
             participationRate,
             consensusTradersList,
             dominantOutcomeDetails: m.outcomes[consensusOutcome]
           };
         });
 
-        // Hide loader overlay, show content
         loaderOverlay.classList.add('hidden');
         insightsContent.classList.remove('hidden');
 
-        // Apply filters & render final cards
         applyFilterAndSort();
 
       } catch (error) {
@@ -293,10 +297,8 @@ export default {
       const minTraders = parseInt(thresholdSelect.value, 10);
       const sortBy = sortSelect.value;
 
-      // Filter by min participation threshold
       let list = aggregatedMarkets.filter(m => m.tradersCount >= minTraders);
 
-      // Sort by chosen metric
       list.sort((a, b) => {
         if (sortBy === 'participation-desc') {
           return b.tradersCount - a.tradersCount;
@@ -331,13 +333,15 @@ function renderInsightCards(wrapper, markets) {
     return;
   }
 
+  const MAX_PILLS = 12;
+
   wrapper.innerHTML = markets.map((m, index) => {
-    const marketUrl = m.slug 
+    const marketUrl = m.slug
       ? `https://polymarket.com/market/${m.slug}`
       : `https://polymarket.com/event/${m.eventSlug || ''}`;
 
     const iconUrl = m.icon || 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="%231a233a"><rect width="100" height="100"/><text y=".75em" font-size="60" x="15">📈</text></svg>';
-    
+
     let consensusOutcomeClass = 'outcome-badge--neutral';
     if (m.consensusOutcome.toLowerCase() === 'yes') consensusOutcomeClass = 'outcome-badge--yes';
     else if (m.consensusOutcome.toLowerCase() === 'no') consensusOutcomeClass = 'outcome-badge--no';
@@ -345,15 +349,18 @@ function renderInsightCards(wrapper, markets) {
     const isTop3 = index < 3;
     const badgeText = isTop3 ? `🔥 TOP ${index + 1}` : '';
 
+    const visiblePills = m.consensusTradersList.slice(0, MAX_PILLS);
+    const hiddenCount = m.consensusTradersList.length - visiblePills.length;
+
     return `
       <div class="insight-card animate-scale-in">
         ${isTop3 ? `<div class="insight-card__top-badge">${badgeText}</div>` : ''}
-        
+
         <div class="insight-card__header">
           <img src="${iconUrl}" class="insight-card__icon" alt="Market Icon" onerror="this.src='data:image/svg+xml,<svg xmlns=\\'http://www.w3.org/2000/svg\\' viewBox=\\'0 0 100 100\\' fill=\\'%231a233a\\'><rect width=\\'100\\' height=\\'100\\'/><text y=\\'.75em\\' font-size=\\'60\\' x=\\'15\\'>📈</text></svg>';" />
           <div class="insight-card__participation">
             <span class="participation-count">👥 <strong>${m.tradersCount}</strong> of Top 100</span>
-            <span class="participation-rate">(${m.participationRate}% Participation)</span>
+            <span class="participation-rate">(${m.participationRate.toFixed(1)}% Participation)</span>
           </div>
         </div>
 
@@ -368,7 +375,7 @@ function renderInsightCards(wrapper, markets) {
             <span class="outcome-badge ${consensusOutcomeClass} font-semibold">${m.consensusOutcome}</span>
             <span class="consensus-info__strength">${m.consensusStrength.toFixed(1)}% Consensus</span>
           </div>
-          
+
           <div class="consensus-meter">
             <div class="consensus-meter__fill" style="width: ${m.consensusStrength}%"></div>
           </div>
@@ -380,6 +387,10 @@ function renderInsightCards(wrapper, markets) {
             <span class="detail-row__value font-mono font-medium text-success">${formatCurrency(m.totalCapital)}</span>
           </div>
           <div class="detail-row">
+            <span class="detail-row__label">Capital on Consensus Side</span>
+            <span class="detail-row__value font-mono font-medium">${formatCurrency(m.consensusCapital)}</span>
+          </div>
+          <div class="detail-row">
             <span class="detail-row__label">Outcome Price</span>
             <span class="detail-row__value font-mono font-medium">${(m.dominantOutcomeDetails.currentPrice * 100).toFixed(0)}¢</span>
           </div>
@@ -389,11 +400,12 @@ function renderInsightCards(wrapper, markets) {
         <div class="insight-card__traders">
           <span class="traders-list-title">Consensus Traders:</span>
           <div class="traders-list-pills">
-            ${m.consensusTradersList.map(t => `
+            ${visiblePills.map(t => `
               <span class="trader-pill" title="${t.name} invested ${formatCurrency(t.initialValue)}">
                 ${t.name} <code class="trader-pill__val">${formatCurrency(t.initialValue, true)}</code>
               </span>
             `).join('')}
+            ${hiddenCount > 0 ? `<span class="trader-pill">+${hiddenCount} more</span>` : ''}
           </div>
         </div>
 

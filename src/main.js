@@ -2,6 +2,7 @@ import './style.css';
 import leaderboard from './pages/leaderboard.js';
 import traderDetail from './pages/traderDetail.js';
 import insights from './pages/insights.js';
+import predictions from './pages/predictions.js';
 
 const pageContent = document.getElementById('page-content');
 const navLinks = document.querySelectorAll('.nav__link');
@@ -12,7 +13,7 @@ const navLinks = document.querySelectorAll('.nav__link');
 async function handleRoute() {
   const hash = window.location.hash || '#leaderboard';
   console.log('[Router] Navigating to:', hash);
-  
+
   // Update active state in Navigation Links
   navLinks.forEach(link => {
     const dataPage = link.getAttribute('data-page');
@@ -33,6 +34,8 @@ async function handleRoute() {
       await traderDetail.render(pageContent, wallet);
     } else if (hash === '#insights') {
       await insights.render(pageContent);
+    } else if (hash === '#predictions') {
+      await predictions.render(pageContent);
     } else {
       // Route fallback
       window.location.hash = '#leaderboard';

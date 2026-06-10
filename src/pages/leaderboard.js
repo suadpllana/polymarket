@@ -1,5 +1,5 @@
 import { fetchTopTraders } from '../api.js';
-import { formatCurrency, generateAvatarGradient, getInitials, truncateAddress, getSkeletonLoader } from '../utils.js';
+import { formatCurrency, generateAvatarGradient, getInitials, truncateAddress, getSkeletonLoader, debounce } from '../utils.js';
 
 export default {
   /**
@@ -46,24 +46,24 @@ export default {
     const tableWrapper = document.getElementById('leaderboard-table-wrapper');
     const summaryStats = document.getElementById('leaderboard-summary-stats');
     const windowFilters = document.getElementById('window-filters');
-    
+
     let traders = [];
     let filteredTraders = [];
-    let currentWindow = '30d'; // Default to Monthly (30d) as requested
+    let currentWindow = '30d'; // Default to Monthly (30d)
 
     // Function to load and render leaderboard for a specific timeframe
     const loadLeaderboard = async (timeframe) => {
       tableWrapper.innerHTML = getSkeletonLoader('table');
       searchInput.value = ''; // Clear search when changing window
-      
+
       try {
         traders = await fetchTopTraders(timeframe, 100);
         filteredTraders = [...traders];
-        
+
         // Calculate global metrics for the header stats
         const totalProfit = traders.reduce((sum, t) => sum + (t.amount || 0), 0);
         const avgProfit = totalProfit / (traders.length || 1);
-        
+
         summaryStats.innerHTML = `
           <div class="stats-card">
             <span class="stats-card__label">Combined Profit</span>
@@ -92,7 +92,7 @@ export default {
             <button class="btn btn--primary" id="retry-leaderboard">Retry</button>
           </div>
         `;
-        
+
         document.getElementById('retry-leaderboard')?.addEventListener('click', () => {
           loadLeaderboard(timeframe);
         });
@@ -112,20 +112,20 @@ export default {
       });
     });
 
-    // Search functionality (with input event)
-    searchInput.addEventListener('input', (e) => {
+    // Search functionality — debounced so the table isn't re-rendered on every keystroke
+    searchInput.addEventListener('input', debounce((e) => {
       const query = e.target.value.toLowerCase().trim();
       if (!query) {
         filteredTraders = [...traders];
       } else {
-        filteredTraders = traders.filter(t => 
+        filteredTraders = traders.filter(t =>
           (t.pseudonym && t.pseudonym.toLowerCase().includes(query)) ||
           (t.name && t.name.toLowerCase().includes(query)) ||
           (t.proxyWallet && t.proxyWallet.toLowerCase().includes(query))
         );
       }
       renderTable(tableWrapper, filteredTraders);
-    });
+    }, 200));
   }
 };
 
@@ -215,7 +215,7 @@ function renderTable(wrapper, tradersList) {
       const address = btn.getAttribute('data-clipboard');
       try {
         await navigator.clipboard.writeText(address);
-        
+
         // Visual feedback
         const originalSVG = btn.innerHTML;
         btn.innerHTML = `
@@ -224,7 +224,7 @@ function renderTable(wrapper, tradersList) {
           </svg>
         `;
         btn.classList.add('copy-btn--copied');
-        
+
         setTimeout(() => {
           btn.innerHTML = originalSVG;
           btn.classList.remove('copy-btn--copied');

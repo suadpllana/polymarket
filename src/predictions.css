@@ -1,0 +1,282 @@
+/* ==========================================================================
+   Sports Edge / Predictions page
+   ========================================================================== */
+.honesty-banner {
+  background: rgba(251, 191, 36, 0.06);
+  border: 1px solid rgba(251, 191, 36, 0.25);
+  border-radius: var(--radius-md);
+  padding: 14px 18px;
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+.honesty-banner strong {
+  color: #fbbf24;
+}
+
+.honesty-banner em {
+  color: var(--text-primary);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.predictions-controls {
+  flex-wrap: wrap;
+}
+
+.predictions-layout {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 24px;
+  align-items: start;
+  margin-bottom: 60px;
+}
+
+.picks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.pick-card {
+  background: var(--bg-glass);
+  backdrop-filter: blur(8px);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: var(--transition-normal);
+}
+
+.pick-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--border-hover);
+  box-shadow: var(--shadow-md), var(--shadow-glow);
+}
+
+.pick-card__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pick-card__icon {
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-sm);
+  object-fit: cover;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.pick-card__prob {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: auto;
+}
+
+.pick-card__prob-value {
+  font-family: var(--font-mono);
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--success);
+}
+
+.pick-card__prob-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-muted);
+}
+
+.pick-card__title {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.pick-card__title a {
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.pick-card__title a:hover {
+  color: var(--primary);
+}
+
+.pick-card__outcome {
+  font-size: 12px;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.pick-card__mult {
+  font-family: var(--font-mono);
+  color: var(--text-muted);
+}
+
+.pick-card__meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  color: var(--text-muted);
+  border-top: 1px dashed var(--border-color);
+  padding-top: 10px;
+}
+
+.pick-card__add {
+  width: 100%;
+}
+
+/* Slip panel */
+.slip-panel {
+  background: var(--bg-glass);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  padding: 20px;
+  position: sticky;
+  top: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.slip-panel__title {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.slip-empty {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.slip-legs {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 280px;
+  overflow-y: auto;
+}
+
+.slip-leg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  padding: 8px 10px;
+}
+
+.slip-leg__info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.slip-leg__title {
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.slip-leg__outcome {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+}
+
+.slip-leg__remove {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 12px;
+  flex-shrink: 0;
+}
+
+.slip-leg__remove:hover {
+  color: var(--danger);
+}
+
+.slip-stake-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.slip-stake-input {
+  width: 90px;
+  background-color: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  padding: 6px 10px;
+  color: var(--text-primary);
+  font-family: var(--font-mono);
+  font-size: 14px;
+}
+
+.slip-stake-input:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.slip-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  border-top: 1px solid var(--border-color);
+  padding-top: 12px;
+}
+
+.slip-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.slip-row--big {
+  font-size: 14px;
+  color: var(--text-primary);
+  padding: 6px 0;
+}
+
+.slip-note {
+  font-size: 12px;
+  color: var(--text-muted);
+  line-height: 1.5;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px dashed var(--border-color);
+  border-radius: var(--radius-sm);
+  padding: 10px;
+  margin-top: 4px;
+}
+
+.slip-clear {
+  align-self: flex-start;
+}
+
+@media (max-width: 1024px) {
+  .predictions-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .slip-panel {
+    position: static;
+  }
+}

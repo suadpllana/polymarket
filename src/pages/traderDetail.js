@@ -1,5 +1,5 @@
 import { fetchTraderPositions, fetchTopTraders } from '../api.js';
-import { formatCurrency, formatPercent, generateAvatarGradient, getInitials, truncateAddress, getSkeletonLoader } from '../utils.js';
+import { formatCurrency, formatPercent, formatNumber, generateAvatarGradient, getInitials, truncateAddress, getSkeletonLoader } from '../utils.js';
 /**
  * Helper to determine if a position is truly active.
  * Excludes ended calendar events and extreme pricing close to 0 or 1.
@@ -26,7 +26,7 @@ export default {
     }
 
     const cleanWallet = wallet.toLowerCase().trim();
-    
+
     // Set up loading structure
     container.innerHTML = `
       <div class="animate-fade-in">
@@ -48,14 +48,14 @@ export default {
       <div class="bets-section animate-fade-in">
         <div class="bets-section__header">
           <h3 class="bets-section__title">Active & Historical Bets</h3>
-          
+
           <div class="bets-controls">
             <div class="filter-tabs">
               <button class="filter-tab active font-semibold" data-filter="all">All Bets</button>
               <button class="filter-tab font-semibold" data-filter="active">Active Only</button>
               <button class="filter-tab font-semibold" data-filter="resolved">Resolved</button>
             </div>
-            
+
             <div class="sort-select-wrapper">
               <select id="bets-sort" class="sort-select">
                 <option value="size-desc">Size: High to Low</option>
@@ -111,11 +111,11 @@ export default {
 
       // 2. Fetch active positions
       allPositions = await fetchTraderPositions(cleanWallet);
-      
+
       // Calculate summary stats specifically for positions
       const activePositions = allPositions.filter(isActivePosition);
       const resolvedPositions = allPositions.filter(p => !isActivePosition(p));
-      
+
       const totalInvested = activePositions.reduce((sum, p) => sum + (p.currentValue || p.initialValue || 0), 0);
       const activePnL = activePositions.reduce((sum, p) => sum + (p.cashPnl || 0), 0);
 
@@ -140,7 +140,7 @@ export default {
               ${traderInfo.bio ? `<p class="trader-profile__bio">${traderInfo.bio}</p>` : ''}
             </div>
           </div>
-          
+
           <div class="trader-profile__stats">
             <div class="trader-profile__stat-card">
               <span class="trader-profile__stat-label">Total Realized Profit</span>
@@ -259,7 +259,7 @@ function renderPositionsList(wrapper, positions) {
     const shares = pos.size || 0;
     const outcome = pos.outcome || 'Unknown';
     const isProfit = cashPnl >= 0;
-    
+
     // Status text
     const statusText = isResolved ? 'RESOLVED' : 'ACTIVE';
     const statusClass = isResolved ? 'badge--resolved' : 'badge--active';
@@ -270,7 +270,7 @@ function renderPositionsList(wrapper, positions) {
     else if (outcome.toLowerCase() === 'no') outcomeClass = 'outcome-badge--no';
 
     // Market links
-    const marketUrl = pos.slug 
+    const marketUrl = pos.slug
       ? `https://polymarket.com/market/${pos.slug}`
       : `https://polymarket.com/event/${pos.eventSlug || ''}`;
 
@@ -285,7 +285,7 @@ function renderPositionsList(wrapper, positions) {
             <span class="outcome-badge ${outcomeClass}">${outcome}</span>
           </div>
         </div>
-        
+
         <h4 class="bet-card__title" title="${pos.title}">
           <a href="${marketUrl}" target="_blank" rel="noopener noreferrer">${pos.title}</a>
         </h4>
@@ -306,7 +306,7 @@ function renderPositionsList(wrapper, positions) {
         <div class="bet-card__stats">
           <div class="bet-card__stat">
             <span class="bet-card__stat-label">Contracts Held</span>
-            <span class="bet-card__stat-value font-mono">${new Intl.NumberFormat('en-US').format(shares.toFixed(0))} shares</span>
+            <span class="bet-card__stat-value font-mono">${formatNumber(Math.round(shares))} shares</span>
             <span class="bet-card__stat-help">Number of tickets/bets bought</span>
           </div>
           <div class="bet-card__stat">

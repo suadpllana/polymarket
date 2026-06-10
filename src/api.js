@@ -8,7 +8,7 @@ import {
   formatPercent,
   formatTimeLeft,
   getRankBadge,
-} from './utils.js';
+} from './utils';
 
 // Caching configuration
 const CACHE_PREFIX = 'polytracker_cache_';
@@ -25,7 +25,6 @@ const CORS_PROXIES = [
  */
 async function robustFetch(url, options = {}, attempt = 0) {
   try {
-    // Attempt direct fetch first
     const response = await fetch(url, options);
     if (!response.ok) {
       throw new Error(`HTTP error! Status: ${response.status}`);
@@ -33,13 +32,11 @@ async function robustFetch(url, options = {}, attempt = 0) {
     return await response.json();
   } catch (error) {
     console.warn(`Direct fetch failed for ${url}:`, error.message);
-    
-    // If we've already tried proxies or it's a non-GET request, throw
+
     if (options.method && options.method !== 'GET') {
       throw error;
     }
 
-    // Try CORS proxies sequentially
     if (attempt < CORS_PROXIES.length) {
       const proxyUrl = CORS_PROXIES[attempt](url);
       console.log(`Attempting fetch via CORS proxy ${attempt + 1}: ${proxyUrl}`);
@@ -54,7 +51,7 @@ async function robustFetch(url, options = {}, attempt = 0) {
         return robustFetch(url, options, attempt + 1);
       }
     }
-    
+
     throw new Error(`Failed to fetch ${url} directly and through all proxies.`);
   }
 }
@@ -66,7 +63,7 @@ function getCachedData(key) {
   try {
     const cached = localStorage.getItem(CACHE_PREFIX + key);
     if (!cached) return null;
-    
+
     const { data, timestamp, ttl } = JSON.parse(cached);
     if (Date.now() - timestamp > ttl) {
       localStorage.removeItem(CACHE_PREFIX + key);
@@ -83,15 +80,10 @@ function setCachedData(key, data, ttl = DEFAULT_TTL) {
   try {
     localStorage.setItem(
       CACHE_PREFIX + key,
-      JSON.stringify({
-        data,
-        timestamp: Date.now(),
-        ttl
-      })
+      JSON.stringify({ data, timestamp: Date.now(), ttl })
     );
   } catch (e) {
     console.error('Error writing to localStorage cache', e);
-    // If localStorage is full, clear old cache items
     clearOldCache();
   }
 }
@@ -111,9 +103,6 @@ function clearOldCache() {
 
 /**
  * Fetches the top traders by profit from Polymarket Leaderboard API
- * @param {string} window - Time window ('all', 'month', 'week')
- * @param {number} limit - Maximum number of traders (default 100)
- * @param {boolean} forceRefresh - Ignore cache
  */
 export async function fetchTopTraders(window = 'all', limit = 100, forceRefresh = false) {
   const cacheKey = `leaderboard_${window}_${limit}`;
@@ -124,22 +113,19 @@ export async function fetchTopTraders(window = 'all', limit = 100, forceRefresh 
 
   const url = `https://lb-api.polymarket.com/profit?window=${window}&limit=${limit}`;
   const data = await robustFetch(url);
-  
-  // Cache leaderboard for 10 minutes (it doesn't change second-by-second)
+
   setCachedData(cacheKey, data, 10 * 60 * 1000);
   return data;
 }
 
 /**
  * Fetches positions for a specific trader wallet
- * @param {string} wallet - Proxy wallet address of the trader
- * @param {boolean} forceRefresh - Ignore cache
  */
 export async function fetchTraderPositions(wallet, forceRefresh = false) {
   if (!wallet) return [];
   const cleanWallet = wallet.toLowerCase().trim();
   const cacheKey = `positions_${cleanWallet}`;
-  
+
   if (!forceRefresh) {
     const cached = getCachedData(cacheKey);
     if (cached) return cached;
@@ -148,20 +134,16 @@ export async function fetchTraderPositions(wallet, forceRefresh = false) {
   const url = `https://data-api.polymarket.com/positions?user=${cleanWallet}`;
   try {
     const data = await robustFetch(url);
-    // Cache individual trader positions for 3 minutes
     setCachedData(cacheKey, data, 3 * 60 * 1000);
     return data;
   } catch (error) {
     console.error(`Failed to fetch positions for ${wallet}:`, error);
-    // Return empty array instead of failing completely, to keep the UI running
     return [];
   }
 }
 
 /**
  * Fetches trending events/markets from Gamma API
- * @param {number} limit - Maximum number of events
- * @param {boolean} forceRefresh - Ignore cache
  */
 export async function fetchTrendingEvents(limit = 10, forceRefresh = false) {
   const cacheKey = `events_${limit}`;
@@ -172,9 +154,67 @@ export async function fetchTrendingEvents(limit = 10, forceRefresh = false) {
 
   const url = `https://gamma-api.polymarket.com/events?limit=${limit}&active=true&closed=false&order=volume24hr&ascending=false`;
   const data = await robustFetch(url);
-  
+
   setCachedData(cacheKey, data, 5 * 60 * 1000);
   return data;
+}
+
+/**
+ * Fetches sports events for the predictions page by trying a list of tag slugs,
+ * then falling back to a keyword filter over trending events.
+ *
+ * @param {string[]} tagSlugs - Gamma tag slugs to try (e.g. ['cs2', 'esports'])
+ * @param {string[]} keywords - Lowercase keywords for the trending fallback filter
+ * @param {number} limit - Max events per tag query
+ * @param {boolean} forceRefresh - Ignore cache
+ * @returns {Promise<Array>} Deduplicated list of events
+ */
+export async function fetchSportsEvents(tagSlugs = [], keywords = [], limit = 60, forceRefresh = false) {
+  const cacheKey = `sports_${tagSlugs.join('-')}_${limit}`;
+  if (!forceRefresh) {
+    const cached = getCachedData(cacheKey);
+    if (cached) return cached;
+  }
+
+  const collected = [];
+
+  // 1. Try tag slugs (some may 404 / return empty — that's fine)
+  for (const slug of tagSlugs) {
+    try {
+      const url = `https://gamma-api.polymarket.com/events?limit=${limit}&active=true&closed=false&order=volume24hr&ascending=false&tag_slug=${encodeURIComponent(slug)}`;
+      const data = await robustFetch(url);
+      if (Array.isArray(data)) collected.push(...data);
+    } catch (e) {
+      console.warn(`Tag slug "${slug}" returned no usable data:`, e.message);
+    }
+  }
+
+  // 2. Fallback: keyword filter over trending events if tags found nothing
+  if (collected.length === 0 && keywords.length > 0) {
+    try {
+      const trending = await fetchTrendingEvents(100, forceRefresh);
+      const matches = (Array.isArray(trending) ? trending : []).filter(ev => {
+        const haystack = `${ev.title || ''} ${ev.slug || ''}`.toLowerCase();
+        return keywords.some(kw => haystack.includes(kw));
+      });
+      collected.push(...matches);
+    } catch (e) {
+      console.warn('Trending fallback failed:', e.message);
+    }
+  }
+
+  // 3. Deduplicate by event id/slug
+  const seen = new Set();
+  const deduped = [];
+  for (const ev of collected) {
+    const key = ev.id ?? ev.slug;
+    if (key == null || seen.has(key)) continue;
+    seen.add(key);
+    deduped.push(ev);
+  }
+
+  setCachedData(cacheKey, deduped, 3 * 60 * 1000);
+  return deduped;
 }
 
 function toNumber(value, fallback = 0) {
@@ -298,19 +338,13 @@ export {
 
 /**
  * Loads positions for a batch of traders with concurrency limit and progress reports
- * @param {Array} traders - List of trader objects from the leaderboard
- * @param {Function} onProgress - Callback(loadedCount, totalCount, currentPseudonym)
- * @param {number} concurrency - Max simultaneous requests
- * @returns {Promise<Array>} List of results containing { trader, positions }
  */
 export async function fetchBatchTraderPositions(traders, onProgress, concurrency = 5) {
   const results = [];
   let loadedCount = 0;
   const totalCount = traders.length;
 
-  // Helper to run tasks with limited concurrency
   const queue = [...traders];
-  const activePromises = [];
 
   const worker = async () => {
     while (queue.length > 0) {
@@ -319,19 +353,12 @@ export async function fetchBatchTraderPositions(traders, onProgress, concurrency
         if (onProgress) {
           onProgress(loadedCount, totalCount, trader.pseudonym || trader.name || trader.proxyWallet);
         }
-        
-        // Fetch positions (will check cache first)
+
         const positions = await fetchTraderPositions(trader.proxyWallet);
-        results.push({
-          trader,
-          positions: positions || []
-        });
+        results.push({ trader, positions: positions || [] });
       } catch (err) {
         console.error(`Failed batch fetch for trader ${trader.pseudonym}:`, err);
-        results.push({
-          trader,
-          positions: []
-        });
+        results.push({ trader, positions: [] });
       } finally {
         loadedCount++;
         if (onProgress) {
@@ -341,14 +368,12 @@ export async function fetchBatchTraderPositions(traders, onProgress, concurrency
     }
   };
 
-  // Launch initial batch of workers
   const workerCount = Math.min(concurrency, totalCount);
   const workers = [];
   for (let i = 0; i < workerCount; i++) {
     workers.push(worker());
   }
 
-  // Wait for all workers to complete
   await Promise.all(workers);
   return results;
 }
