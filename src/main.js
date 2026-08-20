@@ -3,6 +3,7 @@ import leaderboard from './pages/leaderboard.js';
 import traderDetail from './pages/traderDetail.js';
 import insights from './pages/insights.js';
 import predictions from './pages/predictions.js';
+import edge from './pages/edge.js';
 
 const pageContent = document.getElementById('page-content');
 const navLinks = document.querySelectorAll('.nav__link');
@@ -11,7 +12,7 @@ const navLinks = document.querySelectorAll('.nav__link');
  * Hash-based router
  */
 async function handleRoute() {
-  const hash = window.location.hash || '#leaderboard';
+  const hash = window.location.hash || '#edge';
   console.log('[Router] Navigating to:', hash);
 
   // Update active state in Navigation Links
@@ -26,7 +27,9 @@ async function handleRoute() {
 
   // Render view
   try {
-    if (hash === '#leaderboard' || hash === '') {
+    if (hash === '#edge' || hash === '') {
+      await edge.render(pageContent);
+    } else if (hash === '#leaderboard') {
       await leaderboard.render(pageContent);
     } else if (hash.startsWith('#trader/')) {
       const parts = hash.split('/');
@@ -38,7 +41,7 @@ async function handleRoute() {
       await predictions.render(pageContent);
     } else {
       // Route fallback
-      window.location.hash = '#leaderboard';
+      window.location.hash = '#edge';
     }
   } catch (error) {
     console.error('[Router] Error rendering view:', error);
@@ -49,7 +52,7 @@ async function handleRoute() {
         </svg>
         <h3 class="error-state__title">Navigation Error</h3>
         <p class="error-state__message">An error occurred while loading this page. Please try again.</p>
-        <a href="#leaderboard" class="btn btn--primary">Go to Leaderboard</a>
+        <a href="#edge" class="btn btn--primary">Go to Sharp Edge</a>
       </div>
     `;
   }

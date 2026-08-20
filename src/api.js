@@ -8,7 +8,7 @@ import {
   formatPercent,
   formatTimeLeft,
   getRankBadge,
-} from './utils';
+} from './utils.js';
 
 // Caching configuration
 const CACHE_PREFIX = 'polytracker_cache_';
@@ -215,6 +215,247 @@ export async function fetchSportsEvents(tagSlugs = [], keywords = [], limit = 60
 
   setCachedData(cacheKey, deduped, 3 * 60 * 1000);
   return deduped;
+}
+
+/* ==========================================================================
+ * SHARP EDGE ENGINE — data access
+ *
+ * The engine needs three things the legacy loaders never fetched:
+ *   1. a roster of proven traders scored across MULTIPLE profit windows,
+ *      so one lucky week cannot buy a seat at the table
+ *   2. each trader's total book value, so position size can be read as
+ *      conviction rather than raw dollars
+ *   3. live market microstructure (price, spread, depth) for the exact
+ *      markets those traders are actually in
+ * ========================================================================== */
+
+/**
+ * Builds the smart-money roster by merging several leaderboard windows.
+ *
+ * A trader who shows up in the 1d, 30d AND all-time lists has demonstrated
+ * durable skill; one who appears only in the 1d list may have simply been
+ * lucky yesterday. We keep every trader but record `windowCount` so the model
+ * can weight persistence — see traderWeight() in engine/model.js.
+ *
+ * @param {string[]} windows - leaderboard windows to merge
+ * @param {number} limit - traders per window
+ * @returns {Promise<Array>} roster sorted by best PnL, each with rank/windowCount
+ */
+export async function fetchSmartMoneyRoster(
+  windows = ['30d', '7d', 'all'],
+  limit = 100,
+  forceRefresh = false
+) {
+  const cacheKey = `roster_${windows.join('-')}_${limit}`;
+  if (!forceRefresh) {
+    const cached = getCachedData(cacheKey);
+    if (cached) return cached;
+  }
+
+  const byWallet = new Map();
+
+  for (const window of windows) {
+    let list;
+    try {
+      list = await fetchTopTraders(window, limit, forceRefresh);
+    } catch (e) {
+      console.warn(`Leaderboard window "${window}" unavailable:`, e.message);
+      continue;
+    }
+    if (!Array.isArray(list)) continue;
+
+    list.forEach((t, index) => {
+      const wallet = (t.proxyWallet || '').toLowerCase();
+      if (!wallet) return;
+
+      const pnl = Number(t.amount) || 0;
+      const existing = byWallet.get(wallet);
+
+      if (existing) {
+        existing.windowCount += 1;
+        existing.windows.push(window);
+        // Keep the strongest showing across windows.
+        if (pnl > existing.pnl) existing.pnl = pnl;
+        if (index + 1 < existing.rank) existing.rank = index + 1;
+      } else {
+        byWallet.set(wallet, {
+          proxyWallet: wallet,
+          name: t.name || t.pseudonym || wallet,
+          pseudonym: t.pseudonym || t.name || wallet,
+          profileImage: t.profileImageOptimized || t.profileImage || '',
+          pnl,
+          rank: index + 1,
+          windowCount: 1,
+          windows: [window],
+          bookValue: 0, // filled in by fetchTraderBookValues()
+        });
+      }
+    });
+  }
+
+  const roster = Array.from(byWallet.values()).sort((a, b) => b.pnl - a.pnl);
+
+  setCachedData(cacheKey, roster, 10 * 60 * 1000);
+  return roster;
+}
+
+/**
+ * Fetches a trader's total portfolio value, which the model uses as the
+ * denominator for conviction. $50k means very different things to a $20M book
+ * and a $200k book.
+ */
+export async function fetchTraderValue(wallet, forceRefresh = false) {
+  if (!wallet) return 0;
+  const clean = wallet.toLowerCase().trim();
+  const cacheKey = `value_${clean}`;
+
+  if (!forceRefresh) {
+    const cached = getCachedData(cacheKey);
+    if (cached !== null && cached !== undefined) return cached;
+  }
+
+  try {
+    const data = await robustFetch(`https://data-api.polymarket.com/value?user=${clean}`);
+    const value = Array.isArray(data) ? Number(data[0]?.value) || 0 : 0;
+    setCachedData(cacheKey, value, 10 * 60 * 1000);
+    return value;
+  } catch (e) {
+    console.warn(`Could not fetch book value for ${clean}:`, e.message);
+    return 0;
+  }
+}
+
+/**
+ * Fetches live market microstructure for a set of condition IDs.
+ *
+ * Position data tells us what the sharps hold and what they paid, but not
+ * what the book looks like right now. Without spread and depth we would be
+ * modelling edge against a price nobody can actually trade at.
+ *
+ * Chunked because condition IDs are 66 characters each and URLs are finite.
+ *
+ * @param {string[]} conditionIds
+ * @returns {Promise<Map<string, object>>} conditionId -> normalized market
+ */
+export async function fetchMarketsByConditionIds(conditionIds, forceRefresh = false) {
+  const out = new Map();
+  const unique = [...new Set((conditionIds || []).filter(Boolean))];
+  if (unique.length === 0) return out;
+
+  const pending = [];
+
+  // Serve what we can from cache first — market data is the hottest path.
+  for (const id of unique) {
+    if (!forceRefresh) {
+      const cached = getCachedData(`market_${id}`);
+      if (cached) {
+        out.set(id, cached);
+        continue;
+      }
+    }
+    pending.push(id);
+  }
+
+  const CHUNK = 20;
+  for (let i = 0; i < pending.length; i += CHUNK) {
+    const chunk = pending.slice(i, i + CHUNK);
+    const query = chunk.map((id) => `condition_ids=${encodeURIComponent(id)}`).join('&');
+
+    try {
+      const data = await robustFetch(`https://gamma-api.polymarket.com/markets?${query}`);
+      if (!Array.isArray(data)) continue;
+
+      for (const raw of data) {
+        const market = normalizeGammaMarket(raw);
+        if (!market) continue;
+        out.set(market.conditionId, market);
+        setCachedData(`market_${market.conditionId}`, market, 2 * 60 * 1000);
+      }
+    } catch (e) {
+      console.warn(`Market chunk ${i / CHUNK + 1} failed:`, e.message);
+    }
+  }
+
+  return out;
+}
+
+/**
+ * Normalizes a Gamma market into the shape the model expects, parsing the
+ * stringified JSON arrays Gamma returns for outcomes and prices.
+ */
+function normalizeGammaMarket(raw) {
+  if (!raw || !raw.conditionId) return null;
+
+  const parseArr = (v) => {
+    if (Array.isArray(v)) return v;
+    if (typeof v === 'string') {
+      try {
+        const p = JSON.parse(v);
+        return Array.isArray(p) ? p : [];
+      } catch {
+        return [];
+      }
+    }
+    return [];
+  };
+
+  const outcomes = parseArr(raw.outcomes);
+  const prices = parseArr(raw.outcomePrices).map(Number);
+
+  return {
+    conditionId: raw.conditionId,
+    question: raw.question || raw.groupItemTitle || 'Unknown market',
+    slug: raw.slug || '',
+    icon: raw.icon || raw.image || '',
+    outcomes,
+    prices,
+    liquidity: Number(raw.liquidityNum ?? raw.liquidity) || 0,
+    volume: Number(raw.volumeNum ?? raw.volume) || 0,
+    volume24hr: Number(raw.volume24hr) || 0,
+    spread: Number(raw.spread) || 0,
+    bestBid: Number(raw.bestBid) || 0,
+    bestAsk: Number(raw.bestAsk) || 0,
+    lastTradePrice: Number(raw.lastTradePrice) || 0,
+    oneDayPriceChange: Number(raw.oneDayPriceChange) || 0,
+    oneHourPriceChange: Number(raw.oneHourPriceChange) || 0,
+    competitive: Number(raw.competitive) || 0,
+    endDate: raw.endDate || raw.endDateIso || null,
+    closed: raw.closed === true,
+    active: raw.active !== false,
+    acceptingOrders: raw.acceptingOrders !== false,
+    negRisk: raw.negRisk === true,
+    eventSlug: raw.eventSlug || '',
+  };
+}
+
+/**
+ * Loads book values for a roster with bounded concurrency, mutating each
+ * trader in place. Failures are non-fatal: the model degrades to an absolute
+ * size proxy when book value is missing.
+ */
+export async function fetchTraderBookValues(traders, onProgress, concurrency = 6) {
+  const queue = [...traders];
+  let done = 0;
+  const total = traders.length;
+
+  const worker = async () => {
+    while (queue.length > 0) {
+      const trader = queue.shift();
+      try {
+        trader.bookValue = await fetchTraderValue(trader.proxyWallet);
+      } catch {
+        trader.bookValue = 0;
+      } finally {
+        done++;
+        if (onProgress) onProgress(done, total);
+      }
+    }
+  };
+
+  await Promise.all(
+    Array.from({ length: Math.min(concurrency, total) }, worker)
+  );
+  return traders;
 }
 
 function toNumber(value, fallback = 0) {
