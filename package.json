@@ -8,8 +8,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "daily": "node scripts/daily.mjs",
-    "candidates": "node scripts/candidates.mjs",
+    "daily": "NODE_USE_ENV_PROXY=1 node --no-warnings scripts/daily.mjs",
+    "candidates": "NODE_USE_ENV_PROXY=1 node --no-warnings scripts/candidates.mjs",
     "check-research": "node scripts/check-research.mjs"
   },
   "devDependencies": {

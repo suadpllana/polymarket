@@ -51,6 +51,9 @@ export const SPORTS = {
 };
 
 const CS2_TIER1 = /\b(major|iem|intel extreme|esl pro league|blast|pgl)\b/i;
+// Polymarket's ATP/WTA series also lists Challenger and ITF events, which
+// the rules exclude. Their titles look like "Wuning 3: A vs B".
+const TENNIS_LOWER_TIER = /challenger|\bitf\b|^[^:]*\b\d+\s*:/i;
 const BEST_OF_3_PLUS = /\bbo\s?[357]\b|best of [357]/i;
 
 function isYesNo(outcomes) {
@@ -220,6 +223,8 @@ export function candidateLegs(events, sportCode, window) {
       const where = `${title} ${event.seriesSlug || ''} ${event.description || ''}`;
       if (!BEST_OF_3_PLUS.test(where) || !CS2_TIER1.test(where)) continue;
     }
+
+    if (sport.kind === 'tennis' && TENNIS_LOWER_TIER.test(title)) continue;
 
     const base = {
       eventId: String(event.id),

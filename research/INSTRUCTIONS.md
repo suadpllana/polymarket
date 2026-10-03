@@ -8,7 +8,7 @@ the real bookmaker prices.
 
 ## Steps
 
-1. `node scripts/candidates.mjs` writes `research/<date>.candidates.json`
+1. `npm run candidates` (no install needed) writes `research/<date>.candidates.json`
    (date in Europe/Belgrade). Each candidate has an `id`, the event, start
    time (UTC), market, selection, `p_market` (de-vigged Polymarket
    probability) and `fair_odds`.
@@ -16,7 +16,7 @@ the real bookmaker prices.
    game share the same research.
 3. Write `research/<date>.json` in the format below, with a verdict for every
    candidate id.
-4. `node scripts/check-research.mjs` must print `OK`. Fix anything it reports.
+4. `npm run check-research` must print `OK`. Fix anything it reports.
 5. Commit both files and push to `main`. The push triggers the build.
 
 ## Rules
@@ -33,7 +33,9 @@ the real bookmaker prices.
   CS2 team uses a stand-in or has roster or visa problems; heavy rotation or a
   dead rubber is likely; the price drifted 5%+ in 24h with no explanation;
   you cannot verify the fixture (date, teams, competition, not a youth, B or
-  women's side with the same name); or anything else critical is unknown.
+  women's side with the same name); a CS2 team is outside the HLTV top 30;
+  a tennis match is a Challenger or ITF event; or anything else critical is
+  unknown.
 - **Pre-mortem:** for each leg write the single most likely way it loses, then
   look for evidence of exactly that. If you find it, exclude or lower.
 - **Never invent** injuries, lineups, rankings, odds or results. Unverified
