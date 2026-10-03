@@ -1,8 +1,11 @@
-name: Deploy to GitHub Pages
+name: Daily parlay
 
 on:
+  # Every 2 hours: settles finished slips, and builds the day's slip on the
+  # first run after 08:00 Europe/Belgrade.
+  schedule:
+    - cron: '40 */2 * * *'
   push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -11,12 +14,16 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
-  cancel-in-progress: true
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -25,14 +32,32 @@ jobs:
           cache: npm
       # node_modules is committed from another OS, so reinstall for Linux.
       - run: rm -rf node_modules && npm ci
-      # Served from https://<user>.github.io/polymarket/, so assets need that prefix.
-      - run: npx vite build --base=/polymarket/
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+
+      - name: Build today's parlay (main)
+        if: github.ref == 'refs/heads/main'
+        run: node scripts/daily.mjs
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      # Other branches only test the pipeline: market prices, no research
+      # spend, and nothing is deployed.
+      - name: Dry run (branches)
+        if: github.ref != 'refs/heads/main'
+        run: node scripts/daily.mjs
+        env:
+          FORCE_GENERATE: '1'
+
+      - run: npx vite build --base=/${{ github.event.repository.name }}/
+
+      - if: github.ref == 'refs/heads/main'
+        uses: actions/configure-pages@v5
+      - if: github.ref == 'refs/heads/main'
+        uses: actions/upload-pages-artifact@v3
         with:
           path: dist
 
   deploy:
+    if: github.ref == 'refs/heads/main'
     needs: build
     runs-on: ubuntu-latest
     environment:

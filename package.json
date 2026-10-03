@@ -1,12 +1,17 @@
 {
-  "name": "polymarket-top-traders",
+  "name": "daily-parlay",
   "private": true,
-  "version": "1.0.0",
-  "description": "Polymarket Top 100 Traders Dashboard — Smart Money Insights",
+  "version": "2.0.0",
+  "description": "One researched parlay per day, priced from Polymarket, with a hit/miss log.",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "daily": "node scripts/daily.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.131.0"
   },
   "devDependencies": {
     "vite": "^6.0.0"
