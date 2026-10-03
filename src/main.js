@@ -129,14 +129,20 @@ function legHtml(leg) {
           <div class="leg__pick">${esc(leg.selection)}</div>
           <div class="leg__market">${esc(leg.label)}</div>
         </div>
-        <div class="leg__right">${result}<span class="leg__odds">${odds(leg.odds)}</span></div>
+        <div class="leg__right">
+          ${result}
+          <div class="leg__price">
+            <span class="leg__odds">${odds(leg.odds)}</span>
+            <span class="leg__book">${leg.book ? esc(leg.book) : 'est.'}</span>
+          </div>
+        </div>
       </div>
       ${leg.reason ? `<div class="leg__why">${esc(leg.reason)}</div>` : ''}
     </div>`;
 }
 
 function slipText(entry) {
-  const lines = entry.legs.map((l) => `${l.event} — ${l.selection} (${l.label}) @ ${odds(l.odds)}`);
+  const lines = entry.legs.map((l) => `${l.event} — ${l.selection} (${l.label}) @ ${odds(l.odds)}${l.book ? ` on ${l.book}` : ''}`);
   return `Daily parlay ${entry.date}\n${lines.join('\n')}\nTotal odds ${odds(entry.combined_odds)}`;
 }
 
@@ -183,7 +189,7 @@ function renderSlip(entry, updatedAt) {
       <div class="line line--small"><span>Win chance</span><span>${pct(p)} · about 1 in ${(1 / p).toFixed(1)}</span></div>
       <div class="line line--small"><span>Place before</span><span>${esc(timeLabel(entry.place_before))}</span></div>
       <button id="copy" class="btn">Copy bet</button>
-      <p class="note">${entry.mode === 'research' ? 'Researched picks.' : 'Market prices only — no research ran today.'} Odds are fair prices from Polymarket; Stake usually pays a little less, so check the total there.</p>
+      <p class="note">${entry.mode === 'research' ? 'Researched this morning.' : 'Market prices only — today’s research didn’t arrive in time.'} Odds with a site name were checked there; “est.” odds are fair prices, and your site will usually pay a little less.</p>
     </div>`;
 
   const input = document.getElementById('amount');

@@ -1,8 +1,9 @@
 name: Daily parlay
 
 on:
-  # Every 2 hours: settles finished slips, and builds the day's slip on the
-  # first run after 08:00 Europe/Belgrade.
+  # Every 2 hours: settles finished slips and, once the morning research is
+  # in (or after 12:00 Europe/Belgrade without it), builds the day's slip.
+  # The research task's push to main also triggers a run.
   schedule:
     - cron: '40 */2 * * *'
   push:
@@ -36,11 +37,8 @@ jobs:
       - name: Build today's parlay (main)
         if: github.ref == 'refs/heads/main'
         run: node scripts/daily.mjs
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
-      # Other branches only test the pipeline: market prices, no research
-      # spend, and nothing is deployed.
+      # Other branches only test the pipeline; nothing is deployed.
       - name: Dry run (branches)
         if: github.ref != 'refs/heads/main'
         run: node scripts/daily.mjs

@@ -2,32 +2,24 @@
  * Daily job, run by GitHub Actions before each Pages deploy:
  *   1. load the published history.json from the live site
  *   2. settle any open parlays from resolved Polymarket markets
- *   3. once per day (from 08:00 Belgrade), build today's parlay
+ *   3. once per day, build today's parlay from fresh Polymarket prices plus
+ *      the morning research verdicts in research/<date>.json
  *   4. write public/history.json for the site to ship
  *
- * Env: SITE_URL (published site base), ANTHROPIC_API_KEY (optional; enables
- * the research pass), FORCE_GENERATE=1 (ignore the 08:00 gate, for testing).
+ * Env: SITE_URL (published site base), FORCE_GENERATE=1 (skip the time gates,
+ * for testing).
  */
 
 import { mkdir, writeFile } from 'node:fs/promises';
-import { fetchMarket, fetchSeriesEvents, fetchSports, parseArray } from './lib/polymarket.mjs';
-import {
-  SPORTS,
-  TARGET,
-  bestParlay,
-  candidateLegs,
-  grade,
-  round,
-  settleLeg,
-  settleParlay,
-} from './lib/parlay.mjs';
-import { researchLegs } from './lib/research.mjs';
+import { gatherLegs } from './lib/gather.mjs';
+import { fetchMarket, parseArray } from './lib/polymarket.mjs';
+import { TARGET, bestParlay, grade, round, settleLeg, settleParlay } from './lib/parlay.mjs';
+import { loadResearch } from './lib/research.mjs';
 import { TIMEZONE, bettingWindow, localDate, zonedParts } from './lib/time.mjs';
 
 const GENERATE_FROM_HOUR = 8;
-const RESEARCH_POOL = 24;
-// After this hour a failed research pass falls back to market prices rather
-// than leaving the day without a slip.
+// Until this hour the build waits for the morning research; after it, the
+// day gets a market-only slip rather than none.
 const RESEARCH_DEADLINE_HOUR = 12;
 const OUT = new URL('../public/history.json', import.meta.url);
 
@@ -81,31 +73,11 @@ async function settleOpen(entries) {
   }
 }
 
-async function gatherLegs(window) {
-  const sports = await fetchSports();
-  if (!sports.length) throw new Error('Polymarket returned no sports list');
-  console.log('Polymarket sports:', sports.map((s) => s.sport).join(', '));
-
-  const legs = [];
-  for (const s of sports) {
-    if (!SPORTS[s.sport] || !s.series) continue;
-    try {
-      const events = await fetchSeriesEvents(s.series, window.start);
-      const found = candidateLegs(events, s.sport, window);
-      console.log(`${s.sport}: ${events.length} open events, ${found.length} eligible legs`);
-      legs.push(...found);
-    } catch (e) {
-      console.warn(`${s.sport}: ${e.message}`);
-    }
-  }
-  return legs;
-}
-
 function noBet(date, reason, extra = {}) {
   return { date, generated_at: new Date().toISOString(), grade: 'NO_BET', no_bet_reason: reason, legs: [], parlay_result: null, ...extra };
 }
 
-async function buildToday(date) {
+async function buildToday(date, force) {
   const window = bettingWindow();
   console.log(`Window: ${window.start.toISOString()} → ${window.end.toISOString()}`);
 
@@ -114,50 +86,47 @@ async function buildToday(date) {
   const legs = await gatherLegs(window);
   if (legs.length < 2) return noBet(date, 'Fewer than 2 qualifying legs in today’s window.');
 
-  // Research the strongest candidates, at most two markets per event so the
-  // pool spans enough different games to build a parlay from.
-  const perEvent = new Map();
-  const pool = [...legs]
-    .sort((a, b) => b.p_market - a.p_market)
-    .filter((l) => {
-      const n = perEvent.get(l.eventId) || 0;
-      perEvent.set(l.eventId, n + 1);
-      return n < 2;
-    })
-    .slice(0, RESEARCH_POOL);
-  let mode = 'market';
-  let summary = '';
-  let researched = pool.map((l) => ({ ...l, p_final: l.p_market, reason: '', main_risk: '' }));
+  const research = await loadResearch(date, legs);
+  if (!research && !force && zonedParts(new Date()).hour < RESEARCH_DEADLINE_HOUR) {
+    throw new Error('Waiting for this morning’s research');
+  }
 
-  let research = null;
-  try {
-    research = await researchLegs(pool, { today: date });
-  } catch (e) {
-    console.warn(`Research failed: ${e.message}`);
-  }
-  if (!research && process.env.ANTHROPIC_API_KEY && zonedParts(new Date()).hour < RESEARCH_DEADLINE_HOUR) {
-    throw new Error('Research unavailable; retrying on the next run');
-  }
+  let pool;
   if (research) {
-    mode = 'research';
-    summary = research.summary;
-    researched = pool
+    pool = legs
       .filter((l) => research.verdicts.has(l.id) && !research.verdicts.get(l.id).exclude)
       .map((l) => {
         const v = research.verdicts.get(l.id);
         const p = Math.min(0.97, Math.max(0.02, l.p_market + v.adjustment_pp / 100));
-        return { ...l, p_final: round(p, 4), reason: v.reason, main_risk: v.main_risk };
+        return {
+          ...l,
+          p_final: round(p, 4),
+          // A verified bookmaker price is what the bet actually pays.
+          odds_exact: v.price ? v.price.odds : l.odds_exact,
+          book: v.price ? v.price.book : null,
+          reason: v.reason,
+          main_risk: v.main_risk,
+          sources: v.sources,
+        };
       });
+  } else {
+    pool = legs.map((l) => ({ ...l, p_final: l.p_market, book: null, reason: '', main_risk: '', sources: [] }));
   }
+  for (const l of pool) l.edge = round(l.p_final * l.odds_exact - 1, 4);
 
-  for (const l of researched) l.edge = round(l.p_final * l.odds_exact - 1, 4);
-
-  const best = bestParlay(researched);
+  const mode = research ? 'research' : 'market';
+  const summary = research?.summary || '';
+  const best = bestParlay(pool);
   if (!best) return noBet(date, 'No combination of qualifying legs lands between 4.5 and 5.5.', { mode, summary });
 
   const legsOut = best.legs
     .sort((a, b) => a.start.localeCompare(b.start))
-    .map(({ key, p, odds_exact, ...l }) => ({ ...l, result: null }));
+    .map(({ key, p, odds_exact, odds, ...l }) => ({
+      ...l,
+      fair_odds: odds,
+      odds: round(odds_exact, 2),
+      result: null,
+    }));
   const earliest = new Date(legsOut[0].start);
 
   return {
@@ -165,9 +134,10 @@ async function buildToday(date) {
     generated_at: new Date().toISOString(),
     mode,
     summary,
+    researched_at: research?.researched_at || null,
     // Without research there is no evidence of an edge over the market, so
     // never call it VALUE; the bookmaker's margin still applies.
-    ...(mode === 'research' || best.ev < -0.15 ? grade(best.ev) : { grade: 'STANDARD', stake_units: 0.5 }),
+    ...(research || best.ev < -0.15 ? grade(best.ev) : { grade: 'STANDARD', stake_units: 0.5 }),
     target_odds: TARGET.target,
     // What the slip shows: the product of the displayed leg odds.
     combined_odds: round(legsOut.reduce((o, l) => o * l.odds, 1), 2),
@@ -192,7 +162,7 @@ async function main() {
 
   if (!existing && (hour >= GENERATE_FROM_HOUR || force)) {
     try {
-      const entry = await buildToday(today);
+      const entry = await buildToday(today, force);
       console.log(JSON.stringify(entry, null, 2));
       history.entries.push(entry);
     } catch (e) {
