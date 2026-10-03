@@ -150,14 +150,14 @@ async function buildToday(date) {
       });
   }
 
-  for (const l of researched) l.edge = round(l.p_final * l.odds - 1, 4);
+  for (const l of researched) l.edge = round(l.p_final * l.odds_exact - 1, 4);
 
   const best = bestParlay(researched);
   if (!best) return noBet(date, 'No combination of qualifying legs lands between 4.5 and 5.5.', { mode, summary });
 
   const legsOut = best.legs
     .sort((a, b) => a.start.localeCompare(b.start))
-    .map(({ key, p, ...l }) => ({ ...l, result: null }));
+    .map(({ key, p, odds_exact, ...l }) => ({ ...l, result: null }));
   const earliest = new Date(legsOut[0].start);
 
   return {
@@ -169,7 +169,8 @@ async function buildToday(date) {
     // never call it VALUE; the bookmaker's margin still applies.
     ...(mode === 'research' || best.ev < -0.15 ? grade(best.ev) : { grade: 'STANDARD', stake_units: 0.5 }),
     target_odds: TARGET.target,
-    combined_odds: round(best.odds, 2),
+    // What the slip shows: the product of the displayed leg odds.
+    combined_odds: round(legsOut.reduce((o, l) => o * l.odds, 1), 2),
     est_hit_prob: round(best.p, 4),
     ev: round(best.ev, 4),
     place_before: new Date(earliest.getTime() - 15 * 60 * 1000).toISOString(),

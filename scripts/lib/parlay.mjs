@@ -102,10 +102,15 @@ export function devigPower(raw) {
   return raw.map((p) => p ** k);
 }
 
+/** Polymarket titles sometimes carry zero-width characters. */
+export function clean(text) {
+  return String(text ?? '').replace(/[\u200B-\u200D\u2060\uFEFF]/g, '').trim();
+}
+
 function teamName(m) {
-  if (m.groupItemTitle) return m.groupItemTitle.trim();
+  if (m.groupItemTitle) return clean(m.groupItemTitle);
   const match = /will (.+?) win/i.exec(m.question || '');
-  return match ? match[1].trim() : m.question;
+  return clean(match ? match[1] : m.question);
 }
 
 function ref(market, outcomeIndex) {
@@ -183,7 +188,7 @@ function twoWayLegs(event, base) {
     key: `side${i}`,
     market: 'moneyline',
     label,
-    selection: String(name),
+    selection: clean(name),
     p: ps[i],
     settle: { won: [ref(m, i)], lost: [ref(m, 1 - i)] },
   }));
@@ -219,7 +224,7 @@ export function candidateLegs(events, sportCode, window) {
     const base = {
       eventId: String(event.id),
       eventSlug: event.slug || '',
-      event: title,
+      event: clean(title),
       sport: sport.kind,
       league: sport.name,
       start: start.toISOString(),
@@ -238,6 +243,9 @@ export function candidateLegs(events, sportCode, window) {
         id: `${leg.eventId}-${leg.key}`,
         ...leg,
         p_market: round(leg.p, 4),
+        // Exact fair odds drive the maths; the rounded figure is for display,
+        // so rounding never shows up as a fake edge.
+        odds_exact: odds,
         odds: round(odds, 2),
       });
     }
@@ -276,7 +284,7 @@ export function bestParlay(legs, range = TARGET, sizes = [2, 3, 4, 5]) {
   for (const size of sizes) {
     for (const combo of combinations(pool, size)) {
       if (new Set(combo.map((l) => l.eventId)).size !== combo.length) continue;
-      const odds = combo.reduce((o, l) => o * l.odds, 1);
+      const odds = combo.reduce((o, l) => o * l.odds_exact, 1);
       if (odds < range.min || odds > range.max) continue;
       const p = combo.reduce((q, l) => q * l.p_final, 1);
       const ev = p * odds - 1;
