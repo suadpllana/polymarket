@@ -273,7 +273,7 @@ function* combinations(items, size, start = 0, picked = []) {
 /**
  * Best combination of 2–5 legs from different events whose combined odds land
  * in the target range. Highest EV wins; within 1 point of EV, fewer legs, then
- * the higher chance of hitting.
+ * total odds closest to the 5.0 target.
  */
 export function bestParlay(legs, range = TARGET, sizes = [2, 3, 4, 5]) {
   const pool = [...legs]
@@ -289,16 +289,16 @@ export function bestParlay(legs, range = TARGET, sizes = [2, 3, 4, 5]) {
       const p = combo.reduce((q, l) => q * l.p_final, 1);
       const ev = p * odds - 1;
       const candidate = { legs: [...combo], odds, p, ev };
-      if (!best || better(candidate, best)) best = candidate;
+      if (!best || better(candidate, best, range.target)) best = candidate;
     }
   }
   return best;
 }
 
-function better(a, b) {
+function better(a, b, target) {
   if (Math.abs(a.ev - b.ev) > 0.01) return a.ev > b.ev;
   if (a.legs.length !== b.legs.length) return a.legs.length < b.legs.length;
-  return a.p > b.p;
+  return Math.abs(a.odds - target) < Math.abs(b.odds - target);
 }
 
 /** Grade and stake from the analyst rules. */

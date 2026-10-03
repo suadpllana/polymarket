@@ -14,9 +14,10 @@ Your browser also keeps its own copy of the log in local storage.
 - With `ANTHROPIC_API_KEY` set, Claude researches each candidate on the web
   (injuries, lineups, rotation, stand-ins, goalies, pitchers) and can nudge a
   probability a few points or drop the leg. Prices are never taken from it.
-- From what survives, it picks the 2–5 legs with total odds between 4.5 and
-  5.5 and the best expected value, preferring fewer legs. If nothing fits, the
-  slip says “No bet”.
+- From what survives, it picks the 2–5 legs with the best expected value and
+  total odds aimed at 5.0 (anything from 4.5 to 5.5 is allowed), preferring
+  fewer legs and then the total closest to 5.0. If nothing fits, the slip
+  says “No bet”.
 
 ## Setup
 
