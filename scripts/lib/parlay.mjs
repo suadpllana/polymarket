@@ -278,7 +278,7 @@ function* combinations(items, size, start = 0, picked = []) {
 export function bestParlay(legs, range = TARGET, sizes = [2, 3, 4, 5]) {
   const pool = [...legs]
     .sort((a, b) => b.edge - a.edge || b.p_final - a.p_final)
-    .slice(0, 20);
+    .slice(0, 40);
 
   let best = null;
   for (const size of sizes) {
