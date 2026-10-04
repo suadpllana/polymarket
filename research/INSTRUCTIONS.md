@@ -13,7 +13,11 @@ the real bookmaker prices.
    time (UTC), market, selection, `p_market` (de-vigged Polymarket
    probability) and `fair_odds`.
 2. Research every candidate (below). Work game by game; legs from the same
-   game share the same research.
+   game share the same research. **Go deep**: use the Agent tool to research
+   games in parallel (one subagent per game, or per two or three small
+   games), and have each one read at least three independent sources and
+   return its findings with URLs. Expect this to take 20–40 minutes; a pass
+   that takes two minutes is not research.
 3. Write `research/<date>.json` in the format below, with a verdict for every
    candidate id.
 4. `npm run check-research` must print `OK`. Fix anything it reports.
@@ -36,6 +40,10 @@ the real bookmaker prices.
   women's side with the same name); a CS2 team is outside the HLTV top 30;
   a tennis match is a Challenger or ITF event; or anything else critical is
   unknown.
+- **"Could not verify" is a last resort.** Only exclude for missing
+  information after real attempts: at least two different searches and a
+  direct read of the team's, league's or tournament's own pages. Say in
+  `reason` what you tried.
 - **Pre-mortem:** for each leg write the single most likely way it loses, then
   look for evidence of exactly that. If you find it, exclude or lower.
 - **Never invent** injuries, lineups, rankings, odds or results. Unverified
@@ -62,7 +70,9 @@ the real bookmaker prices.
 
 For each kept leg, look up the current price for the exact same market and
 selection at **Stake** and **Rainbet** (the books the user bets with) and
-record what you find in `prices`. Only record a price you actually saw today
+record what you find in `prices`. Try the book's own event page first
+(WebFetch or `curl` with a browser user agent), then searches such as
+`<team> vs <team> odds stake`; both sites often block automated visitors. Only record a price you actually saw today
 for the same market: match winner vs double chance, and whether overtime is
 included, must match. If you cannot find one, leave `prices` empty; the slip
 then shows the fair Polymarket price as an estimate.
