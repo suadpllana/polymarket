@@ -10,17 +10,19 @@
  * for testing).
  */
 
+import { existsSync } from 'node:fs';
 import { mkdir, writeFile } from 'node:fs/promises';
 import { gatherLegs } from './lib/gather.mjs';
 import { fetchMarket, parseArray } from './lib/polymarket.mjs';
 import { TARGET, bestParlay, grade, round, settleLeg, settleParlay } from './lib/parlay.mjs';
-import { loadResearch } from './lib/research.mjs';
+import { loadResearch, researchPath } from './lib/research.mjs';
 import { TIMEZONE, bettingWindow, localDate, zonedParts } from './lib/time.mjs';
 
 const GENERATE_FROM_HOUR = 8;
 // Until this hour the build waits for the morning research; after it, the
 // day gets a market-only slip rather than none.
 const RESEARCH_DEADLINE_HOUR = 12;
+const EST_MARGIN = 0.04;
 const OUT = new URL('../public/history.json', import.meta.url);
 
 async function loadHistory(siteUrl) {
@@ -128,6 +130,10 @@ async function buildToday(date, force) {
       result: null,
     }));
   const earliest = new Date(legsOut[0].start);
+  // Fair "est." odds overstate what a bookmaker pays; grade as if each
+  // unverified leg pays ~4% less, so the advice never leans on a margin-free
+  // price.
+  const gradeEv = best.p * legsOut.reduce((o, l) => o * l.odds * (l.book ? 1 : 1 - EST_MARGIN), 1) - 1;
 
   return {
     date,
@@ -137,7 +143,7 @@ async function buildToday(date, force) {
     researched_at: research?.researched_at || null,
     // Without research there is no evidence of an edge over the market, so
     // never call it VALUE; the bookmaker's margin still applies.
-    ...(research || best.ev < -0.15 ? grade(best.ev) : { grade: 'STANDARD', stake_units: 0.5 }),
+    ...(research || gradeEv < -0.15 ? grade(gradeEv) : { grade: 'STANDARD', stake_units: 0.5 }),
     target_odds: TARGET.target,
     // What the slip shows: the product of the displayed leg odds.
     combined_odds: round(legsOut.reduce((o, l) => o * l.odds, 1), 2),
@@ -160,7 +166,10 @@ async function main() {
   const force = process.env.FORCE_GENERATE === '1';
   const existing = history.entries.find((e) => e.date === today);
 
-  if (!existing && (hour >= GENERATE_FROM_HOUR || force)) {
+  // The morning research landing is the signal to build; the clock gate only
+  // matters for days the research never arrives.
+  const researched = existsSync(researchPath(today));
+  if (!existing && (researched || hour >= GENERATE_FROM_HOUR || force)) {
     try {
       const entry = await buildToday(today, force);
       console.log(JSON.stringify(entry, null, 2));
