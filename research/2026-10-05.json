@@ -1,0 +1,424 @@
+{
+  "date": "2026-10-05",
+  "researched_at": "2026-10-05T05:56:56Z",
+  "summary": "A Nations League matchday plus ESL Pro League CS2 Swiss round 3 and WTA Beijing / Shanghai qualifying. The market looks well calibrated: most kept legs stay at market price, France and Montenegro are trimmed toward bookmaker consensus, and excluded legs are mainly Challenger tennis, non-tier-1 esports, CS2 legs with a stand-in or a team outside the top 30, Italy (heavy rotation) and Harris (opponent fitness uncertain).",
+  "verdicts": [
+    {
+      "id": "1132975-side1",
+      "exclude": false,
+      "adjustment_pp": 1,
+      "reason": "FURIA HLTV #3 vs PARIVISION #21 (dust2.us/HLTV data), beat PARIVISION 2-0 four weeks ago; full rosters, no stand-ins (HObbit is a permanent signing from 17 Sep); LAN Bo3 Swiss round 3 with both on 1-1, not a dead rubber (Liquipedia).",
+      "main_risk": "FURIA's shaky form (0-2 to MOUZ yesterday, two 0-2s to Vitality in last six) lets PARIVISION drag it to a deciding map.",
+      "sources": [
+        "https://liquipedia.net/counterstrike/api.php?action=parse&page=ESL/Pro_League/Season_24&prop=wikitext&format=json",
+        "https://www.dust2.us/matches/2398733/parivision-vs-furia",
+        "https://www.hltv.org/ranking/teams/2026/september/28"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1132978-side1",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "NAVI HLTV #10 vs 9z #17, both full rosters on LAN, both 1-1 in the Swiss (Liquipedia, dust2.us, navi.gg); both 2/6 in recent form, so no edge over the market.",
+      "main_risk": "NAVI's weak three months (Valve #30) and a 9z upset on 9z's map pick.",
+      "sources": [
+        "https://liquipedia.net/counterstrike/api.php?action=parse&page=ESL/Pro_League/Season_24&prop=wikitext&format=json",
+        "https://www.dust2.us/matches/2398735/9z-vs-natus-vincere",
+        "https://navi.gg/en/tournaments/epl-season-24/matches"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1132977-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Legacy play with a stand-in: IGL arT out with meningitis, analyst bobz playing (Legacy X post via Liquipedia, HLTV news 45614, dust2.us lineup); 1WIN also outside HLTV top 30 (#42).",
+      "main_risk": "Stand-in IGL makes Legacy unreliable, reflected in only 55% despite HLTV #6.",
+      "sources": [
+        "https://www.dust2.us/matches/2398736/legacy-vs-1win",
+        "https://www.hltv.org/news/45614/dumau-arts-getting-much-better-hes-probably-coming-to-malta-to-play-thunderpick",
+        "https://liquipedia.net/counterstrike/api.php?action=parse&page=ESL/Pro_League/Season_24&prop=wikitext&format=json"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1132977-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "1WIN outside HLTV top 30 (#42 per dust2.us), and the match involves a Legacy stand-in (bobz for arT, HLTV news 45614).",
+      "main_risk": "Legacy (HLTV #6) still has four regulars and wins anyway.",
+      "sources": [
+        "https://www.dust2.us/matches/2398736/legacy-vs-1win",
+        "https://www.hltv.org/news/45614/dumau-arts-getting-much-better-hes-probably-coming-to-malta-to-play-thunderpick",
+        "https://liquipedia.net/counterstrike/api.php?action=parse&page=ESL/Pro_League/Season_24&prop=wikitext&format=json"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1132980-side0",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Spirit HLTV #1 (13-series win streak, dust2.us) vs MOUZ #4, full rosters on LAN, both 2-0 so winner qualifies; H2H split 1-1 in last two (BLAST Porto/Bounty) and ESI model ~62% matches market — no edge.",
+      "main_risk": "Spirit dropped a map in both group wins while MOUZ won 2-0 twice and beat Spirit 3-1 at BLAST Bounty S2.",
+      "sources": [
+        "https://www.dust2.us/matches/2398737/spirit-vs-mouz",
+        "https://www.hltv.org/news/45635/vitality-beat-navi-as-epl-s24-day-two-concludes",
+        "https://fieldlevelmedia.com/esports/spirit-falcons-mouz-vitality-move-to-verge-of-playoffs-at-esl-season-24",
+        "https://navi.gg/en/tournaments/epl-season-24/groups"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1132979-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "TYLOO is HLTV #33, outside the top 30 (dust2.us match page); M80 HLTV #25 but Valve #41; both 0-2 in an elimination match.",
+      "main_risk": "Effectively a coin flip between two unreliable teams.",
+      "sources": [
+        "https://www.dust2.us/matches/2398738/m80-vs-tyloo",
+        "https://www.hltv.org/news/45635/vitality-beat-navi-as-epl-s24-day-two-concludes",
+        "https://www.hotspawn.com/counter-strike/news/esl-pro-league-season-24-opening-matches-preview-predictions"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1132979-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "TYLOO is HLTV #33, outside the top 30 (dust2.us match page).",
+      "main_risk": "Effectively a coin flip between two unreliable teams.",
+      "sources": [
+        "https://www.dust2.us/matches/2398738/m80-vs-tyloo",
+        "https://www.hotspawn.com/counter-strike/news/esl-pro-league-season-24-opening-matches-preview-predictions"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1132981-side0",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Aurora HLTV #9 vs BetBoom #15, full rosters, both 1-1 (dust2.us, HLTV news); betdiary odds 1.46/2.63 (04:09 UTC) de-vig ~64.3% ≈ market, so no change.",
+      "main_risk": "Aurora's inconsistent new roster (XANTARES 17-30 vs Falcons) loses the veto to Boombl4's BetBoom.",
+      "sources": [
+        "https://www.dust2.us/matches/2398740/aurora-vs-betboom",
+        "https://betdiary.io/esports/cs2/aurora-gaming-betboom/",
+        "https://hltv.org/news/45631/falcons-sweep-aurora-to-stay-flawless-at-epl"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1132982-side0",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Vitality HLTV #2 on a four-match streak with full lineup incl. apEX (dust2.us) vs Falcons #5; Falcons beat Vitality in the Cologne Major QF; quoted odds ~1.50-1.55 in line with market.",
+      "main_risk": "Falcons have beaten Vitality twice in 2026; minor risk apEX leaves early for his baby's birth and jL stands in (rur.rs) — re-check lineup before the match.",
+      "sources": [
+        "https://www.dust2.us/matches/2398739/vitality-vs-falcons",
+        "https://www.hltv.org/news/45635/vitality-beat-navi-as-epl-s24-day-two-concludes",
+        "https://rur.rs/2026/09/22/jl-ponovo-uskace-u-pomoc-vitality-vodi-litvanca-i-na-esl-pro-league-season-24",
+        "https://fieldlevelmedia.com/esports/spirit-falcons-mouz-vitality-move-to-verge-of-playoffs-at-esl-season-24"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1129230-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Not tier-1: PARI Universe Closed Qualifier is an online 8-team European qualifier (FISSURE, 5-8 Oct), only a qualifier for a tier-1 event; fixture confirmed (UB QF, Bo3, 17:00 UTC). MOUZ also reportedly fielding support stand-in OneJey (unconfirmed). Liquipedia rate-limited; tier from search summaries.",
+      "main_risk": "MOUZ playing with a possible stand-in in a high-variance online qualifier against a motivated underdog.",
+      "sources": [
+        "https://polymarket.com/esports/dota-2/pari-universe/dota2-mouz-nemiga-2026-10-05",
+        "https://liquipedia.net/dota2/PARI_Universe/1/Qualifier",
+        "https://escorenews.com/en/dota-2/team/mouz"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1119158-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Not tier-1: CBLOL 2027 Promotion is a 5-team promotion tournament for a guest CBLOL slot; KaBuM! IDL qualified via second-division Circuito Desafiante. Fixture confirmed (LB semifinal, Bo5 Fearless, 21:00 UTC) per maisesports.",
+      "main_risk": "Fearless-draft Bo5 between second-tier teams where one draft can swing the series; rosters unverified.",
+      "sources": [
+        "https://maisesports.com.br/campeonatos/league-of-legends-cblol-brazil-promotion-2027",
+        "https://maisesports.com.br/circuito-desafiante-2026-kabum-idl-garante-vaga-no-torneio-de-promocao-do-cblol-2027",
+        "https://www.strafe.com/event/cblol-promotion-d6eb11/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1063315-home",
+      "exclude": true,
+      "adjustment_pp": -3,
+      "reason": "Heavy rotation: Sky Sport Italia and Sportmediaset (4 Oct) report Mancini trained with 9 changes from the 1-1 in Paris (only Donnarumma and Bastoni kept, Kean injured and left camp, new front three); books de-vig ~0.667 (BetMGM -244/+400/+540), ~3pp below market. Türkiye depleted (Güler, Barış Alper Yılmaz suspended; Çalhanoğlu, Yıldız injured) but rotation rule triggers exclusion.",
+      "main_risk": "Italy's second-string XI draws with a Türkiye side fighting relegation from League A.",
+      "sources": [
+        "https://sport.sky.it/calcio/nations-league/2026/10/04/italia-turchia-probabili-formazioni",
+        "https://www.sportmediaset.mediaset.it/calcio/nazionale/italia-turchia-nations-league-probabili-formazioni-mancini-turnover_117278890-202602k.shtml",
+        "https://www.footitalia.com/news/arda-guler-suspended-as-montellas-turkiye-head-to-italy-without-three-key-players/",
+        "https://www.sportsmole.co.uk/football/italy/uefa-nations-league/preview/italy-vs-turkey-prediction-team-news-lineups_606152.html",
+        "https://footballwhispers.com/blog/italy-vs-turkey-prediction-preview-05-10-2026/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1063312-home",
+      "exclude": false,
+      "adjustment_pp": -3,
+      "reason": "France lose Upamecano (suspended) and Mbappé (knee) per Sports Mole/beIN; Belgium lose De Bruyne and Tielemans to suspension (OneFootball); de-vigged books price France ~0.613-0.618 (BetMGM -189/+340/+440), ~3pp below Polymarket.",
+      "main_risk": "A draw: France have only 3 goals in 3 group games without Mbappé, Belgium conceded 1 in 3 and need a point; reverse fixture was only 1-0.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/france/uefa-nations-league/predicted-lineups/who-replaces-upamecano-predicted-france-xi-vs-belgium_606187.html",
+        "https://onefootball.com/en/news/kevin-de-bruyne-and-youri-tielemans-suspended-for-france-v-belgium-dayot-upamecano-also-banned-43553538",
+        "https://www.sportsgambler.com/betting-tips/football/france-vs-belgium-prediction-lineups-odds-2026-10-05/",
+        "https://www.goal.com/en/news/france-belgium-uefa-nations-league-preview/blt28d5622b55a9faca",
+        "https://thefalse9.com/2026/10/france-belgium-predicted-lineups-october-5-nations-league.html"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1063318-away_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Sweden top League B Group 4 unbeaten and 4/4 vs Romania (2-1 on 25 Sep); Romania without both centre-backs (Drăgușin, Ghiță suspended), Munteanu, Bîrligea, Marin injured after a 0-6 loss (Digisport, Sports Mole) — offset by Sweden's crisis (Isak, Holm, Starfelt, Ekdal injured, 4 ill; GP, hurbra.se); 1xBet de-vig ~78% ≈ market.",
+      "main_risk": "Romania win at home (4 of last 5 home games) against Sweden's makeshift back line.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/romania/uefa-nations-league/preview/romania-vs-sweden-prediction-team-news-lineups_606184.html",
+        "https://footballwhispers.com/blog/romania-vs-sweden-prediction-05-10-2026/",
+        "https://www.gp.se/sport/potter-agerar-efter-skadan-eriksson-kallas-in.67a1e3d9-7130-5b3e-862b-16e21cf82e76",
+        "https://hurbra.se/sverige-traning-rumanien-4-oktober-2026/",
+        "https://www.digisport.ro/fotbal/echipa-nationala/lotul-romaniei-pentru-meciul-cu-suedia-jucatorii-care-sunt-out-4525151",
+        "https://www.sport.ro/nationala/val-de-accidentari-inainte-de-romania-suedia-a-fost-luata-o-masura-de-urgenta.html"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1063318-away",
+      "exclude": false,
+      "adjustment_pp": -1,
+      "reason": "Previews tip Sweden 2-1 and Gyökeres has scored in all 3 group games, but 11 players left Sweden's camp (Isak, Starfelt out; Eriksson emergency call-up per GP, hurbra.se) and 1xBet de-vig (~54%) is slightly below market.",
+      "main_risk": "A draw as an injury- and illness-hit Sweden fail to keep a clean sheet (none in 13 under Potter).",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/romania/uefa-nations-league/preview/romania-vs-sweden-prediction-team-news-lineups_606184.html",
+        "https://footballwhispers.com/blog/romania-vs-sweden-prediction-05-10-2026/",
+        "https://www.gp.se/sport/potter-agerar-efter-skadan-eriksson-kallas-in.67a1e3d9-7130-5b3e-862b-16e21cf82e76",
+        "https://www.digisport.ro/fotbal/echipa-nationala/lotul-romaniei-pentru-meciul-cu-suedia-jucatorii-care-sunt-out-4525151"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1063317-away_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Lewandowski suspended (Interia: Żukowski the only change); Bosnia without retired Džeko and Alajbegović's role unclear after cramps (sportske.ba); previews lean 1-1; BetMGM de-vig ~68.9% matches market.",
+      "main_risk": "Bosnia win in Zenica (1 home defeat in 8) against a Poland attack without Lewandowski.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/bosnia-herzegovina/uefa-nations-league/preview/bosnia-hvina-vs-poland-prediction-team-news-lineups_606185.html",
+        "https://footballwhispers.com/blog/bosnia-herzegovina-vs-poland-prediction-05-10-2026/",
+        "https://sport.interia.pl/pilka-nozna/reprezentacja-polski/news-tylko-jedna-zmiana-tak-polacy-maja-zagrac-z-bosnia-i-hercego,nId,23553429",
+        "https://sportske.ba/clanak/hoce-li-alajbegovic-igrati-protiv-poljske-nalazi-su-dobri-ali/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1063317-home_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Bosnia's home record (1 defeat in 8) and Lewandowski's suspension offset by Džeko's retirement, Alajbegović doubt and Poland's 6-game unbeaten H2H run (Sports Mole, sportske.ba, Interia); BetMGM de-vig ~59.4% matches market.",
+      "main_risk": "Poland's deeper squad (7 goals, best attack in group) wins even without Lewandowski.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/bosnia-herzegovina/uefa-nations-league/preview/bosnia-hvina-vs-poland-prediction-team-news-lineups_606185.html",
+        "https://sport.interia.pl/pilka-nozna/reprezentacja-polski/news-tylko-jedna-zmiana-tak-polacy-maja-zagrac-z-bosnia-i-hercego,nId,23553429",
+        "https://sportske.ba/clanak/hoce-li-alajbegovic-igrati-protiv-poljske-nalazi-su-dobri-ali/",
+        "https://n1info.ba/sport/nogomet/italijanski-novinar-izazvao-paniku-zbog-alajbegovica-pa-se-morao-izvinjavati-povrede-uopce-nije-bilo"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1063309-home",
+      "exclude": false,
+      "adjustment_pp": -2,
+      "reason": "Montenegro top League C Group 2 on 9 pts and won 3-2 in Yerevan on 28 Sep (ffa.am), but book consensus is below market (oddscalendar 1.60/3.98/5.55 ≈0.59 de-vigged), Latkovic (winner in Yerevan) suspended and no clean sheet in 9 competitive games (MightyTips); Armenia miss Sevikyan, Bandikyan, Junior (Sports Mole).",
+      "main_risk": "Montenegro's leaky defence (no clean sheet in 9) concedes and Armenia force a draw.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/montenegro/preview/montenegro-vs-armenia-prediction-team-news-lineups_606188.html",
+        "https://www.thestatszone.com/montenegro-vs-armenia-preview-prediction-2026-27-uefa-nations-league-league-c-228096",
+        "https://www.mightytips.com/football-predictions/montenegro-vs-armenia-prediction-05-10-2026/",
+        "https://www.oddscalendar.com/football/europe/nations-league/montenegro-vs-armenia/1528950",
+        "https://www.ffa.am/index.php/en/news/Armenia-lost-to-Montenegro",
+        "https://en.wikipedia.org/wiki/2026%E2%80%9327_UEFA_Nations_League_C"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1063307-home",
+      "exclude": false,
+      "adjustment_pp": -1,
+      "reason": "Cyprus (4 pts) host winless, goal-shy Latvia (1 goal in 3 UNL games; Cernomordijs suspended, Savalnieks injured) per Sports Mole/MightyTips, but Cyprus lose Pileas (red) and Laifis, the 28 Sep reverse was 0-0, and books sit just under market (~0.58 de-vigged).",
+      "main_risk": "A low-scoring draw like the 0-0 reverse fixture on 28 Sep.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/cyprus/preview/cyprus-vs-latvia-prediction-team-news-lineups_606186.html",
+        "https://www.sportsgambler.com/betting-tips/football/cyprus-vs-latvia-prediction-lineups-odds-2026-10-05/",
+        "https://www.mightytips.com/football-predictions/cyprus-vs-latvia-prediction-05-10-2026/",
+        "https://footballwhispers.com/blog/cyprus-vs-latvia-prediction-05-10-2026/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1063311-home_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "NI top of League B Group 2 on 7 pts with 0 conceded, at Windsor Park; Georgia 0 goals in 3 UNL games and 4 straight competitive away defeats (Racing Post, Sports Mole, Football Whispers) — offset by NI missing Ballard and captain Bradley; bet365 de-vigged 1X ~0.711 matches market, so no change.",
+      "main_risk": "Georgia's fit attack (Kvaratskhelia, Mikautadze) breaks a defence missing Ballard and Bradley, possibly with a new-manager bounce under Svanadze.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/northern-ireland/uefa-nations-league/preview/n-ireland-vs-georgia-prediction-team-news-lineups_606190.html",
+        "https://www.racingpost.com/sport/football-tips/nations-league/northern-ireland-vs-georgia-predictions-team-news-odds-betting-tips-bet-builder-alEoS3I8Mehx/",
+        "https://footballwhispers.com/blog/northern-ireland-vs-georgia-prediction-05-10-2026/",
+        "https://www.uefa.com/uefanationsleague/news/02aa-21bdd892a3d9-4374a3eb9ea6-1000--uefa-nations-league-matchday-4-preview-players-to-watch-/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1063311-away_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Georgia's front line and Mamardashvili are fit (only Kiteishvili out), but they have no goals in 3 UNL games and previews predict NI 2-0 (Sports Mole) and NI 1-0 (Football Whispers); evidence balanced, stay at market.",
+      "main_risk": "An early NI goal against a Georgia side that has not scored in this competition.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/northern-ireland/uefa-nations-league/preview/n-ireland-vs-georgia-prediction-team-news-lineups_606190.html",
+        "https://www.racingpost.com/sport/football-tips/nations-league/northern-ireland-vs-georgia-predictions-team-news-odds-betting-tips-bet-builder-alEoS3I8Mehx/",
+        "https://footballwhispers.com/blog/northern-ireland-vs-georgia-prediction-05-10-2026/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1063316-home_draw",
+      "exclude": false,
+      "adjustment_pp": -1,
+      "reason": "Ukraine heavily depleted: Sudakov injured and left camp (UAF via mezha.net, 4 Oct), Sikan and Matviyenko suspended, Mykolenko injured (Sports Mole); neutral venue in Trnava where they just lost 0-3 to NI; Sports Mole tips Hungary 1-0.",
+      "main_risk": "Ukraine beat Hungary 1-0 last week and a low-scoring draw is very live, but a Hungary win sinks it.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/ukraine/uefa-nations-league/preview/ukraine-vs-hungary-prediction-team-news-lineups_606189.html",
+        "https://mezha.net/eng/news/ab9fcc52_georgiy_sudakov_leaves/",
+        "https://www.sportsgambler.com/betting-tips/football/ukraine-vs-hungary-prediction-lineups-odds-2026-10-05/",
+        "https://www.thestatszone.com/ukraine-vs-hungary-preview-prediction-2026-27-uefa-nations-league-league-b-228091"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1063316-away_draw",
+      "exclude": false,
+      "adjustment_pp": 1,
+      "reason": "Ukraine without Sudakov, Sikan, Matviyenko and Mykolenko (mezha.net, Sports Mole) after a 0-3 loss at the same neutral Trnava ground; Hungary one loss in seven 2026 matches (The Stats Zone); Sports Mole tips Hungary 1-0.",
+      "main_risk": "Hungary's blunt attack (Kerkez suspended, Bolla injured) loses another 1-0 like last week's meeting.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/ukraine/uefa-nations-league/preview/ukraine-vs-hungary-prediction-team-news-lineups_606189.html",
+        "https://mezha.net/eng/news/ab9fcc52_georgiy_sudakov_leaves/",
+        "https://www.thestatszone.com/ukraine-vs-hungary-preview-prediction-2026-27-uefa-nations-league-league-b-228091",
+        "https://www.sportsgambler.com/betting-tips/football/ukraine-vs-hungary-prediction-lineups-odds-2026-10-05/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1127467-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Braga Open is an ATP Challenger (5-11 Oct 2026, atptour.com current-challenger draw lists Gaubas (3) vs Domingues (WC) R32); Challenger events are excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://www.atptour.com/en/scores/current-challenger/braga/7913/draws"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1127451-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Villena (Ferrero & Forty Challenger) is an ATP Challenger 100, 5-11 Oct per atptour.com Challenger daily schedule; Challenger events are excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://www.atptour.com/en/scores/current-challenger/villena/7909/daily-schedule"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1133978-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Villena Challenger qualifying R2 (Henning (3) vs Marrero Curbelo (12)) per atptour.com Challenger daily schedule; Challenger events are excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://www.atptour.com/en/scores/current-challenger/villena/7909/daily-schedule"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1131893-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Villena Challenger qualifying R2 (Dedura (1) vs Tarvet (9)) per atptour.com Challenger daily schedule; Challenger events are excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://www.atptour.com/en/scores/current-challenger/villena/7909/daily-schedule"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1130110-side1",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "WTA 1000 Beijing R16 confirmed on official draw PDF; Bartunkova (No. 34, seed 26) beat Sabalenka 6-4 6-3 (wtatennis.com) and leads H2H 1-0; Kraus (~No. 95) has played three matches; Dimers model 82% and DraftKings -450 match the market, no injury news.",
+      "main_risk": "Letdown after the biggest win of her career against an in-form lower-ranked opponent.",
+      "sources": [
+        "https://wtafiles.wtatennis.com/pdf/draws/2026/1020/MDS.pdf",
+        "https://www.wtatennis.com/news/4586336/bartunkova-stuns-sabalenka-in-beijing-third-round",
+        "https://www.dimers.com/tennis/news/sinja-kraus-vs-nikola-bartunkova-tennis-prediction-wta-china-open-2026-ac",
+        "https://www.wtatennis.com/tournaments/china-open/draws"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1130111-side0",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "WTA 1000 Beijing R16 confirmed (draw PDF, wtatennis.com); 5 seed and 2026 Wimbledon champion Noskova cruised past Ruse and Golubic; Alexandrova came through a three-setter vs Shnaider; H2H 1-1; Dimers model 74% vs market 75.5% — too small a gap to act on.",
+      "main_risk": "Alexandrova's flat first-strike hitting in a volatile matchup with level H2H; both also entered in doubles.",
+      "sources": [
+        "https://wtafiles.wtatennis.com/pdf/draws/2026/1020/MDS.pdf",
+        "https://en.wikipedia.org/wiki/2026_China_Open_%E2%80%93_Women's_singles",
+        "https://www.wtatennis.com/news/4586398/around-beijing-ekaterina-alexandrova-returns-to-china-open-last-16-as-mirra-andreeva-returns-to-chess",
+        "https://www.dimers.com/tennis/news/linda-noskova-vs-ekaterina-alexandrova-tennis-prediction-wta-china-open-2026-ac"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1130290-side0",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Shanghai Masters qualifying R1 on official ATP order of play; Wong (No. 100) won Asian Games gold on 3 Oct, Hewitt (No. 322, WC) lost in two Phan Thiet Challenger QFs in September (tennisexplorer); edge offset by Wong's heavy schedule, so stay at market.",
+      "main_risk": "Fatigue and travel: Wong has played 8 matches since 24 Sep and flew in from Nagoya after the gold medal.",
+      "sources": [
+        "https://www.protennislive.com/posting/2026/5014/op.pdf",
+        "https://www.protennislive.com/posting/2026/5014/qs.pdf",
+        "https://www.tennisexplorer.com/player/wong-d3ead/",
+        "https://www.tennisexplorer.com/player/hewitt-d8622/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1130291-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Opponent uncertain: Bolt retired with a right-leg injury against Harris in the Jingshan Challenger SF on 3 Oct (Tennis TourTalk, tennisexplorer) yet is still on the Shanghai qualifying order of play; a withdrawal and lucky-loser swap could change the opponent, and Harris played a 2h19 final on 4 Oct before travelling — critical unknowns, so excluded.",
+      "main_risk": "Bolt withdraws and a fresh lucky loser faces a tired Harris, or settlement changes.",
+      "sources": [
+        "https://www.protennislive.com/posting/2026/5014/op.pdf",
+        "https://tennistourtalk.com/137949/harris-completes-comeback-to-win-jingshan-open",
+        "https://www.tennisexplorer.com/player/bolt-fa7eb/",
+        "https://www.tennisexplorer.com/player/harris-9f62b/"
+      ],
+      "prices": []
+    }
+  ]
+}
