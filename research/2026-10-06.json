@@ -1,0 +1,486 @@
+{
+  "date": "2026-10-06",
+  "researched_at": "2026-10-06T05:58:49Z",
+  "summary": "Nations League matchday 4 (Leagues A-C), ESL Pro League CS2 Swiss round 4, WTA Beijing R16 and the ATP Tokyo final and Shanghai R1 carry the day; the market looks well calibrated, with small trims where bookmakers sit below Polymarket (Spain, Slovakia, Iceland, Zheng). Excluded legs are mainly Challenger/WTA 125 tennis, non-tier-1 esports, and Scotland (McTominay injury unconfirmed).",
+  "verdicts": [
+    {
+      "id": "1139322-side0",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "G2 (HLTV #7) vs PARIVISION (#20), both 1-2 in an elimination match on LAN, regular fives listed on dust2.us; G2's only win is over 0-3 ShindeN and PARIVISION pushed Spirit and FURIA to three maps, so no edge over market (sources thin: HLTV 403, Liquipedia rate-limited).",
+      "main_risk": "G2's shaky event form (0-2 NaVi, 1-2 1win) while still bedding in AWPer r1nkle.",
+      "sources": [
+        "https://www.dust2.us/matches/2398741/g2-vs-parivision",
+        "https://www.dust2.us/results",
+        "https://players.com.ua/en/news/g2-coach-explains-replacing-sunpayus-with-r1nkle-team-lacked-aggression/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1139326-side1",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "BetBoom (HLTV #13) vs 9z (#16), both 1-2 in an elimination match; 9z lost 0-2 to both top teams faced while BetBoom took Aurora to three and swept M80 (dust2.us results, news 78544) with full lineup incl. d1Ledez and S1ren; small edge but thin sources, so stay at market.",
+      "main_risk": "Close ranking gap makes it a veto coin flip; BetBoom have had roster/visa disruption earlier in 2026.",
+      "sources": [
+        "https://www.dust2.us/matches/2398744/9z-vs-betboom",
+        "https://www.dust2.us/results",
+        "https://www.dust2.us/news/78544/m80-one-loss-away-from-epl-elimination-after-betboom-defeat"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1139329-side0",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Falcons (HLTV #5) vs NaVi (#10), both 2-1 with only a 1-2 loss to Vitality, winner reaches playoffs; full lineups (dust2.us, navi.gg); NaVi beat Falcons 2-0 at EWC 2026 (cryptobriefing), offsetting the rank edge — stay at market.",
+      "main_risk": "NaVi's recent H2H edge and defending-champion motivation.",
+      "sources": [
+        "https://www.dust2.us/matches/2398745/falcons-vs-natus-vincere",
+        "https://navi.gg/en/tournaments/epl-season-24",
+        "https://cryptobriefing.com/navi-advances-to-esports-world-cup-2026-playoffs-with-2-0-win-over-falcons/",
+        "https://www.dust2.us/results"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1139956-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Not tier-1: PARI Universe Closed Qualifier (5-8 Oct) sends one team to the $250k main event whose six invites are PARIVISION, OG, Liquid, BetBoom, Spirit, 1win (winio.ai); neither Blasterbl nor Nemiga is a tier-1 team.",
+      "main_risk": "Unverified rosters and likely stand-ins at this level make the price unreliable.",
+      "sources": [
+        "https://winio.ai/blog/news/pari-universe-by-fissure-teams-dates-and-prize-pool"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1138752-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Not tier-1: EMEA Masters is Europe's tier-2 championship below the LEC (rft.gg 'last European tier-two title of the year', Insider Gaming 'a tier-2 event'); Liquipedia/Leaguepedia blocked (403/402).",
+      "main_risk": "Tier-2 roster churn and TCL teams' strong EMEA Masters history raise upset risk.",
+      "sources": [
+        "https://rft.gg/news/emea-masters-summer-2026-every-team-qualified-so-far",
+        "https://insider-gaming.com/emea-masters-summer-seeding-and-invites-for-past-winners/",
+        "https://liquipedia.net/leagueoflegends/EMEA_Masters/2026/Summer"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1138775-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Not tier-1: EMEA Masters is a tier-2 event (rft.gg, Insider Gaming); Galions (Spring 2026 champions) vs BIG (Prime League qualifier).",
+      "main_risk": "BIG's strong EMEA Masters history and tier-2 roster uncertainty.",
+      "sources": [
+        "https://rft.gg/news/emea-masters-summer-2026-every-team-qualified-so-far",
+        "https://insider-gaming.com/emea-masters-summer-seeding-and-invites-for-past-winners/",
+        "https://liquipedia.net/leagueoflegends/EMEA_Masters/2026/Summer"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1068450-home_draw",
+      "exclude": true,
+      "adjustment_pp": -2,
+      "reason": "Key availability unconfirmed: McTominay reported out injured by livescore and footballpredictions but not confirmed on the Scottish FA site; McKenna suspended; Scotland have won only 20% of last 10 home games; bet365 3/4-5/2-15/4 de-vigs Scotland-or-Draw to ~80.3%, 2pp below market.",
+      "main_risk": "Without McTominay, Scotland can't break down Slovenia's five-man defence with Oblak, and Slovenia win on the counter or from a set piece.",
+      "sources": [
+        "https://www.101greatgoals.com/match-previews/scotland-v-slovenia-preview-expected-line-ups-stats-stream-where-to-watch/",
+        "https://www.livescore.com/en/news/football/uefa-nations-league/scotland-slovenia-predictions-nations-league/",
+        "https://www.sportinglife.com/football/news/scotland-vs-slovenia-tips-predictions-best-bets-and-nations-league-preview/234664",
+        "https://footballpredictions.com/footballpredictions/nations-league-predictions/scotland-vs-slovenia-prediction-06-10-2026/",
+        "https://www.kickoff.co.uk/uefa-nations-league-predictions-stats-odds/scotland-vs-slovenia/",
+        "https://www.scottishfa.co.uk/news/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1068452-away",
+      "exclude": false,
+      "adjustment_pp": -2,
+      "reason": "Spain are 3/3 in League A Group 3 (10 straight wins, beat Croatia 4-1) and Sports Mole expects ~8 changes back to the first XI; Croatia lost 0-7 to England on 3 Oct (Sports Mole, oddscalendar) with Smolčić, Juranović, Erlić, Majer and Budimir out; bet365 1.27/6.25/9.0 de-vigs Spain to ~74.5-76%, just below market.",
+      "main_risk": "A wounded Croatia, in front of a hostile Poljud crowd, hold a Spain side already 3 points clear to a draw.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/spain/uefa-nations-league/predicted-lineups/will-yamal-survive-eight-changes-predicted-spain-xi-vs-croatia_606202.html",
+        "https://www.sportsmole.co.uk/football/croatia/uefa-nations-league/preview/croatia-vs-england-prediction-team-news-lineups_606049.html",
+        "https://www.oddscalendar.com/football/europe/nations-league/croatia-vs-england/1528933",
+        "https://sports.yahoo.com/articles/preview-la-fuente-spain-chase-052500040.html",
+        "https://www.canadasportsbetting.ca/news/soccer/croatia-spain-odds-prediction-october-06/",
+        "https://www.croatiaweek.com/croatia-uefa-nations-league-2026-fixtures-spain-england-no-fans/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1068447-away_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Finland top League C Group 1 on 7 pts (9-1 goals), unbeaten in six vs Belarus, neutral venue in Budapest (Finnish FA release on sttinfo.fi); books de-vig Finland-or-Draw 0.754-0.772 (1xBet, Melbet via Mightytips) ≈ market.",
+      "main_risk": "Belarus (3 clean sheets in last 4, still chasing top two) nick a 1-0.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/2026%E2%80%9327_UEFA_Nations_League_C",
+        "https://www.sttinfo.fi/tiedote/72328350/huuhkajat-nimetty-syys-lokakuun-uefa-nations-league-otteluihin?lang=fi",
+        "https://starting11.com/fixtures/belarus-vs-finland",
+        "https://www.mightytips.com/football-predictions/belarus-vs-finland-prediction-06-10-2026/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1068442-away",
+      "exclude": false,
+      "adjustment_pp": -2,
+      "reason": "Slovakia (7 pts, full squad per footballwhispers) were held 1-1 in the Faroes on 2 Oct and are 4W-1D-5L in their last 10 away; second-placed Moldova took 4 pts from their last two; Sportsgambler odds -244/+360/+700 de-vig ~0.675, below market.",
+      "main_risk": "A deep-sitting Moldova earns a draw, as the Faroes did four days ago.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/2026%E2%80%9327_UEFA_Nations_League_C",
+        "https://www.sportsgambler.com/betting-tips/football/moldova-vs-slovakia-prediction-lineups-odds-2026-10-06/",
+        "https://footballwhispers.com/blog/moldova-vs-slovakia-prediction-06-10-2026/",
+        "https://starting11.com/fixtures/moldova-vs-slovakia"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1068451-away",
+      "exclude": false,
+      "adjustment_pp": -2,
+      "reason": "Iceland lead League C Group 4 (two 3-0 wins) but every Estonia-Iceland meeting has been drawn, including 1-1 on 26 Sep; Estonia unbeaten with 1 conceded in 3; kickoff.co.uk 5.50/4.10/1.57 de-vigs Iceland to ~0.599, below market.",
+      "main_risk": "A low-scoring draw, as in every previous meeting.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/2026%E2%80%9327_UEFA_Nations_League_C",
+        "https://www.sportsgambler.com/betting-tips/football/estonia-vs-iceland-prediction-lineups-odds-2026-10-06/",
+        "https://www.kickoff.co.uk/uefa-nations-league-predictions-stats-odds/estonia-vs-iceland/",
+        "https://starting11.com/fixtures/estonia-vs-iceland"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1068444-home_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Luxembourg depleted (Barreiro, Mahmutovic suspended; Sinani, Jans injured per dailysports, footballwhispers) but Bulgaria also weakened (L. Petkov, Velkovski suspended, interim coach Ribarski lost 0-3 on debut); de-vigged William Hill/Betfred 0.733-0.739 match market.",
+      "main_risk": "Luxembourg (scored in only 5 of last 15) concede once and can't reply.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/2026%E2%80%9327_UEFA_Nations_League_C",
+        "https://dailysports.net/predictions/fewer-weapons-for-the-rematch-luxembourg-vs-bulgaria-prediction-06102026/",
+        "https://footballwhispers.com/blog/luxembourg-vs-bulgaria-prediction-06-10-26/",
+        "https://www.sportsgambler.com/betting-tips/football/luxembourg-vs-bulgaria-prediction-lineups-odds-2026-10-06/",
+        "https://starting11.com/fixtures/luxembourg-vs-bulgaria"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1068444-away_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Books give Bulgaria-or-Draw 0.51-0.565 (slightly below market) but Luxembourg's absences and footballwhispers' 1-1 pick offset that; Bulgaria winless in 5 with an interim coach — stay at market.",
+      "main_risk": "Bulgaria (1 goal in 3 UNL games) lose to a single Luxembourg goal, as in the 2-1 reverse fixture.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/2026%E2%80%9327_UEFA_Nations_League_C",
+        "https://dailysports.net/predictions/fewer-weapons-for-the-rematch-luxembourg-vs-bulgaria-prediction-06102026/",
+        "https://footballwhispers.com/blog/luxembourg-vs-bulgaria-prediction-06-10-26/",
+        "https://www.sportsgambler.com/betting-tips/football/luxembourg-vs-bulgaria-prediction-lineups-odds-2026-10-06/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1068440-home_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Fixture and squad confirmed (Kazpravda; Satpayev not selected); Kazakhstan 1 pt from 3 incl. home loss to Moldova, versus long Faroes travel; de-vigged Betfred 0.704 and Sports Mole model 0.712 bracket the market.",
+      "main_risk": "Unbeaten Faroes (three 1-1 draws, won 1-0 vs Kazakhstan in Nov 2025) steal an away win.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/2026%E2%80%9327_UEFA_Nations_League_C",
+        "https://kazpravda.kz/n/gotovy-k-lige-natsiy/",
+        "https://www.sportsmole.co.uk/football/nations-league/kazakhstan-vs-faroe-islands_game_259449.html",
+        "https://www.sportsgambler.com/betting-tips/football/kazakhstan-vs-faroe-islands-prediction-lineups-odds-2026-10-06/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1068440-away_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Faroes unbeaten in the group (draws with Slovakia, Moldova, Kazakhstan) with no reported absentees; books ~0.60 vs models 0.56-0.74 disagree, so stay at market.",
+      "main_risk": "Kazakhstan's home edge and Faroes' 4-5 hour time-zone travel produce a 1-0 home win.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/2026%E2%80%9327_UEFA_Nations_League_C",
+        "https://www.sportsmole.co.uk/football/nations-league/kazakhstan-vs-faroe-islands_game_259449.html",
+        "https://www.sportsgambler.com/betting-tips/football/kazakhstan-vs-faroe-islands-prediction-lineups-odds-2026-10-06/",
+        "https://starting11.com/fixtures/kazakhstan-vs-faroe-islands"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1138110-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Palermo, ATP Challenger 50 (official ATP Challenger calendar PDF; on today’s atptour.com Challenger daily schedule); Challenger events are excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://www.atptour.com/-/media/files/calendar-pdfs/2026/2026-27-atp-challenger-calendar-as-of-27-september-2026.pdf",
+        "https://www.atptour.com/en/scores/current-challenger/palermo/3153/daily-schedule"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1127481-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Palermo, ATP Challenger 50 (official ATP Challenger calendar PDF; on today’s atptour.com Challenger daily schedule); Challenger events are excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://www.atptour.com/-/media/files/calendar-pdfs/2026/2026-27-atp-challenger-calendar-as-of-27-september-2026.pdf",
+        "https://www.atptour.com/en/scores/current-challenger/palermo/3153/daily-schedule"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1127482-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Palermo, ATP Challenger 50 (official ATP Challenger calendar PDF; on today’s atptour.com Challenger daily schedule); Challenger events are excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://www.atptour.com/-/media/files/calendar-pdfs/2026/2026-27-atp-challenger-calendar-as-of-27-september-2026.pdf",
+        "https://www.atptour.com/en/scores/current-challenger/palermo/3153/daily-schedule"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1138115-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Palermo, ATP Challenger 50 (official ATP Challenger calendar PDF; on today’s atptour.com Challenger daily schedule); Challenger events are excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://www.atptour.com/-/media/files/calendar-pdfs/2026/2026-27-atp-challenger-calendar-as-of-27-september-2026.pdf",
+        "https://www.atptour.com/en/scores/current-challenger/palermo/3153/daily-schedule"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1128895-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Antofagasta, ATP Challenger 75 (official ATP Challenger calendar PDF; on today’s atptour.com Challenger daily schedule); Challenger events are excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://www.atptour.com/-/media/files/calendar-pdfs/2026/2026-27-atp-challenger-calendar-as-of-27-september-2026.pdf",
+        "https://www.atptour.com/en/scores/current-challenger/antofagasta/2889/daily-schedule"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1128894-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Antofagasta, ATP Challenger 75 (official ATP Challenger calendar PDF; on today’s atptour.com Challenger daily schedule); Challenger events are excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://www.atptour.com/-/media/files/calendar-pdfs/2026/2026-27-atp-challenger-calendar-as-of-27-september-2026.pdf",
+        "https://www.atptour.com/en/scores/current-challenger/antofagasta/2889/daily-schedule"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1139912-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Antofagasta, ATP Challenger 75 (official ATP Challenger calendar PDF; on today’s atptour.com Challenger daily schedule); Challenger events are excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://www.atptour.com/-/media/files/calendar-pdfs/2026/2026-27-atp-challenger-calendar-as-of-27-september-2026.pdf",
+        "https://www.atptour.com/en/scores/current-challenger/antofagasta/2889/daily-schedule"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1138105-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Villena, ATP Challenger 100 (official ATP Challenger calendar PDF; on today’s atptour.com Challenger daily schedule); Challenger events are excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://www.atptour.com/-/media/files/calendar-pdfs/2026/2026-27-atp-challenger-calendar-as-of-27-september-2026.pdf",
+        "https://www.atptour.com/en/scores/current-challenger/villena/7909/daily-schedule"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1138109-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Villena, ATP Challenger 100 (official ATP Challenger calendar PDF; on today’s atptour.com Challenger daily schedule); Challenger events are excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://www.atptour.com/-/media/files/calendar-pdfs/2026/2026-27-atp-challenger-calendar-as-of-27-september-2026.pdf",
+        "https://www.atptour.com/en/scores/current-challenger/villena/7909/daily-schedule"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1138106-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Villena, ATP Challenger 100 (official ATP Challenger calendar PDF; on today’s atptour.com Challenger daily schedule); Challenger events are excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://www.atptour.com/-/media/files/calendar-pdfs/2026/2026-27-atp-challenger-calendar-as-of-27-september-2026.pdf",
+        "https://www.atptour.com/en/scores/current-challenger/villena/7909/daily-schedule"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1127469-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Braga, ATP Challenger 75 (official ATP Challenger calendar PDF; on today’s atptour.com Challenger daily schedule); Challenger events are excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://www.atptour.com/-/media/files/calendar-pdfs/2026/2026-27-atp-challenger-calendar-as-of-27-september-2026.pdf",
+        "https://www.atptour.com/en/scores/current-challenger/braga/7913/daily-schedule"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1131665-side0",
+      "exclude": true,
+      "adjustment_pp": -4,
+      "reason": "Samsun Open is a WTA 125 (official WTA API: level WTA 125, formerly branded WTA Challenger, internal level code C) — the women’s Challenger tier, so excluded; also Waltert 8-13 on hard in 2026 and money in on home WC Ercan (5.00→4.10-4.50, books ~0.77-0.79 per tennisexplorer).",
+      "main_risk": "Waltert’s poor hard-court form against an in-form home wildcard.",
+      "sources": [
+        "https://api.wtatennis.com/tennis/tournaments/1149/2026",
+        "https://www.tennisexplorer.com/match-detail/?id=3340395",
+        "https://www.dailysabah.com/sports/tennis/samsun-open-wta-125-brings-6-top-100-stars-to-turkiye"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1131669-side0",
+      "exclude": true,
+      "adjustment_pp": -3,
+      "reason": "Samsun Open is a WTA 125 (official WTA API), the women’s Challenger tier, so excluded; also Monnet leads H2H 1-0 and Stefanini drifted 1.23→1.29 (books ~0.72 per tennisexplorer).",
+      "main_risk": "Left-hander Monnet, who leads the H2H and has money behind her.",
+      "sources": [
+        "https://api.wtatennis.com/tennis/tournaments/1149/2026",
+        "https://www.tennisexplorer.com/match-detail/?id=3340403",
+        "https://www.dailysabah.com/sports/tennis/samsun-open-wta-125-brings-6-top-100-stars-to-turkiye"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1130110-side1",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Not postponed: on today's official Beijing OP (Lotus Court, 4th match, after Muchova-Osaka not before 07:00 UTC); Bartunkova beat Sabalenka 6-4 6-3 and leads H2H 1-0; StringTension Elo 80.8% and tennisexplorer 1.20/4.48 (~0.79) match market.",
+      "main_risk": "Let-down after her career-best win against an in-form Kraus (three wins here).",
+      "sources": [
+        "https://wtafiles.wtatennis.com/pdf/draws/2026/1020/OP.pdf",
+        "https://wtafiles.wtatennis.com/pdf/draws/2026/1020/MDS.pdf",
+        "https://www.tennisexplorer.com/mutual/kraus-e1937/bartunkova-db92f/",
+        "https://stringtension.com/head-to-head/wta/nikola-bartunkova/sinja-kraus"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1137929-side0",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Beijing R16 confirmed on the draw; Gauff (No. 4) beat Osorio and Sun with no physical issues (wtatennis.com) and leads Mertens 5-0; Elo 77.7% and tennisexplorer 1.22/4.21 sit at market.",
+      "main_risk": "Gauff's serve/forehand error count on a bad day against steady top-20 Mertens.",
+      "sources": [
+        "https://wtafiles.wtatennis.com/pdf/draws/2026/1020/MDS.pdf",
+        "https://www.wtatennis.com/news/4587000/gauff-pulls-away-late-to-defeat-rising-sun-in-beijing",
+        "https://www.tennisexplorer.com/player/mertens-f8826/",
+        "https://stringtension.com/head-to-head/wta/coco-gauff/elise-mertens"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1136330-side1",
+      "exclude": false,
+      "adjustment_pp": -2,
+      "reason": "Zheng has played three straight three-setters, 8h01 on court — most in the draw (wtatennis.com) — while Charaeva (No. 118) beat No. 1 Rybakina and Kartal; Elo 75.1% and odds 1.24/3.97 slightly below market.",
+      "main_risk": "Physical drop-off for Zheng against a confident unseeded opponent.",
+      "sources": [
+        "https://www.wtatennis.com/news/4586843/qinwen-zheng-prevails-over-marie-bouzkova-in-third-straight-three-setter-in-beijing",
+        "https://wtafiles.wtatennis.com/pdf/draws/2026/1020/MDS.pdf",
+        "https://www.tennisexplorer.com/player/charaeva/",
+        "https://stringtension.com/head-to-head/wta/qinwen-zheng/alina-charaeva"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1137927-side1",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Svitolina (No. 7, 45-13 in 2026) beat Siniakova and Sakkari with no reported fitness issues; Li beat Bencic; models split (StringTension 74% headline vs Elo 66.7%, odds ~0.75), so stay at market.",
+      "main_risk": "A recurrence of the right-ankle injury that forced her out of Cincinnati in August.",
+      "sources": [
+        "https://wtafiles.wtatennis.com/pdf/draws/2026/1020/MDS.pdf",
+        "https://mezha.net/eng/news/a39459a0_elina_svitolina_beats/",
+        "https://www.tennisexplorer.com/player/svitolina/",
+        "https://stringtension.com/head-to-head/wta/elina-svitolina/ann-li"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1136519-side0",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Shanghai R1 vs Facundo Díaz Acosta confirmed on official main draw; Díaz Acosta is a clay specialist (1-3 on hard in 2026) but Borges is only 28-27 in 2026; Elo 69.9% and odds ~0.75 below market, so no upward nudge.",
+      "main_risk": "Borges's flat 2026 form against a left-handed grinder in slow conditions.",
+      "sources": [
+        "https://www.protennislive.com/posting/2026/5014/mds.pdf",
+        "https://www.tennisexplorer.com/player/borges-8d823/",
+        "https://www.tennisexplorer.com/player/diaz-acosta/",
+        "https://stringtension.com/head-to-head/atp/nuno-borges/facundo-diaz-acosta"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1138090-side0",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Tokyo final confirmed (official OP, not before 09:00 UTC); Alcaraz leads Lehecka 3-1 but played 2h31 in yesterday's semi vs Munar (tennismajors) while Lehecka is on a six-match streak; Elo 69.9-74% and odds ~0.75 put market at the high end — no change.",
+      "main_risk": "Fatigue plus wrist history (out April-August) against Lehecka's big serve forcing tiebreaks.",
+      "sources": [
+        "https://www.protennislive.com/posting/2026/329/op.pdf",
+        "https://www.tennismajors.com/atp/alcaraz-recovers-from-a-set-down-against-munar-to-set-up-tokyo-final-with-lehecka-862635.html",
+        "https://www.tennisexplorer.com/mutual/alcaraz-5ab70/lehecka/",
+        "https://stringtension.com/head-to-head/atp/carlos-alcaraz/jiri-lehecka"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1100170-side1",
+      "exclude": false,
+      "adjustment_pp": -1,
+      "reason": "Fixture confirmed (Tue 6 Oct, Troy, Sun Belt); USM starting QB Hampton out (broken hand) plus WRs Himes and Page (SI, Covers), FanDuel -410/+315 ≈78% matches market, but SportsGrid model 72% and Blue Chip line -7.7 sit below the -10.5 spread, so trim 1.",
+      "main_risk": "Troy QB Crowder's turnovers (52% completions, 3 INTs vs Utah State) keep backup Lyddy's Southern Miss in it late.",
+      "sources": [
+        "https://www.dimers.com/cfb/predictions/2026_6_troy_usm",
+        "https://www.covers.com/ncaaf/southern-miss-vs-troy-prediction-picks-odds-oct-6-2026",
+        "https://si.com/college/southernmiss/preview-everything-to-know-as-southern-miss-travels-to-troy-for-midweek-sun-belt-action",
+        "https://www.wagertalk.com/news/college-football/southern-miss-vs-troy-prediction-picks-best-bets-for-october-6-2026/",
+        "https://www.sportsgrid.com/cfb/game/southern-miss-golden-eagles-troy-trojans-scores-odds-picks-props-october-06-2026/07404177-df43-46c8-a809-8cae2d2d1b0f"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1139591-side1",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Bout confirmed on DWCS S10 Week 9 and both made weight (Ariano 205, LaGrange 199.5 per Sherdog, Cageside Press); LaGrange is a short-notice replacement moving up from middleweight, but evidence on size of the edge conflicts (preview quote ~-550 vs a snippet model at 53%), so stay at market.",
+      "main_risk": "LaGrange's wrestling takes Ariano down and grinds out a decision or submission.",
+      "sources": [
+        "https://www.sherdog.com/news/news/DWCS-2026-Week-9-weighin-results-All-10-fighters-make-weight-203078",
+        "https://cagesidepress.com/2026/10/05/dana-whites-contender-series-season-10-week-9-weigh-in-results/",
+        "https://en.wikipedia.org/wiki/Dana_White%27s_Contender_Series_season_10",
+        "https://mixedmartialarts.com/mma/contender-series-week-9-preview-dana-whites-own-runner-auditions-for-a-contract-and-the-record-chase-reaches-its-penultimate-tuesday"
+      ],
+      "prices": []
+    }
+  ]
+}
