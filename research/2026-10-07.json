@@ -1,0 +1,194 @@
+{
+  "date": "2026-10-07",
+  "researched_at": "2026-10-07T05:57:22Z",
+  "summary": "A thin day: tour-level tennis (WTA Beijing R16/QF, ATP Shanghai R1) and two ESL Pro League CS2 elimination deciders make up the kept legs, all trimmed slightly for fatigue, poor form or bad head-to-heads. Excluded legs are Challenger tennis, tier-2 LoL events and an NBA preseason game.",
+  "verdicts": [
+    {
+      "id": "1145392-side0",
+      "exclude": false,
+      "adjustment_pp": -2,
+      "reason": "FURIA (HLTV #4) vs 9z (#16), regular fives, both 2-2 so the winner reaches the Spodek playoffs (dust2.us, Liquipedia, HLTV news 45659); but FURIA lost 3 of last 5 series incl. 1-2 to Aurora yesterday (HLTV 45656) and 9z are 3-1 on Mirage here, so trim 2.",
+      "main_risk": "9z take a decider on Mirage or Dust2 while FURIA's form keeps sliding.",
+      "sources": [
+        "https://www.dust2.us/matches/2398747/furia-vs-9z",
+        "https://www.dust2.us/results",
+        "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24",
+        "https://www.hltv.org/news/45659/final-group-stage-matchups-set-at-epl-s24",
+        "https://www.hltv.org/news/45656/aurora-beat-furia-to-qualify-for-spodek",
+        "https://www.hltv.org/news/45653/9z-send-betboom-packing-from-katowice"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1145393-side1",
+      "exclude": false,
+      "adjustment_pp": -2,
+      "reason": "NaVi (HLTV #10) vs PARIVISION (#20), both 2-2 in a decider; NaVi in a slump with no top-8 finish since May (HLTV 45659) and played a late overtime decider vs Falcons last night (HLTV 45660), while PARIVISION beat G2 and pushed Spirit and FURIA; regular lineups (dust2.us, navi.gg).",
+      "main_risk": "A tired, slumping NaVi lose on Ancient or Inferno, where PARIVISION are 2-1 at this event.",
+      "sources": [
+        "https://www.dust2.us/matches/2398748/parivision-vs-natus-vincere",
+        "https://www.hltv.org/news/45659/final-group-stage-matchups-set-at-epl-s24",
+        "https://www.hltv.org/news/45660/falcons-outlast-navi-to-secure-epl-playoffs",
+        "https://navi.gg/en/publications/epl-season-24-match-for-playoff",
+        "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1138796-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Not tier-1: EMEA Masters Summer 2026 is a tier-2 event for teams from the EMEA Regional Leagues below the LEC (Insider Gaming); KCB and Skillcamp both qualified from the LFL.",
+      "main_risk": "Volatile tier-2 Bo5 between two teams from the same regional league.",
+      "sources": [
+        "https://insider-gaming.com/emea-masters-summer-seeding-and-invites-for-past-winners/",
+        "https://lolesports.com/results/116634378669181091/stage/116634439979518144"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1141725-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Not tier-1: the 2027 LCS Promotion Tournament decides which tier-2 team (NACL/LRN qualifiers vs defending guest Disguised) earns the LCS guest slot (lolesports.com, Wikipedia 2026 LCS season, esportnow.gg).",
+      "main_risk": "A hungry tier-2 challenger upsets Disguised in a Bo5, with Disguised still having a lower-bracket safety net.",
+      "sources": [
+        "https://lolesports.com/en-US/news/lcs-promotion-tournament-wsci",
+        "https://en.wikipedia.org/wiki/2026_LCS_season",
+        "https://esportnow.gg/lol/news/lcs-promotion-tournament-2026-schedule-teams"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1111336-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "NBA preseason game (Thunder host Bucks at Paycom Center, 7 Oct 7pm CDT) on the second night of an OKC back-to-back after 6 Oct vs Pelicans in Tulsa (okcfox, newson6, fantasynerds); heavy rotation and unknown starter minutes, no injury report or minutes plan found.",
+      "main_risk": "OKC rest or cap Gilgeous-Alexander and starters, turning it into a contest between benches.",
+      "sources": [
+        "https://okcfox.com/sports/oklahoma-city-thunder/thunder-releases-preseason-slate-with-games-in-tulsa-and-oklahoma-city",
+        "https://www.newson6.com/oklahoma-city-thunder/okc-thunder-2026-27-preseason-schedule-games-dates",
+        "https://fantasynerds.com/news/story/2026/08/12/bucks-finalize-2026-27-preseason-and-nba-cup-schedules-1595150"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1143726-side0",
+      "exclude": false,
+      "adjustment_pp": -4,
+      "reason": "Shanghai R1 confirmed (official OP); qualifier Bellucci (No. 86) vs WC Zhou (No. 277, three straight losses), but Bellucci has played 10 matches in 10 days incl. a 3-set Jingshan final on 4 Oct and two qualifying rounds 5-6 Oct (tennisexplorer); String Tension model only 60.7% vs Pinnacle ~0.755.",
+      "main_risk": "Bellucci fades physically on a third straight day against a crowd-backed home wildcard.",
+      "sources": [
+        "https://www.protennislive.com/posting/2026/5014/op.pdf",
+        "https://www.tennisexplorer.com/match-detail/?id=3342815",
+        "https://www.tennisexplorer.com/player/bellucci-47e7e/",
+        "https://stringtension.com/head-to-head/atp/mattia-bellucci/yi-zhou"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1136330-side1",
+      "exclude": false,
+      "adjustment_pp": -2,
+      "reason": "Moved to the night session by schedule (official OP: not before 11:00 UTC), not rain; model 75.1% and Pinnacle 0.753 match market, but Zheng has 8h01 on court from three straight three-setters (wtatennis.com) while Charaeva beat world No. 1 Rybakina and Kartal.",
+      "main_risk": "Zheng runs out of legs in another long night match against a free-swinging Charaeva.",
+      "sources": [
+        "https://wtafiles.wtatennis.com/pdf/draws/2026/1020/OP.pdf",
+        "https://wtafiles.wtatennis.com/pdf/draws/2026/1020/MDS.pdf",
+        "https://www.tennisexplorer.com/match-detail/?id=3341517",
+        "https://stringtension.com/head-to-head/wta/alina-charaeva/qinwen-zheng"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1137927-side1",
+      "exclude": false,
+      "adjustment_pp": -2,
+      "reason": "Night session on Diamond court after Zheng (official OP); Svitolina (No. 7) won two three-set/close matches while Li (No. 30) hasn't dropped a set incl. vs Bencic; model 66.7% vs Pinnacle 0.750, H2H 1-0 Svitolina.",
+      "main_risk": "Li stays hot and Svitolina's August ankle issue or the late finish limits her.",
+      "sources": [
+        "https://wtafiles.wtatennis.com/pdf/draws/2026/1020/OP.pdf",
+        "https://bets.com.au/tennis/wta-tour/elina-svitolina-vs-ann-li-wta-beijing-tips-prediction-live-stream-20261007-0004/",
+        "https://www.tennisexplorer.com/match-detail/?id=3341519",
+        "https://stringtension.com/head-to-head/wta/ann-li/elina-svitolina"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1142294-side1",
+      "exclude": false,
+      "adjustment_pp": -4,
+      "reason": "Beijing QF: Andreeva (No. 5) is 0-2 vs Alexandrova (lost 6-3 6-2 Stuttgart 2025, 6-3 6-4 Bad Homburg 2026; wtatennis.com preview), and Alexandrova just beat Noskova 6-2 6-2 without dropping serve; model 62.6% vs Pinnacle ~0.746.",
+      "main_risk": "Alexandrova's flat hitting troubles Andreeva again for a 3-0 H2H.",
+      "sources": [
+        "https://wtafiles.wtatennis.com/pdf/draws/2026/1020/MDS.pdf",
+        "https://www.wtatennis.com/news/4587205/andreeva-seeks-first-win-over-alexandrova-in-beijing-quarterfinal",
+        "https://www.tennisexplorer.com/match-detail/?id=3342709",
+        "https://stringtension.com/head-to-head/wta/ekaterina-alexandrova/mirra-andreeva"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1136519-side0",
+      "exclude": false,
+      "adjustment_pp": -1,
+      "reason": "Shanghai R1 confirmed in official draw, moved off the 7 Oct OP to 8 Oct; Borges lost his last two tour matches in R1 while clay specialist Díaz Acosta lost his last hard-court match; model 69.9% vs Pinnacle ~0.743.",
+      "main_risk": "Borges's flat autumn form continues; match time not yet on an official OP.",
+      "sources": [
+        "https://www.protennislive.com/posting/2026/5014/mds.pdf",
+        "https://www.protennislive.com/posting/2026/5014/op.pdf",
+        "https://www.tennisexplorer.com/match-detail/?id=3341235",
+        "https://stringtension.com/head-to-head/atp/nuno-borges/facundo-diaz-acosta"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1138109-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Villena, ATP Challenger 100 (official ATP Challenger calendar, week of 5 Oct; tennisexplorer lists it under the Challenger); Challenger events are excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://www.atptour.com/-/media/files/calendar-pdfs/2026/2026-27-atp-challenger-calendar-as-of-27-september-2026.pdf",
+        "https://www.tennisexplorer.com/matches/?type=atp-single&year=2026&month=10&day=07"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1138103-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Villena, ATP Challenger 100 (official ATP Challenger calendar, week of 5 Oct; tennisexplorer lists it under the Challenger); Challenger events are excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://www.atptour.com/-/media/files/calendar-pdfs/2026/2026-27-atp-challenger-calendar-as-of-27-september-2026.pdf",
+        "https://www.tennisexplorer.com/matches/?type=atp-single&year=2026&month=10&day=07"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1143733-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Palermo, ATP Challenger 50 (official ATP Challenger calendar, week of 5 Oct; tennisexplorer lists it under the Challenger); Challenger events are excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://www.atptour.com/-/media/files/calendar-pdfs/2026/2026-27-atp-challenger-calendar-as-of-27-september-2026.pdf",
+        "https://www.tennisexplorer.com/matches/?type=atp-single&year=2026&month=10&day=07"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1127469-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Braga, ATP Challenger 75 (official ATP Challenger calendar, week of 5 Oct; tennisexplorer lists it under the Challenger); Challenger events are excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://www.atptour.com/-/media/files/calendar-pdfs/2026/2026-27-atp-challenger-calendar-as-of-27-september-2026.pdf",
+        "https://www.tennisexplorer.com/matches/?type=atp-single&year=2026&month=10&day=07"
+      ],
+      "prices": []
+    }
+  ]
+}
