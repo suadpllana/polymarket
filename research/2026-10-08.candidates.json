@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-08",
+  "window": {
+    "start": "2026-10-08T07:21:35.742Z",
+    "end": "2026-10-09T04:00:00.000Z"
+  },
+  "candidates": [
+    {
+      "id": "1100256-side1",
+      "sport": "american_football",
+      "league": "NCAAF",
+      "lane": "high_confidence",
+      "event": "Sam Houston vs. Liberty",
+      "start": "2026-10-08T23:00:00.000Z",
+      "market": "Moneyline",
+      "selection": "Liberty",
+      "p_market": 0.825,
+      "fair_odds": 1.21
+    },
+    {
+      "id": "1142740-side0",
+      "sport": "esports_other",
+      "league": "Valorant",
+      "lane": "high_confidence",
+      "event": "Valorant: BBL Esports vs Pcific Esports (BO3) - Monsters Reloaded Closed Qualifier Playoffs",
+      "start": "2026-10-08T19:00:00.000Z",
+      "market": "Match Winner",
+      "selection": "BBL Esports",
+      "p_market": 0.81,
+      "fair_odds": 1.23
+    },
+    {
+      "id": "1150839-side1",
+      "sport": "tennis",
+      "league": "ATP",
+      "lane": "high_confidence",
+      "event": "Braga: Oleksii Krutykh vs Luka Mikrut",
+      "start": "2026-10-08T12:00:00.000Z",
+      "market": "Moneyline",
+      "selection": "Luka Mikrut",
+      "p_market": 0.805,
+      "fair_odds": 1.24
+    },
+    {
+      "id": "925590-side1",
+      "sport": "american_football",
+      "league": "NFL",
+      "lane": "high_confidence",
+      "event": "Buccaneers vs. Cowboys",
+      "start": "2026-10-09T00:15:00.000Z",
+      "market": "Moneyline",
+      "selection": "Cowboys",
+      "p_market": 0.805,
+      "fair_odds": 1.24
+    },
+    {
+      "id": "1143736-side1",
+      "sport": "tennis",
+      "league": "ATP",
+      "lane": "high_confidence",
+      "event": "Antofagasta: Miguel Tobon vs Tomas Barrios",
+      "start": "2026-10-08T15:30:00.000Z",
+      "market": "Moneyline",
+      "selection": "Tomas Barrios",
+      "p_market": 0.8,
+      "fair_odds": 1.25
+    },
+    {
+      "id": "1147698-side1",
+      "sport": "tennis",
+      "league": "WTA",
+      "lane": "high_confidence",
+      "event": "China Open: Elise Mertens vs Iga Swiatek",
+      "start": "2026-10-09T03:00:00.000Z",
+      "market": "Moneyline",
+      "selection": "Iga Swiatek",
+      "p_market": 0.795,
+      "fair_odds": 1.26
+    },
+    {
+      "id": "1147699-side1",
+      "sport": "tennis",
+      "league": "WTA",
+      "lane": "high_confidence",
+      "event": "Samsun: Mariam Bolkvadze vs Bianca Andreescu",
+      "start": "2026-10-08T11:30:00.000Z",
+      "market": "Moneyline",
+      "selection": "Bianca Andreescu",
+      "p_market": 0.775,
+      "fair_odds": 1.29
+    },
+    {
+      "id": "1149172-side1",
+      "sport": "tennis",
+      "league": "ATP",
+      "lane": "high_confidence",
+      "event": "Braga: Miguel Damas vs Matej Dodig",
+      "start": "2026-10-08T09:00:00.000Z",
+      "market": "Moneyline",
+      "selection": "Matej Dodig",
+      "p_market": 0.775,
+      "fair_odds": 1.29
+    },
+    {
+      "id": "1142294-side1",
+      "sport": "tennis",
+      "league": "WTA",
+      "lane": "high_confidence",
+      "event": "China Open: Ekaterina Alexandrova vs Mirra Andreeva",
+      "start": "2026-10-08T11:00:00.000Z",
+      "market": "Moneyline",
+      "selection": "Mirra Andreeva",
+      "p_market": 0.755,
+      "fair_odds": 1.32
+    }
+  ]
+}

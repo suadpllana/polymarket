@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-08",
+  "researched_at": "2026-10-08T05:55:18Z",
+  "summary": "A small slate: two WTA Beijing quarterfinals, Thursday Night Football and a C-USA college game make up the kept legs, with Swiatek, Andreeva and the Cowboys trimmed toward bookmaker prices. Excluded legs are Challenger and WTA 125 tennis and a non-tier-1 Valorant qualifier.",
+  "verdicts": [
+    {
+      "id": "1100256-side1",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Fixture confirmed (Liberty home, Thu 8 Oct 23:00 UTC, C-USA); Liberty 4-1 vs winless-in-FBS Sam Houston 1-3, no QB injury news (WSET, A Sea of Red); Dimers model 84.5% and consensus ML -520/-590 (~82-84%) match market; spread steady at -13.5 since 4 Oct (WagerTalk); clear weather (NWS).",
+      "main_risk": "Sam Houston's C-USA-leading pass attack keeps it close, as in both previous meetings decided by 2-5 points.",
+      "sources": [
+        "https://www.dimers.com/cfb/predictions/2026_6_lib_shsu",
+        "https://www.wagertalk.com/news/college-football/sam-houston-vs-liberty-prediction-picks-odds-for-october-8-2026/",
+        "https://www.aseaofred.com/liberty-sam-houston-preview-flames-face-bearkats-in-midweek-cusa-showdown/",
+        "https://sports.yahoo.com/articles/sam-houston-vs-liberty-prediction-091401142.html",
+        "https://api.weather.gov/gridpoints/RNK/101,76/forecast"
+      ],
+      "prices": []
+    },
+    {
+      "id": "925590-side1",
+      "exclude": false,
+      "adjustment_pp": -2,
+      "reason": "Week 5 TNF, Bucs (0-4) at Cowboys (2-2) in Arlington; Mayfield out (thumb) so undrafted rookie Jalon Daniels starts (Bowles via tampabay28), Winfield, Morrison, Dennis out (CBS/AP); but the line has drifted from -10 to -8.5 on sharp Tampa money (VSiN, SI) and DraftKings -455/+350 de-vigs to ~78.7%, below the 80.5% market.",
+      "main_risk": "Mobile QB Daniels extends plays against Dallas's weak pass rush (4 sacks, no INTs) and Tampa keep it close in a one-score finish.",
+      "sources": [
+        "https://www.cbssports.com/nfl/news/cowboys-host-winless-buccaneers-rookie-qb-jalon-daniels/",
+        "https://www.buccaneers.com/news/buccaneers-cowboys-injury-report-oct-6-week-5",
+        "https://vsin.com/nfl/buccaneers-vs-cowboys-predictions-week-5-thursday-night-football-odds-picks-and-player-props/",
+        "https://www.si.com/betting/buccaneers-vs-cowboys-odds-shift-towards-tampa-bay-ahead-of-thursday-night-football-in-week-5",
+        "https://www.covers.com/nfl/week-5-odds-opening-lines-2026",
+        "https://www.tampabay28.com/sports/bucs-jalon-daniels-makes-second-straight-start-thursday-night-against-cowboys-on-national-stage"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1147698-side1",
+      "exclude": false,
+      "adjustment_pp": -2,
+      "reason": "Beijing QF confirmed on the official draw; Swiatek leads Mertens 2-0 and beat Jovic 6-1 6-3, but Mertens just beat Gauff 6-3 6-3 (AFP/Yahoo); book average 1.21/4.37 de-vigs to ~0.783 and String Tension Elo 64%, both below market.",
+      "main_risk": "Swiatek starts slowly again (lost the first set to Vekic) and an in-form Mertens out-rallies her.",
+      "sources": [
+        "https://wtafiles.wtatennis.com/pdf/draws/2026/1020/MDS.pdf",
+        "https://www.wtatennis.com/news/4587745/by-the-numbers-swiatek-strengthens-wta-1000-record-with-jovic-win",
+        "https://uk.sports.yahoo.com/news/mertens-beats-gauff-set-swiatek-092057109.html",
+        "https://www.tennisexplorer.com/beijing/2026/wta-women/",
+        "https://stringtension.com/head-to-head/wta/elise-mertens/iga-swiatek"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1142294-side1",
+      "exclude": false,
+      "adjustment_pp": -3,
+      "reason": "Official OP: Diamond Court, not before 11:00 UTC today; Alexandrova leads H2H 2-0 in straight sets and just beat No. 5 seed Noskova 6-2 6-2; book average 3.58/1.29 de-vigs to ~0.735 and String Tension Elo 62.6%, below market.",
+      "main_risk": "Alexandrova's flat first-strike hitting rushes Andreeva again, as in both previous meetings.",
+      "sources": [
+        "https://wtafiles.wtatennis.com/pdf/draws/2026/1020/OP.pdf",
+        "https://wtafiles.wtatennis.com/pdf/draws/2026/1020/MDS.pdf",
+        "https://www.tennisexplorer.com/beijing/2026/wta-women/",
+        "https://stringtension.com/head-to-head/wta/ekaterina-alexandrova/mirra-andreeva"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1142740-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Not tier-1: Monsters Reloaded 2026 Closed Qualifier is a $3,000 qualifier for a Turkish third-party event (TheSpike event page); BBL is fielding an experimental roster with three unconfirmed new players (TheSpike news). Liquipedia 403.",
+      "main_risk": "BBL's untested trial roster makes the 0.81 price unsupported by form.",
+      "sources": [
+        "https://www.thespike.gg/events/monsters-reloaded-2026-closed-qualifier/4257",
+        "https://www.thespike.gg/valorant/news/bbl-esports-reveals-new-roster-for-intel-monsters-reloaded-2026/8858",
+        "https://liquipedia.net/valorant/Monsters_Reloaded"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1150839-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Braga is an ATP Challenger 75 (official ATP Challenger calendar, week of 5 Oct); Challenger events are excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://www.atptour.com/-/media/files/calendar-pdfs/2026/2026-27-atp-challenger-calendar-as-of-27-september-2026.pdf"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1149172-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Braga is an ATP Challenger 75 (official ATP Challenger calendar, week of 5 Oct); Challenger events are excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://www.atptour.com/-/media/files/calendar-pdfs/2026/2026-27-atp-challenger-calendar-as-of-27-september-2026.pdf"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1143736-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Antofagasta is an ATP Challenger 75 (official ATP Challenger calendar, week of 5 Oct); Challenger events are excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://www.atptour.com/-/media/files/calendar-pdfs/2026/2026-27-atp-challenger-calendar-as-of-27-september-2026.pdf"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1147699-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Samsun Open is a WTA 125 (official WTA API, re-checked today), the women's Challenger tier; excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://api.wtatennis.com/tennis/tournaments/1149/2026"
+      ],
+      "prices": []
+    }
+  ]
+}
