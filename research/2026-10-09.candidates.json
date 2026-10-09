@@ -1,0 +1,213 @@
+{
+  "date": "2026-10-09",
+  "window": {
+    "start": "2026-10-09T07:22:17.793Z",
+    "end": "2026-10-10T04:00:00.000Z"
+  },
+  "candidates": [
+    {
+      "id": "1147698-side1",
+      "sport": "tennis",
+      "league": "WTA",
+      "lane": "high_confidence",
+      "event": "China Open: Elise Mertens vs Iga Swiatek",
+      "start": "2026-10-09T11:00:00.000Z",
+      "market": "Moneyline",
+      "selection": "Iga Swiatek",
+      "p_market": 0.805,
+      "fair_odds": 1.24
+    },
+    {
+      "id": "1152127-side1",
+      "sport": "tennis",
+      "league": "ATP",
+      "lane": "high_confidence",
+      "event": "Shanghai Rolex Masters: Yi Zhou vs Lorenzo Musetti",
+      "start": "2026-10-09T11:30:00.000Z",
+      "market": "Moneyline",
+      "selection": "Lorenzo Musetti",
+      "p_market": 0.805,
+      "fair_odds": 1.24
+    },
+    {
+      "id": "1100298-side1",
+      "sport": "american_football",
+      "league": "NCAAF",
+      "lane": "high_confidence",
+      "event": "Iowa State vs. BYU",
+      "start": "2026-10-10T02:15:00.000Z",
+      "market": "Moneyline",
+      "selection": "BYU",
+      "p_market": 0.785,
+      "fair_odds": 1.27
+    },
+    {
+      "id": "1153198-side1",
+      "sport": "tennis",
+      "league": "ATP",
+      "lane": "high_confidence",
+      "event": "Shanghai Rolex Masters: Matteo Arnaldi vs Taylor Fritz",
+      "start": "2026-10-10T02:00:00.000Z",
+      "market": "Moneyline",
+      "selection": "Taylor Fritz",
+      "p_market": 0.785,
+      "fair_odds": 1.27
+    },
+    {
+      "id": "1085833-home",
+      "sport": "football",
+      "league": "Eredivisie",
+      "lane": "core",
+      "event": "PSV vs. SC Heerenveen",
+      "start": "2026-10-09T18:00:00.000Z",
+      "market": "Match Winner",
+      "selection": "PSV",
+      "p_market": 0.7764,
+      "fair_odds": 1.29
+    },
+    {
+      "id": "1083681-home",
+      "sport": "football",
+      "league": "Bundesliga",
+      "lane": "core",
+      "event": "BV Borussia 09 Dortmund vs. SV Werder Bremen",
+      "start": "2026-10-09T18:30:00.000Z",
+      "market": "Match Winner",
+      "selection": "BV Borussia 09 Dortmund",
+      "p_market": 0.7406,
+      "fair_odds": 1.35
+    },
+    {
+      "id": "1081020-away_draw",
+      "sport": "football",
+      "league": "Primeira Liga",
+      "lane": "core",
+      "event": "Moreirense FC vs. Gil Vicente FC",
+      "start": "2026-10-09T17:45:00.000Z",
+      "market": "Double Chance",
+      "selection": "Gil Vicente FC or Draw",
+      "p_market": 0.7366,
+      "fair_odds": 1.36
+    },
+    {
+      "id": "1150429-side1",
+      "sport": "cs2",
+      "league": "CS2",
+      "lane": "core",
+      "event": "Counter-Strike: 1WIN vs Aurora Gaming (BO3) - ESL Pro League Playoffs",
+      "start": "2026-10-09T08:30:00.000Z",
+      "market": "Match Winner",
+      "selection": "Aurora Gaming",
+      "p_market": 0.705,
+      "fair_odds": 1.42
+    },
+    {
+      "id": "1086519-away_draw",
+      "sport": "football",
+      "league": "Primeira Liga",
+      "lane": "core",
+      "event": "SC Braga vs. Sporting CP",
+      "start": "2026-10-09T19:15:00.000Z",
+      "market": "Double Chance",
+      "selection": "Sporting CP or Draw",
+      "p_market": 0.6967,
+      "fair_odds": 1.44
+    },
+    {
+      "id": "1083680-home_draw",
+      "sport": "football",
+      "league": "Ligue 1",
+      "lane": "core",
+      "event": "Racing Club de Lens vs. Olympique Lyonnais",
+      "start": "2026-10-09T18:45:00.000Z",
+      "market": "Double Chance",
+      "selection": "Racing Club de Lens or Draw",
+      "p_market": 0.6633,
+      "fair_odds": 1.51
+    },
+    {
+      "id": "1084134-away_draw",
+      "sport": "football",
+      "league": "La Liga",
+      "lane": "core",
+      "event": "Málaga CF vs. RCD Espanyol de Barcelona",
+      "start": "2026-10-09T19:00:00.000Z",
+      "market": "Double Chance",
+      "selection": "RCD Espanyol de Barcelona or Draw",
+      "p_market": 0.66,
+      "fair_odds": 1.52
+    },
+    {
+      "id": "1084134-home_draw",
+      "sport": "football",
+      "league": "La Liga",
+      "lane": "core",
+      "event": "Málaga CF vs. RCD Espanyol de Barcelona",
+      "start": "2026-10-09T19:00:00.000Z",
+      "market": "Double Chance",
+      "selection": "Málaga CF or Draw",
+      "p_market": 0.64,
+      "fair_odds": 1.56
+    },
+    {
+      "id": "1150431-side1",
+      "sport": "cs2",
+      "league": "CS2",
+      "lane": "core",
+      "event": "Counter-Strike: FURIA vs MOUZ (BO3) - ESL Pro League Playoffs",
+      "start": "2026-10-09T13:30:00.000Z",
+      "market": "Match Winner",
+      "selection": "MOUZ",
+      "p_market": 0.595,
+      "fair_odds": 1.68
+    },
+    {
+      "id": "1083680-away_draw",
+      "sport": "football",
+      "league": "Ligue 1",
+      "lane": "core",
+      "event": "Racing Club de Lens vs. Olympique Lyonnais",
+      "start": "2026-10-09T18:45:00.000Z",
+      "market": "Double Chance",
+      "selection": "Olympique Lyonnais or Draw",
+      "p_market": 0.5933,
+      "fair_odds": 1.69
+    },
+    {
+      "id": "1086519-home_draw",
+      "sport": "football",
+      "league": "Primeira Liga",
+      "lane": "core",
+      "event": "SC Braga vs. Sporting CP",
+      "start": "2026-10-09T19:15:00.000Z",
+      "market": "Double Chance",
+      "selection": "SC Braga or Draw",
+      "p_market": 0.5867,
+      "fair_odds": 1.7
+    },
+    {
+      "id": "1150432-side1",
+      "sport": "cs2",
+      "league": "CS2",
+      "lane": "core",
+      "event": "Counter-Strike: Team Falcons vs Spirit (BO3) - ESL Pro League Playoffs",
+      "start": "2026-10-09T16:00:00.000Z",
+      "market": "Match Winner",
+      "selection": "Spirit",
+      "p_market": 0.585,
+      "fair_odds": 1.71
+    },
+    {
+      "id": "1081020-home_draw",
+      "sport": "football",
+      "league": "Primeira Liga",
+      "lane": "core",
+      "event": "Moreirense FC vs. Gil Vicente FC",
+      "start": "2026-10-09T17:45:00.000Z",
+      "market": "Double Chance",
+      "selection": "Moreirense FC or Draw",
+      "p_market": 0.5667,
+      "fair_odds": 1.76
+    }
+  ]
+}

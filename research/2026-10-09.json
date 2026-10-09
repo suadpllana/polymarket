@@ -1,0 +1,245 @@
+{
+  "date": "2026-10-09",
+  "researched_at": "2026-10-09T05:56:52Z",
+  "summary": "First club round after the international break plus the ESL Pro League CS2 quarter-finals and WTA Beijing/ATP Shanghai tennis. Kept legs mostly sit at or slightly below bookmaker consensus; excluded legs have unconfirmed fitness of key players (Musetti, Fritz, Schlotterbeck, BYU RB LJ Martin) or a team outside the HLTV top 30 (1WIN).",
+  "verdicts": [
+    {
+      "id": "1150429-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "1WIN are HLTV #33, outside the top 30 (HLTV news 45673 'Matchups set for EPL quarter-finals'; dust2.us match page).",
+      "main_risk": "In-form 1WIN (2-0 over Spirit and Legacy, 2-1 over G2 in the Swiss) pull off an upset.",
+      "sources": [
+        "https://www.dust2.us/matches/2398750/1win-vs-aurora",
+        "https://www.hltv.org/news/45673/matchups-set-for-epl-quarter-finals",
+        "https://www.dust2.us/results"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1150431-side1",
+      "exclude": false,
+      "adjustment_pp": 1,
+      "reason": "EPL S24 QF (single-elim Bo3, LAN): MOUZ (HLTV #3) went 3-0 in the Swiss incl. a 2-0 over FURIA (#4) on 4 Oct (Cache 13-4, Mirage 13-7), while FURIA went 3-2 and needed a decider on 7 Oct (dust2.us, HLTV 45673); regular lineups.",
+      "main_risk": "FURIA beat MOUZ 2-1 at StarSeries Fall weeks ago and MOUZ may be rusty after a long break.",
+      "sources": [
+        "https://www.dust2.us/matches/2398752/furia-vs-mouz",
+        "https://www.dust2.us/results",
+        "https://www.hltv.org/news/45673/matchups-set-for-epl-quarter-finals",
+        "https://www.hltv.org/news/45675/kyousuke-is-second-most-picked-at-197000-in-epl-playoffs-fantasy"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1150432-side1",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Spirit (HLTV #1) vs Falcons (#5): Spirit lost 0-2 to MOUZ and 1WIN in the Swiss before beating M80 in the decider (HLTV 45672); H2H split (Spirit won BLAST Porto SF, Falcons won Cologne Major SF); regular lineups — stay at market.",
+      "main_risk": "Falcons repeat their Cologne Major semi win over a Spirit side that dropped two Swiss series here.",
+      "sources": [
+        "https://www.dust2.us/matches/2398753/falcons-vs-spirit",
+        "https://www.hltv.org/news/45673/matchups-set-for-epl-quarter-finals",
+        "https://www.hltv.org/news/45672/spirit-secure-last-spot-in-the-spodek-over-m80",
+        "https://www.dust2.us/results"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1083680-home_draw",
+      "exclude": false,
+      "adjustment_pp": -2,
+      "reason": "Ligue 1 MD6 confirmed (rclens.fr); Lens 15th, winless in four under interim coach Cahuzac, official squad without Hazard and Todibo, Sima and Nawrocki out (horizonactu); Lyon 2nd and unbeaten with 2 conceded; books de-vig Lens-or-Draw 0.643-0.654, below market.",
+      "main_risk": "Lyon's Openda and Nuamah exploit a Lens defence with no clean sheet this season.",
+      "sources": [
+        "https://www.rclens.fr/",
+        "https://www.horizonactu.fr/actualite-49980-rc-lens-lyon-le-groupe-lensois-avec-les-retours-de-baidoo-abdulhamid-et-titraoui",
+        "https://www.ruedesjoueurs.com/pronostic/lens-lyon-5802947.html",
+        "https://africafoot.com/lens-lyon-les-compos-probables-avant-le-choc/",
+        "https://futboltotal.futbol/partido/lens-vs-lyon-ligue-1-2026-10-09"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1083680-away_draw",
+      "exclude": false,
+      "adjustment_pp": 2,
+      "reason": "Lens weakened (no Hazard, Todibo, Sima; interim coach) while Lyon beat Auxerre 3-1, Rennes 4-0 and won at Anderlecht; Lyon miss Niakhaté and Ouédraogo; books de-vig Lyon-or-Draw 0.602-0.606, above market.",
+      "main_risk": "Lens's strong record in the fixture (4 wins in last 7, incl. 4-0 at Lyon in May) and a loud Bollaert for Cahuzac's first home game.",
+      "sources": [
+        "https://www.rclens.fr/",
+        "https://www.horizonactu.fr/actualite-49980-rc-lens-lyon-le-groupe-lensois-avec-les-retours-de-baidoo-abdulhamid-et-titraoui",
+        "https://www.ruedesjoueurs.com/pronostic/lens-lyon-5802947.html",
+        "https://africafoot.com/lens-lyon-les-compos-probables-avant-le-choc/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1084134-away_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "LaLiga MD8 confirmed (laliga.com); bottom-placed Málaga have 3 goals all season, Espanyol lost two straight but have Roberto Fernández (6 goals) back; book consensus 0.646-0.655 ≈ market.",
+      "main_risk": "Málaga's first win against a fragile Espanyol defence without Kike García.",
+      "sources": [
+        "https://www.laliga.com/en-GB/laliga-easports/results",
+        "https://lagrada.org/convocatoria-malaga-espanyol-puado-vuelve-lista-nueve-meses/",
+        "https://www.futbolfantasy.com/laliga/noticias/152367-posibles-alineaciones-y-previa-fantasy-del-malaga-espanyol",
+        "https://www.dimers.com/la-liga/news/malaga-vs-espanyol-prediction-10-09-2026-ac"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1084134-home_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Málaga winless and 20th, missing Lobete, Murillo, Ochoa and loanee Salinas, but previews split (0-0, 1-1, 1-2); book range 0.642-0.655 and Dimers 0.619 around market.",
+      "main_risk": "An Espanyol win: Málaga winless in six home games and Espanyol have won six straight meetings.",
+      "sources": [
+        "https://www.laliga.com/en-GB/laliga-easports/results",
+        "https://www.101tv.es/malagacf/malaga-espanyol-bajas-posibles-alineaciones-y-como-llegan-ambos-equipos-al-partido",
+        "https://www.sportsgambler.com/betting-tips/football/malaga-vs-espanyol-prediction-lineups-odds-2026-10-09/",
+        "https://www.dimers.com/la-liga/news/malaga-vs-espanyol-prediction-10-09-2026-ac"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1100298-side1",
+      "exclude": true,
+      "adjustment_pp": -1,
+      "reason": "Key availability unconfirmed: BYU's top RB LJ Martin (ankle) and LB Isaiah Glasker listed doubtful by Sitake (Deseret, SLTrib, KSL) with backup RB Moa already out; line has moved from -14.5/-650 to -10/-410 (Scores & Stats) and consensus de-vigs to ~77%, below market.",
+      "main_risk": "BYU's run game stalls without Martin while Iowa State's freshman RB Aiden Flora breaks big plays in a tighter game.",
+      "sources": [
+        "https://www.deseret.com/sports/2026/10/06/byu-football-injury-situation-lj-martin-ankle-isaiah-glasker-sprain-iowa-state/",
+        "https://www.sltrib.com/sports/byu-cougars/2026/10/05/byu-injury-report-lj-martin-isaiah/",
+        "https://www.ksl.com/article/51632763/questions-abound-as-byu-prepares-for-iowa-state-with-injuries-to-top-players",
+        "https://www.si.com/betting/iowa-state-vs-byu-prediction-odds-and-key-players-to-watch-for-college-football-week-6-2026",
+        "https://www.scoresandstats.com/?p=459492"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1085833-home",
+      "exclude": false,
+      "adjustment_pp": -3,
+      "reason": "Eredivisie fixture confirmed (Ziggo listing, 18:00 UTC); PSV have no fit specialist striker (Pléa out for months, Pepi weeks, Lammers unfit per Flashscore), Wanner and Geertruida returned injured from internationals and lost 2-3 at Twente before the break; books (bet365/Unibet/BetMGM ~1.27) de-vig to 0.744-0.750, below market.",
+      "main_risk": "A striker-less PSV dominate the ball but can't finish, and Heerenveen take a draw.",
+      "sources": [
+        "https://www.ziggo.nl/entertainment/sport/voetbal/eredivisie/psv-eindhoven-sc-heerenveen-09-10-2026",
+        "https://www.voetbalwedden.net/wedstrijden/psv-eindhoven-sc-heerenveen/opstellingen",
+        "https://voetbal.headliner.nl/item/persconferentie-vorig-jaar-hebben-we-dit-ook-opgelost-psv-22003",
+        "https://www.flashscore.de/news/fu-ball-eredivisie-nachster-dampfer-ex-gladbacher-plea-fehlt-psv-eindhoven-monatelang/0C4Dk8t3/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1083681-home",
+      "exclude": true,
+      "adjustment_pp": -3,
+      "reason": "Key availability unconfirmed: Kovač left Schlotterbeck (hurt on international duty) and Ryerson as game-time decisions, with Svensson and Karetsas ill and Bensebaini and Albert returning late (bvb.de, 7 Oct); books de-vig ~0.705-0.73 and Opta 66% sit below the 0.74 market.",
+      "main_risk": "A weakened Dortmund back line concedes to an in-form Bremen (Füllkrug scoring in three straight) and drops points.",
+      "sources": [
+        "https://www.bvb.de/de/de/aktuelles/news/news.html/2026/10/7/Viele-Rueckkehrer-einige-Fragezeichen-die-Personallage-vor-dem-Bremen-Spiel.html",
+        "https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/5",
+        "https://www.wettbasis.com/sportwetten-tipps/dortmund-vs-werder-bremen-tipp-ki-prognose-quoten-09-10-2026",
+        "https://90min.de/bundesliga-prognose-vorhersage-tipps-zum-5-spieltag-26-27"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1081020-away_draw",
+      "exclude": false,
+      "adjustment_pp": -1,
+      "reason": "Primeira Liga MD8 confirmed (ESPN event 401885423, Lusa); Gil Vicente winless in 4 and conceded 3 goals after the 80th minute in their last two, without Zé Carlos and Bamba (Observador); DraftKings de-vig 71.9%, below market.",
+      "main_risk": "Moreirense win at home as Gil collapse late again.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/summary?event=401885423",
+        "https://observador.pt/2026/10/08/luis-pinto-promete-gil-vicente-mais-eficaz-no-duelo-com-o-moreirense-botelho-da-costa-destaca-impacto-positivo-da-paragem/",
+        "https://www.noticiasaominuto.com/desporto/3063421/vasco-botelho-da-costa-considera-paragem-positiva-para-o-moreirense",
+        "https://maisguimaraes.pt/moreirense-e-gil-vicente-chegam-empatados-a-8-pontos-ao-duelo-de-sexta-feira"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1081020-home_draw",
+      "exclude": false,
+      "adjustment_pp": 1,
+      "reason": "Gil Vicente winless in 4 with late-goal problems (Observador, ESPN); only minor absences on both sides; DraftKings de-vig 58.1% vs market 56.7%.",
+      "main_risk": "Gil's possession game beats a Moreirense side at -6 goal difference that lost 4-0 twice.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/summary?event=401885423",
+        "https://observador.pt/2026/10/08/luis-pinto-promete-gil-vicente-mais-eficaz-no-duelo-com-o-moreirense-botelho-da-costa-destaca-impacto-positivo-da-paragem/",
+        "https://www.noticiasaominuto.com/desporto/3063421/vasco-botelho-da-costa-considera-paragem-positiva-para-o-moreirense"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1086519-away_draw",
+      "exclude": false,
+      "adjustment_pp": -1,
+      "reason": "League MD8 confirmed (ESPN event 401885427); Sporting without suspended Debast and injured Vagiannidis and Nuno Santos, with Suárez, Maxi Araújo and Zalazar back late from South America (A Bola, Notícias ao Minuto); Sporting drew their last two and have never won at Braga under Borges; DraftKings de-vig 69.0%.",
+      "main_risk": "Braga's home press beats a reshuffled Sporting back line with tired South Americans.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/summary?event=401885427",
+        "https://www.abola.pt/noticias/sporting-excelente-noticia-para-rui-borges-antes-de-braga-2026100713282009638",
+        "https://www.noticiasaominuto.com/desporto/3063777/sp-braga-sporting-alta-tensao-no-minho-no-regresso-do-campeonato",
+        "https://observador.pt/prognosticos/prognostico-sc-braga-sporting-09-10/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1086519-home_draw",
+      "exclude": false,
+      "adjustment_pp": 1,
+      "reason": "Same Sporting absences and travel fatigue (A Bola, Notícias ao Minuto); Braga solid at home (1-0 vs Vitória and Estoril) and only missing Niakaté; DraftKings de-vig 59.7% vs market 58.7%.",
+      "main_risk": "Sporting's quality wins out — they scored first in 8 of the last 10 meetings (Observador).",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/summary?event=401885427",
+        "https://www.abola.pt/noticias/sporting-excelente-noticia-para-rui-borges-antes-de-braga-2026100713282009638",
+        "https://www.noticiasaominuto.com/desporto/3063777/sp-braga-sporting-alta-tensao-no-minho-no-regresso-do-campeonato",
+        "https://observador.pt/prognosticos/prognostico-sc-braga-sporting-09-10/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1147698-side1",
+      "exclude": false,
+      "adjustment_pp": -1,
+      "reason": "Official OP: QF third on Diamond Court, not before 11:00 UTC; Swiatek leads Mertens 2-0 without dropping a set (WTA QF preview) and beat Jovic 6-1 6-3, but Mertens just beat Gauff for the first time; book average 1.21/4.37 de-vigs to ~0.783, slightly below market; no injury news.",
+      "main_risk": "Mertens carries her form and Swiatek has another erratic Vekic-style patch.",
+      "sources": [
+        "https://wtafiles.wtatennis.com/pdf/draws/2026/1020/OP.pdf",
+        "https://www.wtatennis.com/news/4587446/china-open-quarterfinal-preview-qinwen-svitolina-mertens-swiatek-muchova-andreeva",
+        "https://www.wtatennis.com/news/4587818/mertens-beats-gauff-for-first-time-in-six-meetings-to-make-beijing-quarters",
+        "https://www.tennisexplorer.com/player/swiatek/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1152127-side1",
+      "exclude": true,
+      "adjustment_pp": -5,
+      "reason": "Fitness unconfirmed: Musetti withdrew from Tokyo on 30 Sep with a fractured right ring finger (atptour.com) and has not played since a US Open R2 loss on 3 Sep (tennisexplorer); Zhou (WC, No. 277) is match-fit after beating Bellucci; book average ~0.794, below market.",
+      "main_risk": "Musetti's hand or five weeks of rust fails him against a crowd-backed home wildcard.",
+      "sources": [
+        "https://www.atptour.com/en/news/musetti-tokyo-2026-withdrawal",
+        "https://www.protennislive.com/posting/2026/5014/op.pdf",
+        "https://www.tennisexplorer.com/player/musetti/",
+        "https://www.thestatszone.com/yi-zhou-vs-lorenzo-musetti-preview-prediction-2026-shanghai-masters-second-round-228719"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1153198-side1",
+      "exclude": true,
+      "adjustment_pp": -5,
+      "reason": "Fitness unconfirmed: Fritz 'appeared to struggle physically throughout' and took treatment in his Tokyo R1 loss to Munar on 1 Oct (atptour.com), with recurring knee tendinitis in 2026 and no all-clear since; book average ~0.763, 2pp below market.",
+      "main_risk": "Fritz's knee or the Tokyo problem hasn't cleared and match-sharp Arnaldi outlasts him.",
+      "sources": [
+        "https://www.atptour.com/en/news/fritz-munar-tokyo-2026-thursday",
+        "https://www.protennislive.com/posting/2026/5014/mds.pdf",
+        "https://www.tennisexplorer.com/player/fritz-f1aa7/",
+        "https://www.tennisexplorer.com/player/arnaldi/"
+      ],
+      "prices": []
+    }
+  ]
+}
