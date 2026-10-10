@@ -1,0 +1,495 @@
+{
+  "date": "2026-10-10",
+  "researched_at": "2026-10-10T05:59:37Z",
+  "summary": "A full Saturday of European league football, college football, UFC and the ESL Pro League semifinals; most kept legs sit at or slightly below de-vigged bookmaker prices and were trimmed accordingly. Exclusions are mainly unconfirmed key availability (QBs at Tennessee, Cal, UCF, Nevada; Rashford/Mainoo, Watanabe, Rucker, Blount) plus Challenger tennis and non-tier-1 esports.",
+  "verdicts": [
+    {
+      "id": "1100543-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Starting QB unconfirmed: ESPN and On3 report freshman George MacIntyre will make his first start with Faizon Brandon hurt (shoulder), but Heupel has not confirmed; DraftKings -550/+410 de-vigs to 0.812 (opened 0.832); numberFire 75.7%.",
+      "main_risk": "A first-start freshman QB on the road in 89F heat; Scores & Stats projects only Tennessee by 7.2.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856713",
+        "https://www.fanduel.com/research/tennessee-vs-arkansas-college-football-odds-picks-best-bets-for-10-10-2026",
+        "https://www.saturdaydownsouth.com/news/college-football/tennessee-reportedly-makes-decision-on-starting-quarterback-against-arkansas",
+        "https://www.newsweek.com/sports/ncaa/tennessee-making-qb-change-before-road-sec-game-12532816"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1100349-side1",
+      "exclude": false,
+      "adjustment_pp": -3,
+      "reason": "FPI 73.1% and numberFire 72.2% sit well below DraftKings -470/+360 (0.791); line moved from -14.5 to -11.5 after Florida were routed 45-17 at Missouri and South Carolina edge Dylan Stewart returns from suspension (Field Level Media); Florida QB Philo healthy.",
+      "main_risk": "Florida's offense stalls again and Sellers' running keeps South Carolina in it.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856714",
+        "https://www.fanduel.com/research/florida-vs-south-carolina-college-football-odds-picks-best-bets-for-10-10-2026",
+        "https://fieldlevelmedia.com/ncaaf/no-16-florida-needs-quick-rebound-against-talented-south-carolina/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1100488-side1",
+      "exclude": false,
+      "adjustment_pp": -1,
+      "reason": "QB Dante Moore officially OUT (concussion, Big Ten report) and experienced transfer Dylan Raiola starts (OPB); priced in as the line moved -535 to -410 (DraftKings de-vig 0.772); FPI 84.8%, numberFire 87.9%.",
+      "main_risk": "Unbeaten UCLA exploit Raiola's first start in Oregon's system.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858484",
+        "https://www.fanduel.com/research/oregon-vs-ucla-college-football-odds-picks-best-bets-for-10-10-2026",
+        "https://www.opb.org/article/2026/10/08/oregon-ducks-qb-dylan-raiola-faces-ucla-injured-dante-moore/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1100490-side0",
+      "exclude": false,
+      "adjustment_pp": -2,
+      "reason": "DraftKings -355/+280 de-vigs to 0.748 (moved from -410); FPI 71.3% and numberFire 53.6% below market; Vandy QB Jared Curtis listed probable on the SEC report and expected back (Saturday Down South); Ole Miss lost 52-28 to Florida before a bye.",
+      "main_risk": "Curtis returns at full strength and Vanderbilt win at home.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856718",
+        "https://www.fanduel.com/research/ole-miss-vs-vanderbilt-college-football-odds-picks-best-bets-for-10-10-2026",
+        "https://www.saturdaydownsouth.com/news/college-football/jared-curtis-expected-to-return-for-week-6-vs-ole-miss/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1100438-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Opponent starting QB unconfirmed: Cal QB Sagapolutele in concussion protocol as of Tuesday with no later update found (Field Level Media); line moved toward Cal without explanation (-455 to -375); FPI 71.9% below market.",
+      "main_risk": "Sagapolutele plays and Virginia Tech repeat their turnovers on a cross-country trip.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858259",
+        "https://fieldlevelmedia.com/?p=495814"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1100606-side1",
+      "exclude": false,
+      "adjustment_pp": -2,
+      "reason": "DraftKings -440/+340 de-vigs to 0.782; FPI 75.7% below market (numberFire 87%); Virginia 3-0 at home but QB Pribula was sacked 10 times in a 38-7 loss at FSU, while Syracuse QB Odom threw five TDs in his first start (Field Level Media, SI); no injuries reported.",
+      "main_risk": "Virginia's line can't protect Pribula again and Odom keeps Syracuse close.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858258",
+        "https://www.fanduel.com/research/virginia-vs-syracuse-college-football-odds-picks-best-bets-for-10-10-2026",
+        "https://fieldlevelmedia.com/?p=495863",
+        "https://www.si.com/college/syracuse/football/syracuse-virginia-football-preview-01kwt556hc1w"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1100731-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Opponent starting QB unconfirmed: Frost only 'doesn't think' UCF QB Barnett (hamstring) plays; models disagree sharply with market (FPI 62.4%, numberFire 55.7% vs DraftKings 0.787).",
+      "main_risk": "Barnett returns or UCF's defense keeps a rusty post-bye Oklahoma State close.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856824",
+        "https://www.fanduel.com/research/oklahoma-state-vs-ucf-college-football-odds-picks-best-bets-for-10-10-2026",
+        "https://fieldlevelmedia.com/ncaaf/no-18-oklahoma-state-hosts-undermanned-ucf-after-bye-week-bump/",
+        "https://www.pickswise.com/college-football/games/oklahoma-state-ucf-college-football-2026-10-10-1200/picks/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1089301-home_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Key availability unconfirmed: Carrick said Rashford, Mainoo and Amad have only 'done a little bit of training' and Mazraoui is 'not quite right', with Sesko and Dorgu out (Vavel, ReadManUtd); Spurs get van de Ven and van Hecke back (official Spurs site); books de-vig 0.782 ≈ market.",
+      "main_risk": "A thin United attack is caught on the counter by Spurs' fit-again centre-backs and Solanke/Marmoush.",
+      "sources": [
+        "https://footballapi.pulselive.com/football/fixtures?comps=1&statuses=U,L",
+        "https://www.vavel.com/en/football/2026/10/09/manchester-united/1274577-carrick-reveals-mixed-fitness-news-after-the-international-break.html",
+        "https://www.tottenhamhotspur.com/news/1175437/team-news-van-de-ven-van-hecke-available-for-old-trafford",
+        "https://www.football365.com/match-preview/man-utd-v-tottenham-prediction-preview",
+        "https://www.sportsmole.co.uk/football/man-utd/injury-news/news/nine-man-united-players-facing-fitness-tests-ahead-of-spurs-showdown_606332.html"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1089295-home_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Fixture confirmed (Premier League API, GW6); Alonso says Caicedo, James, Palmer and Joao Pedro are ready with only Gittens out (Sports Mole), winless Bournemouth miss Scott, Kluivert and Kroupi; Action Network projection 0.774 and -150 price bracket the market.",
+      "main_risk": "Chelsea's leaky defence (2+ conceded every league game) lets Bournemouth win.",
+      "sources": [
+        "https://footballapi.pulselive.com/football/fixtures?comps=1&statuses=U,L",
+        "https://www.sportsmole.co.uk/football/chelsea/injury-news/news/several-chelsea-stars-ready-to-go-after-injury-one-attacker-out-for-weeks_606557.html",
+        "https://www.sportsmole.co.uk/football/chelsea/preview/chelsea-vs-bournemouth-prediction-team-news-lineups_606416.html",
+        "https://lastwordonsports.com/football/2026/10/09/chelsea-vs-bournemouth-predicted-lineups-oct/",
+        "https://sports.yahoo.com/articles/chelsea-vs-bournemouth-prediction-pick-001630471.html"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1089922-away_draw",
+      "exclude": false,
+      "adjustment_pp": -1,
+      "reason": "LaLiga MD8 confirmed (Comuniate); Simeone has his first fully fit squad with Sørloth and Barrios back (Telemadrid, Esto es Atleti) after beating Real Madrid, while Alavés are winless in three but have the league's best defence; BetExplorer average de-vigs Atlético-or-Draw to 0.776, below market.",
+      "main_risk": "Alavés's back five nick a set-piece win against travel-tired Atlético internationals.",
+      "sources": [
+        "https://www.comuniate.com/en/noticias/38282/alaves-atletico-preview-probable-lineups-and-fantasy-tips-matchday-8-of-laliga",
+        "https://www.telemadrid.es/programas/deportes-tn/Simeone-avisa-El-Alaves-es-un-rival-duro-el-equipo-menos-goleado-de-Primera-2-2933126696--20261009035000.html",
+        "https://www.estoesatleti.es/articulo/noticias/simeone-paron-selecciones-atletico-alaves/20261009130000042084.html",
+        "https://www.betexplorer.com/football/spain/laliga/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1085834-home_draw",
+      "exclude": false,
+      "adjustment_pp": -1,
+      "reason": "Eredivisie R8 confirmed; GAE winless in four and without Dirksen (calf) and likely Marsman (Kowet Fans), Sparta beaten in their last two incl. 0-4 at Heerenveen; Pouletips model 77% and BetExplorer de-vig 0.773, slightly below market.",
+      "main_risk": "Sparta exploit a GAE defence missing Dirksen that has conceded 14 in 7.",
+      "sources": [
+        "https://www.kowetfans.nl/goed-en-slecht-blessurenieuws-richting-duel-met-sparta-rotterdam/",
+        "https://www.sportsmole.co.uk/football/go-ahead-eagles/preview/go-ahead-eagles-vs-sparta-prediction-team-news-lineups_606436.html",
+        "https://pouletips.nl/eredivisie/wedstrijd/go-ahead-eagles-sparta-rotterdam/",
+        "https://www.betexplorer.com/football/netherlands/eredivisie/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1092101-home_draw",
+      "exclude": true,
+      "adjustment_pp": -2,
+      "reason": "Key availability unconfirmed: starting CB Watanabe still a doubt per Van Bronckhorst on Friday (FR12) on top of a long Feyenoord injury list (Bos, Beelen, Borges, Moder, Nieuwkoop, Smal); unbeaten leaders AZ miss only Smit (NOS); BetExplorer de-vig 0.765, below market.",
+      "main_risk": "Unbeaten AZ beat a depleted Feyenoord defence.",
+      "sources": [
+        "https://www.fr12.nl/nieuws/van-bronckhorst-geeft-vanmiddag-laatste-update-richting-feyenoord-az",
+        "https://nos.nl/artikel/2634286-az-moet-geblesseerde-smit-weken-missen-niet-heel-gebleven-bij-jong-oranje",
+        "https://www.voetbalnieuws.nl/nieuws/2144855/enorme-domper-voor-az-sterkhouder-ontbreekt-tegen-feyenoord-door-liesklachten.html",
+        "https://www.betexplorer.com/football/netherlands/eredivisie/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1159403-side1",
+      "exclude": false,
+      "adjustment_pp": 1,
+      "reason": "EPL S24 semifinal (Katowice LAN, Bo3): Vitality (HLTV #2) list their regular five incl. apEX (dust2.us), beat PARIVISION 2-0 in the QF and are on a 6-series streak incl. 3-1 over Aurora at StarSeries Fall; jL is only an emergency backup with no sign apEX misses EPL (skin.club, fragster).",
+      "main_risk": "apEX leaves at short notice and jL stands in; Aurora (#9) beat 1WIN 2-0 and are in form.",
+      "sources": [
+        "https://www.dust2.us/matches/2398754/aurora-vs-vitality",
+        "https://www.dust2.us/results",
+        "https://community.skin.club/en/news/jl-to-travel-with-vitality-to-esl-pro-league-season-24",
+        "https://www.fragster.com/jl-vitality-stand-in-cs2/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1161335-side0",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "BLAST Slam VIII is a tier-1 Malta LAN ($750k, Field Level Media); LB semifinal Bo3, no stand-ins; PARIVISION beat Aurora 2-0 in seeding but lost 1-2 to Yandex and needed three games vs 1W (GosuGamers), so stay at market.",
+      "main_risk": "Aurora's aggressive style beats a PARIVISION side shaky in the playoffs.",
+      "sources": [
+        "https://www.gosugamers.net/dota2/news/79331-team-spirit-reach-upper-bracket-finals-while-1w-team-and-lgd-gaming-bow-out-of-blast-slam-viii",
+        "https://www.gosugamers.net/dota2/news/79322-team-yandex-advance-to-upper-bracket-finals-in-blast-slam-viii-playoffs",
+        "https://www.gosugamers.net/dota2/news/79289-blast-slam-viii-group-stage-ends-with-eastern-european-powerhouses-on-top",
+        "https://fieldlevelmedia.com/esports/spirit-parivision-advance-at-dota-2s-blast-slam-viii/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1161336-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Not tier-1: DreamLeague Western Europe Open Qualifier 1 is an open qualifier.",
+      "main_risk": "Excluded: open qualifier.",
+      "sources": [
+        "https://ggscore.com/en/dota-2/dreamleague-season-29/western-europe"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1150292-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Not tier-1: EMEA Masters is a tier-2 event (Insider Gaming; confirmed 6-7 Oct).",
+      "main_risk": "Excluded: tier-2 event.",
+      "sources": [
+        "https://insider-gaming.com/emea-masters-summer-seeding-and-invites-for-past-winners/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1153202-side1",
+      "exclude": false,
+      "adjustment_pp": 1,
+      "reason": "Shanghai R2 on today's official OP (5th on Stadium Court, ~12:00 UTC or later); Vacherot (17th seed) reached the Tokyo SF beating Tsitsipas and Fils, while clay specialist Báez lost his previous four hard-court matches before scraping past Giron (official draw, tennismajors, puntodebreak).",
+      "main_risk": "Vacherot's fitness (foot injury earlier this year) and pressure defending 1000 points let Báez grind out a three-setter.",
+      "sources": [
+        "https://www.protennislive.com/posting/2026/5014/op.pdf",
+        "https://www.protennislive.com/posting/2026/5014/mds.pdf",
+        "https://www.tennismajors.com/?p=862813",
+        "https://www.puntodebreak.com/2026/09/26/vacherot-pierde-136-ranking-podria-desplomarse-torneo-shanghai"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1161752-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Palermo is an ATP Challenger 50 (official ATP Challenger calendar); Challenger events are excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://www.atptour.com/-/media/files/calendar-pdfs/2026/2026-27-atp-challenger-calendar-as-of-27-september-2026.pdf"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1100524-side1",
+      "exclude": false,
+      "adjustment_pp": -1,
+      "reason": "Rice (1-4) at ECU (2-2) verified (ESPN); DraftKings -380/+300 de-vigs to ~0.760, FPI 82.6%; ECU switched to QB Emory Williams, confirmed as starter by At The Roost and Bonesville, and rank last in FBS on third down while Rice's option offense shortens games.",
+      "main_risk": "Rice's option running keeps a low-possession game close while ECU's new QB stalls; kickoff time conflicts across sources (17:00Z vs 20:00Z).",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862797",
+        "https://attheroost.com/2026/10/09/know-your-foe-rice-football-ecu/",
+        "https://bonesville.net/2026/10/05/rice-makes-first-trip-to-greenville-since-2009/",
+        "https://news.rice.edu/news/2026/rice-looks-snap-skid-road-test-east-carolina"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1100364-side1",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "ODU (1-4) at App State (3-1) verified; DraftKings -375/+295 (~0.757) and FanDuel -385/+300 (~0.761, NCFootballNews), FPI 78.1%; QB Singleton healthy, only non-QB absences.",
+      "main_risk": "Heavy rain in Boone slows App State's passing game and ODU keep it close.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869843",
+        "https://ncfootballnews.com/games/appalachian-state-football-vs-old-dominion-2026/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1100578-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Starting QB unconfirmed: Nevada QB Carter Jones left the Air Force game on 26 Sep with a head injury (Rotowire via KOLO8) and Nevada Sports Net's 8 Oct preview doesn't confirm he starts; DraftKings ~0.757.",
+      "main_risk": "Jones is out or limited and a backup can't move the offense on the road.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864517",
+        "https://nevadasportsnet.com/newsletter-daily/position-preview-for-nevada-football-at-utep-who-has-the-edge-where",
+        "https://www.rotowire.com/cfootball/headlines/carter-jones-injury-exits-with-head-injury-232059"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1100407-side1",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "EIU (1-4, four straight losses) at Gardner-Webb verified (ESPN); Gardner-Webb lost by one at both Liberty and Marshall and QB Pennington (3rd in FCS passing) played last week; DraftKings -620/+420 ~0.817, market already above it.",
+      "main_risk": "Gardner-Webb's offense bogs down as in a 12-10 win and a rested EIU keep it close; no injury report for either team.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401868180",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2241/schedule?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2197/schedule?season=2026",
+        "https://gwusports.com/news/2026/10/8/runnin-bulldogs-return-home-to-face-eastern-illinois"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1100557-side0",
+      "exclude": true,
+      "adjustment_pp": -2,
+      "reason": "Key availability unconfirmed: All-American edge Lance Rucker was getting foot imaging with status unresolved (Grand Forks Herald, 5 Oct); UNI rested at home in the dome after upsetting No. 3 Illinois State (AP); DraftKings -511/+362 ~0.794, 3pp below market.",
+      "main_risk": "A rested UNI exploit a leaky UND defence, especially without Rucker.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401867877",
+        "https://www.grandforksherald.com/sports/college/physicality-is-the-focus-ahead-of-und-northern-iowa-on-saturday",
+        "https://www.kjan.com/sports/northern-iowas-todd-stepsis-previews-no-4-north-dakota/",
+        "https://abcnews.com/Sports/wireStory/jaxon-daileys-3-total-tds-uni-beat-fcs-136790158"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1100371-side1",
+      "exclude": false,
+      "adjustment_pp": -1,
+      "reason": "Samford (1-4) at Chattanooga (3-3) verified; DraftKings -472/+339 ~0.784 with a 40.5 total; UTC's offense scored 9, 17 and 3 in its losses (Times Free Press) though no QB injury reported.",
+      "main_risk": "UTC's offense stalls in a low-scoring game and one Samford turnover flips it.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401868340",
+        "https://www.timesfreepress.com/news/2026/oct/03/mocs-fall-at-etsu-as-late-mistakes-hurt",
+        "https://www.timesfreepress.com/news/2026/oct/06/utc-football-five-things-to-know-about-socon/",
+        "https://www.covers.com/sport/football/ncaaf/matchup/378331/picks"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1100315-side1",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Homecoming game at Hughes Stadium confirmed (morganstatebears.com); 4-1 Morgan State, QB Cameron Edge healthy after 444 yards at Villanova, no injuries listed; Dimers ML -431/+315 (~77.1%) and model 80.2% bracket the market.",
+      "main_risk": "A flat game after the Villanova upset against a Robert Morris side strong on third down.",
+      "sources": [
+        "https://morganstatebears.com/sports/football/schedule/2026",
+        "https://morganstatebears.com/news/2026/10/5/football-morgan-state-to.aspx",
+        "https://morganstatebears.com/news/2026/10/9/homecoming-orange-is-saturday.aspx",
+        "https://www.dimers.com/cfb/predictions/2026_6_morg_rmu"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1100402-side0",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Noon ET at The Citadel confirmed (etsubucs.com, Dimers); No. 24 ETSU (4-2, 2-0 SoCon) vs 2-3 Citadel, QB Mims active; Dimers ML -450/+327 (~77.8%) matches market (single line source, so no nudge).",
+      "main_risk": "ETSU's inconsistent offense (14 vs Chattanooga, 37-49 loss to Campbell) on its first SoCon road trip.",
+      "sources": [
+        "https://etsubucs.com/sports/football/schedule/2026",
+        "https://www.dimers.com/cfb/predictions/2026_6_cit_etsu",
+        "https://eng.pressbee.net/show4914742.html"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1100372-side1",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "South Dakota hosts at the DakotaDome (goyotes.com); No. 10 USD has won 17 of its last 18 home games and four straight in the series, QB Modrzewski 18 TD passes; Dimers ML -390/+292 (~75.7%) ≈ market (single line source).",
+      "main_risk": "SIU QB DJ Williams, back from injury, makes plays with his legs.",
+      "sources": [
+        "https://goyotes.com/sports/football/schedule/2026",
+        "https://goyotes.com/news/2026/10/5/football-preview-coyotes-salukis-set-for-a-top-25-clash-in-vermillion.aspx",
+        "https://www.strongdawgs.com/post/siu-at-south-dakota-preview-rematch-of-a-five-overtime-thriller",
+        "https://www.dimers.com/cfb/predictions/2026_6_sdak_siu"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1100409-side0",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Richmond (5-1, 3-0 Patriot) at 1-5 Fordham, 3:30 ET (Dimers, ESPN listing); QB Snelsire healthy (Patriot League OPOW); Dimers ML -397/+294 (~75.9%) and model 74.3% match market.",
+      "main_risk": "A low-total road game decided by one score, like last year's 17-14.",
+      "sources": [
+        "https://www.dimers.com/cfb/predictions/2026_6_for_rich",
+        "https://eng.pressbee.net/show4914742.html",
+        "https://www.espn.com/college-football/preview/_/gameId/401868011"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1100546-side0",
+      "exclude": true,
+      "adjustment_pp": -1,
+      "reason": "Key availability unconfirmed: Jackson State's leading rusher Nate Blount IV left the last game injured with no status update (Yahoo, BVM Sports); JSU have lost 8 of last 11 at Grambling; Dimers ML -368/+275 (~74.6%) below market.",
+      "main_risk": "A road rivalry upset by a Grambling side that scored 63 against Alcorn.",
+      "sources": [
+        "https://gojsutigers.com/sports/football/schedule/2026",
+        "https://sports.yahoo.com/articles/jackson-state-vs-grambling-state-100340453.html",
+        "https://bvmsports.com/2026/10/08/no-22-jackson-state-hits-the-road-to-face-grambling-state-on-saturday/",
+        "https://www.dimers.com/cfb/predictions/2026_6_gram_jkst"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1089274-away_draw",
+      "exclude": false,
+      "adjustment_pp": -1,
+      "reason": "Bundesliga MD5 confirmed (bundesliga.com; promoted Paderborn); Stuttgart lost two straight and won 1 of last 9 league away games, with keeper Seimen making his Bundesliga debut (Hoeneß via 90min), offset by 4W-1D record vs Paderborn and scoring in 23 straight away games.",
+      "main_risk": "Promoted Paderborn, fresh off a 3-1 win, beat a Stuttgart side with poor away form and a debutant keeper.",
+      "sources": [
+        "https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/5/sc-paderborn-07-vs-vfb-stuttgart",
+        "https://www.bundesliga.com/en/bundesliga/table",
+        "https://www.90min.de/seimen-oder-bredlow-gegen-paderborn-hoeness-legt-sich-im-vfb-tor-fest",
+        "https://www.livetipsportal.com/de/sportwetten-tipps/sc-paderborn-07-vs-vfb-stuttgart-bundesliga-12194185/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1089298-home_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Leipzig unbeaten at home and chasing an 8th straight home league win (bundesliga.com), but coach Demichelis under pressure with PSV in the UCL Tuesday and internationals back late (Roundtable); Frankfurt miss Maluze and Pimpong (hessenschau); Leipzig ~1.53 implies ~0.82 for the double chance ≈ market.",
+      "main_risk": "A distracted Leipzig, short of training time and eyeing PSV, lose to an unbeaten-away Frankfurt.",
+      "sources": [
+        "https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/5/rb-leipzig-vs-eintracht-frankfurt/liveticker",
+        "https://roundtable.io/sports/soccer/bundesliga/rb-leipzig/news/demichelis-get-just-two-days-to-prepare-for-bayern-and-real-madrid-run",
+        "https://www.hessenschau.de/sport/fussball/eintracht-frankfurt/eintracht-frankfurt-scharf-auf-leipzig-krise-raetselraten-um-sturmbesetzung-v1,eintracht-leipzig-vorbericht-100.html",
+        "https://footballwhispers.com/blog/rb-leipzig-vs-eintracht-frankfurt-prediction-10-10-26/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1089273-home_draw",
+      "exclude": false,
+      "adjustment_pp": -1,
+      "reason": "Ligue 1 MD6 at Stade Louis II; Monaco top and unbeaten vs 13th-placed Toulouse with no clean sheet (Sports Mole, Flashscore), but Brunner suspended, Coulibaly injured and a Conference League trip follows; Betclic 1.54/4.15/5.00 and DraftKings de-vig to 0.809-0.816, just below market.",
+      "main_risk": "Toulouse repeat their 2023 and 2024 wins at Louis II against a Monaco side with fitness doubts and possible rotation.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/as-monaco/preview/monaco-vs-toulouse-prediction-team-news-lineups_606406.html",
+        "https://www.flashscore.fr/actualites/football-ligue-1-monaco-toulouse-ou-regarder-le-match-de-la-ligue-1-heure-et-compos/YkO63ix1/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1086521-away_draw",
+      "exclude": false,
+      "adjustment_pp": -1,
+      "reason": "MD8 confirmed but kickoff moved to 19:30 UTC after Santa Clara's Azores flight was cancelled (Liga Portugal via Flashscore, Record); unbeaten 4th-placed Santa Clara vs 17th-placed Casa Pia (lost all 3 home games, 3 scored/16 conceded, GK André Gomes out per A Bola, SAPO); DraftKings de-vig 0.786, slightly below market.",
+      "main_risk": "Santa Clara, arriving on an overnight flight, lose the same day; any further travel disruption changes the event.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261009-20261012",
+        "https://www.record.pt/futebol/futebol-nacional/liga-betclic/santa-clara/amp/santa-clara-com-voo-adiado-e-jogo-frente-ao-casa-pia-vai-passar-para-as-20h30",
+        "https://www.flashscore.pt/noticias/futebol-liga-portugal-betclic-oficial-santa-clara-com-voo-cancelado-para-lisboa-e-jogo-com-casa-pia-passa-para-as-20-30/hKvjHUD5/",
+        "https://www.abola.pt/noticias/casa-pia-quer-dar-amargo-de-boca-a-uma-das-melhores-equipas-do-campeonato-2026100915165022506",
+        "https://sapo.pt/artigo/casa-pia-ac-x-santa-clara-antevisao-ausencias-e-onzes-provaveis-6ac96b2bded6b2a5e3c2f7ad"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1086523-away",
+      "exclude": false,
+      "adjustment_pp": -2,
+      "reason": "MD8 at Barreiros confirmed; Porto 7/7 with all nine internationals in a 25-man squad (Record, A Bola) vs 11th-placed Maritimo; but DraftKings -330/+425/+900 de-vigs Porto to 0.725, Flashscore odds ~0.71 and Sports Mole model 62.6%, all below market.",
+      "main_risk": "A draw at a hard away ground with an imperfect pitch and internationals short on preparation.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261009-20261012",
+        "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/os-convocados-do-fc-porto-para-o-jogo-contra-o-maritimo",
+        "https://www.abola.pt/noticias/novidades-nos-convocados-do-fc-porto-para-o-jogo-com-o-maritimo-2026100914515722986",
+        "https://www.dnoticias.pt/2026/10/9/508381-treinador-quer-maritimo-ambicioso-na-recepcao-ao-lider-fc-porto/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1121292-side1",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "UFC Vegas 122 bout confirmed; Ribeiro missed weight (208.5) while Franco made 205 (Cageside Press, Sherdog); Ribeiro has lost four straight and Franco moved from -270 to -350/-440 (BestFightOdds), ~77-78% de-vigged, matching the market.",
+      "main_risk": "The heavier, longer Ribeiro lands a KO on a Franco possibly drained by his first cut to 205.",
+      "sources": [
+        "https://cagesidepress.com/2026/10/09/ufc-vegas-122-allen-vs-duncan-weigh-in-results/",
+        "https://www.sherdog.com/news/news/UFC-Vegas-122-weighin-results-Main-event-set-3-fighters-heavy-203152",
+        "https://www.bestfightodds.com/events/ufc-332-4378",
+        "https://www.bestfightodds.com/fighters/felipe-franco-19819",
+        "https://www.docsports.com/free-picks/ufc/2026/felipe-franco-vs-brendson-ribeiro-pick-10-10-2026-predictions-ufc-vegas-122-odds.html"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1121296-side1",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Bout booked since August (AgentMMA), both made weight (Cageside Press, Sherdog); 6-0 Harris won his UFC debut by R1 TKO while Frye lost his only UFC fight; -300/-380 (BestFightOdds) consistent with the 0.76 market.",
+      "main_risk": "One Frye punch ends it at heavyweight; Harris has only six pro fights.",
+      "sources": [
+        "https://cagesidepress.com/2026/10/09/ufc-vegas-122-allen-vs-duncan-weigh-in-results/",
+        "https://www.sherdog.com/news/news/UFC-Vegas-122-weighin-results-Main-event-set-3-fighters-heavy-203152",
+        "https://www.bestfightodds.com/fighters/rj-harris-20444",
+        "https://agentmma.com/news/88617-rj-harris-vs-allen-frye-jr-targeted-for-ufc-vegas-122-on-oct-10",
+        "https://blog.youwager.lv/2026/10/08/allen-frye-jr-vs-rj-harris-betting-prediction-october-10-2026/"
+      ],
+      "prices": []
+    }
+  ]
+}
