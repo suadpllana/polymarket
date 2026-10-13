@@ -1,0 +1,399 @@
+{
+  "date": "2026-10-13",
+  "researched_at": "2026-10-13T05:57:26Z",
+  "summary": "Champions League matchday 2 dominates, with most favourites (Arsenal, Inter, Barcelona) trimmed toward slightly lower DraftKings fair prices and Leipzig/Atlético legs held at market after large news-driven line moves. Excluded legs cover games with unconfirmed key availability (McTominay, Slavia midfield, Sporting's Suárez/Maxi), Challenger/WTA 125 tennis and lower-tier Dota qualifiers.",
+  "verdicts": [
+    {
+      "id": "1176855-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Not tier-1: EPL Masters is 'a Tier 3 Dota 2 tournament series' (Strafe) and this is its qualifying play-in featuring an academy team.",
+      "main_risk": "Thin data and volatile form at tier-3 level.",
+      "sources": [
+        "https://www.strafe.com/event/epl-masters-season-2-2026-f3d301/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1176856-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Not tier-1: same EPL Masters tier-3 play-in (Strafe); Dawn Bulls also play a second Bo3 the same day.",
+      "main_risk": "Seasoned Nemiga against a Dawn Bulls side on a back-to-back.",
+      "sources": [
+        "https://www.strafe.com/event/epl-masters-season-2-2026-f3d301/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1177348-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Not tier-1: DreamLeague Eastern Europe Closed Qualifier is a regional online qualifier rated 'Tier C' (esports.ru).",
+      "main_risk": "Evenly matched lower-tier sides with a split recent H2H.",
+      "sources": [
+        "https://esports.ru/dota-2/tournaments/dreamleague-eastern-europe-closed-qualifier-season-27-2025/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1145233-side1",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Bout confirmed on the DWCS S10 finale, booked since 2 Sep, and all 10 fighters made weight (Cageside Press, Sherdog); 2-0 Sundell (former ONE Muay Thai champion, 36-5-1) vs 3-2 Pereira; books ~-770/+500 de-vig to ~84% (BestFightOdds), in line with the market.",
+      "main_risk": "A striking exchange goes wrong against ex-GLORY/Karate Combat champion Pereira, or Sundell shows a grappling hole in only her third MMA fight.",
+      "sources": [
+        "https://cagesidepress.com/2026/10/12/dana-whites-contender-series-season-10-week-10-weigh-in-results/",
+        "https://www.sherdog.com/news/news/DWCS-Week-10-weighin-results-All-10-fighters-make-weight-203172",
+        "https://cagesidepress.com/2026/09/02/aline-pereira-draws-smilla-sundell-dwcs/",
+        "https://combatpress.com/2026/10/dana-whites-contender-series-season-10-week-10-preview-predictions/",
+        "https://www.bestfightodds.com/fighters/smilla-sundell-16561"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1177831-side0",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Wuhan R32 confirmed (official MDS): 6th seed Muchova (40-11 in 2026), rested since 8 Oct, vs qualifier McNally after three tough matches in three days; Elo 79.9%, Betfair ~0.79 and bookmaker consensus ~0.78 all at market; no current injury news (WTA draw article, puntodebreak).",
+      "main_risk": "A fitness flare-up or retirement given her injury history (retired in Wuhan 2025), or a flat display like the 6-3 6-0 Beijing loss.",
+      "sources": [
+        "https://wtafiles.wtatennis.com/pdf/draws/2026/1075/MDS.pdf",
+        "https://www.tennisexplorer.com/match-detail/?id=3347411",
+        "https://stringtension.com/head-to-head/wta/karolina-muchova/caty-mcnally",
+        "https://www.wtatennis.com/news/4589994/wuhan-draw-sabalenka-swiatek-eye-first-2026-meeting-in-quarterfinals",
+        "https://www.puntodebreak.com/en/2026/10/08/bartunkova-knocks-out-muchova-and-advances-to-the-semifinals-in-beijing"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1171807-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Olbia is an ATP Challenger 125 (official calendar); Challenger-level events (incl. WTA 125) are excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://www.atptour.com/-/media/files/calendar-pdfs/2026/2026-27-atp-challenger-calendar-as-of-27-september-2026.pdf"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1178026-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Olbia is an ATP Challenger 125 (official calendar); Challenger-level events (incl. WTA 125) are excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://www.atptour.com/-/media/files/calendar-pdfs/2026/2026-27-atp-challenger-calendar-as-of-27-september-2026.pdf"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1178036-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Roanne is an ATP Challenger 100 (official calendar); Challenger-level events (incl. WTA 125) are excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://www.atptour.com/-/media/files/calendar-pdfs/2026/2026-27-atp-challenger-calendar-as-of-27-september-2026.pdf"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1178037-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Roanne is an ATP Challenger 100 (official calendar); Challenger-level events (incl. WTA 125) are excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://www.atptour.com/-/media/files/calendar-pdfs/2026/2026-27-atp-challenger-calendar-as-of-27-september-2026.pdf"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1167468-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Maia is an ATP Challenger 100 (official calendar); Challenger-level events (incl. WTA 125) are excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://www.atptour.com/-/media/files/calendar-pdfs/2026/2026-27-atp-challenger-calendar-as-of-27-september-2026.pdf"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1179896-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Maia is an ATP Challenger 100 (official calendar); Challenger-level events (incl. WTA 125) are excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://www.atptour.com/-/media/files/calendar-pdfs/2026/2026-27-atp-challenger-calendar-as-of-27-september-2026.pdf"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1178033-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "San Gregorio di Catania is an ATP Challenger 50 (official calendar); Challenger-level events (incl. WTA 125) are excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://www.atptour.com/-/media/files/calendar-pdfs/2026/2026-27-atp-challenger-calendar-as-of-27-september-2026.pdf"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1165457-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Jinan is an ATP Challenger 125 (official calendar); Challenger-level events (incl. WTA 125) are excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://www.atptour.com/-/media/files/calendar-pdfs/2026/2026-27-atp-challenger-calendar-as-of-27-september-2026.pdf"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1171602-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Mallorca is a WTA 125 (WTA API); Challenger-level events (incl. WTA 125) are excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://api.wtatennis.com/tennis/tournaments/?page=0&pageSize=50&excludeLevels=ITF&from=2026-10-05&to=2026-10-20"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1179729-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Lisbon (Lisboa Belem Open) is a WTA 125 (WTA API); Challenger-level events (incl. WTA 125) are excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://api.wtatennis.com/tennis/tournaments/?page=0&pageSize=50&excludeLevels=ITF&from=2026-10-05&to=2026-10-20"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1171595-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Lisbon (Lisboa Belem Open) is a WTA 125 (WTA API); Challenger-level events (incl. WTA 125) are excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://api.wtatennis.com/tennis/tournaments/?page=0&pageSize=50&excludeLevels=ITF&from=2026-10-05&to=2026-10-20"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1167236-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Rovereto is a WTA 125 (WTA API); Challenger-level events (incl. WTA 125) are excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://api.wtatennis.com/tennis/tournaments/?page=0&pageSize=50&excludeLevels=ITF&from=2026-10-05&to=2026-10-20"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1167245-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Rovereto is a WTA 125 (WTA API); Challenger-level events (incl. WTA 125) are excluded.",
+      "main_risk": "Excluded: Challenger-level event.",
+      "sources": [
+        "https://api.wtatennis.com/tennis/tournaments/?page=0&pageSize=50&excludeLevels=ITF&from=2026-10-05&to=2026-10-20"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1109534-home",
+      "exclude": false,
+      "adjustment_pp": -2,
+      "reason": "UCL MD2 confirmed (ESPN); Arteta confirmed Hincapie and Zubimendi out with Saliba and Tzolis also absent (thefalse9, arseblog), Lille without Mbappe Lottin and Igamane (Sports Mole); DraftKings fair 0.786, about 2pp below market.",
+      "main_risk": "A deep-sitting Lille (Giroud up front) hold a draw against an Arsenal side short at the back and in midfield and finishing poorly.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261013",
+        "https://thefalse9.com/2026/10/arsenal-injury-update-hincapie-zubimendi-out-lille.html",
+        "https://arseblog.news/2026/10/arteta-wants-arsenal-to-make-more-of-their-attacking-promise/",
+        "https://www.sportsmole.co.uk/football/arsenal/champions-league/preview/arsenal-vs-lille-prediction-team-news-lineups_606658.html"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1109537-home",
+      "exclude": false,
+      "adjustment_pp": -1,
+      "reason": "Chivu says Calhanoglu fine and Bastoni available with 'some changes' after Parma (Sky Sport Italia, MilanoSportiva); Stones out (Sports Mole); DraftKings fair moved 0.721 to 0.768 on that news, slightly below the 0.7765 market.",
+      "main_risk": "Light rotation plus Inter's poor recent UCL record (6 losses in 7) against a high-scoring Brugge leads to a draw.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261013",
+        "https://sport.sky.it/calcio/champions-league/2026/10/12/inter-brugge-chivu-intervista-video",
+        "https://www.lapresse.it/calcio/2026/10/13/inter-club-brugge-oggi-in-champions-league-orario-probabili-formazioni-e-dove-vederla-in-tv/",
+        "https://www.milanosportiva.com/chivu-akanji-conferenza-inter-club-brugge-champions-13-ottobre/",
+        "https://www.sportsmole.co.uk/football/inter-milan/champions-league/preview/inter-milan-vs-brugge-prediction-team-news-lineups_606669.html"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1109539-away",
+      "exclude": false,
+      "adjustment_pp": -2,
+      "reason": "Barcelona (9/9 in LaLiga, six straight wins) without Raphinha, De Jong and Christensen, keeper Joan García fit (COPE squad list, socblaugrana); Galatasaray near full strength with Osimhen in Turkish predicted XIs (halktv, aspor); DraftKings fair 0.735, ~3pp below market.",
+      "main_risk": "RAMS Park atmosphere and the pace of Osimhen and Leão exploit Barcelona's high line without Raphinha.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261013",
+        "https://www.cope.es/programas/tiempo-de-juego/noticias/flick-repite-convocatoria-partido-galatasaray-20261012_3454071.html",
+        "https://socblaugrana.com/previa/flick-se-moja-mas-que-nunca/",
+        "https://halktv.com.tr/spor/galatasaray-barcelona-karsisinda-iste-ilk-11-okan-buruk-kararini-resmen-acikladi-1061300h",
+        "https://www.sportsmole.co.uk/football/galatasaray/champions-league/preview/galatasaray-vs-barcelona-prediction-team-news-lineups_606695.html"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1109531-home",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "UCL MD2 confirmed (ESPN); PSV have no fit recognised striker (Pléa, Pepi, Lammers out per NOS/Bosz presser) while Leipzig beat Frankfurt 6-0; market already moved Leipzig from ~46% to 58% fair (DraftKings), Polymarket ~1pp above — no extra edge.",
+      "main_risk": "In-form PSV (20-6 goals in last five) win an open, high-press game; over 3.5 at -130.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261013",
+        "https://nos.nl/artikel/2634721-bosz-verwacht-champions-league-spektakel-in-leipzig-het-wordt-vuur-met-vuur",
+        "https://www.sportschau.de/regional/mdr/vorschau-rb-leipzig-psv-eindhoven,vorschau-rbl-psv-100.html",
+        "https://starting11.com/fixtures/rb-leipzig-vs-psv-eindhoven-20261013"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1109531-home_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "PSV's striker crisis (NOS) already priced: DraftKings fair 1X 78.7 vs Polymarket 79.7; Leipzig miss only squad players Baumgartner, Guiu, Ouédraogo (club presser via Sportschau).",
+      "main_risk": "A PSV away win from Bosz's high-tempo side in a volatile game.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261013",
+        "https://nos.nl/artikel/2634721-bosz-verwacht-champions-league-spektakel-in-leipzig-het-wordt-vuur-met-vuur",
+        "https://www.sportschau.de/regional/mdr/vorschau-rb-leipzig-psv-eindhoven,vorschau-rbl-psv-100.html"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1109535-home_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Key availability unconfirmed: Allegri will decide on Tuesday morning whether McTominay starts after his heart procedure (mondonapoli), and Villarreal's XI is open over muscle management (futbolfantasy); Napoli also miss Anguissa, Olivera, Alisson and Buongiorno.",
+      "main_risk": "Napoli, fresh off a 3-0, beat a Villarreal side on 10 straight UCL defeats.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261013",
+        "https://www.mondonapoli.it/conferenza-stampa/2026/10/12/allegri-conferenza-stampa-villarreal-champions/",
+        "https://www.futbolfantasy.com/laliga/noticias/152642-inigo-perez-explica-como-llega-el-equipo-y-habla-de-pepe-de-bruyne-rafa-marin-y-las-rotacione",
+        "https://www.sportsmole.co.uk/football/villarreal/champions-league/preview/villarreal-vs-napoli-prediction-team-news-lineups_606662.html"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1109535-away_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Key availability unconfirmed: McTominay's start is a Tuesday-morning decision (Allegri presser via mondonapoli) with Napoli short in midfield and defence; DraftKings fair X2 55.6 vs Polymarket 54.7.",
+      "main_risk": "A Villarreal home win.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261013",
+        "https://www.mondonapoli.it/conferenza-stampa/2026/10/12/allegri-conferenza-stampa-villarreal-champions/",
+        "https://www.sportsmole.co.uk/football/villarreal/champions-league/preview/villarreal-vs-napoli-prediction-team-news-lineups_606662.html"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1109542-home_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Carrick confirmed Mainoo and Shaw did not travel and Sesko is out (thepeoplesperson transcript, GiveMeSport), while Simeone had his whole squad in training (Holanews); market already moved Atlético from ~41% to 49% and DraftKings fair 1X 73.4 ≈ Polymarket 74.0.",
+      "main_risk": "United's counter-attacking pace (Rashford, Amad, Mbeumo, Bruno) wins it.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261013",
+        "https://thepeoplesperson.com/2026/10/12/every-word-of-michael-carricks-atletico-madrid-pre-match-press-conference-318854/",
+        "https://holanews.com/simeone-con-todos-disponibles-en-el-ultimo-entrenamiento-antes-del-united/",
+        "https://www.givemesport.com/atletico-madrid-man-utd-team-news-starting-lineups-champions-league/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1109542-away_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Man United without Mainoo, Shaw, Sesko and Mazraoui (Carrick presser, GiveMeSport) against a fully fit Atlético (Holanews); DraftKings fair X2 50.9 ≈ Polymarket 51.0, news already priced.",
+      "main_risk": "An Atlético home win, which the market increasingly expects.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261013",
+        "https://thepeoplesperson.com/2026/10/12/every-word-of-michael-carricks-atletico-madrid-pre-match-press-conference-318854/",
+        "https://holanews.com/simeone-con-todos-disponibles-en-el-ultimo-entrenamiento-antes-del-united/",
+        "https://www.givemesport.com/atletico-madrid-man-utd-team-news-starting-lineups-champions-league/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1104417-away_draw",
+      "exclude": true,
+      "adjustment_pp": -1,
+      "reason": "Key availability unconfirmed: Slavia captain Sadílek, Provod and Fukala have fitness doubts on top of three centre-backs out (livesport.cz, idman.biz) and 'far from ideal' squad health; UCL MD2 in Baku confirmed (ESPN 401915436); DraftKings fair 0.719, below market.",
+      "main_risk": "Sabah's home attack exposes Slavia's patched back three.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261013",
+        "https://www.livesport.cz/zpravy/fotbal-liga-mistru-slavia-ma-tri-obrance-mimo-hru-kdo-nahradi-chaloupka-a-koho-trpisovsky-postavi-na-kraje/hKUqespg/",
+        "https://www.idman.biz/en/news/az-football/160943",
+        "https://www.thestatszone.com/sabah-vs-slavia-prague-preview-team-news-prediction-2026-27-uefa-champions-league-league-phase-229644",
+        "https://www.denik.cz/ostatni-fotbal/sabah-slavia-liga-mistru-uefa-trpisovsky-hraji-jako-barcelona-vlcek/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1104417-home_draw",
+      "exclude": true,
+      "adjustment_pp": 1,
+      "reason": "Key availability in this game unconfirmed (Slavia's Sadílek, Provod, Fukala doubtful per livesport.cz/idman.biz), so excluded under the rule even though the doubts favour this side; DraftKings fair 0.535 vs market 0.527.",
+      "main_risk": "Slavia's pressing beats a Sabah side yet to score in the UCL.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261013",
+        "https://www.livesport.cz/zpravy/fotbal-liga-mistru-slavia-ma-tri-obrance-mimo-hru-kdo-nahradi-chaloupka-a-koho-trpisovsky-postavi-na-kraje/hKUqespg/",
+        "https://www.idman.biz/en/news/az-football/160943",
+        "https://www.thestatszone.com/sabah-vs-slavia-prague-preview-team-news-prediction-2026-27-uefa-champions-league-league-phase-229644",
+        "https://www.denik.cz/ostatni-fotbal/sabah-slavia-liga-mistru-uefa-trpisovsky-hraji-jako-barcelona-vlcek/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1104419-home_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Key availability in this game unconfirmed: Rui Borges won't guarantee Suárez or Maxi Araújo start (SAPO), while Lens lose captain Gradit (Cahuzac presser via But! Football Club); DraftKings fair 0.633 ≈ market.",
+      "main_risk": "Unbeaten Sporting win at a Lens side missing Gradit with no UCL clean sheet in 14.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261013",
+        "https://www.butfootballclub.fr/1704267-rc-lens-cahuzac-annonce-un-autre-coup-dur-avant-le-sporting/",
+        "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/sporting-viaja-para-franca-sem-debast-e-com-zekri-os-25-convocados-por-rui-borges",
+        "https://sapo.pt/artigo/rui-borges-nao-garante-maxi-araujo-e-luis-suarez-de-inicio-tiveram-um-desgaste-enorme-6acd2b3c67f99269c884ce50",
+        "https://leonino.pt/do-sporting-que-e-mercedes-na-champions-a-zalazar-tudo-o-que-disse-rui-borges-antes-do-lens"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1104419-away_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Key availability unconfirmed: Rui Borges said Suárez and Maxi Araújo 'podem ou não ser titulares' after international duty (SAPO), with Debast, Zalazar and Nuno Santos out (Record, Leonino); DraftKings fair 0.625 ≈ market.",
+      "main_risk": "Lens win at a loud Bollaert against a tired, rotated Sporting.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261013",
+        "https://www.butfootballclub.fr/1704267-rc-lens-cahuzac-annonce-un-autre-coup-dur-avant-le-sporting/",
+        "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/sporting-viaja-para-franca-sem-debast-e-com-zekri-os-25-convocados-por-rui-borges",
+        "https://sapo.pt/artigo/rui-borges-nao-garante-maxi-araujo-e-luis-suarez-de-inicio-tiveram-um-desgaste-enorme-6acd2b3c67f99269c884ce50",
+        "https://leonino.pt/do-sporting-que-e-mercedes-na-champions-a-zalazar-tudo-o-que-disse-rui-borges-antes-do-lens"
+      ],
+      "prices": []
+    }
+  ]
+}
