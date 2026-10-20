@@ -1,0 +1,345 @@
+{
+  "date": "2026-10-20",
+  "researched_at": "2026-10-20T05:57:58Z",
+  "summary": "Champions League matchday 3 keeps only games with settled team news: Liverpool and Fenerbahce (Slavia without Chory) at bookmaker fair price, Dortmund trimmed 2pp after three winless games facing Sabah's perfect home record; FIU in Conference USA at market; Tsitsipas, Griekspoor and Alexandrova trimmed 1-2pp toward Pinnacle and book averages. Excluded legs cover unconfirmed key players (McTominay, PSV's Til, Mittelstadt and Koke, Barcelona's Gerard Martin), Napoli's unexplained 10% overnight drop, Challenger tennis and a CS2 qualifier outside the HLTV top 30.",
+  "verdicts": [
+    {
+      "id": "1177880-side1",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Fixture confirmed by ESPN (event 401871055): Middle Tennessee (3-3, 0-3 away) at FIU (3-3, 3-0 home), Pitbull Stadium, Miami, Tue 20 Oct 23:00Z, CUSA, not neutral site. DraftKings via ESPN: FIU -380 / MTSU +300 (opened -410/+320), spread FIU -10 (opened -10.5), total 45.5. De-vigged fair FIU = 0.760. ESPN FPI gives FIU 81.1%. Polymarket 0.775 is between the two, with a 24h range of 0.775-0.785 (about 1.3%, no drift problem; over 7 days it slid from about 0.80, in line with DK's small move). Starting QBs: FIU JJ Kohl (1,458 yds, 7 TD, 7 INT), MTSU Roman Gagliano (1,204 yds, 11 TD, 2 INT). Neither is listed as injured by Covers, ESPN, FIU Athletics or MTSU Sidelines. Covers injury report: MTSU 'no injuries to report'. FIU: RB A. Carrie out (a backup; Devonte Lyons is the lead back). TEs Schaeffer and Passley and K N. Sidan are 'questionable', but those listings are stale (dated 13 Oct), and FIU's own notes name Robert Czeremcha as the kicker (2.0 FG/game), so Sidan isn't the starter. None of these is a key player. Matchup: FIU defense allows 14.7 ppg (9th in FBS) and 266.7 yds/g. MTSU allows 199.2 rush yds/g (127th) and lost 55-0 at Kansas. FIU has won the last two meetings (56-30 in 2025). Market is about equal to the books, so adjustment is 0.",
+      "main_risk": "FIU's offense is weak (19.7 ppg, 122nd; -1 turnover margin vs MTSU's +4). FIU has lost two close games already (16-10 FAU, 27-24 at Jax State with a missed tying FG), so a low-scoring, turnover-swung one-score game is the most likely way MTSU covers the upset. The line drifted slightly toward MTSU (-410 to -380, -10.5 to -10), and there is a 58% chance of rain in Miami. That evidence is mild and not specific, so I'm keeping the leg with no lowering.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261020",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401871055",
+        "https://fiusports.com/news/2026/10/19/football-preps-for-middle-tennessee-hosts-blue-raiders-tuesday-night-in-final-weekday-cusa-game.aspx",
+        "https://mtsusidelines.com/2026/10/19/the-other-sideline-previewing-middle-tennessees-matchup-against-fiu/",
+        "https://www.covers.com/sport/football/ncaaf/injuries",
+        "https://gamma-api.polymarket.com/markets?id=5612728",
+        "https://clob.polymarket.com/prices-history?market=107964529040506915392662227288697775334120788446499255704986623172427670237916&interval=1w&fidelity=60"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1218844-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Excluded by rule: both teams are outside the HLTV top 30. The dust2.us match page (2399666, PGL Bucharest 2027 Closed Qualifier, 20 Oct 10:00 ET = 14:00Z) lists Nemesis at #47 in the world (mag1k3Y, Sdaim, tex1y, SELLTER, r3salt) and Betclic at #58. Third-party profiles show a July 2026 peak of #27 for Nemesis, but nothing current. This is also a qualifier, not tier-1. Betclic beat Nemesis 2-0 in their recent meeting (dust2.us form). Polymarket market 5932677 is at 0.655.",
+      "main_risk": "Betclic already beat Nemesis 2-0 recently. The leg is excluded on the ranking rule anyway.",
+      "sources": [
+        "https://www.dust2.us/matches/2399666/betclic-vs-nemesis",
+        "https://gamma-api.polymarket.com/public-search?q=Nemesis",
+        "https://egamersworld.com/counterstrike/team/team-nemesis-CckRwq0vW"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1206113-side0",
+      "exclude": false,
+      "adjustment_pp": -1,
+      "reason": "Almaty Open (ATP 250, indoor hard), R1. ESPN lists it as Center Court, 20 Oct 08:00Z, which matches Polymarket. Tsitsipas is the No.7 seed and ranked #39 (TennisExplorer). His recent form is decent: Shanghai R16 (beat Coppejans, Darderi and Fritz, then lost 4-6 5-7 to Medvedev per AP/TSN) and Tokyo R16 (lost to Vacherot). There is no current injury report; his last back and leg withdrawals found were in 2025. Kovacevic is ranked #82 and has lost 4 in a row at tour level or in qualifying since Winston-Salem: Shanghai R1, Tokyo Q, Chengdu R1 and US Open R1. However, he beat Tsitsipas 6-3 7-6(1) at Winston-Salem on 27 Aug 2026, which leaves the H2H at 1-1. De-vigged prices: Pinnacle 1.25/4.31 gives 0.775; the average of 13 books on TennisExplorer gives 0.771 (avg odds 1.22/4.15). Polymarket moved 0.785 to 0.775 (-1.3%), with no anomaly. The market matches Pinnacle, and the -1 reflects the recent H2H loss and the books' average sitting slightly below.",
+      "main_risk": "A repeat of Winston-Salem: Kovacevic's serve keeps sets tight, he wins the tie-breaks and takes it in straights. Tsitsipas has a history of back problems; no current report was found.",
+      "sources": [
+        "https://www.tennisexplorer.com/match-detail/?id=3351385",
+        "https://www.tennisexplorer.com/player/tsitsipas-b526f/",
+        "https://www.tennisexplorer.com/player/kovacevic-a2706/",
+        "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard?dates=20261020",
+        "https://www.tsn.ca/tennis/atp/article/medvedev-beats-longtime-rival-tsitsipas-and-advances-to-shanghai-masters-quarterfinals/",
+        "https://clob.polymarket.com/prices-history?market=25848910878437077501756509083939933374150392894827859467866515129858396269344&interval=max&fidelity=60"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1203470-side0",
+      "exclude": false,
+      "adjustment_pp": -2,
+      "reason": "European Open Brussels (ATP 250, indoor hard), R1. ESPN lists it as Centre Court, 20 Oct 09:30Z, which matches Polymarket. Griekspoor is ranked #60 (TennisExplorer). He has lost 4 straight tour-level matches: US Open R1 to Shelton, Chengdu R1 to Shapovalov, Beijing R1 to Rublev in three sets, and Shanghai R1 to Kotov 4-6 6-7. His only win since Montreal is a Davis Cup rubber over Mejia. He had a left hamstring problem in Feb 2026 (puntodebreak); no new injury was found. Schoenhaus is a wildcard, ranked #302 and born in 2007. He lost Challenger R1 at both Rennes and Roanne in recent weeks. They have never met (tennismajors). De-vigged prices: Pinnacle 1.26/4.22 gives 0.770; the average of 13 books gives 0.761 (avg 1.24/3.96). Polymarket rose 0.755 to 0.78 in 24h (+3.3%, under 5%), in line with several books shortening Griekspoor by about 0.03. The market sits 1-2pp above the books, and his losing streak is evidence for the most likely losing scenario, so -2.",
+      "main_risk": "Griekspoor's slump (0-4 at tour level since the US Open) carries on in tight sets against a fearless young wildcard indoors; there is also hamstring or abdominal recurrence risk given his 2025-26 history.",
+      "sources": [
+        "https://www.tennisexplorer.com/match-detail/?id=3351117",
+        "https://www.tennisexplorer.com/player/griekspoor-d58ed/",
+        "https://www.tennisexplorer.com/player/schoenhaus/",
+        "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard?dates=20261020",
+        "https://www.tennismajors.com/matches/atp/european-open/tallon-griekspoor-vs-max-schoenhaus",
+        "https://www.puntodebreak.com/2026/02/27/griekspoor-triunfo-cojo-no-idea-he-podido-vencer-andar",
+        "https://clob.polymarket.com/prices-history?market=24009045257340673522785273828981107581422314978250742982190076744638939335746&interval=max&fidelity=60"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1207856-side1",
+      "exclude": false,
+      "adjustment_pp": -1,
+      "reason": "Ningbo WTA 500 R32, hard. The official order of play for Tue 20 Oct (released 19 Oct 5:39 PM local) has [WC] Guo vs Alexandrova as the 4th match on Center Court, 'Not before 7:00 PM' CST, which is 11:00 UTC and matches Polymarket and TennisExplorer. The draw (re-released 20 Oct 12:59 PM) lists the withdrawals as Swiatek, Chwalinska and Wang Xiyu only; neither of these players has withdrawn. WTA match notes: Alexandrova is #33 and 20-24 this year (14 of the wins on hard), 4-5 against players outside the top 100, and the 2025 Ningbo runner-up. Guo is #189 and 2-3 this year, with a first top-20 win over Cirstea at Wuhan last week (R16). They have never met. On price: Polymarket went from 0.775 to 0.795 (+2.6%) between 00 and 02 UTC today. Books moved the same way: Pinnacle has Guo at 4.66/1.23, up from about 4.23 yesterday, which de-vigs to 0.791; Betfair is 4.52/1.24 (0.785); bwin, Coral, Interwetten and WH all pushed Guo out by 0.2-0.4. So the drift is market-wide and explained. The TennisExplorer average of 4.17/1.22 gives 0.774. The market is in line with Pinnacle and above the average, and Alexandrova's poor record against low-ranked players is evidence for the most likely losing scenario, so -1.",
+      "main_risk": "Alexandrova's inconsistency (20-24 this year, 4-5 against players outside the top 100) meets Guo carrying her Wuhan form with home-crowd support in an evening session. Because it is 4th on court and 'not before', it may start later than 11:00 UTC.",
+      "sources": [
+        "https://wtafiles.wtatennis.com/pdf/draws/2026/2092/OP.pdf",
+        "https://wtafiles.wtatennis.com/pdf/draws/2026/2092/MDS.pdf",
+        "https://wtafiles.wtatennis.com/pdf/matchnotes/2026/2092_2.pdf",
+        "https://wtafiles.wtatennis.com/pdf/matchnotes/2026/2092_Preview.pdf",
+        "https://www.tennisexplorer.com/match-detail/?id=3351575",
+        "https://www.tennisexplorer.com/matches/?type=wta-single&year=2026&month=10&day=20",
+        "https://clob.polymarket.com/prices-history?market=64061223244028828824800475876345962350860191276549647221340814958523641204275&interval=max&fidelity=60"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1208082-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Lisboa Belém Open (Lisbon) is an ATP Challenger (Challenger 100, clay). Two sources confirm this: the Wikipedia 2026 ATP Challenger Tour calendar for the week of 19 Oct, and the TennisExplorer daily list for 20 Oct, which files the match under 'Lisbon challenger'. Challenger matches are excluded.",
+      "main_risk": "n/a (excluded on tier)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/2026_ATP_Challenger_Tour",
+        "https://www.tennisexplorer.com/matches/?type=atp-single&year=2026&month=10&day=20",
+        "https://gamma-api.polymarket.com/events/1208082"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1209587-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Fort Worth Challenger is an ATP Challenger (Challenger, hard). Two sources confirm this: the Wikipedia 2026 ATP Challenger Tour calendar for the week of 19 Oct, and the TennisExplorer daily list for 20 Oct, which files the match under 'Fort Worth challenger'. Challenger matches are excluded.",
+      "main_risk": "n/a (excluded on tier)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/2026_ATP_Challenger_Tour",
+        "https://www.tennisexplorer.com/matches/?type=atp-single&year=2026&month=10&day=20",
+        "https://gamma-api.polymarket.com/events/1209587"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1209598-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Cali Open is an ATP Challenger (Challenger 75, clay). Two sources confirm this: the Wikipedia 2026 ATP Challenger Tour calendar for the week of 19 Oct, and the TennisExplorer daily list for 20 Oct, which files the match under 'Cali challenger'. Challenger matches are excluded.",
+      "main_risk": "n/a (excluded on tier)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/2026_ATP_Challenger_Tour",
+        "https://www.tennisexplorer.com/matches/?type=atp-single&year=2026&month=10&day=20",
+        "https://gamma-api.polymarket.com/events/1209598"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1209602-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Cali Open is an ATP Challenger (Challenger 75, clay). Two sources confirm this: the Wikipedia 2026 ATP Challenger Tour calendar for the week of 19 Oct, and the TennisExplorer daily list for 20 Oct, which files the match under 'Cali challenger (listed on 21 Oct at 01:00 CEST)'. Challenger matches are excluded.",
+      "main_risk": "n/a (excluded on tier)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/2026_ATP_Challenger_Tour",
+        "https://www.tennisexplorer.com/matches/?type=atp-single&year=2026&month=10&day=21",
+        "https://gamma-api.polymarket.com/events/1209602"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1209600-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Cali Open is an ATP Challenger (Challenger 75, clay). Two sources confirm this: the Wikipedia 2026 ATP Challenger Tour calendar for the week of 19 Oct, and the TennisExplorer daily list for 20 Oct, which files the match under 'Cali challenger'. Challenger matches are excluded.",
+      "main_risk": "n/a (excluded on tier)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/2026_ATP_Challenger_Tour",
+        "https://www.tennisexplorer.com/matches/?type=atp-single&year=2026&month=10&day=20",
+        "https://gamma-api.polymarket.com/events/1209600"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1218734-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Florence Challenger is an ATP Challenger (Challenger 50, clay). Two sources confirm this: the Wikipedia 2026 ATP Challenger Tour calendar for the week of 19 Oct, and the TennisExplorer daily list for 20 Oct, which files the match under 'Florence challenger'. Challenger matches are excluded.",
+      "main_risk": "n/a (excluded on tier)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/2026_ATP_Challenger_Tour",
+        "https://www.tennisexplorer.com/matches/?type=atp-single&year=2026&month=10&day=20",
+        "https://gamma-api.polymarket.com/events/1218734"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1149369-home_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "DK fair is 1X 0.826 / Porto 0.617 (moved from -140 to -180), which matches PM. PM Porto rose 0.585 to 0.625 on Mon (+6.8% rel). The move is explained by PSV's injury crisis: out are Pepi, Pléa, Lammers, Wanner, Schouten, Ouaissa and Van Bommel (Bosz said at Monday's presser he is not fit enough), and Mijnans is suspended. Porto miss only William Gomes and Vasco Sousa, Bednarek is back from suspension, and they top the Liga on 24 pts (Mais Futebol, A Bola). EXCLUDED under the established policy: PSV's Guus Til (head injury/migraine, probable emergency striker) is a doubt to be decided after Monday-evening training, with no confirmation found (FCUpdate, VI, Voetbalprimeur). Mauro Junior and Perisic are also reported doubtful (VI). Note the doubts all favour Porto, but the policy excludes both sides.",
+      "main_risk": "PSV's counter-press nicks a win against a Porto side that lost both UCL games so far (0-2 City, 2-3 Betis).",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261020",
+        "https://gamma-api.polymarket.com/events?id=1149369",
+        "https://www.fcupdate.nl/voetbalnieuws/2026/10/guus-til-ruben-van-bommel-psv-selectie-fc-porto",
+        "https://www.vi.nl/nieuws/psv-moet-van-bommel-missen-in-porto-til-en-sildillia-wel-van-de-partij",
+        "https://www.voetbalprimeur.nl/videos/2148815/peter-bosz-geeft-update-over-fitheid-guus-til-voor-fc-porto-psv.html",
+        "https://maisfutebol.iol.pt/liga-campeoes/fc-porto/fc-porto-farioli-continua-com-duas-baixas-na-vespera-da-rececao-ao-psv",
+        "https://www.abola.pt/noticias/fc-porto-preparacao-para-o-psv-com-duas-baixas-para-farioli-2026101909254354044"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1149369-home",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "DK fair is 1X 0.826 / Porto 0.617 (moved from -140 to -180), which matches PM. PM Porto rose 0.585 to 0.625 on Mon (+6.8% rel). The move is explained by PSV's injury crisis: out are Pepi, Pléa, Lammers, Wanner, Schouten, Ouaissa and Van Bommel (Bosz said at Monday's presser he is not fit enough), and Mijnans is suspended. Porto miss only William Gomes and Vasco Sousa, Bednarek is back from suspension, and they top the Liga on 24 pts (Mais Futebol, A Bola). EXCLUDED under the established policy: PSV's Guus Til (head injury/migraine, probable emergency striker) is a doubt to be decided after Monday-evening training, with no confirmation found (FCUpdate, VI, Voetbalprimeur). Mauro Junior and Perisic are also reported doubtful (VI). Note the doubts all favour Porto, but the policy excludes both sides.",
+      "main_risk": "A draw: Porto have 0 UCL pts and a depleted PSV sits deep. Draw fair is about 21%.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261020",
+        "https://gamma-api.polymarket.com/events?id=1149369",
+        "https://www.fcupdate.nl/voetbalnieuws/2026/10/guus-til-ruben-van-bommel-psv-selectie-fc-porto",
+        "https://www.vi.nl/nieuws/psv-moet-van-bommel-missen-in-porto-til-en-sildillia-wel-van-de-partij",
+        "https://www.voetbalprimeur.nl/videos/2148815/peter-bosz-geeft-update-over-fitheid-guus-til-voor-fc-porto-psv.html",
+        "https://maisfutebol.iol.pt/liga-campeoes/fc-porto/fc-porto-farioli-continua-com-duas-baixas-na-vespera-da-rececao-ao-psv",
+        "https://www.abola.pt/noticias/fc-porto-preparacao-para-o-psv-com-duas-baixas-para-farioli-2026101909254354044"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1149383-home_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "EXCLUDED. (1) Unexplained drift: PM Napoli fell 0.595 to 0.535 between 04:30 and 05:30 UTC today (-10% rel; gamma oneDayPriceChange -0.07). DK moved from -175 to -130 (fair 0.598 to 0.537). No news found that explains the overnight move. (2) Key-player doubt: McTominay is unconfirmed. Gazzetta via NapoliMagazine and DCM say he is short of fitness after his heart ablation, with a decision at the final session; Gilmour is the alternative. (3) Allegri woke with flu and missed training (NapoliNetwork). Napoli are in crisis: 0 pts in the UCL after losses to Arsenal and Villarreal, plus a 1-0 loss at Venezia. Allegri also signalled rotation ('non possono giocare sempre gli stessi undici'). Alisson Santos (hamstring), Neres, Vergara, Favasuli and Buongiorno are out (Virgilio, Sports Mole). Bodø won 4 of their last 6 UCL games, and Sports Mole predicts 1-1.",
+      "main_risk": "Bodø counter-attack win against a fragile Napoli that concedes easily (Allegri admitted it).",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261020",
+        "https://gamma-api.polymarket.com/events?id=1149383",
+        "https://sport.quotidiano.net/calcio/champions/napoli-bodo-glimt-probabili-formazioni-orari-tv-a094686f",
+        "https://www.areanapoli.it/interviste/napoli-bodo-glimt-allegri-conferenza-stampa_639947.html",
+        "https://www.direttacalciomercato.com/napoli-bodo-glimt-le-probabili-formazioni-mctominay-in-dubbio-gilmour-pronto/",
+        "https://sport.virgilio.it/napoli-bodo-allegri-provocazione-resultatismo-turnover-alisson-infortunio-976449",
+        "https://www.calcionapoli24.it/rassegna_stampa/formazioni-napoli-bodo-glimt-corsport-cambio-modulo-con-sei-novit-dall-inizio-n701650.html",
+        "https://www.sportsmole.co.uk/football/napoli/champions-league/preview/napoli-vs-bodoglimt-prediction-team-news-lineups_607142.html"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1149383-home",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "EXCLUDED. (1) Unexplained drift: PM Napoli fell 0.595 to 0.535 between 04:30 and 05:30 UTC today (-10% rel; gamma oneDayPriceChange -0.07). DK moved from -175 to -130 (fair 0.598 to 0.537). No news found that explains the overnight move. (2) Key-player doubt: McTominay is unconfirmed. Gazzetta via NapoliMagazine and DCM say he is short of fitness after his heart ablation, with a decision at the final session; Gilmour is the alternative. (3) Allegri woke with flu and missed training (NapoliNetwork). Napoli are in crisis: 0 pts in the UCL after losses to Arsenal and Villarreal, plus a 1-0 loss at Venezia. Allegri also signalled rotation ('non possono giocare sempre gli stessi undici'). Alisson Santos (hamstring), Neres, Vergara, Favasuli and Buongiorno are out (Virgilio, Sports Mole). Bodø won 4 of their last 6 UCL games, and Sports Mole predicts 1-1.",
+      "main_risk": "A draw or Bodø win: crisis-hit Napoli with a rotated XI, and Sports Mole predicts 1-1.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261020",
+        "https://gamma-api.polymarket.com/events?id=1149383",
+        "https://sport.quotidiano.net/calcio/champions/napoli-bodo-glimt-probabili-formazioni-orari-tv-a094686f",
+        "https://www.areanapoli.it/interviste/napoli-bodo-glimt-allegri-conferenza-stampa_639947.html",
+        "https://www.direttacalciomercato.com/napoli-bodo-glimt-le-probabili-formazioni-mctominay-in-dubbio-gilmour-pronto/",
+        "https://sport.virgilio.it/napoli-bodo-allegri-provocazione-resultatismo-turnover-alisson-infortunio-976449",
+        "https://www.calcionapoli24.it/rassegna_stampa/formazioni-napoli-bodo-glimt-corsport-cambio-modulo-con-sei-novit-dall-inizio-n701650.html",
+        "https://www.sportsmole.co.uk/football/napoli/champions-league/preview/napoli-vs-bodoglimt-prediction-team-news-lineups_607142.html"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1149377-home",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "PM 0.6434 matches DK fair 0.637 (-200/+370/+500, line stable since open), and the PM price has been flat at 0.635-0.645 for 24h. LFC.com (Iraola presser Monday): Frimpong and Szoboszlai are OUT (confirmed, not doubts). Gravenberch is back from suspension. Bradley, Ekitike and Leoni were already long-term out. No Liverpool doubts are listed. Gakpo is expected to start (Yahoo/Standard). Villarreal: Pepe is out, and Buchanan returned to training Monday but Goal expects him to miss out (not a key player). Liverpool won 2-1 at Brentford at the weekend. No evidence of a market edge, so adjustment is 0.",
+      "main_risk": "Without Szoboszlai and Frimpong, a possession-heavy Villarreal (Íñigo Pérez) frustrates Liverpool into a draw. Draw fair is about 20%.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261020",
+        "https://gamma-api.polymarket.com/events?id=1149377",
+        "https://www.liverpoolfc.com/news/liverpool-v-villarreal-team-news-champions-league",
+        "https://uk.sports.yahoo.com/news/liverpool-xi-vs-villarreal-confirmed-191729673.html",
+        "https://www.futbolfantasy.com/champions/noticias/153134-alineaciones-probables-y-previa-fantasy-del-liverpool-villarreal"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1143911-away",
+      "exclude": false,
+      "adjustment_pp": -2,
+      "reason": "Fixture verified (ESPN uefa.champions 401915404, Baku 16:45Z). Karetsas confirmed OUT (Ricken: foot ligament, did not travel); Can, Konstantelias (ACL) and Lerma out; Schlotterbeck back from suspension (Sports Mole, BVB Buzz). No unconfirmed key doubts. But BVB winless in 3 (2-2 Bremen after 2-0 lead, 0-1 at Bodø, 0-0 Union) while Sabah are injury-free, beat Slavia 2-0 and have won all 5 home games in this competition incl. qualifying (Sports Mole). DK -320/+475/+800 de-vigs to BVB 72.8% vs Polymarket 74.65% (stable 24h, up from 64% a week ago). Lower 2pp toward books.",
+      "main_risk": "Out-of-form, Guirassy-slumping Dortmund held to a draw in Baku by an unbeaten-at-home Sabah side.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261020",
+        "https://gamma-api.polymarket.com/events?slug=ucl-sf-bvb-2026-10-20",
+        "https://www.sportsmole.co.uk/football/sabah/champions-league/preview/sabah-vs-dortmund-prediction-team-news-lineups_607181.html",
+        "https://bvbbuzz.com/sabah-fk-vs-borussia-dortmund-preview-can-the-bvb-arrest-their-downward-spiral-01m59h96q76a",
+        "https://www.fussballnationalmannschaft.net/sabah-bvb-aufstellung-champions-league-karetsas-guirassy-2-123309373.html"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1143914-home",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Fixture verified (ESPN 401915403, Istanbul 16:45Z). Polymarket rose 57.5->61.5 in 24h (+7% rel) but explained and matched by books: DK moved -155 -> -180 (de-vig Fener 60.9%), after Slavia top striker Chorý was sent off for an obscene gesture and left home, Trpišovský saying he won't play for Slavia again (ČT sport, iROZHLAS); Slavia 0-2 at Sabah, no UCL league-phase win in 21 games, 0 goals in last 2 league games. Fener: Asensio out (knee surgery), Mert Müldür out (meniscus); probable XI Ederson; Semedo, Škriniar, Aké, Brown; Guendouzi, Kanté; Greenwood, İrfan Can, Oğuz; Lukaku/Muriqi (Fotomaç, Hürriyet, Habertürk). Market ≈ books -> 0.",
+      "main_risk": "Fenerbahçe (thrashed 6-0 at Villa last UCL game, no Asensio) fail to break down a physical Slavia low block -> draw.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261020",
+        "https://gamma-api.polymarket.com/events?slug=ucl-fen-slp-2026-10-20",
+        "https://sport.ceskatelevize.cz/clanek/fotbal/bez-choreho-i-formy-slavia-vyrazila-do-istanbulu-159502",
+        "https://irozhlas.cz/sport/fotbal/fotbal-liga-mistru-slavi-fenerbahce-chory-trpisovsky_2610191707_lbk",
+        "https://www.fotomac.com.tr/fenerbahce/2026/10/20/kanaryada-hedef-mutlak-zafer-iste-fenerbahcenin-slavia-prag-maci-11i",
+        "https://www.hurriyet.com.tr/sporarena/fenerbahcenin-konugu-slavia-prag-2-eksik-var-43346914"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1149394-away_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Unresolved availability: Hoeneß (Mon presser) only says it is 'possible' Mittelstädt (heel laceration) returns to the squad, Nartey/Al-Dakhil back in training, Zagadou/Tiago Tomás out, starting GK kept secret. Atlético: Cuti Romero out (muscle strain, did not travel); Koke reports conflict (Eurosport.es: not in squad, injured; Estoesatleti: back in squad). Policy -> exclude both sides. DK de-vig Stu 29.9/D 24.5/Atl 45.6 -> Atl-or-D 70.1, Stu-or-D 54.4 (Polymarket 71.3/53.3, ~1pp gaps). Stuttgart 2-0 in UCL but 13th in Bundesliga, lost 1-0 at HSV; Atlético won last 5.",
+      "main_risk": "Stuttgart's home intensity and two-from-two UCL form beat an Atlético missing Cuti Romero (and likely Koke).",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261020",
+        "https://gamma-api.polymarket.com/events?slug=ucl-stu-atm-2026-10-20",
+        "https://bulinews.com/hoeness-tips-mittelstadt-make-squad-for-clash-exciting-atletico-madrid",
+        "https://www.eurosport.es/futbol/champions-league/2026-2027/cuti-romero-baja-champions-league-atletico-de-madrid-stuttgart-hoy_sto23347055/story.shtml",
+        "https://www.estoesatleti.es/articulo/noticias/atletico-madrid-viaja-stuttgart-bajas-novedad-simeone/20261019130000042389.html",
+        "https://www.vfb.de/en/vfb/latest/news/professionals/2627/pressekonferenz-vor-vfb-stuttgart-gegen-atletico-madrid/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1149394-home_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Unresolved availability: Hoeneß (Mon presser) only says it is 'possible' Mittelstädt (heel laceration) returns to the squad, Nartey/Al-Dakhil back in training, Zagadou/Tiago Tomás out, starting GK kept secret. Atlético: Cuti Romero out (muscle strain, did not travel); Koke reports conflict (Eurosport.es: not in squad, injured; Estoesatleti: back in squad). Policy -> exclude both sides. DK de-vig Stu 29.9/D 24.5/Atl 45.6 -> Atl-or-D 70.1, Stu-or-D 54.4 (Polymarket 71.3/53.3, ~1pp gaps). Stuttgart 2-0 in UCL but 13th in Bundesliga, lost 1-0 at HSV; Atlético won last 5.",
+      "main_risk": "In-form Atlético (5 straight wins) punish a Stuttgart side that is 13th domestically and inefficient in front of goal.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261020",
+        "https://gamma-api.polymarket.com/events?slug=ucl-stu-atm-2026-10-20",
+        "https://bulinews.com/hoeness-tips-mittelstadt-make-squad-for-clash-exciting-atletico-madrid",
+        "https://www.eurosport.es/futbol/champions-league/2026-2027/cuti-romero-baja-champions-league-atletico-de-madrid-stuttgart-hoy_sto23347055/story.shtml",
+        "https://www.estoesatleti.es/articulo/noticias/atletico-madrid-viaja-stuttgart-bajas-novedad-simeone/20261019130000042389.html",
+        "https://www.vfb.de/en/vfb/latest/news/professionals/2627/pressekonferenz-vor-vfb-stuttgart-gegen-atletico-madrid/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1149399-away_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Flick (Mon presser, ESPN) confirmed Christensen, Koundé and Eric García OUT and Gerard Martín (starting CB, knock vs Betis) a doubt; RotoWire/Mundo Deportivo 19 Oct: Martín status uncertain, sore after Monday training; only an unverified X post says optimism. Cubarsí the only sure CB; Rodri/De Jong/B-team Campos as cover. PSG without Nuno Mendes (Luis Enrique). Raphinha 'can start'. Policy: key player game-time decision unconfirmed -> exclude both sides. DK fair 38.9/22.2/38.9 matches Polymarket; no 24h drift. Match confirmed going ahead despite French riots (Interior minister).",
+      "main_risk": "PSG exploit Barça's makeshift centre-back pairing (De Jong/Rodri/Campos) at the Parc and win.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261020",
+        "https://gamma-api.polymarket.com/events?slug=ucl-psg-fcb-2026-10-20",
+        "https://www.espn.com/soccer/story/_/id/50219369/psg-match-test-barcelona-streak-hansi-flick",
+        "https://www.espn.com/soccer/story/_/id/50217694/psg-luis-enrique-stop-barcelona-lamine-yamal-keep-ball-away",
+        "https://www.espn.com/soccer/story/_/id/50217836/psg-barcelona-ucl-match-france-protests",
+        "https://www.rotowire.com/soccer/headlines/gerard-martin-injury-uncertain-status-for-tuesday-540714"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1149399-home_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Flick (Mon presser, ESPN) confirmed Christensen, Koundé and Eric García OUT and Gerard Martín (starting CB, knock vs Betis) a doubt; RotoWire/Mundo Deportivo 19 Oct: Martín status uncertain, sore after Monday training; only an unverified X post says optimism. Cubarsí the only sure CB; Rodri/De Jong/B-team Campos as cover. PSG without Nuno Mendes (Luis Enrique). Raphinha 'can start'. Policy: key player game-time decision unconfirmed -> exclude both sides. DK fair 38.9/22.2/38.9 matches Polymarket; no 24h drift. Match confirmed going ahead despite French riots (Interior minister).",
+      "main_risk": "Barça (11/11 wins, 48 goals) and Yamal vs Digne (Mendes out) outscore a PSG defence ESPN calls wobbly.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261020",
+        "https://gamma-api.polymarket.com/events?slug=ucl-psg-fcb-2026-10-20",
+        "https://www.espn.com/soccer/story/_/id/50219369/psg-match-test-barcelona-streak-hansi-flick",
+        "https://www.espn.com/soccer/story/_/id/50217694/psg-luis-enrique-stop-barcelona-lamine-yamal-keep-ball-away",
+        "https://www.espn.com/soccer/story/_/id/50217836/psg-barcelona-ucl-match-france-protests",
+        "https://www.rotowire.com/soccer/headlines/gerard-martin-injury-uncertain-status-for-tuesday-540714"
+      ],
+      "prices": []
+    }
+  ]
+}
