@@ -1,0 +1,555 @@
+{
+  "date": "2026-10-22",
+  "researched_at": "2026-10-22T05:58:07Z",
+  "summary": "Europa League matchday 3 keeps only games with settled team news at bookmaker fair price: Dinamo Zagreb (both legs, NEC without Tadic), Ferencvaros, Benfica, Real Sociedad, Olympiakos, Bournemouth-or-Draw, Besiktas-or-Draw and both Jagiellonia-Anderlecht double chances; plus Liberty and Memphis in college football and Fritz and Bergs in ATP 250 tennis at market. Excluded legs cover unconfirmed key players (Isidor, Osmand and Aspas, Culbreath, Sturm doubts, Plzen midfielders, Locatelli and Thuram, App State QB), unexplained 5%+ drift (Union SG, AZ, Salzburg), pre-mortem evidence against Milan, Hoffenheim and Palace, Challenger tennis and non-tier-1 esports (Game Changers, Project Blender, EPL Masters).",
+  "verdicts": [
+    {
+      "id": "1154960-home_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "NEC went to Zagreb without Tadić, injured late v Levski (ForzaNEC 21 Oct; Schreuder says he should be back next week). Nuytinck, Sandler and Mor are injured and Thomas is suspended, so NEC brought a 19-man squad. Sports Mole lists no Dinamo absentees and predicts 2-1. NEC are winless in 8. DraftKings -175/+360/+425 de-vigs to a fair H+D of 0.818, against the market's 0.823. The Polymarket win price rose 0.585→0.615 in 24h, which the Tadić news and DraftKings shortening from -150 explain.",
+      "main_risk": "NEC nick a smash-and-grab win: Dinamo have reportedly failed to win four of their last five Europa League games.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/dinamo-zagreb/preview/dinamo-zagreb-vs-nijmegen-prediction-team-news-lineups_607331.html",
+        "https://www.forzanec.nl/nieuws/nec-reist-zonder-tadic-af-naar-zagreb/",
+        "https://www.voetbalprimeur.nl/nieuws/2149689/schreuder-geeft-update-over-chery-en-tadic-bij-nec.html",
+        "https://www.sportskeeda.com/football/dinamo-zagreb-vs-nec-nijmegen-prediction-betting-tips-october-22nd-2026",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261022",
+        "https://gamma-api.polymarket.com/events?slug=uel-din-nec-2026-10-22"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1154960-home",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Tadić is confirmed out of NEC's travelling squad (ForzaNEC, VoetbalPrimeur 21 Oct), along with Nuytinck, Sandler, Mor and the suspended Thomas. Dinamo have no confirmed absentees (Sports Mole). DraftKings de-vigs to a fair home win of 0.609, against the market's 0.617, roughly in line. The Polymarket +5% move in 24h (0.585→0.615) is explained by the Tadić news and DraftKings moving from -150 to -175.",
+      "main_risk": "A draw. NEC drew four in a row before their last two losses, and Dinamo's recent Europa League record is patchy (D v Anderlecht).",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/dinamo-zagreb/preview/dinamo-zagreb-vs-nijmegen-prediction-team-news-lineups_607331.html",
+        "https://www.forzanec.nl/nieuws/nec-reist-zonder-tadic-af-naar-zagreb/",
+        "https://www.voetbalprimeur.nl/nieuws/2149689/schreuder-geeft-update-over-chery-en-tadic-bij-nec.html",
+        "https://www.sportskeeda.com/football/dinamo-zagreb-vs-nec-nijmegen-prediction-betting-tips-october-22nd-2026",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261022",
+        "https://gamma-api.polymarket.com/events?slug=uel-din-nec-2026-10-22"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1154982-away",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Excluded under the strict availability rule, consistent with 18 Oct when Culbreath was counted as a Leverkusen doubt: Culbreath is touch-and-go and unconfirmed. Leverkusen have won five straight, including 2-1 v Freiburg, and are 6-0 on goals in the Europa League. Kofane, Terrier, Doué and Ben Seghir are out, Culbreath is touch-and-go, and Boniface and Eichhorn are not registered (Sports Mole, OneFootball). Sports Mole names no new doubts from the Freiburg game. OFI have lost three straight and are without Marinakis, Sielis and Leya Iseka. DraftKings -475/+600/+1100 de-vigs to a fair away win of 0.785, against the market's 0.805. Martínez is expected to rotate, with Badé, Andrich and Tillman in line to start (OneFootball, fussballnationalmannschaft.net). That rotation and Polymarket sitting 2pp above DraftKings justify -1.",
+      "main_risk": "A rotated Leverkusen are held to a draw in Heraklion. OFI beat Hoffenheim 2-0 at home in matchday 1.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/ofi-crete/europa-league/preview/ofi-crete-vs-b-leverkusen-prediction-team-news-lineups_607268.html",
+        "https://onefootball.com/en/news/ofi-v-bayer-leverkusen-preview-team-news-and-predicted-line-ups-43648090",
+        "https://www.fussballnationalmannschaft.net/ofi-kreta-leverkusen-aufstellung-europa-league-schick-andrich-123311094.html",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261022",
+        "https://gamma-api.polymarket.com/events?slug=uel-ofi-lev-2026-10-22"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1154987-away_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Excluded under the key-player-doubtful policy. Rotowire (21 Oct) reports Isidor did only individual work on Wednesday and is a 'major doubt'. Sports Mole says a late call will be made. Brobbey won't be risked, and Ballard, Meunier and Mundle are out. Alderete reportedly did not travel (101GreatGoals, Sunderland Echo via search). Le Bris may also rotate (Sports Mole). The DraftKings fair A+D of 0.793 matches the market's 0.803.",
+      "main_risk": "With Isidor and Brobbey out and the team rotated, Sunderland lack bite, and Lech win at home (Walemark has 11 goals).",
+      "sources": [
+        "https://www.rotowire.com/soccer/headlines/wilson-isidor-injury-major-doubt-for-thursday-541157",
+        "https://www.sportsmole.co.uk/football/lech-poznan/europa-league/preview/lech-poznan-vs-sunderland-prediction-team-news-lineups_607275.html",
+        "https://www.101greatgoals.com/match-previews/europa-league-matches/lech-poznan-v-sunderland-preview-expected-line-ups-stats-stream-where-to-watch/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261022",
+        "https://gamma-api.polymarket.com/events?slug=uel-lep-sun-2026-10-22"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1154987-away",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Same game: excluded because Isidor is a major doubt with no confirmation (Rotowire 21 Oct; Sports Mole: late call). Brobbey, Ballard, Meunier and Mundle are out, and rotation is possible. The DraftKings fair away win of 0.555 roughly matches the market's 0.567.",
+      "main_risk": "A draw or Lech win against a weakened, rotated Sunderland attack. Sunderland have not kept a clean sheet in 10 away games.",
+      "sources": [
+        "https://www.rotowire.com/soccer/headlines/wilson-isidor-injury-major-doubt-for-thursday-541157",
+        "https://www.sportsmole.co.uk/football/lech-poznan/europa-league/preview/lech-poznan-vs-sunderland-prediction-team-news-lineups_607275.html",
+        "https://www.101greatgoals.com/match-previews/europa-league-matches/lech-poznan-v-sunderland-preview-expected-line-ups-stats-stream-where-to-watch/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261022",
+        "https://gamma-api.polymarket.com/events?slug=uel-lep-sun-2026-10-22"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1154977-away_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Excluded under the strict both-sides availability rule: sources conflict on whether Sturm players Kiteishvili and Weiper are out or doubtful (oe24 vs Sports Mole), so their status is unconfirmed. Genesio's press conference (Le Phocéen, 21 Oct): Højbjerg is back from injury and in the squad, with a call tomorrow on whether he starts. Cornelius is out long-term and Koum is ill. Sturm have lost GK Khudyakov to a broken leg, so Helac starts (oe24, sksturm.at). oe24 says Kiteishvili, Weiper, Mamageishvili, Soglo, Rozga, Jatta and Grgic were already unavailable before the derby, though Sports Mole calls several of them doubts. DraftKings +265/+275/-105 de-vigs to a fair A+D of 0.740, against the market's 0.747. Sports Mole predicts 1-1. -1 for the pre-mortem: OM have 0 points from two Europa League games, while Sturm won the derby 6-1 even with those absences.",
+      "main_risk": "Sturm's high-intensity press beats OM at home. OM are winless in Europe and have had late-game fatigue issues, which Genesio was asked about.",
+      "sources": [
+        "https://www.lephoceen.fr/infos-om/reaction/sturm-graz-om-genesio-annonce-la-couleur-pour-hojbjerg-et-refuse-de-parler-d-equipe-type-238971",
+        "https://www.sportsmole.co.uk/football/sturm-graz/europa-league/preview/sturm-graz-vs-marseille-prediction-team-news-lineups_607263.html",
+        "https://www.oe24.at/a/horror-verletzung-naechster-sturm-schock-vor-marseille-900125134",
+        "https://sksturm.at/n/%EF%B8%8F-die-pressekonferenz-vor-dem-heimspiel-gegen-olympique-marseille",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261022",
+        "https://gamma-api.polymarket.com/events?slug=uel-stu1-olm-2026-10-22"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1154950-home",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Sports Mole lists only Bero and Ötvös as Ferencváros absentees ('strong shape') and predicts 3-1. Torreense, a second-tier Portuguese cup winner, are missing only Baradji. Searches of Hungarian press (csakfoci, nb1.hu) found only old Kovačević injury items from July and nothing current for this match. Borbély's press conference (fradi.hu, 21 Oct) raises no fitness issues and expects a deep block. DraftKings -320/+450/+850 de-vigs to a fair home win of 0.726, against the market's 0.7465. The Polymarket drift of 0.725→0.745 is under 5%.",
+      "main_risk": "Torreense park the bus and Fradi draw, as they did 1-1 with Kisvárda last time out.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/ferencvaros/europa-league/preview/ferencvaros-vs-torreense-prediction-team-news-lineups_607302.html",
+        "https://www.fradi.hu/labdarugas/elso-csapat/hirek/borbely-vannak-otleteim-hogy-tudunk-hatekonyabbak-lenni",
+        "https://www.sportskeeda.com/football/ferencvaros-vs-torreense-prediction-betting-tips-october-22nd-2026",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261022",
+        "https://gamma-api.polymarket.com/events?slug=uel-ftc-ut-2026-10-22"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1154965-home",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Polymarket Union win fell 0.745->0.705 in 24h (-5.4% rel) with no explanation found (Düsseldorf behind-closed-doors venue was announced late Sept, not new). Sports Mole: Hurtevent, Zorgane, K. Rodriguez, Mac Allister out; Sykes (shoulder), Kricfalusi and Schoofs doubtful, unconfirmed. Beer Sheva without Biton; Nachmias/Ventura doubts. Biondic in predicted XI, no injury reported. DK de-vig 0.707 ≈ market. Excluded on unexplained drift + unconfirmed doubts.",
+      "main_risk": "Neutral, empty stadium in Düsseldorf removes Union's home edge; depleted midfield draws with Beer Sheva.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/union-sg/europa-league/preview/union-sg-vs-h-beer-sheva-prediction-team-news-lineups_607309.html",
+        "https://bx1.be/?p=832509",
+        "https://www.rtbf.be/article/europa-league-l-union-jouera-les-israeliens-de-l-hapoel-beer-sheva-a-dusseldorf-et-a-huis-clos-11790486",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261022",
+        "https://gamma-api.polymarket.com/events?id=1154965",
+        "https://clob.polymarket.com/prices-history"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1154955-away",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Polymarket AZ win rose 0.625->0.685 in 24h (+9.6% rel). No team news explains it: Sports Mole, Goal and Voetbalwedden report no new injuries either side. Price is now above DK de-vig 0.661. AZ form is mixed (lost 2-0 at Feyenoord, drew 2-2 at Cambuur, lost 1-0 at Sunderland in the EL). Sports Mole flags rotation in a 4th game in 11 days (Clasie/Stengs minutes managed). Excluded on unexplained drift.",
+      "main_risk": "Rotated AZ held or upset in Yerevan; Ararat scored in both EL games.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/ararat-armenia/preview/ararat-armenia-vs-az-prediction-team-news-lineups_607329.html",
+        "https://voetbalwedden.eu/voorbeschouwingen/fc-ararat-armenia-az/",
+        "https://www.goal.com/en-gb/news/live-stream-online-tv-where-to-watch-ararat-armenia-v-az-alkmaar/blt2e65169ea96e9f07",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261022",
+        "https://gamma-api.polymarket.com/events?id=1154955",
+        "https://clob.polymarket.com/prices-history"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1154972-home",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Excluded under the strict availability rule: the status of Juventus starters Locatelli and Thuram (both out last week) could not be confirmed today. Polymarket rose 0.615->0.665 (+8% rel), explained: Rennes top scorer Lepaul (ankle) confirmed out by Haise and did not travel (footenfrance 21 Oct; butfootballclub). Juve's absences are confirmed, not doubtful: Yildiz (long-term), Conceição (shoulder dislocation), Zhegrova not in UEFA list. Spalletti confirmed Kolo Muani + Woltemade start (Tuttosport, JuveLive, DCM). Locatelli/Thuram status not verified today. Juve won both EL games; DK de-vig 0.649 ≈ market, so adj 0.",
+      "main_risk": "Juve hangover after the 0-3 home loss to Lazio; direct, physical Rennes nick a draw.",
+      "sources": [
+        "https://www.footenfrance.fr/Stade-Rennais-Esteban-Lepaul-forfait-face-a-la-Juventus-voire-plus_a4274.html",
+        "https://www.butfootballclub.fr/1706726-juventus-stade-rennais-le-verdict-est-tombe-pour-la-presence-de-lepaul/",
+        "https://www.juvelive.it/2026/10/21/spalletti-juventus-kolo-muani/",
+        "https://tuttosport.com/news/calcio/serie-a/juventus/2026/10/21-152040456/spalletti_diretta_conferenza_europa_league_juve-rennes_c_anche_kolo_muani",
+        "https://www.juventus.com/en/news/articles/where-to-watch-juventus-vs-rennes-in-the-europa-league-22-10-26",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261022",
+        "https://gamma-api.polymarket.com/events?id=1154972",
+        "https://clob.polymarket.com/prices-history"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1160485-home_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Kováč's pre-match briefing (ČT sport, Eurofotbal, ČTK) lists Paluska and Sojka (plus Búras per ČT) as uncertain starters, unconfirmed. Policy: a doubt on either team excludes both sides of the game. Plzeň have 0 EL points (0-3 home to Union, 1-2 at Ferencváros). Levski lead the Bulgarian league (9W 1D) but are reportedly without Mitkov, Kirilov, Christov, Kamdem and Sangaré. DK de-vig 1X 0.788 ≈ market 0.793; drift +2% is fine.",
+      "main_risk": "Levski, unbeaten domestically, win in Plzeň while Plzeň keep losing concentration as in their first two EL games.",
+      "sources": [
+        "https://sport.ceskatelevize.cz/clanek/fotbal/kovac-chysta-tri-zmeny-a-chce-proti-levski-urvat-vitezstvi-za-kazdou-cenu-159551",
+        "https://www.eurofotbal.cz/clanky/tri-zmeny-v-sestave-vyssi-intenzita-a-prisnejsi-rezim-kovac-chysta-plzen-na-levski-848835/",
+        "https://www.ceskenoviny.cz/zpravy/kovac-planuje-proti-levski-tri-zmeny-v-sestave-a-veri-ze-tym-potvrdi-zlepseni/2891126",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261022",
+        "https://gamma-api.polymarket.com/events?id=1160485",
+        "https://clob.polymarket.com/prices-history"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1160485-home",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Same game as 1160485-home_draw. Paluska/Sojka (and Búras) uncertain starts are unconfirmed, so both sides are excluded. Plzeň have 0 EL pts and conceded 5 in 2 games. Levski lead their league unbeaten. DK de-vig 0.547 vs market 0.557. Polymarket +3.7% in 24h.",
+      "main_risk": "Draw (~24%): Plzeň's EL form is poor and Levski are technical and possession-based.",
+      "sources": [
+        "https://sport.ceskatelevize.cz/clanek/fotbal/kovac-chysta-tri-zmeny-a-chce-proti-levski-urvat-vitezstvi-za-kazdou-cenu-159551",
+        "https://www.eurofotbal.cz/clanky/tri-zmeny-v-sestave-vyssi-intenzita-a-prisnejsi-rezim-kovac-chysta-plzen-na-levski-848835/",
+        "https://www.ceskenoviny.cz/zpravy/kovac-planuje-proti-levski-tri-zmeny-v-sestave-a-veri-ze-tym-potvrdi-zlepseni/2891126",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261022",
+        "https://gamma-api.polymarket.com/events?id=1160485",
+        "https://clob.polymarket.com/prices-history"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1160465-away",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Benfica's 24-man squad is confirmed. Durán, Barreiro, Banjaqui, Kaminski and Barrenechea are out (all confirmed, none doubtful), and GK Diogo Ferreira did not travel. Several B-team youngsters were called up (Observador, A Bola, O Jogo). Benfica are 10-0-1 in their last 11 and 2/2 in the EL (2-0 Milan, 4-1 Celtic). Omonoia's 22-man list includes Brouwers; only Coulibaly is out injured (Alphanews). Omonoia are also 6 pts but drew 2-2 with Olympiakos on Monday. DK de-vig 0.700 vs market 0.7235; drift +2.8% OK. Adj 0.",
+      "main_risk": "Depleted Benfica midfield (no Barreiro/Barrenechea) held by an in-form Omonoia at a hostile GSP.",
+      "sources": [
+        "https://observador.pt/2026/10/21/liga-europa-benfica-prepara-jogo-com-omonia-com-varias-ausencias/",
+        "https://www.abola.pt/noticias/omonia-benfica-esperanca-para-duas-aguias-2026101716444565134",
+        "https://bolanarede.pt/especial-bola-na-rede/atualidade/eis-a-lista-de-24-convocados-do-benfica-para-o-jogo-contra-o-omonia-na-europa-league/",
+        "https://www.alphanews.live/sports/choris-koulibali-i-apostoli-tis-omonoias-kontra-stin-benfika/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261022",
+        "https://gamma-api.polymarket.com/events?id=1160465",
+        "https://clob.polymarket.com/prices-history"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1160475-home_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "PM 0.73 ≈ DraftKings de-vig 1X 0.735 (BOU +100/D +270/MIL +260; BOU opened +125, so the line moved toward Bournemouth, and PM BOU win rose 0.465→0.485 in 24h, under the 5% drift limit). Milan will rotate heavily: Amorim made 7 changes in each of the last two games and more are expected. Milan absentees are Terracciano (suspended), Gabbia and Saelemaekers (out until the new year), Ramos (calf, misses this game) and Chukwueze (hip), so the bench is thin (Sempre Milan 21 Oct; Sports Mole 20 Oct). Bournemouth are without Scott, Araujo and Kroupi, all known absences. They have won both EL games and won 2-0 vs Sunderland at the weekend. These factors support the leg, but the moved price already reflects them, so adjustment is 0.",
+      "main_risk": "Milan's attacking quality (4-0 at Salzburg, 3-2 vs Atalanta) wins it even with a rotated XI; Bournemouth have lost 3 and drawn 3 of their first 6 PL games and their defence leaks. Both previews predict 2-2, so this is a high-variance open game.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261022",
+        "https://www.sportsmole.co.uk/football/bournemouth/europa-league/preview/bournemouth-vs-ac-milan-prediction-team-news-lineups_607303.html",
+        "https://sempremilan.com/europa-league-preview-bournemouth-ac-milan-2026-27",
+        "https://gamma-api.polymarket.com/events/1160475"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1160475-away_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Pre-mortem evidence points to a Bournemouth win. Milan are rotating heavily: 7 changes in each of the last two games and more expected (Sempre Milan, Sports Mole). They have new injuries to Ramos (calf, out) and Chukwueze (hip) on top of Gabbia, Saelemaekers and the suspended Terracciano, leaving a thin bench. DraftKings moved Bournemouth from +125 to +100, and PM Milan-or-Draw slid 0.535→0.515 in 24h. Book fair X2 is 0.523.",
+      "main_risk": "A home win for Bournemouth against a rotated, injury-hit Milan XI.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261022",
+        "https://sempremilan.com/europa-league-preview-bournemouth-ac-milan-2026-27",
+        "https://www.sportsmole.co.uk/football/bournemouth/europa-league/preview/bournemouth-vs-ac-milan-prediction-team-news-lineups_607303.html"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1160458-home_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "PM 0.715 ≈ DraftKings fair 1X 0.706 and the price is stable. The pre-mortem scenario (Lyon win) has multiple supporting sources, though. Hoffenheim are in the Bundesliga relegation zone after four league defeats with coach Ilzer under pressure (ms-aktuell; Sportschau/dpa), they have 0 EL points (lost 2-0 at OFI and 3-2 at Beşiktaş), and ESPN form is DLLLL. Lyon are top of Ligue 1 with 6/6 in the EL. Sports Mole predicts 2-3 Lyon and Football Whispers 1-3 Lyon. Lyon have their own absences: Šulc (ruled out by Fonseca), Openda, Tagliafico and Ouedraogo, and youngster Himbert starts, so it is not clear-cut. Hoffenheim are missing De Cat, Hajdari and Wimmer. Too much conflict to back the home side.",
+      "main_risk": "Lyon, in form and top of Ligue 1, win away against a struggling Hoffenheim, as the Sports Mole and Football Whispers predictions say.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261022",
+        "https://www.sportsmole.co.uk/football/hoffenheim/europa-league/preview/hoffenheim-vs-lyon-prediction-team-news-lineups_607326.html",
+        "https://www.sportschau.de/regional/swr/swr-tsg-coach-ilzer-warnt-vor-lyon-als-party-crasher-102.html",
+        "https://ms-aktuell.de/welt/ilzer-hoffenheim-druck-12-10-2026/",
+        "https://www.titrespresse.com/26036632603/j3-ol-paulo",
+        "https://footballwhispers.com/blog/hoffenheim-vs-lyon-prediction-22-10-2026/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1160443-home_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "PM 0.6967 ≈ DraftKings fair 1X 0.691 (BES +115/D +290/CRY +210, little movement); PM drift under 5%. Beşiktaş availability: Vlahović has recovered from illness and played at Trabzonspor, and Italiano said he 'was not tired'. The start between Vlahović and Oh is still open, but both are fit. Kökçü is confirmed out and Miretti replaces him. Rashica is out. Italiano said there will be some rotation for fatigue (Fanatik, Wed presser; Racing Post). Beşiktaş are 2/2 in the EL and have won 8 home games in a row. Palace: Henderson confirmed not travelling, Tomiyasu and Timber out, Chilwell back (cpfc.co.uk; beIN). Palace lost 5-0 to Brighton and 3-2 at Lyon, and Sage is under pressure. No key doubt is left unresolved. Mateta's status is unclear: he is back from a hamstring injury and was a sub vs Brighton.",
+      "main_risk": "Palace's counter-attacking quality (Sarr, Pino, possibly Mateta) wins an open, high-scoring game. Beşiktaş are 16 games without a draw, so the draw cushion is thin, and Italiano's rotation could weaken the XI.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261022",
+        "https://fanatik.com.tr/besiktas/besiktas-crystal-palace-maci-oncesi-italianodan-vlahovic-ve-orkun-aciklamasi-2641835",
+        "https://www.racingpost.com/sport/football-tips/europa-league/besiktas-vs-crystal-palace-predictions-team-news-odds-betting-tips-bet-builder-aESPy8D0B0cj/",
+        "https://www.cpfc.co.uk/news/first-team/team-news-updates-on-four-players-pre-besiktas/",
+        "https://www.beinsports.com/en-us/soccer/uefa-europa-league/articles/palace-must-show-our-real-face-against-besiktas-in-europe-says-sage-2026-10-21",
+        "https://www.goal.com/en-za/betting/tips/besiktas-vs-crystal-palace-predictions-22-10-2026/A%3Ablte1f833f7937a3d02"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1160443-away_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Pre-mortem evidence points to a Beşiktaş home win. Beşiktaş have won 8 home games in a row, scored 18 in their last 5 at home, have no draw in 16 games and are 2/2 in the EL (Racing Post). Palace are in crisis: a 5-0 loss to Brighton, the most xG conceded in the PL, and a manager under pressure. Palace are also without first-choice keeper Henderson (not travelling), Tomiyasu and Timber (cpfc.co.uk). Goal predicts 3-1 Beşiktaş. Mateta's fitness after his hamstring injury is unclear. Book fair X2 is 0.555 vs PM 0.5467.",
+      "main_risk": "A home win for Beşiktaş against a Palace defence that has collapsed.",
+      "sources": [
+        "https://www.racingpost.com/sport/football-tips/europa-league/besiktas-vs-crystal-palace-predictions-team-news-odds-betting-tips-bet-builder-aESPy8D0B0cj/",
+        "https://www.cpfc.co.uk/news/first-team/team-news-updates-on-four-players-pre-besiktas/",
+        "https://www.goal.com/en-za/betting/tips/besiktas-vs-crystal-palace-predictions-22-10-2026/A%3Ablte1f833f7937a3d02",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261022"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1160480-away_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "PM 0.6933 ≈ DraftKings fair X2 0.688 (JAG +205/D +260/AND +125, unchanged from open), and bet365 has AND 2.25/D 3.6/JAG 3.1 (Sportskeeda/aggregators). The PM price was flat over 24h. Jagiellonia are without striker Prelec (ankle ligaments, out for weeks) and Wojtuszek (hernia surgery) (Weszło 11 Oct; Radio Białystok). Coach Siemieniec's domestic ban does not apply in Europe. Anderlecht are missing Biancone and Camara. Anderlecht have 0 EL points, but those came from defeats to Lyon and others. Football Whispers predicts 1-2 Anderlecht and Sportskeeda 1-1. No unresolved key doubts.",
+      "main_risk": "Jagiellonia's home form (unbeaten in 5, 13-5 goals) and their first EL win (3-1 vs Ararat) carry into a home win, while Anderlecht stay winless in the EL.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261022",
+        "https://www.whoscored.com/matches/2029665/preview/europe-europa-league-2026-2027-jagiellonia-bialystok-anderlecht",
+        "https://weszlo.com/jagiellonia-przekazala-kolejne-zle-wiesci-kontuzja-lidera-zespolu/",
+        "https://www.radio.bialystok.pl/wiadomosci/index/id/266000",
+        "https://footballwhispers.com/blog/jagiellonia-bialystok-vs-anderlecht-prediction-22-10-2026/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1160480-home_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "PM 0.5733 ≈ DraftKings fair 1X 0.577 and the price is stable. Jagiellonia are unbeaten in 5 (13-5) and have just won 3-1 vs Ararat in the EL. Anderlecht have 0 EL points and are missing Biancone and Camara. Jagiellonia's absences are Prelec and Wojtuszek, both known for weeks (Weszło; Radio Białystok). Sportskeeda predicts 1-1. There is no specific evidence for or against beyond the market, so adjustment is 0. The opposite side of this game is also kept, at market value.",
+      "main_risk": "Anderlecht's greater quality (Cvetković up front) gives them an away win. Jagiellonia are without their main striker Prelec.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261022",
+        "https://www.whoscored.com/matches/2029665/preview/europe-europa-league-2026-2027-jagiellonia-bialystok-anderlecht",
+        "https://weszlo.com/jagiellonia-przekazala-kolejne-zle-wiesci-kontuzja-lidera-zespolu/",
+        "https://www.radio.bialystok.pl/wiadomosci/index/id/266000"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1160490-away",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "DK -215/+390/+500 de-vigs to Sociedad 0.648 vs PM 0.663. PM rose 0.645→0.665 over 24h (+3%, under the 5% threshold). Sociedad squad: Beitia, Aramburu and Odriozola are out (recovering) and Herrera is out (calf). These are confirmed absences, not doubts. Oyarzabal, Fort and Aihen are available and Marín returns. Some rotation is expected (Marrero in goal), with Levante at home on Sunday. Lillestrøm: Garnås (knee) and Jebara (groin) are out. Åråsen is listed as natural grass (Wikipedia). I found no source for an artificial pitch. Previews (Sports Mole-style sites, FutbolFantasy, footballwhispers) back Sociedad. No reason to nudge.",
+      "main_risk": "A rotated Sociedad side (back-up GK, makeshift right-back with Aramburu and Odriozola both out) is held to a draw by a well-rested Lillestrøm. The hosts rested 6 starters at the weekend and drew 1-1 at Sparta.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261022",
+        "https://gamma-api.polymarket.com/events/1160490",
+        "https://www.futbolfantasy.com/europa-league/noticias/153276-posibles-alineaciones-y-previa-fantasy-del-lillestrom-real-sociedad",
+        "https://www.futbolfantasy.com/laliga/noticias/153229-aramburu-herrera-y-beitia-se-quedan-fuera-de-la-lista-para-viajar-a-noruega",
+        "https://starting11.com/fixtures/lillestrom-vs-real-sociedad",
+        "https://en.wikipedia.org/wiki/%C3%85r%C3%A5sen_Stadion"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1160470-away_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "DK fair 1X 0.624 / X2 0.645 vs PM 0.623 / 0.653, so the market matches the book. Celtic: Carter-Vickers and Johnston are out (O'Neill expects CCV back vs Hibs at the earliest), Trusty is out (private matter), Yang is out, Jota is not in the UEL squad, and Osmand is an unconfirmed doubt after a precautionary hamstring withdrawal. Manager O'Neill is recovering from a health issue and skipped the media duties (Maloney spoke). Celta: Núñez (adductor), Román, Starfelt and Iglesias are out. Giráldez says Aspas is not fit for 90 minutes. Both teams are 0/2 in the UEL. Too many open questions (Osmand, whether O'Neill is in the dugout, a patched back line), so both sides are excluded under the doubtful-player policy.",
+      "main_risk": "Celtic, at home after a 7-1 win over Hearts, beat a Celta side missing Núñez and Román, with Aspas limited.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261022",
+        "https://gamma-api.polymarket.com/events/1160470",
+        "https://readceltic.com/2026/10/21/celtic-celta-vigo-team-news-tv-kick-off/",
+        "https://www.67hailhail.com/news/sky-sports-footage-reveals-double-celtic-injury-development-before-celta-vigo-clash/",
+        "https://www.futbolfantasy.com/laliga/noticias/153242-giraldez-habla-de-starfelt-aspas-duran-swedberg-los-mediocentros-las-lesiones-las-rotaciones-",
+        "https://metropolitano.gal/celta-de-vigo/lista-convocados-europa-league-ante-celtic-glasgow-cinco-lesionados-viajan-burcio-antanon-arcos-milla/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1160470-home_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "DK fair 1X 0.624 / X2 0.645 vs PM 0.623 / 0.653, so the market matches the book. Celtic: Carter-Vickers and Johnston are out (O'Neill expects CCV back vs Hibs at the earliest), Trusty is out (private matter), Yang is out, Jota is not in the UEL squad, and Osmand is an unconfirmed doubt after a precautionary hamstring withdrawal. Manager O'Neill is recovering from a health issue and skipped the media duties (Maloney spoke). Celta: Núñez (adductor), Román, Starfelt and Iglesias are out. Giráldez says Aspas is not fit for 90 minutes. Both teams are 0/2 in the UEL. Too many open questions (Osmand, whether O'Neill is in the dugout, a patched back line), so both sides are excluded under the doubtful-player policy.",
+      "main_risk": "Celta exploit a Celtic defence without Carter-Vickers, Johnston and Trusty. Celtic have conceded 7 in 2 UEL games.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261022",
+        "https://gamma-api.polymarket.com/events/1160470",
+        "https://readceltic.com/2026/10/21/celtic-celta-vigo-team-news-tv-kick-off/",
+        "https://www.67hailhail.com/news/sky-sports-footage-reveals-double-celtic-injury-development-before-celta-vigo-clash/",
+        "https://www.futbolfantasy.com/laliga/noticias/153242-giraldez-habla-de-starfelt-aspas-duran-swedberg-los-mediocentros-las-lesiones-las-rotaciones-",
+        "https://metropolitano.gal/celta-de-vigo/lista-convocados-europa-league-ante-celtic-glasgow-cinco-lesionados-viajan-burcio-antanon-arcos-milla/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1160448-home",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "DK -200/+350/+500 de-vigs to Olympiacos 0.632 vs PM 0.647. PM has been flat at 0.635-0.645 all week. Olympiacos (6 pts from 2 games, beat Jagiellonia and Marseille, no goals conceded in 4 games) confirmed a 22-man squad. El Kaabi and Yazıcı are injured, and Bailey and Fortounis are ruled out (onsports.gr, newsit). These are confirmed absences, not doubts, and already reflected in the price. Sparta: Priske confirmed Mercado (calf) and Ševínský did not travel and Grimaldo was not named. Karabec and Ryneš are out for several weeks. Mbe Soh returns (ČT sport, iSport, Pražský deník). Sparta's attacking absences offset Olympiacos losing El Kaabi. No nudge.",
+      "main_risk": "Without El Kaabi and Fortounis, Olympiacos lack a cutting edge and are held to a low-scoring draw by a compact Sparta side.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261022",
+        "https://gamma-api.polymarket.com/events/1160448",
+        "https://www.onsports.gr/podosfairo/europa-league/story/875944/olympiakos-oristika-xoris-beili-me-sparta-pragas-i-apostoli-algkouathil",
+        "https://www.newsit.gr/athlitika/olympiakos-ektos-apostolis-fortounis-kai-mpeili-me-sparta-pragas/4804245/",
+        "https://sport.ceskatelevize.cz/clanek/fotbal/proti-olympiakosu-sparte-nepomohou-sevinsky-ani-mercado-k-tymu-se-vraci-mbe-soh-159546",
+        "https://isport.blesk.cz/clanek/fotbal-evropske-pohary-evropska-liga/481226/sparta-leti-do-recka-vraci-se-klicovy-stoper-ale-v-praze-zustala-ofenzivni-opora.html",
+        "https://www.whoscored.com/matches/2029586/preview/europe-europa-league-2026-2027-olympiacos-sparta-prague"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1160453-away",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "PM Salzburg rose 0.595→0.635 in 24h (+6.7% relative, CLOB history). DK moved the same way (open -155, now -195; fair 0.633). I found no news to explain it. Sports Mole, Laola1 and ligaportal give only routine team news: Veratschnig, Omoregie and Aguilar are out, and striker Konaté is unconfirmed after illness ('still up in the air'). Celje have not scored in the UEL (0-2 at Leverkusen, 0-3 vs Omonia). Excluded under the unexplained ≥5% drift rule and the unconfirmed doubt over a key forward.",
+      "main_risk": "Salzburg, missing captain Veratschnig and possibly Konaté and coming off a 0-4 home loss to Milan, are held to a draw at Celje.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261022",
+        "https://gamma-api.polymarket.com/events/1160453",
+        "https://www.sportsmole.co.uk/football/celje/europa-league/preview/celje-vs-salzburg-prediction-team-news-lineups_607325.html",
+        "https://www.laola1.com/en/editorial-tree/football/europa-league/news/konate-fit-for-celje-/",
+        "https://www.ligaportal.at/international/europa-league/94767-fc-salzburg-vor-duell-beim-slowenischen-meister-nk-celje-brauchen-geschlossene-und-reife-leistung"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1178188-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Fixture confirmed: JMU (7-0) AT App State (4-2), Kidd Brewer Stadium, 23:00Z, ESPNU (ESPN event 401869845) — JMU is the away team despite the market title order. DK ML JMU -425 / APP +330 (opened -410/+320; spread -10.5 -> -11.5) = de-vig 77.7%; ESPN FPI 84.7%; Polymarket stable 0.775-0.79 over 24h. EXCLUDED under both-sides availability policy: App State starting QB Malachi Singleton was limited after an injury vs ODU and left the Coastal Carolina game (Oct 17) with an injury; coach Loggains would not say ('We'll see how the week goes... with the injury report it's a competitive advantage'), and Henry Hasselbeck may take a large share or all snaps (The Appalachian, Oct 20). JMU still runs a Coleman/Evans two-QB rotation (Coleman started last six; Evans played more vs GSU per Breeze/DNR), and WR Corey Scott left the GSU game with a shoulder issue before returning (Rotowire) with no official update for Thursday. JMU and App State official sites returned Incapsula blocks; no Sun Belt availability report found in two searches.",
+      "main_risk": "QB uncertainty on App State's side (Hasselbeck's running — 21 carries/125 yds vs CCU — is a different look JMU hasn't prepared for) plus a road Thursday night game in Boone, where App has historically troubled JMU; a one-score App upset.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261022",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869845",
+        "https://theappalachianonline.com/app-state-football-looks-to-shake-up-the-standings-against-jmu/",
+        "https://www.breezejmu.org/sports/sunday-notebook-the-two-quarterback-system-comes-to-fruition-for-jmu/article_cf39f5c2-6334-4a3a-b94b-05578edf5e17.html",
+        "https://www.rotowire.com/cfootball/headlines/corey-scott-injury-injured-early-saturday-235348",
+        "https://gamma-api.polymarket.com/events?slug=cfb-jmad-applst-2026-10-22",
+        "https://clob.polymarket.com/prices-history"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1178185-side0",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Fixture confirmed: Liberty (5-1, 2-0 CUSA) AT Kennesaw State (1-5), Fifth Third Stadium, 23:00Z, CBSSN (ESPN 401871056). DK ML LIB -395 / KSU +310 (opened -340/+270; spread 8.5 -> 9.5, AP opener 10.5) = de-vig 76.6% vs Polymarket 0.775 (stable 0.775-0.785 last 72h, no 24h drift); ESPN FPI 80.9%. Liberty QB Deshawn Purdie has started every game (8 TD, 0 INT); Liberty is coming off an open week (last played Oct 8). KSU QB Rickie Collins played the full Oct 14 game (26/34, 260); KSU's known loss is OL Luke Duska, out for the season (KSU Sentinel, Mack quote). No questionable key players found for either side: AP preview, A Sea of Red preview (Oct 21) and Chadwell presser page list none; Covers shows none; libertyflames.com and ksuowls.com returned 403. Market ≈ books, so 0 adjustment.",
+      "main_risk": "A repeat of 2024, when an 0-6 KSU beat a 5-0 Liberty: Liberty's limited passing game (105th) and heavy penalties (137th in FBS) keep a road game close and KSU steals it late.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261022",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401871056",
+        "https://www.aseaofred.com/liberty-kennesaw-state-preview-can-the-flames-finally-solve-the-owls/",
+        "https://www.aseaofred.com/jamey-chadwell-press-conference-week-8-at-kennesaw-state/",
+        "https://theksusentinel.com/2026/10/13/football-hits-road-for-midweek-matchup-against-missouri-state/",
+        "https://abcnews.com/Sports/wireStory/cusa-matchup-features-liberty-kennesaw-state-137365174",
+        "https://gamma-api.polymarket.com/events?slug=cfb-librty-kenest-2026-10-22",
+        "https://clob.polymarket.com/prices-history"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1178198-side1",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Fixture confirmed: East Carolina (3-3) AT Memphis (5-2), Simmons Bank Liberty Stadium, 23:30Z, ESPN2 (ESPN 401862807) — Memphis at home. DK ML MEM -425 / ECU +330 (opened -395/+310; spread 9.5 -> 10.5, all tracked spread money on Memphis per WagerTalk) = de-vig 77.7% vs Polymarket 0.775; ESPN FPI 78.7%. Polymarket flat at 0.775 for the last ~4 days (the move from ~0.70 came Oct 18 after last weekend's results, outside 24h). Starting QBs: Memphis Marcus Stokes (1,841 yds, 18 TD; started every game incl. at Tulane Oct 16); ECU Emory Williams has been the sole starter since Sep 26 (Griffis started early). Questionable list (WagerTalk): ECU WR Jeremiah Melvin and RB Ashton Gray (neither is the lead player — Engleman leads rushing), Memphis backup QB Grant Troutman and K Oliver Castaneda (Philippe Laforge kicked vs UAB) — no starting QB or star affected. Market ≈ books, so 0 adjustment.",
+      "main_risk": "Memphis's poor run defense (104th, 172.9 ypg allowed) lets ECU control the clock, while the Tigers come off a 31-17 loss at Tulane on a short week; ECU (defense 38th in yards) keeps it within a score and steals it late.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261022",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862807",
+        "https://www.wagertalk.com/news/college-football/east-carolina-vs-memphis-prediction-picks-odds-october-22-2026/",
+        "https://abcnews.com/Sports/wireStory/memphis-hosts-east-carolina-aac-play-137365173",
+        "https://gamma-api.polymarket.com/events?slug=cfb-ecar-mphs-2026-10-22",
+        "https://clob.polymarket.com/prices-history"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1224617-side1",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Verified: Lyon ATP 250 (indoor hard) R2 (TE lists it as round of 16), 22 Oct 13:30 UTC per ESPN. Fritz is the No. 2 seed with a first-round bye (TE ranking 14). Herbert (TE ranking 290, WC) came through qualifying with three wins: Rodionov, Mrva, then Baez 6-3 6-4 in R1. H2H Herbert 1-0 (Miami 2018). Bookmaker average on TennisExplorer is 1.17/4.98, about 0.81 fair for Fritz. 10Bet 1.14 and 1xBet are in the same range, and the line has been stable since it opened at 1.20. Market 0.815 matches, so no adjustment. Polymarket price went 0.835→0.815 in 24h (-2.4%, under the 5% threshold). No October injury report found. Fritz had knee tendinitis in 2026 (MTO at Wimbledon QF and in Washington). Pinnacle not accessed directly; Stake and Rainbet both returned 403.",
+      "main_risk": "Fritz is out of form or his knee flares up: he lost 2 of his last 3 matches (Munar, 1R Tokyo; Tsitsipas, Shanghai 3R). Meanwhile Herbert, playing at home, has three indoor match wins this week and a big serve. Evidence exists but is moderate, and the books price it the same way.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard?dates=20261022",
+        "https://www.tennisexplorer.com/matches/?type=atp-single&year=2026&month=10&day=22",
+        "https://www.tennisexplorer.com/match-detail/?id=3355779",
+        "https://www.tennisexplorer.com/player/fritz-f1aa7/",
+        "https://www.tennisexplorer.com/player/herbert-fa5ad/",
+        "https://gamma-api.polymarket.com/events?slug=atp-herbert-fritz-2026-10-22",
+        "https://www.nbcsports.com/tennis/news/taylor-fritz-loses-to-alexander-zverev-in-wimbledon-quarterfinals-after-knee-tendonitis-flares-up",
+        "https://flashscore.de/news/tennis-atp-250-lyon-2026-preview/bJlfpBuC/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1230526-side1",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Verified: Brussels European Open ATP 250 (indoor hard) R2, 22 Oct 15:00 UTC per ESPN. Bergs (6th seed, TE ranking 41, home crowd) beat Samuel 6-3 7-6. He is in good form: beat Alcaraz and reached Shanghai R16. Dzumhur (TE ranking 83) won the Olbia Challenger on 18 Oct, then beat Prizmic in three sets on 21 Oct, so he has won 7 straight and has played on back-to-back weeks. H2H Dzumhur 2-0, but both meetings were 2022 qualifying matches. Bookmaker average on TennisExplorer is 1.23/4.09, about 0.77 fair. 10Bet 1.22 and 1xBet 1.25 were stable after a small early move toward Bergs (1xBet opened Dzumhur at 3.10). Market 0.775 matches, so no adjustment. No Polymarket drift in 24h, but volume is very thin (about $130). No injury news found. Stake and Rainbet both returned 403.",
+      "main_risk": "Dzumhur's hot streak and grinding counterpunching unsettle Bergs's aggressive game, as in their 2022 meetings. The streak is real, but it is priced in, and Dzumhur may be tired.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard?dates=20261022",
+        "https://www.tennisexplorer.com/matches/?type=atp-single&year=2026&month=10&day=22",
+        "https://www.tennisexplorer.com/match-detail/?id=3356617",
+        "https://www.tennisexplorer.com/player/bergs/",
+        "https://www.tennisexplorer.com/player/dzumhur/",
+        "https://gamma-api.polymarket.com/events?slug=atp-dzumhur-bergs-2026-10-22"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1224618-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Challenger: TennisExplorer lists Ritschard vs Brancaccio under 'Lisbon challenger' (Ritschard beat Taberner in R1 on 20 Oct). Challenger events are excluded by policy.",
+      "main_risk": "Not applicable (excluded).",
+      "sources": [
+        "https://www.tennisexplorer.com/matches/?type=atp-single&year=2026&month=10&day=22",
+        "https://www.tennisexplorer.com/player/ritschard/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1224611-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Challenger: TennisExplorer lists it as 'Florence challenger, round of 16, clay'. The match has not been played. Roca Batalla's last result is his R1 win over Papoe on 20 Oct, and it shows as scheduled 'Today' (22 Oct), so it was carried over from yesterday's listing. Excluded by policy either way.",
+      "main_risk": "Not applicable (excluded).",
+      "sources": [
+        "https://www.tennisexplorer.com/matches/?type=atp-single&year=2026&month=10&day=22",
+        "https://www.tennisexplorer.com/match-detail/?id=3355825",
+        "https://www.tennisexplorer.com/player/roca-batalla/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1198789-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "VCT Game Changers Championship 2026 (São Paulo, 22 Oct–1 Nov). This is the women's Game Changers circuit, which is not tier-1 under policy.",
+      "main_risk": "Not applicable (excluded).",
+      "sources": [
+        "https://esports.ru/valorant/tournaments/vct-game-changers-championship-2026/",
+        "https://www.thespike.gg/events/matches/valorant-game-changers-2026-championship/4241"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1198788-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "VCT Game Changers Championship 2026. This is the women's circuit; MIBR GC qualified through the Americas Last Chance Qualifier. Not tier-1 under policy.",
+      "main_risk": "Not applicable (excluded).",
+      "sources": [
+        "https://esports.ru/valorant/tournaments/vct-game-changers-championship-2026/",
+        "https://www.thespike.gg/br/valorant/news/mibr-garante-ultima-vaga-no-game-changers-championship-2026/9017"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1232110-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Project Blender is a third-party European off-season Valorant event, not part of the Riot VCT tier-1 circuit. The 2025 edition was a 16-team phased event that GIANTX won. Treated as tier-2, so excluded. Liquipedia rate-limited me, so I stopped querying it.",
+      "main_risk": "Not applicable (excluded).",
+      "sources": [
+        "https://www.thespike.gg/events/project-blender-2025-phase-2/3863",
+        "https://www.sheepesports.com/us/articles/valorant-giantx-defeats-eternal-fire-and-win-project-blender/en"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1232142-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "EPL Masters is the European Pro League Dota 2 series, a tier-2/3 event with lower-tier teams such as Yellow Submarine, CyberHero, Level Up and Zero Tenacity. Not tier-1. Yellow Submarine has also had roster problems before (dota2.ru reported it withdrew from EPL Masters II).",
+      "main_risk": "Not applicable (excluded).",
+      "sources": [
+        "https://ggscore.com/en/dota-2/epl-masters-i",
+        "https://dota2.ru/news/67334-u-yellow-submarine-problemy-s-sostavom-komanda-snalas-s-epl-masters-2/",
+        "https://dota2protracker.com/tournaments/19944"
+      ],
+      "prices": []
+    }
+  ]
+}
