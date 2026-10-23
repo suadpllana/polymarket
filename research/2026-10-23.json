@@ -1,0 +1,309 @@
+{
+  "date": "2026-10-23",
+  "researched_at": "2026-10-23T05:57:55Z",
+  "summary": "Friday keeps settled-news legs at bookmaker fair price: Torino-Monza and Brest-Nice both ways, Go Ahead Eagles, Alaves (rise explained by Malaga absences), Tsitsipas and Fritz in ATP 250 quarterfinals and the Lakers, with Stuttgart trimmed 2pp for post-Atletico rotation. Excluded legs cover conflicting availability reports (Ipswich's Lukic, Vitoria's Ndoye), Paul's unexplained 7.9% drop, BO1 LoL Worlds group matches (rules require Bo3+), Liquid's new lineup and 14% drift, a tier-2 Dota event and Challenger tennis.",
+  "verdicts": [
+    {
+      "id": "1161726-home_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Fixture verified (ESPN ita.1 401874957, 23 Oct 18:45Z, Serie A MD8). DraftKings TOR +110 / X +225 / MON +235 -> fair 1X 0.724, ≈ market 0.7267. Polymarket stable over 24h (Torino win 0.445->0.455). Torino: Fortini, Ilkhan (adductor), R. Rodriguez out; no doubts or suspensions; won 3 of last 5 (2-1 Udinese, 3-0 at Parma). Monza: Pessina, Ziolkowski out; Ciurria and Touré were in Juric's 26-man squad (toro.it). Abate's Thursday presser: no new absences; expects a 'dirty', duel-heavy game. No reason to move off the market.",
+      "main_risk": "Monza win. Juric's side beat Torino 1-0 in the Coppa Italia this season and beat Cagliari 4-0 last time out; a duel-heavy game could be settled by a set piece. No evidence found beyond what DK already prices.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874957",
+        "https://gamma-api.polymarket.com/events/1161726",
+        "https://monzaindiretta.it/sport/torino-monza-le-probabili-formazioni-2/",
+        "https://www.toro.it/toro/partite/torino-monza-convocati-26-27/1444414/",
+        "https://www.calcionews24.com/abate-conferenza-stampa-vigilia-torino-monza-serie-a-2026-27/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1161726-away_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Same fixture. DK fair X2 0.560 vs market 0.5467 (within about 1pp). Price stable over 24h (Monza win 0.265-0.275). Monza: Pessina, Ziolkowski out; Ciurria and Touré in the squad. Torino: Fortini, Ilkhan, Rodriguez out; no other doubts. Monza 2-1-4 (14th), Torino 3-1-3 (10th).",
+      "main_risk": "Torino home win. Torino are in form (3 wins from their last 4 league games, 3-0 at Parma) and Abate now plays a two-striker setup (Simeone and Adams).",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261023",
+        "https://gamma-api.polymarket.com/events/1161726",
+        "https://monzaindiretta.it/sport/torino-monza-le-probabili-formazioni-2/",
+        "https://www.toro.it/toro/partite/torino-monza-convocati-26-27/1444414/",
+        "https://www.calcionews24.com/abate-conferenza-stampa-vigilia-torino-monza-serie-a-2026-27/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1162666-home",
+      "exclude": false,
+      "adjustment_pp": -2,
+      "reason": "Fixture verified (ESPN ger.1 401884761, 23 Oct 18:30Z). DraftKings VFB -300 / X +450 / BMG +550 -> fair Stuttgart win 0.691, about 2.5pp below the Polymarket price of 0.7165 (which moved from 0.705 to 0.715 overnight, under 5% relative). Stuttgart played Atlético in the UCL on Tuesday (1-1), 3 days earlier, and a preview expects rotation. Vagnoman (thigh strain, 3-4 weeks) and Nartey (muscle) are out; Tiago Tomás, Diehl and Zagadou are in rehab (Eurosport 22 Oct, GFNG). Stuttgart's league form is poor: 2-0-4, 13th, lost 1-0 at HSV. They have underperformed their xG, with 21 of 24 big chances missed (wettbasis). Gladbach are 0-0-6 under new coach Blessin (lost his first two), with Leopold and Leszczyński out long-term. I found no confirmation of Stuttgart's goalkeeper or of Mittelstädt (he started vs Atlético and may be rested), but this is a rotation choice, not an injury doubt. Lowered toward the DK fair price.",
+      "main_risk": "Tired, rotated Stuttgart keep missing chances after the Tuesday UCL game, and Gladbach's new-coach response grabs a draw (DK draw about 17%).",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884761",
+        "https://gamma-api.polymarket.com/events/1162666",
+        "https://www.eurosport.de/fussball/bundesliga/2026-2027/josha-vagnoman-verletzt-vfb-stuttgart-muss-vorerst-auf-den-nationalspieler-verzichten-ausfall-gegen-gladbach_sto23348136/story.shtml",
+        "https://www.getfootballnewsgermany.com/2026/stuttgart-gladbach-vagnoman/",
+        "https://www.wettbasis.com/sportwetten-tipps/vfb-stuttgart-vs-gladbach-tipp-ki-prognose-quoten-23-10-2026"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1162665-home_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Fixture verified (ESPN fra.1 401876428, 23 Oct 18:45Z). DK BRE +125 / X +240 / NICE +225 -> fair 1X 0.706, ≈ market 0.7033. Polymarket flat over 24h. Nice played no European match this week (last game 18 Oct at Lyon per ESPN; no midweek fixture). Brest: Chardonnet (calf) and Le Guen (fracture) out; Versini is back in training and expected in the squad (Lachuer presser, Ogcnissa). Nice: 21-man squad named; Abdi not in it (out), Bombito, Abergel and Mendy out long-term, Sanson back; Pantaloni reported no new absences. Brest 2-3-2 (beat Angers 5-1, drew 1-1 at Lille).",
+      "main_risk": "Nice away win via their dangerous wing-backs (Clauss) against a direct, low-possession Brest side whose finishing is only average.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876428",
+        "https://gamma-api.polymarket.com/events/1162665",
+        "https://morning-foot.com/ligue-1/brest/stade-brestois-lachuer-nice-blesses-attaque/",
+        "https://www.ogcnissa.com/articles-18613-ligue-1-brest-nice-les-echos",
+        "https://www.ici.fr/provence-alpes-cote-d-azur/alpes-maritimes-06/nice/avant-brest-ogc-nice-olivier-pantaloni-et-roger-ricort-prennent-la-defense-du-gardien-du-gym-yehvann-diouf-3502294"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1162665-away_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Same fixture. DK fair X2 0.575 vs market 0.5733. Price flat over 24h. Nice had no midweek European game. Their squad is confirmed: Abdi out, Sanson back, Bombito, Abergel and Mendy out long-term. Brest are without Chardonnet and Le Guen. Nice are 2-2-3 (13th), and goalkeeper Diouf has been criticised but was publicly backed by the club.",
+      "main_risk": "Brest home win via Ajorque's aerial threat and set pieces (Brest's aerial rating is 99/100) against an unsettled Nice defence and a criticised goalkeeper.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261023",
+        "https://gamma-api.polymarket.com/events/1162665",
+        "https://www.ogcnissa.com/articles-18613-ligue-1-brest-nice-les-echos",
+        "https://morning-foot.com/ligue-1/brest/stade-brestois-lachuer-nice-blesses-attaque/",
+        "https://www.ici.fr/provence-alpes-cote-d-azur/alpes-maritimes-06/nice/avant-brest-ogc-nice-olivier-pantaloni-et-roger-ricort-prennent-la-defense-du-gardien-du-gym-yehvann-diouf-3502294"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1162669-away_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Excluded under the strict both-sides availability rule: Ipswich midfielder Lukic is a doubt with conflicting reports (Sports Mole expects him back, StatsZone lists him out). Fixture verified (ESPN/Polymarket: Ipswich v Forest, PL GW8, Fri 23 Oct 19:00Z). DraftKings 1X2 +215/+250/+125 de-vigged → Forest-or-Draw fair 0.697 vs market 0.7033 (≈ books; DK moved toward Forest from +140 open). Polymarket Forest win 0.435→0.425 in 24h (no 5% drift). No Forest European fixture this season (ESPN all-comps schedule) → no rotation. Glasner (21 Oct presser, Sports Mole/FFS): Gibbs-White 'ready, trained the entire week', Milenkovic ready to start; only Igor Jesus and Savona out. Ipswich: Lukic (groin, minor) status conflicting – Sports Mole 'expected to return, final decision not made', StatsZone lists him as only absentee; Ipswich lost 3-2 at Man City without him. Ipswich 10th 9pts, Forest 19th 5pts with fewest goals (5). Stake/Rainbet 403.",
+      "main_risk": "Ipswich home win: Forest have scored only 5 league goals and lost 3 straight; Ipswich games are high-scoring (3.71 goals/match) so Ipswich can outscore a blunt Forest attack.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/nottingham-forest/relegation-battle/preview/ipswich-vs-nottm-forest-prediction-team-news-lineups_607366.html",
+        "https://www.sportsmole.co.uk/football/nottingham-forest/injury-news/news/will-gibbs-white-return-glasner-delivers-mixed-nottingham-forest-injury-update_607375.html",
+        "https://www.fantasyfootballscout.co.uk/2026/10/21/fpl-gameweek-8-team-news-weds-injury-updates-gibbs-white-latest",
+        "https://www.thestatszone.com/ipswich-vs-nottingham-forest-preview-team-news-prediction-2026-27-english-premier-league-231602",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261023",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/393/schedule",
+        "https://gamma-api.polymarket.com/events?slug=epl-ips-not-2026-10-23"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1162669-home_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Excluded under the strict both-sides availability rule: Lukic status unconfirmed (conflicting Sports Mole vs StatsZone). Same fixture checks as away_draw. De-vigged DK → Ipswich-or-Draw fair 0.576 vs market 0.5733 (≈ books). Polymarket Ipswich win flat 0.295 in 24h. Forest: Gibbs-White and Milenkovic confirmed fit by Glasner (21 Oct), Jesus/Savona out; no midweek Europe. Ipswich: only Lukic (minor groin) in doubt/out per Sports Mole/StatsZone – not decisive, team played without him at Man City. Sports Mole predicts 1-1. DK line moved toward Forest (Ipswich +175→+215) but Polymarket already reflects it; no basis to nudge. Stake/Rainbet 403.",
+      "main_risk": "Forest win: Gibbs-White returns for a Forest side that drew at Liverpool and won at Palace; Ipswich have lost 4 of 7 and concede freely (books moved toward Forest).",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/nottingham-forest/relegation-battle/preview/ipswich-vs-nottm-forest-prediction-team-news-lineups_607366.html",
+        "https://www.sportsmole.co.uk/football/nottingham-forest/injury-news/news/will-gibbs-white-return-glasner-delivers-mixed-nottingham-forest-injury-update_607375.html",
+        "https://www.fantasyfootballscout.co.uk/2026/10/21/fpl-gameweek-8-team-news-weds-injury-updates-gibbs-white-latest",
+        "https://www.thestatszone.com/ipswich-vs-nottingham-forest-preview-team-news-prediction-2026-27-english-premier-league-231602",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261023",
+        "https://gamma-api.polymarket.com/events?slug=epl-ips-not-2026-10-23"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1164850-home",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Fixture verified (ESPN ned.1 & Polymarket ere-goa-tel-2026-10-23, Fri 18:00Z, De Adelaarshorst). DK -180/+330/+450 de-vigged → GAE fair 0.608 vs market 0.6166 (≈ books; DK -175 open → -180). Polymarket 0.605→0.615 in 24h (+1.7%). Team news: GAE without long-term absentees Pim Saathof (knee) and Eus Waayers (Sports Mole), Nick Marsman (knee, Deventer Voetbal 22 Oct) – otherwise near full squad; Telstar only Rui Mendes out (Sports Mole). No European fixture; cup tie only 4 days later. GAE 9th 11pts, unbeaten at home; Telstar 16th 6pts, winless in 8. Sports Mole predicts 2-1 GAE. Stake/Rainbet 403.",
+      "main_risk": "Draw: GAE drew 4 of their last 6 and were hammered 4-1 at PEC; they haven't beaten Telstar in the last 3 meetings and Telstar push teams close (3-4 v Feyenoord).",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/go-ahead-eagles/preview/go-ahead-eagles-vs-telstar-prediction-team-news-lineups_607388.html",
+        "https://www.deventervoetbal.nl/goaheadeagles/adelaarsoog/adelaarsoog-op-telstar-thuis-2/",
+        "https://voetbalwedden.eu/voorbeschouwingen/go-ahead-eagles-telstar/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261023",
+        "https://gamma-api.polymarket.com/events?slug=ere-goa-tel-2026-10-23"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1165628-home",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Excluded under the strict availability rule: sources conflict on whether Vitoria player Ndoye is still suspended (O Minho vs Sports Mole) and centre-back Balieiro is doubtful. Fixture verified (ESPN por.1 & Polymarket por-gui-csm-2026-10-23, Fri 19:45Z, D. Afonso Henriques, I Liga J9). DK -165/+290/+450 de-vigged → Vitória fair 0.587 vs market 0.6034; DK drifted AGAINST Vitória (-190 open → -165) while Polymarket rose 0.585→0.605 (+3.4%, under 5%). Vitória 15th with 5 pts, one league win in 8 and winless in 5 (O Minho, Sports Mole); goals scarce (1-0, 0-0, 1-1, 0-2). Absences: Juan Castillo, Francisco Dias out; CB Thiago Balieiro doubtful (not in predicted XI); Ndoye status conflicting (O Minho: back from 3-game ban; Sports Mole: suspended); GK choice open (Margarido: Furtado 'uma possibilidade, não uma garantia'); Gustavo Silva back. Marítimo 11th/12th 8 pts, without Santiago and Danilovic (Maisfutebol), winless in 10 v Vitória. Sports Mole predicts 1-0. −2pp: market ~1.6pp above de-vigged book plus pre-mortem (draw) evidence in Vitória's low-scoring winless run. Stake/Rainbet 403.",
+      "main_risk": "Draw/low-scoring stalemate: Vitória have won 1 of 8 league games and score very little; a 0-0 or 1-1 against a Marítimo side needing points is the most likely loss.",
+      "sources": [
+        "https://ominho.pt/margarido-quer-vitoria-ofensivo-e-envolvente-para-derrotar-maritimo/",
+        "https://www.sportsmole.co.uk/football/vitoria-de-guimaraes/preview/guimaraes-vs-maritimo-prediction-team-news-lineups_607393.html",
+        "https://maisfutebol.iol.pt/maritimo/mitchell-van-der-gaag/van-der-gaag-se-nao-tivermos-personalidade-vai-ser-dificil",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261023",
+        "https://gamma-api.polymarket.com/events?slug=por-gui-csm-2026-10-23"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1163127-home",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Fixture verified (ESPN esp.1 & Polymarket lal-ala-mala-2026-10-23, Fri 19:00Z/21:00 local, Mendizorrotza, J10; Infobae/EFE preview). Polymarket Alavés 0.555→0.585 (+5.4% in 24h) but explained and mirrored by books: DK moved -125 → -150 (Málaga +330 → +450) as Málaga's Joaquín Muñoz was confirmed out (soleus) and Juan Cruz suffered a setback, on top of Murillo, Ochoa, Lobete out (FutbolFantasy, El Gol Digital 20 Oct). DK de-vigged fair 0.574 vs market 0.5834 (≈ books). Alavés: only long-term Garcés/Mikel Rodríguez (ACL) out, Ángel Pérez back from ban, Koski/Mañas recovered; 7th 11 pts but two straight defeats. Málaga bottom, winless all season, 1 pt & 1 goal from 3 away games, lost 2-5 at home to Real Sociedad, winless in last 3 visits to Mendizorrotza. Stake/Rainbet 403.",
+      "main_risk": "Low-scoring draw: Alavés have lost two in a row and Quique's side can be cagey; a desperate Málaga sitting deep could grind out a 0-0/1-1.",
+      "sources": [
+        "https://infobae.com/america/agencias/2026/10/22/previa-el-alaves-y-el-colista-malaga-cf-se-cruzan-obligados-y-llenos-de-dudas-en-mendizorrotza",
+        "https://www.futbolfantasy.com/laliga/noticias/153267-alineaciones-probables-y-previa-fantasy-del-alaves-malaga",
+        "https://www.elgoldigital.com/futbol/malaga-cf/malaga-bajas-alaves-murillo-juan-cruz-ochoa-lobete",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261023",
+        "https://gamma-api.polymarket.com/events?slug=lal-ala-mala-2026-10-23"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1214246-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Fixture confirmed on official lolesports API: Worlds 2026 Swiss Round 1, BLG vs MKOI 2026-10-23T19:00Z, bestOf 1, both 0-0 (BLG LPL#2, MKOI LEC#2 per Insider Gaming/EarlyGame draw reports). Tier-1 event, but rules checklist for non-CS2 esports requires Bo3+; this is a BO1. No roster/visa news found for BLG or MKOI; Polymarket 0.825→0.815 in 24h (no material drift). Manifold (not a book) ~79% BLG, consistent with market. Excluded on format.",
+      "main_risk": "BO1 single-game variance: one MKOI draft/early-game snowball (MKOI just got through LEC as #2 and BO1 upsets of LPL teams happen every Worlds) ends it with no comeback series.",
+      "sources": [
+        "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=98767975604431411",
+        "https://insider-gaming.com/worlds-2026-swiss-stage-draw-confirmed/",
+        "https://earlygame.com/news/lol/worlds-2026-main-event-these-are-the-opening-swiss-stage-matchups",
+        "https://manifold.markets/RedzoneITG/league-of-legends-worlds-2026-match",
+        "https://gamma-api.polymarket.com/events?slug=lol-blg-mkoi-2026-10-23"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1214243-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Official lolesports API: Swiss Round 1 HLE vs TES 2026-10-23T18:00Z, bestOf 1. BO1 fails the Bo3+ checklist for non-CS2 esports. Additionally TES has a roster/visa issue: top laner ZUIAN had US visa rejected twice (TES statement Oct 6), veteran 369 (inactive since March) to start while a third interview was pursued; coaches BoBo/Leo also reportedly affected — final status for today not confirmed (Dot Esports, esports.gg, GosuGamers, Strafe). Price flat 0.785 for 24h. Excluded on format + unconfirmed opponent lineup.",
+      "main_risk": "BO1 variance vs a strong LPL side; if ZUIAN's visa was resolved TES is closer to full strength than the price may assume.",
+      "sources": [
+        "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=98767975604431411",
+        "https://dotesports.com/league-of-legends/news/tes-zuian-visa-issues-worlds-2026",
+        "https://esports.gg/news/league-of-legends/tes-zuian-worlds-2026-visa-issues/",
+        "https://www.gosugamers.net/lol/news/79304-top-esports-zuian-could-miss-worlds-2026-after-visa-denial-369-set-to-step-in",
+        "https://www.invenglobal.com/articles/27334/swiss-stage-round-1-matchups-set-two-lck-lpl-clashes-dk-faces-g2",
+        "https://gamma-api.polymarket.com/events?slug=lol-hle1-tes-2026-10-23"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1214238-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Official lolesports API: Swiss Round 1 GEN vs IG 2026-10-23T17:00Z, bestOf 1 (Gen.G LCK#1, IG LPL#4 per Inven Global/Khan). BO1 fails the Bo3+ checklist for non-CS2 esports. No roster/visa issues found for either team; Gen.G called clear favourite (Insider Gaming/GosuGamers previews); Manifold ~76% Gen.G ≈ market 0.775, flat for 24h. No bookmaker odds found (Stake/Rainbet 403). Excluded on format.",
+      "main_risk": "BO1: one lost draft/early skirmish vs IG (opening-day nerves, Gen.G's history of shaky Worlds starts) decides the match.",
+      "sources": [
+        "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=98767975604431411",
+        "https://www.invenglobal.com/articles/27334/swiss-stage-round-1-matchups-set-two-lck-lpl-clashes-dk-faces-g2",
+        "https://sports.khan.co.kr/en/article/202610190829007",
+        "https://insider-gaming.com/worlds-2026-swiss-stage-draw-confirmed/",
+        "https://manifold.markets/RedzoneITG/league-of-legends-worlds-2026-match",
+        "https://gamma-api.polymarket.com/events?slug=lol-gen-ig1-2026-10-23"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1203870-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "PARI Universe 2026 (FISSURE): $250K online invitational, Oct 22–Nov 1, groups of 5, BO3; Strafe says Liquipedia Tier 1 but esports.ru lists tier 'A' with conflicting prize/format, and Liquipedia itself returned 429 (stopped) — tier not independently confirmed. Fixture confirmed 23 Oct 11:00 UTC (Hawk Live, Strafe, esports.ru 14:00 MSK). Yesterday Liquid beat 1win 2-0, GL lost 0-2 to Team Yandex (esports.ru). But: Liquid's roster is brand new — Malr1ne signed ~Oct 15 replacing Nisha, PARI is his debut event (esports.gg/rdy.gg); GL beat Liquid 2-0 at BLAST Slam on Oct 2 (Polymarket resolved market). Polymarket moved 0.69→0.785 in 24h (+14% relative), only partly explained by Day-1 results. Pre-mortem evidence found → exclude.",
+      "main_risk": "New-look Liquid (Malr1ne's 2nd series) lacks cohesion and GL repeats its 2-0 from BLAST Slam three weeks ago; price has run up 14% on one day of results.",
+      "sources": [
+        "https://www.strafe.com/event/pari-universe-2026-67fe5e/",
+        "https://hawk.live/posts/pari-universe-schedule-standings-results",
+        "https://esports.ru/dota-2/tournaments/pari-universe-2026/",
+        "https://esports.gg/news/dota-2/malr1ne-joins-team-liquid-dota-2/",
+        "https://rdy.gg/en/dota2/news/liquid-finalize-dota2-roster-malr1ne-signing",
+        "https://gamma-api.polymarket.com/events?slug=dota2-gl-liquid-2026-10-02",
+        "https://gamma-api.polymarket.com/events?slug=dota2-liquid-gl-2026-10-23"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1236792-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "EPL Masters III: online, 16 teams, $100K prize pool (esports.ru, Oct 18) — tier-2/3, not tier-1. HULIGANI also fielding a newly announced roster (TA2000, Mirage`, elmo^^, queezy, Rein). Excluded: not tier-1.",
+      "main_risk": "Tier-2 online event with a freshly assembled HULIGANI roster — low information, high variance.",
+      "sources": [
+        "https://esports.ru/dota-2/news/huligani-novyy-sostav-epl-masters-iii/",
+        "https://ggscore.com/ru/dota-2/epl-masters-2",
+        "https://rdy.gg/en/dota2/results/10006223"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1230533-side0",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "ATP 250 Almaty QF, indoor hard, 23 Oct 08:00Z (ESPN). Tsitsipas (TE rank 39) vs Duckworth (73); H2H 1-0 Tsitsipas (Washington 2018). Form: Tsitsipas d. Kovacevic in 3 (R1) then Kukushkin 6-1 6-2 (R2); Duckworth d. Kecmanovic and Darderi in straights. Pinnacle 1.25/4.49 de-vig = 0.782, TE average 1.22/4.22 = 0.776, matches Polymarket 0.785. Drift 24h 0.795 -> 0.785 (-1.3%). No new injury news found (back issues were 2025; reported pain-free at the start of 2026). Market roughly equals the books, so no nudge.",
+      "main_risk": "His back problem flares up again or he has a flat patch, and Duckworth, who is in good indoor form after two straight-set wins, wins a tight two-tiebreak match.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard?dates=20261023",
+        "https://www.tennisexplorer.com/match-detail/?id=3356853",
+        "https://matchstat.com/tennis/h2h-odds-bets/James%20Duckworth/Stefanos%20Tsitsipas/",
+        "https://gamma-api.polymarket.com/events?id=1230533",
+        "https://neoskosmos.com/en/2026/01/16/sport/tennis/tsitsipas-optimistic-and-pain-free-as-he-embraces-fresh-start-to-2026/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1236015-side1",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "ATP 250 Lyon QF, indoor hard, 23 Oct 13:30Z (ESPN). Fritz (TE rank 14, No. 2 seed, R1 bye) d. Herbert 6-2 7-5 on 22 Oct (ATP/TennisActu). Altmaier (65) d. Droguet in 3 and Gojo 6-3 6-4. H2H 2-0 Altmaier (RG 2025 on clay in 4 sets; Paris 2023 not a completed match), neither on a comparable full indoor-hard match. Pinnacle 1.24/4.45 de-vig = 0.782, TE average 1.22/4.13 = 0.772; Polymarket 0.775. Drift since the market opened on 22 Oct 19:00Z: 0.78 -> 0.755 -> 0.775, within 5%. No injury news found. Market roughly equals the books, so no nudge.",
+      "main_risk": "Altmaier's heavy topspin and his H2H edge (2-0) unsettle Fritz, as in RG 2025, and he steals a three-setter.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard?dates=20261023",
+        "https://www.tennisexplorer.com/match-detail/?id=3357339",
+        "https://www.tennisactu.net/news-atp-lyon-taylor-fritz-ecarte-pierre-hugues-herbert-et-rallie-les-quarts-127774.html",
+        "https://www.atptour.com/en/news/musetti-kouame-lyon-2026-wednesday",
+        "https://gamma-api.polymarket.com/events?id=1236015"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1232239-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Fixture verified: ATP 250 Lyon QF, indoor hard, 23 Oct 12:00Z. Paul (TE rank 15) d. Bonzi 6-4 6-7(4) 6-3 in a night match on 21 Oct; Moutet (94, French, at home) d. Humbert in 3 and Balshaw 6-4 6-4 (ATP). H2H 2-0 Paul (Paris Olympics 2024; Delray 2026, a three-setter where Paul lost the first set). Pinnacle 1.30/3.96 de-vig = 0.753, TE average 3.70/1.27 = 0.744; Polymarket 0.755. EXCLUDED for drift: Polymarket went from 0.82 at 22 Oct 05:30Z to 0.755 now (-7.9% relative in 24h). The books moved the same way the morning of 22 Oct (10Bet opened 1.18, now 1.25; 1xBet Moutet 4.53 -> 3.69), but searches (ATP, news) found no injury or news to explain it.",
+      "main_risk": "Moutet's home crowd plus his lefty variety, against Paul after a late three-set night match and with his history of foot and abdominal problems. That is the same unexplained money that moved toward Moutet.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard?dates=20261023",
+        "https://www.tennisexplorer.com/match-detail/?id=3356925",
+        "https://www.atptour.com/en/news/musetti-kouame-lyon-2026-wednesday",
+        "https://gamma-api.polymarket.com/events?id=1232239",
+        "https://clob.polymarket.com/prices-history"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1236019-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Cali is an ATP Challenger (TennisExplorer lists it as 'Cali challenger'). Challenger events are excluded by policy.",
+      "main_risk": "N/A (Challenger excluded).",
+      "sources": [
+        "https://www.tennisexplorer.com/matches/?type=atp-single&year=2026&month=10&day=23",
+        "https://gamma-api.polymarket.com/events?id=1236019"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1203775-side1",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Lakers are HOME (ESPN: LA Clippers at Los Angeles Lakers, 24 Oct 02:00Z, both 1-0). DraftKings ML LAL -380 / LAC +300 (spread -8.5) de-vig = 0.760, matching Polymarket 0.765. Injuries agree across the official NBA report (23 Oct 01:45 ET), ESPN and CBS Sports. LAC out: Ingram, Beal, Strus, Konan Niederhauser, J. Miller, all long-term with return Nov 8 or later, so already priced. LAL: Carr and Thiero out; LaRavia questionable/GTD (ankle) is a bench player (18 min off the bench in the opener), not a key player; Doncic, Reaves and Kessler are not listed. Kessler is 'Available'. Lakers d. GSW 127-105 in the opener; LAC d. SAC 121-96. Drift 24h 0.78 -> 0.765 (-1.9%). RotoWire's injury table is paywalled, so CBS was used as the third source.",
+      "main_risk": "The Clippers' guards (Garland 30 pts in the opener) get hot from three in an early-season derby and Luka has an off night; a second-night letdown is not a factor.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261023",
+        "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909851",
+        "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-10-23_01_45AM.pdf",
+        "https://www.cbssports.com/nba/injuries/",
+        "https://gamma-api.polymarket.com/events?id=1203775"
+      ],
+      "prices": []
+    }
+  ]
+}
