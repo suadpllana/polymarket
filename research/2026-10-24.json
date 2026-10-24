@@ -1,0 +1,550 @@
+{
+  "date": "2026-10-24",
+  "researched_at": "2026-10-24T06:04:07Z",
+  "summary": "Saturday keeps settled-news legs at bookmaker fair price: Oklahoma State, Kentucky, Louisiana, UIW, CCSU, Duquesne, Austin Peay, Rayo-or-Draw, Cavaliers, Yakhyaev, Lucindo and Fils in the Brussels semi-final, with small pre-mortem trims on Spirit (CS2 Major group), Lamar, Estrela-or-Draw and Mainz-or-Draw. Excluded legs cover unconfirmed starting QBs and key players (Oregon, TCU, Louisiana Tech, Texas State, Ohio, Texas Tech, Idaho State, Nicholls, Man City's late fitness tests, Utrecht's keeper, Pelicans' Missi), unfiled back-to-back NBA injury reports and unexplained drift (Spurs, Suns), a Dota stand-in, an opponent outside the HLTV top 30, BO1 LoL, unpriced WTA qualifying and Challenger tennis.",
+  "verdicts": [
+    {
+      "id": "1168495-away_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "DK (ESPN) close Villa +400/D +350/City -165 -> fair City-or-Draw 0.809 (open 0.793), PM 0.8166 stable 24h. But City's O'Reilly (back), Kovacic (knock), Nunes (muscle) all doubtful pending late fitness test per Maresca/Sports Mole (O'Reilly and Nunes in predicted XI); Villa's Manzambi doubtful (Emery: 'not a big injury', to be checked in training), Cisse doubt; Onana, Ruggeri, Wan-Bissaka out; Semenyo out for City. Unconfirmed key-player doubts = exclude by policy. Both played UCL midweek (City Tue 5-1 AEK, much-changed; Villa Wed 3-1 Viking). Pre-mortem evidence also present: Villa won last meeting 2-1 at Etihad, did the double last season, City lost 4 of last 6 league meetings with Villa; Villa unbeaten in 7.",
+      "main_risk": "Villa win at home as in recent H2H (City lost 4 of last 6 league meetings), with City's full-backs short of fitness.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261024",
+        "https://gamma-api.polymarket.com/events/1168495",
+        "https://www.sportsmole.co.uk/football/aston-villa/preview/aston-villa-vs-man-city-prediction-team-news-lineups_607406.html",
+        "https://www.sportsmole.co.uk/football/man-city/injury-news/news/100-percent-available-maresca-delivers-quadruple-man-city-injury-update-before-villa-trip_607434.html",
+        "https://www.sportsmole.co.uk/football/aston-villa/injury-news/news/some-have-some-pain-emery-gives-villa-manzambi-injury-update-ahead-of-man-city-game_607561.html",
+        "https://www.sportsmole.co.uk/football/man-city/predicted-lineups/will-haaland-start-foden-reward-predicted-man-city-lineup-vs-aston-villa_607408.html"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1165637-home_draw",
+      "exclude": false,
+      "adjustment_pp": -2,
+      "reason": "Fixture verified (ESPN, Sports Mole, A Bola: GW9 Sat). DK close Estrela -135/D +275/Casa Pia +370 -> fair H-or-D 0.798, drifted from 0.811 at open toward Casa Pia; PM 0.8166 (moved +1.9% the other way in 24h, under 5%). Estrela 10th (2W4D2L) but lost last two league games without scoring (Academico Viseu, Arouca 0-1); Pepa admits squad anxiety about returning home after pitch problems, Jansson fit, no injuries named except Arevalo (long-term). Casa Pia 2nd-bottom with 4 pts, all won away; GK Andre Gomes out, Livolant out, David Sousa back from ban; Coelho reports only unnamed minor doubts. Sports Mole 2-1 Estrela, 'tough to predict'. Lowered 2pp: DK fair ~1.9pp below PM and moving against, plus Estrela's scoreless form.",
+      "main_risk": "Blunt Estrela (two scoreless defeats) concede first to a Casa Pia side whose only points came away from home.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261024",
+        "https://gamma-api.polymarket.com/events/1165637",
+        "https://www.sportsmole.co.uk/football/estrela-amadora/preview/estrela-amadora-vs-casa-pia-prediction-team-news-lineups_607491.html",
+        "https://www.abola.pt/noticias/pepa-temos-de-perceber-que-o-que-temos-pela-frente-sao-autenticas-finais-2026102313190699103",
+        "https://www.abola.pt/noticias/filipe-coelho-espera-jogo-dificil-na-visita-do-casa-pia-ao-estrela-da-amadora-2026102314514154196"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1164854-home_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Excluded under the strict availability rule (same as Neuer on 18 and 21 Oct): first-choice goalkeeper Barkas is unconfirmed. DK close Utrecht -155/D +320/Zwolle +370 -> fair H-or-D 0.799 (open 0.798, stable); PM 0.8066, flat 24h. Utrecht 9 pts from last 4 under Correia (3-1 Willem II, 2-1 at Twente); no European game midweek (ESPN schedule). Utrecht absentees long-term (Ohio, Engwanda, Paredes, Jonathans ACL, Stepanov, Jensen); Barkas already missed Twente win, Padt deputised and won. Zwolle 15th, sacked Van der Vegt, interim pair just won 4-1 v Go Ahead; Namli, Krastev out. Sports Mole 3-1 Utrecht. Club preview (fcutrecht.nl, 22 Oct) has no new injury news. Market ≈ book -> 0.",
+      "main_risk": "New-coach bounce for Zwolle (fresh 4-1 win) plus a depleted Utrecht squad leads to an away smash-and-grab.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261024",
+        "https://gamma-api.polymarket.com/events/1164854",
+        "https://www.sportsmole.co.uk/football/fc-utrecht/preview/utrecht-vs-pec-zwolle-prediction-team-news-lineups_607501.html",
+        "https://www.fcutrecht.nl/nieuws/2026/oktober/correia-ik-denk-dat-dat-het-fundament-van-succes-is/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1169079-home_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Fixture verified Sat (ESPN, Sports Mole, rayovallecano.es: box office closed 'mañana, día del partido ante el Elche'). No European game midweek; Rayo last played 19 Oct (1-1 Getafe). DK close Rayo -130/D +285/Elche +350 -> fair H-or-D 0.788 (open 0.788); PM 0.80 flat 24h. Rayo 14th (9 pts), out: Luiz Felipe (ACL, club medical report), Batalla; doubts Ratiu and Nteka (neither in Sports Mole predicted XI). Elche 18th (7 pts), 4 draws incl. 0-0 v Celta and at Villarreal; Marc Aguado out. Sports Mole 2-1 Rayo. Lowered 1pp: DK fair ~1.2pp below PM and Rayo doubts unresolved. Held at 0pp: the ~1pp gap to a single DraftKings price is too small and single-sourced for a nudge.",
+      "main_risk": "Rayo, missing Luiz Felipe and possibly Ratiu, fail to break down a defensive Elche and concede on a counter.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261024",
+        "https://gamma-api.polymarket.com/events/1169079",
+        "https://www.sportsmole.co.uk/football/rayo-vallecano/preview/rayo-vallecano-vs-elche-prediction-team-news-lineups_607489.html",
+        "https://www.rayovallecano.es/noticias/parte-medico-luiz-felipe",
+        "https://www.rayovallecano.es/noticias/taquillas-cerradas-este-sabado"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1168542-home_draw",
+      "exclude": false,
+      "adjustment_pp": -1,
+      "reason": "No European game midweek for either (ESPN schedules; Mainz last 17 Oct 1-0 at Schalke). DK close Mainz -140/D +295/Werder +310 -> fair H-or-D 0.774, drifted from 0.789 at open; PM 0.7867 flat 24h. Mainz 5th (10 pts) but winless in 3 home league games (club preview 'two unwanted streaks'); out Zentner, Kohr, Ruoppi, Silas. Werder 8th (9 pts), winless away, but 'comeback kings' (points from 0-2 down in 3 straight); heavy absences: Stage, Lynen, Alvero, Njinmah, Musah, Topp, N'Diaye, Agu. Sports Mole predicts 2-2. Lowered 1pp: DK fair 1.3pp below PM and moving toward Werder, Mainz home-winless.",
+      "main_risk": "Mainz's home hoodoo continues and Werder's set pieces/Füllkrug (6 goals) snatch a late win.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261024",
+        "https://gamma-api.polymarket.com/events/1168542",
+        "https://www.sportsmole.co.uk/football/mainz-05/preview/mainz-vs-werder-bremen-prediction-team-news-lineups_607494.html",
+        "https://www.mainz05.de/en/news-en/two-unwanted-streaks,-one-goal-a-home-win"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1178357-side1",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Colorado @ Oklahoma State, Boone Pickens Stadium, 23:00Z (ESPN 401856836). DraftKings ML OKST -550/COLO +410 = 0.812 fair (opened -625/+455 = 0.827; spread 14.5 -> 13.5). PM 0.825, flat at 0.825 for 24h, so no drift. OSU QB Mestemaker (1,940 yds, 16 TD) started last week's 35-32 loss at Houston. OSU: S Mose Phillips III out (shoulder). Colorado: QB Isaac Wilson has started since the Baylor game; RB Micah Welch (2nd-leading rusher) out; WR Kam Perry out; WRs DeAndre Moore Jr. and Quentin Gibson set to play (Big 12 availability report via RotoWire/Fox). No QB question on either side. Market about equal to the book, so 0 adjustment. Stake/Rainbet returned 403.",
+      "main_risk": "OSU's leaky defense (lost 35-32 at Houston, safety Phillips out) lets Colorado's passing game keep it close, and a turnover-driven road upset follows.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261024&groups=80&limit=300",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856836",
+        "https://gamma-api.polymarket.com/events/1178357",
+        "https://fieldlevelmedia.com/?p=498055",
+        "https://www.foxsports.com/college-football/colorado-buffaloes-vs-oklahoma-state-cowboys-oct-24-2026-game-boxscore-43791?tab=news",
+        "https://www.rotowire.com/cfootball/headlines/kam-perry-injury-deemed-unavailable-for-saturday-236260"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1178377-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "ODU starting QB Quinn Henicle is ruled out (Sun Belt availability report, Oct 21). Backup Ryan Huff is listed questionable (Oct 22), so ODU's starting QB is unconfirmed. Policy: exclude both sides. The DK line also moved a lot, from -8.5/-325 to -13.5/-535 (0.808 fair), and PM is 0.825.",
+      "main_risk": "Uncertain ODU QB situation; the line already moved 5 points on it.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261024&groups=80&limit=300",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401871093",
+        "https://gamma-api.polymarket.com/events/1178377",
+        "https://www.foxsports.com/college-football/old-dominion-monarchs-team-player-news",
+        "https://www.foxsports.com/college-football/georgia-southern-eagles-vs-old-dominion-monarchs-oct-15-2026-game-boxscore-43648?tab=news",
+        "https://www.wtkr.com/sports/as-odu-looks-to-snap-three-game-skid-henicle-could-return-this-week"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1178527-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Utah State's top receiver Eli Wood (472 yds, 5 TD) is listed questionable on the Pac-12 availability report (Oct 21), with no later confirmation found. Texas State RB Davian Jackson is also questionable. The line moved a lot with no explanation: AP opener TXST -8.5, DK opened -9.5/-345 and now sits at -13.5/-535 (0.808 fair). PM is 0.825. Exclude under the both-sides policy and the unexplained move.",
+      "main_risk": "An unexplained 5-point line move and a questionable key Utah State player. Texas State's defense ranks 125th in yards allowed, so a shootout upset is plausible.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261024&groups=80&limit=300",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860906",
+        "https://gamma-api.polymarket.com/events/1178527",
+        "https://abcnews.com/Sports/wireStory/texas-state-utah-state-meet-pac-12-action-137365168",
+        "https://www.foxsports.com/college-football/utah-state-aggies-team-player-news",
+        "https://www.foxsports.com/college-football/texas-state-bobcats-team-player-news"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1178306-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Excluded under the strict availability rule, consistent with SMU on 17 Oct (starting defensive backs questionable): two Texas Tech safeties were questionable on the initial report and the final report could not be seen. No. 8 Texas Tech (6-0) @ Cincinnati (4-2), Nippert, 16:00Z (ESPN 401856840). DK ML TTU -455/CIN +350 = 0.787 fair (opened -425/+330; spread steady at -11.5). PM 0.795, flat for 24h. QB Will Hammond started the 53-25 win over Arizona State on Oct 18 (232 yds passing, 1 TD, plus 1 rushing TD) and has no availability listing. TTU out: WR Jalen Jones, WR Donte Lee Jr. (ACL), RB Cameron Dickey, OL Hunter Zambrano. Initial report had safeties Peyton Morgan and Maddox Quiller questionable; they are not stars and I could not see a final update. Cincinnati out: TE Witherspoon, DL Hough and Nunn. Market about equal to the book, so 0 adjustment.",
+      "main_risk": "Cincinnati's strong run game (Cole Tabb, 8 rushing TD) and QB JC French control the clock at home, and Hammond's turnovers (5 INT) give Cincinnati the upset.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261024&groups=80&limit=300",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856840",
+        "https://gamma-api.polymarket.com/events/1178306",
+        "https://www.foxsports.com/college-football/texas-tech-red-raiders-team-player-news",
+        "https://www.rotowire.com/cfootball/headlines/hunter-zambrano-injury-unavailable-versus-cincinnati-236288",
+        "https://www.on3.com/sites/red-raider-sports/news/texas-techs-initial-availability-report-vs-cincinnati/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1178523-side1",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Vanderbilt (3-4, 0-4 SEC) @ No. 12 Kentucky (6-1), Kroger Field, 23:30Z (ESPN 401856729). DK ML UK -440/VAN +340 = 0.782 fair (opened -360/+285; spread 9.5 -> 10.5, toward UK). PM 0.795, range 0.795-0.80 over 24h. UK QB Kenny Minchey started the 21-13 win over Oklahoma and has no availability listing. RB CJ Baxter is cleared to play (SEC availability report, Oct 22). WR Nic Anderson and TE Lincoln Watkins are out. Vanderbilt QB Jared Curtis started last week's 31-21 loss to Arkansas and has no listing. Market slightly above the book, so 0 adjustment.",
+      "main_risk": "Kentucky's offense is held down again (only 21 points vs Oklahoma) without WR Anderson, and Curtis's playmaking keeps a one-score game alive that Vanderbilt steals late.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261024&groups=80&limit=300",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856729",
+        "https://gamma-api.polymarket.com/events/1178523",
+        "https://www.foxsports.com/college-football/kentucky-wildcats-team-player-news",
+        "https://www.foxsports.com/college-football/vanderbilt-commodores-team-player-news",
+        "https://www.si.com/betting/vanderbilt-vs-kentucky-prediction-odds-and-key-players-to-watch-for-college-football-week-8-2026"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1178257-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "TCU's leading rusher Jeremy Payne (429 yds) was downgraded to doubtful on the Big 12 availability report (RotoWire via Fox, about 10 hours before this check). Doubtful key player, so exclude both sides per policy. The DK line also jumped from -7/-258 to -10.5/-395 (0.766 fair). PM 0.765 -> 0.775.",
+      "main_risk": "Without Payne, TCU's run game stalls, and West Virginia dual-threat QB Hawkins (14 rushing TD) keeps it close.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261024&groups=80&limit=300",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856841",
+        "https://gamma-api.polymarket.com/events/1178257",
+        "https://www.foxsports.com/college-football/west-virginia-mountaineers-vs-tcu-horned-frogs-oct-24-2026-game-boxscore-43804?tab=news",
+        "https://fieldlevelmedia.com/ncaaf/michael-hawkins-jr-west-virginia-set-sights-on-stingy-tcu/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1178304-side0",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Louisiana (5-2) @ Southern Miss (1-5), M.M. Roberts, 21:00Z (ESPN 401869967). DK ML UL -380/USM +300 = 0.760 fair (opened -425/+330 = 0.777; spread 10.5 -> 10). PM 0.775, flat for 24h. UL QB Lunch Winfield started the 33-6 win over Troy (Oct 18) and has no listing; Birdlow is ready (Sun Belt report). USM QB Ethan Hampton is ruled out (hand), and Landry Lyddy, who started the 23-13 loss to Arkansas State, is the confirmed alternative. USM WR Jaylen Himes is out. No unconfirmed key players. PM is about 1.5pp above DK fair, so 0 adjustment.",
+      "main_risk": "Louisiana's weak passing game (Winfield 70 yds passing vs Troy) stalls on the road, and Southern Miss wins a low-scoring game as it did 22-10 in 2025.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261024&groups=80&limit=300",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869967",
+        "https://gamma-api.polymarket.com/events/1178304",
+        "https://www.foxsports.com/college-football/louisiana-ragin-cajuns-team-player-news",
+        "https://www.foxsports.com/college-football/southern-miss-golden-eagles-team-player-news"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1178339-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Oregon's starting QB is unconfirmed. Dante Moore (concussion from Sept 27 at USC) has missed two games, and Lanning has not named a starter (Raiola or Thomas). Top WR Evan Stewart may be out. Illinois QB Katin Houser is also out (hand), and freshman Michael Clayton II is expected to start (Field Level Media, Oct 21). Excluded per QB policy. DK -395 = 0.766 fair; PM 0.775.",
+      "main_risk": "Uncertain Oregon QB situation.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261024&groups=80&limit=300",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858495",
+        "https://gamma-api.polymarket.com/events/1178339",
+        "https://fieldlevelmedia.com/ncaaf/qb-situation-unsettled-for-oregon-ahead-of-clash-with-illinois/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1178477-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Eastern Michigan starting QB Noah Kim is listed questionable for the Ohio game (undisclosed; Mitten Football via RotoWire, Oct 19), with no confirmation found. Exclude both sides per policy. Ohio QB Nick Poulos returned from a concussion and played Oct 18. DK -380 = 0.760 fair; PM drifted 0.795 -> 0.775 (2.5%).",
+      "main_risk": "Unconfirmed QB availability for Eastern Michigan.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261024&groups=80&limit=300",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866449",
+        "https://gamma-api.polymarket.com/events/1178477",
+        "https://www.foxsports.com/college-football/eastern-michigan-eagles-team-player-news",
+        "https://www.foxsports.com/college-football/ohio-bobcats-team-player-news",
+        "https://digg.com/sports/xznp2cel"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1178480-side1",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Fixture confirmed (ESPN 401869138, McNeese 3-4 @ UIW 3-4, 21:00Z, Benson Stadium). DK UIW -14, ML -582/+402 → fair 0.811 vs market 0.83 (market slightly rich; no nudge). QB Emmett Brown started each of last 3 (27/52, 26/39, 21/33 per ESPN box scores), leads Southland in total offense (SFA preview); McNeese QB Jake Strong started last game. UIW won 41-16 vs UTRGV last week; McNeese lost 63-14 at LSU and beat 0-7 NW State by only 3. PM 24h 0.82→0.83 (+1.2%). Stake/Rainbet 403.",
+      "main_risk": "UIW defense (lost 38-35 to Lamar, 28-26 to SFA) lets McNeese hang around in a shootout; 2-pt market premium over books.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261024&groups=81&limit=300",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869138",
+        "https://sfajacks.com/news/2026/10/1/football-preview-5-7-jacks-host-uiw-as-slc-play-resumes",
+        "https://uiwcardinals.com/sports/football/stats",
+        "https://gamma-api.polymarket.com/events/1178480"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1178255-side1",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Fixture confirmed (ESPN 401867902, New Haven 2-5 @ CCSU 3-3, Arute Field 16:00Z). DK CCSU -14.5, ML -640/+431 → fair 0.821 ≈ market 0.825. CCSU QB Brett Griffis started last 3 (box scores; 2 TD in 43-40 win at Mercyhurst per CCSU release/New Britain Herald), CCSU won 3 straight, NEC-leading 33.2 ppg (CCSU preview); one model 84%. New Haven QB rotating Boyce/Tripptree. PM 24h 0.835→0.825 (-1.2%). Stake/Rainbet 403.",
+      "main_risk": "CCSU defense allowed 40 to 1-6 Mercyhurst; a New Haven passing day with Boyce (25/39 vs APSU) keeps it close.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261024&groups=81&limit=300",
+        "https://ccsubluedevils.com/sports/fball/2026-27/releases/20261021o4fenr",
+        "https://ccsubluedevils.com/sports/fball/2026-27/releases/20261017o48hgi",
+        "https://www.newbritainherald.com/sports/ccsu-wins-shootout-against-mercyhurst-behind-another-monster-game-from-smith-jr/article_610c85e3-dd4c-40a8-ae93-66b0e2b122ef.html",
+        "https://gamma-api.polymarket.com/events/1178255"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1178494-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Fixture confirmed (ESPN 401868106, Portland St 2-5 @ Idaho St 4-3, 22:00Z; DK IDST -14, -489/+349 → fair 0.788 vs market 0.815). EXCLUDE: starting QB unconfirmed — HC Cody Hawkins benched Jordan Cooke for Davis Harsin in Q2 of 27-20 loss at Weber St and has not named a starter for Portland St (Idaho State Journal; Standard-Examiner; ESPN box score Harsin 14/27, Cooke 5/9). Idaho St has lost 3 straight; market 2.7pp above books.",
+      "main_risk": "QB uncertainty/inconsistent offense in a 4th straight one-score game.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261024&groups=81&limit=300",
+        "https://www.idahostatejournal.com/sports/it-s-not-the-performance-that-idaho-state-fans-deserve-bengals-drop-third-straight-game/article_d749a734-4849-4913-bb11-e5b542fab65f.html",
+        "https://www.standard.net/sports/weber-state/2026/oct/17/weber-state-football-idaho-state-final-score-recap-train-bell-trophy/",
+        "https://isubengals.com/news/2026/10/17/football-weber-state-scores-late-to-edge-idaho-state-27-20.aspx",
+        "https://gamma-api.polymarket.com/events/1178494"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1178276-side1",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Fixture confirmed (ESPN 401867931, Wagner 1-6 @ Duquesne 2-4, Rooney Field noon ET/16:00Z; Duquesne game notes). DK DUQ -13.5, -620/+419 → fair 0.817 vs market 0.80 (no nudge without 2nd source). QB Carson Camp started all recent games and remains starter per previews (BVM/Duquesne notes); Duquesne defense leads NEC in yards allowed. Wagner on 5-game skid, 0-3 on road; Wagner QB Benjamin Newman. PM 24h 0.815→0.80 (-1.8%). Stake/Rainbet 403.",
+      "main_risk": "Duquesne offense turnovers (10 offensive TOs; scored only 14 in each of last two) in a low-scoring game; Wagner won this matchup 24-13 last season.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261024&groups=81&limit=300",
+        "https://goduquesne.com/news/2026/10/22/football-game-7-duquesne-dukes-vs-wagner.aspx",
+        "https://bvmsports.com/2026/10/23/duquesne-vs-wagner-dukes-seek-back-to-back-wins-in-game-7/",
+        "https://bvmsports.com/2026/10/23/wagner-football-heads-to-pittsburgh-to-face-duquesne-at-noon/",
+        "https://gamma-api.polymarket.com/events/1178276"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1178513-side0",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Fixture confirmed (ESPN 401868067, #9 Austin Peay 6-2 @ North Alabama 4-3, Braly Stadium 23:00Z). DK APSU -11.5, -564/+391 → fair 0.807 ≈ market 0.80. QB Chris Parson (2025 Walter Payton finalist) started last 3 (box scores), 2 rush TD vs West Georgia; featured in Clarksville Online preview with no injury note. PM 24h 0.825→0.80 (-3%, under 5%). Stake/Rainbet 403.",
+      "main_risk": "Road test vs UNA run defense ranked 9th in FCS (103.7 ypg) stalls APSU ground game; APSU already lost 40-32 to Tarleton.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261024&groups=81&limit=300",
+        "https://www.clarksvilleonline.com/2026/10/22/9-austin-peay-football-faces-crucial-road-test-at-north-alabama/",
+        "https://www.si.com/college/fcs/mvfc/week-8-fcs-football-preview-predictions-und-usd-weber-msu-slu-sfa-apsu-una",
+        "https://gamma-api.polymarket.com/events/1178513"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1178478-side1",
+      "exclude": false,
+      "adjustment_pp": -2,
+      "reason": "Fixture confirmed (ESPN 401869145, Houston Christian 4-3 @ #15 Lamar 5-2, Provost Umphrey 20:00Z, homecoming). DK LAM -11.5, -407/+300 → fair 0.763 vs market 0.79 (market 2.7pp rich; PM drifted up 0.77→0.79 on $33 volume). QB Aiden McCown started last 3 (27/46, 297 yds vs SELA). HCU won last 2 (43-24 vs East Texas A&M), tied 3-1 in SLC, Lamar hasn't beaten HCU in Beaumont since 2018 (HCU/BVM previews). -2 toward books.",
+      "main_risk": "Lamar coming off 34-31 upset loss to SELA; HCU (31.6 ppg) keeps a one-score game and steals it.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261024&groups=81&limit=300",
+        "https://hcuhuskies.com/news/2026/10/22/football-fb-hcu-visits-ranked-lamar-for-saturday-afternoon-clash.aspx",
+        "https://bvmsports.com/2026/10/23/lamar-hosts-houston-christian-for-homecoming-showdown/",
+        "https://wgno.com/sports/kyle-lowes-two-touchdown-runs-help-southeastern-upset-no-8-lamar-34-31",
+        "https://gamma-api.polymarket.com/events/1178478"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1178411-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Fixture confirmed (ESPN 401869133, Nicholls 2-5 @ Northwestern St 0-7, Turpin Stadium 19:00Z; DK NICH -9.5, -366/+274 → fair 0.746 vs market 0.775, PM +4% in 24h). EXCLUDE: Nicholls starting QB unverified — Chase Richardson made his first start in 56-0 home loss to SFA, with Preston Welch (8/16) and Ean Rodrigue also playing (Nicholls recap, ESPN box); Rodrigue started earlier games; no source names this week's starter. Nicholls lost last 2 by 16-2 and 56-0.",
+      "main_risk": "Nicholls offense (2 pts and 0 pts last two games) with QB carousel fails to cover even against winless NWSU.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261024&groups=81&limit=300",
+        "https://geauxcolonels.com/news/2026/10/17/football-no-3-sfa-hands-colonels-shutout-loss-at-home.aspx",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2447/schedule?season=2026",
+        "https://gamma-api.polymarket.com/events/1178411"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1199665-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Fixture confirmed: PGL Masters Bucharest 2026 Swiss R1, BO3, 24 Oct 16:00Z (dust2.us 2399726, bo3.gg API tier S). dust2.us lists FURIA #3 (FalleN, yuurih, KSCERATO, YEKINDAR, molodoy; won the last 4 series incl. a 3-2 over BetBoom in the Thunderpick WC final) but DENDELE #41 (gafolo, koala, maxxkor, rdnzao, doc). Rule: exclude if either team is outside the HLTV top 30. Thunderpick 1.17/4.4 via bo3.gg (fair FURIA ≈0.79); Polymarket flat at 0.825 for 24h.",
+      "main_risk": "Little-known #41 DENDELE (no recent tier-1 data) steals a pick map and an upset follows; Bo3 volatility on the opening day.",
+      "sources": [
+        "https://www.dust2.us/matches/2399726/furia-vs-dendele",
+        "https://api.bo3.gg/api/v1/matches?filter[matches.discipline_id][eq]=1&filter[matches.status][in]=upcoming,current",
+        "https://gamma-api.polymarket.com/events?slug=cs2-furia-dendel-2026-10-24"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1199658-side0",
+      "exclude": false,
+      "adjustment_pp": -2,
+      "reason": "Lowered 2pp per the pre-mortem rule: evidence for the likely losing scenario exists, as Spirit lost 3 of their last 6 series (MOUZ 1-2, Aurora 0-2 at ESL Pro League) and BetBoom were runners-up at the Thunderpick World Championship. Fixture confirmed: PGL Masters Bucharest 2026 Swiss R1, BO3, LAN in Bucharest, 24 Oct 10:00Z (dust2.us 2399721, bo3.gg API, skin.club preview). Ranks: Spirit #1 (dust2.us; skin.club also says 1st), BetBoom #9. Full lineups, no stand-ins: Spirit sh1ro, magixx, donk, tN1R, zont1x; BetBoom Boombl4, zorte, S1ren, d1Ledez, Magnojez. cyber.sports.ru and skin.club report no roster changes; BetBoom's bookmaker still makes Spirit tournament favourite at 3.5. Form is mixed. Spirit went 4th at EPL S24, losing to MOUZ 1-2 and Aurora 0-2, and lost 3 of their last 6 series. BetBoom were runners-up at Thunderpick WC (beat Falcons, Legacy and PARIVISION, lost 2-3 to FURIA). Only meeting: Spirit beat them 13-5 on Mirage at the Cologne Major. Thunderpick 1.17/4.40 (via bo3.gg) de-vigs to Spirit ≈0.79, in line with Polymarket 0.795 (flat for 48h). Stake/Rainbet both 403. Adjustment 0.",
+      "main_risk": "Spirit's autumn dip continues (lost 2 of last 2 at EPL to MOUZ and Aurora) and an in-form BetBoom wins Nuke plus a decider. The skin.club preview predicts only 2-1.",
+      "sources": [
+        "https://www.dust2.us/matches/2399721/spirit-vs-betboom",
+        "https://community.skin.club/en/news/prediction-for-spirit-vs-betboom-pgl-masters-bucharest-2026",
+        "https://cyber.sports.ru/betting/blogs/3566182.html",
+        "https://api.bo3.gg/api/v1/matches?filter[matches.discipline_id][eq]=1&filter[matches.status][in]=upcoming,current",
+        "https://gamma-api.polymarket.com/events?slug=cs2-ts7-bb3-2026-10-24"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1236926-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Tier now confirmed from two sources: Strafe (Liquipedia Tier 1) and the bo3.gg API (tournament 6160 'PARI Universe', tier 's', tier_rank 1, $250K, 22 Oct–1 Nov). Liquipedia itself still returns 403/429. Fixture confirmed: Group A BO3 at 11:00Z (Hawk Live, bo3.gg). Both teams are 1-0 (Yandex 2-0 GamerLegion, OG 2-0 1win). Thunderpick 1.16/4.76 (fair Yandex ≈0.80) vs Polymarket 0.785, roughly flat over 24h. However, there is a roster problem. OpenDota match data from Yandex's 22 Oct games (9056215433, 9056271057) show Yandex playing Swedish offlaner 'Xibbe' (account 50580004, listed team 'Team Bald', no prior Yandex games). He is in place of ATF, who was signed 17 Sep (GosuGamers/esports.gg) and played the BLAST Slam VIII final on 11 Oct. I found no announcement explaining ATF's absence. This is an unconfirmed stand-in, so excluded.",
+      "main_risk": "Yandex with a stand-in offlaner lose synergy against an OG side whose stable five (skem, SSS, OneJey, Topson, Natsumi) has won 6 straight maps.",
+      "sources": [
+        "https://www.strafe.com/event/pari-universe-2026-67fe5e/",
+        "https://api.bo3.gg/api/v1/matches/team-yandex-vs-og-dota2-24-10-2026",
+        "https://hawk.live/posts/pari-universe-schedule-standings-results",
+        "https://api.opendota.com/api/matches/9056271057",
+        "https://api.opendota.com/api/teams/9823272/matches",
+        "https://api.opendota.com/api/matches/9040460429",
+        "https://www.gosugamers.net/dota2/news/79196-atf-joins-team-yandex-to-replace-dm",
+        "https://gamma-api.polymarket.com/events?slug=dota2-ty-og-2026-10-24"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1243548-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Official lolesports API: Worlds 2026 Swiss, G2 vs LOS, 24 Oct 19:00Z, bestOf 1 (bo3.gg also lists bo_type 1, Thunderpick 1.20/4.0). Non-CS2 esports must be Bo3+, so excluded on format.",
+      "main_risk": "BO1 variance: one bad draft or early game ends it.",
+      "sources": [
+        "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=98767975604431411",
+        "https://api.bo3.gg/api/v1/matches?filter[matches.discipline_id][eq]=3&filter[matches.status][in]=upcoming,current"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1243111-side0",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "ATP 250 European Open Brussels SF, indoor hard, best of 3, 24 Oct 16:30Z (ESPN scoreboard). Fils (#10, top seed) had a bye, got a walkover from Munar, then beat Michelsen 6-4 7-6 in the QF. Struff (#58) beat Giron 7-6 7-6, Onclin 6-4 6-2 and, as a 2.71 underdog, Bergs 6-3 7-6. H2H Fils 1-0 (Paris 2024, 6-3 6-4). No injury or fitness news for either player in searches or tournament coverage. Books (tennisexplorer): Pinnacle 1.20/5.16 de-vigs to Fils ≈0.81; avg 1.18/4.69; bet365 1.20. That matches Polymarket 0.815 (new market, 0.81→0.815). Stake/Rainbet 403. Adjustment 0.",
+      "main_risk": "Struff's serve forces tiebreaks on a fast indoor court; Fils has lost as a ~1.22 favourite twice this month (Vacherot in Tokyo, Van de Zandschulp in Shanghai).",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard?dates=20261024",
+        "https://www.tennisexplorer.com/match-detail/?id=3357931",
+        "https://www.tennisexplorer.com/player/fils/",
+        "https://www.tennisexplorer.com/player/struff/",
+        "https://www.atptour.com/en/news/michelsen-guerreri-brussels-2026-monday",
+        "https://gamma-api.polymarket.com/events?slug=atp-fils-struff-2026-10-24"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1241264-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Fixture and tier confirmed: Guangzhou Open, WTA 250 level ($283,347; qualifier earns 18 pts), qualifying Q1, 09:30Z (ESPN; official WTA QS draw PDF released 24 Oct). Yastremska is Q-seed #1 at rank 103; You Xiaodi is unseeded, rank 212. But Yastremska is 14-22 in 2026 (StringTension) and lost her last two (Ningbo Q1 2-6 4-6 to Rakhimova; Wuhan R2 to Jovic). You lost an ITF R1 2-6 2-6 on 20 Oct. The StringTension Elo model has Yastremska at only 55.6% (hard) vs the market's 0.82. No bookmaker line found for this qualifying match (tennisexplorer doesn't list it; Sofascore and Stake/Rainbet 403; web searches empty), so the price can't be checked against any book. Excluded: large model–market gap, the favourite in a losing slump, and no book confirmation.",
+      "main_risk": "Yastremska's error-prone slump (lost 22 of 36 this season, including early qualifying exits) lets a counter-punching home player through.",
+      "sources": [
+        "https://wtafiles.wtatennis.com/pdf/draws/2026/1023/QS.pdf",
+        "https://site.api.espn.com/apis/site/v2/sports/tennis/wta/scoreboard?dates=20261024",
+        "https://www.tennisexplorer.com/player/yastremska/",
+        "https://www.tennisexplorer.com/player/you-fe146/",
+        "https://stringtension.com/head-to-head/wta/dayana-yastremska/xiaodi-you",
+        "https://gamma-api.polymarket.com/events?slug=wta-yastrem-you-2026-10-24"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1239981-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Fixture and tier confirmed: Toray Pan Pacific Open Tokyo ($1,206,446, WTA 500), qualifying Q1 at ~07:30–07:50Z (ESPN; official WTA QS draw PDF, revised, released 24 Oct). Kasatkina is Q-seed #10 at rank 74; Ma Yexin is unseeded, rank 200. Kasatkina is in a deep slump: 11-21 in 2026 (StringTension) and five straight main-draw losses (US Open R1, Singapore R1 0-6 in the 2nd set, Beijing R1, Wuhan R1 1-6 1-6 to Ostapenko, Ningbo R1 2-6 to Sasnovich). She also needed three sets in both Wuhan qualifying wins. Ma has decent form (Seoul R16 incl. a win over Emerson Jones). The StringTension Elo model has Kasatkina at 51.9% overall vs the market's 0.805. No bookmaker line found (not listed on tennisexplorer; Sofascore and Stake/Rainbet 403). Pre-mortem evidence found → excluded (pre-match verdict).",
+      "main_risk": "Kasatkina's confidence collapse continues: Ma Yexin's heavier hitting wins the baseline exchanges, as in Kasatkina's recent 1-6 1-6 and 2-6 2-6 losses.",
+      "sources": [
+        "https://wtafiles.wtatennis.com/pdf/draws/2026/1056/QS.pdf",
+        "https://site.api.espn.com/apis/site/v2/sports/tennis/wta/scoreboard?dates=20261024",
+        "https://www.tennisexplorer.com/player/kasatkina/",
+        "https://www.tennisexplorer.com/player/ma-2d7c9/",
+        "https://stringtension.com/head-to-head/wta/daria-kasatkina/yexin-ma",
+        "https://gamma-api.polymarket.com/events?slug=wta-ma-kasatki-2026-10-24"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1244409-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Confirmed ATP Challenger: tennisexplorer lists Brooksby (1) vs Debru under 'Fort Worth challenger' (avg odds 1.19/4.30). Challenger events are excluded.",
+      "main_risk": "Challenger-level volatility; excluded by rule.",
+      "sources": [
+        "https://www.tennisexplorer.com/matches/?type=atp-single&year=2026&month=10&day=24"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1234687-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Confirmed ATP Challenger: tennisexplorer lists Forti vs Roca Batalla under 'Florence challenger'. Avg odds 1.84/1.88 there, far from Polymarket 0.775, which may reflect an in-play score shown on the page; not checked further. Challenger events are excluded.",
+      "main_risk": "Challenger event; the price is inconsistent with the books shown. Excluded by rule.",
+      "sources": [
+        "https://www.tennisexplorer.com/matches/?type=atp-single&year=2026&month=10&day=24"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1208440-side1",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Cavs at home, both teams rested (CLE last played 22 Oct, BKN 21 Oct); no B2B. Official NBA report 24 Oct 01:45 ET: CLE out only Diop, Tomlin, Udeh (bench/two-way); BKN out Bilodeau (role player). CLE starters Mitchell/Harden/Mobley/Allen/Watson all played 22 Oct; no key player questionable (ESPN, CBS agree). DraftKings -520/+390 → de-vig 0.804 (opened -455); ESPN BPI 80.8%. Market 0.82 ≈ books. Polymarket 24h 0.805→0.82 (+1.9%), no drift issue. Stake/Rainbet 403.",
+      "main_risk": "Cavs (0-1) start slowly again after loss at PHI and Nets' Randle/MPJ get hot from three; ~11.5-pt spread leaves ~20% upset chance.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261024",
+        "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-10-24_01_45AM.pdf",
+        "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
+        "https://www.cbssports.com/nba/injuries/",
+        "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909854",
+        "https://gamma-api.polymarket.com/events?slug=nba-bkn-cle-2026-10-24"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1208444-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Both teams on 2nd night of B2B (SAS lost home to HOU 23 Oct, Wembanyama 32 min; DAL won at IND 23 Oct). Spurs/Mavs both 'NOT YET SUBMITTED' on official report 01:45 ET. Price driven by Cooper Flagg shoulder injury (17 min Fri): ESPN lists Out but quotes coach May 'will be evaluated in the next couple of days'; CBS 'out until at least Oct 26' — not yet official. Polymarket Spurs 0.725→0.815 in 24h (+12%), mostly on that unofficial news; DK -500/+380 → fair 0.80, BPI 77.3%. Key availability (Flagg; Spurs B2B rest) unconfirmed → exclude. Could be reinstated if the official report (B2B teams due ~1pm ET) shows Flagg Out and Spurs core available.",
+      "main_risk": "Flagg cleared/Spurs rest Wembanyama or Fox on the road B2B; Spurs are 0-2.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261024",
+        "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-10-24_01_45AM.pdf",
+        "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
+        "https://www.cbssports.com/nba/injuries/",
+        "https://www.rotowire.com/basketball/nba-lineups.php",
+        "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909844",
+        "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909096",
+        "https://clob.polymarket.com/prices-history?market=113963137967810436768034436234352768423902579065705551930589627704842600158026&interval=1d&fidelity=60"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1210114-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Pelicans starting C Yves Missi left Friday's game at UTA after 9 min with a left knee injury; Game Time Decision (CBS), Questionable (RotoWire), Day-To-Day (ESPN); Pelicans report NOT YET SUBMITTED. Nuggets also have Alpha Diallo Questionable, Cam Johnson (starter) Out. Per policy, a key starter GTD without confirmation → exclude both sides. (DK -485/+370 → fair 0.796; BPI 78.3%; market 0.815; no drift.)",
+      "main_risk": "Nuggets without Cam Johnson on a slow 0-1 start lose to Zion/Murphy-led Pelicans.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261024",
+        "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-10-24_01_45AM.pdf",
+        "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
+        "https://www.cbssports.com/nba/injuries/",
+        "https://www.rotowire.com/basketball/nba-lineups.php",
+        "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909849"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1210115-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Unexplained drift: Polymarket Suns flat 0.635 for 20h, then 0.65→0.775 between 03:00 and 05:50 UTC right after GSW lost to MEM (Fri, Curry 30 min); DK moved -205→-345. No news found explaining it; Warriors (B2B) report NOT YET SUBMITTED, so Curry/Green rest status unknown. ESPN BPI only 62.8% Suns. Suns lost 124-83 at POR in their only game; Kennard Questionable, Ighodaro Doubtful (bench). Drift ≥5% unexplained + key availability unknown → exclude.",
+      "main_risk": "Curry plays on the B2B and Warriors beat a Suns team coming off a 41-pt loss; the move would then be an overreaction.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261024",
+        "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-10-24_01_45AM.pdf",
+        "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
+        "https://www.cbssports.com/nba/injuries/",
+        "https://www.rotowire.com/basketball/nba-lineups.php",
+        "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909850",
+        "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909841",
+        "https://clob.polymarket.com/prices-history?market=46232195131412667835418945463668708397899179037584510997806805757418017926192&interval=1d&fidelity=60"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1167182-side1",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "UFC 333, Etihad Arena Abu Dhabi, 24 Oct; bout on prelims (~16:00 UTC per ESPN; 12pm EDT on UFC.com). Both made weight at 206 (MMASucka/Yahoo weigh-in results); no replacement. Yakhyaev 10-0 vs Krylov 31-12. BestFightOdds Yakhyaev -488 to -590 vs Krylov +380 to +456 (≈ -550/+400 → fair ~0.81); UFC.com -450/+350. Market 0.825 in line, flat 24h (0.825). Stake/Rainbet 403.",
+      "main_risk": "Veteran Krylov survives early pressure and wins by grappling/submission or late KO against a fighter who hasn't seen deep rounds.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20261024",
+        "https://www.ufc.com/event/ufc-333",
+        "https://mmasucka.com/news/ufc-333-weigh-in-results/",
+        "https://sports.yahoo.com/mma/live/ufc-333-volkanovski-vs-evloev-live-weigh-in-results-and-video-for-saturdays-fight-card-020000261.html",
+        "https://www.bestfightodds.com/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1220212-side1",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "UFC 333 early prelims (~14:00 UTC), bout confirmed. Caliari weighed 120.5, 4.5 lb over 116 limit; bout goes on at catchweight, Caliari fined 30% to Lucindo (Yahoo, MMASucka); Lucindo made 115. Records Lucindo 18-6 vs Caliari 9-4 (ESPN). BestFightOdds Lucindo -376 to -625 (mostly shortening after the miss) vs Caliari +310 to +420 (≈ -420/+330 → fair ~0.78); UFC.com -350/+275. Market 0.785 in line; 24h drift 0.765→0.785 (+2.6%, explained by weight miss). Stake/Rainbet 403.",
+      "main_risk": "Caliari's 4.5-lb size/strength edge lets her control or outpoint Lucindo in a close decision.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20261024",
+        "https://www.ufc.com/event/ufc-333",
+        "https://mmasucka.com/news/ufc-333-weigh-in-results/",
+        "https://sports.yahoo.com/mma/live/ufc-333-volkanovski-vs-evloev-live-weigh-in-results-and-video-for-saturdays-fight-card-020000261.html",
+        "https://www.bestfightodds.com/"
+      ],
+      "prices": []
+    }
+  ]
+}
