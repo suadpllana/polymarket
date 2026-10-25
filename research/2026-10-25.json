@@ -1,0 +1,523 @@
+{
+  "date": "2026-10-25",
+  "researched_at": "2026-10-25T07:00:28Z",
+  "summary": "Sunday keeps settled-news football at bookmaker fair price (Liverpool, Monaco, Lorient, Ajax, Real Sociedad, Barcelona-or-Draw in the Clasico, Betis, Genoa), with Sporting, Inter and Rennes trimmed for rotation or pre-mortem evidence; plus Medvedev in the Almaty final, MOUZ (trimmed) and Spirit in Bo3 esports group play, and Dplus KIA's Bo3 Worlds match at market. Excluded legs cover unconfirmed key players (Schade, Rashford and Martinez, Henderson, Culbreath, Voyer, Pepi, Clasie, Ramos, Giants' Eluemunor and Adebo), Bayern's coaching crisis, coach changes at Estoril and Famalicao, Atalanta's slide, a Vitality stand-in, an opponent outside the HLTV top 30 and Challenger tennis.",
+  "verdicts": [
+    {
+      "id": "1175028-away_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Excluded under the strict availability rule, consistent with Ipswich/Lukic on 23 Oct: sources conflict on Schade (HardTackle says returning from a shoulder problem, others list him fit), so his status is unconfirmed. Fixture confirmed: ESPN eng.1 (Hull promoted, in PL), 14:00 UTC. DraftKings 1X2 +380/+310/-145 de-vigs to Brentford-or-Draw 0.800, ~1.6pp below Polymarket 0.8166 (Brentford ML drifted -135 to -145 at DK; Polymarket Hull win 0.195->0.185, <5% drift). Hull 9th, 1 pt behind 6th-placed Brentford, home results include win v Man Utd and draws v Villa/Chelsea/Everton (HardTackle); Brentford have drawn all 3 league away games (Sports Mole, predicts 1-1) and miss suspended midfielders Yarmolyuk (3-match ban) and Janelt; Furo, Dasilva, Milambo out; Schuster back. HardTackle flags Schade returning from a shoulder problem (others list him fit). Hull without Butland, Hughes, Targett, Matazo, Gyabi, Mendy, Ansah. Met Office: only yellow wind warning for Kingston upon Hull; per Polymarket rules a postponement keeps the market open (no loss). Nudge down toward bookmaker fair price.",
+      "main_risk": "Hull home win: promoted side with solid home results v top sides, Brentford's midfield weakened by two suspensions; storm-blown wind adds variance.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261025",
+        "https://gamma-api.polymarket.com/events/1175028",
+        "https://www.sportsmole.co.uk/football/hull-city/preview/hull-city-vs-brentford-prediction-team-news-lineups_607564.html",
+        "https://thehardtackle.com/round-up/2026/10/24/hull-city-vs-brentford-preview-prediction-probable-lineups-tactics-team-news-stats",
+        "https://www.metoffice.gov.uk/public/data/PWSCache/WarningsRSS/Region/yh"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1174996-home_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "DraftKings +115/+280/+220 de-vigs to Liverpool-or-Draw 0.700 ≈ Polymarket 0.6967; Brighton win price flat at 0.305 over 48h. Sports Mole model: L 43.8% / D 24.0% (DC 67.7%). Liverpool out: Szoboszlai, Frimpong (hamstrings), Ekitike, Bradley, Leoni; Victor Munoz a doubt per Brit Brief (not a projected starter); Endo/Chiesa available; won UCL v Villarreal Tuesday. Brighton (3rd, 16 pts vs Liverpool 5th, 12) without Mitoma, Ferguson, Tzimas, Azeez, Struijk; Wieffer/Minteh doubtful, not in projected XI. Storm Boelo: Met Office yellow wind warning for Merseyside until 21:00 Sun; as of 05:37 GMT no postponement or pitch inspection announced (thefalse9). Polymarket rules: postponed game keeps market open, so delay not loss. Market ≈ books → 0.",
+      "main_risk": "Brighton (3rd, good form) win at an injury-hit Liverpool missing Szoboszlai and Frimpong; secondary: wind-driven postponement delays settlement.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261025",
+        "https://gamma-api.polymarket.com/events/1174996",
+        "https://www.sportsmole.co.uk/football/liverpool/injury-news/team-news/liverpool-vs-brighton-injury-suspension-list-predicted-xis_607612.html",
+        "https://britbrief.co.uk/sports/football/liverpool-injury-crisis-14-could-miss-brighton-clash.html",
+        "https://thefalse9.com/2026/10/premier-league-postponements-today-storm-boelo.html",
+        "https://www.metoffice.gov.uk/public/data/PWSCache/WarningsRSS/Region/nw"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1175015-home_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Exclude. Rashford (hip) and Lisandro Martinez (thigh) listed as major doubts, Heaven minor doubt, unconfirmed (Sports Mole 22 Oct); Sesko, Mainoo, Shaw, Dorgu, Ugarte out. United winless in 5 (lost 4-1 at Como in UCL, 1-1 Leeds, lost to Atletico and Brighton) and Carrick reportedly under pressure (Goal); Bournemouth unbeaten in last 5 v United, 3 wins in last 5 (Goal). Sustained one-way market move: DK United ML -120 → +130, Polymarket United win 0.515 → 0.415 over the week. Match also named most at risk of Storm Boelo postponement (thefalse9).",
+      "main_risk": "Bournemouth away win against a struggling, injury-hit United in managerial turmoil — evidence found (form, H2H, steady drift).",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/man-utd/injury-news/injuries-and-suspensions/sesko-martinez-shaw-mainoo-latest-man-united-injury-suspension-list-vs-bournemouth_607436.html",
+        "https://www.goal.com/en/news/manchester-united-afc-bournemouth-premier-league-preview/blta4ff2d987f58195b",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261025",
+        "https://gamma-api.polymarket.com/events/1175015",
+        "https://thefalse9.com/2026/10/premier-league-postponements-today-storm-boelo.html"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1174974-away_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Exclude per policy: unconfirmed doubts on both sides — Palace keeper Dean Henderson (foot, assessed near kick-off) and striker Strand Larsen (midweek knock, status unconfirmed); Newcastle's Elanga and Fernandez-Pardo doubtful (Sports Mole, Football365). Newcastle (new boss Jaissle) lost 3 of last 4, last two league away games 4-1 (Leeds, Coventry), booed off after 1-0 home loss to Villa. Polymarket 0.6767 is ~1.5-2pp above books: DK +180/+265/+140 de-vigs to 0.659, Football365's UK odds (19/10, 14/5, 7/5) to 0.663. Both previews predict 1-1.",
+      "main_risk": "Palace home win against an out-of-form Newcastle side that has shipped 4 in each of its last two away league games.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/crystal-palace/preview/crystal-palace-vs-newcastle-prediction-team-news-lineups_607523.html",
+        "https://www.football365.com/match-preview/crystal-palace-v-newcastle-prediction-preview",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261025",
+        "https://gamma-api.polymarket.com/events/1174974"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1175537-home_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Market 0.8234 ≈ DraftKings de-vig 0.818 (RSO -175/D +360/LEV +425; opened -140, moved toward Sociedad). Polymarket flat 24h. Sociedad 5th, 4 straight wins incl. 5-2 Malaga and 6-0 Lillestrom Thursday; Fort and Barrenetxea rested in Norway, Oyarzabal/Kubo/Sarr subbed early (EFE/Infobae). Out: Odriozola, Beitia; Herrera and Aramburu trained and may return (upside only). Levante without Bardeli and CB Dela (EFE). Key-player-doubt rule not triggered: the doubts are returning players, not expected starters. Stake/Rainbet 403.",
+      "main_risk": "Levante, fresh off a 3-1 over Athletic, nick an away win on the break (Brugue 5 goals, Romero) after Sociedad's Thursday Europa League trip to Norway.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/real-sociedad/preview/real-sociedad-vs-levante-prediction-team-news-lineups_607556.html",
+        "https://www.infobae.com/espana/agencias/2026/10/24/la-real-busca-asentarse-en-puestos-europeos-ante-un-levante-en-alza/",
+        "https://www.futbolfantasy.com/laliga/noticias/153350-alineaciones-probables-y-previa-fantasy-del-real-sociedad-levante",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261025",
+        "https://gamma-api.polymarket.com/events/1175537"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1175548-home_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Market 0.7406 vs DraftKings de-vig 0.750 (BAR -155/D +450/RMA +280; line drifted from -190 toward Real over the week). Polymarket Real win 0.245→0.265 in 24h (Barça-or-draw −2.6% rel, under 5%). Barça 9/9 in LaLiga but lost 4-2 to PSG Tuesday. Flick confirmed Kounde (ankle) out Saturday: 'No estará mañana' (prensa.com, okdiario), so no open doubt; also out Olmo, Christensen, Eric Garcia, Bardghji. Real without suspended Vinicius plus Rodrygo, Mendy, Asencio; no Real doubts (Sports Mole team news 24 Oct). Market ≈ books → 0.",
+      "main_risk": "Real Madrid win via Mbappé against a patched Barça back line (Espart/Cancelo full-backs, Cubarsi–Gerard Martín centre) after Barça conceded 4 to PSG midweek; Sports Mole even tips 2-2 with Real ending the run.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/barcelona/el-clasico/preview/barcelona-vs-real-madrid-prediction-team-news-lineups_607543.html",
+        "https://www.sportsmole.co.uk/football/barcelona/el-clasico/team-news/barcelona-vs-real-madrid-injury-suspension-list-predicted-xis_607545.html",
+        "https://www.prensa.com/deportes/flick-confia-plenamente-en-los-arbitros-alaba-a-mourinho-y-confirma-la-ausencia-de-kounde/",
+        "https://okdiario.com/diariomadridista/fc-barcelona/kounde-no-entrena-previa-del-clasico-esta-descartado-jugar-contra-real-madrid-671261",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261025",
+        "https://gamma-api.polymarket.com/events/1175548"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1175525-away_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Market 0.7067 ≈ DraftKings de-vig 0.699 (CEL +220/D +255/BET +125; Betis opened +145 and firmed). Polymarket stable (Celta win 0.305→0.295). Betis 4th (19 pts), won 1-0 vs Feyenoord Wednesday; out: Bernal (suspended), Cucho Hernández, Junior Firpo; Pellegrini confirmed Bellerín fit (comuniate). Celta 8th, unbeaten in league since August, played Thursday at Celtic (less rest than Betis); out: Borja Iglesias, Starfelt, Román, Núñez, El Abdellaoui (Sports Mole, ElDesmarque). Betis may rotate (ElDesmarque) but no key doubt. Market ≈ books → 0.",
+      "main_risk": "Celta, unbeaten in their last four vs Betis, win at Balaídos while a rotated Betis without Cucho/Bernal struggles to score.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/celta-vigo/preview/celta-vigo-vs-betis-prediction-team-news-lineups_607558.html",
+        "https://www.eldesmarque.com/futbol/liga-1a-division/20261023/posibles-alineaciones-celta-betis-laliga-jornada-10_18_020513230.html",
+        "https://comuniate.com/noticias/38570/celta-betis-previa-alineaciones-probables-y-consejos-fantasy-jornada-10-de-laliga",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261025",
+        "https://gamma-api.polymarket.com/events/1175525"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1173950-away_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Excluded under the strict availability and rotation rules: it is unclear whether Milan defender Ramos can start, and heavy rotation is likely between Bologna midweek and the derby. Market 0.7902 is above DraftKings de-vig 0.779 (UDI +320/D +250/MIL -125). Polymarket Milan win fell 0.58→0.525 and Udinese win rose 0.175→0.205 in 24h (selection about −3.6% rel, under 5%). The move is explained by Milan's absences: Rabiot (calf; 5 goal involvements in last 4 league games), Gila, Moreira, Gabbia, Saelemaekers, Chukwueze, Terracciano all out (Sky Sport, AllMilan); Ramos back in training but his start is uncertain. Milan also lost 3-0 at Bournemouth Thursday, play Bologna midweek and the derby next Saturday, so Amorim is 'bound to make changes' (Sports Mole). Udinese have lost 5 straight; Alaba out. Two sources back the losing scenario → −2.",
+      "main_risk": "A depleted, tired Milan lose in Udine: Udinese beat them 3-0 in April, and there has been no draw in the last 8 league meetings, so a non-win often means a loss.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/udinese/preview/udinese-vs-ac-milan-prediction-team-news-lineups_607553.html",
+        "https://sport.sky.it/calcio/serie-a/2026/10/24/udinese-milan-probabili-formazioni-8-giornata",
+        "https://www.allmilan.it/udinese-milan-probabili-formazioni-emergenza-per-amorim-fuori-rabiot-gila-e-moreira-chi-gioca/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261025",
+        "https://gamma-api.polymarket.com/events/1173950"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1173935-home_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Pre-mortem evidence found. Atalanta have lost 5 of 7 in all competitions, Sarri is under fire, and they had no shot on target in Thursday's 2-0 loss at Ajax. Four centre-backs are out (Scalvini, Hien, Kossounou, Kolasinac), plus Kessie (muscle, out per Italian previews), Raspadori and Sulemana. Frosinone sit 4 points above them on 13 and won 4-2 at Sassuolo, with Raimondo on 7 goals; their only absentee is Grillitsch (Sports Mole, TMW). DraftKings shortened sharply from ATA -170/FRO +350 to -120/+250, and KickOff's model has Frosinone at 40%. Market 0.7467 vs book de-vig 0.7365. Polymarket stable (Frosinone 0.245→0.255).",
+      "main_risk": "In-form Frosinone beat an injury-hit, fatigued Atalanta that has no fit senior centre-backs.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/atalanta-bc/preview/atalanta-vs-frosinone-prediction-team-news-lineups_607521.html",
+        "https://www.tuttomercatoweb.com/probabili-formazioni/atalanta-frosinone-probabili-formazioni-2286323",
+        "https://www.kickoff.co.uk/italian-serie-a-predictions-stats-odds/atalanta-vs-frosinone/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261025",
+        "https://gamma-api.polymarket.com/events/1173935"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1173940-home_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Market 0.7366 ≈ DraftKings de-vig 0.725 (GEN +110/D +220/VEN +235; barely moved from open). Polymarket stable (Venezia 0.255→0.265). Neither side played in Europe. Genoa beat Fiorentina 2-1 two weeks ago, then lost 2-0 at Roma; out: Colombo, Nuredini, Venturino, Meichtry, Sow, Havel. Baldanzi (adductor) still to be assessed but he is not in the expected XI. Venezia won 1-0 vs Napoli in Nicola's first game after 6 straight defeats; out: Bella-Kotchap, Franjic, Busio, Adorante, Sverko; Correia doubtful (Sports Mole, DAZN/Sky probabili). Market slightly rich, but there is no 2-source case → 0.",
+      "main_risk": "A Venezia lifted by their new coach (Nicola) win at the Ferraris through the Yeboah–Adams pairing, as Genoa have lost 5 of 7.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/genoa/preview/genoa-vs-venezia-prediction-team-news-lineups_607619.html",
+        "https://www.dazn.com/it-IT/news/calcio/probabili-formazioni-serie-a-chi-gioca-indisponibili-e-squalificati/n7xdzcbuno6l1pzsf52p6y1cw",
+        "https://sport.sky.it/calcio/serie-a/partite/2026/giornata-8/genoa-venezia/formazioni",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261025",
+        "https://gamma-api.polymarket.com/events/1173940"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1173929-home",
+      "exclude": false,
+      "adjustment_pp": -2,
+      "reason": "Market 0.7235 is about 3pp above DraftKings de-vig 0.694 (INT -310/D +425/FIO +600). Polymarket flat. Inter are unbeaten in Serie A; Fiorentina have lost 5 of 7 and conceded the most goals. However, captain Lautaro is out until the international break, Luis Henrique, Stones, Pavard and Curtis Jones are also out, and Inter played Shakhtar Wednesday with the derby next week. Sky Sport expects rotation: Provedel in goal for J. Martínez, Carlos Augusto for a rested Dimarco, Esposito up front (Sports Mole agrees on rotation). Fiorentina without Parisi, Oulai, Atta, Ranieri. Win-only selection plus partial rotation and book price below market → −2.",
+      "main_risk": "A rotated Inter without Lautaro is held to a draw (or concedes, as under Chivu they have trailed in 4 of 7 league games) while looking ahead to the derby.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/inter-milan/preview/inter-milan-vs-fiorentina-prediction-team-news-lineups_607570.html",
+        "https://sport.sky.it/calcio/serie-a/2026/10/24/inter-fiorentina-probabili-formazioni-8-giornata",
+        "https://www.fcinter1908.it/partite/probabili-formazioni/inter-fiorentina-formazione-provedel-chivu/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261025",
+        "https://gamma-api.polymarket.com/events/1173929"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1174962-home_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Fixture confirmed (ESPN fra.1 401876425, Sun 25 Oct 14:00Z, Ligue 1 MD8). DraftKings via ESPN +100/+245/+295 de-vigs to Monaco-or-Draw 0.757, close to PM 0.763. PM 24h stable (Lille win 0.245->0.235). Sports Mole: Monaco beat Freiburg 3-0 in UECL Thursday (short rest); Lille lost 4-2 at Galatasaray in UCL and are winless in 3 in all comps. Monaco: Dier (muscle) doubtful/listed out, Idumbo questionable; both Sports Mole and Sportsgambler predicted XIs already exclude Dier. Lille: Igamane out (ACL), Ueda (foot), Sahraoui and Tiago Santos listed absent/questionable, Mbappe Lottin doubtful. Previews predict 1-1 (Sports Mole, Sportsgambler). Market ~= book, no nudge.",
+      "main_risk": "Lille away win as Monaco tire after Thursday UECL with Dier absent from defence; Giroud-led Lille counter.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261025",
+        "https://gamma-api.polymarket.com/events/1174962",
+        "https://www.sportsmole.co.uk/football/as-monaco/preview/monaco-vs-lille-prediction-team-news-lineups_607508.html",
+        "https://www.sportsgambler.com/betting-tips/football/monaco-vs-lille-prediction-lineups-odds-2026-10-25/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1175004-home_draw",
+      "exclude": false,
+      "adjustment_pp": -1,
+      "reason": "Fixture confirmed (ESPN 401876424, 16:15Z). DK -125/+330/+290 de-vigs to Rennes-or-Draw 0.755 vs PM 0.757; PM 24h stable. Rennes 6th (13 pts), unbeaten at home; Strasbourg 14th (7 pts), winless in 4, many knocks (Nanasi, Doukoure, Godo could be out; Oyedele, Washington knocks; Balde, Malonga doubtful) (Sports Mole, Footballwhispers). But Rennes drew 2-2 at/with Juventus in UEL Thursday while Strasbourg have no European football (Footballwhispers), and Rennes' top scorer Esteban Lepaul (7 in 9) is out with ankle injury (Sports Mole + Footballwhispers). Pre-mortem evidence (fatigue + missing striker) -> -1pp.",
+      "main_risk": "Fatigued Rennes without Lepaul concede to a rested Strasbourg on the break and lose by one goal.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261025",
+        "https://gamma-api.polymarket.com/events/1175004",
+        "https://www.sportsmole.co.uk/football/rennes/preview/rennes-vs-strasbourg-prediction-team-news-lineups_607506.html",
+        "https://footballwhispers.com/blog/rennes-vs-strasbourg-prediction-25-10-2026/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1175031-home_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Excluded under the strict both-sides availability rule, consistent with Le Mans doubts on 16 Oct: Le Mans player Voyer is questionable and unconfirmed. Fixture confirmed (ESPN 401876429, 16:15Z). DK +110/+260/+240 de-vigs to Auxerre-or-Draw 0.719 vs PM 0.727; PM 24h flat. Neither side in Europe. Auxerre 12th, won 3 of last 4; Le Mans 16th (6 pts/7, one win), lost 3-0 at Toulouse last time. Auxerre out: Okoh (knee), Senaya and Siwe (to Nov break), Labeau Lascary, Diousse; Le Mans out: Bourabaa (ankle), Colas/Rossignol in medical room, Voyer questionable (thigh) (Sports Mole, Stats Zone). No key starter doubtful on Auxerre's predicted XI. Predictions: Auxerre 1-0 (Sports Mole), Auxerre win BTTS (Stats Zone). Market ~= book.",
+      "main_risk": "Le Mans steal a win against a leaky Auxerre defence missing several defenders (Okoh, Senaya, Siwe).",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261025",
+        "https://gamma-api.polymarket.com/events/1175031",
+        "https://www.sportsmole.co.uk/football/aj-auxerre/preview/auxerre-vs-le-mans-prediction-team-news-lineups_607590.html",
+        "https://www.thestatszone.com/auxerre-vs-le-mans-preview-team-news-prediction-231774"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1174982-away_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Fixture confirmed (ESPN 401876430, 16:15Z). DK +195/+230/+150 de-vigs to Lorient-or-Draw 0.675 vs PM 0.683; PM 24h flat. Lorient 7th (Stats Zone), W-W in last two league games incl. 1-0 over Monaco; Angers one point above drop zone, L-L last two. Angers: Biumla, Belkebla doubts, Lefort back from ban, Camara back; Lorient: Mbamba out, Fadiga unlikely, Mohamed Bamba doubt (not in predicted XI) (Sports Mole, Stats Zone). Predictions: Angers 0-1 (Sports Mole), Lorient double chance (Stats Zone). No Europe either side. Market ~= book.",
+      "main_risk": "Angers' good home H2H record (3 of last 4 vs Lorient, 2-0 last season at home) repeats in a low-scoring home win.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261025",
+        "https://gamma-api.polymarket.com/events/1174982",
+        "https://www.sportsmole.co.uk/football/angers/preview/angers-vs-lorient-prediction-team-news-lineups_607540.html",
+        "https://www.thestatszone.com/angers-vs-lorient-preview-team-news-prediction-231767"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1174968-away_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Excluded under the strict availability rule, consistent with 22 Oct: Leverkusen player Culbreath is listed out or doubtful with no confirmation. Fixture confirmed (ESPN ger.1 401884760, Sun 14:30Z). DK +190/+295/+105 de-vigs to Leverkusen-or-Draw 0.682 vs PM 0.687. PM 24h: Hoffenheim win 0.345->0.315 (Lev-or-Draw +4.6% rel, under 5% threshold, consistent with book). Both played Thursday in Europe (Hoffenheim 3-0 Lyon, Leverkusen 2-0 OFI Crete). Leverkusen 4th, 13 pts, six straight wins; Hoffenheim 13th, 6 pts, two straight wins. Leverkusen absences: Doue out, Terrier out, Ben Seghir unlikely, Eichhorn out, Kofane out for weeks (LigaInsider via search) and Culbreath listed unavailable/doubtful — none in predicted XI (Quansah covers RB). Hoffenheim: Hajdari, De Cat, Wimmer out. Sports Mole predicts 1-3; Foresportia model 49/27/24 for Leverkusen. Market ~= book.",
+      "main_risk": "In-form Hoffenheim beat Leverkusen at home in an open, high-scoring game, punishing a stretched Leverkusen right side (Doue, Culbreath out).",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261025",
+        "https://gamma-api.polymarket.com/events/1174968",
+        "https://www.sportsmole.co.uk/football/hoffenheim/preview/hoffenheim-vs-b-leverkusen-prediction-team-news-lineups_607534.html",
+        "https://www.foresportia.com/en/prediction/bundesliga/tsg-1899-hoffenheim-bayer-04-leverkusen-2026-10-24/",
+        "https://www.ligainsider.de/bayer-04-leverkusen/4/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1174994-away",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Exclude. Vincent Kompany collapsed at training on Friday and is in hospital, recovery 'weeks not days' (Eberl); assistant Aaron Danks coaches (Taipei Times/AFP, OneFootball, Goal). Bayern absences: Neuer (foot tendon, Urbig in goal), Kimmich (bereavement), Musiala, Luis Diaz, Kim Min-jae, and Pavlovic reported out (calf) per Sky (OneFootball). Freiburg are only one point behind leader Bayern (Taipei Times). PM Bayern win fell 0.715->0.685 in 24h (-4.2%); DK -255/+425/+500 de-vigs to only 0.668, below PM 0.6835. Pre-mortem (depleted, coachless Bayern drop points away) is directly supported -> exclude.",
+      "main_risk": "Weakened, emotionally hit Bayern without coach, Neuer, Kimmich, Musiala, Diaz and Kim draw or lose at second-placed Freiburg.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261025",
+        "https://gamma-api.polymarket.com/events/1174994",
+        "https://onefootball.com/en/news/neuer-out-kompany-absent-as-bayern-count-injuries-for-freiburg-trip-43665880",
+        "https://www.taipeitimes.com/News/sport/archives/2026/10/25/2003866571",
+        "https://www.goal.com/en/news/another-absence-for-bayern-munich-another-star-to-miss-the-big-match-in-freiburg/blt048fddd12f22d3b4"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1022440-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Policy exclusion: on the official Friday report both of the Giants' starting T Jermaine Eluemunor (calf, limited) and CB1 Paulson Adebo (knee, limited) are QUESTIONABLE. NFL.com, CBS and ESPN all agree, and it is 06:53 UTC, before inactives. Texans OUT: RB David Montgomery, S Jalen Pitre, S Reed Blankenship, OT Blake Fisher. Home team is HOU (NRG Stadium); Giants 3-2-1, Texans 2-4. DraftKings ML HOU -520 / NYG +390 de-vigs to 0.804, which matches the market's 0.805. The big move from the -238 open is explained: Harbaugh benched Jameis Winston, so J.J. McCarthy makes his first Giants start (Jaxson Dart injured). Texans add Marvin Harrison Jr. and get Tank Dell back. ESPN predictor gives HOU 84.8%. Weather: 76F, no rain. Polymarket flat at 0.805 for 24h.",
+      "main_risk": "Large favourite with a weak 2-4 record. A new QB (McCarthy) with unknown tendencies and a Texans defense missing both starting safeties could produce a close upset.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873016",
+        "https://www.nfl.com/injuries/",
+        "https://www.cbssports.com/nfl/injuries/",
+        "https://clob.polymarket.com/prices-history?market=33550080046901424981633616030989934426605675859770015748628434292839982502943&interval=1d&fidelity=60"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1248305-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Stand-in: Vitality play without IGL apEX, who misses PGL Masters Bucharest for the birth of his child. Justinas 'jL' Lekavicius stands in, listed by Strafe's event article and the dust2.us match lineup (ropz, ZywOo, flameZ, mezii, jL). Excluded under the CS2 stand-in rule. For context: dust2.us ranks Vitality #2 and TheMongolz #20; TheMongolz are on a 5-match win streak. No bookmaker odds on bo3.gg. Polymarket moved 0.795 to 0.815 in 24h (+2.5%).",
+      "main_risk": "Stand-in disrupts Vitality's calling, and TheMongolz, on a 5-match streak, take the Bo3.",
+      "sources": [
+        "https://www.strafe.com/news/read/pgl-masters-bucharest-2026-teams-schedule-format-prize-pool-and-more/",
+        "https://www.dust2.us/matches/2399729/vitality-vs-the-mongolz",
+        "https://api.bo3.gg/api/v1/matches?filter%5Bmatches.discipline_id%5D%5Beq%5D=1&filter%5Bmatches.status%5D%5Bin%5D=upcoming"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1248308-side0",
+      "exclude": false,
+      "adjustment_pp": -2,
+      "reason": "Lowered 2pp per the pre-mortem rule: MOUZ have lost their last two series (including 1-2 to Liquid after leading) and Polymarket sits about 2pp above Thunderpick (0.737 fair). Both teams are inside the top 30: dust2.us (HLTV mirror) has MOUZ #4 and 9z #15, and dust2.us news calls MOUZ 2nd in VRS. Both play regular five-man rosters with no stand-ins: MOUZ torzsi, Spinx, xertioN, PR, xelex; 9z dgt, max, meyern, luchov, HUASOPEEK (Strafe + dust2.us). Format is Bo3 Swiss on LAN, and both are 0-1: MOUZ lost a 1-2 reverse sweep to Liquid with two maps in OT, 9z lost 0-2 to Vitality. Form: MOUZ 70.8% winrate but lost their last 2 (Liquid, Vitality 0-3); 9z 29.4% winrate, lost their last 3. Thunderpick (via bo3.gg) has MOUZ 1.25 / 9z 3.50, fair 0.737, close to the market's 0.755, so no adjustment. Polymarket 0.765 to 0.755 in 24h (-1.3%, no drift). Stake and Rainbet returned 403.",
+      "main_risk": "MOUZ's slump continues: a second straight loss after the Liquid collapse. 9z, top 6 in July, take it on a map-pool edge. Thunderpick pricing MOUZ 2-0 at only 1.95 suggests a real map-loss risk.",
+      "sources": [
+        "https://www.dust2.us/matches/2399732/mouz-vs-9z",
+        "https://www.dust2.us/news/79223/liquid-upset-second-ranked-mouz-in-pgl-masters-bucharest-2026-opener",
+        "https://www.strafe.com/news/read/pgl-masters-bucharest-2026-teams-schedule-format-prize-pool-and-more/",
+        "https://api.bo3.gg/api/v1/matches?filter%5Bmatches.discipline_id%5D%5Beq%5D=1&filter%5Bmatches.status%5D%5Bin%5D=upcoming",
+        "https://clob.polymarket.com/prices-history?market=15395114054242606496942458034934129748449353963253138068069056639359910731358&interval=1d&fidelity=60"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1248309-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "DENDELE are ranked #41 on the dust2.us (HLTV) match page, outside the top 30, so excluded by rule. For context: Legacy #7 (latto, dumau, n1ssim, arT, try) have lost 5 of their last 6. DENDELE came through the South American Qualifier. Thunderpick 1.30 / 3.20 gives fair 0.711 vs the market's 0.725.",
+      "main_risk": "Legacy's poor form (5 losses in their last 6) lets an underdog qualifier steal the Bo3.",
+      "sources": [
+        "https://www.dust2.us/matches/2399734/legacy-vs-dendele",
+        "https://www.strafe.com/news/read/pgl-masters-bucharest-2026-teams-schedule-format-prize-pool-and-more/",
+        "https://api.bo3.gg/api/v1/matches?filter%5Bmatches.discipline_id%5D%5Beq%5D=1&filter%5Bmatches.status%5D%5Bin%5D=upcoming"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1241324-side0",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Tier-1 PARI Universe Group B, Bo3, 14:00 UTC (Strafe, Esports Insider). Rosters are stable with no stand-ins (OpenDota). Spirit fielded the same five (rue, Yatoro, Larl, not_me, Batyuk) at BLAST Slam VIII and in every PARI game. Astra Invicta used the same five (DM, OmaR, Nightfall, lorenof, GH) in all 7 of their games. Group form: Spirit 2-0 vs LEGION and 2-0 vs BetBoom. Astra (new team, OpenDota rating 1044 vs Spirit's established rating) lost 0-2 to PARIVISION, beat BetBoom 2-0, and lost 1-2 to LEGION. Polymarket rose 0.76 to 0.815 (+7.2%), but the move is explained: it began at about 17:00 UTC on 24 Oct, right after Spirit's 2-0 over BetBoom finished around 16:30, and continued after Astra lost to LEGION around 20:30. No bookmaker odds were found: Esports Insider lists none and bo3.gg's API gave nothing. Stake and Rainbet returned 403. Adjustment kept at 0.",
+      "main_risk": "Astra, who swept BetBoom 2-0, take a map on draft and win a Bo3 decider. A young team's variance against a Spirit side that won only 1 of 6 maps vs Team Yandex at BLAST Slam VIII (OpenDota).",
+      "sources": [
+        "https://api.opendota.com/api/teams/7119388/matches",
+        "https://api.opendota.com/api/teams/10292107/matches",
+        "https://api.opendota.com/api/leagues/20395/matches",
+        "https://www.strafe.com/match/team-spirit-vs-astra-invicta-group-b-pari-universe-2026-0c4fd5/",
+        "https://esportsinsider.com/betting-odds/dota2/match/team-spirit-vs-astra-invicta-1753753",
+        "https://clob.polymarket.com/prices-history?market=82058741889742186716833556972486991827337243061736963512360863745891263996616&interval=1d&fidelity=60"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1249639-side0",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Format confirmed BO3 by the lolesports API getSchedule (Swiss, strategy bestOf 3). It is the 2-0 pool qualification match with Fearless Draft (rg.org). START TIME NOTE: the official lolesports API lists it at 2026-10-25T19:00Z, while Polymarket and the candidates file say 22:00Z (22:00 is GEN vs LYON's slot), so treat 19:00 UTC as the likely start. DK beat G2 and T1 (41+ min game); MKOI beat BLG and CFO. Starting lineups in their latest games, from the lolesports livestats feed: DK Siwoo, Lucid, ShowMaker, Smash, Career; MKOI Myrwn, Elyoya, Jojopyun, Supa, Alvaro. Both are regular rosters with no substitutes. No bookmaker match odds were found in searches, so the market's 0.765 stands. Polymarket is flat at 0.765 since listing, with bid/ask 0.76/0.77.",
+      "main_risk": "MKOI (2-0, beat LPL's BLG) win a Fearless Bo3 that goes to three games, the classic LEC upset in a Bo3 where Fearless draft depth matters.",
+      "sources": [
+        "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=98767975604431411",
+        "https://feed.lolesports.com/livestats/v1/window/115660540726095028",
+        "https://feed.lolesports.com/livestats/v1/window/115660540726095022",
+        "https://rg.org/news/esports/gen-g-kalshi-worlds-2026-odds-dk-beats-t1-swiss-round-2",
+        "https://gamma-api.polymarket.com/events?slug=lol-dk-mkoi-2026-10-25"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1178210-home",
+      "exclude": false,
+      "adjustment_pp": -2,
+      "reason": "Lowered 2pp toward the bookmaker: Polymarket (~0.79) sits about 3pp above the DraftKings fair price (0.761), and Academico have won four league games in a row while Sporting come off a 3-2 European defeat. DraftKings via ESPN SCP -425/D +550/A +900 → fair Sporting 0.761 (proportional de-vig; favourite-longshot bias explains the market's 0.792). Polymarket stable 0.795-0.805 over 24h. Rui Borges' Saturday presser (Record, Bola na Rede): Debast and Zalazar out, GK pick 'opção técnica', promised 'melhor onze' after the 3-2 UCL loss to LASK. Sporting unbeaten in the league (5W 3D). Académico 6th on 14 pts with four straight league wins. Market ≈ books, so no nudge. Stake/Rainbet returned 403.",
+      "main_risk": "A draw. Sporting have drawn 3 of 8, play three days after the UCL loss, and Académico arrive on four straight wins without Zalazar/Debast in Sporting's side.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261025",
+        "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/em-direto-siga-a-conferencia-de-rui-borges-de-antevisao-ao-jogo-com-o-academico-viseu",
+        "https://bolanarede.pt/especial-bola-na-rede/atualidade/rui-borges-nao-desfaz-a-duvida-no-sporting-amanha-tem-que-ver-quem-joga/",
+        "https://www.abola.pt/noticias/rui-borges-confima-baixa-para-os-proximos-dois-jogos-2026102412191508559",
+        "https://www.foresportia.com/en/prediction/primeira-liga/sporting-cp-academico-viseu-fc-2026-10-25/",
+        "https://gamma-api.polymarket.com/events/1178210"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1172003-home_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Pre-mortem evidence. Estoril are last in the ESPN table (0W 2D 6L, 4 goals scored in 8) and sacked coach Vasco Matos this week. This is their first game since, and Bola na Rede does not name the replacement. Moreirense are 12th on 8 pts (without Maracás). DK fair Estoril-or-draw is 0.751 vs Polymarket 0.767, stable over 24h. With the coach change and the winless run, the price rests on an unknown new set-up.",
+      "main_risk": "Moreirense win against a winless, low-scoring Estoril in coaching turmoil.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261025",
+        "https://site.api.espn.com/apis/v2/sports/soccer/por.1/standings",
+        "https://bolanarede.pt/nacional/moreirense/vasco-botelho-da-costa-lanca-visita-do-moreirense-ao-terreno-do-estoril-praia-nao-e-uma-equipa-que-pertence-ao-lugar-a-que-esta/",
+        "https://ominho.pt/botelho-da-costa-cre-em-moreirense-ofensivo-ante-estoril-com-qualidade/",
+        "https://gamma-api.polymarket.com/events/1172003"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1178205-away_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Pre-mortem evidence. Carlos Carvalhal left Famalicão at the start of the week and Ricardo Silva is interim (Record). Gil Dias and Pedro Bondo are suspended, Mattara is injured, and Famalicão lost in the Taça. Rio Ave (14th, 7 pts, level with Famalicão on 7) have won both games under their new coach, and Silva concedes Rio Ave's morale is 'muito acima'. DK fair Famalicão-or-draw is 0.744 vs Polymarket 0.755, stable. A 75% price on a team in turmoil away to a side with a new-coach bounce is not supported.",
+      "main_risk": "Rio Ave win on the new-coach bounce against a Famalicão side that is coachless and short two suspended players.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261025",
+        "https://www.record.pt/futebol/futebol-nacional/liga-betclic/famalicao/detalhe/interino-ricardo-silva-confiante-na-resposta-do-famalicao-frente-ao-rio-ave",
+        "https://fcfamalicao.pt/noticias/sentimos-que-os-jogadores-estao-capazes-de-responder-ao-desafio-de-amanha/",
+        "https://www.abola.pt/noticias/ricardo-deixa-porta-aberta-no-famalicao-ate-a-decisao-da-administracao-2026102412515094974",
+        "https://gamma-api.polymarket.com/events/1178205"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1171101-home_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Key-player doubt policy. Ricardo Pepi and Ruben van Bommel are only 'working toward a possible return' (bettingodds.com preview), and opstellingvandaag lists van Bommel and Sildillia as doubtful. Not confirmed. Mijnans is suspended; Pléa, Schouten, Wanner, Lammers and Nagalo are out. PSV won 1-0 at Porto in the UCL midweek. Feyenoord are top and lost at Betis on Thursday. DK moved against PSV (-105 → +105). Fair PSV-or-draw 0.692 vs Polymarket 0.697.",
+      "main_risk": "Feyenoord win (5 straight league wins, top of the table) against a depleted PSV attack.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261025",
+        "https://www.bettingodds.com/nl/nieuws/psv-feyenoord-opstellingen-statistieken-tips-25-10-2026",
+        "https://opstellingvandaag.nl/eredivisie/psv-feyenoord-25-10-2026/",
+        "https://gamma-api.polymarket.com/events/1171101"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1177380-home_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Key-player doubt policy. AZ captain Jordy Clasie and Wouter Goes are doubtful (twentefans/twenteinsite citing Echteld's presser; bet365 preview). Clasie was left at home for the Europa trip to Armenia with calf trouble. Kees Smit, Jizz Hornkamp and Jeroen Zoet are out, and AZ played in Europe on Thursday. Twente are without Unnerstall, Bruns and Lemkin. DK fair AZ-or-draw 0.680 vs Polymarket 0.687, stable.",
+      "main_risk": "Twente win against an AZ side tired from Europe and missing midfielders Clasie and Smit.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261025",
+        "https://www.twentefans.nl/az-mist-drie-spelers-tegen-fc-twente-en-kent-twee-twijfelgevallen/",
+        "https://www.twenteinsite.nl/fc-twente-nieuws/nieuwe-blessurezorgen-bij-az-richting-duel-met-fc-twente-ook-clasie-niet-mee-naar-armenie",
+        "https://www.azfanpage.nl/voorbeschouwing-az-fc-twente-2026-2027",
+        "https://gamma-api.polymarket.com/events/1177380"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1177376-away",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "DK via ESPN has Ajax shortening from -195 to -230 (draw +400, Sparta +500), fair Ajax 0.655. Polymarket 0.665-0.685 over 24h. Sports Mole and OneFootball agree Ajax are without Dolberg, Caio Henrique, Edvardsen and Adingra (plus Gaaei); Blind and Berghuis are listed out or doubtful, but neither is a regular starter in the predicted XIs. Sparta are missing Mito. Ajax are 4th on 18 pts, have won all four league away games, beat Groningen 5-2 and Atalanta 2-0, and have won 14 of the last 17 meetings. Sparta have conceded 13 in their last 4. Sports Mole predicts 1-3. Market ≈ books, so 0.",
+      "main_risk": "A draw or Sparta upset, with Ajax tired after Thursday's Conference League game and Sparta's open style producing a shootout.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261025",
+        "https://www.sportsmole.co.uk/football/sparta-rotterdam/preview/sparta-vs-ajax-prediction-team-news-lineups_607526.html",
+        "https://onefootball.com/en/news/sparta-rotterdam-v-ajax-top-three-push-meets-mid-table-climb-43665509",
+        "https://opstellingvandaag.nl/eredivisie/sparta-rotterdam-ajax-25-10-2026/",
+        "https://gamma-api.polymarket.com/events/1177376"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1247001-side0",
+      "exclude": false,
+      "adjustment_pp": -1,
+      "reason": "Almaty Open ATP 250 final (indoor hard), today 10:00 UTC, verified on TennisExplorer + ATP Tour. Medvedev (No.5, top seed, defending champ, 10-1 in Almaty, tour-leading 37 hard-court wins in 2026, chasing Turin spot — motivated) is fresh: SF Bublik retired injured after Medvedev led 6-3; earlier wins Shimabukuro 6-2 6-1, Atmane 6-4 6-4, no fitness concerns reported (ATP Tour). Basilashvili (No.128, qualifier) in good form: beat Cilic, Diaz Acosta, Mannarino, Tsitsipas 6-4 6-7(5) 6-3 — played 3 sets yesterday. H2H Medvedev 1-0 (Vienna 2022, 6-2 6-2). Odds: Pinnacle 1.24/4.53 → fair 0.785; TennisExplorer average 1.23/4.11 → fair 0.770; Polymarket 0.795 (24h move 0.785→0.795, +1.3%, no drift issue). Market slightly above sharp books → −1pp.",
+      "main_risk": "Basilashvili's high-variance first-strike hitting stays hot (just beat Tsitsipas) and he steals tight sets/tiebreaks against a Medvedev who is under Turin-race pressure; no evidence found of Medvedev injury.",
+      "sources": [
+        "https://www.tennisexplorer.com/almaty/2026/atp-men/",
+        "https://www.tennisexplorer.com/match-detail/?id=3358455",
+        "https://www.atptour.com/en/news/medvedev-bublik-almaty-2026-saturday",
+        "https://tass.com/sports/2207303",
+        "https://www.tennismajors.com/atp/medvedev-one-win-from-the-first-title-defense-of-his-career-after-bublik-retires-in-almaty-863928.html",
+        "https://gamma-api.polymarket.com/events?slug=atp-medvede-basilas-2026-10-25"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1249150-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Excluded: ATP Challenger event (Cali Open, Challenger 75 final, Cali Challenger) — confirmed by Wikipedia 2026 ATP Challenger Tour calendar and TennisExplorer tournament page (listed under 'Lower level tournaments' as challenger; ranking points match Challenger tier). Winner gets 75 pts. Policy excludes Challenger tennis.",
+      "main_risk": "n/a (excluded on tier)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/2026_ATP_Challenger_Tour",
+        "https://www.tennisexplorer.com/cali-challenger/2026/atp-men/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1250731-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Excluded: ATP Challenger event (Challenger Ciudad de Guayaquil, Challenger 75 (week of Oct 26; today likely qualifying), Guayaquil Challenger) — confirmed by Wikipedia 2026 ATP Challenger Tour calendar and TennisExplorer tournament page (listed under 'Lower level tournaments' as challenger; ranking points match Challenger tier). Policy excludes Challenger tennis.",
+      "main_risk": "n/a (excluded on tier)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/2026_ATP_Challenger_Tour",
+        "https://www.tennisexplorer.com/guayaquil-challenger/2026/atp-men/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1250734-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Excluded: ATP Challenger event (Challenger Ciudad de Guayaquil, Challenger 75 (week of Oct 26; today likely qualifying), Guayaquil Challenger) — confirmed by Wikipedia 2026 ATP Challenger Tour calendar and TennisExplorer tournament page (listed under 'Lower level tournaments' as challenger; ranking points match Challenger tier). Policy excludes Challenger tennis.",
+      "main_risk": "n/a (excluded on tier)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/2026_ATP_Challenger_Tour",
+        "https://www.tennisexplorer.com/guayaquil-challenger/2026/atp-men/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1250767-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Excluded: ATP Challenger event (Sioux Falls Challenger, Challenger 100 indoor hard (week of Oct 26), Sioux Falls Challenger) — confirmed by Wikipedia 2026 ATP Challenger Tour calendar and TennisExplorer tournament page (listed under 'Lower level tournaments' as challenger; ranking points match Challenger tier). Policy excludes Challenger tennis.",
+      "main_risk": "n/a (excluded on tier)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/2026_ATP_Challenger_Tour",
+        "https://www.tennisexplorer.com/sioux-falls-challenger/2026/atp-men/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1250764-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Excluded: ATP Challenger event (Sioux Falls Challenger, Challenger 100 indoor hard (week of Oct 26), Sioux Falls Challenger) — confirmed by Wikipedia 2026 ATP Challenger Tour calendar and TennisExplorer tournament page (listed under 'Lower level tournaments' as challenger; ranking points match Challenger tier). Policy excludes Challenger tennis.",
+      "main_risk": "n/a (excluded on tier)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/2026_ATP_Challenger_Tour",
+        "https://www.tennisexplorer.com/sioux-falls-challenger/2026/atp-men/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1247004-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Excluded: ATP Challenger event (Lisboa Belém Open, Challenger 100 clay final, Lisbon Challenger) — confirmed by Wikipedia 2026 ATP Challenger Tour calendar and TennisExplorer tournament page (listed under 'Lower level tournaments' as challenger; ranking points match Challenger tier). Policy excludes Challenger tennis.",
+      "main_risk": "n/a (excluded on tier)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/2026_ATP_Challenger_Tour",
+        "https://www.tennisexplorer.com/lisbon-challenger/2026/atp-men/"
+      ],
+      "prices": []
+    }
+  ]
+}
