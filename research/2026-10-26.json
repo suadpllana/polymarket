@@ -1,0 +1,232 @@
+{
+  "date": "2026-10-26",
+  "researched_at": "2026-10-26T07:00:59Z",
+  "summary": "A Monday slate: Sevilla-or-Draw at DraftKings fair price, Sevilla win, PSG (without Dembele, Kvaratskhelia, Marquinhos, Mendes) and Benfica at Santa Clara trimmed 1-2pp toward the books, and Spirit trimmed 2pp after three straight series losses before the Major. Excluded legs cover CS2 opponents outside the HLTV top 30 (TYLOO, DENDELE), Vitality's stand-in, unexplained post-listing drift above the bookmaker (Legacy, NaVi), Jalen Williams as a game-time decision on a back-to-back for OKC, and Challenger/WTA 125 tennis.",
+  "verdicts": [
+    {
+      "id": "1254074-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "TYLOO are ranked #35 on the dust2.us (HLTV mirror) match page, outside the top 30, so excluded by rule. For context: 9z #15 (dgt, max, meyern, luchov, HUASOPEEK; Strafe roster matches). This is a 0-2 elimination match: 9z lost to Vitality and MOUZ, TYLOO lost to Spirit and FUT. 9z have lost 5 of their last 6 series (27.8% winrate). Thunderpick (via bo3.gg) has 9z 1.22 / TYLOO 3.80, fair 0.757, well below the market's 0.805. Polymarket went from 0.635 at listing (25 Oct 19:00 UTC) to 0.805, about +27%, with no news to explain it. That drift would also exclude it.",
+      "main_risk": "9z (lost 5 of their last 6) drop a map-pool coin-flip Bo3 to TYLOO. Polymarket is also about 5pp richer than Thunderpick.",
+      "sources": [
+        "https://www.dust2.us/matches/2399738/9z-vs-tyloo",
+        "https://www.strafe.com/news/read/pgl-masters-bucharest-2026-teams-schedule-format-prize-pool-and-more/",
+        "https://api.bo3.gg/api/v1/matches?filter%5Bmatches.discipline_id%5D%5Beq%5D=1&filter%5Bmatches.status%5D%5Bin%5D=upcoming",
+        "https://clob.polymarket.com/prices-history?market=23001311276330546545427794768026847109312351756548331377519186554267433645887&interval=1d&fidelity=60"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1254073-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Stand-in: Vitality play without IGL apEX, who misses the event for the birth of his child. jL stands in (Strafe event article; dust2.us match lineup: ropz, ZywOo, flameZ, mezii, jL). Excluded under the CS2 stand-in rule. For context: Vitality #2 vs FUT #10 (dust2.us). FUT beat Liquid 2-0 yesterday (dust2.us news). Thunderpick 1.25 / 3.50 gives fair 0.737 vs the market's 0.745. Polymarket went 0.715 to 0.745 (+4.2%).",
+      "main_risk": "Calling with the stand-in breaks down against an in-form FUT (#10), who beat Liquid 2-0.",
+      "sources": [
+        "https://www.dust2.us/matches/2399737/vitality-vs-fut",
+        "https://www.strafe.com/news/read/pgl-masters-bucharest-2026-teams-schedule-format-prize-pool-and-more/",
+        "https://www.dust2.us/news/79269/liquid-go-1-1-in-pgl-masters-bucharest-after-loss-to-fut",
+        "https://api.bo3.gg/api/v1/matches?filter%5Bmatches.discipline_id%5D%5Beq%5D=1&filter%5Bmatches.status%5D%5Bin%5D=upcoming"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1254078-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "DENDELE are ranked #41 on the dust2.us (HLTV) match page, outside the top 30, so excluded by rule. For context: G2 #8 (r1nkle, MATYS, huNter-, NertZ, HeavyGod; no stand-in per Strafe). It is a 0-2 elimination match: G2 lost 0-2 to NaVi and 0-2 to Aurora, DENDELE lost to FURIA and Legacy. G2 have lost 5 of their last 6. Thunderpick 1.26 / 3.40 gives fair 0.730 vs the market's 0.745. Polymarket went 0.715 to 0.745 (+4.2%).",
+      "main_risk": "G2's slump (5 losses in their last 6, including two 0-2 defeats here) continues against the qualifier.",
+      "sources": [
+        "https://www.dust2.us/matches/2399742/g2-vs-dendele",
+        "https://www.strafe.com/news/read/pgl-masters-bucharest-2026-teams-schedule-format-prize-pool-and-more/",
+        "https://api.bo3.gg/api/v1/matches?filter%5Bmatches.discipline_id%5D%5Beq%5D=1&filter%5Bmatches.status%5D%5Bin%5D=upcoming"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1254075-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Unexplained drift: Polymarket Legacy went from 0.66 at listing (25 Oct 19:00 UTC) to 0.695, +5.3% relative in under 12h, on about $540 of volume. No team news explains it, and the price now sits above Thunderpick (bo3.gg: Legacy 1.38 / Liquid 2.80, fair 0.670). Excluded by the drift rule. Otherwise the leg qualifies: Legacy #7 vs Liquid #27 (dust2.us), both inside the top 30, both on full five-man rosters matching Strafe's list (Legacy arT, dumau, latto, n1ssim, try; Liquid NAF, EliGE, malbsMd, JT, Jorko). Both are 1-1 in the Swiss: Legacy lost to Nemiga and beat DENDELE; Liquid upset MOUZ, then lost 0-2 to FUT (dust2.us news). Legacy have lost 4 of their last 6.",
+      "main_risk": "Legacy's inconsistency (4 losses in their last 6, including a loss to qualifier Nemiga) meets a Liquid side that already beat MOUZ here.",
+      "sources": [
+        "https://www.dust2.us/matches/2399740/liquid-vs-legacy",
+        "https://www.strafe.com/news/read/pgl-masters-bucharest-2026-teams-schedule-format-prize-pool-and-more/",
+        "https://www.dust2.us/news/79269/liquid-go-1-1-in-pgl-masters-bucharest-after-loss-to-fut",
+        "https://api.bo3.gg/api/v1/matches?filter%5Bmatches.discipline_id%5D%5Beq%5D=1&filter%5Bmatches.status%5D%5Bin%5D=upcoming",
+        "https://clob.polymarket.com/prices-history?market=8179698282870518241299601983304468755355555139480031589828271054873368461911&interval=1d&fidelity=60"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1254076-side0",
+      "exclude": false,
+      "adjustment_pp": -2,
+      "reason": "Kept, lowered 2pp per the pre-mortem rule. Spirit #1 vs FURIA #3 (dust2.us/HLTV), both on regular rosters matching Strafe's list (Spirit sh1ro, magixx, donk, tN1R, zont1x; FURIA FalleN, yuurih, KSCERATO, YEKINDAR, molodoy). No stand-ins. Both are 1-1 in the Bo3 Swiss on LAN: Spirit lost 1-2 to BetBoom, then beat TYLOO 2-0; FURIA beat DENDELE 2-0, then lost 0-2 to NaVi. Strafe notes Spirit lost three straight series (MOUZ, Aurora, BetBoom), their first such run since 2023, before beating TYLOO, and donk had a 0.84 rating in the BetBoom loss. FURIA won 5 of 6 before the NaVi loss. Thunderpick (bo3.gg) has Spirit 1.40 / FURIA 2.70, fair 0.659, about 1.4pp above the market's 0.645. Polymarket is stable: 0.65 to 0.645 in 24h, deep book at 0.64/0.65. Stake and Rainbet returned 403.",
+      "main_risk": "Spirit's recent slump (3 straight series losses before the win over TYLOO) continues, and an in-form top-3 FURIA takes the Bo3.",
+      "sources": [
+        "https://www.dust2.us/matches/2399739/spirit-vs-furia",
+        "https://www.strafe.com/news/read/after-three-straight-losses-donk-helps-spirit-bounce-back-at-pgl-masters-bucharest-2026/",
+        "https://www.strafe.com/news/read/pgl-masters-bucharest-2026-teams-schedule-format-prize-pool-and-more/",
+        "https://api.bo3.gg/api/v1/matches?filter%5Bmatches.discipline_id%5D%5Beq%5D=1&filter%5Bmatches.status%5D%5Bin%5D=upcoming",
+        "https://clob.polymarket.com/prices-history?market=22265000165218619763232463576681743149055236256924483503518326493963103594929&interval=1d&fidelity=60"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1254077-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Unexplained drift: Polymarket NaVi went from 0.59 at listing (25 Oct 19:00 UTC) to 0.635, +7.6% relative, on near-zero volume. The move pushed the price past Thunderpick (bo3.gg: NaVi 1.50 / BetBoom 2.40, fair 0.615), and no team news explains it. Excluded by the drift rule. Otherwise the leg qualifies: NaVi #11 vs BetBoom #9 (dust2.us), both on regular rosters matching Strafe's list (NaVi Aleksib, iM, b1t, w0nderful, makazze; BetBoom Boombl4, zorte, S1ren, d1Ledez, Magnojez). Both are 2-0, so this is a qualification match: NaVi beat G2 2-0 and FURIA 2-0; BetBoom beat Spirit 2-1 and Nemiga 2-0. Note that BetBoom are ranked higher.",
+      "main_risk": "Higher-ranked BetBoom (#9), already past Spirit at this event, beat a NaVi side priced richer than the bookmakers.",
+      "sources": [
+        "https://www.dust2.us/matches/2399741/betboom-vs-natus-vincere",
+        "https://www.strafe.com/news/read/pgl-masters-bucharest-2026-teams-schedule-format-prize-pool-and-more/",
+        "https://api.bo3.gg/api/v1/matches?filter%5Bmatches.discipline_id%5D%5Beq%5D=1&filter%5Bmatches.status%5D%5Bin%5D=upcoming",
+        "https://clob.polymarket.com/prices-history?market=85697576157428795182673076809062457450262278476497019151333146936669592329186&interval=1d&fidelity=60"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1181288-home_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Fixture checked: La Liga J10, Mon 26 Oct 20:00 UTC, Sánchez-Pizjuán (ESPN 401882828, osasuna.es). DraftKings SEV -110 / D +250 / OSA +330, de-vigged H+D 0.777, market 0.787 (about 1pp rich). Polymarket Sevilla win 0.505->0.515 over 24h (2%, under the 5% limit). Sevilla called up 25 with Kochorashvili, Stassin and Guridi back; only Sierra and Marcão out, though García Plaza said 3-4 players are fit for 45 min at most (jornadaperfecta/eldesmarque, 25 Oct). Osasuna's 23-man list (osasuna.es) is missing Herrando, Aimar Oroz and Del Castillo, all confirmed out, not doubts; Budimir is in. Osasuna have 3 of 12 away points. No unconfirmed key doubts. Market is close to the book, so no adjustment.",
+      "main_risk": "Osasuna away win, driven by Arrasate's new-coach bounce (2-0 v Racing on his return) and Budimir (7 goals in 9), against a Sevilla side winless in 3 with some players limited to 45 minutes.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261026",
+        "https://gamma-api.polymarket.com/events?slug=lal-sev-osa-2026-10-26",
+        "https://www.osasuna.es/osasuna-convocatoria-sevilla-jornada10",
+        "https://www.jornadaperfecta.com/blog/garcia-plaza-previa-sevilla-osasuna-j10-26-27/",
+        "https://www.eldesmarque.com/futbol/liga-1a-division/20261025/garcia-plaza-rueda-prensa-sevilla-fc-osasuna_18_020530129.html",
+        "https://www.muchodeporte.com/sevilla-fc/stassin-kochorashvili-y-guridi-en-la-convocatoria-del-sevilla",
+        "https://www.noticiasdenavarra.com/osasuna/2026/10/25/nuevo-osasuna-debuta-fuera-laliga-primera-sevilla-11686283.html"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1181288-home",
+      "exclude": false,
+      "adjustment_pp": -1,
+      "reason": "Same team news as the double-chance leg: Sevilla have their full squad except Sierra and Marcão; Osasuna are without Herrando, Aimar Oroz and Del Castillo, all confirmed. DraftKings de-vigged Sevilla win 0.503 against market 0.513. Sevilla are winless in 3 (jornadaperfecta), the coach says several returning players are fit for 45 minutes at most, and Osasuna are coming off a new-coach win under Arrasate. -1 moves the price toward the book.",
+      "main_risk": "A draw. DraftKings fair draw is about 27%, and Sevilla's recent games have had chaotic finishes.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261026",
+        "https://gamma-api.polymarket.com/events?slug=lal-sev-osa-2026-10-26",
+        "https://www.osasuna.es/osasuna-convocatoria-sevilla-jornada10",
+        "https://www.jornadaperfecta.com/blog/garcia-plaza-previa-sevilla-osasuna-j10-26-27/",
+        "https://www.eldesmarque.com/futbol/liga-1a-division/20261025/garcia-plaza-rueda-prensa-sevilla-fc-osasuna_18_020530129.html"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1175042-home",
+      "exclude": false,
+      "adjustment_pp": -2,
+      "reason": "Match moved from Sun 25 to Mon 26 Oct 19:30 UTC on Préfecture security grounds (culturepsg, psg.fr). The Polymarket rules keep the market open if the game is postponed, and gameStartTime shows 26 Oct 19:30. PSG are missing Kvaratskhelia (ACL), Dembélé and Marquinhos (thigh, out several weeks) and Nuno Mendes (muscle), all reported out rather than doubtful (Luis Enrique presser 24 Oct; khelnow, livescore, sportsgambler). Lyon are without Tagliafico, Ouédraogo and Kango, and Nakamura is suspended. PSG beat Barça 4-2 in the UCL on Tuesday; the sides are level on 14 points. DraftKings PSG -265 / D +450 / OL +600 de-vigs to 0.691, against market 0.7235. Polymarket rose 0.695->0.725 in 24h (4.3%, under 5%). With a depleted PSG attack and the market about 3pp above the book, -2.",
+      "main_risk": "PSG without Dembélé or Kvaratskhelia fail to break Lyon down, and Lyon nick a draw on the counter; Tolisso and Nuamah are the threats.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261026",
+        "https://gamma-api.polymarket.com/events?slug=fl1-psg-lyo-2026-10-25",
+        "https://www.psg.fr/en/content/luis-enrique-facing-ol-is-an-extra-motivation-paris-saint-germain-olympique-lyonnais-conference-de-presse-ligue-1-20262027",
+        "https://www.culturepsg.com/news/match/match-reporte-le-ballon-d-or-les-blessures-etc-la-conf-complete-de-luis-enrique-avant-psg-ol/61289",
+        "https://khelnow.com/football/psg-vs-lyon-preview-ligue-1-202610",
+        "https://www.livescore.com/en/news/football/club-world-cup/psg-vs-lyon-ligue-1-mcdonalds-preview-predictions-team-news-and-tv-info-psg-post/",
+        "https://www.sportsgambler.com/betting-tips/football/psg-vs-lyon-prediction-lineups-odds-2026-10-25/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1183860-away",
+      "exclude": false,
+      "adjustment_pp": -2,
+      "reason": "Fixture checked: Primeira Liga J9, Mon 26 Oct 18:45 UTC, São Miguel (ESPN 401885414, A Bola). Benfica under Marco Silva named 24 for the trip (A Bola, Bola na Rede, 25 Oct), including Pavlidis, Sudakov, Aursnes, Palhinha and Trubin, with Jhon Durán back. Dedic (thigh overload, being managed) and Bruma did not travel. Benfica won 4-1 at Omonia in the Europa League on Thursday 22 Oct (slbenfica.pt, Observador) and are 3/3 in that competition. Santa Clara are 4th on 18 points, one behind Benfica, and unbeaten in 6 home league games, though they have scored once in their last 5. DraftKings Benfica drifted from -290 to -260 (D +370, H +700), which de-vigs to 0.681, against market 0.7035. Polymarket drifted 0.725->0.705 (2.8%). Both books are moving against Benfica and the market sits about 2pp above DraftKings, so -2.",
+      "main_risk": "A draw: a tight Santa Clara home side with a 6-game unbeaten home run frustrates Benfica after the Thursday trip to Cyprus.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261026",
+        "https://gamma-api.polymarket.com/events?slug=por-cds-ben-2026-10-26",
+        "https://www.abola.pt/noticias/regresso-confirmado-nos-convocados-de-marco-silva-para-o-santa-clara-2026102517032457630",
+        "https://bolanarede.pt/especial-bola-na-rede/atualidade/benfica-divulga-convocados-para-o-duelo-com-o-santa-clara-ha-duas-surpresas/",
+        "https://www.slbenfica.pt/en-us/agora/noticias/2026/10/22/futebol-marco-silva-declaracoes-pos-jogo-omonia-benfica-3-jornada-fase-liga-liga-europa",
+        "https://footballwhispers.com/blog/santa-clara-vs-benfica-prediction-26-10-2026/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1220874-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Fixture confirmed: PHX at OKC (Thunder home, Paycom Center) 27 Oct 00:00Z. Thunder are on a back-to-back (beat LAC 108-101 on 25 Oct, 23:00Z). Jalen Williams (star SF, ankle) is listed as a Game Time Decision by CBS and Day-To-Day by ESPN. Cason Wallace (shoulder) and Jaylin Williams (wrist) are also GTD. OKC's official NBA report (26 Oct 02:45 AM) says NOT YET SUBMITTED; on Phoenix's side Ighodaro is Doubtful. Policy: a star GTD without confirmation means exclude both sides. For reference, DraftKings ML OKC -395 / PHX +310 de-vigs to OKC 0.766 (market 0.775, roughly in line). ESPN predictor gives OKC 82.3%.",
+      "main_risk": "Jalen Williams and/or Wallace rest on the second night of the back-to-back and Phoenix covers the gap.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261026",
+        "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909873",
+        "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261025",
+        "https://www.cbssports.com/nba/injuries/",
+        "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-10-26_02_45AM.pdf"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1250648-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Guayaquil is an ATP Challenger (Challenger Ciudad de Guayaquil, 25 Oct-1 Nov 2026, clay, 75 points to the champion) per tennistourtalk's entry-list release and Wikipedia. The rules exclude Challengers.",
+      "main_risk": "Challenger-level volatility.",
+      "sources": [
+        "https://tennistourtalk.com/?p=138056",
+        "https://en.wikipedia.org/wiki/Challenger_Ciudad_de_Guayaquil"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1255885-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Same event, the Guayaquil ATP Challenger (75 pts, 25 Oct-1 Nov 2026) per tennistourtalk and Wikipedia. The rules exclude Challengers.",
+      "main_risk": "Challenger-level volatility.",
+      "sources": [
+        "https://tennistourtalk.com/?p=138056",
+        "https://en.wikipedia.org/wiki/Challenger_Ciudad_de_Guayaquil"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1250697-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Seoul is the Seoul Open Challenger, an ATP Challenger 125 running 25 Oct-1 Nov 2026 at Olympic Park, per Star News Korea (12 Oct 2026) and Wikipedia. It is not tour-level, so it is excluded.",
+      "main_risk": "Challenger-level volatility.",
+      "sources": [
+        "https://www.starnewskorea.com/en/sports/2026/10/12/2026101217281284239",
+        "https://en.wikipedia.org/wiki/Seoul_Open_Challenger"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1255570-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Curitiba is a WTA 125 event (Curitiba 125, clay, 26 Oct-1 Nov 2026; Ortenzi is the 8th seed) per the wtatennis.com tournament page and Wikipedia's list of 2026 WTA 125 tournaments. The rules exclude WTA 125 events.",
+      "main_risk": "Lower-tier volatility.",
+      "sources": [
+        "https://www.wtatennis.com/tournaments/1180/curitiba-125/2026",
+        "https://en.wikipedia.org/wiki/2026_WTA_125_tournaments"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1255574-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Same Curitiba WTA 125 event (26 Oct-1 Nov 2026) per wtatennis.com and Wikipedia. The rules exclude WTA 125 events.",
+      "main_risk": "Lower-tier volatility.",
+      "sources": [
+        "https://www.wtatennis.com/tournaments/1180/curitiba-125/2026",
+        "https://en.wikipedia.org/wiki/2026_WTA_125_tournaments"
+      ],
+      "prices": []
+    }
+  ]
+}
