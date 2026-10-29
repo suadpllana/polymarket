@@ -1,0 +1,284 @@
+{
+  "date": "2026-10-29",
+  "researched_at": "2026-10-29T07:01:16Z",
+  "summary": "Thursday keeps tour-level indoor tennis at Pinnacle-matching prices (Medvedev, Paul, Zverev, Djokovic), North Texas at market, Frosinone trimmed 1-2pp toward several books, MOUZ in the CS2 Major playoffs and Karmine Corp in a Worlds Bo3 elimination match at market, and FURIA trimmed 4pp after BetBoom's perfect Swiss run. Excluded legs cover game-time decisions at Fiorentina-Atalanta (Ranieri, Scalvini), stand-ins (Vitality's jL, TES's 369), and Challenger/WTA 125 tennis.",
+  "verdicts": [
+    {
+      "id": "1196948-home_draw",
+      "exclude": false,
+      "adjustment_pp": -1,
+      "reason": "Fixture verified (ESPN ita.1 401874976, Serie A MD9, Stirpe 17:30 UTC). DraftKings closing lines H -145 / D +300 / A +320 give de-vigged H 0.548, D 0.232, A 0.221, so H/D is 0.780. Sports Mole's data model (54.2/24.5/21.3, H/D 0.787) and Soccerway (39/34/27, H/D 0.73) are also below PM 0.7933, so I nudged it down 1pp. Frosinone (4-2-2) have won three straight home games and dropped only 2 points at home. Lecce (3-0-5) have lost 2 of their last 3 away games. Team news: Frosinone are without only Grillitsch, and Calò is 'non al top' with Cichella ready. Lecce: Gaspar suspended; Pierotti, Coulibaly, Ilic and Berisha out (confirmed by squad list). Tiago Gabriel (bruised knee) was named in the squad on 28 Oct and is expected to play, and his absence would favour this pick. DK has moved toward Frosinone since the open (-115 to -145). PM moved 0.805 to 0.795 in 24h (-1.2%), which is within the limit. Stake/Rainbet returned 403.",
+      "main_risk": "A Lecce win: Lecce are unbeaten in 6 meetings with Frosinone across all divisions, and Frosinone conceded 4 at Atalanta on Sunday with a quick midweek turnaround. I found no evidence of a Frosinone-specific absence.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261029",
+        "https://www.sportsmole.co.uk/football/frosinone/preview/frosinone-vs-lecce-prediction-team-news-lineups_607792.html",
+        "https://www.sportsmole.co.uk/football/serie-a/frosinone-vs-lecce_game_260661.html",
+        "https://www.fantamaster.it/probabili-formazioni-frosinone-lecce-9-giornata-seriea-2026-2027/",
+        "https://www.tuttosport.com/formazione/calcio/serie-a/2026/10/29-2638203/frosinone-lecce",
+        "https://www.sosfanta.com/squadra/lecce/flash-novita-dai-convocati-per-atalanta-lecce-decisione-tiago-gabriel-scalvini-sulemana-kessie-fantacalcio/",
+        "https://www.soccerway.com/match/As77hb15",
+        "https://gamma-api.polymarket.com/public-search?q=Frosinone%20Lecce",
+        "https://clob.polymarket.com/prices-history"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1196948-home",
+      "exclude": false,
+      "adjustment_pp": -2,
+      "reason": "PM 0.5666 is above every reference: DK de-vig 0.548, the Sports Mole model 0.542 and Soccerway 0.39, so I nudged it down 2pp. Team news is the same as for the home_draw leg: Frosinone are missing only Grillitsch; Lecce are without the suspended Gaspar plus Pierotti, Coulibaly, Ilic and Berisha; Tiago Gabriel is in the squad. Frosinone have won their last 3 home league games, and DK has moved from -115 to -145. PM win price moved 0.585 to 0.565 in 24h (-3.4%), which is under 5%. Stake/Rainbet returned 403.",
+      "main_risk": "A draw, which is the most likely losing outcome at about 23-34% depending on source. Soccerway rates the draw at 34%, Lecce's attack is cautious (9 goals all season), and Frosinone may be tired after Sunday's 4-4.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261029",
+        "https://www.sportsmole.co.uk/football/frosinone/preview/frosinone-vs-lecce-prediction-team-news-lineups_607792.html",
+        "https://www.sportsmole.co.uk/football/serie-a/frosinone-vs-lecce_game_260661.html",
+        "https://www.fantamaster.it/probabili-formazioni-frosinone-lecce-9-giornata-seriea-2026-2027/",
+        "https://www.sosfanta.com/squadra/lecce/flash-novita-dai-convocati-per-atalanta-lecce-decisione-tiago-gabriel-scalvini-sulemana-kessie-fantacalcio/",
+        "https://www.soccerway.com/match/As77hb15",
+        "https://clob.polymarket.com/prices-history"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1196954-home_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Under the key-player-doubt policy, both sides of this game are excluded. Fiorentina's Ranieri (foot) 'resta in forte dubbio' and will be reassessed on matchday (SOSFanta 28 Oct; FiorentinaUno/Gazzetta 28 Oct). Pongracic (lesion), Atta and Parisi are out, leaving Fiorentina with a CB emergency (Dragusin-Viery) and a possible call-up for a 2010-born Primavera player. Atalanta's Scalvini is a last-minute decision. Kessié, Raspadori, Bellanova, Scamacca, Hien, Kolasinac, Kossounou and Pompei are all left out of the squad (Atalanta squad list via SOSFanta 28 Oct). Both clubs are in crisis: Fiorentina are 1-1-6, in the relegation zone and winless in 7 home games; Atalanta have lost 4 straight away games and conceded 14 in 6. Market roughly matches DK (H/D de-vig 0.675 vs PM 0.677), so there is no edge to offset the uncertainty.",
+      "main_risk": "An Atalanta win: Krstovic is in form (7 goal involvements in his last 3 league games) against a makeshift Fiorentina CB pairing.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261029",
+        "https://www.sportsmole.co.uk/football/fiorentina/preview/fiorentina-vs-atalanta-prediction-team-news-lineups_607817.html",
+        "https://www.sosfanta.com/news/fiorentina-pongracic-ranieri-pellegrino-beto-con-atalanta-fantacalcio/",
+        "https://www.fiorentinauno.com/news/549754735813/vanoli-pensa-al-turnover-pronta-la-scelta-a-sorpresa-in-attacco/",
+        "https://sport.quotidiano.net/calcio/atalanta/fiorentina-atalanta-sarri-in-emergenza-la-formazione-obbligata-tkwdhteq",
+        "https://www.sosfanta.com/squadra/lecce/flash-novita-dai-convocati-per-atalanta-lecce-decisione-tiago-gabriel-scalvini-sulemana-kessie-fantacalcio/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1196954-away_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Excluded with the other side of this game under the both-sides policy: Ranieri (Fiorentina) and Scalvini (Atalanta) are both game-time decisions. Atalanta are missing Kessié, Raspadori, Bellanova, Scamacca, Hien, Kolasinac and Kossounou, have lost 4 straight away games, and have won just 2 of their last 25 top-flight trips to Florence. Sports Mole predicts Fiorentina 2-1. DK A/D de-vig 0.589 is roughly PM 0.5867. PM moved 0.305 to 0.325 on the Atalanta win price (+6.5% relative on that token), and the A/D combined move is about +2%.",
+      "main_risk": "A Fiorentina win: a desperate home side under Vanoli faces an Atalanta defence missing several players and using a 20-man squad.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261029",
+        "https://www.sportsmole.co.uk/football/fiorentina/preview/fiorentina-vs-atalanta-prediction-team-news-lineups_607817.html",
+        "https://www.sosfanta.com/squadra/lecce/flash-novita-dai-convocati-per-atalanta-lecce-decisione-tiago-gabriel-scalvini-sulemana-kessie-fantacalcio/",
+        "https://sport.quotidiano.net/calcio/atalanta/fiorentina-atalanta-sarri-in-emergenza-la-formazione-obbligata-tkwdhteq",
+        "https://www.sosfanta.com/news/fiorentina-pongracic-ranieri-pellegrino-beto-con-atalanta-fantacalcio/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1220227-side1",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Fixture verified: ESPN 401862812, FAU at North Texas, DATCU Stadium, Denton, Thu 23:30 UTC on ESPN (also confirmed on the FAU athletics site). North Texas is the home team. Both teams are 5-2; UNT is 3-0 in the American and FAU 2-1. DraftKings moneyline UNT -550 / FAU +410 de-vigs to 0.812. The spread moved toward UNT from -12.5 at the open to -14.5. ESPN FPI gives UNT 88.7%. The SB Nation/Yahoo preview (28 Oct) picks UNT 56-38. Starting QBs are set and healthy per the preview, with nothing flagged: Tayven Jackson for UNT (300+ yards in every AAC game) and Caden Veltkamp for FAU. Jackson's leg scare was in the opener and he has started since. The only listed absence is UNT WR Corri Milliner, out for a third straight game. Weather is 76F with a 17% chance of rain. PM is flat at 0.825 over 24h. The market sits between DK and FPI, so no adjustment. I found no AAC availability report online. Stake/Rainbet returned 403.",
+      "main_risk": "An FAU upset in a shootout: the total is 76.5, FAU's passing offense is top 10 nationally, they won 51-49 last week, both defences are in the bottom 25, and FAU have three return TDs this season. A short-field turnover swing could flip a high-variance game.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261029&groups=80",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862812",
+        "https://sports.yahoo.com/articles/2026-week-9-preview-florida-110000514.html",
+        "https://fausports.com/news/2026/10/23/football-florida-atlantic-at-north-texas-to-air-on-espn",
+        "https://sports.yahoo.com/articles/tayven-jackson-injury-north-texas-184138081.html",
+        "https://gamma-api.polymarket.com/public-search?q=Florida%20Atlantic%20North%20Texas"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1273270-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Vitality are using a stand-in: jL replaces IGL apEX (paternity) at PGL Masters Bucharest, per Strafe, Insider Gaming and dotesports/search coverage. The CS2 stand-in rule requires exclusion. For reference: BO3 quarterfinal, 11:00 UTC; Vitality went 3-1 in Swiss and beat NaVi 2-0 on 27 Oct; Thunderpick via bo3.gg 1.30/3.20 (fair ~0.711); Polymarket 0.725→0.705 in 24h (-2.8%).",
+      "main_risk": "Weaker structure without apEX against a NaVi team (3-2 in Swiss) that already knows the matchup from two days ago.",
+      "sources": [
+        "https://www.strafe.com/news/read/jl-confirmed-to-stand-in-for-vitality-for-two-events/",
+        "https://insider-gaming.com/jl-to-stand-in-for-team-vitality/",
+        "https://api.bo3.gg/api/v1/matches?sort=-start_date",
+        "https://gamma-api.polymarket.com/events?id=1273270",
+        "https://clob.polymarket.com/prices-history"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1273271-side1",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "BO3 PGL Masters quarterfinal, 14:00 UTC, fixture confirmed on bo3.gg and GosuGamers. Both teams have their regular rosters with no stand-ins. MOUZ: xertioN, PR, torzsi, xelex, Spinx (xelex promoted permanently in April; PR signed in July). Aurora: Jimpphat, woxic, XANTARES, Wicadia, kyxsan. MOUZ 3-1 in Swiss (lost to Liquid; beat 9z, MongolZ, Spirit 2-1). Aurora 3-1 (lost to MongolZ; beat G2, Nemiga, Liquid). HLTV (26 Oct) has Aurora #5; MOUZ were runners-up at ESL Pro League S24. Thunderpick via bo3.gg: MOUZ 1.50 / Aurora 2.40, fair ~0.615, about the same as the market's 0.625. Polymarket 0.635→0.625 (-1.6%). Market ≈ book, so no adjustment.",
+      "main_risk": "Aurora (HLTV #5, defending champions) win on their map picks. They beat MOUZ-level opponents in Swiss, and the match is close to a coin flip on Aurora's maps.",
+      "sources": [
+        "https://api.bo3.gg/api/v1/matches?sort=-start_date",
+        "https://www.gosugamers.net/counterstrike/tournaments/63125-pgl-masters-bucharest-2026",
+        "https://esports.ru/counter-strike-2/news/rezultat-matcha-spirit-mouz-na-pgl-masters-bucharest-2026/",
+        "https://esports.ru/counter-strike-2/news/rezultat-matcha-g2-aurora-na-pgl-masters-bucharest-2026/",
+        "https://www.talkesport.com/news/cs2/mouz-cs2-roster-pr-signing/",
+        "https://www.hltv.org/ranking/teams/2026/october/26",
+        "https://gamma-api.polymarket.com/events?id=1273271"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1273272-side1",
+      "exclude": false,
+      "adjustment_pp": -4,
+      "reason": "BO3 PGL Masters quarterfinal, 17:00 UTC. Both teams have their regular rosters with no stand-ins. FURIA: yuurih, KSCERATO, YEKINDAR, molodoy, FalleN. BetBoom: zorte, S1ren, Boombl4, Magnojez, d1ledez. Pre-mortem evidence found: BetBoom went 3-0 in Swiss, beating Spirit 2-1 and NaVi 2-0. FURIA went 3-2 after losing 0-2 to NaVi and 1-2 to Spirit. HLTV (26 Oct) has BetBoom #9. Thunderpick via bo3.gg: FURIA 1.58 / BetBoom 2.20, fair ~0.582, below Polymarket's 0.625. Polymarket moved 0.615→0.625 (+1.6%) toward FURIA, away from the book. Two independent signals (book and form), so lower 4pp toward the book.",
+      "main_risk": "BetBoom carry their 3-0 Swiss form, which included a 2-0 over NaVi (the team that beat FURIA 2-0), and win the series. FalleN's AWP output was weak against NaVi (0.60 rating).",
+      "sources": [
+        "https://api.bo3.gg/api/v1/matches?sort=-start_date",
+        "https://esports.ru/counter-strike-2/news/rezultat-matcha-betboom-navi-na-pgl-masters-bucharest-2026/",
+        "https://esports.ru/counter-strike-2/news/rezultat-matcha-furia-navi-na-pgl-masters-bucharest-2026/",
+        "https://www.hltv.org/ranking/teams/2026/october/26",
+        "https://gamma-api.polymarket.com/events?id=1273272"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1262498-side0",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "The lolesports API confirms Worlds Swiss round, BO3, 29 Oct 20:00 UTC. Both teams are 1-2, so the loser is eliminated and both are fully motivated. The official livestats feed shows regular lineups. KC: Canna, Yike, kyeahoo, Caliste, Busio. CFO: Rest, Shad0w, POUT, Doggo, Kino. No sub news found. Records: KC W AL, L LYON, L BLG; CFO W TLAW, L MKOI, L T1. Kalshi has KC at 0.80/0.81, matching Polymarket's 0.795, which was flat at 0.795 all week. Market ≈ second market, so no adjustment.",
+      "main_risk": "CFO's early-game skirmishing (Shad0w/POUT) snowballs a game, and KC's shaky Worlds form (two losses) carries into a decider game 3.",
+      "sources": [
+        "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=98767975604431411",
+        "https://feed.lolesports.com/livestats/v1/window/115660540726095024",
+        "https://feed.lolesports.com/livestats/v1/window/115660540726095050",
+        "https://kalshi.com/markets/kxlolgame/kxlolgame/kxlolgame-26oct291900cfokc",
+        "https://www.strafe.com/match/karmine-corp-vs-ctbc-flying-oyster-group-stage-worlds-2026-b7b8e9/",
+        "https://gamma-api.polymarket.com/events?id=1262498"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1262495-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Excluded under the esports stand-in rule (rules list stand-ins for other esports; applied to either side as with the CS2 rule): TES are fielding substitute top laner 369 after ZUIAN was twice denied a visa, and his status for this match is unconfirmed. The lolesports API confirms Worlds Swiss round, BO3, 29 Oct 23:00 UTC. Both teams are 2-1; the winner reaches 3-1 and qualifies. TES top laner: ZUIAN was denied a visa twice (dotesports, GosuGamers, esports.gg); no report of approval found in two searches. The official livestats feed shows 369 starting all three TES games (vs HLE, AL, G2). BLG: Bin, Xun, Knight, Viper, ON (regular). Records: BLG L MKOI, W TLAW, W KC; TES L HLE, W AL, W G2. The substitute is on the opposing side, which favours BLG, and three games with him are already priced in: Polymarket held at 0.755 all week (0% drift). No bookmaker or Kalshi price found, so no adjustment.",
+      "main_risk": "TES (2-1 with 369, including a win over G2) beat BLG in an LPL derby where both teams know each other well. TES beat BLG 2-1 at Worlds 2025. A small tail risk: ZUIAN returns unannounced.",
+      "sources": [
+        "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=98767975604431411",
+        "https://feed.lolesports.com/livestats/v1/window/115660540726095048",
+        "https://feed.lolesports.com/livestats/v1/window/115660540726095052",
+        "https://dotesports.com/league-of-legends/news/tes-zuian-visa-issues-worlds-2026",
+        "https://www.gosugamers.net/lol/news/79304-top-esports-zuian-could-miss-worlds-2026-after-visa-denial-369-set-to-step-in",
+        "https://earlygame.com/news/lol/worlds-2026-al-are-out-as-t1-and-blg-move-one-win-from-knockouts",
+        "https://gamma-api.polymarket.com/events?id=1262495"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1272846-side1",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Vienna ATP 500 R2 (ESPN: 29 Oct 12:30Z, Round 2). Medvedev (3) won the Almaty title Sun 25 Oct (d. Basilashvili 6-7 6-1 6-3), then beat Merida 7-6(5) 6-1 in Vienna R1 on Wed after trailing 4-1; five-match win streak, no fitness reports. Norrie d. F. Cerundolo 6-4 6-1. H2H 5-1 Medvedev (Norrie's only win: RG 2025 clay); indoor hard. De-vigged Pinnacle 1.19/5.30 = 0.817; TennisExplorer avg 1.18/4.81 = 0.803; PM 0.815 flat for 24h. Market matches books, so no adjustment. Stake/Rainbet returned 403.",
+      "main_risk": "Fatigue from Almaty final plus travel, with two matches in two days. Medvedev was slow out of the blocks vs Merida (down 1-4), and Norrie is in sharp form and could take a long three-setter. No injury evidence was found.",
+      "sources": [
+        "https://www.atptour.com/en/scores/current/vienna/337/results",
+        "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard?dates=20261029",
+        "https://www.tennisexplorer.com/match-detail/?id=3363531",
+        "https://www.khaleejtimes.com/tennis/medvedev-defends-almaty-open-title-to-close-in-on-atp-finals",
+        "https://tennistourtalk.com/138645/medvedev-adjusts-to-vienna-conditions-overcomes-merida-for-fifth-straight-win",
+        "https://www.sofascore.com/news/daniil-medvedev-beats-daniel-merida-in-atp-vienna-opener",
+        "https://clob.polymarket.com/prices-history"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1267046-side0",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Vienna ATP 500 R2 (ESPN: 29 Oct 12:30Z, Round 2; Polymarket start says 15:30Z, likely scheduled after an earlier match). Paul (7) d. Rublev 7-5 6-2 on Tue; Darderi d. Arnaldi 7-5 6-2 on Mon. H2H 2-1 Paul (TennisExplorer): Paul won Paris Olympics 2024 and Montreal 2024 on hard; Darderi won Rome 2026 on clay. Indoor hard suits Paul better. De-vigged Pinnacle 1.26/4.32 = 0.774; TE avg 1.24/3.99 = 0.763; PM 0.775 (24h range 0.76-0.795, flat vs a day ago). No fitness news on either player. Stake/Rainbet returned 403.",
+      "main_risk": "Darderi's heavy topspin and aggression take a tight set, as they did in their recent Rome meeting, and Paul loses a three-set match.",
+      "sources": [
+        "https://www.atptour.com/en/scores/current/vienna/337/results",
+        "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard?dates=20261029",
+        "https://www.tennisexplorer.com/match-detail/?id=3362597",
+        "https://tennistonic.com/tennis-news/1072586/vienna-draw-tommy-pauls-prediction-with-rublev-next-h2h-and-rankings/",
+        "https://dropshotft.com/matches/paul-vs-darderi-italian-open-r32-337ce27b",
+        "https://clob.polymarket.com/prices-history"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1272847-side0",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Vienna ATP 500 R2 (ESPN: 29 Oct 16:30Z, Round 2). Zverev (1) survived Landaluce 7-5 3-6 7-6(11) on Tue in a 3h05m match, saving 4 match points. ATP and German/Spanish reports mention no injury, and he had Wednesday off. Griekspoor d. Nakashima 6-1 4-6 7-6(2) on Wed. H2H 9-3 Zverev (TE), though Griekspoor won Montreal 2026 and Indian Wells 2025. Reaching the QF makes Zverev world No.1, so motivation is high. De-vigged Pinnacle 1.27/4.14 = 0.765; TE avg 1.24/4.01 = 0.764; PM 0.765. PM eased from 0.795 to 0.765 in 24h (-3.8% relative, under the 5% threshold) as Pinnacle drifted from 1.25 to 1.27 on the open. Stake/Rainbet returned 403.",
+      "main_risk": "Griekspoor's big serve forces tiebreaks (Zverev needed a 13-11 deciding tiebreak in R1). Zverev showed physical discomfort in Shanghai earlier in October, and the mild market drift points slightly against him.",
+      "sources": [
+        "https://www.atptour.com/en/scores/current/vienna/337/results",
+        "https://www.atptour.com/en/news/zverev-landaluce-vienna-2026-tuesday",
+        "https://www.puntodebreak.com/2026/10/27/zverev-sofoca-in-extremis-rebelion-landaluce-salvando-cuatro-bolas-partido",
+        "https://www.tennisexplorer.com/match-detail/?id=3363557",
+        "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard?dates=20261029",
+        "https://clob.polymarket.com/prices-history"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1274470-side0",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Basel ATP 500 R2 (ESPN: 29 Oct 17:00Z, Round 2). Djokovic (4, WC) beat Humbert 4-6 6-3 6-4 on Wed in 2h29m; he said 'I can do better', and reports show no physical issue for him (Humbert took the medical timeout). Struff d. Hanfmann 6-4 6-3. H2H 8-0 Djokovic (TE), including 2025 US Open 6-3 6-3 6-2. De-vigged Pinnacle 1.28/3.99 = 0.757; TE avg 1.27/3.75 = 0.747; PM 0.755 flat. Stake/Rainbet returned 403.",
+      "main_risk": "Djokovic (39), on his first indoor event of the season, looked rusty, dropping the first set to Humbert. Struff's big serve could take tiebreaks, or Djokovic could suffer a physical dip on back-to-back days.",
+      "sources": [
+        "https://www.atptour.com/en/scores/current/basel/328/results",
+        "https://www.france24.com/en/live-news/20261028-djokovic-wins-basel-opener-to-boost-atp-finals-bid",
+        "https://tennisnow.com/djokovic-rallies-to-win-basel-return-keeps-turin-hopes-alive/",
+        "https://en.tennistemple.com/actu/djokovic-sends-warning-after-tough-basel-opener-i/iPbB",
+        "https://www.tennisexplorer.com/match-detail/?id=3363649",
+        "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard?dates=20261029"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1270217-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Sioux Falls (MarketBeat Open) is an ATP Challenger 100: confirmed by Sanford Sports and by TennisExplorer's 'Sioux Falls challenger' listing (ATP Tour challenger pages also cover it). Challenger events are excluded by rule.",
+      "main_risk": "n/a (excluded: Challenger)",
+      "sources": [
+        "https://www.sanfordsports.com/blog/community/marketbeat-open-bringing-worlds-best-tennis-players-back-to-sioux-falls",
+        "https://www.tennisexplorer.com/matches/?type=atp-single&year=2026&month=10&day=29",
+        "https://www.atptour.com/en/scores/current-challenger/sioux-falls/2951/results"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1271365-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "EUGENE Seoul Open 2026 is an ATP Challenger (ATP Tour challenger results page, 26 Oct-1 Nov, lists Sakamoto and Harris). TennisExplorer also lists it as 'Seoul challenger'. Challenger events are excluded by rule.",
+      "main_risk": "n/a (excluded: Challenger)",
+      "sources": [
+        "https://www.atptour.com/en/scores/current-challenger/seoul/7288/results",
+        "https://www.tennisexplorer.com/matches/?type=atp-single&year=2026&month=10&day=29"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1269997-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Queretaro is a WTA 125 on clay, 26 Oct-1 Nov 2026 (wtatennis.com 'queretaro-125' draws page shows Podoroska (8) vs Bulgaru in R16). TennisExplorer lists it alongside ITF/125 events. WTA 125 events are excluded by policy.",
+      "main_risk": "n/a (excluded: WTA 125)",
+      "sources": [
+        "https://www.wtatennis.com/tournaments/1145/queretaro-125/2026/draws",
+        "https://www.tennisexplorer.com/matches/?type=wta-single&year=2026&month=10&day=29"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1271366-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "The 2026 Yinzhou Bank Challenger in Ningbo is an ATP Challenger (ATP Tour challenger results page, 26 Oct-1 Nov, lists Mayot and Demin (Q)). TennisExplorer also lists it as 'Ningbo challenger'. Challenger events are excluded by rule.",
+      "main_risk": "n/a (excluded: Challenger)",
+      "sources": [
+        "https://www.atptour.com/en/scores/current-challenger/ningbo/7343/results",
+        "https://www.tennisexplorer.com/matches/?type=atp-single&year=2026&month=10&day=29"
+      ],
+      "prices": []
+    }
+  ]
+}
