@@ -1,0 +1,331 @@
+{
+  "date": "2026-10-30",
+  "researched_at": "2026-10-30T06:59:52Z",
+  "summary": "Friday keeps Lens-or-Draw, Lille-or-Draw and Villarreal at DraftKings fair price, PSG (four first-teamers out) and Sporting (form crisis) trimmed 2pp, Alcaraz trimmed 1pp and Harvard 3pp toward the books, and MOUZ in the CS2 Major semifinal plus Team Liquid and Hanwha Life in Worlds Bo3 elimination matches at bookmaker/Kalshi prices. Excluded legs cover unconfirmed key players (Rennes keeper Samba, Mainz captain Amiri), Medvedev's unexplained 6.6% drop on his third match in three days, Tulane's banged-up QB and line, Vitality's stand-in, non-tier-1 esports (VCT Threshold China, Dota Esports Pro Circuit) and Challenger/WTA 125 tennis.",
+  "verdicts": [
+    {
+      "id": "1277844-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Stand-in confirmed: Vitality's PGL Masters Bucharest lineup on dust2.us match page is ropz, ZywOo, flameZ, mezii, jL, with jL standing in for apEX, who is on leave for a family reason (birth of a child, per shanethegamer/EGW). Policy excludes CS2 teams using a stand-in. Fixture checked: Nemiga vs Vitality BO3 semifinal at 12:00 UTC (dust2.us, bo3.gg). Thunderpick 1.12/5.3 de-vigs to Vitality 0.825, the same as the market.",
+      "main_risk": "Stand-in lineup loses a map-pool or veto edge to an in-form Nemiga (HLTV #21, 3-match win streak including 2-0 over FUT and The MongolZ).",
+      "sources": [
+        "https://www.dust2.us/matches/2399756/nemiga-vs-vitality",
+        "https://www.shanethegamer.com/esports-news/jl-vitality-stand-in-blast-porto-pgl-bucharest/",
+        "https://api.bo3.gg/api/v1/matches/nemiga-vs-vitality-30-10-2026",
+        "https://egw.news/counterstrike/news/36524/vitality-turns-to-free-agent-jl-as-stand-in-for-tw-OeDITwrWH"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1278826-side0",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Fixture checked: MOUZ vs FURIA BO3 PGL Masters Bucharest semifinal at 15:00 UTC on Polymarket, bo3.gg and dust2.us. Both teams play full rosters with no stand-ins: MOUZ is HLTV #4 (torzsi, Spinx, xertioN, PR, xelex) and FURIA is #3 (FalleN, yuurih, KSCERATO, YEKINDAR, molodoy), per dust2.us and the HLTV 19 Oct update reported by esports.ru (702 vs 694 points). Form: MOUZ have won 4 straight, including 2-0 over Aurora in the quarterfinal; FURIA have won 3 straight, including 2-0 over BetBoom and Liquid. Thunderpick 1.52/2.35 de-vigs to MOUZ 0.607, close to the market's 0.595, so no adjustment. Polymarket drift over 24h stayed within 0.575-0.625 (about 3.5% relative from the open), under the 5% threshold.",
+      "main_risk": "FURIA are ranked one place above MOUZ and recently beat them (2-0 at IEM Rio in April and 2-1 at StarSeries Fall, per esports.ru snippets I did not open). So this is close to a coin flip, and MOUZ's 0.595 relies on a narrow edge.",
+      "sources": [
+        "https://www.dust2.us/matches/2399757/mouz-vs-furia",
+        "https://api.bo3.gg/api/v1/matches?filter[matches.tournament_id][eq]=5338",
+        "https://gamma-api.polymarket.com/events?slug=cs2-mouz-furia-2026-10-30",
+        "https://esports.ru/counter-strike-2/news/obnovlenie-rejtinga-hltv-ot-19-10-26/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1262499-side0",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "The lolesports API confirms Worlds Swiss match 115660540726095077, TLAW vs LOS, BO3 at 20:00 UTC. Both teams are 1-2, so the loser is eliminated and there is no dead-rubber risk. Starters in each team's last game (livestats) match their API rosters: TL Morgan, Josedeodo, Quid, Yeon, CoreJJ; LOS Zest, Curse, Feisty, Duduhh, Ackerman. I found no substitute news. Form: TL lost BO1s to CFO and BLG, then swept AL 2-0; LOS lost to T1 and G2, then swept TSW 2-0 (lolesports, rg.org). Kalshi shows TL at 0.79/0.80, in line with Polymarket's 0.805. Drift over 24h was 0.795 to 0.805, so negligible.",
+      "main_risk": "LOS (CBLOL) take a messy, high-variance BO3 against a TL side that went 0-2 in its BO1s against stronger teams.",
+      "sources": [
+        "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=98767975604431411",
+        "https://feed.lolesports.com/livestats/v1/window/",
+        "https://rg.org/news/esports/worlds-2026-swiss-round-4-preview-t1-koi-team-liquid-los",
+        "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXLOLGAME",
+        "https://gamma-api.polymarket.com/events?slug=lol-tl2-los-2026-10-30"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1262500-side0",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "The lolesports API confirms Worlds Swiss match 115660540726095081, G2 vs HLE, BO3 at 23:00 UTC. Both teams are 1-2 and face elimination. HLE fielded its usual starting five in the IG loss (Zeus, Kanavi, Zeka, Gumayusi, Delight, per livestats), and I found no substitute news. G2 fielded BrokenBlade, SkewMond, Caps, Hans Sama, Labrov. Form: HLE beat TES, then lost to GEN and IG; Khan Sports calls them 'unstable' but notes they swept G2 3-0 at MSI 2026. G2 lost to DK and TES and beat LOS. Kalshi shows HLE at 0.78/0.79, matching the market's 0.785. Drift over 24h was 0.795 to 0.785 (-1.3%).",
+      "main_risk": "HLE's fight collapses, seen in the 28-minute loss to IG, continue against a G2 side that won all three LEC splits and beat T1 at MSI.",
+      "sources": [
+        "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=98767975604431411",
+        "https://sports.khan.co.kr/en/article/202610270837007",
+        "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXLOLGAME",
+        "https://gamma-api.polymarket.com/events?slug=lol-hle1-g2-2026-10-30",
+        "https://rg.org/news/esports/worlds-2026-swiss-round-4-preview-t1-koi-team-liquid-los"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1272287-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Not tier-1. VCT Threshold China 2026 is the end-of-season promotion event that replaces Challengers and works like Ascension: two guest-partner slots in VCT China 2027 are at stake, and the field mixes 5 VCT partner teams with 8 China National Tournament teams (thespike.gg event page, esports.gg). Nova vs A Team is a Week 2 quarterfinal, BO3, at 09:00. Policy is tier-1 only, and this kind of event does not qualify.",
+      "main_risk": "High-variance promotion bracket against a national-circuit team (A Team beat ODG 2-0 in R16); Nova lost the Week 1 final 0-3 to DRG.",
+      "sources": [
+        "https://www.thespike.gg/events/valorant-champions-tour-2026-threshold-china/4265",
+        "https://esports.gg/news/valorant/wolves-esports-vct-threshold-china-a-team/",
+        "https://www.vlr.gg/event/2978/vct-2026-china-stage-2"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1280347-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Not tier-1. Esports Pro Circuit is an online third-party Dota 2 league (Strafe lists it as 'Online', Group Stage Group C, BO3) between small teams; Strafe ranks Team Synapse only #18. Search results show Synapse's roster changing several times (dota2.ru). Strafe also does not list a potn9ki vs Synapse match on 30 Oct, so the fixture is not confirmed. Liquipedia returned 429. Excluded under the tier-1-only esports policy, as on 27 Oct.",
+      "main_risk": "Minor online league with an unstable roster and an unverified fixture.",
+      "sources": [
+        "https://www.strafe.com/match/hokori-vs-team-synapse-group-c-esports-pro-circuit-season-3-2026-622f81/",
+        "https://dota2.ru/news/67426-team-synapse-anonsirovala-obnovlennyj-sostav-po-dota-2/",
+        "https://www.cybersport.ru/teams/dota-2/team-synapse"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1203178-away",
+      "exclude": false,
+      "adjustment_pp": -2,
+      "reason": "Absences confirmed 29 Oct: Dembélé, Kvaratskhelia, Marquinhos, Nuno Mendes out (CulturePSG conf report; But! says the three 'suivent toujours des soins'); Godts missed Thursday training (paternity). Sports Mole: Le Havre bottom on 2 pts, winless, Seko suspended; predicts 0-2 PSG. Lowered 2pp because DraftKings drifted -425→-340 (de-vig PSG 0.731, 3.5pp under Polymarket 0.7665) and the attack is depleted. PM 24h drift 0.805→0.765 (5.0% rel), explained by injury news. Stake/Rainbet 403.",
+      "main_risk": "PSG without Dembélé/Kvara/Marquinhos/Mendes can't break down a deep block → 0-0/1-1 draw.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/le-havre/preview/le-havre-vs-psg-prediction-team-news-lineups_607838.html",
+        "https://www.culturepsg.com/news/match/godts-papa-doue-travailleur-safonov-adapte-etc-la-conf-complete-de-luis-enrique-avant-le-havre-psg/61355",
+        "https://butfootballclub.fr/1708709-psg-un-absent-de-taille-avant-le-havre-des-nouvelles-de-marquinhos-mendes-et-dembele-sont-tombees",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261030",
+        "https://gamma-api.polymarket.com/events/1203178"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1209080-home_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Policy exclusion: Rennes no.1 GK Brice Samba 'très probablement forfait'/'reste incertain' after thigh issue in Wednesday training, final medical check pending, backup Lemaître vs Belazzoug undecided (OneFootball 29 Oct, foot-sur7 30 Oct). Lepaul (top scorer) confirmed out. Nice have Abdi doubtful and Clauss/Abdul Samed questionable (Sports Mole). PM Nice win 0.345→0.375 (+8.7% rel) in 24h. Polymarket rules text also says 'scheduled for October 31' while the game is Fri 30 Oct 18:00 UTC (ESPN, gameStartTime). DK de-vig Nice-or-draw 0.625 ≈ market.",
+      "main_risk": "Rennes (2nd) win with depth even without Lepaul; Sports Mole predicts 1-2.",
+      "sources": [
+        "https://onefootball.com/fr/news/nice-stade-rennais-lepaul-forfait-samba-tres-incertain-face-a-nice-43693309",
+        "https://www.foot-sur7.fr/790769-stade-rennais-la-grosse-tuile-pour-brice-samba-avant-nice",
+        "https://www.sportsmole.co.uk/football/nice/preview/nice-vs-rennes-prediction-team-news-lineups_607903.html",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261030",
+        "https://gamma-api.polymarket.com/events/1209080"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1209080-away_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Excluded together with the other side: Rennes GK Samba is a game-time doubt with the backup choice undecided, Lepaul is out, and Nice have three questionable players. Rennes win dropped 0.405→0.375 (-7.4% rel) in 24h. Polymarket text says Oct 31 vs actual Oct 30. DK de-vig Rennes-or-draw 0.633 ≈ market 0.6301.",
+      "main_risk": "Nice, unbeaten at home and 3 wins in 4, beat a Rennes side missing its top scorer and maybe its GK, with Europa League (Olympiacos) next Wednesday.",
+      "sources": [
+        "https://onefootball.com/fr/news/nice-stade-rennais-lepaul-forfait-samba-tres-incertain-face-a-nice-43693309",
+        "https://www.foot-sur7.fr/790769-stade-rennais-la-grosse-tuile-pour-brice-samba-avant-nice",
+        "https://www.sportsmole.co.uk/football/nice/preview/nice-vs-rennes-prediction-team-news-lineups_607903.html",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261030",
+        "https://gamma-api.polymarket.com/events/1209080"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1203203-away_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Absences confirmed by both clubs. Lille: Nianzou suspended, Ueda, Tiago Santos and Igamane out (Le Petit Lillois 29 Oct). Lens: Edouard (surgery), Ganiou, Nawrocki and Sima out, Gradit back, 'le reste du groupe est disponible' (Cahuzac via But!). Lens 3 straight league wins under Cahuzac; Lille 1 win in 6 competitive. DK moved Lille +125→+175; de-vig Lens-or-draw 0.652 ≈ PM 0.6567, so 0. 24h DC drift <5%. Lens away fans banned (no effect on the result).",
+      "main_risk": "Lille (3rd) win at home in the derby; Sports Mole predicts Lille 1-0.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/lille/preview/lille-vs-lens-prediction-team-news-lineups_607840.html",
+        "https://www.butfootballclub.fr/1708379-rc-lens-cahuzac-annonce-quatre-absents-et-une-bonne-nouvelle-avant-le-losc/",
+        "https://lepetitlillois.com/2026/10/29/ueda-quatre-absents-losc-lens/",
+        "https://www.butfootballclub.fr/1708414-rc-lens-quatre-autres-bonnes-nouvelles-sont-tombees-avant-le-losc/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261030",
+        "https://gamma-api.polymarket.com/events/1203203"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1203203-home_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Same confirmed team news as the other side, with no unconfirmed key doubts. DK de-vig Lille-or-draw 0.625 ≈ PM 0.6267. Lille ML slipped 0.37→0.345 in 24h, but the DC price moved <5% and the move matches the DK shift and Lens' form and Lille's absences (Nianzou, Ueda).",
+      "main_risk": "In-form Lens (3 straight league wins) win; Lille have won 1 of 6 competitive games and are without Nianzou and Ueda.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/lille/preview/lille-vs-lens-prediction-team-news-lineups_607840.html",
+        "https://www.butfootballclub.fr/1708379-rc-lens-cahuzac-annonce-quatre-absents-et-une-bonne-nouvelle-avant-le-losc/",
+        "https://lepetitlillois.com/2026/10/29/ueda-quatre-absents-losc-lens/",
+        "https://www.butfootballclub.fr/1708414-rc-lens-quatre-autres-bonnes-nouvelles-sont-tombees-avant-le-losc/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261030",
+        "https://gamma-api.polymarket.com/events/1203203"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1206268-away",
+      "exclude": false,
+      "adjustment_pp": -2,
+      "reason": "Rui Borges confirmed Debast and Zalazar out (Bola na Rede, Record 28-29 Oct); Nuno Santos long-term out. Starters were rested in the Taça da Liga (11 changes), so no fatigue. Sporting lost their last league game 2-1 to Académico de Viseu and lost 2-3 to LASK in the UCL. O Jogo and DAZN frame the game as a test of Borges' survival. Casa Pia 0/4 at home (Sports Mole, predicts 0-2). Lowered 2pp: DK de-vig 0.729 vs PM 0.7506, and form is poor. PM 0.775→0.755 (-2.6%).",
+      "main_risk": "A Sporting side in crisis without Zalazar is held, or loses, against a Casa Pia that has won two in a row.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/sporting-lisbon/preview/casa-pia-vs-sporting-lisbon-prediction-team-news-lineups_607875.html",
+        "https://bolanarede.pt/nacional/sporting/rui-borges-revela-duas-baixas-para-a-visita-ao-casa-pia-estao-de-fora-amanha/",
+        "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/trio-de-ausentes-no-sporting-a-dois-dias-da-visita-ao-casa-pia-no-campeonato",
+        "https://www.ojogo.pt/futebol/artigo/casa-pia-sporting-e-mais-um-teste-a-sobrevivencia-de-rui-borges/18142215",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261030",
+        "https://gamma-api.polymarket.com/events/1206268"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1203177-away_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Policy exclusion: Mainz captain Nadiem Amiri is doubtful with knee trouble (missed the Pokal at Bochum); Fischer couldn't confirm, decision after Thursday's final session, outcome not found (Ligainsider, Rotowire). GK Zentner's return from a hand injury is also only 'möglicherweise'. Both teams lost 2-0 in the Pokal midweek; Kohr and Silas out. DK de-vig Mainz-or-draw 0.698 ≈ PM 0.7033.",
+      "main_risk": "Mainz without Amiri lose away at an Elversberg side that rotated in midweek (3 losses in 4 for Mainz).",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/elversberg/preview/elversberg-vs-mainz-prediction-team-news-lineups_607863.html",
+        "https://www.ligainsider.de/nadiem-amiri_5815/amiri-einsatz-gegen-elversberg-fraglich-419887/",
+        "https://www.rotowire.com/soccer/headlines/nadiem-amiri-injury-still-doubtful-for-elversberg-clash-543038",
+        "https://sv07elversberg.de/duell-der-tabellennachbarn-sve-will-mit-heimsieg-gegen-mainz-zurueck-in-die-erfolgsspur",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261030",
+        "https://gamma-api.polymarket.com/events/1203177"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1203177-home_draw",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Excluded together with the other side: Amiri (Mainz captain) is an unconfirmed knee doubt and Zentner's return is uncertain. Elversberg are missing Gyamerah, Seifert and Zimmerschied and have lost 4 of 6 (Sports Mole). DK de-vig Elversberg-or-draw 0.551 vs PM 0.5433.",
+      "main_risk": "Mainz win away: 3 away wins with 10 goals scored; Sports Mole predicts 1-2.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/elversberg/preview/elversberg-vs-mainz-prediction-team-news-lineups_607863.html",
+        "https://www.ligainsider.de/nadiem-amiri_5815/amiri-einsatz-gegen-elversberg-fraglich-419887/",
+        "https://www.rotowire.com/soccer/headlines/nadiem-amiri-injury-still-doubtful-for-elversberg-clash-543038",
+        "https://sv07elversberg.de/duell-der-tabellennachbarn-sve-will-mit-heimsieg-gegen-mainz-zurueck-in-die-erfolgsspur",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261030",
+        "https://gamma-api.polymarket.com/events/1203177"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1203632-home",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Íñigo Pérez confirmed Akhomach and Saliba out and Pape Gueye suspended, with the rest available (FútbolFantasy/Jornada Perfecta). Espanyol: Manolo González sacked after a 4-3 Copa loss to 4th-tier Sestao; interim Sergio García is in charge (new coach Sarabia not yet) and Kike García and Jofre are out (La Grada, pericos.es). Espanyol 18th, 1 win in 6. Villarreal won their last two. DK moved -185→-245; de-vig 0.674 vs PM 0.6866 (flat 24h), so 0. Sports Mole predicts 2-0.",
+      "main_risk": "Reaction from Espanyol under the interim coach (Pérez expects 'agresividad muy alta'), and Villarreal without Gueye are held to a draw.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/villarreal/preview/villarreal-vs-espanyol-prediction-team-news-lineups_607852.html",
+        "https://www.futbolfantasy.com/laliga/noticias/153762-inigo-perez-confirma-las-bajas-de-akhomach-y-saliba-analiza-al-espanyol-y-el-cambio-de-entren",
+        "https://lagrada.org/sergio-garcia-espanyol-entrenamiento-interino-manolo-villarreal/",
+        "https://pericos.es/2026/10/28/el-espanyol-confirma-que-sergio-garcia-dirigira-al-equipo-en-villarreal/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261030",
+        "https://gamma-api.polymarket.com/events/1203632"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1278691-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Vienna ATP 500 QF, verified on the ATP results page. Polymarket drifted from 0.83 (29 Oct 18:00 UTC) to 0.775 (30 Oct 06:00), a 6.6% relative drop in about 13h, with no injury news to explain it. Every bookmaker moved the same way: 1xBet opened at 1.18 and is now 1.27, Pinnacle opened at 1.21 and is now 1.26 (de-vigged fair about 0.772 against 4.27). Fatigue risk is high: Medvedev defended his Almaty title last week, then played R32 on 28 Oct (7-6 6-1) and R16 on 29 Oct (4-6 6-3 7-6(1)), saving a match point against Norrie and punching the court out of frustration. He leads the H2H 5-4 and has won 5 of the last 6. The unexplained 5%+ drift rule applies, so excluded.",
+      "main_risk": "Medvedev is flat after a match-point save in a third-set tiebreak the previous day (his third match in three days after the Almaty title), and Mannarino's lefty, low-pace game drags him into another long match he loses.",
+      "sources": [
+        "https://www.atptour.com/en/scores/current/vienna/337/results",
+        "https://www.tennisexplorer.com/match-detail/?id=3364269",
+        "https://www.freemalaysiatoday.com/category/sports/2026/10/30/medvedev-battles-back-from-brink-to-beat-norrie-in-vienna",
+        "https://www.essentiallysports.com/tennis-news-daniil-medvedev-takes-drastic-measure-injures-himself-at-vienna-open-to-avoid-fine/",
+        "https://clob.polymarket.com/prices-history"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1280223-side1",
+      "exclude": false,
+      "adjustment_pp": -1,
+      "reason": "Vienna ATP 500 QF, 14:00 UTC, verified on the ATP results page and TennisExplorer. Alcaraz (No. 3) leads the H2H 7-2 and has won the last 6, including straight-set wins at the 2026 AO and US Open. His R16 was 6-1 7-6(11) over Basilashvili, with 4 set points saved; that was his 23rd straight ATP 500 win, and the ATP report mentions no fitness issue. Pinnacle 1.28/3.99 de-vigs to 0.757; the TennisExplorer average 1.27/3.75 de-vigs to 0.747. Books opened near 1.20 and drifted to 1.25-1.29 before Polymarket listed. Polymarket has been flat at 0.765 since listing, so no drift issue. Wikipedia notes he lost to Bergs in Shanghai R3, missed months with right-wrist tenosynovitis and was still recovering his serve in Tokyo. Price nudged 1pp down toward the Pinnacle fair price.",
+      "main_risk": "Paul is in sharp form (beat Darderi 6-1 6-1). Alcaraz's serve is still not back after the wrist problem, and Paul wins a tight hard-court match as he did at Montreal 2022 and Toronto 2023.",
+      "sources": [
+        "https://www.atptour.com/en/news/alcaraz-basilashvili-vienna-2026-thursday",
+        "https://www.tennisexplorer.com/match-detail/?id=3364317",
+        "https://en.wikipedia.org/wiki/2026_Carlos_Alcaraz_tennis_season",
+        "https://tennisnow.com/alcaraz-blunts-basilashvili-sets-up-vienna-qf-vs-paul/",
+        "https://www.atptour.com/en/scores/current/vienna/337/results"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1280236-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Challenger event, excluded. TennisExplorer's 30 Oct schedule lists it as 'Guayaquil challenger', and ATP lists it under current-challenger/guayaquil (Challenger Ciudad de Guayaquil, 25 Oct to 1 Nov; tennistourtalk confirms).",
+      "main_risk": "Not applicable (Challenger tier).",
+      "sources": [
+        "https://www.tennisexplorer.com/matches/?type=atp-single&year=2026&month=10&day=30",
+        "https://www.atptour.com/en/scores/current-challenger/guayaquil/7391/results",
+        "https://tennistourtalk.com/?p=138527"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1280232-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Challenger event, excluded. TennisExplorer's 30 Oct schedule lists it as 'Brest challenger', and ATP lists it under current-challenger/brest (Brest Challenger 2026; a matchstat preview confirms).",
+      "main_risk": "Not applicable (Challenger tier).",
+      "sources": [
+        "https://www.tennisexplorer.com/matches/?type=atp-single&year=2026&month=10&day=30",
+        "https://www.atptour.com/en/scores/current-challenger/brest/7341/results",
+        "https://matchstat.com/predictions-tips/tennis-prediction-pick-odds-martineau-virtanen-h2h-brest-challenger-2026-day-1/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1280070-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "WTA 125 event, excluded. The WTA site lists Queretaro as 'queretaro-125' (WTA 125, clay, 26 Oct to 1 Nov 2026), and Wikipedia's 2025 Querétaro Open page also gives it as WTA 125.",
+      "main_risk": "Not applicable (WTA 125 tier).",
+      "sources": [
+        "https://www.wtatennis.com/tournaments/1145/queretaro-125/2026/draws",
+        "https://en.wikipedia.org/wiki/2025_Quer%C3%A9taro_Open"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1220229-side0",
+      "exclude": false,
+      "adjustment_pp": -3,
+      "reason": "FCS/Ivy game at Dartmouth (Memorial Field), 23:00 UTC, so Harvard is the AWAY team. Harvard is 6-0 (3-0 Ivy) and ranked #19/#18; Dartmouth is 3-3. QBs: Harvard's sophomore Charlie Smith (136/188, 12 TD, 4 INT); I found no injury report on him. Dartmouth's Grayson Saunier (preseason first-team All-Ivy) is the season leader. ESPN lists no injuries. DraftKings has HARV -10.5, ML -404/+298, which de-vigs to 0.761. The market (0.79) sits about 3pp above the book. Harvard's recent wins are narrow: 14-10 at Brown, and 20-17 over Colgate on a last-play Hail Mary lateral (Boston.com). Polymarket went from 0.76 to 0.785 in 24h (+3%, under the 5% threshold). Nudged -3pp to the DraftKings fair price on two sources: the book price and the narrow-margin results.",
+      "main_risk": "Harvard's offense stalls on the road in a rivalry game, as in the 14-10 game at Brown, and Dartmouth's veteran QB Saunier keeps the home side close enough to steal it late.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261030&groups=81",
+        "https://www.espn.com/college-football/game/_/gameId/401867838/harvard-dartmouth",
+        "https://www.thecrimson.com/article/2026/9/16/harvard-2026-football-preview/",
+        "https://www.boston.com/sports/college-sports/2026/10/04/harvard-hail-mary-lateral-on-final-play-to-stun-colgate-20-17/",
+        "https://dartmouthsports.com/sports/football",
+        "https://gamma-api.polymarket.com/events?slug=cfb-harv-dart-2026-10-30"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1220228-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "The game is at Charlotte (Jerry Richardson Stadium), so Tulane (3-4, 0-3 on the road) is the AWAY team against Charlotte (1-6, coming off a bye). DraftKings has moved steadily toward Charlotte: spread from -13.5 to -8.5, ML from -535 to -345 (+275), which de-vigs to 0.744, below the market's 0.755. Availability questions are unresolved on both sides. Tulane: freshman QB Trace Johnson makes his first road start after 2 INTs and 6 turnovers against UTSA; RT Ryan Mickow was carted off and is reportedly out; the coach describes a 5th different OL lineup ('really banged up'); RB Maurice Turner did not play against UTSA (status for Friday unknown); RB Jamauri McClure aggravated a foot injury. Charlotte: QB Conner Harrell is 'banged up' and no starter has been announced. Excluded under the questionable-key-players policy and the pre-mortem rule, since the line movement supports the losing scenario.",
+      "main_risk": "A turnover-prone freshman QB behind a patchwork OL makes his first road start, and a rested Charlotte keeps it within one score and wins late. The line has already shrunk by 5 points.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261030&groups=80",
+        "https://crescentcitysports.com/tulane-heads-to-charlotte-as-season-threatens-to-unravel/",
+        "https://www.si.com/college/tulane/news/hall-and-the-wave-more-motivated-than-ever-ahead-of-charlotte-matchup-01m5zfxk9czw",
+        "https://www.wagertalk.com/news/college-football/tulane-vs-charlotte-odds-picks-and-prediction-october-29-2026/",
+        "https://gamma-api.polymarket.com/events?slug=cfb-tulane-charlt-2026-10-30"
+      ],
+      "prices": []
+    }
+  ]
+}
