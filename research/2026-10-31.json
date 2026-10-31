@@ -1,0 +1,541 @@
+{
+  "date": "2026-10-31",
+  "researched_at": "2026-10-31T07:00:50Z",
+  "summary": "36 candidates. Kept 23: eight football legs (Spurs/City/Villa/Ajax/Leverkusen double chance at 0; Bologna −1, Leipzig −1, Betis −1.5), Ole Miss −2 (Lacy out, priced in), Boise −1, Penn State −1, Missouri −1, SMU 0, seven FCS favourites (Colgate −2), Cavaliers 0, two UFC favourites −2 each (multi-book consensus below market). Excluded 13: Wake Forest (top WR status unknown), Georgia (Florida QB unnamed), Oklahoma State (Iowa State DB doubts), Montana (unexplained drift past the book), Butler/Elon/TSU-Lindenwood/McNeese/Idaho (unclear QBs), Grizzlies (Jerome/Pippen questionable), Avalanche (goalie unconfirmed), Guayaquil Challenger, Game Changers Valorant. Stake and Rainbet returned 403 everywhere, so no bookmaker prices.",
+  "verdicts": [
+    {
+      "id": "1208023-home_draw",
+      "exclude": false,
+      "adjustment_pp": -1,
+      "reason": "Fixture confirmed: Serie A matchday 10, 14:00Z at the Dall'Ara (ESPN, Fantacalcio). Fantacalcio (30/10) lists no doubts for either team. Bologna are without De Silvestri, Enem, Piccoli and Holm (not in the predicted XI). Monza are without Folorunsho, Maye, Pessina and Ziolkowski. Bologna won 4-2 at Milan midweek; Monza lost 1-4 to Napoli and have conceded a league-high 22 (Sports Mole, predicts 3-1). DraftKings -155/+275/+380 de-vigs to 0.807, about 1.6pp below the market's 0.8234. PM flat over 24h. Pre-mortem trim 1: all three of Bologna's wins came away from home (Sports Mole), and they played midweek.",
+      "main_risk": "A tired Bologna side with weak home form gets caught on the counter by Monza.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261031",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874798",
+        "https://www.sportsmole.co.uk/football/bologna/preview/bologna-vs-monza-prediction-team-news-lineups_607936.html",
+        "https://www.fantacalcio.it/probabili-formazioni-serie-a",
+        "https://gamma-api.polymarket.com/events?id=1208023",
+        "https://clob.polymarket.com/prices-history"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1209174-home_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Fixture confirmed: Bundesliga matchday 8, 14:30Z (ESPN, Sports Mole, Ligainsider). Leverkusen have won all five home league games and are 4th; Stuttgart are 15th with 6 points and have lost their last two (Sports Mole predicts 3-1). Leverkusen are missing Diaby, Terrier, Kofane, Ben Seghir and Doué. Badé is a doubt (Ligainsider: 'erste Entwarnung') but is not in either predicted XI. Stuttgart's Stiller is listed out by Ligainsider and is in no predicted XI. DraftKings -150/+330/+295 de-vigs to 0.767 (0.745 at open), so the market is about 1.6pp above a single book. PM selection moved about 4% relative, in the same direction as the book and explained by Stiller's absence, so no adjustment.",
+      "main_risk": "A Leverkusen side short of attackers, off a 0-3 loss at Hoffenheim and a midweek cup tie, gets hit on the break by Undav and Demirović.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261031",
+        "https://www.sportsmole.co.uk/football/bayer-leverkusen/preview/b-leverkusen-vs-stuttgart-prediction-team-news-lineups_608021.html",
+        "https://www.ligainsider.de/bayer-04-leverkusen/4/",
+        "https://www.ligainsider.de/vfb-stuttgart/12/",
+        "https://gamma-api.polymarket.com/events?id=1209174",
+        "https://clob.polymarket.com/prices-history"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1209129-away_draw",
+      "exclude": false,
+      "adjustment_pp": -1,
+      "reason": "Fixture confirmed: Bundesliga matchday 8, 14:30Z at the Veltins-Arena (ESPN, Sports Mole, Ligainsider). Schalke (1-3-3) are missing up to seven players, with Karaman, Sylla and Højlund ruled out, and lost 0-2 to second-tier Dresden in the cup midweek (Sports Mole predicts 0-1). Leipzig are without Ouédraogo, Guiu and Estève; Nkunku is a doubt but in no predicted XI. DraftKings +295/+275/-130 de-vigs to 0.767 vs market 0.7734. PM flat. Pre-mortem trim 1: the midweek cup win at Essen ended a run of five straight Leipzig road defeats (Sports Mole).",
+      "main_risk": "Leipzig's poor away form continues and Schalke nick a home win from a set piece or counter.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261031",
+        "https://www.sportsmole.co.uk/football/schalke-04/preview/schalke-vs-rb-leipzig-prediction-team-news-lineups_607980.html",
+        "https://www.ligainsider.de/rb-leipzig/1311/",
+        "https://gamma-api.polymarket.com/events?id=1209129",
+        "https://clob.polymarket.com/prices-history"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1212023-home_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Fixture confirmed: Eredivisie, 20:00Z (ESPN, Sports Mole, VoetbalPrimeur). Ajax are unbeaten in six league games; Berghuis and Blind are fit again and Bouwman is expected back (VoetbalPrimeur). Ajax remain without Dolberg, Caio Henrique, Gaaei, Adingra and Edvardsen. AZ have Oufkir suspended, plus Goes/Smit fitness issues, neither in the predicted XI. This is AZ's fifth match in 17 days after Europa League duty (Sports Mole, predicts 2-1 Ajax). DraftKings -150/+340/+330 de-vigs to 0.781, equal to the market's 0.7817. PM stable over 24h.",
+      "main_risk": "AZ, who won 2-0 at Ajax last season, take the lead and Ajax fail to come back.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261031",
+        "https://www.sportsmole.co.uk/football/ajax/preview/ajax-vs-az-prediction-team-news-lineups_608014.html",
+        "https://www.voetbalprimeur.nl/nieuws/2153134/vermoedelijke-opstelling-ajax-tegen-az.html",
+        "https://www.voetbalprimeur.nl/videos/2153117/echteld-over-kraker-tegen-ajax-en-blessures-smit-en-goes.html",
+        "https://gamma-api.polymarket.com/events?id=1212023",
+        "https://clob.polymarket.com/prices-history"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1209203-home_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Fixture verified on ESPN (EPL, Tottenham Hotspur Stadium, 17:30Z). DraftKings closing line -155/+330/+400 de-vigs to Tottenham or Draw 0.808; the 0.9pp gap to Polymarket's 0.817 is a single-source gap, so no adjustment. Spurs: Bentancur suspended; Simons, Bergvall, Odobert, Savio, Tosin and Mudryk out; Sports Mole lists no doubts. De Zerbi's press conference says Udogie is available; Maddison is available but missed training and is not in the predicted XI (Sports Mole, TheFalse9). Palace: Sarr, Tomiyasu and Riad out; Timber and Strand Larsen doubtful but not in the predicted XI. Palace are 17th with -10 GD and the league's most goals conceded (19), with losses of 0-2 to Newcastle and 0-5 at Brighton. Spurs have won their last two league games (3-1 Coventry, 2-0 at Chelsea). Polymarket: Spurs win 0.625→0.585, toward the DK line of 0.584; Palace win moved 0.165→0.175. No drift past the book. Stake and Rainbet returned 403.",
+      "main_risk": "Palace's direct attack (Mateta, Nketiah) wins away against a Spurs side missing Bentancur and several attackers.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261031",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401878761",
+        "https://www.sportsmole.co.uk/football/spurs/injury-news/team-news/spurs-vs-crystal-palace-injury-suspension-list-predicted-xis_607928.html",
+        "https://www.sportsmole.co.uk/football/spurs/preview/spurs-vs-crystal-palace-prediction-team-news-lineups_607925.html",
+        "https://thefalse9.com/2026/10/tottenham-predicted-lineup-vs-crystal-palace.html",
+        "https://gamma-api.polymarket.com/events?id=1209203",
+        "https://clob.polymarket.com/prices-history"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1209135-home_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Fixture verified on ESPN (EPL, Etihad, 15:00Z). DraftKings closing line -150/+340/+350 de-vigs to Man City or Draw 0.788; the 0.9pp gap to Polymarket's 0.797 means no adjustment. City: only Semenyo (knee) is out, per Maresca as quoted by Yahoo/Standard; Nunes is available again. First-choice players return after being rested in Wednesday's EFL Cup game, so this is no rotation. Brighton: Mitoma, Azeez, Struijk, Ferguson, Tzimas and Yohanna out; Hurzeler confirmed Kadioglu, Chema Andres and Kostoulas are options, which resolves Sports Mole's doubts. Polymarket moves are small and toward DK (City 0.595→0.585). Stake and Rainbet returned 403.",
+      "main_risk": "Brighton (3rd, +16 GD, 2-2 with City on Wednesday) score on City's leaky defence (11 conceded in their last 5 games) and win at the Etihad.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261031",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879245",
+        "https://www.sportsmole.co.uk/football/man-city/injury-news/team-news/man-city-vs-brighton-injury-suspension-list-predicted-xis_607918.html",
+        "https://www.sportsmole.co.uk/football/man-city/preview/man-city-vs-brighton-prediction-team-news-lineups_607915.html",
+        "https://uk.sports.yahoo.com/news/man-city-xi-vs-brighton-125710281.html",
+        "https://britbrief.co.uk/sports/football/hurzeler-brighton-trio-back-for-man-city-rematch.html",
+        "https://gamma-api.polymarket.com/events?id=1209135"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1209213-home_draw",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Fixture verified on ESPN (EPL, Villa Park, 20:00Z). DraftKings closing line +100/+265/+260 de-vigs to Aston Villa or Draw 0.736; the 0.7pp gap to Polymarket's 0.743 means no adjustment. Villa: Onana (ACL), Wan-Bissaka and Ruggeri out, no doubts; Emery expected to keep the XI that beat Man City 2-1 (Sports Mole). Fulham: only Sessegnon (suspended) is out; TheFalse9, citing Arbeloa's Friday press conference, says Affengruber and Smith Rowe are fit, which resolves Sports Mole's doubts. Villa have won 8 of their last 9 league meetings with Fulham. Polymarket: Fulham win 0.245→0.255 (~4% relative), in line with DK. Stake and Rainbet returned 403.",
+      "main_risk": "Fulham win on the counter while Villa stay inconsistent at home (0-0 Hull, 1-2 Forest).",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261031",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879250",
+        "https://www.sportsmole.co.uk/football/aston-villa/injury-news/team-news/aston-villa-vs-fulham-injury-suspension-list-predicted-xis_607923.html",
+        "https://www.sportsmole.co.uk/football/aston-villa/preview/aston-villa-vs-fulham-prediction-team-news-lineups_607920.html",
+        "https://thefalse9.com/2026/10/fulham-predicted-lineup-aston-villa-leno-returns.html",
+        "https://gamma-api.polymarket.com/events?id=1209213"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1209857-home",
+      "exclude": false,
+      "adjustment_pp": -1.5,
+      "reason": "Fixture verified on ESPN and in Spanish press (La Liga matchday 11, La Cartuja, 17:30Z). Two books are below Polymarket's 0.7465: DraftKings closing line -330/+475/+800 de-vigs to 0.729, and BetMGM -312/+450/+750 (SportsGambler) to about 0.716, hence the trim. Betis: Cucho and Junior Firpo out (confirmed in Pellegrini's press conference), Bernal suspended, Antony back from illness; none of them is in the predicted XI. No heavy rotation reported, though Dortmund (Champions League) is on Wednesday. Málaga are bottom (0W 5D 5L, -12 GD) with Murillo, Muñoz, Ochoa and Lobete out. Polymarket 0.725→0.745 (~2.8% relative), following DK's move from 0.67 at open to 0.729 at close.",
+      "main_risk": "A draw: Betis are winless in two league games, Málaga have drawn 5 of 10, and Pellegrini may rotate with Dortmund on Wednesday.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261031",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882825",
+        "https://www.sportsmole.co.uk/football/betis/preview/betis-vs-malaga-prediction-team-news-lineups_607896.html",
+        "https://www.comuniate.com/noticias/38771/pellegrini-confirma-la-baja-de-junior-recupera-a-antony-y-habla-de-parrott-ceballos-cucho-y-ruibal",
+        "https://mundobetis.com/2026/10/30/pellegrini-no-se-podia-jugar-con-una-tragedia-de-esas-dimensiones/",
+        "https://www.sportsgambler.com/betting-tips/football/real-betis-vs-malaga-prediction-lineups-odds-2026-10-31/",
+        "https://gamma-api.polymarket.com/events?id=1209857"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1220348-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Strict availability: Wake Forest's top WR Carlos Hernandez (720 yds, 3rd in ACC) missed the Cal win with an undisclosed injury. The Oct 27 FLM preview says only that QB Gio Lopez 'hopes' to have him back. No later availability report found after a site search and two web searches. Otherwise the pick is solid: DK -520/+390 de-vigs to 0.804, ESPN FPI 81.3%, PM flat at 0.82.",
+      "main_risk": "Hernandez sits out, Wake's offense stalls in a low-total game (48.5), and Virginia keeps it close, as in last year's 16-9 game.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261031&groups=80",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858284",
+        "https://fieldlevelmedia.com/ncaaf/no-14-wake-forest-eager-to-ignite-offense-vs-virginia/",
+        "https://gamma-api.polymarket.com/events?id=1220348"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1220286-side1",
+      "exclude": false,
+      "adjustment_pp": -2,
+      "reason": "Star RB Kewan Lacy is confirmed OUT (shoulder, per HC Golding, FLM Oct 26), which is confirmed news, not a doubt, and priced in: the line moved from -13.5/-535 (SI) to DK -11.5, -455/+350, de-vig 0.787. ESPN FPI gives 74.9%. Both sit below PM 0.795, so trim 2. QBs Chambliss and Byrum Brown are listed starters with no QB injury. PM moved 0.805→0.795, toward the book.",
+      "main_risk": "Without Lacy the Ole Miss offense is one-dimensional, Chambliss turns it over (3 INTs at Texas), and Auburn pulls off the upset.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261031&groups=80",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856735",
+        "https://fieldlevelmedia.com/ncaaf/ole-miss-rb-kewan-lacy-shoulder-out-vs-auburn/",
+        "https://www.si.com/betting/auburn-vs-ole-miss-prediction-odds-and-key-players-to-watch-for-college-football-week-9-2026",
+        "https://gamma-api.polymarket.com/events?id=1220286"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1220342-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Florida's starting QB is unclear. AP/AJC (Oct 26) report that Sumrall has not named a starter between Aaron Philo (returning from a throwing-shoulder injury) and Tramell Jones Jr. ('bumps and bruises'). Two searches found no later confirmation. Otherwise DK -440/+340 de-vigs to 0.782 and FPI gives 81.6%; neutral site in Atlanta.",
+      "main_risk": "A healthy Philo starts and Florida (No. 17) keeps the rivalry game close and steals it late.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261031&groups=80",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856734",
+        "https://www.ajc.com/news/2026/10/no-17-florida-could-have-qb-aaron-philo-back-for-sec-game-against-no-3-georgia/",
+        "https://gamma-api.polymarket.com/events?id=1220342"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1220400-side1",
+      "exclude": false,
+      "adjustment_pp": -1,
+      "reason": "QB Maddux Madsen is healthy and productive (14 TD, 0 INT, FLM Oct 27), with no injuries reported for either side. Boise is 6-1 on a 6-game streak. DK -440/+340 de-vigs to 0.782; ESPN FPI is 86.2%. PM steady at 0.79→0.795. Trim 1: DK sits below PM, and ESPN/AccuWeather forecast rain, which raises variance.",
+      "main_risk": "In the rain, Texas State QB Brad Jackson and RB Burgess keep a high-scoring game close, and turnovers flip it.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261031&groups=80",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860908",
+        "https://fieldlevelmedia.com/ncaaf/no-20-boise-state-eyes-7th-win-in-a-row-as-it-hosts-potent-texas-state/",
+        "https://gamma-api.polymarket.com/events?id=1220400"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1220364-side1",
+      "exclude": false,
+      "adjustment_pp": -1,
+      "reason": "Rocco Becht confirmed as starter (cfbtrack, 6abc); no injuries found. The line moved toward PSU from +7.5 to -10 (DK -375/+295, de-vig 0.757); FPI gives 81.2%. PM flat at 0.775. Pre-mortem trim 1: PSU (3-4) has lost 4 straight and its run defense ranks near the bottom of FBS against a run-first Purdue (6abc).",
+      "main_risk": "Purdue's ground game controls the clock against PSU's weak run defense and hands Penn State a fifth straight loss.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261031&groups=80",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858506",
+        "https://6abc.com/post/big-ten-matchup-features-penn-state-purdue/19978834/",
+        "https://cfbtrack.com/games/matchup/2026/401858506",
+        "https://gamma-api.polymarket.com/events?id=1220364"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1220379-side0",
+      "exclude": false,
+      "adjustment_pp": -1,
+      "reason": "QB Austin Simmons is starting and healthy (predictem). RB Ahmad Hardy has been out all season, so he is not a questionable starter. Arkansas WR Chris Marshall (hamstring) is expected to play. DK -380/+300 de-vigs to 0.760 and FPI gives 73.8%, both below PM 0.775, so trim 1. PM went 0.765→0.775 (+1.3%).",
+      "main_risk": "A low-total road game: Missouri's red-zone failures continue and Arkansas wins a close one at home.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261031&groups=80",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856733",
+        "https://www.predictem.com/?p=214680",
+        "https://gamma-api.polymarket.com/events?id=1220379"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1220369-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Strict both-sides availability (same policy as SMU and Texas Tech earlier): Iowa State starting CB Ngoyi's status is uncertain and S Surges has an arm injury (predictem). Iowa State also benched QB Jaylen Raynor at halftime recently before naming him the starter. DK -360/+285 de-vigs to 0.751 and ESPN FPI 71.3%, both below PM 0.755. Cold, wet conditions on grass are forecast.",
+      "main_risk": "Rain and cold on grass in Ames slow Oklahoma State's pass-first attack, and Iowa State's run game wins it at home.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261031&groups=80",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856847",
+        "https://www.predictem.com/?p=214674",
+        "https://www.si.com/college/oklahomastate/football/what-wins-what-loses-game-oklahoma-state-iowa-state-2026",
+        "https://gamma-api.polymarket.com/events?id=1220369"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1220271-side0",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "SI preview confirms Kevin Jennings is starting for SMU; no injuries reported; indoor dome. Sources straddle the market: DK -360/+285 de-vigs to 0.751, FanDuel -385/+310 to 0.765, numberFire gives 82.8%, ESPN FPI 72%. PM 0.77→0.75 (-2.6%, under the 5% threshold, toward DK), so no adjustment.",
+      "main_risk": "Jennings' turnover habit comes back on the road and Syracuse steals it in the Dome.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261031&groups=80",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858278",
+        "https://www.si.com/college/syracuse/football/syracuse-smu-preview-01kxcpxdmj0j",
+        "https://www.fanduel.com/research/smu-vs-syracuse-college-football-odds-picks-best-bets-for-10-31-2026",
+        "https://gamma-api.polymarket.com/events?id=1220271"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1220293-side1",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Fixture confirmed: Bryant at Monmouth (CAA), Kessler Stadium, 17:00Z (ESPN, Monmouth and Bryant schedules). Monmouth is 6-2 (5-0 CAA), ranked No. 18/19, and has won 3 straight by 21 or more. QB Frankie Weaver has started every game. Bryant QB Brennan Myer started the last 3; no injuries reported. DraftKings -582/+402 de-vigs to 0.811 vs market 0.82, a single-source gap of about 1pp, so 0. PM flat at 0.815-0.82.",
+      "main_risk": "Bryant (5-3) keeps it close on the ground and wins with a short field or Monmouth turnovers.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261031&groups=81&limit=200",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866678",
+        "https://monmouthhawks.com/sports/football/schedule/2026",
+        "https://monmouthhawks.com/news/2026/10/24/strong-second-half-propels-no-18-19-monmouth-football-past-hampton-49-13.aspx",
+        "https://bryantbulldogs.com/news/2026/10/24/football-bryant-falls-27-17-to-stony-brook-at-berine-stadium.aspx",
+        "https://gamma-api.polymarket.com/events?id=1220293"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1220237-side1",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Fixture confirmed: Maine at Rhode Island, 16:00Z. QB Alex McClelland started URI's last 2 and was CAA Offensive Player of the Week on 10/19. The only URI injury listed is WR Kwarteng (out for the season). Maine is 1-7 (35-6 loss to Campbell); QB Drezek started their last 3. URI has won the last 4 meetings. DraftKings closed -597/+410, de-vig 0.814 vs market 0.815. PM 0.84→0.815 (-3%), price-finding toward the book.",
+      "main_risk": "URI's defense collapses as it did against Albany (21-38) or Stony Brook, or a sloppy turnover game repeats the loss to NC A&T.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261031&groups=81&limit=200",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866676",
+        "https://gorhody.com/news/2026/10/28/football-rams-welcome-maine-to-centreville-bank-stadium.aspx",
+        "https://gorhody.com/news/2026/10/24/football-great-danes-beat-rhode-island-in-shootout-38-21.aspx",
+        "https://gamma-api.polymarket.com/events?id=1220237"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1220287-side1",
+      "exclude": false,
+      "adjustment_pp": -2,
+      "reason": "Fixture confirmed: William & Mary at Colgate, Andy Kerr Stadium, 17:00Z. QB Jake Stearney started again on 10/24 (312 yds, 3 INT); W&M QB Winston Watkins started their last 3; no injuries in either preview. Colgate has lost 3 straight, scoring 17, 17 and 6, and Stearney has 10 INT. W&M lost 28-27 to Georgetown, while Colgate lost 27-17 to them at home. W&M has won 5 of the last 6 meetings. DraftKings -448/+325 de-vigs to 0.777 vs market 0.795; trim 2 under the pre-mortem rule, based on that gap and the form evidence.",
+      "main_risk": "Colgate's turnover-prone offense (8 sacks and 3 INT last week) lets W&M win a low-scoring game.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261031&groups=81&limit=200",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401868004",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401868002",
+        "https://tribeathletics.com/news/2026/10/28/football-travels-to-colgate-on-saturday.aspx",
+        "https://gamma-api.polymarket.com/events?id=1220287"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1220288-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Opponent's starting QB is unclear: Presbyterian starter Landon Sharpe was injured in the 1st quarter on 10/24 and sat out the rest of the game; the 10/30 Butler preview gives no update. Tried a web search and ESPN team news with no status found. DraftKings -440/+320 de-vigs to 0.774 vs market 0.79; PM rose 0.765→0.79, slightly past the book line.",
+      "main_risk": "Sharpe plays, or Holtzclaw's running carries PC to a 12th straight home win.",
+      "sources": [
+        "https://gobluehose.com/news/2026/10/24/football-blue-hose-stumped-by-valpo-on-the-road.aspx",
+        "https://gobluehose.com/news/2026/10/30/blue-hose-football-brings-on-butler-for-halloween-homecoming.aspx",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401868215",
+        "https://gamma-api.polymarket.com/events?id=1220288"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1220247-side1",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Fixture confirmed: Sacred Heart at Stony Brook, LaValle Stadium, 16:00Z. QB Quinn Boyd has started every game (264 yds, 2 TD at Bryant); no injuries mentioned in the Stony Brook preview or recap. Stony Brook is 5-3, leads FCS in tackles for loss and has the CAA's top scoring offense; Sacred Heart is 3-4 and lost 28-7 to Stonehill. DraftKings -532/+374 de-vigs to 0.800 vs market 0.78, but a single-book gap gets no upward nudge, so 0. PM 0.795→0.78 (-1.9%).",
+      "main_risk": "Sacred Heart's run game shortens the game and keeps it close; Stony Brook allowed 41-48 points in its losses.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261031&groups=81&limit=200",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866677",
+        "https://stonybrookathletics.com/news/2026/10/28/football-five-things-to-know-week-10-vs-sacred-heart.aspx",
+        "https://stonybrookathletics.com/news/2026/10/24/football-stony-brook-secures-road-victory-over-bryant.aspx",
+        "https://gamma-api.polymarket.com/events?id=1220247"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1220294-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Elon's starting QB is unclear: three different QBs started the last three games (Guttman, Stober, Crews IV, per ESPN box scores), and Elon's 10/28 preview names none. A web search found only a preseason depth note. Elon is on a 3-game losing streak (23, 0, 7 points) away to an in-form NC A&T. DraftKings -448/+325 de-vigs to 0.777 vs market 0.78.",
+      "main_risk": "Elon's broken offense can't score on the road and A&T win a low-scoring game.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261031&groups=81&limit=200",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866679",
+        "https://elonphoenix.com/news/2026/10/28/football-elon-returns-to-action-at-north-carolina-a-t.aspx",
+        "https://gamma-api.polymarket.com/events?id=1220294"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1220361-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Unexplained drift: Polymarket rose steadily from 0.735 to 0.78 in 24h (+6% relative) with no news found, and ended about 1.1pp past the DraftKings line (MONT -426 / EWU +311, unchanged from open, de-vig 0.769). Under the established policy, drift past the book line with no news means exclude. Otherwise fixture confirmed (ESPN 401868089, Roos Field, 20:00Z): both teams are off a bye, QBs stable (Ah Yat for Montana, Bell for EWU), and no injuries reported by ESPN, the Spokesman or the EWU preview.",
+      "main_risk": "Montana's defense keeps leaking (49 to NAU, 42 to Idaho) and EWU's dual-threat Bell wins a shootout at home.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261031&groups=81&limit=200",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401868089",
+        "https://www.spokesman.com/stories/2026/oct/30/what-eastern-washington-needs-to-do-to-upset-no-14/",
+        "https://goeags.com/news/2026/10/28/football-game-preview-eags-host-montana-for-100th-game-on-the-red.aspx",
+        "https://gamma-api.polymarket.com/events?id=1220361"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1220327-side0",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Fixture confirmed: ESPN 401868362, Alcorn State (4-4) at Mississippi Valley State (3-5), 19:00Z. Jaylon Tolbert started Alcorn's last two (2,361 yds, 24 TD, 2nd in FCS passing per BVM Sports); Josh Brown started MVSU's last two. No injuries listed by ESPN or BVM. Alcorn has won 12 straight in the series. DraftKings -423/+310 (unchanged) de-vigs to 0.768 vs market 0.775, a gap under 1pp, so 0. PM 0.755→0.775 (+2.6%), toward the book. Stake and Rainbet returned 403.",
+      "main_risk": "Alcorn's porous defense (63 allowed to Grambling, 41 to Prairie View) lets MVSU keep it close at home.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261031&groups=81&limit=200",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401868362",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401868361",
+        "https://bvmsports.com/2026/10/30/alcorn-state-hosts-mississippi-valley-state-in-halloween-clash/",
+        "https://gamma-api.polymarket.com/events?id=1220327"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1220295-side0",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Fixture confirmed: ESPN 401868258, Drake (2-6) at Morehead State (2-6), 17:00Z. Riley Warzynski started Drake's last two (2,479 yds; Drake leads the PFL in passing offense). Morehead's Bryce Patterson started the last two per the ESPN box scores. No injuries listed. DraftKings -426/+311 (unchanged) de-vigs to 0.769 vs market 0.765, so 0. PM flat (0.76–0.775). Stake and Rainbet returned 403.",
+      "main_risk": "Drake extends its three-game losing streak as Patterson keeps improving Morehead's offense at home.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261031&groups=81&limit=200",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401868258",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401868271",
+        "https://gamma-api.polymarket.com/events?id=1220295"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1220246-side1",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Fixture confirmed: ESPN 401867903, Robert Morris (4-4) at Central Connecticut (4-3, 3-0 NEC, first place), 16:00Z. Griffis started CCSU's last two games and Haggard started RMU's. The Westhills Gazette preview lists no injuries; RMU got WR Combs and RB Fitzpatrick back last week. DraftKings CCSU -391 (opened -415) / +290 de-vigs to 0.756 vs market 0.75, so 0. PM flat. Stake and Rainbet returned 403.",
+      "main_risk": "CCSU's defense (40 allowed to Mercyhurst) lets a healthier RMU offense win a shootout.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261031&groups=81&limit=200",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401867903",
+        "https://westhillsgazette.com/colonials-down-mercyhurst-face-first-place-central-connecticut-st/",
+        "https://gamma-api.polymarket.com/events?id=1220246"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1220298-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Tennessee State's starting QB is unclear. Daylin Lee started vs Charleston Southern on 10/24 but went 9-18 with 2 INT, and Byron McNair replaced him in the 3rd quarter. TSU's week-9 game notes name no starter. Tried two searches and the TSU athletics game-notes page. DraftKings -407/+300 de-vigs to 0.763 vs market 0.75.",
+      "main_risk": "A TSU QB change (McNair) is the unknown, against a limited Lindenwood offense.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401868199",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401868174",
+        "https://tsutigers.com/news/2026/10/29/football-game-information-week-9-lindenwood.aspx",
+        "https://gamma-api.polymarket.com/events?id=1220298"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1220310-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Starting QB is unclear on both sides. McNeese used three QBs (Lippold, Strong, Barrier), with Barrier and Strong splitting snaps in last week's 38-6 loss; Nicholls rotated Welch, Richardson and Rodrigue across its last two games. No preview names a starter. Tried two searches, ESPN box scores and the BVM preview; the McNeese site returned 403. DraftKings -345/+260 de-vigs to 0.736, below market 0.75.",
+      "main_risk": "McNeese's QB carousel lets rival Nicholls, which has won five straight in the series, steal it.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869139",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869138",
+        "https://bvmsports.com/2026/10/30/nicholls-colonels-visit-mcneese-in-search-of-sixth-straight-win/",
+        "https://gamma-api.polymarket.com/events?id=1220310"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1220349-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Portland State's starting QB is unclear. Its preview says three different QBs started the first five games and names no starter for Idaho; Tyrese Smith started on 10/17 and Gabe Downing on 10/24, and Devon Anderson's status is unknown. Tried two searches plus the goviks.com preview. DraftKings -352/+265 de-vigs to 0.740 vs market 0.75.",
+      "main_risk": "Idaho, which has played four one-score games in five, gets dragged into a close road game.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401868098",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401868106",
+        "https://goviks.com/news/2026/10/26/FB_20261026.aspx",
+        "https://gamma-api.polymarket.com/events?id=1220349"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1249500-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Strict availability: the official NBA injury report (10/31 02:45 AM ET) lists Memphis starter Ty Jerome QUESTIONABLE (upper back), Scotty Pippen Jr. QUESTIONABLE (low back) and Quinten Post DOUBTFUL; CBS has them as game-time decisions. Polymarket also rose 0.765→0.815 (+6.5% relative) in 24h, past the DraftKings de-vig line of 0.787 (-455/+350; ESPN BPI 78.8%).",
+      "main_risk": "Jerome and/or Pippen sit and a thin Memphis guard rotation lets Sacramento keep it close.",
+      "sources": [
+        "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-10-31_02_45AM.pdf",
+        "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909899",
+        "https://www.cbssports.com/nba/injuries/",
+        "https://gamma-api.polymarket.com/events?id=1249500"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1249501-side0",
+      "exclude": false,
+      "adjustment_pp": 0,
+      "reason": "Official NBA report (02:45 AM ET): Cleveland has Tyson and Tomlin out and Diop on G League assignment. Meleek Thomas is questionable but is a bench player (not in the 10/29 box score). Milwaukee lists no one, and CBS also shows no Bucks injuries. Cleveland's core (Harden, Mitchell, Mobley, Allen) all started on 10/29. No back-to-back for either team. DraftKings -360/+285 de-vigs to 0.751 and ESPN BPI gives 74.2%, within 1pp of 0.755, so 0. PM 0.735→0.755 (2.7%), toward the book.",
+      "main_risk": "Road favorite has a flat night and the rested Bucks get hot from three.",
+      "sources": [
+        "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-10-31_02_45AM.pdf",
+        "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261031",
+        "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909900",
+        "https://www.cbssports.com/nba/injuries/",
+        "https://gamma-api.polymarket.com/events?id=1249501"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1131403-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "Colorado's starting goalie is not confirmed by 2+ sources. Daily Faceoff projects Blackwood but marks it unconfirmed, and NHL boxscores show COL strictly alternating Wedgewood and Blackwood over the last 4 games. Tried Rotowire (no data), LeftWingLock (blocked), the NHL.com preview (error) and two web searches. Context: Calgary is on a back-to-back; DraftKings -410/+320 de-vigs to 0.771; PM 0.73→0.775 moved toward the book.",
+      "main_risk": "The starter has a poor night and Calgary steals a low-scoring game.",
+      "sources": [
+        "https://www.dailyfaceoff.com/starting-goalies/2026-10-31",
+        "https://api-web.nhle.com/v1/club-schedule-season/COL/20262027",
+        "https://api-web.nhle.com/v1/gamecenter/2026020201/boxscore",
+        "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892623",
+        "https://gamma-api.polymarket.com/events?id=1131403"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1248881-side1",
+      "exclude": false,
+      "adjustment_pp": -2,
+      "reason": "Both made weight (Cageside Press: Reese 185, Gall 185.5). Not a replacement bout (UFCalendar); it was booked around Oct 16 after Gall's earlier booking fell through for medical reasons, and he is now cleared (Heavy). Gall is 0-4 in his last four and inactive since 2024. BestFightOdds de-vigged: FanDuel -405/+320 = 0.771, Caesars 0.772, BetRivers 0.762, a consensus about 0.77, so trim 2 from 0.785 because several books agree. PM drift 0.765→0.785 (2.6%) is under the threshold.",
+      "main_risk": "Gall, a BJJ specialist, gets a scramble submission, or catches Reese, who lost his last fight by R1 KO.",
+      "sources": [
+        "https://cagesidepress.com/2026/10/30/ufc-vegas-123-moicano-vs-nolan-weigh-in-results",
+        "https://www.bestfightodds.com/",
+        "https://www.ufcalendar.com/blog/zach-reese-vs-mickey-gall-odds-prediction-ufc-fight-night-2026-10-31",
+        "https://heavy.com/sports/ufc/medically-cleared-mickey-gall-ufc-halloween/",
+        "https://www.docsports.com/free-picks/ufc/2026/zach-reese-vs-mickey-gall-pick-10-31-2026-predictions-ufc-vegas-123-odds.html",
+        "https://gamma-api.polymarket.com/events?id=1248881"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1207815-side0",
+      "exclude": false,
+      "adjustment_pp": -2,
+      "reason": "Both made weight at 186 (Cageside Press). Booked by Aug 26 (BoxingNews), so not short notice. Kropschot (9-3, 5-fight win streak, DWCS UD win) faces Klein (6-3, two straight losses, inactive since Aug 2025). BestFightOdds de-vigged: FanDuel 0.743, Caesars 0.738, BetRivers 0.734, BetWay 0.729, a consensus of about 0.736, so trim 2 from 0.755. PM drift 2%.",
+      "main_risk": "Klein's wrestling volume controls rounds against UFC debutant Kropschot (50% takedown defense) and he grinds out a decision.",
+      "sources": [
+        "https://cagesidepress.com/2026/10/30/ufc-vegas-123-moicano-vs-nolan-weigh-in-results",
+        "https://www.bestfightodds.com/",
+        "https://boxingnews.com/news/kropschot-ufc-debut-klein-october/",
+        "https://www.docsports.com/free-picks/ufc/2026/nick-klein-vs-joe-kropschot-pick-10-31-2026-predictions-ufc-vegas-123-odds.html",
+        "https://gamma-api.polymarket.com/events?id=1207815"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1286916-side1",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "The event is the ATP Challenger Ciudad de Guayaquil (ATP Tour challenger page; TennisTonic calls it the 'Guayaquil Challenger'). Challenger events are excluded under the rules.",
+      "main_risk": "Challenger-level variance on clay; not assessed further.",
+      "sources": [
+        "https://www.atptour.com/en/scores/current-challenger/guayaquil/7391/results",
+        "https://tennistonic.com/tennis-news/1072694/h2h-prediction-of-hugo-dellien-vs-nicolas-jarry-in-guayaquil-challenger-with-odds-preview-pick-27th-october-2026/",
+        "https://gamma-api.polymarket.com/events?id=1286916"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1285782-side0",
+      "exclude": true,
+      "adjustment_pp": 0,
+      "reason": "VCT Game Changers Championship Playoffs is not tier-1 under the established policy; the rule for other esports is tier-1 only, Bo3+.",
+      "main_risk": "Not assessed (excluded by policy).",
+      "sources": [
+        "https://gamma-api.polymarket.com/events?id=1285782"
+      ],
+      "prices": []
+    }
+  ]
+}
