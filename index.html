@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Daily Parlay</title>
-  <meta name="description" content="Being rebuilt." />
+  <meta name="description" content="A daily 2-leg football slip, and stats on every Stake bet." />
   <meta name="theme-color" content="#0f212e" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,12 +13,16 @@
 </head>
 <body>
   <header class="top">
-    <div class="top__brand">Daily Parlay</div>
-    <div class="top__date" id="today"></div>
+    <div class="top__inner">
+      <div class="top__brand">Daily Parlay</div>
+      <nav class="tabs" aria-label="Pages">
+        <a href="#/today" data-route="today">Today</a>
+        <a href="#/bets" data-route="bets">My Bets</a>
+        <a href="#/stats" data-route="stats">Stats</a>
+      </nav>
+    </div>
   </header>
-  <main class="wrap">
-    <section id="slip" class="slip" aria-live="polite"></section>
-  </main>
+  <main id="app" class="wrap"></main>
   <script type="module" src="/src/main.js"></script>
 </body>
 </html>

@@ -1,0 +1,2775 @@
+{
+ "updated_at": "2026-10-31T13:45:42.448Z",
+ "bets": [
+  {
+   "id": "13uk5b2",
+   "type": "multi",
+   "status": "won",
+   "date": "2026-10-29",
+   "time": "19:00",
+   "odds": 1.68,
+   "stake": 64.93,
+   "payout": 109.07,
+   "legs": [
+    {
+     "selection": "Al Nassr",
+     "market": "1x2",
+     "odds": 1.2,
+     "date": "2026-10-29",
+     "time": "19:00",
+     "home": "Al Nassr",
+     "away": "Al Kholood",
+     "score": [
+      5,
+      3
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Yes",
+     "market": "Both Teams to Score",
+     "odds": 1.4,
+     "date": "2026-10-29",
+     "time": "20:45",
+     "home": "Fiorentina",
+     "away": "Atalanta",
+     "score": [
+      2,
+      2
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "1pf20di",
+   "type": "single",
+   "status": "lost",
+   "date": "2026-10-29",
+   "time": "11:22",
+   "odds": 1.75,
+   "stake": 1,
+   "payout": 0,
+   "legs": [
+    {
+     "selection": "Natus Vincere",
+     "market": "Match Winner - Twoway",
+     "odds": 1.75,
+     "date": "2026-10-29",
+     "time": "11:22",
+     "home": "Team Vitality",
+     "away": "Natus Vincere",
+     "score": [
+      2,
+      1
+     ],
+     "sport": "cs2",
+     "result": "lost",
+     "result_from": "bet"
+    }
+   ]
+  },
+  {
+   "id": "1ccsrxi",
+   "type": "multi",
+   "status": "lost",
+   "date": "2026-10-29",
+   "time": "09:00",
+   "odds": 1.72,
+   "stake": 96.9,
+   "payout": 0,
+   "legs": [
+    {
+     "selection": "FUT Esports",
+     "market": "Match Winner - Twoway",
+     "odds": 1.32,
+     "date": "2026-10-29",
+     "time": "09:00",
+     "home": "FUT Esports",
+     "away": "Nemiga Gaming",
+     "score": [
+      0,
+      2
+     ],
+     "sport": "cs2",
+     "result": "lost",
+     "result_from": "score"
+    },
+    {
+     "selection": "Team Vitality",
+     "market": "Match Winner - Twoway",
+     "odds": 1.3,
+     "date": "2026-10-29",
+     "time": "11:22",
+     "home": "Team Vitality",
+     "away": "Natus Vincere",
+     "score": [
+      2,
+      1
+     ],
+     "sport": "cs2",
+     "result": "won",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "h2cqqp",
+   "type": "multi",
+   "status": "lost",
+   "date": "2026-10-28",
+   "time": "18:30",
+   "odds": 2.36,
+   "stake": 50,
+   "payout": 0,
+   "legs": [
+    {
+     "selection": "Inter",
+     "market": "1x2",
+     "odds": 1.35,
+     "date": "2026-10-28",
+     "time": "18:30",
+     "home": "Venezia",
+     "away": "Inter",
+     "score": [
+      0,
+      2
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Manchester City",
+     "market": "1x2",
+     "odds": 1.75,
+     "date": "2026-10-28",
+     "time": "20:30",
+     "home": "Manchester City",
+     "away": "Brighton",
+     "score": [
+      6,
+      5
+     ],
+     "sport": "football",
+     "result": "lost",
+     "result_from": "manual",
+     "note": "Stake shows 6-5 including extra time and penalties. A 1x2 bet settles on 90 minutes, and the game was level then.",
+     "level_after_90": true
+    }
+   ]
+  },
+  {
+   "id": "1t97xbg",
+   "type": "single",
+   "status": "lost",
+   "date": "2026-10-28",
+   "time": "17:03",
+   "odds": 1.35,
+   "stake": 48.72,
+   "payout": 0,
+   "legs": [
+    {
+     "selection": "Team Spirit",
+     "market": "Match Winner - Twoway",
+     "odds": 1.35,
+     "date": "2026-10-28",
+     "time": "17:03",
+     "home": "Team Spirit",
+     "away": "Natus Vincere",
+     "score": [
+      1,
+      2
+     ],
+     "sport": "cs2",
+     "result": "lost",
+     "result_from": "bet"
+    }
+   ]
+  },
+  {
+   "id": "fpui3g",
+   "type": "single",
+   "status": "won",
+   "date": "2026-10-28",
+   "time": "14:43",
+   "odds": 1.32,
+   "stake": 36.91,
+   "payout": 48.72,
+   "legs": [
+    {
+     "selection": "FURIA Esports",
+     "market": "Match Winner - Twoway",
+     "odds": 1.32,
+     "date": "2026-10-28",
+     "time": "14:43",
+     "home": "Team Liquid",
+     "away": "FURIA Esports",
+     "score": [
+      0,
+      2
+     ],
+     "sport": "cs2",
+     "result": "won",
+     "result_from": "bet"
+    }
+   ]
+  },
+  {
+   "id": "1kvczo8",
+   "type": "multi",
+   "status": "won",
+   "date": "2026-10-27",
+   "time": "20:45",
+   "odds": 2.16,
+   "stake": 39.95,
+   "payout": 86.25,
+   "legs": [
+    {
+     "selection": "Roma",
+     "market": "1x2",
+     "odds": 1.27,
+     "date": "2026-10-27",
+     "time": "20:45",
+     "home": "Roma",
+     "away": "Cagliari",
+     "score": [
+      4,
+      2
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Como",
+     "market": "1x2",
+     "odds": 1.7,
+     "date": "2026-10-27",
+     "time": "20:45",
+     "home": "Torino",
+     "away": "Como",
+     "score": [
+      1,
+      3
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "w4elvn",
+   "type": "multi",
+   "status": "lost",
+   "date": "2026-10-27",
+   "time": "14:15",
+   "odds": 4.84,
+   "stake": 13.17,
+   "payout": 0,
+   "legs": [
+    {
+     "selection": "FaZe",
+     "market": "Match Winner - Twoway",
+     "odds": 1.45,
+     "date": "2026-10-27",
+     "time": "14:15",
+     "home": "K27",
+     "away": "FaZe",
+     "score": [
+      0,
+      2
+     ],
+     "sport": "cs2",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Team Spirit",
+     "market": "Match Winner - Twoway",
+     "odds": 1.65,
+     "date": "2026-10-27",
+     "time": "15:36",
+     "home": "Team Spirit",
+     "away": "MOUZ",
+     "score": [
+      1,
+      2
+     ],
+     "sport": "cs2",
+     "result": "lost",
+     "result_from": "score"
+    },
+    {
+     "selection": "2:0",
+     "market": "Correct Score",
+     "odds": 1.5,
+     "date": "2026-10-27",
+     "time": "17:19",
+     "home": "FURIA Esports",
+     "away": "TYLOO",
+     "score": [
+      2,
+      0
+     ],
+     "sport": "cs2",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Team Vitality",
+     "market": "Match Winner - Twoway",
+     "odds": 1.35,
+     "date": "2026-10-27",
+     "time": "18:55",
+     "home": "Natus Vincere",
+     "away": "Team Vitality",
+     "score": [
+      0,
+      2
+     ],
+     "sport": "cs2",
+     "result": "won",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "dydpgn",
+   "type": "single",
+   "status": "won",
+   "date": "2026-10-27",
+   "time": "11:55",
+   "odds": 1.32,
+   "stake": 9.98,
+   "payout": 13.17,
+   "legs": [
+    {
+     "selection": "FaZe",
+     "market": "Match Winner - Twoway",
+     "odds": 1.32,
+     "date": "2026-10-27",
+     "time": "11:55",
+     "home": "Alliance",
+     "away": "FaZe",
+     "score": [
+      0,
+      2
+     ],
+     "sport": "cs2",
+     "result": "won",
+     "result_from": "bet"
+    }
+   ]
+  },
+  {
+   "id": "1svheix",
+   "type": "multi",
+   "status": "lost",
+   "date": "2026-10-26",
+   "time": "14:46",
+   "odds": 2.28,
+   "stake": 49.94,
+   "payout": 0,
+   "legs": [
+    {
+     "selection": "Team Spirit",
+     "market": "Match Winner - Twoway",
+     "odds": 1.4,
+     "date": "2026-10-26",
+     "time": "14:46",
+     "home": "Team Spirit",
+     "away": "FURIA Esports",
+     "score": [
+      2,
+      1
+     ],
+     "sport": "cs2",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "G2 Esports",
+     "market": "Match Winner - Twoway",
+     "odds": 1.25,
+     "date": "2026-10-26",
+     "time": "17:33",
+     "home": "G2 Esports",
+     "away": "DENDELE CS",
+     "score": [
+      1,
+      2
+     ],
+     "sport": "cs2",
+     "result": "lost",
+     "result_from": "score"
+    },
+    {
+     "selection": "Paris Saint Germain",
+     "market": "1x2",
+     "odds": 1.3,
+     "date": "2026-10-26",
+     "time": "20:30",
+     "home": "Paris Saint Germain",
+     "away": "Olympique Lyonnais",
+     "score": [
+      2,
+      0
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "1pkovgj",
+   "type": "multi",
+   "status": "lost",
+   "date": "2026-10-26",
+   "time": "11:20",
+   "odds": 105.57,
+   "stake": 3.11,
+   "payout": 0,
+   "legs": [
+    {
+     "selection": "Team Vitality",
+     "market": "Map 2 Winner - Threeway",
+     "odds": 1.5,
+     "date": "2026-10-26",
+     "time": "11:20",
+     "home": "FUT Esports",
+     "away": "Team Vitality",
+     "score": [
+      2,
+      1
+     ],
+     "sport": "cs2",
+     "result": null,
+     "result_from": null
+    },
+    {
+     "selection": "2:0",
+     "market": "Correct Score",
+     "odds": 1.22,
+     "date": "2026-10-26",
+     "time": "11:55",
+     "home": "9z Team",
+     "away": "TYLOO",
+     "score": [
+      1,
+      2
+     ],
+     "sport": "cs2",
+     "result": "lost",
+     "result_from": "score"
+    },
+    {
+     "selection": "2:0",
+     "market": "Correct Score",
+     "odds": 2.4,
+     "date": "2026-10-26",
+     "time": "14:46",
+     "home": "Team Spirit",
+     "away": "FURIA Esports",
+     "score": [
+      2,
+      1
+     ],
+     "sport": "cs2",
+     "result": "lost",
+     "result_from": "score"
+    },
+    {
+     "selection": "Besiktas",
+     "market": "1x2",
+     "odds": 1.33,
+     "date": "2026-10-26",
+     "time": "17:00",
+     "home": "Besiktas",
+     "away": "Istanbul Basaksehir",
+     "score": [
+      2,
+      0
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "2:0",
+     "market": "Correct Score",
+     "odds": 1.95,
+     "date": "2026-10-26",
+     "time": "17:33",
+     "home": "G2 Esports",
+     "away": "DENDELE CS",
+     "score": [
+      1,
+      2
+     ],
+     "sport": "cs2",
+     "result": "lost",
+     "result_from": "score"
+    },
+    {
+     "selection": "0:2",
+     "market": "Correct Score",
+     "odds": 2.7,
+     "date": "2026-10-26",
+     "time": "18:01",
+     "home": "BetBoom Team",
+     "away": "Natus Vincere",
+     "score": [
+      2,
+      0
+     ],
+     "sport": "cs2",
+     "result": "lost",
+     "result_from": "score"
+    },
+    {
+     "selection": "Galatasaray",
+     "market": "1x2",
+     "odds": 1.97,
+     "date": "2026-10-26",
+     "time": "19:30",
+     "home": "Galatasaray",
+     "away": "Fenerbahce",
+     "score": [
+      2,
+      1
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Benfica",
+     "market": "1x2",
+     "odds": 1.32,
+     "date": "2026-10-26",
+     "time": "19:45",
+     "home": "Santa Clara",
+     "away": "Benfica",
+     "score": [
+      1,
+      2
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Paris Saint Germain",
+     "market": "1x2",
+     "odds": 1.32,
+     "date": "2026-10-26",
+     "time": "20:30",
+     "home": "Paris Saint Germain",
+     "away": "Olympique Lyonnais",
+     "score": [
+      2,
+      0
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "18w4kql",
+   "type": "single",
+   "status": "cashed_out",
+   "date": "2026-10-26",
+   "time": "11:20",
+   "odds": null,
+   "stake": 11,
+   "payout": 3.06,
+   "legs": [
+    {
+     "selection": "FUT Esports",
+     "market": "Match Winner - Twoway",
+     "odds": null,
+     "date": "2026-10-26",
+     "time": "11:20",
+     "home": "FUT Esports",
+     "away": "Team Vitality",
+     "score": [
+      2,
+      1
+     ],
+     "sport": "cs2",
+     "result": "won",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "wyz5x0",
+   "type": "single",
+   "status": "won",
+   "date": "2026-10-25",
+   "time": "21:00",
+   "odds": 4.2,
+   "stake": 50.25,
+   "payout": 211.05,
+   "legs": [
+    {
+     "selection": "Real Madrid",
+     "market": "1x2",
+     "odds": 4.2,
+     "date": "2026-10-25",
+     "time": "21:00",
+     "home": "Barcelona",
+     "away": "Real Madrid",
+     "score": [
+      1,
+      2
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "bet"
+    }
+   ]
+  },
+  {
+   "id": "1n4lusz",
+   "type": "multi",
+   "status": "cashed_out",
+   "date": "2026-10-25",
+   "time": "16:49",
+   "odds": 6.97,
+   "stake": 53.37,
+   "payout": 50.33,
+   "legs": [
+    {
+     "selection": "Natus Vincere",
+     "market": "Match Winner - Twoway",
+     "odds": 1.62,
+     "date": "2026-10-25",
+     "time": "16:49",
+     "home": "FURIA Esports",
+     "away": "Natus Vincere",
+     "score": [
+      0,
+      2
+     ],
+     "sport": "cs2",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Real Madrid",
+     "market": "1x2",
+     "odds": 4.3,
+     "date": "2026-10-25",
+     "time": "21:00",
+     "home": "Barcelona",
+     "away": "Real Madrid",
+     "score": [
+      1,
+      2
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "13aa29v",
+   "type": "single",
+   "status": "won",
+   "date": "2026-10-25",
+   "time": "15:00",
+   "odds": 1.44,
+   "stake": 106.5,
+   "payout": 153.36,
+   "legs": [
+    {
+     "selection": "Liverpool",
+     "market": "Draw No Bet",
+     "odds": 1.44,
+     "date": "2026-10-25",
+     "time": "15:00",
+     "home": "Liverpool",
+     "away": "Brighton",
+     "score": [
+      2,
+      0
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "bet"
+    }
+   ]
+  },
+  {
+   "id": "qebacn",
+   "type": "single",
+   "status": "won",
+   "date": "2026-10-25",
+   "time": "12:30",
+   "odds": 1.58,
+   "stake": 130.39,
+   "payout": 206.02,
+   "legs": [
+    {
+     "selection": "Internazionale",
+     "market": "Match Result",
+     "odds": 1.58,
+     "date": "2026-10-25",
+     "time": "12:30",
+     "home": "Internazionale",
+     "away": "Fiorentina",
+     "score": [
+      2,
+      1
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "bet"
+    }
+   ]
+  },
+  {
+   "id": "2u088g",
+   "type": "multi",
+   "status": "won",
+   "date": "2026-10-25",
+   "time": "10:45",
+   "odds": 1.61,
+   "stake": 49.96,
+   "payout": 80.46,
+   "legs": [
+    {
+     "selection": "Team Vitality",
+     "market": "Map 2 Winner - Threeway",
+     "odds": 1.32,
+     "date": "2026-10-25",
+     "time": "10:45",
+     "home": "Team Vitality",
+     "away": "MongolZ",
+     "score": [
+      2,
+      0
+     ],
+     "sport": "cs2",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "BetBoom Team",
+     "market": "Match Winner - Twoway",
+     "odds": 1.22,
+     "date": "2026-10-25",
+     "time": "11:05",
+     "home": "BetBoom Team",
+     "away": "Nemiga Gaming",
+     "score": [
+      2,
+      0
+     ],
+     "sport": "cs2",
+     "result": "won",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "12ysqzw",
+   "type": "multi",
+   "status": "lost",
+   "date": "2026-10-24",
+   "time": "16:00",
+   "odds": 2.65,
+   "stake": 80,
+   "payout": 0,
+   "legs": [
+    {
+     "selection": "Arsenal",
+     "market": "1x2",
+     "odds": 1.43,
+     "date": "2026-10-24",
+     "time": "16:00",
+     "home": "Arsenal",
+     "away": "Everton",
+     "score": [
+      2,
+      0
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Chelsea",
+     "market": "1x2",
+     "odds": 1.85,
+     "date": "2026-10-24",
+     "time": "18:30",
+     "home": "Chelsea",
+     "away": "Tottenham",
+     "score": [
+      0,
+      2
+     ],
+     "sport": "football",
+     "result": "lost",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "dg6sr3",
+   "type": "single",
+   "status": "lost",
+   "date": "2026-10-24",
+   "time": "11:16",
+   "odds": 1.65,
+   "stake": 3.48,
+   "payout": 0,
+   "legs": [
+    {
+     "selection": "2:0",
+     "market": "Correct Score",
+     "odds": 1.65,
+     "date": "2026-10-24",
+     "time": "11:16",
+     "home": "MOUZ",
+     "away": "Team Liquid",
+     "score": [
+      1,
+      2
+     ],
+     "sport": "cs2",
+     "result": "lost",
+     "result_from": "bet"
+    }
+   ]
+  },
+  {
+   "id": "1td0vmg",
+   "type": "multi",
+   "status": "lost",
+   "date": "2026-10-24",
+   "time": "11:16",
+   "odds": 10.76,
+   "stake": 18,
+   "payout": 0,
+   "legs": [
+    {
+     "selection": "MOUZ",
+     "market": "Map 3 Winner - Threeway",
+     "odds": 1.4,
+     "date": "2026-10-24",
+     "time": "11:16",
+     "home": "MOUZ",
+     "away": "Team Liquid",
+     "score": [
+      1,
+      2
+     ],
+     "sport": "cs2",
+     "result": "lost",
+     "result_from": "score"
+    },
+    {
+     "selection": "Team Spirit",
+     "market": "Map 2 Winner - Threeway",
+     "odds": 1.42,
+     "date": "2026-10-24",
+     "time": "12:34",
+     "home": "Team Spirit",
+     "away": "BetBoom Team",
+     "score": [
+      1,
+      2
+     ],
+     "sport": "cs2",
+     "result": null,
+     "result_from": null
+    },
+    {
+     "selection": "Aston Villa or Draw",
+     "market": "Double Chance",
+     "odds": 2.3,
+     "date": "2026-10-24",
+     "time": "13:30",
+     "home": "Aston Villa",
+     "away": "Manchester City",
+     "score": [
+      2,
+      1
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Como",
+     "market": "1x2",
+     "odds": 1.49,
+     "date": "2026-10-24",
+     "time": "15:00",
+     "home": "Como",
+     "away": "Sassuolo",
+     "score": [
+      2,
+      0
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "2:0",
+     "market": "Correct Score",
+     "odds": 1.58,
+     "date": "2026-10-24",
+     "time": "16:07",
+     "home": "Team Vitality",
+     "away": "9z Team",
+     "score": [
+      2,
+      0
+     ],
+     "sport": "cs2",
+     "result": "won",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "pgrw6d",
+   "type": "single",
+   "status": "cashed_out",
+   "date": "2026-10-24",
+   "time": "11:16",
+   "odds": null,
+   "stake": 37,
+   "payout": 18.13,
+   "legs": [
+    {
+     "selection": "2:0",
+     "market": "Correct Score",
+     "odds": null,
+     "date": "2026-10-24",
+     "time": "11:16",
+     "home": "MOUZ",
+     "away": "Team Liquid",
+     "score": [
+      1,
+      2
+     ],
+     "sport": "cs2",
+     "result": "lost",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "132y42u",
+   "type": "single",
+   "status": "won",
+   "date": "2026-10-24",
+   "time": "09:09",
+   "odds": 1.28,
+   "stake": 18.34,
+   "payout": 23.48,
+   "legs": [
+    {
+     "selection": "FUT Esports",
+     "market": "Map 2 Winner - Twoway",
+     "odds": 1.28,
+     "date": "2026-10-24",
+     "time": "09:09",
+     "home": "FUT Esports",
+     "away": "TYLOO",
+     "score": [
+      2,
+      0
+     ],
+     "sport": "cs2",
+     "result": "won",
+     "result_from": "bet"
+    }
+   ]
+  },
+  {
+   "id": "1sn4sb7",
+   "type": "single",
+   "status": "won",
+   "date": "2026-10-24",
+   "time": "09:09",
+   "odds": 1.85,
+   "stake": 20,
+   "payout": 37,
+   "legs": [
+    {
+     "selection": "2:0",
+     "market": "Correct Score",
+     "odds": 1.85,
+     "date": "2026-10-24",
+     "time": "09:09",
+     "home": "FUT Esports",
+     "away": "TYLOO",
+     "score": [
+      2,
+      0
+     ],
+     "sport": "cs2",
+     "result": "won",
+     "result_from": "bet"
+    }
+   ]
+  },
+  {
+   "id": "ppavhe",
+   "type": "single",
+   "status": "won",
+   "date": "2026-10-23",
+   "time": "15:52",
+   "odds": 1.85,
+   "stake": 4.51,
+   "payout": 8.34,
+   "legs": [
+    {
+     "selection": "Over 2.5",
+     "market": "Total Maps",
+     "odds": 1.85,
+     "date": "2026-10-23",
+     "time": "15:52",
+     "home": "JiJieHao",
+     "away": "Eternal Fire",
+     "score": [
+      1,
+      2
+     ],
+     "sport": "cs2",
+     "result": "won",
+     "result_from": "bet"
+    }
+   ]
+  },
+  {
+   "id": "1jok7in",
+   "type": "multi",
+   "status": "lost",
+   "date": "2026-10-22",
+   "time": "21:00",
+   "odds": 17.63,
+   "stake": 20,
+   "payout": 0,
+   "legs": [
+    {
+     "selection": "AC Milan",
+     "market": "1x2",
+     "odds": 4.1,
+     "date": "2026-10-22",
+     "time": "21:00",
+     "home": "Bournemouth",
+     "away": "AC Milan",
+     "score": [
+      3,
+      0
+     ],
+     "sport": "football",
+     "result": "lost",
+     "result_from": "score"
+    },
+    {
+     "selection": "Olympique Lyonnais",
+     "market": "1x2",
+     "odds": 4.3,
+     "date": "2026-10-22",
+     "time": "21:00",
+     "home": "Hoffenheim",
+     "away": "Olympique Lyonnais",
+     "score": [
+      3,
+      0
+     ],
+     "sport": "football",
+     "result": "lost",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "8uct33",
+   "type": "multi",
+   "status": "lost",
+   "date": "2026-10-22",
+   "time": "18:45",
+   "odds": 1.99,
+   "stake": 30,
+   "payout": 0,
+   "legs": [
+    {
+     "selection": "Juventus",
+     "market": "1x2",
+     "odds": 1.44,
+     "date": "2026-10-22",
+     "time": "18:45",
+     "home": "Juventus",
+     "away": "Rennes",
+     "score": [
+      2,
+      2
+     ],
+     "sport": "football",
+     "result": "lost",
+     "result_from": "score"
+    },
+    {
+     "selection": "Bayer Leverkusen",
+     "market": "1x2 (2up)",
+     "odds": 1.18,
+     "date": "2026-10-22",
+     "time": "18:45",
+     "home": "OFI Crete",
+     "away": "Bayer Leverkusen",
+     "score": [
+      0,
+      2
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Brighton",
+     "market": "1x2",
+     "odds": 1.17,
+     "date": "2026-10-22",
+     "time": "18:45",
+     "home": "FK Jablonec",
+     "away": "Brighton",
+     "score": [
+      0,
+      0
+     ],
+     "sport": "football",
+     "result": "lost",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "17l18bb",
+   "type": "multi",
+   "status": "lost",
+   "date": "2026-10-21",
+   "time": "21:00",
+   "odds": 4.16,
+   "stake": 32.23,
+   "payout": 0,
+   "legs": [
+    {
+     "selection": "Real Madrid",
+     "market": "1x2",
+     "odds": 1.25,
+     "date": "2026-10-21",
+     "time": "21:00",
+     "home": "Real Madrid",
+     "away": "RB Leipzig",
+     "score": [
+      4,
+      1
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Sporting",
+     "market": "1x2",
+     "odds": 1.4,
+     "date": "2026-10-21",
+     "time": "21:00",
+     "home": "Sporting",
+     "away": "LASK",
+     "score": [
+      2,
+      3
+     ],
+     "sport": "football",
+     "result": "lost",
+     "result_from": "score"
+    },
+    {
+     "selection": "Yes",
+     "market": "Both Teams to Score",
+     "odds": 1.4,
+     "date": "2026-10-21",
+     "time": "21:00",
+     "home": "Real Betis",
+     "away": "Feyenoord",
+     "score": [
+      1,
+      0
+     ],
+     "sport": "football",
+     "result": "lost",
+     "result_from": "score"
+    },
+    {
+     "selection": "Club Brugge",
+     "market": "1x2",
+     "odds": 1.7,
+     "date": "2026-10-21",
+     "time": "21:00",
+     "home": "Club Brugge",
+     "away": "Lens",
+     "score": [
+      3,
+      0
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "1e85epa",
+   "type": "single",
+   "status": "won",
+   "date": "2026-10-21",
+   "time": "18:45",
+   "odds": 2.35,
+   "stake": 34.99,
+   "payout": 82.23,
+   "legs": [
+    {
+     "selection": "Como",
+     "market": "1x2",
+     "odds": 2.35,
+     "date": "2026-10-21",
+     "time": "18:45",
+     "home": "Como",
+     "away": "Manchester United",
+     "score": [
+      4,
+      1
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "bet"
+    }
+   ]
+  },
+  {
+   "id": "1nbuptm",
+   "type": "single",
+   "status": "won",
+   "date": "2026-10-21",
+   "time": "17:43",
+   "odds": 1.4,
+   "stake": 5,
+   "payout": 7,
+   "legs": [
+    {
+     "selection": "FaZe",
+     "market": "Match Winner - Twoway",
+     "odds": 1.4,
+     "date": "2026-10-21",
+     "time": "17:43",
+     "home": "Team Envy",
+     "away": "FaZe",
+     "score": [
+      1,
+      2
+     ],
+     "sport": "cs2",
+     "result": "won",
+     "result_from": "bet"
+    }
+   ]
+  },
+  {
+   "id": "n661x4",
+   "type": "single",
+   "status": "won",
+   "date": "2026-10-21",
+   "time": "17:43",
+   "odds": 2.4,
+   "stake": 3.2,
+   "payout": 7.68,
+   "legs": [
+    {
+     "selection": "Team Envy",
+     "market": "Map 2 Winner - Threeway",
+     "odds": 2.4,
+     "date": "2026-10-21",
+     "time": "17:43",
+     "home": "Team Envy",
+     "away": "FaZe",
+     "score": [
+      1,
+      2
+     ],
+     "sport": "cs2",
+     "result": "won",
+     "result_from": "bet"
+    }
+   ]
+  },
+  {
+   "id": "1l71ej1",
+   "type": "single",
+   "status": "won",
+   "date": "2026-10-21",
+   "time": "13:00",
+   "odds": 1.65,
+   "stake": 5,
+   "payout": 8.25,
+   "legs": [
+    {
+     "selection": "Over 2.5",
+     "market": "Total Maps",
+     "odds": 1.65,
+     "date": "2026-10-21",
+     "time": "13:00",
+     "home": "FaZe",
+     "away": "JiJieHao",
+     "score": [
+      1,
+      2
+     ],
+     "sport": "cs2",
+     "result": "won",
+     "result_from": "bet"
+    }
+   ]
+  },
+  {
+   "id": "1i5g627",
+   "type": "single",
+   "status": "won",
+   "date": "2026-10-20",
+   "time": "21:00",
+   "odds": 2.39,
+   "stake": 100,
+   "payout": 239,
+   "legs": [
+    {
+     "selection": "Paris Saint Germain",
+     "market": "1x2",
+     "odds": 2.39,
+     "date": "2026-10-20",
+     "time": "21:00",
+     "home": "Paris Saint Germain",
+     "away": "Barcelona",
+     "score": [
+      4,
+      2
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "bet"
+    }
+   ]
+  },
+  {
+   "id": "rpz1vj",
+   "type": "multi",
+   "status": "lost",
+   "date": "2026-10-20",
+   "time": "18:45",
+   "odds": 2.63,
+   "stake": 49.84,
+   "payout": 0,
+   "legs": [
+    {
+     "selection": "Borussia Dortmund",
+     "market": "1x2",
+     "odds": 1.26,
+     "date": "2026-10-20",
+     "time": "18:45",
+     "home": "Sabah FC",
+     "away": "Borussia Dortmund",
+     "score": [
+      1,
+      2
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Fenerbahce",
+     "market": "1x2",
+     "odds": 1.43,
+     "date": "2026-10-20",
+     "time": "18:45",
+     "home": "Fenerbahce",
+     "away": "SK Slavia Prague",
+     "score": [
+      2,
+      2
+     ],
+     "sport": "football",
+     "result": "lost",
+     "result_from": "score"
+    },
+    {
+     "selection": "Liverpool",
+     "market": "1x2",
+     "odds": 1.46,
+     "date": "2026-10-20",
+     "time": "21:00",
+     "home": "Liverpool",
+     "away": "Villareal",
+     "score": [
+      4,
+      3
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "14xcuid",
+   "type": "multi",
+   "status": "lost",
+   "date": "2026-10-19",
+   "time": "20:45",
+   "odds": 12.01,
+   "stake": 11.98,
+   "payout": 0,
+   "legs": [
+    {
+     "selection": "Over 2.5",
+     "market": "Asian Total",
+     "odds": 2.32,
+     "date": "2026-10-19",
+     "time": "20:45",
+     "home": "Parma",
+     "away": "Torino",
+     "score": [
+      0,
+      3
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Getafe",
+     "market": "1x2",
+     "odds": 3.1,
+     "date": "2026-10-19",
+     "time": "21:00",
+     "home": "Getafe",
+     "away": "Rayo Vallecano",
+     "score": [
+      1,
+      1
+     ],
+     "sport": "football",
+     "result": "lost",
+     "result_from": "score"
+    },
+    {
+     "selection": "Yes",
+     "market": "Both Teams to Score",
+     "odds": 1.67,
+     "date": "2026-10-19",
+     "time": "21:00",
+     "home": "Tottenham",
+     "away": "Coventry",
+     "score": [
+      3,
+      1
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "13hhu7g",
+   "type": "multi",
+   "status": "won",
+   "date": "2026-10-18",
+   "time": "17:30",
+   "odds": 2.47,
+   "stake": 50.05,
+   "payout": 123.71,
+   "legs": [
+    {
+     "selection": "Arsenal",
+     "market": "1x2",
+     "odds": 1.57,
+     "date": "2026-10-18",
+     "time": "17:30",
+     "home": "Nottingham Forest",
+     "away": "Arsenal",
+     "score": [
+      0,
+      1
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "FURIA Esports",
+     "market": "Match Winner - Twoway",
+     "odds": 1.28,
+     "date": "2026-10-18",
+     "time": "17:57",
+     "home": "FURIA Esports",
+     "away": "BetBoom Team",
+     "score": [
+      3,
+      2
+     ],
+     "sport": "cs2",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Real Madrid",
+     "market": "1x2",
+     "odds": 1.23,
+     "date": "2026-10-18",
+     "time": "21:00",
+     "home": "Real Madrid",
+     "away": "Sevilla",
+     "score": [
+      4,
+      1
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "1bw4gg0",
+   "type": "multi",
+   "status": "cashed_out",
+   "date": "2026-10-18",
+   "time": "17:30",
+   "odds": 2,
+   "stake": 50,
+   "payout": 46.12,
+   "legs": [
+    {
+     "selection": "Arsenal",
+     "market": "1x2",
+     "odds": 1.61,
+     "date": "2026-10-18",
+     "time": "17:30",
+     "home": "Nottingham Forest",
+     "away": "Arsenal",
+     "score": [
+      0,
+      1
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Real Madrid",
+     "market": "1x2",
+     "odds": 1.24,
+     "date": "2026-10-18",
+     "time": "21:00",
+     "home": "Real Madrid",
+     "away": "Sevilla",
+     "score": [
+      4,
+      1
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "13eu62w",
+   "type": "multi",
+   "status": "cashed_out",
+   "date": "2026-10-18",
+   "time": "15:00",
+   "odds": 9.32,
+   "stake": 46.1,
+   "payout": 99.61,
+   "legs": [
+    {
+     "selection": "Como",
+     "market": "Match Result",
+     "odds": 2.45,
+     "date": "2026-10-18",
+     "time": "15:00",
+     "home": "Fiorentina",
+     "away": "Como",
+     "score": [
+      1,
+      3
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Yes",
+     "market": "Both Teams to Score",
+     "odds": 1.5,
+     "date": "2026-10-18",
+     "time": "15:30",
+     "home": "Bayer Leverkusen",
+     "away": "Freiburg",
+     "score": [
+      2,
+      1
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Arsenal",
+     "market": "1x2",
+     "odds": 1.61,
+     "date": "2026-10-18",
+     "time": "17:30",
+     "home": "Nottingham Forest",
+     "away": "Arsenal",
+     "score": [
+      0,
+      1
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "FURIA Esports",
+     "market": "Match Winner - Twoway",
+     "odds": 1.28,
+     "date": "2026-10-18",
+     "time": "17:57",
+     "home": "FURIA Esports",
+     "away": "BetBoom Team",
+     "score": [
+      3,
+      2
+     ],
+     "sport": "cs2",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Real Madrid",
+     "market": "1x2",
+     "odds": 1.23,
+     "date": "2026-10-18",
+     "time": "21:00",
+     "home": "Real Madrid",
+     "away": "Sevilla",
+     "score": [
+      4,
+      1
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "1xga8bb",
+   "type": "multi",
+   "status": "lost",
+   "date": "2026-10-18",
+   "time": "13:32",
+   "odds": 2.88,
+   "stake": 20.91,
+   "payout": 0,
+   "legs": [
+    {
+     "selection": "Team Falcons",
+     "market": "Map 2 Winner - Threeway",
+     "odds": 1.48,
+     "date": "2026-10-18",
+     "time": "13:32",
+     "home": "Aurora",
+     "away": "Team Falcons",
+     "score": [
+      2,
+      1
+     ],
+     "sport": "cs2",
+     "result": "lost",
+     "result_from": "bet"
+    },
+    {
+     "selection": "Yes",
+     "market": "Both Teams to Score",
+     "odds": 1.52,
+     "date": "2026-10-18",
+     "time": "15:30",
+     "home": "Bayer Leverkusen",
+     "away": "Freiburg",
+     "score": [
+      2,
+      1
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "FURIA Esports",
+     "market": "Match Winner - Twoway",
+     "odds": 1.28,
+     "date": "2026-10-18",
+     "time": "17:57",
+     "home": "FURIA Esports",
+     "away": "BetBoom Team",
+     "score": [
+      3,
+      2
+     ],
+     "sport": "cs2",
+     "result": "won",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "1wry5jq",
+   "type": "multi",
+   "status": "lost",
+   "date": "2026-10-17",
+   "time": "19:04",
+   "odds": 4,
+   "stake": 7.32,
+   "payout": 0,
+   "legs": [
+    {
+     "selection": "Team Falcons",
+     "market": "Match Winner - Twoway",
+     "odds": 2,
+     "date": "2026-10-17",
+     "time": "19:04",
+     "home": "Team Falcons",
+     "away": "BetBoom Team",
+     "score": [
+      1,
+      2
+     ],
+     "sport": "cs2",
+     "result": "lost",
+     "result_from": "score"
+    },
+    {
+     "selection": "AS Roma",
+     "market": "Match Result",
+     "odds": 2,
+     "date": "2026-10-17",
+     "time": "20:45",
+     "home": "AS Roma",
+     "away": "Genoa",
+     "score": [
+      2,
+      0
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "a1wqwy",
+   "type": "multi",
+   "status": "cashed_out",
+   "date": "2026-10-17",
+   "time": "18:00",
+   "odds": 4.23,
+   "stake": 23,
+   "payout": 45.42,
+   "legs": [
+    {
+     "selection": "Inter",
+     "market": "1x2",
+     "odds": 1.6,
+     "date": "2026-10-17",
+     "time": "18:00",
+     "home": "Bologna",
+     "away": "Inter",
+     "score": [
+      1,
+      3
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Yes",
+     "market": "Both Teams to Score",
+     "odds": 1.39,
+     "date": "2026-10-17",
+     "time": "18:30",
+     "home": "Real Betis",
+     "away": "Barcelona",
+     "score": [
+      2,
+      5
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Bayern Munich",
+     "market": "1x2",
+     "odds": 1.22,
+     "date": "2026-10-17",
+     "time": "18:30",
+     "home": "Bayern Munich",
+     "away": "RB Leipzig",
+     "score": [
+      6,
+      1
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Roma",
+     "market": "1x2",
+     "odds": 1.56,
+     "date": "2026-10-17",
+     "time": "20:45",
+     "home": "Roma",
+     "away": "Genoa",
+     "score": [
+      2,
+      0
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "58z0wv",
+   "type": "multi",
+   "status": "won",
+   "date": "2026-10-17",
+   "time": "16:00",
+   "odds": 1.85,
+   "stake": 109.88,
+   "payout": 203.01,
+   "legs": [
+    {
+     "selection": "Manchester City",
+     "market": "1x2",
+     "odds": 1.24,
+     "date": "2026-10-17",
+     "time": "16:00",
+     "home": "Manchester City",
+     "away": "Ipswich Town",
+     "score": [
+      3,
+      2
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Yes",
+     "market": "Both Teams to Score",
+     "odds": 1.49,
+     "date": "2026-10-17",
+     "time": "16:00",
+     "home": "Brentford",
+     "away": "Liverpool",
+     "score": [
+      1,
+      2
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "1luujeh",
+   "type": "multi",
+   "status": "lost",
+   "date": "2026-10-16",
+   "time": "20:30",
+   "odds": 3.13,
+   "stake": 9,
+   "payout": 0,
+   "legs": [
+    {
+     "selection": "Yes",
+     "market": "Both Teams to Score",
+     "odds": 1.36,
+     "date": "2026-10-16",
+     "time": "20:30",
+     "home": "Eintracht Frankfurt",
+     "away": "Koln",
+     "score": [
+      1,
+      0
+     ],
+     "sport": "football",
+     "result": "lost",
+     "result_from": "score"
+    },
+    {
+     "selection": "Yes",
+     "market": "Both Teams to Score",
+     "odds": 1.38,
+     "date": "2026-10-16",
+     "time": "20:45",
+     "home": "Frosinone",
+     "away": "Sassuolo",
+     "score": [
+      4,
+      2
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Yes",
+     "market": "Both Teams to Score",
+     "odds": 1.67,
+     "date": "2026-10-16",
+     "time": "21:00",
+     "home": "Deportivo La Coruna",
+     "away": "Levante",
+     "score": [
+      1,
+      1
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "1bfpqa2",
+   "type": "multi",
+   "status": "lost",
+   "date": "2026-10-15",
+   "time": "18:45",
+   "odds": 4.65,
+   "stake": 24.95,
+   "payout": 0,
+   "legs": [
+    {
+     "selection": "Bayer Leverkusen",
+     "market": "1x2",
+     "odds": 1.4,
+     "date": "2026-10-15",
+     "time": "18:45",
+     "home": "Lech Poznan",
+     "away": "Bayer Leverkusen",
+     "score": [
+      0,
+      4
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Yes",
+     "market": "Both Teams to Score",
+     "odds": 1.75,
+     "date": "2026-10-15",
+     "time": "18:45",
+     "home": "Union Saint Gilloise",
+     "away": "Real Sociedad",
+     "score": [
+      1,
+      1
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Yes",
+     "market": "Both Teams to Score",
+     "odds": 1.9,
+     "date": "2026-10-15",
+     "time": "18:45",
+     "home": "RB Salzburg",
+     "away": "AC Milan",
+     "score": [
+      0,
+      4
+     ],
+     "sport": "football",
+     "result": "lost",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "m9f098",
+   "type": "multi",
+   "status": "won",
+   "date": "2026-10-14",
+   "time": "18:45",
+   "odds": 2.69,
+   "stake": 32.96,
+   "payout": 88.76,
+   "legs": [
+    {
+     "selection": "Liverpool",
+     "market": "1x2",
+     "odds": 1.41,
+     "date": "2026-10-14",
+     "time": "18:45",
+     "home": "LASK",
+     "away": "Liverpool",
+     "score": [
+      3,
+      6
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Real Madrid",
+     "market": "1x2",
+     "odds": 1.91,
+     "date": "2026-10-14",
+     "time": "21:00",
+     "home": "Roma",
+     "away": "Real Madrid",
+     "score": [
+      3,
+      4
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "8iuhtz",
+   "type": "multi",
+   "status": "won",
+   "date": "2026-10-13",
+   "time": "21:00",
+   "odds": 2.56,
+   "stake": 51.94,
+   "payout": 132.77,
+   "legs": [
+    {
+     "selection": "Arsenal",
+     "market": "1x2",
+     "odds": 1.19,
+     "date": "2026-10-13",
+     "time": "21:00",
+     "home": "Arsenal",
+     "away": "Lille",
+     "score": [
+      3,
+      0
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Atletico Madrid",
+     "market": "1x2",
+     "odds": 1.79,
+     "date": "2026-10-13",
+     "time": "21:00",
+     "home": "Atletico Madrid",
+     "away": "Manchester United",
+     "score": [
+      2,
+      0
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Over 2.5",
+     "market": "Asian Total",
+     "odds": 1.2,
+     "date": "2026-10-13",
+     "time": "21:00",
+     "home": "Galatasaray",
+     "away": "Barcelona",
+     "score": [
+      1,
+      4
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "1mwp4q3",
+   "type": "multi",
+   "status": "lost",
+   "date": "2026-10-11",
+   "time": "20:45",
+   "odds": 7.03,
+   "stake": 4.5,
+   "payout": 0,
+   "legs": [
+    {
+     "selection": "Yes",
+     "market": "Both Teams To Score",
+     "odds": 1.8,
+     "date": "2026-10-11",
+     "time": "20:45",
+     "home": "Troyes AC",
+     "away": "Olympique Marseille",
+     "score": [
+      0,
+      2
+     ],
+     "sport": "football",
+     "result": "lost",
+     "result_from": "score"
+    },
+    {
+     "selection": "Juventus",
+     "market": "Match Result",
+     "odds": 1.65,
+     "date": "2026-10-11",
+     "time": "20:45",
+     "home": "Cagliari",
+     "away": "Juventus",
+     "score": [
+      1,
+      1
+     ],
+     "sport": "football",
+     "result": "lost",
+     "result_from": "score"
+    },
+    {
+     "selection": "Palmeiras",
+     "market": "1x2",
+     "odds": 1.61,
+     "date": "2026-10-11",
+     "time": "22:30",
+     "home": "Palmeiras",
+     "away": "Corinthians",
+     "score": [
+      4,
+      1
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Flamengo",
+     "market": "1x2",
+     "odds": 1.47,
+     "date": "2026-10-11",
+     "time": "22:30",
+     "home": "Flamengo",
+     "away": "Fluminense",
+     "score": [
+      1,
+      0
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "19njl0s",
+   "type": "multi",
+   "status": "won",
+   "date": "2026-10-11",
+   "time": "17:00",
+   "odds": 8.98,
+   "stake": 6.1,
+   "payout": 54.8,
+   "legs": [
+    {
+     "selection": "Team Vitality",
+     "market": "Match Winner - Twoway",
+     "odds": 1.42,
+     "date": "2026-10-11",
+     "time": "17:00",
+     "home": "Team Vitality",
+     "away": "MOUZ",
+     "score": [
+      3,
+      0
+     ],
+     "sport": "cs2",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Over 2.5",
+     "market": "Asian Total",
+     "odds": 1.65,
+     "date": "2026-10-11",
+     "time": "17:30",
+     "home": "Liverpool",
+     "away": "Manchester City",
+     "score": [
+      0,
+      3
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Yes",
+     "market": "Both Teams to Score",
+     "odds": 1.62,
+     "date": "2026-10-11",
+     "time": "17:30",
+     "home": "Freiburg",
+     "away": "Schalke 04",
+     "score": [
+      2,
+      1
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Yes",
+     "market": "Both Teams to Score",
+     "odds": 1.61,
+     "date": "2026-10-11",
+     "time": "18:00",
+     "home": "Sassuolo",
+     "away": "AC Milan",
+     "score": [
+      1,
+      1
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Real Betis",
+     "market": "1x2",
+     "odds": 1.47,
+     "date": "2026-10-11",
+     "time": "18:30",
+     "home": "Real Betis",
+     "away": "Osasuna",
+     "score": [
+      5,
+      2
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "fm4ahh",
+   "type": "multi",
+   "status": "cashed_out",
+   "date": "2026-10-11",
+   "time": "13:37",
+   "odds": 2,
+   "stake": 56.5,
+   "payout": 6.08,
+   "legs": [
+    {
+     "selection": "Team Spirit",
+     "market": "Match Winner - Twoway",
+     "odds": 1.38,
+     "date": "2026-10-11",
+     "time": "13:37",
+     "home": "Aurora",
+     "away": "Team Spirit",
+     "score": [
+      2,
+      0
+     ],
+     "sport": "cs2",
+     "result": "lost",
+     "result_from": "score"
+    },
+    {
+     "selection": "Team Vitality",
+     "market": "Match Winner - Twoway",
+     "odds": 1.45,
+     "date": "2026-10-11",
+     "time": "17:00",
+     "home": "Team Vitality",
+     "away": "MOUZ",
+     "score": [
+      3,
+      0
+     ],
+     "sport": "cs2",
+     "result": "won",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "1adw88y",
+   "type": "single",
+   "status": "won",
+   "date": "2026-10-10",
+   "time": "21:00",
+   "odds": 1.35,
+   "stake": 41.87,
+   "payout": 56.52,
+   "legs": [
+    {
+     "selection": "Real Madrid",
+     "market": "1x2",
+     "odds": 1.35,
+     "date": "2026-10-10",
+     "time": "21:00",
+     "home": "Real Madrid",
+     "away": "Villareal",
+     "score": [
+      1,
+      0
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "bet"
+    }
+   ]
+  },
+  {
+   "id": "1rya4wi",
+   "type": "multi",
+   "status": "cashed_out",
+   "date": "2026-10-10",
+   "time": "15:48",
+   "odds": 2.84,
+   "stake": 44.95,
+   "payout": 41.99,
+   "legs": [
+    {
+     "selection": "Team Vitality",
+     "market": "Match Winner - Twoway",
+     "odds": 1.32,
+     "date": "2026-10-10",
+     "time": "15:48",
+     "home": "Aurora",
+     "away": "Team Vitality",
+     "score": [
+      1,
+      2
+     ],
+     "sport": "cs2",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Team Spirit",
+     "market": "Match Winner - Twoway",
+     "odds": 1.58,
+     "date": "2026-10-10",
+     "time": "19:45",
+     "home": "MOUZ",
+     "away": "Team Spirit",
+     "score": [
+      2,
+      1
+     ],
+     "sport": "cs2",
+     "result": "lost",
+     "result_from": "score"
+    },
+    {
+     "selection": "Real Madrid",
+     "market": "1x2",
+     "odds": 1.36,
+     "date": "2026-10-10",
+     "time": "21:00",
+     "home": "Real Madrid",
+     "away": "Villareal",
+     "score": [
+      1,
+      0
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "ah85yb",
+   "type": "single",
+   "status": "cashed_out",
+   "date": "2026-10-10",
+   "time": "15:48",
+   "odds": null,
+   "stake": 58.33,
+   "payout": 11.66,
+   "legs": [
+    {
+     "selection": "Team Vitality",
+     "market": "Map 1 Winner - Threeway",
+     "odds": null,
+     "date": "2026-10-10",
+     "time": "15:48",
+     "home": "Aurora",
+     "away": "Team Vitality",
+     "score": [
+      1,
+      2
+     ],
+     "sport": "cs2",
+     "result": null,
+     "result_from": null
+    }
+   ]
+  },
+  {
+   "id": "1tjl9y6",
+   "type": "single",
+   "status": "cashed_out",
+   "date": "2026-10-10",
+   "time": "15:48",
+   "odds": null,
+   "stake": 50,
+   "payout": 50,
+   "legs": [
+    {
+     "selection": "Team Vitality",
+     "market": "Match Winner - Twoway",
+     "odds": null,
+     "date": "2026-10-10",
+     "time": "15:48",
+     "home": "Aurora",
+     "away": "Team Vitality",
+     "score": [
+      1,
+      2
+     ],
+     "sport": "cs2",
+     "result": "won",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "r7yb32",
+   "type": "multi",
+   "status": "lost",
+   "date": "2026-10-10",
+   "time": "15:30",
+   "odds": 3.47,
+   "stake": 11.66,
+   "payout": 0,
+   "legs": [
+    {
+     "selection": "Bayern Munich",
+     "market": "1x2",
+     "odds": 1.65,
+     "date": "2026-10-10",
+     "time": "15:30",
+     "home": "Augsburg",
+     "away": "Bayern Munich",
+     "score": [
+      2,
+      2
+     ],
+     "sport": "football",
+     "result": "lost",
+     "result_from": "score"
+    },
+    {
+     "selection": "Aurora Gaming",
+     "market": "Map 1 Winner - Threeway",
+     "odds": 2.1,
+     "date": "2026-10-10",
+     "time": "15:48",
+     "home": "Aurora",
+     "away": "Team Vitality",
+     "score": [
+      1,
+      2
+     ],
+     "sport": "cs2",
+     "result": null,
+     "result_from": null
+    }
+   ]
+  },
+  {
+   "id": "139hpxx",
+   "type": "single",
+   "status": "won",
+   "date": "2026-10-10",
+   "time": "13:30",
+   "odds": 1.46,
+   "stake": 39.95,
+   "payout": 58.33,
+   "legs": [
+    {
+     "selection": "Arsenal",
+     "market": "1x2",
+     "odds": 1.46,
+     "date": "2026-10-10",
+     "time": "13:30",
+     "home": "Arsenal",
+     "away": "Leeds United",
+     "score": [
+      2,
+      1
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "bet"
+    }
+   ]
+  },
+  {
+   "id": "4s61fb",
+   "type": "multi",
+   "status": "lost",
+   "date": "2026-10-09",
+   "time": "19:06",
+   "odds": 3.66,
+   "stake": 9.98,
+   "payout": 0,
+   "legs": [
+    {
+     "selection": "Over 2.5",
+     "market": "Total Maps",
+     "odds": 1.85,
+     "date": "2026-10-09",
+     "time": "19:06",
+     "home": "Team Falcons",
+     "away": "Team Spirit",
+     "score": [
+      0,
+      2
+     ],
+     "sport": "cs2",
+     "result": "lost",
+     "result_from": "score"
+    },
+    {
+     "selection": "Borussia Dortmund",
+     "market": "1x2",
+     "odds": 1.32,
+     "date": "2026-10-09",
+     "time": "20:30",
+     "home": "Borussia Dortmund",
+     "away": "Werder Bremen",
+     "score": [
+      2,
+      2
+     ],
+     "sport": "football",
+     "result": "lost",
+     "result_from": "score"
+    },
+    {
+     "selection": "Draw or Olympique Lyonnais",
+     "market": "Double Chance",
+     "odds": 1.5,
+     "date": "2026-10-09",
+     "time": "20:45",
+     "home": "Lens",
+     "away": "Olympique Lyonnais",
+     "score": [
+      2,
+      1
+     ],
+     "sport": "football",
+     "result": "lost",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "vnaodh",
+   "type": "single",
+   "status": "lost",
+   "date": "2026-10-09",
+   "time": "13:33",
+   "odds": 2.9,
+   "stake": 9.32,
+   "payout": 0,
+   "legs": [
+    {
+     "selection": "Team Vitality (-7.5)",
+     "market": "Map 2 - Round Handicap (Incl. Overtime)",
+     "odds": 2.9,
+     "date": "2026-10-09",
+     "time": "13:33",
+     "home": "Team Vitality",
+     "away": "PARIVISION",
+     "score": [
+      2,
+      0
+     ],
+     "sport": "cs2",
+     "result": "lost",
+     "result_from": "bet"
+    }
+   ]
+  },
+  {
+   "id": "14fqk07",
+   "type": "single",
+   "status": "won",
+   "date": "2026-10-09",
+   "time": "13:33",
+   "odds": 1.42,
+   "stake": 41.85,
+   "payout": 59.43,
+   "legs": [
+    {
+     "selection": "Team Vitality",
+     "market": "Map 1 Winner - Threeway",
+     "odds": 1.42,
+     "date": "2026-10-09",
+     "time": "13:33",
+     "home": "Team Vitality",
+     "away": "PARIVISION",
+     "score": [
+      2,
+      0
+     ],
+     "sport": "cs2",
+     "result": "won",
+     "result_from": "bet"
+    }
+   ]
+  },
+  {
+   "id": "ryq4bi",
+   "type": "single",
+   "status": "won",
+   "date": "2026-10-09",
+   "time": "10:30",
+   "odds": 1.35,
+   "stake": 31,
+   "payout": 41.85,
+   "legs": [
+    {
+     "selection": "Aurora Gaming",
+     "market": "Match Winner - Twoway",
+     "odds": 1.35,
+     "date": "2026-10-09",
+     "time": "10:30",
+     "home": "1win",
+     "away": "Aurora",
+     "score": [
+      0,
+      2
+     ],
+     "sport": "cs2",
+     "result": "won",
+     "result_from": "bet"
+    }
+   ]
+  },
+  {
+   "id": "84n0zm",
+   "type": "single",
+   "status": "won",
+   "date": "2026-10-07",
+   "time": "20:10",
+   "odds": 1.62,
+   "stake": 49.95,
+   "payout": 80.91,
+   "legs": [
+    {
+     "selection": "Team Spirit",
+     "market": "Map 2 Winner - Threeway",
+     "odds": 1.62,
+     "date": "2026-10-07",
+     "time": "20:10",
+     "home": "Team Spirit",
+     "away": "M80",
+     "score": [
+      2,
+      0
+     ],
+     "sport": "cs2",
+     "result": "won",
+     "result_from": "bet"
+    }
+   ]
+  },
+  {
+   "id": "1ajc9za",
+   "type": "single",
+   "status": "won",
+   "date": "2026-10-07",
+   "time": "19:49",
+   "odds": 1.1,
+   "stake": 1,
+   "payout": 1.1,
+   "legs": [
+    {
+     "selection": "K27",
+     "market": "Match Winner - Twoway",
+     "odds": 1.1,
+     "date": "2026-10-07",
+     "time": "19:49",
+     "home": "K27",
+     "away": "Metizport",
+     "score": [
+      2,
+      1
+     ],
+     "sport": "cs2",
+     "result": "won",
+     "result_from": "bet"
+    }
+   ]
+  }
+ ]
+}

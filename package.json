@@ -1,13 +1,18 @@
 {
   "name": "daily-parlay",
   "private": true,
-  "version": "2.0.0",
-  "description": "Being rebuilt.",
+  "version": "3.0.0",
+  "description": "A daily 2-leg football slip from deep research, plus stats on every Stake bet.",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "candidates": "NODE_USE_ENV_PROXY=1 node --no-warnings scripts/candidates.mjs",
+    "check-research": "node scripts/check-research.mjs",
+    "pick": "NODE_USE_ENV_PROXY=1 node --no-warnings scripts/daily.mjs --dry",
+    "daily": "NODE_USE_ENV_PROXY=1 node --no-warnings scripts/daily.mjs",
+    "import-bets": "node scripts/import-bets.mjs"
   },
   "devDependencies": {
     "vite": "^6.0.0"
