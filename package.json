@@ -2,15 +2,12 @@
   "name": "daily-parlay",
   "private": true,
   "version": "2.0.0",
-  "description": "One researched parlay per day, priced from Polymarket, with a hit/miss log.",
+  "description": "Being rebuilt.",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "daily": "NODE_USE_ENV_PROXY=1 node --no-warnings scripts/daily.mjs",
-    "candidates": "NODE_USE_ENV_PROXY=1 node --no-warnings scripts/candidates.mjs",
-    "check-research": "node scripts/check-research.mjs"
+    "preview": "vite preview"
   },
   "devDependencies": {
     "vite": "^6.0.0"

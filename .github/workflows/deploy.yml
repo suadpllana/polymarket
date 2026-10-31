@@ -1,11 +1,6 @@
 name: Daily parlay
 
 on:
-  # Every 2 hours: settles finished slips and, once the morning research is
-  # in (or after 12:00 Europe/Belgrade without it), builds the day's slip.
-  # The research task's push to main also triggers a run.
-  schedule:
-    - cron: '40 */2 * * *'
   push:
   workflow_dispatch:
 
@@ -17,9 +12,6 @@ permissions:
 concurrency:
   group: pages-${{ github.ref }}
   cancel-in-progress: false
-
-env:
-  SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
 
 jobs:
   build:
@@ -33,17 +25,6 @@ jobs:
           cache: npm
       # node_modules is committed from another OS, so reinstall for Linux.
       - run: rm -rf node_modules && npm ci
-
-      - name: Build today's parlay (main)
-        if: github.ref == 'refs/heads/main'
-        run: node scripts/daily.mjs
-
-      # Other branches only test the pipeline; nothing is deployed.
-      - name: Dry run (branches)
-        if: github.ref != 'refs/heads/main'
-        run: node scripts/daily.mjs
-        env:
-          FORCE_GENERATE: '1'
 
       - run: npx vite build --base=/${{ github.event.repository.name }}/
 
