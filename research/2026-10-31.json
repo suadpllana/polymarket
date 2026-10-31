@@ -1,0 +1,248 @@
+{
+  "date": "2026-10-31",
+  "researched_at": "2026-10-31T14:07:42Z",
+  "summary": "12 games screened, 3 kept after deep research: Porto v Estoril (Porto 82%), Udinese v Roma (Roma 61.5%) and Beveren v Union SG (Union 65%), all medium confidence. Excluded: Milan v Inter (derby), Bayern v Dortmund (rivalry), Spurs v Palace (London derby, Maddison doubt), Ajax v AZ (rivalry, strong draw signs), Betis v Málaga (rotation before Dortmund, Málaga CB doubt, 'derbi andaluz'), Fenerbahçe v Göztepe (interim coach's first game), Anderlecht v Westerlo (Winkler doubt, unpredictable rotation), Standard v Kortrijk (unexplained 8% price jump, GK doubts), Feyenoord v Sittard (too close to kick-off).",
+  "games": [
+    {
+      "id": "1212005",
+      "exclude": true,
+      "reason": "Not researched: kick-off is 15:30 UTC (16:30 Belgrade), which is inside the 90-minute cut-off, so it cannot go on today's slip and there was no time for a full deep check.",
+      "main_risk": "Not assessed (too close to kick-off).",
+      "sources": [
+        "https://gamma-api.polymarket.com/events?id=1212005"
+      ]
+    },
+    {
+      "id": "1208035",
+      "exclude": true,
+      "reason": "Milan vs Inter is the Derby della Madonnina. Derbies are excluded under the rules (derby results lost the user money, e.g. Chelsea 0-2 Tottenham), and the market gives a 26% draw chance.",
+      "main_risk": "Derby variance and a likely draw.",
+      "sources": [
+        "https://gamma-api.polymarket.com/events?id=1208035",
+        "https://www.legaseriea.it/en"
+      ]
+    },
+    {
+      "id": "1209188",
+      "exclude": true,
+      "reason": "Bayern vs Dortmund is Der Klassiker, Germany's fiercest top-flight rivalry. Fierce rivalries are excluded under the rules, whatever the price.",
+      "main_risk": "Rivalry-game variance.",
+      "sources": [
+        "https://gamma-api.polymarket.com/events?id=1209188",
+        "https://www.bundesliga.com/en/bundesliga"
+      ]
+    },
+    {
+      "id": "1205926",
+      "exclude": true,
+      "confidence": "low",
+      "reason": "Excluded: new manager. Fenerbahçe parted with İsmail Kartal after the 26 Oct derby loss at Galatasaray, and Dirk Kuyt was named interim coach on 28 Oct (ESPN); today is his first game (Hürriyet). Also: the Polymarket home price fell ~6% relative in the last two hours with no news found; Škriniar's availability is reported differently by different sources; Müldür is doubtful; the back line is thin (Archie Brown suspended, Oosterwolde and Aké out); and the last two league meetings were draws (0-0, 1-1).",
+      "main_risk": "A draw: a first game under an interim coach, a patched defence after a derby loss, against an in-form Göztepe (3 wins and 2 draws in their last 5).",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/summary?event=401888258",
+        "https://www.hurriyet.com.tr/sporarena/fenerbahce-kartal-sonrasi-kuyt-ile-cikis-ariyor-43361216",
+        "https://ajansspor.com/haber/fenerbahce-goztepe-maci-ne-zaman-hangi-kanalda-muhtemel-11ler-sakat-ve-cezalilar-737620",
+        "https://starting11.com/fixtures/fenerbahce-vs-goztepe",
+        "https://www.espn.com/soccer/story/_/id/50307200/ex-liverpool-forward-kuyt-named-fenerbahce-interim-coach",
+        "https://gamma-api.polymarket.com/events?id=1205926"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1255408",
+      "exclude": true,
+      "confidence": "low",
+      "reason": "Excluded: a likely starter is doubtful and the lineup can't be predicted. Walfoot and Anderlecht-Online both report Marten Winkler (in the predicted XI) as doubtful tonight, and reports conflict on Kana starting and on Llansana's suspension. Coach Vítor Bruno rotates heavily and unpredictably; his own CEO criticised it this week and he is under open board pressure after a cup exit and a 0-4 at Gent. Anderlecht have scored 9 in 9 league games with 4 blanks, while Westerlo are unbeaten in 6 league games. Books: DraftKings de-vigged 0.583/0.215/0.202, Oddsportal 0.588/0.212/0.200; Sports Mole model 49/23/28.",
+      "main_risk": "Anderlecht's blunt attack fails again and an in-form, free-scoring Westerlo take a draw or a win on the break.",
+      "sources": [
+        "https://www.walfoot.be/news/2026-10-31/voila-qui-ne-va-pas-aider-vitor-bruno-un-cadre-danderlecht-incertain-contre-westerlo",
+        "https://www.anderlecht-online.be/nl/article/254711",
+        "https://www.voetbalkrant.com/nieuws/2026-10-30/anderlecht-coach-vitor-bruno-verdedigt-zich-na-stevige-kritiek-van-bornauw-dan-stap-ik-zelf-naar-bestuur",
+        "https://www.fotmob.com/matches/anderlecht-vs-westerlo/2veb8p",
+        "https://www.sportsmole.co.uk/football/belgian-pro-league/anderlecht-vs-westerlo_game_260868.html",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261031",
+        "https://gamma-api.polymarket.com/events?id=1255408"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1209203",
+      "exclude": true,
+      "confidence": "low",
+      "reason": "Excluded: a London derby (the Palace club site and the Evening Standard both call it one), and Spurs' side is unsettled. De Zerbi says Maddison's fitness is still a 'take the risk or not' call, four lineup sources disagree on the striker (Solanke 'if fit' or Marmoush), and Palace have Strand Larsen and Timber as doubts. The Spurs price drifted 6.4% over 48h (4.9% in 24h). DraftKings de-vigged 0.573/0.233/0.195. Spurs create little at home (1.14 xG per game, Understat) and have drawn 3 of 8 league games; Palace have won their last two visits.",
+      "main_risk": "A low-scoring 1-1 or 0-0 against a rested Palace first XI (10 changes in midweek) that counters through Mateta.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/spurs/injury-news/news/three-word-maddison-update-issued-by-de-zerbi-before-spurs-vs-palace_608080.html",
+        "https://www.football.london/tottenham-hotspur-fc/news/tottenham-team-news-crystal-palace-34843108",
+        "https://www.standard.co.uk/sport/football/tottenham-xi-vs-crystal-palace-predicted-lineup-confirmed-team-news-injury-latest-premier-league-2026-today-b1302839.html",
+        "https://www.sportsgambler.com/betting-tips/football/tottenham-vs-crystal-palace-prediction-lineups-odds-2026-10-31/",
+        "https://understat.com/league/EPL/2026",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261031",
+        "https://gamma-api.polymarket.com/events?id=1209203"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1209857",
+      "exclude": true,
+      "confidence": "low",
+      "reason": "Excluded on three rules. (1) A likely Málaga starter, CB Ángel Recio, missed Friday training with a virus and is unconfirmed (Comuniate), and sources conflict on Juan Cruz, Pablo Martínez and Murillo. (2) Pellegrini says he will keep rotating across Liga, Champions League and Copa, with Dortmund away four days later; the press disagree on 3–4 Betis starting spots, with Cucho, Firpo and Bernal already out. (3) Spanish sources call it the 'derbi andaluz'. Books: DraftKings de-vigged 0.729/0.165/0.106, bet365 0.724/0.171/0.105; Stats Insider sim 69/18/13. Betis' league xG is 1.82 for and 1.79 against; Málaga drew 5 of 10.",
+      "main_risk": "A rotated Betis, thinking of Dortmund and without Cucho, can't break down a deep, draw-prone Málaga: 0-0 or 1-1.",
+      "sources": [
+        "https://www.comuniate.com/noticias/38767/el-malaga-cf-suma-una-baja-inesperada-antes-del-betis",
+        "https://www.comuniate.com/noticias/38765/alineaciones-probables-del-betis-malaga-segun-la-prensa-las-dudas-de-pellegrini-y-funes-para-el-derbi-andaluz",
+        "https://www.realbetisbalompie.es/noticias/noticias/rueda-de-prensa-de-manuel-pellegrini-previa-al-real-betis-malaga-cf-32801",
+        "https://www.statsinsider.com.au/news/real-betis-vs-malaga-prediction-and-tips-1-november-2026",
+        "https://understat.com/team/Real_Betis/2026",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261031",
+        "https://gamma-api.polymarket.com/events?id=1209857"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1208029",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.165,
+        "draw": 0.22,
+        "away": 0.615
+      },
+      "checks": {
+        "team_news": "Udinese: Runjaic (30 Oct press conference) confirmed Solet, Bayo, Gueye, Alaba and Zanoli will not play; Bertola available; Zaniolo and Davis will play but are 'not 100%'. Roma: Svilar (toe), Dybala (calf), Koné (thigh) and Lo. Pellegrini (thigh) out; Gollini starts in goal in every source. Fantacalcio lists no doubtful players and no suspensions for either side; Balerdi has shaken off a knock.",
+        "lineups": "Fantacalcio, Sky and SportsGambler agree on Udinese's 3-4-2-1 except one midfield spot. Sky, Gazzetta, Il Messaggero and Fantacalcio have Roma: Gollini; Ghilardi, Balerdi, Hermoso; Lulli, Cristante, Pisilli, Wesley; Soulé, Mora; Malen. Other outlets swap 1–3 spots as selection choices, not fitness doubts. Gollini, Cristante, Soulé and Malen are in every XI.",
+        "rotation": "Roma: Napoli away (3-3, 24 Oct), Cagliari at home (4-2, Tue 27 Oct, with a rotated XI), this game, then Man United away in the Champions League on Tue 3 Nov. The expected XI changes 6 from the Cagliari side, but those are regulars returning (Malen, Wesley, Hermoso, Mora, Balerdi); it is 4 changes from the Napoli XI. Gasperini gave no press conference. Udinese drew 0-0 at Parma on Wednesday and have no European games.",
+        "motivation": "Roma are 3rd on 21 points (6W 3D 0L, goals 23-8), unbeaten in the league and 4 behind the joint leaders. Udinese are 17th on 5 points, winless in 7, and above the bottom three only on goal difference. Not a derby or rivalry. Runjaic is under pressure but in charge; no manager change in the last 14 days.",
+        "form": "Understat: Roma xG 2.72 for and 1.49 against per league game, but recent xGA was 2.98 at Napoli and 2.48 vs Cagliari. Roma away: 2W 2D. Udinese xG 1.18 for and 2.41 against per game, with xG of 0.57, 0.59 and 0.79 in three of the last four. They have scored 1 goal in their last 5, and at home are 0W 1D 4L (goals 2-9).",
+        "h2h": "ESPN results since 2022: no draws in the last 8 meetings; Roma won 6, Udinese won 2 (both at Udine, the latest 1-0 in Feb 2026). SportsGambler: 7-1-2 to Roma over the last 10.",
+        "odds": "DraftKings (ESPN API): Udinese +400, draw +320, Roma -180 (opened -160, so Roma shortened); de-vigged 0.185/0.220/0.595. SportsGambler book +460/+320/-189, de-vigged 0.167/0.222/0.611, with Roma DNB -526 and X2 -769. bet365 Roma 1.53 (Statz). Polymarket flat over 24h (Roma 0.625).",
+        "models": "Statz model: Roma 63%, draw 22%, Udinese 15%, xG 2.1 v 0.94, likeliest score 0-2. Sports Mole predicts 1-3 to Roma. ClubElo (502) and Forebet (403) were unavailable.",
+        "venue_weather": "Stadio Friuli, Udine (Udinese's normal home), 18:00 local. Roma stay in Friuli before flying to Manchester. Forecast: 11°C, overcast, no rain, light wind. No pitch issues."
+      },
+      "reason": "Close to the market because the sources agree. Two de-vigged books and the Statz model put the draw at 22%, so the draw rises 0.7 points to 0.22. Roma are trimmed 0.8 points to 0.615 for their third game in 8 days with Man United on Tuesday, a never-used back three in front of backup keeper Gollini, and Dybala, Koné and Pellegrini missing. Against that: Udinese have the weakest numbers here (1 goal in 5, no home win in 5, xG 1.18 for and 2.41 against per game), Roma are unbeaten at 2.72 xG per game, and the last 8 meetings had no draw.",
+      "main_risk": "A tired, partly rotated Roma leaks late again (2-2 vs Cagliari until about the 80th minute, 3-3 at Napoli) and a deep Udinese takes a 1-1 from a set piece.",
+      "sources": [
+        "https://www.fantacalcio.it/news/calcio-italia/30_10_2026/udinese-runjaic-solet-bayo-gueye-alaba-e-zanoli-non-ci-saranno-500038",
+        "https://www.fantacalcio.it/probabili-formazioni-serie-a",
+        "https://sport.sky.it/calcio/serie-a/2026/10/30/udinese-roma-probabili-formazioni-10-giornata",
+        "https://www.corrieregiallorosso.com/ultime-notizie/udinese-roma-le-probabili-formazioni-dei-giornali-mora-in-ballottaggio-con-de-roon/",
+        "https://www.romaforever.it/2026/10/30/udinese-roma-decisione-a-sorpresa-di-gasperini-niente-conferenza-stampa-prima-della-partita/",
+        "https://www.sportsmole.co.uk/football/udinese/preview/udinese-vs-roma-prediction-team-news-lineups_607934.html",
+        "https://www.sportsgambler.com/betting-tips/football/udinese-vs-roma-prediction-lineups-odds-2026-10-31/",
+        "https://statz.ai/news/19713518-udinese-vs-roma-predictions-betting-tips",
+        "https://understat.com/league/Serie_A/2026",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261031",
+        "https://gamma-api.polymarket.com/events?id=1208029",
+        "https://wttr.in/Udine?format=j1"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1255412",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.145,
+        "draw": 0.205,
+        "away": 0.65
+      },
+      "checks": {
+        "team_news": "Union: Biondic out for months after ankle-ligament surgery, captain Kevin Mac Allister out long-term (cruciate ligament), and Hurtevent, Schoofs and Kricfalusi out with minor injuries. Rodriguez, Sykes and Zorgane are back in training. Olaru (head knock) is not in either predicted XI. Beveren: Abrahams and Kuavita out. Both starting goalkeepers (Koffi, Schenk) are fit (Voetbalnieuws, Voetbalfocus, Voetbalkrant, Sporza, FotMob).",
+        "lineups": "BetCity (28 Oct) and opstellingvandaag (30 Oct) name the same XI for each side, matching FotMob's last starting XI. Union: Koffi; Chibani, Sylla, Havenaar, Patris; Zeneli, Van de Perre, Smith; Mofokeng, Aquino, Florucz. The only open calls are Beveren selection choices (Gomis/Boone, Lokesa/Verschueren), not injury doubts.",
+        "rotation": "Union last played Sun 25 Oct (5-2 vs Cercle), so they have had 6 days' rest. Next: at Celta Vigo in the Europa League on Thu 5 Nov (5 days away), then Genk. No cup game this week, and Hubert has said nothing about rotating, so 0–1 changes are expected. Beveren last played Sat 24 Oct (4-4 at Westerlo); next at Standard on 6 Nov.",
+        "motivation": "Verified as Jupiler Pro League matchday 10 at the Freethiel, 20:45 local (Sporza, ESPN, FotMob). Beveren, promoted as champions, are 12th on 10 points. Union are 3rd on 23 points, unbeaten, and in the title race (4 behind Club Brugge). Not a derby. Coaches Bakens (since June) and Hubert (since Oct 2025): no change in the last 14 days.",
+        "form": "Union league 7-2-0, goals 27-6, FotMob xG 19.2 for and 9.9 against. Away they have won 4/4 (13-3); both draws were at home. Last 5: D, D, W 3-0, W 4-0, W 5-2. Beveren 3-1-5, goals 12-18, xG 10.3 for and 17.7 against. At home they are 3W 1L (7-3, including a 1-0 over Anderlecht) and have scored in every home game; away 0-1-4.",
+        "h2h": "FotMob: the last 5 competitive meetings ended Beveren 2, Union 3, with no draws, the latest a 2-0 Union cup win in Dec 2023. BetCity: no draws in the last 10 meetings, 3.1 goals per game. Open, high-scoring styles.",
+        "odds": "DraftKings (ESPN API) +500/+380/-215 (Union opened -205, so shortened), de-vigged 0.158/0.197/0.645. BetCity 6.25/4.50/1.45, de-vigged 0.149/0.207/0.643. bet365 (kickoff.co.uk): Union DNB 1.17, X2 1.13, over 2.5 at 1.53. Polymarket over 24h: Union 0.65→0.665 (+2.3%), moving with DraftKings.",
+        "models": "kickoff.co.uk model 20/21/59, likeliest score 1-1 or 2-1 Union. Starting11 tips X2. opstellingvandaag expected goals: Union 2.06 v Beveren 1.45. A Poisson model from FotMob season xG gives about 0.14/0.18/0.68. ClubElo (502) and Forebet (403) were unavailable.",
+        "venue_weather": "Freethielstadion, Beveren, grass; a short ~50 km trip. Referee Bert Put. Forecast at kick-off: 7°C, dry, light wind. No pitch issues."
+      },
+      "reason": "From Polymarket 0.137/0.197/0.667, Union move down 1.7 points to 0.65: bookmakers price them lower (DraftKings 0.645, BetCity 0.643), their 27 goals come from 19.2 xG, and Biondic and Mac Allister are out. The draw rises 1 point to 0.205, between the books and the models; it stays modest because Union have won 4/4 away, the last 5 meetings had no draw, and about 3.2 goals are expected. Exclusion checks are clean: fixture verified, no likely starter or goalkeeper in doubt, the Europa game is 5 days away with no rotation talk, both sides motivated, no derby, no manager change, no unexplained price move, normal weather.",
+      "main_risk": "Beveren score at home every time (both teams to score about 60%); a Union side without Biondic and Mac Allister concedes in an open game and is pegged back to 1-1 or 2-2.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261031",
+        "https://sporza.be/nl/2026/10/22/-dit-is-een-vreselijk-beeld-union-ziet-biondic-en-olaru-geblesseerd-uitvallen-na-twee-pijnlijke-momenten~1792689222071/",
+        "https://www.voetbalkrant.com/nieuws/2026-10-26/union-sg-zit-alweer-met-een-dik-probleem-david-hubert-komt-met-de-bevestiging",
+        "https://www.voetbalnieuws.be/news/932226/goed-nieuws-en-slecht-nieuws-hubert-met-blessureupdate",
+        "https://opstellingvandaag.nl/pro-league/sk-beveren-union-sint-gillis-31-10-2026/",
+        "https://club.betcity.nl/voorbeschouwingen/beveren-union-saint-gilloise",
+        "https://www.fotmob.com/matches/union-stgilloise-vs-sk-beveren/28le2y",
+        "https://www.kickoff.co.uk/belgian-pro-league-predictions-stats-odds/w-beveren-vs-union-sg/",
+        "https://starting11.com/fixtures/sk-beveren-vs-union-saint-gilloise",
+        "https://gamma-api.polymarket.com/events?id=1255412"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1212023",
+      "exclude": true,
+      "confidence": "low",
+      "reason": "Excluded: a rivalry with strong draw evidence. AZ coach Echteld calls it a 'rivaliteit' and VI has called it a derby; it is 2nd v 5th. Ajax are only 1W-3D-1L at home (5-0-0 away), and AZ are unbeaten in the last 5 meetings (2 draws), including at the ArenA. The predicted Ajax XIs disagree (centre-backs, wide forwards) and availability reports conflict (Blind, Berghuis, Goes). The AZ price on Polymarket rose ~12% relative in 24h, against the DraftKings move. Books: DraftKings de-vigged 54/22/24, BetMGM 53/23/24.",
+      "main_risk": "A draw: Ajax drop points at home as in 3 of 5 home league games, against an AZ side unbeaten in five meetings.",
+      "sources": [
+        "https://www.vi.nl/nieuws/az-heeft-smit-nog-niet-terug-tegen-ajax-goes-wel-klaar-voor-rentree",
+        "https://www.fcupdate.nl/voetbalnieuws/2026/10/berghuis-en-blind-inzetbaar-bij-ajax-tegen-az-michel-stelt-eis",
+        "https://www.goal.com/en/news/predicted-ajax-line-up-michel-makes-changes-in-several-positions-for-big-match-against-az/blt701a7c1678b994ba",
+        "https://starting11.com/fixtures/ajax-vs-az-alkmaar",
+        "https://www.sportsgambler.com/betting-tips/football/ajax-vs-az-alkmaar-prediction-lineups-odds-2026-10-31/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261031",
+        "https://gamma-api.polymarket.com/events?id=1212023"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1253822",
+      "exclude": true,
+      "confidence": "low",
+      "reason": "Excluded on three rules. (1) Unexplained price move: on Polymarket Standard went 0.56→0.605 (+8% relative) and Kortrijk 0.20→0.175 in about 10 hours with no news found; the only new item (GK Epolo ruled out) points the other way. (2) Reports conflict on Kortrijk's likely starting GK Ilić and on Anderson (FotMob: unavailable; Walfoot XI and the club: available). (3) Standard's likely starter Lavalée is a hip/MRI doubt, and backup keeper Pirard starts. Standard have lost four straight league games. Books: DraftKings de-vigged 0.581/0.230/0.189, Oddslot 0.570/0.241/0.188; Sports Mole model 45/25/30.",
+      "main_risk": "Standard, with a backup keeper and set-piece leaks in four straight games, concede a late equaliser to a deep, countering Kortrijk.",
+      "sources": [
+        "https://www.walfoot.be/news/2026-10-31/le-standard-devra-sortir-du-marasme-sans-lui-coup-dur-confirme-contre-courtrai",
+        "https://www.walfoot.be/news/2026-10-31/victoire-obligatoire-pour-les-rouches-voici-les-compositions-probables-de-standard-courtrai",
+        "https://www.kvk.be/nieuws/persconferentie-stakvk/",
+        "https://www.fotmob.com/api/data/matchDetails?matchId=5811797",
+        "https://www.voetbalkrant.com/nieuws/2026-10-29/interview-standard-met-of-zonder-matthieu-epolo-tegen-kortrijk-vincent-euvrard-komt-met-meer-nieuws",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261031",
+        "https://clob.polymarket.com/prices-history?market=112897615154870223443901072713583469041439900113111741667369448586470758849578&interval=1d&fidelity=60"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1213001",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.82,
+        "draw": 0.13,
+        "away": 0.05
+      },
+      "checks": {
+        "team_news": "Porto: Farioli's 30 Oct press conference (fcporto.pt, Record) confirmed Smalling (knee), William Gomes (ankle) and Pietuszewski (thigh) are out of the squad; Vasco Sousa still injured (A Bola). These are confirmed absences, not doubts. Diogo Costa starts in goal. Estoril: Isra Salazar and Fabrício Garcia out (FotMob, Sports Mole); top scorer Begraoui likely misses a fourth game and is in no predicted XI. Robles starts in goal.",
+        "lineups": "O Jogo (31 Oct), Sports Mole and FotMob agree on Porto's 4-3-3: D. Costa; A. Costa, Bednarek, Kiwior, Zaidu; Froholdt, Rosario, Veiga; Pepê, Samu, Borja Sainz. The only open choices are left-back and possibly André Silva for Samu. Sports Mole and FotMob agree on Estoril's 3-4-3.",
+        "rotation": "Porto beat Gil Vicente 1-0 on 24 Oct, then fielded a completely changed XI to beat Académico de Viseu 1-0 in the League Cup on Wed 28 Oct, so the regulars are rested. Next: Napoli at home in the Champions League on Wed 4 Nov. Maisfutebol and O Jogo expect the usual XI with few changes; Farioli: 'queremos sempre os melhores jogadores para começar'. Estoril had no midweek game.",
+        "motivation": "Porto are 1st on 27 points (9 of 9), 5 clear of Benfica, chasing a 10th straight league win. Estoril are 18th on 2 points with no win, 5 from safety. Not a derby. Estoril sacked Vasco Matos on 15 Oct (16 days ago, just outside the 14-day rule); interim Sérgio Raimundo takes his second league game.",
+        "form": "Porto league 9-0-0, goals 21-4, home 4/4 (9-2); FotMob xG 19.4 for and 7.4 against (xPts 20.6 v 27 actual), and only 6 goals in their last 5 in all competitions. Estoril 0-2-7, goals 5-15, away 0/4; xG 9.6 for and 14.3 against (xPts 9.2 v 2 actual), so better than their table.",
+        "h2h": "FotMob: 27 meetings, Porto 19 wins, 4 draws, 4 Estoril wins; no draw in the last 9 and Porto won the last 4 (4-0, 2-1, 1-0, 3-1). Last season's home game was a tight 1-0.",
+        "odds": "DraftKings (ESPN API) moved from -475 to -550 now (1.18/7.0/14.0); power de-vig about 0.83/0.12/0.05, proportional 0.80/0.135/0.067. Kalshi 83.2/11.9/4.9. 22Bet home 1.24–1.25. Polymarket home 0.805→0.835 in 24h (+3.7%), in line with DraftKings shortening and the regulars returning.",
+        "models": "Sports Mole predicts Porto 3-0; 22Bet's AI pick 3-1. A Poisson model from FotMob season xG (about 2.85 v 0.6 expected goals) gives roughly 83/11/5. ClubElo (502) and Forebet (403) were unavailable.",
+        "venue_weather": "Estádio do Dragão, Porto's normal home. Estoril travel ~300 km. Forecast clear, 15°C, almost no wind, 2% rain. Referee Miguel Nogueira. No pitch issues."
+      },
+      "reason": "From the market (0.834/0.123/0.044), the home win drops 1.4 points: Porto's results run ahead of their xG (xPts 20.6 v 27), Estoril are much better by xG than their 2 points, wingers William Gomes and Pietuszewski are out, Porto scored only 6 in their last 5, and Samu may be saved for Napoli. The move is small because the regular starters return rested after a fully rotated cup XI, Porto are 9/9 (4/4 at home), Estoril have lost all 4 away games, the last 9 meetings had no draw, and DraftKings (power de-vig) and Kalshi both agree at about 83%. The draw at 13% is far under the 25% limit.",
+      "main_risk": "Porto look ahead to Napoli and, without two wingers, can't break down a deep Estoril freshly motivated under the interim coach: 0-0 or a late 1-1.",
+      "sources": [
+        "https://www.fcporto.pt/pt/noticias/20261031-pt-antevisao-fc-porto-estoril-praia",
+        "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/em-direto-siga-a-conferencia-de-antevisao-de-farioli-ao-jogo-com-o-estoril",
+        "https://www.ojogo.pt/futebol/artigo/pepe-nao-para-no-amarelo-e-volta-a-titularidade-o-onze-provavel-do-fc-porto-contra-o-estoril/18142987",
+        "https://maisfutebol.iol.pt/fc-porto/liga/sem-pensar-na-champions-os-onzes-provaveis-para-o-fc-porto-estoril",
+        "https://www.abola.pt/noticias/dragao-fresco-a-procura-da-decima-o-onze-provavel-do-fc-porto-2026103018260304383",
+        "https://www.rtp.pt/noticias/futebol-nacional/vasco-matos-deixa-estoril-e-protagoniza-terceira-chicotada-psicologica_d1771903",
+        "https://www.sportsmole.co.uk/football/porto/preview/porto-vs-estoril-prediction-team-news-lineups_607970.html",
+        "https://www.fotmob.com/api/data/matchDetails?matchId=5887670",
+        "https://gidstats.com/football/liga-portugal/2026-10-31-1575532-fc-porto-vs-estoril/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261031",
+        "https://gamma-api.polymarket.com/events?id=1213001"
+      ],
+      "prices": []
+    }
+  ]
+}

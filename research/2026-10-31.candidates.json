@@ -1,0 +1,346 @@
+{
+  "date": "2026-10-31",
+  "window": {
+    "start": "2026-10-31T15:25:55.530Z",
+    "end": "2026-11-01T05:00:00.000Z"
+  },
+  "games_in_window": 21,
+  "games": [
+    {
+      "id": "1212005",
+      "league": "Eredivisie",
+      "event": "Feyenoord Rotterdam vs. Fortuna Sittard",
+      "home": "Feyenoord Rotterdam",
+      "away": "Fortuna Sittard",
+      "start": "2026-10-31T15:30:00.000Z",
+      "p_market": {
+        "home": 0.8364,
+        "draw": 0.1072,
+        "away": 0.0565
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Feyenoord Rotterdam",
+          "fair_odds": 1.2
+        }
+      ]
+    },
+    {
+      "id": "1213001",
+      "league": "Primeira Liga",
+      "event": "FC Porto vs. Estoril Praia",
+      "home": "FC Porto",
+      "away": "Estoril Praia",
+      "start": "2026-10-31T20:30:00.000Z",
+      "p_market": {
+        "home": 0.8336,
+        "draw": 0.1226,
+        "away": 0.0437
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "FC Porto",
+          "fair_odds": 1.2
+        }
+      ]
+    },
+    {
+      "id": "1209857",
+      "league": "La Liga",
+      "event": "Real Betis Balompié vs. Málaga CF",
+      "home": "Real Betis Balompié",
+      "away": "Málaga CF",
+      "start": "2026-10-31T17:30:00.000Z",
+      "p_market": {
+        "home": 0.7535,
+        "draw": 0.153,
+        "away": 0.0935
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Real Betis Balompié",
+          "fair_odds": 1.33
+        }
+      ]
+    },
+    {
+      "id": "1209188",
+      "league": "Bundesliga",
+      "event": "FC Bayern München vs. BV Borussia 09 Dortmund",
+      "home": "FC Bayern München",
+      "away": "BV Borussia 09 Dortmund",
+      "start": "2026-10-31T17:30:00.000Z",
+      "p_market": {
+        "home": 0.7365,
+        "draw": 0.1569,
+        "away": 0.1066
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "FC Bayern München",
+          "fair_odds": 1.36
+        }
+      ]
+    },
+    {
+      "id": "1205926",
+      "league": "Süper Lig",
+      "event": "Fenerbahçe SK vs. Göztepe SK",
+      "home": "Fenerbahçe SK",
+      "away": "Göztepe SK",
+      "start": "2026-10-31T16:00:00.000Z",
+      "p_market": {
+        "home": 0.68,
+        "draw": 0.185,
+        "away": 0.135
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Fenerbahçe SK",
+          "fair_odds": 1.47
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Fenerbahçe SK",
+          "fair_odds": 1.2
+        }
+      ]
+    },
+    {
+      "id": "1255412",
+      "league": "Belgian Pro League",
+      "event": "SK Beveren vs. Union Saint-Gilloise",
+      "home": "SK Beveren",
+      "away": "Union Saint-Gilloise",
+      "start": "2026-10-31T19:45:00.000Z",
+      "p_market": {
+        "home": 0.1366,
+        "draw": 0.1969,
+        "away": 0.6666
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Union Saint-Gilloise",
+          "fair_odds": 1.5
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "Union Saint-Gilloise",
+          "fair_odds": 1.2
+        }
+      ]
+    },
+    {
+      "id": "1208029",
+      "league": "Serie A",
+      "event": "Udinese Calcio vs. AS Roma",
+      "home": "Udinese Calcio",
+      "away": "AS Roma",
+      "start": "2026-10-31T17:00:00.000Z",
+      "p_market": {
+        "home": 0.1634,
+        "draw": 0.2132,
+        "away": 0.6234
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "AS Roma",
+          "fair_odds": 1.6
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "AS Roma or Draw",
+          "fair_odds": 1.2
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "AS Roma",
+          "fair_odds": 1.26
+        }
+      ]
+    },
+    {
+      "id": "1253822",
+      "league": "Belgian Pro League",
+      "event": "Standard Liege vs. KV Kortrijk",
+      "home": "Standard Liege",
+      "away": "KV Kortrijk",
+      "start": "2026-10-31T17:15:00.000Z",
+      "p_market": {
+        "home": 0.6034,
+        "draw": 0.2232,
+        "away": 0.1734
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Standard Liege",
+          "fair_odds": 1.66
+        },
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Standard Liege or Draw",
+          "fair_odds": 1.21
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Standard Liege",
+          "fair_odds": 1.29
+        }
+      ]
+    },
+    {
+      "id": "1255408",
+      "league": "Belgian Pro League",
+      "event": "RSC Anderlecht vs. KVC Westerlo",
+      "home": "RSC Anderlecht",
+      "away": "KVC Westerlo",
+      "start": "2026-10-31T19:45:00.000Z",
+      "p_market": {
+        "home": 0.5934,
+        "draw": 0.2133,
+        "away": 0.1933
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "RSC Anderlecht",
+          "fair_odds": 1.69
+        },
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "RSC Anderlecht or Draw",
+          "fair_odds": 1.24
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "RSC Anderlecht",
+          "fair_odds": 1.33
+        }
+      ]
+    },
+    {
+      "id": "1209203",
+      "league": "Premier League",
+      "event": "Tottenham Hotspur FC vs. Crystal Palace FC",
+      "home": "Tottenham Hotspur FC",
+      "away": "Crystal Palace FC",
+      "start": "2026-10-31T17:30:00.000Z",
+      "p_market": {
+        "home": 0.5834,
+        "draw": 0.2332,
+        "away": 0.1834
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Tottenham Hotspur FC",
+          "fair_odds": 1.71
+        },
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Tottenham Hotspur FC or Draw",
+          "fair_odds": 1.22
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Tottenham Hotspur FC",
+          "fair_odds": 1.31
+        }
+      ]
+    },
+    {
+      "id": "1212023",
+      "league": "Eredivisie",
+      "event": "AFC Ajax vs. AZ",
+      "home": "AFC Ajax",
+      "away": "AZ",
+      "start": "2026-10-31T20:00:00.000Z",
+      "p_market": {
+        "home": 0.5534,
+        "draw": 0.2133,
+        "away": 0.2333
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "AFC Ajax",
+          "fair_odds": 1.81
+        },
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "AFC Ajax or Draw",
+          "fair_odds": 1.3
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "AFC Ajax",
+          "fair_odds": 1.42
+        }
+      ]
+    },
+    {
+      "id": "1208035",
+      "league": "Serie A",
+      "event": "AC Milan vs. FC Internazionale Milano",
+      "home": "AC Milan",
+      "away": "FC Internazionale Milano",
+      "start": "2026-10-31T19:45:00.000Z",
+      "p_market": {
+        "home": 0.2633,
+        "draw": 0.2633,
+        "away": 0.4733
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "AC Milan or Draw",
+          "fair_odds": 1.9
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "FC Internazionale Milano or Draw",
+          "fair_odds": 1.36
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "FC Internazionale Milano",
+          "fair_odds": 1.56
+        }
+      ]
+    }
+  ]
+}
