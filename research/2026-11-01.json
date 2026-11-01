@@ -1,0 +1,512 @@
+{
+  "date": "2026-11-01",
+  "researched_at": "2026-11-01T07:01:23Z",
+  "summary": "12 games researched in depth, 7 kept (all medium confidence): Racing v Real Madrid (Madrid 79%), Amed v Eyüpspor (Amed 76.5%), Trabzonspor v Gaziantep (75%), Lyon v Angers (67%), Lazio v Cagliari (64.5%), STVV v OH Leuven (56%), Lommel v Gent (Gent 54.5%, draw 25.5%, so draw no bet only). Excluded: Como v Venezia (5–6 changes before the Champions League, goalkeeper reported differently), Excelsior v Twente (Twente right-back Van Rooij doubtful), Charleroi v La Louvière (Hainaut derby, behind closed doors), Frankfurt v Hamburg (Bornauw a game-time decision), Kasımpaşa v Beşiktaş (conflicting reports on Černý).",
+  "games": [
+    {
+      "id": "1216157",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.08,
+        "draw": 0.13,
+        "away": 0.79
+      },
+      "checks": {
+        "team_news": "Racing: LB Jorge Salinas suspended (5th yellow). Andrés Martín (muscle) is OUT of the 22-man squad (FutbolFantasy, 31 Oct 13:09). Prati and Almeida are both in the squad, and FutbolFantasy says Prati trained normally; SI and Eurosport had listed him as a doubt earlier. Backup GK Eriksson (shoulder) is in the squad; starter Agirrezabala is not in doubt. Real Madrid: Vinícius serves game 3 of a 4-match ban. Rodrygo (knee), Asencio (tibia) and Mendy are out. Valverde is not in the squad; OKDiario says tests ruled out an injury and he stays home to recover, and Mourinho said 'mañana Fede no inicia el partido'. Courtois is back from flu and in the squad (Courtois, Lunin, Mestre) and trained normally. Güler had a minor overload but is in the squad. Starting11 still lists Courtois as 'out' in its team news, but its own crowd check keeps him in the XI and every other source starts him.",
+        "lineups": "Racing: EFE (via Infobae), FutbolFantasy and Sports Mole agree on Agirrezabala; Mantilla, Pablo Ramón, Belocian, Aarón Martín; Iván Martín, Prati; Vicente, Canales; Zabiri. Pablo García is the likely replacement for Andrés Martín. Madrid: OKDiario (1 Nov), Eurosport, FutbolFantasy and Starting11 mostly agree on Courtois; Dumfries, Konaté/Rüdiger, Huijsen, Cucurella; Tchouaméni, Bernardo; Güler, Bellingham, Diomande; Mbappé. That is about 2–3 changes from the Clásico, and the GK and Valverde changes are forced. EFE differs: Courtois; Dumfries, Rüdiger, Huijsen, Carreras; Bernardo, Camavinga; Endrick, Bellingham, Diomande; Mbappé. That is 6 changes in total, 4 by choice. So the sources disagree on how much Mourinho rotates.",
+        "rotation": "Madrid: last game was the 2-1 win at Barcelona on 25 Oct. They were not in the Copa round, so they had a full week's rest. Next is AEK Athens away in the UCL on Wed 4 Nov (17:45Z), then Valencia away on Sat 7 Nov. Mourinho complained about 'tres partidos con tres viajes en siete días' and said 'No tengo un once tipo'. EFE expects him to change the XI again, and OKDiario expects 'cambios medidos' without breaking the structure. He has not explicitly announced rotation. Racing: played the Copa del Rey on 29 Oct (2-0 at Ribadesella) with mostly reserves (FutbolFantasy), so their regulars are fresh. Next is Málaga away on 7 Nov.",
+        "motivation": "La Liga 2026-27 matchday 11, confirmed on ESPN esp.1 and in the Spanish press. Not a Copa tie; Racing's Copa game was on 29 Oct. Madrid are 3rd on 24 pts from 10 games, behind Barça (30 from 11) and Atlético (28 from 11), so they need the points. Newly promoted Racing are 15th on 11 pts, 2 above 18th-placed Getafe (9). They are unbeaten at home and Mourinho said they deserve respect. Not a derby. Mourinho was appointed on 11 Jun 2026 and José Alberto López is long-serving, so no manager change in the last 14 days.",
+        "form": "Understat, last 10 league games. Madrid: W8 L2, goals 25-10, xG 25.2 (2.52/g), xGA 11.3 (1.13/g). Away: 3W 2L (lost at Betis 0-1 and Atlético 1-2), xG 2.35 and xGA 1.40 per game. They have won 5 in a row in all competitions, including the UCL wins over Roma (4-3) and Leipzig (4-1). Racing: W3 D2 L5, goals 15-26 (the league's worst defence), xG 14.3, xGA 21.4. At home they are W3 D2 (2-2 v Villarreal, 3-2 v Elche, 2-1 v Alavés, 2-2 v Valencia, 2-1 v Espanyol), goals 11-8, xG 2.03 and xGA 1.29 per game, and they scored 2 in every home game. Away they are 0/5 with goals 4-18.",
+        "h2h": "ESPN lists the last 5 meetings (2010–2012) as Madrid 4 wins, 1 draw (0-0 at El Sardinero, Sept 2011), Racing 0. SI says Madrid won 9 of the last 10 and Racing have not beaten them since April 2007. There has been no meeting for 14 years, so this tells us little. Style: Racing are open and attacking (23 shots v Espanyol) but leak goals, which points to a high-scoring game. DraftKings' total line is 4.5, and BTTS yes is 1.55 at Retabet.",
+        "odds": "DraftKings (ESPN API): Racing +900, draw +650, Madrid -450, having opened +700/+550/-390. De-vigged proportionally that is 9.5/12.7/77.8%; with the power method 8.3/11.3/80.5%. Bet365 AU (Stats Insider, updated 1 Nov): 11.00/8.50/1.18, de-vigged 8.6/11.1/80.2%. Retabet: Madrid 1.22 (Eurosport, 30 Oct). Polymarket 24h: Madrid 0.805→0.815 (+1.2%), draw 0.115→0.115, Racing 0.085→0.075. Every move has shortened Madrid, which fits the news of Courtois returning and Andrés Martín being ruled out, so no unexplained move. Stake and Rainbet both returned 403, so no price was seen.",
+        "models": "Stats Insider simulation (10k runs): 11.3/14.4/74.3. SI preview: 11/15/74. Footballdream goals model: 11/13/76 (xG 1.2 v 3.2). Foresportia: Madrid 67.7, Racing 12.5, draw about 19.8; I only saw this in a search snippet because the page returned 403. Sports Mole and Eurosport both predict Racing 1-3 Madrid. ClubElo was unreachable (connection reset / 403). Every model has Madrid below the market (68–76%) and the draw above it (13–20%).",
+        "venue_weather": "Estadio El Sardinero, Santander, 15:15Z (16:15 CET). Short domestic trip for Madrid, but it starts three away games in seven days. Open-Meteo for 15–17Z: 16–17°C, 0 mm rain (0% chance), wind 7–9 km/h with gusts up to 17 km/h. No pitch problems reported."
+      },
+      "reason": "Starting from Polymarket (7.3/11.3/81.4), I moved Madrid down 2.4 points and the draw up 1.7, for these cited reasons. Madrid are without Vinícius (suspended), Valverde (ruled out by Mourinho) and Rodrygo. Some rotation is likely before the UCL trip to AEK on Wednesday; EFE has 4 changes by choice, including Camavinga, Endrick and Carreras. Racing are unbeaten at home and scored 2 in every home league game, with home xGA only 1.29. Madrid concede away (xGA 1.40/g; lost at Betis and Atlético). Every model is lower on Madrid (68–76%) and higher on the draw (13–20%). The moves stay small because the bookmakers agree with the market: power de-vig gives about 80–82% and both books have shortened Madrid. Racing also have the league's worst defence (26 conceded, xGA 2.14/g) and lose Andrés Martín and LB Salinas, while Madrid average 2.5 xG/g and have won 5 straight. The draw at 13% is well under 25%, so a straight Madrid win is allowed. Confidence is medium, not high, because lineup sources disagree on how much Mourinho rotates and Courtois is just back from flu. If the official XI (out about 14:15Z) shows 5+ changes by choice, or Courtois not in goal, drop this leg.",
+      "main_risk": "With a rotated Madrid side and no Vinícius or Valverde, Racing score at home as they have in every home game this season. Madrid's shaky away defence then lets in a late equaliser for a 2-2 or 1-1, like Racing's home draws with Villarreal and Valencia.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261101",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882819",
+        "https://gamma-api.polymarket.com/events?id=1216157",
+        "https://clob.polymarket.com/prices-history?market=59046452897234759092637539418903181909047692036046119851258850498431696213769&interval=1d&fidelity=60",
+        "https://understat.com/league/La_liga/2026",
+        "https://okdiario.com/diariomadridista/real-madrid/convocatoria-del-real-madrid-contra-racing-courtois-vuelve-lista-sin-valverde-ni-vinicius-673745",
+        "https://okdiario.com/diariomadridista/real-madrid/racing-real-madrid-mourinho-no-quiere-resaca-673739",
+        "https://www.futbolfantasy.com/laliga/noticias/153790-posibles-alineaciones-y-previa-fantasy-del-racing-real-madrid",
+        "https://www.futbolfantasy.com/laliga/noticias/153875-andres-martin-no-se-recupera-a-tiempo-y-se-queda-fuera-de-la-convocatoria",
+        "https://www.futbolfantasy.com/world-cup/noticias/153892-mourinho-habla-de-mbappe-bellingham-trent-dumfries-valverde-vinicius-y-el-racing",
+        "https://www.infobae.com/espana/agencias/2026/10/31/el-racing-invicto-en-casa-desafia-a-un-real-madrid-que-quiere-su-sexta-victoria-seguida/",
+        "https://elespanol.com/deportes/futbol/20261101/real-madrid-primer-tourmalet-temporada-partidos-dias-grandisimos-regalos-laliga/1003744442445_0.html",
+        "https://www.elnacional.cat/es/deportes/mourinho-ironico-con-calendario-es-regalo-tenemos-afrontar-ver-si-dejamos-tristes_1718695_102.html",
+        "https://starting11.com/fixtures/racing-santander-vs-real-madrid",
+        "https://www.sportsmole.co.uk/football/real-madrid/race-for-the-la-liga-title/preview/racing-vs-real-madrid-prediction-team-news-lineups_608064.html",
+        "https://www.si.com/es-us/pronostico-racing-de-santander-vs-real-madrid-probabilidades-estadisticas-bajas-y-prediccion-ia",
+        "https://www.eurosport.es/apuestas/pronosticos/racing-de-santander-vs-real-madrid-pronostico-consejos-y-cuotas-laliga/",
+        "https://www.statsinsider.com.au/news/racing-santander-vs-real-madrid-prediction-and-tips-2-november-2026",
+        "https://www.footballdream.in/blog/racing-santander-vs-real-madrid-matchday-11-la-liga-2026-27",
+        "https://api.open-meteo.com/v1/forecast?latitude=43.4762&longitude=-3.7932&hourly=temperature_2m,precipitation,precipitation_probability,wind_speed_10m,wind_gusts_10m&start_date=2026-11-01&end_date=2026-11-01&timezone=UTC"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1212539",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.765,
+        "draw": 0.16,
+        "away": 0.075
+      },
+      "checks": {
+        "team_news": "Amed: Starting11 lists Diagne (suspended, red card at Samsunspor on 24 Oct; Fanatik also reported the red), Dellova (suspended, yellow cards; Timeturk had already put him on the card limit), Sor (muscle) and Demir (knee) as out. These are confirmed absences, not doubts. Eyüpspor: no injuries or bans reported by Starting11 or Fotomaç. No GK doubt: Lafont (Amed) and Emre Bilgin (Eyüpspor) are predicted to start.",
+        "lineups": "beIN Sports (1 Nov) Amed: Lafont; Umut, Bates, Mehmet, Krasniqi, Furkan, Raveloson, Mohamed, Saba, Ballet, Orban. Eyüpspor: Emre; Arda, Jules, El Yamiq, Talha, Sabiri, Massanga, Costa, Michalak, Boutobba, Yusuf. Starting11 shows only positions, but its absence list matches beIN (no Diagne or Dellova). Voetbalwedden says lineups are not yet known. So only one named XI was available; the second source agrees on who is missing.",
+        "rotation": "Amed: last game was Samsunspor away (W 2-1, 24 Oct); next is Galatasaray away on Sat 7 Nov, 6 days later. I found no midweek fixture for Amed (ESPN all-competitions schedule, Fanatik and Fotomaç Amed pages), though whether Amed played in the 27–29 Oct cup round is not confirmed. beIN's XI is first-choice, so no rotation is signalled. Eyüpspor: lost 0-1 to Kasımpaşa on 24 Oct; per Fanatik, their cup tie at Fethiyespor was stopped by heavy rain and resumes on 4 Nov; next league game is Kocaelispor on 7 Nov.",
+        "motivation": "Amed are 2nd on 20 pts from 9 games (6-2-1) and per beIN want to be the first promoted side since 1992/93 to reach 23+ pts in their first 10 games. Eyüpspor are 18th on 3 pts (1-0-8) in a relegation fight, and Fotomaç reported a FIFA transfer ban on them (16–17 Oct). Not a derby. Eyüpspor coach Mustafa Dalcı was appointed on 29 Sep (beIN), 33 days ago, so outside the 14-day rule. Besnik Hasi has been coaching Amed throughout.",
+        "form": "Amed (ESPN): won 3-0 Erzurum, lost 0-2 Kocaelispor, won 2-1 Trabzonspor, drew 2-2 Kasımpaşa, won 5-0 Başakşehir, won 3-2 Beşiktaş, drew 2-2 Gençlerbirliği, won 1-0 Konyaspor (86' winner), won 2-1 at Samsunspor (84' winner). At home they are 5/5, scoring 14 and conceding 3. Kickoff.co.uk xG: Amed 1.8 for, 0.9 against. Eyüpspor: lost 0-1 Beşiktaş, lost 0-1 Gaziantep, won 2-1 Alanyaspor, then six straight league defeats (0-3, 0-2, 0-8, 0-4, 0-2, 0-1). That is 2 scored and 23 conceded in 9; they have lost all 4 away games without scoring (beIN). Kickoff.co.uk xG: Eyüpspor 0.8 for, 1.7 against.",
+        "h2h": "beIN: Amed have lost only 1 of their last 8 league meetings with Eyüpspor (4W 3D 1L); that loss was in March 2019 in the third tier. Eyüpspor have won only 1 of 5 visits to Amed (2D 2L), in April 2009. These are all old lower-division games: 3 of 8 were draws, 2 of 5 in Diyarbakır. Style: Amed are strong in attack and have the most goals from outside the box among Europe's top 10 leagues (beIN); Eyüpspor barely create anything.",
+        "odds": "DraftKings via ESPN: Amed -380, draw +500, Eyüpspor +950, moved from -360/+800 at open. De-vigged: 0.751 / 0.158 / 0.090. Voetbalwedden: BetMGM and Unibet 1.27 / 5.50 / 10.0 (de-vig 0.736 / 0.170 / 0.094); TonyBet 1.28 / 6.0 / 10.0 (0.746 / 0.159 / 0.095); bet365 1.17 / 6.5 / 13 (0.787 / 0.142 / 0.071), which looks like an outlier. Polymarket over 24h: home 0.77 to 0.785 (+1.9% relative), draw 0.16 to 0.145 (thin, $312 volume), away 0.07 to 0.075. This matches DraftKings moving towards Amed, so there is no unexplained move in the favourite's price. The books are 3–5 points less bullish on Amed than Polymarket.",
+        "models": "Kickoff.co.uk model: Amed 87%, draw 10%, Eyüpspor 3%, most likely score 2-0, expected goals 2.9 v 0.4. Starting11 shows 45 / 45 / 10, which looks like a placeholder and I gave it little weight. ClubElo did not respond (connection reset); Forebet and Ratingbet returned 403; Sports Mole and 22BET have no preview.",
+        "venue_weather": "Fixture verified by ESPN, beIN, Starting11 and Voetbalwedden: Süper Lig week 10, 1 Nov 2026, 13:30 local (10:30 UTC), at Diyarbakır Stadium, Amed's normal home ground. Referee is Alpaslan Şen (beIN). Eyüpspor travel from Istanbul to Diyarbakır. Open-Meteo forecast for 10:00–13:00 UTC: about 18°C, dry, wind around 4–5 km/h with gusts around 10 km/h. No pitch issues reported."
+      },
+      "reason": "Starting from Polymarket (0.784 / 0.143 / 0.074), I moved 1.9 points from home to draw. The bookmakers I could read (DraftKings, BetMGM, Unibet, TonyBet) put the draw at 0.158–0.170 and the home win at 0.736–0.751. Amed are also missing their striker Diagne (red card) and defender Dellova (bans) plus Sor and Demir (injured). Their last two wins needed late goals (86' v Konyaspor, 84' v Samsunspor), and they let leads slip at Gençlerbirliği and Kasımpaşa. I kept the home win high because the gap is huge: Amed have won all 5 home games (14-3, xG 1.8 for / 0.9 against), while Eyüpspor have lost six league games in a row, scored 2 in 9 and none in 4 away games, have xG 0.8 for / 1.7 against, and have a transfer ban. The Kickoff.co.uk model has Amed at 87%. Rotation, derby, manager-change, weather and venue checks are all clean, and the 24h move matches DraftKings. Confidence is medium, not high: only one named predicted XI was available, the absence list comes from one source, Amed's midweek cup status is unconfirmed, and the books are below Polymarket. The draw at 0.16 is under the 25% limit for a straight win.",
+      "main_risk": "Without Diagne, Amed struggle to break down a deep, desperate Eyüpspor side and the game ends 0-0 or 1-1. Evidence: two of Eyüpspor's league defeats were only 0-1 (Beşiktaş, Gaziantep), and Amed's last two wins came with 86th- and 84th-minute goals.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/scoreboard?dates=20261101",
+        "https://gamma-api.polymarket.com/events?id=1212539",
+        "https://clob.polymarket.com/prices-history",
+        "https://beinsports.com.tr/haber/amedspor-eyupspor",
+        "https://beinsports.com.tr/haber/eyupsporda-mustafa-dalci-donemi-resmen-basladi",
+        "https://www.fanatik.com.tr/haberler/eyupspor",
+        "https://www.fanatik.com.tr/haberler/amedspor",
+        "https://www.kickoff.co.uk/turkish-super-lig-predictions-stats-odds/amed-sk-vs-eyupspor/",
+        "https://starting11.com/fixtures/amed-vs-eyupspor",
+        "https://www.voetbalwedden.net/wedstrijden/amedspor-eyupspor/opstellingen",
+        "https://www.fotomac.com.tr/eyupspor",
+        "https://api.open-meteo.com/v1/forecast"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1212549",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.75,
+        "draw": 0.15,
+        "away": 0.1
+      },
+      "checks": {
+        "team_news": "Trabzonspor (Takvim 31 Oct, Sporx and Fanatik 1 Nov, 61saat 31 Oct): Franculino Dju (thigh, picked up at Rize) and Aral Şimşir (calf) are out, along with long-term absentees Okay Yokuşlu, Batagov, Malinovskyi, Cihan Çanak and young GK Onuralp. Onuachu is back after missing 3 games and is expected to start. Nwaiwu, Savic and Fabinho are one booking from a ban. Onana is the confirmed GK. Gaziantep: Abena is suspended (yellow cards). First-choice GK Tobiasz, Sontje Hansen, Özçiçek, Sangaré and Bavuk are injured in every source. Haber61/61saat (29 Oct) also list Arda Kızıldağ and 'Serdar' as injured, while Takvim/Sporx/Fanatik list Meleke instead. None of these three is in any predicted XI. Ataberk Dadakdeniz starts in goal in every source.",
+        "lineups": "Takvim, Sporx and Fanatik agree on 9-10 of the Trabzonspor XI: Onana; Pina, Nwaiwu, Savic, Mustafa Eskihellaç (Sporx: Cabral); Fabinho, Melih (Takvim: Jabol-Folcarelli); Salah, Muçi, Saviolo; Onuachu. The only differences are at LB and one CM spot, and they are selection choices, not fitness doubts. All three agree on the Gaziantep XI: Ataberk; Pérez, Efe Sarıkaya, Sylla, Kerim Çalhanoğlu; Bacuna, Sorescu, Camara, Maxim, Kozlowski; Halil Dervişoğlu. The SportsGambler and Statz XIs (30 Oct) are older and include players since ruled out.",
+        "rotation": "Trabzonspor last played at Rizespor on Mon 26 Oct (won 4-3). Next they host SC Freiburg in the Conference League on Thu 5 Nov, then go to Alanyaspor on 8 Nov before the international break. None of the four previews found any talk of rotating. Takvim expects 3 changes, all forced by injury (Saviolo for Aral, Onuachu for Dju, and possibly Folcarelli for Melih). Gaziantep last played on 24 Oct and next play Kasımpaşa on Fri 6 Nov, with no midweek game.",
+        "motivation": "Trabzonspor are 3rd on 19 pts from 9 games, 6 behind leaders Galatasaray (25 from 10). They are chasing a 7th straight win under Thomas Reis (appointed 17 Sep, 45 days ago) and a 5th straight home league win. Gaziantep are 14th/15th on 8 pts, level with 16th, so they are in a relegation scrap. Orhan Ak has been their coach since 4 Sep, 58 days ago. Ak is a former Trabzonspor coach, but this is no derby or rivalry. Both sides have something to play for.",
+        "form": "Trabzonspor: 6 straight wins in all competitions (Galatasaray 4-0, at Samsunspor 3-0, at KuPS 4-2, Beşiktaş 2-0, Hearts 2-0, at Rizespor 4-3). League record 6-1-2, goals 22-8. Home league 4/4, goals 13-1. FotMob xG in 9 league games is 17.8 for and 14.1 against, about 4 xPts below actual points, and the defence allows chances (conceded 3 at Rize). Gaziantep: 5 league games without a win (D 0-0 Fenerbahçe, then losses 0-2 at Kocaelispor, 0-3 vs Çorum, 1-2 at Başakşehir, 1-3 vs Erzurum), 2-10 on goals over the last 5. FotMob xG 10.6 for, 14.6 against. Away record W2 D0 L2, goals 6-6.",
+        "h2h": "SportsGambler: Trabzonspor are unbeaten in the last 10 meetings (7 wins, 3 draws). The latest was a 2-1 Trabzonspor win at Gaziantep on 22 Feb 2026. The last meeting at Papara Park ended 1-1 (Sep 2025). Before that, Trabzonspor scored 3+ in each of their 4 previous home meetings (Sports Mole). So 3 of the last 10 meetings ended level.",
+        "odds": "DraftKings via the ESPN API: home -380 (1.26), draw +550 (6.50), away +800 (9.00); de-vigged 0.749/0.146/0.105. The line opened at -300/+425/+600, so it has shortened on the home side. BetMGM via SportsGambler (30 Oct): -370/+500/+800, de-vigged 0.739/0.157/0.104. Best prices on Statz (30 Oct): 1.36/5.50/7.50, de-vigged 0.70/0.17/0.13. Polymarket home went from 0.735 to 0.775 in the last 24h (+5.4% relative) and the draw from 0.155 to 0.135. Team news and the DraftKings shortening fit this move: Gaziantep's 8 absentees including their first-choice GK, and Onuachu's return (31 Oct reports). But Polymarket now sits above the de-vigged bookmaker prices on the home side. Stake and Rainbet both returned 403, so no price was seen.",
+        "models": "Statz model: 70/17/13, expected goals 2.53 vs 1.00, likeliest scores 2-0 and 2-1. Sportskeeda tips 3-1 and SportsGambler 3-0. ClubElo could not be reached (connection reset). FotMob xPts (14.7 vs 9.7) shows Trabzonspor clearly better, but by less than the table says.",
+        "venue_weather": "Papara Park, Trabzon (Trabzonspor's normal home ground). Kick-off 16:00 local (13:00Z), referee Abdullah Buğra Taşkınsoy. Gaziantep face a long domestic trip. Open-Meteo forecasts 18-19°C, dry (0% rain chance), light wind of 4-5 km/h with gusts ~10-13 km/h. No pitch issues reported."
+      },
+      "reason": "I started from p_market 0.774/0.133/0.093 and moved 2.4 pts off home and 1.7 pts onto the draw. The reasons: the de-vigged DraftKings (0.749/0.146) and BetMGM (0.739/0.157) prices, and the Statz model (70/17/13), all rate the home win lower and the draw higher than Polymarket, which has just moved +5.4%. FotMob xG (17.8 for, 14.1 against) also shows Trabzonspor's 22-8 league goal record flatters them. Against that: Trabzonspor have won 6 straight and are 4/4 at home with goals 13-1. Gaziantep have gone 5 without a win, scored 2 in their last 5, and are missing 8 players, including first-choice GK Tobiasz and defender Abena. The European game against Freiburg on Thursday has produced no rotation talk, and Trabzonspor's XI is close to the strongest they have available. With the draw at 15%, under the 25% cap, a straight win is allowed.",
+      "main_risk": "Trabzonspor go ahead but take their foot off with Freiburg four days later, and their leaky defence (14.1 xG conceded in 9 games, 3 conceded at Rize) gives up a late equaliser. The last h2h at Papara Park was 1-1 and 3 of the last 10 meetings were draws. For the same reason, Polymarket's 0.775 may overstate the home win compared with the bookmakers' ~0.74-0.75.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/scoreboard?dates=20261101",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/summary?event=401888263",
+        "https://gamma-api.polymarket.com/events?id=1212549",
+        "https://clob.polymarket.com/prices-history?market=32745600510208672860192901934571706309630739951549644698650322185460894217315&interval=1d&fidelity=60",
+        "https://www.takvim.com.tr/spor/2026/10/31/trabzonspor-gaziantep-fk-super-lig-maci",
+        "https://www.sporx.com/futbol/superlig/trabzonspor/trabzonspor-gaziantep-fk-muhtemel-11-ler-SXHBQ1181354SXQ",
+        "https://www.fanatik.com.tr/trabzonspor/live-trabzonspor-gaziantep-fk-maci-ne-zaman-saat-kacta-hangi-kanalda-muhtemel-11ler-2642985",
+        "https://www.61saat.com/trabzonsporda-gaziantep-fk-maci-oncesi-hesaplar-degisti",
+        "https://www.61saat.com/trabzonspor-maci-oncesi-gaziantep-fk-revire-dondu",
+        "https://www.haber61.net/gundem/trabzonspor-maci-oncesi-gaziantep-fk-da-buyuk-eksik-8-futbolcu-yok/647816",
+        "https://www.sportsgambler.com/betting-tips/football/trabzonspor-vs-gaziantep-prediction-lineups-odds-2026-11-01/",
+        "https://statz.ai/news/19746573-trabzonspor-vs-gaziantep-predictions-betting-tips",
+        "https://www.fotmob.com/api/data/leagues?id=71&ccode3=GBR",
+        "https://www.evrensel.net/haber/6000935/trabzonspor-un-yeni-teknik-direktoru-thomas-reis-imzayi-atti",
+        "https://www.sportsmole.co.uk/football/trabzonspor/preview/trabzonspor-vs-gaziantep-prediction-team-news-lineups_581796.html",
+        "https://api.open-meteo.com/v1/forecast?latitude=40.99&longitude=39.66&hourly=temperature_2m,precipitation,precipitation_probability,wind_speed_10m,wind_gusts_10m&start_date=2026-11-01&end_date=2026-11-01&timezone=UTC"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1214701",
+      "exclude": true,
+      "confidence": "low",
+      "p": {
+        "home": 0.725,
+        "draw": 0.172,
+        "away": 0.103
+      },
+      "checks": {
+        "team_news": "Como (Fabregas presser 31 Oct, via DirettaFanta/Calcionews24): Liberali is back. Out: Kean (about 5 weeks), Diao (training alone, 'oggi non contiamo su di lui'), Addai (new injury at Torino), Chalobah and Jesús Rodríguez. Venezia: Sports Mole lists Šverko, Franjić and Adorante out and Correia struggling with a thigh strain, but its page mixes up the two teams' sections. Mazzocchi is reported injured by Football Whispers but named a probable starter by Sky (vs Haps), so the reports conflict. I found no Nicola pre-match presser for this game after 2 searches.",
+        "lineups": "Como's GK is disputed. Butez is favoured by Fantamaster, SOS Fanta and Sports Mole. Sánchez is the pick of Sky Sport and Statz, and he started at Torino on Tuesday. The sources also split on RB (Smolcic or Couto), the midfield pair (Ricci, Milla, Perrone), RW (Couto or Da Cunha) and LW (Baturina or Caqueret). Venezia's 3-5-2 is broadly agreed: Stankovic; Halhal, Moreno, Juan Jesus; Hainaut, Kike Pérez, Busio/Basic, Sohm, Haps/Mazzocchi; Yeboah/Lauberbach, Adams.",
+        "rotation": "Como play 3 games in 8 days: W 3-1 at Torino (Tue 27 Oct), this game, then at Lens in the Champions League (Wed 4 Nov), then at Inter (8 Nov). Against the Torino XI, Fantamaster's and SOS Fanta's predicted XIs have 5 changes and Sports Mole's has 6. Sports Mole says Fabregas 'may choose to rotate'. Fabregas spoke about rotation and said Douvikas could rest 'domani, mercoledì o domenica… vedremo'. Venezia lost 0-2 at home to Inter on Wed 28 Oct and host Udinese next (Fri 6 Nov), with no Europe.",
+        "motivation": "Como are 4th on a club-record 20 points and chasing the European places. Venezia are 20th on 3 points and fighting relegation, so both sides need the result. It is not a derby. Davide Nicola was appointed at Venezia on 14 Oct (18 days ago, just outside the 14-day rule). He won 1-0 against Napoli on his debut, then lost both games since. Fabregas's job is secure.",
+        "form": "Como in Serie A: D1-1 Udinese, W2-1 Napoli, W4-1 Genoa, W2-1 Parma, L0-2 Frosinone, D0-0 Roma, W3-1 Fiorentina, W2-0 Sassuolo, W3-1 Torino. That is 17 scored and 8 conceded. Understat xG is 20.5 for and 13.5 against (2.28 and 1.50 per game). At home they are 2W 1D with xG 7.9 for and 3.0 against. In the Champions League they beat Leipzig 4-1 and Manchester United 4-1 and lost 2-3 at Feyenoord. Venezia are 1W 8L, 6 scored and 19 conceded. Their xG is 15.6 for and 20.9 against (1.73 and 2.32 per game), so they have scored far fewer goals than their chances suggest. They have 0 points in 4 away games (3 scored, 9 conceded) and have drawn no games this season.",
+        "h2h": "Both Serie A meetings in 2024-25 were draws: Venezia 2-2 Como (8 Dec 2024) and Como 1-1 Venezia at the Sinigaglia (8 Mar 2025, a Gytkjær penalty in the 95th minute). They have not met since because Venezia were in Serie B in 2025-26. Older records differ between sites (GioScore 3-2-2, FotMob 3W 3D 2L).",
+        "odds": "DraftKings (ESPN API) closes at -340/+450/+700, which de-vigs to 71.6/16.8/11.6. It opened at -425/+500/+750 (74.0/15.2/10.8), so the price has drifted against Como. Oddschecker best prices are 3/10, 5/1 and 10/1, de-vigged 74.9/16.2/8.9, with exchanges at 3/10. Football Whispers lists 1.30/5.75/9.50, de-vigged 73.4/16.6/10.0. Polymarket is 74.5/15.5/9.5. Over 24h, Como moved 0.755→0.745 (-1.3%) while the draw (0.155) and Venezia (0.095) were flat. Stake and Rainbet both returned 403.",
+        "models": "Statz model: 72/17/11, most likely score 2-0, projected goals 2.5-0.88, both teams to score 54%. Sports Mole predicts 3-0, Sportskeeda 2-0 and Football Whispers 3-1 (BTTS yes). ClubElo's API refused the connection and its fixtures API is deactivated. Forebet returned 403.",
+        "venue_weather": "Stadio Giuseppe Sinigaglia, Como, at 12:30 local time. Venezia travel about 250 km within northern Italy. Open-Meteo forecasts about 11°C, overcast, dry (0-8% chance of rain) and light wind (gusts around 23 km/h). None of the previews I read mention a pitch problem."
+      },
+      "reason": "Excluded on the rotation and goalkeeper rules. Como are expected to make 5-6 changes from Tuesday's Torino XI (Fantamaster, SOS Fanta, Sports Mole), with a Champions League trip to Lens 3 days later. Fabregas talked about rotation and said Douvikas might rest on Sunday. The starting GK is reported differently: Butez per Fantamaster, SOS Fanta and Sports Mole, Sánchez per Sky and Statz. Venezia's Mazzocchi is also reported both as injured and as starting. On quality, Como are clear favourites: 4th, an xG difference of +0.78 per game, unbeaten at home in all competitions. Venezia are bottom with 1W 8L and no away points. The market estimate starts at Polymarket's 74.65/15.7/9.65. I moved the home win down 2 points and the draw up 1.5. Reasons: both 2024-25 Serie A meetings were drawn, including a 95th-minute Venezia equaliser at the Sinigaglia. The DraftKings draw is 16.8% and drifted against Como, and the Statz model gives 17%. Venezia's attacking xG (1.73 per game) shows they create more chances than their 6 goals suggest. Final estimate: 72.5/17.2/10.3.",
+      "main_risk": "A rotated Como side, playing its third game in 8 days and thinking about Lens on Wednesday, dominates the ball but fails to score. Venezia, compact under Nicola in a 3-5-2 and creating chances (xG 1.73 per game), then nick a goal for a 1-1 draw. The last meeting at the Sinigaglia ended exactly that way, 1-1 with a 95th-minute Venezia penalty.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/como/preview/como-vs-venezia-prediction-team-news-lineups_608051.html",
+        "https://sport.sky.it/calcio/serie-a/2026/10/31/como-venezia-probabili-formazioni-10-giornata",
+        "https://www.fantamaster.it/probabili-formazioni-como-venezia-10-giornata-seriea-2026-2027/",
+        "https://www.sosfanta.com/news/como-venezia-probabili-formazioni-baturina-yeboah-da-cunha-butez-busio-milla-sanchez-couto/",
+        "https://www.direttafanta.com/como-fabregas-liberali-torna-quando-riposa-douvikas-condizioni-kean-e-diao/",
+        "https://www.calcionews24.com/conferenza-stampa-fabregas-pre-como-venezia-parole-serie-a-2026-27/",
+        "https://footballwhispers.com/blog/como-vs-venezia-prediction-01-11-2026/",
+        "https://statz.ai/news/19713525-como-vs-venezia-predictions-betting-tips",
+        "https://www.oddschecker.com/football/italy/serie-a/como-v-venezia/winner",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261101",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/2572/schedule?fixture=true",
+        "https://understat.com/league/Serie_A/2026",
+        "https://gamma-api.polymarket.com/events?id=1214701",
+        "https://clob.polymarket.com/prices-history?market=45085474559530095140661131759816464653380397219967742630198420523089330580548&interval=1d&fidelity=60",
+        "https://sport.sky.it/calcio/serie-a/2026/10/14/venezia-nicola-allenatore-news",
+        "https://api.open-meteo.com/v1/forecast?latitude=45.8135&longitude=9.0725&hourly=temperature_2m,precipitation&start_date=2026-11-01&end_date=2026-11-01"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1209133",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.67,
+        "draw": 0.205,
+        "away": 0.125
+      },
+      "checks": {
+        "team_news": "Lyon: Morton (pubalgia, may need surgery), Openda (fractured fibula), Sulc (meniscus) and Ouédraogo (knee surgery) are out, plus Kango per BFC/Foot01. At his 30 Oct press conference (Ferveur Lyonnaise, Foot-sur7) Fonseca said Tagliafico is back and Tolisso 'va bien'. Nakamura returns from suspension. Flashscore and BFC still call Tolisso and Bidstrup 'diminués/incertains', which conflicts with the manager; Bidstrup's status is unclear but he is not a sure starter. Angers: Gilli (my-angers.info, 31 Oct) said El Ouazzani is out for about 10 days with an adductor injury. Diatta is out, Biumla is out or doubtful, and Belkebla and Mouton are not yet 100%.",
+        "lineups": "Lyon (Flashscore / Foot01 1 Nov / BFC): Greif; Athekame, Bacher, Niakhaté, Abner; Tessmann plus Tolisso/Nartey/Bidstrup; Nuamah, Merah, Nakamura or Duranville; striker Himbert or Merah. The sources agree on the GK, back four, Tessmann and Nuamah but not on the attack, where there is no fit No. 9. Sports Mole's 28 Oct XI is stale (it includes Morton). Angers: Flashscore and BFC agree on a 5-4-1: Lopes; Raolisoa, Camara, Lefort, Arcus, Kalulu; Allevinah, van den Boomen, Belkebla, Sbaï; Peter. Foot01 lists El Ouazzani, but Gilli says he is out.",
+        "rotation": "Lyon lost 0-3 at Hoffenheim (EL, 22 Oct) and 0-2 at PSG (26 Oct). Next is Real Sociedad away in the EL on Thu 5 Nov, 4 days later. Fonseca said he changed many players against PSG because Angers was the priority, so a full-strength side is expected. Angers have no midweek games: last was Lorient (25 Oct), next is Nice at home (8 Nov).",
+        "motivation": "Lyon are 5th on 14 points from 8 games and chasing the top 4. Angers are 14th on 8 points, one point above the relegation zone, with no league win since 19 Sep. Not a derby. Fonseca is established and Gilli was appointed 9 Jun 2026, so no manager change in the last 14 days. Kick-off was moved from Sat 20:45 to Sun 17:15 at the request of the Rhône prefecture/LFP because of expected social protests. Same venue.",
+        "form": "Lyon all comps, last 10: L1-2 Lens(a), W3-2 Palace(h), W2-1 Nice(h), L0-3 Hoffenheim(a), L0-2 PSG(a); before that W2-0 Toulouse(a), D1-1 Le Havre(h), W3-1 Auxerre(h), D0-0 Paris FC(a), W4-0 Rennes(h). League goals 13 for, 7 against. Unbeaten at home in L1 (3W 1D) but blanked in the last two games. Angers L1: L0-2 Lille(h), W3-1 Auxerre(a), L1-2 Rennes(h), D0-0 Le Havre(a), W2-0 Troyes(h), L1-5 Brest(a), L2-5 Marseille(h), D0-0 Lorient(h). Goals 9 for, 15 against; away record 1W 1D 1L. xG not retrieved; Statz projects 2.05 vs 0.89 goals.",
+        "h2h": "Last 5 meetings: Angers 0-0 Lyon (Apr 2026), Lyon 1-0 (Sep 2025), Lyon 2-0 (May 2025), Angers 0-3 Lyon (Dec 2024), Angers 1-3 Lyon (Feb 2023). That is 1 draw in 5. Lyon are unbeaten in 8 L1 meetings (7W 1D per BFC). Angers have never won at the Groupama Stadium and failed to score on their last 3 visits. Style: Angers' new low 5-man block against a Lyon attack missing its forwards.",
+        "odds": "DraftKings (ESPN API): Lyon -245, draw +400 (opened +390), Angers +600, which de-vigs to 0.674/0.190/0.136. O2.5 is -160 (opened -190). Betclic (Flashscore/BFC): 1.35/4.85/6.60, which de-vigs to 0.674/0.188/0.138. Polymarket over 24h: home flat at 0.695 and draw flat at 0.185; away drifted 0.125→0.115, consistent with El Ouazzani being ruled out on 31 Oct. Bookmakers price Lyon about 2 points below Polymarket. Stake and Rainbet both returned 403, so no price was seen.",
+        "models": "Statz (updated 30 Oct): Lyon 64%, draw 21%, Angers 15%, most likely score 2-0. Sports Mole predicts 1-0 Lyon, BFC 2-1 Lyon, Sportskeeda 2-0 Lyon (Sportskeeda from the search snippet only). ClubElo API connection was reset and no data came back.",
+        "venue_weather": "Groupama Stadium, Décines, which is Lyon's home ground. Angers travel within France. Open-Meteo forecast for 16-18 UTC: dry, 10-11°C, wind 23-27 km/h with gusts around 50 km/h. Breezy but not extreme. No pitch issues reported. Kick-off was moved because of protests, but there is no venue change."
+      },
+      "reason": "Starting point is the market (0.6965/0.1869/0.1165). Two bookmakers agree at about 0.674 for Lyon and 0.19 for the draw, and Statz is lower still at 64/21/15. Specific reasons to shade toward the draw: Lyon have scored no goals in two games, Openda, Sulc and Morton are out, and Fonseca himself says attack is the main problem ('ce qui nous manque… solutions offensives'). Angers have switched to a five-man defence that just drew 0-0 with Lorient, and the last H2H was 0-0. Supporting Lyon: Angers lose El Ouazzani, conceded 10 in the two games before the switch, and have never won at Groupama. Lyon won their last three home league games, and Fonseca prioritised this match over PSG, so rotation is low. Result: home 0.67 (-2.65 points), draw 0.205 (+1.8), away 0.125 (+0.85). The draw stays under 25%, so a straight win is allowed. Confidence is medium, not high: the lineup sources disagree on Lyon's front line, Flashscore/BFC still list Tolisso as uncertain against the manager's word, and xG data was not obtained.",
+      "main_risk": "Lyon dominate the ball without a recognised centre-forward against Angers' low 5-4-1 and it ends 0-0 or 1-1, as in April's 0-0, possibly with legs held back for Real Sociedad on Thursday.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876418",
+        "https://gamma-api.polymarket.com/events?id=1209133",
+        "https://clob.polymarket.com/prices-history?market=28156904623076154614179097302620738301875355066925565476247332070367770411438&interval=1d&fidelity=60",
+        "https://www.sportsmole.co.uk/football/lyon/preview/lyon-vs-angers-prediction-team-news-lineups_607902.html",
+        "https://www.foot-sur7.fr/790873-ol-terrible-coup-pour-tyler-morton-4-absents-contre-angers",
+        "https://www.ferveurlyonnaise.fr/ligue-1-j9-ol-angers-sco-fonseca-et-merah-sexpriment-devant-la-presse",
+        "https://www.flashscore.fr/actualites/football-ligue-1-lyon-angers-ou-regarder-le-match-de-la-ligue-1-heure-et-compos/z91Z4joL/",
+        "https://www.butfootballclub.fr/1708944-pronostic-ol-angers-01-11-prono-cotes-et-compos/",
+        "https://www.foot01.com/ligue1/tv-ol-angers-sur-quelle-chaine-et-a-quelle-heure",
+        "https://my-angers.info/10/31/chaque-match-a-sa-verite-angers-sco-veut-surprendre-face-a-lolympique-lyonnais/200320",
+        "https://statz.ai/news/19715562-lyon-vs-angers-predictions-betting-tips",
+        "https://api.open-meteo.com/v1/forecast?latitude=45.765&longitude=4.982&hourly=temperature_2m,precipitation,wind_speed_10m,wind_gusts_10m&start_date=2026-11-01&end_date=2026-11-01"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1214711",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.645,
+        "draw": 0.215,
+        "away": 0.14
+      },
+      "checks": {
+        "team_news": "Lazio: Gudmundsson out with a shoulder problem until after the November break. Marusic and Rovella are still out and expected back for Napoli (Lalaziosiamonoi, 1 Nov). Fantacalcio lists both as doubtful, but neither is a likely starter. Pinamonti is 'not at his best' and on the bench. Cagliari: only Felici and Idrissi (both ACL) are unavailable. Winks has recovered from his back problem and is in the squad list (Unione Sarda, 31 Oct). Pisacane said Maldini has 'a small inflammation' but 'I expect him on the pitch' (Fantacalcio gives him 90%). Sports Mole's 30 Oct preview still had Winks out, but the later reports above supersede it.",
+        "lineups": "Lazio's 4-3-3 is the same in Fantacalcio (31/10), Sports Mole and Lalaziosiamonoi: Mandas; Floriani Mussolini, Doekhi/Sutalo, Provstgaard, Tavares; Frattesi, Belahyane, Taylor; Isaksen, Noslin, Zaccagni. The only open spot is the right centre-back, Doekhi or Sutalo (55/45 on Fantacalcio). Both are fit and Gattuso will choose on Sunday morning. Cagliari's shape differs between sources: 4-4-2 on Fantacalcio (Winks, Fazzini, Maldini–Mendy), 4-2-3-1 on Sports Mole, 3-5-1-1 on Lalaziosiamonoi. Caprile, Mina, Ze Pedro, Obert, Adopo and Romano appear in every version. The differences are selection choices, not fitness doubts.",
+        "rotation": "Both teams played on Tuesday 27 Oct: Lazio won 6-2 at Sassuolo and Cagliari lost 2-4 at Roma. That gives each 5 days' rest. Neither is in Europe. Lazio went out of the Coppa Italia in August and Cagliari in September. Next fixtures: Napoli v Lazio on 8 Nov and Cagliari v Frosinone on 7 Nov. Lazio are expected to make only 1–2 changes (Provstgaard for Diogo Leite, perhaps Doekhi for Sutalo). Sports Mole: 'settled Lazio side'.",
+        "motivation": "Lazio are 1st (25 pts from 9, 8-1-0). Inter lost the Milan derby 3-1 on Saturday, so a win puts Lazio top on their own, ahead of Roma (27). Cagliari are 11th (13 pts) after three straight defeats. This is not a derby. Gattuso has been in charge all season and Pisacane since 2025, so there was no recent manager change. Gattuso publicly warned about a 'difficult match' against a team that 'defends well and counters well'.",
+        "form": "Lazio's last 9 league games: W1-0 BOL(a), W1-0 GEN(h), W2-1 UDI(a), D2-2 MIL(h), W2-0 VEN(a), W3-1 MON(h), W3-0 JUV(a), W2-1 PAR(h), W6-2 SAS(a). Goals 22-7 against Understat xG 18.1 and xGA 11.5, so they are overperforming, mostly in defence. At home: 3W 1D, xG 2.09 and xGA 1.29 per game. Cagliari: W1-0 PAR(a), L0-1 INT(h), W1-0 LEC(h), W2-1 ATA(a), W1-0 UDI(a), D1-1 JUV(h), L0-4 MON(a), L0-2 BOL(h), L2-4 ROM(a). Goals 8-13, xG 11.7 and xGA 18.6. Away: 3W 2L with no draws, xG 1.68 and xGA 2.01 per game, so their recent away games have been open.",
+        "h2h": "Cagliari are winless in 22 Serie A games against Lazio since 2013. Lazio have won 13 of the last 14 home meetings at the Olimpico (Sports Mole). Last 6 meetings: 1-0, 3-1 (a), 2-1, 2-1 (a), 2-0, 0-0 (a, Feb 2026). That is one draw in six, and it was in Sardinia.",
+        "odds": "DraftKings via the ESPN API closed at 1.43/4.30/6.50, de-vigged 64.3/21.5/14.2. It opened at 1.59/3.75/5.25 (57.9/24.5/17.5), so it shortened toward Lazio during the week, which fits Lazio's 6-2 and Cagliari's losing run. Over 2.5 goals is -130. Betexplorer average odds 1.47/4.50/6.91, de-vigged 65.0/21.2/13.8. Polymarket in the last 24h: Lazio 0.675→0.665 (-1.5% relative), draw flat at 0.205, Cagliari flat at 0.125. No unexplained move. Stake and Rainbet both returned Cloudflare 403, so no price was seen.",
+        "models": "Sports Mole's data model: Lazio 55.5%, draw 23.7%, Cagliari 20.8%; most likely score 1-1 (10.7%). My own Poisson check from the Understat xG rates, shrunk toward the league average (about 2.3 v 1.2 goals), gives roughly 61/20/19. ClubElo's API returned 502, Forebet showed a Cloudflare block, and I found no Opta match-level page. Both models are below the market on a Lazio win.",
+        "venue_weather": "Stadio Olimpico, Rome. Cagliari stayed in Rome since Tuesday's game against Roma. A fan boycott continues: about 6,000 tickets sold plus season-ticket holders, roughly 10,000 expected (Corriere dello Sport via Lalaziosiamonoi), which weakens home atmosphere. Open-Meteo forecast for 14:00 UTC: 16°C, no rain, wind about 15 km/h with gusts about 32 km/h. Nothing extreme. Referee: Colombo."
+      },
+      "reason": "I started from the market (66.7/20.7/12.7). Bookmakers de-vig slightly lower on Lazio (DraftKings 64.3/21.5/14.2, Betexplorer average 65.0/21.2/13.8). Both models are lower still (Sports Mole 55.5/23.7/20.8, my xG Poisson about 61/20/19). Lazio's 22-7 goals against 18.1 xG and 11.5 xGA suggests some regression, and the boycott leaves the Olimpico about 10k strong, so I shaded home down 2 points and moved them to the draw (+1) and away (+1.5). Lazio are still clearly better: xGD +6.6 against Cagliari's -6.9. Their lineup is settled, with no Europe, only 1–2 changes and a full week before Napoli. They have the motivation of going top alone after Inter lost. Cagliari have lost 3 in a row and conceded 10 in those games, and are winless in 22 against Lazio. Cagliari's games are open (over 2.5 favoured), which keeps the draw near 21–22% rather than higher. The draw is 21.5%, under 25%, so a straight win is allowed; DNB covers Lazio about 82% of the time. Confidence is medium because of minor doubts: Maldini's 'small inflammation', the Doekhi/Sutalo call on Sunday morning, and both models sitting below the market.",
+      "main_risk": "A flat Lazio, five days after the 6-2 and in a near-empty Olimpico, cannot break down a compact Cagliari who counter, as Gattuso himself warned. A 1-1 draw is the most likely way the favourite fails; it is Sports Mole's single most likely score at 10.7%, and February's meeting ended 0-0. Lazio's defensive overperformance (7 conceded against 11.5 xGA) and their narrow 1-0 and 2-1 home wins point to late-equaliser risk. Cagliari have created 2.5–2.7 xG in their last two away games.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261101",
+        "https://site.api.espn.com/apis/v2/sports/soccer/ita.1/standings",
+        "https://gamma-api.polymarket.com/events?id=1214711",
+        "https://clob.polymarket.com/prices-history?market=66223043539157872442132614673138385124662196551962139599830125088117540522708&interval=1d&fidelity=60",
+        "https://www.sportsmole.co.uk/football/lazio/preview/lazio-vs-cagliari-prediction-team-news-lineups_608091.html",
+        "https://www.sportsmole.co.uk/football/serie-a/lazio-vs-cagliari_game_261404.html",
+        "https://www.fantacalcio.it/probabili-formazioni-serie-a",
+        "https://www.lalaziosiamonoi.it/in-evidenza/formello-lazio-scelte-anti-cagliari-gattuso-dubbio-254704",
+        "https://www.lalaziosiamonoi.it/news/lazio-cagliari-probabili-formazioni-254506",
+        "https://www.lalaziosiamonoi.it/news/cagliari-pisacane-la-lazio-overperformando-gattuso-riferimento-254699",
+        "https://www.lalaziosiamonoi.it/in-evidenza/lazio-cagliari-casa-trasferta-dato-biglietti-venduti-254682",
+        "https://www.unionesarda.it/sport/calcio/lazio-cagliari-i-convocati-di-pisacane-winks-al-rientro-h5nx5taf",
+        "https://www.unionesarda.it/sport/calcio/lazio-cagliari-gattuso-ha-tutte-le-caratteristiche-di-un-partita-difficile-cxaeze1x",
+        "https://understat.com/league/Serie_A/2026",
+        "https://www.betexplorer.com/football/italy/serie-a/",
+        "https://api.open-meteo.com/v1/forecast?latitude=41.9339&longitude=12.4547&hourly=temperature_2m,precipitation_probability,precipitation,wind_speed_10m,wind_gusts_10m&start_date=2026-11-01&end_date=2026-11-01"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1212031",
+      "exclude": true,
+      "confidence": "low",
+      "p": {
+        "home": 0.16,
+        "draw": 0.22,
+        "away": 0.62
+      },
+      "checks": {
+        "team_news": "Twente: Weidmann suspended (second yellow vs AZ). Lemkin (abdominal muscle), Unnerstall, Thorvaldsen and Bruns are out, the same four as last week (club preview fctwente.nl and Twentefans, 30 Oct). Regular RB Bart van Rooij came off injured at 73' vs AZ (ESPN key events). Sports Mole (30 Oct) lists him as a doubt to be assessed before the match, and opstellingvandaag marks him '?' with Rosiak as the alternative. Excelsior: everyone available (opstellingvandaag, Sports Mole). Naujoks is back from a long injury.",
+        "lineups": "Sports Mole: Drommel; Rosiak, Pröpper, Nijstad, Adelgaard; Zerrouki, Van den Belt; Rots, Taha, Ørjasæter; Weghorst. Opstellingvandaag: same spine but Van Rooij at RB '?', plus Ørjasæter/Pjaca and Taha/Hlynsson as open choices. Statz has Van Rooij in and Van den Belt out. The sources disagree at RB. Drommel in goal is agreed, since Unnerstall is out and Drommel started the last 3 games. Excelsior: Van Gassel in goal in a 4-3-3, but sources split on Bos/Janssen, Meissen/Moreira and Groen/Domínguez.",
+        "rotation": "Twente last played Sun 25 Oct at AZ (won 2-0) and had a full week's rest. Next: Thu 5 Nov home vs Pafos (Conference League), then Sun 8 Nov home vs Ajax. The Europe game is 4 days after this one. Van den Brom did not mention rotation, only that 'positions are doubled up'. Excelsior played a cup game on Wed 28 Oct (won 3-0 at MVV). Next: home vs Go Ahead Eagles on 7 Nov.",
+        "motivation": "Excelsior are 12th/13th with 11 pts from 10 games, 5 pts above the relegation zone. Twente are 4th with 20 pts from 10 (Feyenoord lead on 25 from 11), and Van den Brom says 'we want to keep up the fight at the top'. Not a derby. No manager change in the last 14 days in any source read (Van den Brom in charge; Oosting left in Sept 2025).",
+        "form": "Excelsior league results (ESPN): W4-0 Cambuur, L1-2 PSV, W2-1 Sparta, W3-0 Willem II, D2-2 NEC, L1-2 Utrecht, D2-2 Ajax, L1-5 Groningen, L0-4 Heerenveen, L0-1 Fortuna. That is 16-19 overall, 4 league games without a win, 1-10 over the last three, and 1W-3L at home. Twente: L0-1 Heerenveen, W3-1 PEC, W4-1 Cambuur, D2-2 Groningen, W1-0 Telstar, W2-0 ADO, W3-2 PSV, D1-1 Fortuna, L1-2 Utrecht, W2-0 AZ, plus Conference League wins 1-0 Thun and 4-1 Lincoln. That is 19-10, the league's best defence. Away they are 2W-2D-1L, with 2 draws in 5. No xG source was read. Pre-match xG on opstellingvandaag is 1.32 Excelsior vs 1.88 Twente. Shots: Twente 16 at AZ and 24 vs Utrecht, Excelsior 6 at Fortuna.",
+        "h2h": "Last 5 (ESPN): Twente 0-0 Excelsior (Jan 2026), Excelsior 1-0 Twente (Aug 2025), Excelsior 0-3 Twente (Feb 2024), Twente 4-2 Excelsior (Dec 2023), Excelsior 0-0 Twente (Apr 2023). That is 2 draws in 5, and Twente are winless in the last 2 meetings. Twenteinsite: Twente have won at Excelsior only once since 2012. Van den Brom warns of Excelsior's very high intensity and technical quality.",
+        "odds": "DraftKings via ESPN: Excelsior +475, draw +360, Twente -205, which de-vigs to 0.164/0.204/0.632. It opened at +380/+330/-180 (0.192/0.215/0.593), so the price has firmed toward Twente. Polymarket at 05:00 UTC today: Twente moved 0.615→0.645 (+4.9% relative, just under the 5% line) and Excelsior 0.175→0.155 (-11%). The draw is about flat at 0.205. Volume is thin (~$800). Stake and Rainbet pages returned 403, so no price was seen.",
+        "models": "Statz model: Twente 57%, draw 24%, Excelsior 19%, most likely score 1-1 (exp. goals 1.94 vs 1.04). Sports Mole predicts 1-3. Opstellingvandaag: BTTS 80%, over 2.5 goals 70%. ClubElo API returned no data (fixtures endpoint deactivated, club queries empty).",
+        "venue_weather": "Stadion Woudestein (Van Donge & De Roo Stadion), Rotterdam, kick-off 14:30 local, referee Erwin Blank. Travel from Enschede is about 2.5h by road. Open-Meteo: about 11°C, dry, wind 5–6 km/h, gusts about 11 km/h. No pitch issues reported."
+      },
+      "reason": "Excluded under the rule on doubtful likely starters. Bart van Rooij started at RB in all of Twente's recent games, came off injured at 73' vs AZ (ESPN), and is a doubt per Sports Mole (30 Oct). Lineup sources then disagree on who plays RB (Sports Mole has Rosiak, opstellingvandaag has Van Rooij '?', Statz has Van Rooij). Other concerns: Twente host Pafos in Europe on Thursday and Ajax next Sunday. They are only 2W-2D-1L away, H2H has 2 draws in 5, and Twente are winless in the last 2 meetings. Excelsior's collapse (4 league games without a win, 1-10 over the last three) explains the market firming toward Twente (DK -180→-205; Polymarket Twente +4.9% today). With the draw risk, I moved the draw up about 1.5 points from the market (0.203→0.22), mostly out of the Twente win (0.643→0.62). Statz's 24% draw and the H2H support that. Excelsior go 0.153→0.16.",
+      "main_risk": "Excelsior's high-intensity home pressing holds a Twente side missing Weidmann and possibly Van Rooij, with one eye on Pafos and Ajax, to a 1-1 or 0-0. Twente have drawn 2 of 5 away and failed to beat Excelsior in the last two meetings.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/sbv-excelsior/preview/excelsior-vs-fc-twente-prediction-team-news-lineups_608044.html",
+        "https://fctwente.nl/nieuws/vooruitblik-we-willen-de-strijd-bovenin-volhouden",
+        "https://www.twentefans.nl/fc-twente-mist-5-spelers-tegen-excelsior-positieve-update-lemkin/",
+        "https://www.twenteinsite.nl/fc-twente-nieuws/van-den-brom-blikt-vooruit-op-excelsior-uit-daar-staan-ze-al-jaren-om-bekend",
+        "https://opstellingvandaag.nl/eredivisie/excelsior-fc-twente-01-11-2026/",
+        "https://statz.ai/news/19714604-excelsior-vs-fc-twente-predictions-betting-tips",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=401875559",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=401875566",
+        "https://gamma-api.polymarket.com/events?id=1212031",
+        "https://clob.polymarket.com/prices-history?market=35983563076906805206870462190623317370129975965548982742598042240216742434795&interval=1d&fidelity=60",
+        "https://api.open-meteo.com/v1/forecast?latitude=51.917&longitude=4.519&hourly=temperature_2m,precipitation,wind_speed_10m"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1278302",
+      "exclude": true,
+      "confidence": "low",
+      "p": {
+        "home": 0.61,
+        "draw": 0.235,
+        "away": 0.155
+      },
+      "checks": {
+        "team_news": "Charleroi (Kohnen, DH/Walfoot 30 Oct): OUT Mardochée Nzita (regular starter, foot and knee), Antoine Bernier (fractured 5th metatarsal since 28 Aug, recovery delayed), Adama Bojang (bench forward, in hospital with a facial infection, may need surgery). Massamba Sow is listed as doubtful after a knee knock at Mons, but Kohnen says Sunday 'arrive trop vite', so he is effectively out. La Louvière: no club or press team news found. SportsGambler lists Belkheir, Ito and Delos out ('Other').",
+        "lineups": "SportsGambler: Charleroi 4-2-3-1 Koné; Van den Kerkhof, Ousou, Keita, Rowe; Boukamir, Khalifi; Pflücke, Romsaas, Mbemba; Scheidler. RAAL 5-3-2 Peano; Gillot, Faye, Gourville, Lamego, Lutonda; Courcoul, Wade, Coulibaly; Gruber, Ubandoma. Starting11 gives no names, but says Charleroi kept the same XI for five straight games, so Nzita's absence breaks a settled side. WhoScored returned 403; its search snippet still listed Nzita, so it is stale. Only one named predicted XI could be read.",
+        "rotation": "Charleroi: last game 24 Oct, Antwerp 3-0 Charleroi (league). Before that, 17 Oct Cup R32 Mons 0-1 Charleroi after extra time, with 4 changes. No midweek game this week and no European football. RAAL: last game 24 Oct, RAAL 3-0 Zulte Waregem; already through in the Cup. Next fixtures not verified. No rotation signal for either side.",
+        "motivation": "Charleroi 4th on 21 pts (7-0-2) and want to bounce back after Antwerp. RAAL 15th (Walfoot/Kickoff) or 16th (Sporza) on 7 pts, near the relegation zone. Both have stakes. Managers: Kohnen in charge since April 2026; Edward Still appointed by RAAL on 20 May 2026. Still is a former Charleroi coach and Kohnen used to be his assistant. DERBY: Charleroi's own club preview calls it a 'derby régional'. Télésambre says 'derby hennuyer' and 'derby wallon', Circus Daily 'derby hennuyer', Walfoot and DH 'choc hennuyer', and La Libre/DH headlined last season's game 'Un derby peu emballant'.",
+        "form": "Charleroi league: W3-1 OHL (H), W1-0 at Lommel, W2-0 Mechelen (H), W3-1 at Kortrijk, L2-3 Union (H), W1-0 at Zulte, W3-2 Cercle (H), W1-0 at Standard, L0-3 at Antwerp. Goals 16-10, xG 2.0/1.1 per game (Kickoff.co.uk), home 3-0-1 (10-6), zero league draws. RAAL: L1-2 at Anderlecht, L1-2 Gent (H), L0-2 at Standard, D2-2 Mechelen (H), L0-4 at STVV, W3-0 Kortrijk (H), L0-2 at OHL, L1-4 Club Brugge (H), W3-0 Zulte (H). Goals 11-18, xG 1.3/2.1. Away 0 pts with 1 scored and 10 conceded; Kickoff.co.uk says 7 straight away league defeats.",
+        "h2h": "Two top-flight meetings, both last season: 10 Aug 2025 RAAL 1-0 Charleroi (own goal) and 29 Nov 2025 Charleroi 0-0 RAAL (DH: 'une purge'; RAAL had 0 shots on target, Charleroi hit the bar late). Charleroi have not won or scored in either; 1 of 2 drawn. RAAL sit deep (5-3-2).",
+        "odds": "DraftKings (ESPN API) -200/+340/+500, unchanged since open, de-vigged 62.9/21.4/15.7. Bet365 (via Kickoff.co.uk) 1/2, 10/3, 19/4, de-vigged 62.2/21.5/16.2. BetMGM (SportsGambler, 30 Oct) -222/+350/+540, de-vigged 64.6/20.8/14.6. Book average about 63.2/21.2/15.5. Polymarket over 24h: home 0.65 to 0.635 (-2.3% relative), draw 0.21 to 0.215, away 0.135 to 0.145 (+1 cent; about +7% relative on the underdog only), on a thin ~$158 home market. No 5%+ move on the favourite. Stake and Rainbet both returned 403.",
+        "models": "Kickoff.co.uk model 70/18/13, predicted xG 2.4-0.9, most likely score 2-0. Foresportia (search snippet; page 403) 46.7/31.6/21.7, most likely 0-0 or 1-0. Starting11 35/35/30. The models disagree widely, so I stay near the market. ClubElo not checked.",
+        "venue_weather": "Stade du Pays de Charleroi, behind closed doors: sanction for incidents at Standard-Charleroi in May 2026. A sponsor's urgent injunction was rejected on Wednesday 28 Oct (Walfoot, L'Avenir, club site, Télésambre). Travel about 20 km. Referee Erik Lambrechts (Sporza). Open-Meteo for 19:00-21:00 local: 8.5-9°C, dry, wind about 8 km/h with gusts of about 17 km/h. No pitch issues reported."
+      },
+      "reason": "Excluded under the derby rule, plus an unusual venue condition. Charleroi's own preview and several Belgian outlets call it a derby: 'derby régional', 'derby hennuyer', 'derby wallon'. It is not a historic hate-rivalry like Charleroi-Standard, but the rules exclude any derby. It also fits the lesson pattern: Charleroi failed to win or score in both derbies last season (0-1, 0-0). The game is behind closed doors, which removes home advantage. Charleroi are also without regular starter Nzita and attacker Bernier. Probabilities start from the market (63.7/21.7/14.7), which matches the book average. I raised the draw by about 2 points and lowered the home win by about 3 because of closed doors, the absences and the 0-0/0-1 H2H against a deep 5-3-2. Charleroi's 0 draws in 9, xG 2.0 v 1.1 and RAAL's 0 away points limit the move. Draw 23.5% is close to the 25% straight-win limit; DNB @1.23 would be the only sensible leg if the derby rule were waived.",
+      "main_risk": "A low-event 0-0 or 1-1 in an empty stadium. RAAL defend deep in a 5-3-2 as in last season's 0-0 'purge'. Charleroi, without Nzita and Bernier and with no crowd, fail to break them down, or concede a late equaliser after a narrow lead.",
+      "sources": [
+        "https://www.walfoot.be/news/2026-10-30/lun-deux-a-meme-fini-a-lhopital-quatre-absents-pour-charleroi-contre-la-raal",
+        "https://www.walfoot.be/news/2026-10-28/le-choc-hennuyer-entre-charleroi-et-la-raal-finalement-a-huis-clos-une-derniere-tentative-a-echoue",
+        "https://www.dhnet.be/sports/football/division-1a/charleroi/2026/10/30/avant-le-choc-hennuyer-face-a-la-louviere-mario-kohnen-doit-composer-sans-4-joueurs-dont-lun-est-a-lhopital-il-a-une-inflammation-au-visage-FFPPSR5BDBDNHD2TXS4FNUQ674/",
+        "https://www.dhnet.be/sports/football/division-1a/raal-la-louviere/2026/10/30/edward-still-se-rejouit-de-retrouver-mario-kohnen-le-meilleur-entraineur-depuis-le-debut-de-saison-JLXKIPZJDRHDXCLXIVMAKPM43Q/",
+        "https://www.sporting-charleroi.be/news/sporting-de-charleroi-la-louviere-la-preface/",
+        "https://www.telesambre.be/sport/foot/la-preface-de-charleroi-la-louviere-qui-se-jouera-huis-clos/83729",
+        "https://www.circusdaily.com/fr/d1a/charleroi-denonce-l-injustice-du-huis-clos-face-la-louviere-et-appelle-13319",
+        "https://www.rtbf.be/article/charleroi-la-louviere-les-zebres-veulent-se-racheter-direct-commente-et-audio-19h15-11808419",
+        "https://sporza.be/nl/sport/voetbal/~3340118/",
+        "https://sporza.be/nl/matches/voetbal/croky-cup/2026-2027/1-16-finale/01/raec-mons-charleroi-live-keita-breekt-de-ban-op-hoekschop-en-zet-charleroi-op-voorsprong-in-bergen~1790610008351/",
+        "https://www.kickoff.co.uk/belgian-pro-league-predictions-stats-odds/s-charleroi-vs-la-louviere/",
+        "https://www.sportsgambler.com/betting-tips/football/charleroi-vs-la-louviere-prediction-lineups-odds-2026-11-01/",
+        "https://starting11.com/fixtures/charleroi-vs-raal-la-louviere",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261101",
+        "https://gamma-api.polymarket.com/events?id=1278302",
+        "https://clob.polymarket.com/prices-history?market=27612928645308673975008449445697776093436636623352026148215620155003543470555&interval=1d&fidelity=60",
+        "https://api.open-meteo.com/v1/forecast?latitude=50.4153&longitude=4.4535&hourly=temperature_2m,precipitation,wind_speed_10m&start_date=2026-11-01&end_date=2026-11-01"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1215703",
+      "exclude": true,
+      "confidence": "low",
+      "p": {
+        "home": 0.62,
+        "draw": 0.215,
+        "away": 0.165
+      },
+      "checks": {
+        "team_news": "HSV (club press conference and preview on hsv.de): 6 players out. Capaldo, Nadir, Fábio Vieira (last season's top scorer), Poulsen and Remberg are injured, and Vušković is not eligible until 15 Nov. CB Sebastiaan Bornauw took a blow to the jaw in the cup game. Polzin: he is 'weiterhin mit einem Fragezeichen versehen' and the decision comes after Saturday's final training. Ligainsider says this contradicts the Hamburger Abendblatt's earlier report that nothing stood in the way of his return. Torunarigha is back. Frankfurt (Hessenschau ticker, 30.10): Hütter can 'aus dem Vollen schöpfen' and Brassier is fit again. The only absence is Ngankam (rehab, per Ligainsider). 16-year-old Ilicevic is in the squad as a possible sub.",
+        "lineups": "Frankfurt: Ligainsider lists Atubolu, Baum, Koch, Brassier, Kosugi, Doan, Aseko, Götze, Onyedika, Chaibi, Ebnoutalib, Uzun and Burkardt (13 names, so two spots are still open). SportsGambler has a 4-4-2: Atubolu; Collins, Koch, Brassier, Baum; Doan, Aseko, Onyedika, Chaibi; Ebnoutalib, Burkardt, with no Uzun. Hessenschau calls Uzun, Chaibi and Burkardt certain, with Doan vs Ebnoutalib open. They agree on the GK and the spine but disagree on RB (Collins/Kosugi), Uzun/Doan/Ebnoutalib and Götze/Onyedika. HSV: Ligainsider and SportsGambler (3-5-2) agree on Heuer Fernandes (league no. 1; Tangvik is the cup keeper), Nandja, Bornauw (marked 'Angeschlagen' by Ligainsider), Omari, El Ouahdi, Muheim, Møller Wolfe, Adeline, Grønbæk, Moffi and Sambi Lokonga.",
+        "rotation": "Frankfurt have no European games this season (the ESPN all-competitions schedule has only Bundesliga and DFB-Pokal). Their previous game was Tue 27 Oct, DFB-Pokal at HSV (won 3-1). Before it Hütter said 'Doppelspiele gegen den HSV, wo ich natürlich auch rotieren werde' (Ligainsider, 27.10), and Ebnoutalib was benched for the cup game. Next game is Sat 7 Nov at Paderborn, with no midweek game, so Frankfurt are expected to bring back regulars rather than rotate today. HSV: same cup game before this, next game Fri 6 Nov at home to Gladbach, no Europe. Polzin expects Frankfurt to be 'frisch'.",
+        "motivation": "ESPN table: Frankfurt 15th with 8 pts from 7 games, HSV 13th with 9 pts from 7. Both are about 2 points above the relegation zone. Hessenschau calls it a 'Richtungsspiel' and says Frankfurt need 3 points. Not a derby. Hütter returned this summer (after Riera) and Polzin stays in charge, so no manager change in the last 14 days. Sporting director Krösche is leaving and Chatzialexiou takes over in February, which is off-pitch only.",
+        "form": "Understat, Bundesliga. Frankfurt: D 3-3 at Union, L 1-4 vs Augsburg, W 3-1 at Mainz, D 2-2 vs Freiburg, L 0-6 at Leipzig, W 1-0 vs Köln, L 0-1 at BVB, then won 3-1 at HSV in the cup. xG 1.85 for and 2.34 against per game. At home W1 D1 L1 with xG 5.86 for and 5.40 against. The attack is fading lately (xG 1.27 vs Köln, 0.85 at BVB). HSV: L 0-2 at BVB, L 0-5 vs Mainz, L 0-5 at Leipzig, W 2-1 vs Köln, W 3-2 at Hoffenheim, W 1-0 vs Stuttgart, L 0-1 at Paderborn. xG 1.08 for and 2.02 against per game. Away W1 L3, goals 3-9, xG 3.55 for and 6.07 against. No league draws this season.",
+        "h2h": "Last 5 (ESPN): HSV 1-3 SGE (cup, 27.10.26), SGE 1-2 HSV (May 2026), HSV 1-1 SGE (Dec 2025), SGE 3-0 HSV (2018), HSV 1-2 SGE (2017). One draw in 5. Hessenschau says Frankfurt won the cup tie 'mit viel Glück'. HSV created most of the first-half chances, and SportsGambler has HSV ahead 6-5 on shots on target. Style: HSV sit compact in a 3-5-2 with about 40% possession. Hütter was publicly unhappy with Frankfurt's attacking patterns.",
+        "odds": "Bet365 via ESPN: 1.55 / 4.75 / 5.25, de-vigged 61.7 / 20.1 / 18.2 (4.6% margin). BC.Game via Oddslot shows the same 1.55 / 4.75 / 5.25, with 1X at 1.17. SportsGambler has home at -167 (1.60). Polymarket: 63.5 / 20.5 / 16.5. Over 24h Polymarket home went 0.615→0.635 (+3.3% relative), draw stayed at 0.205, and away went 0.175→0.165 (-5.7% relative). The away move is a single 1¢ tick around 23:00 UTC 31 Oct in a market with about $359 volume, and it fits the HSV injury news. Stake and Rainbet both returned 403.",
+        "models": "ClubElo's fixtures API is deactivated and its ratings endpoint returned 502. Forebet is behind a Cloudflare challenge (403), so I stopped. Oddslot's algorithm gives 45/45/10 (unreliable, and its 'chance of winning' panel shows 0%). SportsGambler's tipsters put Frankfurt at 65–70%. Understat xG favours Frankfurt's attack (1.85 vs 1.08 per game), but Frankfurt's defence is the second-leakiest by xGA.",
+        "venue_weather": "Deutsche Bank Park, Frankfurt; HSV travel about 490 km. Open-Meteo for 17:30 CET: about 10°C, 0% precipitation, wind about 5 km/h with gusts 13–16 km/h. No pitch issues reported. Hessenschau reports overnight riots in central Frankfurt after a protest, with no reported link to the match."
+      },
+      "reason": "EXCLUDED. A likely HSV starter is a game-time decision. Bornauw is in both predicted XIs, and Polzin said on Thursday he still has a question mark, with the call after Saturday's final training. That contradicts the Abendblatt's earlier all-clear (Ligainsider 30.10). I found no update after two web searches, hsv.de and Ligainsider. The rules exclude any game where a likely starter on either side is doubtful or reported differently. A second flag on a strict reading of the rules: Hütter talked about rotating across the two HSV games, though he aimed it at the cup tie and Frankfurt should be near full strength today. Probabilities if needed: I start from Polymarket 63.3/20.3/16.3 and blend in Bet365's de-vigged 61.7/20.1/18.2. I add about 1 point to the draw for the pre-mortem: Frankfurt's attack is fading (xG 1.27 and 0.85 in the last two league games), HSV defend compact and low, and Frankfurt needed luck to win the cup tie. HSV's six absences, including Vieira, and their weak away xG (0.89 per game) keep Frankfurt near the market.",
+      "main_risk": "Frankfurt's misfiring attack fails to break down a compact, low-possession HSV 3-5-2. Then either the game ends 1-1 or 0-0, or HSV score on the counter against a defence giving up 2.3 xG per game, as Moffi did in the cup.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261101",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884752",
+        "https://gamma-api.polymarket.com/events?id=1215703",
+        "https://clob.polymarket.com/prices-history?market=63344937258926322531309565203042590230182549011943715000797928611216728792233&interval=1d&fidelity=60",
+        "https://www.ligainsider.de/hamburger-sv/9/",
+        "https://www.ligainsider.de/eintracht-frankfurt/3/",
+        "https://www.ligainsider.de/sebastiaan-bornauw_18822/bornauw-einsatz-gegen-frankfurt-doch-noch-fraglich-420043/",
+        "https://www.ligainsider.de/eintracht-frankfurt/3/huetter-kuendigt-rotation-gegen-hamburg-an-419741/",
+        "https://www.hsv.de/news/am-sonntag-geht-es-in-der-bundesliga-um-andere-dinge",
+        "https://www.hsv.de/news/sge-vs-hsv-naechstes-duell-neue-vorzeichen",
+        "https://www.hessenschau.de/sport/fussball/eintracht-frankfurt/richtungsspiel-fuer-eintracht-frankfurt-gegen-den-hsv--mit-niko-ilicevic-v1,eintracht-hsv-vor-100.html",
+        "https://www.hessenschau.de/sport/fussball/eintracht-frankfurt/eintracht-frankfurt-news-ticker-hoch-die-haende,bundesliga-ticker-104.html",
+        "https://www.hessenschau.de/sport/fussball/eintracht-frankfurt/hsv--eintracht-frankfurt-sge-kommt-mit-viel-glueck-im-dfb-pokal-weiter-v1,hsv-eintracht-pokal-100.html",
+        "https://www.sportsgambler.com/betting-tips/football/eintracht-frankfurt-vs-hamburger-sv-prediction-lineups-odds-2026-11-01/",
+        "https://oddslot.com/football/match/bundesliga/eintracht-frankfurt/hamburger-sv/1-nov-2026/",
+        "https://understat.com/team/Eintracht_Frankfurt/2026",
+        "https://understat.com/team/Hamburger_SV/2026",
+        "https://api.open-meteo.com/v1/forecast?latitude=50.0686&longitude=8.6455&hourly=temperature_2m,precipitation,wind_speed_10m&start_date=2026-11-01&end_date=2026-11-01"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1212553",
+      "exclude": true,
+      "confidence": "low",
+      "p": {
+        "home": 0.18,
+        "draw": 0.24,
+        "away": 0.58
+      },
+      "checks": {
+        "team_news": "Beşiktaş: captain Orkun Kökçü (heel) and Miretti (shoulder) are out. Fotomaç, Aspor and Fanatik on match day all say they are the only two absentees. The CONFLICT is Václav Černý, who started the last two league games and was subbed at 56' v Başakşehir. Sports Mole (30 Oct) says he 'picked up a problem v Başakşehir and has been ruled out'. FotMob lists him injured until mid-November. Fotomaç, Fanatik, TRT Spor and Aspor all have him starting. Sports Mole and FotMob also list Rashica (hamstring) and Ümit Akdağ (wrist) as out; both are fringe players. Emirhan Topçu and Trossard are one booking from a ban. Kasımpaşa: Kamil Çörekçi is out (Achilles). Mouanga, Diabaté and Frimpong are doubtful (Sports Mole, FotMob), but none started either of the last two league games. Ben Ouanes is back per Sports Mole but doubtful per FotMob; he is a bench player.",
+        "lineups": "Kasımpaşa: Fotomaç, Fanatik and Sports Mole broadly agree: Gianniotis; Winck, Arous, Ilie, Ayberk Karapo; Mendes, Kerem Demirbay, Baldursson (Sports Mole has Hajradinovic); Rak-Sakyi, Ali Yavuz Kol, Benedyczak. This matches the ESPN XIs v Samsunspor and Eyüpspor. Beşiktaş: Fotomaç, Fanatik and TRT Spor give Nübel; Murillo, Agbadou, Emirhan, Rıdvan Yılmaz or Ouattara; Salih Özcan, Ndidi, Olaitan; Černý, Trossard, Vlahović. Sports Mole has Poku instead of Černý and a different midfield. So the sources disagree on Černý and at left-back.",
+        "rotation": "Beşiktaş: last game Mon 26 Oct v Başakşehir (W 2-0), so 6 days' rest. Next is a Europa League trip to Celtic on Thu 5 Nov, then Gençlerbirliği at home on 8 Nov. Expected XI is almost the same as last week (0–1 changes). Sporx reports Italiano plans to start Oh in one of Kasımpaşa/Celtic and Vlahović in the other, but Turkish lineup reports have Vlahović starting today. That is not 5+ changes. Kasımpaşa: beat Çorluspor 3-1 in the Turkish Cup on Thu 29 Oct with a rotated XI, so the first XI is rested. Next game away at Gaziantep on Fri 6 Nov.",
+        "motivation": "Beşiktaş are 4th on 18 pts, 7 behind leader Galatasaray, who won at Konya this round. Fanatik calls the game 'kritik' for staying in the title race and fixing a 'deplasman alarmı' (away-form alarm). Kasımpaşa are 6th/7th on 16 pts, with one defeat in 9 and unbeaten at home. Both sides are fully motivated. Managers are stable: Italiano was appointed in June 2026 and Emre Belözoğlu was already in charge in September. Derby call: both are Istanbul clubs (stadiums a few km apart), but the Turkish press does not treat this as a derby. Fotomaç, Aspor and Fanatik call it a 'zorlu deplasman' (tough away game) against a bogey side, and in the same articles use 'derbi' only for the Trabzonspor and Fenerbahçe games. One older English preview called a past meeting 'an Istanbul derby in nature'. My judgement: a local same-city game, not a fierce rivalry. That alone would not exclude it, but the bogey record is real.",
+        "form": "Kasımpaşa league, last 6 (newest first): W 1-0 at Eyüpspor, W 4-1 v Samsunspor, L 1-3 at Galatasaray, D 0-0 v Konyaspor, W 2-1 at Gençlerbirliği, D 2-2 v Amed; plus the cup win, W 3-1 v Çorluspor. Season: 4-4-1, goals 13-9, FotMob xG 10.3 for and 10.2 against (about 1.15 per game each way). Expected points are 12.4 against 16 actual, so they are over-performing (FotMob's xG table ranks them 10th). Home record 1W 3D 0L, goals 7-4. Beşiktaş all competitions (newest first): W 2-0 v Başakşehir, D 2-2 v Crystal Palace (UEL), L 0-2 at Trabzonspor, W 3-2 at Hoffenheim, W 2-1 v Kocaelispor, L 2-3 at Amed, W 4-1 v Marseille, W 3-0 v Erzurum. League 6-0-3, goals 18-10, FotMob xG 16.5 for and 8.4 against. Home 5-0-0 (14-3). Away 1W 0D 3L (4-7), with defeats at Alanyaspor, Amed and Trabzonspor and the only away win 2-1 at Fenerbahçe.",
+        "h2h": "Last 6 league meetings (newest first): BJK 2-1 KAS (Mar 2026), KAS 1-1 BJK (Oct 2025), KAS 1-1 BJK (Apr 2025), BJK 1-3 KAS (Nov 2024), KAS 2-1 BJK (May 2024), BJK 1-3 KAS (Jan 2024). Beşiktaş have 1 win in the last 5–6 meetings and are winless on their last 3 visits (D, D, L). All-time in the league: 46 games, BJK 27 wins, KAS 9, draws 10 (Fotomaç). Style: Kasımpaşa sit around 35–49% possession and counter through Benedyczak. Beşiktaş dominate the ball (62–65%) but have been fragile away.",
+        "odds": "DraftKings (ESPN API): Kasımpaşa +425, draw +320, Beşiktaş -170 (opened +400/+310/-180, a slight drift away from Beşiktaş). De-vigged: 0.180/0.225/0.595. Bet365/best prices on KickOff: 15/4, 10/3, 8/15, de-vigged about 0.193/0.211/0.596. Polymarket: 0.165/0.215/0.625. Over 24h Beşiktaş moved 0.61→0.625 (+2.5% relative), Kasımpaşa 0.17→0.165, draw 0.22→0.215. All under 5% and mild. Polymarket rates Beşiktaş about 3 points higher than the books do. Stake and Rainbet both returned 403, so I saw no price there.",
+        "models": "Sports Mole data model: home 27.6%, draw 26.7%, away 45.7%; most likely score 1-1 (12.1%). KickOff algorithm: home 41%, draw 25%, away 34%; most likely score 1-1 (12%). FotMob xG table ranks Beşiktaş 2nd on expected points and Kasımpaşa 10th. ClubElo's API returned 502 and Forebet returned 403.",
+        "venue_weather": "Recep Tayyip Erdoğan Stadium, Kasımpaşa/Beyoğlu, Istanbul (capacity 14,234, grass). Travel for Beşiktaş is a few km across the city. Kick-off 19:00 local, referee Reşat Onur Coşkunses. FotMob forecast: 17°C, mostly cloudy, 9% chance of rain, light ENE wind, 84% humidity. Nothing unusual."
+      },
+      "reason": "Excluded because sources disagree on a likely starter. Václav Černý started both recent league games, but Sports Mole and FotMob say he is ruled out (FotMob gives a mid-November return) while Fotomaç, Fanatik, TRT Spor and Aspor list only Kökçü and Miretti as absent and start Černý. Draw risk is also above the market's. Kasımpaşa are unbeaten at home (1W 3D), drew both of their last two home meetings with Beşiktaş 1-1, and Beşiktaş have won 1 of their last 6 against them. Beşiktaş are 1W-3L away this season, play at Celtic on Thursday, and are without captain Kökçü. Both models make 1-1 the most likely score and give the draw 25–27%. Against that, Beşiktaş's xG profile (16.5 for, 8.4 against) is much stronger than Kasımpaşa's (10.3 for, 10.2 against), and Kasımpaşa are over-performing their xG, so I stayed near the bookmaker consensus (about 0.595 Beşiktaş, 0.21–0.225 draw). Estimate: Beşiktaş moved down 4.3 points from Polymarket's 0.623 toward the books and models, draw up 2.7 points, Kasımpaşa up 1.7 points. All moves are within the ±5-point limit.",
+      "main_risk": "A draw, most likely 1-1. Kasımpaşa sit deep and counter at home, where they have drawn 3 of 4 this season and both recent meetings with Beşiktaş. Beşiktaş are poor away (1W-3L), may look ahead to Celtic on Thursday, are missing Kökçü and possibly Černý, and could concede a late equaliser. Both models put 1-1 as the single most likely score.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/kasimpasa/preview/kasimpasa-vs-besiktas-prediction-team-news-lineups_608108.html",
+        "https://www.sportsmole.co.uk/football/super-lig/kasimpasa-vs-besiktas_game_261436.html",
+        "https://www.fotomac.com.tr/besiktas/2026/11/01/besiktas-kasimpasa-virajinda-muhtemel-11ler",
+        "https://www.fanatik.com.tr/besiktas/live-kasimpasa-besiktas-maci-ne-zaman-saat-kacta-hangi-kanalda-muhtemel-11ler-2642976",
+        "https://www.fanatik.com.tr/besiktas/besiktasta-deplasman-alarmi-italianodan-kasimpasaya-ozel-hazirlik-2642979",
+        "https://www.trtspor.com.tr/haber/futbol/besiktasin-kasimpasa-maci-11inde-kimler-olacak-33841099",
+        "https://www.aspor.com.tr/besiktas/2026/11/01/besiktas-kritik-kasimpasa-virajinda-iste-vincenzo-italianonun-muhtemel-11i",
+        "https://www.milliyet.com.tr/skorer/besiktasta-vincenzo-italianodan-orkun-kokcu-sarti-hedef-kasimpasa-maci-7688976",
+        "https://www.sporx.com/vincenzo-italiano-dan-vlahovic-ve-oh-plani-SXHBQ1181224SXQ",
+        "https://www.fotmob.com/matches/kasmpasa-vs-besiktas/1tuv82#5904786",
+        "https://www.fotmob.com/api/data/leagues?id=71",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/scoreboard?dates=20261101",
+        "https://www.kickoff.co.uk/turkish-super-lig-predictions-stats-odds/kasimpasa-vs-besiktas/",
+        "https://gamma-api.polymarket.com/events?id=1212553",
+        "https://clob.polymarket.com/prices-history?market=894689894369121485073147564179687813928223527994332950661901483748470020351&interval=1d&fidelity=60"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1253826",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.56,
+        "draw": 0.24,
+        "away": 0.2
+      },
+      "checks": {
+        "team_news": "STVV: RB Robert-Jan Vanwesemael is suspended after his red card at Club Brugge. He came off the bench there, so he was not in the league XI. Voetbalkrant/HBvL (31 Oct) say Hata starts at right-back and Muja is 'topfit'. FotMob and Sportsgambler list no other absentees. OHL: Birger Verstraete is out with a 4-match ban from the cup red card (Voetbalkrant 21 Oct; also listed on FotMob and Sportsgambler). The club report on the Lommel game says defenders Óscar Gil and Noë Dussenne are injured and were replaced by Ogiwara and Pletinckx; Sportsgambler lists both as out, FotMob does not list them, and no source says either is fit. Verlinden and Osifo are 'day to day' on FotMob but are not regular starters. GK Dani van den Heuvel was declared fit (Voetbalnieuws/Voetbalfocus, 23 Oct) and started vs Lommel. Neither starting keeper is in doubt. Simons' touchline ban from the cup red card is fully suspended.",
+        "lineups": "Sportsgambler and Statz.ai give the same XIs. STVV (4-2-3-1): Kokubo; Hata, Takai, Taniguchi, Pupe; Sissako, Ishiwatari; Mbuku, Sebaoui, Shinkawa; Bazdar. OHL (3-4-3): van den Heuvel; Lawrence, Pletinckx, Nyakossi; Opoku, George, Schrijvers, Ogiwara; Lakomy, Mirisola, Balikwisha. FotMob shows the same XIs but labels them 'last starting XI'. The sources agree, but they mostly repeat each side's previous league XI, so they are not independent predictions.",
+        "rotation": "STVV: previous games were Midtjylland away (Thu 22 Oct, UECL, won 1-0) and Club Brugge away (Sun 25 Oct, lost 2-3). Next is SK Brann at home on Thu 5 Nov (UECL; STVV are 6/6 and the club calls qualification 'within reach'), then Zulte Waregem on 8 Nov. De Meyer already splits league and European XIs by about 4 changes: the Brugge XI had 4 changes from the Midtjylland XI. The predicted XI here is the Brugge XI, so about 0–1 changes from the last league game. De Meyer said 'match by match, don't look ahead to OHL–Brann–ZW' and 'at home to OHL we must go all out for the win'. He did not talk about rotating. OHL: last game Lommel (24 Oct); they had no midweek game and play Mechelen next on 7 Nov. No rotation expected.",
+        "motivation": "Bottom-half six-pointer in the 18-team league (ESPN/FotMob tables): STVV 14th with 8 pts from 9 games, OHL 16th with 6 pts from 9. Both need the points. No source calls this a derby. Sources use 'Limburg derby' for STVV vs Genk or Lommel, and Voetbalkrant's preview and the clubs' pages do not call it one. STVV's site says the 'combiregeling' ticketing rule applies, which restricts away-fan tickets, but does not call it a rivalry. Managers: De Meyer took over at STVV in June 2026 and fans called for him to go after the Mechelen defeat. Simons was appointed at OHL in June 2026. Both are still in charge per Voetbalkrant (31 Oct) and Sportsgambler (30–31 Oct). No change in the last 14 days.",
+        "form": "STVV: lost their last 4 league games (Waasland-Beveren 0-2, Westerlo 0-2 at home, Mechelen 3-4, Club Brugge 2-3). They won all three cup and European games in that span (Iberia 2-0, Lommel United 4-1 in the cup, Midtjylland 1-0 away) and scored 12 goals in their last 5 (FotMob). League record 2-2-5, goals 17-19. FotMob xG 17.6 for and 16.8 against (1.95/1.87 per game). FotMob expected points 13.0 against 8 actual, so they have underperformed their numbers. Home league record 1-1-2, goals 5-6. OHL: started with 0 points from 5 games, then went unbeaten in 5 across all competitions: Cercle 1-1, La Louvière 2-0, Union away 1-1, a cup win over Francs Borains, and Lommel 2-2 (equaliser conceded in stoppage time). League record 1-3-5, goals 8-16. xG 12.4 for and 15.2 against (1.37/1.69 per game). Away record 0-1-3, goals 2-8.",
+        "h2h": "Voetbalkrant's list of meetings: of the last 10, STVV won 3, OHL 3, and 4 were draws. STVV won the last two (1-0 at home in Jan 2026, 2-1 away in Nov 2025). The last 10 games at Stayen: STVV won 6, drew 4, lost 0 (draws 1-1, 1-1, 0-0, 2-2). Starting11 counts 19 meetings: STVV 7, OHL 6, draws 6. On style, STVV play front-foot on their artificial pitch, while OHL (about 47% possession) rely on pace and physicality, as De Meyer noted. Both concede often, which points to goals more than a cagey game.",
+        "odds": "DraftKings via ESPN, close: STVV -150, draw +310, OHL +370 (1.67/4.10/4.70). De-vigged that is 0.568/0.231/0.201. It opened at -170/+310/+380 (0.582/0.225/0.193), so STVV drifted slightly. Oddsportal shows three books: 1.62/4.20/4.75, 1.68/4.00/4.75 and 1.66/4.10/4.70 (average 1.65/4.10). De-vigged: home 0.564–0.579, draw 0.223–0.237, away about 0.20. Statz.ai lists bet365 STVV 1.62 and draw 4.20, Ladbrokes OHL 4.80. Totals point to goals: DraftKings over 2.5 at -175, bet365 over 2.5 at 1.57. Polymarket over 24h: STVV 0.585 to 0.575 (-1.7% relative), draw 0.22 to 0.225, OHL 0.185 to 0.195. That move is under the 5% threshold. Stake and Rainbet returned 403, so no price was seen.",
+        "models": "Sports Mole data model: 59.4/22.0/18.6, likeliest score 1-1 at 10.0%. Statz.ai: 59/21/20, expected goals 2.1 vs 1.15, predicted score 2-1 with 1-1 next. KickOff algorithm: STVV 55%, most likely score 1-1 (11%). Betimate: STVV 58%. ClubElo's fixtures API is deactivated and its ratings API returned 502. Forebet returned 403.",
+        "venue_weather": "Daio Wasabi Stayen, Sint-Truiden, capacity 11,756, artificial turf (STVV's normal home pitch). Kick-off 16:00 local. OHL travel about 40 km. The 'combiregeling' ticketing rule applies. FotMob forecast: 10°C, cloudy, 5% chance of rain, light wind. Nothing unusual."
+      },
+      "reason": "I started from the market (0.577/0.227/0.197). The bookmakers agree with it: DraftKings de-vigs to 0.568/0.231/0.201 and the Oddsportal books to about 0.56–0.58/0.22–0.24/0.20. The models are slightly higher on STVV (Sports Mole 59.4%, Statz 59%), and STVV's xG (1.95 for, 1.87 against; 13.0 expected points against 8 actual) supports the home win. Against that, STVV have lost 4 league games in a row and are 1-1-2 at home, OHL are unbeaten in 5 with 3 draws in their last 4 league games, and the head-to-head is draw-heavy (4 of the last 10, and 4 of the last 10 at Stayen). STVV also host Brann in the Conference League on Thursday. So I moved about 1.3 points to the draw and about 1.7 points off STVV, to 0.56/0.24/0.20. Draw at 0.24 is just under the 25% limit for a straight win. Draw no bet or double chance is the safer leg. The checks are otherwise clean: no manager change, no derby label, the price move is under 5%, both starting keepers are fit, STVV's only absentee is a non-starter, and rotation should be limited because De Meyer already uses separate league and European XIs and said they must go all out to win. Confidence is medium because of STVV's league slump and the draw-prone matchup.",
+      "main_risk": "A draw, probably 1-1. STVV are out of form in the league and may manage minutes with Brann on Thursday, and they fail to break down an OHL side that is unbeaten in 5. Draws are 4 of the last 10 meetings at Stayen, and both 1-1 forecasts (Sports Mole 10.0%, KickOff 11%) make it the likeliest single score.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261101",
+        "https://gamma-api.polymarket.com/events?id=1253826",
+        "https://clob.polymarket.com/prices-history?market=47590456358795550502681860126604336795160401998973897870224797532296738436045&interval=1d&fidelity=60",
+        "https://www.sportsgambler.com/betting-tips/football/sint-truiden-vs-oh-leuven-prediction-lineups-odds-2026-11-01/",
+        "https://statz.ai/news/19726023-sint-truiden-vs-oh-leuven-predictions-betting-tips",
+        "https://www.sportsmole.co.uk/football/belgian-pro-league/sint-truiden-vs-leuven_game_261420.html",
+        "https://www.kickoff.co.uk/belgian-pro-league-predictions-stats-odds/st-truiden-vs-leuven/",
+        "https://www.oddsportal.com/football/belgium/jupiler-pro-league/",
+        "https://www.fotmob.com/matches/oh-leuven-vs-sttruiden/158yl8#5811798",
+        "https://www.voetbalkrant.com/nieuws/2026-10-31/de-meyer-zet-stvv-stevig-onder-druk-voor-duel-met-ohl",
+        "https://www.voetbalkrant.com/belgie/jupiler-pro-league/2026-2027/kalender/speeldag-10/sint-truiden/oh-leuven",
+        "https://www.voetbalkrant.com/nieuws/2026-10-21/harde-klap-voor-oh-leuven-birger-verstraete-krijgt-zware-straf-na-rode-kaart",
+        "https://ohleuven.com/news/oh-leuven-ziet-verdiende-zege-in-allerlaatste-seconden-door-de-vingers-glippen/",
+        "https://ohleuven.com/news/ga-mee-naar-stvv/",
+        "https://www.stvv.com/nl/nieuws/artikel/de-week-van-de-waarheid",
+        "https://www.voetbalnieuws.be/news/930888/simons-looft-smaakmaker-ohl-anderen-hebben-dat-niet",
+        "https://voetbalfocus.be/robin-mirisola-opnieuw-speelklaar-timmy-simons-ohl/",
+        "https://starting11.com/fixtures/sint-truiden-vs-oh-leuven",
+        "https://www.sportsmole.co.uk/football/sint-truiden",
+        "https://sporza.be/nl/2026/06/10/stvv-promoveert-assistent-frederic-de-meyer-als-opvolger-van-succescoach-wouter-vrancken~1781104775305/",
+        "https://sporza.be/nl/2026/06/23/oh-leuven-kiest-voor-timmy-simons-als-nieuwe-hoofdcoach-uitgesproken-winnaarsmentaliteit~1782220475657/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1277804",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.2,
+        "draw": 0.255,
+        "away": 0.545
+      },
+      "checks": {
+        "team_news": "Gent: CB Christian Burgess ('absolute sterkhouder') hurt his ankle in training on 31 Oct and is confirmed OUT, with scans on Monday (Sporza, Voetbalkrant). Voetbalkrant says Paskotši may move across with Volckaert coming in. Also out: Balikwisha and Vergara (not yet available, per De Mil reports on Voetbalkrant/Sporza), Ngom (ACL, out until about June 2027), Essaoubi and Asselman, and Vanzeir (red-card suspension until 7 Nov, per SportsGambler). Lommel: Banguera (ACL) and Wouters (calf) are out; Seuntjens and De Grand are listed 'day to day' by FotMob. None of those four is in either predicted XI. Both GKs (Roef, Pieklak) are fit.",
+        "lineups": "SportsGambler (updated 1 Nov 00:38) and FotMob give identical XIs. Lommel 4-2-3-1: Pieklak; van Duiven, Eyoma, Tolinsson, Adewoye; Pelupessy, Nypan; Talvitie, Schoofs, Appuah; Konadu. Gent 3-4-2-1: Roef; Paskotši, Burgess, Van der Heyden; Goore, De Vlieger, Delorge, Araújo; Kadri, Sonko; Cissé. Both predate the Burgess injury, so expect one change at the back (Volckaert or a reshuffle). VoetbalPrimeur says official XIs are not yet known.",
+        "rotation": "Gent: last game Sun 25 Oct, 4-0 at home to Anderlecht (league). They are out of the cup since losing on penalties at Rochefortoise on 18 Oct, so a full week's rest. Next: Thu 5 Nov away at KuPS Kuopio (Conference League league phase, long trip to Finland), then Kortrijk on 8 Nov. No rotation talk from De Mil in the press reports I read. Expect about 1 forced change (Burgess), not 5+. Lommel: last game 24 Oct, 2-2 at OHL; out of the cup (lost 4-1 at STVV on 18 Oct); next 7 Nov at Antwerp. No midweek games, minimal changes.",
+        "motivation": "Gent are 3rd on 25 pts from 9 games (8W 1D 0L, 19-4 goals) with a game in hand on Club Brugge (27) and Union (26). A win puts them top alone. Voetbalkrant notes this season has no play-offs, so early points matter. Lommel are a promoted side, 8th on 12 pts (3W 3D 3L, 11-11), with no relegation pressure. No derby or rivalry (Limburg vs East Flanders). Managers are settled: De Mil has coached Gent since Dec 2025, and Lee Johnson was on Lommel's bench on 24 Oct. No changes in the last 14 days.",
+        "form": "Gent, all competitions: W 2-0 at Zulte, W 1-0 vs AGF (UECL), D 3-3 at Rochefortoise (cup, out on penalties after leading 3-1), L 0-2 at Braga (UECL), W 4-0 vs Anderlecht. League: 8 wins and 1 draw (1-1 at Genk). Away league games: 2-1, 3-0, 1-1, 2-0. Many narrow wins (1-0, 2-1, 2-1), best defence in the league (4 conceded, 5 clean sheets). Lommel league: L 0-1 vs Brugge, L 0-5 at Union, D 0-0 vs Mechelen, W 3-1 at Beveren, D 2-2 at OHL (equaliser in 90+6). Also lost 1-4 at STVV in the cup. Home: 1W 1D 2L, only 4 scored and 2 conceded in 4 games (0-1 Charleroi, 4-0 Westerlo, 0-1 Brugge, 0-0 Mechelen). No xG obtained: FBref and FootyStats returned 403, and FotMob league team stats show 'not available'.",
+        "h2h": "No recent top-flight meetings. Voetbalkrant/Walfoot list old games: Lommel 2-1 Gent (06/08, apparently a 2022 friendly), cup 0-2 (2021-22) and cup 0-1 (2014-15). FotMob counts H2H as Gent 2 wins, Lommel 0, 0 draws. Style: Gent dominate the ball and win narrowly; Lommel's home games are tight and low-scoring.",
+        "odds": "DraftKings (ESPN API): Lommel +350, draw +290, Gent -140, unchanged from open. De-vigged: 0.209 / 0.242 / 0.549. BetMGM (via SportsGambler, 30 Oct): 5.00 / 3.75 / 1.65, de-vigged 0.186 / 0.249 / 0.565. BetMGM Gent DNB -417 (1.24). Polymarket over 24h: Gent 0.55→0.575 (+4.5% relative, under the 5% threshold), Lommel 0.205→0.195, draw 0.25→0.235 (-6% relative, on thin volume of about $645). The bookmakers did not move, and the drift went toward Gent despite the Burgess news, so I treat it as thin-market noise, not information. Totals: o2.5 -140, about 2.7 goals expected. Stake and Rainbet both returned 403; no price seen.",
+        "models": "Sports Mole data model: Lommel 24.88%, draw 25.73%, Gent 49.39%; likeliest scores 1-1 (11.9%) and 0-1 (10.7%). Forebet and ClubElo were blocked (403), so no numbers taken from them. Voetbalkrant/Walfoot fan poll (not a model): 7.5 / 16.2 / 76.4. SportsGambler's analysts put Gent at 60-65%.",
+        "venue_weather": "Soevereinstadion, Lommel. A normal home venue, not neutral, and about a 1h45 drive for Gent. Open-Meteo forecast for kick-off (17:30 UTC): about 9°C, dry (0 mm, 7-10% rain chance), wind about 6 km/h with gusts around 13. No pitch issues reported. Referee: Kevin Van Damme (per Sporza page)."
+      },
+      "reason": "I started from Polymarket (0.193/0.233/0.573) and moved toward the bookmaker and model consensus, which prices the draw higher: DraftKings 0.242, BetMGM 0.249, Sports Mole model 0.257. I also moved Gent down. Their key centre-back Burgess was ruled out late on 31 Oct (Sporza and Voetbalkrant), after the BetMGM price and probably not in the Polymarket drift. Gent are also missing Vanzeir, Balikwisha, Vergara and Ngom, and travel to Finland for the Conference League 4 days later. Lommel's home games are low-scoring (5 goals in 4; they held Brugge to 0-1 and Mechelen to 0-0), and Gent's league wins are often by one goal. That supports a draw of about 25.5%, and with the draw above 25% a straight Gent win is not allowed. Gent are still clearly the better side: unbeaten in the league, best defence, a title race with no play-offs, a full week's rest and a fit first-choice XI apart from Burgess. So Gent DNB or Double chance is the right leg type; DNB is about 73% to win or push. Confidence is medium, not high: no xG data, one defensive change still unconfirmed, and small Polymarket drift on a thin book.",
+      "main_risk": "A 0-0 or 1-1 draw. Lommel sit compact at home, as they did against Brugge and Mechelen, while Gent's back three is reshuffled without Burgess. Gent then fail to break through, or concede a late equaliser like the 90+6 header Lommel scored at OHL, or the lead Gent threw away at Rochefortoise.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261101",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/summary?event=401878954",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/3611/schedule?fixture=true",
+        "https://gamma-api.polymarket.com/events?id=1277804",
+        "https://clob.polymarket.com/prices-history?market=77660497109318977861708587557489456975329478761090961164496606682659949507160&interval=1d&fidelity=60",
+        "https://sporza.be/nl/matches/voetbal/jupiler-pro-league/2026-2027/regulier/10/lommel-sk-kaa-gent-domper-voor-kaa-gent-sterkhouder-christian-burgess-valt-op-training-uit-met-enkelblessure~1781871604336/",
+        "https://www.voetbalkrant.com/nieuws/2026-10-31/nog-meer-pech-voor-de-leider-absolute-sterkhouder-valt-uit-bij-kaa-gent",
+        "https://www.voetbalkrant.com/nieuws/2026-10-30/gent-zit-in-goede-flow-maar-de-mil-ziet-iets-wat-hem-blijft-storen",
+        "https://www.voetbalkrant.com/nieuws/2026-10-31/club-brugge-en-aa-gent-zetten-belgische-titelstrijd-op-scherp-historisch-puntenaantal-lonkt",
+        "https://www.voetbalkrant.com/belgie/jupiler-pro-league/2026-2027/kalender/speeldag-10/lommel-sk/kaa-gent",
+        "https://www.sportsgambler.com/betting-tips/football/lommel-vs-gent-prediction-lineups-odds-2026-11-01/",
+        "https://www.fotmob.com/matches/lommel-vs-gent/2ayof2",
+        "https://www.sportsmole.co.uk/football/belgian-pro-league/lommel-united-vs-gent_game_261449.html",
+        "https://www.kaagent.be/nl/nieuws/30-10-2026/voorbeschouwing-sk-lommel-kaa-gent",
+        "https://www.voetbalprimeur.be/nieuws/2153347/live-discussie-lommel-sk-kaa-gent.html",
+        "https://www.walfoot.be/belgique/jupiler-pro-league/2026-2027/calendrier/journee-10/lommel-sk/la-gantoise",
+        "https://sporza.be/nl/matches/voetbal/croky-cup/2026-2027/1-16-finale/01/union-rochefortoise-kaa-gent-sensatie-in-de-beker-amateurclub-rochefort-schakelt-kaa-gent-uit-na-penalty-s~1790610064121/",
+        "https://sporza.be/nl/matches/voetbal/jupiler-pro-league/2026-2027/regulier/09/oh-leuven-lommel-sk-het-venijn-zit-in-de-staart-voor-oh-leuven-diep-in-de-extra-tijd-sleept-lommel-nog-een-puntje-uit-de-brand~1781873464918/",
+        "https://api.open-meteo.com/v1/forecast?latitude=51.23&longitude=5.31&hourly=temperature_2m,precipitation,precipitation_probability,wind_speed_10m,wind_gusts_10m&start_date=2026-11-01&end_date=2026-11-01"
+      ],
+      "prices": []
+    }
+  ]
+}

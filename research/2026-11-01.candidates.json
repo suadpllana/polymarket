@@ -1,0 +1,334 @@
+{
+  "date": "2026-11-01",
+  "window": {
+    "start": "2026-11-01T08:21:46.563Z",
+    "end": "2026-11-02T05:00:00.000Z"
+  },
+  "games_in_window": 32,
+  "games": [
+    {
+      "id": "1216157",
+      "league": "La Liga",
+      "event": "Real Racing Club vs. Real Madrid CF",
+      "home": "Real Racing Club",
+      "away": "Real Madrid CF",
+      "start": "2026-11-01T15:15:00.000Z",
+      "p_market": {
+        "home": 0.0734,
+        "draw": 0.113,
+        "away": 0.8136
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Real Madrid CF",
+          "fair_odds": 1.23
+        }
+      ]
+    },
+    {
+      "id": "1212539",
+      "league": "Süper Lig",
+      "event": "Amed Sportif vs. Eyüpspor",
+      "home": "Amed Sportif",
+      "away": "Eyüpspor",
+      "start": "2026-11-01T10:30:00.000Z",
+      "p_market": {
+        "home": 0.7836,
+        "draw": 0.1429,
+        "away": 0.0735
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Amed Sportif",
+          "fair_odds": 1.28
+        }
+      ]
+    },
+    {
+      "id": "1212549",
+      "league": "Süper Lig",
+      "event": "Trabzonspor vs. Gaziantep FK",
+      "home": "Trabzonspor",
+      "away": "Gaziantep FK",
+      "start": "2026-11-01T13:00:00.000Z",
+      "p_market": {
+        "home": 0.7736,
+        "draw": 0.133,
+        "away": 0.0934
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Trabzonspor",
+          "fair_odds": 1.29
+        }
+      ]
+    },
+    {
+      "id": "1214701",
+      "league": "Serie A",
+      "event": "Como 1907 vs. Venezia FC",
+      "home": "Como 1907",
+      "away": "Venezia FC",
+      "start": "2026-11-01T11:30:00.000Z",
+      "p_market": {
+        "home": 0.7465,
+        "draw": 0.157,
+        "away": 0.0965
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Como 1907",
+          "fair_odds": 1.34
+        }
+      ]
+    },
+    {
+      "id": "1209133",
+      "league": "Ligue 1",
+      "event": "Olympique Lyonnais vs. Angers SCO",
+      "home": "Olympique Lyonnais",
+      "away": "Angers SCO",
+      "start": "2026-11-01T16:15:00.000Z",
+      "p_market": {
+        "home": 0.6965,
+        "draw": 0.1869,
+        "away": 0.1165
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Olympique Lyonnais",
+          "fair_odds": 1.44
+        }
+      ]
+    },
+    {
+      "id": "1214711",
+      "league": "Serie A",
+      "event": "SS Lazio vs. Cagliari Calcio",
+      "home": "SS Lazio",
+      "away": "Cagliari Calcio",
+      "start": "2026-11-01T14:00:00.000Z",
+      "p_market": {
+        "home": 0.6666,
+        "draw": 0.2069,
+        "away": 0.1265
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "SS Lazio",
+          "fair_odds": 1.5
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "SS Lazio",
+          "fair_odds": 1.19
+        }
+      ]
+    },
+    {
+      "id": "1212031",
+      "league": "Eredivisie",
+      "event": "SBV Excelsior vs. FC Twente",
+      "home": "SBV Excelsior",
+      "away": "FC Twente",
+      "start": "2026-11-01T13:30:00.000Z",
+      "p_market": {
+        "home": 0.1534,
+        "draw": 0.2032,
+        "away": 0.6434
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "FC Twente",
+          "fair_odds": 1.55
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "FC Twente or Draw",
+          "fair_odds": 1.18
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "FC Twente",
+          "fair_odds": 1.24
+        }
+      ]
+    },
+    {
+      "id": "1278302",
+      "league": "Belgian Pro League",
+      "event": "Royal Charleroi SC vs. RAAL La Louviere",
+      "home": "Royal Charleroi SC",
+      "away": "RAAL La Louviere",
+      "start": "2026-11-01T18:15:00.000Z",
+      "p_market": {
+        "home": 0.6366,
+        "draw": 0.2168,
+        "away": 0.1466
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Royal Charleroi SC",
+          "fair_odds": 1.57
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Royal Charleroi SC",
+          "fair_odds": 1.23
+        }
+      ]
+    },
+    {
+      "id": "1215703",
+      "league": "Bundesliga",
+      "event": "Eintracht Frankfurt vs. Hamburger SV",
+      "home": "Eintracht Frankfurt",
+      "away": "Hamburger SV",
+      "start": "2026-11-01T16:30:00.000Z",
+      "p_market": {
+        "home": 0.6334,
+        "draw": 0.2032,
+        "away": 0.1634
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Eintracht Frankfurt",
+          "fair_odds": 1.58
+        },
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Eintracht Frankfurt or Draw",
+          "fair_odds": 1.2
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Eintracht Frankfurt",
+          "fair_odds": 1.26
+        }
+      ]
+    },
+    {
+      "id": "1212553",
+      "league": "Süper Lig",
+      "event": "Kasımpaşa SK vs. Beşiktaş JK",
+      "home": "Kasımpaşa SK",
+      "away": "Beşiktaş JK",
+      "start": "2026-11-01T16:00:00.000Z",
+      "p_market": {
+        "home": 0.1634,
+        "draw": 0.2132,
+        "away": 0.6234
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Beşiktaş JK",
+          "fair_odds": 1.6
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Beşiktaş JK or Draw",
+          "fair_odds": 1.2
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "Beşiktaş JK",
+          "fair_odds": 1.26
+        }
+      ]
+    },
+    {
+      "id": "1253826",
+      "league": "Belgian Pro League",
+      "event": "St. Truidense VV vs. Oud-Heverlee Leuven",
+      "home": "St. Truidense VV",
+      "away": "Oud-Heverlee Leuven",
+      "start": "2026-11-01T15:00:00.000Z",
+      "p_market": {
+        "home": 0.5766,
+        "draw": 0.2267,
+        "away": 0.1966
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "St. Truidense VV",
+          "fair_odds": 1.73
+        },
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "St. Truidense VV or Draw",
+          "fair_odds": 1.24
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "St. Truidense VV",
+          "fair_odds": 1.34
+        }
+      ]
+    },
+    {
+      "id": "1277804",
+      "league": "Belgian Pro League",
+      "event": "Lommel SK vs. KAA Gent",
+      "home": "Lommel SK",
+      "away": "KAA Gent",
+      "start": "2026-11-01T17:30:00.000Z",
+      "p_market": {
+        "home": 0.1934,
+        "draw": 0.2333,
+        "away": 0.5734
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "KAA Gent",
+          "fair_odds": 1.74
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "KAA Gent or Draw",
+          "fair_odds": 1.24
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "KAA Gent",
+          "fair_odds": 1.34
+        }
+      ]
+    }
+  ]
+}
