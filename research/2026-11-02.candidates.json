@@ -1,0 +1,262 @@
+{
+  "date": "2026-11-02",
+  "window": {
+    "start": "2026-11-02T08:26:35.259Z",
+    "end": "2026-11-03T05:00:00.000Z"
+  },
+  "games_in_window": 9,
+  "games": [
+    {
+      "id": "1220518",
+      "league": "Serie A",
+      "event": "Atalanta BC vs. Parma Calcio 1913",
+      "home": "Atalanta BC",
+      "away": "Parma Calcio 1913",
+      "start": "2026-11-02T19:45:00.000Z",
+      "p_market": {
+        "home": 0.6334,
+        "draw": 0.2132,
+        "away": 0.1534
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Atalanta BC",
+          "fair_odds": 1.58
+        },
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Atalanta BC or Draw",
+          "fair_odds": 1.18
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Atalanta BC",
+          "fair_odds": 1.24
+        }
+      ]
+    },
+    {
+      "id": "1225210",
+      "league": "Brasileirão",
+      "event": "Red Bull Bragantino vs. Santos FC",
+      "home": "Red Bull Bragantino",
+      "away": "Santos FC",
+      "start": "2026-11-02T23:00:00.000Z",
+      "p_market": {
+        "home": 0.4833,
+        "draw": 0.2334,
+        "away": 0.2833
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Red Bull Bragantino or Draw",
+          "fair_odds": 1.4
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Red Bull Bragantino",
+          "fair_odds": 1.59
+        }
+      ]
+    },
+    {
+      "id": "1222094",
+      "league": "La Liga",
+      "event": "RC Deportivo A Coruña vs. CA Osasuna",
+      "home": "RC Deportivo A Coruña",
+      "away": "CA Osasuna",
+      "start": "2026-11-02T20:00:00.000Z",
+      "p_market": {
+        "home": 0.4467,
+        "draw": 0.2967,
+        "away": 0.2566
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "RC Deportivo A Coruña or Draw",
+          "fair_odds": 1.35
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "CA Osasuna or Draw",
+          "fair_odds": 1.81
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "RC Deportivo A Coruña",
+          "fair_odds": 1.57
+        }
+      ]
+    },
+    {
+      "id": "1221584",
+      "league": "Premier League",
+      "event": "Newcastle United FC vs. Everton FC",
+      "home": "Newcastle United FC",
+      "away": "Everton FC",
+      "start": "2026-11-02T20:00:00.000Z",
+      "p_market": {
+        "home": 0.44,
+        "draw": 0.2701,
+        "away": 0.29
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Newcastle United FC or Draw",
+          "fair_odds": 1.41
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Everton FC or Draw",
+          "fair_odds": 1.79
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Newcastle United FC",
+          "fair_odds": 1.66
+        }
+      ]
+    },
+    {
+      "id": "1220513",
+      "league": "Serie A",
+      "event": "US Sassuolo Calcio vs. ACF Fiorentina",
+      "home": "US Sassuolo Calcio",
+      "away": "ACF Fiorentina",
+      "start": "2026-11-02T17:30:00.000Z",
+      "p_market": {
+        "home": 0.3367,
+        "draw": 0.2566,
+        "away": 0.4067
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "US Sassuolo Calcio or Draw",
+          "fair_odds": 1.69
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "ACF Fiorentina or Draw",
+          "fair_odds": 1.51
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "ACF Fiorentina",
+          "fair_odds": 1.83
+        }
+      ]
+    },
+    {
+      "id": "1209111",
+      "league": "Ligue 1",
+      "event": "FC Lorient vs. Stade Brestois 29",
+      "home": "FC Lorient",
+      "away": "Stade Brestois 29",
+      "start": "2026-11-02T19:45:00.000Z",
+      "p_market": {
+        "home": 0.3867,
+        "draw": 0.2967,
+        "away": 0.3167
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "FC Lorient or Draw",
+          "fair_odds": 1.46
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Stade Brestois 29 or Draw",
+          "fair_odds": 1.63
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "FC Lorient",
+          "fair_odds": 1.82
+        }
+      ]
+    },
+    {
+      "id": "1224777",
+      "league": "Primeira Liga",
+      "event": "Gil Vicente FC vs. Vitória SC",
+      "home": "Gil Vicente FC",
+      "away": "Vitória SC",
+      "start": "2026-11-02T20:15:00.000Z",
+      "p_market": {
+        "home": 0.3233,
+        "draw": 0.3133,
+        "away": 0.3633
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Gil Vicente FC or Draw",
+          "fair_odds": 1.57
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Vitória SC or Draw",
+          "fair_odds": 1.48
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "Vitória SC",
+          "fair_odds": 1.89
+        }
+      ]
+    },
+    {
+      "id": "1224438",
+      "league": "Süper Lig",
+      "event": "Gençlerbirliği SK vs. Alanyaspor",
+      "home": "Gençlerbirliği SK",
+      "away": "Alanyaspor",
+      "start": "2026-11-02T17:00:00.000Z",
+      "p_market": {
+        "home": 0.3533,
+        "draw": 0.2934,
+        "away": 0.3533
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Gençlerbirliği SK or Draw",
+          "fair_odds": 1.55
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Alanyaspor or Draw",
+          "fair_odds": 1.55
+        }
+      ]
+    }
+  ]
+}

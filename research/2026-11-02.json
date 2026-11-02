@@ -1,0 +1,304 @@
+{
+  "date": "2026-11-02",
+  "researched_at": "2026-11-02T07:05:58Z",
+  "summary": "A thin Monday: 8 games researched, 3 kept (all medium confidence): Atalanta v Parma (Atalanta 60.5%, draw 23.5%), Bragantino v Santos (Bragantino 46%, draw 26.5%, Santos without Neymar) and Deportivo v Osasuna (Deportivo 43%, draw 31%). Excluded: Lorient v Brest (Breton derby), Gil Vicente v Vitória (Minho derby), Newcastle v Everton (unexplained 10% price jump, Grealish and Branthwaite doubts), Gençlerbirliği v Alanyaspor (conflicting team news, coin flip), Sassuolo v Fiorentina (lineup sources disagree on Sassuolo's back four and Fagioli, no edge on any leg).",
+  "games": [
+    {
+      "id": "1220518",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.605,
+        "draw": 0.235,
+        "away": 0.16
+      },
+      "checks": {
+        "team_news": "Atalanta (Sarri) have a long injury list. Out: Hien, Kossounou, Kolasinac, Bellanova, Kristensen, Gaetano, Scamacca, Raspadori and Kessié (Fantacalcio, updated 31/10; Sky; Fantamaster). That leaves the centre of defence in emergency, with Scalvini and Obric. Sarri said Scalvini's return was 'un po' improvvisato visto l'infortunio di Kristensen' (SOS Fanta/PazzidiFanta, 1 Nov). Starting11 lists Scalvini as doubtful, but its list is stale: it has Sulemana out, and Sarri said he brought Sulemana on at Florence. Fantacalcio, Sky and Fantamaster all have Scalvini starting. Parma (Gilardino): Sky reports no absentees. Fantamaster (30 Oct) listed Bernabè as injured, but he started on 28 Oct and Fantacalcio (90%) and Sky have him starting. Diego Carlos is back from suspension. Neither side has anyone suspended.",
+        "lineups": "Sky: Carnesecchi; Zappacosta, Scalvini, Obric, Bernasconi; Pasalic, Ederson; Zalewski, De Ketelaere, Rowe; Krstovic. Fantacalcio: the same, except Elmas (60%) for Zalewski. Fantamaster: the same, with Elmas or Rowe. The only disagreement is one wide attacking spot. Parma 3-5-2: Daffara in goal in all three (Sky says 'confermato al posto di Corvi'; Fantacalcio 80%). The third centre-back (Drobnic or Diego Carlos) and Romero's strike partner (Touré, Lontani or Frigan) differ between sources.",
+        "rotation": "Atalanta: they drew 2-2 at Fiorentina on Thu 29 Oct (Serie A). Next is the Conference League at home to Kairat Almaty on Thu 5 Nov, 3 days after this game, then Monza away on Sun 8 Nov. The expected XI has about 3 changes from Florence, mostly forced by injury (Kristensen to Scalvini, Gaetano to Pasalic, Rowe for Elmas or Zalewski). Sarri complained that 'il calendario non ci aiuta' but did not talk about rotating for this game. Starting11 flags rotation as likely. Parma: they drew 0-0 with Udinese on 28 Oct. Next is Bologna at home on Sat 7 Nov, with no European or cup game, and they keep a settled XI.",
+        "motivation": "Atalanta are 13th with 11 points from 9 games and are winless in 3 Serie A games, so they need the win. Parma are 18th with 5 points, in the relegation zone. Gilardino was appointed on 29 Sep (34 days ago, so outside the 14-day rule) and got his first point last time out. Sarri was appointed on 15 Jun 2026. This is not a derby or a rivalry, and both sides have something to play for.",
+        "form": "Atalanta, all competitions, last 5: W Pafos 3-1, L at Milan 2-3, L at Ajax 0-2, D Frosinone 4-4, D at Fiorentina 2-2. Home league record 3W 1D 1L (11-8). FotMob xG over 9 league games: 12.9 for, 17.9 against, 8.9 expected points (18th-best). They allowed 26 shots at Fiorentina and 24 against Frosinone (ESPN). Sarri: 'Creiamo poche occasioni'. Parma: 1W 2D 6L (5-15), away 0-4 (2-9). FotMob xG 7.4 for, 15.0 against (worst xPts in the league). Last 4 league games: L at Inter 0-3, L Torino 0-3, L at Lazio 1-2, D Udinese 0-0 (8 shots).",
+        "h2h": "ESPN, last 4 competitive meetings: Atalanta 4-0 Parma (Jan 2026), Parma 1-1 Atalanta (Aug 2025), Atalanta 2-3 Parma (May 2025), Parma 1-3 Atalanta (Nov 2024). That is 1 draw in 4. Starting11, all-time: 19 meetings, 11 Atalanta wins, 3 draws, 5 Parma wins. Style matchup: Atalanta's leaky, injury-hit defence against Parma's low-scoring, deep 3-5-2.",
+        "odds": "DraftKings (ESPN API): -205 / +330 / +450, de-vigged 0.619 / 0.214 / 0.167. It opened at -235 / +330 / +500 (0.637 / 0.211 / 0.151), so the price has drifted toward Parma. Bet365 (ESPN): 1.50 / 4.50 / 6.00, de-vigged 0.632 / 0.211 / 0.158. Italian ADM books (quotescommessecalcio, 1 Nov): 1.50 / 4.60 / 6.00, 1X 1.10, de-vigged 0.634 / 0.207 / 0.159. Kalshi 63.7 / 20.6 / 15.7 (gidstats). Polymarket home moved 0.645 to 0.635 in 24h (-1.6% relative); draw flat at 0.215; away 0.145 to 0.155. Stake and Rainbet pages returned 403.",
+        "models": "Poisson on FotMob xG (home about 1.75 to 1.9 goals, away about 0.9 to 0.95): 56 to 61% / 22 to 24% / 17 to 20%. Starting11 model: 45 / 45 / 10 (outlier). Foresportia: 60.2 / 25.2 / 14.7 (search snippet only; the page returned 403). footballpredictions.ai: main tip 1X, score 2-1. gidstats: Atalanta favourite. ClubElo, Understat and Forebet were blocked (502/reset/403).",
+        "venue_weather": "New Balance Arena, Bergamo, Mon 20:45 local. Normal home venue. Parma travel about 150 km. Open-Meteo: dry (0 mm, 0% chance of rain), 10°C, wind about 6 km/h. No pitch issues reported."
+      },
+      "reason": "I started from the market, about 0.632 / 0.214 / 0.154 after de-vigging Polymarket, which agrees with Bet365, ADM and Kalshi. I shaded home down about 3 points and the draw up about 2. The reasons: Atalanta's underlying numbers are poor (FotMob xGA 17.9 in 9, expected points 18th-best). Their defensive crisis is severe: Hien, Kossounou, Kolasinac and Kristensen are all out, and Scalvini's return was 'improvised' per Sarri. They are winless in 3 league games and drew the last two. Sarri says they 'create few chances'. They play their third game in 7 days, with a Conference League game on Thursday. DraftKings has drifted from -235 to -205. Parma's attack is the league's weakest (xG 7.4, 2 away goals, 0 away points), which keeps home at about 60% and the away win near the market. There are no exclusion triggers: no recent manager change, no derby, not 5+ changes, no 24h move. Confidence is medium, not high, because of minor source conflicts (Starting11's Scalvini doubt, Fantamaster's Bernabè report, the wide-attacker choice) and Atalanta's 10 absentees.",
+      "main_risk": "An injury-hit Atalanta, with Scalvini and Obric at centre-back and Pasalic in midfield, create too little against Parma's deep 3-5-2. They then concede a set piece or a late goal, as in the 4-4 with Frosinone and the 2-2 at Fiorentina, and draw 1-1. Evidence for this: back-to-back league draws, 26 shots allowed to Fiorentina, Sarri's 'creiamo poche occasioni', and Parma's 0-0 last time out.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874971",
+        "https://gamma-api.polymarket.com/events?id=1220518",
+        "https://clob.polymarket.com/prices-history?market=30449452990763124158462910780812043813124096909878598157235356509929130520036&interval=1d&fidelity=60",
+        "https://www.atalanta.it/news/verso-atalanta-parma-la-conferenza-stampa-di-mister-sarri",
+        "https://www.sosfanta.com/news/sarri-conferenza-atalanta-parma/",
+        "https://www.pazzidifanta.com/news/atalanta-sarri-conferenza-parma-10a-giornata-seriea-2026-2027-460367",
+        "https://www.fantacalcio.it/probabili-formazioni-serie-a",
+        "https://www.fantamaster.it/probabili-formazioni-atalanta-parma-10-giornata-seriea-2026-2027/",
+        "https://sport.sky.it/calcio/serie-a/2026/11/01/atalanta-parma-probabili-formazioni-10-giornata",
+        "https://starting11.com/fixtures/atalanta-vs-parma-20261102",
+        "https://www.fotmob.com/api/data/leagues?id=55&ccode3=ITA",
+        "https://quotescommessecalcio.com/atalanta-parma-pronostico-quote-analisi-2026/",
+        "https://gidstats.com/football/serie-a/2026-11-02-1550178-atalanta-vs-parma/",
+        "https://footballpredictions.ai/football-predictions/atalanta-vs-parma-predictions-tips-02-nov-2026/",
+        "https://www.lapresse.it/calcio/2026/09/29/gilardino-e-il-nuovo-allenatore-del-parma/",
+        "https://sport.sky.it/calciomercato/2026/06/15/atalanta-sarri-allenatore-news",
+        "https://api.open-meteo.com/v1/forecast?latitude=45.709&longitude=9.681&hourly=precipitation&start_date=2026-11-02&end_date=2026-11-02"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1225210",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.46,
+        "draw": 0.265,
+        "away": 0.275
+      },
+      "checks": {
+        "team_news": "Santos: Neymar is suspended (red card v Bahia, then a 2-game STJD ban). Lance (29/10) says Bragantino is the first game of the ban and the appeal is heard on 5 Nov, after this match. João Schmidt is suspended (3rd yellow). Out injured: Willian Arão, Lucas Veríssimo, Gabriel Brazão, Vinicius Lira. Gonzalo Escobar is doubtful (thigh) and not in any predicted XI. Arthur is back in training and likely on the bench. Bragantino: GK Tiago Volpi and Gabriel return from suspension. Out: Gustavo Marques (pubis), José Hurtado, Rodriguinho, Davi Gomes (sources: Gazeta Esportiva, Tribuna do Sertão, FotMob, SportsGambler, Khelnow).",
+        "lineups": "Gazeta Esportiva, Metrópoles, Tribuna do Sertão and SportsGambler give the same Bragantino 4-2-3-1: Volpi; Ryan Augusto, Alix Vinícius, Guzmán Rodríguez, Juninho Capixaba; Fabinho, Eric Ramires; Lucas Barbosa, Wallace Yan, Fernando; Sasha. Only Khelnow has Cleiton in goal, apparently copying the last XI, when Volpi was suspended. Santos XI agreed across sources: Diógenes; Rodinei, João Alencar, Luan Peres, Barreal; Gustavo Henrique, Oliva; Bontempo, Coutinho, Everton; Gabigol. One small split: Metrópoles has Gustavinho in place of Gustavo Henrique.",
+        "rotation": "Neither team has a midweek game. Bragantino: last game W 3-0 v Chapecoense on 28/10, next at Vitória on 19/11. Santos: last game 0-0 v Palmeiras on 28/10, next at Coritiba on 18/11. A FIFA break follows this game. Both went out of the Sudamericana in the May group stage, Bragantino went out of the Copa do Brasil in May, and ESPN lists no further cup ties for Santos. Expected changes: Bragantino about 1 (Volpi back); Santos only the forced ones.",
+        "motivation": "Santos are 8th on 47 pts and Bragantino 9th on 44, both chasing a 2027 Libertadores place with 5 rounds left after this one. The relegation zone is far away (17th Corinthians, 36). Not treated as a derby: no source calls it a clássico. Gazeta and Tribuna call it a 'confronto/duelo paulista', and Bragantino is not one of the São Paulo big four. Coaches are stable: Vagner Mancini at Bragantino since late 2025, Cuca at Santos for 27 league games in 2026.",
+        "form": "Bragantino, last 10 league games: W2 D3 L5, goals 14-15 (L 1-2 at SPFC, L 2-3 v Bahia, D 1-1 at Botafogo, L 1-2 at Flamengo, L 0-1 at Atlético-MG, D 1-1 v Mirassol, W 4-2 v Cruzeiro, D 1-1 at Remo, L 0-2 at Palmeiras, W 3-0 v Chapecoense). Season home record 8-3-5, goals 27-17. Santos, last 10: W6 D3 L1, goals 16-11, but only 1 win in the last 4 (D 2-2 Flamengo, L 1-2 at Atlético-MG, W 2-1 at Fluminense, D 1-1 Bahia, D 0-0 Palmeiras). Away 6-4-6, with 5 wins in the last 6 away. Season xG from FotMob: Bragantino xG 52.0 (2nd in the league), xGA 43.9, xGD +8.1 (5th); they have scored 42 from that xG, with the 2nd-most big chances missed (58). Santos xG 48.4, xGA 45.4, xGD +3.0 (11th). League draw rate is 27.4% over 329 games; Santos have drawn 11 of 33. xG for only the last 6-10 games was not available.",
+        "h2h": "Last 5: Santos 2-0 (May 2026, league), 0-0 (Paulistão Jan 2026), Bragantino 2-2 Santos (Sep 2025), Santos 1-2 Bragantino (Apr 2025), Santos 2-0 (Paulistão 2025). FotMob's 16-game record: Bragantino 4 wins, 7 draws, Santos 5 wins (a 44% draw rate). Santos are unbeaten in the last 3 meetings. Both sides play roughly 50% possession and Santos make the most tackles in the league, so a tight, low-margin game is likely.",
+        "odds": "DraftKings (ESPN API): 2.00 / 3.85 / 3.25. The draw drifted from +260 to +285 and the home price held at +100. De-vigged: 46.8 / 24.3 / 28.8. BetMGM (via SportsGambler): 2.12 / 3.60 / 3.10, de-vigged 44.0 / 25.9 / 30.1, with DNB home 1.55 and 1X 1.34. Polymarket mid 0.485 / 0.235 / 0.285. Over 24h the home price went 0.465 → 0.485 (+4.3% relative, under the 5% limit). Overnight it dipped to 0.445, then jumped back about 04:00 UTC on thin volume (~$8.9k on the home market, $155 on the draw); no news explains the jump. Stake and Rainbet both returned 403, so no prices were seen.",
+        "models": "ValorFinal (data through round 33): 45.3 / 26.9 / 27.9, most likely score 1-1 at 12.5%. Predictiq: 49 / 26 / 24, most likely 1-1 at 12%, xG 1.6-1.4. Statz (search snippet only): 44 / 26 / 30. ClubElo and Forebet are unavailable (no Brazil coverage, and 403). Every model puts the draw at 26-27%, above the market's 23.3%.",
+        "venue_weather": "Estádio Cícero de Souza Marques (Nabi Abi Chedid), Bragança Paulista, grass, about 12k capacity. Bragantino's normal home ground, and a short road trip of about 150 km for Santos. FotMob forecast: 19°C, cloudy, 24% chance of rain, light wind. Nothing extreme. Referee: Edina Alves Batista."
+      },
+      "reason": "Starting from the market (48.3 / 23.3 / 28.3), I moved the draw up to 26.5%. Every model sits at 26-27% (ValorFinal, Predictiq, Statz), the bookmaker de-vigs give 24.3-25.9%, the league draw rate is 27.4%, Santos have drawn 11 of 33 and 3 of their last 4, and the head-to-head is 7 draws in 16. I trimmed the home side to 46%, towards DraftKings (46.8%) and BetMGM (44.0%). Bragantino's better underlying numbers (xGD +8.1 against +3.0, home record 8-3-5) and Santos missing Neymar and Schmidt stop it going lower. Santos stay at about 27.5%: their away form is strong, but they are without their two best-known absentees. Both legs still clear the threshold: home-or-draw (1X) about 0.725, fair price about 1.38; DNB about 0.626, fair about 1.60.",
+      "main_risk": "A low-scoring draw, most likely 1-1. Bragantino waste chances (2nd-most big chances missed, 42 goals from 52 xG). Santos defend compactly (most tackles in the league), have drawn 3 of their last 4, and are unbeaten in 3 meetings with Bragantino. Both models make 1-1 the most likely score.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard?dates=20261102",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/summary?event=401841299",
+        "https://gamma-api.polymarket.com/events?id=1225210",
+        "https://clob.polymarket.com/prices-history?market=44000997901878075470468990959158616851155027122724348380033958514538391610855&interval=1d&fidelity=60",
+        "https://www.fotmob.com/api/data/matchDetails?matchId=5103698",
+        "https://www.fotmob.com/api/data/teams?id=109705",
+        "https://www.fotmob.com/api/data/teams?id=8514",
+        "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/red-bull-bragantino-x-santos-onde-assistir-brasileirao-2026/",
+        "https://metropoles.com/esportes/com-neymar-suspenso-santos-visita-bragantino-pelo-campeonato-brasileiro",
+        "https://www.tribunadosertao.com.br/esportes/2026/11/01/1011246-red-bull-bragantino-x-santos-escalacoes-desfalques-retrospecto-e-onde-assistir",
+        "https://www.lance.com.br/santos/santos-recorre-de-punicao-a-neymar-no-stjd-e-pena-nao-podera-ser-aumentada-entenda.html",
+        "https://www.sportsgambler.com/betting-tips/football/bragantino-vs-santos-prediction-lineups-odds-2026-11-02/",
+        "https://www.predictiqpro.com/match/7331",
+        "https://valorfinal.com.br/brasileirao/jogos/bragantino-x-santos",
+        "https://khelnow.com/football/red-bull-bragantino-vs-santos-preview-campeonato-brasileiro-serie-a-202611"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1222094",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.43,
+        "draw": 0.31,
+        "away": 0.26
+      },
+      "checks": {
+        "team_news": "Deportivo out: Aubameyang (knee arthroscopy, target return Alavés on 21 Nov per Comuniate 26 Oct), Zakaria Eddahchouri (hand, 'several weeks' per Hidalgo), Marc Casadó (collarbone), Bright Ede. FotMob and Statszone list the same four. Statszone also has Noe Carrillo questionable, but he is in no predicted XI. Osasuna out: Aimar Oroz (hamstring relapse; elgoldigital 15 Oct says he misses Racing, Sevilla, Deportivo and Athletic, return around 22 Nov), Jorge Herrando and Romain Del Castillo. Comuniate calls all three injured, FotMob has Oroz and Herrando 'doubtful', and no source puts any of them in the XI. Goalkeepers: Leo Román for Deportivo; Aitor Fernández for Osasuna, kept ahead of Sergio Herrera under Arrasate (Comuniate 18 Oct).",
+        "lineups": "Three sources: Comuniate, Statszone and FotMob/enetpulse. Deportivo 4-2-3-1: Román; Altimira, Giménez, Loureiro, Quagliata; Amatucci + one of Villares/Luismi Cruz; Mella/Luismi, Soriano, Yeremay; Nsongo. Ten of eleven agree; the last midfield/wing slot (Villares, Luismi Cruz or Mella) differs, which is a selection choice, not an injury. Osasuna: Aitor; Rosier, Boyomo, Catena, Bretones; Moncayola, Torró or Iker Muñoz (Comuniate gives Iker Muñoz 50%), Moi Gómez; Rubén García, Budimir, Dubasin (FotMob has Raúl García for Dubasin in a 4-4-2). Agreement is good apart from these one-slot doubts.",
+        "rotation": "Both played Copa del Rey first-round ties on Thu 29 Oct against lower-league sides (Deportivo won 3-0 at Auriense, Osasuna 6-0 at Atlético Calatayud). Both next play LaLiga on Sat 7 Nov (Deportivo at Espanyol, Osasuna v Athletic). Neither is in Europe. The predicted XIs mirror the last league XIs, so I expect 0–1 changes on each side.",
+        "motivation": "Deportivo (promoted, 13th, 11 pts) v Osasuna (15th, 11 pts) are level on points and one point above 18th place (Elche/Levante, 10), so both have real stakes. Not a derby or rivalry (Galicia v Navarra). Osasuna sacked Luis Ramis after a 5-2 loss at Betis and appointed Jagoba Arrasate on 12 Oct (presented 13 Oct), 21 days ago and outside the 14-day rule; under him they are W1 L1 in the league plus the cup win. Antonio Hidalgo is established at Deportivo.",
+        "form": "Deportivo are W2 D5 L3 (GF 13, GA 13), winless in 6 league games (D3 L3): Sevilla 0-1 H, Betis 1-1 H, Real Sociedad 2-3 A, Levante 1-1 H, Atlético 0-1 A. Home W1 D3 L1 (6-5). FotMob xG 11.7 for and 11.7 against in 10 games (about 1.17 each way per game). Osasuna are W3 D2 L5 (GF 10, GA 20): Betis 2-5 A, Racing 2-0 H, Sevilla 0-2 A. Away W1 D0 L4 (6-17), four straight away defeats. FotMob xG 14.9 for and 14.0 against, so they have underperformed badly (xPoints 14.2 v Deportivo's 13.2).",
+        "h2h": "ESPN last 5: 2021 Copa Deportivo 1-2 Osasuna; 2019 LaLiga2 Osasuna 2-1; 2018 LaLiga2 Deportivo 2-0; 2017 LaLiga Osasuna 2-2; 2016 LaLiga Deportivo 2-0 (one draw in five). Statszone: in La Liga since 1997/98 Deportivo lead W11 D8 L7 (31% draws), are unbeaten in their last 5 home league games v Osasuna (W3 D2) with five clean sheets, and Osasuna have not scored at Riazor since 2007. This is the first top-flight meeting since 2017. Expect a low-event game: Deportivo's attack is weakened, and Under 2.5 is favoured (DraftKings -150).",
+        "odds": "DraftKings (ESPN API): home +115 (2.15), draw +225 (3.25), away +255 (3.55), opened +120/+220/+245; de-vigged 44.1/29.2/26.7. Bet365 (kickoff.co.uk): 2.15/3.25/3.60, de-vigged 44.3/29.3/26.4; DC 1X 1.29, home DNB 1.50. Polymarket now 0.445/0.295/0.255. Over 24h the home price is flat, the draw went 0.305 to 0.295 and away 0.265 to 0.255 (-3.8% relative, under the 5% threshold). Books and the exchange agree. Stake and Rainbet both returned 403.",
+        "models": "The kickoff.co.uk model gives 58/21/20 (predicted goals 2.0–1.1) and footballdream.in's goals model 57/23/20; both look home-heavy and simplistic next to the market. FotMob xG/xPoints rate Osasuna slightly better on underlying numbers. ClubElo, Understat, FBref and Forebet were all blocked (403/502).",
+        "venue_weather": "Estadio Abanca-Riazor, A Coruña (capacity 32,490, grass), Mon 2 Nov 20:00 UTC (21:00 CET), LaLiga matchday 11, confirmed by ESPN, FotMob and Comuniate. Osasuna travel about 700 km from Pamplona. FotMob forecast: clear, 14°C, wind 4, 3% chance of rain. Referee Jon Ander González Esteban."
+      },
+      "reason": "Starting point is the market (44.7/29.7/25.7), which DraftKings (44.1/29.2/26.7) and Bet365 (44.3/29.3/26.4) confirm, with no big 24h move. I shade home down about 1.7 points and the draw up about 1.3. Deportivo are without both senior strikers (Aubameyang, Eddahchouri) and Casadó, have gone 6 league games without a win, have drawn 5 of 10 (3 of 5 at home), and their xG is low both ways (about 1.17 for and against per game), all signs of a draw. Osasuna's underlying xG (14.9 for, xPoints above Deportivo's) is better than their 10-20 goal record. Against that, Osasuna have lost 4 straight away (6-17 away), are missing Oroz, Herrando and Del Castillo, and Deportivo's recent home record against them is strong (W3 D2, five clean sheets), so I keep away near the market. Lineup sources agree apart from single-slot selection doubts, which is why confidence is medium. Fair odds at my p: Deportivo or Draw about 1.35, Deportivo DNB about 1.60, Osasuna or Draw about 1.75.",
+      "main_risk": "A low-scoring draw (0-0 or 1-1). A Deportivo attack without Aubameyang and Eddahchouri struggles to break down an organised Arrasate side, as in their 1-1 home draws with Elche, Betis and Levante. The evidence for this is already in the higher draw figure.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261102",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882824",
+        "https://gamma-api.polymarket.com/events?id=1222094",
+        "https://clob.polymarket.com/prices-history?market=49774902034672140677694476829790676777787864704921838291132682644257558316480&interval=1d&fidelity=60",
+        "https://www.fotmob.com/api/data/matchDetails?matchId=5868113",
+        "https://www.fotmob.com/api/data/tltable?leagueId=87",
+        "https://www.comuniate.com/noticias/38726/deportivo-osasuna-previa-alineaciones-probables-y-consejos-fantasy-jornada-11-de-laliga",
+        "https://www.comuniate.com/noticias/38696/aubameyang-acelera-su-regreso",
+        "https://www.comuniate.com/noticias/38517/arrasate-sigue-eligiendo-a-aitor-fernandez-en-porteria",
+        "https://www.comuniate.com/noticias/38397/osasuna-sacude-su-banquillo-destituye-a-ramis-y-confirma-el-esperado-regreso-de-jagoba-arrasate",
+        "https://www.elgoldigital.com/futbol/osasuna/aimar-oroz-osasuna-recaida-biceps-femoral-baja-un-mes-laliga-2026/",
+        "https://www.thestatszone.com/deportivo-la-coruna-vs-osasuna-preview-team-news-prediction-233951",
+        "https://www.kickoff.co.uk/spanish-la-liga-predictions-stats-odds/deportivo-vs-osasuna/",
+        "https://www.footballdream.in/blog/deportivo-vs-osasuna-matchday-11-la-liga-2026-27"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1221584",
+      "exclude": true,
+      "confidence": "low",
+      "p": {
+        "home": 0.42,
+        "draw": 0.29,
+        "away": 0.29
+      },
+      "checks": {
+        "team_news": "Newcastle: Jaouen (GK, not the starter) and Livramento (knee) are out. Osula (ankle) is reported differently: Rotowire says doubtful and Jaissle said 'too early', Onside/FPL put him at 50%, and a Shields Gazette headline (page returned 403, so headline only) says he is out for two months. Miley (muscle, 75%) and Fernandez-Pardo (illness, 75%) are doubts. Elanga is back but has limited minutes. Everton: Grealish missed the cup tie for 'a breach of club discipline' (and missed Arsenal with illness). Moyes: 'I'd never give any team news away.' Rotowire lists him out, starting11 has him doubtful but in its XI. Branthwaite is at 75% (concussion protocol); Moyes: 'Jarrad should have recovered'. Mykolenko is flagged doubtful but played 86 minutes on Thursday. Norgaard has a groin injury.",
+        "lineups": "starting11, Rotowire and thefalse9 agree on the core of both sides. Newcastle: Hornicek in goal, Dedic, Burn, Hall, Gonzalez, Barnes, Wissa. Everton: Pickford, Tarkowski, Branthwaite, Mykolenko, Garner, Dewsbury-Hall, George, Barry. They differ on Newcastle's second centre-back (Thiaw or Schar), the midfield pair (Willock or Joelinton) and the winger (Murphy or Elanga). For Everton they differ on right-back (Rohl or Maitland-Niles), whether Grealish starts, and Armstrong or Hackney.",
+        "rotation": "Newcastle are not in Europe this season (finished 12th last season, per The National), so there is no Champions League midweek. Both teams last played each other on Thu 29 Oct: Everton won the Carabao Cup R16 3-1, and Newcastle made only one change to start (club match report). Next games: Newcastle at Fulham on Sat 7 Nov; Everton at home to Coventry on Fri 6 Nov, a short turnaround. Both should make only 1-3 changes.",
+        "motivation": "Newcastle are on 11 points (12th per thefalse9) and Everton on 10 (14th), so both sides are mid-table with something to play for. Newcastle have a revenge angle after the cup exit four days ago. This is not a derby. Jaissle was appointed in August 2026 and Moyes remains Everton manager, so neither change falls in the last 14 days.",
+        "form": "Newcastle in the league (ESPN): drew Liverpool 2-2 at home, won 2-0 at Spurs, drew Bournemouth 2-2 at home, lost 4-1 at Leeds, beat Hull 2-1 at home, lost 4-1 at Coventry, lost 0-1 at home to Villa, won 2-0 at Palace. That is 3W 2D 3L, goals 12-14, and at home 1W 2D 1L. Everton in the league: won 2-0 at home to Palace, drew 1-1 at Bournemouth, drew 2-2 at home to Man Utd, drew 0-0 at Spurs, beat Ipswich 1-0 at home, drew 2-2 at Hull, lost 0-2 at home to Chelsea, lost 2-0 at Arsenal. That is 2W 4D 2L, goals 8-9, and away 0W 3D 1L. Onside's xG-based ranks: Newcastle attack 7th and defence 17th, Everton attack 15th and defence 6th. Understat was unreachable through the proxy, so I have no per-match xG.",
+        "h2h": "Everton won the cup tie 3-1 on 29 Oct (Garner, Hackney and Barry; Burn scored in the 88th minute). Newcastle won 4-1 at Everton in Nov 2025. Everton won 3-2 at St James' Park in Feb 2026. Everton have won 3 of the last 4 meetings, and none of those 4 ended level. Both sides play low-event football with Everton's defence strong, and Onside's single most likely score is 1-1 (14%).",
+        "odds": "DraftKings (ESPN API): Newcastle +120, draw +260, Everton +220 (opened +110/+265/+210), de-vigged 0.435/0.266/0.299. Rotowire/OddsJam on 30 Oct: DK +130/+260/+190, FanDuel +130/+240/+190, bet365 +130/+250/+200, Kalshi +128/+251/+197, de-vigged roughly 0.41/0.26/0.33. Polymarket over 24 hours: Newcastle 0.405 to 0.445 (+9.9% relative), Everton 0.325 to 0.295 (-9.2%), draw flat at 0.275. I found no news from 1-2 Nov to explain the move. Bookmakers have also shortened Newcastle since 30 Oct. Stake and Rainbet both returned 403.",
+        "models": "Onside model: 41% / 27% / 32%, xG 1.44-1.11, 1-1 the modal score. The same page's search snippet earlier showed 37/29/34. The starting11 model leans draw or Everton (10/45/45, which looks unreliable). Opta's preview of the cup tie had Everton 44.1% at home. ClubElo was unreachable (connection reset), Forebet returned 403, and I found no Opta forecast for this game.",
+        "venue_weather": "St James' Park, Monday 20:00 GMT, referee John Brooks. Everton travel about 150 miles. Forecast (wttr.in): 9°C, 27-34% chance of rain, about 0 mm, wind 13 km/h with gusts to about 30 km/h. Normal conditions, and I found no pitch issues."
+      },
+      "reason": "The market says 0.44 / 0.27 / 0.29. I raise the draw 2 points and cut Newcastle 2 points. The reasons: Everton have drawn 4 of 8 league games, including 3 of 4 away. Their defence ranks 6th on xG (Onside). Newcastle's home record is mixed (1W 2D 1L, including a 0-1 loss to Villa), and Onside has Newcastle at only 41% with 1-1 as its most likely score. Exclude anyway, for three reasons. (1) Polymarket moved about 10% relative toward Newcastle in 24 hours, from 0.405 to 0.445, with Everton down 9%, and I found no news on 1-2 Nov to explain it. (2) Reports on likely starters conflict or leave them in doubt: Grealish (disciplinary; out per Rotowire, doubtful but in the XI per starting11, and Moyes won't say) and Branthwaite (75%, concussion). (3) Everton beat this same Newcastle side 3-1 four days ago and have won 3 of the last 4 meetings.",
+      "main_risk": "A draw or a 1-1 late equaliser. Everton under Moyes sit deep and have drawn 3 of 4 away games, their defence ranks 6th on xG, and they beat Newcastle comfortably on Thursday. Newcastle's attack depends on crosses to Wissa, and he had 7 shots with none on target against Villa.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261102",
+        "https://gamma-api.polymarket.com/events?id=1221584",
+        "https://clob.polymarket.com/prices-history?market=55453212081599247458416133737705145586052699289726862289429070980867634630882&interval=1d&fidelity=60",
+        "https://site.web.api.espn.com/apis/site/v2/sports/soccer/all/teams/361/schedule?season=2026",
+        "https://starting11.com/fixtures/newcastle-vs-everton-20261102",
+        "https://www.rotowire.com/soccer/article/newcastle-vs-everton-prediction-predicted-lineups-team-news-144624",
+        "https://thefalse9.com/2026/11/newcastle-vs-everton-prediction.html",
+        "https://readeverton.com/jarrad-branthwaite-everton-newcastle-injury-update/",
+        "https://www.thesportsbank.net/football/everton/branthwaite-grealish/",
+        "https://www.thenationalnews.com/sport/football/2026/10/29/everton-v-newcastle-jaissle-to-go-all-in-on-league-cup-as-magpies-adjust-to-life-after-howe/",
+        "https://www.newcastleunited.com/en/news/everton-a-carabao-cup-2627-match-report",
+        "https://onsidearena.com/predictions/newcastle-vs-everton",
+        "https://theanalyst.com/?p=266201",
+        "https://wttr.in/Newcastle+upon+Tyne?format=j1"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1220513",
+      "exclude": true,
+      "confidence": "low",
+      "p": {
+        "home": 0.34,
+        "draw": 0.265,
+        "away": 0.395
+      },
+      "checks": {
+        "team_news": "Sassuolo: Thorstvedt suspended (straight red v Lazio). Out: I. Koné (broken tibia/fibula, back December), Leysen (ACL), Boloca (knee), Paz (knee, per Sports Mole). Idzes is back (FirenzeViola/TMW). Fiorentina: out Pongracic (hamstring), Parisi (ACL, back December), Atta (abdominal; Vanoli says not recovered, maybe back for Juventus) and Sottil (back, per Sports Mole). Ranieri also not recovered (Vanoli: 'Non abbiamo recuperato Ranieri'); Fantacalcio and Sports Mole call him doubtful, Sky lists him injured. He is not in any predicted XI. Neither goalkeeper is in doubt: De Gea, and Turati, who started the last two league games after Muric's errors.",
+        "lineups": "4 sources. Fiorentina: Fantacalcio (31/10), FirenzeViola (2/11) and Sports Mole all have Thursday's XI unchanged: De Gea; Jiménez, Dragusin, Viery, João Mário; Ndour, Fagioli, Brescianini; Mastantuono, Pellegrino, Njie. Sky Sport (updated 01/11 20:53) has Oulai instead of Fagioli. Fantacalcio splits: João Mário 55/45 Valdepeñas, Brescianini 55/45 Oulai, Pellegrino 60/40 Beto. Sassuolo: the front three Berardi-Esposito-Laurienté and Matic/Adzic are mostly agreed. But TMW (via FirenzeViola) has Sulemana for Bakola and Volpato as an option for Berardi (Fantacalcio: Berardi 60/40). The back four is different in every source: Fantacalcio Cinquegrano-Caleta-Car-Odenthal-Doig; Sky Van der Brempt-Idzes-Caleta-Car-Doig; FirenzeViola Cinquegrano-Idzes-Odenthal-Doig; Sports Mole Van der Brempt-Candé-Caleta-Car-Obrador.",
+        "rotation": "Fiorentina are NOT in Europe this season. ESPN Conference League scoreboards for 22 Oct and 5 Nov have no Fiorentina (Atalanta is the Italian side), and ESPN's all-competitions schedule shows only Serie A, Coppa Italia and friendlies. Fiorentina's last game was Thu 29 Oct (2-2 v Atalanta), so they have 4 days' rest; next is Sun 8 Nov v Juventus at home. Vanoli: 'ultimamente ho mandato in campo spesso gli stessi giocatori perché ho bisogno di dare continuità al gruppo'. Expect 0–1 changes (FirenzeViola editorial: likely the same XI as Thursday). Sassuolo's last game was Tue 27 Oct (2-6 v Lazio) and next is Sat 7 Nov at Roma; 1–3 changes, forced by Thorstvedt's ban and selection calls in defence.",
+        "motivation": "Sassuolo are 15th on 8 pts, Fiorentina 17th on 5 pts (both 9 games; Parma and Udinese also on 5): a relegation six-pointer, so both need it. Not a derby (Emilia v Tuscany). Managers: Aquilani at Sassuolo since 12 Jun 2026. Vanoli replaced the sacked Grosso at Fiorentina on 7 Sep 2026, 56 days ago. No change in the last 14 days. Vanoli called the game 'importantissima' but 'not a watershed'.",
+        "form": "Sassuolo, last 6 league: W 3-2 Juventus (H), L 1-2 Monza (A), D 1-1 Milan (H), L 2-4 Frosinone (A), L 0-2 Como (A), L 2-6 Lazio (H). Season GF 14, GA 22; home W2 D1 L1 (8-10). ESPN shots: 7 shots/0 on target at Como, 9/1 v Lazio; allowed 21 shots/10 on target at Frosinone. Fiorentina, last 6: W 4-2 Venezia (A), D 1-1 Napoli (H), L 1-2 Genoa (A), L 1-3 Como (H), L 1-2 Inter (A), D 2-2 Atalanta (H). That is 1 win in 6 under Vanoli. Season GF 11, GA 21; away W1 L3 (6-10), conceding 2+ in every away game. ESPN shots: 26 (4 on target) v Atalanta's 10; 7 v Inter's 33. No xG: Understat refused by the proxy, and FotMob/FBref were not reached.",
+        "h2h": "Last 6 (Sports Mole): 0-0 (Apr 2026, Florence); Sassuolo 3-1 (Dec 2025, Mapei); Fiorentina 5-1 (Apr 2024); Sassuolo 1-0 (Jan 2024, Mapei); Sassuolo 1-3 Fiorentina (Jun 2023); Fiorentina 2-1 (Jan 2023). 1 draw in 6. FirenzeViola: Sassuolo have won 4 of their last 5 home league games v Fiorentina; Berardi has 10 goals and 4 assists v Fiorentina; Sassuolo are winless in 9 Serie A Monday games (4 draws). Style: two leaky defences, open game expected (DraftKings total line moved from 2.5 to 3.5).",
+        "odds": "DraftKings via ESPN, closing: Sassuolo +170 / draw +265 / Fiorentina +130, de-vigged 34.3/25.4/40.3. At the open (+140/+245/+155) it was 37.9/26.4/35.7, so Fiorentina have firmed since the open. BetExplorer: 2.80/3.65/2.34, de-vigged 33.8/25.9/40.4. Polymarket 24h: Fiorentina 0.415→0.405, Sassuolo 0.325→0.335, draw 0.265→0.255, all under 4% relative, so no flag. Stake and Rainbet returned 403 (no price seen); Oddschecker 403.",
+        "models": "Sports Mole win probabilities: Sassuolo 38.19%, draw 27.02%, Fiorentina 34.8%. This model makes Sassuolo the favourite, opposite to the market. Sports Mole's preview predicts 2-2. Forebet, ClubElo (site and API), Predictz and WinDrawWin were all 403 or connection reset. No Opta match forecast found.",
+        "venue_weather": "Mapei Stadium, Reggio Emilia. Short trip from Florence (~150 km). Open-Meteo for kick-off (17:30 UTC): dry, 0% chance of rain, about 10–11°C, wind about 4 km/h. No pitch issues reported."
+      },
+      "reason": "I started from the market (33.7/25.7/40.7). DraftKings and BetExplorer agree with Polymarket to within about 1 point. I moved the draw +0.8 and Sassuolo +0.3, and took 1.2 off Fiorentina. Reasons: the Sports Mole model rates Sassuolo slight favourites with a 27% draw and predicts 2-2; Fiorentina have conceded 2+ in all 4 away games and won 1 in 6 under Vanoli; Berardi's record v Fiorentina (14 goal involvements). Against that, Sassuolo's attack has collapsed (0 and 1 shots on target in the last two games, 4 losses in 5) and Thorstvedt is suspended. The moves are small because the sources disagree. EXCLUDED under the rule on likely starters reported differently: Sassuolo's back four differs in all four lineup sources; Fagioli (Fantacalcio 85%, FirenzeViola, Sports Mole) is left out of Sky's latest XI in favour of Oulai; Berardi is only 60/40 over Volpato. There is also no edge on any leg at these probabilities: Fiorentina or draw is fair at 1.52 against 1.51 offered, Fiorentina DNB 1.86 against 1.83, and Sassuolo or draw 1.65 against 1.69, a tiny edge that the 3% book margin wipes out. Rotation, managers, derby, weather and price move are all clean, and Fiorentina have no Conference League this season.",
+      "main_risk": "Fiorentina, a slight favourite with a fragile defence (conceded 2+ in every away game), get pegged back to a draw or lose to a late Berardi-led Sassuolo comeback in an open, high-scoring game. Sports Mole predicts 2-2, and its model makes Sassuolo the favourite.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261102",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20261105",
+        "https://site.api.espn.com/apis/v2/sports/soccer/ita.1/standings",
+        "https://gamma-api.polymarket.com/events?id=1220513",
+        "https://clob.polymarket.com/prices-history?market=77231079926046257581625334432075495831609025535624307958717759579930499353906&interval=1d&fidelity=60",
+        "https://www.fantacalcio.it/probabili-formazioni-serie-a",
+        "https://sport.sky.it/calcio/serie-a/probabili-formazioni",
+        "https://www.firenzeviola.it/copertina/vanoli-in-conferenza-atta-e-ranieri-out-fagioli-stato-troppo-criticato-domani-importantissim-488194",
+        "https://www.firenzeviola.it/copertina/sassuolo-fiorentina-probabili-formazioni-fagioli-oulai-brescianini-ndour-favorito-pellegrino-488199",
+        "https://www.firenzeviola.it/avversari/sassuolo-probabili-scelte-aquilani-recuperato-idzes-matic-488221",
+        "https://www.firenzeviola.it/news/sassuolo-fiorentina-statistiche-match-berardi-bestia-nera-viola-488188",
+        "https://www.sportsmole.co.uk/football/sassuolo/preview/sassuolo-vs-fiorentina-prediction-team-news-lineups_608152.html",
+        "https://www.sportsmole.co.uk/football/serie-a/sassuolo-vs-fiorentina_game_261493.html",
+        "https://www.betexplorer.com/football/italy/serie-a/",
+        "https://www.sosfanta.com/squadra/sassuolo/aquilani-rispondo-cosi-su-muric-e-il-cambio-in-porta-berardi-bakola-e-perche-non-ha-giocato-adzic/",
+        "https://tg24.sky.it/sport/2026/09/07/fiorentina-vanoli-allenatore",
+        "https://www.corrieredellosport.it/news/calcio/calcio-mercato/sassuolo/2026/06/12-149149503/aquilani_nuovo_allenatore_del_sassuolo_c_il_comunicato_ufficiale",
+        "https://api.open-meteo.com/v1/forecast?latitude=44.7146&longitude=10.6497&hourly=temperature_2m,precipitation,precipitation_probability,wind_speed_10m,wind_gusts_10m&start_date=2026-11-02&end_date=2026-11-02&timezone=UTC"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1209111",
+      "exclude": true,
+      "reason": "Lorient v Brest is the Breton derby (derby breton). Derbies are excluded under the rules, and the market makes it a near coin-flip (39/30/32) with a 30% draw.",
+      "main_risk": "Derby variance and a likely draw.",
+      "sources": [
+        "https://gamma-api.polymarket.com/events?id=1209111",
+        "https://ligue1.com/en"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1224777",
+      "exclude": true,
+      "confidence": "low",
+      "p": {
+        "home": 0.32,
+        "draw": 0.33,
+        "away": 0.35
+      },
+      "checks": {
+        "team_news": "Gil Vicente: Espigares is suspended (red card in the 1-4 Taça da Liga loss at Benfica on 29 Oct). Tchaptchet, Bamba (long-term knee), Héctor Hernández and Weverson are injured (Flashscore absences list and match page; Sports Mole). Elimbi: Sports Mole says he is available after serving a one-match ban, but footballpredictions.com still lists him as suspended after the 0-1 v Porto. Vitória SC: the sources disagree. Flashscore's absences article lists Gui (GK, long-term knee) and Thiago Balieiro. Flashscore's match page lists Juan Castillo, Francisco Dias and Balieiro. Sports Mole lists Francisco Dias out, Gui recovering and Balieiro doubtful (missed the last 3). Neither press conference (vitoriasc.pt, pressnet/A Bola) gave injury news.",
+        "lineups": "Only one predicted XI could be read. Sports Mole (31 Oct): Gil 4-2-3-1 Lucão; Esgaio, Elimbi, Buatu, Moreira; Lausen, Prioste; Murilo, S. García, Martins; Kaba. Vitória: Zych; Strata, Borevković, Sidibé, Mendes; Nogueira, Doucet; Gustavo Silva, Samu, Câmara; Jakupović. zerozero's 'onzes prováveis' page returned 403 and Flashscore's match page shows no XI, so no second source to compare.",
+        "rotation": "Gil Vicente played Thursday 29 Oct (Taça da Liga QF, lost 1-4 at Benfica, now eliminated). That is 4 days' rest, and Margarido said they will be recovered. Vitória last played the league game v Marítimo (5-0, 23 Oct per Semanário Alto Minho), after a Taça de Portugal win over Lamelas. Neither side is in Europe. Next fixtures not verified. No rotation talk from either manager.",
+        "motivation": "Gil Vicente are 7th on 14 pts, 3 off the European places. Vitória are 13th on 8 pts. Both have stakes. DERBY: A Bola's preview today (1 Nov 2026) calls this the \"'dérbi' minhoto\". Bola na Rede headlined an earlier meeting 'Dérbi Minhoto' ('num dérbi minhoto quente'), and Flashscore/Soccerway have called it the 'penúltimo dérbi minhoto'. A Bola's Dec-2025 preview spoke of Gil's 'invencibilidade minhota' in Minho derbies. It is a regional (Barcelos–Guimarães, both in Braga district) derby. It is less fierce than Braga–Vitória (the classic 'clássico/dérbi do Minho'), but the press labels it a derby. Extra edge: Gil coach Luís Pinto coached Vitória last season and won the Taça da Liga with them ('agora quero vencê-lo'). Vitória's organised fans are boycotting the trip over €25 away tickets. Managers: Tiago Margarido has been at Vitória since June 2026, so not recent. Luís Pinto is coaching Gil this season and no recent change was reported, but his exact appointment date was not checked.",
+        "form": "League, oldest to newest (Sports Mole). Gil: L 0-1 Académico Viseu, L v Benfica, D 1-1 Marítimo, W 1-0 at Moreirense, W 2-1 at Braga, L 0-1 Porto. Then 1-4 at Benfica in the cup. Only 8 GF / 7 GA in 9 league games, and Pinto admits 'não estamos a conseguir materializar'. Vitória: L 0-1 at Braga, D 0-0 Casa Pia, L 1-2 at Académico Viseu, D 1-1 Moreirense, L 0-2 at Benfica, W 5-0 Marítimo. 10 GF / 10 GA, and they have lost all 4 away league games. footballpredictions.com: Gil home 1.00 PPG, Vitória away 0.60 PPG (last 10, all comps). xG was not found from sources read today.",
+        "h2h": "Vitória are unbeaten in the last 5 meetings (4W 1D) with 4 straight clean sheets (Sports Mole). Flashscore's match page agrees: Gil have no win in the last 5 league meetings, the latest a 1-0 Vitória win in Barcelos in Apr 2026. Past meetings include 0-0 and 2-2 draws. Mostly low-scoring.",
+        "odds": "DraftKings (ESPN API): Gil +195 / Draw +205 / Vitória +155 (opened +160 / +205 / +170, so it drifted toward Vitória). De-vigged 0.320 / 0.310 / 0.370. DK u2.5 is -155. Bet365 (via kickoff.co.uk): 2.80 / 3.25 / 2.45, de-vigged 0.333 / 0.287 / 0.380; Under 2.5 at 1.67. Polymarket 24h is flat: Gil 0.325 to 0.325, Draw 0.31 to 0.315, Vitória 0.36 to 0.365, all under 5% relative. Stake and Rainbet both returned 403, so no prices recorded.",
+        "models": "kickoff.co.uk model: Gil 47% / D 28% / V 25%, most likely 1-0. Sports Mole predicts 1-1 ('a draw looks feasible' given Vitória's away form). footballpredictions.com predicts 1-1 and tips Gil or draw. Forebet returned 403 and ClubElo's API returned 502 / no data.",
+        "venue_weather": "Estádio Cidade de Barcelos (home ground, no neutral venue). Travel is about 40 km. Referee Hélder Carvalho (AF Santarém). Open-Meteo for Barcelos 20:00–21:00 UTC: about 13–14°C, 0 mm rain (0%), wind about 5 km/h, gusts 14–16 km/h. No pitch issues reported."
+      },
+      "reason": "EXCLUDED: this is a derby. A Bola's own preview today calls it the \"'dérbi' minhoto\", and Bola na Rede and Flashscore use the same label for this fixture. INSTRUCTIONS.md excludes derbies. The game also looks like a genuine coin flip. The market is 32/31/36, and both bookmakers agree with Polymarket within about 1–2 points. Several things point slightly toward a draw: Sports Mole and footballpredictions.com both predict 1-1. Gil have scored only 8 goals in 9 league games. Under 2.5 is the favourite at both DK (-155) and Bet365 (1.67). Vitória have lost all 4 away league games, while Gil have no win in the last 5 meetings. So the draw goes up about 1.7 points and Vitória down about 1.3, staying within ±5 of the market. Further doubts: Vitória's absence lists conflict (Gui / Castillo / F. Dias / Balieiro), Gil have 5 absentees, and only one predicted-XI source could be read.",
+      "main_risk": "A low-scoring draw (0-0/1-1). Gil are poor finishers and the edge-of-derby game is tight. Vitória away have lost 4/4, so a slight 'favourite' Vitória fails to win. Luís Pinto, facing his former club, has extra motivation.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261102",
+        "https://gamma-api.polymarket.com/events?id=1224777",
+        "https://clob.polymarket.com/prices-history?market=111075560721547270308155414646839074186794375333032293175324154900815460035309&interval=1d&fidelity=60",
+        "https://www.abola.pt/noticias/gostei-de-representar-o-vitoria-mas-agora-quero-vence-lo-2026110116351049793",
+        "https://vitoriasc.pt/2026/11/01/tiago-margarido-completamente-solidario-com-a-opcao-dos-adeptos/",
+        "https://pressnet.pt/2026/11/01/luis-pinto-afasta-vantagem-por-conhecer-o-vitoria-sc-antes-do-duelo-em-barcelos/",
+        "https://www.altominho.com.pt/2026/11/01/gil-vicente-procura-mais-golos-e-vitoria-quer-soltar-se/",
+        "https://maisguimaraes.pt/tiago-margarido-solidario-com-o-boicote-dos-adeptos-e-confiante-para-o-teste-de-barcelos",
+        "https://www.sportsmole.co.uk/football/gil-vicente/preview/gil-vicente-vs-guimaraes-prediction-team-news-lineups_608156.html",
+        "https://www.flashscore.pt/noticias/futebol-liga-portugal-betclic-ausencias-liga-portugal-nova-baixa-no-fc-porto-alverca-condicionado-para-o-benfica/zNt8Jk0E/",
+        "https://www.flashscore.pt/jogo/futebol/gil-vicente-CS0fFFd8/vitoria-guimaraes-pQYVZyD2/",
+        "https://www.kickoff.co.uk/portuguese-primeira-liga-predictions-stats-odds/gil-vicente-vs-vitoria-sc/",
+        "https://footballpredictions.com/footballpredictions/portugal-primeira-liga-predictions/gil-vicente-vs-guimaraes-prediction-02-11-2026/",
+        "https://bolanarede.pt/nacional/primeira-liga/gil-vicente-fc-2-2-vitoria-sc-show-de-kraev-e-edwards-empatam-derbi-minhoto/",
+        "https://api.open-meteo.com/v1/forecast?latitude=41.53&longitude=-8.62&hourly=temperature_2m,precipitation,precipitation_probability,wind_speed_10m,wind_gusts_10m&start_date=2026-11-02&end_date=2026-11-02&timezone=UTC"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1224438",
+      "exclude": true,
+      "confidence": "low",
+      "p": {
+        "home": 0.35,
+        "draw": 0.3,
+        "away": 0.35
+      },
+      "checks": {
+        "team_news": "Gençlerbirliği's official list (1 Nov, via Yeni Alanya): Diabate is suspended (4 yellows). Goutas (cruciate ligament), Kevin Rodrigues (groin), Pedro Pereira and Ensar Çavuşoğlu are injured. Sources disagree on Sekou Koita: Ajansspor lists him injured, Mynet doubtful, and the club does not list him. Ajansspor also lists Etebo as absent. Alanyaspor: Paolo Fernandes is injured. Fatih Aksoy is doubtful per Mynet and Starting11.",
+        "lineups": "The three predicted XIs conflict. Starting11 starts Goutas (club: ACL injury) and Koïta. SportsGambler starts Ensar Çavuşoğlu (club: injured) and Adama Traore. Ajansspor starts neither Koita nor Goutas. Alanyaspor: Ajansspor and SportsGambler broadly agree (Victor; Lima, Aliti, Bedirhan, Hadergjonaj; Makouta, Ruan, Hagi, Cédric) but differ on the 4-3-3/3-4-3 shape and on Ui-jo vs İbrahim Kaya.",
+        "rotation": "No midweek games for either side. Gençlerbirliği last played 25 Oct (lost 0-2 at Konyaspor) and next play at Beşiktaş on 8 Nov. Alanyaspor last played 23 Oct (lost 1-2 at home to Kocaelispor) and next host Trabzonspor on 8 Nov. Both are rested, so no rotation is expected.",
+        "motivation": "Gençlerbirliği are 16th, in the relegation zone, with 8 pts from 9 games (GD -11). Alanyaspor are 12th with 12 pts (GD -2). Both have real stakes. It is not a derby. Bernd Storck was appointed at Gençlerbirliği on 9 Oct 2026 after Metin Diyadin resigned, 24 days ago, so outside the 14-day rule. João Pereira is in his second season at Alanyaspor.",
+        "form": "Gençlerbirliği W2 D2 L5, 7 GF / 18 GA. Their last 5 are L L D L L (3 GF / 11 GA): 1-2 Kasımpaşa, 0-4 at Başakşehir, 2-2 Amed, 0-1 Galatasaray, 0-2 at Konyaspor. At home they beat Fenerbahçe 2-1 and drew 1-1 with Erzurum. Alanyaspor W3 D3 L3, 9 GF / 11 GA. Their last 5 are D W D L L: 2-2 Göztepe, 2-1 at Çorum, 0-0 Erzurum, 0-3 at Fenerbahçe, 1-2 Kocaelispor. On the road they won at Rize and Çorum. Both attacks are low-scoring. I found no xG figures.",
+        "h2h": "The last two meetings were draws: 0-0 at Alanya on 9 Mar 2026 and 2-2 at Eryaman on 4 Oct 2025. Before that, three Gençlerbirliği wins in 2020-21. ESPN's last 5: GEN 3 wins, 2 draws. Recent meetings point to a draw.",
+        "odds": "DraftKings via the ESPN API: close +165 / +230 / +165 (open +170 / +215 / +155). De-vigged that is 35.7 / 28.6 / 35.7, with the money drifting slightly from Alanyaspor toward home and draw. BetMGM via SportsGambler (1 Nov): +155 / +215 / +180, de-vigged 36.8 / 29.8 / 33.5. Polymarket over 24h was flat: home 0.36→0.355, draw 0.29→0.295, away 0.35→0.355, well under a 5% move. Stake and Rainbet returned 403, so no prices recorded.",
+        "models": "Forebet returned 403 and ClubElo's connection was reset, so I could not read either. SportsGambler's pick is Alanyaspor AH +0.25 with 1-2 as its correct score. Every price has the game at about even with a 29-30% draw.",
+        "venue_weather": "Eryaman Stadium, Ankara, kick-off 20:00 local, referee Fatih Tokail. Alanyaspor travel by air from Antalya. wttr.in forecast: about 10-12°C, cloudy, 15% chance of rain, light wind. No pitch issues reported."
+      },
+      "reason": "Excluded for conflicting team news and lineups. Sources disagree on Koita, a Starting11 starter: injured per Ajansspor, doubtful per Mynet, not on the club's absence list. Goutas and Ensar Çavuşoğlu, both injured per the official club list, appear in other sources' XIs. Alanyaspor's Fatih Aksoy is doubtful. Under the rules, a likely starter reported differently by different sources means exclude. The game is also a genuine coin flip (DK 35.7 / 28.6 / 35.7, BetMGM 36.8 / 29.8 / 33.5) with no favourite. Both sides score little (7 and 9 goals in 9 games) and the last two meetings were 0-0 and 2-2, so the draw is at least the market's 29% and slightly higher. I nudged it to 0.30 and stayed at the market otherwise. Neither double-chance leg at 1.55 has an edge I can verify.",
+      "main_risk": "A low-scoring draw, or a late goal for either side in an even game between two weak attacks. The last two head-to-heads were 0-0 and 2-2, so the risk is a 1-0 / 0-1 result going against whichever double-chance side is picked.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/summary?event=401888260",
+        "https://gamma-api.polymarket.com/events?id=1224438",
+        "https://clob.polymarket.com/prices-history?market=37669169031906727758661135810530377882384311953459655217977567329014367202545&interval=1d&fidelity=60",
+        "https://ajansspor.com/haber/genclerbirligi-alanyaspor-maci-ne-zaman-hangi-kanalda-muhtemel-11ler-sakat-ve-cezalilar-737743",
+        "https://www.mynet.com/genclerbirligi-corendon-alanyaspor-2026-11-02-maci-oncesi-analiz-525542-myspor",
+        "https://www.yenialanya.com/alanyaspor-maci-oncesi-genclerbirliginde-5-eksik",
+        "https://mansethaber.com/spor/genclerbirligi-alanyaspor-macina-hazir-5-eksik-var",
+        "https://starting11.com/fixtures/genclerbirligi-s-k-vs-alanyaspor",
+        "https://www.sportsgambler.com/betting-tips/football/genclerbirligi-vs-alanyaspor-prediction-lineups-odds-2026-11-02/",
+        "https://www.evrensel.net/haber/6004198/genclerbirligi-alman-teknik-direktor-bernd-storck-ile-anlasti",
+        "https://wttr.in/Ankara?format=j1"
+      ],
+      "prices": []
+    }
+  ]
+}
