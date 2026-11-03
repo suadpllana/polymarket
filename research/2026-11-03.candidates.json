@@ -1,0 +1,343 @@
+{
+  "date": "2026-11-03",
+  "window": {
+    "start": "2026-11-03T08:21:41.227Z",
+    "end": "2026-11-04T05:00:00.000Z"
+  },
+  "games_in_window": 11,
+  "games": [
+    {
+      "id": "1230766",
+      "league": "Champions League",
+      "event": "FC Barcelona vs. Aston Villa FC",
+      "home": "FC Barcelona",
+      "away": "Aston Villa FC",
+      "start": "2026-11-03T20:00:00.000Z",
+      "p_market": {
+        "home": 0.7736,
+        "draw": 0.1231,
+        "away": 0.1033
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "FC Barcelona",
+          "fair_odds": 1.29
+        }
+      ]
+    },
+    {
+      "id": "1230746",
+      "league": "Champions League",
+      "event": "LASK Linz vs. ŠK Slovan Bratislava",
+      "home": "LASK Linz",
+      "away": "ŠK Slovan Bratislava",
+      "start": "2026-11-03T20:00:00.000Z",
+      "p_market": {
+        "home": 0.7165,
+        "draw": 0.1669,
+        "away": 0.1166
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "LASK Linz",
+          "fair_odds": 1.4
+        }
+      ]
+    },
+    {
+      "id": "1231225",
+      "league": "Brasileirão",
+      "event": "SC Internacional vs. Coritiba FBC",
+      "home": "SC Internacional",
+      "away": "Coritiba FBC",
+      "start": "2026-11-04T00:30:00.000Z",
+      "p_market": {
+        "home": 0.6034,
+        "draw": 0.2232,
+        "away": 0.1734
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "SC Internacional",
+          "fair_odds": 1.66
+        },
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "SC Internacional or Draw",
+          "fair_odds": 1.21
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "SC Internacional",
+          "fair_odds": 1.29
+        }
+      ]
+    },
+    {
+      "id": "1230741",
+      "league": "Champions League",
+      "event": "Villarreal CF vs. Paris Saint-Germain FC",
+      "home": "Villarreal CF",
+      "away": "Paris Saint-Germain FC",
+      "start": "2026-11-03T20:00:00.000Z",
+      "p_market": {
+        "home": 0.2167,
+        "draw": 0.2167,
+        "away": 0.5666
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Paris Saint-Germain FC",
+          "fair_odds": 1.76
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Paris Saint-Germain FC or Draw",
+          "fair_odds": 1.28
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "Paris Saint-Germain FC",
+          "fair_odds": 1.38
+        }
+      ]
+    },
+    {
+      "id": "1230751",
+      "league": "Champions League",
+      "event": "FK Bodø/Glimt vs. Lille OSC",
+      "home": "FK Bodø/Glimt",
+      "away": "Lille OSC",
+      "start": "2026-11-03T20:00:00.000Z",
+      "p_market": {
+        "home": 0.5566,
+        "draw": 0.2267,
+        "away": 0.2167
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "FK Bodø/Glimt",
+          "fair_odds": 1.8
+        },
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "FK Bodø/Glimt or Draw",
+          "fair_odds": 1.28
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "FK Bodø/Glimt",
+          "fair_odds": 1.39
+        }
+      ]
+    },
+    {
+      "id": "1230730",
+      "league": "Champions League",
+      "event": "Feyenoord Rotterdam vs. FC Internazionale Milano",
+      "home": "Feyenoord Rotterdam",
+      "away": "FC Internazionale Milano",
+      "start": "2026-11-03T20:00:00.000Z",
+      "p_market": {
+        "home": 0.2667,
+        "draw": 0.2366,
+        "away": 0.4967
+      },
+      "legs_in_range": [
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "FC Internazionale Milano or Draw",
+          "fair_odds": 1.36
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "FC Internazionale Milano",
+          "fair_odds": 1.54
+        }
+      ]
+    },
+    {
+      "id": "1224839",
+      "league": "Champions League",
+      "event": "Galatasaray SK vs. VfB Stuttgart",
+      "home": "Galatasaray SK",
+      "away": "VfB Stuttgart",
+      "start": "2026-11-03T17:45:00.000Z",
+      "p_market": {
+        "home": 0.4733,
+        "draw": 0.2234,
+        "away": 0.3033
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Galatasaray SK or Draw",
+          "fair_odds": 1.44
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "VfB Stuttgart or Draw",
+          "fair_odds": 1.9
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Galatasaray SK",
+          "fair_odds": 1.64
+        }
+      ]
+    },
+    {
+      "id": "1224849",
+      "league": "Champions League",
+      "event": "FK Shakhtar Donetsk vs. Sporting CP",
+      "home": "FK Shakhtar Donetsk",
+      "away": "Sporting CP",
+      "start": "2026-11-03T17:45:00.000Z",
+      "p_market": {
+        "home": 0.27,
+        "draw": 0.26,
+        "away": 0.47
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "FK Shakhtar Donetsk or Draw",
+          "fair_odds": 1.89
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Sporting CP or Draw",
+          "fair_odds": 1.37
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "Sporting CP",
+          "fair_odds": 1.57
+        }
+      ]
+    },
+    {
+      "id": "1231209",
+      "league": "Brasileirão",
+      "event": "Associação Chapecoense de Futebol vs. Mirassol FC",
+      "home": "Associação Chapecoense de Futebol",
+      "away": "Mirassol FC",
+      "start": "2026-11-03T22:30:00.000Z",
+      "p_market": {
+        "home": 0.2633,
+        "draw": 0.2733,
+        "away": 0.4633
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Associação Chapecoense de Futebol or Draw",
+          "fair_odds": 1.86
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Mirassol FC or Draw",
+          "fair_odds": 1.36
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "Mirassol FC",
+          "fair_odds": 1.57
+        }
+      ]
+    },
+    {
+      "id": "1230761",
+      "league": "Champions League",
+      "event": "Manchester United FC vs. AS Roma",
+      "home": "Manchester United FC",
+      "away": "AS Roma",
+      "start": "2026-11-03T20:00:00.000Z",
+      "p_market": {
+        "home": 0.4499,
+        "draw": 0.2302,
+        "away": 0.3199
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Manchester United FC or Draw",
+          "fair_odds": 1.47
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "AS Roma or Draw",
+          "fair_odds": 1.82
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Manchester United FC",
+          "fair_odds": 1.71
+        }
+      ]
+    },
+    {
+      "id": "1230756",
+      "league": "Champions League",
+      "event": "Club Atlético de Madrid vs. FC Bayern München",
+      "home": "Club Atlético de Madrid",
+      "away": "FC Bayern München",
+      "start": "2026-11-03T20:00:00.000Z",
+      "p_market": {
+        "home": 0.3533,
+        "draw": 0.2434,
+        "away": 0.4033
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Club Atlético de Madrid or Draw",
+          "fair_odds": 1.68
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "FC Bayern München or Draw",
+          "fair_odds": 1.55
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "FC Bayern München",
+          "fair_odds": 1.88
+        }
+      ]
+    }
+  ]
+}

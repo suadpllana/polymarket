@@ -1,0 +1,453 @@
+{
+  "date": "2026-11-03",
+  "researched_at": "2026-11-03T07:04:07Z",
+  "summary": "Champions League Tuesday: 11 games researched, 5 kept (all medium confidence): Barcelona v Aston Villa (Barça 75%), LASK v Slovan Bratislava (LASK 70%), Feyenoord v Inter (Inter 49.5%), Galatasaray v Stuttgart (Galatasaray 45%) and Chapecoense v Mirassol (Mirassol 43.5%). Excluded: Internacional v Coritiba (Coritiba coach sacked 7 days ago, Inter midfield doubts), Shakhtar v Sporting (Sporting coach left, neutral venue), Man United v Roma (conflicting reports on United starters, unexplained 10% price move), Atlético v Bayern (Bayern GK doubt, Kompany absent), Villarreal v PSG (unexplained 7-8% drift, PSG left-back fitness), Bodø/Glimt v Lille (virus in the squad, Hauge reported differently, 70 km/h gusts).",
+  "games": [
+    {
+      "id": "1230766",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.75,
+        "draw": 0.135,
+        "away": 0.115
+      },
+      "checks": {
+        "team_news": "Barcelona have four defenders out. Koundé (ankle) and Eric García (thigh) trained away from the group Monday and are ruled out (Rotowire). Xavi Espart has a syndesmosis injury, out about 7 weeks. Christensen (thigh/quad) will not be risked (Al Jazeera) and is 'not yet ready' (Football365); Rotowire calls him unclear because he missed Monday's session. He is in no predicted XI. Also out: Olmo (adductor) and Bardghji (ACL). Raphinha is fit and started Saturday. Pedri came off at half-time vs Alavés with no injury reported. Villa are without Wan-Bissaka and Ruggeri (hamstrings) and Onana (ACL, long term). Madjo and Cissé are not in the UCL squad. Maatsen is back from an ankle injury. Cash's Premier League ban does not apply here. Neither side's goalkeeper is in doubt.",
+        "lineups": "Barcelona, from Rotowire, EverythingBarca, Al Jazeera and Starting11: all four agree on Joan García, Cubarsí, Cancelo, Rodri, Pedri, Fermín, Yamal, Raphinha and Gordon. They split on one or two back-line spots: De Jong at CB with Fariñas at RB (Rotowire, and an AS report via Yahoo) vs Gerard Martín and Balde (EverythingBarca, Al Jazeera). Villa, from Rotowire, AstonVillaReview and Al Jazeera: all agree on Suzuki; Cash, Lindelöf, Torres, Maatsen; Kamara, McGinn, Manzambi and Jackson. The last two midfield/wide spots vary between Gomes, Buendía, Barkley, Alysson and Goretzka. Those are selection choices, not fitness doubts.",
+        "rotation": "Barcelona: previous game Sat 31 Oct, 6-1 at home to Alavés. Next game Sun 8 Nov at Atlético Madrid (La Liga's top two), five days after this one. Flick: 'I'm focused on the next match.' I found no talk of rotation, and every predicted XI is first-choice, so expect 1–3 changes, mostly forced by the defensive injuries. Villa: Fulham 1-1 on 31 Oct, after rotating for the 28 Oct Carabao Cup loss at Bournemouth (Jackson and Manzambi rested). Next game Sun 8 Nov at Man United. Expect Villa near full strength.",
+        "motivation": "In the UCL league-phase table Barcelona are 8th with 6 points and Villa are 2nd with 9 (ESPN standings). Flick is 'aiming for top eight' (club site), so both sides have real stakes. Barcelona are 1st in La Liga and Villa 10th in the Premier League. Not a derby: it is the first meeting since 1983. Flick and Emery are both in post, and I found no manager change.",
+        "form": "Barcelona have played 14 competitive games: 12 wins, 0 draws, 2 losses (2-4 at PSG on 20 Oct, 1-2 at home to Real Madrid on 25 Oct). Last 8: 31 goals for, 13 against. At home they have won 6 of 7. Over the last 8 they averaged about 20.8 shots for and 8.3 against (ESPN box scores). Villa's last 8: W3-2 Tottenham, D2-2 Brentford, W6-0 Fenerbahçe, W1-0 at Newcastle, W3-1 Viking, W2-1 Man City, L0-3 Bournemouth (cup), D1-1 Fulham. That is 18 goals for and 10 against, with about 16.7 shots for and 14.7 against. Villa away: L0-4 Brighton, D0-0 Hull, W at Brugge, Tottenham and Newcastle. I could not get xG: Understat returned 503, FBref and Sofascore 403, the FotMob API 404, and ClubElo was unreachable, so shot counts stand in for it.",
+        "h2h": "The only previous meetings were the 1983 Super Cup: Barcelona won 1-0 at Camp Nou and Villa won 3-0 at home (3-1 on aggregate). As a manager, Emery is W3 D6 L21 against Barcelona (20% draws, per Al Jazeera) and has won once in 15 visits to Camp Nou (Football365). Style: Barcelona's high line and attack against Villa's counters through Jackson (8 goals in his last 9 starts, per EverythingBarca). Both teams scored in all 5 of Barcelona's last games (Goal), which points to an open game rather than a cagey draw.",
+        "odds": "De-vigged home/draw/away. DraftKings (ESPN API): opened -450/+600/+800, now -340/+550/+700 = 0.735/0.146/0.119; it was -390 on 2 Nov (Rotowire). Also from Rotowire (OddsJam, 2 Nov): bet365 -400/+650/+700 = 0.756/0.126/0.118, BetMGM -425/+600/+825 = 0.763/0.135/0.102, Kalshi -404/+622/+837. Betway 1.25/7.00/8.00 (Gainblers) = 0.749/0.134/0.117. Football365 quotes 5/19, 13/2, 10/1 = 0.779/0.131/0.089. Sportsline shows BetMGM -323. Book average is about 0.751/0.135/0.114. Polymarket over 24h: home 0.785→0.775 (−1.3%), draw flat at 0.125, away 0.095→0.105. The steady drift away from Barcelona fits the defensive injury news and stays under 5% in the last 24h. Stake and Rainbet both returned 403.",
+        "models": "Opta supercomputer (10k simulations, via Al Jazeera): Barcelona 72.0%, draw 15.3%, Villa 12.7%. Score picks: Rotowire 3-2, EverythingBarca 3-1. Squawka (49/19/32) and Foresportia (Villa favoured) appeared only in search snippets. Both pages returned 403, so I did not read them and did not use them.",
+        "venue_weather": "Spotify Camp Nou, Barcelona's normal home ground. Villa have a roughly 2-hour flight. Open-Meteo for kick-off: rain likely (90%+, about 1–3 mm/h), 11°C, wind about 10 km/h with gusts to about 25 km/h. Wet but not extreme. I found no pitch issues reported."
+      },
+      "reason": "I started from the Polymarket price of 0.774/0.123/0.103 and moved Barcelona down about 2.4 points, splitting it between the draw and Villa. The average of four bookmakers (DraftKings now, bet365, BetMGM, Betway) is about 0.751/0.135/0.114, and Opta's 72/15.3/12.7 is lower still, so Polymarket is the most Barcelona-friendly price. DraftKings has drifted from -450 to -340 as Barcelona's defence has fallen apart: Koundé, Eric García, Christensen and Espart are all out, De Jong or youngster Fariñas is likely to fill in, and Barcelona have not kept a UCL clean sheet since April 2025 (Football365). Villa are in form: 9/9 points in the UCL and wins over Man City and Newcastle. Two things keep the draw low. Barcelona have drawn 0 of 14 this season, and games are expected to be high-scoring (DraftKings total line 4.5; both teams scored in Barcelona's last 5). At 13.5% the draw is far below the 25% cap for a straight win. Confidence is medium rather than high: Barcelona's back line is unsettled, the drift is against the favourite, and I could not get xG.",
+      "main_risk": "Barcelona's makeshift defence (De Jong at centre-back, four defenders out, goals conceded in each of the last 5 games, including 4 at PSG and 2 at home to Real Madrid) gets caught on the counter by Jackson and Villa, giving a 2-2 type draw or a Villa win. The evidence for this is real but already priced in. Against it, Barcelona have not drawn all season and outshoot opponents about 21 to 8.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261103",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/summary?event=401915387",
+        "https://gamma-api.polymarket.com/events?id=1230766",
+        "https://clob.polymarket.com/prices-history?market=107338065422855095176778690023031502487482315667546311650042740095308199924196&interval=1d&fidelity=60",
+        "https://www.rotowire.com/soccer/article/barcelona-vs-aston-villa-prediction-predicted-lineups-team-news-144961",
+        "https://www.football365.com/match-preview/barcelona-v-aston-villa-prediction-preview",
+        "https://aljazeera.com/sports/2026/11/2/barcelona-vs-aston-villa-champions-league-predictions-news",
+        "https://everythingbarca.com/barcelona-vs-aston-villa-champions-league-preview-predictions-team-news-and-tv-info",
+        "https://www.astonvillareview.com/p/aston-villa-team-news-predicted-lineup-barcelona-champions-league",
+        "https://starting11.com/fixtures/barcelona-vs-aston-villa",
+        "https://sports.yahoo.com/articles/hansi-flick-set-repeat-barcelona-072000233.html",
+        "https://gainblers.com/ca/bets/football/europe/champions-league/barcelona-astonvilla/",
+        "https://www.sportsline.com/ucl/game-forecast/CHLG_20261103_AVL@BAR/",
+        "https://www.goal.com/en/news/barcelona-aston-villa-uefa-champions-league-preview/blt5519dbe1d77acc41",
+        "https://www.fcbarcelona.com/en/matches/141501/fc-barcelona-aston-villa-uefa-champions-league-2026-2027",
+        "https://api.open-meteo.com/v1/forecast?latitude=41.3809&longitude=2.1228&hourly=temperature_2m,precipitation_probability,precipitation,wind_speed_10m,wind_gusts_10m&start_date=2026-11-03&end_date=2026-11-03"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1230746",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.7,
+        "draw": 0.18,
+        "away": 0.12
+      },
+      "checks": {
+        "team_news": "Slovan: coach Yaya Touré said at Monday's press conference that Alasana Yirajang and Roman Čerepkai are out. Mykola Kukharevych is training again but is not on the UEFA squad list (skslovan.com). Sporticos lists Šporar as 'doubtful', but the club's own match report shows he started and played 74 minutes at Podbrezová on 31 Oct, and Touré named only Yirajang and Čerepkai as missing, so I treat that label as stale aggregator data. LASK: the club preview mentions no absences. FootballPredictions lists Harakate out (knee), George Bello doubtful (muscle), and Cheikne and Smakaj off the roster. Bello did not start any of LASK's last four games (ESPN line-ups), so no likely starter is in doubt. Squawka (search snippet only, page returned 403) says no fresh LASK concerns. No goalkeeper doubt on either side: Jungwirth is LASK's regular keeper; Slovan used Takáč in the UCL and Popovič in the league, and both were fit on 31 Oct.",
+        "lineups": "FootballPredictions' expected LASK XI (3-4-3): Jungwirth; Alemão, Dibango, Mbuyamba; Ljubičić, Horvath, Elfadli, Schöpf; Lang, Adeniran, Usor. Squawka's (snippet) is also 3-4-3 but includes Andrade and Daněk. The two agree on the core (Jungwirth, Alemão, Mbuyamba, Dibango, Ljubičić, Lang), and ESPN's actual XIs from the last four games confirm that core. FootballPredictions' Slovan XI is garbled (no goalkeeper, youth players Tománek and Hofstädter). Slovan's recent UCL XIs were Takáč; Markovič, Bajrič, Pokorný, Cruz; Blackman, Gajdoš, Ibrahim; Camara, Barseghyan, Marcelli or Šporar. No confirmed XIs yet; the sources differ in detail.",
+        "rotation": "LASK: ÖFB Cup on Wed 28 Oct vs Ried, won 5-4 after extra time (120 minutes); league on Sat 31 Oct vs Tirol, won 2-1; next is away at Ried in the league on Sat 7 Nov (lask.at). LASK swap players between league and UCL games: the XI vs Tirol differed by about 5 from the XI at Sporting. Those changes would restore the European XI rather than weaken it, and Kühbauer has not talked about resting players: 'from the first minute we want to show we want to win.' Slovan: Wed 28 Oct at Trenčín (rescheduled league game, won 2-0) and Sat 31 Oct at Podbrezová (2 changes, won 2-1). Next is a home league game vs Trenčín (date not checked). Both sides are on their third game in 7 days; LASK carry extra load from the 120-minute cup tie.",
+        "motivation": "UEFA's own match API confirms this is UCL League Phase Matchday 4 (not Europa or Conference League). LASK are 24th with 3 points, the last play-off place, and a win keeps their knockout hopes alive. Slovan are 36th with 0 points and goal difference -12, chasing their first point. Both managers are settled: Kühbauer since Oct 2025, contract extended to 2029; Touré since June 2026. No sacking or appointment in the last 14 days. Not a derby: the clubs have never met in a competitive game.",
+        "form": "LASK, last 10 (FootballPredictions): W4 D1 L5. Scored 2.2 and conceded 2.4 per game; xG 1.91 for, 1.48 against. At home they concede 3.2 per game with no clean sheet in their last 5. Recent results: L 0-1 at AEK, L 3-6 vs Liverpool (outshot 12-26), W 4-0 at Lustenau, W 3-2 at Sporting, L 1-3 vs Salzburg, W 5-4 aet vs Ried (3-3 after 90), W 2-1 vs Tirol. They are 3rd in the Austrian league. Slovan, last 10: 1.8 points per game, xG 1.88 for, 1.29 against; away they won 5 of 7 with 1.86 scored and 1.14 conceded per game. In the UCL they lost 1-6 at PSG, 0-3 vs Stuttgart (1 shot on target) and 0-4 at Roma (1 shot in total). In the league: W 3-0 at Trnava, D 2-2 vs Dukla, W 2-0 at Trenčín, W 2-1 at Podbrezová; 2nd in the Niké liga.",
+        "h2h": "No previous competitive meeting (lask.at: 'first competitive duel'). Style: LASK play an attacking 3-4-3 or 5-3-2 with a leaky defence (BTTS in 70% of their last 10). Slovan sit deep in a 4-1-4-1 in Europe and have created almost nothing against top sides. Totals are high (DraftKings O/U line 3.5, over -125), and high-scoring games make a draw less likely.",
+        "odds": "DraftKings (ESPN API): -290 / +475 / +650 (1.345 / 5.75 / 7.50), de-vigged 70.8 / 16.5 / 12.7. It opened at -235 / +390 / +500 (about 65.4 / 19.0 / 15.5), so the price has firmed toward LASK. Bet365 (via Gainblers): -303 / +450 / +700, de-vigged 71.0 / 17.2 / 11.8. Sporticos shows 1.40 / 5.00 / 7.00; KickOff's best LASK price is 1.44. Polymarket LASK yes moved 0.685 → 0.715 in 24h (+4.4% relative, under the 5% trigger) and from 0.665 over 7 days. Draw went 0.185 → 0.165 and Slovan 0.135 → 0.115. The drift matches Slovan's absences and the away-fan ban, both announced on 2 Nov.",
+        "models": "Opta supercomputer (theanalyst.com): LASK 63.0%, draw 19.1%, Slovan 17.9%. KickOff algorithm: LASK 68%, home-or-draw 86% (so draw about 18%), DNB 80%. Squawka 68 / 15 / 16 (snippet only). Sporticos shows 46 / 23 / 31, which looks like an outlier. ClubElo failed to connect twice; Forebet returned 403.",
+        "venue_weather": "Raiffeisen Arena (Oberösterreich Arena in UEFA's naming), Linz, LASK's normal home ground, about 19,080 capacity; referee Donatas Rumšas (LTU). The away sector will stay closed, so no Slovan fans (skslovan.com), which is a small extra home edge. Travel from Bratislava is about 250 km by road; the team arrived on Monday. Open-Meteo forecast for kick-off: about 6°C, overcast, dry, wind 7-8 km/h. No pitch problems reported."
+      },
+      "reason": "I started from Polymarket (71.7 / 16.7 / 11.7), which matches the de-vigged DraftKings (70.8 / 16.5 / 12.7) and Bet365 (71.0 / 17.2 / 11.8) prices. I moved about 1.7 points from home to draw/away for three cited reasons: (1) the bookmaker-free models are below the market on LASK (Opta 63.0 / 19.1 / 17.9; KickOff about 68 / 18 / 14); (2) LASK's home defence is poor, conceding 3.2 per game with no clean sheet in their last 5 home games (FootballPredictions); (3) LASK played a 120-minute cup tie on Wednesday and a league game on Saturday before this one. I kept the move small because the rest points the other way: Slovan are without Yirajang and Čerepkai, have no fans in the stadium, managed 1 shot on target vs Stuttgart and 1 shot at Roma, and are 36th with -12 goal difference. LASK are at full strength apart from Harakate, motivated (24th, a win keeps them in the knockout race) and won at Sporting. No exclusion rule fires. Šporar's 'doubtful' tag comes only from an aggregator and is contradicted by the club's 31 Oct report. The 24h move in the favourite's price is +4.4%. Both managers are settled, it is not a derby, and the venue and weather are normal. Draw at 18% is below the 25% limit for a straight-win leg.",
+      "main_risk": "LASK's leaky defence (2.4 conceded per game, no home clean sheet in 5) and tired legs after a 120-minute cup tie let Slovan steal a goal on the break. Slovan are strong away at home in Slovakia, and Barseghyan, Šporar or Camara could score. The likeliest bad outcome is a 1-1 or 2-2 draw, possibly from a late equaliser, as in LASK's 3-3 after 90 minutes against Ried. Both coaches called it 'on par' (Kühbauer) or '50:50 if we match the intensity' (Touré). The draw was raised to 18% to cover this.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261103",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/summary?event=401915385",
+        "https://match.uefa.com/v5/matches?matchId=2049615",
+        "https://www.lask.at/de/m/news/lask-empfaengt-slovan-bratislava-zu-cl-duell",
+        "https://www.lask.at/de/m/news/geschuetzter-ticketverkauf-fuer-das-auswaertsspiel-in-ried",
+        "https://www.skslovan.com/clanok13930-Pred_LASK_Budeme_hrat_aj_za_nasich_fanusikov.htm",
+        "https://www.skslovan.com/clanok13922-V_Podbrezovej_dalsia_cenna_vyhra.htm",
+        "https://footballpredictions.com/footballpredictions/championsleaguepredictions/lask-linz-vs-slovan-bratislava-prediction-03-11-2026/",
+        "https://sporticos.com/en-gb/match/lask-linz-vs-slovan-bratislava",
+        "https://theanalyst.com/articles/uefa-champions-league-match-predictions",
+        "https://www.kickoff.co.uk/uefa-champions-league-predictions-stats-odds/lask-linz-vs-s-bratislava/",
+        "https://gainblers.com/us/bets/football/europe/champions-league/lasklinz-slovanbratislava/",
+        "https://www.sportsline.com/ucl/game-forecast/CHLG_20261103_SLO@LAS/",
+        "https://www.meinbezirk.at/linz/c-sport/titelverteidiger-lask-kickt-ried-furios-nach-fuehrung-raus_a8982324",
+        "https://gamma-api.polymarket.com/events?id=1230746",
+        "https://clob.polymarket.com/prices-history?market=92895531025389045093542444347497455735414618758175672271444620834219833340393&interval=1d&fidelity=60",
+        "https://api.open-meteo.com/v1/forecast?latitude=48.294&longitude=14.276&hourly=temperature_2m,precipitation&start_date=2026-11-03&end_date=2026-11-03"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1231225",
+      "exclude": true,
+      "confidence": "low",
+      "p": {
+        "home": 0.58,
+        "draw": 0.245,
+        "away": 0.175
+      },
+      "checks": {
+        "team_news": "Inter: goalkeepers Anthoni (knee), Rochet (back) and Matheus Cunha are out, so Kauan is expected in goal. Forwards Sanabria (calf) and Kayky (ankle) are out (Starting11). Key midfielders Alan Patrick and Thiago Maia came off injured against Fluminense and are DOUBTS being reassessed (umdoisesportes, coxanautas, radiogrenal, VAVEL). Mercado and Villagra may return. Coritiba: Lucas Ronier is the only long-term absentee (knee); Starting11 also lists Taverna as out.",
+        "lineups": "Radiogrenal, umdoisesportes and VAVEL agree on Inter: Kauan; Bruno Gomes, Maripán, Juninho; Aguirre, Ronaldo, Villagra, Bahia; Vitinho, Bernabei; Alerrandro. Coxanautas has Mercado instead of Maripán, with Thiago Maia and Alan Patrick starting if fit (Paulinho or Vitinho if not). So sources DISAGREE over the two doubtful midfielders and the centre-back. Coritiba's XI agrees across 3 sources: Morisco; Tinga, Cóser, Jacy, Bruno Melo; Fonseca, Thiago Santos, S. Gómez; Breno Lopes, Josué, Pedro Rocha.",
+        "rotation": "Inter last played 28 Oct (lost 2-1 at Fluminense). Next game is 19 Nov at Vasco, after an international-window gap. Coritiba last played 31 Oct (beat Vitória 2-0 at home), next on 18 Nov at Santos. Neither side has a cup or continental game, so no rotation expected.",
+        "motivation": "Inter are 18th with 35 points, in the relegation zone, and need the win (crisis off the field too: a third FIFA transfer ban, per coxanautas). Coritiba are 11th with 42 points, 6–7 clear of the drop with 5 games left, and still fighting to stay up. MANAGER CHANGE: Coritiba sacked Fernando Seabra on 27 Oct 2026, 7 days ago (acritica.net). Interim coach Guila Bossle debuted with the 2-0 win over Vitória and has switched to a rare 4-3-1-2. Inter's Eduardo Baptista replaced Pezzolano after round 28, so he has been in charge 5 games (2W 1D 2L), more than 14 days. Not a derby.",
+        "form": "From ESPN results. Inter's last 10: D W? no: D L L W L W D L W L (0-0 CAM, 2-3 at BAH, 2-3 SAN, 2-1 at CHA, 0-1 at SAO, 2-1 COR, 1-1 at GRE, 0-2 at MIR, 3-0 BOT, 1-2 at FLU). Inter at home: 5W 5D 6L, 21-17. Inter have 11 draws in 33 games. Coritiba's last 10: W W L D L L D L L W, including 0-5 at Vasco and 0-4 at Fluminense. Coritiba away: 5W 4D 7L, 18-29. I found no xG source this session.",
+        "h2h": "Starting11: 19 meetings in all competitions, Inter 8 wins, 9 draws, Coritiba 2, so draws are very common. The first-round game this season ended 2-2 (9 May 2026). Coritiba won 4-3 on their last visit to Beira-Rio (Oct 2023), but have won only 3 of 26 in Porto Alegre (coxanautas).",
+        "odds": "DraftKings (ESPN API): Inter -160, draw +310, Coritiba +400. De-vigged that is about 0.581/0.230/0.189. Inter opened at -185 and Coritiba at +450, so the bookmaker has drifted toward Coritiba. Polymarket: Inter 0.605 (range 0.595–0.605 over 24h), draw 0.225 (0.22–0.24), Coritiba 0.175. No 5% move. Stake and Rainbet both returned 403, so no price seen.",
+        "models": "Starting11 model: Inter 45%, draw 45%, Coritiba 10%, with the tip Inter or Draw. umdoisesportes predicts 1-0 Inter (tip Inter or Draw). ClubElo doesn't cover Brazil, and I found no Opta or Sports Mole 2026 preview.",
+        "venue_weather": "Estádio Beira-Rio, Porto Alegre, Tuesday 3 Nov at 21:30 BRT (00:30Z), referee Fernando Antonio Mendes de Salles Nascimento Filho. Coritiba's trip from Curitiba is short and they had 3 days' rest. I didn't check the weather and found no pitch issues."
+      },
+      "reason": "EXCLUDE on two rule triggers. (1) Coritiba sacked Fernando Seabra on 27 Oct 2026, 7 days before kick-off; interim Guila Bossle has had one game and a new 4-3-1-2. (2) Inter's likely starters Alan Patrick and Thiago Maia are doubts after coming off injured against Fluminense, and lineup sources disagree on Inter's midfield and back three. The market favourite is also weak on its record: Inter are 18th, won only 5 of 16 at home and drew 11 of 33. The DraftKings price has drifted from -185 to -160 (de-vig home 0.58), and Starting11's model gives the draw 45%. H2H is 9 draws in 19, and the first-round game was 2-2. So p shades home down and draw up from the market (0.603/0.223/0.173 → 0.58/0.245/0.175). A straight win is not allowed with the draw above 0.25 by those numbers anyway.",
+      "main_risk": "A tense, low-quality relegation-zone game ends level. Inter without Alan Patrick and Thiago Maia struggle to break down a Coritiba side lifted by a new interim coach (a new-manager bounce after the 2-0 over Vitória), and it finishes 1-1 or 0-0. Inter draw a third of their games, and the last H2H was 2-2.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard?dates=20261103",
+        "https://gamma-api.polymarket.com/events?id=1231225",
+        "https://clob.polymarket.com/prices-history",
+        "https://starting11.com/fixtures/internacional-vs-coritiba",
+        "https://www.vavel.com/br/futebol/2026/11/02/internacional/1277873-inter-recebe-coritiba-em-duelo-decisivo-pelo-brasileirao.html",
+        "https://coxanautas.com.br/noticia/brasileirao/em-crise-dentro-e-fora-de-campo-inter-recebe-o-coritiba/",
+        "https://www.umdoisesportes.com.br/coritiba/onde-assistir-coritiba/internacional-x-coritiba-palpite-onde-assistir-escalacoes-03-11-2026/",
+        "https://www.radiogrenal.com.br/inter-x-coritiba-como-chegam-provaveis-escalacoes-e-transmissao/",
+        "https://acritica.net/esportes/futebol/coritiba-demite-fernando-seabra-apos-sete-jogos-sem-vitoria-no-brasileirao/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1230741",
+      "exclude": true,
+      "confidence": "low",
+      "p": {
+        "home": 0.22,
+        "draw": 0.22,
+        "away": 0.56
+      },
+      "checks": {
+        "team_news": "PSG squad list (21 players, published 2 Nov 10:56) confirms four starters out: Dembélé (thigh/hamstring), Marquinhos (thigh), Nuno Mendes and Kvaratskhelia (ACL, out for the season). All four were injured on or around the 20 Oct win over Barcelona. Keeper Longoni is back in the squad. VIPSG and FutbolFantasy both report that the only senior left-backs, Lucas Hernández (projected starter) and Lucas Digne (who cramped), came back from Le Havre with muscle fatigue, and that their fitness will be checked before the match. Villarreal: Gerard Moreno has an adductor injury and is ruled out per FutbolFantasy/Eurosport but only 'doubtful/very uncertain' per VIPSG/CulturePSG. Foyth and Akhomach are out, Diatta is doubtful, and Saliba has just rejoined training. Pape Gueye is available because his LaLiga ban does not apply in Europe.",
+        "lineups": "PSG: L'Équipe (via ParisFans), VIPSG, Eurosport, SportsGambler, FutbolFantasy and FotMob all agree on Safonov; Hakimi, Zabarnyi, Pacho, Hernández; Neves, Vitinha, Ruiz; Akliouche, Torres, Doué. Left-back is the one open spot (Hernández, Digne or Zaïre-Emery). Villarreal: core of Gulácsi; Mouriño, Navarro, Veiga, Cardona; Gueye, Comesaña; Buchanan, Moleiro, Mikautadze. The sources disagree on the 10th/11th starter: Saliba starts for FotMob and SportsGambler, Pépé for Eurosport and FutbolFantasy, Oluwaseyi for HardTackle. FutbolFantasy also has Cardona vs Romero open and gives Gulácsi only a 'slight edge' over Luiz Júnior in goal.",
+        "rotation": "PSG: previous game was Le Havre away on 30 Oct (5-1, rotated XI, Boly debut). Next is Troyes at home on 7 Nov, then the international break. Hakimi, Vitinha, Neves and Doué are expected back. Luis Enrique: 'We did not plan for this match differently'. So no heavy rotation is expected beyond the forced changes. Villarreal: previous game was Espanyol at home on 30 Oct (0-1, after a rotated cup win 5-0 at Manacor on 27 Oct). Next is Getafe at home on 8 Nov. Expected full strength apart from injuries.",
+        "motivation": "In the UCL league-phase table PSG are 1st (3-0-0, GD +9) and chasing the top 8. Villarreal are 19th (1-0-2, 3 pts) and need points. Both sides are motivated. Not a derby or rivalry. Coaches: Iñigo Pérez was appointed by Villarreal on 1 June 2026 and Luis Enrique is long-standing, so no change in the last 14 days.",
+        "form": "PSG have won 9 straight. FotMob xG over the last 7: 3.21 for, 1.77 against per game. Since the 20 Oct injuries: Lyon 2-0 (xG 0.96 to 0.65) and Le Havre 5-1 away (3.97 to 2.01). Away results: Marseille 2-1, Man City 4-2 (xG 1.83 to 2.63), Strasbourg 3-1. Villarreal's last 5: D 0-0 Elche, L 3-4 at Liverpool, W 2-1 at Valencia, W 5-0 Manacor (cup), L 0-1 Espanyol. FotMob xG over the last 7 non-cup games: 1.78 for, 1.09 against. Home xG: Levante 4.27 to 0.45, Napoli 3-1 (1.24 to 1.70), Elche 2.39 to 0.30, Espanyol 0.88 to 0.22.",
+        "h2h": "No previous official meeting (Eurosport). Both teams have scored and conceded in all three of their UCL games (HardTackle). Villarreal play a possession game (56.8% average possession) against PSG's 64%. Bet365 has BTTS yes at 1.40, and the DraftKings total is set at 3.5, which points to an open, high-scoring game. That lowers the chance of a 0-0 or 1-1 but leaves 2-2 possible.",
+        "odds": "DraftKings (ESPN) now: Villarreal +330, draw +350, PSG -145, de-vigged 0.222/0.212/0.565. DraftKings opened +360/+360/-170 (0.204/0.204/0.592). BetMGM on 1 Nov (via SportsGambler): +410/+350/-172, de-vigged 0.187/0.212/0.602, with PSG DNB at -435 and X2 at -625. Polymarket: 0.215/0.215/0.565. Polymarket PSG win moved from 0.605 24h ago (0.615 from 08:00 to 21:00 UTC on 2 Nov) to 0.565 between 22:00 and 05:00 UTC, a relative drop of 6.6–8.1%. Villarreal went from 0.185 to 0.215. Every price has drifted against PSG.",
+        "models": "No bookmaker-free probabilistic model could be read: ClubElo reset the connection, and Forebet, Sportytrader and Squawka returned 403. Pundit and model picks all favour PSG: Eurosport 1-3, HardTackle 4-1 to PSG, SportsGambler tipsters about 70% PSG.",
+        "venue_weather": "Estadio de la Cerámica (24,500, grass), Villarreal. Short trip from Paris. Referee Felix Zwayer. FotMob forecast for kick-off: 14°C, partly cloudy, 1% chance of rain, light wind. No pitch or weather issues."
+      },
+      "reason": "Excluded. (1) The favourite's Polymarket price fell 6.6–8.1% (relative) in the last 24h, overnight between 22:00 and 05:00 UTC. No new injury news came out at that time: the four absences date from 20 Oct and the squad list was published about 11h before the move. DraftKings also drifted from -170 to -145. (2) PSG's projected starting left-back Lucas Hernández, and his only senior backup Digne, carry muscle fatigue, with fitness to be checked before the match (VIPSG, FutbolFantasy). (3) Villarreal's XI is reported differently: Saliba, Pépé or Oluwaseyi; Gerard Moreno 'out' vs 'doubtful'; Gulácsi only a slight favourite in goal per FutbolFantasy. Probabilities are kept near the de-vigged market (DraftKings 0.222/0.212/0.565). PSG are without Dembélé, Kvaratskhelia, Marquinhos and Mendes and concede about 1.8 xG a game, while Villarreal create well at home. That keeps home and draw at 0.22 each. The high totals line (3.5) limits any further rise in the draw.",
+      "main_risk": "A weakened PSG, missing Marquinhos and Mendes at the back and Dembélé and Kvaratskhelia up front, gets pulled into an open game. They concede about 1.8 xG per game and Villarreal have scored in every UCL game. A home goal or late equaliser ends it level (e.g. 2-2), or Villarreal win outright as the drifting price suggests.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261103",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/summary?event=401915309",
+        "https://gamma-api.polymarket.com/events?id=1230741",
+        "https://clob.polymarket.com/prices-history?market=50234235839840778865449147440291284525343432143971279697700230596963018144668&interval=1d&fidelity=60",
+        "https://www.beinsports.com/fr-fr/football/uefa-ligue-des-champions/articles/ligue-des-champions-avec-quatre-grosses-absences-le-groupe-du-psg-contre-villarreal-2026-11-02",
+        "https://www.parisfans.fr/coupes/ldc/villarreal-psg-le-groupe-parisien-4-absents-et-1-retour-923306.html",
+        "https://vipsg.fr/ligue-des-champions/villarreal-psg-les-premiers-indices-sur-la-compo-299697",
+        "https://en.parisfans.fr/villarreal-vs-psg-likely-psg-lineup-featuring-akliouche-and-hernandez.html",
+        "https://www.futbolfantasy.com/champions/noticias/154025-alineaciones-probables-y-previa-fantasy-del-villarreal-psg",
+        "https://www.eurosport.es/apuestas/pronosticos/villarreal-vs-psg-pronostico-consejos-y-cuotas-champions-league/",
+        "https://www.sportsgambler.com/betting-tips/football/villarreal-vs-psg-prediction-lineups-odds-2026-11-03/",
+        "https://thehardtackle.com/round-up/2026/11/02/villarreal-vs-psg-preview-prediction-probable-lineups-tactics-team-news-key-stats/",
+        "https://www.ysscores.com/en/news/14086068/enrique-before-villarreal-clash-our-previous-results-wont-help-us-tomorrow",
+        "https://www.fotmob.com/api/data/matchDetails?matchId=6106326"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1230751",
+      "exclude": true,
+      "confidence": "low",
+      "p": {
+        "home": 0.54,
+        "draw": 0.24,
+        "away": 0.22
+      },
+      "checks": {
+        "team_news": "Bodø/Glimt: Evjen (knee), Mikkelsen (groin) and backup GKs Lund and Sjong are out (Starting11, ruedesjoueurs). Riisnæs is doubtful (Starting11). Haikin is expected in goal. The squad has a virus wave: goalkeeping coach Kolstad counted 'fem ulike virus', Blomberg had covid, and Saltnes said the Viking week was 'preget av sykdom og lite trening'. On Monday Knutsen said 'Det er noen nye som har noen småting', and Berg and Sjøvold trained partly on their own (load management, per VG 2 Nov). Sources disagree on Hauge after Askildsen's hard tackle on Friday: ruedesjoueurs has him 'incertain (touché le week-end dernier)', footballpredictions.com says he has recovered and is available. Lille: Bentaleb is ill and did not travel (Ancelotti quoted), E. Mbappé is suspended (3rd and last CL match of his ban), Tiago Santos, Igamane and Ueda are injured, and Önal was left out. Nianzou is back. No Lille doubts found.",
+        "lineups": "Two sources name the same Bodø XI: Haikin; Sjøvold, Bjørtuft, Gundersen, Bjørkan; Berg, Fet, Auklend, Hauge; Blomberg, Helmersen (ruedesjoueurs lists it as 4-3-3, footballpredictions.com as 4-4-2). For Lille both have Özer; Goffi, Ngoy/Nianzou, Alexsandro, Perraud; Mukau, André; Diaoune, Bakwa, with Giroud or Haraldsson up front. footballpredictions.com still has Bentaleb (out of date), and ruedesjoueurs has Kjaergaard in his place. Starting11 gives positions only.",
+        "rotation": "Bodø: last game Fri 30 Oct, beat Viking 3-2 at home in the title race. Next is Sun 8 Nov at Tromsø (ESPN). Lille: last game Fri 30 Oct, beat Lens 1-0. Next is Sun 8 Nov at Rennes. Both had 4 days' rest and have 5 before the next game, so no Europe/cup squeeze and no rotation talk. Knutsen called Berg and Sjøvold's light Monday load management.",
+        "motivation": "Both need points. Bodø are 28th in the CL table on 3 pts, Lille 35th on 0, and both are chasing the top 24. Bodø are level with Viking on 59 points with 5 Eliteserien games left (ESPN/Wikipedia table). Lille are 2nd in Ligue 1 (18 pts from 9). No derby. No manager change in the last 14 days: Knutsen continues, Ancelotti has been at Lille since 1 Jun 2026. Knutsen was sent off after a touchline clash with Viking's Jensen on Friday. The NFF is ruling on it today, but VG says he will be on the bench vs Lille, since a domestic ban does not apply in the CL.",
+        "form": "Bodø last 10 (ESPN): W3-2 Viking (H), L0-1 Vålerenga (H), L3-4 Napoli (A), W2-0 HamKam (A), W1-0 Dortmund (H), W3-1 Kristiansund (H), L1-2 Brann (A), W3-2 Sandefjord (H), L0-5 Bayern (A), W2-1 Fredrikstad (A). That is no draws in 10, and the league record is 19-2-4. footballpredictions.com last 10: xG 2.07 for and 1.46 against, 2.2/1.9 goals per game, 2.40 PPG at home. Lille: CL L2-3 Betis, L0-3 at Arsenal, L2-4 Galatasaray. Ligue 1 unbeaten in 4: W1-0 Lens, D1-1 at Monaco, D1-1 Brest, W1-0 Le Havre. Last 10 xG 1.29 for and 1.44 against, 0.33 PPG away, no away wins in last 10 (footballpredictions.com).",
+        "h2h": "Neither kickoff.co.uk nor footballpredictions.com lists a head-to-head, so this is very likely the first meeting. Style: Bodø's high-tempo home pressing on artificial turf against a Lille side that has conceded 10 in 3 CL games but keeps domestic games tight. Both teams' games are high-event (over 2.5 priced about 1.50), which normally lowers the draw share. Bodø rarely draw. Lille drew 3 of their last 12.",
+        "odds": "DraftKings (ESPN API): Bodø -140, draw +320, Lille +330 (1.71/4.20/4.30), de-vigged 55.4/22.6/22.1. It opened -110/+290/+245 (49/24/27), a clear move to Bodø. Bet365 (kickoff.co.uk): 1.80/4.00/4.00, de-vigged 52.6/23.7/23.7. DC 1X 1.22, DNB 1.36. ruedesjoueurs best prices: 1.77/4.10/4.10, de-vigged 53.7/23.2/23.2. Polymarket 24h: home 0.535→0.555 (+3.7% relative), draw 0.235→0.225, Lille 0.235→0.215 (−8.5% relative on only about $697 volume, around 06:00 UTC today). Lille's absences (Bentaleb, news of 2 Nov) partly explain it. Stake and Rainbet both returned 403, so no prices were recorded.",
+        "models": "Kickoff.co.uk model: 54/21/25 (xG 2.1 v 1.3, most likely score 1-1). ruedesjoueurs: 53/22/25. A Squawka model figure of 72% Bodø appeared only in a search snippet (the page returned 403). Starting11's 45/45/10 looks unreliable. ClubElo, Forebet and Foresportia were unreachable (connection reset or 403).",
+        "venue_weather": "Aspmyra Stadion, Bodø, on artificial turf, a known home edge. Lille face a long trip north of the Arctic Circle. The forecast is mild rather than Arctic cold, but windy: MET Norway gives about 9°C, light rain and a mean wind of 11.4–12.6 m/s from 20:00 to 22:00 UTC. Open-Meteo (metno model) gives gusts of 70–78 km/h. That is strong wind that adds randomness, though nothing suggests the game will be called off."
+      },
+      "reason": "Excluded under two rules. A likely starter is reported differently by different sources: Hauge, Bodø's CL assist leader and Friday's match-winner, is 'incertain' per ruedesjoueurs but 'recovered and available' per footballpredictions.com. And Bodø's fitness is a critical unknown before team sheets: a five-virus outbreak, Knutsen saying 'noen nye som har noen småting', Berg and Sjøvold kept to light work. Strong wind (gusts about 70+ km/h) adds noise. If priced anyway, I stay close to the market, which agrees across DK, Bet365, the ruedesjoueurs best prices and Polymarket at about 53–55% home. I take home down 1.7 points for the illness and the Hauge doubt, and raise draw 1.3 points and away 0.3 for the illness-tired legs and wind. Bodø's strong home form (80% home wins in last 10, xG 2.07) and Lille's poor away form (0 away wins in last 10, 10 conceded in 3 CL games) stop me from moving further against the favourite.",
+      "main_risk": "A virus-weakened Bodø, tired after the title clash with Viking on Friday, can't keep its usual pressing intensity in strong wind and rain. Lille, who keep domestic games tight (four straight Ligue 1 games at 1-0 or level), score on a counter against Bodø's leaky defence (1.9 conceded per game in last 10) and hold on for a draw or a late equaliser.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261103",
+        "https://gamma-api.polymarket.com/events?id=1230751",
+        "https://clob.polymarket.com/prices-history?market=72585348602197610812505598463675627865460278034105687043216798627876409265983&interval=1d&fidelity=60",
+        "https://www.vg.no/sport/i/mKkbKE/bodoe-glimt-lille-glimt-har-sykdomsproblemer-foer-champions-league-kampen",
+        "https://www.vg.no/sport/i/4O9PzV/knutsen-uttaler-seg-etter-trenerbraaket",
+        "https://www.nrk.no/sport/sykdom-i-glimt-leiren-for-toppkampen-1.18068297",
+        "https://www.nrk.no/sport/bodo_glimt-med-utrolig-stormlop-mot-viking_-_-far-smake-egen-medisin-1.18069766",
+        "https://www.ruedesjoueurs.com/pronostic/bodoe-glimt-lille-6106316.html",
+        "https://footballpredictions.com/footballpredictions/championsleaguepredictions/bodo-glimt-vs-lille-prediction-03-11-2026/",
+        "https://www.kickoff.co.uk/uefa-champions-league-predictions-stats-odds/bodo-glimt-vs-lille/",
+        "https://starting11.com/fixtures/bodo-glimt-vs-lille",
+        "https://www.shango.media/but-losc-ancelotti-annonce-un-nouveau-coup-dur-et-ecarte-un-joueur-avant-bodo-glimt-et-rennes-12011157",
+        "https://placar.com.br/champions-league/bod-glimt-enfrenta-virus-e-crise-antes-de-pegar-o-lille/",
+        "https://en.wikipedia.org/wiki/2026_FK_Bod%C3%B8/Glimt_season",
+        "https://site.api.espn.com/apis/v2/sports/soccer/fra.1/standings",
+        "https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=67.28&lon=14.40",
+        "https://www.maxifoot.fr/lille/davide-ancelotti-sur-le-banc-off-foot-457016.htm"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1230730",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.27,
+        "draw": 0.235,
+        "away": 0.495
+      },
+      "checks": {
+        "team_news": "Inter: Bastoni suspended (sent off for two yellows v Shakhtar). Lautaro (left hamstring/thigh) is out, does not travel and returns after the international break (Calciomercato.it, Calciomercato.com, Nov 2). Stones, Curtis Jones and Luis Henrique are injured. Chivu at his press conference: Provedel (flu) and Pavard are back, no other problems, Bonny had a fever before the derby, 'Pio sta bene'. Legalbet still lists Pavard as out, but he is not a projected starter. Feyenoord: St. Juste (shin) out for this game and Sunday's (VoetbalPrimeur). Jordan Bos (knee) out per Legalbet. Nelson and Shaqueel van Persie are back but start on the bench.",
+        "lineups": "Feyenoord XI is the same in Sky Sport, Fantamaster and VoetbalPrimeur (4-3-3): Ernst; Read, Watanabe, Mármol, López; Zechiël, Vanhoutte, Targhalline; Hadj Moussa, Ferri, Valente. Inter (3-5-2) is the same in Sky and Calciomercato.it: J. Martínez; Bisseck, Akanji, Carlos Augusto; Spence, Barella, Çalhanoğlu, Zieliński, Dimarco; Thuram, Pio Esposito. Open choices: Zieliński or Mkhitaryan, Spence or Diouf, Esposito or Bonny. Fantamaster has Luis Henrique at right wing-back, but two other sources say he is injured. Both goalkeepers are settled.",
+        "rotation": "Inter played Oct 25, Oct 28 and Oct 31 (the derby) and play Como at home on Nov 8 (5 days later), so no bigger game is close. About 3-4 changes from the derby, partly forced (Carlos Augusto for the suspended Bastoni, Dimarco and Zieliński back, Esposito for Bonny). Chivu called the game 'fondamentale' and did not talk about rotating. Feyenoord drew Fortuna Sittard 1-1 on Oct 31 and play at Heerenveen on Nov 8. Only expected change is the injury to St. Juste.",
+        "motivation": "UCL league phase matchday 4. Both teams have 3 points from 3 games (Inter 20th, Feyenoord 26th per ESPN table), so both need points for the top 24. Not a derby or rivalry. Van Bronckhorst was appointed Feyenoord coach in June 2026 (fcupdate). Chivu is established at Inter. Feyenoord top the Eredivisie (25 pts from 11 games). Hostile De Kuip, as Chivu himself noted.",
+        "form": "Inter, last 7 competitive games: W3-0 Parma, L3-4 Club Brugge (home, UCL), W3-1 at Bologna, W1-0 Shakhtar, W2-1 Fiorentina, W2-0 at Venezia, L1-3 at Milan. They outshot Milan 19-7 (8-4 on target) after conceding twice inside 10 minutes. ESPN shot counts show Inter outshooting every recent opponent except Shakhtar (13-12), with 13-33 shots per game, but the defence leaked 4 and 3 goals in two of those games. Away earlier: L1-2 at Real Madrid, D2-2 at Roma. Feyenoord: W2-0 AZ, W3-2 Como (UCL), W4-3 at Telstar, L0-1 at Betis (outshot 12-23), D1-1 at PSV, D1-1 Fortuna (home). They have three home league draws this season. UCL: lost 1-5 at Barcelona. Legalbet: Feyenoord 0.63 xG per UCL game and 8 conceded in 3, Inter 2.40 xG per UCL game. Understat, ClubElo and FotMob xG were blocked (connection reset).",
+        "h2h": "4 official meetings (inter.it): Inter 2 wins, 1 draw, 1 loss. Inter won both 2025 last-16 legs 2-0, and the 2002 UEFA Cup semi had a 2-2 in Rotterdam. Style: Inter dominate the ball and shots, Feyenoord are dangerous in transition at home. A high-scoring game is expected (DraftKings total 3.5 at +100/-125, over 2.5 at 1.40, BTTS yes 1.42), which tends to keep the draw near or below market.",
+        "odds": "DraftKings (ESPN API): Feyenoord 3.55, Draw 4.10, Inter 1.91. De-vigged: 0.268/0.232/0.499. They opened +320/+320/-145 (de-vigged 0.223/0.223/0.554), so Inter have drifted. Bet365 double chance (Legalbet): 1X 1.83, 12 1.22, X2 1.30, which implies 0.280/0.232/0.489. Best prices on the Legalbet header: Feyenoord 3.47 (NetBet), draw 4.10 (bet365), Inter 1.98 (bwin). Polymarket, last 24h: Inter 0.535 → 0.505 (bid 0.50 / ask 0.51, about -5.6% relative, most of it 05-06 UTC Nov 3), Feyenoord 0.245 → 0.265, draw 0.225 → 0.235. Over the week Inter fell from 0.57 to 0.525 after the derby, then to 0.505. The fall follows news: Lautaro ruled out of the trip, plus Bastoni, Stones, Jones and Luis Henrique out (reports from Nov 2), and it brings Polymarket into line with the bookmakers. Stake and Rainbet returned 403, so no prices were seen.",
+        "models": "Statz model (search snippet): Inter 59%, draw 21%, Feyenoord 20%, predicted 1-2. A search snippet put Opta at Inter 50.3%, draw 22.9%, Feyenoord 26.8%, but I could not find it on theanalyst.com's competition page, so it is not used. Forebet and ClubElo blocked (403 and connection reset). Pundit picks (Legalbet, Freetips, DailySports headline) back Inter.",
+        "venue_weather": "De Kuip, Rotterdam, kick-off 21:00 CET. Short flight for Inter. Open-Meteo for 20:00-22:00 local: 7-8°C, dry (0% chance of rain), wind 16-20 km/h, gusts to about 35 km/h. Nothing extreme and no pitch issues reported. Referee Glenn Nyberg (SWE)."
+      },
+      "reason": "Stays essentially at market (0.267/0.237/0.497 → 0.27/0.235/0.495) because the sources agree with it: DraftKings de-vigs to 0.268/0.232/0.499 and bet365 double chance to 0.280/0.232/0.489. Inter's weaknesses (no Lautaro, Bastoni suspended, Stones and Jones out, leaky defence: 4 conceded v Brugge, 3 at Milan) are already priced in by the drift from about 0.55-0.57 to 0.50. On the other side, Inter still dominate shots every week (19-7 even in the derby loss), Feyenoord produce little in the UCL (0.63 xG per game), and the expected high total (o/u 3.5 near even) argues against an inflated draw. No rotation risk: Inter need the points, call it 'fondamentale', and Como is 5 days away. Feyenoord's XI is stable and agreed across 3 sources. Inter's XI agrees across Sky and Calciomercato.it apart from selection choices. Medium, not high, because of the Polymarket drift of about 6% in 24h (explained by the absence news but still moving), Fantamaster's conflicting right wing-back pick (Luis Henrique, reported injured elsewhere), and xG feeds being blocked. Fair prices: X2 about 1.37, Inter DNB about 1.55.",
+      "main_risk": "A depleted Inter defence (no Bastoni or Stones, Carlos Augusto filling in at left centre-back) concedes on the transition or a set piece at a loud De Kuip, and without Lautaro Inter dominate the ball but finish poorly, as in the derby: 19 shots, 1 goal. That gives a 1-1 or 2-2, or a Feyenoord counter-attack win. Feyenoord score in 9 of 10 and have three home league draws this season.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/summary?event=401915307",
+        "https://gamma-api.polymarket.com/events?id=1230730",
+        "https://clob.polymarket.com/prices-history?market=55268442253705074285487033025733352596084914077768751968402385048495329909163&interval=1d&fidelity=60",
+        "https://sport.sky.it/calcio/champions-league/2026/11/02/feyenoord-inter-probabili-formazioni-4-giornata",
+        "https://www.fantamaster.it/probabili-formazioni-feyenoord-inter-champions-league-2026-2027-notizie-fantacalcio/",
+        "https://www.voetbalprimeur.nl/nieuws/2154164/de-vermoedelijke-opstelling-van-feyenoord-tegen-inter.html",
+        "https://www.calciomercato.com/liste/feyenoord-inter-chi-recupera-e-chi-no-lautaro-jones-pavard-e-provedel/blteaca1d2a567b23ba",
+        "https://www.calciomercato.it/2026/11/02/linter-vuole-dimenticare-il-derby-le-scelte-di-chivu-per-la-champions-si-rivede-lautaro-vide-cm/",
+        "https://www.sosfanta.com/news/chivu-feyenoord-inter-conferenza-pavard-provedel-recuperati-febbre-pio-esposito-derby-scelte-attacco-fantacalcio/",
+        "https://www.fcinternews.it/copertina/live-vigilia-feyenoord-inter-conferenza-chivu-ultime-formazione-1022272",
+        "https://www.inter.it/en/news/feyenoord-inter-previous-facts-guide-champions-league-2026-27",
+        "https://legalbet.uk/game-center/feyenoord-inter-03-11-2026/",
+        "https://www.fcupdate.nl/voetbalnieuws/2026/06/feyenoord-bevestigt-terugkeer-giovanni-van-bronckhorst-als-hoofdtrainer",
+        "https://api.open-meteo.com/v1/forecast?latitude=51.894&longitude=4.523&hourly=temperature_2m,precipitation,wind_speed_10m&start_date=2026-11-03&end_date=2026-11-03"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1224839",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.45,
+        "draw": 0.24,
+        "away": 0.31
+      },
+      "checks": {
+        "team_news": "Galatasaray: Buruk's press conference on 2 Nov (TRT via Memurlar, and Fanatik) said 'Tam kadroyuz, formdayız', meaning a full squad in form, with all four wingers fit. The only absentees are players left off the UEFA list (Kaan Ayhan, Karataş, Ünyay, Eyüp Aydın, Güner, A. Yılmaz). Bardakcı's suspension applies only in the Süper Lig, so he can play. Sané and Gündoğan are fit, but dpa says they are bench options at most. Stuttgart: OUT are Angelo Stiller (adductor, started all 12 competitive games; club statement via Ligainsider on 29 Oct; Bulinews on 2 Nov says he is not expected to travel), Josha Vagnoman (thigh strain, 3–4 weeks), Leo Sauer (gluteal), Zagadou and Diehl. Stergiou and Drljača are not in the UCL squad. No fitness doubts were reported for any likely starter on either side.",
+        "lineups": "I compared four sources (FotMob, Starting11, footballpredictions.com, buli-tipphilfe). They agree on Galatasaray's core: Çakır, Sallai, Sánchez, Bardakcı, Jakobs, Torreira, Sara, Batrakov, Osimhen. They differ on the left wing (Barış Alper Yılmaz, Leão or Yunus Akgün) and on the second midfielder. FotMob's XI is identical to the one that won at Lille. Stuttgart: all four have Seimen, Hendriks, Chabot, Karazor, El Khannouss, Führich, Undav and Demirović (one site leaves Demirović out). They split on shape, 4-2-3-1 versus FotMob's 3-4-2-1, and on Leweling, Assignon, Mittelstädt, Jaquez and Prömel. Hoeneß would not confirm Seimen in goal ('Das werde ich nicht beantworten'). Even so, Seimen has started every Bundesliga and UCL game, and Bredlow plays only in the cup (Ligainsider, 27 Oct). These are selection questions, not fitness doubts.",
+        "rotation": "Galatasaray: previous game Konyaspor away on 30 Oct (won 4-0), next Amed SFK at home on 7 Nov. Expect 2–3 changes from the Konya XI (Bardakcı for Singo, Jakobs for Elmalı, the wing choice) and none from the Lille XI. Buruk talked about resting players because of the congested schedule, but in the context of playing time in general. Every predicted XI is first-choice. Stuttgart: previous game Leverkusen away on 31 Oct (won 4-2), after the DFB-Pokal tie at Paderborn on 28 Oct; next Werder Bremen at home on 7 Nov. This is their third away game in seven days ('Wucht-Woche'), with about 1–2 changes expected.",
+        "motivation": "In the UCL league phase Galatasaray have 3 points from 3 games (23rd) and need points to stay in the top 24. Stuttgart have 7 points (6th), chasing the top 8. Galatasaray lead the Süper Lig. This is the clubs' first meeting, so it is no derby or rivalry. Buruk and Hoeneß are both long-serving, with no manager change. Off the pitch, Galatasaray vice-president Metin Öztürk and executive Abdullah Kavukcu have resigned; Buruk said the team is focused on the match.",
+        "form": "From FotMob, last 10 games in all competitions. Galatasaray: 7 wins, 0 draws, 3 losses, goals 20-17, xG 1.78 for and 1.55 against per game; four straight wins, including Fenerbahçe 2-1 (xG 2.15–0.28) and 4-0 at Konya. In the UCL: lost 1-3 at Sporting, lost 1-4 at home to Barcelona (xG 0.42–2.73), won 4-2 at Lille (xG 1.39–2.07), so UCL xG is 1.01 for and 2.18 against per game. Last 4 home games: xG 1.84 for, 1.08 against. Stuttgart: last 9 competitive games 4 wins, 1 draw, 4 losses (goals 14-10), xG 2.13 for and 1.66 against; in 6 away games 2.48 for and 1.61 against. In the UCL: beat Viking 3-1, won 3-0 at Slovan, drew 1-1 with Atlético. Demirović has back-to-back Bundesliga braces and leads the UCL scoring chart.",
+        "h2h": "First-ever meeting (Bulinews, buli-tipphilfe). Galatasaray's record against German clubs is 7 wins, 13 draws, 13 losses (Bulinews), and they are winless in their last 7 European ties against German sides, with 4 draws and 3 losses (buli-tipphilfe). Style: two attacking, high-event teams; Galatasaray have conceded 9 in 3 UCL games, and Stuttgart now lack Stiller as their tempo-setter.",
+        "odds": "1X2 prices (home/draw/away), de-vigged: DraftKings 2.10/4.10/3.00 (opened 2.25/4.10/2.65), 45.2/23.2/31.6%. Bet365 2.10/4.00/3.00, 44.9/23.6/31.5%. Betano 2.10/4.10/2.95, 45.0/23.0/32.0%. Betway 2.05/4.00/2.90. DraftKings' over/under line is 3.5, with over 3.5 at -125, so a high total is expected. Polymarket over 24h: Galatasaray 0.445→0.475 (+6.7% relative), draw 0.235→0.225, Stuttgart 0.325→0.305 (−6.2%). Most of the move came between 01:00 and 05:00 UTC on 3 Nov. It is partly explained by news on 2 Nov (Buruk's full-squad statement; Bulinews reporting that Stiller is not travelling) and matches the bookmakers' move since opening. Polymarket has now gone about 2.5 points past the bookmakers on Galatasaray. The order book is deep: bid 0.47 for about 45k shares, ask 0.48 for about 70k.",
+        "models": "ClubElo: Galatasaray 46.5%, draw 27.1%, Stuttgart 26.3% (ratings 1815 and 1822). Kickoff.co.uk's algorithm: 45/22/34, with predicted goals 2.0–1.7. footballpredictions.com and buli-tipphilfe both predict 2-2; buli-tipphilfe calls picking a winner 'reine Spekulation' (pure speculation). A Poisson model on the market total (about 3.2 goals) gives a draw of about 23%.",
+        "venue_weather": "RAMS Park, Istanbul (capacity about 54k, expected sold out, up to 130 dB), a normal home venue on grass. Referee Chris Kavanagh. Stuttgart are on their third straight away trip. Forecast from met.no and FotMob: about 15–16°C, rain showers of about 1 mm/h, light east wind about 3 m/s. Not extreme."
+      },
+      "reason": "I started from the Polymarket price of 47.3/22.3/30.3. Four bookmakers de-vig consistently to about 45.0/23.3/31.7, and Polymarket's overnight jump of +6.7% on Galatasaray put it above them, so home comes down to 0.45. Draw goes up to 0.24. ClubElo has the draw at 27.1%, two previews predict 2-2, and Galatasaray are winless in their last 7 European ties against German clubs (4 draws). The high expected total (over/under 3.5 at about evens) caps the draw. Away stays near the bookmakers at 0.31: Stuttgart's xG is strong (2.48 xG per game away) and Galatasaray's UCL defence is poor (2.18 xGA per game). That is balanced by Stuttgart missing Stiller and Vagnoman and playing three games in seven days. Galatasaray report a full squad at home, so their home side is sound. Implied legs: Galatasaray or draw 0.69 (fair 1.45); Galatasaray draw no bet at 0.652 of non-draw outcomes (fair 1.53); Stuttgart or draw 0.55, below 60%.",
+      "main_risk": "Stuttgart's in-form attack (Demirović, Undav, El Khannouss; 2.48 xG per game away) takes advantage of Galatasaray's leaky UCL defence (9 goals conceded, 2.18 xGA per game). The likeliest result of that is a high-scoring draw such as 2-2, or a late Stuttgart equaliser, which is exactly the 2-2 two previews predict. Secondary risk: Polymarket's unmatched overnight move toward Galatasaray reverses.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261103",
+        "https://gamma-api.polymarket.com/events?id=1224839",
+        "https://clob.polymarket.com/prices-history?market=46655643559396284378719765595767389540891494352333979712427241001693346341313&interval=1d&fidelity=60",
+        "https://www.fotmob.com/api/data/matchDetails?matchId=6106341",
+        "https://www.fanatik.com.tr/en/two-stars-injured-major-shock-in-stuttgart-ahead-of-the-galatasaray-match-2642780",
+        "https://www.fanatik.com.tr/galatasaray/live-okan-buruktan-basin-toplantisinda-istifalar-icin-aciklama-stuttgart-maci-oncesi-2643136",
+        "https://beinsports.com.tr/haber/galatasaray-maci-oncesi-stuttgartta-iki-sakatlik",
+        "https://www.memurlar.net/haber/1182866/okan-buruk-tam-kadroyuz-formdayiz.html",
+        "https://www.ligainsider.de/angelo-stiller_20766/stuttgart-muss-vorerst-auf-stiller-verzichten-419992/",
+        "https://www.ligainsider.de/josha-vagnoman_18427/stuttgart-muss-auf-vagnoman-verzichten-419485/",
+        "https://www.ligainsider.de/fabian-bredlow_6395/bredlow-erhaelt-pokalspiel-gegen-paderborn-419798/",
+        "https://www.zvw.de/vfb-stuttgart/bis-zu-130-dezibel-so-wappnet-sich-der-vfb-f%C3%BCr-den-hexenkessel-von-istanbul_arid-1103806",
+        "https://www.nussbaum.de/entdecken/news/vfb-stuttgart-im-stresstest-bei-galatasaray-istanbul-10003003",
+        "https://sports.yahoo.com/articles/galatasaray-vs-vfb-stuttgart-preview-202300355.html",
+        "https://www.buli-tipphilfe.de/sportwetten-tipps/galatasaray-stuttgart-wett-tipp-prognose-champions-league-2026-27",
+        "https://footballpredictions.com/footballpredictions/championsleaguepredictions/galatasaray-vs-stuttgart-prediction-03-11-2026/",
+        "https://starting11.com/fixtures/galatasaray-vs-vfb-stuttgart",
+        "https://www.kickoff.co.uk/uefa-champions-league-predictions-stats-odds/galatasaray-vs-stuttgart/",
+        "https://gainblers.com/ec/apuestas/futbol/europa/champions-league/galatasaray-stuttgart/",
+        "http://clubelo.com/Galatasaray",
+        "https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=41.10&lon=28.99"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1224849",
+      "exclude": true,
+      "confidence": "low",
+      "p": {
+        "home": 0.27,
+        "draw": 0.27,
+        "away": 0.46
+      },
+      "checks": {
+        "team_news": "Shakhtar: Pedrinho (thigh surgery), Eguinaldo (shoulder) and Marlon Santos (muscle) are out (Sports Mole). Khel Now says Azarov may miss out with a fitness issue, while Sports Mole says he has just made his first start since returning. Sporting: Debast and Zalazar (muscle) and Nuno Santos (knee tendon) are out. Irankunda is a doubt with a knee knock, with Flávio Gonçalves the alternative (Sports Mole).",
+        "lineups": "Official XIs come 60 minutes before kick-off (bundesliga.com). The two predicted XIs disagree. Sporting's goalkeeper is Kaique in Sports Mole but Pereira in Khel Now. Shakhtar's midfield and wings differ: Nazaryna/Isaque/Alisson in Sports Mole against Santana/Karavaev/Gomes in Khel Now. Irankunda is a doubt on the Sporting right.",
+        "rotation": "Shakhtar: last UCL game was a 0-1 loss at Inter on 21 Oct; recent domestic games include a 2-0 win over Obolon. Shakhtar's next fixture was not found. Sporting: last game was a 2-0 win at Casa Pia on 30 Oct (ESPN); next is home to Moreirense on Saturday 7 Nov (Observador). No heavy rotation is expected, but Sporting are being picked by an interim coach.",
+        "motivation": "Shakhtar are 17th in the league phase (1-1-1, 4 pts) and top of the Ukrainian league (28 pts from 11). Sporting are 12th (2-0-1, 6 pts) and 3rd in the Primeira Liga, 9 points off the top. Not a derby. MANAGER CHANGE: on 1 Nov Sporting began ending Rui Borges' contract after supporter protests. B-team coach Tiago Fernandes takes this game as interim, and Paulo Fonseca has agreed to join from Lyon, to be presented later this week (Observador 1 Nov; Portuguese press). Shakhtar's coach is Arda Turan.",
+        "form": "Sporting, all competitions: W 3-1 at Braga, W 2-0 at Lens, L 2-3 vs LASK, L 1-2 vs Académico de Viseu, W 2-1 vs Marítimo (League Cup), W 2-0 at Casa Pia. Their UCL record also includes a 3-1 win over Galatasaray. Shakhtar, all competitions: W 3-1 vs AEK, W 2-1 vs Kolos, L 0-1 at Inter, D 0-0 vs Zorya, W 3-0 vs Dynamo Kyiv (cup), W 2-0 vs Obolon; in the UCL, D 1-1 at PSV. No xG source could be read.",
+        "h2h": "Only two meetings, both in the 2008-09 UCL group stage, and Sporting won both 1-0. No draws. Sporting have won 7 of their last 8 games against Ukrainian sides (Sports Mole).",
+        "odds": "DraftKings via ESPN moved from 3.65/3.90/1.87 at open to 3.50/3.75/2.00 at close; de-vigged that is 0.257/0.241/0.502 to 0.272/0.253/0.475, so Sporting drifted about 5% relative. Bet365 via kickoff.co.uk: 3.60/3.70/2.00, de-vigged 0.265/0.258/0.477. Polymarket over 24h: Sporting 0.485 to 0.465 (-4.1% relative), Shakhtar flat at 0.265, draw flat at 0.255. The drift matches the coaching-change news.",
+        "models": "kickoff.co.uk model: Shakhtar 28%, draw 23%, Sporting 49%; most likely score 1-1; expected goals 1.3 vs 1.8. Sports Mole and Khel Now both predict 1-2. Squawka and Foresportia returned 403, so their numbers are not used.",
+        "venue_weather": "Stamford Bridge, London, a neutral ground. Shakhtar announced on 21 Aug 2026 that it will be their home ground for the 2026/27 league phase (agreement with Chelsea, 'subject to regulatory approvals'), and ESPN and Sports Mole list it for this match. It is their designated home ground, but it is in England, with no Ukrainian home crowd or pitch advantage, and both teams travel. Under the rules this counts as a neutral or unusual venue, so it is an exclusion trigger on its own. Weather (Open-Meteo): about 11°C, 0-10% chance of rain, wind about 15 km/h, no concern."
+      },
+      "reason": "Excluded for two separate reasons, each enough on its own: (1) Sporting's manager left 2 days before the game. Rui Borges' exit began on 1 Nov, interim coach Tiago Fernandes takes this match and Paulo Fonseca is due this week. A manager change in the last 14 days is an exclusion rule. (2) The venue is neutral: Stamford Bridge in London. It is Shakhtar's designated UCL home ground, but under the rules a neutral or unusual venue still means exclude. There are also conflicting predicted XIs, including Sporting's starting goalkeeper (Kaique vs Pereira), and Irankunda is a doubt. Probabilities stay near the de-vigged market (DraftKings close 0.272/0.253/0.475, Bet365 0.265/0.258/0.477, Polymarket 0.27/0.26/0.47). The draw is raised by 1 point and Sporting cut by 1 point because of the coaching upheaval and the most likely 1-1 score in the kickoff.co.uk model.",
+      "main_risk": "Sporting, unsettled by Borges leaving and led by an interim coach after two recent losses (LASK, Académico de Viseu), get dragged into a tight game at a neutral ground and draw 1-1 or concede a late equaliser against an organised Shakhtar who top their domestic league.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261103",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/summary?event=401915310",
+        "https://gamma-api.polymarket.com/events?id=1224849",
+        "https://clob.polymarket.com/prices-history?market=101748956601015241133856871885472438584177368251002971941621867817631288307416&interval=1d&fidelity=60",
+        "https://shakhtar.com/en/news/2026/august/21_news/21_shakhtar_stamford_bridge/",
+        "https://www.sportsmole.co.uk/football/shakhtar-donetsk/champions-league/preview/shakhtar-vs-sporting-lisbon-prediction-team-news-lineups_608207.html",
+        "https://khelnow.com/football/shakhtar-donetsk-vs-sporting-cp-preview-champions-league-202611",
+        "https://www.kickoff.co.uk/uefa-champions-league-predictions-stats-odds/shakhtar-vs-sporting-lisbon/",
+        "https://observador.pt/2026/11/01/sporting-fecha-paulo-fonseca-com-apresentacao-durante-a-semana-rui-borges-sai-tiago-fernandes-pode-assumir-equipa-em-londres/",
+        "https://www.bundesliga.com/en/champions-league/matchday/2026-2027/4/fc-shakhtar-donetsk-vs-sporting-clube-de-portugal/lineup",
+        "https://api.open-meteo.com/v1/forecast?latitude=51.4817&longitude=-0.191&hourly=temperature_2m,precipitation_probability&start_date=2026-11-03&end_date=2026-11-03"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1231209",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.28,
+        "draw": 0.285,
+        "away": 0.435
+      },
+      "checks": {
+        "team_news": "Chapecoense: forward Mauricio Garcez is out with compartment syndrome in his right leg (ge, 2 Nov). He was the top scorer over the last 10 games with 3 goals. FotMob also lists Heitor (back mid-November), Rafael Carvalheira (out for the season) and Robert (late November) as out. Midfielders Yago Felipe and Camilo are back from suspension. Mirassol: striker Bruno Santos (red card at Corinthians, confirmed in the club's match report) and Edson Carioca (third yellow card) are suspended, according to ge, FotMob and Terra. Negueba is out for the season. No fitness doubts were reported for any likely starter. Both goalkeepers (Anderson and Walter) are listed by every source.",
+        "lineups": "ge and Boa Informação give the same XIs. Chapecoense: Anderson; Bruno Tubarão, Kauan Faria, Eduardo Doma, Bruno Pacheco; Yago Felipe, Camilo, Giovanni Augusto; Marcinho, Túlio Eduardo, Bolasie. Mirassol: Walter; Igor Formiga, João Victor, Willian Machado, Reinaldo; Neto Moura, Denilson, Eduardo; Alesson, Carlos Eduardo (or Fernandinho), André Luis. Sportsgambler agrees on 9 of 11 Chapecoense players (it has João Paulo and Fernando instead of Doma and Túlio) and on 10 of 11 Mirassol players (Wallisson instead of Denilson). ge explains that Wallisson-or-Denilson is a tactical choice, not an injury. All the differences are selection choices, not fitness doubts.",
+        "rotation": "No midweek cup or European game. Chapecoense last played 28 Oct (lost 0-3 at Bragantino) and next play 14 Nov (home to Vasco, a rescheduled game). Mirassol last played 30 Oct (lost 0-2 at Corinthians) and next play 14 Nov (home to Atlético-MG). Mirassol went out of the Libertadores in August. The only changes expected are forced ones: about 2-3 for Mirassol and 2-3 for Chapecoense with the returning midfielders.",
+        "motivation": "Chapecoense are 20th with 21 points from 32 games, 16 points from safety. Metrópoles says anything less than a win confirms mathematical relegation, and ValorFinal puts their relegation risk at 99.9%, so this is a must-win but almost lost cause. Mirassol are 16th with 37 points, one point above Corinthians in the drop zone, with a 28.6% relegation risk (ValorFinal), so stakes are high for them. It is a relegation six-pointer, not a derby or rivalry. Neither coach is new: Rafael Lacerda has been in charge since 30 May (154 days, per ge) and Rafael Guanaes for 599 days.",
+        "form": "Chapecoense's last 8 league games: 2 wins, 1 draw, 5 losses, goals 7-17. FotMob xG for 6.76 and against 14.77 (0.85 vs 1.85 per game). Their last three home games had xG 3.25 for and 2.85 against, and the latest was a 2-1 win over Fluminense. Season home record: 3 wins, 5 draws, 7 losses. ge says they have scored in every home game of the second half of the season. Mirassol's last 8: 3 wins, 3 draws, 2 losses, goals 10-8, xG 13.42 for and 14.86 against. Their last four away games had xG 5.58 for and 10.17 against (2.54 conceded per game). Season away record: 2 wins, 4 draws, 10 losses (21% of points). In all 2026 competitions they failed to score in 13 of 26 away games (ge/Gato Mestre).",
+        "h2h": "FotMob, last 5 meetings: Mirassol 4 wins, 1 draw, Chapecoense 0. 10 May 2026: Mirassol 1-1 Chapecoense. 2024 Série B: Mirassol 1-0 and Chapecoense 0-1 Mirassol. 2023 Série B: Chapecoense 0-1 Mirassol. All the scores I could read were 1-0, 0-1 or 1-1. One draw in five meetings. The matchup is low-scoring and tight.",
+        "odds": "DraftKings (ESPN): opened 3.40 / 3.60 / 1.95 (Chapecoense / draw / Mirassol). Now 3.55 / 3.45 / 2.05, which de-vigs to 0.266 / 0.274 / 0.460. Mirassol has drifted and the draw has shortened. Sportsgambler (1 Nov): 3.30 / 3.60 / 2.04, de-vigged 0.283 / 0.259 / 0.458; X2 1.30, Mirassol draw no bet 1.49. KickOff best prices: 3.60 / 3.40 / 2.00, de-vigged 0.259 / 0.274 / 0.466. Polymarket now 0.265 / 0.275 / 0.465. Over 24h Mirassol fell from 0.485 to 0.465 (-4.1% relative, under the 5% limit). The draw rose from 0.245 to 0.275 on only $54 of volume, and DraftKings moved the same way. Both moves fit the confirmed suspensions of Mirassol's two forwards. Stake and Rainbet both returned 403, so I saw no prices there.",
+        "models": "ge/Gato Mestre xG model (Bruno Imaizumi): 25% / 30% / 45% (Chapecoense / draw / Mirassol). ValorFinal Monte Carlo (updated 3 Nov 03:30): 31.1% / 26.2% / 42.7%, most likely score 1-1. KickOff algorithm: 33% / 24% / 42%, most likely score 1-1. All three models put Mirassol below the market's 46%. Sportsgambler's tipster says 55-60% for Mirassol, but that is opinion, not a model. ClubElo does not cover Brazil.",
+        "venue_weather": "Arena Condá, Chapecó (Chapecoense's home ground, grass, capacity 20,089). Mirassol travel from inland São Paulo state. FotMob forecast: 23°C, scattered thunderstorms, 42% chance of rain (0.2 mm), light wind. Nothing extreme. Referee is Lucas Paulo Torezin. Kick-off 19:30 Brasília (22:30Z), confirmed by ESPN, FotMob, both club sites and ge."
+      },
+      "reason": "I started from the market (26.3 / 27.3 / 46.3) and moved Mirassol down 2.8 points, the draw up 1.2 and Chapecoense up 1.7. Reasons: (1) All three independent models are below the market on Mirassol (ge 45%, ValorFinal 42.7%, KickOff 42%), and ge has the draw at 30%. (2) Mirassol are weak away from home: 2 wins, 4 draws, 10 losses in the league, no goal in half of their 2026 away games, and 2.54 xG conceded per game over their last four away matches. (3) Their first-choice striker Bruno Santos and Edson Carioca are both suspended. (4) Chapecoense must win to avoid mathematical relegation, have scored in every second-half home game, and get Yago Felipe and Camilo back. Against that, Chapecoense are clearly the worst side in the league (1.85 xG conceded per game, 66 goals conceded, top scorer Garcez out), and the head-to-head is Mirassol 4 wins, 1 draw. So the moves stay modest. All checks are clean (no rotation, no coaching change, no derby, no extreme weather), but the favourite's away form and the lineup selection differences keep confidence at medium.",
+      "main_risk": "Mirassol have only 2 league away wins all season and both forwards are suspended. They may fail to break down a desperate Chapecoense side that has scored in every home game of the second half, most likely ending in a 1-1 draw (the most likely score in both ValorFinal and KickOff).",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard?dates=20261103",
+        "https://site.api.espn.com/apis/v2/sports/soccer/bra.1/standings",
+        "https://gamma-api.polymarket.com/events?id=1231209",
+        "https://ge.globo.com/sc/futebol/times/chapecoense/noticia/2026/11/02/escalacao-da-chapecoense-rafael-lacerda-tem-retorno-de-dupla-de-volantes-titular.ghtml",
+        "https://ge.globo.com/sp/tem-esporte/futebol/times/mirassol/noticia/2026/11/02/escalacao-do-mirassol-guanaes-tem-duas-baixas-no-ataque-e-deve-mexer-no-meio-contra-a-chape.ghtml",
+        "https://ge.globo.com/gato-mestre/dicas/noticia/2026/11/02/palpites-e-dicas-para-chapecoense-x-mirassol-pelo-brasileirao.ghtml",
+        "https://www.sportsgambler.com/betting-tips/football/chapecoense-vs-mirassol-prediction-lineups-odds-2026-11-03/",
+        "https://www.fotmob.com/api/data/matchDetails?matchId=5103703",
+        "https://valorfinal.com.br/brasileirao/jogos/chapecoense-x-mirassol",
+        "https://www.kickoff.co.uk/brazillian-serie-a-predictions-stats-odds/chapecoense-vs-mirassol/",
+        "https://mirassolfc.com.br/blogs/news/mirassol-e-superado-pelo-corinthians-na-arena-mas-segue-a-frente-do-adversario-e-fora-do-z4",
+        "https://chapecoense.com/2026/10/30/programacao-semanal-31-10-a-04-11/",
+        "https://www.terra.com.br/esportes/futebol/chapecoense-x-mirassol-onde-assistir-escalacoes-e-arbitragem,8375b783695d727e6159cd27556464ebt4p34l0a.html",
+        "https://boainformacao.com.br/2026/11/chapecoense-enfrenta-mirassol-na-34a-rodada-do-brasileirao/",
+        "https://www.metropoles.com/esportes/chapecoense-pode-ter-rebaixamento-decretado-em-casa-diante-do-mirassol"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1230761",
+      "exclude": true,
+      "confidence": "low",
+      "p": {
+        "home": 0.43,
+        "draw": 0.25,
+        "away": 0.32
+      },
+      "checks": {
+        "team_news": "Man Utd: Sesko (leg/shin) and Ugarte (knee) out; Dorgu back in training Monday but Carrick said he 'won't be involved tomorrow' (Evening Standard/AOL). Shaw (muscle) and Rashford (hip) are out per AOL, but LiveScore says Rashford has a 'late fitness test'. Amad Diallo is doubtful with a knock from Chelsea (Sports Mole, SI). Eurosport.it lists Mainoo out and Mazraoui doubtful, while AOL says Mainoo is back and could start and Sports Mole has Mazraoui starting. Lisandro Martinez was sent off at Chelsea, but that is a domestic ban, so he is available in the UCL; his place is in question on form. Roma: Svilar out (stress fracture in a toe/foot, until after the international break), plus Pellegrini (thigh), Kone (muscle) and Dybala (calf; out per Sky Italia and Sports Mole, 'doubtful' per SI and Eurosport). Gasperini: 'the 17 players we have are all ready', 'short in midfield', Castro is the alternative to Malen.",
+        "lineups": "Man Utd lineups disagree a lot. Sports Mole: Lammens; Dalot, Maguire, Martinez, Mazraoui; Mainoo, Santos; Fernandes, Tielemans, Mount; Mbeumo. AOL/Standard: Lammens; Yoro, Maguire, Martinez, Dalot; Mainoo, Tielemans; Amad, Fernandes, Cunha, Mbeumo. SI: Yoro, De Ligt, Maguire, Dalot plus Diallo and Cunha. Eurosport.it: Amass, Baleba, no Mainoo. Roma lineups mostly agree on a 3-4-2-1 with Gollini in goal; Mora vs a third midfielder is undecided. Gasperini said the choice comes 'on the last day'.",
+        "rotation": "Man Utd: last game Sat 31 Oct at Chelsea (L 0-2), next Sun 8 Nov vs Aston Villa, then the international break. No midweek cup game. Roma: last game Sat 31 Oct at Udinese (W 5-2), and before that Tue 27 Oct vs Cagliari. Their next league game is vs Sassuolo before the break. Roma are stretched, with only 17 fit players and 'seven games on a knife edge' (Gasperini). Neither side has talked about rotating. I could not verify the claim that Roma stayed in Friuli and then flew to Manchester; the club and press pages I read do not mention it.",
+        "motivation": "UCL league phase MD4. Man Utd are 21st (3 pts) and Roma 15th (4 pts), with the top 24 going through, so both need points. Man Utd are 17th in the PL (1W 4D 4L, GF10 GA15, 7 pts) and winless in 9 in all competitions, their worst run in about 40 years. Carrick is under heavy sack pressure ('two games left?' question at Monday's presser; France24 says the international break gives the club a chance to change manager), but he has not been sacked or appointed in the last 14 days. Roma are 3rd in Serie A, a point off top. Not a derby.",
+        "form": "Man Utd's last 5: L 0-2 at Atletico, D 1-1 at Leeds, L 1-4 at Como, L 0-3 vs Bournemouth, L 0-2 at Chelsea. That is 2 goals scored and 12 conceded, and they failed to score in 5 of 7 defeats (LiveScore). Roma's last 5: W 2-0 Genoa, W 4-0 Slovan, D 3-3 at Napoli, W 4-2 Cagliari, W 5-2 at Udinese. Their last four went over 3.5 goals, they lead Serie A for goals (28 in 10), and they have kept no clean sheet in 32 UCL away games. xG: FotMob returned 404 and Understat/ClubElo API connections were reset, and none of the previews I read gave xG figures, so I have no xG.",
+        "h2h": "8 meetings: Man Utd 5W, 1D, 2L (Opta Analyst). Man Utd won all 4 home meetings. Last tie: 2021 UEL semi, United through 8-5 on aggregate (13 goals across the two legs). Style: Gasperini's high-press man-marking 3-4-2-1 against a fragile, low-scoring United side. NBC and LiveScore both predict 2-2.",
+        "odds": "DraftKings (ESPN API): close Man Utd +115, draw +300, Roma +195, de-vigged 44.1/23.7/32.2; open +105/+280/+210, de-vigged 45.4/24.5/30.0, so DK has drifted away from United. Polymarket (live 0.455/0.235/0.325, about 44.8/23.2/32.0 normalised): in the last 24h United rose 0.415→0.455 (+9.6% relative) and Roma fell 0.355→0.325 (−8.5%), moving from 22:00 UTC Nov 2 to 06:00 UTC Nov 3. That is the opposite direction to DK, and no fresh news explains it (Svilar's absence was already known before Udinese). Eurosport.it lists X2 at 1.57 (bookmaker not named). Stake and Rainbet returned HTTP 403, so I saw no price from either.",
+        "models": "Opta supercomputer: Man Utd 40.9%, draw 24.3%, Roma 34.8%. ClubElo page: United Elo 1847 (23rd), about 43.9/28.7/27.4. Human picks lean Roma or draw: SI 2-3, Eurosport.it 1-2, NBC 2-2, LiveScore 2-2 with a 'Roma or draw' tip.",
+        "venue_weather": "Old Trafford, Manchester; referee Gil Manzano (ESP). Open-Meteo for 20:00 UTC: about 9°C, dry (0% chance of rain), wind 11 km/h, gusts 23 km/h. No pitch issues reported. Roma fly in from Italy, a normal European away trip."
+      },
+      "reason": "EXCLUDE on several triggers. (1) Conflicting reports on likely United starters: Amad Diallo is doubtful with a knock but in the SI, AOL and Opta XIs; Mainoo is 'out' per Eurosport.it but 'could start' per AOL; Mazraoui is 'doubtful' per Eurosport.it but starts in Sports Mole's XI; Rashford has a 'late fitness test' per LiveScore but 'will not feature' per AOL. (2) An unexplained Polymarket move of about 10% relative toward United in the last 24h, opposite to DraftKings' drift (United +105→+115, Roma +210→+195). (3) The favourite is in turmoil: winless in 9, 17th in the PL, manager facing sack talk with Villa and the international break next. Probabilities for reference: market 45.0/23.0/32.0 against DK 44.1/23.7/32.2, Opta 40.9/24.3/34.8 and ClubElo ~43.9/28.7/27.4. Home is trimmed 2 points (Opta lower, United failed to score in 5 of 7 defeats, 2 goals in last 5) and the draw raised 2 points (Opta/Elo higher, NBC and LiveScore both predict 2-2), giving 0.43/0.25/0.32. Roma's high-scoring games (over 3.5 in their last four) cap the draw rise.",
+      "main_risk": "United's misfiring attack (2 goals in their last 5) cannot break down Roma, and Roma's front line (Malen 3G 2A in UCL, Soulé) scores against a shaky defence, so the game ends level (2-2 or 1-1) or Roma win. That is the same draw-or-upset scenario the Polymarket overnight move toward United ignores.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261103",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/summary?event=401915308",
+        "https://gamma-api.polymarket.com/events?id=1230761",
+        "https://clob.polymarket.com/prices-history?market=101722043515542151041428410570190865846655142831481824237372990543840326555841&interval=1d&fidelity=60",
+        "https://www.asroma.com/en/news/76173/gasperini-addresses-the-media-before-manchester-united-clash",
+        "https://sport.sky.it/calcio/champions-league/2026/11/02/manchester-united-roma-gasperini-conferenza-video",
+        "https://www.france24.com/en/live-news/20261102-carrick-shrugs-off-man-utd-sack-talk-as-he-prepares-for-roma-match",
+        "https://www.sportsmole.co.uk/football/man-utd/champions-league/team-news/man-utd-vs-roma-injury-suspension-list-predicted-xis_608223.html",
+        "https://www.si.com/soccer/man-utd-vs-roma-preview-predictions-lineups-11-3-26",
+        "https://www.aol.co.uk/articles/manchester-united-xi-vs-roma-143537000.html",
+        "https://eurosport.it/scommesse/manchester-united-roma-pronostico-consigli-sulle-scommesse-e-quote-champions-league",
+        "https://theanalyst.com/articles/man-utd-vs-roma-prediction-champions-league-preview-11-2026",
+        "https://www.livescore.com/en/news/football/champions-league/predictions/manchester-united-v-roma-predictions-champions-league/",
+        "http://clubelo.com/ManUnited",
+        "https://site.web.api.espn.com/apis/v2/sports/soccer/eng.1/standings",
+        "https://api.open-meteo.com/v1/forecast?latitude=53.4631&longitude=-2.2913&hourly=temperature_2m,precipitation,precipitation_probability,wind_speed_10m,wind_gusts_10m&start_date=2026-11-03&end_date=2026-11-03"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1230756",
+      "exclude": true,
+      "confidence": "low",
+      "p": {
+        "home": 0.36,
+        "draw": 0.25,
+        "away": 0.39
+      },
+      "checks": {
+        "team_news": "Bayern: ESPN's Dortmund (31 Oct) feed shows Saibari off injured at 29', Gnabry at 31' and Olise at 84', and Urbig had an injury stoppage at 35'. Neuer was not in the squad and Ulreich was on the bench. Ligainsider (updated 2 Nov) lists Gnabry (thigh), Saibari (syndesmosis tear, operated), Díaz and Musiala as out. Sports Mole (updated 2 Nov) calls Olise a doubt (knee) and says Neuer AND Urbig are both injury doubts, so Ulreich may start. Starting11 lists Neuer out (foot), Olise doubtful and Urbig fit. Atlético: Hjulmand suspended (red card at Stuttgart). Koke and Cardoso are out per elgoldigital and Starting11, but Sports Mole says both are back in training. Romero doubtful (Starting11).",
+        "lineups": "The two sources disagree. Sports Mole: Bayern Ulreich; Stanisic, Upamecano, Tah, Laimer; Kimmich, Pavlovic; Karl, Brown, Davies; Kane. Atlético Oblak; Pubill, Le Normand, Hancko, Grimaldo; Simeone, Barrios, Llorente, Baena; Álvarez, Lee. Starting11: Bayern Urbig; Laimer, Upamecano, Tah, Davies; Bischof, Kimmich; Olise, Pavlović, Karl; Kane. Atlético Oblak; Grimaldo, Pubill, Hancko, Romero; Baena, Simeone, Barrios, Castillo; Lookman, Álvarez. They disagree on Bayern's goalkeeper, Olise and several Atlético starters.",
+        "rotation": "Bayern: Pokal 6-1 v Magdeburg (Wed 28 Oct), then 2-2 v Dortmund (Sat 31 Oct), so this is their 3rd game in 7 days. Next is Mainz away on Sat 7 Nov. Atlético: 2-0 at Levante (Sat 31 Oct), next Barcelona at home on Sun 8 Nov (1st v 2nd in La Liga). Changes are forced by injuries rather than chosen rotation. I could not confirm how many changes either side will make.",
+        "motivation": "UCL league phase after 3 games: Bayern 14th (5 pts), Atlético 16th (4 pts) (ESPN standings), so both need points. This is not a derby. Manager situation: Kompany collapsed in training on 23 Oct and was hospitalised. Eberl said he will be out for 'weeks, not days', with assistant Aaron Danks in charge (Al Jazeera, 24 Oct). Sports Mole says he is unlikely to be on the touchline on Tuesday.",
+        "form": "Atlético last 5 (ESPN): W 2-0 Man Utd (H), W 1-0 at Espanyol, D 1-1 at Stuttgart, W 1-0 Deportivo (H), W 2-0 at Levante. Sports Mole: 9 wins in 10 and unbeaten, 6 clean sheets; at home 5 wins and 1 draw this season, 13 scored and 3 conceded. Bayern last 5 (ESPN): W 6-1 Leipzig, D 2-2 Arsenal (UCL), W 3-1 at Freiburg, W 6-1 Magdeburg (cup), D 2-2 Dortmund (conceded at 89'; 23 shots v 12). Sports Mole: Bayern failed to win 3 of their last 5 away games, scoring 10 and conceding 7. xG: I could not get it from FBref, Understat or FotMob.",
+        "h2h": "Per Sports Mole, the last meeting was 1-1 in Madrid (Dec 2020), and Bayern won the two meetings before that 4-0 and 1-0. The style matchup is a compact, mostly clean-sheet Atlético at home against a Bayern side missing several attackers and conceding regularly. Bayern drew 3 of their last ~6 (Viking 3-3, Arsenal 2-2, Dortmund 2-2).",
+        "odds": "DraftKings (ESPN API) closing prices: Atlético +175, draw +285, Bayern +135, de-vigged to 0.347/0.248/0.406. DraftKings opened Atlético +220, draw +310, Bayern -105 (about 0.29/0.23/0.48). Bayern drifted from about 48% to 41%, which fits the Kompany and injury news. Polymarket 24h: Atlético 0.365→0.355, draw flat at 0.245, Bayern 0.395→0.405, under 5% relative. Stake and Rainbet both returned 403, so I saw no prices there.",
+        "models": "Gambling.com's Dixon-Coles model gives 37.8/21.1/41.1 (Atlético/draw/Bayern), but the page says the fixture is 'held back', so it is weak evidence. Sports Mole predicts Atlético 2-1. ClubElo refused the connection. I found no Opta figure.",
+        "venue_weather": "Riyadh Air Metropolitano, Madrid (Atlético's home, not a neutral venue). Bayern have a short flight after a Saturday home game. I could not get a weather forecast (the open-meteo request timed out). I found no reported pitch issues."
+      },
+      "reason": "Excluded. Bayern's starting goalkeeper is in doubt: Neuer is out or doubtful, Urbig needed treatment against Dortmund, and Sports Mole predicts Ulreich while Starting11 predicts Urbig. Olise, a likely starter, is doubtful after going off injured at 84' against Dortmund, and Gnabry, Saibari, Díaz and Musiala are out. Head coach Kompany has been absent since collapsing on 23 Oct, with assistant Danks in charge, which is a change of manager on the touchline within 14 days. Lineup sources also disagree on Atlético (Koke and Cardoso status, Romero doubtful, Hjulmand suspended). For p, I stayed close to the market and the de-vigged DraftKings prices (0.347/0.248/0.406). I moved slightly toward Atlético and the draw because of Bayern's depleted attack and possible third-choice goalkeeper, Atlético's strong home record (5 wins, 1 draw, 3 conceded) and Bayern's 3 draws in their last ~6 games.",
+      "main_risk": "A weakened Bayern, with a possible third-choice keeper, no Olise, Gnabry or Díaz and no Kompany on the bench, run into a compact, clean-sheet Atlético at home and either lose or are held to a draw, as in their recent 2-2s against Arsenal and Dortmund.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/atletico-madrid/champions-league/preview/atletico-vs-bayern-prediction-team-news-lineups_608204.html",
+        "https://www.aljazeera.com/sports/2026/10/24/bayern-say-coach-kompany-stable-in-hospital-but-will-be-out-for-weeks",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884754",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/summary?event=401915386",
+        "https://www.ligainsider.de/fc-bayern-muenchen/1/",
+        "https://www.elgoldigital.com/futbol/atletico-de-madrid/obed-vargas-titular-atletico-bayern-champions-2026/",
+        "https://starting11.com/fixtures/atletico-madrid-vs-bayern-munich",
+        "https://www.gambling.com/betbuilderai/leagues/match/atletico-madrid-vs-bayern-munchen-1635622",
+        "https://gamma-api.polymarket.com/events?id=1230756",
+        "https://clob.polymarket.com/prices-history?market=76208488171135342894743862874291209250681104697696082909222562025889106111891&interval=1d&fidelity=60"
+      ],
+      "prices": []
+    }
+  ]
+}
