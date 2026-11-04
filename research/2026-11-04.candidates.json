@@ -1,0 +1,340 @@
+{
+  "date": "2026-11-04",
+  "window": {
+    "start": "2026-11-04T08:20:45.995Z",
+    "end": "2026-11-05T05:00:00.000Z"
+  },
+  "games_in_window": 15,
+  "games": [
+    {
+      "id": "1236813",
+      "league": "Brasileirão",
+      "event": "CR Flamengo vs. Grêmio FBPA",
+      "home": "CR Flamengo",
+      "away": "Grêmio FBPA",
+      "start": "2026-11-04T22:30:00.000Z",
+      "p_market": {
+        "home": 0.8364,
+        "draw": 0.1072,
+        "away": 0.0565
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "CR Flamengo",
+          "fair_odds": 1.2
+        }
+      ]
+    },
+    {
+      "id": "1230776",
+      "league": "Champions League",
+      "event": "AEK vs. Real Madrid CF",
+      "home": "AEK",
+      "away": "Real Madrid CF",
+      "start": "2026-11-04T17:45:00.000Z",
+      "p_market": {
+        "home": 0.0665,
+        "draw": 0.1271,
+        "away": 0.8064
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Real Madrid CF",
+          "fair_odds": 1.24
+        }
+      ]
+    },
+    {
+      "id": "1236260",
+      "league": "Champions League",
+      "event": "SK Slavia Praha vs. Arsenal FC",
+      "home": "SK Slavia Praha",
+      "away": "Arsenal FC",
+      "start": "2026-11-04T20:00:00.000Z",
+      "p_market": {
+        "home": 0.0691,
+        "draw": 0.1514,
+        "away": 0.7795
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Arsenal FC",
+          "fair_odds": 1.28
+        }
+      ]
+    },
+    {
+      "id": "1236250",
+      "league": "Champions League",
+      "event": "Viking FK vs. Sabah FK",
+      "home": "Viking FK",
+      "away": "Sabah FK",
+      "start": "2026-11-04T20:00:00.000Z",
+      "p_market": {
+        "home": 0.6935,
+        "draw": 0.1732,
+        "away": 0.1334
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Viking FK",
+          "fair_odds": 1.44
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Viking FK",
+          "fair_odds": 1.19
+        }
+      ]
+    },
+    {
+      "id": "1230771",
+      "league": "Champions League",
+      "event": "Fenerbahçe SK vs. Liverpool FC",
+      "home": "Fenerbahçe SK",
+      "away": "Liverpool FC",
+      "start": "2026-11-04T17:45:00.000Z",
+      "p_market": {
+        "home": 0.1366,
+        "draw": 0.1868,
+        "away": 0.6766
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Liverpool FC",
+          "fair_odds": 1.48
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "Liverpool FC",
+          "fair_odds": 1.2
+        }
+      ]
+    },
+    {
+      "id": "1236255",
+      "league": "Champions League",
+      "event": "RB Leipzig vs. Manchester City FC",
+      "home": "RB Leipzig",
+      "away": "Manchester City FC",
+      "start": "2026-11-04T20:00:00.000Z",
+      "p_market": {
+        "home": 0.1767,
+        "draw": 0.1967,
+        "away": 0.6266
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Manchester City FC",
+          "fair_odds": 1.6
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Manchester City FC or Draw",
+          "fair_odds": 1.21
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "Manchester City FC",
+          "fair_odds": 1.28
+        }
+      ]
+    },
+    {
+      "id": "1236842",
+      "league": "Brasileirão",
+      "event": "Botafogo FR vs. CA Mineiro",
+      "home": "Botafogo FR",
+      "away": "CA Mineiro",
+      "start": "2026-11-05T00:30:00.000Z",
+      "p_market": {
+        "home": 0.585,
+        "draw": 0.23,
+        "away": 0.185
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Botafogo FR",
+          "fair_odds": 1.71
+        },
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Botafogo FR or Draw",
+          "fair_odds": 1.23
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Botafogo FR",
+          "fair_odds": 1.32
+        }
+      ]
+    },
+    {
+      "id": "1236226",
+      "league": "Champions League",
+      "event": "BV Borussia 09 Dortmund vs. Real Betis Balompié",
+      "home": "BV Borussia 09 Dortmund",
+      "away": "Real Betis Balompié",
+      "start": "2026-11-04T20:00:00.000Z",
+      "p_market": {
+        "home": 0.5634,
+        "draw": 0.2233,
+        "away": 0.2133
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "BV Borussia 09 Dortmund",
+          "fair_odds": 1.77
+        },
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "BV Borussia 09 Dortmund or Draw",
+          "fair_odds": 1.27
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "BV Borussia 09 Dortmund",
+          "fair_odds": 1.38
+        }
+      ]
+    },
+    {
+      "id": "1236235",
+      "league": "Champions League",
+      "event": "PSV vs. Club Brugge KV",
+      "home": "PSV",
+      "away": "Club Brugge KV",
+      "start": "2026-11-04T20:00:00.000Z",
+      "p_market": {
+        "home": 0.5033,
+        "draw": 0.2134,
+        "away": 0.2833
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "PSV or Draw",
+          "fair_odds": 1.4
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "PSV",
+          "fair_odds": 1.56
+        }
+      ]
+    },
+    {
+      "id": "1236240",
+      "league": "Champions League",
+      "event": "FC Porto vs. SSC Napoli",
+      "home": "FC Porto",
+      "away": "SSC Napoli",
+      "start": "2026-11-04T20:00:00.000Z",
+      "p_market": {
+        "home": 0.5033,
+        "draw": 0.2533,
+        "away": 0.2433
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "FC Porto or Draw",
+          "fair_odds": 1.32
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "FC Porto",
+          "fair_odds": 1.48
+        }
+      ]
+    },
+    {
+      "id": "1236245",
+      "league": "Champions League",
+      "event": "Racing Club de Lens vs. Como 1907",
+      "home": "Racing Club de Lens",
+      "away": "Como 1907",
+      "start": "2026-11-04T20:00:00.000Z",
+      "p_market": {
+        "home": 0.2699,
+        "draw": 0.2401,
+        "away": 0.49
+      },
+      "legs_in_range": [
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Como 1907 or Draw",
+          "fair_odds": 1.37
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "Como 1907",
+          "fair_odds": 1.55
+        }
+      ]
+    },
+    {
+      "id": "1236825",
+      "league": "Brasileirão",
+      "event": "CA Paranaense vs. CR Vasco da Gama",
+      "home": "CA Paranaense",
+      "away": "CR Vasco da Gama",
+      "start": "2026-11-04T22:30:00.000Z",
+      "p_market": {
+        "home": 0.4567,
+        "draw": 0.2667,
+        "away": 0.2767
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "CA Paranaense or Draw",
+          "fair_odds": 1.38
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "CR Vasco da Gama or Draw",
+          "fair_odds": 1.84
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "CA Paranaense",
+          "fair_odds": 1.61
+        }
+      ]
+    }
+  ]
+}
