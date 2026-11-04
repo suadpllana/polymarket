@@ -11,8 +11,13 @@ exactly two legs from two different games**, with combined Stake odds between
    today's football games (top European leagues, European cups, Süper Lig,
    Saudi Pro League, Belgian Pro League, Brasileirão, Nations League) that
    have a leg between 1.18 and 1.90. Domestic cups are never listed.
-2. Research **every** game in depth: one subagent per game, with every
-   checklist item below filled in from sources read today.
+2. Research the games in **batches of 4**, one subagent per game (use the
+   Sonnet model for subagents), following "How to research cheaply without
+   losing quality" below. Every *kept* game still gets every checklist item
+   filled in from sources read today. Stop after the batch that brings the
+   kept total to 6 or more. Games not reached get the minimal verdict
+   `{ "id": "…", "exclude": true, "skipped": true }`, which `check-research`
+   accepts. Never use `skipped` for a game that was actually researched.
 3. Write `research/<date>.json` (format below) and run
    `npm run check-research` until it prints OK. It refuses kept games with a
    thin checklist or fewer than 4 source sites.
@@ -41,6 +46,34 @@ From the 60 Stake bets in `data/stake-bets.json` (see the Stats page):
   draw no bet, double chance).
 - **Cashing out cost $757.** Six cashed-out bets would have won. The slip is
   meant to be held to the end.
+
+## How to research cheaply without losing quality
+
+Excluded games used to get the same depth as kept ones, yet they produced
+about half the research output and never reach the slip. The kept games'
+standard below is unchanged; the savings come from not over-researching games
+that get excluded.
+
+1. **Order the candidates** by how close their best leg's `fair_odds` is to
+   1.40 (two legs near 1.40 multiply to about 2.0). Research the closest first.
+2. **Stage 1: the exclusion gate** (cheap). For each game check only
+   `team_news`, `lineups` and `rotation`, plus whether it is a derby, a
+   manager change within 14 days, or a price move of 5% or more with no news.
+   Stop at the **first** exclusion rule that applies: write the short
+   excluded verdict (`id`, `exclude`, `reason`, `main_risk`, 1-3 sources) and
+   do nothing more for that game. Do not fill `checks` for excluded games.
+3. **Stage 2: full depth, only for games that pass stage 1.** Fill all nine
+   checks, the pre-mortem, the 5-point-limit probabilities and 4+ sources
+   exactly as the checklist requires.
+4. **Search before fetching.** Use WebSearch snippets first and WebFetch only
+   the specific pages that answer an open question. Reuse league-wide
+   preview pages across games of the same matchday instead of re-fetching.
+   Budget about 8 tool calls per game for stage 1 and 12 more for stage 2.
+   If a fact is still missing after that, say what was tried and exclude, as
+   the "unknown after real attempts" rule already says.
+5. **Subagents return only the finished game object** (the JSON in the
+   format below), not notes or a narrative. The main task merges them,
+   writes the summary, and runs `npm run check-research`.
 
 ## Rules
 
