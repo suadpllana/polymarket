@@ -30,6 +30,12 @@ for (const v of research.games || []) {
   if (seen.has(g.id)) problems.push(`${where}: duplicate`);
   seen.add(g.id);
   if (typeof v.exclude !== 'boolean') problems.push(`${where}: exclude must be true/false`);
+  // A game the task did not get to because enough games were already kept
+  // needs nothing more than its id: { "id": "...", "exclude": true, "skipped": true }.
+  if (v.skipped === true) {
+    if (v.exclude !== true) problems.push(`${where}: a skipped game must have exclude: true`);
+    continue;
+  }
   if (!v.reason || v.reason.length < 40) problems.push(`${where}: reason must say what was found (40+ characters)`);
   if (!v.main_risk) problems.push(`${where}: main_risk is empty`);
   const hosts = new Set((v.sources || []).map((s) => { try { return new URL(s).hostname.replace(/^www\./, ''); } catch { return null; } }).filter(Boolean));
