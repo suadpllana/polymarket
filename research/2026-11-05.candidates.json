@@ -1,0 +1,286 @@
+{
+  "date": "2026-11-05",
+  "window": {
+    "start": "2026-11-05T08:21:45.698Z",
+    "end": "2026-11-06T05:00:00.000Z"
+  },
+  "games_in_window": 40,
+  "games": [
+    {
+      "id": "1242118",
+      "league": "Conference League",
+      "event": "FC København vs. SK Iberia 1999",
+      "home": "FC København",
+      "away": "SK Iberia 1999",
+      "start": "2026-11-05T20:00:00.000Z",
+      "p_market": {
+        "home": 0.8362,
+        "draw": 0.1171,
+        "away": 0.0467
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "FC København",
+          "fair_odds": 1.2
+        }
+      ]
+    },
+    {
+      "id": "1242140",
+      "league": "Conference League",
+      "event": "FC Lugano vs. FK Kauno Žalgiris",
+      "home": "FC Lugano",
+      "away": "FK Kauno Žalgiris",
+      "start": "2026-11-05T20:00:00.000Z",
+      "p_market": {
+        "home": 0.8331,
+        "draw": 0.1119,
+        "away": 0.055
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "FC Lugano",
+          "fair_odds": 1.2
+        }
+      ]
+    },
+    {
+      "id": "1242126",
+      "league": "Brasileirão",
+      "event": "SE Palmeiras vs. Clube do Remo",
+      "home": "SE Palmeiras",
+      "away": "Clube do Remo",
+      "start": "2026-11-05T22:30:00.000Z",
+      "p_market": {
+        "home": 0.8064,
+        "draw": 0.1372,
+        "away": 0.0563
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "SE Palmeiras",
+          "fair_odds": 1.24
+        }
+      ]
+    },
+    {
+      "id": "1242149",
+      "league": "Conference League",
+      "event": "FC Twente vs. Páfos FC",
+      "home": "FC Twente",
+      "away": "Páfos FC",
+      "start": "2026-11-05T20:00:00.000Z",
+      "p_market": {
+        "home": 0.7435,
+        "draw": 0.163,
+        "away": 0.0935
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "FC Twente",
+          "fair_odds": 1.34
+        }
+      ]
+    },
+    {
+      "id": "1241744",
+      "league": "Europa League",
+      "event": "Bayer 04 Leverkusen vs. Olympique de Marseille",
+      "home": "Bayer 04 Leverkusen",
+      "away": "Olympique de Marseille",
+      "start": "2026-11-05T20:00:00.000Z",
+      "p_market": {
+        "home": 0.7435,
+        "draw": 0.1531,
+        "away": 0.1034
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Bayer 04 Leverkusen",
+          "fair_odds": 1.34
+        }
+      ]
+    },
+    {
+      "id": "1236388",
+      "league": "Europa League",
+      "event": "AC Milan vs. Ferencvárosi TC",
+      "home": "AC Milan",
+      "away": "Ferencvárosi TC",
+      "start": "2026-11-05T17:45:00.000Z",
+      "p_market": {
+        "home": 0.7235,
+        "draw": 0.173,
+        "away": 0.1035
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "AC Milan",
+          "fair_odds": 1.38
+        }
+      ]
+    },
+    {
+      "id": "1236835",
+      "league": "Conference League",
+      "event": "Lincoln Red Imps FC vs. HNK Hajduk Split",
+      "home": "Lincoln Red Imps FC",
+      "away": "HNK Hajduk Split",
+      "start": "2026-11-05T17:45:00.000Z",
+      "p_market": {
+        "home": 0.0936,
+        "draw": 0.193,
+        "away": 0.7135
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "HNK Hajduk Split",
+          "fair_odds": 1.4
+        }
+      ]
+    },
+    {
+      "id": "1242145",
+      "league": "Conference League",
+      "event": "Universitatea Craiova CS vs. KF Egnatia Rrogozhinë",
+      "home": "Universitatea Craiova CS",
+      "away": "KF Egnatia Rrogozhinë",
+      "start": "2026-11-05T20:00:00.000Z",
+      "p_market": {
+        "home": 0.6866,
+        "draw": 0.207,
+        "away": 0.1064
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Universitatea Craiova CS",
+          "fair_odds": 1.46
+        }
+      ]
+    },
+    {
+      "id": "1242163",
+      "league": "Conference League",
+      "event": "AS Monaco FC vs. FC Nordsjælland",
+      "home": "AS Monaco FC",
+      "away": "FC Nordsjælland",
+      "start": "2026-11-05T20:00:00.000Z",
+      "p_market": {
+        "home": 0.6866,
+        "draw": 0.1869,
+        "away": 0.1266
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "AS Monaco FC",
+          "fair_odds": 1.46
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "AS Monaco FC",
+          "fair_odds": 1.18
+        }
+      ]
+    },
+    {
+      "id": "1242132",
+      "league": "Conference League",
+      "event": "Panathinaikós AO vs. PFK CSKA Sofia",
+      "home": "Panathinaikós AO",
+      "away": "PFK CSKA Sofia",
+      "start": "2026-11-05T20:00:00.000Z",
+      "p_market": {
+        "home": 0.6734,
+        "draw": 0.2031,
+        "away": 0.1235
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Panathinaikós AO",
+          "fair_odds": 1.49
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Panathinaikós AO",
+          "fair_odds": 1.18
+        }
+      ]
+    },
+    {
+      "id": "1241701",
+      "league": "Europa League",
+      "event": "Sunderland AFC vs. GNK Dinamo Zagreb",
+      "home": "Sunderland AFC",
+      "away": "GNK Dinamo Zagreb",
+      "start": "2026-11-05T20:00:00.000Z",
+      "p_market": {
+        "home": 0.6566,
+        "draw": 0.2069,
+        "away": 0.1366
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Sunderland AFC",
+          "fair_odds": 1.52
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Sunderland AFC",
+          "fair_odds": 1.21
+        }
+      ]
+    },
+    {
+      "id": "1236420",
+      "league": "Europa League",
+      "event": "AC Sparta Praha vs. AFC Bournemouth",
+      "home": "AC Sparta Praha",
+      "away": "AFC Bournemouth",
+      "start": "2026-11-05T17:45:00.000Z",
+      "p_market": {
+        "home": 0.1466,
+        "draw": 0.2068,
+        "away": 0.6466
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "AFC Bournemouth",
+          "fair_odds": 1.55
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "AFC Bournemouth",
+          "fair_odds": 1.23
+        }
+      ]
+    }
+  ]
+}

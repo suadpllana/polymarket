@@ -1,0 +1,172 @@
+{
+  "date": "2026-11-05",
+  "researched_at": "2026-11-05T07:00:42Z",
+  "summary": "No bet. All 12 candidates were researched (three batches of 4, none skipped) and all 12 are excluded, so no two-game slip exists. Rotation before the weekend: Monaco (Le Mans on Sunday, Starting11 expects rotation), FC København (Svensson may rest players before the weekend derby), Bournemouth at Sparta (Rose said the whole squad will be used; reports disagree on Kroupi's registration and Diakite), Lugano (Zanotti suspended, rotation likely) and Palmeiras (agent proposed keep, excluded on review: Abel undecided on rotation before the Copa do Brasil semi at Vasco on Sunday; Remo coach appointment date and Remo XI unverified). Goalkeeper or starter doubts: Milan (Maignan suspended, Amorim spoke of \"a fair amount of rotation\"), Twente (Unnerstall listed absent, no second source), Hajduk at Lincoln (Pajaziti and Marešić out, Dalisson doubtful, Gibraltar venue). Manager change: Dinamo Zagreb sacked Kovačević on 1 Nov (Sunderland also had Mukiele and Angulo as doubts). Critical team news unverifiable after real attempts: Leverkusen–Marseille, U Craiova–Egnatia, Panathinaikos–CSKA Sofia (no predicted XIs from two sources; CSKA coach unclear). Stake and Rainbet prices were not found (both block automated visitors); the only bookmaker price seen was DraftKings via ESPN.",
+  "games": [
+    {
+      "id": "1242118",
+      "exclude": true,
+      "reason": "Rotation rule. SpilXperten's matchday-3 Conference League preview (Lisberg tips, 5/11) says FCK coach Bo Svensson may rotate several positions ahead of the derby at the weekend. The author still expects FCK to win 'selv hvis et par af profilerne får et hvil', i.e. even if some key players rest. That is a manager-rotation signal before a derby within 4 days, which the brief treats as an exclusion. The number of changes cannot be verified, and the weekend derby is a second risk to the favourite's line-up. Unknown after real attempts: no injury, suspension or predicted-XI information found for either side. Searches tried: 3 web searches (English team news/lineups; Danish Tipsbladet/FCK squad; Sports Mole prediction), plus betclan, SpilXperten and the ESPN scoreboard API. starting11.com listed only an empty template with no names. No Sports Mole, Tipsbladet or fck.dk preview was found. Fixture itself is verified: ESPN lists Iberia 1999 at F.C. København, Parken, 2026-11-05 20:00Z, DraftKings KBH -600 / draw +650 / Iberia +1600, a normal home game with no venue issue. Polymarket 24h move was not checked, since the rotation rule applies first.",
+      "main_risk": "Svensson rotates for the weekend derby, the weakened FCK side only draws (about 12% market draw), and FCK's late-October form is mixed: 2-2 away at Crvena Zvezda, WWDDD in the last 5.",
+      "sources": [
+        "https://spilxperten.com/fodbold/europa-conference-league/lisberg-tips-til-3-runde-i-conference-league-d-5-11",
+        "https://www.betclan.com/predictionsdetails/football/1636408/fc-copenhagen-v-fc-iberia-1999-prediction-h2h-tip-and-match-preview/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20261105"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1242140",
+      "exclude": true,
+      "reason": "Rule: anything critical still unknown after real attempts (plus a rotation concern). Venue and fixture check out: ESPN lists Kauno Zalgiris at FC Lugano, 2026-11-05 20:00Z, AIL Arena, Lugano (normal home ground, not unusual). DraftKings closes at Lugano -550, draw +700, away +1300. Lugano have a Swiss Super League game 2-3 days after this one (Starting11 says 'three days after', opponent and date not listed; I could not confirm the fixture). Starting11 labels Lugano's XI 'Mixed' (76% of the XI kept over the last six games) and says rotation is likely. Swiss press describes Croci-Torti as habitually changing his XI around European nights, but those items are from earlier seasons, not this week. Lugano midfielder Zanotti is suspended (three yellows) and Vuklisevic is out. For Kauno Zalgiris, Starting11 lists no injuries on one page and Kvesic and Tutyskinas as doubtful in a search snippet, so the sources conflict. No named predicted XIs from any source and no goalkeeper confirmation for either side. What I tried: 2 WebSearches on lineups and team news, a fetch of Starting11, an Italian-language search of RSI, laRegione and tio.ch (nothing for this match), a Sports Mole search (no preview exists for this game), the ESPN scoreboard, and the dailysports, BetClan and footballpredictions snippets (no injury news). I did not reach fclugano.com, FotMob or a current Swiss press article on this match. With a suspended starter, a weekend game 2-3 days later and no verifiable XIs or goalkeeper, the rotation and lineup checks cannot pass.",
+      "main_risk": "Croci-Torti rotating the XI with the Super League game days away, Zanotti suspended, and no verified lineups or goalkeeper. The draw is also 11% in the market, but it is not the main issue here.",
+      "sources": [
+        "https://starting11.com/fixtures/fc-lugano-vs-kauno-zalgiris",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20261105",
+        "https://www.betclan.com/predictionsdetails/football/1636447/fc-lugano-v-kauno-Žalgiris-prediction-h2h-tip-and-match-preview/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1242126",
+      "exclude": true,
+      "confidence": "medium",
+      "p": {
+        "home": 0.77,
+        "draw": 0.17,
+        "away": 0.06
+      },
+      "checks": {
+        "team_news": "Palmeiras out: Ramon Sosa (right thigh, improving but expected out) and Paulinho (right calf trauma) per Gazeta Esportiva and Portal do Palestra; Lance adds Jefte (doping test, awaiting trial). No suspensions mentioned. Vitor Roque, Piquerez and Arthur appear as options. Starting GK Carlos Miguel is expected to play, with no doubt reported. Remo: no fresh injury list found. A May preview listed Kayky Almeida, Thalisson, Gabriel Taliari and Patrick de Paula, but that is stale. Remo coach is now Thiago Carpini, per one aggregator. I could not confirm when he was appointed, so it is unchecked whether it falls inside 14 days.",
+        "lineups": "Gazeta Esportiva and Portal do Palestra broadly agree on the Palmeiras XI: Carlos Miguel; Murilo, Gustavo Gomez, Barboza (Fuchs an option); Giay, Marlon Freitas/Evangelista, Andreas Pereira, Piquerez/Arthur; Arias, Flaco Lopez with Vitor Roque or Mauricio. They differ on a few names (Freitas vs Evangelista, Roque vs Mauricio). Official XIs are due about an hour before kickoff. Remo's predicted XI is from a single aggregator: Marcelo Rangel; Marcelinho, Marllon, Ze Ivaldo, Marlon; Ze Welisson, Picco, Patrick; Jaja, Taliari, David Braga. Not verified against a second source.",
+        "rotation": "This is the main risk. Palmeiras play the Copa do Brasil semi-final second leg at Vasco on Sun 8 Nov (17:00, São Januário). They lead 1-0 from the first leg, played 1 Nov, and advance with a draw. Portal do Palestra says Abel is still choosing between full strength and rotation and that staff are monitoring six regulars' physical condition. Gazeta says he may change part of the XI. No source claims 5+ changes, and both predicted XIs keep the core (Carlos Miguel, Gomez, Murilo, Flaco Lopez, Arias, Andreas Pereira). They were already knocked out of the Libertadores in the semi-final by Fluminense (Sports Mole form list) and so have no continental game nearby. Last game was a 0-0 at Santos on 28 Oct. Remo's previous game was a 2-1 home win over Botafogo on 28 Oct, and I found no cup game nearby for them.",
+        "motivation": "ESPN standings: Flamengo 76 pts from 34 games, Palmeiras 70 from 33 (a win takes them to 73), Cruzeiro 57. Palmeiras are still in the title race and have a game in hand, so they need points. Remo are 19th with 29 pts from 33, in the relegation zone and 8 points from safety (Corinthians/Gremio on 37, with 34 games played). They will fight hard, which makes a low-scoring or drawn game plausible. Not a derby. No manager sacking at Palmeiras (Abel Ferreira is in charge).",
+        "form": "Palmeiras are unbeaten in 10 league games (Portal do Palestra). Recent league and cup results (ESPN, Sports Mole): Athletico 2-0 away, Bragantino 2-0, Corinthians 4-1, Bahia 1-0, Santos 0-0 away, then Vasco 1-0 in the cup. Season goals: Palmeiras 56, Remo 36. Remo have scored more than 1 goal in none of their last 6 Serie A games (Kickoff), but did beat Botafogo 2-1 on 28 Oct. They also drew 0-0 at Vasco, drew 1-1 with Bragantino and Gremio, and lost 0-1 at Cruzeiro. Model expected goals (not measured xG): Foresportia 1.88 vs 0.77. I found no measured xG from a primary source.",
+        "h2h": "The last meeting was Remo 1-1 Palmeiras on 10 May 2026 at Mangueirao. Palmeiras had Abel suspended and several injuries then. It was the first league meeting in nearly 23 years. A draw in that fixture is a warning sign.",
+        "odds": "DraftKings via the ESPN API (close): Palmeiras -450, draw +550, Remo +1000. De-vigged that is about 77.0 / 14.5 / 8.5%. Polymarket: 0.805 / 0.135 / 0.055 and flat across the last 24 hours (0.805 to 0.815), so no unexplained move. O Liberal's article quoted much longer prices (about 1.87-1.97 for Palmeiras), but that is probably the May fixture, so I ignored it. Stake/Rainbet not checked. Only one bookmaker price was seen.",
+        "models": "Sports Mole: 74.2 / 17.9 / 8.0, most likely score 2-0. Foresportia: 63.3 / 24.3 / 12.4 (lower). ValorFinal: most likely score 1-0, estimated goals 2.90 vs 0.92 (its own estimate, not xG). Kickoff: averages 2.0 vs 0.8 goals. Opta and ClubElo not checked. The models sit below the market for Palmeiras and put the draw at 18-24%.",
+        "venue_weather": "Allianz Parque (now Nubank Parque), Sao Paulo, home. Kickoff is 19:30 Brasilia (22:30 UTC), Thu 5 Nov, a normal venue. I did not check weather; no source flagged an issue. Fixture confirmed by ESPN and Sports Mole."
+      },
+      "reason": "Excluded on review (agent proposed keep, medium). Rules applied: (1) rotation is an open question before a bigger game within 4 days. Palmeiras play the Copa do Brasil semi-final second leg at Vasco on Sun 8 Nov; Portal do Palestra says Abel is still choosing between full strength and rotation, with six regulars being monitored, and Gazeta says he may change part of the XI. (2) Critical facts unknown after real attempts: Remo coach Thiago Carpini is named by one aggregator only, and his appointment date (14-day rule) could not be confirmed; Remo predicted XI from a single source. Agent research for reference: Palmeiras are the title chaser, second on 70 pts with a game in hand and unbeaten in 10 league games, at home against a relegation-zone side that has scored more than 1 goal in none of its last 6 league games. Market (Polymarket 80.5%, DraftKings de-vig 77%) and Sports Mole (74%) agree on a strong home favourite, and the price is stable. I set p slightly below market (home 0.77, draw 0.17) for the Sunday Copa do Brasil semi-final rotation risk, the 1-1 at Remo in May, the 0-0 at Santos last time out, and the lower Foresportia model. Draw is 17%, under the 25% cap for a straight win.",
+      "main_risk": "Abel rotates six or more regulars ahead of the Vasco cup tie on Sunday and the second string fails to break down a desperate Remo, so the match ends level as the May game did (1-1). Also: a late official XI, or an unmodelled change at Remo's coaching.",
+      "sources": [
+        "https://portaldopalestra.com.br/escalacao-provavel-palmeiras-remo-vitor-roque-flaco-lopez-brasileirao-34-rodada/",
+        "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-ajustes-remo-provavel-escalacao/",
+        "https://www.sportsmole.co.uk/football/brasileiro/palmeiras-vs-remo_game_261610.html",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard?dates=20261105",
+        "https://www.foresportia.com/en/prediction/brasileirao/sociedade-esportiva-palmeiras-clube-do-remo-pa-2026-11-05/",
+        "https://www.lance.com.br/onde-assistir/palmeiras-x-remo-pa-onde-assistir-horario-e-escalacoes.html",
+        "https://gamma-api.polymarket.com/events?id=1242126"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1242149",
+      "exclude": true,
+      "reason": "Rule: starting goalkeeper in doubt and critical facts unverified after real attempts. The Wincomparator preview snippet lists L. Unnerstall (Twente's first-choice GK) among absentees, with S. Lemkin and M. Bruns. I could not open the page (403) to confirm status or cause, and no second source agreed or disagreed. Searches (Sports Mole, UEFA lineups page, Dutch-language Unnerstall/Van Rooij queries, Betclan) found no current Van Rooij fitness report (the only Soccerway injury entry is Dec 2025 to Jan 2026), no predicted XIs from two sources, and no rotation info for the Ajax game on 8 Nov. Betclan has no team news; its form figures are Twente W10 D3 L2 in the last 15 and 75% win. Sources cannot confirm the GK, the right-back or rotation, so under the unknown-after-attempts rule it is excluded. Nothing here was invented.",
+      "main_risk": "Backup goalkeeper plus a possibly rotated side with Ajax on 8 Nov, against Pafos, who draw often (D7 of last 15), so a draw is the likely failure mode.",
+      "sources": [
+        "https://www.wincomparator.com/predictions/twente-pafos-fc-8787116/",
+        "https://www.betclan.com/predictionsdetails/football/1636478/twente-v-pafos-prediction-h2h-tip-and-match-preview/",
+        "https://www.uefa.com/uefaconferenceleague/match/2050354--twente-vs-pafos/lineups/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1241744",
+      "exclude": true,
+      "reason": "Rule: critical info unknown after real attempts. Three searches (English team news, English preview, German Aufstellung/Verletzte/Pressekonferenz) plus fetching the Kickoff preview found no current team news, injury or suspension list, predicted XI, goalkeeper confirmation or press-conference quotes for either side. Kickoff's lineup section was empty, uefa.com's lineups page was empty, and the other hits were stale items from earlier seasons. Without two lineup sources I cannot check the goalkeeper or starter doubts. The Leverkusen rotation check is also unverified: I found no next-fixture date or manager comments. The ESPN schedule data is ambiguous, with unclear score order. Context that passed: the fixture is verified (Thu 5 Nov 2026, 20:00Z, BayArena, league phase). Leverkusen 3 wins from 3 (ESPN) and 3rd in the table, with 3 straight European clean sheets (Kickoff). Marseille 0 points from 3, 34th, 5 straight European defeats, and not more than 1 goal in 5 European games (Kickoff). It is not a derby. The managers are Martinez Novell and Genesio, and I found no change within 14 days. The Polymarket home price was steady at about 0.705 to 0.745 over 24h (+0.04 absolute, about 5.7% relative, and gradual). DraftKings moneyline close was -310 / +500 / +700, de-vigging to roughly 72/16/12, which matches Polymarket. The high price is explained by form and table position, not by a Marseille crisis report I could verify. Market draw is 15.3%, so a straight win would be allowed on the draw rule, but the unverified team news and rotation block it.",
+      "main_risk": "Unverified starters, goalkeeper and Leverkusen rotation before the next league game; a late goal for Marseille or a deep-block draw (the market gives the draw 15%).",
+      "sources": [
+        "https://www.kickoff.co.uk/uefa-europa-league-predictions-stats-odds/leverkusen-vs-marseille/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261105",
+        "https://gamma-api.polymarket.com/events?id=1241744"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1236388",
+      "exclude": true,
+      "reason": "Rotation and goalkeeper rules. Starting GK Mike Maignan is suspended (red card vs Bournemouth), so Lorenzo Torriani is expected in goal; Tomori, Gabbia, Saelemaekers, Loftus-Cheek and Chukwueze are also out and Pavlovic was left out of the squad. Amorim said at the pre-match press conference that a fair amount of rotation would happen. Lineup reports conflict: Sky/Milannews24 say no total turnover, Radio Rossonera says several changes from the derby XI, and Modric and Pulisic are expected to be rested by some outlets while one lineup still starts Pulisic. Milan are also 24th in the league phase with 3 points from 3 games. Searches used: Sports Mole/Football Faithful/Hard Tackle previews and Italian press (Tuttosport, Milannews24, Fantamaster). No Polymarket price-history check was run because an earlier exclusion rule applied. Note: the coach is Ruben Amorim, not Allegri.",
+      "main_risk": "Rotated Milan side with a backup goalkeeper, no Maignan, and thin central defence; the draw is already priced at 17.3% against a team that struggled in Europe.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/ac-milan/europa-league/preview/ac-milan-vs-ferencvaros-prediction-team-news-lineups_608327.html",
+        "https://www.milannews24.com/milan-ferencvaros-probabile-formazione/",
+        "https://www.fantamaster.it/conferenza-amorim-milan-ferencvaros-europa-league-turnover-diawara-news/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1236835",
+      "exclude": true,
+      "reason": "Rule: likely starter doubtful, plus an unusual venue and a rotation risk. Hajduk's injury report (karlobag.eu, written before the 31 Oct Gorica game) lists Pajaziti (calf, out about 2-3 weeks) and Marešić (quadriceps haematoma) as out for the Lincoln game. Dalisson de Almeida (ankle) was awaiting an MRI, with his availability for Lincoln 'unclear', so he is a doubt. I found no later update confirming his status. I could not find any predicted XIs: starting11.com and the other lineup pages only show blank formations, so there are no two sources to compare and the lineups check cannot be met. Hajduk travel to Gibraltar and then play at Osijek on 8 Nov, 3 days later, which makes changes likely. Venue is Europa Point Stadium, Gibraltar (ESPN lists venue id 9997). One listing (voetbalwedden) says Victoria Stadium, which conflicts with the other sources and looks like an error. I did not confirm from a source whether the pitch is artificial. That is my recollection rather than a verified fact, and a small ground abroad counts as an unusual venue under the rules. Market context: DraftKings closes at Hajduk -255, draw +400, Lincoln +700 (Hajduk 76% on BetClan's model). Hajduk's win price is about 1.40, and the draw is about 19%, so a straight win would not be blocked by the draw cap. The gate was stopped at the first applicable rules, so I did not do the Polymarket 24h price-move check or the Lincoln-side team news.",
+      "main_risk": "A rotated and injury-hit Hajduk side (Pajaziti and Marešić out, Dalisson doubtful, league trip to Osijek on 8 Nov) failing to break down a low-block Lincoln side in Gibraltar. Lincoln lost their first two league-phase games, but the preview warns against underestimating them. A draw or an upset is the main way the leg fails.",
+      "sources": [
+        "https://karlobag.eu/en/sports/hajduk-hit-by-three-injury-setbacks-before-gorica-clash-as-pajaziti-and-maresic-hy612/",
+        "https://starting11.com/fixtures/lincoln-red-imps-fc-vs-hnk-hajduk-split",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20261105"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1242145",
+      "exclude": true,
+      "reason": "Rule: critical items unknown after real attempts, plus a rotation risk. (1) Lineups and starting goalkeeper could not be verified from two sources. The only predicted XI I found was footballpredictions.com's (Craiova 3-4-3 with L. Popescu in goal; Egnatia 4-3-1-2). The Starting11 page for this fixture shows only formation placeholders with no names. Sports Mole, SportsGambler and FotMob have no preview for this game. The Romanian press searches (sport.ro, prosport, agerpres, soccerway.ro, flashscore.ro, fanatik) returned no Coelho pre-match press conference and no list of absentees. (2) Rotation risk is unresolved. Craiova's next game is away at CFR Cluj in Superliga round 15 on Saturday 7 Nov, two days after this one, and I found no statement from Coelho on how he will handle squad minutes. (3) Team news is thin. footballpredictions lists Isenko out and Rus a possible return for Craiova, and Bakayoko out for Egnatia. Egnatia's coach Nevil Dede told sport.ro he is worried about his players' physical condition and is managing their workload. Nothing was confirmed by a club source. Checked and clean: the fixture is verified (Stadionul Ion Oblemenco, Thursday 5 Nov, 20:00 UTC). It is not a derby. Coelho has been in charge since before the season, so no manager change. The Polymarket 24h move is small (Craiova win 0.685, oneDayPriceChange +0.02; draw 0.205, -0.01; Egnatia win 0.105, -0.025), with no 5% relative move on the favourite. DraftKings via ESPN shows the draw at +370. Those checks do not offset the unverified lineups and goalkeeper and the Cluj game two days later.",
+      "main_risk": "Craiova could rotate for the CFR Cluj game on Saturday with no confirmed XI to check against. The draw is also priced at about 20.5%, and Egnatia are tired but have drawn their last two (Midtjylland, Aarhus).",
+      "sources": [
+        "https://footballpredictions.com/footballpredictions/europa-conference-league-predictions/universitatea-craiova-vs-egnatia-prediction-05-11-2026/",
+        "https://www.sport.ro/conference-league/antrenorul-de-la-egnatia-a-numit-marea-problema-inaintea-meciului-cu-universitatea-craiova.html",
+        "https://starting11.com/fixtures/universitatea-craiova-vs-egnatia-rrogozhine"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1242163",
+      "exclude": true,
+      "reason": "Rotation/lineup gate. Monaco played Paris FC away on 2026-11-01 (ESPN schedule) and play again Sun 2026-11-08 at Le Mans, three days after this game. Starting11 flags 'Expect rotation' for Monaco (only 56% of the XI kept over the last six matches), with Fati (hamstring), Dier (muscle), Idumbo-Muzambo (groin) out and Salisu out by coach's decision. Footballpredictions.com agrees on Fati, Idumbo and Salisu out but lists a 4-2-3-1 with no named XI. Neither source names a predicted XI or the starting goalkeeper, and two real searches (English and French, including Sports Mole, which has no preview for this game) found no Monaco-specific rotation quote, L'Equipe/Foot Mercato/Monaco-Matin preview or confirmed team sheet, so the favourite's likely 5+ changes and goalkeeper cannot be verified. Nordsjaelland: Janssen suspended (two yellows), Nelsson doubtful, Alio and Mohammed out; they also play Sun 11-08 at Randers. Passed checks: no derby; Filipe Luis was appointed in July 2026, not within 14 days; Polymarket Monaco win moved only 0.675 to 0.685 over 24h with no news; Stade Louis II is a normal venue. Market: Monaco are 6th on 6 points after two wins, DraftKings Monaco -240, draw +425, Nordsjaelland +550; Polymarket home 0.685, draw 0.185, away 0.125. The slip would be a short-priced favourite on a Thursday-to-Sunday turnaround with unverifiable lineups, which is the rotation pattern that lost earlier bets.",
+      "main_risk": "Heavy Monaco rotation ahead of the Le Mans game, an unknown goalkeeper, and a draw against a side unbeaten in its first two league-phase games (two draws).",
+      "sources": [
+        "https://starting11.com/fixtures/monaco-vs-fc-nordsjaelland",
+        "https://footballpredictions.com/footballpredictions/europa-conference-league-predictions/monaco-vs-nordsjaelland-prediction-05-11-2026/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20261105"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1242132",
+      "exclude": true,
+      "reason": "Unknown after real attempts (rule: lineups/team news not verifiable). Tried: WebSearch x4 (English and Greek press, Sports Mole/SportsGambler/FotMob-filtered), footballpredictions.com, FotMob match page, ESPN scoreboard/team schedules, Polymarket gamma+clob. No Sports Mole, SportsGambler or Greek-press (Gazzetta/SDNA/Sport24) preview for today's game exists; searches only return the August qualifier. There are NO predicted XIs from 2 sources: FotMob shows only Panathinaikos' 'last starting XI' (Pena in goal) and no CSKA XI; footballpredictions gives only Tetteh available after a minor knock and Brahimi back from suspension for CSKA. Injury lists conflict: FotMob has Kristiansen, Ounahi (out to January) and Ingason out for PAO and nobody out for CSKA, while footballpredictions mentions a Tetteh knock. CSKA manager unverified: sources name Gisdol, Yanev and Morales, so a recent change cannot be ruled out. Rotation: PAO won 6 straight (incl. 5-1 Kairat 22 Oct, 2-0 AEK 1 Nov) and next play Iraklis away 8 Nov, so rotation risk looks modest, but the starting GK and XI cannot be confirmed. Polymarket home price was stable (0.665 to 0.675 over 24h, no flag). Not a derby; venue is the Athens Olympic Stadium; fixture verified via ESPN and FotMob. The draw is also a live risk: these sides drew 1-1 over 90 min in both August qualifier legs (PAO went through 1-2 after extra time), and the market draw is 20.5%.",
+      "main_risk": "Draw or upset against a side that already held PAO 1-1 twice in August; unconfirmed XIs and GK, unclear CSKA coaching situation.",
+      "sources": [
+        "https://www.fotmob.com/matches/panathinaikos-vs-cska-sofia/3f7v04",
+        "https://footballpredictions.com/footballpredictions/europa-conference-league-predictions/panathinaikos-vs-cska-sofia-prediction-05-11-2026/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/443/schedule"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1241701",
+      "exclude": true,
+      "reason": "Rule: manager sacked/appointed in the last 14 days. Dinamo Zagreb sacked Mario Kovacevic on 1 Nov 2026 (four days before kickoff) after a 1-0 league loss to Rudes. Reserve-team coach Jerko Leko is caretaker for the Sunderland game and the next league game, and no successor has been named. Sunderland have a second problem: Sports Mole (preview read 5 Nov) lists Nordi Mukiele as a doubt (concussion protocols, to be assessed before kickoff) and Juan Angulo as a doubt (knock). Out are Ballard (hamstring), Mundle (knee) and Diarra (muscle). Brobbey's place up front is uncertain, since Isidor or Tutierov may replace him, and Danso, Methalie, Meunier and Fofana are pushing for recalls. Sunderland are rock bottom of the Premier League and winless in 7 league games (D2 L5). So the 65.7% market price for a Sunderland win rests on an uncertain XI against opposition under a new caretaker. I found no confirmed or predicted XI from a second source, so I could not check whether sources agree. What I tried: ESPN scoreboard (fixture verified, Stadium of Light, DraftKings odds present), three WebSearches (English team news; Sunderland Echo/Le Bris; Croatian query for Index/Sportske novosti), and a fetch of the Sports Mole preview. Kickoff.co.uk's model gives Sunderland only 41%, a draw 26% and Zagreb 33%, far below the market. Sports Mole predicts 2-1. I did not run the Polymarket price-move check or find rotation quotes. Zagreb also have a league game two days after this one, so rotation there is likely.",
+      "main_risk": "Draw or upset: a caretaker-led Zagreb (a coach change often brings a bounce), a struggling Sunderland side in poor league form, uncertain Sunderland selection with Mukiele and Angulo doubtful, and a possible changed XI for the weekend Premier League game.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/sunderland/europa-league/preview/sunderland-vs-dinamo-zagreb-prediction-team-news-lineups_608306.html",
+        "https://total-croatia-news.com/news/sport/dinamo-sack-mario-kovacevic-after-shock-defeat-to-rudes/",
+        "https://www.kickoff.co.uk/uefa-europa-league-predictions-stats-odds/sunderland-vs-d-zagreb/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1236420",
+      "exclude": true,
+      "reason": "Rotation and conflicting team news (stage 1 exclusion rules). (1) Rotation: Marco Rose (Bournemouth, in post since the summer, so not a recent change) has said the whole squad will be used and made 8 changes for the League Cup win over Aston Villa (premierleaguenewsnow.com preview, 4 Nov). The same preview says it is a short-turnaround trip, and a separate preview says Evanilson may start and then be taken off to rest, as Rose has managed him in recent Europa League games. Bournemouth are at Ipswich on Sunday 8 Nov (Premier League), so a bigger rotation than a normal XI is plausible; no source gives a confirmed change count, and Sports Mole says Gannon-Doak, Cook, Adli and Kroupi are all pushing to start. (2) Sources report the XI differently: Sports Mole and The Football Faithful both predict Kroupi in the XI, but the premierleaguenewsnow preview says Kroupi is not in the Europa League squad (registration), so the predicted XIs are unreliable. Diakite is one booking from a Europa League ban and Sports Mole says only that he is 'still in contention to start', versus 'expected to start' elsewhere. On the Sparta side John Mercado (calf) is a game-time doubt, and Squawka's 'No absentees' conflicts with the other injury lists. Bournemouth are out: Scott (hamstring), Toth, Araujo; Sparta are out: Rynes, Karabec, Kofod Andersen, Uchenna. Other checks: not a derby, no managerial change inside 14 days, venue is Prague's home stadium (ESPN lists Generali Arena; previews say epet ARENA, same ground). I did not run the Polymarket price-history check because an earlier rule already excludes the game. Tried: 2 WebSearches on lineups and team news, 1 on Iraola/Rose rotation, 1 on the Rose appointment, 1 extended search, ESPN scoreboard and Bournemouth schedule API, and fetches of Sports Mole, The Football Faithful and premierleaguenewsnow. Squawka returned 403. Not reached: afcb.co.uk, FotMob, Czech press. A draw is still priced at about 21%.",
+      "main_risk": "Rotated Bournemouth side with Diakite/Evanilson management and an unsettled XI, ahead of Ipswich on Sunday; Sparta at home with Mercado possibly back could hold a draw.",
+      "sources": [
+        "https://premierleaguenewsnow.com/2026/11/04/sparta-prague-bournemouth-preview-rose-record/",
+        "https://www.sportsmole.co.uk/football/sparta-prague/europa-league/preview/sparta-prague-vs-bournemouth-prediction-team-news-lineups_608305.html",
+        "https://thefootballfaithful.com/bournemouth-xi-vs-sparta-prague-lineup/"
+      ],
+      "prices": []
+    }
+  ]
+}
