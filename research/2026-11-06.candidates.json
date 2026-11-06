@@ -1,0 +1,343 @@
+{
+  "date": "2026-11-06",
+  "window": {
+    "start": "2026-11-06T08:21:14.720Z",
+    "end": "2026-11-07T05:00:00.000Z"
+  },
+  "games_in_window": 13,
+  "games": [
+    {
+      "id": "1244081",
+      "league": "Premier League",
+      "event": "Everton FC vs. Coventry City FC",
+      "home": "Everton FC",
+      "away": "Coventry City FC",
+      "start": "2026-11-06T20:00:00.000Z",
+      "p_market": {
+        "home": 0.5699,
+        "draw": 0.2402,
+        "away": 0.1898
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Everton FC",
+          "fair_odds": 1.75
+        },
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Everton FC or Draw",
+          "fair_odds": 1.23
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Everton FC",
+          "fair_odds": 1.33
+        }
+      ]
+    },
+    {
+      "id": "1244571",
+      "league": "La Liga",
+      "event": "Sevilla FC vs. Deportivo Alavés",
+      "home": "Sevilla FC",
+      "away": "Deportivo Alavés",
+      "start": "2026-11-06T20:00:00.000Z",
+      "p_market": {
+        "home": 0.5067,
+        "draw": 0.2767,
+        "away": 0.2166
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Sevilla FC or Draw",
+          "fair_odds": 1.28
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Sevilla FC",
+          "fair_odds": 1.43
+        }
+      ]
+    },
+    {
+      "id": "1291022",
+      "league": "Belgian Pro League",
+      "event": "Standard Liege vs. SK Beveren",
+      "home": "Standard Liege",
+      "away": "SK Beveren",
+      "start": "2026-11-06T19:45:00.000Z",
+      "p_market": {
+        "home": 0.49,
+        "draw": 0.25,
+        "away": 0.26
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Standard Liege or Draw",
+          "fair_odds": 1.35
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Standard Liege",
+          "fair_odds": 1.53
+        }
+      ]
+    },
+    {
+      "id": "1244079",
+      "league": "Ligue 1",
+      "event": "Toulouse FC vs. RC Strasbourg Alsace",
+      "home": "Toulouse FC",
+      "away": "RC Strasbourg Alsace",
+      "start": "2026-11-06T19:45:00.000Z",
+      "p_market": {
+        "home": 0.4567,
+        "draw": 0.2566,
+        "away": 0.2867
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Toulouse FC or Draw",
+          "fair_odds": 1.4
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "RC Strasbourg Alsace or Draw",
+          "fair_odds": 1.84
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Toulouse FC",
+          "fair_odds": 1.63
+        }
+      ]
+    },
+    {
+      "id": "1246366",
+      "league": "Eredivisie",
+      "event": "Willem II Tilburg vs. PEC Zwolle",
+      "home": "Willem II Tilburg",
+      "away": "PEC Zwolle",
+      "start": "2026-11-06T19:00:00.000Z",
+      "p_market": {
+        "home": 0.3133,
+        "draw": 0.2534,
+        "away": 0.4333
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Willem II Tilburg or Draw",
+          "fair_odds": 1.76
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "PEC Zwolle or Draw",
+          "fair_odds": 1.46
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "PEC Zwolle",
+          "fair_odds": 1.72
+        }
+      ]
+    },
+    {
+      "id": "1247148",
+      "league": "Primeira Liga",
+      "event": "FC Famalicão vs. FC Arouca",
+      "home": "FC Famalicão",
+      "away": "FC Arouca",
+      "start": "2026-11-06T20:45:00.000Z",
+      "p_market": {
+        "home": 0.4301,
+        "draw": 0.29,
+        "away": 0.28
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "FC Famalicão or Draw",
+          "fair_odds": 1.39
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "FC Arouca or Draw",
+          "fair_odds": 1.75
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "FC Famalicão",
+          "fair_odds": 1.65
+        }
+      ]
+    },
+    {
+      "id": "1243079",
+      "league": "Serie A",
+      "event": "Venezia FC vs. Udinese Calcio",
+      "home": "Venezia FC",
+      "away": "Udinese Calcio",
+      "start": "2026-11-06T19:45:00.000Z",
+      "p_market": {
+        "home": 0.4233,
+        "draw": 0.2734,
+        "away": 0.3033
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Venezia FC or Draw",
+          "fair_odds": 1.44
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Udinese Calcio or Draw",
+          "fair_odds": 1.73
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Venezia FC",
+          "fair_odds": 1.72
+        }
+      ]
+    },
+    {
+      "id": "1244078",
+      "league": "Bundesliga",
+      "event": "Hamburger SV vs. Borussia Mönchengladbach",
+      "home": "Hamburger SV",
+      "away": "Borussia Mönchengladbach",
+      "start": "2026-11-06T19:30:00.000Z",
+      "p_market": {
+        "home": 0.4067,
+        "draw": 0.2666,
+        "away": 0.3267
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Hamburger SV or Draw",
+          "fair_odds": 1.49
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Borussia Mönchengladbach or Draw",
+          "fair_odds": 1.69
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Hamburger SV",
+          "fair_odds": 1.8
+        }
+      ]
+    },
+    {
+      "id": "1247650",
+      "league": "Brasileirão",
+      "event": "EC Vitória vs. Fluminense FC",
+      "home": "EC Vitória",
+      "away": "Fluminense FC",
+      "start": "2026-11-06T23:00:00.000Z",
+      "p_market": {
+        "home": 0.3333,
+        "draw": 0.2834,
+        "away": 0.3833
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "EC Vitória or Draw",
+          "fair_odds": 1.62
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Fluminense FC or Draw",
+          "fair_odds": 1.5
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "Fluminense FC",
+          "fair_odds": 1.87
+        }
+      ]
+    },
+    {
+      "id": "1246808",
+      "league": "Süper Lig",
+      "event": "Gaziantep FK vs. Kasımpaşa SK",
+      "home": "Gaziantep FK",
+      "away": "Kasımpaşa SK",
+      "start": "2026-11-06T17:00:00.000Z",
+      "p_market": {
+        "home": 0.3633,
+        "draw": 0.2834,
+        "away": 0.3533
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Gaziantep FK or Draw",
+          "fair_odds": 1.55
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Kasımpaşa SK or Draw",
+          "fair_odds": 1.57
+        }
+      ]
+    },
+    {
+      "id": "1290053",
+      "league": "Saudi Pro League",
+      "event": "Al Ittihad Saudi Club vs. NEOM SC",
+      "home": "Al Ittihad Saudi Club",
+      "away": "NEOM SC",
+      "start": "2026-11-06T17:30:00.000Z",
+      "p_market": {
+        "home": 0.0038,
+        "draw": 0.9877,
+        "away": 0.0084
+      },
+      "legs_in_range": [
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "NEOM SC",
+          "fair_odds": 1.46
+        }
+      ]
+    }
+  ]
+}

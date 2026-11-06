@@ -1,0 +1,138 @@
+{
+  "date": "2026-11-06",
+  "researched_at": "2026-11-06T06:56:32Z",
+  "summary": "No bet. All 11 candidates were researched (three batches, none skipped) and all 11 are excluded, so no two-game slip exists. Manager changes within 14 days: Venezia–Udinese (Udinese sacked Runjaic and appointed Zanetti on 2 Nov) and Willem II–PEC Zwolle (Streppel just appointed at Willem II, Zwolle under a caretaker; goalkeeper also unclear). Starter doubts reported differently by sources: Sevilla–Alavés (Isaac Romero's knee, Kike Salas, Manu Bueno suspended), Toulouse–Strasbourg (Donnum suspended, Messali, Francis and Balde doubtful, predicted XIs differ), Everton–Coventry (George, Mykolenko and Grealish doubts; kickoff day also reported differently) and Hamburg–Gladbach (Bornauw and Capaldo concerns, one lineup source only). Unexplained price move: Standard Liège–Beveren (Standard win fell about 10% on Polymarket in the last hours, DraftKings also drifted, no news found). Team news unknown or conflicting after real attempts: Famalicão–Arouca (no current previews; DraftKings drifted from Famalicão), Vitória–Fluminense (suspensions and disputed XIs; Vitória coach change date unconfirmed) and Gaziantep–Kasımpaşa (one unreliable predicted XI, conflicting injury lists, first-choice Gaziantep GK out). Al Ittihad–NEOM is postponed (Saudi Pro League Matchday 13 moved; ESPN shows Postponed), and its 0.99 draw price is a postponement artifact. Stake and Rainbet prices were not found; the only bookmaker prices seen were DraftKings via ESPN and, for Gaziantep, Mynet.",
+  "games": [
+    {
+      "id": "1244081",
+      "exclude": true,
+      "reason": "Rule: a likely starter on either side is doubtful or reported differently by different sources. The Stats Zone preview (published 3 Nov, updated 4 Nov) lists Everton's Tyrique George, a predicted starter, as injured after limping against Newcastle, and Jack Grealish as not match-fit after being left out of the cup win for disciplinary reasons. An FPL preview citing the 26 Oct official list had Mykolenko (injury) and Grealish (illness) both at 75%. Mykolenko is in the Stats Zone predicted XI, so sources differ on his fitness. Coventry have Bobby Thomas and Onyeka doubtful, plus Amenda, Woolfenden, Eccles and Wright out. I found no confirmed or second predicted XI and no press-conference report from this week (two WebSearch queries, the ESPN scoreboard API, and the Stats Zone page). I did not check the club sites. Kick-off sources also disagree: most say Fri 6 Nov 20:00 GMT, but starting11 and a Spanish listing say Sat 7 Nov.",
+      "main_risk": "Everton's lineup is uncertain (George, Mykolenko, Grealish), the fixture time is not firmly verified, and the draw is priced at about 24%.",
+      "sources": [
+        "https://www.thestatszone.com/everton-vs-coventry-preview-team-news-prediction-234684",
+        "https://www.footballdream.in/blog/everton-vs-coventry-city-gw10-premier-league-2026-27",
+        "https://futboltotal.futbol/partido/everton-vs-coventry-premier-league-2026-11-06"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1244571",
+      "exclude": true,
+      "reason": "Stage 1, team_news rule (likely starter doubtful and sources disagree). Sevilla's Isaac Romero left the previous game (Getafe) with a knee problem. El Pespunte says he is back in training normally. 101TV Sevilla says he trained with a bulky knee bandage and his participation is still an unknown. Teleprensa says he is recovered and could start. Comuniate (jornada 12 page) also lists a club-kept doubt over Kike Salas, the captain, who is recovering. Sevilla are also without Manu Bueno (suspended, red card at Getafe), Marcao, Peque Fernandez and Miguel Sierra. Alaves are without Garces and Mikel Rodriguez (ACL) and have gone seven La Liga games without a win; their partner for Lucas Boye up front is undecided. No goalkeeper doubt was reported for either side, and I found no full predicted XI in text from two sources (Comuniate and FutbolFantasy show XIs as images, and I did not read them). Searches tried: Sports Mole and Comuniate previews, Spanish press searches, the ESPN scoreboard (fixture confirmed: Alaves at Sevilla, Ramon Sanchez-Pizjuan, 6 Nov 2026 20:00 UTC; DraftKings moneyline SEV -110, draw +250, ALA +330). The Polymarket 24h move check was not done because the exclusion applied first.",
+      "main_risk": "Sevilla's starting attack and defence are unsettled (Isaac Romero, Kike Salas, a suspension and several injuries). The market draw price is 27.7% against an Alaves side that drew 1-1 in the last two meetings in Feb 2026 and Apr 2025.",
+      "sources": [
+        "https://www.comuniate.com/partido/26/8/12/sevilla-alaves",
+        "https://101tvsevilla.es/el-sevilla-perfila-un-once-con-fofana-de-mediapunta-y-la-duda-de-isaac-romero/",
+        "https://www.elpespunte.es/deportes/previa-sevilla-fc-alaves-sevilla-fc-busca-redencion-tres-puntos-alaves-antes-paron/20261105170221160527.html"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1291022",
+      "exclude": true,
+      "reason": "Two exclusion rules apply. (1) Price move of 5% or more with no news found: the Polymarket Standard Liege win token (gamma-api event 1291022, clob prices-history interval=1d fidelity=60) fell from about 0.54 to 0.485 in the last 3 hours of the 24h window, roughly 10% relative, and the market now reads 0.485. ESPN's DraftKings moneyline also moved against Standard, from open -125 to close +100 (home), with the away price shortening from +285 to +245. (2) Team news and lineups unknown after real attempts. Fixture is verified: ESPN bel.1 scoreboard 20261106 lists Waasland-Beveren at Standard Liege, 19:45 UTC, Stade Maurice Dufrasne (Sclessin), and Foresportia lists it as Jupiler Pro League matchday 11, 2026/27 (Standard 7th, Beveren 9th, Elo 1537 vs 1474). I ran three web searches (French compo/blessés, English preview, Dutch voorbeschouwing) and tried the Foresportia page (403). They returned only 2019-2025 pages, with no current injuries, suspensions or predicted XIs for either side, so the price drop cannot be explained and the goalkeepers and starters cannot be checked. ESPN form strings are Standard DLLLL, Beveren LDLLW. No derby or manager-change evidence was found.",
+      "main_risk": "Unexplained late drift against Standard (possible undisclosed team news) and a likely draw: Standard have won none of their last five (DLLLL).",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261106",
+        "https://gamma-api.polymarket.com/events?id=1291022",
+        "https://www.foresportia.com/en/prediction/jupiler-pro-league/standard-de-liege-kvrs-waasland-sk-beveren-2026-11-06/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1244079",
+      "exclude": true,
+      "reason": "Rule: likely starters doubtful and sources report them differently. Strasbourg did not play in Europe on Thu 5 Nov (the ESPN Conference League and Europa League scoreboards for 20261105 do not list them, and their ESPN fra.1 schedule shows only Ligue 1 games on 11 Oct, 17 Oct, 25 Oct and 1 Nov; Toulouse is also not in Europe). Next fixtures are Toulouse at Lens on 21 Nov and Brest at Strasbourg on 21 Nov, so no rotation concern. Team news is unclear on both sides. Sports Mole (Gameweek 10 preview) has Toulouse's Aron Donnum suspended (fifth yellow), Rafik Messali with a leg injury that 'may prevent' him playing, and Abu Francis 'questionable due to a sore hamstring'. For Strasbourg it has Fabio Balde 'doubtful because of muscle tightness', Hermann Malonga, Deivid Washington and Maxi Oyedele 'questionable through injury', and Joaquin Panichelli out (cruciate ligament). Scores24 (via search snippet) reports Balde as ruled out rather than doubtful and Messali out until December, so the sources disagree. Predicted XIs also differ: Sports Mole has Schmidt in Toulouse's midfield where Scores24 has Azizi, and Sports Mole's Strasbourg XI has a lone holding player (El Mourabet) with Essugo and Reyna ahead of him, while Scores24 has El Mourabet, Reyna and Essugo as a three. Toulouse's lineup is not settled. Both sides' XIs are unconfirmed, and several doubts could be starters. Searches tried: Sports Mole preview (fetched), a French search for compo probable and absents (Scores24, RueDesJoueurs, Africafoot, MediaPronos listed), an English prediction search, and the ESPN scoreboard and team-schedule APIs. I did not fetch L'Équipe, La Dépêche or DNA, so there is no club or press-conference confirmation. Market check: DraftKings via ESPN is Toulouse +110, draw +270, Strasbourg +235 (opened +100/+285/+225), which de-vigs to about 45.5/25.8/28.6 and matches the Polymarket p_market, so there is no unexplained price move.",
+      "main_risk": "Draw or Strasbourg upset with an unsettled Toulouse XI (Donnum suspended, Messali and Francis doubtful, sources disagree on the lineup). Toulouse has failed to score in its last two league games (2-0 loss at Marseille last time) and is only 12th with 10 points, level with Strasbourg.",
+      "sources": [
+        "https://sportsmole.co.uk/football/toulouse/preview/toulouse-vs-strasbourg-prediction-team-news-lineups_608343.html",
+        "https://scores24.live/fr/soccer/m-07-11-2026-toulouse-strasbourg-alsace-prediction",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261106"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1246366",
+      "exclude": true,
+      "reason": "Manager-change and goalkeeper-doubt rules. Sports Mole (Willem II v PEC Zwolle preview) says Jurgen Streppel has just been appointed Willem II head coach. Willem II are 18th of 18 with 2 points after 11 games and have not won in the league. PEC Zwolle sacked Henry van der Vegt on 13 Oct 2026 (fcupdate.nl) and are led by caretaker Dennis van der Ree while they search for a permanent coach. Lineup sources disagree. Sports Mole predicts Delanghe in goal for Willem II, while a Dutch preview roundup lists Thomas Didillon-Hodl, so the starting goalkeeper is unclear. Sources also disagree on Zwolle's Sherel Floranus: Sports Mole says he misses a fourth straight match, while another preview includes him in the expected XI. Confirmed absences: Hoogma and Lachkar for Willem II; Krastev for Zwolle, with Rahajaan not in the matchday squad. Fixture verified via ESPN (Fri 6 Nov, 19:00 UTC, Koning Willem II Stadion). Polymarket moved only about 1% in 24h (no flag). DraftKings drifted away from Willem II (home +165 to +195, away +130 to +120, draw +270 to +280), a small move. I did not reach a second named lineup source or the Zwolle or Willem II club sites. I did not establish either side's next fixture, so rotation is unverified.",
+      "main_risk": "Both sides are in managerial turmoil with a new Willem II coach and a Zwolle caretaker, so lineups and tactics are unpredictable. Zwolle's away form is shaky: they lost 0-7 to Feyenoord and 0-3 at Groningen, and drew 1-1 at Utrecht. A draw at about 25% is a live outcome.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/willem-ii/preview/willem-ii-vs-pec-zwolle-prediction-team-news-lineups_608418.html",
+        "https://www.fcupdate.nl/voetbalnieuws/2026/10/pec-zwolle-ontslaat-henry-van-der-vegt",
+        "https://starting11.com/fixtures/willem-ii-vs-pec-zwolle-20261106"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1247148",
+      "exclude": true,
+      "reason": "Rule: critical info unknown after real attempts. Fixture is verified (ESPN por.1: Arouca at FC Famalicao, Fri 6 Nov 2026 20:45 UTC, Estadio Municipal 22 de Junho). But no current team news, injury list or predicted XI for either side could be found: an English WebSearch (Sports Mole, Starting11 only return old-season previews or an empty template), a Portuguese WebSearch (A Bola/Record/O Jogo/zerozero style query returned only past-season pages), a WebFetch of the Sports Mole GW11 preview (it was the 9 Nov 2024 match, not this one) and the ESPN scoreboard (no news) all failed, so starting goalkeepers and key starters cannot be verified. Additionally, the DraftKings line on ESPN shows Famalicao moneyline moving from -105 open to +125 close (roughly 51% to 44% implied) with no explanatory news found, and Arouca arrive in strong form (ESPN record 6-2-2, form WWWWD) against Famalicao 2-4-4 (DWLLW), pointing to a draw/upset risk the market price may not fully reflect.",
+      "main_risk": "Unverified starters/goalkeeper plus an unexplained drift against the home side; Famalicao double chance or DNB could fail on a draw or an Arouca win, with Arouca in good form.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261106",
+        "https://starting11.com/fixtures/famalicao-vs-arouca",
+        "https://www.sportsmole.co.uk/football/famalicao/preview/famalicao-vs-arouca-prediction-team-news-lineups_557620.html"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1243079",
+      "exclude": true,
+      "reason": "Manager-change rule: Udinese sacked Kosta Runjaic on 2 Nov 2026 (after a 5-2 home loss to Roma, seven defeats in eight league games) and appointed Paolo Zanetti the same day, 4 days before this game, so it is inside the 14-day window. Zanetti's first match in charge is this one, and he is a former Venezia coach. Venezia also changed coach recently (Stroppa replaced by Davide Nicola, whose first game was a 1-0 win over Napoli). Sports Mole's team news shows more doubts: Udinese's Bayo is a doubt and Solet only just recovered from a calf problem; Venezia's Correia has a thigh strain and the Yeboah-Adams partnership is uncertain. Venezia are bottom with 3 points and Udinese sit 2 points above, so both sides are in a relegation fight. DraftKings closing moneyline: Venezia +120, draw +235, Udinese +200. Stake and Rainbet prices were not checked. The Polymarket 24h price move was not checked because an exclusion rule had already applied.",
+      "main_risk": "A new-manager effect for Udinese that the market cannot price, plus two low-scoring sides with poor form (Venezia lost 3 straight without scoring, Udinese lost 7 of 8), which makes a draw or an upset likely.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/news/venezia-vs-udinese-prediction-team-news-lineups_608391.html",
+        "https://www.fantacalcio.it/news/calcio-italia/02_11_2026/ufficiale-udinese-c-e-l-annuncio-arriva-paolo-zanetti-500156",
+        "https://www.agi.it/sport/news/2026-11-02/udinese-esonera-runjaic-zanetti-pole-39836670/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1244078",
+      "exclude": true,
+      "reason": "Rule: team news unclear for likely starters, and not resolved after real attempts. The fixture itself is verified: ESPN ger.1 lists Gladbach at Hamburg, Volksparkstadion, 2026-11-06 19:30Z. The Sports Mole preview (published 4 Nov 2026, updated 5 Nov) lists Hamburg centre-backs Sebastiaan Bornauw (jaw) and Nicolas Capaldo (muscle) as injury concerns and says striker Yussuf Poulsen's hip is likely to keep him out. It gives no explicit doubtful or out status for Bornauw or Capaldo. Its predicted Hamburg XI (Fernandes; Omari, Nandja, Torunarigha; El Ouahdi, Adeline, Lokonga, Muheim, Wolfe; Moffi, Gronbaek) contains neither of them, but the Hamburg back line is still reshuffled. Gladbach are without Bolin, Honorat and Kleindienst; their predicted XI has Batz in goal. I tried two WebSearches, fetches of hsv.de/en/news and the Sports Mole Hamburg previews page, and a targeted search restricted to Sports Mole, SportsGambler, FotMob, Kicker and Ligainsider. I found no Thursday press-conference report and no second lineup source for 6 Nov (the FotMob and SportsGambler results were for earlier matches). Hamburg's Bundesliga form is L W W W L L and Gladbach's is L L L L W D, with Gladbach's 22 goals conceded in 8 games the worst defence in the league. This leaves Hamburg's central defence unconfirmed and only one lineup source.",
+      "main_risk": "Hamburg's back line is unsettled (Bornauw and Capaldo injured, status unconfirmed), only one lineup source was found, and Gladbach's defence is the league's weakest at 22 conceded in 8 games, so the match could swing either way. Draw is priced at about 27%.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/hamburger-sv/preview/hamburger-sv-vs-borussia-mbach-prediction-team-news-lineups_608398.html",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261106"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1247650",
+      "exclude": true,
+      "reason": "Rule: critical team news and lineups unknown or conflicting after real attempts. I ran three WebSearch queries in Portuguese, pulled the ESPN bra.1 scoreboard for 20261106 and 20261107, and pulled both clubs' ESPN schedules. The fixture is verified: ESPN lists Fluminense at Vitória, Scheduled, 2026-11-06 23:00Z. No official club or ge.globo preview from this week came up, and most results were 2024-2026 match previews from earlier meetings. The one current-looking summary (34th round, Fri 6 Nov, Barradão) gave conflicting information. Fluminense: Ignácio suspended, Millán out, Martinelli out, but sources disagree on whether his problem is an ankle sprain or an injury with a chance of returning before season end. Their centre-back partner for Thiago Silva is also disputed (Freytes versus Igor Rabello, with Jammes as an option), and Lucho Acosta versus Ganso is open. Vitória: Brítez suspended, with several injuries (Fabiano, Nathan Mendes, Ramon, Dudu). The same summary says Vitória are under an interim coach, Cléber dos Santos, after Jair Ventura was dismissed, but I could not confirm the date, so it may fall inside the 14-day window. That summary also looks partly mixed with older articles, so I could not treat it as reliable. Likely starters on both sides are doubtful or reported differently by different sources, and the Fluminense defence is changed by a suspension. ESPN's schedules show Fluminense's last league games as a 2-1 win over Internacional on 28 Oct (home), a 2-1 loss at Chapecoense on 24 Oct and a 2-1 loss to Santos on 18 Oct. Vitória lost 2-0 at Coritiba on 31 Oct and drew 1-1 with Athletico-PR on 24 Oct and 1-1 with Corinthians on 19 Oct. I did not confirm Fluminense's next fixture or any cup or Libertadores involvement, so rotation is unverified. Vitória are in a relegation fight against a Fluminense side reported to be chasing a Libertadores place, which also makes motivation uneven.",
+      "main_risk": "Draw or Vitória upset at the Barradão: Vitória are unbeaten in their last three league games before the Coritiba loss and are fighting relegation, while Fluminense are missing a suspended centre-back and other players, with an unverified lineup and an unconfirmed coaching change at Vitória.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard?dates=20261106",
+        "https://bahia.ba/esporte/vitoria-x-fluminense-onde-assistir-provaveis-escalacoes-e-arbitragem-2/",
+        "https://www.lance.com.br/onde-assistir/vitoria-x-fluminense-onde-assistir-ao-vivo-horario-e-escalacoes-pelo-brasileirao.html"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1246808",
+      "exclude": true,
+      "reason": "Excluded under the 'unknown after real attempts' rule: lineups cannot be confirmed from two agreeing sources. Tried 6 WebSearches in English and Turkish, the ESPN scoreboard, summary and team schedule APIs, the Polymarket gamma API, and fetches of Ajansspor, Mynet, NTV Spor, FotMob and Sports Mole. Only one current predicted XI exists (Ajansspor, 6 Nov 2026): Gaziantep Ataberk (GK), Perez, Abena, Sylla, Kerim, Bacuna, Camara, Maxim, Kozlowski, Stewart, with Bacuna listed twice so the list is unreliable. Kasımpaşa Gianniotis (GK), Winck, Arous, Ilie, Jessen, Kerem, Mendes, Hajradinovic, Rak-Sakyi, Ali Yavuz, Benedyczak. Mynet gives no XI and the Sports Mole preview page was not retrievable. The fixture is verified: Süper Lig week 11, Gaziantep Stadium, 20:00 local (17:00 UTC), per ESPN, Ajansspor and Mynet. Gaziantep have a heavy injury list. Ajansspor lists Tobiasz (first-choice GK), Serdar, Meleke, Arda, Hansen, Ogün, Fuat and Sangare as injured. Mynet lists only Sangare, Fuat and Tobiasz as out, with Arda, Meleke, Hansen, Ogün and Serdar doubtful. Kasımpaşa miss Kamil Ahmet, Frimpong, Diabate, Mouanga and Baldursson, with Karapo and Ben Ouanes doubtful per Mynet. The two injury lists conflict. Ajansspor says Kozlowski (Gaziantep) and Winck, Mendes, Kerem and Ali Yavuz (Kasımpaşa) are on three yellow cards, but its card tallies are inconsistent and it is unclear whether any is suspended. I could not confirm either manager or whether there has been a change in the last 14 days; no source named the current coaches. Rotation: nothing indicates it. Gaziantep's next games are Gençlerbirliği away on 21 Nov and Amed home on 28 Nov. Kasımpaşa's next games are Alanyaspor home on 22 Nov and Rizespor away on 27 Nov. Neither is a derby. Polymarket 24h move is small, with home at -0.01 and away at +0.005, so that rule does not apply. Market context: Polymarket 36.5/28.5/35.5. DraftKings via ESPN: home +155, draw +240, away +170, which de-vigs to about 37/28/35. Mynet shows 2.22/3.04/2.46. Form: Gaziantep are 16th (2W 2D 6L, 8 pts) after a 0-2 loss at Trabzonspor on 1 Nov. Kasımpaşa are 5th (4W 5D 1L, 17 pts) after a 2-2 draw with Beşiktaş on 1 Nov. With about 28% draw risk, no confirmed XIs and the conflicting injury lists, neither double-chance leg has an edge I can verify.",
+      "main_risk": "Draw at 28% plus unverified lineups: a Gaziantep side with up to 8 absentees and first-choice GK Tobiasz out, against a mid-table Kasımpaşa with 5 draws in 10 games.",
+      "sources": [
+        "https://ajansspor.com/haber/gaziantep-fk-kasimpasa-maci-ne-zaman-hangi-kanalda-muhtemel-11ler-sakat-ve-cezalilar-738042",
+        "https://www.mynet.com/gaziantep-fk-kasimpasa-2026-11-06-maci-oncesi-analiz-526015-myspor",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/scoreboard?dates=20261106"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1290053",
+      "exclude": true,
+      "reason": "Rule: fixture not verifiable / not being played today. The Saudi Pro League postponed all Matchday 13 fixtures (announced Tue 3 Nov 2026, after the AFC moved the 2027 Asian Cup to December 2027), and no new date has been set. ESPN ksa.1 scoreboard for 20261106 lists 'Neom SC at Al Ittihad' with status Postponed (scheduled 20:00Z). The same fixture shows as postponed on 20261105 and 20261107 lists for other Matchday 13 games, and no rescheduled Al Ittihad v NEOM game appears on those dates. Gamma-api event 1290053 is still active and not closed, with endDate 2026-11-06T17:30Z. Its outcomePrices are: Al Ittihad win Yes 0.008, draw Yes 0.9895, NEOM win Yes 0.0115 (NEOM win No 0.9885). The 0.99 'draw' price is the market pricing in a postponed match (refund or draw-like resolution), not a real draw probability. The candidates file's NEOM draw-no-bet leg at 1.46 is therefore an artifact and not a bettable edge.",
+      "main_risk": "Match will not be played on 2026-11-06; any bet would be on an unresolved, postponed fixture with a broken market.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ksa.1/scoreboard?dates=20261106",
+        "https://propakistani.pk/2026/11/04/saudi-pro-league-postpones-all-matchday-13-fixtures/",
+        "https://thesauditimes.net/en/no-league-games-for-al-hilal-al-nassr-and-al-ittihad-this-week-what-the-matchweek-13-delay-means/"
+      ],
+      "prices": []
+    }
+  ]
+}
