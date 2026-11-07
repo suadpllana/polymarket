@@ -1,0 +1,150 @@
+{
+  "date": "2026-11-07",
+  "researched_at": "2026-11-07T06:56:50Z",
+  "summary": "No bet. All 12 candidates were researched (three batches, none skipped) and all 12 are excluded, so no two-game slip exists. Manager changes within 14 days: Mainz–Bayern (Kompany ill, assistant Danks interim; Musiala, Díaz, Gnabry and Saibari out) and Sporting–Moreirense (Rui Borges sacked on 2 Nov, interim in charge). Rotation talk after midweek Champions League games: Valencia–Real Madrid (Mourinho said Konaté and Huijsen start to spread minutes after Athens) and Galatasaray–Amed (Buruk rotating; Osimhen's status reported both ways; Bardakci suspended). Starter doubts or conflicting lineups: Dortmund–Elversberg (Guirassy doubt, one lineup source), Auxerre–Paris FC (top scorer Sinayoko doubtful; DraftKings agreed with the thin Polymarket market), Torino–Lecce (Mandragora doubtful, one lineup source), Forest–Man City (sources disagree on Igor Jesus and O'Reilly; City played Leipzig midweek), Stuttgart–Bremen (Stiller out, Karazor doubtful, keeper change; DraftKings moved from -245 to -125 against Stuttgart), Leipzig–Augsburg (Nusa and Finkgrafe doubts, predicted XIs differ) and Roma–Sassuolo (Gasperini skipped the press conference, Rensch out, thin squad after a Champions League game). Derby: Parma–Bologna (the \"derby dell'Emilia-Romagna\"). Stake and Rainbet prices were not found; the only bookmaker prices seen were DraftKings via ESPN.",
+  "games": [
+    {
+      "id": "1253796",
+      "exclude": true,
+      "reason": "Manager change rule: ESPN reported on 2026-11-02 that Sporting sacked head coach Rui Borges, with Tiago Fernandes in temporary control for the Champions League match at Shakhtar Donetsk on 2026-11-03, and that Sporting agreed a buyout with Lyon for Fonseca as the replacement. That is within the last 14 days. The interim or new coach's first league game is this one, so the lineup and rotation are unknown. I also found no preview, team news or predicted XI for this match. Two web searches only returned older seasons, and the ESPN team news feed had nothing on the match. ESPN confirms the fixture: Sporting CP v Moreirense, Primeira Liga, Estadio Jose Alvalade, 2026-11-07 20:30 UTC. Sporting's schedule: won 2-0 at Casa Pia on 30 Oct, lost 1-2 at home to Academico de Viseu on 25 Oct, played Shakhtar away in the Champions League on 3 Nov (a search snippet reported a 1-0 win, which I did not verify). DraftKings (ESPN) closing odds: Sporting -700, draw +750, Moreirense +1500, Sporting -2.5 handicap at +115. Moreirense have won their last two league games (3-1 at Estoril, 2-1 v Estrela).",
+      "main_risk": "Coaching change right before the game (interim Tiago Fernandes or the incoming Fonseca) after a midweek Champions League trip, with an unknown XI and likely rotation; Sporting also lost 1-2 at home to Academico de Viseu on 25 Oct.",
+      "sources": [
+        "https://www.espn.com/soccer/story/_/id/50359218/sporting-lisbon-sack-borges-ucl-match-shakhtar-donetsk",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261107",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/2250/schedule"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1250955",
+      "exclude": true,
+      "reason": "Rotation rule. Real Madrid played away at AEK Athens on Wed 4 Nov (won 3-2, Valverde 92nd-minute winner) and are at Mestalla only three days later. In his Friday 6 Nov press conference Mourinho (Madrid's coach this season) said the squad got back from Athens around 3am and did recovery sessions. He called Valencia 'uno de los más difíciles de la Liga' and said he would not dramatise it. He also said Konaté and Huijsen will start against Valencia to spread minutes, even though Militao and Rüdiger played well against AEK (Infobae/EFE, 6 Nov). The manager has therefore talked openly about managing minutes after a European away trip, which the rules treat as an exclusion. Full XIs and full injury lists were not confirmed in sources I could read. Comuniate lists Madrid as missing Mendy, Asencio (tibia) and Rodrygo, and Valencia as missing Diego López, Canós and Otorbi. Its page also says Vinícius is suspended through matchday 12. That page is internally inconsistent: it names Mourinho yet shows a Vinícius ban and a 21:00 kickoff, so I did not rely on it. Checked and not exclusion grounds: Valencia's coach Javier Aguirre was announced on 23 Sep (Corberán sacked 13 Sep), more than 14 days ago. Valencia are second-to-last, so they have motivation. Fixture verified on ESPN: Real Madrid at Valencia, Mestalla, 2026-11-07 20:00Z. Rivalry: no source I found describes Valencia–Madrid as a fierce rivalry, so I judge it not a derby. Press coverage frames it as a hard away trip and shows no hostility angle. The sports-site previews that came up were from earlier seasons or the Feb 2026 meeting, so I could not get two current predicted XIs. Mourinho's Friday comments are the decisive source.",
+      "main_risk": "Fatigue and rotation three days after the Athens trip, with two defenders rested by design, against a relegation-threatened Valencia under Aguirre, who has had a full week to prepare. Madrid are only 13.7% to draw by the market, but a rotated side drawing or losing at Mestalla would kill the straight-win leg.",
+      "sources": [
+        "https://www.infobae.com/america/agencias/2026/11/06/mourinho-afirma-partido-ante-el-valencia-de-aguirre-uno-de-los-mas-dificiles-de-la-liga/",
+        "https://www.ksat.com/news/2026/11/04/champions-league-real-madrid-and-liverpool-defending-perfect-records/",
+        "https://emisorasunidas.com/deportes/2026/09/23/el-mexicano-javier-aguirre-es-nuevo-tecnico-del-valencia/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1250183",
+      "exclude": true,
+      "reason": "Manager change rule. Sport1 (6 Nov 2026, 10:56) reports Kompany is ill with viral meningitis (Hirnhautreizung), has no return date and will miss Mainz. Assistant Aaron Danks is the interim head coach in Mainz, so Bayern are on an unplanned bench change inside the 14-day window. Bayern are also without Musiala, Diaz, Gnabry and Saibari. Davies may be rested, and Pavlovic is available but his legs are still being monitored. Bayern played Atletico Madrid in the Champions League this week and won 2-0 (reported by fussballnationalmannschaft.net via search snippet; I could not open the page, 403). I found no Kompany press conference, only Danks's briefing. Recent league form is draw-heavy: 2-2 at Augsburg (10 Oct) and 2-2 at home to Dortmund (31 Oct), both per the ESPN schedule API; Bayern won 6-1 v Leipzig and 3-1 at Freiburg in between. Mainz are 1-4 at Elversberg (30 Oct), 2-3 v Bremen and 3-4 v Leverkusen, so they concede goals but also score. I found no sign that Mainz played in Europe on 5 Nov; I did not check this directly. The ESPN schedule for Mainz lists only Bundesliga games. DraftKings via ESPN for Bayern at Mainz closed at Bayern -350 (opened -285), draw +500 (opened +425), Mainz +650 (opened +475). That is a move towards Bayern, so no adverse price move. Even so, an interim coach plus four attackers out, a possible rotated side after the CL game and recent 2-2 draws make this the kind of favourite leg that has lost for this slip.",
+      "main_risk": "Draw or upset: interim coach Danks, Musiala/Diaz/Gnabry/Saibari out, possible rotation after the Champions League win over Atletico Madrid, and two 2-2 draws in Bayern's last four league games.",
+      "sources": [
+        "https://www.sport1.de/news/fussball/bundesliga/2026/11/fc-bayern-kompany-rueckkehr-weiter-offen",
+        "https://www.fussballnationalmannschaft.net/aufstellung-mainz-bayern-bundesliga-123327736.html",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261107"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1249133",
+      "exclude": true,
+      "reason": "Rule: critical team news unknown and Roma squad/rotation risk. Gasperini skipped the Friday 6 Nov pre-match press conference (RomaForever, VoceGiallorossa, Calciobox), so there is no official team news. A Roma-side report says Rensch has a first-degree long adductor tear (RomaForever headline: about 20 days out). A RomaForever headline also says only sixteen players are available for Sassuolo; I saw only that headline, not the article. Calciobox links the silence to Roma's heavy Champions League defeat to Manchester United in midweek (I did not confirm the exact date or score). A Champions League game earlier in the week plus a thin squad makes rotation and absences likely and unverifiable. I ran 5 searches, fetched RomaForever and checked the ESPN scoreboard. The fixture is verified: Sassuolo at AS Roma, Olimpico, 2026-11-07 19:45 UTC. Searches found no usable predicted XIs from 2 sources, and I could not read the club's own pages. ESPN/DraftKings close: Roma -360, draw +475, Sassuolo +700. I did not check the Polymarket price history.",
+      "main_risk": "Draw or upset against a Roma side with injuries, a thin squad and Champions League fatigue, and no Gasperini press-conference news. Sassuolo's coach Aquilani did speak on Friday.",
+      "sources": [
+        "https://www.romaforever.it/2026/11/05/verso-roma-sassuolo-niente-conferenza-stampa-per-gasperini/",
+        "https://www.calciobox.it/roma-niente-conferenza-per-gasperini-prima-del-sassuolo/",
+        "https://www.vocegiallorossa.it/altre-notizie/roma-sassuolo-gasperini-non-parlera-conferenza-stampa-vigilia-match-286504"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1250235",
+      "exclude": true,
+      "reason": "Rule: a likely starter is doubtful and the sources do not confirm lineups. Sports Mole's preview (read today) lists Serhou Guirassy as a slight doubt for Dortmund, with Silva possibly starting up front instead. It also lists Emre Can, Justin Lerma and Giannis Konstantelias as out. Dortmund played Real Betis in the Champions League on Wednesday 4 Nov and won 2-1, with goals from Silva and Karetsas. That makes a post-European-night rotation risk three days before this game. The Sports Mole predicted XI (Kobel; Gadou, Anton, Schlotterbeck; Ryerson, Bellingham, Nmecha, Svensson; Beier, Chukwuemeka; Silva) has no Guirassy in it. I found no second lineup source and no Friday press conference report on Guirassy's fitness or the number of changes. Attempts: two English and two German web searches, a Sports Mole fetch, and a bvb.de news-page fetch that returned only site navigation. Odds seen: DraftKings via ESPN closed Dortmund -300, draw +425, Elversberg +600. Dortmund's opening price was -390, so it drifted from -390 to -300 before kickoff, and I found no news explaining it. Venue is Signal Iduna Park, normal. Rivalry: none found.",
+      "main_risk": "Guirassy's fitness is unconfirmed, and no source says how many changes Dortmund will make after the Champions League game against Betis. A rotated, striker-light Dortmund against a deep-sitting Elversberg could end level, with a draw price of about 15.7%.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/borussia-dortmund/bundesliga-title-race/preview/dortmund-vs-elversberg-prediction-team-news-lineups_608500.html",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261107"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1246824",
+      "exclude": true,
+      "reason": "Rule: a likely starter is doubtful or reported differently by different sources, and the manager has talked about rotating. Galatasaray played Stuttgart in the Champions League on Tue 3 Nov (2-0 home win, Dailysabah), so this is 4 days later. Osimhen was reported injured (left knee) against Stuttgart, and an NTV Spor headline and the search summary say he will miss the Amed game, with arthroscopic surgery planned. ASpor (5 Nov, the page fetched) instead expects him to start in attack with Akgun and Leao, so sources contradict on the key forward. Bardakci is suspended. ASpor says Okan Buruk plans to rest Lemina and Baris Alper Yilmaz (3 changes). Fotospor says only 1-2 changes (Leao for Baris Alper, Singo for Sanchez). Mucadele Gazetesi says Akgun and Baris Alper may rest. Gzt headlines 'Okan Buruk rotasyona gidiyor'. The predicted XIs disagree and the rotation extent is unsettled. Sanchez, Leao and Sallai each had a yellow-card warning, per beIN Sports. Fixture is verified: ESPN tur.1 lists Amed SFK at Galatasaray on 2026-11-07 16:00Z. A Starting11 page showing Sun 8 Nov is wrong. Not a derby, and no manager change was seen. I did not check Polymarket price movement or filled the other checks, because the game was excluded at the first rule.",
+      "main_risk": "Rotation after the Champions League game and an unclear Osimhen status (out per NTV Spor, starting per ASpor), plus a 17% draw chance against a team second or third in the table.",
+      "sources": [
+        "https://www.aspor.com.tr/galatasaray/2026/11/05/okan-buruktan-rotasyon-karari-amedspor-macinda",
+        "https://www.ntv.com.tr/sporskor/galeri-osimhensiz-galatasaray-amed-karsisinda-1749763",
+        "https://www.dailysabah.com/sports/football/galatasaray-beat-stuttgart-2-0-in-champions-league"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1250212",
+      "exclude": true,
+      "reason": "Rule: a likely starter is doubtful and sources list different XIs. Leipzig's Antonio Nusa is a doubt after being substituted as a precaution against Man City on 4 Nov (Demichelis said he was 'close to getting injured'). Left-back Max Finkgrafe is a doubt with a thigh issue. Marc Guiu (hamstring) and Assan Ouedraogo (shoulder) are out. Sports Mole's predicted XI (Vandevoordt; Henrichs, Orban, Lukeba, Raum; El Aynaoui, Reitz; Gomis, Nkunku, Nusa; Romulo) differs from another preview's (Baku at right-back, Banzuzi in midfield, Gruda in attack), so the lineups are not settled. Leipzig also played Man City at home on Wed 4 Nov (lost 2-3) and have the fixture-congestion risk that follows. Verified: ESPN lists FC Augsburg at RB Leipzig, 14:30 UTC, Red Bull Arena, DraftKings Leipzig -240 / draw +400 / Augsburg +450. Augsburg are missing Banks (knee), Brackelmann (concussion) and Juma Bah (suspended) and are winless in 6 league games. I did not check the Polymarket price history or Ligainsider/Kicker/club pages after the gate failed, because the first exclusion rule had already applied.",
+      "main_risk": "Nusa and Finkgrafe are late fitness calls, and Leipzig's midweek Champions League game may bring changes, so a settled XI is not guaranteed. Augsburg also have draw potential, with a 1-1 at Union and 2-2 against Bayern in their last six league games.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/rb-leipzig/preview/rb-leipzig-vs-augsburg-prediction-team-news-lineups_608521.html",
+        "https://www.squawka.com/en/news/previews/rb-leipzig-vs-augsburg-predictions-saturday-07-11-2026/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261107"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1250165",
+      "exclude": true,
+      "reason": "Rule: a likely starter is doubtful on both sides. Sports Mole's preview (searched, then fetched) lists Paris FC's Lassine Sinayoko, Ligue 1's leading scorer with 8 goals and 5 assists, as doubtful, plus Adama Camara (hamstring), Luca Koleosho (muscle), Jonathan Ikone (thigh) and Nhoa Sangui (muscle) as other doubts. Auxerre have Sekou Fofana 'touch-and-go' (groin) and Lamfia Dioubate suspended after a red card at Strasbourg. Bryan Okoh, Remy Labeau Lascary and Assane Diousse are injured. The Sports Mole predicted XI is one source only, and the club-side confirmations I looked for were not found. Two searches (English and French) turned up nothing newer. Odds check: ESPN/DraftKings closing moneyline is Auxerre +360, draw +310, Paris FC -140. De-vigged, that is home 0.208, draw 0.234, away 0.558. The market is 0.197/0.237/0.567, so DraftKings is within 1.5 points on every outcome and I do not treat the thin Polymarket price as unreliable. DraftKings' away line did move from -110 at open to -140 at close, and I found no news explaining it. The draw risk is also real: Sports Mole tips a 1-1 draw, and the last meeting (Feb 2026) ended 0-0.",
+      "main_risk": "Sinayoko, Paris FC's leading scorer, is a doubt. Away form is poor (two straight away defeats), and Auxerre have conceded only 5 goals in 4 home games, so a draw is the most likely way the Paris FC leg fails.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/aj-auxerre/preview/auxerre-vs-paris-fc-prediction-team-news-lineups_608408.html",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261107",
+        "https://footballwhispers.com/blog/auxerre-vs-paris-fc-prediction-07-11-2026/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1250242",
+      "exclude": true,
+      "reason": "Rule: a likely starter is doubtful or reported differently by different sources, plus rotation after Wednesday's Champions League game. Fixture verified: Nottingham Forest v Man City, City Ground, Sat 7 Nov 2026, 17:30 UTC, Premier League GW10 (ESPN scoreboard lists NFO v MNC with DraftKings Man City -135, draw +300, Forest +350). Sports Mole team news (published for this game) lists Forest Savona (knee) and Dominguez (muscle) out, Igor Jesus (calf) doubtful, and City's Nico O'Reilly (back/knee) doubtful, with Semenyo (knee) out. Football365's preview for the same game says Igor Jesus is back in the matchday squad after four games out, Savona is back in training, and City have a clean bill of health apart from Semenyo, so the two sources disagree on both doubts. Rotation: City played Leipzig in the Champions League on Wed 4 Nov (won 3-2) after a 1-0 Premier League home loss to Brighton on 31 Oct (ESPN schedule). Football365 expects Dias and Gvardiol, who sat on the bench midweek, to return, and Guehi and O'Reilly to drop to the bench. The Sports Mole predicted XIs differ from Football365's expected changes (Sports Mole has Nunes at left-back, Khusanov at centre-back and Anderson in midfield). Forest lost 0-2 at Brentford on 31 Oct and have no Europa League game this week per the ESPN schedule. City's manager this season is Maresca; no text of his Friday press conference was found in search results. I tried 5 searches, Sports Mole, Football365 and the ESPN API. I did not reach mancity.com, nottinghamforest.co.uk, BBC Sport or the Polymarket price history, so the 24-hour price move is unchecked.",
+      "main_risk": "Draw or upset: Forest have 6 points and are 19th, but City lost to Brighton and have been inconsistent away from home (lost 1-2 at Aston Villa on 24 Oct). Starter doubts on both sides are unresolved and the sources disagree.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/nottingham-forest/injury-news/team-news/nottm-forest-vs-man-city-injury-suspension-list-predicted-xis_608423.html",
+        "https://www.football365.com/match-preview/nottingham-forest-v-man-city-prediction-preview",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261107"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1249128",
+      "exclude": true,
+      "reason": "Rule: derby or fierce rivalry. Italian media label Parma v Bologna the 'derby dell'Emilia-Romagna'. Blitzquotidiano ran 'parma bologna formazioni derby emilia romagna', Fantacalcio's 31 Oct 2025 piece was titled 'Bologna, testa al derby col Parma', and Il Sussidiario called the Dec 2025 Coppa Italia tie 'il derby'. The October lessons say to exclude derbies, and the draw is already priced at 26%, which rules out a straight win. Second blocker: I could not verify current team news, predicted XIs, or whether Bologna played in Europe on Thu 5 Nov 2026. Three searches (English Sports Mole-style preview, Italian probabili formazioni/conferenza stampa, Bologna Europa League 5 Nov) returned only past-season pages, and the ESPN team-schedule endpoints returned no JSON. The ESPN scoreboard did confirm the fixture: Bologna at Parma, Ennio Tardini, 2026-11-07 17:00 UTC, DraftKings draw +260, over/under 2.5 at +100.",
+      "main_risk": "Regional derby with high draw risk (market 26%) and unverified injuries, lineups and Bologna midweek European rotation.",
+      "sources": [
+        "https://www.fantacalcio.it/news/calcio-italia/31_10_2025/bologna-testa-al-derby-col-parma-le-possibili-scelte-di-formazione-484305",
+        "https://archivio.blitzquotidiano.it/sport/parma-bologna-formazioni-derby-emilia-romagna-serie-a-cassano-titolare-1732166",
+        "https://www.ilsussidiario.net/?p=2910298"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1249123",
+      "exclude": true,
+      "reason": "Exclusion rule: starter doubtful and lineups not confirmed by a second source. Fantacalcio's page (updated 6 Nov 16:40) lists Torino midfielder Mandragora as 'in dubbio' with a left thigh flexor muscle problem, 'da valutare convocazione contro il Lecce'. Torino are also without Fortini (adductor, back second half of November) and R. Rodriguez (thigh tendon tear, back mid-November). Fantacalcio's predicted Torino XI (3-5-2: Perri; Coco, Ismajli, Comuzzo; Belghali, Vlasic, Fitz-Jim, Braganca, Cacciamani; Adams C., Simeone) leaves Mandragora out and shows open choices (Braganca or Ilkhan, Cacciamani or Aboukhlal). Lecce are missing Berisha, Monteiro, Pierotti and Ilic, with Siebert or Gaspar K. open at centre-back. I tried two searches (Sports Mole and Italian lineup queries) and Baroni press-conference queries, but they returned only older seasons, so I found no second current lineup source and no Baroni press-conference quote on Mandragora. Fantacalcio gives kickoff as 15:00 local, which matches the 14:00 UTC fixture. ESPN confirms Stadio Olimpico Grande Torino, with DraftKings Torino -130, draw +255, Lecce +320. Torino's recent form is poor: lost 0-2 at Frosinone on 1 Nov and 1-3 at home to Como on 27 Oct, after wins over Monza and Parma. Lecce lost 1-2 to Genoa at home on 1 Nov and 1-5 at Frosinone on 29 Oct, so the draw at 26% is not the only risk. The first exclusion rule that applies is the doubtful starter plus an unverified XI. I did not check the Polymarket 24h move.",
+      "main_risk": "Draw or upset: Torino have lost two of their last three home and away league games in the past week, a doubtful Mandragora weakens the midfield, and the draw is priced at about 26%.",
+      "sources": [
+        "https://www.fantacalcio.it/probabili-formazioni-serie-a",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261107",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/teams/239/schedule"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1250253",
+      "exclude": true,
+      "reason": "Rule: likely starters doubtful / starting goalkeeper changing, plus an unexplained-looking price swing. Stuttgarter Zeitung (7 Nov 2026, 06:00): Stuttgart midfield pillar Angelo Stiller is out with adductor trouble until at least the international break (Starting11 also lists Vagnoman, Sauer, Zagadou, Tomas out, 7 absentees). Captain Atakan Karazor (thigh, MRI showed bleeding) is doubtful, having been subbed off in Istanbul. Grischa Promell was examined after the 0-2 loss at Galatasaray (3 Nov) and is only 'likely' to play. In goal, Dennis Seimen returns after Fabian Bredlow played in Istanbul, so the keeper is a rotation change and not a settled XI. No full predicted XI could be found from two sources (Ligainsider page and Stuttgarter Zeitung gallery gave none), so lineups cannot be verified. Bremen (Starting11) have 10 listed absentees (Stage, Stark, Agu, N'Diaye, Musah, Topp and others; Deman doubtful) but are in strong form (5th, 'Mannschaft der Stunde' per Sportschau). Market: ESPN/DraftKings Stuttgart moneyline moved from -245 open to -125 now, draw +390 to +300, Bremen +425 to +255 (a large move against the favourite); Polymarket now 0.525/0.225/0.245. Fixture verified (Bundesliga GW9, Sat 7 Nov, 18:30 CET = 17:30 UTC, MHP Arena). Tried: ESPN API, Polymarket gamma, Ligainsider, Starting11, Sports Mole (no 2026 preview indexed), Stuttgarter Zeitung, Sportschau, three searches.",
+      "main_risk": "Stuttgart weakened in midfield (Stiller out, Karazor doubtful, Promell uncertain) and in goal after a 0-2 CL loss, facing an in-form Bremen; draw or Bremen result likely, and the market has already shortened Bremen sharply.",
+      "sources": [
+        "https://www.stuttgarter-zeitung.de/sport/vfb-stuttgart-gegen-werder-bremen-so-will-sebastian-hoeness-spielen-lassen-79673920.html",
+        "https://starting11.com/fixtures/vfb-stuttgart-vs-werder-bremen",
+        "https://www.sportschau.de/regional/swr/swr-schluesselspiel-fuer-den-vfb-die-mannschaft-der-stunde-kommt-nach-stuttgart-100.html"
+      ],
+      "prices": []
+    }
+  ]
+}

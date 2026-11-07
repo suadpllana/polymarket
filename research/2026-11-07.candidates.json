@@ -1,0 +1,340 @@
+{
+  "date": "2026-11-07",
+  "window": {
+    "start": "2026-11-07T08:21:24.473Z",
+    "end": "2026-11-08T05:00:00.000Z"
+  },
+  "games_in_window": 36,
+  "games": [
+    {
+      "id": "1253796",
+      "league": "Primeira Liga",
+      "event": "Sporting CP vs. Moreirense FC",
+      "home": "Sporting CP",
+      "away": "Moreirense FC",
+      "start": "2026-11-07T20:30:00.000Z",
+      "p_market": {
+        "home": 0.8464,
+        "draw": 0.1073,
+        "away": 0.0464
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Sporting CP",
+          "fair_odds": 1.18
+        }
+      ]
+    },
+    {
+      "id": "1250955",
+      "league": "La Liga",
+      "event": "Valencia CF vs. Real Madrid CF",
+      "home": "Valencia CF",
+      "away": "Real Madrid CF",
+      "start": "2026-11-07T20:00:00.000Z",
+      "p_market": {
+        "home": 0.0765,
+        "draw": 0.1371,
+        "away": 0.7864
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Real Madrid CF",
+          "fair_odds": 1.27
+        }
+      ]
+    },
+    {
+      "id": "1250183",
+      "league": "Bundesliga",
+      "event": "1. FSV Mainz 05 vs. FC Bayern München",
+      "home": "1. FSV Mainz 05",
+      "away": "FC Bayern München",
+      "start": "2026-11-07T14:30:00.000Z",
+      "p_market": {
+        "home": 0.1033,
+        "draw": 0.1331,
+        "away": 0.7636
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "FC Bayern München",
+          "fair_odds": 1.31
+        }
+      ]
+    },
+    {
+      "id": "1249133",
+      "league": "Serie A",
+      "event": "AS Roma vs. US Sassuolo Calcio",
+      "home": "AS Roma",
+      "away": "US Sassuolo Calcio",
+      "start": "2026-11-07T19:45:00.000Z",
+      "p_market": {
+        "home": 0.7565,
+        "draw": 0.147,
+        "away": 0.0966
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "AS Roma",
+          "fair_odds": 1.32
+        }
+      ]
+    },
+    {
+      "id": "1250235",
+      "league": "Bundesliga",
+      "event": "BV Borussia 09 Dortmund vs. SV 07 Elversberg",
+      "home": "BV Borussia 09 Dortmund",
+      "away": "SV 07 Elversberg",
+      "start": "2026-11-07T14:30:00.000Z",
+      "p_market": {
+        "home": 0.7365,
+        "draw": 0.1569,
+        "away": 0.1066
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "BV Borussia 09 Dortmund",
+          "fair_odds": 1.36
+        }
+      ]
+    },
+    {
+      "id": "1246824",
+      "league": "Süper Lig",
+      "event": "Galatasaray SK vs. Amed Sportif",
+      "home": "Galatasaray SK",
+      "away": "Amed Sportif",
+      "start": "2026-11-07T16:00:00.000Z",
+      "p_market": {
+        "home": 0.6935,
+        "draw": 0.1732,
+        "away": 0.1334
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Galatasaray SK",
+          "fair_odds": 1.44
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Galatasaray SK",
+          "fair_odds": 1.19
+        }
+      ]
+    },
+    {
+      "id": "1250212",
+      "league": "Bundesliga",
+      "event": "RB Leipzig vs. FC Augsburg",
+      "home": "RB Leipzig",
+      "away": "FC Augsburg",
+      "start": "2026-11-07T14:30:00.000Z",
+      "p_market": {
+        "home": 0.6735,
+        "draw": 0.1732,
+        "away": 0.1533
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "RB Leipzig",
+          "fair_odds": 1.48
+        },
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "RB Leipzig or Draw",
+          "fair_odds": 1.18
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "RB Leipzig",
+          "fair_odds": 1.23
+        }
+      ]
+    },
+    {
+      "id": "1250165",
+      "league": "Ligue 1",
+      "event": "AJ Auxerre vs. Paris FC",
+      "home": "AJ Auxerre",
+      "away": "Paris FC",
+      "start": "2026-11-07T18:00:00.000Z",
+      "p_market": {
+        "home": 0.1966,
+        "draw": 0.2367,
+        "away": 0.5666
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Paris FC",
+          "fair_odds": 1.76
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Paris FC or Draw",
+          "fair_odds": 1.24
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "Paris FC",
+          "fair_odds": 1.35
+        }
+      ]
+    },
+    {
+      "id": "1250242",
+      "league": "Premier League",
+      "event": "Nottingham Forest FC vs. Manchester City FC",
+      "home": "Nottingham Forest FC",
+      "away": "Manchester City FC",
+      "start": "2026-11-07T17:30:00.000Z",
+      "p_market": {
+        "home": 0.1966,
+        "draw": 0.2367,
+        "away": 0.5666
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Manchester City FC",
+          "fair_odds": 1.76
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Manchester City FC or Draw",
+          "fair_odds": 1.24
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "Manchester City FC",
+          "fair_odds": 1.35
+        }
+      ]
+    },
+    {
+      "id": "1249128",
+      "league": "Serie A",
+      "event": "Parma Calcio 1913 vs. Bologna FC 1909",
+      "home": "Parma Calcio 1913",
+      "away": "Bologna FC 1909",
+      "start": "2026-11-07T17:00:00.000Z",
+      "p_market": {
+        "home": 0.1803,
+        "draw": 0.2597,
+        "away": 0.5601
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Bologna FC 1909",
+          "fair_odds": 1.79
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Bologna FC 1909 or Draw",
+          "fair_odds": 1.22
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "Bologna FC 1909",
+          "fair_odds": 1.32
+        }
+      ]
+    },
+    {
+      "id": "1249123",
+      "league": "Serie A",
+      "event": "Torino FC vs. US Lecce",
+      "home": "Torino FC",
+      "away": "US Lecce",
+      "start": "2026-11-07T14:00:00.000Z",
+      "p_market": {
+        "home": 0.5333,
+        "draw": 0.2633,
+        "away": 0.2034
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Torino FC",
+          "fair_odds": 1.88
+        },
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Torino FC or Draw",
+          "fair_odds": 1.26
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Torino FC",
+          "fair_odds": 1.38
+        }
+      ]
+    },
+    {
+      "id": "1250253",
+      "league": "Bundesliga",
+      "event": "VfB Stuttgart vs. SV Werder Bremen",
+      "home": "VfB Stuttgart",
+      "away": "SV Werder Bremen",
+      "start": "2026-11-07T17:30:00.000Z",
+      "p_market": {
+        "home": 0.5267,
+        "draw": 0.2266,
+        "away": 0.2467
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "VfB Stuttgart",
+          "fair_odds": 1.9
+        },
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "VfB Stuttgart or Draw",
+          "fair_odds": 1.33
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "VfB Stuttgart",
+          "fair_odds": 1.47
+        }
+      ]
+    }
+  ]
+}
