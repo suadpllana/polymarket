@@ -6,7 +6,7 @@
  */
 
 import { mkdir, writeFile } from 'node:fs/promises';
-import { gatherGames, inRange, legsFor, researchPool } from './lib/football.mjs';
+import { gatherGames, inRange, marketLegs, researchPool, round } from './lib/football.mjs';
 import { candidatesPath } from './lib/research.mjs';
 import { bettingWindow, localDate } from './lib/time.mjs';
 
@@ -27,9 +27,12 @@ const out = {
     away: g.away,
     start: g.start,
     p_market: g.p_market,
-    legs_in_range: legsFor(g, g.p_market)
+    // Result legs plus goals, both-teams-to-score, handicap and team-goals
+    // legs, each with its market probability, so the research can give a
+    // view on any of them.
+    legs_in_range: marketLegs(g)
       .filter(inRange)
-      .map((l) => ({ key: l.key, label: l.label, selection: l.selection, fair_odds: l.fair_odds })),
+      .map((l) => ({ key: l.key, label: l.label, selection: l.selection, p_market: round(l.p_win + l.p_void, 4), fair_odds: l.fair_odds })),
   })),
 };
 

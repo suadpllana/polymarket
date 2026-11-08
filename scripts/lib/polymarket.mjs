@@ -75,3 +75,9 @@ export async function fetchSeriesEvents(seriesId, endMin) {
 export async function fetchMarket(id) {
   return getJson(`${GAMMA}/markets/${encodeURIComponent(id)}`);
 }
+
+/** One event by slug, or null when there is none. */
+export async function fetchEventBySlug(slug) {
+  const data = await getJson(`${GAMMA}/events?slug=${encodeURIComponent(slug)}`);
+  return Array.isArray(data) && data.length ? data[0] : null;
+}

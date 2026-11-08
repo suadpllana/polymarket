@@ -13,9 +13,13 @@
 import { mkdir, writeFile } from 'node:fs/promises';
 import { SLIP, gatherGames, round } from './lib/football.mjs';
 import { fetchMarket, parseArray } from './lib/polymarket.mjs';
-import { bestSlip, describe, eligibleLegs } from './lib/pick.mjs';
+import { TIER_NOTE, describe, pickSlip } from './lib/pick.mjs';
 import { loadResearch } from './lib/research.mjs';
-import { TIMEZONE, bettingWindow, localDate } from './lib/time.mjs';
+import { TIMEZONE, bettingWindow, localDate, zonedParts } from './lib/time.mjs';
+
+// Until this hour the build waits for the morning research; after it, the
+// day gets a market-priced slip rather than none.
+const RESEARCH_DEADLINE_HOUR = 12;
 
 const OUT = new URL('../public/history.json', import.meta.url);
 const DRY = process.argv.includes('--dry');
@@ -37,11 +41,15 @@ async function loadHistory(siteUrl) {
 }
 
 function settleLeg(leg, resolved) {
-  const yes = (id) => {
+  // A ref is a market id (its "Yes" outcome) or "id#index" for a named outcome
+  // such as Over/Under or a handicap side.
+  const yes = (ref) => {
+    const [id, idx = '0'] = String(ref).split('#');
     const prices = resolved.get(id);
     if (!prices) return null;
-    if (prices[0] >= 0.98) return true;
-    if (prices[0] <= 0.02) return false;
+    const p = prices[Number(idx)];
+    if (p >= 0.98) return true;
+    if (p <= 0.02) return false;
     return null;
   };
   const any = (ids) => ids.some((id) => yes(id) === true);
@@ -53,7 +61,7 @@ function settleLeg(leg, resolved) {
 
 async function settleOpen(entries) {
   const open = entries.filter((e) => e.legs?.length && !e.result);
-  const ids = new Set(open.flatMap((e) => e.legs.filter((l) => !l.result).flatMap((l) => [...l.settle.won, ...l.settle.void, ...l.settle.lost])));
+  const ids = new Set(open.flatMap((e) => e.legs.filter((l) => !l.result).flatMap((l) => [...l.settle.won, ...l.settle.void, ...l.settle.lost].map((r) => String(r).split('#')[0]))));
   const resolved = new Map();
   for (const id of ids) {
     try {
@@ -81,19 +89,27 @@ function noBet(date, reason, extra = {}) {
   return { model: 'football-2leg', date, generated_at: new Date().toISOString(), no_bet: true, reason, legs: [], result: null, ...extra };
 }
 
-async function buildToday(date) {
+async function buildToday(date, { force = false } = {}) {
   const research = await loadResearch(date);
-  // No research: wait. Every leg must be researched, so there is no market-only fallback.
-  if (!research) throw new Error(`no research for ${date} yet`);
+  if (!research && !force && zonedParts(new Date()).hour < RESEARCH_DEADLINE_HOUR) {
+    throw new Error(`no research for ${date} yet`);
+  }
   const window = bettingWindow();
   const games = await gatherGames(window);
-  const { legs, skipped } = eligibleLegs(games, research);
-  skipped.forEach((s) => console.log(`Skipped: ${s}`));
-  const kept = [...research.games.values()].filter((v) => !v.exclude).length;
-  const slip = bestSlip(legs);
-  const base = { summary: research.summary, researched_at: research.researched_at, researched_games: research.games.size, kept_games: kept, skipped };
-  if (!slip) return noBet(date, `No two researched legs from different games combine to ${SLIP.min}–${SLIP.max}.`, base);
+  const { slip, tier, skipped } = pickSlip(games, research);
+  skipped.forEach((x) => console.log(`Skipped: ${x}`));
+  const kept = research ? [...research.games.values()].filter((v) => !v.exclude && !v.skipped).length : 0;
+  const base = {
+    summary: research?.summary || 'The morning research did not arrive in time, so today’s slip is priced from the market alone.',
+    researched_at: research?.researched_at || null,
+    researched_games: research?.games.size || 0,
+    kept_games: kept,
+    skipped,
+  };
+  // Only possible when fewer than two games are on in the window.
+  if (!slip) return noBet(date, `Fewer than two football games with a usable market are on in today’s window (${games.length} found).`, base);
 
+  console.log(`Tier: ${tier}`);
   console.log(describe(slip));
   const legsOut = slip.legs
     .sort((a, b) => a.game.start.localeCompare(b.game.start))
@@ -119,7 +135,9 @@ async function buildToday(date) {
       main_risk: l.verdict.main_risk,
       checks: l.verdict.checks,
       sources: l.verdict.sources,
-      settle: {
+      // Result legs settle on the game's 1X2 markets; the others carry their
+      // own "marketId#outcome" refs.
+      settle: l.settle || {
         won: l.won.map((k) => l.game.refs[k]),
         void: l.void.map((k) => l.game.refs[k]),
         lost: l.lost.map((k) => l.game.refs[k]),
@@ -132,6 +150,8 @@ async function buildToday(date) {
     date,
     generated_at: new Date().toISOString(),
     ...base,
+    tier,
+    tier_note: TIER_NOTE[tier],
     target_odds: SLIP.target,
     odds: round(legsOut.reduce((o, l) => o * l.odds, 1), 2),
     p_hit: round(slip.p_hit, 4),
@@ -146,7 +166,7 @@ async function buildToday(date) {
 async function main() {
   const today = localDate();
   if (DRY) {
-    const entry = await buildToday(today);
+    const entry = await buildToday(today, { force: true });
     if (entry.no_bet) console.log(`No bet: ${entry.reason}`);
     return;
   }

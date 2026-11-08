@@ -7,7 +7,7 @@
  * Polymarket: a straight win, double chance, and draw no bet.
  */
 
-import { fetchSeriesEvents, fetchSports, parseArray, parseTime } from './polymarket.mjs';
+import { fetchEventBySlug, fetchSeriesEvents, fetchSports, parseArray, parseTime } from './polymarket.mjs';
 
 /** Polymarket sport codes we bet on. Domestic cups are left out on purpose: rotation. */
 export const LEAGUES = {
@@ -39,8 +39,11 @@ export const MIN_LEG_P = 0.6;
 /** A straight "to win" leg needs a low draw chance; otherwise only DNB / double chance. */
 export const MAX_DRAW_FOR_WIN = 0.25;
 /** Games researched per day, strongest favourites first. */
-export const POOL_SIZE = 12;
+export const POOL_SIZE = 16;
 const MIN_LIQUIDITY = 1000;
+/** Goals, BTTS and handicap markets need a real two-sided book to be trusted. */
+const EXTRA_MIN_LIQUIDITY = 5000;
+const EXTRA_MAX_SPREAD = 0.04;
 
 function isYesNo(outcomes) {
   return outcomes.length === 2 && String(outcomes[0]).toLowerCase() === 'yes' && String(outcomes[1]).toLowerCase() === 'no';
@@ -153,6 +156,78 @@ export function legsFor(game, p) {
   });
 }
 
+/**
+ * Full-game goals, both-teams-to-score, handicap and team-goals markets from
+ * the game's "more markets" event on Polymarket. Each binary market gives two
+ * legs. Prices are the order-book mid, so only tight, liquid books are used.
+ */
+export function extraMarkets(game, event) {
+  const out = [];
+  for (const m of event?.markets || []) {
+    if (!isOpen(m) || liquidity(m) < EXTRA_MIN_LIQUIDITY) continue;
+    const bid = Number(m.bestBid);
+    const ask = Number(m.bestAsk);
+    if (!(bid > 0 && ask > 0 && ask - bid <= EXTRA_MAX_SPREAD)) continue;
+    const mid = (bid + ask) / 2;
+    const outcomes = parseArray(m.outcomes).map(clean);
+    if (outcomes.length !== 2) continue;
+    const q = clean(m.question);
+    const line = (/(-?\d+(?:\.\d+)?)\)?\s*$/.exec(q) || [])[1];
+    let sides;
+    switch (m.sportsMarketType) {
+      case 'totals':
+        sides = [['Total goals', `Over ${line}`, `ou_${line}_over`], ['Total goals', `Under ${line}`, `ou_${line}_under`]];
+        break;
+      case 'both_teams_to_score':
+        sides = [['Both teams to score', 'Yes', 'btts_yes'], ['Both teams to score', 'No', 'btts_no']];
+        break;
+      case 'spreads': {
+        // "Spread: PSV (-1.5)": outcome 0 is that team covering, outcome 1 the other side.
+        const n = Number(line);
+        const side = outcomes[0] === game.home ? 'home' : outcomes[0] === game.away ? 'away' : null;
+        if (!side || !Number.isFinite(n)) continue;
+        const other = side === 'home' ? 'away' : 'home';
+        sides = [
+          ['Handicap', `${outcomes[0]} ${n}`, `ah_${side}_${n}`],
+          ['Handicap', `${outcomes[1]} +${Math.abs(n)}`, `ah_${other}_+${Math.abs(n)}`],
+        ];
+        break;
+      }
+      case 'soccer_team_totals': {
+        const team = q.includes(`: ${game.home} O/U`) ? 'home' : q.includes(`: ${game.away} O/U`) ? 'away' : null;
+        if (!team) continue;
+        const name = game[team];
+        sides = [[`${name} goals`, `Over ${line}`, `tt_${team}_${line}_over`], [`${name} goals`, `Under ${line}`, `tt_${team}_${line}_under`]];
+        break;
+      }
+      default:
+        continue;
+    }
+    if (!line && m.sportsMarketType !== 'both_teams_to_score') continue;
+    sides.forEach(([label, selection, key], i) => {
+      out.push({
+        key,
+        label,
+        selection,
+        p_market: round(i === 0 ? mid : 1 - mid, 4),
+        settle: { won: [`${m.id}#${i}`], void: [], lost: [`${m.id}#${1 - i}`] },
+      });
+    });
+  }
+  return out;
+}
+
+/** An extra-market leg at probability p, in the same shape as legsFor's. */
+export function extraLeg(x, p) {
+  const fair = 1 / p;
+  return { ...x, p_win: p, p_void: 0, fair_odds_exact: fair, fair_odds: round(fair, 2), est_odds: round(fair * (1 - BOOK_MARGIN), 2) };
+}
+
+/** Every leg of a game at its live market prices: result legs and extras. */
+export function marketLegs(game) {
+  return [...legsFor(game, game.p_market), ...(game.extras || []).map((x) => extraLeg(x, x.p_market))];
+}
+
 export function inRange(leg) {
   return leg.fair_odds_exact >= LEG_ODDS.min && leg.fair_odds_exact <= LEG_ODDS.max;
 }
@@ -172,6 +247,12 @@ export async function gatherGames(window) {
         if (!g) continue;
         const t = new Date(g.start);
         if (t < window.start || t > window.end) continue;
+        try {
+          g.extras = extraMarkets(g, await fetchEventBySlug(`${ev.slug}-more-markets`));
+        } catch (e) {
+          g.extras = [];
+          console.error(`${g.event}: no extra markets (${e.message})`);
+        }
         games.push(g);
         n++;
       }
@@ -186,7 +267,7 @@ export async function gatherGames(window) {
 /** The games worth a deep look: a leg in range, strongest favourite first. */
 export function researchPool(games, size = POOL_SIZE) {
   return games
-    .filter((g) => legsFor(g, g.p_market).some(inRange))
+    .filter((g) => marketLegs(g).some(inRange))
     .sort((a, b) => Math.max(b.p_market.home, b.p_market.away) - Math.max(a.p_market.home, a.p_market.away))
     .slice(0, size);
 }

@@ -6,7 +6,7 @@
  */
 
 import { readFile } from 'node:fs/promises';
-import { BOOKS, CHECKS, CONFIDENCE, LEG_KEYS, MAX_SHIFT, candidatesPath, researchPath } from './lib/research.mjs';
+import { BOOKS, CHECKS, CONFIDENCE, LEG_KEYS, MAX_SHIFT, candidatesPath, isLegKey, researchPath } from './lib/research.mjs';
 import { localDate } from './lib/time.mjs';
 
 const date = process.argv[2] || localDate();
@@ -41,7 +41,7 @@ for (const v of research.games || []) {
   const hosts = new Set((v.sources || []).map((s) => { try { return new URL(s).hostname.replace(/^www\./, ''); } catch { return null; } }).filter(Boolean));
   for (const p of v.prices || []) {
     if (!BOOKS.includes(p.book)) problems.push(`${where}: book "${p.book}" is not one of ${BOOKS.join(', ')}`);
-    if (!LEG_KEYS.includes(p.market)) problems.push(`${where}: price market "${p.market}" is not one of ${LEG_KEYS.join(', ')}`);
+    if (!isLegKey(p.market)) problems.push(`${where}: price market "${p.market}" is not a leg key (see legs_in_range)`);
     if (!(Number(p.odds) >= 1.01)) problems.push(`${where}: bad odds ${p.odds}`);
   }
   if (v.exclude) {
@@ -53,10 +53,18 @@ for (const v of research.games || []) {
   for (const k of Object.keys(CHECKS)) {
     if (!v.checks || String(v.checks[k] || '').trim().length < 20) problems.push(`${where}: checks.${k} is missing or too thin`);
   }
-  if (hosts.size < 4) problems.push(`${where}: needs sources from at least 4 different sites, has ${hosts.size}`);
+  // Low confidence means facts stayed unknown after real attempts, so fewer sites are accepted.
+  const minHosts = v.confidence === 'low' ? 2 : 4;
+  if (hosts.size < minHosts) problems.push(`${where}: needs sources from at least ${minHosts} different sites, has ${hosts.size}`);
   const p = v.p || {};
   const sum = Number(p.home) + Number(p.draw) + Number(p.away);
   if (!(Math.abs(sum - 1) <= 0.011)) problems.push(`${where}: p.home + p.draw + p.away must be 1, is ${sum}`);
+  const legs = new Map((g.legs_in_range || []).map((l) => [l.key, l]));
+  for (const [k, val] of Object.entries(v.views || {})) {
+    const leg = legs.get(k);
+    if (!leg || LEG_KEYS.includes(k)) problems.push(`${where}: views.${k} is not a goals/BTTS/handicap leg in legs_in_range`);
+    else if (!(Math.abs(Number(val) - leg.p_market) <= MAX_SHIFT + 0.0001)) problems.push(`${where}: views.${k} must be within ±${MAX_SHIFT * 100} points of ${leg.p_market}`);
+  }
   for (const k of ['home', 'draw', 'away']) {
     const d = Number(p[k]) - g.p_market[k];
     if (!Number.isFinite(d)) problems.push(`${where}: p.${k} must be a number`);

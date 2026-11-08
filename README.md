@@ -12,14 +12,19 @@ A small site with three pages:
 ## How the daily slip is made
 
 1. **07:50 Belgrade: research.** A scheduled Claude Code task runs
-   `npm run candidates` to list up to 12 of today's football games from
+   `npm run candidates` to list up to 16 of today's football games from
    Polymarket. It researches each game in depth (team news, lineups,
    rotation, motivation, form and xG, head-to-head, odds, models, venue) and
    pushes `research/<date>.json`. The procedure and rules are in
    [`research/INSTRUCTIONS.md`](research/INSTRUCTIONS.md).
 2. **Build.** That push (and a run every 2 hours) triggers GitHub Actions. It
    applies the research to live Polymarket prices and picks the best pair of
-   legs with combined odds of 1.85–2.25, or "No bet" if no pair qualifies.
+   legs, aiming for combined odds of 1.85–2.25. Legs can be match winner,
+   double chance, draw no bet, total goals, both teams to score, handicaps or
+   a team's goals. There is a slip every day: when too few games pass the
+   research, the build widens the odds range and then uses market-priced
+   legs, and the site says so. If no research arrives by 12:00 Belgrade, the
+   slip is market-priced.
 3. **Settle.** Every run marks finished legs won, lost or void from resolved
    Polymarket markets.
 

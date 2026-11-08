@@ -13,6 +13,7 @@ const CHECK_LABEL = {
 };
 
 const RESULT = { won: ['Won', '✓'], lost: ['Lost', '✕'], void: ['Void', '–'] };
+const RESULT_KEYS = new Set(['home', 'away', 'home_draw', 'away_draw', 'home_dnb', 'away_dnb']);
 
 function resultBadge(r) {
   if (!r) return '<span class="badge badge--open">Open</span>';
@@ -34,8 +35,8 @@ function legCard(l, i) {
     </div>
     <div class="pick__probs">
       <span>Chance it lands ${pct(l.p_win + (l.p_void || 0))}</span>
-      <span>Home ${pct(l.p.home)} · Draw ${pct(l.p.draw)} · Away ${pct(l.p.away)}</span>
-      <span class="conf conf--${esc(l.confidence)}">${esc(l.confidence)} confidence</span>
+      ${RESULT_KEYS.has(l.key) || !l.key ? `<span>Home ${pct(l.p.home)} · Draw ${pct(l.p.draw)} · Away ${pct(l.p.away)}</span>` : ''}
+      <span class="conf conf--${esc(l.confidence)}">${l.confidence === 'market' ? 'market price only' : `${esc(l.confidence)} confidence`}</span>
     </div>
     <p class="pick__why">${esc(l.reason)}</p>
     <p class="pick__risk"><strong>Main risk:</strong> ${esc(l.main_risk)}</p>
@@ -56,6 +57,7 @@ function slipHtml(e) {
       <div><div class="muted small">${esc(dayLabel(e.date))} · ${e.legs.length} legs</div><h2>Today's slip</h2></div>
       <div class="slip-card__odds"><span>Total odds</span><strong>${odds(e.odds)}</strong></div>
     </header>
+    ${e.tier_note ? `<p class="slip-card__tier small">${esc(e.tier_note)}</p>` : ''}
     <div class="slip-card__legs">${e.legs.map(legCard).join('')}</div>
     <footer class="slip-card__foot">
       <span>Chance both land: <strong>${pct(e.p_hit)}</strong></span>

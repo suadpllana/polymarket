@@ -25,6 +25,8 @@ export const CHECKS = {
   venue_weather: 'Venue, travel, pitch and weather',
 };
 export const LEG_KEYS = ['home', 'away', 'home_draw', 'away_draw', 'home_dnb', 'away_dnb'];
+/** Result legs plus the keys extraMarkets() gives goals, BTTS, handicap and team-goals legs. */
+export const isLegKey = (k) => LEG_KEYS.includes(k) || /^(ou_[\d.]+_(over|under)|btts_(yes|no)|ah_(home|away)_[+-][\d.]+|tt_(home|away)_[\d.]+_(over|under))$/.test(String(k));
 
 export function researchPath(date) {
   return new URL(`../../research/${date}.json`, import.meta.url);
@@ -73,20 +75,37 @@ export async function loadResearch(date) {
   if (research.date !== date || !Array.isArray(research.games)) throw new Error(`research/${date}.json has the wrong date or no games`);
 
   const morning = new Map(candidates.games.map((g) => [g.id, g]));
+  // Research views on non-result legs ("ou_2.5_over": 0.66), each held within
+  // MAX_SHIFT of that leg's morning market probability.
+  const views = (v, g) => {
+    const out = {};
+    const legs = new Map((g.legs_in_range || []).map((l) => [l.key, l]));
+    for (const [k, val] of Object.entries(v?.views || {})) {
+      const leg = legs.get(k);
+      const p = Number(val);
+      if (!leg || LEG_KEYS.includes(k) || !Number.isFinite(p) || !Number.isFinite(leg.p_market)) continue;
+      out[k] = Math.max(-MAX_SHIFT, Math.min(MAX_SHIFT, p - leg.p_market));
+    }
+    return out;
+  };
   const games = new Map();
   for (const v of research.games) {
     const g = morning.get(String(v?.id));
     if (!g || typeof v.exclude !== 'boolean') continue;
     games.set(g.id, {
-      exclude: v.exclude || v.confidence === 'low',
+      // Only hard problems exclude a game; low confidence keeps it as a
+      // fallback when nothing better qualifies.
+      exclude: v.exclude && v.skipped !== true,
+      skipped: v.skipped === true,
       confidence: CONFIDENCE.includes(v.confidence) ? v.confidence : 'low',
       morning: g.p_market,
       shift: v.exclude ? { home: 0, draw: 0, away: 0 } : clampShift(v.p, g.p_market),
+      view_shift: v.exclude ? {} : views(v, g),
       reason: String(v.reason || '').slice(0, 700),
       main_risk: String(v.main_risk || '').slice(0, 300),
       checks: Object.fromEntries(Object.keys(CHECKS).map((k) => [k, String(v.checks?.[k] || '').slice(0, 400)])),
       sources: (Array.isArray(v.sources) ? v.sources : []).filter((s) => /^https?:\/\//.test(s)).slice(0, 15),
-      prices: (Array.isArray(v.prices) ? v.prices : []).filter((p) => BOOKS.includes(p?.book) && LEG_KEYS.includes(p?.market) && Number(p.odds) >= 1.01),
+      prices: (Array.isArray(v.prices) ? v.prices : []).filter((p) => BOOKS.includes(p?.book) && isLegKey(p?.market) && Number(p.odds) >= 1.01),
     });
   }
   return { summary: String(research.summary || '').slice(0, 800), researched_at: research.researched_at || null, games };

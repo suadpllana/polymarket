@@ -287,6 +287,7 @@ h2 { font-size: 16px; font-weight: 700; }
 .slip-card__foot { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; padding: 14px 16px; color: var(--muted); }
 .slip-card__foot strong { color: var(--text); }
 .slip-card__note { padding: 0 16px 16px; margin: 0; }
+.slip-card__tier { margin: 0 16px 12px; padding: 8px 12px; border-left: 3px solid var(--amber); background: var(--card); border-radius: 4px; color: var(--muted); }
 
 .pick { background: var(--card); border-radius: 8px; padding: 12px; display: grid; gap: 8px; align-content: start; }
 .pick__head { display: flex; gap: 10px; align-items: center; }
@@ -299,6 +300,8 @@ h2 { font-size: 16px; font-weight: 700; }
 .conf { font-weight: 700; text-transform: capitalize; }
 .conf--high { color: var(--good); }
 .conf--medium { color: var(--amber); }
+.conf--low { color: var(--bad); }
+.conf--market { color: var(--dim); text-transform: none; }
 .pick__why, .pick__risk { margin: 0; font-size: 13px; }
 .pick__risk { color: var(--muted); }
 .pick__more summary { cursor: pointer; font-size: 13px; color: var(--muted); }
