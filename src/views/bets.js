@@ -2,6 +2,10 @@ import { RESULT_ICON, RESULT_LABEL, dayLabel, esc, money, odds } from '../ui/for
 import { SPORT_LABEL } from '../lib/stats.js';
 
 const state = { sport: 'all', result: 'all', type: 'all', q: '' };
+/** Legs shown before "Show legs", so long multis don't stretch the grid. */
+const VISIBLE_LEGS = 3;
+/** Bets the user expanded; kept across filter changes. */
+const open = new Set();
 
 const FILTERS = {
   sport: [['all', 'All sports'], ['football', 'Football'], ['cs2', 'CS2'], ['mixed', 'Football + CS2']],
@@ -27,11 +31,11 @@ function matches(b) {
   return true;
 }
 
-function legHtml(l, mixed) {
+function legHtml(l, mixed, hidden) {
   const r = l.result || 'unknown';
   const score = l.score ? `${l.score[0]}–${l.score[1]}` : 'vs';
   const why = l.note ? `<div class="leg__note">${esc(l.note)}</div>` : '';
-  return `<li class="leg">
+  return `<li class="leg${hidden ? ' leg--more' : ''}">
     <span class="leg__dot leg__dot--${r}" title="${esc(r === 'unknown' ? 'Result not known from the score' : RESULT_LABEL[r] || r)}">${r === 'unknown' ? '?' : RESULT_ICON[r]}</span>
     <div class="leg__body">
       <div class="leg__pick"><strong>${esc(l.selection)}</strong><span class="leg__odds">${odds(l.odds)}</span></div>
@@ -51,13 +55,20 @@ function betHtml(b) {
       : b.status === 'cashed_out' && b.held_payout === 'won_unknown_odds'
         ? '<div class="bet__held bad">If held it would have won (original odds not shown by Stake)</div>'
         : '';
-  return `<article class="bet bet--${b.status}">
+  const extra = b.legs.length - VISIBLE_LEGS;
+  const isOpen = open.has(b.id);
+  const toggle =
+    extra > 0
+      ? `<button type="button" class="bet__toggle" data-bet="${esc(b.id)}" aria-expanded="${isOpen}">${isOpen ? 'Hide legs' : `Show legs (+${extra})`}</button>`
+      : '';
+  return `<article class="bet bet--${b.status}${isOpen ? ' bet--open' : ''}">
     <header class="bet__head">
       <div><div class="bet__title">${title}</div>${sub}</div>
       <span class="badge badge--${b.status}">${RESULT_ICON[b.status] || ''} ${RESULT_LABEL[b.status] || esc(b.status)}</span>
     </header>
     <div class="bet__meta">${esc(dayLabel(b.date))} · ${esc(b.time)} · <span class="tag tag--${b.sport}">${esc(SPORT_LABEL[b.sport])}</span></div>
-    <ul class="legs">${b.legs.map((l) => legHtml(l, b.sport === 'mixed')).join('')}</ul>
+    <ul class="legs">${b.legs.map((l, i) => legHtml(l, b.sport === 'mixed', i >= VISIBLE_LEGS)).join('')}</ul>
+    ${toggle}
     <footer class="bet__foot">
       <div><span>Odds</span><strong>${odds(b.odds)}</strong></div>
       <div><span>Stake</span><strong>${money(b.stake)}</strong></div>
@@ -117,6 +128,20 @@ export function renderBets(root, ctx) {
       </div>
     </details>`;
 
+  // Expand or collapse a long multi in place, without re-rendering the page.
+  root.querySelectorAll('.bet__toggle').forEach((btn) =>
+    btn.addEventListener('click', () => {
+      const id = btn.dataset.bet;
+      const card = btn.closest('.bet');
+      const extra = card.querySelectorAll('.leg--more').length;
+      const nowOpen = !open.has(id);
+      if (nowOpen) open.add(id);
+      else open.delete(id);
+      card.classList.toggle('bet--open', nowOpen);
+      btn.setAttribute('aria-expanded', String(nowOpen));
+      btn.textContent = nowOpen ? 'Hide legs' : `Show legs (+${extra})`;
+    })
+  );
   root.querySelectorAll('[data-f]').forEach((btn) =>
     btn.addEventListener('click', () => {
       state[btn.dataset.f] = btn.dataset.v;
