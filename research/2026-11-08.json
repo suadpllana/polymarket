@@ -1,0 +1,209 @@
+{
+  "date": "2026-11-08",
+  "researched_at": "2026-11-08T06:56:37Z",
+  "summary": "Two games kept, ten excluded (all 12 researched in three batches, none skipped). Kept: Cambuur–PSV (PSV win, medium: two lineup sources agree PSV are unchanged from Wednesday's Brugge game, no key starter in doubt, no rotation talk from Bosz, stable price; p 0.14/0.17/0.69) and Gent–Kortrijk (Gent win, medium: no rotation talk after Thursday's 0-0 at KuPS, two lineup sources agree, third-placed Gent with the league's best defence against bottom side Kortrijk, who have 4 goals in 10 games; p 0.665/0.205/0.13). Both main risks are a draw. Excluded: Palace–Liverpool (agent proposed keep; excluded on review for consistency: Gravenberch day-to-day, sources disagree on Szoboszlai or Nyoni, unread \"5 changes\" headline), Brugge–Anderlecht (\"de Topper\" rivalry), Estrela–Benfica (starting goalkeeper Trubin or Soares unclear), Hoffenheim–Schalke (Coufal and Hlozek doubts reported both ways, Thursday Europa game), Villarreal–Getafe (changes expected after a 6-0 Champions League loss, Gerard Moreno and Foyth doubts), Freiburg–Union (Osterhage doubt, predicted XIs differ after the Trabzonspor trip), AZ–Groningen (predicted XIs differ after Thursday's Juventus game), Rio Ave–Braga and Beşiktaş–Gençlerbirliği (predicted XIs disagree after Thursday European trips), Vitória–Porto (Porto left-back and striker reported differently after the Napoli game). Stake and Rainbet prices were not found; prices seen were DraftKings via ESPN, plus BetMGM, Bet365 and Coral (via SportsGambler and Statz) for Gent and Betclic for Braga.",
+  "games": [
+    {
+      "id": "1259882",
+      "exclude": true,
+      "reason": "Rotation and lineup rules. Beşiktaş played away at Celtic in the Europa League on Thu 5 Nov (lost 3-2, per Sports Mole), so this Sunday 18:00 home game comes only 3 days later, and the Europa League campaign continues, so rotation risk is real. The two predicted XIs also disagree on likely starters. Sports Mole has Kokcu (just back from injury) with Ouattara at left-back and Murillo, Agbadou, Topcu in defence. SportsGambler has Ndidi in midfield and Yilmaz at left-back. Sports Mole lists Rashica as a hamstring doubt and Miretti and Akdag as out, while SportsGambler reports no Beşiktaş absences. Because reports on likely starters differ and a European away night sits 3 days before kickoff, the game fails the exclusion rules. Verified facts: ESPN confirms the fixture (Süper Lig, Vodafone Park, 18:00 UTC, DraftKings Beşiktaş -500, draw +600, Gençlerbirliği +1100). Polymarket 24h moves are small (home +0.01, draw +0.005, away -0.01), so no price-move issue. Gençlerbirliği have won the last five competitive meetings between the sides (Sports Mole), which is a further caution. Beşiktaş are 4th (19 pts) and Gençlerbirliği 14th, so the game is not a derby. Searches tried: Turkish team-news and lineup searches (results were old seasons only), the ESPN schedule and scoreboard APIs, the Sports Mole and SportsGambler previews, and the Polymarket gamma API.",
+      "main_risk": "Heavy rotation after the Thursday Europa League trip to Celtic, uncertain starters (Rashica doubt, Kokcu just back from injury, sources disagree on XI), and Gençlerbirliği's five straight wins in the head-to-head series.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/besiktas/preview/besiktas-vs-genclerbirligi-prediction-team-news-lineups_608630.html",
+        "https://www.sportsgambler.com/betting-tips/football/besiktas-vs-genclerbirligi-prediction-lineups-odds-2026-11-08/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/scoreboard?dates=20261108"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1260175",
+      "exclude": true,
+      "reason": "Unknown after real attempts: lineups and rotation cannot be verified from a second source. Facts found: Sports Mole's Gameweek 11 preview (8 Nov 2026, Estadio Jose Gomes) says Benfica are without Lenglet and Barreiro, Pavlidis (league top scorer, 10 goals) is expected back, and Trubin could start in goal although Samuel Soares has also been rotated (the preview's predicted XI names Soares). Benfica played Lech Poznan in the Europa League on Thu 5 Nov (3-1) and have won seven straight; the preview does not name their next fixture. Estrela have lost four league games in a row (12th) and have not kept a clean sheet in 12 matches; Robinho and Arevalo are out. I tried: two WebSearch queries in English and Portuguese for a second predicted XI or Benfica team news (Bola na Rede, A Bola, Flashscore, Sports Mole listings returned only older fixtures), the ESPN por.1 scoreboard and Benfica schedule (no next fixture shown, no European game in that feed), ClubElo (no data returned), and Polymarket. Only one source gives 2026 lineups, the starting-GK question is open, and no second model or news source exists, so the checklist cannot be filled with confidence. Prices seen: Polymarket Benfica win 0.795 (flat over 24h, range 0.795-0.805, no move); DraftKings via ESPN Benfica -425 (1.24), draw +550, Estrela +950, which de-vigs to about 0.765 / 0.145 / 0.090, in line with the market. Benfica win fair 1.26 is also below the 1.40 target. No derby or manager change was found.",
+      "main_risk": "Unverified starting GK and XI (Soares vs Trubin rotation) after a Thursday Europa League game with an international break next; Estrela are bottom-half but home, and draws (about 13-15%) are the usual killer.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/benfica/preview/estrela-amadora-vs-benfica-prediction-team-news-lineups_608581.html",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261108",
+        "https://gamma-api.polymarket.com/events?id=1260175"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1259456",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.14,
+        "draw": 0.17,
+        "away": 0.69
+      },
+      "checks": {
+        "team_news": "PSV long-term out: Wanner, Schouten, Nagalo, Plea (Sports Mole). Lammers (no minutes this season) and Pepi are back in the squad but expected on the bench, not starting (Voetbalprimeur, Yahoo/Bosz press-conference report). Perisic had a head wound vs Brugge but is expected to start. Cambuur: captain Amofa out for the season (Achilles), Asselman not expected in the squad, otherwise almost fully fit (Sports Mole). No suspensions mentioned.",
+        "lineups": "Voetbalprimeur and Sports Mole agree on the PSV core: Kovar; Dest, Geertruida, Obispo, Kostic; Sano, Til, Mauro Junior; Perisic, Mijnans, Van Bommel (Sports Mole lists Perisic/Van Bommel/Mijnans in the same front line). Voetbalprimeur expects no changes from the Brugge XI. Kovar is not in doubt. Cambuur predicted (Sports Mole, BetCity 5 Nov): Jansen; Costarelli, Van Duijl, Baouf, Bouah; Maertens, Souren; Ceka, El Arguioui, Hamache; Binder. No GK doubt found on either side. Final XIs not yet out at time of research.",
+        "rotation": "PSV played Club Brugge in the Champions League on Wed 4 Nov (lost 2-1 at home, nltimes), so this is a 4-day turnaround. Voetbalprimeur expects an unchanged XI, and no source reports Bosz talking about rotation. Next PSV fixture after this is the international break, then Real Madrid vs PSV on 24 Nov (UEFA listing via search). Cambuur's previous game was a 4-0 win over Go Ahead Eagles (abandoned in the 82nd minute per Sports Mole).",
+        "motivation": "PSV are third on 23 points, 2 behind leaders Feyenoord (Sports Mole), and need points after the Brugge loss. Cambuur are ninth on 15 points and unbeaten in 7 league games after losing their first 4. Neither side has nothing to play for. Not a derby.",
+        "form": "PSV league form oldest to newest W, L, W, L, D, W, latest a 7-0 win over Willem II; Champions League 4 points from 4 games (Sports Mole). Cambuur W, D, W, D, W, W, 4-0 vs Go Ahead Eagles, held AZ 2-2 against 10 men (Sports Mole). El Arguioui has 6 goals in 11 league games. No xG figures found after 3 searches, so none are claimed.",
+        "h2h": "PSV have won 9 of the last 11 meetings (Sports Mole). Cambuur have never won an Eredivisie match against PSV (VI.nl). Sports Mole predicts Cambuur 1-3 PSV.",
+        "odds": "Polymarket (1259456): Cambuur 0.135, draw 0.165, PSV 0.705; PSV price history over 24h ranged 0.695 to 0.705 (about 1.4% move), no unexplained move. DraftKings via ESPN close: PSV -260, draw +475, Cambuur +500, which de-vigs to about 68.0% PSV, 16.4% draw, 15.7% Cambuur. Total 3.5: over -145, under +110. Only two books (Polymarket and DraftKings); Stake and Rainbet not checked, so no prices recorded.",
+        "models": "Sports Mole predicts Cambuur 1-3 PSV; a betting preview algorithm cited in search results gave PSV a 67% win chance. No Opta or ClubElo figure was read.",
+        "venue_weather": "Kooi Stadium, Leeuwarden, Sun 8 Nov, 15:45 UTC (16:45 local); fixture confirmed on the ESPN scoreboard (ned.1) and Sports Mole. I could not find whether the pitch is artificial or natural grass, and I did not find a weather report, so neither is claimed."
+      },
+      "reason": "Fixture verified, no key PSV starter in doubt, XI expected unchanged from Brugge, no derby, no manager change found, and no price move. I set PSV at 69%, 1.5 points below the market, because of the Wed-to-Sun turnaround after a European loss and Cambuur's 7-game unbeaten run. Draw is 17%, just above the market's 16.3%. Straight PSV win is allowed (draw under 25%); fair odds from p are about 1.45, and PSV draw no bet about 1.20.",
+      "main_risk": "A draw or upset: PSV have lost two of their last six league games, Cambuur are unbeaten in seven and held AZ 2-2, PSV have a CL-hangover turnaround with Mijnans/Perisic playing again, and pitch surface and weather were not verified.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/cambuur/preview/cambuur-vs-psv-prediction-team-news-lineups_608646.html",
+        "https://www.voetbalprimeur.nl/nieuws/2156049/de-vermoedelijke-opstelling-van-psv-tegen-sc-cambuur.html",
+        "https://nltimes.nl/2026/11/04/psvs-champions-league-hopes-take-hit-2-1-home-loss-club-brugge",
+        "https://www.vi.nl/nieuws/sc-cambuur-won-nog-nooit-van-psv-1",
+        "https://club.betcity.nl/voorbeschouwingen/cambuur-leeuwarden-psv-eindhoven",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261108"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1307868",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.665,
+        "draw": 0.205,
+        "away": 0.13
+      },
+      "checks": {
+        "team_news": "SportsGambler lists long-term Gent absentees only (Burgess, lower leg, return listed 13 Jan 2027; Ngom, cruciate ligament; Asselman, no detail) and for Kortrijk Ruyssen (yellow cards) and Roche (knock). Statz mentions no injuries or suspensions for either side. No source reports a doubt over a likely Gent starter or either goalkeeper (Roef for Gent, Ilic for Kortrijk). Searches of Sporza and general Dutch-language news found no fresh team-news article for this game.",
+        "lineups": "Two predicted XIs agree on Gent: 3-4-2-1 with Roef; Volckaert, Paskotsi, Van der Heyden; Goore, Lopes, Delorge, Araujo; Kadri, Sonko, Dean (Statz has Araujo at left back in a four, with Dean, Kadri and Sonko forward). Kortrijk are predicted in a 5-4-1 by Statz and a 4-3-3 by SportsGambler, with Ilic, Fofana, Drouhin and Anderson in both, and Koyalipou and Ambrose up front. Statz updated its XI on 6 Nov. These are predictions only, and no official XI exists yet.",
+        "rotation": "Gent played at KuPS in the Conference League on Thu 5 Nov (0-0 away in Finland, Flashscore) and host Kortrijk on Sun 8 Nov. I made a second attempt for a pre-match press conference by the Gent coach (Dutch-language search for the conference and lineup changes, plus a preview search) and found none, so there is no report of rotation talk or of 5+ expected changes. The predicted XIs from two sites are consistent. Gent's next fixture was not verified. Kortrijk played 4 Nov (lost 3-1 at home to Mechelen) and have no European fixture.",
+        "motivation": "Gent are 3rd on 25 points from 10 games and chasing the top, while Kortrijk are 18th (bottom) on 4 points and fighting relegation. Neither side has nothing to play for. Not a derby: no source calls Gent-Kortrijk a derby, and they are different clubs without a rivalry label.",
+        "form": "Gent: 8 wins, 1 draw and 1 loss in 10 league games, only 6 goals conceded (fewest in the league) and 1.9 scored per game (Statz). They are winless in their last 2 (lost 2-0 at Lommel on 1 Nov, 0-0 at KuPS on 5 Nov) and have won 1 of their last 5 across all competitions (Flashscore). They have won five straight home league games. Kortrijk: 1 win, 1 draw, 8 defeats, 4 goals scored and 22 conceded, and winless in their last five away games. No xG figures were found at the sources visited (Statz gives 5.2 shots on target a game for Gent and a model projection of 2.06 to 0.72 goals).",
+        "h2h": "In the last 10 meetings Gent have 5 wins, Kortrijk 4 and 1 draw (SportsGambler). Kortrijk won the latest meeting 2-1 at Gent in March 2025 (Sporza), after Gent won 1-0 at Kortrijk in July 2024.",
+        "odds": "DraftKings (ESPN) closing moneyline Gent -225, draw +360, Kortrijk +550, which de-vigs to about 65.1/20.4/14.5%. BetMGM (via SportsGambler) Gent -263, draw +360, Kortrijk +650, which de-vigs to about 67.4/20.2/12.4%. Bet365 has Gent at 1.44 and Coral the draw at 4.60 and Kortrijk at 7.00 (via Statz). DraftKings over 2.5 goals -145 and under 2.5 +110. Polymarket (id 1307868): Gent 0.685, draw 0.195, Kortrijk 0.125, with 24h changes of +0.01, -0.01 and +0.01, i.e. under 2% relative, so no unexplained move of 5% or more. Gent DraftKings spread -1.5 at +120.",
+        "models": "Statz model: Gent 68%, draw 20%, Kortrijk 12%, projected score 2-0 (2.06 to 0.72 goals). Sports Mole, KickOff and ClubElo were not consulted. No other model source was checked, so the model evidence is single-source.",
+        "venue_weather": "Planet Group Arena, Ghent (Gent's home ground; ESPN lists it as the Ghelamco Arena). Kick-off 15:00 UTC (SportsGambler shows 09:00 US time, Sporza 16:00 local). No weather or pitch warning was found, and no source mentions one."
+      },
+      "reason": "Stage 1 found no exclusion rule: no rotation talk or 5+ changes reported, no doubts over a likely starter or goalkeeper, no derby or manager change, no price move of 5% or more. Market and models agree that Gent are clear favourites at home against the league's bottom side, which has scored 4 goals in 10 games. I move the draw up 1 point from the market (0.195 to 0.205) and the home win down 2 points (0.685 to 0.665) to price the pre-mortem factors: Gent winless in their last 2 after a 0-0 in Finland on Thursday, and Kortrijk's physical, deep-block style (most cards and 3rd most fouls in the league). Away rises 0.5 point to 0.13. The 20.5% draw is under the 25% cap for a straight win, but draw no bet is the safer leg.",
+      "main_risk": "A draw or late equaliser: Gent are winless in 2 and a deep, physical Kortrijk (most cards in the league) could grind out a result after Gent's Thursday away trip to Finland. This is the 5-4-1 low-block pre-mortem, partly offset by Kortrijk's weak scoring (4 goals in 10 games) and Gent's league-best defence (6 conceded).",
+      "sources": [
+        "https://www.sportsgambler.com/betting-tips/football/gent-vs-kortrijk-prediction-lineups-odds-2026-11-08/",
+        "https://statz.ai/news/19726016-gent-vs-kv-kortrijk-predictions-betting-tips",
+        "https://www.flashscore.com/news/soccer-conference-league-no-goals-in-finland-as-kups-grind-out-first-conference-league-point-versus-gent/K2OwuQKM/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261108",
+        "https://gamma-api.polymarket.com/events?id=1307868"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1257545",
+      "exclude": true,
+      "reason": "Rotation and team-news rules. Villarreal played PSG in the Champions League in midweek (lost 6-0), and the Sports Mole preview (Gameweek 12, 8 Nov) says changes are expected after that game, with Moleiro, Mikautadze and Cardona among those likely to start. It lists Gerard Moreno, Juan Foyth and Ilias Akhomach as doubts for Villarreal, with Alassane Diatta out (hamstring), and Pape Gueye back from suspension. Getafe have doubts too (Juanmi, Zaid Romero) and played Brighton in the Conference League on Thursday (lost 1-0). Getafe's form fits the draw risk: 13th, 3W 3D 5L, 8 league goals scored, the joint-fewest in La Liga. I ran a second search for Marcelino's press-conference news and found no current-week confirmation of the Gerard Moreno or Foyth status. Comuniate and El Gol Digital results were from other dates, so the doubts are unresolved and only one source for the lineups was usable. I did not reach the Polymarket price-history check.",
+      "main_risk": "Draw or upset: a rotated, shaky Villarreal side (6-0 loss in midweek) against a low-scoring Getafe side that sits deep and draws often, with the Villarreal doubts unresolved.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/villarreal/preview/villarreal-vs-getafe-prediction-team-news-lineups_608631.html",
+        "https://www.comuniate.com/en/noticias/38886/villarreal-vs-getafe-preview-predicted-line-ups-and-fantasy-tips-laliga-matchday-12"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1256976",
+      "exclude": true,
+      "reason": "Rule: a likely starter is doubtful and rotation after Europe cannot be cleared. Fixture verified on the ESPN scoreboard (Union at Freiburg, 2026-11-08 16:30 UTC, ger.1, DraftKings Freiburg -220 / draw +340 / Union +500). Freiburg played away at Trabzonspor in the Conference League on Thu 5 Nov (won 1-0) and play Union only three days later, after a Turkey trip. That is also their third game in eight days after the 28 Oct cup tie and 31 Oct league game at Augsburg. Sports Mole (preview 608640) lists Freiburg midfielder Patrick Osterhage as a doubt with a muscle problem that kept him out in Turkey, so Freiburg's team news is not clean. The same article does not mention rotation and gives no confirmation of the XI. Its predicted Freiburg XI (Backhaus; Treu, Ginter, Lienhart, Makengo; Eggestein, Engelhardt; Beste, Suzuki, Scherhant; Matanovic) differs from the Trabzonspor defence named in a getfootballnewsgermany report (Kübler, Lienhart, Ginter, Makengo), and Goal/Dailysports predicted XIs name Höler/Matanović up front, so the sources do not fully agree. Union are also thin: Nsoki, Markgraf and Skov out, Uduokhai serving the last game of a suspension, Kemlein expected to miss out, Ilic a doubt. The Freiburg and Union club sites had no Friday press-conference or team-news item. Searches tried: general lineup search, German press-conference search, Trabzonspor/rotation search, and extended Sports Mole search. With a doubted Freiburg starter, a midweek European away trip and no confirmed XI or manager comment on rotation, the gate fails. Polymarket price history and Stake prices were not checked.",
+      "main_risk": "Freiburg rotate or lose a starter after the Thursday trip to Turkey, and a draw of about 19% (DraftKings draw +340) kills the straight-win leg.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/freiburg/preview/freiburg-vs-union-berlin-prediction-team-news-lineups_608640.html",
+        "https://www.scfreiburg.com/en/latest/news/first-team/",
+        "https://www.getfootballnewsgermany.com/2026/freiburg-trabzon-uecl-schuster/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1295144",
+      "exclude": true,
+      "reason": "Rule: derby or fierce rivalry. Club Brugge v Anderlecht is 'de Topper', the biggest fixture in Belgian football (Club Brugge's own match guides call it the game of the year; BX1 calls it the match between the country's two biggest clubs). The Starting11 preview page also says Anderlecht played a UEL game 3 days before this match, and the predicted Anderlecht XIs differ between Starting11 (4-3-3 with Coosemans, Winkler, Bentayeb, Seke) and SportsGambler (Augustinsson, Koutsoupias, Kana, Cvetkovic), so the lineup is unsettled. Fixture itself verified: Sun 8 Nov 2026 12:30 GMT, Jan Breydel Stadion, referee J. Vergoote (Starting11). Further checks were not made because the rivalry rule already applies.",
+      "main_risk": "Rivalry fixture where the 'favourite' price is unreliable; the draw is a live outcome (market draw 19.7%, but the all-competition head-to-head on Starting11 shows 15 draws in 50 games) and Anderlecht may rotate after a midweek European game.",
+      "sources": [
+        "https://starting11.com/fixtures/club-brugge-kv-vs-anderlecht-20261108",
+        "https://www.sportsgambler.com/betting-tips/football/club-brugge-vs-anderlecht-prediction-lineups-odds-2026-11-08/",
+        "https://www.clubbrugge.be/en/news/club-rsc-anderlecht-the-club-facts"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1259464",
+      "exclude": true,
+      "reason": "Rotation/lineup rule. AZ played a Europa League home game against Juventus on Thu 5 Nov 2026 (lost 1-2 at AFAS Stadion), only three days before this Sunday game, and had lost their last three games in all competitions (Juventus 1-2, Ajax 0-1, Twente 0-2). No source I read today had manager quotes or reports on how many changes AZ will make. The two predicted XIs I read for AZ disagree: footballpredictions.com has De Busser; Schouten, Dijkstra, de Wit, Goes; Koopmeiners, Kwakman; Byskov, Patati, Clasie; Meerdink, and notes Wesley Hoedt is expected back in the XI but leaves him out of its own XI. Statz.ai has De Busser; Dijkstra, Goes, Schouten, De Wit; Koopmeiners, Kwakman, Patati; Byskov, Daal, Meerdink. The injury lists are also incomplete: footballpredictions.com lists Hornkamp, Resink, Smit, Verhulst (off roster) and Zoet (inactive) for AZ and Jeng, van der Laan, Hernes and Metu for Groningen, while Statz.ai lists none. Both sources agree De Busser is the AZ goalkeeper, but the squad is thin and no official club news was found. Tried: ESPN scoreboard and team schedules (cut off mid-October), two Dutch-language searches for previews (NH Nieuws, FCUpdate; only stale results, FCUpdate returned 403), a Sports Mole fetch (that page covered the March 2026 fixture), footballpredictions.com, Statz.ai, and a search on the Juventus game. Market context: Statz.ai model gives AZ 59%, draw 22%, Groningen 19% (best prices AZ 1.55 Ladbrokes, draw 4.50 and Groningen 5.50 bet365). Groningen have scored in 91% of their league games and conceded 2.18 per game, and AZ lost their last meeting 0-3 away on 22 March 2026. I did not run the Polymarket price-move check, because the game is already excluded on the rotation rule.",
+      "main_risk": "AZ come off a Thursday European home defeat and a three-game losing run with an unclear XI, so rotation or fatigue could lead to a draw or a loss against a high-scoring Groningen side.",
+      "sources": [
+        "https://footballpredictions.com/footballpredictions/netherlands-eredivisie-predictions/az-vs-groningen-prediction-08-11-2026/",
+        "https://statz.ai/news/19714593-az-vs-fc-groningen-predictions-betting-tips",
+        "https://www.beinsports.com/en-us/soccer/uefa-europa-league/articles/az-1-2-juventus-kolo-muani-stars-in-routine-europa-league-win-2026-11-05"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1260179",
+      "exclude": true,
+      "reason": "Rule: a likely starter is reported differently by different sources, and Braga's availability is unsettled after the Thursday Europe trip. Sports Mole (preview dated 6 Nov) lists Braga as Bernardo; Gomez, Lagerbielke, Barcia, Travassos; Gorby, Dorgeles, Moutinho; G Martinez, P Victor, Horta, and calls Gabriel Silva a doubt who has missed three matches. Flashscore PT lists a different XI: Bernardo Fontes; Travassos, Barcia, Barisic, Victor Gomez; Moutinho, Vitor Carvalho; Dorgeles, Horta, Gabri Martinez; Fran Navarro, and says Gabriel Silva should be fit. The two disagree on the centre-back pairing, the midfield trio and the striker (P Victor vs Fran Navarro). Braga played away at Aarhus in the Conference League on Thu 5 Nov (0-0, 26 shots; Sports Mole and Flashscore both say Conference League, not Europa League). No source gives a rotation count or manager comment about changes after that trip, so rotation risk cannot be ruled out. Braga's coach Franclim Carvalho was appointed on 20 Oct after Carlos Vicens was sacked, 19 days before the game, so outside the 14-day window, but Braga are 8th and have lost 3 of their last 6 league games. Rio Ave are 16th with Ntoi suspended and Miszta, Amaral and Abbey out. I tried two searches, Sports Mole and Flashscore PT, and a manager-change search. I did not reach Record, A Bola, O Jogo or the club's own pages. I did not run the Polymarket price-history check because the lineup disagreement already excludes the game. Betclic odds seen: Rio Ave 5.75, draw 4.25, Braga 1.53.",
+      "main_risk": "Braga's XI is unclear after the away Conference League game at Aarhus on Thursday, with a new manager and Gabriel Silva in doubt on one source. A Braga win could still end level against a Rio Ave side that is low in the table.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/braga/preview/rio-ave-vs-braga-prediction-team-news-lineups_608643.html",
+        "https://www.flashscore.pt/noticias/futebol-liga-portugal-betclic-rio-ave-sc-braga-onde-ver-o-jogo-antevisao-onzes-provaveis-e-odds/rDwAc2MG/",
+        "https://en.wikipedia.org/wiki/Franclim_Carvalho"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1260171",
+      "exclude": true,
+      "reason": "Lineup rule: a likely Porto starter is reported differently by different sources, and Porto played a Champions League game 4 days earlier (Napoli 4-1 at home, Wed 4 Nov 20:00 UTC, ESPN). Sapo (7 Nov) expects Farioli to go back to the Estoril XI: Zaidu at left-back, Samu up front. Portal dos Dragões/fcporto.ws instead predicts the XI that started the Napoli game: Martim Fernandes at left-back, André Silva up front. Observador/DAZN have Zaidu and Samu. Statz has Sanusi at left-back and Aghehowa up front. So left-back and striker are reported inconsistently, and the amount of rotation after the European night is unconfirmed. The Porto side also has an injury doubt: Smalling is out for a third straight game. Vitória side: William Gomes is reported as doubtful or on restricted training, and goalkeeper Gui is recovering from a knee injury (Lucas Furtado is in the predicted XI). I found no official XIs or Farioli's pre-match press conference quotes for this game, despite two extended searches plus ESPN's API and Portuguese sites. Other checks: not a derby (Porto are leaders with 10 wins from 10; Vitória are 13th on 9 points), and I found no sacking or appointment in the last 14 days. The Polymarket Porto-win price was flat over 24h (0.615 to 0.625), so there is no unexplained move. The fixture is verified: Estádio D. Afonso Henriques, Sun 8 Nov, 18:00 UTC. Market context: DraftKings Porto -180, draw +320, Vitória +450.",
+      "main_risk": "A draw or upset after Porto's Champions League night, with fullback and striker rotation unresolved and Smalling missing. Vitória are 13th, but they have drawn 0-0 away at Gil Vicente and Porto's rival picks are unconfirmed.",
+      "sources": [
+        "https://sapo.pt/artigo/vitoria-sc-x-fc-porto-antevisao-ausencias-e-onzes-provaveis-6aefb4b9c4d2d56a523ad9fa",
+        "https://www.fcporto.ws/onze-provavel-fc-porto-vitoria-sc-08-11-2026/",
+        "https://observador.pt/prognosticos/prognostico-vitoria-sc-fc-porto-08-11/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1256945",
+      "exclude": true,
+      "confidence": "medium",
+      "p": {
+        "home": 0.17,
+        "draw": 0.22,
+        "away": 0.61
+      },
+      "checks": {
+        "team_news": "Palace out: Sarr (groin, not back until after the November international break per Sage), Tomiyasu (calf), Chadi Riad (knee), Mateta suspended (red card v Tottenham); no doubts listed (Sports Mole team news, liverpoolfc.com). Strand Larsen was an unused sub v Hoffenheim after a 3-match absence. Liverpool out: Frimpong (hamstring, 5 games missed), Leoni (ACL), Bradley (knee), Ekitike (Achilles). Gravenberch (heel) is the only doubt; he missed the Fenerbahce and Arsenal games and Iraola's Friday 6 Nov press conference called it day-to-day, a matter of pain. Alisson played in goal v Fenerbahce and no source I read lists him as a doubt.",
+        "lineups": "Sports Mole predicted XIs. Palace: Henderson; Canvot, Disasi, Richards; Khalaili, Wharton, Kamada, Mitchell; Pino, Guessand; Nketiah. Liverpool: Alisson; Araujo, Jacquet, Van Dijk, Kerkez; Szoboszlai, Mac Allister; Gakpo, Wirtz, Barcola; Isak. This Is Anfield headline says 5 changes in the strongest XI, per Sports Mole and This Is Anfield summaries (via search; This Is Anfield page itself returned 403). The two sources agree except for the Szoboszlai v Nyoni midfield question. Neither side has a starting-goalkeeper doubt in any source I read. Gravenberch is not in the predicted XI.",
+        "rotation": "Liverpool: lost 1-0 to Arsenal on Sun 1 Nov and 3-2 at Fenerbahce in the Champions League on Wed 4 Nov (liverpoolfc.com, Sports Mole). They have a 4-day gap. Sports Mole expects Nyoni to be rested for Szoboszlai, which points to a strongest-available side rather than rotation. Iraola talked about using other forwards when Isak tires, not about rotating. I did not find Liverpool's next fixture; the international break follows this round. Palace: played Hoffenheim at HOME at Selhurst Park on Thu 5 Nov in the Europa League, 1-1 (Sports Mole), not away as the other source said. The 3-day turnaround is a fatigue/rotation factor for Palace, but their predicted XI barely differs from the Hoffenheim XI, and Palace are the underdog.",
+        "motivation": "Liverpool are 6th on 15 points after two defeats; Iraola said they must react. Palace are 18th on 7 points with the most goals conceded (21), and Sage is under pressure. Both sides have plenty to play for. Not a derby. Iraola was appointed 4 June 2026 and Sage in June, so there is no manager change in the last 14 days.",
+        "form": "Liverpool PL form D W L W W L, away they scored 2+ in 5 of 6 league games (Football Whispers). Palace PL form L D W L L L, failed to score in their last 3 league games, and drew 1-1 with Hoffenheim in the Europa League (late equaliser). Palace have conceded the most goals in the league (21). I found no xG figures in the sources I read.",
+        "h2h": "Palace won 2-1 at Selhurst Park in September 2025. Liverpool had won 10 of their previous 11 visits to Selhurst before that. Liverpool beat Palace 3-1 at Anfield on 25 April 2026 (Sports Mole, liverpoolfc.com).",
+        "odds": "DraftKings via ESPN: Liverpool -175 (1.57), draw +350 (4.50), Palace +425 (5.25). De-vigged: home 0.181, draw 0.212, away 0.607. Football Whispers: Liverpool 4/7 (1.57). Polymarket: Palace 0.165, draw 0.215, Liverpool 0.625. Polymarket 24h move: Liverpool 0.615-0.625 and Palace flat at 0.165, so no move of 5% or more. I did not reach Stake or Rainbet.",
+        "models": "Sports Mole predicts Palace 0-2 Liverpool. Football Whispers predicts Palace 0-2 Liverpool. I did not find Opta or ClubElo figures. The odds-derived and Polymarket probabilities agree closely.",
+        "venue_weather": "Selhurst Park, Sun 8 Nov 2026, 14:00 UTC (ESPN scoreboard and Sports Mole confirm the fixture). Ordinary venue. I did not check the weather."
+      },
+      "reason": "Excluded on review (agent proposed keep, medium), for consistency with earlier calls (Dortmund on 7 Nov, Guirassy). Rules applied: (1) a likely starter is doubtful: Gravenberch (heel) missed the last two games and Iraola called him day-to-day on Friday; (2) sources report the XI differently: the two lineup sources disagree on Szoboszlai or Nyoni in midfield, and a This Is Anfield headline mentions 5 changes, which could not be read (403) and so is unresolved. Agent research for reference: Stage 1 passed: not a derby, no recent manager change, no unexplained price move, and no goalkeeper doubt or heavy rotation expected for Liverpool. The pick is Liverpool at 61% with a 22% draw, so a straight win is allowed (draw is 25% or less). Market sources and Polymarket agree. The case is helped by Palace being 18th with a leaky defence, no Mateta or Sarr, and a Thursday European game. The case is held back by Liverpool's two straight defeats, Gravenberch doubt, and Palace winning this fixture last season. Draw no bet (fair 1.26) or double chance (fair 1.20) are the safer options than the win (1.60) if the slip needs one.",
+      "main_risk": "A draw or Palace win after Liverpool's two straight defeats (1-0 v Arsenal, 3-2 at Fenerbahce) with a stretched midfield (Gravenberch doubtful); Palace beat them 2-1 at Selhurst in Sept 2025 and are desperate for points under Sage.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/crystal-palace/top-four-race/preview/crystal-palace-vs-liverpool-prediction-team-news-lineups_608590.html",
+        "https://www.sportsmole.co.uk/football/crystal-palace/injury-news/team-news/palace-vs-liverpool-injury-suspension-list-predicted-xis_608663.html",
+        "https://www.liverpoolfc.com/news/crystal-palace-liverpool-team-news-premier-league",
+        "https://footballwhispers.com/blog/crystal-palace-vs-liverpool-prediction-preview-08-11-2026/",
+        "https://www.thisisanfield.com/2026/11/liverpool-predicted-xi-vs-crystal-palace/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261108"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1256995",
+      "exclude": true,
+      "reason": "Rule: likely starters doubtful and sources disagree. Sports Mole (preview for Sun 8 Nov 2026, 6:30pm, SNP Arena) lists Hoffenheim's Vladimir Coufal (thigh) and Adam Hlozek (muscle) as doubts whose fitness will be checked closer to kick-off. A second preview (via search summary of the Comunio, Tipico and OneFootball previews) says one source calls them doubtful and another says they could return, and the predicted XIs differ (Lemperle vs Prass vs Kramaric up front). Hoffenheim are also missing at least six players (Hajdari, Hranac, Gendrey, Conte, De Cat, Wimmer; other previews also name Moerstedt). Fatigue and rotation risk: Hoffenheim played in Europe on Thursday 5 Nov (1-1 home draw with Crystal Palace in the Europa League, conceded a 91st-minute equaliser), after a 0-2 loss at Werder Bremen and a DFB-Pokal penalty-shootout exit to Holstein Kiel. Previews describe both sides as in the lower third of the table. The Friday press conferences (Ilzer, Muslic) did not confirm the Hoffenheim XI. Schalke also have doubts (Bachmann, Schallenberg; Gantenbein and Woeber out) and have scored in none of their last four games, which raises draw risk. The Polymarket 1X2 price history was not checked. The ESPN scoreboard call returned no usable data in the time spent. Official XIs are not yet confirmed.",
+      "main_risk": "Draw or upset: Hoffenheim are short of players, coming off a Thursday Europa League game, with two likely starters in doubt, against a Schalke side expected to defend and draw (Hoffenheim conceded a 91st-minute equaliser in Europe and lost 0-2 at Bremen).",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/hoffenheim/preview/hoffenheim-vs-schalke-prediction-team-news-lineups_608641.html",
+        "https://magazin.comunio.de/tsg-hoffenheim-fc-schalke-04-voraussichtliche-aufstellungen-2/",
+        "https://onefootball.com/en/news/hoffenheim-v-schalke-as-bundesliga-strugglers-close-matchday-nine-43739665"
+      ],
+      "prices": []
+    }
+  ]
+}

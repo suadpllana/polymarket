@@ -1,0 +1,358 @@
+{
+  "date": "2026-11-08",
+  "window": {
+    "start": "2026-11-08T08:21:09.058Z",
+    "end": "2026-11-09T05:00:00.000Z"
+  },
+  "games_in_window": 42,
+  "games": [
+    {
+      "id": "1259882",
+      "league": "Süper Lig",
+      "event": "Beşiktaş JK vs. Gençlerbirliği SK",
+      "home": "Beşiktaş JK",
+      "away": "Gençlerbirliği SK",
+      "start": "2026-11-08T18:00:00.000Z",
+      "p_market": {
+        "home": 0.8136,
+        "draw": 0.1229,
+        "away": 0.0635
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Beşiktaş JK",
+          "fair_odds": 1.23
+        }
+      ]
+    },
+    {
+      "id": "1260175",
+      "league": "Primeira Liga",
+      "event": "CF Estrela da Amadora vs. Sport Lisboa e Benfica",
+      "home": "CF Estrela da Amadora",
+      "away": "Sport Lisboa e Benfica",
+      "start": "2026-11-08T20:30:00.000Z",
+      "p_market": {
+        "home": 0.0765,
+        "draw": 0.127,
+        "away": 0.7964
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Sport Lisboa e Benfica",
+          "fair_odds": 1.26
+        }
+      ]
+    },
+    {
+      "id": "1259456",
+      "league": "Eredivisie",
+      "event": "SC Cambuur-Leeuwarden vs. PSV",
+      "home": "SC Cambuur-Leeuwarden",
+      "away": "PSV",
+      "start": "2026-11-08T15:45:00.000Z",
+      "p_market": {
+        "home": 0.1333,
+        "draw": 0.1632,
+        "away": 0.7035
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "PSV",
+          "fair_odds": 1.42
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "PSV",
+          "fair_odds": 1.19
+        }
+      ]
+    },
+    {
+      "id": "1307868",
+      "league": "Belgian Pro League",
+      "event": "KAA Gent vs. KV Kortrijk",
+      "home": "KAA Gent",
+      "away": "KV Kortrijk",
+      "start": "2026-11-08T15:00:00.000Z",
+      "p_market": {
+        "home": 0.6834,
+        "draw": 0.1931,
+        "away": 0.1235
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "KAA Gent",
+          "fair_odds": 1.46
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "KAA Gent",
+          "fair_odds": 1.18
+        }
+      ]
+    },
+    {
+      "id": "1257545",
+      "league": "La Liga",
+      "event": "Villarreal CF vs. Getafe CF",
+      "home": "Villarreal CF",
+      "away": "Getafe CF",
+      "start": "2026-11-08T17:30:00.000Z",
+      "p_market": {
+        "home": 0.6734,
+        "draw": 0.2031,
+        "away": 0.1235
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Villarreal CF",
+          "fair_odds": 1.49
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Villarreal CF",
+          "fair_odds": 1.18
+        }
+      ]
+    },
+    {
+      "id": "1256976",
+      "league": "Bundesliga",
+      "event": "SC Freiburg vs. 1. FC Union Berlin",
+      "home": "SC Freiburg",
+      "away": "1. FC Union Berlin",
+      "start": "2026-11-08T16:30:00.000Z",
+      "p_market": {
+        "home": 0.6634,
+        "draw": 0.1932,
+        "away": 0.1434
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "SC Freiburg",
+          "fair_odds": 1.51
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "SC Freiburg",
+          "fair_odds": 1.22
+        }
+      ]
+    },
+    {
+      "id": "1295144",
+      "league": "Belgian Pro League",
+      "event": "Club Brugge vs. RSC Anderlecht",
+      "home": "Club Brugge",
+      "away": "RSC Anderlecht",
+      "start": "2026-11-08T12:30:00.000Z",
+      "p_market": {
+        "home": 0.6466,
+        "draw": 0.1968,
+        "away": 0.1566
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Club Brugge",
+          "fair_odds": 1.55
+        },
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Club Brugge or Draw",
+          "fair_odds": 1.19
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Club Brugge",
+          "fair_odds": 1.24
+        }
+      ]
+    },
+    {
+      "id": "1259464",
+      "league": "Eredivisie",
+      "event": "AZ vs. FC Groningen",
+      "home": "AZ",
+      "away": "FC Groningen",
+      "start": "2026-11-08T15:45:00.000Z",
+      "p_market": {
+        "home": 0.645,
+        "draw": 0.195,
+        "away": 0.16
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "AZ",
+          "fair_odds": 1.55
+        },
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "AZ or Draw",
+          "fair_odds": 1.19
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "AZ",
+          "fair_odds": 1.25
+        }
+      ]
+    },
+    {
+      "id": "1260179",
+      "league": "Primeira Liga",
+      "event": "Rio Ave FC vs. SC Braga",
+      "home": "Rio Ave FC",
+      "away": "SC Braga",
+      "start": "2026-11-08T20:30:00.000Z",
+      "p_market": {
+        "home": 0.1534,
+        "draw": 0.2132,
+        "away": 0.6334
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "SC Braga",
+          "fair_odds": 1.58
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "SC Braga or Draw",
+          "fair_odds": 1.18
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "SC Braga",
+          "fair_odds": 1.24
+        }
+      ]
+    },
+    {
+      "id": "1260171",
+      "league": "Primeira Liga",
+      "event": "Vitória SC vs. FC Porto",
+      "home": "Vitória SC",
+      "away": "FC Porto",
+      "start": "2026-11-08T18:00:00.000Z",
+      "p_market": {
+        "home": 0.1566,
+        "draw": 0.2168,
+        "away": 0.6266
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "FC Porto",
+          "fair_odds": 1.6
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "FC Porto or Draw",
+          "fair_odds": 1.19
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "FC Porto",
+          "fair_odds": 1.25
+        }
+      ]
+    },
+    {
+      "id": "1256945",
+      "league": "Premier League",
+      "event": "Crystal Palace FC vs. Liverpool FC",
+      "home": "Crystal Palace FC",
+      "away": "Liverpool FC",
+      "start": "2026-11-08T14:00:00.000Z",
+      "p_market": {
+        "home": 0.1634,
+        "draw": 0.2132,
+        "away": 0.6234
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Liverpool FC",
+          "fair_odds": 1.6
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Liverpool FC or Draw",
+          "fair_odds": 1.2
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "Liverpool FC",
+          "fair_odds": 1.26
+        }
+      ]
+    },
+    {
+      "id": "1256995",
+      "league": "Bundesliga",
+      "event": "TSG 1899 Hoffenheim vs. FC Schalke 04",
+      "home": "TSG 1899 Hoffenheim",
+      "away": "FC Schalke 04",
+      "start": "2026-11-08T18:30:00.000Z",
+      "p_market": {
+        "home": 0.6066,
+        "draw": 0.2168,
+        "away": 0.1766
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "TSG 1899 Hoffenheim",
+          "fair_odds": 1.65
+        },
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "TSG 1899 Hoffenheim or Draw",
+          "fair_odds": 1.21
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "TSG 1899 Hoffenheim",
+          "fair_odds": 1.29
+        }
+      ]
+    }
+  ]
+}
