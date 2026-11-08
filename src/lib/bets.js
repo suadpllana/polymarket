@@ -93,7 +93,13 @@ export function legFromScore(leg) {
   if (ou) {
     const line = Number(ou[2]);
     const total = h + a;
-    if (line % 0.5 !== 0 || line % 1 === 0.25 || line % 1 === 0.75) return null;
+    // Asian quarter lines (2.25, 2.75) split the stake across two lines; the
+    // result is only a plain win or loss when the total is clear of both.
+    if (line % 1 === 0.25 || line % 1 === 0.75) {
+      if (Math.abs(total - line) <= 0.25) return null;
+      return (ou[1].toLowerCase() === 'over') === total > line ? 'won' : 'lost';
+    }
+    if (line % 0.5 !== 0) return null;
     if (total === line) return 'void';
     return (ou[1].toLowerCase() === 'over') === total > line ? 'won' : 'lost';
   }
