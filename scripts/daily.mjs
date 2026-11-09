@@ -116,6 +116,7 @@ async function buildToday(date, { force = false } = {}) {
     .map((l) => ({
       game_id: l.game.id,
       league: l.game.league,
+      extended: Boolean(l.game.extended),
       event: l.game.event,
       home: l.game.home,
       away: l.game.away,
@@ -151,7 +152,14 @@ async function buildToday(date, { force = false } = {}) {
     generated_at: new Date().toISOString(),
     ...base,
     tier,
-    tier_note: TIER_NOTE[tier],
+    tier_note: [
+      TIER_NOTE[tier],
+      legsOut.some((l) => l.extended)
+        ? 'Few games in the usual leagues today (often an international break), so this slip uses games from other competitions.'
+        : '',
+    ]
+      .filter(Boolean)
+      .join(' '),
     target_odds: SLIP.target,
     odds: round(legsOut.reduce((o, l) => o * l.odds, 1), 2),
     p_hit: round(slip.p_hit, 4),
@@ -173,9 +181,15 @@ async function main() {
   const history = await loadHistory(process.env.SITE_URL);
   await settleOpen(history.entries);
 
-  if (!history.entries.some((e) => e.date === today)) {
+  // A real slip is final for the day; a "No bet" is retried on every run, so
+  // games added later (or a late research push) can still produce a slip.
+  const existing = history.entries.find((e) => e.date === today);
+  if (!existing || existing.no_bet) {
     try {
-      history.entries.push(await buildToday(today));
+      const entry = await buildToday(today);
+      if (!existing) history.entries.push(entry);
+      else if (!entry.no_bet) history.entries[history.entries.indexOf(existing)] = entry;
+      else console.log('Still no bet today.');
     } catch (e) {
       console.warn(`No slip this run: ${e.message}`);
     }

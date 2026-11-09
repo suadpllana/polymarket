@@ -19,8 +19,12 @@ is no market to price them or settle them, so never propose them.
    Saudi Pro League, Belgian Pro League, Brasileirão, Nations League) that
    have a leg between 1.18 and 1.90. Each game lists `legs_in_range`: every
    result, goals, both-teams-to-score, handicap and team-goals leg in range,
-   with its `key` and market probability `p_market`. Domestic cups are never
-   listed.
+   with its `key` and market probability `p_market`. Domestic cups are not
+   listed on normal days. On thin days (fewer than 6 games in those leagues,
+   e.g. an international break) the list also includes every other football
+   competition on Polymarket (second divisions, cups, South American and
+   other leagues); research them the same way, and check rotation in cups
+   with extra care. Always commit the research, even on a thin day.
 2. Research the games in **batches of 4**, one subagent per game (use the
    Sonnet model for subagents), following "How to research cheaply without
    losing quality" below. Every *kept* game still gets every checklist item

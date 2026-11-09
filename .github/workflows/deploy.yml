@@ -1,10 +1,10 @@
 name: Daily parlay
 
 on:
-  # Every 2 hours: settles finished slips and builds today's slip once the
+  # Every hour (GitHub often skips scheduled runs, so more chances help): settles finished slips and builds today's slip once the
   # morning research is in. The research task's push to main also triggers a run.
   schedule:
-    - cron: '40 */2 * * *'
+    - cron: '23 * * * *'
   push:
   workflow_dispatch:
 

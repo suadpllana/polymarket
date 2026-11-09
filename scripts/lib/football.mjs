@@ -38,6 +38,14 @@ export const BOOK_MARGIN = 0.03;
 export const MIN_LEG_P = 0.6;
 /** A straight "to win" leg needs a low draw chance; otherwise only DNB / double chance. */
 export const MAX_DRAW_FOR_WIN = 0.25;
+/**
+ * With fewer games than this in the usual leagues (international breaks,
+ * quiet Mondays), every other football competition Polymarket lists is used
+ * too, so there is still a slip.
+ */
+export const MIN_MAIN_GAMES = 6;
+/** Polymarket's tag on every football competition. */
+const SOCCER_TAG = '100350';
 /** Games researched per day, strongest favourites first. */
 export const POOL_SIZE = 16;
 const MIN_LIQUIDITY = 1000;
@@ -109,7 +117,7 @@ export function round(x, digits = 2) {
 }
 
 /** One football game with de-vigged 1X2 probabilities, or null. */
-export function gameFromEvent(event, code) {
+export function gameFromEvent(event, code, name) {
   const markets = (event.markets || []).filter((m) => isOpen(m) && isMoneyline(m) && isYesNo(parseArray(m.outcomes)));
   if (markets.length !== 3) return null;
   const draw = markets.find((m) => /draw/i.test(`${m.groupItemTitle || ''} ${m.question || ''}`));
@@ -125,7 +133,8 @@ export function gameFromEvent(event, code) {
   return {
     id: String(event.id),
     slug: event.slug || '',
-    league: LEAGUES[code],
+    league: LEAGUES[code] || name || code,
+    extended: !LEAGUES[code],
     event: clean(event.title),
     home: teamName(home),
     away: teamName(away),
@@ -232,34 +241,57 @@ export function inRange(leg) {
   return leg.fair_odds_exact >= LEG_ODDS.min && leg.fair_odds_exact <= LEG_ODDS.max;
 }
 
-/** Football games starting inside the window, from every league we cover. */
+async function gamesFromSeries(s, window) {
+  const out = [];
+  const events = await fetchSeriesEvents(s.series, window.start);
+  for (const ev of events) {
+    const g = gameFromEvent(ev, s.sport, s.name);
+    if (!g) continue;
+    const t = new Date(g.start);
+    if (t < window.start || t > window.end) continue;
+    try {
+      g.extras = extraMarkets(g, await fetchEventBySlug(`${ev.slug}-more-markets`));
+    } catch (e) {
+      g.extras = [];
+      console.error(`${g.event}: no extra markets (${e.message})`);
+    }
+    out.push(g);
+  }
+  console.error(`${s.sport}: ${events.length} open events, ${out.length} games in window`);
+  return out;
+}
+
+/**
+ * Football games starting inside the window from the usual leagues; when
+ * those have fewer than MIN_MAIN_GAMES, from every football competition on
+ * Polymarket (flagged `extended`).
+ */
 export async function gatherGames(window) {
   const sports = await fetchSports();
   if (!sports.length) throw new Error('Polymarket returned no sports list');
   const games = [];
-  for (const s of sports) {
-    if (!LEAGUES[s.sport] || !s.series) continue;
+  for (const s of sports.filter((x) => LEAGUES[x.sport] && x.series)) {
     try {
-      const events = await fetchSeriesEvents(s.series, window.start);
-      let n = 0;
-      for (const ev of events) {
-        const g = gameFromEvent(ev, s.sport);
-        if (!g) continue;
-        const t = new Date(g.start);
-        if (t < window.start || t > window.end) continue;
-        try {
-          g.extras = extraMarkets(g, await fetchEventBySlug(`${ev.slug}-more-markets`));
-        } catch (e) {
-          g.extras = [];
-          console.error(`${g.event}: no extra markets (${e.message})`);
-        }
-        games.push(g);
-        n++;
-      }
-      console.error(`${s.sport}: ${events.length} open events, ${n} games in window`);
+      games.push(...(await gamesFromSeries(s, window)));
     } catch (e) {
       console.error(`${s.sport}: ${e.message}`);
     }
+  }
+  if (games.length >= MIN_MAIN_GAMES) return games;
+
+  console.error(`Only ${games.length} games in the usual leagues; adding every other football competition.`);
+  const others = sports.filter((x) => !LEAGUES[x.sport] && x.series && String(x.tags || '').split(',').includes(SOCCER_TAG));
+  // A few at a time: there are dozens of competitions.
+  for (let i = 0; i < others.length; i += 6) {
+    const batch = await Promise.all(
+      others.slice(i, i + 6).map((s) =>
+        gamesFromSeries(s, window).catch((e) => {
+          console.error(`${s.sport}: ${e.message}`);
+          return [];
+        })
+      )
+    );
+    games.push(...batch.flat());
   }
   return games;
 }
@@ -268,6 +300,7 @@ export async function gatherGames(window) {
 export function researchPool(games, size = POOL_SIZE) {
   return games
     .filter((g) => marketLegs(g).some(inRange))
-    .sort((a, b) => Math.max(b.p_market.home, b.p_market.away) - Math.max(a.p_market.home, a.p_market.away))
+    // The usual leagues first, then the strongest favourites.
+    .sort((a, b) => Number(a.extended) - Number(b.extended) || Math.max(b.p_market.home, b.p_market.away) - Math.max(a.p_market.home, a.p_market.away))
     .slice(0, size);
 }
