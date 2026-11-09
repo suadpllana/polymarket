@@ -57,7 +57,8 @@ function clampShift(researched, morning) {
 /** Live probabilities plus the research shift, renormalised. */
 export function applyShift(live, shift) {
   const raw = {};
-  for (const k of ['home', 'draw', 'away']) raw[k] = Math.min(0.97, Math.max(0.01, live[k] + shift[k]));
+  // Two-way sports have no draw; keep it at zero.
+  for (const k of ['home', 'draw', 'away']) raw[k] = live[k] === 0 ? 0 : Math.min(0.97, Math.max(0.01, live[k] + shift[k]));
   const sum = raw.home + raw.draw + raw.away;
   return { home: raw.home / sum, draw: raw.draw / sum, away: raw.away / sum };
 }

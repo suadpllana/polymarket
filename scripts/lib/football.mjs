@@ -28,6 +28,41 @@ export const LEAGUES = {
   unl: 'Nations League',
 };
 
+/**
+ * Other sports, bet on the two-way winner market (overtime and shootouts
+ * included, as Polymarket settles them). Top competitions only.
+ */
+export const OTHER_SPORTS = {
+  nba: { name: 'NBA', kind: 'basketball' },
+  euroleague: { name: 'EuroLeague', kind: 'basketball' },
+  bkeurocup: { name: 'EuroCup', kind: 'basketball' },
+  bkcl: { name: 'Basketball Champions League', kind: 'basketball' },
+  nhl: { name: 'NHL', kind: 'ice_hockey' },
+  khl: { name: 'KHL', kind: 'ice_hockey' },
+  shl: { name: 'SHL', kind: 'ice_hockey' },
+  liiga: { name: 'Liiga', kind: 'ice_hockey' },
+  dehl: { name: 'DEL', kind: 'ice_hockey' },
+  nfl: { name: 'NFL', kind: 'american_football' },
+  mlb: { name: 'MLB', kind: 'baseball' },
+  atp: { name: 'ATP Tour', kind: 'tennis' },
+  wta: { name: 'WTA Tour', kind: 'tennis' },
+  ufc: { name: 'UFC', kind: 'mma' },
+  cs2: { name: 'CS2', kind: 'esports' },
+  lol: { name: 'League of Legends', kind: 'esports' },
+  val: { name: 'Valorant', kind: 'esports' },
+  dota2: { name: 'Dota 2', kind: 'esports' },
+};
+// Polymarket's ATP/WTA lists mix tour events with Challengers and ITFs, which
+// carry bare city names ("Monastir: A vs B", "Brisbane 3: …"). Tour-level
+// events are named ("BNP Paribas Nordic Open", "WTA Finals, Group A").
+const TENNIS_TOUR = /\b(open|masters|finals?|championships?|cup|classic|international|grand prix|wimbledon|roland|garros|slam|united cup|laver)\b/i;
+const TENNIS_LOWER_TIER = /challenger|\bitf\b|^[^:]*\b\d+\s*:/i;
+// Tier-1 esports only, best-of-three or longer.
+const ESPORTS_TIER1 = /\b(blast|iem|intel extreme|esl pro league|esl one|pgl|major|esports world cup|ewc|worlds|msi|lck|lpl|lec|lcs|lta|first stand|vct|valorant champions|masters|dreamleague|the international|riyadh)\b/i;
+const ESPORTS_LOWER = /challenger|cct|esea|united21|division 2|promotion|academy|qualifier|open qualifier|\bbo\s?1\b|best of 1\b/i;
+// Thin European basketball and hockey books are common; below this a price means little.
+const OTHER_MIN_LIQUIDITY = 1000;
+
 /** Fair-odds range for a single leg worth researching. */
 export const LEG_ODDS = { min: 1.18, max: 1.9 };
 /** The slip: exactly two legs from two games, combined (Stake) odds near 2.0. */
@@ -134,6 +169,7 @@ export function gameFromEvent(event, code, name) {
     id: String(event.id),
     slug: event.slug || '',
     league: LEAGUES[code] || name || code,
+    sport: 'football',
     extended: !LEAGUES[code],
     event: clean(event.title),
     home: teamName(home),
@@ -144,12 +180,60 @@ export function gameFromEvent(event, code, name) {
   };
 }
 
+/** One two-way game (tennis, basketball, hockey, esports...), or null. */
+export function twoWayGameFromEvent(event, code) {
+  const sport = OTHER_SPORTS[code];
+  if (!sport) return null;
+  const title = clean(event.title);
+  if (sport.kind === 'tennis') {
+    const event = title.split(':')[0];
+    if (TENNIS_LOWER_TIER.test(event) || !TENNIS_TOUR.test(event)) return null;
+  }
+  if (sport.kind === 'esports' && (ESPORTS_LOWER.test(title) || !ESPORTS_TIER1.test(title))) return null;
+  const m = (event.markets || []).find((mk) => {
+    const outcomes = parseArray(mk.outcomes);
+    return isOpen(mk) && isMoneyline(mk) && outcomes.length === 2 && !isYesNo(outcomes);
+  });
+  if (!m || liquidity(m) < OTHER_MIN_LIQUIDITY) return null;
+  const p0 = price0(m);
+  if (!(p0 > 0 && p0 < 1)) return null;
+  const start = eventStart(event);
+  if (!start) return null;
+  const [home, away] = parseArray(m.outcomes).map(clean);
+  return {
+    id: String(event.id),
+    slug: event.slug || '',
+    league: sport.name,
+    sport: sport.kind,
+    twoWay: true,
+    extended: false,
+    event: title,
+    home,
+    away,
+    start: start.toISOString(),
+    // A binary book: the two sides are one market, so there is no margin to remove.
+    p_market: { home: round(p0, 4), draw: 0, away: round(1 - p0, 4) },
+    refs: { market: String(m.id) },
+    extras: [],
+  };
+}
+
 /**
  * Every leg of a game, given 1X2 probabilities p = {home, draw, away}.
  * p_win pays the odds, p_void returns the stake (draw no bet on a draw).
  */
 export function legsFor(game, p) {
   const { home, away } = game;
+  if (game.twoWay) {
+    const label = game.sport === 'esports' || game.sport === 'tennis' || game.sport === 'mma' ? 'Match winner' : 'Moneyline';
+    return [
+      { key: 'home', selection: home, p_win: p.home, settle: { won: [`${game.refs.market}#0`], void: [], lost: [`${game.refs.market}#1`] } },
+      { key: 'away', selection: away, p_win: p.away, settle: { won: [`${game.refs.market}#1`], void: [], lost: [`${game.refs.market}#0`] } },
+    ].map((l) => {
+      const fair = 1 / l.p_win;
+      return { ...l, label, p_void: 0, fair_odds_exact: fair, fair_odds: round(fair, 2), est_odds: round(fair * (1 - BOOK_MARGIN), 2) };
+    });
+  }
   const legs = [
     { key: 'home', label: 'Match winner', selection: home, p_win: p.home, p_void: 0, won: ['home'], void: [], lost: ['draw', 'away'] },
     { key: 'away', label: 'Match winner', selection: away, p_win: p.away, p_void: 0, won: ['away'], void: [], lost: ['draw', 'home'] },
@@ -245,10 +329,14 @@ async function gamesFromSeries(s, window) {
   const out = [];
   const events = await fetchSeriesEvents(s.series, window.start);
   for (const ev of events) {
-    const g = gameFromEvent(ev, s.sport, s.name);
+    const g = OTHER_SPORTS[s.sport] ? twoWayGameFromEvent(ev, s.sport) : gameFromEvent(ev, s.sport, s.name);
     if (!g) continue;
     const t = new Date(g.start);
     if (t < window.start || t > window.end) continue;
+    if (g.twoWay) {
+      out.push(g);
+      continue;
+    }
     try {
       g.extras = extraMarkets(g, await fetchEventBySlug(`${ev.slug}-more-markets`));
     } catch (e) {
@@ -270,17 +358,19 @@ export async function gatherGames(window) {
   const sports = await fetchSports();
   if (!sports.length) throw new Error('Polymarket returned no sports list');
   const games = [];
-  for (const s of sports.filter((x) => LEAGUES[x.sport] && x.series)) {
+  // Football's usual leagues and every other sport we cover.
+  for (const s of sports.filter((x) => (LEAGUES[x.sport] || OTHER_SPORTS[x.sport]) && x.series)) {
     try {
       games.push(...(await gamesFromSeries(s, window)));
     } catch (e) {
       console.error(`${s.sport}: ${e.message}`);
     }
   }
-  if (games.length >= MIN_MAIN_GAMES) return games;
+  const football = games.filter((g) => g.sport === 'football').length;
+  if (football >= MIN_MAIN_GAMES) return games;
 
-  console.error(`Only ${games.length} games in the usual leagues; adding every other football competition.`);
-  const others = sports.filter((x) => !LEAGUES[x.sport] && x.series && String(x.tags || '').split(',').includes(SOCCER_TAG));
+  console.error(`Only ${football} football games in the usual leagues; adding every other football competition.`);
+  const others = sports.filter((x) => !LEAGUES[x.sport] && !OTHER_SPORTS[x.sport] && x.series && String(x.tags || '').split(',').includes(SOCCER_TAG));
   // A few at a time: there are dozens of competitions.
   for (let i = 0; i < others.length; i += 6) {
     const batch = await Promise.all(
@@ -300,7 +390,7 @@ export async function gatherGames(window) {
 export function researchPool(games, size = POOL_SIZE) {
   return games
     .filter((g) => marketLegs(g).some(inRange))
-    // The usual leagues first, then the strongest favourites.
+    // Usual football leagues and other top sports first, then the strongest favourites.
     .sort((a, b) => Number(a.extended) - Number(b.extended) || Math.max(b.p_market.home, b.p_market.away) - Math.max(a.p_market.home, a.p_market.away))
     .slice(0, size);
 }

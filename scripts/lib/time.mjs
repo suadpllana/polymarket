@@ -44,22 +44,30 @@ export function zonedToUtc(year, month, day, hour, minute, tz = TIMEZONE) {
   return new Date(guess);
 }
 
+/** Every leg must start before this local time, so the slip is over before bed. */
+export const LAST_KICKOFF = { hour: 23, minute: 0 };
+/** Look-ahead windows (a day with nothing left) start no earlier than this. */
+export const FIRST_KICKOFF_HOUR = 9;
+
+function localDay(now, tz, addDays) {
+  const p = zonedParts(now, tz);
+  const d = new Date(Date.UTC(p.year, p.month - 1, p.day + addDays));
+  return [d.getUTCFullYear(), d.getUTCMonth() + 1, d.getUTCDate()];
+}
+
 /**
- * Betting window from the analyst rules: events starting at least 90 minutes
- * from now, up to 06:00 local the next morning (so North American evening
- * games are included).
+ * Today's betting window: games starting at least 90 minutes from now and
+ * before 23:00 Belgrade.
  */
 export function bettingWindow(now = new Date(), tz = TIMEZONE) {
   const start = new Date(now.getTime() + 90 * 60 * 1000);
-  const p = zonedParts(now, tz);
-  const tomorrow = new Date(Date.UTC(p.year, p.month - 1, p.day + 1));
-  const end = zonedToUtc(
-    tomorrow.getUTCFullYear(),
-    tomorrow.getUTCMonth() + 1,
-    tomorrow.getUTCDate(),
-    6,
-    0,
-    tz
-  );
+  const end = zonedToUtc(...localDay(now, tz, 0), LAST_KICKOFF.hour, LAST_KICKOFF.minute, tz);
   return { start, end };
+}
+
+/** Tomorrow from 09:00 to 23:00 Belgrade, for days with nothing usable left. */
+export function tomorrowWindow(now = new Date(), tz = TIMEZONE) {
+  const day = localDay(now, tz, 1);
+  const start = new Date(Math.max(now.getTime() + 90 * 60 * 1000, zonedToUtc(...day, FIRST_KICKOFF_HOUR, 0, tz).getTime()));
+  return { start, end: zonedToUtc(...day, LAST_KICKOFF.hour, LAST_KICKOFF.minute, tz) };
 }

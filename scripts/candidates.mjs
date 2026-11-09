@@ -22,6 +22,7 @@ const out = {
   games: pool.map((g) => ({
     id: g.id,
     league: g.league,
+    sport: g.sport,
     event: g.event,
     home: g.home,
     away: g.away,

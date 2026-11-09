@@ -15,7 +15,7 @@ import { SLIP, gatherGames, round } from './lib/football.mjs';
 import { fetchMarket, parseArray } from './lib/polymarket.mjs';
 import { TIER_NOTE, describe, pickSlip } from './lib/pick.mjs';
 import { loadResearch } from './lib/research.mjs';
-import { TIMEZONE, bettingWindow, localDate, zonedParts } from './lib/time.mjs';
+import { TIMEZONE, bettingWindow, localDate, tomorrowWindow, zonedParts } from './lib/time.mjs';
 
 // Until this hour the build waits for the morning research; after it, the
 // day gets a market-priced slip rather than none.
@@ -97,13 +97,12 @@ async function buildToday(date, { force = false } = {}) {
   const window = bettingWindow();
   let games = await gatherGames(window);
   let { slip, tier, skipped } = pickSlip(games, research);
-  // Nothing usable left today (late in the day, or no football at all): take
-  // games from the next 24 hours too, so the day still has a slip.
+  // Nothing usable left before 23:00 today: take tomorrow's games (09:00 to
+  // 23:00), so the day still has a slip.
   let lookahead = false;
   if (!slip) {
-    const wider = { start: window.start, end: new Date(window.end.getTime() + 24 * 60 * 60 * 1000) };
-    console.log('No slip in today’s window; looking 24 hours further ahead.');
-    games = await gatherGames(wider);
+    console.log('No slip before 23:00 today; using tomorrow’s games.');
+    games = await gatherGames(tomorrowWindow());
     ({ slip, tier, skipped } = pickSlip(games, research));
     lookahead = Boolean(slip);
   }
@@ -118,7 +117,7 @@ async function buildToday(date, { force = false } = {}) {
   };
   // Only possible when fewer than two football games with a market exist on
   // Polymarket in the next day and a half.
-  if (!slip) return noBet(date, `Fewer than two football games with a usable market are on Polymarket in the next 36 hours (${games.length} found).`, base);
+  if (!slip) return noBet(date, `Fewer than two games with a usable market start before 23:00 today or tomorrow (${games.length} found).`, base);
 
   console.log(`Tier: ${tier}`);
   console.log(describe(slip));
@@ -168,7 +167,7 @@ async function buildToday(date, { force = false } = {}) {
       legsOut.some((l) => l.extended)
         ? 'Few games in the usual leagues today (often an international break), so this slip uses games from other competitions.'
         : '',
-      lookahead ? 'No usable games were left in today’s window, so this slip includes games from the next 24 hours; check the kick-off times.' : '',
+      lookahead ? 'Nothing usable was left before 23:00 today, so this slip uses tomorrow’s games; check the kick-off times.' : '',
     ]
       .filter(Boolean)
       .join(' '),

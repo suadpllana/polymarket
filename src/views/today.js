@@ -35,7 +35,7 @@ function legCard(l, i) {
     </div>
     <div class="pick__probs">
       <span>Chance it lands ${pct(l.p_win + (l.p_void || 0))}</span>
-      ${RESULT_KEYS.has(l.key) || !l.key ? `<span>Home ${pct(l.p.home)} · Draw ${pct(l.p.draw)} · Away ${pct(l.p.away)}</span>` : ''}
+      ${RESULT_KEYS.has(l.key) || !l.key ? (l.p.draw ? `<span>Home ${pct(l.p.home)} · Draw ${pct(l.p.draw)} · Away ${pct(l.p.away)}</span>` : `<span>${esc(l.home)} ${pct(l.p.home)} · ${esc(l.away)} ${pct(l.p.away)}</span>`) : ''}
       <span class="conf conf--${esc(l.confidence)}">${l.confidence === 'market' ? 'market price only' : `${esc(l.confidence)} confidence`}</span>
     </div>
     <p class="pick__why">${esc(l.reason)}</p>

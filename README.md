@@ -19,9 +19,11 @@ A small site with three pages:
    [`research/INSTRUCTIONS.md`](research/INSTRUCTIONS.md).
 2. **Build.** That push (and a run every 2 hours) triggers GitHub Actions. It
    applies the research to live Polymarket prices and picks the best pair of
-   legs, aiming for combined odds of 1.85–2.25. Legs can be match winner,
-   double chance, draw no bet, total goals, both teams to score, handicaps or
-   a team's goals. There is a slip every day: when too few games pass the
+   legs, aiming for combined odds of 1.85–2.25, every leg starting before
+   23:00 Belgrade. Any sport: football (match winner, double chance, draw no
+   bet, total goals, both teams to score, handicaps, a team's goals) plus the
+   winner market in top tennis, basketball, ice hockey, NFL, MLB, UFC and
+   tier-1 esports. There is a slip every day: when too few games pass the
    research, the build widens the odds range and then uses market-priced
    legs, and the site says so. If no research arrives by 12:00 Belgrade, the
    slip is market-priced.

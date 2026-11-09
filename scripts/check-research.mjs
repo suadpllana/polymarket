@@ -65,6 +65,7 @@ for (const v of research.games || []) {
     if (!leg || LEG_KEYS.includes(k)) problems.push(`${where}: views.${k} is not a goals/BTTS/handicap leg in legs_in_range`);
     else if (!(Math.abs(Number(val) - leg.p_market) <= MAX_SHIFT + 0.0001)) problems.push(`${where}: views.${k} must be within ±${MAX_SHIFT * 100} points of ${leg.p_market}`);
   }
+  if (g.p_market.draw === 0 && Number(p.draw) !== 0) problems.push(`${where}: a two-way game (no draw) must have p.draw = 0`);
   for (const k of ['home', 'draw', 'away']) {
     const d = Number(p[k]) - g.p_market[k];
     if (!Number.isFinite(d)) problems.push(`${where}: p.${k} must be a number`);

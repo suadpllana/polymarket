@@ -1,21 +1,30 @@
-# Daily research: football only, 2 legs, odds about 2.0
+# Daily research: any sport, 2 legs, odds about 2.0, all before 23:00
 
-Every morning a scheduled Claude Code task researches today's football games
-in depth and pushes `research/<date>.json`. The build then picks **one slip of
+Every morning a scheduled Claude Code task researches today's games in depth
+and pushes `research/<date>.json`. **Any sport is allowed** — football plus
+tennis (ATP/WTA tour), basketball (NBA, EuroLeague, EuroCup, Champions
+League), ice hockey (NHL, KHL, SHL, Liiga, DEL), NFL, MLB, UFC and tier-1
+esports (CS2, LoL, Valorant, Dota 2; no best-of-one). **Every game must start
+before 23:00 Belgrade** so the slip is settled before the user goes to sleep;
+the candidates list already applies that cut-off. The build then picks **one slip of
 exactly two legs from two different games**, with combined Stake odds between
 1.85 and 2.25 (target 2.0), and publishes it on the site. **There is a slip
 every day**: if too few games pass the research, the build widens the range
 and, last, uses market-priced legs (see "How the slip is picked").
 
-Legs can come from any market Polymarket prices for the game: match winner,
+For football, legs can come from any market Polymarket prices: match winner,
 double chance, draw no bet, **total goals over/under, both teams to score,
 handicaps and each team's goals**. Corners and cards are not available: there
-is no market to price them or settle them, so never propose them.
+is no market to price them or settle them, so never propose them. Other
+sports use the two-way winner market (overtime, shootouts and tie-breaks
+included, as Polymarket settles it); their candidates have `p_market.draw`
+of 0, and your `p.draw` must stay 0.
 
 ## Daily steps
 
 1. `npm run candidates` writes `research/<date>.candidates.json`: up to 16 of
-   today's football games (top European leagues, European cups, Süper Lig,
+   today's games starting before 23:00 Belgrade, from every sport above (each
+   has a `sport` field). For football (top European leagues, European cups, Süper Lig,
    Saudi Pro League, Belgian Pro League, Brasileirão, Nations League) that
    have a leg between 1.18 and 1.90. Each game lists `legs_in_range`: every
    result, goals, both-teams-to-score, handicap and team-goals leg in range,
@@ -135,6 +144,26 @@ that get excluded.
   probability or exclude.
 - **Never invent** injuries, lineups, results, xG, odds or quotes. Unverified
   means excluded, or no move from the market. Never call a pick a lock.
+
+### Other sports: what each `checks` field means
+
+Fill the same nine fields; read them like this:
+
+- **Tennis:** `team_news` fitness, injuries, retirements and withdrawals;
+  `lineups` confirmed in the draw / order of play; `rotation` fatigue from
+  the previous round and schedule; `motivation` event level, ranking points,
+  home crowd; `form` last 10 matches and surface record; `h2h` meetings, on
+  this surface especially; `venue_weather` surface, indoor/outdoor, conditions.
+  Best-of-five favours the favourite. Retirement rules vary by book.
+- **Basketball:** official injury report, rest/load management, back-to-backs
+  and travel, starting five, pace and efficiency.
+- **Ice hockey:** confirmed starting goalie (the biggest single factor),
+  back-to-backs, line combinations, special teams.
+- **NFL / MLB:** quarterback and key injuries / confirmed starting pitchers
+  and bullpen usage; weather for outdoor games.
+- **MMA:** weigh-in results, short-notice replacements, style matchup.
+- **Esports:** roster and stand-ins, map pool and likely veto, recent form,
+  LAN vs online, patch changes.
 
 ## Deep-research checklist (every kept game, all required)
 
