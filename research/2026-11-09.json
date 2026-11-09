@@ -1,0 +1,148 @@
+{
+  "date": "2026-11-09",
+  "researched_at": "2026-11-09T19:55:00Z",
+  "summary": "International break: only three football games on Polymarket tonight (Paraguay, Colombia, Bolivia), all researched in depth by parallel agents, all kept at low confidence. Luqueño v 2 de Mayo is a near coin flip whose home motivation hinges on another game today; Junior are eliminated, without five regulars and a suspended coach against a Cúcuta side that must win; Aurora v Universitario lacks lineups and Aurora drifted in the market. The best-supported angles are 2 de Mayo +1.5, over 1.5 goals in Aurora v Universitario, and Cúcuta +1.5. No Stake or Rainbet prices could be read.",
+  "games": [
+    {
+      "id": "1303878",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.365,
+        "draw": 0.29,
+        "away": 0.345
+      },
+      "checks": {
+        "team_news": "No injuries were reported for either side in today's previews (ABC Color 9 Nov, RCC 9 Nov, D10 8 Nov, La Tribuna 9 Nov). Luqueño's Aldo Maíz was sent off (second yellow) in the 0-3 loss to Nacional (Luque Noticias). That ban was most likely served in the 5-0 win at Rubio Ñu, but no source confirms he is available. ABC also reports that Luqueño's technical adviser Diego Gavilán has left the club. For 2 de Mayo, D10 lists no absentees.",
+        "lineups": "Two predictions, and neither is official. RatingBet: Luqueño 4-1-4-1 Campisi; Barreto, Díaz, Cantero, López; Beltrán; Comas, Bogado, Fernández, Maggi; Pérez. 2 de Mayo 4-2-3-1 Rossi; Castro, Ramírez, Sosa, Espínola; Delgadillo, Romero; Delvalle, Fariña, Gómez; Servera. Thethao247, as quoted in search snippets (the page returned 403), has Luqueño in a 4-4-2 with Campisi in goal and Maggi + Pérez up front, and Matías Cáceres rather than Servera leading 2 de Mayo's line. The two agree on Luqueño's keeper and front two but differ on 2 de Mayo's striker. FotMob's last-XI shapes are 4-4-2 and 4-2-3-1.",
+        "rotation": "Luqueño won 5-0 at Rubio Ñu on Thursday 5 Nov, so they have 4 days' rest. Their next games are Ameliano, Olimpia and Recoleta. 2 de Mayo drew 0-0 with Trinidense on Tuesday 3 Nov, so they have 6 days' rest. Neither side has a continental game. No heavy rotation is expected from either.",
+        "motivation": "Luqueño are 9th in the Clausura (19 pts from 18 games) and 3rd-bottom on promedio (1.148). Rubio Ñu are 2nd-bottom (0.975) and San Lorenzo are already relegated. Rubio Ñu play at San Lorenzo today at 17:00 Paraguay time, before this kick-off. If Rubio Ñu lose, Luqueño are safe. If they draw, Luqueño are safe unless they lose tonight. If they win, Luqueño still need points. So Luqueño's urgency depends on a result that will be known at kick-off. 2 de Mayo are 6th (30 pts from 18), out of the title race, and chasing a Copa Sudamericana 2027 spot on the aggregate table (8th, 52 pts). They are winless in 4 (D10). Luqueño's coach Lucas Barrios is under pressure (2W-1D-6L in 9 games before 2 Nov) but has not been replaced. No coach change in the last 7 days. This is not a derby.",
+        "form": "Luqueño's last 6 league games: L2-3 at Trinidense, L0-3 v Cerro, W3-2 v San Lorenzo, L0-1 at Libertad, L0-3 v Nacional, W5-0 at Rubio Ñu (Rubio Ñu had 10 men from the 64th minute). Their Clausura home record is 3W-0D-6L with goals 9-18. They have only 1 draw in 18 Clausura games, and 13 of 18 went over 2.5 goals (GF 22, GA 33). 2 de Mayo's last 6: W2-0 at Cerro, W1-0 v Ameliano, L0-3 at Olimpia, D1-1 v Recoleta, L0-1 at Guaraní, D0-0 v Trinidense. Their Clausura away record is 4W-2D-3L with goals 10-12. They are low-scoring (GF 18, GA 18), with 7 of 18 over 2.5 and 6 draws. No xG is published for this league on reachable sources.",
+        "h2h": "RCC: 27 Primera División meetings, Luqueño 9 wins, 2 de Mayo 7, draws 11 (41%). 2026 meetings: Luqueño won 2-1 in Pedro Juan Caballero, 2 de Mayo won 2-0 in Itauguá, and the Clausura game in Pedro Juan Caballero finished 2-2.",
+        "odds": "DraftKings via the ESPN API: Luqueño +140, draw +225, 2 de Mayo +170. De-vigged that is 0.381/0.281/0.338. At the open it was +150/+220/+155 (0.362/0.283/0.355), so the money has moved toward Luqueño. DraftKings Over/Under 2.5 is over +105 / under -155, about 0.555 under after de-vig. The under shortened from -150. Polymarket is very thin (about $57 traded) at 0.375/0.285/0.335. Stake and Rainbet both returned 403.",
+        "models": "Wavebets model: Luqueño 30%, draw 26%, 2 de Mayo 44%, most likely score 2-1 to 2 de Mayo. WinDrawWin tips a 2 de Mayo win, both teams not to score and under 2.5. ClubElo, Opta and FiveThirtyEight do not cover Paraguay. Forebet returned 403.",
+        "venue_weather": "Estadio Luis Alberto Salinas Tanasio (12 de Octubre's ground) in Itauguá. Luqueño have used it as their temporary home all season while the Feliciano Cáceres is remodelled (Wikipedia, ABC), so the venue is not unusual. 2 de Mayo travel about 450 km from Pedro Juan Caballero. Weather (wttr.in): dry, about 20-24°C at kick-off, light wind. Referee: Giancarlos Juliadoza, with VAR."
+      },
+      "reason": "I start from the market and move it slightly toward 2 de Mayo. Luqueño's Clausura home record is poor (3W-0D-6L, 9-18 goals). 2 de Mayo are solid away (4W-2D-3L), have a Sudamericana spot to chase, and the Wavebets and WinDrawWin models both lean to them. Against that, the DraftKings line moved toward Luqueño, 2 de Mayo are winless in 4, and Luqueño come off a 5-0 win with survival at stake, so the move is about 1 point. The draw stays a touch above the market (41% head-to-head draw rate). Luqueño's wins this Clausura came by one goal except against the bottom two, and 2 de Mayo lost by 2+ only to top-3 sides, which supports 2 de Mayo +1.5.",
+      "main_risk": "Luqueño's motivation may change before kick-off: if Rubio Ñu fail to beat San Lorenzo in the 17:00 game, Luqueño are close to or fully safe and could play loose, or settle for a draw. Pre-mortem for the slight home favourite: 2 de Mayo sit deep and nick a low-scoring draw or a 1-0 win. Lineups are not confirmed, and the board turmoil around Barrios adds variance.",
+      "sources": [
+        "https://www.fotmob.com/en-GB/matches/sportivo-luqueno-vs-2-de-mayo/29nu2rk",
+        "https://www.rsssf.org/tablesp/para2026.html",
+        "https://es.wikipedia.org/wiki/Torneo_Clausura_2026_(Paraguay)",
+        "https://www.abc.com.py/deportes/futbol/2026/11/09/luqueno-por-espantar-definitivamente-los-fantasmas-del-descenso/",
+        "https://abc.com.py/deportes/futbol/2026/11/06/rubio-nu-y-el-resultado-que-sentencia-el-descenso-el-lunes",
+        "https://www.abc.com.py/deportes/futbol/sportivo-luqueno/2026/11/02/la-solucion-para-descomprimir-la-presion-en-sportivo-luqueno/",
+        "https://1000noticias.com.py/2026/11/05/sportivo-luqueno-vence-a-rubio-nu-y-logra-un-triunfo-con-sabor-a-permanencia/",
+        "https://www.latribuna.com.py/deportes/2026/11/09/rubio-nu-juega-su-ultima-carta-y-luqueno-busca-sellar-su-permanencia/",
+        "https://d10.ultimahora.com/el-2-de-mayo-mira-la-sudamericana",
+        "https://rcc.com.py/deporte/fiesta-auriazul-en-itaugua-o-zarpazo-del-gallo-norteno-luqueno-y-2-de-mayo-bajan-el-telon-de-la-fecha-19-en-un-duelo-al-limite/",
+        "https://www.luquenoticias.com.py/2026/11/02/luqueno-tiene-una-prueba-de-fuego-contra-rubio-nu/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/par.1/scoreboard?dates=20261109",
+        "https://ratingbet.com/predictions/sportivo-luqueo-vs-2-de-mayo-prediction-team-news-lineups-expert-analysis/",
+        "https://www.wavebets.com/match/27399/sportivo-luqueno-vs-2-de-mayo",
+        "https://www.windrawwin.com/tips/paraguay-primera-division/sportivo-luqueno-v-2-de-mayo/891400/",
+        "https://gamma-api.polymarket.com/events?id=1303878"
+      ],
+      "views": {
+        "ah_away_+1.5": 0.86,
+        "ou_1.5_over": 0.71,
+        "ou_2.5_under": 0.54,
+        "ou_3.5_under": 0.78
+      },
+      "prices": []
+    },
+    {
+      "id": "1260464",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.53,
+        "draw": 0.255,
+        "away": 0.215
+      },
+      "checks": {
+        "team_news": "Junior's 20-man squad (El Universal, 9 Nov) leaves out five regulars: CB Pablo Ortiz, MF Fabián Ángel, WF Deiber Caicedo, WF Cristian Barrios and RB Daniel Socarrás. Socarrás is at a Colombia U19 microciclo (Diario Deportes); no reason is given for the other four. Teófilo Gutiérrez returns after two games out for disciplinary reasons and calls this his 'last concentration' with the club. Coach Sebastián Viera is suspended for 3 games (DIMAYOR res. 108/2026, red card vs Chicó), so an alternate staff runs the bench. Cúcuta: no named absences found. Win Sports teased a long-term injury to a 'key player' but gave no name or date.",
+        "lineups": "El Heraldo (8 Nov) predicts Junior: Silveira; Peña, D. Rivera, P. Ortiz, Y. Suárez; Ángel, Rivas; Barrios, Paiva, Caicedo; Fydriszewski. That XI is already contradicted by the squad list, since Ortiz, Ángel, Barrios and Caicedo are not called up. Diario Deportes says only that Peña moves to right-back. El Heraldo's Cúcuta XI (Abadía; T. Sánchez, Lópes, Montaño, Duarte; Calcaterra, Berdugo, Rentería; D. Pérez, Carabalí, G. Torres) matches the ESPN-listed XI that beat Santa Fe 1-0 exactly. No second independent predicted XI was found for this fixture.",
+        "rotation": "Junior's last match was a 2-3 loss at Llaneros on 31 Oct. Its XI was Silveira, Ortiz, Peña, Suárez, Socarrás, Chará, Rivas, Ángel, Muriel, K. Pérez, Caicedo. Four of those starters are not in today's squad, so at least 4 changes are forced. That is a soft risk, not a confirmed 5+ change XI. Junior's next and final game is vs Pasto (fecha 19). Cúcuta last played Wed 4 Nov (beat Santa Fe 1-0 at home), with the last round still to come, and is expected to field an unchanged XI. No midweek cup or continental games for either side. Socarrás is the only international-duty absence found.",
+        "motivation": "Junior (bicampeón) are 17th with 16 pts from 17 games and were mathematically eliminated from the cuadrangulares in late October. They are safe from relegation, the coach is suspended, and there is press talk of a new coach (Gustavo Costas reportedly ruled out). Cúcuta are 11th with 24 pts from 17 games and secured survival with the Santa Fe win. 8th place has 27 pts (Millonarios, Once Caldas) with two rounds left, so Cúcuta must win to keep top-8 hopes alive. Strong motivation gap in Cúcuta's favour. Not a derby. Cúcuta coach Nicolás Chiesa has been in charge since mid-August.",
+        "form": "Junior's last 8: L 1-3 at Nacional, L 1-3 at Bucaramanga, D 2-2 vs Inter, D 1-1 vs Pereira, D 0-0 at Cali, W 1-0 vs Águilas, D 1-1 at Chicó, L 2-3 at Llaneros. That is 1 win in 8. At home in 2026-II under Viera: 3-3 Jaguares, 2-0 Medellín, 2-2 Inter, 1-1 Pereira, 1-0 Águilas, so 3 draws in 5. Gainblers gives Junior 1.38 GF and 1.13 GA per home game. Cúcuta's last 8: L 0-3 at Cali, W 2-1 vs Llaneros, W 4-0 vs Pereira, W 1-0 at Chicó, W 1-0 vs Nacional, L 1-3 at América, L 0-2 vs Águilas, W 1-0 vs Santa Fe. Gainblers puts Cúcuta at 0.75 GF and 2.0 GA per away game. No xG found.",
+        "h2h": "The last meeting, in 2026-I (24 Apr, Cúcuta), ended 1-1 (Muriel 32', Luifer Hernández 37'). Gainblers says the history favours Junior but gives no figures. Cúcuta sit deep and counter (38% possession vs Santa Fe) and are compact, but they leak away from home against strong sides.",
+        "odds": "DraftKings via the ESPN API: Junior opened -210, now -145 (1.69). Draw +310 to +285. Cúcuta +450 to +340. De-vigged now: about 0.549/0.241/0.211; at open about 0.614/0.221/0.165. O2.5 went from -170 to -140 (about 0.545 de-vigged). Polymarket Junior price fell from 0.65 (5 Nov) to 0.555, and Cúcuta rose from 0.10 to 0.205, on a thin market (about $2k volume). footballpredictions.ai lists 1.55/4.00/5.00. No Stake or Rainbet prices were seen.",
+        "models": "No Opta, ClubElo or FiveThirtyEight-style model found for the Colombian league. footballpredictions.ai's AI tip is X2, predicting 0-2 (low reliability). Gainblers/LatamBet calls Junior favourite on home advantage and says 'statistical models' agree, with no numbers.",
+        "venue_weather": "The venue is Estadio Romelio Martínez, Barranquilla, not the Metropolitano. It is Junior's regular home ground in 2026-II: all five September–October home games were played there, per ESPN. Kick-off 7pm local per El Universal and ESPN (El Heraldo says 6pm). Referee Wilmar Roldán. Barranquilla is in its rainy season, but no extreme-weather warning was found. The open-meteo forecast fetch failed. Cúcuta travel is domestic."
+      },
+      "reason": "Starting from the market (0.553/0.243/0.203), which already dropped Junior from about 0.65 over the last four days. I move a further 2.3 points off Junior and spread them to draw and away, for these reasons. First, Junior are eliminated and fielding a depleted squad: 4 of the last XI (Ortiz, Socarrás, Ángel, Caicedo) plus Barrios are not called up. Second, the coach is suspended and an alternate staff is on the bench (Win Sports, El Universal). Third, Cúcuta need a win to keep top-8 hopes alive and will field the unchanged XI that beat Santa Fe. Fourth, Junior have drawn 3 of their last 5 home games. I keep the move small because Cúcuta are poor away (0.75 GF and 2.0 GA per game) and the market has already moved.",
+      "main_risk": "The likeliest way Junior fail is a draw or a Cúcuta win on the break. A motivated, compact Cúcuta (they won 1-0 with 38% possession vs Santa Fe) faces a demotivated, reshuffled Junior with no head coach on the bench, and Junior have drawn 3 of their last 5 at home. The draw is above 25%, so a straight Junior win should not be used.",
+      "sources": [
+        "https://www.elheraldo.co/deportes/2026/11/08/junior-vs-cucuta-deportivo-sin-nada-que-pelear/",
+        "https://www.eluniversal.com.co/deportes/2026/11/09/teofilo-gutierrez-novedad-de-junior-de-barranquilla-para-enfrentar-al-cucuta-deportivo/",
+        "https://diariodeportes.com.co/junior-de-barranquilla/teo-gutierrez-la-novedad-en-la-convocatoria-del-junior-para-recibir-al-cucuta/",
+        "https://www.winsports.co/?p=476079",
+        "https://www.winsports.co/?p=476150",
+        "https://www.winsports.co/futbol-colombiano/liga-dimayor/partidos/2026-clausura-fecha-18-junior-vs-cucuta-deportivo",
+        "https://clarosports.com/colombia/liga-bet-play/clasificacion-liga-betplay-dimayor-2026-ii",
+        "https://www.vanguardia.com/deportes/futbol/2026/11/03/tabla-de-posiciones-de-la-liga-betplay-luego-del-empate-entre-bucaramanga-y-nacional/",
+        "https://www.noticiasrcn.com/deportes/junior-quedo-eliminado-de-la-liga-betplay-1076153",
+        "https://gainblers.com/ar/pronosticos/futbol/colombia/primera-a/pronostico-junior-cucuta-10-11-2026/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/col.1/scoreboard?dates=20261109",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/col.1/summary?event=401878071",
+        "https://gamma-api.polymarket.com/events?id=1260464",
+        "https://footballpredictions.ai/football-predictions/junior-vs-cucuta-predictions-tips-10-nov-2026/",
+        "https://www.clarosports.com/colombia/liga-bet-play/sebastian-viera-es-nuevo-director-tecnico-de-junior/"
+      ],
+      "views": {
+        "ah_away_+1.5": 0.7,
+        "ou_1.5_over": 0.78,
+        "ou_2.5_over": 0.53,
+        "ou_3.5_under": 0.69,
+        "ou_4.5_under": 0.845,
+        "btts_yes": 0.54
+      },
+      "prices": []
+    },
+    {
+      "id": "1267574",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.51,
+        "draw": 0.245,
+        "away": 0.245
+      },
+      "checks": {
+        "team_news": "Aurora are without midfielder Erwin Junior Sánchez, sent off at Oriente Petrolero on 31 Oct (Vision360 today; La Patria agrees, though one Vision360 match report named a 'Condori' as the red card). He started the 4-2 win over Universitario on 19 Sep and takes penalties. No injury report found for either side. For Universitario no news on absences was found despite searching Los Tiempos, Opinión, Unitel, ATB and La Patria.",
+        "lineups": "No predicted XIs were published by any reachable source: 365Scores had none, Flashscore none, Sofascore returned 403. The latest known XIs are from the 19 Sep Copa meeting (La Patria). Aurora: Cordano; Barboza, Vidaurre, Viviani, Rangel; Ramallo, Barro, E. Sánchez, Ortiz; Huayhuata, Terrazas, with Henry Vaca pushing for a start. Universitario: P. García; Visalla, Postigo, D. Torrico, H. Rodríguez, Calderón, Pinto, Rivero, Vargas, Cuestas, Saavedra. Confidence is low mainly because of this gap.",
+        "rotation": "Aurora last played on 3 Nov (Copa Bolivia, 3-2 home win over Independiente Petrolero), so they have 6 days' rest. Their next game is 21 Nov at ABB (FotMob), no midweek game. Universitario last played on 1 Nov (1-3 at home to Always Ready), 8 days' rest; next fixture not confirmed. No rotation signals for either side.",
+        "motivation": "Fixture confirmed for tonight, 20:30 Bolivia time (00:30Z), round 25 at the Félix Capriles, referee Luiz Villarroel (Vision360 and Diez.bo today). No strike or payment disruption reported. Aurora are 6th on 35 points from 24 games, in the Copa Sudamericana places. Universitario are 14th on 21 points, one point above ABB and GV San José (20 each); last place goes down and 15th goes to a play-off, so they are in a real relegation fight. Aurora's Enrique Díaz appointed 28 Aug; Universitario's caretaker Adrián Barral since 13 Sep. A same-region Cochabamba game ('duelo valluno'), not a clásico; Aurora's traditional rival is Wilstermann. Treated as a soft risk.",
+        "form": "Aurora are 8W 11D 5L in the league (35-31). At home about W5 D5 L1 from 11, the only loss 2-4 to Bolívar, averaging 3.4 total goals; 9 of 11 over 1.5 and 8 of 11 both teams scored. Under Díaz 2 draws in 7 league games. Last 5 all comps: L 0-1 at Real Oruro, L 0-4 at Independiente (Copa), W 1-0 v Tomayapo, D 1-1 at Oriente, W 3-2 v Independiente (Copa). Universitario are 6W 3D 15L (31-48) and rarely draw. Last 5: L 0-2 at Oriente (Copa), L 1-3 v Real Oruro, W 2-1 v San Antonio Bulo Bulo, L 1-2 at Bolívar, L 1-3 v Always Ready, conceding 2.2 per game. 22 of their 24 league games went over 1.5 goals and 16 of 24 had both teams score. No xG data found.",
+        "h2h": "Aurora are unbeaten in the last 7 meetings (W5 D2): 4-2 (19 Sep, Copa, after trailing 0-2, Universitario down to 10 from 62'), 1-1 (1 Sep, Copa), 2-1 (2 Jun), 2-0 (Dec 2025), 2-1 (Jul 2025), plus 2-1 and 2-2 in the Torneo de Verano. Both teams scored in 6 of 7, and 6 of 7 stayed under 3.5. Both clubs play at the Félix Capriles, so there is no altitude or travel edge.",
+        "odds": "DraftKings (ESPN API): Aurora -115, draw +280, Universitario +255, de-vigged about 0.495/0.244/0.261. Opened -165/+300/+350 (about 0.57/0.23/0.20), so Aurora drifted roughly 7 points. O/U 2.5 -180/+135, about 60% over. Footballpredictions.ai lists 1.75/3.60/3.80, BTTS Yes 1.50 / No 2.45 (about 0.62 yes), over 3.5 2.20 / under 3.5 1.62, over 1.5 1.14 (about 0.83). Polymarket's Aurora price went 0.545 → 0.44 → 0.545 → 0.505 over recent days. Stake, Windrawwin and Tips.gg returned 403; Rainbet not reached.",
+        "models": "Footballpredictions.ai (an AI model) picks Aurora or Draw as its main tip, with BTTS Yes, over 2.5 and a 2-1 score, no percentages. No ClubElo or Opta coverage of this league.",
+        "venue_weather": "Estadio Félix Capriles, Cochabamba (about 2,550 m), the shared home of both clubs. The weather API hit its rate limit and no Senamhi forecast was found. Early November is the start of the rainy season, but no extreme weather or pitch problem is reported."
+      },
+      "reason": "Only a slight move from the market (home +0.7, draw +0.2, away −0.8). For Aurora: unbeaten in 7 against Universitario, Universitario's poor form (1 win in 5, 2.2 conceded per game, 15 losses in 24), and Aurora losing once at home all season. Against: Erwin Junior Sánchez is suspended, there is no altitude edge in a shared stadium, and DraftKings drifted from -165 to -115. Lineups could not be verified, so confidence is low and the moves are minimal. The goals markets are better supported: Universitario's games almost always have two or more goals and both teams scoring is common in this pairing.",
+      "main_risk": "A draw, or Universitario stealing it on the counter. Aurora have drawn 11 of 24 league games and about 5 of 11 at home, are missing Sánchez, have no altitude advantage, and the price drifted against them. Universitario need points to avoid relegation and led this fixture 2-0 at half-time in September.",
+      "sources": [
+        "https://www.vision360.bo/noticias/2026/11/09/76374-aurora-y-fc-universitario-cierran-la-vigesimoquinta-jornada-en-el-felix-capriles",
+        "https://diez.bo/futbol/aurora-y-fc-universitario-bajan-el-telon-de-la-fecha-25_1794234062",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/bol.1/summary?event=401930004",
+        "https://en.wikipedia.org/wiki/2026_FBF_Divisi%C3%B3n_Profesional",
+        "https://www.365scores.com/en-us/football/match/division-profesional-5055/club-aurora-universitario-de-vinto-1299-49843-5055",
+        "https://www.fotmob.com/teams/49720/overview",
+        "https://lapatria.bo/deportes/futbol/gran-remontada-aurora-ente-fc-universitario-durmio/",
+        "https://footballpredictions.ai/football-predictions/aurora-vs-universitario-de-vinto-predictions-tips-10-nov-2026/",
+        "https://futbol.unitel.bo/division-profesional/oriente-petrolero-deja-escapar-la-victoria-y-empata-1-1-con-aurora-en-casa-DL24492616",
+        "https://premiumsportsbo.com/u-de-vinto-rescinde-con-su-dt-de-nuevo-straccia-dura-poco/",
+        "https://gamma-api.polymarket.com/events?id=1267574"
+      ],
+      "views": {
+        "ou_1.5_over": 0.85,
+        "ou_3.5_under": 0.6,
+        "ou_4.5_under": 0.78,
+        "btts_yes": 0.64,
+        "ah_away_+1.5": 0.72
+      },
+      "prices": []
+    }
+  ]
+}
