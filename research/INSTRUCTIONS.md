@@ -37,7 +37,10 @@ is no market to price them or settle them, so never propose them.
    `npm run check-research` until it prints OK. It refuses kept games with a
    thin checklist or fewer than 4 source sites.
 4. `npm run pick` prints the slip the site will publish, or "No bet".
-5. Commit only the two research files and push to `main`.
+5. Commit only the two research files and push to `main`. **Always push**,
+   even when there are 0 games or nothing could be researched (write
+   `"games": []` or `skipped` verdicts and say why in `summary`): the push is
+   what triggers today's build, and the build always finds a slip.
 
 ## What October's real bets taught us
 

@@ -10,11 +10,14 @@
  *                     priced from the market alone, odds 1.70–2.50
  *   4. any          — every game not hard-excluded, legs landing ≥ 50%,
  *                     odds 1.50–3.00
+ *   5. last         — any two legs from two games
  * Games the research excluded for a hard reason are never used.
  */
 
 import { MAX_DRAW_FOR_WIN, MIN_LEG_P, SLIP, extraLeg, inRange, legsFor, round } from './football.mjs';
 import { applyShift } from './research.mjs';
+
+const MIN_PAYING_ODDS = 1.05;
 
 /** Moving this much (relative) since the morning research makes the game unsafe to bet. */
 export const MAX_DRIFT = 0.05;
@@ -24,6 +27,8 @@ export const TIERS = [
   { name: 'wider', confidence: ['high', 'medium', 'low'], unresearched: false, range: { min: 1.7, max: 2.5 }, minLegP: MIN_LEG_P, legOdds: true },
   { name: 'market', confidence: ['high', 'medium', 'low'], unresearched: true, range: { min: 1.7, max: 2.5 }, minLegP: MIN_LEG_P, legOdds: true },
   { name: 'any', confidence: ['high', 'medium', 'low'], unresearched: true, range: { min: 1.5, max: 3.0 }, minLegP: 0.5, legOdds: false },
+  // Last resort: any two legs from two games, so two games always make a slip.
+  { name: 'last', confidence: ['high', 'medium', 'low'], unresearched: true, range: { min: 1.1, max: 50 }, minLegP: 0, legOdds: false, mostLikely: true },
 ];
 
 export const TIER_NOTE = {
@@ -31,6 +36,7 @@ export const TIER_NOTE = {
   wider: 'Few games passed the research cleanly today, so this slip uses a wider odds range or lower-confidence legs.',
   market: 'Not enough researched games today: at least one leg is priced from the market alone, without a research verdict.',
   any: 'A thin day: this slip uses the most likely legs available, outside the usual odds range. Treat it as lower confidence.',
+  last: 'A very thin day: only a couple of games were available, so this slip takes the best two legs on offer. Treat it as lowest confidence.',
 };
 
 function bookPrice(prices, leg) {
@@ -88,6 +94,8 @@ export function eligibleLegs(games, research, tier = TIERS[0]) {
     ];
     for (const leg of legs) {
       if (tier.legOdds && !inRange(leg)) continue;
+      // A leg has to pay something: very short prices round to nothing at a bookmaker.
+      if (leg.est_odds < MIN_PAYING_ODDS) continue;
       if (leg.p_win + leg.p_void < tier.minLegP) continue;
       if ((leg.key === 'home' || leg.key === 'away') && p.draw > MAX_DRAW_FOR_WIN) continue;
       const book = bookPrice(verdict.prices, leg);
@@ -104,7 +112,7 @@ export function eligibleLegs(games, research, tier = TIERS[0]) {
   return { legs: out, skipped };
 }
 
-export function bestSlip(legs, range = SLIP) {
+export function bestSlip(legs, range = SLIP, { mostLikely = false } = {}) {
   let best = null;
   for (let i = 0; i < legs.length; i++) {
     for (let j = i + 1; j < legs.length; j++) {
@@ -118,6 +126,10 @@ export function bestSlip(legs, range = SLIP) {
       // Prefer researched legs: on a near-tie the slip with more research wins.
       const researched = Number(a.verdict.confidence !== 'market') + Number(b.verdict.confidence !== 'market');
       const cand = { legs: [a, b], odds, ev, p_hit, researched };
+      if (mostLikely) {
+        if (!best || cand.p_hit > best.p_hit + 0.005 || (Math.abs(cand.p_hit - best.p_hit) <= 0.005 && cand.ev > best.ev)) best = cand;
+        continue;
+      }
       if (
         !best ||
         cand.ev > best.ev + 0.005 ||
@@ -135,7 +147,7 @@ export function pickSlip(games, research) {
   for (const tier of TIERS) {
     const { legs, skipped: s } = eligibleLegs(games, research, tier);
     s.forEach((x) => skipped.add(x));
-    const slip = bestSlip(legs, tier.range);
+    const slip = bestSlip(legs, tier.range, { mostLikely: tier.mostLikely });
     if (slip) return { slip, tier: tier.name, skipped: [...skipped] };
   }
   return { slip: null, tier: null, skipped: [...skipped] };

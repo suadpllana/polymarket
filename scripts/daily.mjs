@@ -95,8 +95,18 @@ async function buildToday(date, { force = false } = {}) {
     throw new Error(`no research for ${date} yet`);
   }
   const window = bettingWindow();
-  const games = await gatherGames(window);
-  const { slip, tier, skipped } = pickSlip(games, research);
+  let games = await gatherGames(window);
+  let { slip, tier, skipped } = pickSlip(games, research);
+  // Nothing usable left today (late in the day, or no football at all): take
+  // games from the next 24 hours too, so the day still has a slip.
+  let lookahead = false;
+  if (!slip) {
+    const wider = { start: window.start, end: new Date(window.end.getTime() + 24 * 60 * 60 * 1000) };
+    console.log('No slip in today’s window; looking 24 hours further ahead.');
+    games = await gatherGames(wider);
+    ({ slip, tier, skipped } = pickSlip(games, research));
+    lookahead = Boolean(slip);
+  }
   skipped.forEach((x) => console.log(`Skipped: ${x}`));
   const kept = research ? [...research.games.values()].filter((v) => !v.exclude && !v.skipped).length : 0;
   const base = {
@@ -106,8 +116,9 @@ async function buildToday(date, { force = false } = {}) {
     kept_games: kept,
     skipped,
   };
-  // Only possible when fewer than two games are on in the window.
-  if (!slip) return noBet(date, `Fewer than two football games with a usable market are on in today’s window (${games.length} found).`, base);
+  // Only possible when fewer than two football games with a market exist on
+  // Polymarket in the next day and a half.
+  if (!slip) return noBet(date, `Fewer than two football games with a usable market are on Polymarket in the next 36 hours (${games.length} found).`, base);
 
   console.log(`Tier: ${tier}`);
   console.log(describe(slip));
@@ -157,6 +168,7 @@ async function buildToday(date, { force = false } = {}) {
       legsOut.some((l) => l.extended)
         ? 'Few games in the usual leagues today (often an international break), so this slip uses games from other competitions.'
         : '',
+      lookahead ? 'No usable games were left in today’s window, so this slip includes games from the next 24 hours; check the kick-off times.' : '',
     ]
       .filter(Boolean)
       .join(' '),
