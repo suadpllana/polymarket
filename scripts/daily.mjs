@@ -184,11 +184,22 @@ async function main() {
   // A real slip is final for the day; a "No bet" is retried on every run, so
   // games added later (or a late research push) can still produce a slip.
   const existing = history.entries.find((e) => e.date === today);
-  if (!existing || existing.no_bet) {
+  // A market-priced slip may be replaced once research lands, as long as
+  // none of its games has kicked off (well before "place before").
+  const upgradable =
+    existing &&
+    !existing.no_bet &&
+    !existing.researched_at &&
+    (await loadResearch(today)) &&
+    Date.now() < new Date(existing.place_before).getTime() - 15 * 60 * 1000;
+  if (!existing || existing.no_bet || upgradable) {
     try {
       const entry = await buildToday(today);
       if (!existing) history.entries.push(entry);
-      else if (!entry.no_bet) history.entries[history.entries.indexOf(existing)] = entry;
+      else if (!entry.no_bet) {
+        history.entries[history.entries.indexOf(existing)] = entry;
+        if (upgradable) console.log('Replaced the market-priced slip with the researched one.');
+      }
       else console.log('Still no bet today.');
     } catch (e) {
       console.warn(`No slip this run: ${e.message}`);
