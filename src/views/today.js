@@ -1,4 +1,5 @@
 import { dayLabel, esc, localDate, odds, pct, timeLabel } from '../ui/format.js';
+import { renderBankroll } from './bankroll.js';
 
 const CHECK_LABEL = {
   team_news: 'Team news',
@@ -86,13 +87,14 @@ export async function renderToday(root) {
   root.innerHTML = `
     <section class="page-head">
       <h1>Today</h1>
-      <p class="muted">One football slip a day: two legs from two games, total odds about 2.0, every game researched in depth before it is picked.</p>
+      <p class="muted">One slip a day: two legs from two games in any sport, total odds about 2.0, every leg starting before 23:00.</p>
     </section>
     ${
       today
         ? slipHtml(today)
         : `<section class="card slip-none"><h2>No slip yet</h2><p>The research runs at 07:50 Belgrade time. The slip appears here a few minutes after it is pushed.</p></section>`
     }
+    <section class="card bank" id="bankroll"></section>
     <section class="card">
       <h2>Model record</h2>
       <p class="card__sub">${settled.length ? `${won} of ${settled.length} slips won (${pct(won / settled.length)}). At odds of 2.0 the break-even rate is 50%.` : 'No settled slips yet. The record starts with the first slip.'}</p>
@@ -108,4 +110,5 @@ export async function renderToday(root) {
           : ''
       }
     </section>`;
+  renderBankroll(root.querySelector('#bankroll'), entries, today);
 }

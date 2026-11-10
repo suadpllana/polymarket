@@ -320,3 +320,29 @@ h2 { font-size: 16px; font-weight: 700; }
 .record__day { font-weight: 600; }
 .record__end { display: grid; justify-items: end; gap: 4px; }
 @media (max-width: 520px) { .record__row { grid-template-columns: 1fr auto; } .record__day { grid-column: 1 / -1; } }
+
+/* ---------- bankroll tracker ---------- */
+.bank__head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.bank__stats > div { gap: 1px; align-content: start; }
+.bank__stats span + strong + span { font-size: 11px; color: var(--dim); }
+.bank__form { display: flex; flex-wrap: wrap; gap: 10px; align-items: flex-end; }
+.bank__form label { display: grid; gap: 4px; font-size: 12px; color: var(--muted); font-weight: 600; }
+.bank__form input { width: 130px; padding: 8px 10px; border: 2px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--text); font: inherit; font-weight: 600; }
+.bank__form input:focus { outline: none; border-color: var(--line-strong); }
+.bank__stop { margin: 0; padding: 10px 12px; border-left: 3px solid var(--red); background: var(--card); border-radius: 4px; font-size: 13px; }
+.bank__bets { list-style: none; margin: 0; padding: 0; display: grid; }
+.bank__bet { display: grid; grid-template-columns: 96px 1fr auto; gap: 10px; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--line); font-size: 13px; }
+.bank__bet:last-child { border-bottom: 0; }
+.bank__bet-day { font-weight: 600; }
+.bank__bet-end { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: flex-end; }
+.bank__settle { display: inline-flex; gap: 4px; }
+.btn--small { padding: 4px 9px; font-size: 12px; }
+.bank__undo { border: 0; background: none; color: var(--dim); font: inherit; font-size: 12px; cursor: pointer; text-decoration: underline; padding: 0; }
+.bank__undo:hover { color: var(--text); }
+.bank__more summary { cursor: pointer; font-size: 13px; color: var(--muted); }
+.bank__more .bank__form { margin-top: 10px; }
+@media (max-width: 560px) {
+  .bank__stats { grid-template-columns: repeat(2, 1fr); }
+  .bank__bet { grid-template-columns: 1fr auto; }
+  .bank__bet-end { grid-column: 1 / -1; justify-content: flex-start; }
+}
