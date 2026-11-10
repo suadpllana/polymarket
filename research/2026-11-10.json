@@ -1,0 +1,296 @@
+{
+  "date": "2026-11-10",
+  "researched_at": "2026-11-10T06:57:40Z",
+  "summary": "International-break Tuesday: no football on the list, so the 16 candidates are 8 basketball (EuroCup, Basketball Champions League) and 8 tennis (ATP Stockholm, WTA Finals) games. Eight were researched in two batches and all eight are kept (no hard exclusion applied); the other eight were not reached because the kept total passed 6, and are marked skipped. Medium confidence: Michelsen over Cerúndolo (Stockholm R16, indoor hard; hard-court Elo and the one bookmaker seen agree with the market; p 0.77) and Pegula over Kostyuk (WTA Finals group match; surface Elo gap about 126 points, Kostyuk lost her opener with poor serving; p 0.65). Low confidence (current injury reports, lineups or weekend results could not be found, so p stays at or near the market): Neptūnas v Śląsk, Bilbao v Alba Berlin (shaded 2.5 points toward Alba after their 103-100 win in the first meeting), Sabah v Trabzonspor, Manresa v Bosna, Musetti v Samuel (fatigue after a Paris Masters run unverified) and Rinderknech v Kecmanović. Stake and Rainbet prices were not found; the only bookmaker prices seen were a Tennis Tonic listing for Michelsen (1.33/3.28) and a search-snippet listing for Rinderknech (1.40/3.00).",
+  "games": [
+    {
+      "id": "1335382",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.76,
+        "draw": 0,
+        "away": 0.24
+      },
+      "checks": {
+        "team_news": "No official injury report found for either side after several searches (Manresa club preview pages, Eurohoops recap, ACB/ABA searches). Manresa's Oct 28 2026 report headline mentions a 'weakened' side vs Baskonia but no names or current status found; Eurohoops Oct 27 recap lists JD Notae, Eric Vila, Lucas Beaufort playing for Manresa and Reggie Perry, Shawn Pipes, Gary Browne for Bosna, with no injury notes.",
+        "lineups": "Not available; no confirmed or projected starting fives found. Recent top scorers: Manresa Notae 22, Vila 13, Beaufort 10 (76-65 at Balkan); Bosna Perry 25, Pipes 17, Browne 13 (85-80 at Roma).",
+        "rotation": "Could not verify either team's weekend domestic game (ACB for Manresa, ABA/Bosnian league for Bosna) or the next fixture; the Manresa club site shows previews for Burgos (Oct 23) and Baskonia (Oct 30) but nothing newer was retrievable. Tuesday game is at Manresa, so Bosna travels; rest unconfirmed. Not verified as a back-to-back.",
+        "motivation": "EuroCup Group D after round 5 (Eurohoops, Oct 27): Bahcesehir 4-1, Ulm 3-2, Manresa 2-2, PAOK 3-2, Lietkabelis 3-2, Bosna 2-3, Roma 2-3, Balkan 0-4. Both in the mix for the top-4 knockout places; Bosna replaced Monaco in the group in September.",
+        "form": "Manresa: lost opener at PAOK 93-78, then wins incl. 76-65 at Balkan (Oct 27); Bosna: lost its first three, then won at Roma 85-80 and beat Bahcesehir. Home/away split not verified beyond this; Manresa's ACB form unknown.",
+        "h2h": "No previous meeting found; Bosna entered the EuroCup only this season.",
+        "odds": "Polymarket de-vigged home 0.775 / away 0.225 (fair 1.29). No second book or 24h Polymarket price history was retrieved, so no cross-check or move measured.",
+        "models": "No bookmaker-free rating or published prediction found for this game.",
+        "venue_weather": "Pavello Nou Congost, Manresa, Tue 10 Nov 2026 20:30 local (19:30 UTC), per ticket/fixture listing; one ticket site wrongly listed Zetra Hall in Sarajevo, but the Manresa venue is the better-supported one. Bosna travels from Sarajevo."
+      },
+      "reason": "Fixture verified (EuroCup Group D, senior sides, date and Manresa venue). No hard exclusion found: no derby, no confirmed rotation, no coach change found, normal home venue. Key facts (injuries, lineups, weekend games, rest) could not be found after several different searches, so p is kept close to the market, moved 1.5 points toward Bosna for the unverified Manresa 'weakened' note and a Bosna side that has won its last two EuroCup games.",
+      "main_risk": "Manresa home win fails because Bosna's import-led attack (Perry 25 pts, Pipes, Browne) beats a Manresa side with unknown injuries and an unverified ACB schedule; Bosna is on a two-game EuroCup win run and the group is tight. Weekend rest and injuries unverified.",
+      "sources": [
+        "https://www.eurohoops.net/es/eurocup-es/2027133/resumen-de-la-eurocup-kidsus-manresa-sigue-sumando/",
+        "https://www.basquetmanresa.com/en/news/baxi-manresa/game-preview/",
+        "https://www.eurohoops.net/en/eurocup/2003569/bosna-sarajevo-enters-the-bkt-eurocup/",
+        "https://karlobag.eu/en/sports/news/manresa-vs-bosna-eurocup-basketball-tickets-in-manresa-uv4re/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1350588",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.77,
+        "draw": 0,
+        "away": 0.23
+      },
+      "checks": {
+        "team_news": "No injury or withdrawal reported for either player in the previews read (StatsZone, Tenngrand). Michelsen beat Hanfmann 6-2 6-3 in 68 min in R1 and beat Lehecka at the Paris Masters last week before losing to Alcaraz; Cerundolo beat Ymer 6-1 7-6 in R1. No recent retirements found for either.",
+        "lineups": "Confirmed in the draw: Round of 16 (second match for both after R1 wins) at the Stockholm Open (BNP Paribas Nordic Open), Kungliga tennishallen, Tuesday 10 Nov 2026, 12:00 start per StatsZone and Tenngrand; official ATP order-of-play page not fetched (blocked or no snippet), so the court and running order are not independently confirmed.",
+        "rotation": "Both played R1 only. Michelsen's was short (68 min), so little fatigue; Cerundolo needed a second-set tiebreak. Michelsen came off a Paris Masters run (3 sets vs Lehecka, lost to Alcaraz) with a quick turnaround, a mild soft risk.",
+        "motivation": "ATP 250 indoor event in the final week of the season; ranking-points stakes are modest for both. No home crowd for either (Swede Ymer already out). Michelsen reached his first Slam quarter-final at the US Open this year and is the stronger hard-court player.",
+        "form": "Michelsen: strong 2026 hard-court results (US Open QF, Paris Masters win over Lehecka), 23 winners and 81% first-serve points won vs Hanfmann. Cerundolo: 38-27 in 2026, 4-3 on indoor hard per Tennis Tonic snippet, career-high 42 earlier in the year; clay is his best surface.",
+        "h2h": "1-0 Cerundolo, R1 Roland Garros 2025 on clay (6-3 6-2 6-4); no indoor-hard meeting. The clay result carries little weight for an indoor hard match.",
+        "odds": "Tennis Tonic snippet lists Michelsen 1.33 / Cerundolo 3.28 (about 0.71 / 0.29 raw implied, roughly 0.75/0.25 de-vigged at best); Polymarket 0.775 / 0.225. Only one book seen; no Polymarket 24h move checked. Model-based picks (Tenngrand, StatsZone) both tip Michelsen 2-0.",
+        "models": "StringTension Elo snapshots are undated and inconsistent on overall Elo (Michelsen 1621 vs Cerundolo 1571 in one snapshot, 1614 vs 1685 in another) but agree on hard-court Elo: Michelsen 1736-1757 vs Cerundolo 1564, about 175-190 Elo points, roughly 74-75% expected. Tennis Abstract not fetched.",
+        "venue_weather": "Indoor hard, Kungliga tennishallen, Stockholm; no weather factor. Fast indoor surface suits Michelsen's serve-led game."
+      },
+      "reason": "Fixture verified via StatsZone and Tennis Tonic search results (R16, 10 Nov, 12:00, indoor hard). Market 0.775 is close to the hard-court Elo expectation (about 0.74-0.75) and the single book seen (about 0.71-0.75). Michelsen is clearly better on indoor hard, with the only H2H on clay; I trim 0.5 point to 0.77 for the quick turnaround from Paris and the thin odds and order-of-play verification.",
+      "main_risk": "Pre-mortem: Cerundolo, who beat him 3-0 on clay in 2025, could win a close match if Michelsen's serve drops off or he is flat after the Paris Masters run and quick turnaround. The only checks that support this are the H2H (clay) and fatigue. Elo snapshots disagree on overall strength, and the official ATP order of play was not confirmed.",
+      "sources": [
+        "https://www.thestatszone.com/alex-michelsen-vs-juan-manuel-cerundolo-preview-prediction-2026-stockholm-open-round-of-16-237773",
+        "https://tenngrand.com/stockholm-previews-picks-predictions-bergs-vs-rune-michelsen-cerundolo/",
+        "https://tennistonic.com/tennis-news/1079882/h2h-prediction-of-alex-michelsen-vs-juan-manuel-cerundolo-in-stockholm-with-odds-preview-pick-10th-november-2026/",
+        "https://stats.tennismylife.org/h2h/alex-michelsen-vs-juan-manuel-cerundolo",
+        "https://stringtension.com/head-to-head/atp/alex-michelsen/juan-manuel-cerundolo"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1352718",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.77,
+        "draw": 0,
+        "away": 0.23
+      },
+      "checks": {
+        "team_news": "No withdrawal or walkover found for either player. Musetti beat Hurkacz 7-6(3) 7-6(10) (four match points in the second-set tiebreak) and then Zverev 7-6(5) 6-2 at the Paris Masters on 4 Nov 2026 (Tennis Majors, TSN/Khaleej Times). His earlier 2026 injury was a rectus femoris problem that forced him out of Roland-Garros in May (Tennis Majors). I found no report of a new injury, and no report of his Paris exit or any ATP Finals withdrawal. His fitness for this match is unconfirmed beyond the fact that he is in the order of play. Samuel is a British qualifier (seed 5 in qualifying) who beat Karl Friberg 7-6(5) 6-2 on 7 Nov (tennistourcalendar.com). I did not verify his final qualifying round or his R32 result.",
+        "lineups": "ATP daily schedule: Round of 16, Day 4, Tuesday 10 Nov 2026, Center Court, fourth match on the court, 'Followed By' Rune vs Bergs, which is 'Not Before 18:00'. This fits the 18:30 UTC start in the candidate list only loosely, because the order of play gives no fixed time. Tournament: Bybit Stockholm Open, the ATP 250 in Stockholm (Polymarket calls it BNP Paribas Nordic Open), 8-14 Nov 2026. Fixture, players and date are verified.",
+        "rotation": "Musetti played Paris Masters round 1 and round 2 (4 Nov). I could not find where his Paris run ended, so I do not know how many matches he played there. He also played a Stockholm first-round match, which I could not confirm. A quick turnaround from an indoor Masters 1000 run to a 250 is a fatigue risk. Samuel's recent schedule is not verified beyond qualifying.",
+        "motivation": "ATP 250 played in the week before the ATP Finals. I could not establish whether Musetti is in the Turin field this year, or whether he is playing Stockholm to chase points or to rebuild form. The search results mixed 2025 and 2026 stories, so this is unconfirmed. Samuel is playing for a career-best stage and ranking points as a qualifier.",
+        "form": "Musetti: Hurkacz and Zverev (a ranked-No.1 report, 4 Nov) wins in Paris in the last week. I did not find his last 10 matches or his indoor-hard record. Samuel: British player with an Eastbourne semi-final run and a US Open second-round exit in 2026 per Tennis Majors and Rotowire. He won his first qualifying match in Stockholm. No sample of his indoor-hard results was found.",
+        "h2h": "No prior meeting found in the searches. I did not find a head-to-head page for the two players.",
+        "odds": "Polymarket two-way price: Musetti 0.775, Samuel 0.225 (fair odds 1.29). No other bookmaker prices and no 24h Polymarket price history were obtained, so I cannot say whether the price has moved. The probability stays near the market.",
+        "models": "No Tennis Abstract Elo or surface Elo figures were retrieved. No bookmaker-free rating was found.",
+        "venue_weather": "Indoor hard court, Royal Tennis Hall, Stockholm (tennistourcalendar.com). No weather or venue issue. Center Court."
+      },
+      "reason": "Fixture verified on atptour.com as an R16 match on Tuesday 10 Nov, Center Court, with no withdrawal found. Stage 1 hard rules do not apply: no derby, no coach issue, no unusual venue, no walkover. Musetti is the clear favourite on an indoor hard court, has just beaten Hurkacz and Zverev, and is the far higher-ranked player. I move p slightly from 0.775 to 0.77 because key facts are missing: his Paris exit, his Stockholm R32 and his Finals status. Confidence is low because several facts could not be checked and the sources mix 2025 and 2026 stories.",
+      "main_risk": "The most likely way Musetti loses is fatigue or a physical problem after a heavy Paris week, with a long R32 match possible, against a motivated qualifier on a fast indoor court. Samuel has qualifying wins behind him and nothing to lose. A retirement or late withdrawal would be settled as Polymarket settles it. I did not find the match result of Musetti's Stockholm first round, his ATP Finals status, or any head-to-head.",
+      "sources": [
+        "https://www.atptour.com/en/scores/current/stockholm/429/daily-schedule",
+        "https://tennistourcalendar.com/2026-stockholm-open-daily-schedule-order-of-play-and-results/",
+        "https://www.tennismajors.com/atp/rolex-paris-masters-1000-atp/musetti-needs-four-match-points-in-a-thriller-tie-break-to-beat-hurkacz-and-set-up-zverev-in-paris-865033.html",
+        "https://www.tsn.ca/tennis/article/zverevs-tenure-as-no-1-in-mens-tennis-begins-with-2nd-round-loss-to-musetti-at-paris-masters/",
+        "https://www.tennismajors.com/?p=850500"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1334253",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.71,
+        "draw": 0,
+        "away": 0.29
+      },
+      "checks": {
+        "team_news": "Not found. No injury report or out/questionable list for either side turned up in four searches (EuroCup preview, LKL/Neptunas news, PLK/Slask news). Nothing was seen on the euroleaguebasketball.net 2026-27 pages. No hard-exclusion news (no coach sacking or appointment, no postponement) was found either.",
+        "lineups": "Not found. No expected or confirmed starting fives for either side were published in any source reached.",
+        "rotation": "Not found. Neptunas' and Slask's weekend domestic games (LKL / PLK) could not be checked: the searches only returned 2025-26 material, and sofascore snippets mention an Arka Gdynia v Slask PLK date of 4 Oct 2026 and a Neptunas EuroCup date of 29 Sep 2026, with nothing for 7-9 Nov. Travel is a Wroclaw to Klaipeda trip for the visitors; no rest or schedule problem was confirmed.",
+        "motivation": "Sportschau lists the game as EuroCup Group C, matchday 7, dated 10.11.2026, with Neptunas, Slask, NINERS Chemnitz, S.S. Basket Napoli and Aquila Trento in the group. Its table was captured with all teams on 0 games, so the current standings are unknown. Neptunas won LKL bronze in 2025-26 (TV3, 22 Jun 2026).",
+        "form": "No 2026-27 form data found. Last season's meetings: Slask won 95-85 at home in Round 1 (euroleaguebasketball.net recap), and Neptunas won in the return game (scoutbasketball reports 103-87 on 10 Dec 2025; a EuroLeague article describes an overtime home win by Neptunas, 20-4 in the extra period, though the date shown in the snippet is not confirmed). No points for/against or home/away split for this season could be found.",
+        "h2h": "2025-26: 1-1. Slask won 95-85 in Wroclaw on 30 Sep 2025 (euroleaguebasketball.net, bebasket.fr). Neptunas won the return game in Klaipeda (scoutbasketball: 103-87 on 10 Dec 2025).",
+        "odds": "Only Polymarket was seen: Neptunas 0.71 / Slask 0.29 (fair 1.41 on Neptunas), de-vigged two-way, taken from the candidates file. No bookmaker or exchange prices and no 24h price-move history could be found, so there is no second-source check.",
+        "models": "No bookmaker-free rating or model prediction found (no Dunkest, BasketNews, Eurohoops or net-rating page for 2026-27 surfaced).",
+        "venue_weather": "Neptunas is listed as the home side (ticket-compare lists Slask Wroclaw at Klaipedos Neptunas), so the venue is Klaipeda, Lithuania. No venue problem found. The tip-off time (17:00 UTC) comes from the candidates file."
+      },
+      "reason": "Fixture verified by two secondary sources only (Sportschau EuroCup Group C matchday 7, 10.11.2026; ticket-compare 10 Nov 2026, Slask at Neptunas). No hard-exclusion fact found: no derby, no coach change, no confirmed rotation, no venue problem. Team news, lineups and rotation could not be found after four different searches (EuroCup preview, Neptunas/LKL, Slask/PLK) plus the ticket-compare page, so p is left at the market and confidence is low.",
+      "main_risk": "Pre-mortem: Slask stays within a few points, helped by Neptunas fatigue or rotation after a weekend LKL game, or a missing Neptunas starter (last season's 1-1 head-to-head included a Slask win by 10 in the first meeting). None of this could be confirmed or ruled out because injury, lineup and weekend-game data were not found. Unverified team news is the main risk, and the Polymarket price history could not be checked.",
+      "sources": [
+        "https://www.sportschau.de/live-und-ergebnisse/basketball/uleb-euro-cup/ma12322126/bc-neptunas_slask-wroclaw/blitztabelle",
+        "https://ticket-compare.com/basketball/eurocup/klaipedos-neptunas-vs-slask-wroclaw-10-nov-2026/",
+        "https://www.euroleaguebasketball.net/eurocup/news/slask-starts-eurocup-season-with-victory-over-neptunas-95-85",
+        "https://scoutbasketball.com/competition/eurocup/2025-2026/bc-neptunas-klaipeda-vs-wks-slask-wroclaw-on-2025-12-10",
+        "https://www.tv3.lt/gaires/neptunas",
+        "https://www.sofascore.com/team/basketball/klaipedos-neptunas/58765"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1312645",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.68,
+        "draw": 0,
+        "away": 0.32
+      },
+      "checks": {
+        "team_news": "No official injury report or confirmed absence found for either side after two different searches (German and Spanish) plus a failed fetch of sportytrader (HTTP 403). The only injury mention found was a February 2026 item on Bilbao players, too old to use. Alba was reported (dpa, via Volksstimme, 6 Oct 2026) to have had personnel concerns and two straight BBL losses before the season; no current status found.",
+        "lineups": "Not available. No starting fives found from any source. The 28 Oct meeting report names Alba's Brandon Angel (24 pts), Jordan Ford (21) and Justin Bean (game-winning 3 with 9.8s left).",
+        "rotation": "Fixture is Tuesday 10 Nov 19:00 UTC; the ticket-compare listing shows the game as CD Bilbao Basket vs ALBA Berlin on 10 Nov 2026. Weekend domestic games: a search result reports Girona 92-87 Bilbao in the ACB around 7 Nov (matchday and date not shown on the snippet). I could not find Alba's BBL weekend result. Travel Berlin to Bilbao for Alba; Bilbao at home. Rest days could not be confirmed.",
+        "motivation": "Group G of the BCL: Alba beat Bilbao 103-100 in Berlin on 28 Oct 2026 and became sole leader after both were unbeaten (Volksstimme/dpa). A FIBA piece (undated in snippet) has Alba 3-0 and Bilbao 2-1. Bilbao at home has a reason to avenge the loss; the standings gap matters for group seeding. Full current table not found.",
+        "form": "Bilbao: lost 119-84 at Real Madrid (ACB, 18 Oct), beat Andorra 88-76, beat Slavia Prague 97-86 in the BCL, lost 100-103 at Alba on 28 Oct (led by up to 13 and 97-98 late in the game), and a reported 87-92 loss at Girona about 7 Nov. Alba: unbeaten in the BCL group through the 28 Oct win; the win came after trailing by 13.",
+        "h2h": "28 Oct 2026 BCL, Berlin: Alba 103-100 Bilbao (half-time 43-48 for Bilbao, 8,171 spectators). Bilbao held a lead of 97-98 with under a minute left before Bean's three.",
+        "odds": "Polymarket two-way market home 0.705 / away 0.295 (fair Bilbao 1.42). I did not check other books or the 24h price history, so no de-vigged comparison exists. The home price looks a little high against a one-possession loss in the first meeting and Alba's unbeaten group record, so I cut p(home) to 0.68.",
+        "models": "No bookmaker-free rating (power ranking, net rating, BasketNews/Eurohoops prediction) found for this game. Not checked beyond the searches above.",
+        "venue_weather": "Bilbao's home arena Miribilla, indoor; Alba travels from Berlin. Fixture verified only through a ticket listing and the earlier meeting report, not through the BCL site."
+      },
+      "reason": "No hard exclusion found: fixture is a Basketball Champions League Group G game, with an earlier 28 Oct meeting confirmed. No evidence of heavy rotation, a derby, a coach change in the last 7 days, or a venue problem. Key facts (injuries, lineups, standings, Alba's weekend game) stayed unknown after real attempts, so confidence is low and p sits close to the market, shaded 2.5 points toward Alba.",
+      "main_risk": "The most likely way Bilbao loses is a repeat of the first meeting: a close finish that Alba, unbeaten and led by Angel and Ford, wins. Bilbao also reportedly lost in the ACB around 7 Nov (Girona 92-87), and I could not check for injuries or fatigue on either side. Alba was reported to have had personnel concerns at the season start.",
+      "sources": [
+        "https://www.volksstimme.de/panorama/alba-berlin-schlagt-bilbao-nach-krimi-4346719",
+        "https://ticket-compare.com/basketball/basketball-champions-league/cd-bilbao-basket-vs-alba-berlin-10-nov-2026/",
+        "https://www.realmadrid.com/en-US/news/basket/first-team/reports/cronica-real-madrid-bilbao-basket-18-10-2026",
+        "https://www.fiba.basketball/en/news/four-takeaways-alba-and-rytas-perfect-at-home-spartak-with-a-big-road-win"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1312642",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.305,
+        "draw": 0,
+        "away": 0.695
+      },
+      "checks": {
+        "team_news": "No official injury report or out/questionable list found for either side after two searches (English and Turkish) plus the BCL game page (championsleague.basketball/en/games/136229-SAB-TS), which lists none. Last meeting (Oct 14, Trabzon): Trabzonspor 100-83 Sabah; Sabah top scorers Perkins 25, Fidler 17 (beinsports.com.tr, dha.com.tr). Sabah coach Rimas Kurtinaitis led them to the 2025-26 Azerbaijan league title (offsideplus.az); no coaching change found for either team.",
+        "lineups": "No expected or confirmed starting fives published; no confirmed rotation of the favourite found. Not verified.",
+        "rotation": "Trabzonspor played away at Aliaga Petkimspor on Sat Nov 7 and lost 91-81 (Turkish league week 7, via search summary of beinsports/milliyet), then travel to Baku for a Tuesday 16:00 UTC game: short rest plus travel is a soft fatigue risk. Sabah's weekend domestic game not found; an iticket.az listing shows Sabah's next BCL game at home vs Elan Chalon on Nov 12 (listing unverified).",
+        "motivation": "Both in BCL Regular Season Group A. Trabzonspor were 2-0 after two rounds (beat Nanterre 93-83 in OT, then Sabah). Sabah were 0-2 (lost at Rytas, then at Trabzonspor). Current standings after later rounds not found.",
+        "form": "BCL per-game averages (BCL site): Trabzonspor 91.3 pts, 58.3% 2P, 43.9% 3P; Sabah 81.0 pts, 53.6% 2P, 36.6% 3P. Trabzonspor domestic form is mixed: lost 91-81 at Aliaga on Nov 7. Home/away split not found.",
+        "h2h": "One meeting this season: Trabzonspor 100-83 at home (Oct 14, 2026), 35-12 first quarter, 55-42 at half. Per BCL page Trabzonspor lead 1-0.",
+        "odds": "Polymarket 0.305 Sabah / 0.695 Trabzonspor (gamma-api outcomePrices, fair odds about 1.44 on Trabzonspor). No other books or exchanges found; 24h price history not retrieved. No Stake or Rainbet prices seen.",
+        "models": "No bookmaker-free rating or prediction found. Only the BCL per-game averages above (Trabzonspor +10 pts per game scoring gap).",
+        "venue_weather": "National Gymnastics Arena, Baku (Sabah's regular home arena, BCL page); indoor. Trabzonspor travel from Turkey to Azerbaijan after a Saturday away game. Not a neutral or unusual venue."
+      },
+      "reason": "Fixture verified on the BCL site (Group A, Baku, Trabzonspor favourite). No hard exclusion found: no derby, no coaching change found, normal home venue for Sabah, no confirmed rotation. Key facts (injuries, lineups, current standings, Sabah's weekend game) could not be found after two different searches plus the BCL game page, so p stays at the market. Trabzonspor's scoring and shooting edge and the 17-point win in the first meeting support the favourite.",
+      "main_risk": "Pre-mortem: Trabzonspor, off a Saturday away loss and travelling to Baku, play on tired legs, or rest players for the league, and Sabah win at home. No injury or lineup news was found to confirm or rule this out. Sabah are 0-2 or worse in the group and need a win, which adds home motivation.",
+      "sources": [
+        "https://www.championsleague.basketball/en/games/136229-SAB-TS",
+        "https://beinsports.com.tr/haber/basketbolda-trabzonspor-firtinasi-100-sayilik-galibiyet",
+        "https://www.dha.com.tr/spor/trabzonspor-sabah-bc-100-83-2962917",
+        "https://offsideplus.az/en/category/basketball/31458/rimas-kurtinaitis-wherever-there-are-lithuanians-there-is-first-place",
+        "https://www.milliyet.com.tr/skorer/basketbol-super-liginde-turk-telekom-trabzonsporu-maglup-etti-7581595",
+        "https://gamma-api.polymarket.com/events?id=1312642"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1333766",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.66,
+        "draw": 0,
+        "away": 0.34
+      },
+      "checks": {
+        "team_news": "No injury, withdrawal or walkover found for either player in searches (novosti.rs draw report, mykhel scoreboard, tennismajors, atptour Stockholm results page). The ATP results page for Nov 7-9 lists neither player, so no retirement or withdrawal there. Health is unconfirmed, not confirmed clean.",
+        "lineups": "Draw: Rinderknech v Kecmanovic is a first-round (R32) match at the Stockholm ATP 250 (ATP calls it Bybit Stockholm Open, 8-14 Nov 2026; Polymarket calls it BNP Paribas Nordic Open). mykhel lists it for Nov 10 at 20:30 IST (= 15:00 UTC), Court 1, status upcoming. I found no official ATP order-of-play page; a second listing showed Nov 9 06:00, so the date is not fully consistent across sites.",
+        "rotation": "Neither player has played a Stockholm match yet, so no tournament fatigue. Both played the Paris Masters / indoor swing before (not checked in detail). Rinderknech beat Kecmanovic 6-7(5) 6-4 6-4 in Montreal in Aug 2026, a three-set match.",
+        "motivation": "ATP 250 indoor event in the autumn, with the season ending soon; no ranking-race or home-crowd edge found for either. Winner plays the Rune/Bergs section (Tennis Majors preview).",
+        "form": "Not verified. I found only the Montreal win by Rinderknech (Aug 2026) and Rinderknech's 60% (100-66) indoor hard record in one search snippet. I found no last-10 results for either player.",
+        "h2h": "Rinderknech leads 3-1 per TennisExplorer: Belgrade 2021 Kecmanovic 2-1, US Open 2021 Rinderknech 3-2, Geneva 2025 Rinderknech 2-0, Montreal Aug 2026 Rinderknech 2-1. Other sources show 2-0 or 2-1, which is stale. No previous indoor meeting found.",
+        "odds": "Polymarket de-vigged 0.655 / 0.345 (fair 1.53 for Rinderknech). One betting listing (WebSearch snippet) showed Rinderknech 1.40 and Kecmanovic 3.00, which de-vigs to about 0.68 / 0.32. I did not check the Polymarket 24h move and saw no Stake or Rainbet prices.",
+        "models": "Not verified. I did not read Tennis Abstract. Stringtension Elo figures appeared as snippets (1587 and 1675) but I could not tell which player each belongs to, so I did not use them.",
+        "venue_weather": "Indoor hard, Royal Tennis Hall (Kungliga Tennishallen), Stockholm, Court 1. No weather exposure; indoor hard fits Rinderknech's serve."
+      },
+      "reason": "The fixture is verified as a first-round match in Stockholm today, with no withdrawal or walkover found. The market (0.655) and one bookmaker listing (about 0.68) agree. Rinderknech leads the head-to-head 3-1, including the Montreal win in August. I moved p only 0.5 point from the market because the form, Elo and current-fitness checks were not completed.",
+      "main_risk": "The favourite loses a close three-set match: Kecmanovic took a set on a tiebreak in Montreal, and an indoor hard first round has high variance. Rinderknech's recent form and both players' fitness are unverified, and I found no official order of play, only a third-party listing for Nov 10 15:00 UTC on Court 1.",
+      "sources": [
+        "https://www.mykhel.com/tennis/bybit-stockholm-open-2026-mens-singles-1-32-final-live-scoreboard-441276/",
+        "https://www.tennisexplorer.com/match-detail/?id=3287083",
+        "https://www.atptour.com/en/scores/current/stockholm/429/results",
+        "https://www.tennismajors.com/?p=866173",
+        "https://www.novosti.rs/sport/tenis/1669084/srbin-dobio-rivala-prvom-kolu"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1338085",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.35,
+        "draw": 0,
+        "away": 0.65
+      },
+      "checks": {
+        "team_news": "Pegula lost her opener to Gauff 6-2, 6-7(5), 6-2 on Sun Nov 8, three sets. Kostyuk entered as first alternate after world No.1 Rybakina withdrew (viral illness / 'body not physically ready') and lost to Noskova 6-2, 6-4 (1h27, 38% first serves, six double faults). No injury or withdrawal reported for either as of the Tuesday order of play (WTA, tennistourcalendar, Flashscore, TennisMajors).",
+        "lineups": "Order of play for Tue Nov 10 (tennistourcalendar, WTA schedule): Kostyuk (9/ALT) vs Pegula (5) is first on court with a fixed 12:00 PM PST start (= 20:00 UTC), followed by Gauff v Noskova. Group 1 (candidates file calls it Group A). Court assignment not listed in the page I read.",
+        "rotation": "Pegula played a 3-hour-plus three-setter on Sunday (3 sets, one tie-break) and then had Monday off; Kostyuk played a 2-set 87-minute match Sunday and also rested Monday. Both have a full day of rest; Pegula carries slightly more accumulated court time but no material fatigue evidence found.",
+        "motivation": "Round-robin match 2 of 3, both 0-1, so both nearly must-win for a top-2 finish (top two of the group reach Saturday's semis). Pegula is a seed 5 with more at stake in ranking terms; Kostyuk is a debutant alternate with a bonus-run mentality. Event is the WTA Finals (season-ending, top level).",
+        "form": "Pegula: 2026 Elo #4 overall and hard #4, lost to Gauff in three close sets, earlier loss to Ostapenko in Wuhan per TennisMajors. Kostyuk: 35 wins on the season, ranked 10, but lost her opener cleanly to Noskova with poor serving numbers. Surface record not itemised from a source I read beyond hElo below.",
+        "h2h": "Pegula leads overall; sources conflict on the count (one says 4-1, a more recent page says 4-3 across 7 meetings with Kostyuk winning the last one in Madrid, April 2026). Brisbane 2026 SF and other meetings were close. Hard-court-specific split not confirmed. Kostyuk's aggressive returning noted as a problem for Pegula's serve in one preview.",
+        "odds": "Polymarket two-way: Kostyuk 0.375 / Pegula 0.625 (fair Pegula 1.60). No bookmaker prices or Polymarket 24h move retrieved from sources in my budget, so market is the anchor. String Tension Elo model: Pegula 61.3% (older page).",
+        "models": "Tennis Abstract Elo (WTA): Pegula 2098.8 (#4), hElo 2057.6 (#4); Kostyuk 2014.9 (#9), hElo 1931.0 (#13). A 126-point hard-court gap implies about 67% for Pegula; String Tension 61.3%. Blend about 64-67%, so p moved +2.5 from market.",
+        "venue_weather": "Indian Wells Tennis Garden, California, outdoor, daytime 12:00 PST start (the page did not state the surface explicitly; Indian Wells is a hard court and Tennis Abstract Elo above is hard-based). Not a neutral-venue issue: it is the tour finals' regular host venue for this edition."
+      },
+      "reason": "Fixture verified (WTA Finals Group 1, Kostyuk v Pegula, Tue Nov 10 12:00 PM PST = 20:00 UTC, first match on). No withdrawal or walkover. Pegula is better by surface Elo (hElo gap about 126), ranking (5 v 10) and h2h lead; market slightly underrates her relative to Elo, so p is nudged from 0.625 to 0.65. Kept inside the 5-point limit and tempered because Pegula is coming off a three-setter and the Kostyuk h2h has been close recently.",
+      "main_risk": "Pre-mortem: Kostyuk's aggressive baseline returning and flat hitting neutralises Pegula's serve, Pegula carries fatigue from the 3-set loss to Gauff and an emotional must-win, and Kostyuk (who won their last meeting in Madrid per one source) plays freely with nothing to lose, so the match goes three sets and she wins. Evidence: recent h2h 4-3 and Pegula's lost opener.",
+      "sources": [
+        "https://www.tennistourcalendar.com/2026-wta-finals-daily-schedule-order-of-play-and-results/",
+        "https://www.wtatennis.com/news/4606109",
+        "https://www.tennismajors.com/?p=866360",
+        "https://www.flashscore.com/news/linda-noskova-eases-past-marta-kostyuk-in-opening-match-at-wta-finals/YZBSFtS8/",
+        "https://tennisabstract.com/reports/wta_elo_ratings.html",
+        "https://www.tennisexplorer.com/mutual/pegula/kostyuk-ea2bf"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1334252",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1333767",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1338078",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1334821",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1312643",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1352705",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1334822",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1344786",
+      "exclude": true,
+      "skipped": true
+    }
+  ]
+}

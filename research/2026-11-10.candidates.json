@@ -1,0 +1,378 @@
+{
+  "date": "2026-11-10",
+  "window": {
+    "start": "2026-11-10T08:24:28.527Z",
+    "end": "2026-11-10T22:00:00.000Z"
+  },
+  "games_in_window": 40,
+  "games": [
+    {
+      "id": "1335382",
+      "league": "EuroCup",
+      "sport": "basketball",
+      "event": "Basquet Manresa vs. KK Bosna Royal Sarajevo",
+      "home": "Basquet Manresa",
+      "away": "KK Bosna Royal Sarajevo",
+      "start": "2026-11-10T19:30:00.000Z",
+      "p_market": {
+        "home": 0.775,
+        "draw": 0,
+        "away": 0.225
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Basquet Manresa",
+          "p_market": 0.775,
+          "fair_odds": 1.29
+        }
+      ]
+    },
+    {
+      "id": "1350588",
+      "league": "ATP Tour",
+      "sport": "tennis",
+      "event": "BNP Paribas Nordic Open: Alex Michelsen vs Juan Manuel Cerundolo",
+      "home": "Alex Michelsen",
+      "away": "Juan Manuel Cerundolo",
+      "start": "2026-11-10T12:00:00.000Z",
+      "p_market": {
+        "home": 0.775,
+        "draw": 0,
+        "away": 0.225
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Alex Michelsen",
+          "p_market": 0.775,
+          "fair_odds": 1.29
+        }
+      ]
+    },
+    {
+      "id": "1352718",
+      "league": "ATP Tour",
+      "sport": "tennis",
+      "event": "BNP Paribas Nordic Open: Lorenzo Musetti vs Toby Samuel",
+      "home": "Lorenzo Musetti",
+      "away": "Toby Samuel",
+      "start": "2026-11-10T18:30:00.000Z",
+      "p_market": {
+        "home": 0.775,
+        "draw": 0,
+        "away": 0.225
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Lorenzo Musetti",
+          "p_market": 0.775,
+          "fair_odds": 1.29
+        }
+      ]
+    },
+    {
+      "id": "1334253",
+      "league": "EuroCup",
+      "sport": "basketball",
+      "event": "BC Neptunas Klaipeda vs. Slask Wroclaw",
+      "home": "BC Neptunas Klaipeda",
+      "away": "Slask Wroclaw",
+      "start": "2026-11-10T17:00:00.000Z",
+      "p_market": {
+        "home": 0.71,
+        "draw": 0,
+        "away": 0.29
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "BC Neptunas Klaipeda",
+          "p_market": 0.71,
+          "fair_odds": 1.41
+        }
+      ]
+    },
+    {
+      "id": "1312645",
+      "league": "Basketball Champions League",
+      "sport": "basketball",
+      "event": "Bilbao Basket vs. Alba Berlin",
+      "home": "Bilbao Basket",
+      "away": "Alba Berlin",
+      "start": "2026-11-10T19:00:00.000Z",
+      "p_market": {
+        "home": 0.705,
+        "draw": 0,
+        "away": 0.295
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Bilbao Basket",
+          "p_market": 0.705,
+          "fair_odds": 1.42
+        }
+      ]
+    },
+    {
+      "id": "1312642",
+      "league": "Basketball Champions League",
+      "sport": "basketball",
+      "event": "Sabah Baku vs. Trabzonspor",
+      "home": "Sabah Baku",
+      "away": "Trabzonspor",
+      "start": "2026-11-10T16:00:00.000Z",
+      "p_market": {
+        "home": 0.305,
+        "draw": 0,
+        "away": 0.695
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "Trabzonspor",
+          "p_market": 0.695,
+          "fair_odds": 1.44
+        }
+      ]
+    },
+    {
+      "id": "1333766",
+      "league": "ATP Tour",
+      "sport": "tennis",
+      "event": "BNP Paribas Nordic Open: Arthur Rinderknech vs Miomir Kecmanovic",
+      "home": "Arthur Rinderknech",
+      "away": "Miomir Kecmanovic",
+      "start": "2026-11-10T15:00:00.000Z",
+      "p_market": {
+        "home": 0.655,
+        "draw": 0,
+        "away": 0.345
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Arthur Rinderknech",
+          "p_market": 0.655,
+          "fair_odds": 1.53
+        }
+      ]
+    },
+    {
+      "id": "1338085",
+      "league": "WTA Tour",
+      "sport": "tennis",
+      "event": "WTA Finals, Group A: Marta Kostyuk vs Jessica Pegula",
+      "home": "Marta Kostyuk",
+      "away": "Jessica Pegula",
+      "start": "2026-11-10T20:00:00.000Z",
+      "p_market": {
+        "home": 0.375,
+        "draw": 0,
+        "away": 0.625
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Jessica Pegula",
+          "p_market": 0.625,
+          "fair_odds": 1.6
+        }
+      ]
+    },
+    {
+      "id": "1334252",
+      "league": "EuroCup",
+      "sport": "basketball",
+      "event": "FC Universitatea Cluj vs. Turk Telekom",
+      "home": "FC Universitatea Cluj",
+      "away": "Turk Telekom",
+      "start": "2026-11-10T17:00:00.000Z",
+      "p_market": {
+        "home": 0.38,
+        "draw": 0,
+        "away": 0.62
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "Turk Telekom",
+          "p_market": 0.62,
+          "fair_odds": 1.61
+        }
+      ]
+    },
+    {
+      "id": "1333767",
+      "league": "ATP Tour",
+      "sport": "tennis",
+      "event": "BNP Paribas Nordic Open: Holger Rune vs Zizou Bergs",
+      "home": "Holger Rune",
+      "away": "Zizou Bergs",
+      "start": "2026-11-10T17:00:00.000Z",
+      "p_market": {
+        "home": 0.615,
+        "draw": 0,
+        "away": 0.385
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Holger Rune",
+          "p_market": 0.615,
+          "fair_odds": 1.63
+        }
+      ]
+    },
+    {
+      "id": "1338078",
+      "league": "WTA Tour",
+      "sport": "tennis",
+      "event": "WTA Finals, Group A: Coco Gauff vs Linda Noskova",
+      "home": "Coco Gauff",
+      "away": "Linda Noskova",
+      "start": "2026-11-10T21:30:00.000Z",
+      "p_market": {
+        "home": 0.605,
+        "draw": 0,
+        "away": 0.395
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Coco Gauff",
+          "p_market": 0.605,
+          "fair_odds": 1.65
+        }
+      ]
+    },
+    {
+      "id": "1334821",
+      "league": "EuroCup",
+      "sport": "basketball",
+      "event": "Rostock Seawolves vs. KK Cedevita Olimpija Ljubljana",
+      "home": "Rostock Seawolves",
+      "away": "KK Cedevita Olimpija Ljubljana",
+      "start": "2026-11-10T19:00:00.000Z",
+      "p_market": {
+        "home": 0.6,
+        "draw": 0,
+        "away": 0.4
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Rostock Seawolves",
+          "p_market": 0.6,
+          "fair_odds": 1.67
+        }
+      ]
+    },
+    {
+      "id": "1312643",
+      "league": "Basketball Champions League",
+      "sport": "basketball",
+      "event": "Spartak Subotica vs. Cholet",
+      "home": "Spartak Subotica",
+      "away": "Cholet",
+      "start": "2026-11-10T19:00:00.000Z",
+      "p_market": {
+        "home": 0.555,
+        "draw": 0,
+        "away": 0.445
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Spartak Subotica",
+          "p_market": 0.555,
+          "fair_odds": 1.8
+        }
+      ]
+    },
+    {
+      "id": "1352705",
+      "league": "ATP Tour",
+      "sport": "tennis",
+      "event": "BNP Paribas Nordic Open: Tomas Etcheverry vs Thiago Agustin Tirante",
+      "home": "Tomas Etcheverry",
+      "away": "Thiago Agustin Tirante",
+      "start": "2026-11-10T13:30:00.000Z",
+      "p_market": {
+        "home": 0.555,
+        "draw": 0,
+        "away": 0.445
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Tomas Etcheverry",
+          "p_market": 0.555,
+          "fair_odds": 1.8
+        }
+      ]
+    },
+    {
+      "id": "1334822",
+      "league": "EuroCup",
+      "sport": "basketball",
+      "event": "Aquila Basket Trento vs. Tofas SK Bursa",
+      "home": "Aquila Basket Trento",
+      "away": "Tofas SK Bursa",
+      "start": "2026-11-10T19:00:00.000Z",
+      "p_market": {
+        "home": 0.455,
+        "draw": 0,
+        "away": 0.545
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "Tofas SK Bursa",
+          "p_market": 0.545,
+          "fair_odds": 1.83
+        }
+      ]
+    },
+    {
+      "id": "1344786",
+      "league": "ATP Tour",
+      "sport": "tennis",
+      "event": "BNP Paribas Nordic Open: Lorenzo Sonego vs Quentin Halys",
+      "home": "Lorenzo Sonego",
+      "away": "Quentin Halys",
+      "start": "2026-11-10T13:30:00.000Z",
+      "p_market": {
+        "home": 0.455,
+        "draw": 0,
+        "away": 0.545
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Quentin Halys",
+          "p_market": 0.545,
+          "fair_odds": 1.83
+        }
+      ]
+    }
+  ]
+}
