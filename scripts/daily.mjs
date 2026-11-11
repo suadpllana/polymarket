@@ -6,8 +6,10 @@
  *      medium/high confidence legs) from live Polymarket prices plus the research
  *   4. write public/history.json for the site to ship
  *
- * Usage: node scripts/daily.mjs          (CI; needs SITE_URL)
- *        node scripts/daily.mjs --dry    (print today's slip, write nothing)
+ * Usage: node scripts/daily.mjs                     (CI; needs SITE_URL)
+ *        node scripts/daily.mjs --dry               (print today's slip, write nothing)
+ *        node scripts/daily.mjs --dry --tomorrow    (print tomorrow's slip from
+ *                                                    tomorrow's research)
  */
 
 import { mkdir, writeFile } from 'node:fs/promises';
@@ -23,6 +25,7 @@ const RESEARCH_DEADLINE_HOUR = 12;
 
 const OUT = new URL('../public/history.json', import.meta.url);
 const DRY = process.argv.includes('--dry');
+const TOMORROW = process.argv.includes('--tomorrow');
 
 async function loadHistory(siteUrl) {
   if (!siteUrl) return { entries: [] };
@@ -89,18 +92,17 @@ function noBet(date, reason, extra = {}) {
   return { model: 'football-2leg', date, generated_at: new Date().toISOString(), no_bet: true, reason, legs: [], result: null, ...extra };
 }
 
-async function buildToday(date, { force = false } = {}) {
+async function buildToday(date, { force = false, window = bettingWindow(), lookaheadAllowed = true } = {}) {
   const research = await loadResearch(date);
   if (!research && !force && zonedParts(new Date()).hour < RESEARCH_DEADLINE_HOUR) {
     throw new Error(`no research for ${date} yet`);
   }
-  const window = bettingWindow();
   let games = await gatherGames(window);
   let { slip, tier, skipped, eligible } = pickSlip(games, research);
   // Nothing usable left before 23:00 today: take tomorrow's games (09:00 to
   // 23:00), so the day still has a slip.
   let lookahead = false;
-  if (!slip) {
+  if (!slip && lookaheadAllowed) {
     console.log('No slip before 23:00 today; using tomorrow’s games.');
     games = await gatherGames(tomorrowWindow());
     ({ slip, tier, skipped } = pickSlip(games, research));
@@ -189,7 +191,9 @@ async function buildToday(date, { force = false } = {}) {
 async function main() {
   const today = localDate();
   if (DRY) {
-    const entry = await buildToday(today, { force: true });
+    const window = TOMORROW ? tomorrowWindow() : bettingWindow();
+    const day = TOMORROW ? localDate(window.start) : today;
+    const entry = await buildToday(day, { force: true, window, lookaheadAllowed: !TOMORROW });
     if (entry.no_bet) console.log(`No bet: ${entry.reason}`);
     return;
   }

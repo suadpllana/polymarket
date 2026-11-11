@@ -36,6 +36,10 @@ of 0, and your `p.draw` must stay 0.
    competition on Polymarket (second divisions, cups, South American and
    other leagues); research them the same way, and check rotation in cups
    with extra care. Always commit the research, even on a thin day.
+   To research the evening before, add `--tomorrow` (to `npm run candidates`
+   and `npm run pick`) and pass the date to `npm run check-research -- <date>`;
+   the morning run then finds the file and stops, so re-push the research in
+   the morning if team news changes (the slip is rebuilt before its first game).
 2. Research the games in **batches of 4**, one subagent per game (use the
    Sonnet model for subagents), following "How to research cheaply without
    losing quality" below. Every *kept* game still gets every checklist item

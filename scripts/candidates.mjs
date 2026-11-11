@@ -6,16 +6,19 @@
  *        node scripts/candidates.mjs --more    (adds every other game still in
  *                                               the window, keeping the ones
  *                                               already listed)
+ *        add --tomorrow to either to list tomorrow's games (09:00–23:00
+ *        Belgrade) into tomorrow's file, for research done the evening before
  */
 
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { gatherGames, inRange, marketLegs, researchPool, round } from './lib/football.mjs';
 import { candidatesPath } from './lib/research.mjs';
-import { bettingWindow, localDate } from './lib/time.mjs';
+import { bettingWindow, localDate, tomorrowWindow } from './lib/time.mjs';
 
 const MORE = process.argv.includes('--more');
-const date = localDate();
-const window = bettingWindow();
+const TOMORROW = process.argv.includes('--tomorrow');
+const window = TOMORROW ? tomorrowWindow() : bettingWindow();
+const date = TOMORROW ? localDate(window.start) : localDate();
 const all = await gatherGames(window);
 
 const entry = (g) => ({
