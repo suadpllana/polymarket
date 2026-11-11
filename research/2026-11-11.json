@@ -1,0 +1,296 @@
+{
+  "date": "2026-11-11",
+  "researched_at": "2026-11-11T06:54:34Z",
+  "summary": "Still the international break: the 16 candidates are 9 basketball (EuroLeague, EuroCup, Basketball Champions League), 4 tennis (ATP Stockholm), 2 ice hockey (KHL, Liiga) and 1 CS2 match. Eight were researched in two batches and all eight are kept (no hard exclusion applied); the other eight were not reached because the kept total passed 6, and are marked skipped. Medium confidence: Partizan over Baskonia (Baskonia last at 1-9 and missing Sedekerskis and Santos, Partizan only without Hayes, Partizan won the last three meetings; p 0.80) and Fritz over Norrie (Stockholm R2, Fritz fresh after a bye; Elo implies a little less than the market, fitness unconfirmed; p 0.72). Low confidence (injury reports or lineups could not be found, p at or near the market): Paris v Fenerbahçe (Fener 0.70), Derthona v Hapoel Jerusalem (Hapoel 6-0 in the group but the price jumped from 0.51 to 0.70 in a day with no news; 0.68), Kecmanović v Rune (Rune back from an Achilles rupture; 0.66), Šiauliai v Canarias (Huertas rested, Happ, López-Arostegui and Giedraitis out; 0.72), Peristeri v Varese (0.685) and Roma v Ulm (Roma 2-4 with -35 against Ulm's 3-3, so shaded 4 points to 0.71). Stake and Rainbet prices were not found; no other bookmaker prices were seen either, only Polymarket.",
+  "games": [
+    {
+      "id": "1343529",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1358066",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1271274",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1320086",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.8,
+        "draw": 0,
+        "away": 0.2
+      },
+      "checks": {
+        "team_news": "Rotowire injury page (Nov 10): Partizan - Kevarrius Hayes (shoulder) ruled out vs Baskonia, Tonye Jekiri (thigh) expected back, Derek Willis (ankle) back at practice and could play. Baskonia - Tadas Sedekerskis (thigh) and Marcio Santos (undisclosed) out vs Partizan; Rodions Kurucs was out vs Fenerbahce on Nov 5. Official EuroLeague Round 11 injury report page could not be read (HTTP 429), so this rests on Rotowire.",
+        "lineups": "No confirmed starting fives found before tip-off (two searches plus Rotowire). Partizan are likely without Hayes, so Jekiri/Willis cover centre if fit. Baskonia are without both Santos and Sedekerskis, two big-man options. Expected fives are not stated by any source read.",
+        "rotation": "Baskonia lost 84-65 at Fenerbahce on Nov 5 (Round 10), then the Wikipedia/Rotowire items show Partizan played Maccabi Tel Aviv around Nov 6, so both sides have had several days to recover. No evidence of a double-round week or back-to-back for either team. Next fixtures not retrieved (Partizan Wikipedia schedule section was truncated). Rotation risk is low, since nothing in the sources suggests the favourite will rest players.",
+        "motivation": "Partizan are 5-5 in the EuroLeague (+5 points difference, Wikipedia Nov 8 update), mid-table and in the play-in race, so the home game is a must-win. Baskonia are last (reported 1-9 after the Nov 5 loss, from a Turkish report plus Gasteiz Hoy's 1-8 before it). They are in a relegation-style slump and in the first weeks of Perasovic's tenure.",
+        "form": "Partizan 5-5 with a near-even points balance (794 for, 789 against). Baskonia 1-9 and lost 84-65 at Fenerbahce on Nov 5 and to ASVEL in the game before. Partizan beat Baskonia 91-79 in Belgrade on 16 Apr 2026 and 91-79 away on 17 Oct 2025, both in the EuroLeague. Home/away splits for this season were not found.",
+        "h2h": "Last three meetings all Partizan wins: 86-73 at home in Feb 2025, 91-79 at Baskonia on 17 Oct 2025 (79-91 from Baskonia's side) and 91-79 in Belgrade on 16 Apr 2026 (Sofascore listing via search, aba-liga.com, koobit).",
+        "odds": "Polymarket de-vigged 0.765 Partizan / 0.235 Baskonia (fair 1.31). No other bookmaker or exchange prices and no Polymarket 24h move were retrieved. Stake and Rainbet prices were not seen.",
+        "models": "No bookmaker-free rating (net rating, power ranking) was retrieved. Indirect evidence only: Partizan's point difference is +5 over 10 games versus Baskonia's last place and 19-point loss at Fenerbahce.",
+        "venue_weather": "Belgrade Arena (also called Stark Arena), Belgrade, Wednesday Nov 11, tip-off 19:45 UTC (20:45 Belgrade) per Wikipedia and TNT Sports; Sofascore also lists 19:45 UTC. Normal home venue, indoor, no unusual conditions. Baskonia travel from Vitoria-Gasteiz."
+      },
+      "reason": "Fixture verified (EuroLeague Round 11, Partizan v Kosner Baskonia, Belgrade Arena, Nov 11 20:45 local). No hard rule applies: no confirmed heavy rotation, not a derby (the sources only mention a past fan-conduct incident, not a rivalry), normal venue. Baskonia changed head coach from Paolo Galbiati to Velimir Perasovic after five EuroLeague rounds (October 2026), which is well over 7 days ago and so a soft factor only. Baskonia are last in the table, are missing two bigs (Santos, Sedekerskis) and have lost to Partizan in each of the last three meetings, while Partizan lose only Hayes. Market 0.765 moved up to 0.80 because of the injury mismatch and head-to-head, held below further because Partizan are only 5-5 and a new-coach bounce is possible.",
+      "main_risk": "Pre-mortem: Partizan, a .500 side, fail to cover for Hayes and lose the rebounding and interior battle, while Baskonia under Perasovic (new coach) have a motivated, loose performance on a team that is 1-9, and Partizan's guards go cold. Evidence for it is limited to Partizan's 5-5 record and near-zero point difference. Also unconfirmed: whether Willis and Jekiri play, and no official EuroLeague injury report or confirmed fives were read.",
+      "sources": [
+        "https://www.rotowire.com/euro/news.php?view=injuries",
+        "https://en.wikipedia.org/wiki/2026%E2%80%9327_KK_Partizan_season",
+        "https://beinsports.com.tr/haber/fenerbahce-tarfin-baskoniayi-devirdi-19-sayi-fark",
+        "https://www.gasteizhoy.com/baskonia-manresa-acb-2026-2/",
+        "https://www.eurohoops.net/en/euroleague/2020854/galbiati-and-baskonia-have-parted-ways-perasovic-to-take-over/",
+        "https://www.tntsports.co.uk/basketball/euroleague/calendar-results.shtml",
+        "https://www.aba-liga.com/news/52441"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1343530",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.71,
+        "draw": 0,
+        "away": 0.29
+      },
+      "checks": {
+        "team_news": "No injury report, press conference or reporter note for either BC Roma or ratiopharm Ulm found after four different searches (English, German, Italian) plus Sportschau, Turismo Roma and Eurohoops pages; the EuroCup site pages were not retrievable. Nothing reported out, nothing confirmed fit. Roma coach per Turismo Roma is Alessandro Magro; club was founded June 2026 on the Vanoli Cremona licence, so no coach change in the last 30 days is reported.",
+        "lineups": "No expected starting fives found from any source (searches return only standings and ticket pages). Unknown.",
+        "rotation": "Round 7 of the EuroCup regular season, Wednesday 11 Nov 20:00 local at PalaTiziano, Rome (Turismo Roma). Roma's previous EuroCup game was a home loss to Bosna on 27 Oct, 80-85 (Ground News summary of miruhbosne.com, provisional). Ulm's BBL game at Rostock was listed for 7 Nov, 18:30 (Sportschau; result not found). Ulm travel from Germany to Rome; next fixtures not found.",
+        "motivation": "Sportschau Group D table after 6 games each: Bahcesehir 5-1, PAOK 5-2, Manresa 5-2, Ulm 3-3 (+6), Panevezys 3-3, Roma 2-4 (-35), Bosna 2-5, Balkan 1-6. Both sides still in the race for a top-4 spot; Roma more pressed. Not a derby, no rivalry.",
+        "form": "Roma 2-4 with points 518:553 (average 86.3 scored, 92.2 conceded), including a home loss to Bosna and an opening loss to Bahcesehir 78-91 (Eurohoops). Ulm 3-3 with 535:529 (average 89.2 for, 88.2 against). On paper Ulm are the better group side by record and point difference; no home/away split found.",
+        "h2h": "No previous meeting: Roma is a new club formed in June 2026. Return fixture is in Ulm on 12 Jan 2027 (Ticket-compare).",
+        "odds": "Polymarket: moneyline Roma 0.75 / Ulm 0.25, spread Roma -6.5 at 0.545, total 182.5 over 0.575. The price history shows 0.50 until 10 Nov 14:00 UTC then 0.755 at 15:00 and flat at 0.74 to 0.75 since, i.e. the market opened that day, so the jump is the listing opening, not news. No second bookmaker or exchange price found for this game.",
+        "models": "No bookmaker-free rating (Elo, net rating, Eurohoops or BasketNews prediction) found for this game. The only model-like fact is the standings point difference, which favours Ulm (+6 vs -35).",
+        "venue_weather": "PalaTiziano (Palazzetto dello Sport, Flaminio, Rome), Roma's regular home arena, so not a neutral or unusual venue; indoor. Ulm travel from Germany."
+      },
+      "reason": "Fixture verified (EuroCup Group D round 7, BC Roma vs ratiopharm Ulm, Wed 11 Nov 20:00 Rome = 19:00 UTC, PalaTiziano; senior side) and no hard exclusion found. The market's 75% looks high against the evidence: Roma are 2-4 with a -35 point difference and lost at home to Bosna last time, while Ulm are 3-3 with a positive difference, and no injury or lineup news explains the gap. Because the facts are thin I stay near the market but move 4 points toward Ulm, to 0.71 / 0.29, with low confidence.",
+      "main_risk": "Ulm, the better group side by record and points difference, win in Rome; Roma are a new, 2-4 side that already lost at home to Bosna. Unknown injuries and lineups for both teams add further uncertainty.",
+      "sources": [
+        "https://www.sportschau.de/live-und-ergebnisse/basketball/uleb-euro-cup/ma12322618/roma-spqr_ratiopharm-ulm/blitztabelle",
+        "https://turismoroma.it/en/node/178908",
+        "https://ground.news/article/bosnia-leads-in-rome-at-halftime",
+        "https://www.eurohoops.net/en/eurocup/2014351/eurocup-roundup-opening-round-gameday-2/",
+        "https://gamma-api.polymarket.com/events?id=1343530"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1342773",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.28,
+        "draw": 0,
+        "away": 0.72
+      },
+      "checks": {
+        "team_news": "Tenerife (8sports.es, cbcanarias.net, 10 Nov): Marcelinho Huertas rested for this trip, and Lopez-Arostegui, Ethan Happ and Rokas Giedraitis are out. Sol del Sur says Huertas is leaving for Dubai, with reported tension with coach Lakovic; the club has not confirmed it. Siauliai: Cedric Henderson Jr. (elbow, 16.7 ppg) might return and Tauras Jogela is out. BasketNews EuroCup injury page lists Henderson as uncertain and Jogela as game-time decision, and no Tenerife injuries (that page appears out of date against the club-side reports).",
+        "lineups": "No confirmed starting fives found in any source. Siauliai's named key players are Pacevicius, Jarumbaukas, Fofana, McNight, Cafey and Reid. Tenerife's starters are unknown.",
+        "rotation": "Tenerife is the group leader at 5-1 and this is the first of three straight away games: Andorra on Saturday, then Ankara next Tuesday, up to ten days away from home. The trip to Lithuania is long. Huertas was left at home. Siauliai lost 98-77 at Venezia midweek and won the league game at Nevezis on the weekend.",
+        "motivation": "EuroCup Group B: Tenerife first at 5-1; Siauliai fifth at 3-3, level with second place, so both sides have something to play for. Tenerife's big lead and the road trip could lower its intensity.",
+        "form": "Siauliai is 3-3 in the EuroCup and 4-5 in the LKL (sixth). Home losses to London Lions 74-71 and Maxima Roma 98-93. Away win at Turk Telekom 94-89. Tenerife is 5-1, but I found no individual results or point totals for it.",
+        "h2h": "No previous meeting found in the sources read. The return leg is in January 2027.",
+        "odds": "No bookmaker prices found. Polymarket only: home 0.255, away 0.745, fair about 1.34 on Tenerife. I did not pull the 24h price history.",
+        "models": "No bookmaker-free rating or prediction found. Searches returned only fixture and ticket pages. This is a gap.",
+        "venue_weather": "Siauliai Arena, 5,700 seats, a EuroBasket 2011 venue. Normal home venue, indoor. Tip-off 16:30 Canary time (17:30 local) per the search result. Long travel from Tenerife."
+      },
+      "reason": "The fixture is verified: EuroCup Group B, Siauliai at home, Tenerife away. No hard exclusion applies. Songaila has coached Siauliai since July 2025 and Lakovic took over Tenerife in June 2026, so neither coaching change is recent. It is not a derby. Huertas's rest is one player, not a heavily rotated side. Tenerife is the stronger side and group leader, so it stays the favourite. The probability is trimmed from the market because four Tenerife players are out, the Huertas situation is unsettled, the long trip opens a stretch of three away games, and Siauliai may get Henderson back.",
+      "main_risk": "Tenerife, short of Huertas, Happ, Lopez-Arostegui and Giedraitis, lacks depth on a long trip. Siauliai at home is physical and shoots well, and Henderson may return. Tenerife also has a poor-looking schedule ahead, which could affect effort. I found no odds, lineup or model data beyond the Polymarket price, so confidence is low.",
+      "sources": [
+        "https://8sports.es/baloncesto/2026/11/10/la-laguna-tenerife-cierra-la-primera-vuelta-de-la-fase-de-grupos-de-la-eurocup-visitando-al-bc-siauliai/",
+        "https://cbcanarias.net/2026/11/10/concentracion-defensa-y-acierto-para-cerrar-la-primera-vuelta-de-la-eurocup/",
+        "https://basketnews.com/es/ligas/79-eurocup/lesionado.html",
+        "https://www.soldelsurtenerife.com/deportes/marcelinho-huertas-deja-canarias-jugar-euroliga-dubai-exentrenador-xavi-pascual/20261109200313111626.amp.html"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1350601",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.72,
+        "draw": 0,
+        "away": 0.28
+      },
+      "checks": {
+        "team_news": "No withdrawal or walkover reported for either player. Fritz is top seed at the Stockholm Open (ATP 250, labelled BNP Paribas Nordic Open on Polymarket) and had a first-round bye. Norrie won his opener 7-5 6-0 over Duckworth on Mon 9 Nov in 62 min, winning 82% of first-serve points (ATP Tour). Fritz has had knee tendinitis this season; search snippets on his Paris Masters week conflict (abdominal strain/withdrawal vs. match wins) and I could not confirm his current fitness. ATP Tour says he narrowly missed qualifying for the ATP Finals, so he has no schedule-management reason to skip this event and is playing it.",
+        "lineups": "Match expected Wed 11 Nov at Kungliga Tennishallen, Stockholm (Hurbra). No official order of play or court found; Polymarket lists the start as 13:30 UTC. Fritz is top seed, Norrie unseeded.",
+        "rotation": "Fritz has played no match in Stockholm yet (bye), so he is fresher than Norrie, who played Monday. ATP Tour says Fritz won 9 of his last 12 indoor matches (Lyon, Basel, Paris). Norrie's 62-minute win means little fatigue.",
+        "motivation": "ATP 250 in the last week before the ATP Finals. Fritz is top seed and missed the ATP Finals by a narrow margin, so he has little to gain in the Race but ranking points and a title are still on offer. Norrie is the unseeded underdog (ATP Elo rank 36) with nothing to lose.",
+        "form": "Fritz: 9-3 in his last 12 indoor matches (ATP Tour), though earlier snippets noted a back-to-back setback with a Basel loss. Norrie: Elo rank 36, with a straight-sets win over Duckworth in his Stockholm opener. Surface record not retrieved beyond Elo.",
+        "h2h": "Fritz leads 8-6 (ATP Tour). Norrie is a counter-puncher who has beaten Fritz before, so the series is close. Surface split not verified.",
+        "odds": "Polymarket Fritz 0.745 / Norrie 0.255 (fair 1.34). No bookmaker or exchange prices found, so no independent de-vig and no 24h Polymarket history checked. Elo gap implies a lower Fritz probability than the market (see models).",
+        "models": "Tennis Abstract Elo (updated 2026-11-09): Fritz overall 1961.7 (rank 13), hard 1899.6 (rank 14); Norrie overall 1815.3 (rank 36), hard 1773.9 (rank 38). The hard-Elo gap of 126 points implies about 0.67 for Fritz; the overall gap of 146 implies about 0.70.",
+        "venue_weather": "Indoor hard court at Kungliga Tennishallen (the page says Plexipave, which is faster than Paris). Fast indoor surface favours Fritz's serve; no weather exposure."
+      },
+      "reason": "Passes stage 1: the fixture is verified (Stockholm Open R2, Fritz v Norrie, Wed 11 Nov), with no withdrawal or walkover, no derby, and no venue or coach issue. Fritz is the better player on the Elo ratings, serves well indoors, and had a bye. Market 0.745 is a little above the Elo-implied 0.67-0.70, and Fritz's fitness is unconfirmed, so p is lowered slightly to 0.72.",
+      "main_risk": "Pre-mortem: Fritz's knee or abdominal issue flares up, or Norrie extends rallies and breaks the Fritz serve in a close 8-6 head-to-head. Evidence found: conflicting reports about Fritz's Paris Masters week and his history of knee tendinitis, plus a market price above the Elo-implied probability. No order of play was found, and no bookmaker prices.",
+      "sources": [
+        "https://www.atptour.com/en/news/norrie-duckworth-stockholm-2026-monday",
+        "https://tennisabstract.com/reports/atp_elo_ratings.html",
+        "https://hurbra.se/?p=46993",
+        "https://www.tennismajors.com/atp/stockholm-open-atp-250-atp/stockholm-rune-back-where-he-was-injured-ruud-arrives-from-paris-866220.html"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1320087",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.3,
+        "draw": 0,
+        "away": 0.7
+      },
+      "checks": {
+        "team_news": "No Round 11 official injury report for Paris v Fenerbahce could be read: euroleaguebasketball.net returned HTTP 429 (rate-limited) and searches surfaced only older rounds. Last known from the Eurohoops Round 10 report (Nov 4-6): Paris had Daulton Hommes, Tyson Etienne and Frank Ntilikina back in Round 9, Jared Rhoden missed Round 9, TJ Warren last played in Round 5; Fenerbahce had its full roster in Round 9, Dwight Powell registered as new signing, Johnny Juzang last played in Round 6. A search snippet says Marko Guduric would not play in an earlier Round 11-labelled Fener game, but that result is from a different season and is not verified for this fixture. Current Round 11 availability is unconfirmed.",
+        "lineups": "No confirmed or projected starting fives found for either side; not published at time of research. Eurohoops (Turkish edition) quotes Jasikevicius and Talen Horton-Tucker previewing the game with no lineup or absentee details.",
+        "rotation": "Both teams played Round 10 on Thu Nov 5 (Paris at Anadolu Efes, Fenerbahce v Baskonia), so about 6 days of rest each before Wed Nov 11; not a back-to-back and not a Tue/Thu or Wed/Fri double round. Fenerbahce travels from Istanbul to Paris. Round 12 opponents/dates not verified.",
+        "motivation": "Regular-season Round 11 with no relegation or clinch stakes. EuroLeague's preview (via search summary) says Paris has won three straight road games and Fenerbahce is among six teams tied for second; a Turkish outlet put Fenerbahce 4th at 7-3 before this round. Both want top-six/top-four position, so no obvious rest or low-motivation angle.",
+        "form": "Paris: three consecutive wins, including 95-90 at Anadolu Efes in Round 10 (Eurohoops); Eurohoops roundup headlined Payne scoring 33 in the third straight win; Jasikevicius says Paris averages around 100 points per game and shoots many threes at a high tempo. Nadir Hifi reported to have scored 20, 26 and 28 in the three wins (EuroLeague preview via search summary). Fenerbahce reported at 7 wins and 3 losses before Round 11. Home/away splits and points against not verified.",
+        "h2h": "2025-26 Round 1 (Oct 1, 2025): Fenerbahce beat Paris 96-77 at home. 2024-25: Fenerbahce won the playoff series (Games 1 and 2 in Istanbul per Eurohoops); a Dec 2024 league game in Paris was postponed over flu among Paris players. Full 2025-26 return-game result in Paris not verified.",
+        "odds": "Polymarket two-way moneyline: Fenerbahce 0.70 (fair 1.43), Paris 0.30, from the candidates file. No second book or exchange price and no Polymarket 24h move could be checked within budget. No Stake or Rainbet prices seen.",
+        "models": "No bookmaker-free rating, net rating or power-ranking prediction was found for this game. Qualitative read only: Fenerbahce 7-3 record against a Paris side on a three-game winning streak.",
+        "venue_weather": "Home arena is the Adidas Arena in Paris. EuroLeague's preview mentions the league's first 'City Takeover' in Paris coinciding with this game; the arena for this fixture was not confirmed (one low-reliability aggregator listed a different hall, others conflict), so a venue change is unverified and not treated as a hard exclusion. Fenerbahce flies in from Istanbul; indoor game, no weather issue."
+      },
+      "reason": "Stage 1: fixture verified on euroleaguebasketball.net game centre and Eurohoops (EuroLeague Round 11, Paris Basketball v Fenerbahce, Wed 2026-11-11, 20:45 CET = 19:45 UTC, senior men's teams). No postponement, no confirmed heavy rotation, not a derby, no coach change found in the last 7 days (Jasikevicius still in charge per Eurohoops preview), no confirmed venue problem. Stage 2: key facts (Round 11 injury report, lineups, second price source) remained unknown after several searches and attempts at the league pages (HTTP 429), so confidence is low and p stays at the market. Fenerbahce are the stronger side on record (7-3, beat Paris 96-77 in Oct 2025), but Paris are in form.",
+      "main_risk": "Pre-mortem: Paris win a high-tempo, three-point-heavy game at home; they are on a three-game winning streak (95-90 at Efes in Round 10, Hifi scoring 20 to 28 in recent wins) and score about 100 per game, while Fenerbahce must travel and may have an unreported absence (Round 11 injury report not read). Venue for the City Takeover event unconfirmed.",
+      "sources": [
+        "https://www.eurohoops.net/tr/euroleague-tr/2033158/saras-jasikevicius-parisin-yogunluguna-karsilik-vermemiz-lazim/",
+        "https://www.eurohoops.net/en/euroleague/2030518/euroleague-round-10-injury-report-satoransky-out-powell-and-konchar-could-debut/",
+        "https://www.euroleaguebasketball.net/en/euroleague/game-center/2026-27/paris-basketball-fenerbahce-istanbul/E2026/101/",
+        "https://www.euroleaguebasketball.net/en/euroleague/news/tipoff-countdown-storylines-round-11/",
+        "https://www.sportschau.de/live-und-ergebnisse/basketball/euroleague-basketball/ma12385871/paris-basketball_fenerbahce/blitztabelle"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1343527",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.32,
+        "draw": 0,
+        "away": 0.68
+      },
+      "checks": {
+        "team_news": "No 2026-27 official EuroCup round 7 injury report found (euroleaguebasketball.net round-7 page not indexed; derthonabasket.it medical bulletins in search were undated). Unknown for both teams after 3 searches plus club and league pages; no hard-rule news (no rested-starters report) found.",
+        "lineups": "Expected starting fives not found in any source (no Italian or Israeli preview located).",
+        "rotation": "Not verified. No data on previous or next game, travel or rest for either side. Hapoel travels to Italy; Derthona is at home.",
+        "motivation": "Group A after 6 games: Hapoel Jerusalem 6-0 (+87, 528:441, 1st); Derthona 3-3 (-3, 481:484, 4th, level with Le Mans and Riga on wins). Both still have a stake: Hapoel is chasing the top seed and Derthona is fighting for a top-4 place (Sportschau table).",
+        "form": "Hapoel is unbeaten in the EuroCup, with a 100-64 win over Riga and a 84-85 win at Burgos. Derthona's reported results: 86-84 loss at Riga, 89-83 win over Le Mans, 88-68 loss at Aris, 89-79 win over Burgos. Points per game: Hapoel 88.0 for / 73.5 against; Derthona 80.2 for / 80.7 against.",
+        "h2h": "No previous meeting found; this is Derthona's first EuroCup season. The return fixture is 13 Jan 2027.",
+        "odds": "Polymarket moneyline Derthona 0.30 / Hapoel 0.70 (about 1.43 fair). Spread Hapoel -4.5 at 0.57 and O/U 165.5 at 0.535 over. Price history: Hapoel was about 0.50 until roughly the last 24h, then jumped 0.51 to 0.70 in a single step (about 19 points) with no news found, so a soft risk that is unexplained. No other books' odds seen (wincomparator returned 403).",
+        "models": "No bookmaker-free rating found. The group point differential (+87 for Hapoel vs -3 for Derthona over 6 games each) supports Hapoel as the clear favourite.",
+        "venue_weather": "Fixture confirmed on Eurosport and Sportschau: Derthona Basket vs Hapoel Jerusalem, EuroCup Group A round 7, Wed 11 Nov 2026, 19:30 local (18:30 UTC), PalaEnergica Paolo Ferraris, Casale Monferrato. This is Derthona's home venue for its EuroCup games (its European debut was played there) and is not a neutral site. The same Eurosport page lists it as Programmato and no result is shown on Sportschau. Indoor arena; Hapoel travels from Israel."
+      },
+      "reason": "The fixture passes all hard checks. It is verified (EuroCup, senior men's sides, not postponed) and there is no report of rested starters. It is not a derby and no coach change was found. The venue is Derthona's home hall. Hapoel is the group leader at 6-0 with a +87 differential against Derthona's 3-3 and -3, and it won 84-85 at Burgos, a result Derthona beat at home by 10. I shade p slightly toward the underdog (0.68 vs 0.70) because the injury and lineup facts are unknown and the market moved about 19 points in a day with no news found.",
+      "main_risk": "Pre-mortem: a Hapoel key player is out or rested after its travel, while Derthona at home hits its shooting form (89-83 and 89-79 home wins), and the Hapoel unbeaten run ends in a close game. The unexplained jump in the Polymarket price from about 0.50 to 0.70 in the last day could mean either late news or a thin market, and I could not find which. No injury report, lineup or preview was available, so confidence is low.",
+      "sources": [
+        "https://www.sportschau.de/live-und-ergebnisse/basketball/uleb-euro-cup/ma12322111/derthona-basket_hapoel-jerusalem/blitztabelle",
+        "https://www.eurosport.it/basket/bkt-eurocup/2026-2027/derthona-basket-hapoel-gerusalemme_mtc21917676/live-matches.shtml",
+        "https://karlobag.eu/en/sports/basketball/europe/europecup/hapoel-jerusalem-vs-baglietto-derthona-tortona-jo9bd/",
+        "https://www.tuttosport.com/news/piemonte-news/2026/10/20-152025451/derthona_contro_burgos_a_caccia_del_riscatto_in_eurocup",
+        "https://gamma-api.polymarket.com/events?id=1343527"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1360078",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.34,
+        "draw": 0,
+        "away": 0.66
+      },
+      "checks": {
+        "team_news": "Rune ruptured his left Achilles in the Oct 2025 Stockholm semi-final vs Humbert and was out about 11 months. He returned in Sept 2026 and says he is pain-free (tennisnerd, atptour feature). He is ranked No. 406 on his protected ranking. Since the return: first-round losses in Tokyo, Shanghai and Paris, Davis Cup wins including Dimitrov, and a Basel quarter-final. No withdrawal or walkover is reported for either player. Kecmanovic has no reported injury, but I found no fitness news on him either.",
+        "lineups": "Both players are through to the Round of 16 (this is not a first-round match). ATP results show Rune d. Bergs (8) 6-3 6-4 and Kecmanovic d. Rinderknech 7-6(4) 4-6 6-4, both on Tue 10 Nov. Court and order of play for Wed 11 Nov were NOT confirmed. The ATP daily-schedule page only showed Tuesday, and Polymarket lists a 18:30 UTC start.",
+        "rotation": "Rune won in straight sets (2 sets, 6-3 6-4), so little wear. Kecmanovic needed 3 sets, including a tiebreak, one day earlier. Exact match times were not found. Both play on consecutive days, but Kecmanovic is a bit more tired. Rune is still building match fitness after 11 months out.",
+        "motivation": "ATP 250 (Bybit Stockholm Open). Rune won this title in 2022 and is rebuilding his ranking from a protected ranking of No. 406. Kecmanovic is around No. 100 in Elo terms and wants ranking points. Seeds 1-3 and 5 are in the other part of the draw or already gone: Etcheverry (5) got a walkover loss, Bergs (8) is out.",
+        "form": "Rune: reached the Basel QF, beating Halys and Hurkacz in deciding-set tiebreaks, then lost to Vacherot. He then beat the No. 8 seed in straight sets in Stockholm. He lost three first-round matches in Tokyo, Shanghai and Paris. Kecmanovic: beat Rinderknech in three sets. I did not find his last 10 matches or his surface record.",
+        "h2h": "1-0 to Kecmanovic. He beat Rune 7-6(3) 6-2 at the 2023 Stockholm Open (R2, indoor hard). I found no other meetings in the sources.",
+        "odds": "Polymarket (market): Rune 0.695 / Kecmanovic 0.305, fair odds for Rune about 1.44. I did not find other books' prices or a Polymarket 24h move. I also could not confirm any Stake or Rainbet price. I shaded p about 3.5 points toward Kecmanovic for Rune's post-surgery uncertainty and the 2023 h2h.",
+        "models": "Tennis Abstract Elo (cached page): Kecmanovic overall Elo 1704.1 (rank 106), hard Elo 1649.7 (rank 109). Rune is not on the list, because it needs 10+ matches in the last 52 weeks, so there is no Elo comparison. A pre-injury Rune would be well above Kecmanovic, but his current level is uncertain.",
+        "venue_weather": "Royal Tennis Hall, Stockholm, indoor hard. Tennisnerd calls it traditionally slow with high bounce and a 79.5% hold rate, though a reader comment says it plays quicker this year with new Dunlop balls. Indoor, so no weather risk. The Kecmanovic v Rinderknech match was on Center Court."
+      },
+      "reason": "Passes stage 1: fixture verified as the Stockholm ATP 250 Round of 16 on Wed 11 Nov, with both players having won in R32 and no withdrawal or walkover. No coach, derby or venue exclusion applies. Rune is the favourite on talent (former top 4, 2022 champion) and is fresher after a straight-sets win. Reduced confidence because his level after 11 months out is unproven and Kecmanovic won their only meeting indoors in Stockholm.",
+      "main_risk": "Pre-mortem: Rune is still rusty and physically unproven after the Achilles rupture, and he loses a close indoor match to a solid returner who beat him here in 2023. The slow court helps Kecmanovic. I found no evidence of a new Rune physical problem this week. Rune also could suffer a mid-match physical issue or retirement, which Polymarket settles as a loss. Order of play and match lengths were not confirmed.",
+      "sources": [
+        "https://www.atptour.com/en/scores/current/stockholm/429/results",
+        "https://www.atptour.com/en/news/rune-stockholm-2026-preview-feature",
+        "https://www.tennisnerd.net/?p=70514",
+        "https://www.tennisabstract.com/reports/atp_elo_ratings.html",
+        "https://www.mykhel.com/tennis/bybit-stockholm-open-2026-mens-singles-1-32-final-live-scoreboard-441276/",
+        "https://www.tennismajors.com/atp/stockholm-open-kecmanovic-through-to-quarter-finals-721916.html"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1318742",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.685,
+        "draw": 0,
+        "away": 0.315
+      },
+      "checks": {
+        "team_news": "No injury report or questionable list for either side found for 11 Nov. FIBA's recap of the previous round lists no injuries; Peristeri's key players were Ty Nichols and Jalen Finch (47 points combined vs Murcia), Varese's were Hunter Hale (22 vs Bamberg) and David Duke. Tried: English, Greek and Italian searches plus FIBA and OA Sport pages. Nothing found for Greek or Italian press on absences, so left at the market.",
+        "lineups": "No expected starting fives published or found. The only known rotation names come from the 13 Oct game (Peristeri: Carius, Nichols; Varese: Kamagate, Hale, Roby, Duke, Alviti). Starters unconfirmed.",
+        "rotation": "Peristeri played at Murcia (won 80-72) in the round before, and the Greek League loss to Panathinaikos was on 18 Oct. Exact dates of the games right before and after 11 Nov were not found. Varese won 95-61 at Bamberg last round and now travel to Athens. No back-to-back information found.",
+        "motivation": "Group D: Peristeri were 3-0 and top of the group after three rounds per FIBA. Varese were 1-2 (lost to Murcia and at home to Peristeri, won at Bamberg). Both have a reason to win. No sacking or appointment found; Varese's coach is Giannis Kastritis per FIBA, with no coach change reported.",
+        "form": "Peristeri unbeaten in the BCL (3-0), with their only 2026-27 loss in the Greek League at Panathinaikos on 18 Oct. Varese are 1-2 in the BCL, and their 95-61 win at Bamberg was the biggest by an Italian team in BCL history. A fuller points for/against and home/away split was not found. Peristeri are at home in Athens.",
+        "h2h": "13 Oct 2026 at Varese: Peristeri won 85-82 (OA Sport score line Varese 82-85), after trailing 52-37 at half and winning the third quarter 27-12 on a 12-0 opening run; Carius and Nichols scored the decisive baskets.",
+        "odds": "Polymarket moneyline de-vigged: Peristeri 0.685, Varese 0.315 (fair 1.46). No second bookmaker or exchange price and no 24h Polymarket move were retrieved, so the market was used as is.",
+        "models": "No bookmaker-free rating or prediction found (searched Eurohoops, FIBA and BasketNews-type results). Only qualitative context: Peristeri reached the BCL Final Four in 2023-24 and lead the group.",
+        "venue_weather": "Fixture listed at Peristeri (Athens) on 11/11/2026 at 17:30 (365Scores / ticket-compare listings). Varese travel from Italy. Normal home venue and indoor arena, no neutral venue or venue problem found."
+      },
+      "reason": "Fixture verified as Peristeri v Varese, BCL Group D, 11 Nov 2026, 17:30 (365Scores listing, FIBA and OA Sport coverage of the first leg). No hard exclusion found: no confirmed rotation, derby, coach change or venue problem. Key facts for team news and lineups stayed unknown after several searches, so the game is kept at low confidence with p equal to the market.",
+      "main_risk": "Varese beat Peristeri on the floor for 3 quarters in October (led by 15 at half), and 85-82 shows how close the matchup is. Varese's road form is poor, but their 95-61 win at Bamberg shows they can score. Peristeri may also rotate before or after Greek League games, but no report says so. Team news and starters are unverified.",
+      "sources": [
+        "https://www.fiba.basketball/en/news/four-takeaways-varese-setting-italian-record-peristeris-1-2-punch-goes-3-0",
+        "https://www.oasport.it/2026/10/basket-champions-league-varese-cade-in-casa-contro-il-peristeri/",
+        "https://ticket-compare.com/basketball/basketball-champions-league/peristeri-bc-vs-pallacanestro-varese-11-nov-2026/",
+        "https://www.365scores.com/fi/basketball/team/peristeri-6488/squad",
+        "https://www.eurohoops.net/el/fiba-champions-league-el/1989230/bcl-i-antipali-gia-aek-peristeri-sti-fasi-ton-omilon/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1320494",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1350602",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1318744",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1318741",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1352021",
+      "exclude": true,
+      "skipped": true
+    }
+  ]
+}

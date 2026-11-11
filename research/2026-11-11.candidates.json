@@ -1,0 +1,378 @@
+{
+  "date": "2026-11-11",
+  "window": {
+    "start": "2026-11-11T08:21:28.879Z",
+    "end": "2026-11-11T22:00:00.000Z"
+  },
+  "games_in_window": 38,
+  "games": [
+    {
+      "id": "1343529",
+      "league": "EuroCup",
+      "sport": "basketball",
+      "event": "Le Mans Sarthe Basket vs. CB San Pablo Burgos",
+      "home": "Le Mans Sarthe Basket",
+      "away": "CB San Pablo Burgos",
+      "start": "2026-11-11T19:00:00.000Z",
+      "p_market": {
+        "home": 0.795,
+        "draw": 0,
+        "away": 0.205
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Le Mans Sarthe Basket",
+          "p_market": 0.795,
+          "fair_odds": 1.26
+        }
+      ]
+    },
+    {
+      "id": "1358066",
+      "league": "ATP Tour",
+      "sport": "tennis",
+      "event": "BNP Paribas Nordic Open: Alexander Shevchenko vs Casper Ruud",
+      "home": "Alexander Shevchenko",
+      "away": "Casper Ruud",
+      "start": "2026-11-11T17:00:00.000Z",
+      "p_market": {
+        "home": 0.215,
+        "draw": 0,
+        "away": 0.785
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Casper Ruud",
+          "p_market": 0.785,
+          "fair_odds": 1.27
+        }
+      ]
+    },
+    {
+      "id": "1271274",
+      "league": "CS2",
+      "sport": "esports",
+      "event": "Counter-Strike: MOUZ vs G2 (BO3) - BLAST Rivals Group B",
+      "home": "MOUZ",
+      "away": "G2",
+      "start": "2026-11-11T09:30:00.000Z",
+      "p_market": {
+        "home": 0.775,
+        "draw": 0,
+        "away": 0.225
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "MOUZ",
+          "p_market": 0.775,
+          "fair_odds": 1.29
+        }
+      ]
+    },
+    {
+      "id": "1320086",
+      "league": "EuroLeague",
+      "sport": "basketball",
+      "event": "Partizan vs. Kosner Baskonia",
+      "home": "Partizan",
+      "away": "Kosner Baskonia",
+      "start": "2026-11-11T19:45:00.000Z",
+      "p_market": {
+        "home": 0.765,
+        "draw": 0,
+        "away": 0.235
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Partizan",
+          "p_market": 0.765,
+          "fair_odds": 1.31
+        }
+      ]
+    },
+    {
+      "id": "1343530",
+      "league": "EuroCup",
+      "sport": "basketball",
+      "event": "BC Roma Spqr vs. Ulm Basketball",
+      "home": "BC Roma Spqr",
+      "away": "Ulm Basketball",
+      "start": "2026-11-11T19:00:00.000Z",
+      "p_market": {
+        "home": 0.75,
+        "draw": 0,
+        "away": 0.25
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "BC Roma Spqr",
+          "p_market": 0.75,
+          "fair_odds": 1.33
+        }
+      ]
+    },
+    {
+      "id": "1342773",
+      "league": "EuroCup",
+      "sport": "basketball",
+      "event": "BC Siauliai vs. CB 1939 Canarias",
+      "home": "BC Siauliai",
+      "away": "CB 1939 Canarias",
+      "start": "2026-11-11T16:30:00.000Z",
+      "p_market": {
+        "home": 0.255,
+        "draw": 0,
+        "away": 0.745
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "CB 1939 Canarias",
+          "p_market": 0.745,
+          "fair_odds": 1.34
+        }
+      ]
+    },
+    {
+      "id": "1350601",
+      "league": "ATP Tour",
+      "sport": "tennis",
+      "event": "BNP Paribas Nordic Open: Taylor Fritz vs Cameron Norrie",
+      "home": "Taylor Fritz",
+      "away": "Cameron Norrie",
+      "start": "2026-11-11T13:30:00.000Z",
+      "p_market": {
+        "home": 0.745,
+        "draw": 0,
+        "away": 0.255
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Taylor Fritz",
+          "p_market": 0.745,
+          "fair_odds": 1.34
+        }
+      ]
+    },
+    {
+      "id": "1320087",
+      "league": "EuroLeague",
+      "sport": "basketball",
+      "event": "Paris Basketball vs. Fenerbahce",
+      "home": "Paris Basketball",
+      "away": "Fenerbahce",
+      "start": "2026-11-11T19:45:00.000Z",
+      "p_market": {
+        "home": 0.3,
+        "draw": 0,
+        "away": 0.7
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "Fenerbahce",
+          "p_market": 0.7,
+          "fair_odds": 1.43
+        }
+      ]
+    },
+    {
+      "id": "1343527",
+      "league": "EuroCup",
+      "sport": "basketball",
+      "event": "Derthona Basket vs. Hapoel Jerusalem",
+      "home": "Derthona Basket",
+      "away": "Hapoel Jerusalem",
+      "start": "2026-11-11T18:30:00.000Z",
+      "p_market": {
+        "home": 0.3,
+        "draw": 0,
+        "away": 0.7
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "Hapoel Jerusalem",
+          "p_market": 0.7,
+          "fair_odds": 1.43
+        }
+      ]
+    },
+    {
+      "id": "1360078",
+      "league": "ATP Tour",
+      "sport": "tennis",
+      "event": "BNP Paribas Nordic Open: Miomir Kecmanovic vs Holger Rune",
+      "home": "Miomir Kecmanovic",
+      "away": "Holger Rune",
+      "start": "2026-11-11T18:30:00.000Z",
+      "p_market": {
+        "home": 0.305,
+        "draw": 0,
+        "away": 0.695
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Holger Rune",
+          "p_market": 0.695,
+          "fair_odds": 1.44
+        }
+      ]
+    },
+    {
+      "id": "1318742",
+      "league": "Basketball Champions League",
+      "sport": "basketball",
+      "event": "Peristeri vs. Pallacanestro Varese",
+      "home": "Peristeri",
+      "away": "Pallacanestro Varese",
+      "start": "2026-11-11T17:30:00.000Z",
+      "p_market": {
+        "home": 0.685,
+        "draw": 0,
+        "away": 0.315
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Peristeri",
+          "p_market": 0.685,
+          "fair_odds": 1.46
+        }
+      ]
+    },
+    {
+      "id": "1320494",
+      "league": "KHL",
+      "sport": "ice_hockey",
+      "event": "KHL: CSKA Moscow vs. Torpedo",
+      "home": "CSKA Moscow",
+      "away": "Torpedo",
+      "start": "2026-11-11T16:30:00.000Z",
+      "p_market": {
+        "home": 0.67,
+        "draw": 0,
+        "away": 0.33
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "CSKA Moscow",
+          "p_market": 0.67,
+          "fair_odds": 1.49
+        }
+      ]
+    },
+    {
+      "id": "1350602",
+      "league": "ATP Tour",
+      "sport": "tennis",
+      "event": "BNP Paribas Nordic Open: Borna Gojo vs Ugo Humbert",
+      "home": "Borna Gojo",
+      "away": "Ugo Humbert",
+      "start": "2026-11-11T15:00:00.000Z",
+      "p_market": {
+        "home": 0.335,
+        "draw": 0,
+        "away": 0.665
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Ugo Humbert",
+          "p_market": 0.665,
+          "fair_odds": 1.5
+        }
+      ]
+    },
+    {
+      "id": "1318744",
+      "league": "Basketball Champions League",
+      "sport": "basketball",
+      "event": "SK Slavia Prague vs. Igokea",
+      "home": "SK Slavia Prague",
+      "away": "Igokea",
+      "start": "2026-11-11T17:00:00.000Z",
+      "p_market": {
+        "home": 0.66,
+        "draw": 0,
+        "away": 0.34
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "SK Slavia Prague",
+          "p_market": 0.66,
+          "fair_odds": 1.52
+        }
+      ]
+    },
+    {
+      "id": "1318741",
+      "league": "Basketball Champions League",
+      "sport": "basketball",
+      "event": "BC Rytas vs. Nanterre",
+      "home": "BC Rytas",
+      "away": "Nanterre",
+      "start": "2026-11-11T17:30:00.000Z",
+      "p_market": {
+        "home": 0.655,
+        "draw": 0,
+        "away": 0.345
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "BC Rytas",
+          "p_market": 0.655,
+          "fair_odds": 1.53
+        }
+      ]
+    },
+    {
+      "id": "1352021",
+      "league": "Liiga",
+      "sport": "ice_hockey",
+      "event": "Lukko Rauma vs. KalPa Hockey",
+      "home": "Lukko Rauma",
+      "away": "KalPa Hockey",
+      "start": "2026-11-11T16:30:00.000Z",
+      "p_market": {
+        "home": 0.625,
+        "draw": 0,
+        "away": 0.375
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Lukko Rauma",
+          "p_market": 0.625,
+          "fair_odds": 1.6
+        }
+      ]
+    }
+  ]
+}
