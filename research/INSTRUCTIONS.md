@@ -66,12 +66,49 @@ of 0, and your `p.draw` must stay 0.
    `npm run check-research` until it prints OK. It refuses kept games with a
    thin checklist or fewer than 4 source sites.
 4. `npm run pick` prints the slip the site will publish, or "No bet".
-5. Commit only the two research files and push to `main`. **Always push**,
+5. Commit only the two research files and push to `main`.
+   Then **schedule the pre-kickoff check** (see below) with `send_later`
+   (Claude Code Remote) for about 100 minutes before the first leg of the slip
+   `npm run pick` printed, in Europe/Belgrade time. The user asked for this
+   check on every slip. **Always push**,
    even when there are 0 games or nothing could be researched (write
    `"games": []` or `skipped` verdicts and say why in `summary`): the push is
    what triggers today's build. "No bet" should only happen when every game
    in the window has been researched and none can make a medium/high slip;
    say so in `summary`.
+
+## Pre-kickoff check (about 100 minutes before the first leg)
+
+Morning research cannot see confirmed lineups, starting goalies or the order
+of play; they come out an hour or two before the start. This check is where
+a leg can honestly reach **high** confidence, or be dropped.
+
+1. `git checkout main && git pull origin main`. Read today's slip from the
+   live site (`https://suadpllana.github.io/polymarket/history.json`). If its
+   first leg starts more than 2.5 hours from now, `send_later` this check
+   again for about 100 minutes before that leg and stop. If it has already
+   started, stop.
+2. `npm run candidates -- --more` refreshes `data` (odds, 24h move, ratings)
+   on today's candidates and adds any new games; give new ones a `skipped`
+   verdict unless you research them.
+3. One subagent per slip leg, plus the two or three best medium/high
+   alternatives starting in the next three hours. Each one re-checks only
+   what changes late: the confirmed or expected XI, starting goalie or order
+   of play, late injury or illness news, and the price move since the
+   morning. It returns the full updated game object (same id), keeping the
+   morning findings that still hold.
+   - **high** only when the lineup is confirmed (or announced by the coach),
+     nothing new is wrong, the price has not moved against the leg, and the
+     odds and rating sources agree.
+   - **low** (so the leg is dropped) when late news hurts the favourite: a
+     key starter or the goalkeeper out, heavy rotation confirmed, or a price
+     move against it with no explanation.
+4. Merge the updated objects into `research/<date>.json`, set
+   `"stage": "pre_kickoff"` and a new `researched_at`, add a sentence to
+   `summary` on what changed, run `npm run check-research` and `npm run pick`,
+   then commit as `Pre-kickoff check for <date>` and push. The build rebuilds
+   the slip when it still has at least 30 minutes before its first game.
+5. Keep it quick: 1-5 subagents, about 10 tool calls each.
 
 ## What October's real bets taught us
 
@@ -166,7 +203,8 @@ that get excluded.
 - **Confidence.** `high`: every check is clean and the sources agree.
   `medium`: small doubts that the probabilities already reflect. `low`:
   real doubts or missing facts; **never bet**. Never raise a game to medium
-  just to get a slip: an honest "low" is a valid answer.
+  just to get a slip: an honest "low" is a valid answer. High is usually only
+  reachable in the pre-kickoff check, once lineups are confirmed.
 - **Pre-mortem.** Write the single most likely way the favourite fails to win
   (usually a draw or a late equaliser), then look for evidence of exactly
   that: low xG on both sides, an opponent that sits deep and draws often, the
@@ -210,6 +248,18 @@ Fill each `checks` field with what you found, in a sentence or two:
 | `odds` | Prices from at least two bookmakers or exchanges, de-vigged, and how they moved |
 | `models` | Model forecasts: Opta, ClubElo, FiveThirtyEight-style or other bookmaker-free models |
 | `venue_weather` | Venue, travel, pitch and weather |
+
+**Built-in data.** Each candidate may carry a `data` object, fetched by
+`npm run candidates`; use it first and cite its `source` URLs:
+- `data.odds`: DraftKings decimal prices from ESPN (football, NBA, NHL, NFL,
+  MLB), the opening line, and `p_devig` (the margin removed). This is a
+  second price source for the `odds` check.
+- `data.move_24h`: the favourite's Polymarket price 24 hours ago and now,
+  and the relative change.
+- `data.rating`: a bookmaker-free model, Tennis Abstract Elo for tennis
+  (`p_home` overall, hard and blended) or World Football Elo for national
+  teams (`expected_score_home`, where a draw counts half). This is the
+  `models` check.
 
 Use sources from **at least 4 different sites** per kept game. Good ones:
 

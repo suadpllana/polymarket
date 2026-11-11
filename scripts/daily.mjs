@@ -113,6 +113,7 @@ async function buildToday(date, { force = false, window = bettingWindow(), looka
   const base = {
     summary: research?.summary || 'The morning research did not arrive, so there is no researched slip today.',
     researched_at: research?.researched_at || null,
+    research_stage: research?.stage || null,
     researched_games: research?.games.size || 0,
     kept_games: kept,
     skipped,

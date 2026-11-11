@@ -12,6 +12,7 @@
 
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { coverage, gatherGames, inRange, marketLegs, researchPool, round } from './lib/football.mjs';
+import { gameData } from './lib/enrich.mjs';
 import { candidatesPath } from './lib/research.mjs';
 import { bettingWindow, localDate, tomorrowWindow } from './lib/time.mjs';
 
@@ -51,11 +52,26 @@ if (MORE) {
 const known = new Set((previous?.games || []).map((g) => g.id));
 const pool = MORE ? researchPool(all, Infinity).filter((g) => !known.has(g.id)) : researchPool(all);
 
+const games = [...(previous?.games || []), ...pool.map(entry)];
+
+// Odds, the 24h price move and a rating model for each game, so the research
+// does not depend on pages that block automated visitors.
+const live = new Map(all.map((g) => [g.id, g]));
+const todo = games.filter((c) => live.has(c.id));
+for (let i = 0; i < todo.length; i += 4) {
+  await Promise.all(
+    todo.slice(i, i + 4).map(async (c) => {
+      const data = await gameData(live.get(c.id)).catch(() => null);
+      if (data && Object.keys(data).length) c.data = { ...data, fetched_at: new Date().toISOString() };
+    })
+  );
+}
+
 const out = {
   date,
   window: previous?.window || { start: window.start.toISOString(), end: window.end.toISOString() },
   games_in_window: Math.max(all.length, previous?.games_in_window || 0),
-  games: [...(previous?.games || []), ...pool.map(entry)],
+  games,
 };
 
 await mkdir(new URL('.', candidatesPath(date)), { recursive: true });
@@ -64,4 +80,8 @@ console.log(
   MORE
     ? `${pool.length} more games added (${out.games.length} in all) to research/${date}.candidates.json`
     : `${out.games.length} games (of ${all.length} in the window) written to research/${date}.candidates.json`
+);
+const withData = games.filter((g) => g.data);
+console.log(
+  `Data: odds for ${withData.filter((g) => g.data.odds).length}, 24h move for ${withData.filter((g) => g.data.move_24h).length}, rating for ${withData.filter((g) => g.data.rating).length} of ${games.length} games.`
 );

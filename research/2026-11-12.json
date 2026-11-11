@@ -1,7 +1,8 @@
 {
   "date": "2026-11-12",
   "researched_at": "2026-11-11T18:48:35Z",
-  "summary": "Researched on the evening of Wed 11 Nov for Thursday. 16 candidates (Nations League football, EuroLeague, ice hockey, ATP Stockholm, WTA Finals, CS2); 8 researched, 8 not reached because six games were already kept at medium confidence. Medium confidence: England over Croatia (Croatia effectively out of the group, England won the first meeting 7-0, but Konsa, Guehi, Saka, Palmer and others are out and Spain away follows on Sunday; p 0.77), Czechia v Spain (Spain already qualified and without Yamal, Oyarzabal, Rodri and Olmo, England next; p 0.80), Montenegro over Latvia (group leaders at home against a side with little to play for; p 0.765), Michelsen over Tabilo (fresher, better hard-court Elo, won their only meeting; p 0.74), Spirit over G2 (CS2 BLAST Rivals Bo3 on LAN, Spirit top 2 and 2-0 in the last meeting; p 0.73) and Gauff over Kostyuk (Kostyuk eliminated with a wrist problem; Gauff's own motivation is thin; p 0.68). Low confidence, never bet: Real Madrid v Crvena Zvezda (Campazzo, Maledon, Jantunen out; no lineups or rating). Excluded: Hurricanes v Kraken (NHL Global Series in Helsinki, neutral venue). Team news may change on match day, so the slip is rebuilt if the research is pushed again before its first game. No Stake or Rainbet prices were found; prices seen were DraftKings via ESPN for the football, Codere for Real Madrid, and tips.gg / footballpredictions listings for Montenegro.",
+  "stage": "morning",
+  "summary": "Researched on the evening of Wed 11 Nov for Thursday. 16 candidates (14 more were added later with --more and not researched) (Nations League football, EuroLeague, ice hockey, ATP Stockholm, WTA Finals, CS2); 8 researched, 8 not reached because six games were already kept at medium confidence. Medium confidence: England over Croatia (Croatia effectively out of the group, England won the first meeting 7-0, but Konsa, Guehi, Saka, Palmer and others are out and Spain away follows on Sunday; p 0.77), Czechia v Spain (Spain already qualified and without Yamal, Oyarzabal, Rodri and Olmo, England next; p 0.80), Montenegro over Latvia (group leaders at home against a side with little to play for; p 0.765), Michelsen over Tabilo (fresher, better hard-court Elo, won their only meeting; p 0.74), Spirit over G2 (CS2 BLAST Rivals Bo3 on LAN, Spirit top 2 and 2-0 in the last meeting; p 0.73) and Gauff over Kostyuk (Kostyuk eliminated with a wrist problem; Gauff's own motivation is thin; p 0.68). Low confidence, never bet: Real Madrid v Crvena Zvezda (Campazzo, Maledon, Jantunen out; no lineups or rating). Excluded: Hurricanes v Kraken (NHL Global Series in Helsinki, neutral venue). Team news may change on match day, so the slip is rebuilt if the research is pushed again before its first game. No Stake or Rainbet prices were found; prices seen were DraftKings via ESPN for the football, Codere for Real Madrid, and tips.gg / footballpredictions listings for Montenegro.",
   "games": [
     {
       "id": "1282466",
@@ -304,6 +305,76 @@
     },
     {
       "id": "1325733",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1325393",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1338079",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1282450",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1282473",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1282488",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1282460",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1325734",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1325740",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1325743",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1325742",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1325741",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1325737",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1325736",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1325730",
       "exclude": true,
       "skipped": true
     }

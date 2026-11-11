@@ -109,5 +109,8 @@ export async function loadResearch(date) {
       prices: (Array.isArray(v.prices) ? v.prices : []).filter((p) => BOOKS.includes(p?.book) && isLegKey(p?.market) && Number(p.odds) >= 1.01),
     });
   }
-  return { summary: String(research.summary || '').slice(0, 800), researched_at: research.researched_at || null, games };
+  // "morning" (or the evening before) and "pre_kickoff" for the final check
+  // about 90 minutes before the slip's first game.
+  const stage = research.stage === 'pre_kickoff' ? 'pre_kickoff' : 'morning';
+  return { summary: String(research.summary || '').slice(0, 800), researched_at: research.researched_at || null, stage, games };
 }

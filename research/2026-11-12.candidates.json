@@ -62,7 +62,29 @@
           "p_market": 0.815,
           "fair_odds": 1.23
         }
-      ]
+      ],
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.865,
+          "to": 0.865,
+          "relative_change": 0
+        },
+        "rating": {
+          "model": "World Football Elo (eloratings.net)",
+          "source": "https://www.eloratings.net/",
+          "home": {
+            "name": "San Marino",
+            "elo": 820
+          },
+          "away": {
+            "name": "Belarus",
+            "elo": 1537
+          },
+          "expected_score_home": 0.028
+        },
+        "fetched_at": "2026-11-11T18:55:12.830Z"
+      }
     },
     {
       "id": "1282493",
@@ -127,7 +149,50 @@
           "p_market": 0.74,
           "fair_odds": 1.35
         }
-      ]
+      ],
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112",
+          "espn_match": "Spain at Czechia",
+          "decimal": {
+            "home": 11,
+            "draw": 6.5,
+            "away": 1.19
+          },
+          "opening": {
+            "home": 12,
+            "draw": 7,
+            "away": 1.15
+          },
+          "p_devig": {
+            "home": 0.084,
+            "draw": 0.142,
+            "away": 0.774
+          },
+          "total": 3.5
+        },
+        "move_24h": {
+          "side": "away",
+          "from": 0.815,
+          "to": 0.815,
+          "relative_change": 0
+        },
+        "rating": {
+          "model": "World Football Elo (eloratings.net)",
+          "source": "https://www.eloratings.net/",
+          "home": {
+            "name": "Czechia",
+            "elo": 1656
+          },
+          "away": {
+            "name": "Spain",
+            "elo": 2287
+          },
+          "expected_score_home": 0.045
+        },
+        "fetched_at": "2026-11-11T18:55:12.830Z"
+      }
     },
     {
       "id": "1282483",
@@ -185,7 +250,50 @@
           "p_market": 0.75,
           "fair_odds": 1.33
         }
-      ]
+      ],
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112",
+          "espn_match": "Croatia at England",
+          "decimal": {
+            "home": 1.24,
+            "draw": 5.75,
+            "away": 10
+          },
+          "opening": {
+            "home": 1.24,
+            "draw": 5.5,
+            "away": 9.5
+          },
+          "p_devig": {
+            "home": 0.747,
+            "draw": 0.161,
+            "away": 0.092
+          },
+          "total": 3.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.775,
+          "to": 0.795,
+          "relative_change": 0.026
+        },
+        "rating": {
+          "model": "World Football Elo (eloratings.net)",
+          "source": "https://www.eloratings.net/",
+          "home": {
+            "name": "England",
+            "elo": 2146
+          },
+          "away": {
+            "name": "Croatia",
+            "elo": 1856
+          },
+          "expected_score_home": 0.904
+        },
+        "fetched_at": "2026-11-11T18:55:13.081Z"
+      }
     },
     {
       "id": "1325391",
@@ -208,7 +316,16 @@
           "p_market": 0.79,
           "fair_odds": 1.27
         }
-      ]
+      ],
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.68,
+          "to": 0.79,
+          "relative_change": 0.162
+        },
+        "fetched_at": "2026-11-11T18:55:13.199Z"
+      }
     },
     {
       "id": "1325732",
@@ -231,7 +348,16 @@
           "p_market": 0.775,
           "fair_odds": 1.29
         }
-      ]
+      ],
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.765,
+          "to": 0.775,
+          "relative_change": 0.013
+        },
+        "fetched_at": "2026-11-11T18:55:13.485Z"
+      }
     },
     {
       "id": "1282478",
@@ -296,7 +422,50 @@
           "p_market": 0.59,
           "fair_odds": 1.69
         }
-      ]
+      ],
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112",
+          "espn_match": "Latvia at Montenegro",
+          "decimal": {
+            "home": 1.28,
+            "draw": 5.25,
+            "away": 9.5
+          },
+          "opening": {
+            "home": 1.36,
+            "draw": 4.5,
+            "away": 7.5
+          },
+          "p_devig": {
+            "home": 0.726,
+            "draw": 0.177,
+            "away": 0.098
+          },
+          "total": 2.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.745,
+          "to": 0.755,
+          "relative_change": 0.013
+        },
+        "rating": {
+          "model": "World Football Elo (eloratings.net)",
+          "source": "https://www.eloratings.net/",
+          "home": {
+            "name": "Montenegro",
+            "elo": 1490
+          },
+          "away": {
+            "name": "Latvia",
+            "elo": 1246
+          },
+          "expected_score_home": 0.879
+        },
+        "fetched_at": "2026-11-11T18:55:13.469Z"
+      }
     },
     {
       "id": "1365522",
@@ -319,7 +488,29 @@
           "p_market": 0.75,
           "fair_odds": 1.33
         }
-      ]
+      ],
+      "data": {
+        "rating": {
+          "model": "Tennis Abstract Elo",
+          "source": "https://tennisabstract.com/reports/atp_elo_ratings.html",
+          "home": {
+            "name": "Alex Michelsen",
+            "elo": 1879.9,
+            "hard_elo": 1851.6
+          },
+          "away": {
+            "name": "Alejandro Tabilo",
+            "elo": 1782.2,
+            "hard_elo": 1731.8
+          },
+          "p_home": {
+            "overall": 0.637,
+            "hard": 0.666,
+            "blend_hard": 0.652
+          }
+        },
+        "fetched_at": "2026-11-11T18:55:13.654Z"
+      }
     },
     {
       "id": "1363973",
@@ -342,7 +533,16 @@
           "p_market": 0.735,
           "fair_odds": 1.36
         }
-      ]
+      ],
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.735,
+          "to": 0.735,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-11T18:55:13.432Z"
+      }
     },
     {
       "id": "1200174",
@@ -365,7 +565,37 @@
           "p_market": 0.715,
           "fair_odds": 1.4
         }
-      ]
+      ],
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261112",
+          "espn_match": "Carolina Hurricanes at Seattle Kraken",
+          "decimal": {
+            "home": 1.39,
+            "draw": null,
+            "away": 3.1
+          },
+          "opening": {
+            "home": 1.43,
+            "draw": null,
+            "away": 2.9
+          },
+          "p_devig": {
+            "home": 0.691,
+            "draw": 0,
+            "away": 0.309
+          },
+          "total": 6.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.705,
+          "to": 0.715,
+          "relative_change": 0.014
+        },
+        "fetched_at": "2026-11-11T18:55:13.865Z"
+      }
     },
     {
       "id": "1325388",
@@ -388,7 +618,16 @@
           "p_market": 0.695,
           "fair_odds": 1.44
         }
-      ]
+      ],
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.64,
+          "to": 0.695,
+          "relative_change": 0.086
+        },
+        "fetched_at": "2026-11-11T18:55:13.964Z"
+      }
     },
     {
       "id": "1338084",
@@ -411,7 +650,35 @@
           "p_market": 0.695,
           "fair_odds": 1.44
         }
-      ]
+      ],
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.57,
+          "to": 0.695,
+          "relative_change": 0.219
+        },
+        "rating": {
+          "model": "Tennis Abstract Elo",
+          "source": "https://tennisabstract.com/reports/wta_elo_ratings.html",
+          "home": {
+            "name": "Marta Kostyuk",
+            "elo": 2014.9,
+            "hard_elo": 1931
+          },
+          "away": {
+            "name": "Coco Gauff",
+            "elo": 2123.5,
+            "hard_elo": 2081.8
+          },
+          "p_home": {
+            "overall": 0.349,
+            "hard": 0.296,
+            "blend_hard": 0.322
+          }
+        },
+        "fetched_at": "2026-11-11T18:55:13.853Z"
+      }
     },
     {
       "id": "1325729",
@@ -434,7 +701,16 @@
           "p_market": 0.67,
           "fair_odds": 1.49
         }
-      ]
+      ],
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.67,
+          "to": 0.67,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-11T18:55:13.989Z"
+      }
     },
     {
       "id": "1325396",
@@ -457,7 +733,16 @@
           "p_market": 0.665,
           "fair_odds": 1.5
         }
-      ]
+      ],
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.715,
+          "to": 0.665,
+          "relative_change": -0.07
+        },
+        "fetched_at": "2026-11-11T18:55:14.268Z"
+      }
     },
     {
       "id": "1325398",
@@ -480,7 +765,16 @@
           "p_market": 0.66,
           "fair_odds": 1.52
         }
-      ]
+      ],
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.655,
+          "to": 0.66,
+          "relative_change": 0.008
+        },
+        "fetched_at": "2026-11-11T18:55:14.191Z"
+      }
     },
     {
       "id": "1325738",
@@ -503,7 +797,16 @@
           "p_market": 0.655,
           "fair_odds": 1.53
         }
-      ]
+      ],
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.655,
+          "to": 0.655,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-11T18:55:14.269Z"
+      }
     },
     {
       "id": "1325733",
@@ -526,7 +829,830 @@
           "p_market": 0.645,
           "fair_odds": 1.55
         }
-      ]
+      ],
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.645,
+          "to": 0.645,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-11T18:55:14.315Z"
+      }
+    },
+    {
+      "id": "1325393",
+      "league": "EuroLeague",
+      "sport": "basketball",
+      "event": "Olimpia Milano vs. Zalgiris Kaunas",
+      "home": "Olimpia Milano",
+      "away": "Zalgiris Kaunas",
+      "start": "2026-11-12T19:30:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.425,
+        "draw": 0,
+        "away": 0.575
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "Zalgiris Kaunas",
+          "p_market": 0.575,
+          "fair_odds": 1.74
+        }
+      ],
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.56,
+          "to": 0.575,
+          "relative_change": 0.027
+        },
+        "fetched_at": "2026-11-11T18:55:14.609Z"
+      }
+    },
+    {
+      "id": "1338079",
+      "league": "WTA Tour",
+      "sport": "tennis",
+      "event": "WTA Finals, Group A: Jessica Pegula vs Linda Noskova",
+      "home": "Jessica Pegula",
+      "away": "Linda Noskova",
+      "start": "2026-11-12T21:30:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.465,
+        "draw": 0,
+        "away": 0.535
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Linda Noskova",
+          "p_market": 0.535,
+          "fair_odds": 1.87
+        }
+      ],
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.74,
+          "to": 0.535,
+          "relative_change": -0.277
+        },
+        "rating": {
+          "model": "Tennis Abstract Elo",
+          "source": "https://tennisabstract.com/reports/wta_elo_ratings.html",
+          "home": {
+            "name": "Jessica Pegula",
+            "elo": 2098.8,
+            "hard_elo": 2057.6
+          },
+          "away": {
+            "name": "Linda Noskova",
+            "elo": 2059.2,
+            "hard_elo": 1982
+          },
+          "p_home": {
+            "overall": 0.557,
+            "hard": 0.607,
+            "blend_hard": 0.582
+          }
+        },
+        "fetched_at": "2026-11-11T18:55:14.544Z"
+      }
+    },
+    {
+      "id": "1282450",
+      "league": "Nations League",
+      "sport": "football",
+      "event": "Türkiye vs. Belgium",
+      "home": "Türkiye",
+      "away": "Belgium",
+      "start": "2026-11-12T17:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.2433,
+        "draw": 0.2233,
+        "away": 0.5333
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Belgium",
+          "p_market": 0.5333,
+          "fair_odds": 1.88
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Belgium or Draw",
+          "p_market": 0.7566,
+          "fair_odds": 1.32
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "Belgium",
+          "p_market": 0.7566,
+          "fair_odds": 1.46
+        },
+        {
+          "key": "ah_home_+1.5",
+          "label": "Handicap",
+          "selection": "Türkiye +1.5",
+          "p_market": 0.695,
+          "fair_odds": 1.44
+        },
+        {
+          "key": "ah_home_+2.5",
+          "label": "Handicap",
+          "selection": "Türkiye +2.5",
+          "p_market": 0.845,
+          "fair_odds": 1.18
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.655,
+          "fair_odds": 1.53
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.575,
+          "fair_odds": 1.74
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.765,
+          "fair_odds": 1.31
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.645,
+          "fair_odds": 1.55
+        },
+        {
+          "key": "tt_home_0.5_over",
+          "label": "Türkiye goals",
+          "selection": "Over 0.5",
+          "p_market": 0.735,
+          "fair_odds": 1.36
+        },
+        {
+          "key": "tt_home_1.5_under",
+          "label": "Türkiye goals",
+          "selection": "Under 1.5",
+          "p_market": 0.62,
+          "fair_odds": 1.61
+        },
+        {
+          "key": "tt_away_1.5_over",
+          "label": "Belgium goals",
+          "selection": "Over 1.5",
+          "p_market": 0.595,
+          "fair_odds": 1.68
+        }
+      ],
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112",
+          "espn_match": "Belgium at Türkiye",
+          "decimal": {
+            "home": 3.75,
+            "draw": 3.95,
+            "away": 1.77
+          },
+          "opening": {
+            "home": 3.35,
+            "draw": 3.7,
+            "away": 1.91
+          },
+          "p_devig": {
+            "home": 0.246,
+            "draw": 0.233,
+            "away": 0.521
+          },
+          "total": 3.5
+        },
+        "move_24h": {
+          "side": "away",
+          "from": 0.515,
+          "to": 0.535,
+          "relative_change": 0.039
+        },
+        "fetched_at": "2026-11-11T18:55:14.527Z"
+      }
+    },
+    {
+      "id": "1282473",
+      "league": "Nations League",
+      "sport": "football",
+      "event": "Albania vs. Finland",
+      "home": "Albania",
+      "away": "Finland",
+      "start": "2026-11-12T19:45:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.5033,
+        "draw": 0.2933,
+        "away": 0.2034
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Albania or Draw",
+          "p_market": 0.7966,
+          "fair_odds": 1.26
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Albania",
+          "p_market": 0.7966,
+          "fair_odds": 1.4
+        },
+        {
+          "key": "ah_away_+1.5",
+          "label": "Handicap",
+          "selection": "Finland +1.5",
+          "p_market": 0.775,
+          "fair_odds": 1.29
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.655,
+          "fair_odds": 1.53
+        },
+        {
+          "key": "ou_2.5_under",
+          "label": "Total goals",
+          "selection": "Under 2.5",
+          "p_market": 0.615,
+          "fair_odds": 1.63
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.815,
+          "fair_odds": 1.23
+        },
+        {
+          "key": "btts_no",
+          "label": "Both teams to score",
+          "selection": "No",
+          "p_market": 0.55,
+          "fair_odds": 1.82
+        }
+      ],
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112",
+          "espn_match": "Finland at Albania",
+          "decimal": {
+            "home": 1.95,
+            "draw": 3.05,
+            "away": 4.2
+          },
+          "opening": {
+            "home": 2,
+            "draw": 3.05,
+            "away": 3.75
+          },
+          "p_devig": {
+            "home": 0.475,
+            "draw": 0.304,
+            "away": 0.221
+          },
+          "total": 2.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.495,
+          "to": 0.505,
+          "relative_change": 0.02
+        },
+        "rating": {
+          "model": "World Football Elo (eloratings.net)",
+          "source": "https://www.eloratings.net/",
+          "home": {
+            "name": "Albania",
+            "elo": 1612
+          },
+          "away": {
+            "name": "Finland",
+            "elo": 1530
+          },
+          "expected_score_home": 0.74
+        },
+        "fetched_at": "2026-11-11T18:55:14.740Z"
+      }
+    },
+    {
+      "id": "1282488",
+      "league": "Nations League",
+      "sport": "football",
+      "event": "Italy vs. France",
+      "home": "Italy",
+      "away": "France",
+      "start": "2026-11-12T19:45:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.24,
+        "draw": 0.2599,
+        "away": 0.5
+      },
+      "legs_in_range": [
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "France or Draw",
+          "p_market": 0.7599,
+          "fair_odds": 1.32
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "France",
+          "p_market": 0.7599,
+          "fair_odds": 1.48
+        },
+        {
+          "key": "ah_home_+1.5",
+          "label": "Handicap",
+          "selection": "Italy +1.5",
+          "p_market": 0.725,
+          "fair_odds": 1.38
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.795,
+          "fair_odds": 1.26
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.575,
+          "fair_odds": 1.74
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.645,
+          "fair_odds": 1.55
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.815,
+          "fair_odds": 1.23
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.595,
+          "fair_odds": 1.68
+        }
+      ],
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112",
+          "espn_match": "France at Italy",
+          "decimal": {
+            "home": 3.7,
+            "draw": 3.6,
+            "away": 1.87
+          },
+          "opening": {
+            "home": 3.9,
+            "draw": 3.45,
+            "away": 1.83
+          },
+          "p_devig": {
+            "home": 0.25,
+            "draw": 0.257,
+            "away": 0.494
+          },
+          "total": 2.5
+        },
+        "move_24h": {
+          "side": "away",
+          "from": 0.555,
+          "to": 0.505,
+          "relative_change": -0.09
+        },
+        "rating": {
+          "model": "World Football Elo (eloratings.net)",
+          "source": "https://www.eloratings.net/",
+          "home": {
+            "name": "Italy",
+            "elo": 1910
+          },
+          "away": {
+            "name": "France",
+            "elo": 2104
+          },
+          "expected_score_home": 0.368
+        },
+        "fetched_at": "2026-11-11T18:55:14.922Z"
+      }
+    },
+    {
+      "id": "1282460",
+      "league": "Nations League",
+      "sport": "football",
+      "event": "Armenia vs. Cyprus",
+      "home": "Armenia",
+      "away": "Cyprus",
+      "start": "2026-11-12T17:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.4,
+        "draw": 0.29,
+        "away": 0.31
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Armenia or Draw",
+          "p_market": 0.69,
+          "fair_odds": 1.45
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Cyprus or Draw",
+          "p_market": 0.6,
+          "fair_odds": 1.67
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Armenia",
+          "p_market": 0.69,
+          "fair_odds": 1.78
+        },
+        {
+          "key": "ah_away_+1.5",
+          "label": "Handicap",
+          "selection": "Cyprus +1.5",
+          "p_market": 0.82,
+          "fair_odds": 1.22
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.715,
+          "fair_odds": 1.4
+        },
+        {
+          "key": "ou_2.5_under",
+          "label": "Total goals",
+          "selection": "Under 2.5",
+          "p_market": 0.545,
+          "fair_odds": 1.83
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.755,
+          "fair_odds": 1.32
+        }
+      ],
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112",
+          "espn_match": "Cyprus at Armenia",
+          "decimal": {
+            "home": 2.35,
+            "draw": 3.15,
+            "away": 3
+          },
+          "opening": {
+            "home": 2.15,
+            "draw": 3.25,
+            "away": 3.1
+          },
+          "p_devig": {
+            "home": 0.395,
+            "draw": 0.295,
+            "away": 0.31
+          },
+          "total": 2.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.395,
+          "to": 0.405,
+          "relative_change": 0.025
+        },
+        "rating": {
+          "model": "World Football Elo (eloratings.net)",
+          "source": "https://www.eloratings.net/",
+          "home": {
+            "name": "Armenia",
+            "elo": 1354
+          },
+          "away": {
+            "name": "Cyprus",
+            "elo": 1346
+          },
+          "expected_score_home": 0.651
+        },
+        "fetched_at": "2026-11-11T18:55:15.002Z"
+      }
+    },
+    {
+      "id": "1325734",
+      "league": "KHL",
+      "sport": "ice_hockey",
+      "event": "KHL: Metallurg Magnitogorsk vs. Avangard Omsk",
+      "home": "Metallurg Magnitogorsk",
+      "away": "Avangard Omsk",
+      "start": "2026-11-12T14:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.62,
+        "draw": 0,
+        "away": 0.38
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Metallurg Magnitogorsk",
+          "p_market": 0.62,
+          "fair_odds": 1.61
+        }
+      ],
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.645,
+          "to": 0.62,
+          "relative_change": -0.039
+        },
+        "fetched_at": "2026-11-11T18:55:15.072Z"
+      }
+    },
+    {
+      "id": "1325740",
+      "league": "SHL",
+      "sport": "ice_hockey",
+      "event": "SHL: Linköping vs. Rögle",
+      "home": "Linköping",
+      "away": "Rögle",
+      "start": "2026-11-12T18:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.38,
+        "draw": 0,
+        "away": 0.62
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "Rögle",
+          "p_market": 0.62,
+          "fair_odds": 1.61
+        }
+      ],
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.6,
+          "to": 0.62,
+          "relative_change": 0.033
+        },
+        "fetched_at": "2026-11-11T18:55:15.055Z"
+      }
+    },
+    {
+      "id": "1325743",
+      "league": "KHL",
+      "sport": "ice_hockey",
+      "event": "KHL: Barys Astana vs. Admiral Vladivostok",
+      "home": "Barys Astana",
+      "away": "Admiral Vladivostok",
+      "start": "2026-11-12T14:30:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.615,
+        "draw": 0,
+        "away": 0.385
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Barys Astana",
+          "p_market": 0.615,
+          "fair_odds": 1.63
+        }
+      ],
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.635,
+          "to": 0.615,
+          "relative_change": -0.031
+        },
+        "fetched_at": "2026-11-11T18:55:15.362Z"
+      }
+    },
+    {
+      "id": "1325742",
+      "league": "SHL",
+      "sport": "ice_hockey",
+      "event": "SHL: Växjö vs. Timrå",
+      "home": "Växjö",
+      "away": "Timrå",
+      "start": "2026-11-12T18:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.61,
+        "draw": 0,
+        "away": 0.39
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Växjö",
+          "p_market": 0.61,
+          "fair_odds": 1.64
+        }
+      ],
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.615,
+          "to": 0.61,
+          "relative_change": -0.008
+        },
+        "fetched_at": "2026-11-11T18:55:15.370Z"
+      }
+    },
+    {
+      "id": "1325741",
+      "league": "KHL",
+      "sport": "ice_hockey",
+      "event": "KHL: Avtomobilist Yekaterinburg vs. Shanghai Dragons",
+      "home": "Avtomobilist Yekaterinburg",
+      "away": "Shanghai Dragons",
+      "start": "2026-11-12T14:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.595,
+        "draw": 0,
+        "away": 0.405
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Avtomobilist Yekaterinburg",
+          "p_market": 0.595,
+          "fair_odds": 1.68
+        }
+      ],
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.615,
+          "to": 0.595,
+          "relative_change": -0.033
+        },
+        "fetched_at": "2026-11-11T18:55:15.377Z"
+      }
+    },
+    {
+      "id": "1325737",
+      "league": "SHL",
+      "sport": "ice_hockey",
+      "event": "SHL: Bjoerkloeven vs. Örebro HK",
+      "home": "Bjoerkloeven",
+      "away": "Örebro HK",
+      "start": "2026-11-12T18:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.42,
+        "draw": 0,
+        "away": 0.58
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "Örebro HK",
+          "p_market": 0.58,
+          "fair_odds": 1.72
+        }
+      ],
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.595,
+          "to": 0.58,
+          "relative_change": -0.025
+        },
+        "fetched_at": "2026-11-11T18:55:15.347Z"
+      }
+    },
+    {
+      "id": "1325736",
+      "league": "KHL",
+      "sport": "ice_hockey",
+      "event": "KHL: Salavat Yulaev Ufa vs. Ak Bars Kazan",
+      "home": "Salavat Yulaev Ufa",
+      "away": "Ak Bars Kazan",
+      "start": "2026-11-12T14:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.57,
+        "draw": 0,
+        "away": 0.43
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Salavat Yulaev Ufa",
+          "p_market": 0.57,
+          "fair_odds": 1.75
+        }
+      ],
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.57,
+          "to": 0.57,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-11T18:55:15.693Z"
+      }
+    },
+    {
+      "id": "1325730",
+      "league": "SHL",
+      "sport": "ice_hockey",
+      "event": "SHL: Brynäs vs. Skellefteå",
+      "home": "Brynäs",
+      "away": "Skellefteå",
+      "start": "2026-11-12T18:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.45,
+        "draw": 0,
+        "away": 0.55
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "Skellefteå",
+          "p_market": 0.55,
+          "fair_odds": 1.82
+        }
+      ],
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.565,
+          "to": 0.55,
+          "relative_change": -0.027
+        },
+        "fetched_at": "2026-11-11T18:55:15.660Z"
+      }
     }
   ]
 }

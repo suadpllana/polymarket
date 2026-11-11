@@ -59,6 +59,13 @@ function slipHtml(e) {
       <div class="slip-card__odds"><span>Total odds</span><strong>${odds(e.odds)}</strong></div>
     </header>
     ${e.tier_note ? `<p class="slip-card__tier small">${esc(e.tier_note)}</p>` : ''}
+    ${
+      e.research_stage === 'pre_kickoff'
+        ? `<p class="slip-card__tier small"><strong>Final check done</strong> at ${esc(timeLabel(e.researched_at))}: lineups and late news were checked shortly before the first game.</p>`
+        : e.researched_at && !e.result
+          ? `<p class="slip-card__tier small">Morning research. A final check of lineups and late news runs about 90 minutes before the first game and may change the slip: place it after that.</p>`
+          : ''
+    }
     <div class="slip-card__legs">${e.legs.map(legCard).join('')}</div>
     <footer class="slip-card__foot">
       <span>${e.legs.length === 1 ? 'Chance it lands' : e.legs.length === 2 ? 'Chance both land' : 'Chance all land'}: <strong>${pct(e.p_hit)}</strong></span>
