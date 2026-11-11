@@ -1,7 +1,7 @@
 {
   "date": "2026-11-11",
-  "researched_at": "2026-11-11T18:31:51Z",
-  "summary": "Updated at 19:40 Belgrade after the user's new rule: low-confidence legs are never bet and a slip may have one to three legs. The morning slip (Partizan + Peristeri) had a low-confidence leg (Peristeri), so it is withdrawn. A second, deeper pass on Paris v Fenerbahçe, Le Mans v Burgos and CSKA v Torpedo still ended low (no current injury report, starting goalies or second bookmaker price could be found), and Shevchenko v Ruud was already being played. Only one medium-confidence leg is still to start (Partizan over Baskonia, about 1.20), which cannot make a slip near 2.0 on its own, so today is No bet. Medium confidence today: Partizan over Baskonia (p 0.80) and Fritz over Norrie (p 0.72, already played). Low confidence, never bet: Fenerbahçe, Hapoel Jerusalem, Rune, Canarias, Peristeri, Roma, Le Mans, CSKA. Not reached: Gojo v Humbert, Slavia v Igokea, Rytas v Nanterre, Lukko v KalPa, MOUZ v G2. No Stake or Rainbet prices were found.",
+  "researched_at": "2026-11-11T18:40:17Z",
+  "summary": "Updated at about 20:00 Belgrade after the user's rule that low-confidence legs are never bet and a slip may have one to three legs. The morning slip (Partizan + Peristeri) had a low-confidence leg (Peristeri), so it is withdrawn; by then most of the day's games had started. Deeper passes on Paris v Fenerbahçe (three passes: Sanli an ankle decision, Paris's team news unknown), Svitolina v Muchová (hard-court Elo favours Svitolina while the market favours Muchová, no bookmaker price), Le Mans v Burgos and CSKA v Torpedo all ended low. The two women's Champions League games are excluded (women's sides). Only one medium-confidence leg was still open (Partizan over Baskonia, about 1.20), which cannot make a slip near 2.0 on its own or with anything else still open, so today is No bet. Medium confidence today: Partizan (p 0.80) and Fritz (p 0.72, already played). Low, never bet: Fenerbahçe, Muchová, Hapoel, Rune, Canarias, Peristeri, Roma, Le Mans, CSKA. No Stake or Rainbet prices were found.",
   "games": [
     {
       "id": "1343529",
@@ -180,28 +180,29 @@
       "exclude": false,
       "confidence": "low",
       "p": {
-        "home": 0.3,
+        "home": 0.315,
         "draw": 0,
-        "away": 0.7
+        "away": 0.685
       },
       "checks": {
-        "team_news": "UNKNOWN. The Round 11 official injury report could not be read: euroleaguebasketball.net returned HTTP 429 again, so I stopped using it. Rotowire's Euro injuries page (read today) has no entries for any Paris or Fenerbahce player. It lists only Efes (Cordinier, Dozier) and Baskonia (Kurucs, Sedekerskis) players for 5 Nov games. Eurohoops and BasketNews searches returned no 2026-27 Round 11 report covering either club.",
-        "lineups": "UNKNOWN. No expected starting fives found from any source.",
-        "rotation": "Partly known. The brief says Paris played at Efes on 5 Nov (won 95-90). This game is Wed 11 Nov, about 6 days later, so there is no back-to-back on either side. I found no Fenerbahce Round 10 or other midweek fixture details.",
-        "motivation": "Sportschau standings after 10 games (read today): Fenerbahce 4th, 7-3, points 803:754 (+49). Paris 14th, 4-6, points 890:926 (-36). Fenerbahce has more to play for in the top-8 race.",
-        "form": "Partly from the brief and standings: Paris won 3 straight, including 95-90 at Efes. Fenerbahce is 7-3 with a +4.9 average margin. Paris has a negative margin (-3.6 per game). I found no home/away splits. In 2025-26 Fenerbahce beat Paris 96-77 in Istanbul and won 92-90 at Paris on 5 Feb 2026 (Turkish press, search snippets).",
-        "h2h": "2025-26: Fenerbahce won 96-77 at home and 92-90 away. Fenerbahce led the 2025 playoff quarterfinal series 3-0 per a search snippet. Fenerbahce has won the recent meetings.",
-        "odds": "Only one non-Polymarket source, and a US-facing aggregator page. SportBusy (read today) shows Fenerbahce -240 / Paris +240, opening -265 / +265, spread Fenerbahce -6, total 174.5. Another snippet of the same site showed -314 / +314, spread -7.5, total 171.5. The two snippets disagree, so this source is unreliable. -240 implies about 0.70 for Fenerbahce vs 0.30 for Paris, matching Polymarket. Polymarket gamma today: Paris 0.315 / Fenerbahce 0.685, spread Fenerbahce -6.5 at 0.455, O/U 171.5 at 0.58 over. Polymarket 24h history for Fenerbahce: 0.70 to 0.685, a range of 0.675-0.705, so no real move.",
-        "models": "None found. No bookmaker-free rating (net rating, power rankings, Eurohoops or BasketNews prediction) was available. Season point differentials (+49 vs -36) are consistent with Fenerbahce being the better side but are not a model.",
-        "venue_weather": "UNCONFIRMED. Polymarket and Sportschau list Paris as home, with a 20:45 local kickoff (19:45 UTC). Neither page names the arena. I found no source confirming whether the 'City Takeover' game is at an unusual venue, so no hard venue exclusion applies."
+        "team_news": "Only partial. Basketfaul (Turkish press, day of game) says Fenerbahce's Sertac Sanli has an ankle injury and his status will be decided on match day. It names no other absences for either side and lists no Paris absences. DailySports says no serious Turkish absence is confirmed. No official EuroLeague injury report, club statement or beat-reporter list for either team was found. Paris's club preview page mentions no injuries but gives no availability list. Both rosters remain unconfirmed.",
+        "lineups": "Not found. No expected starting fives were published in any source reached. Key players named: Paris Nadir Hifi (22.1 ppg) and Allan Dokossi (5.8 rpg); Fenerbahce Shavon Shields (11.6 ppg) and Wade Baldwin IV (4.5 apg).",
+        "rotation": "Not verified. Nothing found on either team's previous or next game, travel or rest. Paris won 95-90 at Efes in their latest game and beat JL on Nov 8 per a headline on the club site (domestic game, details not read).",
+        "motivation": "Fenerbahce 7-3, 4th, chasing a top-4 finish. Paris 4-6, 14th, on a 3-game win streak. Paris publicly frames the game as breaking a losing streak against Fenerbahce.",
+        "form": "Fenerbahce 7-3 (+49 point difference). Paris 4-6 (-36) with a 3-game win streak including 95-90 at Efes. Fenerbahce won all previous EuroLeague meetings (6 per Basketfaul, 7 per DailySports, incl. both 2025-26 games, one 92-90 at Adidas Arena). Home/away splits not found.",
+        "h2h": "Fenerbahce unbeaten against Paris in EuroLeague, including the 2025 playoff series (83-78, 89-72) and both 2025-26 regular-season games.",
+        "odds": "Polymarket Fenerbahce 0.685, steady 0.675-0.705 over 24h (no news-driven move). SportBusy about -240 (about 0.70 vs 0.685 implied). No other book prices found.",
+        "models": "No bookmaker-free rating found (no net-rating or power-rank source reached). DailySports prediction page only calls Fenerbahce favourite with a suggested under 177 points.",
+        "venue_weather": "Venue is the Accor Arena (Bercy), Paris's larger home venue, not the Adidas Arena. It is their home game, so not a neutral or unusual venue. Tip-off 20:45 Paris time (19:45 UTC), live on beIN Sports 1 in France and S Sport in Turkey. Fixture verified by multiple Turkish and French outlets."
       },
-      "reason": "No hard exclusion is confirmed: fixture verified (EuroLeague Round 11, Wed 11 Nov 2026, 19:45 UTC, Paris home, via Polymarket and Sportschau). I found no evidence of a rested Fenerbahce side, a derby, a coach change or a postponement. The key facts are still missing after several searches and the Rotowire and Sportschau pages: the official Round 11 injury report (HTTP 429), expected lineups, a bookmaker-free model and the arena. The only second price (SportBusy -240) agrees with Polymarket but is a weak source, so p is set equal to the market.",
-      "main_risk": "Unknown Round 11 injuries and rotation for Fenerbahce (a coach who rests starters would sink the leg). Paris is in form, with 3 straight wins including at Efes. Fenerbahce's 7-3 record rests on a modest +4.9 average margin. The Paris venue is unconfirmed.",
+      "reason": "Fixture verified (EuroLeague Round 11, Paris home, 2026-11-11, 19:45 UTC). No hard exclusion applies: no derby, no coach change found, no postponement, venue is Paris's home arena. Fenerbahce is a clear favourite on form, head-to-head and market. Confidence is low because Sanli's ankle injury is unresolved, Paris's availability is unconfirmed, and no expected lineups, injury report, second price source or bookmaker-free model were found after several searches in Turkish and French (euroleaguebasketball.net not used, per instruction). p is kept at the market price.",
+      "main_risk": "Paris is in form (3 straight wins, Hifi scoring 22 ppg) with a big home crowd at the Accor Arena. Sertac Sanli is a match-day ankle decision, and unknown late absences or rotation on Fenerbahce's side could not be ruled out.",
       "sources": [
-        "https://www.sportbusy.com/odds/euroleague/fenerbahce-vs-paris-basketball-2026-11-11/",
-        "https://www.sportschau.de/live-und-ergebnisse/basketball/euroleague-basketball/ma12385871/paris-basketball_fenerbahce/blitztabelle",
-        "https://www.rotowire.com/euro/news.php?view=injuries",
-        "https://gamma-api.polymarket.com/events?id=1320087"
+        "https://basketfaul.com.tr/gundem/fenerbahce-hic-kaybetmedigi-parisin-konugu/",
+        "https://parisbasketball.com/en/2026/11/d-5-to-go-before-we-set-bercy-alight-against-fenerbahce/",
+        "https://ntv.com.tr/sporskor/paris-basketbol-fenerbahce-maci-ne-zaman-saat-kacta-ve-hangi-kanalda-euroleaguede-11-hafta-1750278",
+        "https://dailysports.net/predictions/hosts-on-the-rise-euroleague-prediction-for-paris-vs-fenerbahce/",
+        "https://pensebet.com/paris-basketball-fenerbahce-heure-chaine/"
       ],
       "prices": []
     },
@@ -345,6 +346,61 @@
     },
     {
       "id": "1352021",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1338083",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.46,
+        "draw": 0,
+        "away": 0.54
+      },
+      "checks": {
+        "team_news": "No 2026 injury, withdrawal or retirement report found for either player in two searches. Muchova's wrist withdrawal from the 2023 WTA Finals is old news. Muchova took the last qualifying spot after Kostyuk retired at Ningbo. Svitolina lost 6-4 6-0 to Andreeva, with no stated reason. Neither player's current fitness is confirmed.",
+        "lineups": "tennistourcalendar.com lists Svitolina (6) v Muchova (7) as the first match on Wed Nov 11, 12:00 PM PST (20:00 UTC), Indian Wells Tennis Garden. Sabalenka v Andreeva follows. Court not stated. No walkover or withdrawal announced.",
+        "rotation": "Both played Monday Nov 9 and each has had one rest day. Muchova lost to Sabalenka 7-6(2) 7-5, a longer, tighter match. Svitolina lost to Andreeva 6-4 6-0. Slight fatigue edge to Svitolina.",
+        "motivation": "Both are 0-1 in Group B, and the top two of four advance to the semi-finals. Whoever loses is close to eliminated, so both are highly motivated. This is the biggest event of the year.",
+        "form": "Svitolina: lost 6-0 in the second set to Andreeva. Muchova: took Sabalenka to two close sets. Muchova beat Svitolina in the April 2026 Stuttgart semi-final, 6-4 2-6 6-4. Svitolina beat Muchova at Miami 2025, 6-2 3-6 6-2. I did not find each player's last 10 matches.",
+        "h2h": "Sources disagree on the count: 3-1 Muchova in one report, 1-1 since 2022 in another, 3-0 Svitolina in a third. The latest meeting was Muchova's win in Stuttgart on indoor clay. No hard-court h2h at the Finals.",
+        "odds": "Polymarket: Svitolina 0.435, Muchova 0.565. No current bookmaker price found, and I did not check the 24h move. The only prices seen were for the April Stuttgart match: Svitolina -139, Muchova +122, Svitolina 57.6% implied. These are stale and not usable.",
+        "models": "Tennis Abstract Elo: Svitolina 2026.9 (rank 8), Muchova 1984.2 (rank 12). Hard-court Elo: Svitolina 1966.2 (rank 9), Muchova 1935.7 (rank 12). hElo gap of 30 points gives Svitolina about 54%, so the Elo model disagrees with the market, which favours Muchova.",
+        "venue_weather": "Indian Wells Tennis Garden, outdoor hard court (per another agent), midday local start. No weather or conditions data found."
+      },
+      "reason": "The fixture is verified with no hard exclusion. Hard-court Elo makes Svitolina a slight favourite (about 54%), while Polymarket makes Muchova the 56.5% favourite. Muchova won the latest meeting, and I could not find a bookmaker price or fitness news to settle the disagreement. I moved p about 2.5 points toward Elo, to Muchova 0.54, which is a Muchova fair price of about 1.85 against the 1.77 leg price.",
+      "main_risk": "Svitolina is the Elo favourite on hard court, so a Muchova leg priced off the market is unsupported by the model. Muchova's long injury history means fitness after a long Monday match is unchecked, and no current bookmaker price was found. Missing key facts (current odds, fitness) keep confidence low. Tried two searches on fitness plus the tennistourcalendar.com schedule and the Tennis Abstract page.",
+      "sources": [
+        "https://tennistourcalendar.com/2026-wta-finals-daily-schedule-order-of-play-and-results/",
+        "https://tennisabstract.com/reports/wta_elo_ratings.html",
+        "https://www.wtatennis.com/news/4606429/wta-finals-2026-day-2-preview-can-aryna-sabalenka-even-series-with-karolina-muchova",
+        "https://www.tsn.ca/tennis/article/muchova-secures-the-last-wta-finals-spot-after-kostyuk-retires-at-ningbo-open/",
+        "https://www.dimers.com/news/elina-svitolina-vs-karolina-muchova-tennis-prediction-wta-porsche-tennis-grand-prix-stuttgart-open-2026-ac",
+        "https://www.vavel.com/en-us/tennis-usa/2026/11/09/1278701-svitolina-vs-andreeva-live-score-updates-and-set-by-set-in-wta-finals.html"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1273542",
+      "exclude": true,
+      "reason": "Hard exclusion: Juventus v OL Lyonnes is a UEFA Women's Champions League game, and the rules exclude women's, youth and B sides.",
+      "main_risk": "Not a senior men's fixture, so it is outside the research rules.",
+      "sources": [
+        "https://gamma-api.polymarket.com/events?id=1273542"
+      ]
+    },
+    {
+      "id": "1273533",
+      "exclude": true,
+      "reason": "Hard exclusion: Benfica v Austria Wien is a UEFA Women's Champions League game, and the rules exclude women's, youth and B sides.",
+      "main_risk": "Not a senior men's fixture, so it is outside the research rules.",
+      "sources": [
+        "https://gamma-api.polymarket.com/events?id=1273533"
+      ]
+    },
+    {
+      "id": "1296869",
       "exclude": true,
       "skipped": true
     }

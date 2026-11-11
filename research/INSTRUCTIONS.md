@@ -39,12 +39,22 @@ of 0, and your `p.draw` must stay 0.
 2. Research the games in **batches of 4**, one subagent per game (use the
    Sonnet model for subagents), following "How to research cheaply without
    losing quality" below. Every *kept* game still gets every checklist item
-   filled in from sources read today. **Keep going until at least 4 games are
-   kept at medium or high confidence**, or the list runs out; low-confidence
-   games do not count towards that. Most days that means every game. When a
-   game ends up low only because a key fact was missing, a second, deeper pass
-   on it (more searches, other-language press, odds comparison sites) is worth
-   it before moving on.
+   filled in from sources read today. **Do not stop until `npm run pick`
+   shows a slip of medium or high confidence legs** (high preferred), and
+   ideally at least 4 games are kept at medium or high; low-confidence games
+   do not count. The user expects a medium/high slip near 2.0 **every day**.
+   - When a game ends up low only because a key fact was missing, a second,
+     deeper pass on it (more searches, other-language press, odds comparison
+     sites) is worth it before moving on.
+   - When the first 16 games are used up, run `npm run candidates -- --more`:
+     it adds every other game still in the window (every sport Polymarket
+     prices: football in all competitions, tennis, basketball, ice hockey,
+     NFL, MLB, UFC, esports), keeping the games already listed. Research
+     those in further batches of 4.
+   - Spend tokens sensibly: up to about 30 games a day is fine, but stop
+     launching new batches once a medium/high slip exists and 4 medium/high
+     games are kept.
+   - Research early: games that start before the research is done are lost.
    Games not reached get the minimal verdict
    `{ "id": "…", "exclude": true, "skipped": true }`, which `check-research`
    accepts. Never use `skipped` for a game that was actually researched.
@@ -55,8 +65,9 @@ of 0, and your `p.draw` must stay 0.
 5. Commit only the two research files and push to `main`. **Always push**,
    even when there are 0 games or nothing could be researched (write
    `"games": []` or `skipped` verdicts and say why in `summary`): the push is
-   what triggers today's build. A day with nothing at medium or high
-   confidence is "No bet".
+   what triggers today's build. "No bet" should only happen when every game
+   in the window has been researched and none can make a medium/high slip;
+   say so in `summary`.
 
 ## What October's real bets taught us
 

@@ -373,6 +373,196 @@
           "fair_odds": 1.6
         }
       ]
+    },
+    {
+      "id": "1338083",
+      "league": "WTA Tour",
+      "sport": "tennis",
+      "event": "WTA Finals, Group B: Elina Svitolina vs Karolina Muchova",
+      "home": "Elina Svitolina",
+      "away": "Karolina Muchova",
+      "start": "2026-11-11T20:00:00.000Z",
+      "p_market": {
+        "home": 0.435,
+        "draw": 0,
+        "away": 0.565
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Karolina Muchova",
+          "p_market": 0.565,
+          "fair_odds": 1.77
+        }
+      ]
+    },
+    {
+      "id": "1273542",
+      "league": "UEFA Women's Champions League",
+      "sport": "football",
+      "event": "Juventus FC vs. OL Lyonnes",
+      "home": "Juventus FC",
+      "away": "OL Lyonnes",
+      "start": "2026-11-11T20:00:00.000Z",
+      "p_market": {
+        "home": 0.066,
+        "draw": 0.0714,
+        "away": 0.8626
+      },
+      "legs_in_range": [
+        {
+          "key": "ah_away_-1.5",
+          "label": "Handicap",
+          "selection": "OL Lyonnes -1.5",
+          "p_market": 0.725,
+          "fair_odds": 1.38
+        },
+        {
+          "key": "ah_away_-2.5",
+          "label": "Handicap",
+          "selection": "OL Lyonnes -2.5",
+          "p_market": 0.545,
+          "fair_odds": 1.83
+        },
+        {
+          "key": "ah_home_+3.5",
+          "label": "Handicap",
+          "selection": "Juventus FC +3.5",
+          "p_market": 0.655,
+          "fair_odds": 1.53
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.805,
+          "fair_odds": 1.24
+        },
+        {
+          "key": "ou_3.5_over",
+          "label": "Total goals",
+          "selection": "Over 3.5",
+          "p_market": 0.62,
+          "fair_odds": 1.61
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.58,
+          "fair_odds": 1.72
+        },
+        {
+          "key": "ou_5.5_under",
+          "label": "Total goals",
+          "selection": "Under 5.5",
+          "p_market": 0.745,
+          "fair_odds": 1.34
+        }
+      ]
+    },
+    {
+      "id": "1273533",
+      "league": "UEFA Women's Champions League",
+      "sport": "football",
+      "event": "Sport Lisboa e Benfica vs. FK Austria Wien",
+      "home": "Sport Lisboa e Benfica",
+      "away": "FK Austria Wien",
+      "start": "2026-11-11T20:00:00.000Z",
+      "p_market": {
+        "home": 0.562,
+        "draw": 0.2518,
+        "away": 0.1861
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Sport Lisboa e Benfica",
+          "p_market": 0.562,
+          "fair_odds": 1.78
+        },
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Sport Lisboa e Benfica or Draw",
+          "p_market": 0.8138,
+          "fair_odds": 1.23
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Sport Lisboa e Benfica",
+          "p_market": 0.8138,
+          "fair_odds": 1.33
+        }
+      ]
+    },
+    {
+      "id": "1296869",
+      "league": "Brasileirão Série B",
+      "sport": "football",
+      "event": "Londrina EC vs. Clube Náutico Capibaribe",
+      "home": "Londrina EC",
+      "away": "Clube Náutico Capibaribe",
+      "start": "2026-11-11T22:00:00.000Z",
+      "p_market": {
+        "home": 0.5566,
+        "draw": 0.2367,
+        "away": 0.2066
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Londrina EC",
+          "p_market": 0.5566,
+          "fair_odds": 1.8
+        },
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Londrina EC or Draw",
+          "p_market": 0.7933,
+          "fair_odds": 1.26
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Londrina EC",
+          "p_market": 0.7933,
+          "fair_odds": 1.37
+        },
+        {
+          "key": "ah_away_+1.5",
+          "label": "Handicap",
+          "selection": "Clube Náutico Capibaribe +1.5",
+          "p_market": 0.715,
+          "fair_odds": 1.4
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.765,
+          "fair_odds": 1.31
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.715,
+          "fair_odds": 1.4
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.535,
+          "fair_odds": 1.87
+        }
+      ]
     }
   ]
 }
