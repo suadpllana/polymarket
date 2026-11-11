@@ -55,13 +55,13 @@ function slipHtml(e) {
   const pay = e.result === 'won' || e.result === 'void' ? `<span>Paid at ${odds(e.settled_odds)}</span>` : '';
   return `<section class="slip-card">
     <header class="slip-card__head">
-      <div><div class="muted small">${esc(dayLabel(e.date))} · ${e.legs.length} legs</div><h2>Today's slip</h2></div>
+      <div><div class="muted small">${esc(dayLabel(e.date))} · ${e.legs.length} leg${e.legs.length === 1 ? '' : 's'}</div><h2>Today's slip</h2></div>
       <div class="slip-card__odds"><span>Total odds</span><strong>${odds(e.odds)}</strong></div>
     </header>
     ${e.tier_note ? `<p class="slip-card__tier small">${esc(e.tier_note)}</p>` : ''}
     <div class="slip-card__legs">${e.legs.map(legCard).join('')}</div>
     <footer class="slip-card__foot">
-      <span>Chance both land: <strong>${pct(e.p_hit)}</strong></span>
+      <span>${e.legs.length === 1 ? 'Chance it lands' : e.legs.length === 2 ? 'Chance both land' : 'Chance all land'}: <strong>${pct(e.p_hit)}</strong></span>
       <span>Place before ${esc(timeLabel(e.place_before))}</span>
       ${resultBadge(e.result)} ${pay}
     </footer>
@@ -87,7 +87,7 @@ export async function renderToday(root) {
   root.innerHTML = `
     <section class="page-head">
       <h1>Today</h1>
-      <p class="muted">One slip a day: two legs from two games in any sport, total odds about 2.0, every leg starting before 23:00.</p>
+      <p class="muted">One slip a day: one to three legs from different games in any sport, medium or high confidence only, total odds about 2.0, every leg starting before 23:00.</p>
     </section>
     ${
       today

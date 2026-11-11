@@ -1,17 +1,50 @@
 {
   "date": "2026-11-11",
-  "researched_at": "2026-11-11T06:54:34Z",
-  "summary": "Still the international break: the 16 candidates are 9 basketball (EuroLeague, EuroCup, Basketball Champions League), 4 tennis (ATP Stockholm), 2 ice hockey (KHL, Liiga) and 1 CS2 match. Eight were researched in two batches and all eight are kept (no hard exclusion applied); the other eight were not reached because the kept total passed 6, and are marked skipped. Medium confidence: Partizan over Baskonia (Baskonia last at 1-9 and missing Sedekerskis and Santos, Partizan only without Hayes, Partizan won the last three meetings; p 0.80) and Fritz over Norrie (Stockholm R2, Fritz fresh after a bye; Elo implies a little less than the market, fitness unconfirmed; p 0.72). Low confidence (injury reports or lineups could not be found, p at or near the market): Paris v Fenerbahçe (Fener 0.70), Derthona v Hapoel Jerusalem (Hapoel 6-0 in the group but the price jumped from 0.51 to 0.70 in a day with no news; 0.68), Kecmanović v Rune (Rune back from an Achilles rupture; 0.66), Šiauliai v Canarias (Huertas rested, Happ, López-Arostegui and Giedraitis out; 0.72), Peristeri v Varese (0.685) and Roma v Ulm (Roma 2-4 with -35 against Ulm's 3-3, so shaded 4 points to 0.71). Stake and Rainbet prices were not found; no other bookmaker prices were seen either, only Polymarket.",
+  "researched_at": "2026-11-11T18:31:51Z",
+  "summary": "Updated at 19:40 Belgrade after the user's new rule: low-confidence legs are never bet and a slip may have one to three legs. The morning slip (Partizan + Peristeri) had a low-confidence leg (Peristeri), so it is withdrawn. A second, deeper pass on Paris v Fenerbahçe, Le Mans v Burgos and CSKA v Torpedo still ended low (no current injury report, starting goalies or second bookmaker price could be found), and Shevchenko v Ruud was already being played. Only one medium-confidence leg is still to start (Partizan over Baskonia, about 1.20), which cannot make a slip near 2.0 on its own, so today is No bet. Medium confidence today: Partizan over Baskonia (p 0.80) and Fritz over Norrie (p 0.72, already played). Low confidence, never bet: Fenerbahçe, Hapoel Jerusalem, Rune, Canarias, Peristeri, Roma, Le Mans, CSKA. Not reached: Gojo v Humbert, Slavia v Igokea, Rytas v Nanterre, Lukko v KalPa, MOUZ v G2. No Stake or Rainbet prices were found.",
   "games": [
     {
       "id": "1343529",
-      "exclude": true,
-      "skipped": true
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.795,
+        "draw": 0,
+        "away": 0.205
+      },
+      "checks": {
+        "team_news": "Euroleaguebasketball.net Round 7 pregame/injury page (seen only through a search snippet; the page itself returned HTTP 429 twice) says Burgos is without DJ Steward (hamstring, hurt in the weekend ACB game). I found no confirmed Le Mans absence list. A EuroCup item says Le Mans signed Kuta as injury replacement for Yeguete, but its date is not shown, so I do not know whether Yeguete is out for this game.",
+        "lineups": "No expected or confirmed starting fives found from any source after several searches (EuroCup, Sportschau, Eurohoops, Spanish and French queries). Unknown.",
+        "rotation": "Fixture verified: Sportschau lists EuroCup Group A, Round 7, Le Mans Sarthe v San Pablo Burgos, 11.11.2026 at 20:00 CET (19:00 UTC), at Antares in Le Mans. Le Mans's last EuroCup game was a 71-65 win at Riga (Round 6, Nov 5); Burgos lost 59-86 at home to Rostock in Round 6 and played an ACB game last weekend. Both teams have had about six days since the Round 6 games, apart from Burgos's weekend ACB game. No back-to-back and no coach change found. Burgos has to travel to France.",
+        "motivation": "Sportschau Group A table (after Round 6 for these two): Hapoel 6-0, Aris 6-1, Le Mans 3-3, Derthona 3-3, Riga 3-4, Rostock 2-5, Cedevita 2-5, Burgos 1-5. Le Mans is in the middle of the table and still chasing the top 8. Burgos is bottom and Fisac said the team must improve its mentality after a poor performance.",
+        "form": "Le Mans (3-3, points 477-467, +10): lost 74-87 at home to Aris and 83-90 at home to Hapoel, beat Rostock 82-70, beat Riga 71-65 away; a Wincomparator snippet also mentions a 65-71 loss on 4 Nov that I could not match to a fixture. Home record is not dominant. Burgos (1-5, points 458-513, -55): one win (v Cedevita in Round 1), then five losses including 84-85 at home to Hapoel, 79-89 at Derthona and 59-86 at home to Rostock.",
+        "h2h": "No previous meeting found in this season's EuroCup (the reverse fixture is listed for 12 Jan 2027). I did not find older H2H.",
+        "odds": "No bookmaker price found. A Wincomparator snippet (commercial tipster, page itself returned 403) gives Le Mans a 59.4% win probability, which disagrees with the market. Polymarket (Gamma API today): moneyline Le Mans 0.84 / Burgos 0.16 at the latest point, spread Le Mans -5.5 at 0.675, total over 160.5 at 0.75. The 24h price history shows Le Mans flat at 0.79-0.805 for most of the day, then a jump to 0.84 in the latest hourly point, about +5 points, with no news I could tie to it other than the Steward absence. The candidate file p_market is 0.795.",
+        "models": "No dedicated bookmaker-free model found for 2026-27 (the Eurohoops power rankings found are from past seasons). The Sportschau group table's point differential per game gives a rough rating: Le Mans +1.7, Burgos -9.2. With home court that implies Le Mans is about a 9-12 point favourite, which fits an 80-85% win probability and the -5.5 spread priced at 0.675.",
+        "venue_weather": "Antares arena, Le Mans, a normal home venue. Burgos travels from Spain. Indoor, no weather factor."
+      },
+      "reason": "Fixture verified, no hard exclusion: not a derby, no coach change found, normal venue, and no confirmed rotation. The case for Le Mans is a +10 vs -55 points differential, Burgos missing DJ Steward, and Burgos's poor road and overall form. I keep p at the market because the key facts are still missing after real attempts: no starting fives, no Le Mans injury list (the Yeguete status is unknown), no bookmaker price besides Polymarket, and the euroleaguebasketball.net injury page was unreadable (429). Pre-mortem: Le Mans has lost both home games against strong teams and has only a 3-3 record, so Burgos could keep it close with a fast, high-scoring game (total 160.5) and win a one-possession game.",
+      "main_risk": "Le Mans is not a dominant home team (3-3, lost 74-87 and 83-90 at home), the Le Mans injury list and lineups are unknown (Yeguete replaced by Kuta, date unknown), and the Polymarket price jumped about 5 points late today with no confirmed cause beyond Steward's absence. A fast game could stay close.",
+      "sources": [
+        "https://www.sportschau.de/live-und-ergebnisse/basketball/uleb-euro-cup/ma12322105/le-mans-sarthe_san-pablo-burgos/blitztabelle",
+        "https://www.euroleaguebasketball.net/en/eurocup/news/pregame-quotes-injury-report-fantasy-round-7-ec2627/",
+        "https://www.wincomparator.com/predictions/le-mans-san-pablo-burgos-8657473/",
+        "https://gamma-api.polymarket.com/events?id=1343529",
+        "https://clob.polymarket.com/prices-history"
+      ],
+      "prices": []
     },
     {
       "id": "1358066",
       "exclude": true,
-      "skipped": true
+      "reason": "Not one of the listed hard rules, but the leg is no longer bettable at the slip price. The match has already started and is being played in-play. The order of play (tennistourcalendar.com) has Shevchenko (Q) v Ruud (2) as the 3rd match on Center Court, not before 6:00 PM CET (17:00 UTC), as an R16 match after Fritz v Norrie. At 18:29 UTC, Polymarket shows the 'Set 1 Winner' market at Ruud 0.9995, so set 1 is finished and Ruud won it. tennis-db.com's live draw shows Ruud won set 1 7-6(5) and the second set at 2-2. The match market is Ruud 0.915 (Shevchenko 0.085), against 0.785 pre-match. Ruud's token went 0.825 at 17:00, 0.655 at 18:00 and 0.845 at 18:26 UTC, so the price swings with the live score. The 0.785 / fair 1.27 in the candidate file is stale. Facts that were clean before the start: round is R16 (second round for Ruud, who had a bye as 2nd seed), Stockholm ATP 250, indoor hard. Shevchenko is a qualifier who has played 3 qualifying matches plus R32. He beat Mannarino 6-1 6-3 on Tue 10 Nov (atptour.com results) and Durasovic 6-1 6-1 in qualifying. Ruud reached the Paris Masters semi-final and had a first-round bye in Stockholm (tennismajors.com, 7 Nov). That article does not mention his fitness, so I found no injury or withdrawal news. Tennis Abstract Elo (updated 2026-11-09): Ruud Elo 1965.8 (rank 11), hElo 1894.5 (rank 15), ATP rank 18; Shevchenko Elo 1599.8 (rank 169), hElo 1552.3, ATP rank 107. That is about a 366-point Elo gap. H2H is 1-0 to Ruud at Indian Wells in March 2026, where closing odds were Ruud -526 / Shevchenko +412 (Dimers model 81.1% Ruud, which is the only odds source I found; no Stockholm odds-comparison page or Stake/Rainbet price found). Ruud's Bastad 2023 meeting is also listed in search results but I did not confirm its result.",
+      "main_risk": "The match is already in progress and the pre-match 1.27 price is gone. Ruud has won set 1 7-6(5) after a tight tiebreak. The live market has swung between 0.655 and 0.915 on the score, so a late leg would be an in-play bet at roughly 1.09 and not the slip's pre-match 1.27.",
+      "sources": [
+        "https://tennistourcalendar.com/2026-stockholm-open-daily-schedule-order-of-play-and-results/",
+        "https://tennis-db.com/tournaments/326/stockholm-open?view=draw",
+        "https://tennisabstract.com/reports/atp_elo_ratings.html"
+      ],
+      "prices": []
     },
     {
       "id": "1271274",
@@ -152,24 +185,23 @@
         "away": 0.7
       },
       "checks": {
-        "team_news": "No Round 11 official injury report for Paris v Fenerbahce could be read: euroleaguebasketball.net returned HTTP 429 (rate-limited) and searches surfaced only older rounds. Last known from the Eurohoops Round 10 report (Nov 4-6): Paris had Daulton Hommes, Tyson Etienne and Frank Ntilikina back in Round 9, Jared Rhoden missed Round 9, TJ Warren last played in Round 5; Fenerbahce had its full roster in Round 9, Dwight Powell registered as new signing, Johnny Juzang last played in Round 6. A search snippet says Marko Guduric would not play in an earlier Round 11-labelled Fener game, but that result is from a different season and is not verified for this fixture. Current Round 11 availability is unconfirmed.",
-        "lineups": "No confirmed or projected starting fives found for either side; not published at time of research. Eurohoops (Turkish edition) quotes Jasikevicius and Talen Horton-Tucker previewing the game with no lineup or absentee details.",
-        "rotation": "Both teams played Round 10 on Thu Nov 5 (Paris at Anadolu Efes, Fenerbahce v Baskonia), so about 6 days of rest each before Wed Nov 11; not a back-to-back and not a Tue/Thu or Wed/Fri double round. Fenerbahce travels from Istanbul to Paris. Round 12 opponents/dates not verified.",
-        "motivation": "Regular-season Round 11 with no relegation or clinch stakes. EuroLeague's preview (via search summary) says Paris has won three straight road games and Fenerbahce is among six teams tied for second; a Turkish outlet put Fenerbahce 4th at 7-3 before this round. Both want top-six/top-four position, so no obvious rest or low-motivation angle.",
-        "form": "Paris: three consecutive wins, including 95-90 at Anadolu Efes in Round 10 (Eurohoops); Eurohoops roundup headlined Payne scoring 33 in the third straight win; Jasikevicius says Paris averages around 100 points per game and shoots many threes at a high tempo. Nadir Hifi reported to have scored 20, 26 and 28 in the three wins (EuroLeague preview via search summary). Fenerbahce reported at 7 wins and 3 losses before Round 11. Home/away splits and points against not verified.",
-        "h2h": "2025-26 Round 1 (Oct 1, 2025): Fenerbahce beat Paris 96-77 at home. 2024-25: Fenerbahce won the playoff series (Games 1 and 2 in Istanbul per Eurohoops); a Dec 2024 league game in Paris was postponed over flu among Paris players. Full 2025-26 return-game result in Paris not verified.",
-        "odds": "Polymarket two-way moneyline: Fenerbahce 0.70 (fair 1.43), Paris 0.30, from the candidates file. No second book or exchange price and no Polymarket 24h move could be checked within budget. No Stake or Rainbet prices seen.",
-        "models": "No bookmaker-free rating, net rating or power-ranking prediction was found for this game. Qualitative read only: Fenerbahce 7-3 record against a Paris side on a three-game winning streak.",
-        "venue_weather": "Home arena is the Adidas Arena in Paris. EuroLeague's preview mentions the league's first 'City Takeover' in Paris coinciding with this game; the arena for this fixture was not confirmed (one low-reliability aggregator listed a different hall, others conflict), so a venue change is unverified and not treated as a hard exclusion. Fenerbahce flies in from Istanbul; indoor game, no weather issue."
+        "team_news": "UNKNOWN. The Round 11 official injury report could not be read: euroleaguebasketball.net returned HTTP 429 again, so I stopped using it. Rotowire's Euro injuries page (read today) has no entries for any Paris or Fenerbahce player. It lists only Efes (Cordinier, Dozier) and Baskonia (Kurucs, Sedekerskis) players for 5 Nov games. Eurohoops and BasketNews searches returned no 2026-27 Round 11 report covering either club.",
+        "lineups": "UNKNOWN. No expected starting fives found from any source.",
+        "rotation": "Partly known. The brief says Paris played at Efes on 5 Nov (won 95-90). This game is Wed 11 Nov, about 6 days later, so there is no back-to-back on either side. I found no Fenerbahce Round 10 or other midweek fixture details.",
+        "motivation": "Sportschau standings after 10 games (read today): Fenerbahce 4th, 7-3, points 803:754 (+49). Paris 14th, 4-6, points 890:926 (-36). Fenerbahce has more to play for in the top-8 race.",
+        "form": "Partly from the brief and standings: Paris won 3 straight, including 95-90 at Efes. Fenerbahce is 7-3 with a +4.9 average margin. Paris has a negative margin (-3.6 per game). I found no home/away splits. In 2025-26 Fenerbahce beat Paris 96-77 in Istanbul and won 92-90 at Paris on 5 Feb 2026 (Turkish press, search snippets).",
+        "h2h": "2025-26: Fenerbahce won 96-77 at home and 92-90 away. Fenerbahce led the 2025 playoff quarterfinal series 3-0 per a search snippet. Fenerbahce has won the recent meetings.",
+        "odds": "Only one non-Polymarket source, and a US-facing aggregator page. SportBusy (read today) shows Fenerbahce -240 / Paris +240, opening -265 / +265, spread Fenerbahce -6, total 174.5. Another snippet of the same site showed -314 / +314, spread -7.5, total 171.5. The two snippets disagree, so this source is unreliable. -240 implies about 0.70 for Fenerbahce vs 0.30 for Paris, matching Polymarket. Polymarket gamma today: Paris 0.315 / Fenerbahce 0.685, spread Fenerbahce -6.5 at 0.455, O/U 171.5 at 0.58 over. Polymarket 24h history for Fenerbahce: 0.70 to 0.685, a range of 0.675-0.705, so no real move.",
+        "models": "None found. No bookmaker-free rating (net rating, power rankings, Eurohoops or BasketNews prediction) was available. Season point differentials (+49 vs -36) are consistent with Fenerbahce being the better side but are not a model.",
+        "venue_weather": "UNCONFIRMED. Polymarket and Sportschau list Paris as home, with a 20:45 local kickoff (19:45 UTC). Neither page names the arena. I found no source confirming whether the 'City Takeover' game is at an unusual venue, so no hard venue exclusion applies."
       },
-      "reason": "Stage 1: fixture verified on euroleaguebasketball.net game centre and Eurohoops (EuroLeague Round 11, Paris Basketball v Fenerbahce, Wed 2026-11-11, 20:45 CET = 19:45 UTC, senior men's teams). No postponement, no confirmed heavy rotation, not a derby, no coach change found in the last 7 days (Jasikevicius still in charge per Eurohoops preview), no confirmed venue problem. Stage 2: key facts (Round 11 injury report, lineups, second price source) remained unknown after several searches and attempts at the league pages (HTTP 429), so confidence is low and p stays at the market. Fenerbahce are the stronger side on record (7-3, beat Paris 96-77 in Oct 2025), but Paris are in form.",
-      "main_risk": "Pre-mortem: Paris win a high-tempo, three-point-heavy game at home; they are on a three-game winning streak (95-90 at Efes in Round 10, Hifi scoring 20 to 28 in recent wins) and score about 100 per game, while Fenerbahce must travel and may have an unreported absence (Round 11 injury report not read). Venue for the City Takeover event unconfirmed.",
+      "reason": "No hard exclusion is confirmed: fixture verified (EuroLeague Round 11, Wed 11 Nov 2026, 19:45 UTC, Paris home, via Polymarket and Sportschau). I found no evidence of a rested Fenerbahce side, a derby, a coach change or a postponement. The key facts are still missing after several searches and the Rotowire and Sportschau pages: the official Round 11 injury report (HTTP 429), expected lineups, a bookmaker-free model and the arena. The only second price (SportBusy -240) agrees with Polymarket but is a weak source, so p is set equal to the market.",
+      "main_risk": "Unknown Round 11 injuries and rotation for Fenerbahce (a coach who rests starters would sink the leg). Paris is in form, with 3 straight wins including at Efes. Fenerbahce's 7-3 record rests on a modest +4.9 average margin. The Paris venue is unconfirmed.",
       "sources": [
-        "https://www.eurohoops.net/tr/euroleague-tr/2033158/saras-jasikevicius-parisin-yogunluguna-karsilik-vermemiz-lazim/",
-        "https://www.eurohoops.net/en/euroleague/2030518/euroleague-round-10-injury-report-satoransky-out-powell-and-konchar-could-debut/",
-        "https://www.euroleaguebasketball.net/en/euroleague/game-center/2026-27/paris-basketball-fenerbahce-istanbul/E2026/101/",
-        "https://www.euroleaguebasketball.net/en/euroleague/news/tipoff-countdown-storylines-round-11/",
-        "https://www.sportschau.de/live-und-ergebnisse/basketball/euroleague-basketball/ma12385871/paris-basketball_fenerbahce/blitztabelle"
+        "https://www.sportbusy.com/odds/euroleague/fenerbahce-vs-paris-basketball-2026-11-11/",
+        "https://www.sportschau.de/live-und-ergebnisse/basketball/euroleague-basketball/ma12385871/paris-basketball_fenerbahce/blitztabelle",
+        "https://www.rotowire.com/euro/news.php?view=injuries",
+        "https://gamma-api.polymarket.com/events?id=1320087"
       ],
       "prices": []
     },
@@ -269,8 +301,32 @@
     },
     {
       "id": "1320494",
-      "exclude": true,
-      "skipped": true
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.67,
+        "draw": 0,
+        "away": 0.33
+      },
+      "checks": {
+        "team_news": "Not found. No injury report and no confirmed starting goalies for either side in about 6 searches and fetches. The sportmail.ru match page lists the goalies Dmitry Gamzin and Denis Kostin but does not say which team each plays for. Nothing from khl.ru, Sport-Express or Sports.ru gave a pre-match goalie report.",
+        "lineups": "Not found. No line combinations published in the sources I could read.",
+        "rotation": "CSKA's recent results per sportmail.ru: 4:1 v Sibir on 9 Nov, 1:2 OT loss to Avangard on 5 Nov, 7:3 v Metallurg on 3 Nov, 3:2 OT win at Traktor on 1 Nov. They play at home, so no travel. Torpedo lost to Ak Bars in Kazan on 9 or 10 Nov (the sources disagree on the date), so they are on short rest and have travelled. I could not confirm whether it is a strict back-to-back.",
+        "motivation": "Regular-season match. CSKA have 52 points from 24 games (15 wins, 5 losses) and returned to first place in the Western Conference per a 9 Nov item. Torpedo have 42 points from 23 games (11 wins, 6 losses). Both are well placed, so each has something to play for.",
+        "form": "CSKA won 4 of their last 5 and both defeats were 1 goal or OT. Season goals for/against per sportmail.ru: CSKA 74-44 in 23 games, Torpedo 62-46 in 22 games. Torpedo's last 5 results are not fully available.",
+        "h2h": "CSKA won 4 of the last 6 meetings. CSKA won 3:0 on 9 Sep 2026. Torpedo won 3:2 in OT on 25 Dec 2025 and have also beaten CSKA 5:4 in a shootout before (date not given).",
+        "odds": "Three-way KHL lines on sportmail.ru are inconsistent: CSKA 1.70, draw 4.40, Torpedo 4.30 on one page, and 1.81 on the match header. De-vigged, the 1.70 / 4.30 pair implies CSKA about 0.72 on a two-way basis, roughly in line with Polymarket 0.67. I could not read the Polymarket 24h move. Two bookmaker sources are not enough to confirm.",
+        "models": "No bookmaker-free rating found. The only model-like evidence is goal difference: CSKA +30 against Torpedo +16.",
+        "venue_weather": "CSKA Arena, Moscow, a normal home venue with no issues. Kickoff 19:30 Moscow time, which is 16:30 UTC."
+      },
+      "reason": "The fixture is verified (11 Nov 2026, CSKA Arena, KHL regular season) and passes the hard rules. I found no sign of a heavy rotation, derby, coaching change or venue problem. CSKA are the better team on standings and goal difference, and the market favours them. The key facts are still missing after real attempts: starting goalies, injuries and Torpedo's rest status. So I keep p equal to the market at low confidence. Note that the sportmail.ru match page showed the game as live with CSKA leading 5:0 in the 3rd period. I could not tell how current that was, so the match may already be in progress.",
+      "main_risk": "Unknown starting goalies and unknown injuries. Torpedo may have a hot goalie, and OT or a shootout adds variance in the two-way market. CSKA's recent narrow losses in OT show this. The goalie question is unresolved, so the leg is not bettable at medium or high confidence.",
+      "sources": [
+        "https://sportmail.ru/hockey-khl/407/match/8129345/",
+        "https://sportmail.ru/news/hockey/72414715/",
+        "https://sport24.ru/hockey/news-883124-nikitin-tsska-nado-umet-igrat-i-kogda-dominiruyesh-i-kogda-oboronyayeshsya"
+      ],
+      "prices": []
     },
     {
       "id": "1350602",

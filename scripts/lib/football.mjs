@@ -1,6 +1,6 @@
 /**
- * Football-only markets from Polymarket and the rules for the daily
- * 2-leg slip.
+ * Markets from Polymarket and the rules for the daily slip of one to three
+ * legs.
  *
  * Each game has three Yes/No markets (home win, draw, away win). From their
  * de-vigged prices we derive every leg we can bet on Stake and settle on
@@ -65,8 +65,8 @@ const OTHER_MIN_LIQUIDITY = 1000;
 
 /** Fair-odds range for a single leg worth researching. */
 export const LEG_ODDS = { min: 1.18, max: 1.9 };
-/** The slip: exactly two legs from two games, combined (Stake) odds near 2.0. */
-export const SLIP = { legs: 2, min: 1.85, max: 2.25, target: 2.0 };
+/** The slip: one to three legs from different games, combined (Stake) odds near 2.0. */
+export const SLIP = { minLegs: 1, maxLegs: 3, min: 1.85, max: 2.25, target: 2.0 };
 /** Stake's price on a favourite is roughly the fair price minus this much. */
 export const BOOK_MARGIN = 0.03;
 /** Every leg must land (or be refunded) at least this often. */

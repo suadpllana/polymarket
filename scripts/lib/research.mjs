@@ -94,8 +94,8 @@ export async function loadResearch(date) {
     const g = morning.get(String(v?.id));
     if (!g || typeof v.exclude !== 'boolean') continue;
     games.set(g.id, {
-      // Only hard problems exclude a game; low confidence keeps it as a
-      // fallback when nothing better qualifies.
+      // Only hard problems exclude a game. Low-confidence games stay in the
+      // research but are never bet (see BETTABLE in pick.mjs).
       exclude: v.exclude && v.skipped !== true,
       skipped: v.skipped === true,
       confidence: CONFIDENCE.includes(v.confidence) ? v.confidence : 'low',

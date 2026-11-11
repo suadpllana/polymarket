@@ -1,4 +1,4 @@
-# Daily research: any sport, 2 legs, odds about 2.0, all before 23:00
+# Daily research: any sport, 1 to 3 legs, odds about 2.0, all before 23:00
 
 Every morning a scheduled Claude Code task researches today's games in depth
 and pushes `research/<date>.json`. **Any sport is allowed** — football plus
@@ -7,10 +7,12 @@ League), ice hockey (NHL, KHL, SHL, Liiga, DEL), NFL, MLB, UFC and tier-1
 esports (CS2, LoL, Valorant, Dota 2; no best-of-one). **Every game must start
 before 23:00 Belgrade** so the slip is settled before the user goes to sleep;
 the candidates list already applies that cut-off. The build then picks **one slip of
-exactly two legs from two different games**, with combined Stake odds between
-1.85 and 2.25 (target 2.0), and publishes it on the site. **There is a slip
-every day**: if too few games pass the research, the build widens the range
-and, last, uses market-priced legs (see "How the slip is picked").
+one, two or three legs from different games**, with combined Stake odds between
+1.85 and 2.25 (target 2.0), and publishes it on the site. **Only legs the
+research rates medium or high confidence are ever bet.** The user places
+low-confidence bets themselves, so a low-confidence or market-only leg never
+appears on the slip. If no such slip fits, the day is "No bet" (see "How the
+slip is picked"), so research until enough games reach medium or high.
 
 For football, legs can come from any market Polymarket prices: match winner,
 double chance, draw no bet, **total goals over/under, both teams to score,
@@ -37,8 +39,12 @@ of 0, and your `p.draw` must stay 0.
 2. Research the games in **batches of 4**, one subagent per game (use the
    Sonnet model for subagents), following "How to research cheaply without
    losing quality" below. Every *kept* game still gets every checklist item
-   filled in from sources read today. **Keep going until at least 6 games are
-   kept** (any confidence) or the list runs out; most days that is every game.
+   filled in from sources read today. **Keep going until at least 4 games are
+   kept at medium or high confidence**, or the list runs out; low-confidence
+   games do not count towards that. Most days that means every game. When a
+   game ends up low only because a key fact was missing, a second, deeper pass
+   on it (more searches, other-language press, odds comparison sites) is worth
+   it before moving on.
    Games not reached get the minimal verdict
    `{ "id": "…", "exclude": true, "skipped": true }`, which `check-research`
    accepts. Never use `skipped` for a game that was actually researched.
@@ -49,7 +55,8 @@ of 0, and your `p.draw` must stay 0.
 5. Commit only the two research files and push to `main`. **Always push**,
    even when there are 0 games or nothing could be researched (write
    `"games": []` or `skipped` verdicts and say why in `summary`): the push is
-   what triggers today's build, and the build always finds a slip.
+   what triggers today's build. A day with nothing at medium or high
+   confidence is "No bet".
 
 ## What October's real bets taught us
 
@@ -69,7 +76,7 @@ From the 60 Stake bets in `data/stake-bets.json` (see the Stats page):
 - **Derbies are coin flips.** Chelsea lost 0-2 to Tottenham. Exclude derbies
   and fierce rivalries.
 - **Long multis rarely land.** 4+ leg bets won 1 of 8; correct-score and
-  map-winner legs lost most often. Two legs only, result markets only (to win,
+  map-winner legs lost most often. Three legs at most, result markets only (to win,
   draw no bet, double chance).
 - **Cashing out cost $757.** Six cashed-out bets would have won. The slip is
   meant to be held to the end.
@@ -82,7 +89,8 @@ standard below is unchanged; the savings come from not over-researching games
 that get excluded.
 
 1. **Order the candidates** by how close their best leg's `fair_odds` is to
-   1.40 (two legs near 1.40 multiply to about 2.0). Research the closest first.
+   1.40 (two legs near 1.40, or three near 1.26, multiply to about 2.0).
+   Research the closest first.
 2. **Stage 1: the hard-exclusion gate** (cheap). For each game check only
    the **hard** exclusion rules below. Stop at the first one that applies:
    write the short excluded verdict (`id`, `exclude`, `reason`, `main_risk`,
@@ -133,10 +141,11 @@ that get excluded.
   low-scoring opponent, under goals or the favourite's team goals. For each
   goals, both-teams-to-score, handicap or team-goals leg you have a view on,
   give your probability in `views` (within 5 points of its `p_market`). The
-  build applies the views to the live prices and picks the best pair.
+  build applies the views to the live prices and picks the best slip.
 - **Confidence.** `high`: every check is clean and the sources agree.
   `medium`: small doubts that the probabilities already reflect. `low`:
-  real doubts or missing facts; used only when nothing better qualifies.
+  real doubts or missing facts; **never bet**. Never raise a game to medium
+  just to get a slip: an honest "low" is a valid answer.
 - **Pre-mortem.** Write the single most likely way the favourite fails to win
   (usually a draw or a late equaliser), then look for evidence of exactly
   that: low xG on both sides, an opponent that sits deep and draws often, the
@@ -214,26 +223,23 @@ minus 3%.
 
 ## How the slip is picked (scripts/lib/pick.mjs)
 
-1. For each kept game, take the live market and apply the research's shift
-   (1X2 `p` and `views`). If the favourite's price moved 5% or more since the
-   research, the game is dropped.
+1. Only kept games with **medium or high** confidence are used. Take the live
+   market and apply the research's shift (1X2 `p` and `views`). If the
+   favourite's price moved 5% or more since the research, the game is dropped.
 2. Every leg must land or be refunded at least 60% of the time. A straight
    win also needs a draw chance of 25% or less.
-3. Of all pairs of legs from two different games, take the one with the
-   highest expected return; on a near-tie, the one with more research, then
-   the more likely one.
-4. **There is always a slip.** The pick tries these steps in order and the
-   site labels which one it used:
-   1. kept games with medium or high confidence, combined odds 1.85–2.25;
-   2. kept games of any confidence, combined odds 1.70–2.50;
-   3. adds games the research skipped or never reached, priced from the
-      market alone, combined odds 1.70–2.50;
-   4. every game that was not hard-excluded, legs landing at least 50% of the
-      time, combined odds 1.50–3.00.
-   Hard-excluded games are never used. Only a day with fewer than two games
-   on is "No bet".
-5. If the research has not arrived by 12:00 Belgrade, the slip is built from
-   market prices alone (steps 3–4).
+3. Of all slips of one, two or three legs from different games, take the one
+   with the highest expected return; on a near-tie, the more likely one, then
+   the one with more high-confidence legs.
+4. The pick tries combined odds 1.85–2.25 first, then 1.70–2.50, and the site
+   labels which one it used. If neither has a slip, the day is **No bet**.
+   Low-confidence legs, unresearched (market-only) legs and hard-excluded
+   games are never used.
+5. If the research has not arrived by 12:00 Belgrade, there is no slip that
+   day (no market-only slips).
+6. A published slip is rebuilt if one of its legs is no longer bettable (for
+   example, newer research downgraded it), and when research is pushed again
+   before its first game starts.
 
 At combined odds of 2.0 the bookmaker's own price says a slip lands about
 48% of the time. Good research aims to push that a few points higher. No

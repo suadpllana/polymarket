@@ -2,8 +2,9 @@
 
 A small site with three pages:
 
-- **Today**: one football slip a day. Exactly two legs from two different
-  games, total odds about 2.0, every game researched in depth first.
+- **Today**: one slip a day. One to three legs from different games, total
+  odds about 2.0, every game researched in depth first. Only medium or high
+  confidence legs are ever used.
 - **My Bets**: every settled Stake bet, filterable by sport, result and type.
   New bets can be pasted straight from Stake's My Bets page.
 - **Stats**: profit by sport, what lost your bets, hit rate by pick type,
@@ -18,20 +19,19 @@ A small site with three pages:
    pushes `research/<date>.json`. The procedure and rules are in
    [`research/INSTRUCTIONS.md`](research/INSTRUCTIONS.md).
 2. **Build.** That push (and a run every 2 hours) triggers GitHub Actions. It
-   applies the research to live Polymarket prices and picks the best pair of
-   legs, aiming for combined odds of 1.85–2.25, every leg starting before
-   23:00 Belgrade. Any sport: football (match winner, double chance, draw no
+   applies the research to live Polymarket prices and picks the best slip of
+   one to three legs, aiming for combined odds of 1.85–2.25 (then 1.70–2.50),
+   every leg starting before 23:00 Belgrade. Any sport: football (match winner, double chance, draw no
    bet, total goals, both teams to score, handicaps, a team's goals) plus the
    winner market in top tennis, basketball, ice hockey, NFL, MLB, UFC and
-   tier-1 esports. There is a slip every day: when too few games pass the
-   research, the build widens the odds range and then uses market-priced
-   legs, and the site says so. If no research arrives by 12:00 Belgrade, the
-   slip is market-priced.
+   tier-1 esports. Only legs the research rated medium or high confidence
+   are used: never low-confidence or market-only legs. If no such slip fits,
+   the day is "No bet".
 3. **Settle.** Every run marks finished legs won, lost or void from resolved
    Polymarket markets.
 
 The rules come from October's real bets: football only, no domestic cups, no
-derbies, draw no bet or double chance when the draw is likely, two legs only,
+derbies, draw no bet or double chance when the draw is likely, at most three legs,
 and no cashing out.
 
 ## Your bets

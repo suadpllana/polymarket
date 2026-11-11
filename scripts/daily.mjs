@@ -2,8 +2,8 @@
  * Daily job, run by GitHub Actions before each Pages deploy:
  *   1. load the published history.json from the live site
  *   2. settle open slips from resolved Polymarket markets
- *   3. once the morning research is in, build today's 2-leg football slip
- *      from live Polymarket prices plus the research
+ *   3. once the morning research is in, build today's slip (one to three
+ *      medium/high confidence legs) from live Polymarket prices plus the research
  *   4. write public/history.json for the site to ship
  *
  * Usage: node scripts/daily.mjs          (CI; needs SITE_URL)
@@ -13,12 +13,12 @@
 import { mkdir, writeFile } from 'node:fs/promises';
 import { SLIP, gatherGames, round } from './lib/football.mjs';
 import { fetchMarket, parseArray } from './lib/polymarket.mjs';
-import { TIER_NOTE, describe, pickSlip } from './lib/pick.mjs';
+import { BETTABLE, TIER_NOTE, describe, pickSlip } from './lib/pick.mjs';
 import { loadResearch } from './lib/research.mjs';
 import { TIMEZONE, bettingWindow, localDate, tomorrowWindow, zonedParts } from './lib/time.mjs';
 
-// Until this hour the build waits for the morning research; after it, the
-// day gets a market-priced slip rather than none.
+// Until this hour the build waits for the morning research; after it, a day
+// without research is "No bet" (market-only legs are never used).
 const RESEARCH_DEADLINE_HOUR = 12;
 
 const OUT = new URL('../public/history.json', import.meta.url);
@@ -96,7 +96,7 @@ async function buildToday(date, { force = false } = {}) {
   }
   const window = bettingWindow();
   let games = await gatherGames(window);
-  let { slip, tier, skipped } = pickSlip(games, research);
+  let { slip, tier, skipped, eligible } = pickSlip(games, research);
   // Nothing usable left before 23:00 today: take tomorrow's games (09:00 to
   // 23:00), so the day still has a slip.
   let lookahead = false;
@@ -109,15 +109,19 @@ async function buildToday(date, { force = false } = {}) {
   skipped.forEach((x) => console.log(`Skipped: ${x}`));
   const kept = research ? [...research.games.values()].filter((v) => !v.exclude && !v.skipped).length : 0;
   const base = {
-    summary: research?.summary || 'The morning research did not arrive in time, so today’s slip is priced from the market alone.',
+    summary: research?.summary || 'The morning research did not arrive, so there is no researched slip today.',
     researched_at: research?.researched_at || null,
     researched_games: research?.games.size || 0,
     kept_games: kept,
     skipped,
   };
-  // Only possible when fewer than two football games with a market exist on
-  // Polymarket in the next day and a half.
-  if (!slip) return noBet(date, `Fewer than two games with a usable market start before 23:00 today or tomorrow (${games.length} found).`, base);
+  // Only medium/high confidence legs are bet; skipping a day beats a weak slip.
+  if (!slip) {
+    const reason = eligible
+      ? `The ${eligible} medium or high confidence leg${eligible === 1 ? '' : 's'} still open today cannot make a slip of one to three legs at odds 1.70–2.50.`
+      : 'No game still to start today has a researched leg rated medium or high confidence. Low-confidence and market-only legs are never used.';
+    return noBet(date, reason, base);
+  }
 
   console.log(`Tier: ${tier}`);
   console.log(describe(slip));
@@ -195,21 +199,33 @@ async function main() {
   // A real slip is final for the day; a "No bet" is retried on every run, so
   // games added later (or a late research push) can still produce a slip.
   const existing = history.entries.find((e) => e.date === today);
-  // A market-priced slip may be replaced once research lands, as long as
-  // none of its games has kicked off (well before "place before").
+  const research = existing && !existing.no_bet ? await loadResearch(today) : null;
+  // A slip with a leg that may not be bet (low confidence, market-only, or
+  // downgraded by newer research) is always rebuilt, even into "No bet".
+  const unbettable =
+    existing &&
+    !existing.no_bet &&
+    existing.legs.some((l) => {
+      if (!BETTABLE.includes(l.confidence)) return true;
+      const v = research?.games.get(String(l.game_id));
+      return Boolean(v && (v.exclude || v.skipped || !BETTABLE.includes(v.confidence)));
+    });
+  // Research pushed again after the slip was built may improve it, as long as
+  // none of its games is about to start.
   const upgradable =
     existing &&
     !existing.no_bet &&
-    !existing.researched_at &&
-    (await loadResearch(today)) &&
+    research?.researched_at &&
+    research.researched_at !== existing.researched_at &&
     Date.now() < new Date(existing.place_before).getTime() - 15 * 60 * 1000;
-  if (!existing || existing.no_bet || upgradable) {
+  if (!existing || existing.no_bet || unbettable || upgradable) {
     try {
       const entry = await buildToday(today);
       if (!existing) history.entries.push(entry);
-      else if (!entry.no_bet) {
+      else if (!entry.no_bet || unbettable) {
         history.entries[history.entries.indexOf(existing)] = entry;
-        if (upgradable) console.log('Replaced the market-priced slip with the researched one.');
+        if (unbettable) console.log('Replaced a slip that had a leg below medium confidence.');
+        else if (upgradable) console.log('Rebuilt the slip from the newer research.');
       }
       else console.log('Still no bet today.');
     } catch (e) {

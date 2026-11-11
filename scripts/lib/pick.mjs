@@ -1,16 +1,13 @@
 /**
- * Picks the day's slip: exactly two legs from two different games, combined
- * odds near 2.0, the highest expected return among the pairs that qualify.
+ * Picks the day's slip: one to three legs from different games, combined odds
+ * near 2.0, the highest expected return among the slips that qualify.
  *
- * There is always a slip when at least two games are on. The pick works down
- * a ladder and records which rung it used:
- *   1. researched   — kept games, medium/high confidence, odds 1.85–2.25
- *   2. wider        — kept games of any confidence, odds 1.70–2.50
- *   3. market       — adds games the research skipped or never reached,
- *                     priced from the market alone, odds 1.70–2.50
- *   4. any          — every game not hard-excluded, legs landing ≥ 50%,
- *                     odds 1.50–3.00
- *   5. last         — any two legs from two games
+ * Only researched legs with medium or high confidence are ever used: no
+ * low-confidence legs and no legs priced from the market alone. The pick
+ * tries two odds ranges and records which one it used:
+ *   1. researched — combined odds 1.85–2.25
+ *   2. wider      — combined odds 1.70–2.50
+ * If neither has a slip, the day is "No bet".
  * Games the research excluded for a hard reason are never used.
  */
 
@@ -22,21 +19,17 @@ const MIN_PAYING_ODDS = 1.05;
 /** Moving this much (relative) since the morning research makes the game unsafe to bet. */
 export const MAX_DRIFT = 0.05;
 
+/** The only confidence levels that may go on a slip. */
+export const BETTABLE = ['high', 'medium'];
+
 export const TIERS = [
-  { name: 'researched', confidence: ['high', 'medium'], unresearched: false, range: { min: SLIP.min, max: SLIP.max }, minLegP: MIN_LEG_P, legOdds: true },
-  { name: 'wider', confidence: ['high', 'medium', 'low'], unresearched: false, range: { min: 1.7, max: 2.5 }, minLegP: MIN_LEG_P, legOdds: true },
-  { name: 'market', confidence: ['high', 'medium', 'low'], unresearched: true, range: { min: 1.7, max: 2.5 }, minLegP: MIN_LEG_P, legOdds: true },
-  { name: 'any', confidence: ['high', 'medium', 'low'], unresearched: true, range: { min: 1.5, max: 3.0 }, minLegP: 0.5, legOdds: false },
-  // Last resort: any two legs from two games, so two games always make a slip.
-  { name: 'last', confidence: ['high', 'medium', 'low'], unresearched: true, range: { min: 1.1, max: 50 }, minLegP: 0, legOdds: false, mostLikely: true },
+  { name: 'researched', range: { min: SLIP.min, max: SLIP.max } },
+  { name: 'wider', range: { min: 1.7, max: 2.5 } },
 ];
 
 export const TIER_NOTE = {
   researched: '',
-  wider: 'Few games passed the research cleanly today, so this slip uses a wider odds range or lower-confidence legs.',
-  market: 'Not enough researched games today: at least one leg is priced from the market alone, without a research verdict.',
-  any: 'A thin day: this slip uses the most likely legs available, outside the usual odds range. Treat it as lower confidence.',
-  last: 'A very thin day: only a couple of games were available, so this slip takes the best two legs on offer. Treat it as lowest confidence.',
+  wider: 'Few medium or high confidence legs fit today, so this slip uses a slightly wider odds range (1.70–2.50).',
 };
 
 function bookPrice(prices, leg) {
@@ -51,57 +44,39 @@ function bookPrice(prices, leg) {
   return best;
 }
 
-const MARKET_VERDICT = {
-  confidence: 'market',
-  reason: 'No research verdict for this game: the leg is priced from the Polymarket market alone.',
-  main_risk: 'Not researched, so team news, rotation and motivation were not checked.',
-  checks: {},
-  sources: [],
-  prices: [],
-};
-
 /**
- * Every leg that may go on the slip in this tier, with final probabilities.
- * `games` are live games (with extras); `research` comes from loadResearch
- * and may be null when no research arrived.
+ * Every leg that may go on the slip, with final probabilities: researched
+ * games only, medium or high confidence. `games` are live games (with
+ * extras); `research` comes from loadResearch and may be null.
  */
-export function eligibleLegs(games, research, tier = TIERS[0]) {
+export function eligibleLegs(games, research) {
   const out = [];
   const skipped = [];
   for (const g of games) {
     const v = research?.games.get(g.id);
-    let verdict;
-    let p = g.p_market;
-    let viewShift = {};
-    if (v && !v.skipped) {
-      if (v.exclude || !tier.confidence.includes(v.confidence)) continue;
-      const fav = v.morning.home >= v.morning.away ? 'home' : 'away';
-      const drift = Math.abs(g.p_market[fav] - v.morning[fav]) / v.morning[fav];
-      if (drift > MAX_DRIFT) {
-        skipped.push(`${g.event}: price moved ${Math.round(drift * 100)}% since the research`);
-        continue;
-      }
-      p = applyShift(g.p_market, v.shift);
-      viewShift = v.view_shift || {};
-      verdict = v;
-    } else {
-      if (!tier.unresearched) continue;
-      verdict = MARKET_VERDICT;
+    if (!v || v.skipped || v.exclude || !BETTABLE.includes(v.confidence)) continue;
+    const fav = v.morning.home >= v.morning.away ? 'home' : 'away';
+    const drift = Math.abs(g.p_market[fav] - v.morning[fav]) / v.morning[fav];
+    if (drift > MAX_DRIFT) {
+      skipped.push(`${g.event}: price moved ${Math.round(drift * 100)}% since the research`);
+      continue;
     }
+    const p = applyShift(g.p_market, v.shift);
+    const viewShift = v.view_shift || {};
     const legs = [
       ...legsFor(g, p),
       ...(g.extras || []).map((x) => extraLeg(x, Math.min(0.97, Math.max(0.03, x.p_market + (viewShift[x.key] || 0))))),
     ];
     for (const leg of legs) {
-      if (tier.legOdds && !inRange(leg)) continue;
+      if (!inRange(leg)) continue;
       // A leg has to pay something: very short prices round to nothing at a bookmaker.
       if (leg.est_odds < MIN_PAYING_ODDS) continue;
-      if (leg.p_win + leg.p_void < tier.minLegP) continue;
+      if (leg.p_win + leg.p_void < MIN_LEG_P) continue;
       if ((leg.key === 'home' || leg.key === 'away') && p.draw > MAX_DRAW_FOR_WIN) continue;
-      const book = bookPrice(verdict.prices, leg);
+      const book = bookPrice(v.prices, leg);
       out.push({
         game: g,
-        verdict,
+        verdict: v,
         p,
         ...leg,
         odds: book ? book.odds : leg.est_odds,
@@ -112,50 +87,50 @@ export function eligibleLegs(games, research, tier = TIERS[0]) {
   return { legs: out, skipped };
 }
 
-export function bestSlip(legs, range = SLIP, { mostLikely = false } = {}) {
+/** Every slip of 1 to `maxLegs` legs, each leg from a different game. */
+function* combos(legs, maxLegs, start = 0, chosen = []) {
+  if (chosen.length) yield chosen;
+  if (chosen.length === maxLegs) return;
+  for (let i = start; i < legs.length; i++) {
+    if (chosen.some((c) => c.game.id === legs[i].game.id)) continue;
+    yield* combos(legs, maxLegs, i + 1, [...chosen, legs[i]]);
+  }
+}
+
+export function bestSlip(legs, range = SLIP) {
   let best = null;
-  for (let i = 0; i < legs.length; i++) {
-    for (let j = i + 1; j < legs.length; j++) {
-      const a = legs[i];
-      const b = legs[j];
-      if (a.game.id === b.game.id) continue;
-      const odds = a.odds * b.odds;
-      if (odds < range.min || odds > range.max) continue;
-      const ev = (a.p_win * a.odds + a.p_void) * (b.p_win * b.odds + b.p_void) - 1;
-      const p_hit = (a.p_win + a.p_void) * (b.p_win + b.p_void);
-      // Prefer researched legs: on a near-tie the slip with more research wins.
-      const researched = Number(a.verdict.confidence !== 'market') + Number(b.verdict.confidence !== 'market');
-      const cand = { legs: [a, b], odds, ev, p_hit, researched };
-      if (mostLikely) {
-        if (!best || cand.p_hit > best.p_hit + 0.005 || (Math.abs(cand.p_hit - best.p_hit) <= 0.005 && cand.ev > best.ev)) best = cand;
-        continue;
-      }
-      if (
-        !best ||
-        cand.ev > best.ev + 0.005 ||
-        (Math.abs(cand.ev - best.ev) <= 0.005 && (cand.researched > best.researched || (cand.researched === best.researched && cand.p_hit > best.p_hit)))
-      )
-        best = cand;
-    }
+  for (const set of combos(legs, SLIP.maxLegs)) {
+    const odds = set.reduce((o, l) => o * l.odds, 1);
+    if (odds < range.min || odds > range.max) continue;
+    const ev = set.reduce((x, l) => x * (l.p_win * l.odds + l.p_void), 1) - 1;
+    const p_hit = set.reduce((x, l) => x * (l.p_win + l.p_void), 1);
+    const highs = set.filter((l) => l.verdict.confidence === 'high').length;
+    const cand = { legs: [...set], odds, ev, p_hit, highs };
+    // Highest expected return; on a near-tie the more likely slip, then the
+    // one with more high-confidence legs.
+    if (
+      !best ||
+      cand.ev > best.ev + 0.005 ||
+      (Math.abs(cand.ev - best.ev) <= 0.005 && (cand.p_hit > best.p_hit + 0.005 || (Math.abs(cand.p_hit - best.p_hit) <= 0.005 && cand.highs > best.highs)))
+    )
+      best = cand;
   }
   return best;
 }
 
-/** Walks the tiers and returns the first slip found, with the tier used. */
+/** Tries the odds ranges in order and returns the first slip found, with the tier used. */
 export function pickSlip(games, research) {
-  const skipped = new Set();
+  const { legs, skipped } = eligibleLegs(games, research);
   for (const tier of TIERS) {
-    const { legs, skipped: s } = eligibleLegs(games, research, tier);
-    s.forEach((x) => skipped.add(x));
-    const slip = bestSlip(legs, tier.range, { mostLikely: tier.mostLikely });
-    if (slip) return { slip, tier: tier.name, skipped: [...skipped] };
+    const slip = bestSlip(legs, tier.range);
+    if (slip) return { slip, tier: tier.name, skipped };
   }
-  return { slip: null, tier: null, skipped: [...skipped] };
+  return { slip: null, tier: null, skipped, eligible: legs.length };
 }
 
 export function describe(slip) {
   return slip.legs
     .map((l) => `${l.selection} (${l.label}) @ ${l.odds.toFixed(2)}${l.book ? ` ${l.book}` : ' est.'} — ${l.game.event} [${l.verdict.confidence}]`)
-    .concat(`Combined ${round(slip.odds, 2)}, chance ${Math.round(slip.p_hit * 100)}%, EV ${round(slip.ev * 100, 1)}%`)
+    .concat(`${slip.legs.length} leg${slip.legs.length > 1 ? 's' : ''}, combined ${round(slip.odds, 2)}, chance ${Math.round(slip.p_hit * 100)}%, EV ${round(slip.ev * 100, 1)}%`)
     .join('\n');
 }
