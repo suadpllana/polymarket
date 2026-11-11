@@ -103,9 +103,15 @@ about half the research output and never reach the slip. The kept games'
 standard below is unchanged; the savings come from not over-researching games
 that get excluded.
 
-1. **Order the candidates** by how close their best leg's `fair_odds` is to
-   1.40 (two legs near 1.40, or three near 1.26, multiply to about 2.0).
-   Research the closest first.
+1. **Order the candidates by `coverage` first** (1 = best covered: top-5
+   leagues, Champions/Europa League, Nations League, NBA, EuroLeague, NFL,
+   NHL, MLB, UFC, CS2/LoL, tennis Slams, Masters and Finals; 2 = smaller top
+   divisions, Conference League, EuroCup, Basketball Champions League,
+   European hockey, smaller tennis events; 3 = second divisions and other
+   competitions). Well-covered games are the ones that can reach medium or
+   high. Within the same coverage, research first the games whose best leg's
+   `fair_odds` is closest to 1.40 (two legs near 1.40, or three near 1.26,
+   multiply to about 2.0).
 2. **Stage 1: the hard-exclusion gate** (cheap). For each game check only
    the **hard** exclusion rules below. Stop at the first one that applies:
    write the short excluded verdict (`id`, `exclude`, `reason`, `main_risk`,

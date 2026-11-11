@@ -11,7 +11,7 @@
  */
 
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
-import { gatherGames, inRange, marketLegs, researchPool, round } from './lib/football.mjs';
+import { coverage, gatherGames, inRange, marketLegs, researchPool, round } from './lib/football.mjs';
 import { candidatesPath } from './lib/research.mjs';
 import { bettingWindow, localDate, tomorrowWindow } from './lib/time.mjs';
 
@@ -29,6 +29,8 @@ const entry = (g) => ({
   home: g.home,
   away: g.away,
   start: g.start,
+  // 1 = best covered by previews, injury reports, odds and models; research these first.
+  coverage: coverage(g),
   p_market: g.p_market,
   // Result legs plus goals, both-teams-to-score, handicap and team-goals
   // legs, each with its market probability, so the research can give a

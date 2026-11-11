@@ -386,11 +386,28 @@ export async function gatherGames(window) {
   return games;
 }
 
-/** The games worth a deep look: a leg in range, strongest favourite first. */
+/**
+ * How well a game is covered by previews, injury reports, lineups, odds and
+ * rating models: 1 = best, 3 = thin. Well-covered games are the ones the
+ * research can rate medium or high, so they are researched first.
+ */
+const COVERAGE_1 = new Set(['Premier League', 'La Liga', 'Serie A', 'Bundesliga', 'Ligue 1', 'Champions League', 'Europa League', 'Nations League', 'NBA', 'EuroLeague', 'NFL', 'NHL', 'MLB', 'UFC', 'CS2', 'League of Legends']);
+const COVERAGE_2 = new Set(['Conference League', 'Eredivisie', 'Primeira Liga', 'Süper Lig', 'Saudi Pro League', 'Belgian Pro League', 'Brasileirão', 'EuroCup', 'Basketball Champions League', 'KHL', 'SHL', 'Liiga', 'DEL', 'Valorant', 'Dota 2']);
+// Slams, Masters 1000 / WTA 1000 and the tour finals get full previews; 250s and 500s much less.
+const TENNIS_BIG = /\b(australian open|roland|garros|wimbledon|us open|finals|masters|indian wells|miami|monte[- ]carlo|madrid|internazionali|rome|canadian|toronto|montreal|cincinnati|shanghai|rolex paris|doha|dubai|beijing|wuhan)\b/i;
+
+export function coverage(g) {
+  if (g.sport === 'tennis') return TENNIS_BIG.test(g.event || '') ? 1 : 2;
+  if (g.extended) return 3;
+  if (COVERAGE_1.has(g.league)) return 1;
+  if (COVERAGE_2.has(g.league)) return 2;
+  return 3;
+}
+
+/** The games worth a deep look: a leg in range, best-covered first, then the strongest favourites. */
 export function researchPool(games, size = POOL_SIZE) {
   return games
     .filter((g) => marketLegs(g).some(inRange))
-    // Usual football leagues and other top sports first, then the strongest favourites.
-    .sort((a, b) => Number(a.extended) - Number(b.extended) || Math.max(b.p_market.home, b.p_market.away) - Math.max(a.p_market.home, a.p_market.away))
+    .sort((a, b) => coverage(a) - coverage(b) || Math.max(b.p_market.home, b.p_market.away) - Math.max(a.p_market.home, a.p_market.away))
     .slice(0, size);
 }
