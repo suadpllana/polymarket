@@ -48,14 +48,14 @@ function legCard(l, i) {
   </article>`;
 }
 
-function slipHtml(e) {
+function slipHtml(e, title = 'Today’s slip') {
   if (e.no_bet) {
     return `<section class="card slip-none"><h2>No bet today</h2><p>${esc(e.reason)}</p>${e.summary ? `<p class="muted small">${esc(e.summary)}</p>` : ''}${e.skipped?.length ? `<ul class="small muted">${e.skipped.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}</section>`;
   }
   const pay = e.result === 'won' || e.result === 'void' ? `<span>Paid at ${odds(e.settled_odds)}</span>` : '';
   return `<section class="slip-card">
     <header class="slip-card__head">
-      <div><div class="muted small">${esc(dayLabel(e.date))} · ${e.legs.length} leg${e.legs.length === 1 ? '' : 's'}</div><h2>Today's slip</h2></div>
+      <div><div class="muted small">${esc(dayLabel(e.date))} · ${e.legs.length} leg${e.legs.length === 1 ? '' : 's'}</div><h2>${esc(title)}</h2></div>
       <div class="slip-card__odds"><span>Total odds</span><strong>${odds(e.odds)}</strong></div>
     </header>
     ${e.tier_note ? `<p class="slip-card__tier small">${esc(e.tier_note)}</p>` : ''}
@@ -87,7 +87,9 @@ export async function renderToday(root) {
   }
   const entries = (history.entries || []).filter((e) => e.model === 'football-2leg');
   const today = entries.find((e) => e.date === localDate());
-  const past = entries.filter((e) => e !== today);
+  // Research done the evening before publishes tomorrow's slip early.
+  const tomorrow = entries.find((e) => e.date === localDate(new Date(Date.now() + 24 * 3600 * 1000)));
+  const past = entries.filter((e) => e !== today && e !== tomorrow);
   const settled = entries.filter((e) => e.result === 'won' || e.result === 'lost');
   const won = settled.filter((e) => e.result === 'won').length;
 
@@ -101,6 +103,7 @@ export async function renderToday(root) {
         ? slipHtml(today)
         : `<section class="card slip-none"><h2>No slip yet</h2><p>The research runs at 07:50 Belgrade time. The slip appears here a few minutes after it is pushed.</p></section>`
     }
+    ${tomorrow && !tomorrow.no_bet ? slipHtml(tomorrow, 'Tomorrow’s slip') : ''}
     <section class="card bank" id="bankroll"></section>
     <section class="card">
       <h2>Model record</h2>

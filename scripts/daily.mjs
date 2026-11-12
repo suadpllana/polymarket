@@ -189,22 +189,14 @@ async function buildToday(date, { force = false, window = bettingWindow(), looka
   };
 }
 
-async function main() {
-  const today = localDate();
-  if (DRY) {
-    const window = TOMORROW ? tomorrowWindow() : bettingWindow();
-    const day = TOMORROW ? localDate(window.start) : today;
-    const entry = await buildToday(day, { force: true, window, lookaheadAllowed: !TOMORROW });
-    if (entry.no_bet) console.log(`No bet: ${entry.reason}`);
-    return;
-  }
-  const history = await loadHistory(process.env.SITE_URL);
-  await settleOpen(history.entries);
-
-  // A real slip is final for the day; a "No bet" is retried on every run, so
-  // games added later (or a late research push) can still produce a slip.
-  const existing = history.entries.find((e) => e.date === today);
-  const research = existing && !existing.no_bet ? await loadResearch(today) : null;
+/**
+ * Builds or rebuilds one day's entry. A real slip is final for the day; a
+ * "No bet" is retried on every run, so games added later (or a late research
+ * push) can still produce a slip.
+ */
+async function updateDay(history, day, opts) {
+  const existing = history.entries.find((e) => e.date === day);
+  const research = existing && !existing.no_bet ? await loadResearch(day) : null;
   // A slip with a leg that may not be bet (low confidence, market-only, or
   // downgraded by newer research) is always rebuilt, even into "No bet".
   const unbettable =
@@ -223,20 +215,41 @@ async function main() {
     research?.researched_at &&
     research.researched_at !== existing.researched_at &&
     Date.now() < new Date(existing.place_before).getTime() - 15 * 60 * 1000;
-  if (!existing || existing.no_bet || unbettable || upgradable) {
-    try {
-      const entry = await buildToday(today);
-      if (!existing) history.entries.push(entry);
-      else if (!entry.no_bet || unbettable) {
-        history.entries[history.entries.indexOf(existing)] = entry;
-        if (unbettable) console.log('Replaced a slip that had a leg below medium confidence.');
-        else if (upgradable) console.log('Rebuilt the slip from the newer research.');
-      }
-      else console.log('Still no bet today.');
-    } catch (e) {
-      console.warn(`No slip this run: ${e.message}`);
-    }
-  } else console.log(`Slip for ${today} already exists.`);
+  if (existing && !existing.no_bet && !unbettable && !upgradable) {
+    console.log(`Slip for ${day} already exists.`);
+    return;
+  }
+  try {
+    const entry = await buildToday(day, opts);
+    if (!existing) history.entries.push(entry);
+    else if (!entry.no_bet || unbettable) {
+      history.entries[history.entries.indexOf(existing)] = entry;
+      if (unbettable) console.log(`Replaced a ${day} slip that had a leg below medium confidence.`);
+      else if (upgradable) console.log(`Rebuilt the ${day} slip from the newer research.`);
+    } else console.log(`Still no bet for ${day}.`);
+  } catch (e) {
+    console.warn(`No slip for ${day} this run: ${e.message}`);
+  }
+}
+
+async function main() {
+  const today = localDate();
+  if (DRY) {
+    const window = TOMORROW ? tomorrowWindow() : bettingWindow();
+    const day = TOMORROW ? localDate(window.start) : today;
+    const entry = await buildToday(day, { force: true, window, lookaheadAllowed: !TOMORROW });
+    if (entry.no_bet) console.log(`No bet: ${entry.reason}`);
+    return;
+  }
+  const history = await loadHistory(process.env.SITE_URL);
+  await settleOpen(history.entries);
+
+  // Today, and tomorrow as soon as its research is pushed (research done the
+  // evening before), so the slip shows without waiting for a run after midnight.
+  await updateDay(history, today, {});
+  const tomorrowWin = tomorrowWindow();
+  const tomorrow = localDate(tomorrowWin.start);
+  if (await loadResearch(tomorrow).catch(() => null)) await updateDay(history, tomorrow, { window: tomorrowWin, lookaheadAllowed: false });
 
   history.entries.sort((a, b) => b.date.localeCompare(a.date));
   const out = { updated_at: new Date().toISOString(), timezone: TIMEZONE, entries: history.entries.slice(0, 400) };
