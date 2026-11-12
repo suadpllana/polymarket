@@ -1,8 +1,8 @@
 {
   "date": "2026-11-12",
-  "researched_at": "2026-11-11T18:48:35Z",
-  "stage": "morning",
-  "summary": "Researched on the evening of Wed 11 Nov for Thursday. 16 candidates (14 more were added later with --more and not researched) (Nations League football, EuroLeague, ice hockey, ATP Stockholm, WTA Finals, CS2); 8 researched, 8 not reached because six games were already kept at medium confidence. Medium confidence: England over Croatia (Croatia effectively out of the group, England won the first meeting 7-0, but Konsa, Guehi, Saka, Palmer and others are out and Spain away follows on Sunday; p 0.77), Czechia v Spain (Spain already qualified and without Yamal, Oyarzabal, Rodri and Olmo, England next; p 0.80), Montenegro over Latvia (group leaders at home against a side with little to play for; p 0.765), Michelsen over Tabilo (fresher, better hard-court Elo, won their only meeting; p 0.74), Spirit over G2 (CS2 BLAST Rivals Bo3 on LAN, Spirit top 2 and 2-0 in the last meeting; p 0.73) and Gauff over Kostyuk (Kostyuk eliminated with a wrist problem; Gauff's own motivation is thin; p 0.68). Low confidence, never bet: Real Madrid v Crvena Zvezda (Campazzo, Maledon, Jantunen out; no lineups or rating). Excluded: Hurricanes v Kraken (NHL Global Series in Helsinki, neutral venue). Team news may change on match day, so the slip is rebuilt if the research is pushed again before its first game. No Stake or Rainbet prices were found; prices seen were DraftKings via ESPN for the football, Codere for Real Madrid, and tips.gg / footballpredictions listings for Montenegro.",
+  "researched_at": "2026-11-12T18:09:07Z",
+  "stage": "pre_kickoff",
+  "summary": "Researched on the evening of Wed 11 Nov for Thursday. 16 candidates (14 more were added later with --more and not researched) (Nations League football, EuroLeague, ice hockey, ATP Stockholm, WTA Finals, CS2); 8 researched, 8 not reached because six games were already kept at medium confidence. Medium confidence: England over Croatia (Croatia effectively out of the group, England won the first meeting 7-0, but Konsa, Guehi, Saka, Palmer and others are out and Spain away follows on Sunday; p 0.77), Czechia v Spain (Spain already qualified and without Yamal, Oyarzabal, Rodri and Olmo, England next; p 0.80), Montenegro over Latvia (group leaders at home against a side with little to play for; p 0.765), Michelsen over Tabilo (fresher, better hard-court Elo, won their only meeting; p 0.74), Spirit over G2 (CS2 BLAST Rivals Bo3 on LAN, Spirit top 2 and 2-0 in the last meeting; p 0.73) and Gauff over Kostyuk (Kostyuk eliminated with a wrist problem; Gauff's own motivation is thin; p 0.68). Low confidence, never bet: Real Madrid v Crvena Zvezda (Campazzo, Maledon, Jantunen out; no lineups or rating). Excluded: Hurricanes v Kraken (NHL Global Series in Helsinki, neutral venue). Team news may change on match day, so the slip is rebuilt if the research is pushed again before its first game. No Stake or Rainbet prices were found; prices seen were DraftKings via ESPN for the football, Codere for Real Madrid, and tips.gg / footballpredictions listings for Montenegro. Pre-kickoff check at 19:10 Belgrade: Montenegro v Latvia, England v Croatia, Czechia v Spain and Kostyuk v Gauff re-checked with live prices. All four stay medium: official lineups were not out yet. Montenegro shortened (DraftKings 1.36 to 1.24) and can seal promotion with a win; Loncar suspended. England confirmed Kane starts, the back line is reshuffled (Konsa, Guehi, Spence out) and the price eased slightly; Croatia near full strength apart from Perisic. Spain: Laporte a late illness doubt and the price drifted slightly; no heavy rotation confirmed. Gauff: order of play confirmed (first on), Kostyuk still listed with a wrist problem; the market rose to 0.755 with no news found, above the Elo ratings.",
   "games": [
     {
       "id": "1282466",
@@ -14,38 +14,44 @@
       "exclude": false,
       "confidence": "medium",
       "p": {
-        "home": 0.075,
-        "draw": 0.125,
-        "away": 0.8
+        "home": 0.07,
+        "draw": 0.14,
+        "away": 0.79
       },
       "checks": {
-        "team_news": "Spain (25-man squad for Prague per Flashscore/RFEF): Yamal (right knee, stays in Barcelona) and Oyarzabal (flu, recovering in San Sebastian) miss Prague and join after it for England; Barrenetxea injured and replaced by Jorge de Frutos; Rodri out (biceps femoris, about a month) and Dani Olmo out (adductor, back late November) per futboltotal; Eric Garcia not called. Back from injury: Porro, Nico Williams, Ferran Torres. Squad also has Pedri, Zubimendi, Merino, Fabian, Fermin, Cubarsi, Laporte, Huijsen, Cucurella, Grimaldo, Pino, Simon/Raya. Czechia (coach Santi Denia, in post since well before this week): all 24 called up fit per assistant Bejbl; Coufal and Hlozek had minor muscle issues but played at weekend (Hlozek 20 min, Coufal 90, Coufal tired); Sulc's ban was for the October game. I did not find De la Fuente's pre-match press conference text for Prague.",
-        "lineups": "No confirmed or credible predicted XI found for 12 Nov (searches for Sports Mole, Marca, AS, iSport pages returned only the October Oviedo match; no fresh XI from them). Context only: for the 3 Oct game in Oviedo De la Fuente made 9 changes vs the Croatia game (El Gol Digital/Comuniate) and still won 3-1, so heavy rotation is plausible again. Expected Spain core without Yamal, Oyarzabal, Rodri, Olmo is still Simon/Raya; Cubarsi, Laporte, Cucurella; Zubimendi, Pedri, Merino; N. Williams, Ferran, Pino/Fermin. Czechia expected to start Kovar, Coufal, Hlozek, Soucek-type regulars; unverified.",
-        "rotation": "Spain played Croatia 29 Sep and Czechia 3 Oct in October, then 12 Nov at Letna (Prague), then England at the Metropolitano on Sun 15 Nov (decisive for top spot: Spain 12 pts, England 9). Spain already qualified for the quarter-finals (El Gol Digital/Marca-type reports), so De la Fuente may rest players for England, though Yamal and Oyarzabal are being kept for Sunday. This is not a confirmed heavy rotation (no official XI yet), so no hard exclusion. Czechia: Prague on Thu, Osijek vs Croatia Sun 15 Nov.",
-        "motivation": "Group A3 after 4 games: Spain 12 (4W), England 9, Croatia 3, Czechia 0. Spain already through to the QF, lower stakes before England. Czechia are bottom, 3 pts behind Croatia, and are fighting to avoid relegation to League B (second-weakest of the fourth-placed teams, one goal better than Turkey on goal difference), so they are highly motivated and at home.",
-        "form": "Spain: 4 wins from 4 in this Nations League (3-2 v England at Wembley, 2-1 v Croatia, 3-1 v Czechia, plus one more win), WWWWWW in all comps per Sports Mole before October. Czechia: lost all 4 (0-3 v England at home with Sulc sent off, 1-3 v Spain, lost to Croatia), DLLLL per ESPN; WLDLLL in all comps; Denia's side leaks goals but scored in games vs Spain (Slama).",
-        "h2h": "3 Oct 2026 Spain 3-1 Czechia (Oviedo, Spain rotated 9 players). 2022-23 Nations League: Czechia 2-2 Spain in Prague and Spain 2-0 in Malaga. Czechia are rarely level with Spain recently; Spain win comfortably, but the 2-2 in Prague shows a draw is possible when Spain rotate.",
-        "odds": "ESPN/DraftKings close: Spain -525, draw +550, Czechia +1000; de-vigged about Spain 0.774, draw 0.142, Czechia 0.084 (DK is lower than Polymarket's 0.8164 for Spain). DK totals line 3.5 (over +110, under -140, about 0.55 under de-vigged), spread Spain -1.5 at -170 (about 0.60), Czechia +1.5 at +120 (opened +2.5 at -190, closed +1.5). Polymarket Spain win 0.815 flat over 24h (0.815 at both ends of the 1d price history, no move); draw 0.115, Czechia 0.065.",
-        "models": "ClubElo and eloratings.net could not be retrieved (clubelo API returned nothing, eloratings.net serves a JS reload page), so no bookmaker-free rating was read. Proxy only: DraftKings de-vigged Spain about 0.77 vs Polymarket 0.8164; Sports Mole's October preview predicted Spain 3-0 and Squawka also 3-0, but those are tips, not ratings.",
-        "venue_weather": "Generali Arena (Letna), Prague, Czechia's home ground (ESPN lists Generali Arena), 20:45 local, 19:45 UTC kick-off; a normal home venue, not neutral. No weather or pitch reports found; no extreme-weather signal."
+        "team_news": "Morning findings still hold: Yamal (right knee, stayed in Barcelona) and Oyarzabal (did not travel) miss Prague; Rodri and Dani Olmo out; Barrenetxea replaced by De Frutos. NEW today (Sportaragon/OKDiario previews, 12 Nov): Laporte is a late doubt with a viral/flu-like illness, probably out. No new Czechia injury news found; Denia had not announced his XI or medical updates when the previews were published. ESPN summary for event 401861148 is still Scheduled with no rosters.",
+        "lineups": "No confirmed XI yet (ESPN rosters empty, status Scheduled), so nothing is confirmed. Predicted today: Spain (OKDiario) Simon; Porro, Cubarsi, Huijsen, Cucurella; Zubimendi, Fabian, Merino; Fermin, Baena, Ferran Torres. Sportaragon variant: Simon; Porro, Laporte, Cubarsi, Cucurella; Zubimendi, Fabian, Baena, Fermin; Ferran, Pino, with Huijsen or Merino as alternatives. Starting goalkeeper expected to be Unai Simon, unconfirmed. Czechia (Sportaragon, unconfirmed): Kovar; Coufal, Zima, Krejci, Chaloupek, Jurasek; Sadilek, Soucek, Kral, Provod; Hlozek. Key question, how many changes De la Fuente makes: no confirmed count and no press-conference quote found. OKDiario names only one change (Merino in for Nico Williams) and gives no total. Even this predicted XI is a reshuffled side without Yamal, Oyarzabal, Rodri and Olmo, but it keeps Simon, Cubarsi, Cucurella, Zubimendi, Fabian and Ferran, so it is not an obvious wholesale rotation.",
+        "rotation": "Unchanged from the morning: Spain are already qualified and play England on Sunday 15 Nov at the Metropolitano. Yamal and Oyarzabal are being held back for that game. In October De la Fuente made 9 changes against Croatia and still won 3-1 in Oviedo, so heavy rotation is possible again. Today's predicted XIs suggest a strong but reshuffled side, not a confirmed heavy rotation.",
+        "motivation": "Unchanged: Spain 12 pts and through, England 9, Croatia 3, Czechia 0. Czechia are at home, bottom of the group, and fighting to avoid League B relegation, so they are highly motivated. Spain have lower stakes.",
+        "form": "Unchanged: Spain won all 4 Nations League games (3-2 v England, 2-1 v Croatia, 3-1 v Czechia, plus one more). Czechia lost all 4, but scored against Spain in October.",
+        "h2h": "Unchanged: 3 Oct 2026 Spain 3-1 Czechia in Oviedo, with Spain rotating 9 players. 2022-23 Nations League: Czechia 2-2 Spain in Prague and Spain 2-0 in Malaga.",
+        "odds": "Refreshed 18:07 UTC. Polymarket live: Spain 0.8036, draw 0.1328, Czechia 0.0636. Morning was 0.8164 / 0.1171 / 0.0665, so Spain is down about 1.3 points and the draw is up about 1.6 points. Polymarket move_24h shows Spain 0.815 to 0.805, a small drift against the favourite. DraftKings decimal: Spain 1.22 (opened 1.15), draw 6.0 (opened 7.0), Czechia 10.5 (opened 12). De-vigged: Spain 0.758, draw 0.154, Czechia 0.088. The book has lengthened Spain since opening and the book is lower than Polymarket on Spain. DK total 3.5.",
+        "models": "World Football Elo (eloratings.net) now available: Spain 2287 vs Czechia 1656, a gap of 631, expected score for Czechia 0.045. That supports Spain as a clear favourite, but the rating does not capture the missing Yamal, Oyarzabal, Rodri and Olmo or the low stakes. Elo agrees on direction; the bookmaker is lower on Spain than Polymarket, so sources do not fully agree on the exact level.",
+        "venue_weather": "Generali Arena (Letna), Prague, Czechia's home ground, 20:45 local (19:45 UTC). A normal home venue, not neutral. No weather or pitch problem found."
       },
-      "reason": "Fixture verified (Czechia v Spain, Nations League A3, Thu 12 Nov, Letna Prague, ESPN and ceskenoviny). No hard exclusion: no confirmed rotation, no coach change in the last 7 days (Denia is in post), not a derby. Spain are far better but come without Yamal, Oyarzabal, Rodri and Olmo, already qualified, with England on Sunday, so I trim Spain from the market 0.816 to 0.80 and give Czechia and the draw a little more. Draw about 12.5%, under the 25% ceiling for a straight win, so Spain to win is allowed.",
-      "main_risk": "Rotation and low stakes for qualified Spain (9 changes v Czechia in October, England on Sunday, four key players out) leading to a draw or an upset by a motivated Czechia fighting relegation at home; the Czech side also scored in the October game. Fair price for Spain win 1.22 is thin versus the DraftKings de-vigged 0.774 (about 1.29).",
+      "reason": "Re-checked 90 minutes before kick-off. Nothing confirmed: no official XI, Laporte is a new late doubt (illness), and Spain's price has drifted slightly down (0.816 to 0.804) while the draw rose (0.117 to 0.133), with DraftKings also lengthening Spain from the 1.15 open. Predicted XIs show a reshuffled but still strong Spain side, not a confirmed heavy rotation, so no exclusion. Spain win 0.79 against live 0.8036, draw 0.14. Confidence stays medium because the lineup and goalkeeper are unconfirmed, Laporte is doubtful, and the price moved slightly against the leg.",
+      "main_risk": "Spain, already qualified and with England on Sunday, rotate heavily or are flat without four key players, and a motivated Czechia at home, fighting relegation, draw or upset. The draw is the main way the leg fails: the market draw rose to 0.133 and the DraftKings de-vigged draw is 0.154. Laporte's illness and an unconfirmed XI add late uncertainty.",
       "sources": [
-        "https://www.ceskenoviny.cz/index_view.php?id=2898137",
-        "https://futboltotal.futbol/league/uefa-nations-league/noticias/convocatoria-espana-nations-league-noviembre-2026",
-        "https://www.flashscore.com.mx/noticias/futbol-liga-naciones-lamine-yamal-y-oyarzabal-bajas-republica-checa-espana/j5qGqaZa/",
-        "https://www.sportsmole.co.uk/football/spain/uefa-nations-league/preview/spain-vs-czech-republic-prediction-team-news-lineups_606066.html",
+        "https://www.sportaragon.com/futbol-aragon/alineaciones-probables-republica-checa-espana-hoy-nations-league/20261112092925162941.html",
+        "https://okdiario.com/deportes/alineacion-espana-contra-republica-checa-huijsen-sera-central-merino-titular-20746604",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861148",
         "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112",
+        "https://www.eloratings.net/",
+        "https://www.ceskenoviny.cz/index_view.php?id=2898137",
         "https://www.elgoldigital.com/futbol/seleccion-espana/luis-de-la-fuente-rotaciones-lamine-yamal-espana-chequia-nations-league/"
       ],
       "views": {
-        "ah_away_-1.5": 0.58,
-        "ah_home_+2.5": 0.64,
-        "ah_home_+3.5": 0.81,
-        "ou_2.5_over": 0.64,
-        "ou_3.5_under": 0.56,
-        "ou_4.5_under": 0.75
+        "ah_away_-1.5": 0.55,
+        "ah_home_+2.5": 0.67,
+        "ah_home_+3.5": 0.82,
+        "ou_1.5_over": 0.82,
+        "ou_2.5_over": 0.62,
+        "ou_3.5_under": 0.61,
+        "ou_4.5_under": 0.77,
+        "btts_no": 0.54,
+        "tt_away_1.5_over": 0.72,
+        "tt_away_2.5_under": 0.54,
+        "tt_away_3.5_under": 0.76
       },
       "prices": []
     },
@@ -55,36 +61,42 @@
       "confidence": "medium",
       "p": {
         "home": 0.77,
-        "draw": 0.15,
-        "away": 0.08
+        "draw": 0.155,
+        "away": 0.075
       },
       "checks": {
-        "team_news": "Tuchel's press conference (Brit Brief, 11 Nov): Ezri Konsa (knee knock) and Djed Spence (fitness) are both out, 'we will not take the risk'. The Hard Tackle (11 Nov) lists England absentees Rico Lewis, Chalobah, O'Reilly, Palmer, Mainoo, Rashford, Livramento (knee), Alex Scott (thigh), Saka (hamstring), plus Guehi (hip) withdrawn and Konsa out; James Hill called up for the first time. Croatia: Perisic suspended (red card vs Spain, per Karlobag/SoccerNews snippets). Pulled out or missing: Sutalo (hamstring), Pongracic (thigh), Jakic (foot), Kramaric (knee), F. Ivanovic (head), Juranovic, Erlic, Moro, Stojkovic. Modric is in the squad, listed with no injury, and is in the predicted XI. A Brit Brief headline about a 'clean bill of health' predates the Konsa/Guehi news.",
-        "lineups": "Only one predicted XI read (The Hard Tackle, 4-2-3-1). England: Pickford; Alexander-Arnold, Quansah, Branthwaite, Hall; Anderson, Rice; Rogers, Bellingham, Gordon; Kane. Croatia: Livakovic; Stanisic, Vuskovic, Caleta-Car, Gvardiol; Modric, Kovacic; Vlasic, Pasalic, Baturina; Budimir. No second source found. Croatian press (Index.hr, Sportske novosti) and Sports Mole searches returned only older matches, and the Sports Mole page for this game returned 404. No official XI yet.",
-        "rotation": "England: Thursday at home, then Spain away on Sunday 15 Nov (Metropolitano, Madrid), so some rotation risk. Nothing confirmed, and the England side is already thin through injuries. Croatia played Spain and Czechia in the previous window and face Czechia on Sunday. The flight is short for Croatia. No 5+ changes announced, so no hard exclusion.",
-        "motivation": "League A Group 3 after matchday 4 (fubo table, Fanatik): Spain 12 pts, England 9, Croatia 3, Czechia 0. England host Croatia on 12 Nov. Remaining games are Czechia v Spain on 12 Nov, then Croatia v Czechia and Spain v England on 15 Nov. Croatia can reach at most 9 points, so a win or draw likely seals England's quarter-final place (Brit Brief says England want to top the group). Croatia are effectively out and need a big win. The Spain game on Sunday decides the group win, which could lead Tuchel to manage minutes. The game still matters for England.",
-        "form": "England DWWLW (3-0-1 in the group, GD +3 per fubo): lost 3-2 to Spain, beat Czechia 2-0, beat Croatia 7-0 in Rijeka; lost only 2 of their last 14 (The Hard Tackle). Croatia DLLWL (1-0-3, GD -10): beat Czechia 2-1, then lost three straight including 0-7 to England and a 2-1 home loss to Spain; lost 7 of their last 11. No xG found.",
-        "h2h": "13 meetings: England 8 wins, 2 draws, 3 defeats (The Hard Tackle). The most recent meeting was England 7-0 in Rijeka (Oct 2026), and earlier meetings include England 2-1 at Wembley in 2018. Croatia have lost heavily in this group, which points to few draws. The 7-0 score shows how high-scoring this matchup can be.",
-        "odds": "ESPN/DraftKings (scoreboard API, 12 Nov): England -425, draw +475, Croatia +900. De-vigged this is about 0.747 / 0.161 / 0.092, so slightly less England-heavy than Polymarket 0.794 / 0.133 / 0.074. DraftKings total 3.5: over +115, under -145 (de-vigged under about 0.56, in line with Polymarket 0.555-0.565). DraftKings England -1.5 -155 (de-vigged about 0.60 with Croatia +1.5 at +110). Polymarket England-win token (24h history): 0.775 at the start, 0.785 mid, 0.795 now, a drift up of about 2 points with no price shock. Squawka and Sporting Life previews pick England 3-0 and 3-1.",
-        "models": "eloratings.net could not be read (the fetch returned only an empty page shell), so no Elo figure is cited. Bookmaker-free proxies only: group goal difference (England +3, Croatia -10), the 7-0 result in the first meeting, and Croatia's 7 defeats in 11 games. This check is weaker than normal, which is why confidence is medium.",
-        "venue_weather": "Wembley Stadium, London (ESPN confirms the venue), Group A3, kick-off 19:45 UTC on Thursday 12 Nov. A normal home venue. No weather or pitch alert was found, but I did not check a forecast."
+        "team_news": "Morning findings hold: Konsa and Spence out (Tuchel presser, 11 Nov), Guehi withdrawn (Burn called up as replacement per Yahoo), Saka, Palmer, Rashford, Mainoo and others missing. New today: Kane is confirmed by the manager to start (record 126th cap). Croatia: Perisic suspended (Sports Mole); Sutalo, Pongracic, Jakic, Kramaric and others out. Modric, Kovacic, Gvardiol and Vuskovic appear in every predicted Croatia XI and no injury is reported for Modric or Gvardiol, so Croatia look close to full strength in midfield and defence, minus Perisic. No new injury or illness news found today.",
+        "lineups": "Not confirmed. ESPN summary (event 401861150) has no roster or formation yet. Today's web search found only predicted XIs, and they disagree on England's defence: Sports Mole has Alexander-Arnold, Quansah, Branthwaite, Hall (Konsa out); Yahoo uses Burn; Tribal Football lists Konsa, which is outdated. Pickford is the expected England keeper. Croatia predicted: Livakovic; Stanisic, Vuskovic, Caleta-Car, Gvardiol; Modric, Kovacic; Vlasic, Pasalic, Baturina; Budimir (Tribal's Perisic start is outdated). England's attack looks decent with Kane, Bellingham and Gordon, but thinner than usual without Saka, Palmer and Rashford. No official XI yet.",
+        "rotation": "England have Spain away on Sunday 15 Nov, so some rotation or minutes management is possible, but nothing is confirmed and the squad is already thin. No 5+ changes announced, so no hard exclusion. Croatia face Czechia on Sunday and are not expected to rotate, since they need a result.",
+        "motivation": "Unchanged from the morning. England (9 pts) are close to sealing a quarter-final place. Croatia (3 pts) are effectively out and need a big win. Spain on Sunday decides the group, which may lead Tuchel to manage minutes.",
+        "form": "Unchanged: England DWWLW, with a 7-0 win in Rijeka in October. Croatia DLLWL, having lost 7 of their last 11.",
+        "h2h": "Unchanged: England have 8 wins, 2 draws and 3 defeats in 13 meetings, and won 7-0 most recently in Rijeka.",
+        "odds": "DraftKings (ESPN, fetched 18:07 UTC): England 1.24 (opening 1.24), draw 6.0 (opening 5.5), Croatia 10.0 (opening 9.5), total 3.5. De-vigged 0.752 / 0.155 / 0.093. Polymarket live 0.7735 / 0.1529 / 0.0736. England's price has eased 2 points in 24h (0.795 to 0.775) and the draw has drifted slightly longer, a mild move against the leg that is consistent with the Konsa/Guehi defensive news and with expected rotation. No price shock. Live legs: +2.5 Croatia at 0.655, England -1.5 at 0.565, over 2.5 at 0.665, under 3.5 at 0.565, under 4.5 at 0.745.",
+        "models": "World Football Elo (eloratings.net): England 2146, Croatia 1856, a 290-point gap and expected score for England of 0.904. That agrees with the market on England being strong favourites, since expected score includes half the draw. Odds and rating sources agree.",
+        "venue_weather": "Wembley Stadium, London (ESPN confirms), kick-off 19:45 UTC. No weather or pitch alert found, and no forecast was checked."
       },
-      "reason": "England are clear favourites at home against a Croatia side beaten 7-0 in the first meeting and long out of contention. The draw chance at the market is 13%, well below the 25% limit for a straight win. DraftKings is less bullish on England (de-vigged about 0.75) than Polymarket, so I trimmed England to 0.77 and lifted the draw to 0.15. England are already short of many regulars and may rest or manage minutes with Spain away on Sunday. England win at 1.26 is the cleanest leg. Goals legs: both totals (over 2.5 at 1.50, under 4.5 at 1.33) look sensible given Croatia's defensive record, but the 7-0 first meeting shows how wide the goal range is, and England's attack is thin with Saka, Palmer, Rashford and Mainoo out. England -1.5 at 1.74 needs two goals and is more exposed to a rotated, injury-hit side.",
-      "main_risk": "Draw or a tight England win: Tuchel has many injuries and Spain on Sunday, so rotation or a flat performance is possible, and Croatia (Modric, Gvardiol, Vlasic) can still hold a low-scoring game. Only one predicted XI was available, and the Elo rating could not be checked.",
+      "reason": "England remain clear favourites at Wembley. Croatia are close to full strength in midfield and defence (Modric, Kovacic, Gvardiol), missing only Perisic, but they are weak overall (Elo 1856 vs 2146, beaten 7-0 in the first meeting). England have no confirmed XI, a reshuffled back line (Konsa, Guehi, Spence out) and rotation risk with Spain on Sunday, though Kane starts. For Croatia +2.5, the leg loses only if England win by 3 or more. The 7-0 first meeting shows that tail is real, but England's attack is thinner (no Saka, Palmer, Rashford) and the market puts the 3+ margin near 35%. I put the +2.5 leg at 0.66, in line with the market. Confidence stays medium because the lineup is unconfirmed and England's price eased slightly, so I am not marking it high.",
+      "main_risk": "A heavy England win. They scored 7 in the first meeting, and the 3+ goal margin, which is what beats Croatia +2.5, is still about a one-in-three chance. Secondary risks are an unconfirmed XI and England managing minutes before Spain.",
       "sources": [
-        "https://thehardtackle.com/round-up/2026/11/11/england-vs-croatia-preview-prediction-probable-lineups-tactics-team-news-key-stats",
-        "https://britbrief.co.uk/sports/football/konsa-and-spence-ruled-out-of-englands-croatia-clash.html",
         "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112",
-        "https://gamma-api.polymarket.com/events?id=1282483",
-        "https://karlobag.eu/en/sports/england-lose-konsa-and-guehi-before-croatia-clash-at-wembley-as-tuchel-calls-up-h75cx",
-        "https://www.malaymail.com/news/sports/2026/10/04/spain-break-down-czechs-as-england-outclass-croatia-in-nations-league/237616"
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861150",
+        "https://sports.yahoo.com/articles/england-xi-vs-croatia-confirmed-132458480.html",
+        "https://www.sportsmole.co.uk/football/england/uefa-nations-league/preview/england-vs-croatia-prediction-team-news-lineups_608818.html",
+        "https://www.tribalfootball.com/article/soccer-uefa-nations-league-england-v-croatia-lineups-confirmed-team-news-as-kane-prepares-for-record-breaking-night-8a46c454-9a28-4f8a-9998-c49f824c332a",
+        "https://britbrief.co.uk/sports/football/konsa-and-spence-ruled-out-of-englands-croatia-clash.html",
+        "https://thehardtackle.com/round-up/2026/11/11/england-vs-croatia-preview-prediction-probable-lineups-tactics-team-news-key-stats",
+        "https://www.eloratings.net/"
       ],
       "views": {
+        "ah_home_-1.5": 0.55,
+        "ah_away_+2.5": 0.66,
+        "ah_away_+3.5": 0.82,
         "ou_2.5_over": 0.64,
         "ou_3.5_under": 0.57,
         "ou_4.5_under": 0.76,
-        "ah_home_-1.5": 0.55,
-        "ah_away_+2.5": 0.67
+        "tt_home_1.5_over": 0.72,
+        "tt_home_3.5_under": 0.74,
+        "tt_away_1.5_under": 0.8
       },
       "prices": []
     },
@@ -103,39 +115,39 @@
       "exclude": false,
       "confidence": "medium",
       "p": {
-        "home": 0.765,
+        "home": 0.77,
         "draw": 0.16,
-        "away": 0.075
+        "away": 0.07
       },
       "checks": {
-        "team_news": "Per footballpredictions.com (read today): Stefan Loncar is suspended; Adam Marusic is back in contention; Aleksa Maras could make his international debut. No other Montenegro injuries found. A Sports Mole preview from the earlier round listed Aleksa Latkovic as suspended for that game, not this one. No Latvia squad or injury list for this match was found in English or Latvian press (LFF, LSM and Delfi were not indexed). Latvia coach Paolo Nicolato has run short of senior players before. Jānis Ikaunieks, Roberts Uldriķis, Renārs Varslavāns, Vladislavs Gutkovskis, Alvis Jaunzems and captain Kristers Tobers were out for a Baltic Cup camp, and their status for this match is unknown.",
-        "lineups": "No confirmed or well-sourced predicted XIs for 12 Nov. Last Montenegro XI predicted by Sports Mole (vs Armenia): Popovic; Vesovic, Rubezic, Vujacic, Radunovic; Loncar, Jankovic, Adzic; Osmajic, Krstovic, Jovetic. Loncar is now suspended, so a change is needed in midfield. Starting11 shows Latvia's usual shape as 5-4-1 (Matrevics in goal, Ciganiks, Cernomordijs and Cirkins in the back five). Tips.gg expects Montenegro in a 4-4-2 under Mirko Vucinic. Confirmed XIs are not out until about an hour before kickoff.",
-        "rotation": "Montenegro play at home. The Armenia preview said Vucinic may rotate, and the 3-2 win over Armenia was the previous game. Latvia host Armenia on 15 Nov, and the trip to Podgorica is an away game for them. Both sides have had regular international-window rest. No heavy-rotation report for Montenegro, so the hard rule is not triggered.",
-        "motivation": "Per footballpredictions.com, Montenegro lead League C Group 2 with 10 points from four games and are chasing promotion to League B. Latvia are fourth with 1 point and 'have little to play for' (same source). Montenegro have the stronger incentive. A raw-points check: Sports Mole says Montenegro won 2-1 at Cyprus, 3-2 vs Armenia and 2-1 at Latvia.",
-        "form": "Montenegro: 2-1 vs Cyprus, 3-2 vs Armenia, 2-1 at Latvia (Vasilije Adzic scored twice in Riga, in minutes 3 and 56; Strods replied in minute 82). They are unbeaten in five matches and lost once in their last seven (Sports Mole). They have not kept a clean sheet recently, conceding in each of the three Nations League wins I could verify. Latvia: lost 0-2 at Armenia, lost 1-2 at home to Montenegro, and have lost three of their last five away games with 0.6 goals per away game (footballpredictions.com). Their one point comes from another fixture.",
-        "h2h": "Reverse fixture 2 Oct 2026: Latvia 1-2 Montenegro in Riga (Novosti, Sports Mole). Footballpredictions.com lists 75% of the last four meetings as over 1.5 goals and 75% as BTTS. A draw is not common in this pairing in the sources read. Montenegro are the clearly better side but have been conceding, which supports lower confidence on BTTS no.",
-        "odds": "Tips.gg: Montenegro 1.34, draw 4.98, Latvia 9.50. Footballpredictions.ai: 1.33 / 4.60 / 8.50. Kickoff.co.uk: Montenegro 1/3 (72%), Latvia 7/1. De-vigged these give Montenegro about 0.73-0.75, draw about 0.19-0.20, Latvia about 0.08-0.10, close to Polymarket de-vigged 0.7565 / 0.1671 / 0.0764. Footballpredictions.com: under 3.5 goals 4/11 (74%), Montenegro draw no bet 1/12. Polymarket 24h move on the Montenegro win token: 0.745 to 0.755 (+1 point, no concern). Polymarket Latvia 0.075, draw 0.165.",
-        "models": "Elo page (eloratings.net) would not render for my fetcher, so I have no Elo figures to quote. Model-style sources read: Footballpredictions.com predicts Montenegro 2-1 (tips: home win, over 1.5, BTTS); Footballpredictions.ai predicts a 2-1 Montenegro win; Kickoff.co.uk gives Montenegro a 72% win probability. Models agree on Montenegro as clear favourites, with a 2-1 modal score.",
-        "venue_weather": "Stadion Pod Goricom / Gradski Stadion, Podgorica (home ground, normal venue), kickoff 19:45 GMT (20:45 CET). No weather or pitch problem reported in the sources read; I did not find a forecast, so conditions are unverified."
+        "team_news": "Morning findings still hold. New today: Sports Mole's Gameweek 5 preview (found in a search today) confirms Montenegro midfielder Stefan Loncar is suspended after a red card in the Armenia game. It also says Latvia are without Kristers Penkevics, who last played in a June friendly. Starting11 lists Andrej Duric as unavailable, which conflicts with Sports Mole's predicted back line, so his status is unclear. No other late injury or illness news found. Latvia's wider squad status (Ikaunieks, Uldrikis, Tobers and others) is still unknown.",
+        "lineups": "Not confirmed. The ESPN summary for this match (event 401861152) had empty rosters when checked, about 90 minutes before kick-off. Predicted: Montenegro with Popovic in goal, Jovetic and Krstovic up front and a changed midfield because of Loncar's suspension. Latvia in a 5-4-1 with Matrevics in goal and Gutkovskis up front (Sports Mole, Starting11). Official XIs are due about an hour before kick-off.",
+        "rotation": "No heavy-rotation report for Montenegro. Sports Mole says a win would seal top spot and automatic promotion with a game to spare, so Montenegro have a strong reason to field a full side. Latvia travel for an away game before hosting Armenia on 15 Nov.",
+        "motivation": "Montenegro lead League C Group 2 and can secure promotion with a win tonight. Latvia are fourth with 1 point and have little to play for. This is unchanged from the morning, and the promotion detail is new today.",
+        "form": "Unchanged from the morning. Montenegro beat Cyprus 2-1 and Armenia 3-2 and won 2-1 at Latvia. They have conceded in each of those wins. Latvia lost 0-2 at Armenia and 1-2 at home to Montenegro.",
+        "h2h": "Reverse fixture on 2 Oct 2026: Latvia 1-2 Montenegro in Riga. Both teams scored in that game, which supports lower confidence on BTTS no.",
+        "odds": "Polymarket live de-vig is 0.7765 / 0.157 / 0.066, against 0.7565 / 0.167 / 0.076 in the morning. DraftKings via ESPN now has Montenegro 1.24, draw 5.50, Latvia 11.00, de-vigged 0.748 / 0.168 / 0.084. It opened at 1.36 / 4.50 / 7.50. The 24h move on the Montenegro win token is 0.755 to 0.775, which is in the leg's favour and not a concern. Live Polymarket and DraftKings agree to within about 3 points.",
+        "models": "World Football Elo (eloratings.net, refreshed today): Montenegro 1489, Latvia 1246, expected home score 0.878. This supports Montenegro as clear favourites. Elo expected score counts a draw as half a win, so it is not directly comparable with the win probability. Footballpredictions.com, Footballpredictions.ai and Kickoff.co.uk all had Montenegro as favourites in the morning, with a 2-1 modal score.",
+        "venue_weather": "Podgorica City Stadium (ESPN), home ground, kick-off 19:45 UTC. No weather or pitch problem found, and I did not find a forecast, so conditions are unverified."
       },
-      "reason": "Montenegro are group leaders at home against a fourth-placed Latvia side with little to play for, and they won the reverse fixture 2-1 away. Polymarket and the bookmaker prices I saw agree closely (home about 0.73-0.76), so I keep p near the market with a small upward lean for home motivation and Latvia's weak away scoring. The draw is estimated at 16%, under the 25% limit for a straight win. Goals views: both teams have scored in their meetings, Montenegro have conceded in every recent game, and Latvia score little away, so BTTS no is slightly less likely than the market says. Over 1.5 and under 3.5 are supported by the 2-1 modal scores.",
-      "main_risk": "A draw or narrow result against a deep-defending 5-4-1 Latvia. Montenegro midfielder Stefan Loncar is suspended, XIs are unconfirmed, and Montenegro have conceded in every recent game, so BTTS is a real chance. I could not find Latvia squad news or Elo ratings, so confidence stays medium.",
+      "reason": "Montenegro are group leaders at home against a fourth-placed Latvia side with little to play for, and a win secures promotion. The live market (0.7765) and DraftKings de-vig (0.748) agree, and Elo points the same way, so p stays near the market. Confidence stays medium because lineups are not confirmed, Loncar is suspended and Duric's status is unclear. A draw is estimated at 16%, under the 25% limit for a straight win.",
+      "main_risk": "A draw or narrow result against a deep-defending 5-4-1 Latvia. Loncar is suspended, XIs are unconfirmed, and Montenegro have conceded in every recent game. Latvia's squad news is unknown.",
       "sources": [
-        "https://footballpredictions.com/footballpredictions/nations-league-predictions/montenegro-vs-latvia-prediction-12-11-2026/",
-        "https://www.sportsmole.co.uk/football/montenegro/preview/montenegro-vs-armenia-prediction-team-news-lineups_606188.html",
-        "https://www.novosti.rs/sport/fudbal/1655356/letonija-crna-gora-liga-nacija",
+        "https://www.sportsmole.co.uk/football/montenegro/uefa-nations-league/preview/montenegro-vs-latvia-prediction-team-news-lineups_608846.html",
         "https://starting11.com/fixtures/montenegro-vs-latvia",
-        "https://tips.gg/article/montenegro-vs-latvia-12-11-2026/",
-        "https://footballpredictions.ai/football-predictions/montenegro-vs-latvia-predictions-tips-12-nov-2026/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861152",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112",
+        "https://www.eloratings.net/",
+        "https://footballpredictions.com/footballpredictions/nations-league-predictions/montenegro-vs-latvia-prediction-12-11-2026/",
         "https://gamma-api.polymarket.com/events?id=1282478"
       ],
       "views": {
-        "ah_away_+2.5": 0.73,
-        "ou_1.5_over": 0.79,
-        "ou_3.5_under": 0.7,
-        "btts_no": 0.55,
+        "ah_away_+2.5": 0.72,
+        "ou_1.5_over": 0.77,
         "ou_2.5_over": 0.54,
-        "ou_4.5_under": 0.85
+        "ou_3.5_under": 0.7,
+        "btts_no": 0.6,
+        "tt_away_0.5_under": 0.57
       },
       "prices": []
     },
@@ -254,31 +266,31 @@
       "exclude": false,
       "confidence": "medium",
       "p": {
-        "home": 0.32,
+        "home": 0.27,
         "draw": 0,
-        "away": 0.68
+        "away": 0.73
       },
       "checks": {
-        "team_news": "No injury or withdrawal announced for Gauff; none of the pages read mention her fitness. Kostyuk (first alternate after Rybakina's viral-illness withdrawal) has had a right wrist problem this season that forced her to change her serve during her Tuesday loss to Pegula (Sportscape). She said 'I need more matches', 'I'm struggling in general', and she has no recent match rhythm. No walkover or withdrawal announced as of Wed evening.",
-        "lineups": "Singles, so no lineup. Fixture confirmed: Kostyuk v Gauff, WTA Finals Group 1/A, Indian Wells (outdoor hard), Thu 12 Nov 20:00 UTC (Mykhel lists 13 Nov 01:30 IST; StringTension lists 8:00 PM UTC). The official order of play was not found, so the order against Pegula v Noskova is unconfirmed.",
-        "rotation": "Results so far. Day 1 (Sun 8 Nov): Gauff d. Pegula 6-4 6-7(5) 6-2 (Reuters/NST/WTA). My brief said 6-2 in the first set, but Reuters and the WTA write-up say 6-4. Noskova d. Kostyuk 6-2 6-4. Day 3 (Tue 10 Nov): Pegula d. Kostyuk 6-2 7-5, and Noskova d. Gauff 6-3 6-3 in about 75 minutes (ESPN, tennisworldusa). Gauff has had two days off since Tuesday, as has Kostyuk, so rest is even and travel is nil. Both play their third round-robin match on Thursday.",
-        "motivation": "After Tuesday: Noskova 2-0 and already through, Gauff 1-1, Pegula 1-1, Kostyuk 0-2 and eliminated (thesportsencounter, tennis365). Gauff can only advance if she beats Kostyuk AND Pegula loses to Noskova (tennis365). Gauff said 'the goal is just to win the next match' and that she 'wouldn't be too upset' if she won and still missed out. Kostyuk has nothing to play for except pride and said she wants to fight for every point. Soft risk: Gauff's edge on motivation is smaller than it looks, and she is not out of it if Pegula's result goes her way.",
-        "form": "Gauff: beat Pegula in three sets on Sunday, then lost 3-6 3-6 to Noskova, who broke her five times and won 18 of 24 points on Gauff's second serve (serve was the main problem). Gauff beat Kostyuk 6-2 6-2 in the Cincinnati QF in Aug 2026. Kostyuk: 0-2 here, both in straight sets (6-2 6-4, 6-2 7-5), with a wrist problem and little match play. Kostyuk beat Pegula twice earlier in 2026 (Brisbane, Madrid) but lost to her here.",
-        "h2h": "Gauff leads 4-2 overall and 4-1 on hard (StringTension): Cincinnati QF Aug 2026 Gauff 6-2 6-2; Doha Feb 2025 Kostyuk 6-2 7-5; Wuhan Oct 2024 Gauff 6-4 6-1; Stuttgart clay Apr 2024 Kostyuk 3-6 6-4 7-6(6); AO 2024 QF Gauff 7-6 6-7 6-2; Adelaide 2022 Gauff. Another page lists 3-2 and a 2-2 record, so the records conflict, but all sources agree Gauff won the latest meeting comfortably. Style: Gauff's defence and movement against Kostyuk's flatter hitting; Kostyuk's wrist-affected serve is a weakness.",
-        "odds": "Polymarket (gamma API read tonight): Kostyuk 0.315 / Gauff 0.685, which is 31.5/68.5 after the market's own rounding. The Polymarket 24h price-history was not fetched. The same event shows Over 2.5 sets at 0.39, so a straight-sets Gauff win is priced as most likely. No bookmaker moneyline for this Nov 12 match was found in several searches, so there is no independent price. The only external price is StringTension's Elo-based 'Gauff 61.9% (-162)', a model figure and not a bookmaker line. Pre-tournament Lineups.com had Gauff +350 and Kostyuk +1600 to win the title.",
-        "models": "StringTension Elo (2026): Gauff overall 2087 and hard 1746; Kostyuk overall 1924 and hard 1705. Its win probability is Gauff 61.9%. A search snippet of the same page showed an older figure of 72.4% (Elo 2102), so the rating moved. This gives a model range of roughly 62-72% for Gauff. The tennisabstract.com Elo page returned 404 and could not be read. Market at 68.5% is inside that range.",
-        "venue_weather": "Indian Wells Tennis Garden, outdoor hard court, 8 pm UTC means a 1 pm local start, in line with the Tuesday daytime session. No weather alert found; no extreme weather or venue problem reported. The tournament venue is the normal fixed one for the event, not a neutral or unusual site."
+        "team_news": "New today: no withdrawal or walkover found for Kostyuk or Gauff. The WTA Day 5 preview (Thursday) still lists Kostyuk, so she is playing as the alternate for Rybakina. It says she had a right wrist injury through the Asian swing, was short of practice, has lost six straight matches (a walkover win over Townsend not counted) and has 15 double faults. It mentions no injury for Gauff, only her serve (broken five times by Noskova, 75% of second-serve points lost). No news was found that explains the price move. Kostyuk's court appearance is not yet confirmed.",
+        "lineups": "Singles, so no lineup. Order of play now confirmed by the WTA Day 5 preview: [9] Kostyuk v [4] Gauff is first on, 12 p.m. PT (20:00 UTC), then [5] Pegula v [8] Noskova. The Pegula v Noskova result is therefore NOT known before Gauff plays, so it cannot explain the price move. Gauff's path is unchanged: she must beat Kostyuk and Noskova must beat Pegula. An alternate replacing Kostyuk is not indicated.",
+        "rotation": "Unchanged from the morning. Both players had two days off since Tuesday, so rest is even and travel is nil. Day 1: Gauff d. Pegula 6-4 6-7(5) 6-2, Noskova d. Kostyuk 6-2 6-4. Day 3: Pegula d. Kostyuk 6-2 7-5, Noskova d. Gauff 6-3 6-3. Noskova is through, Kostyuk is out, and Gauff is 1-1.",
+        "motivation": "Unchanged and confirmed by the WTA preview. Kostyuk is out of contention and playing for pride. Gauff needs the win plus a Noskova win over Pegula, which is decided after her match. She said the goal is just to win the next match. Soft risk: Gauff's motivation edge is smaller than it looks, and she plays without knowing whether she can advance.",
+        "form": "Gauff: beat Pegula in three sets, then lost 3-6 3-6 to Noskova on serve problems; beat Kostyuk 6-2 6-2 in the Cincinnati QF (Aug 2026). Kostyuk: 0-2 here, both in straight sets, with a sore wrist, little match play and six straight losses per the WTA.",
+        "h2h": "Gauff leads 4-2 overall and 4-1 on hard (StringTension): Cincinnati QF Aug 2026 6-2 6-2 Gauff; Doha 2025 Kostyuk; Wuhan 2024 Gauff; Stuttgart clay 2024 Kostyuk; AO 2024 Gauff; Adelaide 2022 Gauff. Another page lists a different record, so the records conflict, but all sources agree Gauff won the latest meeting comfortably.",
+        "odds": "Live Polymarket: Gauff 0.755 / Kostyuk 0.245, up from 0.695 in 24h (+6 points, +8.6% relative). The move is in Gauff's favour, so it is not a move against the leg. I found no news to explain it. It is not the Pegula v Noskova result, which comes after this match, and it is not Kostyuk news. It may be late money on Kostyuk's wrist and form and on the rating gap. No bookmaker moneyline was found, so there is no independent price.",
+        "models": "Tennis Abstract Elo (refreshed in the candidates data): Gauff 2123.5 overall and 2081.8 hard, Kostyuk 2014.9 and 1931. Kostyuk win probability is 34.9% overall, 29.6% on hard and 32.2% blended, so Gauff is 65-70%. StringTension earlier gave Gauff 61.9%. The live market at 75.5% is above these ratings, so I sit below the market at 0.73, about 4 points above the blended Elo.",
+        "venue_weather": "Indian Wells Tennis Garden, outdoor hard court, first match on at 12 p.m. PT, the normal venue. No weather or venue problem found."
       },
-      "reason": "Fixture verified from three pages (Mykhel, StringTension, WTA/ESPN reports) and no withdrawal or walkover announced. Gauff is the clear favourite on every model I read (Elo 62-72%), leads h2h 4-2 (4-1 on hard) including 6-2 6-2 in August, and Kostyuk is eliminated, 0-2 with straight-set losses, a wrist problem and little match play. I moved the market by -0.5 points for Gauff (0.685 to 0.68) and sit slightly below it because the evidence is mixed, not clearly in either direction.",
-      "main_risk": "Gauff just lost 3-6 3-6 to Noskova with her serve breaking down, and her own motivation is thin: she can only advance if she wins and Pegula loses to Noskova, and she said she would not be too upset to miss out. A loose, low-intensity dead-rubber style match against an unburdened Kostyuk, who has beaten Gauff in 2 of their 6 meetings (incl. Doha 2025), is the most likely way the leg fails. No bookmaker price was found, so the market price rests on Polymarket alone. The two Tuesday results above were confirmed from multiple outlets, but no pre-match news since then was found.",
+      "reason": "Order of play confirmed (Kostyuk v Gauff first on, 12 p.m. PT) and Kostyuk is still listed with no withdrawal or walkover. She is out of the tournament, injured (wrist) and on a six-match losing streak. Gauff is rated 65-70% by Elo and leads h2h 4-2, including 6-2 6-2 in August. The market rose to 75.5% without any news I could find, and the ratings do not support that level, so I shade it to 73%. Confidence stays medium because Kostyuk's start is not confirmed and the move is unexplained.",
+      "main_risk": "Gauff's serve broke down against Noskova, and she plays a low-stakes match not knowing whether she can advance. An unburdened Kostyuk has beaten her in 2 of 6 meetings. The 6-point move in 24 hours has no identified cause, and the Elo models are below the market price. Pegula v Noskova is played after this match, so Gauff gets no information from it.",
       "sources": [
-        "https://www.espn.com/tennis/story/_/id/50447419/linda-noskova-reaches-wta-finals-semis-win-coco-gauff",
-        "https://tennis365.com/tennis-news/coco-gauff-speaks-linda-noskova-loss-wta-finals",
-        "https://thesportsencounter.com/2026/11/10/pegula-beats-kostyuk-wta-finals-semifinal-scenarios/",
-        "https://www.sportscapemagazine.com/blog/marta-kostyuk-struggles-jessica-pegula-wta-finals-2026",
+        "https://www.wtatennis.com/news/4607847/fage-wta-finals-day-5-preview-coco-gauff-jessica-pegula-battling-for-spots-in-indian-wells-semis",
+        "https://tennistonic.com/tennis-news/1081003/prediction-preview-h2h-gauff-pegula-noskova-and-kostyuk-to-play-on-court-1-on-thursday-wta-finals/",
+        "https://www.vavel.com/en-us/tennis-usa/2026/11/12/1278981-coco-gauff-vs-marta-kostyuk-live-set-by-set-score-updates-wta-finals.html",
+        "https://www.wtatennis.com/news/4606105/elena-rybakina-medically-withdraws-from-2026-wta-finals-at-indian-wells",
         "https://stringtension.com/head-to-head/wta/coco-gauff/marta-kostyuk",
-        "https://www.mykhel.com/tennis/fage-wta-finals-indian-wells-2026-womens-singles-group-stage-live-scoreboard-442969/",
-        "https://www.thestar.com.my/sport/tennis/2026/11/09/tennis-gauff-bests-pegula-in-thrilling-clash-noskova-beats-kostyuk-in-wta-finals"
+        "https://tennisabstract.com/reports/wta_elo_ratings.html",
+        "https://www.espn.com/tennis/story/_/id/50447419/linda-noskova-reaches-wta-finals-semis-win-coco-gauff"
       ],
       "views": {},
       "prices": []
@@ -375,6 +387,16 @@
     },
     {
       "id": "1325730",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1343532",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1365523",
       "exclude": true,
       "skipped": true
     }
