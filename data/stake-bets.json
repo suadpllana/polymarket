@@ -1,6 +1,654 @@
 {
- "updated_at": "2026-11-08T13:40:00.103Z",
+ "updated_at": "2026-11-13T23:10:56.973Z",
  "bets": [
+  {
+   "id": "1cvjanu",
+   "type": "multi",
+   "status": "won",
+   "date": "2026-11-13",
+   "time": "20:45",
+   "odds": 1.42,
+   "stake": 28.04,
+   "payout": 39.82,
+   "legs": [
+    {
+     "selection": "Slovakia Under 2.5",
+     "market": "Team Total Goals",
+     "odds": 1.42,
+     "date": "2026-11-13",
+     "time": "20:45",
+     "home": "Slovakia",
+     "away": "Faroe Islands",
+     "score": null,
+     "sport": "football",
+     "result": "won",
+     "result_from": "manual"
+    },
+    {
+     "selection": "Switzerland",
+     "market": "Draw No Bet",
+     "odds": 1.28,
+     "date": "2026-11-13",
+     "time": "20:45",
+     "home": "Slovenia",
+     "away": "Switzerland",
+     "score": null,
+     "sport": "football",
+     "result": "void",
+     "result_from": "manual",
+     "note": "Refunded: the game ended in a draw."
+    }
+   ]
+  },
+  {
+   "id": "1qy4a0x",
+   "type": "single",
+   "status": "won",
+   "date": "2026-11-13",
+   "time": "12:00",
+   "odds": 1.85,
+   "stake": 6.23,
+   "payout": 11.53,
+   "legs": [
+    {
+     "selection": "Team Falcons",
+     "market": "Match Winner - Twoway",
+     "odds": 1.85,
+     "date": "2026-11-13",
+     "time": "12:00",
+     "home": "G2 Esports",
+     "away": "Team Falcons",
+     "score": [
+      1,
+      2
+     ],
+     "sport": "cs2",
+     "result": "won",
+     "result_from": "bet"
+    }
+   ]
+  },
+  {
+   "id": "4pe0y3",
+   "type": "multi",
+   "status": "won",
+   "date": "2026-11-12",
+   "time": "20:45",
+   "odds": 1.85,
+   "stake": 24.97,
+   "payout": 46.19,
+   "legs": [
+    {
+     "selection": "Croatia (2.5)",
+     "market": "Asian Handicap",
+     "odds": 1.48,
+     "date": "2026-11-12",
+     "time": "20:45",
+     "home": "England",
+     "away": "Croatia",
+     "score": [
+      2,
+      1
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "bet"
+    },
+    {
+     "selection": "Montenegro",
+     "market": "1x2",
+     "odds": 1.25,
+     "date": "2026-11-12",
+     "time": "20:45",
+     "home": "Montenegro",
+     "away": "Latvia",
+     "score": [
+      2,
+      1
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "uuy3an",
+   "type": "single",
+   "status": "lost",
+   "date": "2026-11-12",
+   "time": "07:56",
+   "odds": 5.3,
+   "stake": 9.73,
+   "payout": 0,
+   "legs": [
+    {
+     "selection": "FUT Esports",
+     "market": "Match Winner - Twoway",
+     "odds": 5.3,
+     "date": "2026-11-12",
+     "time": "07:56",
+     "home": "FUT Esports",
+     "away": "MOUZ",
+     "score": [
+      1,
+      2
+     ],
+     "sport": "cs2",
+     "result": "lost",
+     "result_from": "bet"
+    }
+   ]
+  },
+  {
+   "id": "fws3m0",
+   "type": "single",
+   "status": "lost",
+   "date": "2026-11-11",
+   "time": "10:33",
+   "odds": 1.72,
+   "stake": 0.3,
+   "payout": 0,
+   "legs": [
+    {
+     "selection": "2:0",
+     "market": "Correct Score",
+     "odds": 1.72,
+     "date": "2026-11-11",
+     "time": "10:33",
+     "home": "MOUZ",
+     "away": "G2 Esports",
+     "score": [
+      1,
+      2
+     ],
+     "sport": "cs2",
+     "result": "lost",
+     "result_from": "bet"
+    }
+   ]
+  },
+  {
+   "id": "1nog6nm",
+   "type": "single",
+   "status": "won",
+   "date": "2026-11-11",
+   "time": "07:31",
+   "odds": 1.48,
+   "stake": 168.8,
+   "payout": 249.82,
+   "legs": [
+    {
+     "selection": "Team Spirit",
+     "market": "Map 3 Winner - Threeway",
+     "odds": 1.48,
+     "date": "2026-11-11",
+     "time": "07:31",
+     "home": "Team Spirit",
+     "away": "FUT Esports",
+     "score": [
+      2,
+      1
+     ],
+     "sport": "cs2",
+     "result": "won",
+     "result_from": "bet"
+    }
+   ]
+  },
+  {
+   "id": "14ydhem",
+   "type": "single",
+   "status": "lost",
+   "date": "2026-11-11",
+   "time": "07:31",
+   "odds": 1.4,
+   "stake": 106.87,
+   "payout": 0,
+   "legs": [
+    {
+     "selection": "2:0",
+     "market": "Correct Score",
+     "odds": 1.4,
+     "date": "2026-11-11",
+     "time": "07:31",
+     "home": "Team Spirit",
+     "away": "FUT Esports",
+     "score": [
+      2,
+      1
+     ],
+     "sport": "cs2",
+     "result": "lost",
+     "result_from": "bet"
+    }
+   ]
+  },
+  {
+   "id": "oprizy",
+   "type": "multi",
+   "status": "won",
+   "date": "2026-11-10",
+   "time": "13:00",
+   "odds": 1.92,
+   "stake": 9.98,
+   "payout": 19.18,
+   "legs": [
+    {
+     "selection": "Alex Michelsen",
+     "market": "Winner",
+     "odds": 1.24,
+     "date": "2026-11-10",
+     "time": "13:00",
+     "home": "Alex Michelsen",
+     "away": "Juan Manuel Cerundolo",
+     "score": [
+      2,
+      0
+     ],
+     "sport": "other",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Jessica Pegula",
+     "market": "Winner",
+     "odds": 1.55,
+     "date": "2026-11-10",
+     "time": "21:00",
+     "home": "Marta Kostyuk",
+     "away": "Jessica Pegula",
+     "score": [
+      0,
+      2
+     ],
+     "sport": "other",
+     "result": "won",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "ka1t2u",
+   "type": "multi",
+   "status": "lost",
+   "date": "2026-11-09",
+   "time": "18:00",
+   "odds": 44.55,
+   "stake": 0.04,
+   "payout": 0,
+   "legs": [
+    {
+     "selection": "Tomas Martin Etcheverry",
+     "market": "Winner",
+     "odds": 1.2,
+     "date": "2026-11-09",
+     "time": "18:00",
+     "home": "Tomas Martin Etcheverry",
+     "away": "Dahlin, Max",
+     "score": [
+      2,
+      1
+     ],
+     "sport": "other",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "CE Sabadell",
+     "market": "1x2",
+     "odds": 1.71,
+     "date": "2026-11-09",
+     "time": "20:30",
+     "home": "CE Sabadell",
+     "away": "Real Sociedad B",
+     "score": [
+      0,
+      0
+     ],
+     "sport": "football",
+     "result": "lost",
+     "result_from": "score"
+    },
+    {
+     "selection": "Las Palmas",
+     "market": "1x2",
+     "odds": 1.99,
+     "date": "2026-11-09",
+     "time": "20:30",
+     "home": "Las Palmas",
+     "away": "Club Deportivo Eldense",
+     "score": [
+      2,
+      0
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Aryna Sabalenka",
+     "market": "Winner",
+     "odds": 1.48,
+     "date": "2026-11-09",
+     "time": "21:00",
+     "home": "Aryna Sabalenka",
+     "away": "Karolina Muchova",
+     "score": [
+      2,
+      0
+     ],
+     "sport": "other",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Mirra Andreeva",
+     "market": "Winner",
+     "odds": 1.5,
+     "date": "2026-11-09",
+     "time": "23:15",
+     "home": "Mirra Andreeva",
+     "away": "Elina Svitolina",
+     "score": [
+      2,
+      0
+     ],
+     "sport": "other",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Cleveland Cavaliers",
+     "market": "Winner (Incl. Overtime)",
+     "odds": 1.29,
+     "date": "2026-11-10",
+     "time": "01:00",
+     "home": "Charlotte Hornets",
+     "away": "Cleveland Cavaliers",
+     "score": [
+      124,
+      112
+     ],
+     "sport": "other",
+     "result": "lost",
+     "result_from": "score"
+    },
+    {
+     "selection": "Detroit Pistons",
+     "market": "Winner (Incl. Overtime)",
+     "odds": 1.19,
+     "date": "2026-11-10",
+     "time": "01:00",
+     "home": "Detroit Pistons",
+     "away": "Washington Wizards",
+     "score": [
+      122,
+      111
+     ],
+     "sport": "other",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Buffalo Bills",
+     "market": "Winner (Incl. Overtime)",
+     "odds": 1.54,
+     "date": "2026-11-10",
+     "time": "02:15",
+     "home": "Minnesota Vikings",
+     "away": "Buffalo Bills",
+     "score": [
+      6,
+      23
+     ],
+     "sport": "other",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "San Antonio Spurs",
+     "market": "Winner (Incl. Overtime)",
+     "odds": 1.26,
+     "date": "2026-11-10",
+     "time": "03:00",
+     "home": "Phoenix Suns",
+     "away": "San Antonio Spurs",
+     "score": [
+      96,
+      122
+     ],
+     "sport": "other",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "India",
+     "market": "Winner (Incl. Super Over)",
+     "odds": 1.65,
+     "date": "2026-11-10",
+     "time": "03:00",
+     "home": "New Zealand",
+     "away": "India",
+     "score": null,
+     "sport": "other",
+     "result": null,
+     "result_from": null
+    }
+   ]
+  },
+  {
+   "id": "1ibcv1n",
+   "type": "single",
+   "status": "lost",
+   "date": "2026-11-08",
+   "time": "21:00",
+   "odds": 3.4,
+   "stake": 9.98,
+   "payout": 0,
+   "legs": [
+    {
+     "selection": "Atletico Madrid",
+     "market": "1x2",
+     "odds": 3.4,
+     "date": "2026-11-08",
+     "time": "21:00",
+     "home": "Atletico Madrid",
+     "away": "Barcelona",
+     "score": [
+      1,
+      2
+     ],
+     "sport": "football",
+     "result": "lost",
+     "result_from": "bet"
+    }
+   ]
+  },
+  {
+   "id": "1t9tf6",
+   "type": "multi",
+   "status": "lost",
+   "date": "2026-11-08",
+   "time": "18:00",
+   "odds": 10.89,
+   "stake": 22.61,
+   "payout": 0,
+   "legs": [
+    {
+     "selection": "Como",
+     "market": "1x2",
+     "odds": 3.35,
+     "date": "2026-11-08",
+     "time": "18:00",
+     "home": "Inter",
+     "away": "Como",
+     "score": [
+      2,
+      0
+     ],
+     "sport": "football",
+     "result": "lost",
+     "result_from": "score"
+    },
+    {
+     "selection": "Atletico Madrid",
+     "market": "1x2",
+     "odds": 3.25,
+     "date": "2026-11-08",
+     "time": "21:00",
+     "home": "Atletico Madrid",
+     "away": "Barcelona",
+     "score": [
+      1,
+      2
+     ],
+     "sport": "football",
+     "result": "lost",
+     "result_from": "score"
+    }
+   ]
+  },
+  {
+   "id": "1tiebm0",
+   "type": "multi",
+   "status": "lost",
+   "date": "2026-11-08",
+   "time": "12:30",
+   "odds": 18.27,
+   "stake": 9.99,
+   "payout": 0,
+   "legs": [
+    {
+     "selection": "Draw or Lazio",
+     "market": "Double Chance",
+     "odds": 1.63,
+     "date": "2026-11-08",
+     "time": "12:30",
+     "home": "Napoli",
+     "away": "Lazio",
+     "score": [
+      1,
+      1
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Draw or Real Betis",
+     "market": "Double Chance",
+     "odds": 1.28,
+     "date": "2026-11-08",
+     "time": "14:00",
+     "home": "Elche",
+     "away": "Real Betis",
+     "score": [
+      0,
+      2
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Draw or Chelsea",
+     "market": "Double Chance",
+     "odds": 1.26,
+     "date": "2026-11-08",
+     "time": "15:00",
+     "home": "Sunderland",
+     "away": "Chelsea",
+     "score": [
+      1,
+      0
+     ],
+     "sport": "football",
+     "result": "lost",
+     "result_from": "score"
+    },
+    {
+     "selection": "Draw or Bournemouth",
+     "market": "Double Chance",
+     "odds": 1.27,
+     "date": "2026-11-08",
+     "time": "15:00",
+     "home": "Ipswich Town",
+     "away": "Bournemouth",
+     "score": [
+      1,
+      2
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Brighton or Draw",
+     "market": "Double Chance",
+     "odds": 1.27,
+     "date": "2026-11-08",
+     "time": "15:00",
+     "home": "Brighton",
+     "away": "Brentford",
+     "score": [
+      2,
+      0
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Manchester United or Draw",
+     "market": "Double Chance",
+     "odds": 1.36,
+     "date": "2026-11-08",
+     "time": "17:30",
+     "home": "Manchester United",
+     "away": "Aston Villa",
+     "score": [
+      4,
+      4
+     ],
+     "sport": "football",
+     "result": "won",
+     "result_from": "score"
+    },
+    {
+     "selection": "Draw or Como",
+     "market": "Double Chance",
+     "odds": 1.78,
+     "date": "2026-11-08",
+     "time": "18:00",
+     "home": "Inter",
+     "away": "Como",
+     "score": [
+      2,
+      0
+     ],
+     "sport": "football",
+     "result": "lost",
+     "result_from": "score"
+    },
+    {
+     "selection": "Atletico Madrid or Draw",
+     "market": "Double Chance",
+     "odds": 1.78,
+     "date": "2026-11-08",
+     "time": "21:00",
+     "home": "Atletico Madrid",
+     "away": "Barcelona",
+     "score": [
+      1,
+      2
+     ],
+     "sport": "football",
+     "result": "lost",
+     "result_from": "score"
+    }
+   ]
+  },
   {
    "id": "w8pfok",
    "type": "multi",

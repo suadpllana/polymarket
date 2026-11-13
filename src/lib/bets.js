@@ -6,6 +6,8 @@
 
 const CS2_MARKET = /twoway|map\s*\d|maps|round handicap|round winner|pistol/i;
 const FOOTBALL_MARKET = /1x2|match result|both teams|double chance|draw no bet|asian|total goals|goals|corners|cards|half/i;
+// Tennis ("Winner"), basketball and NFL ("Winner (Incl. Overtime)"), cricket ("… Super Over").
+const OTHER_MARKET = /^winner(\s*\(incl\.[^)]*\))?$|^moneyline$/i;
 // Fallback for markets both sports use (e.g. Correct Score).
 const CS2_NAMES = /\b(team vitality|vitality|natus vincere|navi|furia|spirit|mouz|liquid|faze|g2|falcons|aurora|betboom|mongolz|tyloo|9z|jijiehao|eternal fire|parivision|k27|metizport|m80|nemiga|fut esports|fut|alliance|dendele|envy|1win|astralis|heroic|virtus|complexity|3dmax|gamerlegion|pain|imperial|mibr|saw|b8|bc\.game|lynn vision|the huns|esports|gaming)\b/i;
 
@@ -51,6 +53,7 @@ function sideOf(selection, leg) {
 
 export function legSport(leg, cs2Teams = new Set()) {
   if (CS2_MARKET.test(leg.market)) return 'cs2';
+  if (OTHER_MARKET.test(leg.market.trim())) return 'other';
   if (FOOTBALL_MARKET.test(leg.market)) return 'football';
   if (cs2Teams.has(norm(leg.home)) || cs2Teams.has(norm(leg.away))) return 'cs2';
   if (CS2_NAMES.test(`${leg.home} ${leg.away}`)) return 'cs2';
@@ -67,6 +70,7 @@ export function marketGroup(leg) {
     if (m.includes('handicap')) return 'CS2 handicap';
     return 'CS2 other';
   }
+  if (leg.sport === 'other') return 'Other sports';
   if (m.includes('2up')) return 'Win (2-up)';
   if (m === '1x2' || m.includes('match result')) return 'Win (1x2)';
   if (m.includes('double chance')) return 'Double chance';

@@ -1,5 +1,4 @@
 import { dayLabel, esc, localDate, odds, pct, timeLabel } from '../ui/format.js';
-import { renderBankroll } from './bankroll.js';
 
 const CHECK_LABEL = {
   team_news: 'Team news',
@@ -39,9 +38,9 @@ function legCard(l, i) {
       ${RESULT_KEYS.has(l.key) || !l.key ? (l.p.draw ? `<span>Home ${pct(l.p.home)} · Draw ${pct(l.p.draw)} · Away ${pct(l.p.away)}</span>` : `<span>${esc(l.home)} ${pct(l.p.home)} · ${esc(l.away)} ${pct(l.p.away)}</span>`) : ''}
       <span class="conf conf--${esc(l.confidence)}">${l.confidence === 'market' ? 'market price only' : `${esc(l.confidence)} confidence`}</span>
     </div>
-    <p class="pick__why">${esc(l.reason)}</p>
-    <p class="pick__risk"><strong>Main risk:</strong> ${esc(l.main_risk)}</p>
-    <details class="pick__more"><summary>Full research</summary>
+    <details class="pick__more"><summary>Why this pick</summary>
+      <p class="pick__why">${esc(l.reason)}</p>
+      <p class="pick__risk"><strong>Main risk:</strong> ${esc(l.main_risk)}</p>
       <dl>${checks.map(([k, v]) => `<dt>${esc(CHECK_LABEL[k] || k)}</dt><dd>${esc(v)}</dd>`).join('')}</dl>
       <div class="small">${(l.sources || []).map((s) => { let h = s; try { h = new URL(s).hostname.replace(/^www\./, ''); } catch {} return `<a href="${esc(s)}" target="_blank" rel="noopener noreferrer">${esc(h)}</a>`; }).join(' · ')}</div>
     </details>
@@ -89,7 +88,8 @@ export async function renderToday(root) {
   const today = entries.find((e) => e.date === localDate());
   // Research done the evening before publishes tomorrow's slip early.
   const tomorrow = entries.find((e) => e.date === localDate(new Date(Date.now() + 24 * 3600 * 1000)));
-  const past = entries.filter((e) => e !== today && e !== tomorrow);
+  // Days without a bet are left out of the record.
+  const past = entries.filter((e) => e !== today && e !== tomorrow && !e.no_bet);
   const settled = entries.filter((e) => e.result === 'won' || e.result === 'lost');
   const won = settled.filter((e) => e.result === 'won').length;
 
@@ -104,7 +104,6 @@ export async function renderToday(root) {
         : `<section class="card slip-none"><h2>No slip yet</h2><p>The research runs at 07:50 Belgrade time. The slip appears here a few minutes after it is pushed.</p></section>`
     }
     ${tomorrow && !tomorrow.no_bet ? slipHtml(tomorrow, 'Tomorrow’s slip') : ''}
-    <section class="card bank" id="bankroll"></section>
     <section class="card">
       <h2>Model record</h2>
       <p class="card__sub">${settled.length ? `${won} of ${settled.length} slips won (${pct(won / settled.length)}). At odds of 2.0 the break-even rate is 50%.` : 'No settled slips yet. The record starts with the first slip.'}</p>
@@ -112,13 +111,12 @@ export async function renderToday(root) {
         past.length
           ? `<ul class="record">${past
               .map(
-                (e) => `<li class="record__row"><div class="record__day">${esc(dayLabel(e.date))}</div><div class="record__legs">${
-                  e.no_bet ? `<span class="muted">No bet: ${esc(e.reason)}</span>` : e.legs.map((l) => `<div>${esc(l.selection)} <span class="muted">${esc(l.label)} · ${odds(l.odds)}</span></div>`).join('')
-                }</div><div class="record__end">${e.no_bet ? '' : `<strong>${odds(e.odds)}</strong>${resultBadge(e.result)}`}</div></li>`
+                (e) => `<li class="record__row"><div class="record__day">${esc(dayLabel(e.date))}</div><div class="record__legs">${e.legs
+                  .map((l) => `<div>${esc(l.selection)} <span class="muted">${esc(l.label)} · ${odds(l.odds)}</span></div>`)
+                  .join('')}</div><div class="record__end"><strong>${odds(e.odds)}</strong>${resultBadge(e.result)}</div></li>`
               )
               .join('')}</ul>`
           : ''
       }
     </section>`;
-  renderBankroll(root.querySelector('#bankroll'), entries, today);
 }

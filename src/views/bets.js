@@ -8,7 +8,7 @@ const VISIBLE_LEGS = 3;
 const open = new Set();
 
 const FILTERS = {
-  sport: [['all', 'All sports'], ['football', 'Football'], ['cs2', 'CS2'], ['mixed', 'Football + CS2']],
+  sport: [['all', 'All sports'], ['football', 'Football'], ['cs2', 'CS2'], ['other', 'Other sports'], ['mixed', 'Mixed']],
   result: [['all', 'All results'], ['won', 'Won'], ['lost', 'Lost'], ['cashed_out', 'Cashed out']],
   type: [['all', 'Singles & multis'], ['single', 'Singles'], ['multi', 'Multis']],
 };
@@ -39,7 +39,7 @@ function legHtml(l, mixed, hidden) {
     <span class="leg__dot leg__dot--${r}" title="${esc(r === 'unknown' ? 'Result not known from the score' : RESULT_LABEL[r] || r)}">${r === 'unknown' ? '?' : RESULT_ICON[r]}</span>
     <div class="leg__body">
       <div class="leg__pick"><strong>${esc(l.selection)}</strong><span class="leg__odds">${odds(l.odds)}</span></div>
-      <div class="leg__market">${esc(l.market)}${mixed ? ` · <span class="tag tag--${l.sport}">${l.sport === 'cs2' ? 'CS2' : 'Football'}</span>` : ''}</div>
+      <div class="leg__market">${esc(l.market)}${mixed ? ` · <span class="tag tag--${l.sport}">${esc(SPORT_LABEL[l.sport] || l.sport)}</span>` : ''}</div>
       <div class="leg__match">${esc(l.home)} <b>${score}</b> ${esc(l.away)} <span class="muted">· ${esc(dayLabel(l.date))} ${esc(l.time)}</span></div>
       ${why}
     </div>
@@ -95,7 +95,7 @@ export function renderBets(root, ctx) {
   root.innerHTML = `
     <section class="page-head">
       <h1>My Bets</h1>
-      <p class="muted">${ctx.bets.length} settled Stake bets${ctx.localCount ? `, ${ctx.localCount} added in this browser` : ''}.</p>
+      <p class="muted">${ctx.bets.length} settled bets${ctx.localCount ? `, ${ctx.localCount} added in this browser` : ''}.</p>
     </section>
     <section class="filters">
       ${chips('sport')}${chips('result')}${chips('type')}

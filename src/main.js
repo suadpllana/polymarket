@@ -9,8 +9,8 @@ import { hideTip } from './ui/charts.js';
 
 const LOCAL_KEY = 'stakeBets.local.v1';
 
-// The old multi-sport model kept a slip log in the browser; it is gone.
-for (const key of ['dailyParlay.log.v1', 'dailyParlay.amount']) {
+// Data from removed features (the old slip log, the bankroll tracker) is cleared.
+for (const key of ['dailyParlay.log.v1', 'dailyParlay.amount', 'bankroll.v1']) {
   try {
     localStorage.removeItem(key);
   } catch {
