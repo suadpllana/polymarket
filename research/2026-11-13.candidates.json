@@ -32,64 +32,78 @@
           "key": "ah_home_-1.5",
           "label": "Handicap",
           "selection": "Scotland -1.5",
-          "p_market": 0.595,
-          "fair_odds": 1.68
+          "p_market": 0.615,
+          "fair_odds": 1.63
         },
         {
           "key": "ah_away_+2.5",
           "label": "Handicap",
           "selection": "North Macedonia +2.5",
-          "p_market": 0.64,
-          "fair_odds": 1.56
+          "p_market": 0.615,
+          "fair_odds": 1.63
+        },
+        {
+          "key": "ah_away_+3.5",
+          "label": "Handicap",
+          "selection": "North Macedonia +3.5",
+          "p_market": 0.795,
+          "fair_odds": 1.26
         },
         {
           "key": "ou_1.5_over",
           "label": "Total goals",
           "selection": "Over 1.5",
-          "p_market": 0.795,
-          "fair_odds": 1.26
+          "p_market": 0.825,
+          "fair_odds": 1.21
         },
         {
           "key": "ou_2.5_over",
           "label": "Total goals",
           "selection": "Over 2.5",
-          "p_market": 0.565,
-          "fair_odds": 1.77
+          "p_market": 0.615,
+          "fair_odds": 1.63
         },
         {
           "key": "ou_3.5_under",
           "label": "Total goals",
           "selection": "Under 3.5",
-          "p_market": 0.665,
-          "fair_odds": 1.5
+          "p_market": 0.625,
+          "fair_odds": 1.6
         },
         {
           "key": "ou_4.5_under",
           "label": "Total goals",
           "selection": "Under 4.5",
-          "p_market": 0.835,
-          "fair_odds": 1.2
+          "p_market": 0.795,
+          "fair_odds": 1.26
         },
         {
           "key": "btts_no",
           "label": "Both teams to score",
           "selection": "No",
-          "p_market": 0.655,
-          "fair_odds": 1.53
+          "p_market": 0.625,
+          "fair_odds": 1.6
         },
         {
-          "key": "tt_home_2.5_under",
+          "key": "tt_home_1.5_over",
           "label": "Scotland goals",
-          "selection": "Under 2.5",
-          "p_market": 0.555,
-          "fair_odds": 1.8
+          "selection": "Over 1.5",
+          "p_market": 0.745,
+          "fair_odds": 1.34
+        },
+        {
+          "key": "tt_home_3.5_under",
+          "label": "Scotland goals",
+          "selection": "Under 3.5",
+          "p_market": 0.735,
+          "fair_odds": 1.36
         },
         {
           "key": "tt_away_0.5_under",
           "label": "North Macedonia goals",
           "selection": "Under 0.5",
-          "p_market": 0.64,
-          "fair_odds": 1.56
+          "p_market": 0.595,
+          "fair_odds": 1.68
         }
       ],
       "data": {
@@ -112,7 +126,7 @@
             "draw": 0.142,
             "away": 0.066
           },
-          "total": 2.5
+          "total": 3.5
         },
         "move_24h": {
           "side": "home",
@@ -133,7 +147,12 @@
           },
           "expected_score_home": 0.838
         },
-        "fetched_at": "2026-11-13T06:52:32.928Z"
+        "fetched_at": "2026-11-13T18:06:17.455Z"
+      },
+      "morning_p_market": {
+        "home": 0.8264,
+        "draw": 0.1273,
+        "away": 0.0463
       }
     },
     {
@@ -162,11 +181,11 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.8,
+          "from": 0.82,
           "to": 0.815,
-          "relative_change": 0.019
+          "relative_change": -0.006
         },
-        "fetched_at": "2026-11-13T06:52:32.830Z"
+        "fetched_at": "2026-11-13T18:06:17.353Z"
       }
     },
     {
@@ -233,9 +252,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261113",
           "espn_match": "Azerbaijan at Liechtenstein",
           "decimal": {
-            "home": 12,
-            "draw": 5.25,
-            "away": 1.24
+            "home": 17,
+            "draw": 5.5,
+            "away": 1.19
           },
           "opening": {
             "home": 10,
@@ -243,17 +262,17 @@
             "away": 1.27
           },
           "p_devig": {
-            "home": 0.077,
-            "draw": 0.176,
-            "away": 0.747
+            "home": 0.054,
+            "draw": 0.168,
+            "away": 0.777
           },
           "total": 2.5
         },
         "move_24h": {
           "side": "away",
           "from": 0.765,
-          "to": 0.775,
-          "relative_change": 0.013
+          "to": 0.815,
+          "relative_change": 0.065
         },
         "rating": {
           "model": "World Football Elo (eloratings.net)",
@@ -268,7 +287,7 @@
           },
           "expected_score_home": 0.124
         },
-        "fetched_at": "2026-11-13T06:52:33.200Z"
+        "fetched_at": "2026-11-13T18:06:17.642Z"
       }
     },
     {
@@ -281,66 +300,73 @@
       "start": "2026-11-13T19:45:00.000Z",
       "coverage": 1,
       "p_market": {
-        "home": 0.0865,
-        "draw": 0.147,
-        "away": 0.7665
+        "home": 0.0765,
+        "draw": 0.1371,
+        "away": 0.7864
       },
       "legs_in_range": [
         {
           "key": "away",
           "label": "Match winner",
           "selection": "Germany",
-          "p_market": 0.7665,
-          "fair_odds": 1.3
+          "p_market": 0.7864,
+          "fair_odds": 1.27
+        },
+        {
+          "key": "ah_away_-1.5",
+          "label": "Handicap",
+          "selection": "Germany -1.5",
+          "p_market": 0.595,
+          "fair_odds": 1.68
         },
         {
           "key": "ah_home_+2.5",
           "label": "Handicap",
           "selection": "Serbia +2.5",
-          "p_market": 0.685,
-          "fair_odds": 1.46
+          "p_market": 0.625,
+          "fair_odds": 1.6
         },
         {
           "key": "ah_home_+3.5",
           "label": "Handicap",
           "selection": "Serbia +3.5",
-          "p_market": 0.835,
-          "fair_odds": 1.2
+          "p_market": 0.805,
+          "fair_odds": 1.24
         },
         {
           "key": "ou_2.5_over",
           "label": "Total goals",
           "selection": "Over 2.5",
-          "p_market": 0.675,
-          "fair_odds": 1.48
+          "p_market": 0.685,
+          "fair_odds": 1.46
         },
         {
           "key": "ou_3.5_under",
           "label": "Total goals",
           "selection": "Under 3.5",
-          "p_market": 0.555,
-          "fair_odds": 1.8
+          "p_market": 0.545,
+          "fair_odds": 1.83
         },
         {
           "key": "ou_4.5_under",
           "label": "Total goals",
           "selection": "Under 4.5",
-          "p_market": 0.745,
-          "fair_odds": 1.34
+          "p_market": 0.735,
+          "fair_odds": 1.36
         },
         {
-          "key": "tt_home_0.5_over",
-          "label": "Serbia goals",
-          "selection": "Over 0.5",
-          "p_market": 0.57,
-          "fair_odds": 1.75
+          "key": "tt_away_1.5_over",
+          "label": "Germany goals",
+          "selection": "Over 1.5",
+          "p_market": 0.75,
+          "fair_odds": 1.33
         },
         {
-          "key": "tt_home_1.5_under",
-          "label": "Serbia goals",
-          "selection": "Under 1.5",
-          "p_market": 0.805,
-          "fair_odds": 1.24
+          "key": "tt_away_3.5_under",
+          "label": "Germany goals",
+          "selection": "Under 3.5",
+          "p_market": 0.71,
+          "fair_odds": 1.41
         }
       ],
       "data": {
@@ -349,9 +375,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261113",
           "espn_match": "Germany at Serbia",
           "decimal": {
-            "home": 8.5,
-            "draw": 5.75,
-            "away": 1.26
+            "home": 9.5,
+            "draw": 6,
+            "away": 1.22
           },
           "opening": {
             "home": 7.5,
@@ -359,17 +385,17 @@
             "away": 1.27
           },
           "p_devig": {
-            "home": 0.109,
-            "draw": 0.161,
-            "away": 0.731
+            "home": 0.097,
+            "draw": 0.153,
+            "away": 0.751
           },
           "total": 3.5
         },
         "move_24h": {
           "side": "away",
-          "from": 0.765,
-          "to": 0.765,
-          "relative_change": 0
+          "from": 0.775,
+          "to": 0.785,
+          "relative_change": 0.013
         },
         "rating": {
           "model": "World Football Elo (eloratings.net)",
@@ -384,7 +410,12 @@
           },
           "expected_score_home": 0.344
         },
-        "fetched_at": "2026-11-13T06:52:33.112Z"
+        "fetched_at": "2026-11-13T18:06:17.604Z"
+      },
+      "morning_p_market": {
+        "home": 0.0865,
+        "draw": 0.147,
+        "away": 0.7665
       }
     },
     {
@@ -397,45 +428,45 @@
       "start": "2026-11-13T19:45:00.000Z",
       "coverage": 1,
       "p_market": {
-        "home": 0.7135,
-        "draw": 0.193,
-        "away": 0.0936
+        "home": 0.7365,
+        "draw": 0.1771,
+        "away": 0.0864
       },
       "legs_in_range": [
         {
           "key": "home",
           "label": "Match winner",
           "selection": "Slovakia",
-          "p_market": 0.7135,
-          "fair_odds": 1.4
-        },
-        {
-          "key": "ah_away_+1.5",
-          "label": "Handicap",
-          "selection": "Faroe Islands +1.5",
-          "p_market": 0.545,
-          "fair_odds": 1.83
+          "p_market": 0.7365,
+          "fair_odds": 1.36
         },
         {
           "key": "ah_away_+2.5",
           "label": "Handicap",
           "selection": "Faroe Islands +2.5",
-          "p_market": 0.765,
-          "fair_odds": 1.31
+          "p_market": 0.745,
+          "fair_odds": 1.34
         },
         {
           "key": "ou_1.5_over",
           "label": "Total goals",
           "selection": "Over 1.5",
-          "p_market": 0.765,
-          "fair_odds": 1.31
+          "p_market": 0.775,
+          "fair_odds": 1.29
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.535,
+          "fair_odds": 1.87
         },
         {
           "key": "ou_3.5_under",
           "label": "Total goals",
           "selection": "Under 3.5",
-          "p_market": 0.715,
-          "fair_odds": 1.4
+          "p_market": 0.695,
+          "fair_odds": 1.44
         },
         {
           "key": "btts_no",
@@ -443,6 +474,20 @@
           "selection": "No",
           "p_market": 0.565,
           "fair_odds": 1.77
+        },
+        {
+          "key": "tt_home_1.5_over",
+          "label": "Slovakia goals",
+          "selection": "Over 1.5",
+          "p_market": 0.635,
+          "fair_odds": 1.57
+        },
+        {
+          "key": "tt_home_2.5_under",
+          "label": "Slovakia goals",
+          "selection": "Under 2.5",
+          "p_market": 0.635,
+          "fair_odds": 1.57
         }
       ],
       "data": {
@@ -451,8 +496,8 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261113",
           "espn_match": "Faroe Islands at Slovakia",
           "decimal": {
-            "home": 1.34,
-            "draw": 4.6,
+            "home": 1.32,
+            "draw": 4.9,
             "away": 8.5
           },
           "opening": {
@@ -461,8 +506,8 @@
             "away": 8
           },
           "p_devig": {
-            "home": 0.689,
-            "draw": 0.202,
+            "home": 0.702,
+            "draw": 0.189,
             "away": 0.109
           },
           "total": 2.5
@@ -470,8 +515,8 @@
         "move_24h": {
           "side": "home",
           "from": 0.715,
-          "to": 0.715,
-          "relative_change": 0
+          "to": 0.735,
+          "relative_change": 0.028
         },
         "rating": {
           "model": "World Football Elo (eloratings.net)",
@@ -486,7 +531,12 @@
           },
           "expected_score_home": 0.9
         },
-        "fetched_at": "2026-11-13T06:52:33.515Z"
+        "fetched_at": "2026-11-13T18:06:17.898Z"
+      },
+      "morning_p_market": {
+        "home": 0.7135,
+        "draw": 0.193,
+        "away": 0.0936
       }
     },
     {
@@ -515,9 +565,9 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.62,
+          "from": 0.695,
           "to": 0.705,
-          "relative_change": 0.137
+          "relative_change": 0.014
         },
         "rating": {
           "model": "Tennis Abstract Elo",
@@ -538,7 +588,12 @@
             "blend_hard": 0.574
           }
         },
-        "fetched_at": "2026-11-13T06:52:33.619Z"
+        "fetched_at": "2026-11-13T18:06:18.151Z"
+      },
+      "morning_p_market": {
+        "home": 0.705,
+        "draw": 0,
+        "away": 0.295
       }
     },
     {
@@ -633,9 +688,9 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.63,
-          "to": 0.645,
-          "relative_change": 0.024
+          "from": 0.625,
+          "to": 0.655,
+          "relative_change": 0.048
         },
         "rating": {
           "model": "Tennis Abstract Elo",
@@ -656,7 +711,7 @@
             "blend_hard": 0.705
           }
         },
-        "fetched_at": "2026-11-13T06:52:33.714Z"
+        "fetched_at": "2026-11-13T18:06:18.151Z"
       }
     },
     {
@@ -669,108 +724,108 @@
       "start": "2026-11-13T19:45:00.000Z",
       "coverage": 1,
       "p_market": {
-        "home": 0.6234,
-        "draw": 0.2132,
-        "away": 0.1634
+        "home": 0.6266,
+        "draw": 0.2068,
+        "away": 0.1666
       },
       "legs_in_range": [
         {
           "key": "home",
           "label": "Match winner",
           "selection": "Netherlands",
-          "p_market": 0.6234,
+          "p_market": 0.6266,
           "fair_odds": 1.6
         },
         {
           "key": "home_draw",
           "label": "Double chance",
           "selection": "Netherlands or Draw",
-          "p_market": 0.8366,
+          "p_market": 0.8334,
           "fair_odds": 1.2
         },
         {
           "key": "home_dnb",
           "label": "Draw no bet",
           "selection": "Netherlands",
-          "p_market": 0.8366,
-          "fair_odds": 1.26
+          "p_market": 0.8334,
+          "fair_odds": 1.27
         },
         {
           "key": "ah_away_+1.5",
           "label": "Handicap",
           "selection": "Greece +1.5",
-          "p_market": 0.625,
-          "fair_odds": 1.6
+          "p_market": 0.605,
+          "fair_odds": 1.65
         },
         {
           "key": "ah_away_+2.5",
           "label": "Handicap",
           "selection": "Greece +2.5",
-          "p_market": 0.815,
-          "fair_odds": 1.23
+          "p_market": 0.795,
+          "fair_odds": 1.26
         },
         {
           "key": "ou_1.5_over",
           "label": "Total goals",
           "selection": "Over 1.5",
-          "p_market": 0.815,
-          "fair_odds": 1.23
+          "p_market": 0.845,
+          "fair_odds": 1.18
         },
         {
           "key": "ou_2.5_over",
           "label": "Total goals",
           "selection": "Over 2.5",
-          "p_market": 0.595,
-          "fair_odds": 1.68
+          "p_market": 0.635,
+          "fair_odds": 1.57
         },
         {
           "key": "ou_3.5_under",
           "label": "Total goals",
           "selection": "Under 3.5",
-          "p_market": 0.625,
-          "fair_odds": 1.6
+          "p_market": 0.595,
+          "fair_odds": 1.68
         },
         {
           "key": "ou_4.5_under",
           "label": "Total goals",
           "selection": "Under 4.5",
-          "p_market": 0.805,
-          "fair_odds": 1.24
+          "p_market": 0.775,
+          "fair_odds": 1.29
         },
         {
           "key": "btts_yes",
           "label": "Both teams to score",
           "selection": "Yes",
-          "p_market": 0.565,
-          "fair_odds": 1.77
+          "p_market": 0.6,
+          "fair_odds": 1.67
         },
         {
           "key": "tt_home_1.5_over",
           "label": "Netherlands goals",
           "selection": "Over 1.5",
-          "p_market": 0.62,
-          "fair_odds": 1.61
+          "p_market": 0.65,
+          "fair_odds": 1.54
         },
         {
           "key": "tt_home_2.5_under",
           "label": "Netherlands goals",
           "selection": "Under 2.5",
-          "p_market": 0.675,
-          "fair_odds": 1.48
+          "p_market": 0.625,
+          "fair_odds": 1.6
         },
         {
           "key": "tt_away_0.5_over",
           "label": "Greece goals",
           "selection": "Over 0.5",
-          "p_market": 0.635,
-          "fair_odds": 1.57
+          "p_market": 0.665,
+          "fair_odds": 1.5
         },
         {
           "key": "tt_away_1.5_under",
           "label": "Greece goals",
           "selection": "Under 1.5",
-          "p_market": 0.745,
-          "fair_odds": 1.34
+          "p_market": 0.71,
+          "fair_odds": 1.41
         }
       ],
       "data": {
@@ -779,9 +834,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261113",
           "espn_match": "Greece at Netherlands",
           "decimal": {
-            "home": 1.56,
-            "draw": 4.1,
-            "away": 5
+            "home": 1.5,
+            "draw": 4.4,
+            "away": 5.25
           },
           "opening": {
             "home": 1.38,
@@ -789,17 +844,17 @@
             "away": 6
           },
           "p_devig": {
-            "home": 0.592,
-            "draw": 0.224,
-            "away": 0.184
+            "home": 0.615,
+            "draw": 0.21,
+            "away": 0.176
           },
-          "total": 2.5
+          "total": 3.5
         },
         "move_24h": {
           "side": "home",
-          "from": 0.635,
+          "from": 0.625,
           "to": 0.625,
-          "relative_change": -0.016
+          "relative_change": 0
         },
         "rating": {
           "model": "World Football Elo (eloratings.net)",
@@ -814,7 +869,12 @@
           },
           "expected_score_home": 0.826
         },
-        "fetched_at": "2026-11-13T06:52:33.797Z"
+        "fetched_at": "2026-11-13T18:06:17.754Z"
+      },
+      "morning_p_market": {
+        "home": 0.6234,
+        "draw": 0.2132,
+        "away": 0.1634
       }
     },
     {
@@ -888,9 +948,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261113",
           "espn_match": "Gibraltar at Andorra",
           "decimal": {
-            "home": 1.67,
-            "draw": 3.2,
-            "away": 6
+            "home": 1.63,
+            "draw": 3.15,
+            "away": 6.5
           },
           "opening": {
             "home": 1.8,
@@ -898,17 +958,17 @@
             "away": 5
           },
           "p_devig": {
-            "home": 0.556,
-            "draw": 0.29,
-            "away": 0.154
+            "home": 0.566,
+            "draw": 0.292,
+            "away": 0.142
           },
           "total": 1.5
         },
         "move_24h": {
           "side": "home",
-          "from": 0.535,
-          "to": 0.575,
-          "relative_change": 0.075
+          "from": 0.545,
+          "to": 0.595,
+          "relative_change": 0.092
         },
         "rating": {
           "model": "World Football Elo (eloratings.net)",
@@ -923,7 +983,7 @@
           },
           "expected_score_home": 0.666
         },
-        "fetched_at": "2026-11-13T06:52:33.816Z"
+        "fetched_at": "2026-11-13T18:06:18.398Z"
       }
     },
     {
@@ -969,8 +1029,8 @@
       "start": "2026-11-13T19:45:00.000Z",
       "coverage": 1,
       "p_market": {
-        "home": 0.1635,
-        "draw": 0.2832,
+        "home": 0.1535,
+        "draw": 0.2932,
         "away": 0.5533
       },
       "legs_in_range": [
@@ -985,57 +1045,71 @@
           "key": "away_draw",
           "label": "Double chance",
           "selection": "Switzerland or Draw",
-          "p_market": 0.8365,
-          "fair_odds": 1.2
+          "p_market": 0.8465,
+          "fair_odds": 1.18
         },
         {
           "key": "away_dnb",
           "label": "Draw no bet",
           "selection": "Switzerland",
-          "p_market": 0.8365,
-          "fair_odds": 1.3
+          "p_market": 0.8465,
+          "fair_odds": 1.28
         },
         {
           "key": "ah_home_+1.5",
           "label": "Handicap",
           "selection": "Slovenia +1.5",
-          "p_market": 0.715,
-          "fair_odds": 1.4
+          "p_market": 0.735,
+          "fair_odds": 1.36
         },
         {
           "key": "ou_1.5_over",
           "label": "Total goals",
           "selection": "Over 1.5",
-          "p_market": 0.64,
-          "fair_odds": 1.56
+          "p_market": 0.625,
+          "fair_odds": 1.6
         },
         {
           "key": "ou_2.5_under",
           "label": "Total goals",
           "selection": "Under 2.5",
-          "p_market": 0.625,
-          "fair_odds": 1.6
+          "p_market": 0.655,
+          "fair_odds": 1.53
         },
         {
           "key": "ou_3.5_under",
           "label": "Total goals",
           "selection": "Under 3.5",
-          "p_market": 0.825,
-          "fair_odds": 1.21
+          "p_market": 0.835,
+          "fair_odds": 1.2
         },
         {
           "key": "btts_no",
           "label": "Both teams to score",
           "selection": "No",
-          "p_market": 0.59,
-          "fair_odds": 1.69
+          "p_market": 0.605,
+          "fair_odds": 1.65
+        },
+        {
+          "key": "tt_away_0.5_over",
+          "label": "Switzerland goals",
+          "selection": "Over 0.5",
+          "p_market": 0.77,
+          "fair_odds": 1.3
         },
         {
           "key": "tt_away_1.5_under",
           "label": "Switzerland goals",
           "selection": "Under 1.5",
-          "p_market": 0.56,
-          "fair_odds": 1.79
+          "p_market": 0.565,
+          "fair_odds": 1.77
+        },
+        {
+          "key": "tt_away_2.5_under",
+          "label": "Switzerland goals",
+          "selection": "Under 2.5",
+          "p_market": 0.805,
+          "fair_odds": 1.24
         }
       ],
       "data": {
@@ -1045,8 +1119,8 @@
           "espn_match": "Switzerland at Slovenia",
           "decimal": {
             "home": 5.25,
-            "draw": 3.25,
-            "away": 1.71
+            "draw": 3.15,
+            "away": 1.74
           },
           "opening": {
             "home": 5,
@@ -1055,10 +1129,10 @@
           },
           "p_devig": {
             "home": 0.176,
-            "draw": 0.285,
-            "away": 0.539
+            "draw": 0.293,
+            "away": 0.531
           },
-          "total": 2.5
+          "total": 1.5
         },
         "move_24h": {
           "side": "away",
@@ -1079,7 +1153,12 @@
           },
           "expected_score_home": 0.288
         },
-        "fetched_at": "2026-11-13T06:52:33.988Z"
+        "fetched_at": "2026-11-13T18:06:18.357Z"
+      },
+      "morning_p_market": {
+        "home": 0.1635,
+        "draw": 0.2832,
+        "away": 0.5533
       }
     },
     {
@@ -1108,11 +1187,11 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.53,
-          "to": 0.54,
-          "relative_change": 0.019
+          "from": 0.555,
+          "to": 0.555,
+          "relative_change": 0
         },
-        "fetched_at": "2026-11-13T06:52:34.005Z"
+        "fetched_at": "2026-11-13T18:06:18.360Z"
       }
     },
     {
@@ -1186,9 +1265,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261113",
           "espn_match": "Iceland at Bulgaria",
           "decimal": {
-            "home": 4.3,
-            "draw": 3.45,
-            "away": 1.77
+            "home": 4.7,
+            "draw": 3.55,
+            "away": 1.71
           },
           "opening": {
             "home": 4,
@@ -1196,17 +1275,17 @@
             "away": 1.83
           },
           "p_devig": {
-            "home": 0.214,
-            "draw": 0.267,
-            "away": 0.52
+            "home": 0.197,
+            "draw": 0.261,
+            "away": 0.541
           },
           "total": 2.5
         },
         "move_24h": {
           "side": "away",
           "from": 0.525,
-          "to": 0.535,
-          "relative_change": 0.019
+          "to": 0.555,
+          "relative_change": 0.057
         },
         "rating": {
           "model": "World Football Elo (eloratings.net)",
@@ -1221,7 +1300,7 @@
           },
           "expected_score_home": 0.433
         },
-        "fetched_at": "2026-11-13T06:52:34.001Z"
+        "fetched_at": "2026-11-13T18:06:18.369Z"
       }
     },
     {
@@ -1304,7 +1383,7 @@
           "decimal": {
             "home": 2.4,
             "draw": 3,
-            "away": 3.05
+            "away": 3
           },
           "opening": {
             "home": 2.05,
@@ -1312,17 +1391,17 @@
             "away": 3.5
           },
           "p_devig": {
-            "home": 0.387,
-            "draw": 0.309,
-            "away": 0.304
+            "home": 0.385,
+            "draw": 0.308,
+            "away": 0.308
           },
-          "total": 1.5
+          "total": 2.5
         },
         "move_24h": {
           "side": "home",
-          "from": 0.445,
-          "to": 0.405,
-          "relative_change": -0.09
+          "from": 0.405,
+          "to": 0.375,
+          "relative_change": -0.074
         },
         "rating": {
           "model": "World Football Elo (eloratings.net)",
@@ -1337,7 +1416,7 @@
           },
           "expected_score_home": 0.609
         },
-        "fetched_at": "2026-11-13T06:52:34.070Z"
+        "fetched_at": "2026-11-13T18:06:18.581Z"
       }
     }
   ]
