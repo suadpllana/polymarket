@@ -39,6 +39,12 @@ const LEG_COUNTS = [
 
 /** The team or player a leg backs, or null for Yes/Over/correct-score style picks. */
 function backedTeam(leg) {
+  // A correct score backs the side it has winning: "2:0" in Spirit vs FUT is a pick on Spirit.
+  if (/correct score/i.test(leg.market)) {
+    const m = /^(\d+)\s*[:-]\s*(\d+)$/.exec(leg.selection.trim());
+    if (!m || m[1] === m[2]) return null;
+    return Number(m[1]) > Number(m[2]) ? leg.home : leg.away;
+  }
   if (!/winner|1x2|match result|draw no bet|double chance|handicap/i.test(leg.market)) return null;
   const name = leg.selection
     .replace(/\s+or\s+draw$|^draw\s+or\s+/i, '')
@@ -119,9 +125,10 @@ export function computeStats(bets) {
       .filter((t) => t.won + t.lost >= 2 && t.won > t.lost)
       .sort((a, b) => b.won - b.lost - (a.won - a.lost) || b.won - a.won)
       .slice(0, 8),
+    // Most lost picks first, among teams that lost you at least as often as they won.
     worstTeams: teamList
       .filter((t) => t.lost >= t.won)
-      .sort((a, b) => b.lost - b.won - (a.lost - a.won) || b.lost - a.lost)
+      .sort((a, b) => b.lost - a.lost || a.won - b.won)
       .slice(0, 8),
     pickTypes: decided(picks)
       .filter((t) => t.won + t.lost >= 3)

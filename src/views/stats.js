@@ -109,8 +109,8 @@ export function renderStats(root, ctx) {
     </section>
 
     <section class="grid-2">
-      ${recordList('Teams you predicted best', 'Picks on that team or player to win, across all your bets.', s.bestTeams)}
-      ${recordList('Teams that let you down', 'Where your pick lost as often as it won, or more.', s.worstTeams)}
+      ${recordList('Teams you predicted best', 'Picks on that team or player, across all your bets.', s.bestTeams)}
+      ${recordList('Teams that let you down', 'Most lost picks first. Correct-score picks count for the team they had winning.', s.worstTeams)}
     </section>
 
     <section class="grid-2">
