@@ -1,0 +1,927 @@
+{
+  "date": "2026-11-14",
+  "window": {
+    "start": "2026-11-14T08:00:00.000Z",
+    "end": "2026-11-14T22:00:00.000Z"
+  },
+  "games_in_window": 40,
+  "games": [
+    {
+      "id": "1294222",
+      "league": "Nations League",
+      "sport": "football",
+      "event": "Norway vs. Wales",
+      "home": "Norway",
+      "away": "Wales",
+      "start": "2026-11-14T17:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.7936,
+        "draw": 0.1329,
+        "away": 0.0735
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Norway",
+          "p_market": 0.7936,
+          "fair_odds": 1.26
+        },
+        {
+          "key": "ah_home_-1.5",
+          "label": "Handicap",
+          "selection": "Norway -1.5",
+          "p_market": 0.585,
+          "fair_odds": 1.71
+        },
+        {
+          "key": "ah_away_+2.5",
+          "label": "Handicap",
+          "selection": "Wales +2.5",
+          "p_market": 0.625,
+          "fair_odds": 1.6
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.695,
+          "fair_odds": 1.44
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.72,
+          "fair_odds": 1.39
+        },
+        {
+          "key": "tt_home_1.5_over",
+          "label": "Norway goals",
+          "selection": "Over 1.5",
+          "p_market": 0.77,
+          "fair_odds": 1.3
+        },
+        {
+          "key": "tt_home_2.5_over",
+          "label": "Norway goals",
+          "selection": "Over 2.5",
+          "p_market": 0.53,
+          "fair_odds": 1.89
+        },
+        {
+          "key": "tt_away_0.5_over",
+          "label": "Wales goals",
+          "selection": "Over 0.5",
+          "p_market": 0.53,
+          "fair_odds": 1.89
+        }
+      ],
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261114",
+          "espn_match": "Wales at Norway",
+          "decimal": {
+            "home": 1.21,
+            "draw": 6.5,
+            "away": 10
+          },
+          "opening": {
+            "home": 1.22,
+            "draw": 5.75,
+            "away": 8.5
+          },
+          "p_devig": {
+            "home": 0.765,
+            "draw": 0.142,
+            "away": 0.093
+          },
+          "total": 3.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.795,
+          "to": 0.795,
+          "relative_change": 0
+        },
+        "rating": {
+          "model": "World Football Elo (eloratings.net)",
+          "source": "https://www.eloratings.net/",
+          "home": {
+            "name": "Norway",
+            "elo": 1901
+          },
+          "away": {
+            "name": "Wales",
+            "elo": 1681
+          },
+          "expected_score_home": 0.863
+        },
+        "fetched_at": "2026-11-13T21:50:17.231Z"
+      }
+    },
+    {
+      "id": "1367379",
+      "league": "UFC",
+      "sport": "mma",
+      "event": "UFC 334: Alatengheili vs. Juan Diaz (Bantamweight, Early Prelims)",
+      "home": "Alatengheili",
+      "away": "Juan Diaz",
+      "start": "2026-11-14T22:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.225,
+        "draw": 0,
+        "away": 0.775
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Juan Diaz",
+          "p_market": 0.775,
+          "fair_odds": 1.29
+        }
+      ],
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.785,
+          "to": 0.775,
+          "relative_change": -0.013
+        },
+        "fetched_at": "2026-11-13T21:50:17.170Z"
+      }
+    },
+    {
+      "id": "1291100",
+      "league": "UFC",
+      "sport": "mma",
+      "event": "UFC 334: Jared Gordon vs. Melquizael Costa (Lightweight, Early Prelims)",
+      "home": "Jared Gordon",
+      "away": "Melquizael Costa",
+      "start": "2026-11-14T22:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.235,
+        "draw": 0,
+        "away": 0.765
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Melquizael Costa",
+          "p_market": 0.765,
+          "fair_odds": 1.31
+        }
+      ],
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.765,
+          "to": 0.765,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-13T21:50:17.448Z"
+      }
+    },
+    {
+      "id": "1212287",
+      "league": "NHL",
+      "sport": "ice_hockey",
+      "event": "Kraken vs. Hurricanes",
+      "home": "Kraken",
+      "away": "Hurricanes",
+      "start": "2026-11-14T18:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.245,
+        "draw": 0,
+        "away": 0.755
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "Hurricanes",
+          "p_market": 0.755,
+          "fair_odds": 1.32
+        }
+      ],
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261114",
+          "espn_match": "Seattle Kraken at Carolina Hurricanes",
+          "decimal": {
+            "home": 3.7,
+            "draw": null,
+            "away": 1.29
+          },
+          "opening": {
+            "home": 3.6,
+            "draw": null,
+            "away": 1.31
+          },
+          "p_devig": {
+            "home": 0.259,
+            "draw": 0,
+            "away": 0.741
+          },
+          "total": 6.5
+        },
+        "move_24h": {
+          "side": "away",
+          "from": 0.765,
+          "to": 0.755,
+          "relative_change": -0.013
+        },
+        "fetched_at": "2026-11-13T21:50:17.428Z"
+      }
+    },
+    {
+      "id": "1291097",
+      "league": "UFC",
+      "sport": "mma",
+      "event": "UFC 334: Macy Chiasson vs. Bia Mesquita (Women's Bantamweight, Early Prelims)",
+      "home": "Macy Chiasson",
+      "away": "Bia Mesquita",
+      "start": "2026-11-14T22:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.295,
+        "draw": 0,
+        "away": 0.705
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Bia Mesquita",
+          "p_market": 0.705,
+          "fair_odds": 1.42
+        }
+      ],
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.705,
+          "to": 0.705,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-13T21:50:17.641Z"
+      }
+    },
+    {
+      "id": "1291086",
+      "league": "UFC",
+      "sport": "mma",
+      "event": "UFC 334: Josh Hokit vs. Ciryl Gane (Heavyweight, Main Card)",
+      "home": "Josh Hokit",
+      "away": "Ciryl Gane",
+      "start": "2026-11-14T22:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.345,
+        "draw": 0,
+        "away": 0.655
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Ciryl Gane",
+          "p_market": 0.655,
+          "fair_odds": 1.53
+        }
+      ],
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.635,
+          "to": 0.655,
+          "relative_change": 0.031
+        },
+        "fetched_at": "2026-11-13T21:50:17.623Z"
+      }
+    },
+    {
+      "id": "1291095",
+      "league": "UFC",
+      "sport": "mma",
+      "event": "UFC 334: Jim Miller vs. Terrance McKinney (Lightweight, Prelims)",
+      "home": "Jim Miller",
+      "away": "Terrance McKinney",
+      "start": "2026-11-14T22:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.345,
+        "draw": 0,
+        "away": 0.655
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Terrance McKinney",
+          "p_market": 0.655,
+          "fair_odds": 1.53
+        }
+      ],
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.665,
+          "to": 0.655,
+          "relative_change": -0.015
+        },
+        "fetched_at": "2026-11-13T21:50:17.718Z"
+      }
+    },
+    {
+      "id": "1294227",
+      "league": "Nations League",
+      "sport": "football",
+      "event": "Portugal vs. Denmark",
+      "home": "Portugal",
+      "away": "Denmark",
+      "start": "2026-11-14T19:45:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.6466,
+        "draw": 0.1968,
+        "away": 0.1566
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Portugal",
+          "p_market": 0.6466,
+          "fair_odds": 1.55
+        },
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Portugal or Draw",
+          "p_market": 0.8434,
+          "fair_odds": 1.19
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Portugal",
+          "p_market": 0.8434,
+          "fair_odds": 1.24
+        },
+        {
+          "key": "ah_away_+1.5",
+          "label": "Handicap",
+          "selection": "Denmark +1.5",
+          "p_market": 0.585,
+          "fair_odds": 1.71
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.835,
+          "fair_odds": 1.2
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.635,
+          "fair_odds": 1.57
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.585,
+          "fair_odds": 1.71
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.77,
+          "fair_odds": 1.3
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.575,
+          "fair_odds": 1.74
+        },
+        {
+          "key": "tt_home_2.5_under",
+          "label": "Portugal goals",
+          "selection": "Under 2.5",
+          "p_market": 0.625,
+          "fair_odds": 1.6
+        },
+        {
+          "key": "tt_away_0.5_over",
+          "label": "Denmark goals",
+          "selection": "Over 0.5",
+          "p_market": 0.645,
+          "fair_odds": 1.55
+        }
+      ],
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261114",
+          "espn_match": "Denmark at Portugal",
+          "decimal": {
+            "home": 1.49,
+            "draw": 4.5,
+            "away": 5.5
+          },
+          "opening": {
+            "home": 1.45,
+            "draw": 4.4,
+            "away": 5.25
+          },
+          "p_devig": {
+            "home": 0.625,
+            "draw": 0.206,
+            "away": 0.169
+          },
+          "total": 3.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.645,
+          "to": 0.645,
+          "relative_change": 0
+        },
+        "rating": {
+          "model": "World Football Elo (eloratings.net)",
+          "source": "https://www.eloratings.net/",
+          "home": {
+            "name": "Portugal",
+            "elo": 2055
+          },
+          "away": {
+            "name": "Denmark",
+            "elo": 1861
+          },
+          "expected_score_home": 0.845
+        },
+        "fetched_at": "2026-11-13T21:50:17.719Z"
+      }
+    },
+    {
+      "id": "1291096",
+      "league": "UFC",
+      "sport": "mma",
+      "event": "UFC 334: Cesar Almeida vs. Donte Johnson (Middleweight, Prelims)",
+      "home": "Cesar Almeida",
+      "away": "Donte Johnson",
+      "start": "2026-11-14T22:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.355,
+        "draw": 0,
+        "away": 0.645
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Donte Johnson",
+          "p_market": 0.645,
+          "fair_odds": 1.55
+        }
+      ],
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.615,
+          "to": 0.645,
+          "relative_change": 0.049
+        },
+        "fetched_at": "2026-11-13T21:50:17.915Z"
+      }
+    },
+    {
+      "id": "1294242",
+      "league": "Nations League",
+      "sport": "football",
+      "event": "Sweden vs. Bosnia and Herzegovina",
+      "home": "Sweden",
+      "away": "Bosnia and Herzegovina",
+      "start": "2026-11-14T19:45:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.6334,
+        "draw": 0.2132,
+        "away": 0.1534
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Sweden",
+          "p_market": 0.6334,
+          "fair_odds": 1.58
+        },
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Sweden or Draw",
+          "p_market": 0.8466,
+          "fair_odds": 1.18
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Sweden",
+          "p_market": 0.8466,
+          "fair_odds": 1.24
+        },
+        {
+          "key": "ah_away_+1.5",
+          "label": "Handicap",
+          "selection": "Bosnia and Herzegovina +1.5",
+          "p_market": 0.605,
+          "fair_odds": 1.65
+        },
+        {
+          "key": "ah_away_+2.5",
+          "label": "Handicap",
+          "selection": "Bosnia and Herzegovina +2.5",
+          "p_market": 0.79,
+          "fair_odds": 1.27
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.82,
+          "fair_odds": 1.22
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.615,
+          "fair_odds": 1.63
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.62,
+          "fair_odds": 1.61
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.8,
+          "fair_odds": 1.25
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.555,
+          "fair_odds": 1.8
+        }
+      ],
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261114",
+          "espn_match": "Bosnia-Herzegovina at Sweden",
+          "decimal": {
+            "home": 1.5,
+            "draw": 4.1,
+            "away": 5.75
+          },
+          "opening": {
+            "home": 1.49,
+            "draw": 4,
+            "away": 5.5
+          },
+          "p_devig": {
+            "home": 0.615,
+            "draw": 0.225,
+            "away": 0.16
+          },
+          "total": 2.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.625,
+          "to": 0.635,
+          "relative_change": 0.016
+        },
+        "rating": {
+          "model": "World Football Elo (eloratings.net)",
+          "source": "https://www.eloratings.net/",
+          "home": {
+            "name": "Sweden",
+            "elo": 1774
+          },
+          "away": {
+            "name": "Bosnia and Herzegovina",
+            "elo": 1672
+          },
+          "expected_score_home": 0.762
+        },
+        "fetched_at": "2026-11-13T21:50:17.927Z"
+      }
+    },
+    {
+      "id": "1345375",
+      "league": "League of Legends",
+      "sport": "esports",
+      "event": "LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs",
+      "home": "Bilibili Gaming",
+      "away": "Gen.G",
+      "start": "2026-11-14T19:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.375,
+        "draw": 0,
+        "away": 0.625
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Gen.G",
+          "p_market": 0.625,
+          "fair_odds": 1.6
+        }
+      ],
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.625,
+          "to": 0.625,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-13T21:50:17.958Z"
+      }
+    },
+    {
+      "id": "1291094",
+      "league": "UFC",
+      "sport": "mma",
+      "event": "UFC 334: Drew Dober vs. Chris Duncan (Lightweight, Prelims)",
+      "home": "Drew Dober",
+      "away": "Chris Duncan",
+      "start": "2026-11-14T22:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.375,
+        "draw": 0,
+        "away": 0.625
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Chris Duncan",
+          "p_market": 0.625,
+          "fair_odds": 1.6
+        }
+      ],
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.625,
+          "to": 0.625,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-13T21:50:17.918Z"
+      }
+    },
+    {
+      "id": "1291087",
+      "league": "UFC",
+      "sport": "mma",
+      "event": "UFC 334: Amanda Nunes vs. Kayla Harrison (Women's Bantamweight, Main Card)",
+      "home": "Amanda Nunes",
+      "away": "Kayla Harrison",
+      "start": "2026-11-14T22:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.385,
+        "draw": 0,
+        "away": 0.615
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Kayla Harrison",
+          "p_market": 0.615,
+          "fair_odds": 1.63
+        }
+      ],
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.615,
+          "to": 0.615,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-13T21:50:18.166Z"
+      }
+    },
+    {
+      "id": "1291091",
+      "league": "UFC",
+      "sport": "mma",
+      "event": "UFC 334: Kevin Holland vs. Uroš Medic (Welterweight, Main Card)",
+      "home": "Kevin Holland",
+      "away": "Uroš Medic",
+      "start": "2026-11-14T22:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.395,
+        "draw": 0,
+        "away": 0.605
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Uroš Medic",
+          "p_market": 0.605,
+          "fair_odds": 1.65
+        }
+      ],
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.595,
+          "to": 0.605,
+          "relative_change": 0.017
+        },
+        "fetched_at": "2026-11-13T21:50:18.162Z"
+      }
+    },
+    {
+      "id": "1294232",
+      "league": "Nations League",
+      "sport": "football",
+      "event": "Austria vs. Republic of Ireland",
+      "home": "Austria",
+      "away": "Republic of Ireland",
+      "start": "2026-11-14T19:45:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.6034,
+        "draw": 0.2332,
+        "away": 0.1634
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Austria",
+          "p_market": 0.6034,
+          "fair_odds": 1.66
+        },
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Austria or Draw",
+          "p_market": 0.8366,
+          "fair_odds": 1.2
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Austria",
+          "p_market": 0.8366,
+          "fair_odds": 1.27
+        },
+        {
+          "key": "ah_away_+1.5",
+          "label": "Handicap",
+          "selection": "Republic of Ireland +1.5",
+          "p_market": 0.65,
+          "fair_odds": 1.54
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.77,
+          "fair_odds": 1.3
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.535,
+          "fair_odds": 1.87
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.695,
+          "fair_odds": 1.44
+        }
+      ],
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261114",
+          "espn_match": "Republic of Ireland at Austria",
+          "decimal": {
+            "home": 1.56,
+            "draw": 4,
+            "away": 5.25
+          },
+          "opening": {
+            "home": 1.56,
+            "draw": 3.85,
+            "away": 5
+          },
+          "p_devig": {
+            "home": 0.593,
+            "draw": 0.231,
+            "away": 0.176
+          },
+          "total": 2.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.615,
+          "to": 0.605,
+          "relative_change": -0.016
+        },
+        "fetched_at": "2026-11-13T21:50:18.184Z"
+      }
+    },
+    {
+      "id": "1212288",
+      "league": "NHL",
+      "sport": "ice_hockey",
+      "event": "Jets vs. Blackhawks",
+      "home": "Jets",
+      "away": "Blackhawks",
+      "start": "2026-11-14T20:30:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.595,
+        "draw": 0,
+        "away": 0.405
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Jets",
+          "p_market": 0.595,
+          "fair_odds": 1.68
+        }
+      ],
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261114",
+          "espn_match": "Winnipeg Jets at Chicago Blackhawks",
+          "decimal": {
+            "home": 1.65,
+            "draw": null,
+            "away": 2.3
+          },
+          "opening": {
+            "home": 1.68,
+            "draw": null,
+            "away": 2.24
+          },
+          "p_devig": {
+            "home": 0.583,
+            "draw": 0,
+            "away": 0.417
+          },
+          "total": 6.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.58,
+          "to": 0.595,
+          "relative_change": 0.026
+        },
+        "fetched_at": "2026-11-13T21:50:18.195Z"
+      }
+    }
+  ]
+}
