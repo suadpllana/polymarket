@@ -333,3 +333,10 @@ h2 { font-size: 16px; font-weight: 700; }
   .tiles--simple { grid-template-columns: repeat(2, 1fr); }
 }
 .stats-body { display: grid; gap: 16px; }
+.rec { list-style: none; margin: 0; padding: 0; display: grid; }
+.rec__row { display: grid; grid-template-columns: minmax(0, 1fr) 70px auto; gap: 12px; align-items: center; padding: 9px 0; border-bottom: 1px solid var(--line); font-size: 14px; }
+.rec__row:last-child { border-bottom: 0; }
+.rec__name { font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.rec__bar { height: 6px; border-radius: 3px; background: var(--red); overflow: hidden; }
+.rec__bar span { display: block; height: 100%; background: var(--green); }
+.rec__score { color: var(--muted); font-size: 13px; white-space: nowrap; min-width: 118px; text-align: right; }

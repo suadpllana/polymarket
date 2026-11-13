@@ -29,6 +29,26 @@ function breakdown(title, rows) {
   </div>`;
 }
 
+const PICK_LABEL = { 'Win (1x2)': 'Team to win', 'Win (2-up)': 'Team to win (2-up)', 'Goals over/under': 'Goals over / under', 'Other sports': 'Tennis, basketball, NFL winner' };
+
+/** Won and lost picks per row, with a small bar showing the split. */
+function recordList(title, sub, rows) {
+  return `<div class="card">
+    <h2>${esc(title)}</h2>
+    <p class="card__sub">${esc(sub)}</p>
+    ${
+      rows.length
+        ? `<ul class="rec">${rows
+            .map((r) => {
+              const share = r.won / (r.won + r.lost);
+              return `<li class="rec__row"><span class="rec__name">${esc(PICK_LABEL[r.label] || r.label)}</span><span class="rec__bar" aria-hidden="true"><span style="width:${share * 100}%"></span></span><span class="rec__score"><strong class="good">${r.won}</strong> won · <strong class="${r.lost ? 'bad' : ''}">${r.lost}</strong> lost</span></li>`;
+            })
+            .join('')}</ul>`
+        : '<p class="muted small">Not enough bets yet.</p>'
+    }
+  </div>`;
+}
+
 /** Up to three plain sentences: the best group, the worst group, and cash-outs. */
 function takeaways(s) {
   const groups = [...SPORTS.map((k) => s.bySport[k]), ...s.byLegs].filter((g) => g.count >= 3);
@@ -86,6 +106,15 @@ export function renderStats(root, ctx) {
     <section class="grid-2">
       ${breakdown('By sport', SPORTS.map((k) => s.bySport[k]))}
       ${breakdown('By number of legs', s.byLegs)}
+    </section>
+
+    <section class="grid-2">
+      ${recordList('Teams you predicted best', 'Picks on that team or player to win, across all your bets.', s.bestTeams)}
+      ${recordList('Teams that let you down', 'Where your pick lost as often as it won, or more.', s.worstTeams)}
+    </section>
+
+    <section class="grid-2">
+      ${recordList('Your picks by type', 'How often each kind of pick landed.', s.pickTypes)}
     </section>`;
 
   // Running profit, one point per day from the first bet to the last.
