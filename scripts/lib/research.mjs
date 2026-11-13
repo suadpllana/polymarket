@@ -102,9 +102,9 @@ export async function loadResearch(date) {
       morning: g.p_market,
       shift: v.exclude ? { home: 0, draw: 0, away: 0 } : clampShift(v.p, g.p_market),
       view_shift: v.exclude ? {} : views(v, g),
-      reason: String(v.reason || '').slice(0, 700),
-      main_risk: String(v.main_risk || '').slice(0, 300),
-      checks: Object.fromEntries(Object.keys(CHECKS).map((k) => [k, String(v.checks?.[k] || '').slice(0, 400)])),
+      reason: String(v.reason || '').slice(0, 1500),
+      main_risk: String(v.main_risk || '').slice(0, 600),
+      checks: Object.fromEntries(Object.keys(CHECKS).map((k) => [k, String(v.checks?.[k] || '').slice(0, 900)])),
       sources: (Array.isArray(v.sources) ? v.sources : []).filter((s) => /^https?:\/\//.test(s)).slice(0, 15),
       prices: (Array.isArray(v.prices) ? v.prices : []).filter((p) => BOOKS.includes(p?.book) && isLegKey(p?.market) && Number(p.odds) >= 1.01),
     });

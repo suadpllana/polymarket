@@ -295,7 +295,7 @@ h2 { font-size: 16px; font-weight: 700; }
 .slip-card__note { padding: 0 16px 16px; margin: 0; }
 .slip-card__tier { margin: 0 16px 12px; padding: 8px 12px; border-left: 3px solid var(--amber); background: var(--card); border-radius: 4px; color: var(--muted); }
 
-.pick { background: var(--card); border-radius: 8px; padding: 12px; display: grid; gap: 8px; align-content: start; }
+.pick { background: var(--card); border-radius: 8px; padding: 12px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 8px; align-content: start; min-width: 0; }
 .pick__head { display: flex; gap: 10px; align-items: center; }
 .pick__n { width: 24px; height: 24px; flex: none; border-radius: 50%; background: var(--line); display: grid; place-items: center; font-weight: 800; font-size: 12px; }
 .pick__event { flex: 1; min-width: 0; font-weight: 600; }
@@ -312,7 +312,9 @@ h2 { font-size: 16px; font-weight: 700; }
 .pick__risk { color: var(--muted); }
 .pick__more summary { cursor: pointer; font-size: 13px; color: var(--muted); }
 .pick__more .pick__why { margin-top: 10px; }
-.pick__more dl { display: grid; grid-template-columns: minmax(90px, max-content) 1fr; gap: 6px 12px; font-size: 13px; margin: 10px 0; }
+/* Long web addresses in the research must wrap, not stretch the card. */
+.pick__more { min-width: 0; overflow-wrap: anywhere; }
+.pick__more dl { display: grid; grid-template-columns: minmax(90px, max-content) minmax(0, 1fr); gap: 6px 12px; font-size: 13px; margin: 10px 0; }
 .pick__more dt { color: var(--muted); font-weight: 600; }
 .pick__more dd { margin: 0; }
 .slip-none p { margin: 0; }
