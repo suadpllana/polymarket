@@ -1,0 +1,345 @@
+{
+  "date": "2026-11-13",
+  "researched_at": "2026-11-13T06:56:20Z",
+  "stage": "morning",
+  "summary": "International-break Friday: 16 candidates, all in well-covered competitions (Nations League, WTA Finals, EuroLeague, CS2). The 8 best-covered were researched first and 7 are kept at medium confidence and Panathinaikos over Barcelona at low (only three sources, no second price or model; Barcelona without Punter and Evbuomwan); the other 8 (smaller Nations League games, CS2, two EuroLeague games) were not reached. Medium: Scotland over North Macedonia (North Macedonia scoreless in 8; Scotland need the win; p 0.81), Germany in Serbia (Serbia without Vlahovic, Pavlovic, Kostic and Stankovic, near-empty stadium; Germany blunt under Klopp; p 0.75), Slovakia over Faroe Islands (Lobotka, Dubravka out; Faroes drew all four group games; p 0.70), Andreeva over Muchová (Andreeva qualified, Muchová out; dead rubber; Elo below the market; p 0.68), Sabalenka over Svitolina (winner takes the last semi-final place; h2h 6-1; p 0.67), Netherlands v Greece (Van Dijk and Brobbey out; Greece under 1.5 goals at 0.73) and Slovenia v Switzerland (a point promotes Switzerland; Slovenia +1.5 at 0.71). No high: lineups not out yet; the pre-kickoff check re-checks the slip about 100 minutes before its first game. No Stake or Rainbet prices were found; DraftKings prices via ESPN were used for every football game.",
+  "games": [
+    {
+      "id": "1287687",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.81,
+        "draw": 0.135,
+        "away": 0.055
+      },
+      "checks": {
+        "team_news": "Per TNT Sports preview (11 Nov): Scotland without Stephen Welsh (knee knock) and Scott McKenna (injured after red card in Skopje); Scott McTominay returns after a minor heart procedure; Che Adams available after a muscle strain. Sports Mole lists no injuries or suspensions. One search summary reported Welsh and Luis Binks withdrawn, but Sports Mole and TNT both list Binks in the XI, so that is unconfirmed. North Macedonia: no injuries or doubts reported; Rangers striker Bojan Miovski left out as a selection decision. I could not find the manager's pre-match press conference text.",
+        "lineups": "Not yet confirmed (about 1 hour before kickoff). TNT predicted Scotland 3-4-2-1: Gunn; Porteous, Hendry, Binks; Gannon-Doak, McGinn, Gilmour, Robertson; McTominay, Christie; McBurnie. Sports Mole predicted: Gunn; Hickey, Hendry, Binks; Doak, McGinn, Ferguson, Gilmour, Robertson; McTominay; McBurnie. North Macedonia (Sports Mole): Dimitrievski; Ilievski, Meljichi, Misliu, Alioski; Elmas, Atanasov, Mitrovski, Bardhi, Doriev; Rastoder. TNT has a 4-2-3-1 with Musliu and Mladenovski at centre-back. The two sources differ on a few Scotland names and on the North Macedonia defence.",
+        "rotation": "Scotland play North Macedonia on Fri 13 Nov, then Switzerland away on Mon 16 Nov (3 days later), so some rotation is possible. The game is a must-win for them, and the previews I read predict no heavy rotation. Nothing reported on North Macedonia's schedule or travel.",
+        "motivation": "League B Group 1: Switzerland have the group won, Slovenia second (3 points ahead of Scotland), Scotland third on 4 points, North Macedonia bottom with 0 points from 4 games and a goal difference of -10. A defeat would raise the threat of relegation to League C. Scotland need a win to chase Slovenia and avoid the drop. North Macedonia have nothing but pride to play for.",
+        "form": "Scotland (Nations League): draw at Slovenia, loss to Switzerland, win 2-0 at North Macedonia, loss 1-2 to Slovenia; only 3 goals in 4 games, and all 4 points came away from home. They have lost both home games at Hampden under Pocognoli. North Macedonia: 4 straight Nations League defeats, 5 straight defeats overall, a 12-game winless run, and no goals scored in their last 8 matches.",
+        "h2h": "Scotland lead 3 wins, 1 draw, 1 loss. The most recent meeting was a 2-0 Scotland win in Skopje on 3 Oct 2026, with 25 shots to 9 and 7 big chances to 0 (Sports Mole). Matches between the sides are rarely level.",
+        "odds": "DraftKings via ESPN (data.odds): Scotland 1.17, draw 6.5, North Macedonia 14, opening 1.20/5.5/11, de-vigged 0.792/0.142/0.066, total 2.5. The price has drifted slightly against Scotland since opening. Polymarket home 0.826 and unchanged over 24h (0.825 to 0.825, from data.move_24h). TNT Sports (11 Nov): Scotland to win to nil 1.67, under 2.5 goals 2.15, Scotland to score first 1.22. Book and market agree that the draw is about 13-14%, below the 25% cap for a straight win.",
+        "models": "World Football Elo (eloratings.net, via data.rating): Scotland 1718, North Macedonia 1533, expected score for Scotland 0.838, which counts a draw as half. This is consistent with the market.",
+        "venue_weather": "Hampden Park, Glasgow, normal home venue, 19:45 GMT kickoff. No pitch problems or extreme weather reported. TNT's preview does not mention the weather, so I did not check a forecast."
+      },
+      "reason": "The home price is short and the Elo expected score (0.838) and Polymarket (0.826) agree, while DraftKings de-vigged is lower at 0.792. North Macedonia have lost 5 in a row, scored in none of their last 8 and have the worst record in the group. Scotland are at home, must win, and beat them 2-0 away last month with a big shot advantage. Doubts keep this at medium: Scotland's own goalscoring is poor (3 goals in 4 league games), they lost both Hampden games under Pocognoli, McTominay is just back from a heart procedure, a Switzerland game follows in 3 days, and the lineup is not yet confirmed. I read no press conference text. Pocognoli's appointment date was not confirmed, but he has already taken charge of at least three Nations League games including 2 at Hampden, so the 7-day coach-change exclusion does not apply.",
+      "main_risk": "A draw, or a narrow 1-0 or 0-0 result: a low-scoring Scotland attack against a deep-defending North Macedonia side, with some rotation possible ahead of Switzerland away on Monday. The under 3.5 and North Macedonia under 0.5 goals legs carry less risk than the handicaps.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/scotland/uefa-nations-league/preview/scotland-vs-n-macedonia-prediction-team-news-lineups_608913.html",
+        "https://www.tntsports.co.uk/betting/tips/scotland-vs-north-macedonia-prediction-tips-and-odds-nations-league-13-11-26/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261113",
+        "https://www.eloratings.net/",
+        "https://www.beinsports.com/en-us/soccer/uefa-nations-league/articles/mctominay-returns-to-scotland-squad-for-nations-league-matches-2026-11-03",
+        "https://www.soccernews.com/mctominay-returns-to-scotland-squad-for-nations-league-matches/407509/"
+      ],
+      "views": {
+        "ou_3.5_under": 0.68,
+        "btts_no": 0.67,
+        "tt_away_0.5_under": 0.66,
+        "ou_1.5_over": 0.8
+      },
+      "prices": []
+    },
+    {
+      "id": "1332715",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.8,
+        "draw": 0,
+        "away": 0.2
+      },
+      "checks": {
+        "team_news": "Eurohoops Round 11 injury report (published 10 Nov 2026): Panathinaikos had sent no injury report; only listed absence is Nikos Rogkavopoulos (out since Round 5). Barcelona had also sent no report, but Eurohoops lists Kevin Punter (left ankle sprain, 3 to 6 weeks, will miss the Athens trip per Eurohoops 9 Nov), Tosan Evbuomwan (torn oblique, about 3 weeks), Yoan Makoundou (knee, has not played this season), and Umoja Gibson and Juan Nunez (both last played in Round 8, so apparently absent). No official late Panathinaikos update found; Greek press and Gazzetta.gr/Mundo Deportivo/Sport searches returned nothing current for this game. Rotowire euro pages returned were from other seasons and unusable.",
+        "lineups": "Not available: no predicted or confirmed starting fives found for either side from any source. Pre-kickoff check should confirm Panathinaikos' starters (Nunn, Lessort, Francisco, Hernangomez were prominent in recent wins).",
+        "rotation": "No double-round issue: Eurohoops shows both teams play on Friday 13 Nov (Panathinaikos v Barcelona, 20:15 CET at OAKA/Telekom Center Athens); neither played Wednesday or Thursday. Panathinaikos last played a EuroLeague game at Real Madrid on 4 Nov (115-112 OT win, Nunn 33 pts), about 9 days rest from a long OT game. Barcelona's last game was an ACB game at Breogan around 8 Nov (Punter hurt there), a travel and rotation spot for Barcelona's short bench. Next games: Barcelona has home games v Crvena Zvezda and Fenerbahce, then Real Madrid on 3 Dec; no sign Panathinaikos rests anyone.",
+        "motivation": "Panathinaikos lead the EuroLeague (8-2 in 10 games per TNT Sports table), at home, with both teams in the top 4: Barcelona 4th at 7-3. Both have a real stake in top-4 seeding; no rotation motive.",
+        "form": "Panathinaikos 8-2, won at Real Madrid 115-112 OT on 4 Nov and also a road win at Paris (101-95) earlier; one search snippet suggested a recent two-game losing streak earlier in the season, which was snapped. Barcelona 7-3 and on a 7-game winning streak (Eurohoops, 9 Nov), though that streak includes ACB games and they are now missing guards (Punter, Gibson, Nunez).",
+        "h2h": "Last season's meetings: Barcelona won 103-96 at Athens and 82-73 at home per Greek press snippets; a EuroLeague game-facts page notes Barcelona won 8 of the last 10 head-to-head meetings (older data, not verified for date). Style matchup history is unfavourable to Panathinaikos, which is the main reason p is cut below market.",
+        "odds": "No external bookmaker price found for this game (candidates file has no data.odds; searches returned only older seasons). Polymarket 24h move: Panathinaikos 0.80 to 0.815 (+1.9% relative), mild move in favour of the favourite. No Stake or Rainbet price seen. Market-only price, so confidence is capped at medium.",
+        "models": "No bookmaker-free power rating or model prediction found for this game. Only table evidence: Panathinaikos 8-2 (1st) v Barcelona 7-3 (4th) per TNT Sports; point differentials not available from a reliable source.",
+        "venue_weather": "Home game at Telekom Center Athens (OAKA), indoor; standard venue, no neutral-site or weather issue. Tip-off 19:15 UTC (20:15 CET)."
+      },
+      "reason": "Set to low on review: only three source sites, no bookmaker price besides Polymarket, no rating model and no starting fives were found. Fixture verified (Eurohoops Round 11 schedule, Friday 13 Nov). Panathinaikos are table leaders at home v a Barcelona side without Punter, Evbuomwan, Makoundou and probably Gibson and Nunez, so a home win is likely and the market 0.815 is reasonable; p is trimmed to 0.80 because of Barcelona's recent head-to-head record against Panathinaikos, 7-game winning run and the lack of any odds cross-check, lineup or Panathinaikos injury confirmation.",
+      "main_risk": "Barcelona have beaten Panathinaikos repeatedly in recent seasons (including a road win in Athens) and a short-handed Barcelona backcourt can still upset; Panathinaikos' own injury status is unconfirmed (no club report found), and no independent odds or rating source was found to validate 0.815.",
+      "sources": [
+        "https://www.eurohoops.net/en/euroleague/2033031/injury-report-round-11-partizans-vildoza-jekiri-gtd-hayes-out/",
+        "https://www.eurohoops.net/en/euroleague/2032663/kevin-punter-sidelined-for-three-weeks-with-ankle-injury/",
+        "https://www.tntsports.co.uk/basketball/euroleague/standing.shtml",
+        "https://www.eurohoops.net/en/euroleague/2030637/nunn-explodes-for-33-points-and-makes-history-panathinaikos-wins-it-against-real-after-ot-drama/",
+        "https://www.realmadrid.com/en-US/news/basket/first-team/reports/cronica-real-madrid-panathinaikos-04-11-2026"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1287707",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1287692",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.09,
+        "draw": 0.16,
+        "away": 0.75
+      },
+      "checks": {
+        "team_news": "Germany (coach Jurgen Klopp, in post since 2026, so no recent change): 24-man squad named; Bundesliga.com (10 Nov) reports no injury absentees, but the DFB preview says Waldemar Anton is out with muscular problems for Belgrade; Ridle Baku was called up as a replacement. Fuellkrug may return; Jeltsch, Gruda and Mohya (17) are debut candidates, so the squad is young and experimental. Serbia (coach Veljko Paunovic): without Vlahovic, Strahinja Pavlovic and Filip Kostic, and Aleksandar Stankovic left camp on 9 Nov with an adductor injury (Novosti). Mitrovic was also absent from the October squad. Serbia have lost all 4 Nations League games, so they have no points and face relegation to League B.",
+        "lineups": "No confirmed XIs at the time of research. Bundesliga.com (10 Nov) predicts Germany 4-3-3: ter Stegen; Brown, Schlotterbeck, Tah, Treu; Kimmich, Nmecha, Wirtz; Scherhant, Havertz, Gruda. ran.de gives different predictions (Urbig in goal, Baku/Jeltsch/Anton/Raum, Pavlovic/Janelt, Wirtz, Karl/El Mala, Burkardt), so the XI is uncertain, and one source says Kimmich and Schlotterbeck are not in the team. Serbia predicted with Jovic and Tadic in attack. Starting11 shows the page updates about an hour before kick-off.",
+        "rotation": "Germany played a 0-0 in Greece in the previous window, and the next match is the Netherlands in Berlin (a final for the group). Germany have 1W 2D 1L under Klopp, and the experimental squad makes some changes likely, but Klopp is chasing a win to keep qualification in his own hands, so no heavy rotation is confirmed. Serbia play Greece in Volos on 16 Nov. There is no big travel issue for either side.",
+        "motivation": "Group A2 (League A): Greece and the Netherlands are on 8 points each, Germany 5 and Serbia 0. Germany can still reach the group decider in Berlin, and a defeat could put them in the relegation play-off zone (dpa). Serbia must win to avoid relegation. Both sides are highly motivated. This is a heated fixture but not a derby (Germany last visited Belgrade in 1977).",
+        "form": "Germany: 1W 2D 1L in the Nations League under Klopp, with a 0-0 in Greece last time, so they are blunt in attack. All competitions per Sports Mole (as of Oct): W W L L D L. Serbia: L L in Oct, now 4 straight Nations League defeats including 1-2 vs Greece and 1-2 vs the Netherlands, and a 0-2 loss in Munich on 1 Oct (Bischof, Wirtz goals).",
+        "h2h": "Germany won 2-0 in Munich on 1 Oct 2026 (Sports Mole, Novosti). Before that, Belgrade was last visited in 1977. Klopp says the first leg 'has no value' for the second. Serbia usually lose by a goal or two against top sides, and a draw is the most likely way the favourite fails.",
+        "odds": "DraftKings via ESPN: Serbia 8.5, Draw 5.75, Germany 1.26 (opening 7.5/5.5/1.27), de-vigged 10.9/16.1/73.1, total line 3.5. Polymarket: Germany 76.65%, draw 14.7%, Serbia 8.65%; the Polymarket 24h move for Germany is flat (0.765 to 0.765). The draw at 15-16% is under the 25% limit for a straight win. The sources agree on a Germany win of about 73-77%.",
+        "models": "World Football Elo (eloratings.net): Germany 1895 vs Serbia 1683, expected score for Serbia 0.344 (counts a draw as half). This is a gap of about 210 points, and it supports Germany as a clear favourite, though less strongly than the market at about 77%.",
+        "venue_weather": "Rajko Mitic Stadium (Marakana), Belgrade, 20:45 local, which is the home ground. UEFA has banned spectators after racist fan behaviour (only children with adults and about 50 DFB fans, roughly 5,000 in total), so there is no hostile crowd. Referee: Javier Alberola Rojas (Spain). No weather or pitch problem found."
+      },
+      "reason": "Germany have a clear quality edge (Elo gap about 210, 2-0 win in Munich, Serbia lost 4 of 4 and lack Vlahovic, Pavlovic, Kostic and Stankovic), and a near-empty stadium reduces home advantage. The market and DraftKings agree at 73-77%, and the draw chance of about 16% is under the 25% limit. Confidence is capped at medium because Germany are blunt (0-0 in Greece, 1W 2D 1L under Klopp), the squad is young and experimental, Anton is reported out, the XI is unconfirmed and predictions conflict, and Serbia are desperate to avoid relegation.",
+      "main_risk": "A draw or narrow Serbian result: Germany scored few goals under Klopp (0-0 in Greece), Serbia play with high intensity and face relegation, and Klopp could experiment with a young side. Unconfirmed XI with conflicting predictions, and Anton reported out.",
+      "sources": [
+        "https://www.bundesliga.com/de/bundesliga/news/nations-league-deutschland-serbien-belgrad-klopp-39960",
+        "https://www.novosti.rs/sport/fudbal/1669947/novi-ozbiljan-udarac-paunovica-srbija-bez-jednog-najboljih-nemacku-grcku",
+        "https://www.sportsmole.co.uk/football/germany/uefa-nations-league/preview/germany-vs-serbia-prediction-team-news-lineups_605976.html",
+        "https://www.volksstimme.de/sport/fussball/uefa-bestraft-serbien-geisterspiel-fur-klopp-4337645",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261113",
+        "https://www.eloratings.net/"
+      ],
+      "views": {
+        "ou_4.5_under": 0.75,
+        "ah_home_+3.5": 0.84,
+        "ah_home_+2.5": 0.69,
+        "tt_home_1.5_under": 0.8
+      },
+      "prices": []
+    },
+    {
+      "id": "1287677",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.7,
+        "draw": 0.2,
+        "away": 0.1
+      },
+      "checks": {
+        "team_news": "Weiss (Slovakia head coach since May, so no coach-change flag) named 31 players for the last two League C3 games (Faroe Islands 13 Nov in Kosice, Kazakhstan 16 Nov). Out: Lobotka (serious injury, 6-8 weeks), Leo Sauer (muscle injury), Dubravka (meniscus, asked to be released), Obert and Vavro not in the squad (Sportnet/Pravda); Denik Sport says Vavra (Plzen) was released for fitness work. Suslov arrived not fully fit. Back: Rusnak (first call in 4 years), Bero and Rodak. Four uncapped players called up: Reis, Trusa, Nebyla, Palischak. Skriniar, Valjent, Hancko, Satka, Duda, Haraslin and Strelec are in the squad. No Faroe Islands absences were reported by Sportnet or Pravda (neither covers them). I found no Faroese press (in.fo / Portal.fo) squad news.",
+        "lineups": "No confirmed XI and no Slovak press predicted XI found. Both Sportnet and Pravda say none is given. They name Duda, Pokorny and Reis as options for Lobotka's role. Sports Mole's October preview gave Slovakia: Dubravka; Valjent, Skriniar, Obert, Hancko; Suslov, Lobotka, Duda; Sauer, Strelec, Haraslin. That XI is outdated, since Dubravka, Lobotka, Sauer and Obert are now out. Faroe predicted XI (Sports Mole, October): Lamhauge; Benjaminsen, Chukwudi, Vatnhamar, Edmundsson, Davidsen; Samuelsen, Hellisdal, Turi, Sorensen; Justinussen. Recheck before kickoff.",
+        "rotation": "Pravda: Weiss says a draw is enough to confirm promotion, but the team will play for the win, and if Slovakia win he plans to rest some key players for the Kazakhstan game on 16 Nov in Astana. That is only a risk for the next game. At home Slovakia face a Faroe side with a week's rest. For the 2 Oct away game Weiss announced rotation before kickoff (TASR) and it ended 1-1. No sign yet of heavy rotation here, but a squad with many newcomers and a thin midfield means some changes are likely. This is a soft risk.",
+        "motivation": "Group C3 after 4 games: Slovakia 10 pts (3W 1D, GD +9-2), Faroe Islands 4, Moldova 4, Kazakhstan 2. One point secures first place and promotion to League B, and a win does so outright (Pravda, Sportnet). Faroe can only catch them by winning both remaining games while Slovakia lose both. Slovakia want the win but need only a draw, which is a soft motivation cap. Faroe are unbeaten (4 draws) and have little to lose.",
+        "form": "Slovakia under Weiss: W 2-0 v Moldova, W 2-1 v Kazakhstan, D 1-1 at Faroe Islands (2 Oct, Bozenik 38', Justinussen 66'), W 4-0 v Moldova in October; 3W 1D in 4, and Sports Mole notes they lost six of their previous seven away games (this one is at home). Faroe: four draws in four group games (1-1 v Kazakhstan, 1-1 v Moldova, 1-1 v Slovakia, and one more), unbeaten. Sportnet says they lost only 1 of their last 8 home games (0-1 v Croatia). Sportnet says Slovakia strikers Bobcek, Strelec and Bozenik are in poor form or getting little playing time. xG not found.",
+        "h2h": "Latest: 1-1 at Torshavn on 2 Oct 2026 (Faroe's only dropped points to date were against Slovakia, per Pravda/Sportnet, and Slovakia drew). Before that, 1996 qualifiers: Faroes 1-2 Slovakia, and a 3-0 Slovakia home win at Tehelne pole (national-football-teams.com). Faroes play a physical, compact style and the October draw was the one result where Weiss rotated. Slovakia have never lost to the Faroes in my sources.",
+        "odds": "DraftKings via ESPN (data.odds): home 1.34, draw 4.60, away 8.50, opening 1.33/4.60/8.00, de-vigged 0.689/0.202/0.109, total 2.5 goals. Polymarket home 0.7135, draw 0.193, away 0.094, so Polymarket is slightly higher on Slovakia than DraftKings de-vig (about 2.5 points). Polymarket move over 24h: favourite price 0.715 to 0.715, no move (data.move_24h). The price is stable and the sources roughly agree, with a little room for the draw (0.19-0.20). I found no Stake or Rainbet prices.",
+        "models": "World Football Elo (eloratings.net, data.rating): Slovakia 1678 vs Faroe Islands 1397, expected score for home 0.90 (draws count half). A 281-point gap implies a win probability near 0.80 in pure Elo terms, though Slovakia's 1-1 away result and home advantage are not captured. Elo does not account for the Lobotka, Sauer and Dubravka absences. Elo is more bullish on Slovakia than the market's 0.70-0.71, but the gap in win probability is within noise given that the Faroes drew four of four.",
+        "venue_weather": "Home game at the new Kosice arena (about 12,555 seats; roughly 10,200 tickets sold by Monday), natural grass, kickoff 20:45 CET (19:45 UTC). Haraslin expects the home setting and grass to help Slovakia, as the Faroes usually play on artificial turf (Pravda). No weather forecast found. Normal venue, so no hard exclusion."
+      },
+      "reason": "Fixture verified: Slovakia v Faroe Islands, League C Group 3, matchday 5, 13 Nov 2026, 20:45 local in Kosice (19:45 UTC). No hard exclusion applies: Weiss has been in charge since May, there is no derby, and the venue is normal. The coach has not confirmed a rotated side. Slovakia are the clear favourites (Elo 1678 v 1397, market 0.69-0.71, DraftKings 1.34), top of the group and at home. However, the main absences hurt: Lobotka, Dubravka, Sauer and Obert are out, and several newcomers have been called up. The Faroes are unbeaten with four draws in four games, and drew 1-1 with Slovakia in October. Weiss needs only a draw for promotion and plans to rest key players in Astana if he wins. That leaves only a medium confidence in the home win: p is held at about the market with a draw estimate of 0.20, which is below the 25% cap for a straight win bet but not by a wide margin.",
+      "main_risk": "A draw: Faroe Islands have drawn all four group games, including 1-1 with Slovakia in October, and sit deep with a physical style. Slovakia are without Lobotka, Sauer, Dubravka and Obert, have thin strikers (poor form), a new-look midfield, and only need a point for promotion. A rotated or untested XI is possible. No confirmed XI or Faroe-side news was found.",
+      "sources": [
+        "https://sportnet.sme.sk/spravy/futbal-slovensko-faerske-ostrovy-preview-3-skupina-c-divizia-liga-narodov-2026-2027/",
+        "https://www.pravda.sk/sportweb/futbal/reprezentacia/clanok/2077673-slovensko-faerske-ostrovy-liga-narodov-postup-b-divizia-weiss-kosice",
+        "https://www.denniksport.sk/futbal/c/vladimir-weiss-nominacia-faerske-ostrovy-kazachstan-liga-narodov-2026",
+        "https://www.sportsmole.co.uk/football/faroe-islands/uefa-nations-league/preview/faroe-islands-vs-slovakia-prediction-team-news-lineups_606037.html",
+        "https://www.footballwebpages.co.uk/match/2026-2027/uefa-nations-league/faroe-islands/slovakia/585313",
+        "https://www.teraz.sk/sport/weiss-caka-fyzicky-duel-s-faercanmi/996622-clanok.html",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261113",
+        "https://www.eloratings.net/"
+      ],
+      "views": {
+        "ah_away_+1.5": 0.55,
+        "ah_away_+2.5": 0.77,
+        "ou_1.5_over": 0.76,
+        "ou_3.5_under": 0.72,
+        "btts_no": 0.58
+      },
+      "prices": []
+    },
+    {
+      "id": "1338082",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.68,
+        "draw": 0,
+        "away": 0.32
+      },
+      "checks": {
+        "team_news": "No withdrawal or walkover announced for either player (searches 13 Nov). Andreeva (19, No.3, 52-16 in 2026, won Roland Garros) has no reported injury or fitness concern. Muchova (No.7, 43-14) has a documented injury history: wrist-related withdrawals in earlier seasons, surgery after the 2026 Wimbledon final, skipped Toronto and Cincinnati, and bets.com.au mentions 'injury setbacks during the North American hardcourt swing'. No fresh Indian Wells injury report found, so her fitness is unconfirmed rather than known bad.",
+        "lineups": "Tennis: no confirmed order of play found. Dimers and Taipei/other previews give the start as about 3:00 pm ET Friday 13 Nov (20:00 UTC), listed as the first singles match; not an official WTA order of play.",
+        "rotation": "Andreeva played Mon 9 Nov (beat Svitolina 6-4 6-0, 70 min) and Wed 11 Nov (beat Sabalenka 6-4 6-0, 62 min, won the last 11 games), so she is short on court time and fresh. Muchova played Mon (lost to Sabalenka 6-7(2) 5-7) and Wed (lost to Svitolina 3-6 6-2 6-2). Same rest for both; Friday is the third round-robin match.",
+        "motivation": "Group B after two matches: Andreeva 2-0 and already through to the semifinals; Muchova 0-2 and eliminated (Taipei Times, bets.com.au). Sabalenka v Svitolina is also played today with Sabalenka still alive (Taipei Times); I did not find that result. Dead rubber for Muchova and only seeding/semifinal-draw interest and momentum for Andreeva. Dead rubbers add variance; either side could ease off, or Andreeva could protect herself.",
+        "form": "Andreeva: 2-0 at the Finals with two 6-x 6-0 second sets, 45 of the last 55 points against Sabalenka. Muchova: lost two straight at the Finals, including losing a tiebreak for the first time in 2026 and blowing a 4-3 lead in set 2 against Sabalenka-type pressure; won Doha and Bad Homburg, Wimbledon runner-up in 2026.",
+        "h2h": "Andreeva leads 1-0: 2024 Ningbo semifinal, 6-2 1-0 when Muchova retired injured (bets.com.au, Dimers). Style: Muchova is a variety/all-court player, Andreeva a counterpuncher with a strong baseline; limited sample.",
+        "odds": "Polymarket Andreeva 0.705 (fair 1.42). 24h move 0.62 -> 0.705 (CLOB history): steady climb from 07:00 UTC on 12 Nov (0.62) to 0.695 by 13:00 UTC, then 0.705 from 21:00 UTC; flat since. No specific news item found that explains it; plausibly the market repricing Andreeva's dominant 6-0 wins and Muchova's elimination, and the move was gradual rather than a news shock. Other prices: DraftKings via Dimers moneyline Andreeva -261 / Muchova +240 (de-vig about 0.71 Andreeva); Bleacher Nation -200/+154 (de-vig about 0.63) and a Dimers line of -189/+184 (de-vig about 0.65) show the books are not tightly agreed; Dimers model 73%. Polymarket at 0.705 sits at the top of the bookmaker range.",
+        "models": "Tennis Abstract Elo (data.rating): Andreeva 2041 (hard 1982), Muchova 1984.2 (hard 1935.7); P(Andreeva) overall 0.581, hard 0.566, blend 0.574. This is well below the market 0.705, a gap of about 13 points, so Elo sees a closer match than the market does. Dimers model 0.73.",
+        "venue_weather": "Indian Wells, California, outdoor hard court (same venue and surface as her two wins); the match is in the afternoon desert (about 12:00 pm PT start). No weather problem reported."
+      },
+      "reason": "Andreeva is in clearly better form (2-0, two dominant wins, qualified), rated higher on Elo, and priced as a clear favourite by Polymarket and by books (about 0.63-0.73 de-vigged). Muchova is eliminated with a history of fitness problems. Elo is the main cautionary signal at 0.574, so p is set to 0.68, below the 0.705 market but inside the 5-point band, which reflects the Elo gap, the book disagreement and the dead-rubber risk.",
+      "main_risk": "Dead rubber: Andreeva is already qualified and could ease off, rotate effort or pick up a precautionary issue, while Muchova (eliminated, no pressure, a 1984 Elo player who took Sabalenka to 7-6 7-5) can swing freely; Elo implies only about 57% and bookmaker prices disagree (about 0.63-0.73), so 0.705 may be too high. Order of play not officially confirmed and Muchova's fitness is unconfirmed.",
+      "sources": [
+        "https://www.taipeitimes.com/News/sport/archives/2026/11/13/2003867656",
+        "https://www.bets.com.au/tennis/wta-tour/mirra-andreeva-vs-karolina-muchova-wta-finals-tips-prediction-live-stream-20261113-0003/",
+        "https://www.dimers.com/tennis/news/mirra-andreeva-vs-karolina-muchova-tennis-prediction-wta-finals-2026-ac",
+        "https://tennisabstract.com/reports/wta_elo_ratings.html",
+        "https://www.vavel.com/en-us/tennis-usa/2026/11/09/1278701-svitolina-vs-andreeva-live-score-updates-and-set-by-set-in-wta-finals.html",
+        "https://gamma-api.polymarket.com/events?id=1338082"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1371808",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1332716",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1338081",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.67,
+        "draw": 0,
+        "away": 0.33
+      },
+      "checks": {
+        "team_news": "No withdrawal or walkover announced for Sabalenka or Svitolina; WTA Day 6 preview lists the match on Friday's order of play. Sabalenka: no injury reports found (Sky Sports, WTA). Svitolina took an 8-minute medical time-out in Wednesday's win over Muchova and said 'I just have to really put my head down and deal with all the small injuries' and that everyone is tired and struggling with something (Sky Sports). Not enough to call her unfit.",
+        "lineups": "WTA Day 6 order of play (Fri 13 Nov, Indian Wells Tennis Garden): Andreeva v Muchova from 12:00 PT, followed by [2] Sabalenka v [6] Svitolina, then doubles. Our 21:30 UTC start is 13:30 PT, so the match is second on court and the exact start time depends on how long the first match runs (WTA preview gives only the first start time).",
+        "rotation": "Both played Mon 9 and Wed 11 (each 1-1). Sabalenka lost 4-6 0-6 to Andreeva on Wed, a short match with 23 unforced errors (one match put it at about 1 h); Svitolina came from a set down to beat Muchova 3-6 6-2 6-2 in just under 2 hours, then planned an ice bath and about 48 h of recovery. Svitolina is slightly more worn; Sabalenka had the shorter Wednesday.",
+        "motivation": "Group 2 after Wed 11 Nov: Andreeva 2-0, already qualified and group winner; Sabalenka 1-1; Svitolina 1-1; Muchova 0-2, eliminated. The Sabalenka v Svitolina winner takes second place and the last semifinal spot, so it is a straight knockout for both. Sabalenka is NOT qualified, so no soft-risk of low motivation and not a dead rubber. Sabalenka has also won 5 straight WTA Finals openers and is 11-0 at the Finals when she wins the first set (WTA).",
+        "form": "Sabalenka: beat Muchova 7-6(2) 7-5 Mon, lost to Andreeva Wed after leading 3-1 in the first set (Andreeva then won the last 11 games); won Indian Wells in March and the Australian Open semifinal over Svitolina 6-2 6-3 in January 2026. Svitolina: lost 4-6 0-6 to Andreeva Mon (0 of 6 break points converted), then beat Muchova Wed with only 4 unforced errors in the deciding set. Svitolina lost to Sabalenka in the AO semifinal this year.",
+        "h2h": "Sabalenka leads 6-1 per the WTA preview (another source says 5-1), has won the last 5 meetings and all 3 on hard courts, including 6-2 6-3 in the 2026 Australian Open semifinals. Svitolina's last win was Strasbourg 2020. Sabalenka's power against Svitolina's defensive counter-punching has favoured Sabalenka on hard courts.",
+        "odds": "No bookmaker price found for this match (entry has no data.odds and searches returned only older matches; for reference, AO 2026 semifinal prices were about Sabalenka -357 to -385 / Svitolina +292 to +310). Polymarket 0.645 Sabalenka, up from 0.63 24h ago (+2.4% relative), a small move toward the favourite. Fair odds 1.55.",
+        "models": "Tennis Abstract Elo (https://tennisabstract.com/reports/wta_elo_ratings.html): Sabalenka 2158.5 overall / 2136.8 hard; Svitolina 2026.9 / 1966.2. Win probability for Sabalenka: 0.681 overall, 0.728 hard, 0.705 blended hard. The model is about 6 points above the market; I move p only part of the way (0.67) given Sabalenka's heavy loss on Wednesday and the win-or-out pressure.",
+        "venue_weather": "Indian Wells Tennis Garden, California: outdoor hard court, desert conditions; the tournament's regular venue for this edition, so not an unusual venue. No weather or wind problems found. Evening start (13:30 PT, second match on court), so conditions should be cooler and slower than at midday."
+      },
+      "reason": "Fixture verified: FAGE WTA Finals Group 2 (called Group B in some sources), Fri 13 Nov 2026, Sabalenka v Svitolina, a winner-takes-the-last-semifinal-spot match. No hard exclusion applies: no withdrawal, motivation is high for both, and the venue is the tournament's regular one. Sabalenka is the clear favourite on h2h (6-1, 5 straight wins), hard-court Elo (about 0.70-0.73) and the market (0.645). Confidence is medium rather than high because of her 0-6 second-set collapse on Wednesday, the knockout pressure, Svitolina's improving form, and no independent bookmaker price.",
+      "main_risk": "Sabalenka's unforced-error spiral under pressure, as in Wednesday's 6-4 6-0 loss to Andreeva (she led 3-1 in the first set, then lost 11 straight games), and a win-or-out nerves factor; Svitolina's defensive game can exploit that. Svitolina's minor injuries and fatigue partly offset this. Start time depends on the Andreeva v Muchova match.",
+      "sources": [
+        "https://www.wtatennis.com/news/4608276/fage-wta-finals-day-6-preview-aryna-sabalenka-elina-svitolina-play-for-a-semifinals-berth",
+        "https://www.skysports.com/tennis/news/13611153/wta-finals-aryna-sabalenka-stunned-by-mirra-andreeva-as-elina-svitolina-battles-back-vs-karolina-muchova-at-indian-wells",
+        "https://www.wtatennis.com/news/4607073/sabalenka-beats-muchova-for-fifth-straight-fage-wta-finals-opening-win",
+        "https://www.arabnews.com/tennis/andreeva-reaches-wta-finals-semis-svitolina-fights-back-to-beat-muchova-3011324",
+        "https://tennisabstract.com/reports/wta_elo_ratings.html"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1287702",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.6,
+        "draw": 0.23,
+        "away": 0.17
+      },
+      "checks": {
+        "team_news": "Coach is Xavi Hernandez (appointed 12 Aug 2026, about 3 months ago, so no hard coach-change exclusion; Koeman left after the World Cup). Netherlands: Van Dijk (physical complaint) and Brobbey (small upper-leg muscle tear, out a few weeks) withdrew and were not replaced, so 23 players. Hato out of the squad, and one report also lists Frimpong and Ake out. Gravenberch was first reported out with a heel injury, but vi.nl's pre-match piece lists him as available, so that is conflicting. Frenkie de Jong is back as captain, Malen is back, and Sepp van den Berg is a first call-up (not expected to start). Greece: no confirmed squad news found. An October report lists Vagiannidis out, and Tzolis's injury extent was unclear before the Germany game; nothing for this match. Coach Jovanovic has kept a stable core.",
+        "lineups": "Predicted Dutch XI, same in meemetoranje.nl and voetbalzone.nl: Verbruggen; Timber, Van Hecke, Van de Ven, Maatsen (voetbalzone has Timber at right-back and Van de Ven in the centre); De Jong, Veerman, Reijnders; Summerville, Malen, Gakpo. Meemetoranje counts six changes from the 2-1 win over Serbia. Greece's likely 4-4-2 is based on the October XI: Tzolakis; Saliakas, Retsos, Mavropanos, Tsimikas; Karetsas, Androutsos, Kourbelis, Tzolis; Pavlidis, Ioannidis. No Greek predicted XI for Friday was found. Some Dutch changes are enforced by injury, but the new back line and the missing striker add real uncertainty.",
+        "rotation": "Netherlands play Friday 13 Nov, then Germany away on Monday 16 Nov, a short turnaround, so some rotation or rest is possible. The Dutch changes in the prediction come from injuries and returning players, not announced rest, and De Jong and Reijnders are expected to start. No hard rotation confirmed. Greece have the same short gap before their own final game.",
+        "motivation": "Group A2 (Netherlands, Greece, Germany, Serbia). Before this game Netherlands and Greece both have 8 points and +2 goal difference after four games, Germany 5, Serbia 0. The top two go to the quarter-finals, so both are alive and Greece could be content with a draw. The Dutch need the result to avoid depending on the Germany game.",
+        "form": "Greece are unbeaten, have conceded only 3 goals in 4 games, won their first two Nations League games, and led the Dutch 2-0 at half-time in Thessaloniki. Netherlands won 2-1 at Serbia and drew 2-2 in Greece after trailing 2-0. Under Xavi they have shown first-half defensive fragility. No xG found.",
+        "h2h": "1 Oct 2026, Thessaloniki: 2-2 (Greece led 2-0 at half-time through Ioannidis and Masouras; Van Dijk and Reijnders scored late for the Dutch). The Dutch beat Greece 3-0 in Eindhoven (Sept 2023) and won 1-0 in Athens (Oct 2023). Greece score against the Dutch more often than the market's 63.5% anytime-goal price might suggest, but they are low-event overall.",
+        "odds": "DraftKings via ESPN: home 1.56, draw 4.10, away 5.00 (opening 1.38/4.60/6.00), de-vigged 59.2%/22.4%/18.4%, total 2.5. The price has drifted against the Dutch since opening (1.38 to 1.56), which is a soft negative. Polymarket 24h move: home 0.635 to 0.625 (-1.6%), small. Polymarket p_market 62.3/21.3/16.3. DraftKings is below Polymarket on the home win, so I shade home down to 0.60 and draw up to 0.23.",
+        "models": "World Football Elo (eloratings.net): Netherlands 1974, Greece 1804, expected score for the Dutch 0.826, which counts a draw as half and is consistent with a win probability near 0.60 and a draw near 0.23. Elo does not capture the absence of Van Dijk and Brobbey.",
+        "venue_weather": "Johan Cruijff ArenA, Amsterdam, a normal home venue, kickoff 20:45 local on NPO3. No weather or pitch problem found, though I did not fetch a forecast."
+      },
+      "reason": "Game verified (Netherlands v Greece, Nations League A Group 2, home leg, 13 Nov 19:45 UTC) with no hard exclusion: no derby, coach appointed 3 months ago, no confirmed heavy rotation, normal venue. The leg that fits best near 1.40 is Greece under 1.5 team goals (tt_away_1.5_under, 1.34): Greece are a compact, low-scoring side (3 conceded in 4 games) and a market total of 2.5 with a heavy Dutch lean means Greece scoring 2 or more is the less likely outcome (about 25-27%). Dutch draw no bet (home_dnb, 1.26) is the main alternative but it carries Dutch squad and stakes risk. The Dutch defence is weakened and Greece scored twice in the first half in October, so this is only medium.",
+      "main_risk": "Greece scoring twice or more against a Dutch back line missing Van Dijk (with Van de Ven shifted inside and a new left-back) and reshuffled under a coach whose side already conceded two first-half goals to them. A draw or Greek win would also hurt any result leg. Late-minute team news (Greek XI, Gravenberch's status) is unconfirmed.",
+      "sources": [
+        "https://vi.nl/nieuws/dit-keer-wil-xavi-niet-repareren-griekenland-goede-test-voor-oranje",
+        "https://www.meemetoranje.nl/nederlands-elftal/nieuws/vermoedelijke-opstelling-oranje-griekenland-zes-nieuwe-namen-xavi/",
+        "https://www.voetbalzone.nl/nieuws/vermoedelijke-opstelling-nederlands-elftal-moeilijke-keuze-voor-xavi-in-verdediging/blt02fd9917aac31005",
+        "https://www.oddschecker.com/insight/football/cng102-20261001-greece-vs-netherlands-confirmed-lineups",
+        "https://neoskosmos.com/en/2026/10/02/sport/football/greece-stay-ahead-of-nations-league-favourites-after-draw-with-netherlands/",
+        "https://nos.nl/artikel/2638277-selectie-oranje-frenkie-de-jong-en-maatsen-keren-terug",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261113",
+        "https://www.eloratings.net/"
+      ],
+      "views": {
+        "tt_away_1.5_under": 0.73,
+        "ou_1.5_over": 0.82,
+        "ou_2.5_over": 0.57,
+        "ou_3.5_under": 0.64,
+        "btts_yes": 0.57,
+        "tt_home_1.5_over": 0.6,
+        "tt_away_0.5_over": 0.64,
+        "ah_away_+1.5": 0.64
+      },
+      "prices": []
+    },
+    {
+      "id": "1287712",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1371807",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1287697",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.17,
+        "draw": 0.28,
+        "away": 0.55
+      },
+      "checks": {
+        "team_news": "Slovenia: Benjamin Sesko out (shin, not back until early 2027), David Zec and Erik Janza suspended (yellow cards), Jure Balkovec injured, Timi Elsnik not in squad (Sports Mole, Buli-Tipphilfe, Vecer/24ur). Switzerland: Johan Manzambi out (calf, returned to Aston Villa, no replacement called up); Xhaka status conflicting (SRF/Blick listed him in the squad, bote.ch/Buli-Tipphilfe say injured, Jashari expected to take his midfield place); Rodriguez returning from a tendon injury but listed as doubtful by Buli-Tipphilfe; Muheim reported absent; Embolo back and likely to start. Yakin said 'hundert Prozent fitte Spieler' must play (SRF). No suspensions for Switzerland, but Aebischer would miss the final game if booked.",
+        "lineups": "No official XI yet. Sports Mole predicted Slovenia: Oblak; Karnicnik, Brekalo, Bijol, Drkusic, Kuzmic; Matko, Zabukovnik, Gnezda Cerin, Sturm; Vipotnik. Sports Mole predicted Switzerland: Kobel; Britschgi, Elvedi, Akanji, Rodriguez; Freuler, Zakaria; Sow, Rieder, Ndoye; Amdouni. Bluewin/bote.ch have Embolo up front in a 4-2-3-1 with Jashari, Freuler, Aebischer, Rieder, Ndoye. Sources differ on the Swiss midfield and striker, but all show a strong side with Kobel and Akanji. No source reports heavy rotation.",
+        "rotation": "Switzerland host Scotland on 16 November, three days later, to close the group; they need only a point here for promotion, so a conservative approach or a few changes are a soft risk, though no source reports rotation. Slovenia travel to North Macedonia for their last match. Both sides are on the same international-break schedule.",
+        "motivation": "Group B1: Switzerland 12 pts from 4 wins, Slovenia 7, Scotland 4. A point secures the group win and promotion to League A (SRF: even 0-0 is enough). Slovenia are the only team who can still catch Switzerland and have a full home crowd in Maribor. Yakin wants to start strongly and 'possibly win high' (SRF).",
+        "form": "Switzerland: four straight Nations League wins (3-0 at Skopje, 3-0 at Glasgow, 2-1 v Slovenia in Lucerne, 3-0 v North Macedonia), 8 wins in their last 9 games; lost 3-1 to Argentina in the 2026 World Cup quarter-finals. Slovenia Nations League: draw, win, defeat, win (the defeat was the 1-2 v Switzerland).",
+        "h2h": "Switzerland beat Slovenia 2-1 in October 2026 in Lucerne in this group. Switzerland have won 8 of the last 12 meetings and Slovenia only 2 (last win October 2014); Sports Mole and the other previews tip 1-2 or 1-0 Swiss wins, close low-scoring games. Level results are not frequent in this fixture.",
+        "odds": "DraftKings via ESPN (https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261113): Slovenia 5.25, draw 3.25, Switzerland 1.71, total 2.5; opening 5.00/3.50/1.61. De-vigged 17.6% / 28.5% / 53.9%, close to Polymarket 16.4% / 28.3% / 55.3%. Polymarket Switzerland moved from 57.5% to 55.5% over 24h (about -3.5% relative), mild drift consistent with the Xhaka and Rodriguez doubts. Bytes Europe prices Switzerland about 61% from odds. Slovenia +1.5 handicap market 71.5%.",
+        "models": "World Football Elo (eloratings.net): Switzerland 1975, Slovenia 1718, a 257-point gap; expected score for Slovenia 0.288 (draw counted as half), which supports a Swiss favourite but with a real draw share. Elo-implied result probabilities are consistent with market prices.",
+        "venue_weather": "Ljudski vrt, Maribor (moved from Ljubljana's Stozice, which is in poor condition; Slovenia's own country and home crowd, so not a neutral or unusual venue). Kick-off 20:45 local (19:45 UTC). Yakin praised the green pitch (SRF/Bluewin). No extreme weather reported; the full stadium is a mild atmosphere factor for Slovenia."
+      },
+      "reason": "Fixture verified (Slovenia v Switzerland, UEFA Nations League B group 1, Fri 13 Nov 2026, 19:45 UTC, Ljudski vrt Maribor). No hard exclusion: no derby, no coach change, no confirmed rotation, home country venue. Switzerland are clearly stronger (Elo +257, 8 wins in 9, 3-0 wins away from home) and Slovenia lack Sesko, Zec and Janza, so the best leg is Slovenia +1.5 or Switzerland double chance/draw no bet. A straight Switzerland win is not allowed because the draw is 28%. Slovenia +1.5 fails only if Switzerland win by 2+ goals; my estimate is about 71%, close to the market. Swiss midfield and Xhaka and Rodriguez fitness are unconfirmed, so confidence is medium, not high.",
+      "main_risk": "Pre-mortem: Switzerland, needing only one point and with Scotland on 16 November, play a controlled or lightly rotated game, so the result is a draw or narrow Swiss win in front of a full home crowd; for Slovenia +1.5 the failure case is a 2+ goal Swiss win (they won 3-0 three times in this group) or a late open game. Unconfirmed Xhaka and Rodriguez status and an unofficial lineup are the soft doubts.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/slovenia/uefa-nations-league/preview/slovenia-vs-switzerland-prediction-team-news-lineups_608906.html",
+        "https://www.srf.ch/sport/fussball/nationalmannschaft/nations-league-am-freitag-live-die-nati-hat-den-wiederaufstieg-im-blick",
+        "https://www.blick.ch/sport/fussball/nati/schweizer-nati-murat-yakin-ueber-breel-embolo-und-granit-xhaka/wjdn4fs",
+        "https://www.bote.ch/nachrichten/sport/schweizer-nati-was-murat-yakin-in-slowenien-mit-breel-embolo-vorhat-art-1731899",
+        "https://www.nzs.si/reprezentance/moski/a-reprezentanca/tekme/slovenija-svica-unl2026-2026-11-13-204500",
+        "https://www.eloratings.net/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261113"
+      ],
+      "views": {
+        "ah_home_+1.5": 0.71,
+        "ou_3.5_under": 0.82,
+        "ou_2.5_under": 0.62,
+        "btts_no": 0.59
+      },
+      "prices": []
+    },
+    {
+      "id": "1332713",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1287682",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1287670",
+      "exclude": true,
+      "skipped": true
+    }
+  ]
+}
