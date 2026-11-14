@@ -85,7 +85,11 @@ export async function renderToday(root) {
     /* offline */
   }
   const entries = (history.entries || []).filter((e) => e.model === 'football-2leg');
-  const today = entries.find((e) => e.date === localDate());
+  const todayEntry = entries.find((e) => e.date === localDate());
+  // Once today's slip is settled (won, lost or void) it leaves the top of the
+  // page and joins the record below.
+  const today = todayEntry && !todayEntry.result ? todayEntry : null;
+  const settledToday = Boolean(todayEntry && todayEntry.result);
   // Research done the evening before publishes tomorrow's slip early.
   const tomorrow = entries.find((e) => e.date === localDate(new Date(Date.now() + 24 * 3600 * 1000)));
   // Days without a bet are left out of the record.
@@ -101,7 +105,11 @@ export async function renderToday(root) {
     ${
       today
         ? slipHtml(today)
-        : `<section class="card slip-none"><h2>No slip yet</h2><p>The research runs at 07:50 Belgrade time. The slip appears here a few minutes after it is pushed.</p></section>`
+        : settledToday
+          ? tomorrow && !tomorrow.no_bet
+            ? ''
+            : `<section class="card slip-none"><h2>Today’s slip is settled</h2><p>It is in the record below. Tomorrow’s slip appears here after the research is pushed.</p></section>`
+          : `<section class="card slip-none"><h2>No slip yet</h2><p>The research runs at 07:50 Belgrade time. The slip appears here a few minutes after it is pushed.</p></section>`
     }
     ${tomorrow && !tomorrow.no_bet ? slipHtml(tomorrow, 'Tomorrow’s slip') : ''}
     <section class="card">
