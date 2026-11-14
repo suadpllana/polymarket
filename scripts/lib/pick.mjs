@@ -12,7 +12,9 @@
  * tries two odds ranges and records which one it used:
  *   1. researched — combined odds 1.85–2.25
  *   2. wider      — combined odds 1.70–2.50
- * If neither has a slip, the day is "No bet".
+ *   3. closest    — whatever the medium/high legs can make, as near to that
+ *                   range as possible (the owner wants a slip every day)
+ * Only a day with no medium/high leg at all is "No bet".
  * Games the research excluded for a hard reason are never used.
  */
 
@@ -54,6 +56,7 @@ export const TIERS = [
 export const TIER_NOTE = {
   researched: '',
   wider: 'Few medium or high confidence legs fit today, so this slip uses a slightly wider odds range (1.70–2.50).',
+  closest: 'Today’s medium and high confidence legs cannot make odds near 2.0, so this is the closest slip they allow. Check the total odds before deciding your stake.',
 };
 
 /** Why a researched game may not be bet at the live price, or null when it may. */
@@ -168,6 +171,31 @@ export function bestSlip(legs, range = SLIP) {
   return best;
 }
 
+/**
+ * When no slip fits an odds range: the slip nearest to 1.70–2.50. Odds above
+ * the range count for more than odds below it, so the shorter, likelier slip
+ * wins a near-tie. Then fewest medium legs, then the chance to land.
+ */
+export function closestSlip(legs) {
+  const { min, max } = TIERS[TIERS.length - 1].range;
+  let best = null;
+  for (const set of combos(legs, SLIP.maxLegs)) {
+    const odds = set.reduce((o, l) => o * l.odds, 1);
+    const miss = odds < min ? Math.log(min / odds) : odds > max ? 1.5 * Math.log(odds / max) : 0;
+    const ev = set.reduce((x, l) => x * (l.p_win * l.odds + l.p_void), 1) - 1;
+    const p_hit = set.reduce((x, l) => x * (l.p_win + l.p_void), 1);
+    const highs = set.filter((l) => l.verdict.confidence === 'high').length;
+    const cand = { legs: [...set], odds, ev, p_hit, highs, mediums: set.length - highs, miss };
+    if (
+      !best ||
+      cand.miss < best.miss - 0.02 ||
+      (Math.abs(cand.miss - best.miss) <= 0.02 && (cand.mediums < best.mediums || (cand.mediums === best.mediums && cand.p_hit > best.p_hit + 0.005)))
+    )
+      best = cand;
+  }
+  return best;
+}
+
 /** Tries the odds ranges in order and returns the first slip found, with the tier used. */
 export function pickSlip(games, research) {
   const { legs, skipped, faded } = eligibleLegs(games, research);
@@ -175,7 +203,10 @@ export function pickSlip(games, research) {
     const slip = bestSlip(legs, tier.range);
     if (slip) return { slip, tier: tier.name, skipped, faded };
   }
-  return { slip: null, tier: null, skipped, faded, eligible: legs.length };
+  // No slip in range: still show the best the eligible legs can make.
+  const slip = closestSlip(legs);
+  if (slip) return { slip, tier: 'closest', skipped, faded };
+  return { slip: null, tier: null, skipped, faded, eligible: 0 };
 }
 
 export function describe(slip) {

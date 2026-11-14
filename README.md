@@ -30,7 +30,9 @@ A small site with three pages:
    or rule a game out, never lift a leg. High-confidence legs are preferred
    over medium ones, and a game whose favourite has lost more than 4% of its
    market chance since it was first listed is dropped, also from a slip
-   already shown. If no such slip fits, the day is "No bet".
+   already shown. When the eligible legs cannot reach those odds, the site
+   shows the closest slip they allow; only a day with no eligible leg at all
+   is "No bet".
 3. **Settle.** Every run marks finished legs won, lost or void from resolved
    Polymarket markets.
 

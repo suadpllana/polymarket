@@ -102,7 +102,7 @@ async function buildToday(date, { force = false, window = bettingWindow(), looka
     throw new Error(`no research for ${date} yet`);
   }
   let games = gathered || (await gatherGames(window));
-  let { slip, tier, skipped, faded, eligible } = pickSlip(games, research);
+  let { slip, tier, skipped, faded } = pickSlip(games, research);
   // Nothing usable left before 23:00 today: take tomorrow's games (09:00 to
   // 23:00), so the day still has a slip.
   let lookahead = false;
@@ -125,9 +125,11 @@ async function buildToday(date, { force = false, window = bettingWindow(), looka
   };
   // Only medium/high confidence legs are bet; skipping a day beats a weak slip.
   if (!slip) {
-    const reason = eligible
-      ? `The ${eligible} medium or high confidence leg${eligible === 1 ? '' : 's'} still open today cannot make a slip of one to three legs at odds 1.70–2.50.`
-      : 'No game still to start today has a researched leg rated medium or high confidence. Low-confidence and market-only legs are never used.';
+    // Any eligible leg makes a slip (see closestSlip), so this only happens
+    // when no game still to start passed the research and the price checks.
+    const reason = research
+      ? 'No game still to start today has a researched leg rated medium or high confidence that also passed the price checks. Low-confidence and market-only legs are never used; more games are being researched.'
+      : 'The research for today has not arrived yet.';
     return noBet(date, reason, base);
   }
 

@@ -11,8 +11,11 @@ one, two or three legs from different games**, with combined Stake odds between
 1.85 and 2.25 (target 2.0), and publishes it on the site. **Only legs the
 research rates medium or high confidence are ever bet.** The user places
 low-confidence bets themselves, so a low-confidence or market-only leg never
-appears on the slip. If no such slip fits, the day is "No bet" (see "How the
-slip is picked"), so research until enough games reach medium or high.
+appears on the slip. **The user wants a slip every day: no "No bet" days.**
+The site shows a slip whenever at least one medium or high leg is still open,
+so the only way a day ends without one is when no game passes the research
+and the price checks. Your job is to make sure that never happens: research
+more games until some do (see "Never leave the day without a slip").
 
 For football, legs can come from any market Polymarket prices: match winner,
 double chance, draw no bet, **total goals over/under, both teams to score,
@@ -67,7 +70,9 @@ of 0, and your `p.draw` must stay 0.
 3. Write `research/<date>.json` (format below) and run
    `npm run check-research` until it prints OK. It refuses kept games with a
    thin checklist or fewer than 4 source sites.
-4. `npm run pick` prints the slip the site will publish, or "No bet".
+4. `npm run pick` prints the slip the site will publish. If it prints "No
+   bet", or a slip marked `Tier: closest` (the legs cannot reach odds near
+   2.0), research more games before you push.
 5. Commit only the two research files and push to `main`.
    Then **schedule the pre-kickoff check** (see below) with `send_later`
    (Claude Code Remote) for about 100 minutes before the first leg of the slip
@@ -78,6 +83,24 @@ of 0, and your `p.draw` must stay 0.
    what triggers today's build. "No bet" should only happen when every game
    in the window has been researched and none can make a medium/high slip;
    say so in `summary`.
+
+### Never leave the day without a slip
+
+The user's rule (14 Nov 2026): always show the best slip, no "No bet" days.
+The safety rules stay as they are (never a low-confidence or market-only
+leg, never a game the price checks dropped), so a slip every day comes from
+researching enough games, not from loosening a rule.
+
+- Morning: keep researching (`--more`, every sport) until `npm run pick`
+  shows a slip in the 1.85–2.25 or 1.70–2.50 range. A `Tier: closest` slip is
+  a stopgap, not a finish.
+- Midday backup check: if today's research is missing, do the research then.
+  A file of `skipped` verdicts only produces "No bet".
+- Final check: if a re-check or a price move drops a leg and the slip
+  disappears or falls to `Tier: closest`, research games that start later the
+  same day (evening football, NBA, NHL, late tennis) and push again.
+- A slip the research itself rates weak is still shown; say plainly in the
+  summary to the user that it is weak and why.
 
 ## Pre-kickoff check (about 100 minutes before the first leg)
 
@@ -360,17 +383,19 @@ minus 3%.
    slip always beats one with a medium leg. Between slips of equal
    confidence, the one most likely to land or refund; on a near-tie, the
    higher expected return.
-4. The pick tries combined odds 1.85–2.25 first, then 1.70–2.50, and the site
-   labels which one it used. If neither has a slip, the day is **No bet**.
+4. The pick tries combined odds 1.85–2.25 first, then 1.70–2.50. If neither
+   has a slip, it takes the slip nearest to that range that the eligible legs
+   can make (`Tier: closest`; shorter odds are preferred to longer), so any
+   eligible leg gives a slip. The site labels which tier it used.
    Low-confidence legs, unresearched (market-only) legs and hard-excluded
-   games are never used.
-5. If the research has not arrived by 12:00 Belgrade, there is no slip that
-   day (no market-only slips).
+   games are never used; only a day with no eligible leg at all is **No bet**.
+5. Until the research arrives there is no slip (no market-only slips).
 6. A published slip is rebuilt if one of its legs is no longer bettable (for
    example, newer research downgraded it), when research is pushed again
    before its first game starts, and when a build finds that the price has
-   moved against one of its games as in step 1 (that game is dropped, even if
-   the day becomes "No bet").
+   moved against one of its games as in step 1 (that game is dropped; if no
+   eligible leg is left the day shows "No bet" until more games are
+   researched).
 
 At combined odds of 2.0 the bookmaker's own price says a slip lands about
 48% of the time. Good research aims to push that a few points higher. No
