@@ -1,8 +1,8 @@
 {
   "date": "2026-11-14",
-  "researched_at": "2026-11-14T15:58:35Z",
-  "stage": "morning",
-  "summary": "Researched the evening before (Fri 13 Nov) and re-checked this morning (Sat 14 Nov) with live prices; lineups are not out yet, so the pre-kickoff check re-tests the picks. Saturday of the international break: four Nations League games were researched first and all four are kept at medium; the other candidates (NHL, LoL, WTA Finals, ATP, SHL/KHL/Liiga, UFC 334, other Nations League games, one Brasileirão game) were not researched because the four kept games already make a medium slip. Norway over Wales (p 0.77; no overnight news; Haaland and Odegaard expected; both sides must win, Norway lost 3 of 4 group games and Wales won the last three meetings). Portugal over Denmark (p 0.62; Portugal 4 from 4 but already through, missing Cancelo, Conceicao and Mendes, Ronaldo retired from internationals as reported on 5 Nov; Denmark scored in all four group games). Sweden over Bosnia (p 0.66, up from 0.62: overnight the market moved from 0.633 to 0.683 with DraftKings shortening to 1.40; Bosnia's coach confirmed Muharemovic suspended and Hadzikadunic out, Dzeko has retired; no new Sweden injury; Bosnia unbeaten in the group and drew 1-1 in October). Austria over Ireland (p 0.57, draw 0.265, so only double chance or draw no bet; this morning's Austrian press confirms Xaver Schlager and Prass are out with thigh injuries on top of Wimmer, Alaba and Wanner; no clean sheet in 8; 2-2 in Dublin in October; Elo Austria 1841 v Ireland 1711). Afternoon update (about 16:00 UTC): Norway–Wales was re-checked with the reported XIs (Haaland, Odegaard and goalkeeper Selvik start, no rotation) and stays medium; Norway drifted slightly (DraftKings 1.21 to 1.25). At live prices the best slip is now on the 19:45 games, which get their final check with confirmed lineups at about 18:45 UTC.",
+  "researched_at": "2026-11-14T18:46:57Z",
+  "stage": "pre_kickoff",
+  "summary": "Researched the evening before (Fri 13 Nov) and re-checked this morning (Sat 14 Nov) with live prices; lineups are not out yet, so the pre-kickoff check re-tests the picks. Saturday of the international break: four Nations League games were researched first and all four are kept at medium; the other candidates (NHL, LoL, WTA Finals, ATP, SHL/KHL/Liiga, UFC 334, other Nations League games, one Brasileirão game) were not researched because the four kept games already make a medium slip. Norway over Wales (p 0.77; no overnight news; Haaland and Odegaard expected; both sides must win, Norway lost 3 of 4 group games and Wales won the last three meetings). Portugal over Denmark (p 0.62; Portugal 4 from 4 but already through, missing Cancelo, Conceicao and Mendes, Ronaldo retired from internationals as reported on 5 Nov; Denmark scored in all four group games). Sweden over Bosnia (p 0.66, up from 0.62: overnight the market moved from 0.633 to 0.683 with DraftKings shortening to 1.40; Bosnia's coach confirmed Muharemovic suspended and Hadzikadunic out, Dzeko has retired; no new Sweden injury; Bosnia unbeaten in the group and drew 1-1 in October). Austria over Ireland (p 0.57, draw 0.265, so only double chance or draw no bet; this morning's Austrian press confirms Xaver Schlager and Prass are out with thigh injuries on top of Wimmer, Alaba and Wanner; no clean sheet in 8; 2-2 in Dublin in October; Elo Austria 1841 v Ireland 1711). Afternoon update (about 16:00 UTC): Norway–Wales was re-checked with the reported XIs (Haaland, Odegaard and goalkeeper Selvik start, no rotation) and stays medium; Norway drifted slightly (DraftKings 1.21 to 1.25). At live prices the best slip is now on the 19:45 games, which get their final check with confirmed lineups at about 18:45 UTC. Final check (about 18:46 UTC, an hour before the 19:45 games): the official XIs for Austria–Ireland and Sweden–Bosnia are out and confirm the morning picture. Sweden field Isak, Gyokeres and Gudmundsson, and Austria start their strongest available side. Neither price has moved against the favourite, so both games are raised to high. For Portugal–Denmark no official XI could be read, and Portugal's price has drifted from 0.645 to 0.605 in 24 hours with no news found, so it stays medium.",
   "games": [
     {
       "id": "1294222",
@@ -84,23 +84,23 @@
       "exclude": false,
       "confidence": "medium",
       "p": {
-        "home": 0.62,
-        "draw": 0.2,
+        "home": 0.61,
+        "draw": 0.21,
         "away": 0.18
       },
       "checks": {
-        "team_news": "Portugal: Joao Cancelo and Francisco Conceicao suspended (Conceicao red card in Porto), Nuno Mendes injured; Rafael Leao and Nuno Tavares also listed injured by Al Jazeera; Joao Palhinha missed Thursday training with flu-like symptoms but trained Friday (Portugoal). Ronaldo re-verified this morning: SoccerNews and Onmanorama (both dated 5 Nov 2026) report he announced retirement from international football in his own Instagram statement ('hand back the number seven shirt'), after leaving camp before the 1 Oct Denmark game and receiving a 30-day federation suspension on 19 Oct. Earlier coverage (Gulf News, Sports Mole, early Oct) only said he left camp, so I could not find a federation statement; treat the retirement as reported by two outlets, not independently confirmed by the federation. Either way he is not available today. Denmark: Patrick Dorgu out (hamstring), Andreas Christensen not called up (fitness); no suspensions but six players one booking from a ban (Sports Mole, Al Jazeera, Portugoal). Mikkel Damsgaard was injured in October and missed the Wales game; his status today was not found. Nothing new found this morning on the Denmark or Portugal press conferences or new injuries; no search turned up news from Saturday. Costa, Dias, Fernandes and Vitinha: no bad news.",
-        "lineups": "Not confirmed, predicted only (no new XI found this morning). Portugal (Sports Mole): Costa; Dalot, Dias, Veiga, Nazinho; Vitinha, Fernandes, J Neves; Felix, Ramos, Neto. Portugal (Portugoal/Al Jazeera) similar 4-4-1-1 with Costa in goal. Denmark (Sports Mole): Hermansen; Kristensen, Andersen, Provstgaard, Maehle; Isaksen, Hjulmand, Hojbjerg, Daramy; Hojlund, Froholdt. Official XIs due about 60 minutes before kick-off.",
-        "rotation": "Portugal have already secured a quarter-final place and need only a point to win Group A4. Coach Jorge Jesus said he wants to integrate younger players and seven Portugal players are one yellow from a ban for the Wales game (Portugoal), so some changes are possible, but no heavy rotation announced. Denmark need four points from two games to be sure of the quarter-finals and should be at full strength.",
-        "motivation": "Portugal: group won in effect (12 points from 4 wins, quarter-final secured, top spot with a draw). Denmark: second on 6 points, need a result, so more motivated. Lower stakes for Portugal is a soft risk.",
-        "form": "Portugal won all 4 Nations League group games. Denmark 2 wins (both vs Wales, including 2-0) and 2 defeats (3-2 vs Norway, 4-2 vs Portugal), so Denmark scored in all four group games. Hojlund has 3 of Denmark's 7 goals in the competition and scored in the 4-2 in Copenhagen. xG not found.",
-        "h2h": "Portugal beat Denmark 4-2 in Copenhagen on 1 October (Damsgaard scored and set up Hojlund's goal). All-time: Portugal 13 wins, Denmark 4, 2 draws in 19 (Al Jazeera). Previews predicted 2-1 and 3-1, so Denmark scoring is the expected case; a goal-for-goal draw is the main route to a non-win.",
-        "odds": "DraftKings via ESPN (data.odds, fetched 06:51 UTC today): Portugal 1.54 / draw 4.30 / Denmark 5.00, de-vigged 60.0 / 21.5 / 18.5, opening 1.45/4.40/5.25, so Portugal have drifted out from the open, total 3.5. Polymarket live 63.3 / 19.3 / 17.3 versus 64.7 / 19.7 / 15.7 last night: Portugal down about 1.3 points, Denmark up 1.7, a small move. I found no team-news story explaining it; it looks like mild drift. Opta supercomputer (via Al Jazeera): Portugal 59.4%, draw 21.2%, Denmark 19.4%. Denmark goals Over 0.5 live 65.5%, BTTS Yes 59.5%, Denmark Under 1.5 70%.",
-        "models": "World Football Elo (eloratings.net): Portugal 2055, Denmark 1861; expected score for Portugal 0.845, consistent with roughly 62% win / 21% draw. Opta 59.4/21.2/19.4 is a little more cautious on Portugal.",
-        "venue_weather": "Estadio Municipal de Braga, Saturday 14 Nov 19:45 local/GMT. Regular Portugal home venue. No weather or pitch problem found; unverified, not treated as a risk."
+        "team_news": "Pre-kick-off re-check, about 60 minutes before kick-off. Nothing new found today. No late injury, illness or withdrawal story turned up in a search, and ESPN returned 403 so the summary rosters could not be read. Morning findings still stand. Portugal: Cancelo and Conceicao suspended, Nuno Mendes injured, Leao and Nuno Tavares also reported injured, Palhinha trained Friday after flu-like symptoms. Ronaldo is out (reported retirement, not confirmed by the federation). Denmark: Dorgu out (hamstring), Christensen not called up, Damsgaard status unknown. Costa, Dias, Fernandes and Vitinha: no bad news.",
+        "lineups": "Official XIs NOT found at the time of this check (FPF/DBU/ESPN summary not reachable; search returned only the 1 October fixture and projections). Still using expected XIs. Portugal (Sports Mole): Costa; Dalot, Dias, Veiga, Nazinho; Vitinha, Fernandes, J Neves; Felix, Ramos, Neto, with Costa in goal. Denmark (Sports Mole): Hermansen; Kristensen, Andersen, Provstgaard, Maehle; Isaksen, Hjulmand, Hojbjerg, Daramy; Hojlund, Froholdt. Unconfirmed, so confidence stays medium.",
+        "rotation": "Unchanged from the morning. Portugal are already through to the quarter-finals and need a point to win the group; Jorge Jesus spoke of integrating younger players and seven Portugal players are one yellow from a ban, so some changes are possible. No heavy rotation announced and none confirmed (no XI yet). Denmark should be at full strength.",
+        "motivation": "Unchanged. Portugal have little at stake (quarter-final secured, a draw wins the group). Denmark are second on 6 points and need a result, so they are more motivated.",
+        "form": "Unchanged. Portugal won all 4 group games. Denmark have 2 wins and 2 defeats and scored in all four group games. Hojlund has 3 of Denmark's 7 goals in the competition.",
+        "h2h": "Unchanged. Portugal beat Denmark 4-2 in Copenhagen on 1 October. All-time Portugal 13 wins, Denmark 4, 2 draws in 19. A goal-for-goal draw is the main route to a non-win.",
+        "odds": "New this evening. DraftKings via ESPN (fetched 18:45 UTC): Portugal 1.56 / draw 4.10 / Denmark 5.00, de-vigged 59.2 / 22.4 / 18.4, opening 1.45 / 4.40 / 5.25, so Portugal have drifted out from the open. Polymarket live 60.7 / 21.7 / 17.7, versus 62.3 / 21.3 / 16.3 this morning. Over 24h Portugal fell from 64.5 to 60.5 (-6.2% relative). That is a continued drift against the favourite, with no team-news story found to explain it. Live leg prices: Portugal draw no bet 82.3, Denmark to score 66.5, Portugal over 1.5 team goals 64.0, BTTS yes 60.5, Over 2.5 62.5.",
+        "models": "Unchanged. Elo: Portugal 2055, Denmark 1861, expected score for Portugal 0.845. Opta (via Al Jazeera): 59.4 / 21.2 / 19.4. Elo, Opta and the books all point to a Portugal win, but the market is more cautious than Elo.",
+        "venue_weather": "Estadio Municipal de Braga, Saturday 14 Nov, 19:45 UTC. No weather or pitch problem found (unverified, not treated as a risk)."
       },
-      "reason": "Fixture verified (UEFA Nations League Group A4, Portugal vs Denmark, Braga, Sat 14 Nov 19:45 UTC). No hard exclusion: no confirmed rotation, not a derby, normal home venue. Portugal are clearly stronger (Elo 2055 vs 1861; bookmaker, Opta and Polymarket 60-63% win, draw 19-21%) and in form, but miss Cancelo, Conceicao and Mendes and have little at stake. p set slightly below the market on Portugal and slightly above on Denmark after a small overnight drift (home 64.7 to 63.3). Lineups still unconfirmed, no new bad team news found, so medium. Draw no bet or double chance are safer than the straight win. Denmark to score (live 65.5%): my view is about 68%, because Denmark scored in all four group games, including 4-2 and 3-2 games against Portugal and Norway, and Portugal are without Cancelo and Nuno Mendes at the back.",
-      "main_risk": "A draw (about 20%) or Denmark upset against an already-qualified Portugal that may rotate and is missing Cancelo, Conceicao and Mendes; Denmark are more motivated and score regularly. Lineups not yet announced.",
+      "reason": "Re-check found no official XI and no new bad news. Portugal remain clear favourites on Elo, Opta and the market. The market drift against them is unexplained (home 64.5 to 60.5 over 24h, 62.3 to 60.7 since the morning), which is why p is set a touch below the morning view. p is within 5 points of the live market on every outcome. Confidence is medium because the lineups are unconfirmed and the price has moved against the favourite. Draw no bet (live 82.3) remains safer than the straight win. Denmark to score is live 66.5; my view is about 67%, since Denmark scored in all four group games and Portugal are missing Cancelo and Mendes.",
+      "main_risk": "A draw (about 21%) or a Denmark win against an already-qualified Portugal that may rotate, with Cancelo, Conceicao and Mendes out. Denmark are more motivated. Lineups unconfirmed and the price is drifting away from Portugal.",
       "sources": [
         "https://www.sportsmole.co.uk/football/portugal/uefa-nations-league/preview/portugal-vs-denmark-prediction-team-news-lineups_608969.html",
         "https://www.aljazeera.com/sports/2026/11/13/portugal-denmark-ronaldo-uefa-nations-league-predictions-teams",
@@ -109,11 +109,10 @@
         "https://www.eloratings.net/",
         "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261114",
         "https://www.soccernews.com/i-leave-with-my-head-held-high-ronaldo-confirms-portugal-retirement/407652/",
-        "https://www.onmanorama.com/sports/football/2026/11/05/cristiano-ronaldo-cr7-retirement-international-football-controversy-world-cup.amp.html",
-        "https://roundtable.io/sports/soccer/premier-league/brentford/news/denmark-boss-discusses-mikkel-damsgaards-bigger-injury-before-wales"
+        "https://www.onmanorama.com/sports/football/2026/11/05/cristiano-ronaldo-cr7-retirement-international-football-controversy-world-cup.amp.html"
       ],
       "views": {
-        "tt_away_0.5_over": 0.68,
+        "tt_away_0.5_over": 0.67,
         "btts_yes": 0.61
       },
       "prices": []
@@ -126,40 +125,36 @@
     {
       "id": "1294242",
       "exclude": false,
-      "confidence": "medium",
+      "confidence": "high",
       "p": {
-        "home": 0.66,
-        "draw": 0.22,
-        "away": 0.12
+        "home": 0.65,
+        "draw": 0.21,
+        "away": 0.14
+      },
+      "views": {
+        "ou_3.5_under": 0.665
       },
       "checks": {
-        "team_news": "Unchanged for Sweden: Potter said all are available after Friday training; Gyokeres, Nygren and Kulusevski trained Friday (Fotbollskanalen, SVT). Isak and Elanga are back. Kulusevski is on managed minutes (about 30 min per his own plan, so likely a bench role, per tvmatchen/Spelcash). Gabriel Gudmundsson had a thigh/back issue and trained Wednesday, start unconfirmed (tvmatchen, 12 Nov). Out for Sweden: Starfelt, Hien, Holm, Bergvall, Svanberg, Zeneli (withdrew, no replacement). NEW this morning, Bosnia: Barbarez's eve-of-match press conference in Solna (Radio Sarajevo) confirms Muharemovic is suspended and Hadzikadunic is out (calf, about 20 days). Jovo Lukic has back problems and will be tested on match day. Barbarez said all others are healthy and he called up 26 players. He did not say who replaces Muharemovic. Dzeko has retired from internationals. No new Sweden injury or illness found this morning.",
-        "lineups": "Nothing official yet. Sweden preliminary 4-4-2 (tvmatchen, 12 Nov; bet365/Sportsgambler similar): Johansson; Beijmo, Nilsson Lindelof, Smith/Lagerbielke, Gudmundsson/Svensson; Bernhardsson/Elanga, Karlstrom, Ayari, Nanasi/Njie; Gyokeres, Isak. Potter does not expect many surprises. The Fotbollskanalen XI with Skoglund and Larsson is dated 2 Oct and is stale. Bosnia: tvmatchen lists Muharemovic and Tabakovic, but that predates the confirmed suspension. Earlier predicted 3-4-2-1: Zlomislic; Radeljic, Katic, Kolasinac; Dedic, Gigovic, Basic, Memic; Bajraktarevic, Alajbegovic; Demirovic. The Bosnia back line is still undecided.",
-        "rotation": "No rotation expected. Sweden's win clinches the group and promotion, and the next game is Poland away on 17 Nov, so Sweden have more at stake. Bosnia also play 17 Nov (Romania at home) and need a result. No rotation news from either camp.",
-        "motivation": "Group B4 before this round: Sweden 10 pts, Bosnia 8, Poland 4, Romania 0. A Swedish win gives 13 pts, Bosnia cannot catch them, and Sweden win the group and go up to League A. Bosnia need a result to stay alive, and Barbarez said his aim is to beat Sweden and 'spoil their day'. Both sides are motivated.",
-        "form": "Sweden's last five competitive games: W 1-0 at Romania, D 1-1 at Bosnia, W 3-1 v Poland, W 2-1 v Romania, L 0-3 to France (World Cup). Bosnia's last five: W 1-0 v Poland, D 1-1 v Sweden, W 4-2 at Romania, D 0-0 at Poland, L 0-2 to USA (World Cup). Bosnia are unbeaten in the group. No xG found. Unchanged since last night.",
-        "h2h": "The latest meeting, 2 Oct 2026 in Zenica, ended 1-1. Sweden reportedly had illness in camp that week (Fotbollskanalen: Ayari, Nygren and Lagerbielke ill). Bosnia that day had Dzeko and Muharemovic, and now have neither. The draw is still the main threat.",
-        "odds": "MOVE: Sweden's Polymarket win price rose from 0.633 last night to 0.683 now (24h move 0.625 to 0.685). Draw went 0.213 to 0.203 and Bosnia 0.153 to 0.1135, so the money has come off Bosnia and the draw. DraftKings via ESPN has moved the same way: Sweden 1.40, draw 4.40, Bosnia 7.00 (last night 1.50/4.10/5.75, opened 1.49/4.00/5.50), de-vigged 65.9/21.0/13.2, total 2.5. Why: I found no new story. The Bosnia absences (Muharemovic suspended, Hadzikadunic out, Dzeko retired) and Isak and Gyokeres being fit were all public last night, so the move looks like a late market catch-up on those plus Barbarez confirming the weakened back line, not a fresh shock. Nothing negative for Sweden turned up. I take part of the move (home 0.66, below the 0.683 market) because the draw risk is unchanged and the shift is only partly explained. BetMGM (Sportsgambler): Sweden -213, draw +350, Bosnia +510.",
-        "models": "World Football Elo (eloratings.net): Sweden 1774 v Bosnia 1672, expected score for Sweden 0.762 with a draw counted as half, about 0.62 win after allowing for draws. That sits below the new market price, which is why I stay under it.",
-        "venue_weather": "Strawberry Arena, Solna, Sweden's normal home ground, kick-off 20:45 local (19:45 UTC). Roof closed per the venue, so weather and pitch are not a factor."
+        "team_news": "NEW: official XIs are out (ESPN summary, event 401861166). Sweden start Gudmundsson (the thigh/back doubt is cleared), Isak, Gyokeres, Elanga, Nanasi, Ayari, Larsson, Lindelof, Lagerbielke, Svensson and Johansson in goal. Kulusevski is not in the XI, which fits his managed minutes. Bosnia start Zlomislic in goal, Katic, Kolasinac, Radeljic, Dedic, Gigovic, Demirovic, Basic, Alajbegovic, Bajraktarevic and Tabakovic. This is as expected given Muharemovic (suspended) and Hadzikadunic (injured) are out. Jovo Lukic is not in the XI, so his back problem may have kept him out. No new late injury found. The earlier absences still hold: Starfelt, Hien, Holm, Bergvall, Svanberg and Zeneli out for Sweden, and Dzeko retired for Bosnia.",
+        "lineups": "CONFIRMED per ESPN. Sweden 4-4-2: Johansson; Svensson, Lindelof, Lagerbielke, Gudmundsson; Elanga, Ayari, Larsson, Nanasi; Isak, Gyokeres. Bosnia 3-5-2: Zlomislic; Katic, Kolasinac, Radeljic; Dedic, Gigovic, Demirovic, Basic, Alajbegovic; Bajraktarevic, Tabakovic. Sweden are at full strength up front with the first-choice goalkeeper.",
+        "rotation": "None. Sweden are at essentially full strength and Bosnia are fielding a settled side. Nothing changed from this morning.",
+        "motivation": "Unchanged. A Swedish win clinches the group and promotion. Bosnia need a result.",
+        "form": "Unchanged from this morning. Sweden: W, D 1-1 at Bosnia, W, W, L 0-3 to France. Bosnia are unbeaten in the group.",
+        "h2h": "Unchanged. The 2 Oct meeting in Zenica ended 1-1, when Bosnia had Dzeko and Muharemovic, and now they have neither.",
+        "odds": "Live Polymarket: Sweden 0.663, draw 0.203, Bosnia 0.133. The price has not moved against Sweden since this morning (0.660). Over 24h Sweden moved from 0.635 to 0.645. DraftKings via ESPN is now 1.44 / 4.30 / 6.00 (morning 1.40 / 4.40 / 7.00, opening 1.49 / 4.00 / 5.50), de-vigged 63.4 / 21.3 / 15.3, total 2.5. The slight drift back toward Bosnia at DraftKings is small and not tied to any news. Slip legs: Sweden draw no bet is 0.867 at market. Under 3.5 is 0.615 at market, which looks low next to the 2.5 total and the 0.805 for under 4.5. I hold it at the top of the allowed range.",
+        "models": "World Football Elo: Sweden 1774 v Bosnia 1672, expected score 0.762, about 0.62 to 0.65 win after allowing for draws. That is close to the live market, so the sources agree.",
+        "venue_weather": "Strawberry Arena, Solna, roof closed, kick-off 19:45 UTC. Not a factor."
       },
-      "reason": "Fixture verified: Nations League B Group 4, Sat 14 Nov 2026, Strawberry Arena. Sweden are the home favourite on 1774 v 1672 Elo, with a win clinching the group and promotion. Overnight the market moved from 0.633 to 0.683 on Sweden. I found no single story behind it, but Barbarez's press conference confirmed Bosnia are without suspended Muharemovic and injured Hadzikadunic, Dzeko has retired, and Sweden report no injuries beyond a small doubt over Gudmundsson and managed minutes for Kulusevski. That supports a higher Sweden price than last night, so I moved home from 0.62 to 0.66 but stay below the 0.683 market because Elo implies about 0.62, Bosnia are unbeaten in the group and drew 1-1 in October. The draw is held at 22 percent and p is within 5 points of the live market on every outcome. Confidence stays medium: the move is unexplained and the XI is unconfirmed. Double chance or draw no bet is safer than the straight win. No hard exclusion applies.",
-      "main_risk": "A draw. Bosnia are unbeaten in the group, drew 1-1 in October and have a compact shape, and Barbarez says he wants to win. Sweden are thin in defence (Starfelt, Hien, Holm out, Gudmundsson doubtful). The price has risen 5 points overnight without a clear news trigger, so the straight win is worse value than last night. The XIs are unconfirmed.",
+      "reason": "Official XIs are confirmed: Sweden are at full strength with Isak, Gyokeres and Gudmundsson starting, and Bosnia are missing Muharemovic, Hadzikadunic and Dzeko, so the pre-match view holds. The live price is 0.663 and has not moved against Sweden, DraftKings and the Elo rating agree with it, and no new negative news turned up, so confidence goes from medium to high. I set home 0.65, draw 0.21 and away 0.14, each within 5 points of the market. Leg views: Sweden draw no bet 0.83 (market 0.867), since the 0.65 win and 0.14 loss imply about 0.82. Under 3.5 goals 0.665 (market 0.615). That market price looks too low for a 2.5-total game, but I cap the view at the 5-point limit. The draw remains the main risk to the straight win.",
+      "main_risk": "A draw. Bosnia are compact and unbeaten in the group, and the October game finished 1-1. For the draw no bet leg, the risk is an outright Bosnia win, since Sweden are thin at centre-back. For under 3.5, the risk is an open game: the over 3.5 price is about 38 percent at the market, which is higher than the 2.5 total implies.",
       "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861166",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261114",
         "https://www.sportsgambler.com/betting-tips/football/sweden-vs-bosnia-herzegovina-prediction-lineups-odds-2026-11-14/",
-        "https://en.wikipedia.org/wiki/2026%E2%80%9327_UEFA_Nations_League_B",
         "https://www.svt.se/sport/fotboll/potters-lugnande-besked-alla-ar-tillgangliga",
         "https://www.fotbollskanalen.se/artiklar/sverige/potters-besked-om-gyokeres-och-kulusevski",
-        "https://www.tvmatchen.nu/sport/fotboll/sverige-bosnien-14-november-2026/",
-        "https://radiosarajevo.ba/sport/nogomet/barbarez-najavio-okrsaj-sa-svedskom-zelim-im-pokvariti-dan/660728",
-        "https://www.goal.com/en/news/newcastle-united-amar-dedic-bosnia-nations-league/blt4af7472c162cdb00",
-        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261114",
-        "https://www.eloratings.net/",
-        "https://strawberryarena.se/en/events/sport/sweden-bosnia-herzegovina/"
+        "https://www.eloratings.net/"
       ],
-      "views": {
-        "ou_2.5_over": 0.56
-      },
       "prices": []
     },
     {
@@ -185,40 +180,39 @@
     {
       "id": "1294232",
       "exclude": false,
-      "confidence": "medium",
+      "confidence": "high",
       "p": {
-        "home": 0.57,
-        "draw": 0.265,
-        "away": 0.165
+        "home": 0.59,
+        "draw": 0.255,
+        "away": 0.155
       },
       "checks": {
-        "team_news": "RESOLVED this morning from Austrian press (laola1.at, flashscore.de, weekend.at, derStandard, all 13 Nov): Xaver Schlager (right thigh) and Alexander Prass (left thigh) are OUT of the Ireland game with muscle injuries (MRI showed structural damage; Rangnick called it 'a bit puzzling'). Yanik Spalt (Stuttgart, 19) called up as replacement. ÖFB says they may be back for Tuesday's game at Israel in Debrecen. So last night's 'fit or not' conflict is settled: both absent, and the predicted XIs that included them are wrong. Other Austria absentees from last night still stand (Wimmer, Alaba, Wanner, Chukwuemeka, Grull per RTE; Wober, Veratschnig per Racing Post/Mightytips). Ireland: no new injury news found; Collins and Travers return, Bazunu out, Bagan, K. Phillips and Elding left the squad (Racing Post).",
-        "lineups": "Not official. Laola1 (13 Nov) expects A. Schlager in goal, Seiwald and captain Laimer in midfield, Baumgartner starting but limited to about 70 minutes (Rangnick); youngsters Weinhandl and Spalt are options. No full XI published. Austria's midfield therefore lacks X. Schlager and Prass in attack/midfield; Sports Mole's predicted XI with both is outdated. Ireland predicted 3-4-2-1: Kelleher; Collins/O'Shea/Egan or Scales; Moylan, Idah, Parrott up front. No Hallgrimsson eve-of-match XI hint found beyond 'We'll see tomorrow'. Official XIs to be checked ~60 min before kick-off.",
-        "rotation": "Austria top the group and are unbeaten in 14 home games (11W, 3D). Both Austria (at Israel in Debrecen) and Ireland (home to Kosovo) play again on Tuesday; Baumgartner's 70-minute limit shows some load management, but no heavy rotation confirmed. Rangnick rotated six players in the Dublin game.",
-        "motivation": "Group B3: Austria lead with 8 points, unbeaten; a home win could secure the group and promotion to League A early (flashscore.de). Ireland third on 5 points after 4 games and need a result. Both sides have a lot to play for.",
-        "form": "Austria: unbeaten in last 4 (W,W,D,D in Nations League), no clean sheet in last 8 matches, five straight home wins (Racing Post). Ireland: L,W,D,D in Nations League, only defeat 1-0 to Kosovo; only away win in four came vs Israel on neutral ground. xG not found.",
-        "h2h": "Ireland 2-2 Austria in Dublin on 1 Oct 2026 (Ireland led 2-0 at half-time, Prass and Gregoritsch equalised). Ireland unbeaten in last three meetings (one win). Austria leaky and Ireland score; draw risk is real.",
-        "odds": "LIVE this morning: Polymarket home 0.6034 / draw 0.2332 / away 0.1634 (last night 0.615 home, so -1.2 pts on home since last night; the move is small and the Schlager/Prass absence story, published 13 Nov, explains it). DraftKings via ESPN: home 1.59, draw 3.85, away 5.25, de-vigged 58.3/24.1/17.6, opening 1.56/3.85/5.00 (home drifted slightly from 1.56 to 1.59). Paddy Power last night: Austria 4-7, draw 14-5, Ireland 4-1. Draw-no-bet leg (home_dnb) live 0.8366, which is 1 minus the away price.",
-        "models": "World Football Elo (eloratings.net World.tsv, read this morning): Austria 1841, Ireland 1711; with 100 points for home advantage the expected score for Austria is 0.790 (a draw counts as half), in line with roughly a 57-60% win and a 25% draw. No other bookmaker-free model found; Sports Mole predicts 2-2.",
-        "venue_weather": "Raiffeisen Arena, Linz, Austria home ground, kickoff 19:45 UTC (20:45 local). Dry and clear, about 7C by day dropping close to 0C by kickoff (RTE); no pitch issue reported."
+        "team_news": "Unchanged from the morning, and nothing new today. Xaver Schlager (right thigh) and Alexander Prass (left thigh) are out, and Marco Grull has also pulled out (Sports Mole). Wimmer, Alaba, Wanner, Chukwuemeka, Wober and Veratschnig are still absent. Ireland report a clean bill of health, with Collins back from his calf problem. No late injury, illness or goalkeeper news found.",
+        "lineups": "CONFIRMED. The ESPN summary lists the starters for both sides, and bet365 and the Irish Times live blog agree on Ireland. Austria (4-2-3-1): A. Schlager; Posch, Danso, Lienhart, Mwene; Seiwald, Laimer; Lang, Baumgartner, Schmid; Gregoritsch. Danso, Lienhart, Mwene, Posch, Baumgartner, Laimer, Seiwald, Gregoritsch and Schmid all start, so only the known absentees are missing and there is no heavy rotation. Ireland (ESPN lists 3-5-2; bet365 gives a back four): Kelleher; Abankwah, O'Brien or Scales, Collins; Manning, Moylan, Molumby, Azaz; Idah, Parrott. Kelleher is in goal, and an attacking Irish selection (Irish Times).",
+        "rotation": "No heavy rotation. Austria start their first-choice back four, double pivot and Gregoritsch. Baumgartner may still be limited to about 70 minutes (Rangnick, 13 Nov). Both teams play again Tuesday (Austria at Israel, Ireland v Kosovo).",
+        "motivation": "Unchanged. Austria lead Group B3 on 8 points, and a win secures promotion to League A. Ireland are on 5 points and need a result.",
+        "form": "Unchanged. Austria are unbeaten in 14 home games but have no clean sheet in 8 matches. Ireland L,W,D,D in the Nations League.",
+        "h2h": "Unchanged. Ireland 2-2 Austria in Dublin on 1 Oct 2026 (Ireland led 2-0 at half-time). Draw risk is real.",
+        "odds": "LIVE now (about 60 min before kick-off): Polymarket home 0.6034 / draw 0.2432 / away 0.1535, versus 0.5966 / 0.2468 / 0.1565 this morning. The price has moved slightly towards Austria and away from Ireland, so it has not moved against the leg. The 24h move on home is flat (0.605 to 0.605). DraftKings (ESPN) is now 1.57 / 3.75 / 5.75, de-vigged 59.1 / 24.8 / 16.1, against an opening of 1.56 / 3.85 / 5.00. Ireland have drifted from 5.00 to 5.75, which is good for the DNB leg. Draw no bet (home_dnb) live 0.8466, which is 1 minus the away price.",
+        "models": "Unchanged. World Football Elo has Austria 1841 and Ireland 1711, and with home advantage Austria's expected score is 0.79. That fits a 57-60% Austria win and a draw near 25%. Odds and rating sources agree.",
+        "venue_weather": "Raiffeisen Arena, Linz, kick-off 19:45 UTC (20:45 local). Dry and clear, close to 0C at kick-off. No pitch issue reported."
       },
-      "reason": "Market has Austria 60.3%, draw 23.3%, Ireland 16.3%. Austria are a strong home side (14 unbeaten at home, group leaders) but this morning's Austrian press confirms X. Schlager and Prass are out, on top of Wimmer, Alaba, Wanner and others; they have no clean sheet in 8 and drew 2-2 in Dublin after trailing 2-0. The market has barely moved, so I shade the draw up 3.3 points to 26.5%, Austria down 3.3 points to 57%, and keep Ireland near market at 16.5%. For the slip's Austria draw no bet leg (loses only if Ireland win) my P(Ireland not winning) is 83.5% vs market 83.7%: essentially fair, so no edge, but the only way it loses is an Ireland win, which needs Austria to lose at home where they are unbeaten in 14. Confidence stays medium: absences confirmed but already largely priced, goalkeeper A. Schlager plays, no official XI yet.",
-      "main_risk": "Ireland win (the only way the DNB leg loses): Austria without X. Schlager, Prass and other regulars, leaky defence (no clean sheet in 8), Ireland led 2-0 in the first meeting and have Parrott in form. Draw would only void the DNB stake. Secondary risk: unknown XI and Baumgartner limited to about 70 minutes.",
+      "reason": "Official XIs are out and confirm the morning picture. Austria are missing only the known absentees (X. Schlager, Prass, Grull and others) and start their strongest available side, with A. Schlager in goal, against an Ireland team that is also at full strength with Kelleher. The price has not moved against Austria; Ireland's price drifted from 5.00 to 5.75 at DraftKings and the Polymarket away price eased from 0.1565 to 0.1535. I keep a small draw shade (25.5% vs 24.3% market) because Austria have no clean sheet in 8 and drew 2-2 in Dublin. For the draw no bet leg, my P(Ireland not winning) is 84.5% against a market 84.66%, essentially fair. The leg loses only on an Ireland win, which needs Austria to lose at home where they are unbeaten in 14. Confidence is high: lineup confirmed, nothing new wrong, price not against the leg, and odds and Elo agree.",
+      "main_risk": "An Ireland win is the only way the DNB leg loses. The risks are Austria's leaky defence (no clean sheet in 8), the early lead Ireland took in Dublin, an in-form Parrott and Idah, and the absence of X. Schlager and Prass. A draw only voids the stake.",
       "sources": [
-        "https://www.laola1.at/de/red/fussball/oefb-nationalteam/a-team/news/wie-stellt-rangnick-nach-raetselhaften-verletzungen-auf-/",
-        "https://www.flashscore.de/news/fu-ball-uefa-nations-league-prass-und-schlager-fehlen-osterreich-verletzt-stuttgarter-spalt-erstmals-im-ofb-kader/2JV5a23S/",
-        "https://www.weekend.at/sport/oefb-team-schlager-prass-verletzt",
-        "https://www.derstandard.at/consent/tcf/story/3000000349100/xaver-schlager-und-alexander-prass-fallen-gegen-irland-aus",
-        "https://www.rte.ie/sport/soccer/2026/1113/1599136-nations-league-austria-v-ireland-all-you-need-to-know/",
-        "https://www.racingpost.com/sport/football-tips/nations-league/austria-vs-ireland-predictions-team-news-odds-betting-tips-bet-builder-ahRR08d2vNli/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861170",
         "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261114",
-        "https://www.eloratings.net/Austria",
-        "https://www.eloratings.net/"
+        "https://news.bet365.com/en-gb/article/republic-of-ireland-starting-line-up-and-team-news-against-austria/2026111417524805167",
+        "https://www.irishtimes.com/sport/soccer/2026/11/14/live-republic-of-ireland-v-austria-updates-heimir-hallgrimssons-side-in-linz-for-nations-league-clash/",
+        "https://lastwordonsports.com/football/2026/11/14/ireland-vs-austria-confirmed-lineups-news-nov/",
+        "https://www.sportsmole.co.uk/football/austria/uefa-nations-league/preview/austria-vs-rep-ireland-prediction-team-news-lineups_609009.html",
+        "https://www.laola1.at/de/red/fussball/oefb-nationalteam/a-team/news/wie-stellt-rangnick-nach-raetselhaften-verletzungen-auf-/",
+        "https://www.eloratings.net/Austria"
       ],
       "views": {
-        "ah_away_+1.5": 0.64,
-        "ou_1.5_over": 0.77,
-        "ou_3.5_under": 0.69
+        "ah_away_+1.5": 0.65,
+        "ou_1.5_over": 0.74,
+        "ou_3.5_under": 0.72
       },
       "prices": []
     },

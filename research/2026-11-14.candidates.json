@@ -167,11 +167,11 @@
       "data": {
         "move_24h": {
           "side": "away",
-          "from": 0.78,
-          "to": 0.775,
-          "relative_change": -0.006
+          "from": 0.775,
+          "to": 0.805,
+          "relative_change": 0.039
         },
-        "fetched_at": "2026-11-14T15:21:46.529Z"
+        "fetched_at": "2026-11-14T18:45:34.061Z"
       }
     },
     {
@@ -204,7 +204,7 @@
           "to": 0.765,
           "relative_change": 0
         },
-        "fetched_at": "2026-11-14T15:21:46.843Z"
+        "fetched_at": "2026-11-14T18:45:33.902Z"
       }
     },
     {
@@ -287,11 +287,11 @@
       "data": {
         "move_24h": {
           "side": "away",
-          "from": 0.695,
+          "from": 0.7,
           "to": 0.705,
-          "relative_change": 0.014
+          "relative_change": 0.007
         },
-        "fetched_at": "2026-11-14T15:21:47.036Z"
+        "fetched_at": "2026-11-14T18:45:34.150Z"
       }
     },
     {
@@ -324,7 +324,7 @@
           "to": 0.665,
           "relative_change": 0.015
         },
-        "fetched_at": "2026-11-14T15:21:47.052Z"
+        "fetched_at": "2026-11-14T18:45:34.139Z"
       }
     },
     {
@@ -357,7 +357,7 @@
           "to": 0.655,
           "relative_change": 0
         },
-        "fetched_at": "2026-11-14T15:21:47.071Z"
+        "fetched_at": "2026-11-14T18:45:34.471Z"
       }
     },
     {
@@ -370,38 +370,38 @@
       "start": "2026-11-14T19:45:00.000Z",
       "coverage": 1,
       "p_market": {
-        "home": 0.6234,
-        "draw": 0.2132,
-        "away": 0.1634
+        "home": 0.6066,
+        "draw": 0.2168,
+        "away": 0.1766
       },
       "legs_in_range": [
         {
           "key": "home",
           "label": "Match winner",
           "selection": "Portugal",
-          "p_market": 0.6234,
-          "fair_odds": 1.6
+          "p_market": 0.6066,
+          "fair_odds": 1.65
         },
         {
           "key": "home_draw",
           "label": "Double chance",
           "selection": "Portugal or Draw",
-          "p_market": 0.8366,
-          "fair_odds": 1.2
+          "p_market": 0.8234,
+          "fair_odds": 1.21
         },
         {
           "key": "home_dnb",
           "label": "Draw no bet",
           "selection": "Portugal",
-          "p_market": 0.8366,
-          "fair_odds": 1.26
+          "p_market": 0.8234,
+          "fair_odds": 1.29
         },
         {
           "key": "ah_away_+1.5",
           "label": "Handicap",
           "selection": "Denmark +1.5",
-          "p_market": 0.625,
-          "fair_odds": 1.6
+          "p_market": 0.635,
+          "fair_odds": 1.57
         },
         {
           "key": "ah_away_+2.5",
@@ -428,8 +428,8 @@
           "key": "ou_3.5_under",
           "label": "Total goals",
           "selection": "Under 3.5",
-          "p_market": 0.595,
-          "fair_odds": 1.68
+          "p_market": 0.605,
+          "fair_odds": 1.65
         },
         {
           "key": "ou_4.5_under",
@@ -442,15 +442,15 @@
           "key": "btts_yes",
           "label": "Both teams to score",
           "selection": "Yes",
-          "p_market": 0.595,
-          "fair_odds": 1.68
+          "p_market": 0.605,
+          "fair_odds": 1.65
         },
         {
           "key": "tt_home_1.5_over",
           "label": "Portugal goals",
           "selection": "Over 1.5",
-          "p_market": 0.65,
-          "fair_odds": 1.54
+          "p_market": 0.64,
+          "fair_odds": 1.56
         },
         {
           "key": "tt_home_2.5_under",
@@ -463,15 +463,15 @@
           "key": "tt_away_0.5_over",
           "label": "Denmark goals",
           "selection": "Over 0.5",
-          "p_market": 0.65,
-          "fair_odds": 1.54
+          "p_market": 0.665,
+          "fair_odds": 1.5
         },
         {
           "key": "tt_away_1.5_under",
           "label": "Denmark goals",
           "selection": "Under 1.5",
-          "p_market": 0.705,
-          "fair_odds": 1.42
+          "p_market": 0.7,
+          "fair_odds": 1.43
         }
       ],
       "data": {
@@ -480,9 +480,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261114",
           "espn_match": "Denmark at Portugal",
           "decimal": {
-            "home": 1.53,
-            "draw": 4.2,
-            "away": 5.25
+            "home": 1.56,
+            "draw": 4.1,
+            "away": 5
           },
           "opening": {
             "home": 1.45,
@@ -490,17 +490,17 @@
             "away": 5.25
           },
           "p_devig": {
-            "home": 0.605,
-            "draw": 0.22,
-            "away": 0.176
+            "home": 0.592,
+            "draw": 0.224,
+            "away": 0.184
           },
-          "total": 3.5
+          "total": 2.5
         },
         "move_24h": {
           "side": "home",
           "from": 0.645,
-          "to": 0.615,
-          "relative_change": -0.047
+          "to": 0.605,
+          "relative_change": -0.062
         },
         "rating": {
           "model": "World Football Elo (eloratings.net)",
@@ -515,7 +515,7 @@
           },
           "expected_score_home": 0.845
         },
-        "fetched_at": "2026-11-14T15:21:47.314Z"
+        "fetched_at": "2026-11-14T18:45:34.701Z"
       },
       "morning_p_market": {
         "home": 0.6234,
@@ -549,11 +549,11 @@
       "data": {
         "move_24h": {
           "side": "away",
-          "from": 0.625,
-          "to": 0.655,
-          "relative_change": 0.048
+          "from": 0.645,
+          "to": 0.665,
+          "relative_change": 0.031
         },
-        "fetched_at": "2026-11-14T15:21:47.513Z"
+        "fetched_at": "2026-11-14T18:45:34.365Z"
       }
     },
     {
@@ -566,23 +566,23 @@
       "start": "2026-11-14T19:45:00.000Z",
       "coverage": 1,
       "p_market": {
-        "home": 0.6598,
-        "draw": 0.2107,
-        "away": 0.1296
+        "home": 0.6634,
+        "draw": 0.2031,
+        "away": 0.1334
       },
       "legs_in_range": [
         {
           "key": "home",
           "label": "Match winner",
           "selection": "Sweden",
-          "p_market": 0.6598,
-          "fair_odds": 1.52
+          "p_market": 0.6634,
+          "fair_odds": 1.51
         },
         {
           "key": "home_dnb",
           "label": "Draw no bet",
           "selection": "Sweden",
-          "p_market": 0.8705,
+          "p_market": 0.8665,
           "fair_odds": 1.2
         },
         {
@@ -596,64 +596,64 @@
           "key": "ah_away_+2.5",
           "label": "Handicap",
           "selection": "Bosnia and Herzegovina +2.5",
-          "p_market": 0.79,
-          "fair_odds": 1.27
+          "p_market": 0.77,
+          "fair_odds": 1.3
         },
         {
           "key": "ou_1.5_over",
           "label": "Total goals",
           "selection": "Over 1.5",
-          "p_market": 0.795,
-          "fair_odds": 1.26
+          "p_market": 0.825,
+          "fair_odds": 1.21
         },
         {
           "key": "ou_2.5_over",
           "label": "Total goals",
           "selection": "Over 2.5",
-          "p_market": 0.565,
-          "fair_odds": 1.77
+          "p_market": 0.605,
+          "fair_odds": 1.65
         },
         {
           "key": "ou_3.5_under",
           "label": "Total goals",
           "selection": "Under 3.5",
-          "p_market": 0.655,
-          "fair_odds": 1.53
+          "p_market": 0.615,
+          "fair_odds": 1.63
         },
         {
           "key": "ou_4.5_under",
           "label": "Total goals",
           "selection": "Under 4.5",
-          "p_market": 0.825,
-          "fair_odds": 1.21
+          "p_market": 0.805,
+          "fair_odds": 1.24
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.545,
+          "fair_odds": 1.83
         },
         {
           "key": "tt_home_1.5_over",
           "label": "Sweden goals",
           "selection": "Over 1.5",
-          "p_market": 0.63,
-          "fair_odds": 1.59
+          "p_market": 0.655,
+          "fair_odds": 1.53
         },
         {
           "key": "tt_home_2.5_under",
           "label": "Sweden goals",
           "selection": "Under 2.5",
-          "p_market": 0.65,
-          "fair_odds": 1.54
-        },
-        {
-          "key": "tt_away_0.5_over",
-          "label": "Bosnia and Herzegovina goals",
-          "selection": "Over 0.5",
-          "p_market": 0.59,
-          "fair_odds": 1.69
+          "p_market": 0.625,
+          "fair_odds": 1.6
         },
         {
           "key": "tt_away_1.5_under",
           "label": "Bosnia and Herzegovina goals",
           "selection": "Under 1.5",
-          "p_market": 0.795,
-          "fair_odds": 1.26
+          "p_market": 0.78,
+          "fair_odds": 1.28
         }
       ],
       "data": {
@@ -662,9 +662,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261114",
           "espn_match": "Bosnia-Herzegovina at Sweden",
           "decimal": {
-            "home": 1.43,
+            "home": 1.44,
             "draw": 4.3,
-            "away": 6.5
+            "away": 6
           },
           "opening": {
             "home": 1.49,
@@ -672,17 +672,17 @@
             "away": 5.5
           },
           "p_devig": {
-            "home": 0.645,
-            "draw": 0.214,
-            "away": 0.141
+            "home": 0.634,
+            "draw": 0.213,
+            "away": 0.153
           },
           "total": 2.5
         },
         "move_24h": {
           "side": "home",
           "from": 0.635,
-          "to": 0.665,
-          "relative_change": 0.047
+          "to": 0.645,
+          "relative_change": 0.016
         },
         "rating": {
           "model": "World Football Elo (eloratings.net)",
@@ -697,12 +697,12 @@
           },
           "expected_score_home": 0.762
         },
-        "fetched_at": "2026-11-14T15:21:47.405Z"
+        "fetched_at": "2026-11-14T18:45:34.701Z"
       },
       "morning_p_market": {
-        "home": 0.6666,
-        "draw": 0.2069,
-        "away": 0.1265
+        "home": 0.6598,
+        "draw": 0.2107,
+        "away": 0.1296
       }
     },
     {
@@ -764,11 +764,11 @@
       "data": {
         "move_24h": {
           "side": "away",
-          "from": 0.615,
+          "from": 0.625,
           "to": 0.625,
-          "relative_change": 0.016
+          "relative_change": 0
         },
-        "fetched_at": "2026-11-14T15:21:47.517Z"
+        "fetched_at": "2026-11-14T18:45:34.986Z"
       }
     },
     {
@@ -801,7 +801,7 @@
           "to": 0.605,
           "relative_change": -0.016
         },
-        "fetched_at": "2026-11-14T15:21:47.734Z"
+        "fetched_at": "2026-11-14T18:45:34.896Z"
       }
     },
     {
@@ -834,7 +834,7 @@
           "to": 0.605,
           "relative_change": 0.017
         },
-        "fetched_at": "2026-11-14T15:21:47.726Z"
+        "fetched_at": "2026-11-14T18:45:34.921Z"
       }
     },
     {
@@ -847,38 +847,38 @@
       "start": "2026-11-14T19:45:00.000Z",
       "coverage": 1,
       "p_market": {
-        "home": 0.5966,
-        "draw": 0.2468,
-        "away": 0.1565
+        "home": 0.6034,
+        "draw": 0.2432,
+        "away": 0.1535
       },
       "legs_in_range": [
         {
           "key": "home",
           "label": "Match winner",
           "selection": "Austria",
-          "p_market": 0.5966,
-          "fair_odds": 1.68
+          "p_market": 0.6034,
+          "fair_odds": 1.66
         },
         {
           "key": "home_draw",
           "label": "Double chance",
           "selection": "Austria or Draw",
-          "p_market": 0.8434,
-          "fair_odds": 1.19
+          "p_market": 0.8466,
+          "fair_odds": 1.18
         },
         {
           "key": "home_dnb",
           "label": "Draw no bet",
           "selection": "Austria",
-          "p_market": 0.8434,
-          "fair_odds": 1.26
+          "p_market": 0.8466,
+          "fair_odds": 1.25
         },
         {
           "key": "ah_away_+1.5",
           "label": "Handicap",
           "selection": "Republic of Ireland +1.5",
-          "p_market": 0.675,
-          "fair_odds": 1.48
+          "p_market": 0.665,
+          "fair_odds": 1.5
         },
         {
           "key": "ou_1.5_over",
@@ -898,15 +898,15 @@
           "key": "tt_home_0.5_over",
           "label": "Austria goals",
           "selection": "Over 0.5",
-          "p_market": 0.835,
+          "p_market": 0.83,
           "fair_odds": 1.2
         },
         {
           "key": "tt_home_1.5_over",
           "label": "Austria goals",
           "selection": "Over 1.5",
-          "p_market": 0.535,
-          "fair_odds": 1.87
+          "p_market": 0.53,
+          "fair_odds": 1.89
         },
         {
           "key": "tt_home_2.5_under",
@@ -919,8 +919,8 @@
           "key": "tt_away_0.5_over",
           "label": "Republic of Ireland goals",
           "selection": "Over 0.5",
-          "p_market": 0.555,
-          "fair_odds": 1.8
+          "p_market": 0.55,
+          "fair_odds": 1.82
         },
         {
           "key": "tt_away_1.5_under",
@@ -936,9 +936,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261114",
           "espn_match": "Republic of Ireland at Austria",
           "decimal": {
-            "home": 1.59,
+            "home": 1.57,
             "draw": 3.75,
-            "away": 5.5
+            "away": 5.75
           },
           "opening": {
             "home": 1.56,
@@ -946,19 +946,19 @@
             "away": 5
           },
           "p_devig": {
-            "home": 0.584,
-            "draw": 0.247,
-            "away": 0.169
+            "home": 0.591,
+            "draw": 0.248,
+            "away": 0.161
           },
           "total": 2.5
         },
         "move_24h": {
           "side": "home",
           "from": 0.605,
-          "to": 0.595,
-          "relative_change": -0.017
+          "to": 0.605,
+          "relative_change": 0
         },
-        "fetched_at": "2026-11-14T15:21:47.733Z"
+        "fetched_at": "2026-11-14T18:45:34.921Z"
       },
       "morning_p_market": {
         "home": 0.5966,
@@ -1017,7 +1017,7 @@
           "to": 0.595,
           "relative_change": 0
         },
-        "fetched_at": "2026-11-14T15:21:47.756Z"
+        "fetched_at": "2026-11-14T18:45:35.300Z"
       }
     },
     {
@@ -1047,8 +1047,8 @@
         "move_24h": {
           "side": "away",
           "from": 0.705,
-          "to": 0.695,
-          "relative_change": -0.014
+          "to": 0.705,
+          "relative_change": 0
         },
         "rating": {
           "model": "Tennis Abstract Elo",
@@ -1069,7 +1069,7 @@
             "blend_hard": 0.595
           }
         },
-        "fetched_at": "2026-11-14T15:21:48.201Z"
+        "fetched_at": "2026-11-14T18:45:35.293Z"
       }
     },
     {
@@ -1121,7 +1121,7 @@
             "blend_hard": 0.535
           }
         },
-        "fetched_at": "2026-11-14T15:21:48.201Z"
+        "fetched_at": "2026-11-14T18:45:35.293Z"
       }
     },
     {
@@ -1154,7 +1154,7 @@
           "to": 0.575,
           "relative_change": -0.017
         },
-        "fetched_at": "2026-11-14T15:21:47.924Z"
+        "fetched_at": "2026-11-14T18:45:35.178Z"
       }
     },
     {
@@ -1183,11 +1183,11 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.565,
+          "from": 0.555,
           "to": 0.535,
-          "relative_change": -0.053
+          "relative_change": -0.036
         },
-        "fetched_at": "2026-11-14T15:21:47.946Z"
+        "fetched_at": "2026-11-14T18:45:35.573Z"
       }
     },
     {
@@ -1410,9 +1410,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261114",
           "espn_match": "Poland at Romania",
           "decimal": {
-            "home": 4.8,
+            "home": 4.5,
             "draw": 3.9,
-            "away": 1.63
+            "away": 1.67
           },
           "opening": {
             "home": 3.3,
@@ -1420,17 +1420,17 @@
             "away": 1.95
           },
           "p_devig": {
-            "home": 0.193,
-            "draw": 0.237,
-            "away": 0.57
+            "home": 0.206,
+            "draw": 0.238,
+            "away": 0.556
           },
           "total": 2.5
         },
         "move_24h": {
           "side": "away",
           "from": 0.515,
-          "to": 0.585,
-          "relative_change": 0.136
+          "to": 0.595,
+          "relative_change": 0.155
         },
         "rating": {
           "model": "World Football Elo (eloratings.net)",
@@ -1445,7 +1445,7 @@
           },
           "expected_score_home": 0.456
         },
-        "fetched_at": "2026-11-14T15:21:48.484Z"
+        "fetched_at": "2026-11-14T18:45:35.531Z"
       }
     },
     {
@@ -1635,9 +1635,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261114",
           "espn_match": "Ukraine at Northern Ireland",
           "decimal": {
-            "home": 2.5,
-            "draw": 2.8,
-            "away": 3.05
+            "home": 2.6,
+            "draw": 2.85,
+            "away": 2.95
           },
           "opening": {
             "home": 2.25,
@@ -1645,9 +1645,9 @@
             "away": 3.05
           },
           "p_devig": {
-            "home": 0.369,
-            "draw": 0.329,
-            "away": 0.302
+            "home": 0.358,
+            "draw": 0.327,
+            "away": 0.315
           },
           "total": 1.5
         },
@@ -1670,7 +1670,7 @@
           },
           "expected_score_home": 0.569
         },
-        "fetched_at": "2026-11-14T15:21:48.427Z"
+        "fetched_at": "2026-11-14T18:45:35.548Z"
       }
     },
     {
@@ -2315,10 +2315,10 @@
         "move_24h": {
           "side": "home",
           "from": 0.48,
-          "to": 0.485,
-          "relative_change": 0.01
+          "to": 0.445,
+          "relative_change": -0.073
         },
-        "fetched_at": "2026-11-14T15:21:48.798Z"
+        "fetched_at": "2026-11-14T18:45:35.630Z"
       }
     }
   ]
