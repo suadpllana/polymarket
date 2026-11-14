@@ -1,0 +1,1032 @@
+{
+  "date": "2026-11-15",
+  "window": {
+    "start": "2026-11-15T08:00:00.000Z",
+    "end": "2026-11-15T22:00:00.000Z"
+  },
+  "games_in_window": 37,
+  "games": [
+    {
+      "id": "1300579",
+      "league": "Nations League",
+      "sport": "football",
+      "event": "Finland vs. San Marino",
+      "home": "Finland",
+      "away": "San Marino",
+      "start": "2026-11-15T17:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.944,
+        "draw": 0.0425,
+        "away": 0.0134
+      },
+      "p_first": {
+        "home": 0.944,
+        "draw": 0.0425,
+        "away": 0.0134
+      },
+      "legs_in_range": [
+        {
+          "key": "ou_3.5_over",
+          "label": "Total goals",
+          "selection": "Over 3.5",
+          "p_market": 0.595,
+          "fair_odds": 1.68
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.605,
+          "fair_odds": 1.65
+        }
+      ],
+      "legs_first": {
+        "ou_3.5_over": 0.595,
+        "ou_4.5_under": 0.605
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261115",
+          "espn_match": "San Marino at Finland",
+          "decimal": {
+            "home": 1.02,
+            "draw": 14,
+            "away": 31
+          },
+          "opening": {
+            "home": 1.02,
+            "draw": 13,
+            "away": 41
+          },
+          "p_devig": {
+            "home": 0.904,
+            "draw": 0.066,
+            "away": 0.03
+          },
+          "total": 4.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.95,
+          "to": 0.945,
+          "relative_change": -0.005
+        },
+        "rating": {
+          "model": "World Football Elo (eloratings.net)",
+          "source": "https://www.eloratings.net/",
+          "home": {
+            "name": "Finland",
+            "elo": 1514
+          },
+          "away": {
+            "name": "San Marino",
+            "elo": 818
+          },
+          "expected_score_home": 0.99
+        },
+        "fetched_at": "2026-11-14T22:16:43.562Z"
+      }
+    },
+    {
+      "id": "1258839",
+      "league": "NFL",
+      "sport": "american_football",
+      "event": "Jaguars vs. Titans",
+      "home": "Jaguars",
+      "away": "Titans",
+      "start": "2026-11-15T18:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.835,
+        "draw": 0,
+        "away": 0.165
+      },
+      "p_first": {
+        "home": 0.835,
+        "draw": 0,
+        "away": 0.165
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Jaguars",
+          "p_market": 0.835,
+          "fair_odds": 1.2
+        }
+      ],
+      "legs_first": {
+        "home": 0.835
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115",
+          "espn_match": "Jacksonville Jaguars at Tennessee Titans",
+          "decimal": {
+            "home": 1.15,
+            "draw": null,
+            "away": 5.7
+          },
+          "opening": {
+            "home": 1.74,
+            "draw": null,
+            "away": 2.14
+          },
+          "p_devig": {
+            "home": 0.832,
+            "draw": 0,
+            "away": 0.168
+          },
+          "total": 46.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.835,
+          "to": 0.835,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-14T22:16:43.371Z"
+      }
+    },
+    {
+      "id": "1300584",
+      "league": "Nations League",
+      "sport": "football",
+      "event": "France vs. Türkiye",
+      "home": "France",
+      "away": "Türkiye",
+      "start": "2026-11-15T19:45:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.8036,
+        "draw": 0.1229,
+        "away": 0.0735
+      },
+      "p_first": {
+        "home": 0.8036,
+        "draw": 0.1229,
+        "away": 0.0735
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "France",
+          "p_market": 0.8036,
+          "fair_odds": 1.24
+        },
+        {
+          "key": "ah_home_-1.5",
+          "label": "Handicap",
+          "selection": "France -1.5",
+          "p_market": 0.595,
+          "fair_odds": 1.68
+        },
+        {
+          "key": "ah_away_+2.5",
+          "label": "Handicap",
+          "selection": "Türkiye +2.5",
+          "p_market": 0.605,
+          "fair_odds": 1.65
+        },
+        {
+          "key": "ah_away_+3.5",
+          "label": "Handicap",
+          "selection": "Türkiye +3.5",
+          "p_market": 0.775,
+          "fair_odds": 1.29
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.73,
+          "fair_odds": 1.37
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.685,
+          "fair_odds": 1.46
+        },
+        {
+          "key": "ou_5.5_under",
+          "label": "Total goals",
+          "selection": "Under 5.5",
+          "p_market": 0.82,
+          "fair_odds": 1.22
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.53,
+          "fair_odds": 1.89
+        },
+        {
+          "key": "tt_home_1.5_over",
+          "label": "France goals",
+          "selection": "Over 1.5",
+          "p_market": 0.785,
+          "fair_odds": 1.27
+        },
+        {
+          "key": "tt_home_2.5_over",
+          "label": "France goals",
+          "selection": "Over 2.5",
+          "p_market": 0.56,
+          "fair_odds": 1.79
+        },
+        {
+          "key": "tt_away_0.5_over",
+          "label": "Türkiye goals",
+          "selection": "Over 0.5",
+          "p_market": 0.56,
+          "fair_odds": 1.79
+        }
+      ],
+      "legs_first": {
+        "home": 0.8036,
+        "ah_home_-1.5": 0.595,
+        "ah_away_+2.5": 0.605,
+        "ah_away_+3.5": 0.775,
+        "ou_2.5_over": 0.73,
+        "ou_4.5_under": 0.685,
+        "ou_5.5_under": 0.82,
+        "btts_yes": 0.53,
+        "tt_home_1.5_over": 0.785,
+        "tt_home_2.5_over": 0.56,
+        "tt_away_0.5_over": 0.56
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261115",
+          "espn_match": "Türkiye at France",
+          "decimal": {
+            "home": 1.22,
+            "draw": 6,
+            "away": 10
+          },
+          "opening": {
+            "home": 1.17,
+            "draw": 7.5,
+            "away": 11
+          },
+          "p_devig": {
+            "home": 0.754,
+            "draw": 0.154,
+            "away": 0.092
+          },
+          "total": 3.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.795,
+          "to": 0.805,
+          "relative_change": 0.013
+        },
+        "fetched_at": "2026-11-14T22:16:43.562Z"
+      }
+    },
+    {
+      "id": "1258833",
+      "league": "NFL",
+      "sport": "american_football",
+      "event": "Bills vs. Jets",
+      "home": "Bills",
+      "away": "Jets",
+      "start": "2026-11-15T18:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.795,
+        "draw": 0,
+        "away": 0.205
+      },
+      "p_first": {
+        "home": 0.795,
+        "draw": 0,
+        "away": 0.205
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Bills",
+          "p_market": 0.795,
+          "fair_odds": 1.26
+        }
+      ],
+      "legs_first": {
+        "home": 0.795
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.795,
+          "to": 0.795,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-14T22:16:43.590Z"
+      }
+    },
+    {
+      "id": "1258846",
+      "league": "NFL",
+      "sport": "american_football",
+      "event": "Rams vs. Cardinals",
+      "home": "Rams",
+      "away": "Cardinals",
+      "start": "2026-11-15T21:05:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.795,
+        "draw": 0,
+        "away": 0.205
+      },
+      "p_first": {
+        "home": 0.795,
+        "draw": 0,
+        "away": 0.205
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Rams",
+          "p_market": 0.795,
+          "fair_odds": 1.26
+        }
+      ],
+      "legs_first": {
+        "home": 0.795
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.795,
+          "to": 0.795,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-14T22:16:43.675Z"
+      }
+    },
+    {
+      "id": "1258848",
+      "league": "NFL",
+      "sport": "american_football",
+      "event": "Seahawks vs. Raiders",
+      "home": "Seahawks",
+      "away": "Raiders",
+      "start": "2026-11-15T21:05:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.725,
+        "draw": 0,
+        "away": 0.275
+      },
+      "p_first": {
+        "home": 0.725,
+        "draw": 0,
+        "away": 0.275
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Seahawks",
+          "p_market": 0.725,
+          "fair_odds": 1.38
+        }
+      ],
+      "legs_first": {
+        "home": 0.725
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.725,
+          "to": 0.725,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-14T22:16:43.680Z"
+      }
+    },
+    {
+      "id": "1375595",
+      "league": "ATP Tour",
+      "sport": "tennis",
+      "event": "ATP World Tour Finals, John McEnroe Group: Alexander Zverev vs Rafael Jodar",
+      "home": "Alexander Zverev",
+      "away": "Rafael Jodar",
+      "start": "2026-11-15T13:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.685,
+        "draw": 0,
+        "away": 0.315
+      },
+      "p_first": {
+        "home": 0.685,
+        "draw": 0,
+        "away": 0.315
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Alexander Zverev",
+          "p_market": 0.685,
+          "fair_odds": 1.46
+        }
+      ],
+      "legs_first": {
+        "home": 0.685
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.675,
+          "to": 0.685,
+          "relative_change": 0.015
+        },
+        "rating": {
+          "model": "Tennis Abstract Elo",
+          "source": "https://tennisabstract.com/reports/atp_elo_ratings.html",
+          "home": {
+            "name": "Alexander Zverev",
+            "elo": 2089.6,
+            "hard_elo": 2030.1
+          },
+          "away": {
+            "name": "Rafael Jodar",
+            "elo": 1988.3,
+            "hard_elo": 1918.4
+          },
+          "p_home": {
+            "overall": 0.642,
+            "hard": 0.655,
+            "blend_hard": 0.649
+          }
+        },
+        "fetched_at": "2026-11-14T22:16:45.708Z"
+      }
+    },
+    {
+      "id": "1258842",
+      "league": "NFL",
+      "sport": "american_football",
+      "event": "Texans vs. Browns",
+      "home": "Texans",
+      "away": "Browns",
+      "start": "2026-11-15T18:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.675,
+        "draw": 0,
+        "away": 0.325
+      },
+      "p_first": {
+        "home": 0.675,
+        "draw": 0,
+        "away": 0.325
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Texans",
+          "p_market": 0.675,
+          "fair_odds": 1.48
+        }
+      ],
+      "legs_first": {
+        "home": 0.675
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115",
+          "espn_match": "Houston Texans at Cleveland Browns",
+          "decimal": {
+            "home": 1.44,
+            "draw": null,
+            "away": 2.85
+          },
+          "opening": {
+            "home": 1.46,
+            "draw": null,
+            "away": 2.8
+          },
+          "p_devig": {
+            "home": 0.664,
+            "draw": 0,
+            "away": 0.336
+          },
+          "total": 40.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.685,
+          "to": 0.675,
+          "relative_change": -0.015
+        },
+        "fetched_at": "2026-11-14T22:16:43.683Z"
+      }
+    },
+    {
+      "id": "1293076",
+      "league": "NBA",
+      "sport": "basketball",
+      "event": "Pacers vs. 76ers",
+      "home": "Pacers",
+      "away": "76ers",
+      "start": "2026-11-15T18:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.335,
+        "draw": 0,
+        "away": 0.665
+      },
+      "p_first": {
+        "home": 0.335,
+        "draw": 0,
+        "away": 0.665
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "76ers",
+          "p_market": 0.665,
+          "fair_odds": 1.5
+        }
+      ],
+      "legs_first": {
+        "away": 0.665
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.795,
+          "to": 0.665,
+          "relative_change": -0.164
+        },
+        "fetched_at": "2026-11-14T22:16:45.792Z"
+      }
+    },
+    {
+      "id": "1258836",
+      "league": "NFL",
+      "sport": "american_football",
+      "event": "Dolphins vs. Colts",
+      "home": "Dolphins",
+      "away": "Colts",
+      "start": "2026-11-15T18:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.345,
+        "draw": 0,
+        "away": 0.655
+      },
+      "p_first": {
+        "home": 0.345,
+        "draw": 0,
+        "away": 0.655
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "Colts",
+          "p_market": 0.655,
+          "fair_odds": 1.53
+        }
+      ],
+      "legs_first": {
+        "away": 0.655
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115",
+          "espn_match": "Miami Dolphins at Indianapolis Colts",
+          "decimal": {
+            "home": 2.8,
+            "draw": null,
+            "away": 1.46
+          },
+          "opening": {
+            "home": 3.35,
+            "draw": null,
+            "away": 1.34
+          },
+          "p_devig": {
+            "home": 0.343,
+            "draw": 0,
+            "away": 0.657
+          },
+          "total": 37.5
+        },
+        "move_24h": {
+          "side": "away",
+          "from": 0.655,
+          "to": 0.655,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-14T22:16:45.797Z"
+      }
+    },
+    {
+      "id": "1258851",
+      "league": "NFL",
+      "sport": "american_football",
+      "event": "49ers vs. Cowboys",
+      "home": "49ers",
+      "away": "Cowboys",
+      "start": "2026-11-15T21:25:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.655,
+        "draw": 0,
+        "away": 0.345
+      },
+      "p_first": {
+        "home": 0.655,
+        "draw": 0,
+        "away": 0.345
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "49ers",
+          "p_market": 0.655,
+          "fair_odds": 1.53
+        }
+      ],
+      "legs_first": {
+        "home": 0.655
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.655,
+          "to": 0.655,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-14T22:16:46.124Z"
+      }
+    },
+    {
+      "id": "1258844",
+      "league": "NFL",
+      "sport": "american_football",
+      "event": "Chiefs vs. Falcons",
+      "home": "Chiefs",
+      "away": "Falcons",
+      "start": "2026-11-15T18:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.625,
+        "draw": 0,
+        "away": 0.375
+      },
+      "p_first": {
+        "home": 0.625,
+        "draw": 0,
+        "away": 0.375
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Chiefs",
+          "p_market": 0.625,
+          "fair_odds": 1.6
+        }
+      ],
+      "legs_first": {
+        "home": 0.625
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.625,
+          "to": 0.625,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-14T22:16:45.797Z"
+      }
+    },
+    {
+      "id": "1300600",
+      "league": "Nations League",
+      "sport": "football",
+      "event": "Croatia vs. Czechia",
+      "home": "Croatia",
+      "away": "Czechia",
+      "start": "2026-11-15T19:45:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.6166,
+        "draw": 0.2168,
+        "away": 0.1666
+      },
+      "p_first": {
+        "home": 0.6166,
+        "draw": 0.2168,
+        "away": 0.1666
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Croatia",
+          "p_market": 0.6166,
+          "fair_odds": 1.62
+        },
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Croatia or Draw",
+          "p_market": 0.8334,
+          "fair_odds": 1.2
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Croatia",
+          "p_market": 0.8334,
+          "fair_odds": 1.27
+        },
+        {
+          "key": "ah_away_+1.5",
+          "label": "Handicap",
+          "selection": "Czechia +1.5",
+          "p_market": 0.635,
+          "fair_odds": 1.57
+        },
+        {
+          "key": "ah_away_+2.5",
+          "label": "Handicap",
+          "selection": "Czechia +2.5",
+          "p_market": 0.81,
+          "fair_odds": 1.23
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.79,
+          "fair_odds": 1.27
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.57,
+          "fair_odds": 1.75
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.655,
+          "fair_odds": 1.53
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.825,
+          "fair_odds": 1.21
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.54,
+          "fair_odds": 1.85
+        },
+        {
+          "key": "tt_home_1.5_over",
+          "label": "Croatia goals",
+          "selection": "Over 1.5",
+          "p_market": 0.595,
+          "fair_odds": 1.68
+        },
+        {
+          "key": "tt_home_2.5_under",
+          "label": "Croatia goals",
+          "selection": "Under 2.5",
+          "p_market": 0.685,
+          "fair_odds": 1.46
+        }
+      ],
+      "legs_first": {
+        "home": 0.6166,
+        "home_draw": 0.8334,
+        "home_dnb": 0.8334,
+        "ah_away_+1.5": 0.635,
+        "ah_away_+2.5": 0.81,
+        "ou_1.5_over": 0.79,
+        "ou_2.5_over": 0.57,
+        "ou_3.5_under": 0.655,
+        "ou_4.5_under": 0.825,
+        "btts_yes": 0.54,
+        "tt_home_1.5_over": 0.595,
+        "tt_home_2.5_under": 0.685
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261115",
+          "espn_match": "Czechia at Croatia",
+          "decimal": {
+            "home": 1.57,
+            "draw": 4.1,
+            "away": 5
+          },
+          "opening": {
+            "home": 1.49,
+            "draw": 4.3,
+            "away": 5.5
+          },
+          "p_devig": {
+            "home": 0.589,
+            "draw": 0.226,
+            "away": 0.185
+          },
+          "total": 2.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.645,
+          "to": 0.615,
+          "relative_change": -0.047
+        },
+        "rating": {
+          "model": "World Football Elo (eloratings.net)",
+          "source": "https://www.eloratings.net/",
+          "home": {
+            "name": "Croatia",
+            "elo": 1852
+          },
+          "away": {
+            "name": "Czechia",
+            "elo": 1653
+          },
+          "expected_score_home": 0.848
+        },
+        "fetched_at": "2026-11-14T22:16:46.208Z"
+      }
+    },
+    {
+      "id": "1375596",
+      "league": "ATP Tour",
+      "sport": "tennis",
+      "event": "ATP World Tour Finals, John McEnroe Group: Ben Shelton vs Arthur Fils",
+      "home": "Ben Shelton",
+      "away": "Arthur Fils",
+      "start": "2026-11-15T19:30:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.615,
+        "draw": 0,
+        "away": 0.385
+      },
+      "p_first": {
+        "home": 0.615,
+        "draw": 0,
+        "away": 0.385
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Ben Shelton",
+          "p_market": 0.615,
+          "fair_odds": 1.63
+        }
+      ],
+      "legs_first": {
+        "home": 0.615
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.615,
+          "to": 0.615,
+          "relative_change": 0
+        },
+        "rating": {
+          "model": "Tennis Abstract Elo",
+          "source": "https://tennisabstract.com/reports/atp_elo_ratings.html",
+          "home": {
+            "name": "Ben Shelton",
+            "elo": 1987.5,
+            "hard_elo": 1952.4
+          },
+          "away": {
+            "name": "Arthur Fils",
+            "elo": 1992.9,
+            "hard_elo": 1934
+          },
+          "p_home": {
+            "overall": 0.492,
+            "hard": 0.526,
+            "blend_hard": 0.509
+          }
+        },
+        "fetched_at": "2026-11-14T22:16:46.211Z"
+      }
+    },
+    {
+      "id": "1386924",
+      "league": "CS2",
+      "sport": "esports",
+      "event": "Counter-Strike: Spirit vs FURIA (BO5) - BLAST Rivals Playoffs",
+      "home": "Spirit",
+      "away": "FURIA",
+      "start": "2026-11-15T08:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.605,
+        "draw": 0,
+        "away": 0.395
+      },
+      "p_first": {
+        "home": 0.605,
+        "draw": 0,
+        "away": 0.395
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Spirit",
+          "p_market": 0.605,
+          "fair_odds": 1.65
+        }
+      ],
+      "legs_first": {
+        "home": 0.605
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.565,
+          "to": 0.585,
+          "relative_change": 0.035
+        },
+        "fetched_at": "2026-11-14T22:16:46.218Z"
+      }
+    },
+    {
+      "id": "1293077",
+      "league": "NBA",
+      "sport": "basketball",
+      "event": "Lakers vs. Suns",
+      "home": "Lakers",
+      "away": "Suns",
+      "start": "2026-11-15T21:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.595,
+        "draw": 0,
+        "away": 0.405
+      },
+      "p_first": {
+        "home": 0.595,
+        "draw": 0,
+        "away": 0.405
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Lakers",
+          "p_market": 0.595,
+          "fair_odds": 1.68
+        }
+      ],
+      "legs_first": {
+        "home": 0.595
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.645,
+          "to": 0.595,
+          "relative_change": -0.078
+        },
+        "fetched_at": "2026-11-14T22:16:46.210Z"
+      }
+    }
+  ]
+}

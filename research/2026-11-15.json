@@ -1,0 +1,320 @@
+{
+  "date": "2026-11-15",
+  "researched_at": "2026-11-14T22:21:23Z",
+  "stage": "morning",
+  "summary": "Researched the evening before (Sat 14 Nov) under the stricter rules; lineups and NFL inactives are not out, so this is a draft until the morning check and the final check. Sunday has three Nations League games, eight NFL games, the ATP Finals, two NBA games and one CS2 final. Eight well-covered games were researched: four are kept at medium and four at low; the other eight were not reached. Medium: Seahawks at Raiders (p 0.69; Seattle start backup QB Lock behind a line missing two starters, the Raiders start a rookie QB for the first time), Texans at Browns (p 0.64; a road favourite without Hunter and Harrison, Browns 3-0 at home), Bills at Jets (p 0.77; Bills 7-1, right tackle doubtful, 27 mph gusts), Rams at Cardinals (p 0.77; Cardinals start a rookie QB, Rams without Nacua and Adams and lost to them 16-18 in October). Low, so not bet: Croatia–Czechia (Croatia's price fell 4.7% in 24 hours with no news, four straight defeats), France–Türkiye (Mbappé's availability and the probable XI could not be established tonight; re-checked in the morning), Finland–San Marino (no team news, near dead rubber, only goals legs near 60%), Zverev–Jodar (form, fitness and a second price not verified).",
+  "games": [
+    {
+      "id": "1300579",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.93,
+        "draw": 0.05,
+        "away": 0.02
+      },
+      "checks": {
+        "team_news": "No injury or suspension report found for Finland or San Marino for this game (Sports Mole previews of earlier group games reported no Finland injuries; no later report found; San Marino squad news not found). Lineups not out; nothing confirmed.",
+        "lineups": "Not announced. Finland's last published likely XI (Sports Mole, Oct): Hradecky; Stahl, Miettinen, Koski, Lahteenmaki; Kairinen, Markhiev, Kamara; Walta, Pohjanpalo, Keskinen. Starting11 shows only a formation shape for this game, no names. Confirmed XIs due about an hour before the 17:00 UTC kickoff; second source not available.",
+        "rotation": "Finland played Albania away in Tirana on Thu 12 Nov (3 days earlier) and, per the group table, lost, so little travel but a short turnaround. San Marino lost 0-2 to Belarus on 12 Nov. This is the last Nations League game for both sides, so some rotation by Finland is possible. None confirmed.",
+        "motivation": "Table (FotMob C1 after 5 games each, incl. 12 Nov): Albania 12, Belarus 10, Finland 7 (W2 D1 L2, 9-4), San Marino 0 (1-18). Finland can reach at most 10 points and trail Belarus on head-to-head (0-0 and 0-1), so they cannot win the group or finish second. San Marino are bottom with 0 points. Both sides are close to a dead rubber, so this is a soft risk, not the hard rule: the favourite is not secured while the opponent needs a result. Finland may want a big goal difference and a good end to the campaign.",
+        "form": "Finland in this group: 7-0 at San Marino (26 Sep), 0-0 Belarus, 2-1 at Albania per Flashscore/Sports Mole (Walta 2), 0-1 at Belarus (6 Oct), then a loss to Albania on 12 Nov (score not found; the table implies 0-2). So in the four non-San Marino games Finland scored only 2 goals, and 7 of their 9 goals came in the one game against San Marino. Sports Mole lists their all-competitions form as L, L, W, D, W, L. San Marino: 0-7 Finland, 0-3 Albania, 0-4 Belarus, 1-2 Albania, 0-2 Belarus, so 18 conceded in 5 (3.6 per game), but they lost 2-1 and 0-2 in the last two, which is not a collapse each time.",
+        "h2h": "Finland won 7-0 in Serravalle on 26 Sep 2026 (11v11, VAVEL); 3 wins from the last 3 meetings, no draws. Finland have never been held by San Marino in that run. The 7-0 looks like the top end: a 3-4 goal total is more typical against a side that has also lost 2-1 and 0-2 recently.",
+        "odds": "DraftKings via ESPN (site.api.espn.com): Finland 1.02, draw 14, San Marino 31 (opening 1.02 / 13 / 41), total line 4.5; de-vigged 0.904 / 0.066 / 0.030. DraftKings has the draw and upset chances higher than Polymarket's 4.3% draw and 1.3% away. Polymarket Finland 24h move 0.950 to 0.945 (-0.5% relative), well inside the 3% threshold and not a concern. Goals legs: Over 3.5 at 0.595 and Under 4.5 at 0.605 (Polymarket); the total line at DraftKings is 4.5, which suggests a high-scoring game is priced.",
+        "models": "World Football Elo (eloratings.net, via candidates data): Finland 1514, San Marino 818; expected score for Finland 0.99 (a draw counts as half). A bookmaker-free rating confirms a huge gap but cannot say how many goals Finland will score.",
+        "venue_weather": "Bolt Arena, Helsinki, evening kickoff 17:00 UTC (19:00 local) on 15 Nov per MyHelsinki; a normal home venue. No weather forecast found; mid-November Helsinki is cold and could bring wet or poor pitch conditions, unverified."
+      },
+      "reason": "Finland are overwhelming favourites but the win price is too short to bet. The goals legs are the interest: Finland scored 7 against San Marino in September, yet only 2 in their other four group games, and with the group lost they may rotate or play at a lower tempo. San Marino concede a lot (18 in 5) but are not conceding 5 a game to the stronger sides. I shade Over 3.5 down below the market and keep Under 4.5 near the market. The 4+ goals scenario needs Finland to score 4 or 5, which they have done once in five games. Confidence is low: no team news or expected XI could be found for either side, the game is close to a dead rubber for both, and the only legs in range are goals totals priced near 60%.",
+      "main_risk": "For Under 4.5, a repeat 7-0 style rout (Finland 5+ goals) is the main risk. For Over 3.5, a low-tempo dead rubber with a rotated Finland side and a stubborn San Marino defence scoring only 2-3 goals. Lineups unknown; second source for XIs missing.",
+      "sources": [
+        "https://www.fotmob.com/nb/teams/7871/table/finland",
+        "https://www.vavel.com/en-us/data/san-marino/results/",
+        "https://www.sportsmole.co.uk/football/albania/uefa-nations-league/preview/albania-vs-finland-prediction-team-news-lineups_608857.html",
+        "https://www.sportsmole.co.uk/football/finland/uefa-nations-league/preview/finland-vs-albania-prediction-team-news-lineups_606070.html",
+        "https://www.myhelsinki.fi/events/uefa-nations-league-finland-san-marino/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261115",
+        "https://www.eloratings.net/"
+      ],
+      "views": {
+        "ou_3.5_over": 0.55,
+        "ou_4.5_under": 0.6
+      },
+      "prices": []
+    },
+    {
+      "id": "1258839",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1300584",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.78,
+        "draw": 0.14,
+        "away": 0.08
+      },
+      "checks": {
+        "team_news": "France: Thuram and Tchouameni left the camp injured and Konate withdrew with a knee sprain (SoccerNews, Africasoccer, Flashscore), so they are out of this window. Mbappe: Flashscore headline says Zidane confirmed him available for Türkiye, but he missed Italy and I found no body text confirming his fitness. Türkiye: no November squad news found. Hakan Calhanoglu and Kenan Yildiz missed the September meeting through injury. Whether they are back is not verified.",
+        "lineups": "No official XIs yet. I found no reliable November predicted XI for either side. Zidane's September 4-2-3-1 (Maignan; Kounde, Upamecano, Lacroix, Truffert; Rabiot, Camavinga; Dembele, Olise, Doue; Mbappe) is the only template, and it is not current. Missing key facts: Mbappe starting or not, and the exact back line and midfield.",
+        "rotation": "France lost 3-1 at Italy (San Siro) on Thu 12 Nov, so this is a 3-day turnaround at home, with squad depth hit by injuries. Türkiye lost 2-1 to Belgium on 12 Nov. This is the last group game for both, so there is no next-game rotation motive for France. The Italy loss tells us nothing about rest rotation.",
+        "motivation": "Group A1 after matchday 5 (365Scores/ESPN via Flashscore): Italy 5 games, 10 pts, GD +5; France 5, 10 pts, +3; Belgium 5, 9 pts, +2; Türkiye 5, 0 pts, -10, already marked relegated. France still need a result to stay in the top-two race for the quarter-finals; Flashscore says their fate is out of their own hands, since Belgium and Italy are also level on points. Türkiye have nothing left to play for. This is the reverse of the hard dead-rubber rule, so it is not an exclusion. The risk is a motivated-France upside, not a favourite with nothing at stake.",
+        "form": "France: L 1-3 at Italy (12 Nov), W 4-1 vs Belgium (5 Oct), D 1-1 vs Italy (2 Oct), W 1-0 at Belgium (28 Sep), W 1-0 at Türkiye (25 Sep). That is 8 goals for and 5 against in 5 games, with Zidane's first defeat as coach on 12 Nov. Türkiye: five straight defeats, 3 goals for and 13 against (L 1-2 Belgium, L 1-3 Italy, L 0-3 Belgium, L 1-4 Italy, L 0-1 France). xG not found.",
+        "h2h": "25 Sep 2026 in Kocaeli: Türkiye 0-1 France, Mbappe's goal, a narrow win on a poor pitch with Zidane saying it was hard-fought. France won only by one goal and Türkiye scored nothing, so the most recent meeting was tight. The draw or a low-scoring win is the pre-mortem path: France beat Türkiye by one goal at full strength and now lack Thuram, Tchouameni and Konate.",
+        "odds": "DraftKings via ESPN (data.odds): France 1.22 / draw 6.00 / Türkiye 10.00, opened at 1.17 / 7.50 / 11.00. De-vigged p 75.4 / 15.4 / 9.2, total 3.5. Fox Sports shows moneyline France -463 / Türkiye +955. France's DraftKings price has drifted from 1.17 to 1.22, about 4% in implied terms since the opening line, but the 24h window is flat. Polymarket: France 0.805 now vs 0.795 24h ago (+1.3%), flat across the hourly history; gamma shows draw 0.125, Türkiye 0.075. Polymarket is about 5 points above the de-vigged DK home price (80.4 vs 75.4), so I lean to the lower side. The DK drift since opening is partly explained by the Italy loss and injury news, but I found no specific article for it.",
+        "models": "World Football Elo (eloratings.net World.tsv, read tonight): France 2066, Türkiye 1753; with 100 points for home advantage the expected score for France is 0.915 (a draw counts as half). No other bookmaker-free model found.",
+        "venue_weather": "Stade Atlantique (Matmut Atlantique), Bordeaux, France per Fox Sports; 365Scores/Sofascore also list Bordeaux. A normal home venue. UEFA lists 19:45 UTC kickoff. No weather forecast found, so no weather risk was identified."
+      },
+      "reason": "France are the clear favourite at home against a Türkiye side on 0 points, five defeats and already relegated, with nothing to play for. France still need the win to stay in the quarter-final race with Italy and Belgium, so motivation favours them. No hard exclusion applies: verified fixture and venue, no coach change in the last 30 days (Zidane was appointed before the September opener), not a derby, and the favourite has not secured its aim. I trimmed p slightly below the Polymarket price (80.4% to 78%) and moved the draw up to 14%, in line with the DraftKings de-vig of 15.4%, because France lost 1-3 at Italy three days earlier, have injuries to Thuram, Tchouameni and Konate, Mbappe's fitness is unclear, and the September win was only 1-0. The draw estimate stays well below the 25% limit for a straight win. Confidence is low for now: Mbappé's availability is contradicted between sources, no current probable XI was found and Türkiye's squad news is unverified. These are re-checked in the morning.",
+      "main_risk": "A draw or low-scoring result: France only won 1-0 in Kocaeli in September, are thin after losing Thuram, Tchouameni and Konate, are playing three days after a 1-3 loss with Mbappe's fitness unconfirmed, and DraftKings shows a draw about 3 points above the market (15.4% de-vigged vs 12.3%). France's wider group-table pressure is a motivation plus, not a risk.",
+      "sources": [
+        "https://www.365scores.com/football/league/uefa-nations-league-7016/standings",
+        "https://www.foxsports.com/soccer/nations-league-france-vs-turkiye-nov-15-2026-game-boxscore-689072",
+        "https://www.flashscore.com/news/soccer-uefa-nations-league-italy-france-report-12-11-2026/xKlGBhUa/",
+        "https://www.uefa.com/uefanationsleague/news/02aa-21bfd72342bb-2092e5a5aba6-1000--uefa-nations-league-matchday-4-highlights-france-and-italy-r/",
+        "https://www.soccernews.com/mbappe-leaves-france-camp-after-suffering-tendon-injury/405437/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261115",
+        "https://gamma-api.polymarket.com/events?id=1300584",
+        "https://www.eloratings.net/"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1258833",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.77,
+        "draw": 0,
+        "away": 0.23
+      },
+      "checks": {
+        "team_news": "ESPN game summary (injuries as of Sat 14 Nov): Bills RT Spencer Brown doubtful (ankle; limited Wed, no practice after; Tylan Grable the fill-in per buffalorumblings/buffalonews), CB Christian Benford (wrist), CB Jordan Hancock (hamstring) and S Sam Franklin Jr. (shoulder) questionable, WR Tyrell Shavers out (ACL). Josh Allen is not on the Bills report. Jets: WR Garrett Wilson (concussion, full practice Friday), WRs Adonai Mitchell and Omar Cooper Jr., S VJ Payne and CB Nahshon Wright all questionable; LB Trevin Wallace out (groin). Final Saturday elevations and downgrades not seen.",
+        "lineups": "Not official. ESPN lists Josh Allen (Bills) and Geno Smith (Jets) as the passing leaders and no QB injury is listed for either side. Expected: Allen starting; Bills line without Brown (Grable at RT) if he sits; Wilson likely to play. Only one source for the XIs (ESPN plus snippets of Bills beat sites), no official inactives until Sunday.",
+        "rotation": "No rotation issue. Bills' last five (ESPN): L 26-29 vs NE, W 37-34 OT at LAR, W 33-30 at LV, W 36-10 vs BAL, W 23-6 at MIN (10 Nov). Short travel (Buffalo to MetLife, same time zone). Jets played at KC on 8 Nov (L 12-35).",
+        "motivation": "Bills 7-1 and ranked No. 1 in PFF's and several other Week 10 power rankings (PFF), chasing the AFC top seed and the AFC East; Jets 2-7 and ranked 26th to 31st, playing for pride. Bills have plenty to play for, so no dead-rubber exclusion.",
+        "form": "Bills: 4 wins in last 5 (ESPN last-five: points for 29, 37, 33, 36, 23; against 26, 34, 30, 10, 6). Jets: 1 win in last 5, losses to NE 19-26, MIA 25-28, LV 33-38 and KC 12-35; their defence has allowed 25+ in four of those five. ESPN season leaders: Allen's team passing 2,027 yards, 12 TD, 6 INT; Geno Smith 2,078 yards, 12 TD, 3 INT.",
+        "h2h": "AFC East divisional game, so a soft risk (not a famous fierce rivalry like a derby-level feud). Bills beat the Jets in the Week 18 2025 finale (nfl.com report, Allen played through a foot problem). The Jets are playing at their own MetLife Stadium, where the Bills are the visitors.",
+        "odds": "DraftKings via ESPN scoreboard/summary: Bills -7.5 (-112), total 50.5; moneyline Bills -395 / Jets +310 (open -340 / +270). De-vigged Bills about 76.6%, Jets about 23.4% (implied 79.8% and 24.4%, sum 104.2%). Polymarket Bills 79.5% is about 3 points above the de-vigged DK price. Polymarket 24h history flat at 0.795 (first and last point both 0.795); DK line has lengthened mildly from open (-340 to -395 for Bills, i.e. moved toward the Bills). No adverse price move.",
+        "models": "ESPN matchup predictor: Bills 82.6%, Jets 17.4%. Power rankings (PFF Week 10: Bills No. 1; Bleacher Report Jets 26th, consensus 30th, Fox Sports 31st). ESPN FPI game page for this matchup not retrieved; no Elo or DVOA figures found.",
+        "venue_weather": "MetLife Stadium, East Rutherford NJ, outdoors (the Jets' home, so Buffalo is the away team, not at home as the listing labels them; this is a normal venue, not neutral). ESPN forecast: about 50F, gusts 27 mph, 3% precipitation. Gusty wind can trim passing and kicking and compress a 7.5-point spread."
+      },
+      "reason": "Fixture verified on ESPN: Buffalo Bills at New York Jets, MetLife Stadium, 15 Nov 2026 18:00 UTC. Note: the Polymarket listing labels the Bills as home, but ESPN has them as the visitors; p.home below is the Bills, matching the market's labelling. No hard rule applies: Joe Brady became Bills head coach in January 2026 (not within 7 days), no QB injury listed, Bills have a lot to play for, price stable. Pre-mortem: the most likely failure is a one-score upset in a divisional game with a banged-up Buffalo offensive line (Brown doubtful) and windy conditions against a Jets side that loses close games. I lowered the Bills to 77% because the de-vigged DK price (76.6%) is below Polymarket's 79.5%.",
+      "main_risk": "Divisional road game against a 2-7 Jets team at MetLife with RT Spencer Brown doubtful, several Bills defensive backs questionable and 27 mph gusts; one-score upset possible. Final Saturday injury designations and Sunday inactives not yet seen.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873054",
+        "https://www.buffalorumblings.com/buffalo-bills-injuries/145232/bills-vs-jets-final-injury-report-and-game-day-designations",
+        "https://www.pff.com/news/nfl-week-10-power-rankings-bills-move-to-no-1-49ers-climb",
+        "https://buffalonews.com/sports/professional/nfl/bills/article_b59b62d1-2a7a-464c-b2c4-1e2fcf33f75f.html",
+        "https://clob.polymarket.com/prices-history?market=58143940831672657190277806878514061226499271064909458189824159543213466682953&interval=1d&fidelity=60"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1258846",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.77,
+        "draw": 0,
+        "away": 0.23
+      },
+      "checks": {
+        "team_news": "Final Friday reports (Nov 13, therams.com and azcardinals.com). Rams: QB Matthew Stafford (right elbow) full all week, no designation. Out: G Steve Avila (hamstring), TE Terrance Ferguson. WR Puka Nacua is on IR (PCL/MCL sprain and turf toe) and WR Davante Adams is on IR; CB Jaylen Watson is out for the season. Questionable: CB Trent McDuffie (back, limited Friday, missed the last 2 games), S Kam Curl (toe, McVay optimistic), OLB Myles Garrett (rest/knee, McVay expects him to play; he had 3 sacks vs Washington), TE Davis Allen, LS Joe Cardona. Cardinals: rookie QB Carson Beck makes his first NFL start (Minshew out with a UCL injury needing surgery, Brissett traded to Baltimore). Out: C Hjalte Froholdt (concussion), RG Jon Gaines II, DL Zach Carter, WR Michael Wilson; RBs Conner and Love on IR. Questionable: LT Jayden Williams, TE Hunter Long, CB Max Melton, S Andrew Wingard, DL Roy Lopez and Darius Robinson. No Saturday elevations or downgrades found yet.",
+        "lineups": "Not confirmed (Saturday evening). Expected: Stafford starting for the Rams with a depleted receiver group (rookie CJ Daniels Jr. in line for more snaps, likely heavy 13 personnel per Last Word on Sports), without Avila at guard. Cardinals: Carson Beck starting at QB (officially named, ESPN/Yardbarker) behind an offensive line missing its center and right guard. Official inactives come about 90 minutes before the 4:05 PM ET kickoff.",
+        "rotation": "No short week or bye issue found. Rams (5-4) have won 3 straight (Raiders, Chargers, Washington 20-13). Cardinals (3-6) lost 17-3 at Seattle last week. Venue note: the game is at State Farm Stadium in Glendale, so the Rams are the road team even though the market lists them first. The trip is a short in-division flight with no time-zone change.",
+        "motivation": "Rams 5-4 and tied with Seattle for second in the NFC West, still fighting for a playoff spot (ESPN FPI playoff odds 37.9%), and they want revenge for the Oct 18 loss. Cardinals 3-6 with 2% playoff odds on Kalshi, a first-year head coach (Mike LaFleur, hired in the offseason, no coaching change in the last 7 days) and a rookie QB, so they are playing for pride. The favourite has plenty to play for, so the hard no-stakes rule does not apply.",
+        "form": "Rams: lost to Arizona 16-18 on Oct 18, then beat Las Vegas, the Chargers and Washington 20-13; the offence is thin without Nacua and Adams. Cardinals: lost 3-17 at Seattle, 3-6 overall, QB position in turmoil (Brissett benched then traded, Minshew hurt), though they scored 18 in the earlier win over the Rams with six Chad Ryland field goals. Scores for the Raiders and Chargers games were not found.",
+        "h2h": "Same-division rivals, so a soft risk (not a famous fierce rivalry). Oct 18 at SoFi: Cardinals won 18-16 on a Ryland 43-yard field goal as time expired, as a 12.5 to 13.5 underdog; the Rams turned the ball over twice in Cardinals territory in the 4th quarter. Rams are 6-4 ATS in the last 10 meetings. Style: low-scoring, field-goal-driven games. Draw impossible, but variance is high with a total of 39.5.",
+        "odds": "Polymarket Rams 79.5%, unchanged over 24h (0.795 to 0.795, 0% move). DraftKings via SI: Rams -450 / Cardinals +350, spread -9.5, total 40 (de-vigged about 78.7% Rams). VegasInsider consensus: Rams -500 / +380 (about 80.0%), opened -535 / +400, spread opened -10.5 and is now -9.5. FanDuel: Rams -521 / +400 (about 80.7%), total 39.5. The total fell from 47.5 to 39.5 on injuries and the QB situation. Books and Polymarket agree at about 79-81%, with no unexplained move.",
+        "models": "numberFire gives the Rams 73.6% (FanDuel research page). ESPN power rankings: Rams 12th, Cardinals 25th. Other outlets rank the Rams 5th to 18th and the Cardinals 25th to 30th. ESPN FPI gives the Rams 37.9% to make the playoffs. No DVOA or Elo found. The bookmaker-free numberFire figure is about 6 points below the market, which supports shading p down.",
+        "venue_weather": "State Farm Stadium, Glendale AZ (retractable roof; the Cardinals are the home team). Forecast for the 4:05 PM ET kickoff is clear, 72-76F, wind 3-4 mph, 0% precipitation (Covers, footballdb). Roof expected open but not confirmed. The weather is not a factor."
+      },
+      "reason": "Rams are a 9.5-point road favourite over a 3-6 Cardinals side starting a rookie QB for the first time, with the Cardinals' center and right guard out. Books and Polymarket agree on about 80%. No hard exclusion applies: the venue is the normal Cardinals home stadium, nobody was sacked or hired in the last 7 days, and the Rams still have playoff stakes. Confidence is medium, not high, because the Rams lack both Nacua and Adams, McDuffie and Garrett are questionable, and the same team beat them 18-16 three weeks ago. p is shaded 2.5 points below the market for those reasons and numberFire's lower 73.6%.",
+      "main_risk": "A low-scoring game (total 39.5) decided by one score: the Rams' thin receiving group (Nacua and Adams on IR, Avila out) stalls as it did in the Oct 18 loss, while divisional familiarity and a motivated Cardinals defence keep it close. Other risks: McDuffie or Garrett ruled inactive, and a rookie QB who could still be conservative or surprisingly effective. Starting QBs and inactives are unconfirmed.",
+      "sources": [
+        "https://www.therams.com/news/rams-injury-report-week-10-2026-at-cardinals-trent-mcduffie-steve-avila",
+        "https://www.azcardinals.com/news/injury-report-week-10-vs-rams",
+        "https://www.vegasinsider.com/nfl/matchups/cardinals-vs-rams/",
+        "https://www.si.com/betting/rams-vs-cardinals-prediction-odds-spread-injuries-trends-for-nfl-week-10-2026",
+        "https://www.fanduel.com/research/rams-vs-cardinals-predictions-odds-picks-best-bets-for-nfl-week-10-2026",
+        "https://lastwordonsports.com/nfl/2026/11/13/rams-cardinals-preview/"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1258848",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.69,
+        "draw": 0,
+        "away": 0.31
+      },
+      "checks": {
+        "team_news": "Friday final reports (seahawks.com, raiders.com via search, Yahoo): Seattle QB Sam Darnold OUT (ribs/quad), expected back for Week 12 vs 49ers; Drew Lock starts (elbow/oblique, no designation, limited all week, 2nd straight start, Seattle 2-0 in his starts). Seattle also OUT: LT Charles Cross (ankle), G Quenton Nelson (knee), DT Leonard Williams (stinger); Nwosu (LB), Shaheed (WR), Pili (DT) returning per seahawks.com (SI lists them as questionable). Raiders: rookie QB Fernando Mendoza (No. 1 overall pick) makes first NFL start after Kirk Cousins was traded to Minnesota on Tuesday; DT Thomas Booker (ankle, full Friday) and WR Dont'e Thornton (back, DNP) questionable; C Trey Zuhn (concussion) was limited midweek and is listed questionable by SI; DEs Johnson and Crawford and CB Anusiem on IR. No Saturday elevations or downgrades verified.",
+        "lineups": "Starting QBs expected: Lock (SEA) vs Mendoza (LV). Seattle line without both Cross and Nelson (two starting OL out, Yahoo headline 'Seahawks down 2 starting OL'); Seattle has the No. 1 ranked defense, allowing second-fewest passing yards, which is the main obstacle for a first-time starter. Raiders defense ranked last. Official inactives come about 90 minutes before kickoff; not yet available tonight.",
+        "rotation": "No rotation risk (both play full-strength rosters as available). Seattle: Week 8 home loss to Chicago 34-17, Week 9 home win over Arizona 17-3 (Nov 8), now travels to Las Vegas (same Pacific time zone, 4:05 pm ET kickoff). Raiders: lost 38-17 at 49ers Nov 8, normal rest. Seattle's next game is reported as a big divisional game vs 49ers in Week 12; Week 11 not verified.",
+        "motivation": "Seattle 5-4, in the playoff hunt and defending champion ('world champion Seahawks' per raiders.com); Raiders 4-5 and also still live in the standings. Both sides need the win; no dead-rubber risk. Not a divisional game for Seattle (Raiders are in the AFC West, Seahawks NFC West), not a fierce rivalry.",
+        "form": "Seattle: last two games L 17-34 vs CHI (Darnold hurt), W 17-3 vs ARI behind Lock (19/28, 175 yds, 1 TD, no INT); 4-5 ATS, unders 5-4; offense described as below average (Bleeding Green Nation), the defense is the strength. Raiders: lost 4 of last 5, 38-17 at SF with 5 turnovers, defense has allowed 30+ points six straight games; 6-3 ATS, overs 6-3; only 2 wins in last 11 home games (Covers). Last five Seattle results beyond the two above not found.",
+        "h2h": "Only a betting note found: Raiders are 3-1 against the spread in the last four meetings; final scores not found. Non-divisional interconference game, no rivalry.",
+        "odds": "BetMGM via SI: Seahawks -285 / Raiders +230, spread SEA -6.5, total 40.5; de-vigged Seattle about 71.0% (implied 74.0% and 30.3%, sum 104.3%). Covers lists moneyline 73% / 28%; other listings -290 to -300 / +240 to +245. Line opened Seattle -3 and moved to -6.5 after the Cousins trade, total fell 43.5 to 40.5: explained by news (the Raiders QB change), not an unexplained move. Polymarket: built-in data shows the Seahawks at 0.725 now and 24h ago (0% move), p_first 0.725. No DraftKings/ESPN odds block in the candidates data.",
+        "models": "ESPN FPI: Seattle 73.9% by 6.4 points (via ESPN Week 10 preview snippet); numberFire 70% Seattle; OPTIMAL fair odds 73%; BetMGM model gives Raiders 51.7% to cover +6.5 (near a coin flip against the spread). Power rankings: Seattle No. 6-7 (Sharp Football, FTN, Bleeding Green Nation), Raiders No. 23. DVOA values not found.",
+        "venue_weather": "Allegiant Stadium, Las Vegas, a fully enclosed climate-controlled dome (Covers), so no weather risk. NOTE: the venue is the Raiders' home; the brief and the Polymarket 'home' label (Seahawks) say Seattle at home, but every source lists Seahawks at Raiders. The leg is the Seahawks to win regardless of the label, and Seattle is the road side in Las Vegas (Raiders have won only 2 of their last 11 home games)."
+      },
+      "reason": "Fixture verified: Seahawks at Raiders, Sun Nov 15, 4:05 pm ET (21:05 UTC), Allegiant Stadium. No hard exclusion: no coach change, not a rivalry, normal indoor venue, no rotation, both teams still have something to play for. Seattle is a clear favourite on the market (about 71-74% de-vigged), FPI 73.9%, and has the top defence against a rookie QB making his first start behind a last-ranked Raiders defense that allows 30+ points. I shade p to 0.69 because Seattle is on its backup QB Lock, who is limited by elbow/oblique, with two starting offensive linemen (Cross, Nelson) and DT Leonard Williams out, which lowers the margin and makes a low-scoring variance game more plausible. Confidence medium, not high, because the QB and OL doubts are real and Saturday and inactive news are not yet in.",
+      "main_risk": "Seattle offense stalls with backup QB Lock (limited with elbow/oblique, he could also be re-injured or struggle) behind a patched offensive line (Cross and Nelson out), keeping a 40.5-total game close, while the Raiders pull a low-scoring upset in a dome; late inactives for Lock or the line could change this.",
+      "sources": [
+        "https://www.seahawks.com/news/week-10-injury-report-seahawks-at-raiders",
+        "https://www.si.com/betting/seahawks-vs-raiders-prediction-odds-spread-injuries-trends-for-nfl-week-10-2026",
+        "https://www.covers.com/nfl/seahawks-vs-raiders-prediction-picks-nov-15-2026",
+        "https://sports.yahoo.com/articles/lock-again-lifts-seahawks-win-222825680.html",
+        "https://www.espn.com/nfl/story/_/id/50453355/week-10-picks-predictions-schedule-fantasy-odds-2026",
+        "https://www.sharpfootballanalysis.com/analysis/nfl-power-rankings/"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1375595",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.665,
+        "draw": 0,
+        "away": 0.335
+      },
+      "checks": {
+        "team_news": "No withdrawal or injury report found for either player in tonight's searches. The only withdrawal in the field is Jannik Sinner (knee), and Alex de Minaur and Taylor Fritz are the alternates. Zverev is the No 1 seed and Jodar the No 8 seed. Jodar qualified on 7 Nov after Alcaraz beat Fritz in the Paris Masters quarterfinal, and this is his ATP Finals debut. No fitness comments from either player could be found, so that stays unverified.",
+        "lineups": "Tennismajors and nittoatpfinals.com both list the order of play for Sun 15 Nov at the Inalpi Arena, Turin. Zverev vs Jodar is the 2pm CET singles match (13:00 UTC), after the 11:30 doubles. Shelton vs Fils follows not before 8:30pm. This is a schedule from the press, not an ATP-confirmed order of play posted tonight. No withdrawal or walkover is announced.",
+        "rotation": "This is the opening day of the round robin, so neither player has a match this week yet. Both are coming from the Paris Masters. Both opening matches are on the same indoor hard court. Neither next match is a concern for this game.",
+        "motivation": "John McEnroe Group: Zverev (1), Shelton (3), Fils (6), Jodar (8). This is match 1 of 3 for both players, so nobody is qualified or eliminated and there is no dead rubber. Both want the win to start well. Zverev will also face Shelton later in the group. A debutant opponent with nothing to lose is a soft risk only.",
+        "form": "Last 6-10 results for either player could not be verified tonight, so none are stated. Zverev is world No 1 in the 2026 Race and a two-time champion here (2018, 2021). Jodar made the field as a debutant, 9th in the Race, and moved up after Sinner withdrew. A tennis365 piece listed a 6-2 record for Zverev against the other seven qualifiers in 2026, but I could not confirm that figure.",
+        "h2h": "The only previous meeting found is the French Open quarterfinal on 2 June 2026, where Zverev was the favourite. SI and Sportytrader previews called it their first meeting, and I did not verify the result. Zverev's serve and power on indoor hard should suit him against a younger opponent making his debut.",
+        "odds": "The built-in data has no DraftKings price for this match. Polymarket has Zverev at 0.685, up from 0.675 24h ago (+1.5% relative), so there is no adverse move. A second price source for the Finals match could not be found. The SI French Open quarterfinal preview had Zverev at -325 on 2 June, which is an earlier match and not comparable. Market 0.685 against Elo 0.649 means the market is a little above the model, so I trimmed p slightly.",
+        "models": "Tennis Abstract Elo: Zverev 2089.6 overall and 2030.1 hard; Jodar 1988.3 overall and 1918.4 hard. Win probability for Zverev is 0.642 overall, 0.655 hard and 0.649 blended. StringTension's Elo projection for the June French Open meeting gave Zverev 89%, but that is a different model and date and I did not rely on it. Source: https://tennisabstract.com/reports/atp_elo_ratings.html.",
+        "venue_weather": "Inalpi Arena, Turin. This is the standard indoor hard-court Finals venue, so weather is not a factor and there is no neutral-venue concern for the tournament."
+      },
+      "reason": "Fixture verified for 15 Nov 2026 at 13:00 UTC in the John McEnroe Group. Neither player is in a dead-rubber situation, no hard exclusion applies, and there is no price move against Zverev. He is the better player by Elo and market. Confidence is medium rather than high because I found no second bookmaker price and no fitness news on either player tonight. Confidence is set to low: recent form, fitness, the result of their one earlier meeting and a second bookmaker price could not be verified.",
+      "main_risk": "Zverev's start-of-tournament nerves or a physical problem against a dangerous debutant with nothing to lose. A debutant playing freely can take a set from a favourite who is tight in an opener. Elo (about 65%) is below the market (68.5%), so the upside is limited. His fitness is unverified.",
+      "sources": [
+        "https://www.tennismajors.com/atp/nitto-atp-finals-atp/atp-finals-2026-groups-schedule-format-how-to-watch-866945.html",
+        "https://www.nittoatpfinals.com/en/news/nitto-atp-finals-2026-schedule-sunday-monday",
+        "https://tennisabstract.com/reports/atp_elo_ratings.html",
+        "https://www.si.com/betting/rafael-jodar-vs-alexander-zverev-prediction-odds-for-french-open-quarterfinals",
+        "https://stringtension.com/head-to-head/atp/alexander-zverev/rafael-jodar"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1258842",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.64,
+        "draw": 0,
+        "away": 0.36
+      },
+      "checks": {
+        "team_news": "Texans final report (houstontexans.com, updated Fri 13 Nov): OUT LB Azeez Al-Shaair, WR Marvin Harrison Jr. (hamstring), DE Danielle Hunter (hamstring), TE Brevin Jordan, C/G Keylan Rutledge; QUESTIONABLE DE Will Anderson Jr. (ankle), T Trent Brown (illness/wrist), G Wyatt Teller (back/illness), RB David Montgomery (groin), LB Jake Hummel, CB Jaylin Smith. Browns: OUT S Ronnie Hickman (concussion) and FB Michael Burton; WR Denzel Boston (toe) questionable and back to limited on Friday; Ward, Jenkins, Fannin and the rest practised fully or limited with no designation. Saturday elevations and downgrades not yet seen.",
+        "lineups": "Houston: C.J. Stroud starts (Week 9: 5 TD, 44-22 win over the Chargers). Browns: Todd Monken named Deshaun Watson the starter on Wed 11 Nov (NBC Sports, lineups.com); Watson cleared the concussion protocol and sat out Week 9, when Shedeur Sanders started. Houston's offensive line is the weak spot: Rutledge out, Teller and Trent Brown questionable, facing Cleveland's pass rush (26 sacks). Houston's pass rush is also thinner without Hunter, and Anderson is questionable. Rookie S Emannuel McNeil-Warren replaces Hickman. No official inactives yet (they come out about 90 minutes before kickoff).",
+        "rotation": "No rotation issue in the NFL sense. Texans: regular week after the Week 9 win, three wins in the last four after an 0-4 start, travelling to Cleveland (Eastern time, same or one hour ahead of Central), no short week. Browns: lost 23-22 in overtime at New Orleans last week, have a bye in Week 11 so they will not be saving anything.",
+        "motivation": "Texans 3-5, needing to keep the season alive (a loss would leave them very short of the playoffs). Browns 5-4, in the AFC wild-card hunt, two straight losses, home record 3-0, bye next week. Both sides need the game, so there is no dead-rubber case. AFC South against AFC North, so not a divisional game and no famous rivalry. Not a hard exclusion.",
+        "form": "Texans last 5 (where read): beat the Chargers 44-22 in Week 9, lost at home to the Giants as a 10.5-point favourite, won three of the last four after an 0-4 start. Browns: 3-1 start, then 2 wins in 3, then two straight losses, the latest 22-23 in overtime at the Saints (Sanders 297 yards, 2 TD). Full last-5 scores for both teams were not found.",
+        "h2h": "Not a divisional game. No recent head-to-head found in the sources read. Style matchup: Houston leads the league with 29 sacks and has a steadier QB situation; Browns' Judkins (385 rush yards) and Boston lead the offence. Every source expects a low-scoring game.",
+        "odds": "DraftKings via ESPN: Texans 1.44 now vs 1.46 opening, de-vigged 66.4% (Browns 33.6%), total 40.5. SI/Caesars: Texans -4.5, moneyline -225 / +185, total 39.5. ESPN FPI: Texans by 7.2, 77% to win. Polymarket moneyline 0.675 now vs 0.685 24h ago, a relative move of -1.5%, below the 3% threshold, so no unexplained-move flag. Market range 66-69% before FPI. Spread market: Texans -1.5 at 64.5%.",
+        "models": "ESPN FPI: Texans 77% (7.2 points). ESPN power rankings: Texans 17th. DVOA ranks Texans 15th per Yahoo. A computer model cited by SI picks Browns 23-22. Browns are the 5-4 team with the better record, so models and market (about 66%) disagree somewhat on the size of Houston's edge. No ClubElo-style NFL Elo checked.",
+        "venue_weather": "Huntington Bank Field, Cleveland (outdoor). IMPORTANT: this is Houston's AWAY game. ESPN lists Houston Texans at Cleveland Browns, Browns home, neutralSite false. Polymarket lists the Texans first, so p.home in this file means the Texans. The brief's 'Houston at home' is wrong. Not a hard exclusion (it is Cleveland's normal stadium). Forecast: about 45-47F, feels like 41F, NW wind about 10-14 mph with gusts to 16 off Lake Erie, light showers 22-47% (lower from kickoff). Mild effect on passing and long field goals. 1:00 pm ET kickoff."
+      },
+      "reason": "Texans are about a 4.5-point road favourite on a market-implied 66-67%, with ESPN FPI at 77%. The game is in Cleveland, not Houston. Houston's edge is the steadier Stroud against a Watson coming back from concussion protocol, plus a good pass rush. Several things could drag it down: Hunter and Harrison are out, the offensive line is banged up, the Browns are 3-0 at home and desperate after two losses, and the weather is breezy and damp. p is lowered from the market to 64% to price this in. No price move or news supports lifting it.",
+      "main_risk": "Road favourite with a depleted offensive line (Rutledge out; Teller and Trent Brown questionable) against a Cleveland front that has 26 sacks, with Hunter and Harrison out, in cold, windy conditions at a Browns team that is 3-0 at home and needs the win. A low-scoring game of about 40 points makes the margin thin. Saturday downgrades and the inactives list are still unseen.",
+      "sources": [
+        "https://www.houstontexans.com/news/week-10-injury-report-texans-at-browns",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115",
+        "https://www.si.com/betting/texans-vs-browns-score-prediction-for-nfl-week-10-can-houston-cover-as-road-favorite-2026",
+        "https://www.footballnationusa.com/post/texans-at-browns-week-10-preview-pressure-quarterbacks-and-the-upset-path",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/todd-monken-i-intend-for-deshaun-watson-being-our-starting-qb",
+        "https://dknetwork.draftkings.com/2026/11/13/nfl-week-10-weather-forecast/",
+        "https://www.dawgsbynature.com/cleveland-browns-news/137974/browns-texans-week-10-injuries-denzel-boston-will-anderson-marvin-harrison-danielle-hunter"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1293076",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1258836",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1258851",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1258844",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1300600",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.59,
+        "draw": 0.24,
+        "away": 0.17
+      },
+      "checks": {
+        "team_news": "Croatia: Sutalo (hamstring) and Jakic (knee ligament) out; Pongracic, Kramaric and Ivanovic not in the squad; Luka/Petar Sucic missed the England game with a fever (Khelnow lists a Sucic muscle doubt); Perisic returns after his red-card ban but arrived with stitches from a head injury. Several Croatia players are one yellow from a ban (Sportnet). Czechia: captain Krejci suspended (second red of the campaign, vs Spain), Vlcek expected to replace him; Soucek back from an ankle injury (Khelnow). No confirmed late news found tonight.",
+        "lineups": "Not out yet. Sportnet expects Croatia: Livakovic, Smolcic, Stanisic, Vuskovic, Gvardiol, Modric, Kovacic, P. Sucic, Baturina, Perisic, Matanovic (same XI as Wembley plus Perisic); Khelnow expects a different 4-2-3-1 (Livakovic; Stanisic, Galesic, Vuskovic, Gvardiol; Modric, Kovacic; Perisic, Majer, Vlasic; Matanovic). The two sources disagree on several places. Czechia (Sportnet): Kovar, Coufal, Zima, Vlcek, Jurasek, Kral, Cerv, Ambros, Hlozek, Provod, Naderi; Khelnow lists a different XI. Index.hr says Livakovic has had little playing time at Barcelona.",
+        "rotation": "Group finale for both, so no rotation incentive; Croatia played at Wembley on 12 Nov and the Wembley XI is expected to repeat. Czechia played Spain in this window. No heavy rotation reported.",
+        "motivation": "Group A3 before this game: Spain 15, England 12 (both already through; Spain-England in Madrid the same night decides first place), Croatia 3, Czechia 0. Croatia needs only a draw to stay third; Czechia must win to leapfrog Croatia (it would level on 3 points and go above on goal difference). Last place means a League A survival playoff and the two weakest fourth-placed teams are relegated. So the favourite still needs a point and the opponent needs the win: a soft risk, not a hard exclusion. Coach change: Slaven Bilic took over from Dalic before the Sep 26 opener, so more than 30 days ago.",
+        "form": "Croatia: four straight defeats (Spain 1-4 and 1-2, England 0-7 and 1-2), 5 goals scored and 16 conceded in 5 games, no home win in this edition, only win was 2-1 at Czechia on 26 Sep (Modric, M. Pasalic). Czechia: five straight defeats, 2 scored and 12 conceded, three red cards. Both sides are in very poor form; Croatia's defence is leaking badly.",
+        "h2h": "Czechia has never beaten Croatia (Sportnet: 7 meetings, Croatia 3 wins, 4 draws; Khelnow gives 6 played, a conflicting count). Croatia won 2-1 in Prague on 26 Sep and 5-1 in Osijek in June 2025. Draw rate in the meetings is high (about 40-55%).",
+        "odds": "DraftKings via ESPN: Croatia 1.57 / draw 4.10 / Czechia 5.00, de-vigged 58.9 / 22.6 / 18.5, opening Croatia 1.49 (price has drifted out, implied chance down about 5% relative since the open). Fox Sports shows Croatia -277, Czechia +688; Betway Croatia 1.55, bet365 1/2 (per Squawka/Tips.gg). Polymarket Croatia 0.645 to 0.615 in 24h (-4.7% relative, oneDayPriceChange -0.03); p_first equals the current price. I found no news that explains this fall (Czechia's Krejci suspension is old news and favours Croatia), so by the price-move rule the confidence is low.",
+        "models": "World Football Elo (eloratings.net): Croatia 1852 vs Czechia 1653, expected score home 0.848 (counts a draw as half), a large gap that agrees with the market on direction but ignores Croatia's current collapse.",
+        "venue_weather": "Opus Arena, Osijek, Croatia (home venue, normal); kickoff 20:45 local (19:45 UTC); referee Luis Godinho (Portugal). I found no weather forecast for Osijek; no pitch problem reported."
+      },
+      "reason": "Croatia is clearly the better team on rating (Elo gap about 200) and Czechia is without its captain, but Croatia has lost four straight (conceding 16 in 5), has not won at home in this edition, and the Polymarket favourite price fell 4.7% relative in 24h with no explaining news, which forces low under the price-move rule. Draw is the main danger: Croatia only needs a point, Czechia needs a win, and the h2h is draw-heavy. p stays at or below the market.",
+      "main_risk": "A draw (or a Czechia win) in a tight must-not-lose game against a side with nothing to lose; Croatia's defence is shaky, the Polymarket price fell 4.7% with no explaining news, and expected XIs are unconfirmed and disagree between sources.",
+      "sources": [
+        "https://sportnet.hr/vijesti/nogomet-nogometni-svijet/hrvatska-ceska-15112026-najava-utakmice/635406/",
+        "https://khelnow.com/football/croatia-vs-czechia-preview-uefa-nations-league-202611",
+        "https://www.index.hr/sport/clanak/cetiri-poraza-zaredom-a-sad-ceska-u-osijeku-koga-biste-vi-stavili-u-prvih-11/2857006.aspx",
+        "https://tribuna.com/en/match/croatia-vs-czechia/standings/",
+        "https://www.foxsports.com/soccer/nations-league-croatia-vs-czechia-nov-15-2026-game-boxscore-689073",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261115",
+        "https://www.eloratings.net/",
+        "https://gamma-api.polymarket.com/events?id=1300600"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1375596",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1386924",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1293077",
+      "exclude": true,
+      "skipped": true
+    }
+  ]
+}
