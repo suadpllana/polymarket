@@ -7,6 +7,7 @@
 
 import { readFile } from 'node:fs/promises';
 import { BOOKS, CHECKS, CONFIDENCE, LEG_KEYS, MAX_SHIFT, candidatesPath, isLegKey, researchPath } from './lib/research.mjs';
+import { BETTABLE, MAX_FADE } from './lib/pick.mjs';
 import { localDate } from './lib/time.mjs';
 
 const date = process.argv[2] || localDate();
@@ -65,6 +66,13 @@ for (const v of research.games || []) {
     if (!leg || LEG_KEYS.includes(k)) problems.push(`${where}: views.${k} is not a goals/BTTS/handicap leg in legs_in_range`);
     else if (!(Math.abs(Number(val) - leg.p_market) <= MAX_SHIFT + 0.0001)) problems.push(`${where}: views.${k} must be within ±${MAX_SHIFT * 100} points of ${leg.p_market}`);
   }
+  // A favourite that has lost ground since the game was first listed may not
+  // be rated medium or high: an unexplained move against it means "low".
+  const first = g.p_first || g.p_market;
+  const fav = first.home >= first.away ? 'home' : 'away';
+  const fade = (first[fav] - g.p_market[fav]) / first[fav];
+  if (fade > MAX_FADE && BETTABLE.includes(v.confidence))
+    problems.push(`${where}: the favourite's price fell ${(fade * 100).toFixed(1)}% since first listed (${first[fav]} to ${g.p_market[fav]}); confidence must be low (the pick drops the game anyway)`);
   if (g.p_market.draw === 0 && Number(p.draw) !== 0) problems.push(`${where}: a two-way game (no draw) must have p.draw = 0`);
   for (const k of ['home', 'draw', 'away']) {
     const d = Number(p[k]) - g.p_market[k];

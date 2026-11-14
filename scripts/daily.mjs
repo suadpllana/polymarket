@@ -15,7 +15,7 @@
 import { mkdir, writeFile } from 'node:fs/promises';
 import { SLIP, gatherGames, round } from './lib/football.mjs';
 import { fetchMarket, parseArray } from './lib/polymarket.mjs';
-import { BETTABLE, TIER_NOTE, describe, pickSlip } from './lib/pick.mjs';
+import { BETTABLE, TIER_NOTE, describe, driftProblem, pickSlip } from './lib/pick.mjs';
 import { loadResearch } from './lib/research.mjs';
 import { TIMEZONE, bettingWindow, localDate, tomorrowWindow, zonedParts } from './lib/time.mjs';
 
@@ -92,12 +92,12 @@ function noBet(date, reason, extra = {}) {
   return { model: 'football-2leg', date, generated_at: new Date().toISOString(), no_bet: true, reason, legs: [], result: null, ...extra };
 }
 
-async function buildToday(date, { force = false, window = bettingWindow(), lookaheadAllowed = true } = {}) {
+async function buildToday(date, { force = false, window = bettingWindow(), lookaheadAllowed = true, games: gathered = null } = {}) {
   const research = await loadResearch(date);
   if (!research && !force && zonedParts(new Date()).hour < RESEARCH_DEADLINE_HOUR) {
     throw new Error(`no research for ${date} yet`);
   }
-  let games = await gatherGames(window);
+  let games = gathered || (await gatherGames(window));
   let { slip, tier, skipped, eligible } = pickSlip(games, research);
   // Nothing usable left before 23:00 today: take tomorrow's games (09:00 to
   // 23:00), so the day still has a slip.
@@ -207,6 +207,25 @@ async function updateDay(history, day, opts) {
       const v = research?.games.get(String(l.game_id));
       return Boolean(v && (v.exclude || v.skipped || !BETTABLE.includes(v.confidence)));
     });
+  // A slip that can still be placed is checked against the live prices on
+  // every run: if the market has moved against one of its games (see
+  // driftProblem), the slip is rebuilt without that game, even into "No bet".
+  let games = null;
+  let faded = null;
+  if (existing && !existing.no_bet && !unbettable && research && Date.now() < new Date(existing.place_before).getTime()) {
+    try {
+      games = await gatherGames(opts.window || bettingWindow());
+      for (const l of existing.legs) {
+        const g = games.find((x) => x.id === String(l.game_id));
+        const v = research.games.get(String(l.game_id));
+        const problem = g && v ? driftProblem(g, v) : null;
+        if (problem) faded = `${l.event}: ${problem}`;
+      }
+    } catch (e) {
+      console.warn(`Could not re-check the ${day} slip against live prices: ${e.message}`);
+      games = null;
+    }
+  }
   // Research pushed again after the slip was built may improve it, as long as
   // none of its games is about to start.
   const upgradable =
@@ -215,16 +234,17 @@ async function updateDay(history, day, opts) {
     research?.researched_at &&
     research.researched_at !== existing.researched_at &&
     Date.now() < new Date(existing.place_before).getTime() - 15 * 60 * 1000;
-  if (existing && !existing.no_bet && !unbettable && !upgradable) {
+  if (existing && !existing.no_bet && !unbettable && !faded && !upgradable) {
     console.log(`Slip for ${day} already exists.`);
     return;
   }
   try {
-    const entry = await buildToday(day, opts);
+    const entry = await buildToday(day, { ...opts, games });
     if (!existing) history.entries.push(entry);
-    else if (!entry.no_bet || unbettable) {
+    else if (!entry.no_bet || unbettable || faded) {
       history.entries[history.entries.indexOf(existing)] = entry;
       if (unbettable) console.log(`Replaced a ${day} slip that had a leg below medium confidence.`);
+      else if (faded) console.log(`Replaced the ${day} slip: ${faded}.`);
       else if (upgradable) console.log(`Rebuilt the ${day} slip from the newer research.`);
     } else console.log(`Still no bet for ${day}.`);
   } catch (e) {

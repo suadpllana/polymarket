@@ -38,8 +38,10 @@ of 0, and your `p.draw` must stay 0.
    with extra care. Always commit the research, even on a thin day.
    To research the evening before, add `--tomorrow` (to `npm run candidates`
    and `npm run pick`) and pass the date to `npm run check-research -- <date>`;
-   the morning run then finds the file and stops, so re-push the research in
-   the morning if team news changes (the slip is rebuilt before its first game).
+   the morning run then finds the file and stops, so re-check the kept games
+   in the morning (`npm run candidates -- --live <ids>`, overnight news, the
+   price move since first listing) and re-push the research (the slip is
+   rebuilt before its first game).
 2. Research the games in **batches of 4**, one subagent per game (use the
    Sonnet model for subagents), following "How to research cheaply without
    losing quality" below. Every *kept* game still gets every checklist item
@@ -88,9 +90,13 @@ a leg can honestly reach **high** confidence, or be dropped.
    first leg starts more than 2.5 hours from now, `send_later` this check
    again for about 100 minutes before that leg and stop. If it has already
    started, stop.
-2. `npm run candidates -- --more` refreshes `data` (odds, 24h move, ratings)
-   on today's candidates and adds any new games; give new ones a `skipped`
-   verdict unless you research them.
+2. `npm run candidates -- --live <id>,<id>,…` with the ids you will re-check.
+   Like `--more`, it refreshes `data` (odds, 24h move, ratings) and adds any
+   new games (give new ones a `skipped` verdict unless you research them). It
+   also sets `p_market` and `legs_in_range` of the listed ids to the live
+   prices and prints how far each favourite has moved since it was first
+   listed. **Never edit `p_first`**: it is the price at first listing, and the
+   pick drops any game whose favourite has fallen more than 4% from it.
 3. One subagent per slip leg, plus the two or three best medium/high
    alternatives starting in the next three hours. Each one re-checks only
    what changes late: the confirmed or expected XI, starting goalie or order
@@ -102,13 +108,23 @@ a leg can honestly reach **high** confidence, or be dropped.
      odds and rating sources agree.
    - **low** (so the leg is dropped) when late news hurts the favourite: a
      key starter or the goalkeeper out, heavy rotation confirmed, or a price
-     move against it with no explanation.
+     move against it with no explanation. "A price move against it" means the
+     favourite's chance is down **3% or more (relative) since it was first
+     listed** (`p_first`), or its bookmaker price has lengthened the same way.
+     If no news explains the move, the answer is low. No exceptions: a clean
+     lineup does not cancel an unexplained move.
+   - **You check the agent's answer before merging.** If an agent reports
+     such a move and still says medium or high, set it to low yourself. If it
+     could not find the official XI, the game cannot be high. `check-research`
+     fails when a medium/high game's favourite is down more than 4%.
 4. Merge the updated objects into `research/<date>.json`, set
    `"stage": "pre_kickoff"` and a new `researched_at`, add a sentence to
    `summary` on what changed, run `npm run check-research` and `npm run pick`,
    then commit as `Pre-kickoff check for <date>` and push. The build rebuilds
    the slip when it still has at least 30 minutes before its first game.
 5. Keep it quick: 1-5 subagents, about 10 tool calls each.
+6. In the summary to the user, name **one** slip: the one the site shows. Do
+   not offer a second "alternative" slip in chat; the user bets from the site.
 
 ## What October's real bets taught us
 
@@ -132,6 +148,23 @@ From the 60 Stake bets in `data/stake-bets.json` (see the Stats page):
   draw no bet, double chance).
 - **Cashing out cost $757.** Six cashed-out bets would have won. The slip is
   meant to be held to the end.
+
+### 14 Nov 2026: Portugal 1-4 Denmark (lost slip)
+
+The slip had "Portugal over 1.5 goals". Portugal were already through with
+nothing to play for, missing four regulars, against a Denmark side that needed
+the result, and their price slid from 64.7% to 60.7% during the day with no
+news. Every one of those was written in the research, and the leg was still
+offered. What changed afterwards:
+
+- **A favourite with nothing to play for against an opponent that needs the
+  result is a hard exclusion** (see Rules).
+- **The price slide is measured from the first listing** (`p_first`), not
+  from the latest price refresh, and more than 4% against the favourite drops
+  the game in code.
+- **Confidence ranks first in the pick.** That day an all-high slip existed
+  and a slip with a medium leg was shown because its expected return was a
+  fraction higher.
 
 ## How to research cheaply without losing quality
 
@@ -182,13 +215,21 @@ that get excluded.
     changes;
   - it is a derby or a fierce rivalry;
   - the manager of either side was sacked or appointed in the last 7 days;
-  - extreme weather, a pitch problem, or a neutral or unusual venue.
+  - extreme weather, a pitch problem, or a neutral or unusual venue;
+  - **the favourite has nothing left to play for and the opponent does**: the
+    favourite has already secured its aim (qualified, group or title won, or
+    cannot be caught or relegated), while the opponent still needs the
+    result. Check the table before anything else in `motivation`. When both
+    sides have nothing at stake, or the favourite still needs a point, it is
+    a soft risk, not an exclusion.
 - **Soft risks keep the game.** A doubtful or conflicting starter, a
-  goalkeeper doubt, possible rotation, little to play for, a manager change
-  8–30 days ago, or a 5%+ price move with no news: keep the game, put the risk
+  goalkeeper doubt, possible rotation, little to play for on both sides, or a
+  manager change 8–30 days ago: keep the game, put the risk
   in `main_risk`, lower `confidence`, and move the probabilities to reflect it
   (within the 5-point limit). These used to exclude games and left whole
-  days without a slip; almost every game has some doubt.
+  days without a slip; almost every game has some doubt. One thing is not a
+  soft risk: a price move against the favourite of 3% or more since first
+  listing with no news to explain it makes the game `low`.
 - **Unknown after real attempts** (two different searches plus the club's or
   league's own pages): keep the game with `low` confidence and leave the
   probabilities at the market. Say what you tried.
@@ -295,13 +336,16 @@ minus 3%.
 ## How the slip is picked (scripts/lib/pick.mjs)
 
 1. Only kept games with **medium or high** confidence are used. Take the live
-   market and apply the research's shift (1X2 `p` and `views`). If the
-   favourite's price moved 5% or more since the research, the game is dropped.
+   market and apply the research's shift (1X2 `p` and `views`). The game is
+   dropped if the favourite's price moved 5% or more either way since the
+   latest research, or fell more than 4% since the game was first listed
+   (`p_first`; re-checks and price refreshes never reset it).
 2. Every leg must land or be refunded at least 60% of the time. A straight
    win also needs a draw chance of 25% or less.
-3. Of all slips of one, two or three legs from different games, take the one
-   with the highest expected return; on a near-tie, the more likely one, then
-   the one with more high-confidence legs.
+3. Of all slips of one, two or three legs from different games, confidence
+   decides first: the slip with the fewest medium legs wins, so an all-high
+   slip always beats one with a medium leg. Between slips of equal
+   confidence, the highest expected return; on a near-tie, the more likely one.
 4. The pick tries combined odds 1.85–2.25 first, then 1.70–2.50, and the site
    labels which one it used. If neither has a slip, the day is **No bet**.
    Low-confidence legs, unresearched (market-only) legs and hard-excluded
@@ -309,8 +353,10 @@ minus 3%.
 5. If the research has not arrived by 12:00 Belgrade, there is no slip that
    day (no market-only slips).
 6. A published slip is rebuilt if one of its legs is no longer bettable (for
-   example, newer research downgraded it), and when research is pushed again
-   before its first game starts.
+   example, newer research downgraded it), when research is pushed again
+   before its first game starts, and when a build finds that the price has
+   moved against one of its games as in step 1 (that game is dropped, even if
+   the day becomes "No bet").
 
 At combined odds of 2.0 the bookmaker's own price says a slip lands about
 48% of the time. Good research aims to push that a few points higher. No

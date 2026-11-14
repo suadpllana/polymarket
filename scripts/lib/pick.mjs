@@ -1,6 +1,7 @@
 /**
  * Picks the day's slip: one to three legs from different games, combined odds
- * near 2.0, the highest expected return among the slips that qualify.
+ * near 2.0. Confidence comes first: the slip with the fewest medium legs
+ * wins, and expected return only decides between slips of equal confidence.
  *
  * Only researched legs with medium or high confidence are ever used: no
  * low-confidence legs and no legs priced from the market alone. The pick
@@ -16,8 +17,17 @@ import { applyShift } from './research.mjs';
 
 const MIN_PAYING_ODDS = 1.05;
 
-/** Moving this much (relative) since the morning research makes the game unsafe to bet. */
+/** Moving this much (relative, either way) since the latest research makes the game unsafe to bet. */
 export const MAX_DRIFT = 0.05;
+
+/**
+ * A favourite whose market chance has fallen this much (relative) since the
+ * game was FIRST listed is dropped, whatever later re-checks say. An
+ * unexplained move against the favourite means the market knows something
+ * the research does not. Refreshing prices for a re-check never resets this
+ * baseline (candidates keep it as `p_first`).
+ */
+export const MAX_FADE = 0.04;
 
 /** The only confidence levels that may go on a slip. */
 export const BETTABLE = ['high', 'medium'];
@@ -31,6 +41,18 @@ export const TIER_NOTE = {
   researched: '',
   wider: 'Few medium or high confidence legs fit today, so this slip uses a slightly wider odds range (1.70–2.50).',
 };
+
+/** Why a researched game may not be bet at the live price, or null when it may. */
+export function driftProblem(g, v) {
+  const fav = v.morning.home >= v.morning.away ? 'home' : 'away';
+  const drift = Math.abs(g.p_market[fav] - v.morning[fav]) / v.morning[fav];
+  if (drift > MAX_DRIFT) return `price moved ${Math.round(drift * 100)}% since the research`;
+  const first = v.baseline || v.morning;
+  const firstFav = first.home >= first.away ? 'home' : 'away';
+  const fade = (first[firstFav] - g.p_market[firstFav]) / first[firstFav];
+  if (fade > MAX_FADE) return `the favourite's price fell ${(fade * 100).toFixed(1)}% since the first research`;
+  return null;
+}
 
 function bookPrice(prices, leg) {
   let best = null;
@@ -55,10 +77,9 @@ export function eligibleLegs(games, research) {
   for (const g of games) {
     const v = research?.games.get(g.id);
     if (!v || v.skipped || v.exclude || !BETTABLE.includes(v.confidence)) continue;
-    const fav = v.morning.home >= v.morning.away ? 'home' : 'away';
-    const drift = Math.abs(g.p_market[fav] - v.morning[fav]) / v.morning[fav];
-    if (drift > MAX_DRIFT) {
-      skipped.push(`${g.event}: price moved ${Math.round(drift * 100)}% since the research`);
+    const problem = driftProblem(g, v);
+    if (problem) {
+      skipped.push(`${g.event}: ${problem}`);
       continue;
     }
     const p = applyShift(g.p_market, v.shift);
@@ -105,13 +126,14 @@ export function bestSlip(legs, range = SLIP) {
     const ev = set.reduce((x, l) => x * (l.p_win * l.odds + l.p_void), 1) - 1;
     const p_hit = set.reduce((x, l) => x * (l.p_win + l.p_void), 1);
     const highs = set.filter((l) => l.verdict.confidence === 'high').length;
-    const cand = { legs: [...set], odds, ev, p_hit, highs };
-    // Highest expected return; on a near-tie the more likely slip, then the
-    // one with more high-confidence legs.
+    const mediums = set.length - highs;
+    const cand = { legs: [...set], odds, ev, p_hit, highs, mediums };
+    // Confidence first: fewer medium legs always wins. Between slips of equal
+    // confidence, the higher expected return; on a near-tie the more likely one.
     if (
       !best ||
-      cand.ev > best.ev + 0.005 ||
-      (Math.abs(cand.ev - best.ev) <= 0.005 && (cand.p_hit > best.p_hit + 0.005 || (Math.abs(cand.p_hit - best.p_hit) <= 0.005 && cand.highs > best.highs)))
+      cand.mediums < best.mediums ||
+      (cand.mediums === best.mediums && (cand.ev > best.ev + 0.005 || (Math.abs(cand.ev - best.ev) <= 0.005 && cand.p_hit > best.p_hit + 0.005)))
     )
       best = cand;
   }

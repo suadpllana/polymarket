@@ -25,8 +25,10 @@ A small site with three pages:
    bet, total goals, both teams to score, handicaps, a team's goals) plus the
    winner market in top tennis, basketball, ice hockey, NFL, MLB, UFC and
    tier-1 esports. Only legs the research rated medium or high confidence
-   are used: never low-confidence or market-only legs. If no such slip fits,
-   the day is "No bet".
+   are used: never low-confidence or market-only legs. High-confidence legs
+   are preferred over medium ones, and a game whose favourite has lost more
+   than 4% of its market chance since it was first listed is dropped, also
+   from a slip already shown. If no such slip fits, the day is "No bet".
 3. **Settle.** Every run marks finished legs won, lost or void from resolved
    Polymarket markets.
 

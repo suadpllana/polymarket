@@ -100,6 +100,10 @@ export async function loadResearch(date) {
       skipped: v.skipped === true,
       confidence: CONFIDENCE.includes(v.confidence) ? v.confidence : 'low',
       morning: g.p_market,
+      // The market when the game was first listed. Price refreshes for later
+      // re-checks never change it, so a slow slide against the favourite is
+      // still measured from the start (see MAX_FADE in pick.mjs).
+      baseline: g.p_first || g.p_market,
       shift: v.exclude ? { home: 0, draw: 0, away: 0 } : clampShift(v.p, g.p_market),
       view_shift: v.exclude ? {} : views(v, g),
       reason: String(v.reason || '').slice(0, 1500),
