@@ -23,6 +23,10 @@ import { TIMEZONE, bettingWindow, localDate, tomorrowWindow, zonedParts } from '
 // without research is "No bet" (market-only legs are never used).
 const RESEARCH_DEADLINE_HOUR = 12;
 
+// Slips taken out of the record at the owner's request (14 Nov 2026): they
+// were picked by an early version of the model.
+const REMOVED_DATES = new Set(['2026-10-31', '2026-11-01', '2026-11-02']);
+
 const OUT = new URL('../public/history.json', import.meta.url);
 const DRY = process.argv.includes('--dry');
 const TOMORROW = process.argv.includes('--tomorrow');
@@ -40,7 +44,7 @@ async function loadHistory(siteUrl) {
   if (!res.ok) throw new Error(`Could not load ${url}: HTTP ${res.status}`);
   const data = await res.json();
   // Slips from the old multi-sport model are not carried over.
-  return { entries: (Array.isArray(data.entries) ? data.entries : []).filter((e) => e.model === 'football-2leg') };
+  return { entries: (Array.isArray(data.entries) ? data.entries : []).filter((e) => e.model === 'football-2leg' && !REMOVED_DATES.has(e.date)) };
 }
 
 function settleLeg(leg, resolved) {
