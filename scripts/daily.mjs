@@ -98,17 +98,18 @@ async function buildToday(date, { force = false, window = bettingWindow(), looka
     throw new Error(`no research for ${date} yet`);
   }
   let games = gathered || (await gatherGames(window));
-  let { slip, tier, skipped, eligible } = pickSlip(games, research);
+  let { slip, tier, skipped, faded, eligible } = pickSlip(games, research);
   // Nothing usable left before 23:00 today: take tomorrow's games (09:00 to
   // 23:00), so the day still has a slip.
   let lookahead = false;
   if (!slip && lookaheadAllowed) {
     console.log('No slip before 23:00 today; using tomorrow’s games.');
     games = await gatherGames(tomorrowWindow());
-    ({ slip, tier, skipped } = pickSlip(games, research));
+    ({ slip, tier, skipped, faded } = pickSlip(games, research));
     lookahead = Boolean(slip);
   }
   skipped.forEach((x) => console.log(`Skipped: ${x}`));
+  faded.forEach((x) => console.log(`Leg dropped: ${x}`));
   const kept = research ? [...research.games.values()].filter((v) => !v.exclude && !v.skipped).length : 0;
   const base = {
     summary: research?.summary || 'The morning research did not arrive, so there is no researched slip today.',

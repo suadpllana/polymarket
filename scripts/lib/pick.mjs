@@ -1,7 +1,11 @@
 /**
  * Picks the day's slip: one to three legs from different games, combined odds
  * near 2.0. Confidence comes first: the slip with the fewest medium legs
- * wins, and expected return only decides between slips of equal confidence.
+ * wins; between slips of equal confidence, the one most likely to land.
+ *
+ * The market is the starting point and research is a filter. Odds and the
+ * 60% bar come from the market's own price; research may lower a leg's
+ * chance or rule a game out, but never lifts a leg above the market.
  *
  * Only researched legs with medium or high confidence are ever used: no
  * low-confidence legs and no legs priced from the market alone. The pick
@@ -12,7 +16,7 @@
  * Games the research excluded for a hard reason are never used.
  */
 
-import { MAX_DRAW_FOR_WIN, MIN_LEG_P, SLIP, extraLeg, inRange, legsFor, round } from './football.mjs';
+import { MAX_DRAW_FOR_WIN, MIN_LEG_P, SLIP, extraLeg, inRange, legsFor, marketLegs, round } from './football.mjs';
 import { applyShift } from './research.mjs';
 
 const MIN_PAYING_ODDS = 1.05;
@@ -28,6 +32,16 @@ export const MAX_DRIFT = 0.05;
  * baseline (candidates keep it as `p_first`).
  */
 export const MAX_FADE = 0.04;
+
+/**
+ * The same idea for a single leg: a leg whose own market chance has fallen
+ * this much (relative) since it was first listed is dropped. Goals and
+ * handicap markets are thinner and noisier than the result market, hence the
+ * wider limit.
+ */
+export const MAX_LEG_FADE = 0.05;
+
+const pLose = (l) => Math.max(0, 1 - l.p_win - l.p_void);
 
 /** The only confidence levels that may go on a slip. */
 export const BETTABLE = ['high', 'medium'];
@@ -74,6 +88,7 @@ function bookPrice(prices, leg) {
 export function eligibleLegs(games, research) {
   const out = [];
   const skipped = [];
+  const faded = [];
   for (const g of games) {
     const v = research?.games.get(g.id);
     if (!v || v.skipped || v.exclude || !BETTABLE.includes(v.confidence)) continue;
@@ -84,16 +99,28 @@ export function eligibleLegs(games, research) {
     }
     const p = applyShift(g.p_market, v.shift);
     const viewShift = v.view_shift || {};
-    const legs = [
-      ...legsFor(g, p),
-      ...(g.extras || []).map((x) => extraLeg(x, Math.min(0.97, Math.max(0.03, x.p_market + (viewShift[x.key] || 0))))),
-    ];
-    for (const leg of legs) {
-      if (!inRange(leg)) continue;
+    const researched = new Map(
+      [...legsFor(g, p), ...(g.extras || []).map((x) => extraLeg(x, Math.min(0.97, Math.max(0.03, x.p_market + (viewShift[x.key] || 0)))))].map((l) => [l.key, l])
+    );
+    // Odds and the odds range come from the market's own price: that is what
+    // a bookmaker pays on, whatever the research thinks.
+    for (const m of marketLegs(g)) {
+      if (!inRange(m)) continue;
       // A leg has to pay something: very short prices round to nothing at a bookmaker.
-      if (leg.est_odds < MIN_PAYING_ODDS) continue;
-      if (leg.p_win + leg.p_void < MIN_LEG_P) continue;
-      if ((leg.key === 'home' || leg.key === 'away') && p.draw > MAX_DRAW_FOR_WIN) continue;
+      if (m.est_odds < MIN_PAYING_ODDS) continue;
+      const r = researched.get(m.key) || m;
+      // Research may lower a leg's chance, never raise it above the market's.
+      const p_win = Math.min(m.p_win, r.p_win);
+      const p_void = m.p_void === 0 && r.p_void === 0 ? 0 : Math.max(0, 1 - p_win - Math.max(pLose(m), pLose(r)));
+      if (p_win + p_void < MIN_LEG_P) continue;
+      if ((m.key === 'home' || m.key === 'away') && Math.max(p.draw, g.p_market.draw) > MAX_DRAW_FOR_WIN) continue;
+      const first = Number(v.legs_first?.[m.key]);
+      const now = m.p_win + m.p_void;
+      if (first > 0 && (first - now) / first > MAX_LEG_FADE) {
+        faded.push(`${g.event}: ${m.selection} (${m.label}) fell ${(((first - now) / first) * 100).toFixed(1)}% since it was first listed`);
+        continue;
+      }
+      const leg = { ...m, p_win, p_void };
       const book = bookPrice(v.prices, leg);
       out.push({
         game: g,
@@ -105,7 +132,7 @@ export function eligibleLegs(games, research) {
       });
     }
   }
-  return { legs: out, skipped };
+  return { legs: out, skipped, faded };
 }
 
 /** Every slip of 1 to `maxLegs` legs, each leg from a different game. */
@@ -129,11 +156,12 @@ export function bestSlip(legs, range = SLIP) {
     const mediums = set.length - highs;
     const cand = { legs: [...set], odds, ev, p_hit, highs, mediums };
     // Confidence first: fewer medium legs always wins. Between slips of equal
-    // confidence, the higher expected return; on a near-tie the more likely one.
+    // confidence, the one most likely to land (or refund); on a near-tie the
+    // higher expected return.
     if (
       !best ||
       cand.mediums < best.mediums ||
-      (cand.mediums === best.mediums && (cand.ev > best.ev + 0.005 || (Math.abs(cand.ev - best.ev) <= 0.005 && cand.p_hit > best.p_hit + 0.005)))
+      (cand.mediums === best.mediums && (cand.p_hit > best.p_hit + 0.005 || (Math.abs(cand.p_hit - best.p_hit) <= 0.005 && cand.ev > best.ev + 0.001)))
     )
       best = cand;
   }
@@ -142,12 +170,12 @@ export function bestSlip(legs, range = SLIP) {
 
 /** Tries the odds ranges in order and returns the first slip found, with the tier used. */
 export function pickSlip(games, research) {
-  const { legs, skipped } = eligibleLegs(games, research);
+  const { legs, skipped, faded } = eligibleLegs(games, research);
   for (const tier of TIERS) {
     const slip = bestSlip(legs, tier.range);
-    if (slip) return { slip, tier: tier.name, skipped };
+    if (slip) return { slip, tier: tier.name, skipped, faded };
   }
-  return { slip: null, tier: null, skipped, eligible: legs.length };
+  return { slip: null, tier: null, skipped, faded, eligible: legs.length };
 }
 
 export function describe(slip) {

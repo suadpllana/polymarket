@@ -165,6 +165,12 @@ offered. What changed afterwards:
 - **Confidence ranks first in the pick.** That day an all-high slip existed
   and a slip with a medium leg was shown because its expected return was a
   fraction higher.
+- **Research no longer lifts a leg.** The day before, "North Macedonia under
+  0.5 goals" was on the morning slip at 64% and by the evening its own market
+  price was 59.5%, under the 60% bar; only a research view kept it eligible.
+  It would have lost. Odds and the bar now come from the market, a leg that
+  loses more than 5% of its market chance is dropped, and research can only
+  lower a leg.
 
 ## How to research cheaply without losing quality
 
@@ -239,8 +245,10 @@ that get excluded.
   meet, both teams to score or over goals; when a strong side faces a
   low-scoring opponent, under goals or the favourite's team goals. For each
   goals, both-teams-to-score, handicap or team-goals leg you have a view on,
-  give your probability in `views` (within 5 points of its `p_market`). The
-  build applies the views to the live prices and picks the best slip.
+  give your probability in `views` (within 5 points of its `p_market`). A
+  view below the market lowers that leg's chance in the pick; a view above
+  the market changes nothing, so spend the effort on finding what could go
+  wrong with a leg, not on arguing it up.
 - **Confidence.** `high`: every check is clean and the sources agree.
   `medium`: small doubts that the probabilities already reflect. `low`:
   real doubts or missing facts; **never bet**. Never raise a game to medium
@@ -335,17 +343,23 @@ minus 3%.
 
 ## How the slip is picked (scripts/lib/pick.mjs)
 
-1. Only kept games with **medium or high** confidence are used. Take the live
-   market and apply the research's shift (1X2 `p` and `views`). The game is
+1. Only kept games with **medium or high** confidence are used. The game is
    dropped if the favourite's price moved 5% or more either way since the
    latest research, or fell more than 4% since the game was first listed
-   (`p_first`; re-checks and price refreshes never reset it).
-2. Every leg must land or be refunded at least 60% of the time. A straight
-   win also needs a draw chance of 25% or less.
+   (`p_first`; re-checks and price refreshes never reset it). A single leg is
+   dropped when its own market chance fell more than 5% since it was first
+   listed (`legs_first`).
+2. **The market is the starting point and research is a filter.** Odds, the
+   odds range and the 60% bar come from the live market price. Research (1X2
+   `p` and `views`) can lower a leg's chance, and with it rule the leg out,
+   but never raises a leg above the market's own number. Every leg must land
+   or be refunded at least 60% of the time on both numbers. A straight win
+   also needs a draw chance of 25% or less on both.
 3. Of all slips of one, two or three legs from different games, confidence
    decides first: the slip with the fewest medium legs wins, so an all-high
    slip always beats one with a medium leg. Between slips of equal
-   confidence, the highest expected return; on a near-tie, the more likely one.
+   confidence, the one most likely to land or refund; on a near-tie, the
+   higher expected return.
 4. The pick tries combined odds 1.85–2.25 first, then 1.70–2.50, and the site
    labels which one it used. If neither has a slip, the day is **No bet**.
    Low-confidence legs, unresearched (market-only) legs and hard-excluded

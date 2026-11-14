@@ -62,7 +62,7 @@ function slipHtml(e, title = 'Today’s slip') {
       e.research_stage === 'pre_kickoff'
         ? `<p class="slip-card__tier small"><strong>Final check done</strong> at ${esc(timeLabel(e.researched_at))}: lineups and late news were checked shortly before the first game.</p>`
         : e.researched_at && !e.result
-          ? `<p class="slip-card__tier small">Morning research. A final check of lineups and late news runs about 90 minutes before the first game and may change the slip: place it after that.</p>`
+          ? `<p class="slip-card__tier small"><strong>Draft: do not bet yet.</strong> This is the morning research. The final check of lineups, late news and price moves runs about 90 minutes before the first game and often changes the slip. Bet only after this note says “Final check done”.</p>`
           : ''
     }
     <div class="slip-card__legs">${e.legs.map(legCard).join('')}</div>

@@ -14,8 +14,9 @@
  *        add --tomorrow to any of them to list tomorrow's games (09:00–23:00
  *        Belgrade) into tomorrow's file, for research done the evening before
  *
- * Every game keeps `p_first`, the market when it was first listed. It is
- * never overwritten: the pick measures a slide against the favourite from it.
+ * Every game keeps `p_first`, the market when it was first listed, and
+ * `legs_first`, each leg's market chance when that leg was first listed. They
+ * are never overwritten: the pick measures a slide in price from them.
  */
 
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
@@ -65,11 +66,17 @@ try {
 if (onDisk && onDisk.date !== date) onDisk = null;
 const previous = MORE ? onDisk : null;
 const firstPrice = new Map((onDisk?.games || []).map((g) => [g.id, g.p_first || g.p_market]));
+const firstLegs = new Map((onDisk?.games || []).map((g) => [g.id, g.legs_first || {}]));
+// Keys already recorded keep their first value; legs that came into range later are added.
+const withFirstLegs = (c) => ({ ...Object.fromEntries((c.legs_in_range || []).map((l) => [l.key, l.p_market])), ...(firstLegs.get(c.id) || {}), ...(c.legs_first || {}) });
 const known = new Set((previous?.games || []).map((g) => g.id));
 const pool = MORE ? researchPool(all, Infinity).filter((g) => !known.has(g.id)) : researchPool(all);
 
 const games = [...(previous?.games || []), ...pool.map(entry)];
-for (const c of games) c.p_first = firstPrice.get(c.id) || c.p_first || c.p_market;
+for (const c of games) {
+  c.p_first = firstPrice.get(c.id) || c.p_first || c.p_market;
+  c.legs_first = withFirstLegs(c);
+}
 
 // Odds, the 24h price move and a rating model for each game, so the research
 // does not depend on pages that block automated visitors.
@@ -86,6 +93,7 @@ for (const id of LIVE) {
   const fresh = entry(g);
   c.p_market = fresh.p_market;
   c.legs_in_range = fresh.legs_in_range;
+  c.legs_first = withFirstLegs(c);
   c.p_live_at = new Date().toISOString();
   const fav = c.p_first.home >= c.p_first.away ? 'home' : 'away';
   const move = (c.p_market[fav] - c.p_first[fav]) / c.p_first[fav];
