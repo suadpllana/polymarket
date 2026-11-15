@@ -111,6 +111,12 @@ export function eligibleLegs(games, research) {
       if (!inRange(m)) continue;
       // A leg has to pay something: very short prices round to nothing at a bookmaker.
       if (m.est_odds < MIN_PAYING_ODDS) continue;
+      // A goals, handicap or team-goals leg is only used when the research
+      // gave its own view on it. Without one, nobody checked that leg against
+      // the game's risks (a favourite expected to win narrowly must not end
+      // up on a -1.5 handicap just because the market number looked best).
+      const isResult = ['home', 'away', 'home_draw', 'away_draw', 'home_dnb', 'away_dnb'].includes(m.key);
+      if (!isResult && !Object.hasOwn(viewShift, m.key)) continue;
       const r = researched.get(m.key) || m;
       // Research may lower a leg's chance, never raise it above the market's.
       const p_win = Math.min(m.p_win, r.p_win);

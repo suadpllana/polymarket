@@ -268,10 +268,12 @@ that get excluded.
   meet, both teams to score or over goals; when a strong side faces a
   low-scoring opponent, under goals or the favourite's team goals. For each
   goals, both-teams-to-score, handicap or team-goals leg you have a view on,
-  give your probability in `views` (within 5 points of its `p_market`). A
-  view below the market lowers that leg's chance in the pick; a view above
-  the market changes nothing, so spend the effort on finding what could go
-  wrong with a leg, not on arguing it up.
+  give your probability in `views` (within 5 points of its `p_market`). **A
+  goals, handicap or team-goals leg without a view is never bet**, so give a
+  view for every such leg you have checked against the game's risks, and
+  leave out the ones you would not back. A view below the market lowers that
+  leg's chance in the pick; a view above the market changes nothing, so spend
+  the effort on finding what could go wrong with a leg, not on arguing it up.
 - **Confidence.** `high`: every check is clean and the sources agree.
   `medium`: small doubts that the probabilities already reflect. `low`:
   real doubts or missing facts; **never bet**. Never raise a game to medium
@@ -375,7 +377,8 @@ minus 3%.
 2. **The market is the starting point and research is a filter.** Odds, the
    odds range and the 60% bar come from the live market price. Research (1X2
    `p` and `views`) can lower a leg's chance, and with it rule the leg out,
-   but never raises a leg above the market's own number. Every leg must land
+   but never raises a leg above the market's own number. A goals, handicap
+   or team-goals leg needs a research view to be used at all. Every leg must land
    or be refunded at least 60% of the time on both numbers. A straight win
    also needs a draw chance of 25% or less on both.
 3. Of all slips of one, two or three legs from different games, confidence
