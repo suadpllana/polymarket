@@ -194,9 +194,9 @@
       "start": "2026-11-15T19:45:00.000Z",
       "coverage": 1,
       "p_market": {
-        "home": 0.8236,
-        "draw": 0.1129,
-        "away": 0.0635
+        "home": 0.8337,
+        "draw": 0.1029,
+        "away": 0.0634
       },
       "p_first": {
         "home": 0.8036,
@@ -208,43 +208,43 @@
           "key": "home",
           "label": "Match winner",
           "selection": "France",
-          "p_market": 0.8236,
-          "fair_odds": 1.21
+          "p_market": 0.8337,
+          "fair_odds": 1.2
         },
         {
           "key": "ah_home_-1.5",
           "label": "Handicap",
           "selection": "France -1.5",
-          "p_market": 0.635,
-          "fair_odds": 1.57
+          "p_market": 0.645,
+          "fair_odds": 1.55
         },
         {
           "key": "ah_away_+2.5",
           "label": "Handicap",
           "selection": "Türkiye +2.5",
-          "p_market": 0.585,
-          "fair_odds": 1.71
+          "p_market": 0.575,
+          "fair_odds": 1.74
         },
         {
           "key": "ah_away_+3.5",
           "label": "Handicap",
           "selection": "Türkiye +3.5",
-          "p_market": 0.75,
-          "fair_odds": 1.33
+          "p_market": 0.755,
+          "fair_odds": 1.32
         },
         {
           "key": "ou_2.5_over",
           "label": "Total goals",
           "selection": "Over 2.5",
-          "p_market": 0.755,
-          "fair_odds": 1.32
+          "p_market": 0.745,
+          "fair_odds": 1.34
         },
         {
           "key": "ou_3.5_over",
           "label": "Total goals",
           "selection": "Over 3.5",
-          "p_market": 0.555,
-          "fair_odds": 1.8
+          "p_market": 0.545,
+          "fair_odds": 1.83
         },
         {
           "key": "ou_4.5_under",
@@ -257,36 +257,36 @@
           "key": "ou_5.5_under",
           "label": "Total goals",
           "selection": "Under 5.5",
-          "p_market": 0.805,
-          "fair_odds": 1.24
-        },
-        {
-          "key": "btts_yes",
-          "label": "Both teams to score",
-          "selection": "Yes",
-          "p_market": 0.535,
-          "fair_odds": 1.87
+          "p_market": 0.815,
+          "fair_odds": 1.23
         },
         {
           "key": "tt_home_1.5_over",
           "label": "France goals",
           "selection": "Over 1.5",
-          "p_market": 0.82,
-          "fair_odds": 1.22
+          "p_market": 0.825,
+          "fair_odds": 1.21
         },
         {
           "key": "tt_home_2.5_over",
           "label": "France goals",
           "selection": "Over 2.5",
-          "p_market": 0.59,
-          "fair_odds": 1.69
+          "p_market": 0.6,
+          "fair_odds": 1.67
+        },
+        {
+          "key": "tt_home_3.5_under",
+          "label": "France goals",
+          "selection": "Under 3.5",
+          "p_market": 0.63,
+          "fair_odds": 1.59
         },
         {
           "key": "tt_away_0.5_over",
           "label": "Türkiye goals",
           "selection": "Over 0.5",
-          "p_market": 0.56,
-          "fair_odds": 1.79
+          "p_market": 0.55,
+          "fair_odds": 1.82
         },
         {
           "key": "tt_away_1.5_under",
@@ -305,11 +305,12 @@
         "ou_3.5_over": 0.555,
         "ou_4.5_under": 0.685,
         "ou_5.5_under": 0.82,
-        "btts_yes": 0.53,
         "tt_home_1.5_over": 0.785,
         "tt_home_2.5_over": 0.56,
+        "tt_home_3.5_under": 0.63,
         "tt_away_0.5_over": 0.56,
-        "tt_away_1.5_under": 0.795
+        "tt_away_1.5_under": 0.795,
+        "btts_yes": 0.53
       },
       "data": {
         "odds": {
@@ -317,7 +318,7 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261115",
           "espn_match": "Türkiye at France",
           "decimal": {
-            "home": 1.18,
+            "home": 1.17,
             "draw": 7,
             "away": 11
           },
@@ -327,7 +328,7 @@
             "away": 11
           },
           "p_devig": {
-            "home": 0.784,
+            "home": 0.785,
             "draw": 0.132,
             "away": 0.084
           },
@@ -335,13 +336,13 @@
         },
         "move_24h": {
           "side": "home",
-          "from": 0.795,
-          "to": 0.825,
-          "relative_change": 0.038
+          "from": 0.805,
+          "to": 0.835,
+          "relative_change": 0.037
         },
-        "fetched_at": "2026-11-15T16:34:46.616Z"
+        "fetched_at": "2026-11-15T18:48:17.259Z"
       },
-      "p_live_at": "2026-11-15T16:34:46.068Z"
+      "p_live_at": "2026-11-15T18:48:16.342Z"
     },
     {
       "id": "1258833",
@@ -423,9 +424,9 @@
           "to": 0.805,
           "relative_change": 0.013
         },
-        "fetched_at": "2026-11-15T16:34:46.477Z"
+        "fetched_at": "2026-11-15T18:48:16.840Z"
       },
-      "p_live_at": "2026-11-15T16:34:46.068Z"
+      "p_live_at": "2026-11-15T18:48:16.343Z"
     },
     {
       "id": "1258848",
@@ -465,9 +466,9 @@
           "to": 0.715,
           "relative_change": -0.014
         },
-        "fetched_at": "2026-11-15T16:34:46.795Z"
+        "fetched_at": "2026-11-15T18:48:16.811Z"
       },
-      "p_live_at": "2026-11-15T16:34:46.068Z"
+      "p_live_at": "2026-11-15T18:48:16.343Z"
     },
     {
       "id": "1375595",
@@ -755,7 +756,7 @@
           "to": 0.645,
           "relative_change": -0.015
         },
-        "fetched_at": "2026-11-15T16:34:47.031Z"
+        "fetched_at": "2026-11-15T18:48:16.811Z"
       }
     },
     {
@@ -940,9 +941,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261115",
           "espn_match": "Czechia at Croatia",
           "decimal": {
-            "home": 1.45,
-            "draw": 4.2,
-            "away": 6.5
+            "home": 1.39,
+            "draw": 4.4,
+            "away": 7
           },
           "opening": {
             "home": 1.49,
@@ -950,17 +951,17 @@
             "away": 5.5
           },
           "p_devig": {
-            "home": 0.637,
-            "draw": 0.221,
-            "away": 0.143
+            "home": 0.66,
+            "draw": 0.209,
+            "away": 0.131
           },
           "total": 2.5
         },
         "move_24h": {
           "side": "home",
           "from": 0.615,
-          "to": 0.665,
-          "relative_change": 0.081
+          "to": 0.685,
+          "relative_change": 0.114
         },
         "rating": {
           "model": "World Football Elo (eloratings.net)",
@@ -975,7 +976,7 @@
           },
           "expected_score_home": 0.848
         },
-        "fetched_at": "2026-11-15T16:34:47.021Z"
+        "fetched_at": "2026-11-15T18:48:17.483Z"
       },
       "p_live_at": "2026-11-15T06:51:27.890Z"
     },
@@ -1036,7 +1037,7 @@
             "blend_hard": 0.509
           }
         },
-        "fetched_at": "2026-11-15T16:34:47.356Z"
+        "fetched_at": "2026-11-15T18:48:17.668Z"
       }
     },
     {
@@ -1114,11 +1115,11 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.625,
+          "from": 0.635,
           "to": 0.595,
-          "relative_change": -0.048
+          "relative_change": -0.063
         },
-        "fetched_at": "2026-11-15T16:34:47.540Z"
+        "fetched_at": "2026-11-15T18:48:17.448Z"
       }
     },
     {
@@ -1156,8 +1157,8 @@
         "move_24h": {
           "side": "away",
           "from": 0.725,
-          "to": 0.72,
-          "relative_change": -0.007
+          "to": 0.715,
+          "relative_change": -0.014
         },
         "rating": {
           "model": "Tennis Abstract Elo",
@@ -1178,7 +1179,7 @@
             "blend_hard": 0.478
           }
         },
-        "fetched_at": "2026-11-15T16:34:47.620Z"
+        "fetched_at": "2026-11-15T18:48:17.727Z"
       }
     },
     {
@@ -1429,9 +1430,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261115",
           "espn_match": "England at Spain",
           "decimal": {
-            "home": 2,
-            "draw": 3.8,
-            "away": 3.2
+            "home": 1.95,
+            "draw": 3.75,
+            "away": 3.25
           },
           "opening": {
             "home": 1.67,
@@ -1439,11 +1440,11 @@
             "away": 4.4
           },
           "p_devig": {
-            "home": 0.465,
+            "home": 0.471,
             "draw": 0.245,
-            "away": 0.291
+            "away": 0.283
           },
-          "total": 3.5
+          "total": 2.5
         },
         "move_24h": {
           "side": "home",
@@ -1464,7 +1465,7 @@
           },
           "expected_score_home": 0.799
         },
-        "fetched_at": "2026-11-15T16:34:47.705Z"
+        "fetched_at": "2026-11-15T18:48:17.951Z"
       }
     },
     {
@@ -1678,9 +1679,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261115",
           "espn_match": "Italy at Belgium",
           "decimal": {
-            "home": 2.3,
-            "draw": 3.5,
-            "away": 2.8
+            "home": 2.15,
+            "draw": 3.55,
+            "away": 3
           },
           "opening": {
             "home": 2.1,
@@ -1688,17 +1689,17 @@
             "away": 3.05
           },
           "p_devig": {
-            "home": 0.403,
-            "draw": 0.265,
-            "away": 0.331
+            "home": 0.431,
+            "draw": 0.261,
+            "away": 0.309
           },
           "total": 2.5
         },
         "move_24h": {
           "side": "home",
           "from": 0.445,
-          "to": 0.415,
-          "relative_change": -0.067
+          "to": 0.425,
+          "relative_change": -0.045
         },
         "rating": {
           "model": "World Football Elo (eloratings.net)",
@@ -1713,7 +1714,7 @@
           },
           "expected_score_home": 0.67
         },
-        "fetched_at": "2026-11-15T16:34:47.719Z"
+        "fetched_at": "2026-11-15T18:48:17.830Z"
       }
     },
     {
@@ -2524,7 +2525,7 @@
           "to": 0.765,
           "relative_change": 0.937
         },
-        "fetched_at": "2026-11-15T16:34:47.979Z"
+        "fetched_at": "2026-11-15T18:48:18.040Z"
       }
     },
     {
@@ -2852,11 +2853,11 @@
       "data": {
         "move_24h": {
           "side": "away",
-          "from": 0.4,
-          "to": 0.51,
-          "relative_change": 0.275
+          "from": 0.43,
+          "to": 0.505,
+          "relative_change": 0.174
         },
-        "fetched_at": "2026-11-15T16:34:48.254Z"
+        "fetched_at": "2026-11-15T18:48:18.011Z"
       }
     },
     {
@@ -2902,10 +2903,10 @@
         "move_24h": {
           "side": "home",
           "from": 0.565,
-          "to": 0.515,
-          "relative_change": -0.088
+          "to": 0.505,
+          "relative_change": -0.106
         },
-        "fetched_at": "2026-11-15T16:34:48.527Z"
+        "fetched_at": "2026-11-15T18:48:18.226Z"
       }
     },
     {
@@ -2994,7 +2995,7 @@
           "to": 0.465,
           "relative_change": -0.106
         },
-        "fetched_at": "2026-11-15T16:34:48.435Z"
+        "fetched_at": "2026-11-15T18:48:18.233Z"
       }
     },
     {
@@ -3080,10 +3081,10 @@
         "move_24h": {
           "side": "home",
           "from": 0.445,
-          "to": 0.435,
-          "relative_change": -0.022
+          "to": 0.505,
+          "relative_change": 0.135
         },
-        "fetched_at": "2026-11-15T16:34:48.453Z"
+        "fetched_at": "2026-11-15T18:48:18.321Z"
       }
     },
     {
@@ -3137,10 +3138,10 @@
         "move_24h": {
           "side": "away",
           "from": 0.34,
-          "to": 0.435,
-          "relative_change": 0.279
+          "to": 0.43,
+          "relative_change": 0.265
         },
-        "fetched_at": "2026-11-15T16:34:48.530Z"
+        "fetched_at": "2026-11-15T18:48:18.314Z"
       }
     },
     {
@@ -3294,7 +3295,7 @@
           "to": 0.415,
           "relative_change": 0.025
         },
-        "fetched_at": "2026-11-15T16:34:48.851Z"
+        "fetched_at": "2026-11-15T18:48:18.641Z"
       }
     },
     {
@@ -3351,7 +3352,7 @@
           "to": 0.405,
           "relative_change": 0.11
         },
-        "fetched_at": "2026-11-15T16:34:48.725Z"
+        "fetched_at": "2026-11-15T18:48:18.432Z"
       }
     },
     {
@@ -3408,7 +3409,7 @@
           "to": 0.405,
           "relative_change": -0.129
         },
-        "fetched_at": "2026-11-15T16:34:48.836Z"
+        "fetched_at": "2026-11-15T18:48:18.650Z"
       }
     },
     {
@@ -3530,7 +3531,7 @@
           "to": 0.375,
           "relative_change": -0.026
         },
-        "fetched_at": "2026-11-15T16:34:49.131Z"
+        "fetched_at": "2026-11-15T18:48:18.621Z"
       }
     },
     {
@@ -3584,10 +3585,10 @@
         "move_24h": {
           "side": "away",
           "from": 0.375,
-          "to": 0.37,
-          "relative_change": -0.013
+          "to": 0.375,
+          "relative_change": 0
         },
-        "fetched_at": "2026-11-15T16:34:49.116Z"
+        "fetched_at": "2026-11-15T18:48:18.945Z"
       }
     },
     {
