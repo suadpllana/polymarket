@@ -1,0 +1,312 @@
+{
+  "date": "2026-11-16",
+  "researched_at": "2026-11-15T23:06:51Z",
+  "stage": "morning",
+  "summary": "Researched just after midnight on Mon 16 Nov under the stricter rules; lineups are not out, so this is a draft until the morning check and the final check. It is the last Nations League matchday, so every game was checked first for a favourite with nothing left to play for. Eight games were researched: three are kept at medium, two at low, and three are excluded; the overnight US games and the rest were not reached. Medium: Iceland–Luxembourg (p 0.77; Iceland need a point for promotion, Luxembourg have lost four straight without scoring; Iceland miss a suspended defender and wind and sleet are forecast), Lithuania–Liechtenstein (p 0.855; Liechtenstein have not scored in the group; interim coach, low stakes, Lithuania score few), Slovenia at North Macedonia (p 0.60; Slovenia need the win for second place, North Macedonia are relegated with one goal in five games; Slovenia are without Bijol and Sesko). Low, so not bet: Greece–Serbia (no probable XI found and Greece lost 0-7 three days ago; re-checked in the morning), Medvedev–Cobolli (no second bookmaker price, form only partly verified). Excluded: Switzerland–Scotland and Gibraltar–Malta (the favourite has already won its group and the opponent still needs the result; both prices fell 3–5%), Germany–Netherlands (fierce rivalry, near coin flip).",
+  "games": [
+    {
+      "id": "1307204",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.855,
+        "draw": 0.107,
+        "away": 0.038
+      },
+      "checks": {
+        "team_news": "Lithuania: Armandas Kucys is suspended (straight red vs Azerbaijan, two-match ban; LRT squad article lists him only for the Suriname friendly), so Dubickas or Venckus up front; no new injuries reported for the November camp (Sports Mole, LRT). Liechtenstein: squad reported fully fit, GK Tim-Tiado Oehri back from a long ACL injury, 19-year-old Yonas Abido first call-up (Sports Mole). No official lineup yet.",
+        "lineups": "Not out. Sports Mole predicted XI: Lithuania Bartkus; Sirvys, Kazukolovas, Utkus, Lasickas; Gineitis, Vorobjovas, Michelbrink; J. Jankauskas, Dubickas, Venckus. Liechtenstein: B. Buchel; N. Hasler, Weissenhofer, Traber, Goppel, Zund; Sele, M. Buchel, A. Hasler, Luque-Notaro, Saglam. Tips.gg has Lithuania in 3-5-2 and Liechtenstein 5-4-1 with one forward, so the shape is not agreed.",
+        "rotation": "Lithuania played a friendly 0-0 v Suriname on 12 Nov (youngsters Voitinovicius and Pavlovskis debuted, so squad rotation was already used there); this is the last fixture of the year and the last group game, so no next-game worry. Liechtenstein lost 0-1 at home to Azerbaijan on 13 Nov, so they travel after a 3-day turnaround. Rotation of Lithuania for this game is not expected, but unconfirmed.",
+        "motivation": "Group D2 table before this game (after 13 Nov): Azerbaijan 4 played 2W 2D 0L 3-1 8 pts (group won, cannot be caught); Lithuania 3 played 1W 1D 1L 3-2 4 pts; Liechtenstein 3 played 0W 1D 2L 0-3 1 pt. Results: Liechtenstein 0-2 Lithuania, Lithuania 1-1 Azerbaijan, Azerbaijan 0-0 Liechtenstein, Azerbaijan 1-0 Lithuania, Liechtenstein 0-1 Azerbaijan. Lithuania finish 2nd with a draw or a win; only a defeat (Liechtenstein at most 4 pts) puts 2nd place at stake, with the tiebreak not confirmed. League D is being abolished, so all six teams move up to League C whatever happens; the game decides only 2nd vs 3rd in the group and the interim ranking slot (51st-52nd vs 53rd-54th). The favourite still needs a point and has not secured its aim, and Liechtenstein have no realistic chance of anything beyond avoiding the bottom; so no hard exclusion, only a soft risk of a low-stakes game. Coach: Edgaras Jankauskas left after the 0-1 loss to Azerbaijan on 4 Oct (LRT, 6 Oct); Mindaugas Cepas was named interim coach on 21 Oct (26 days ago, so outside the 7-day hard rule), just for the November window, and this is his second match in charge. Not a derby.",
+        "form": "Lithuania: 2-0 at Liechtenstein, 1-1 v Azerbaijan, 0-1 at Azerbaijan, 0-0 v Suriname (friendly, 12 shots, 6 on target); only 3 goals in 3 group games; tips.gg counts 3W 5D 7L in the last 15. Liechtenstein: 0 goals scored in all three group games and in their last five matches, 1W 1D 13L in the last 15 (tips.gg), 19 defeats in the last 21 per Sports Mole; they have conceded no more than two in any group game. No xG found.",
+        "h2h": "Lithuania beat Liechtenstein 2-0 on 24 Sep 2026 and Sports Mole notes 2-0 wins in each of the last three meetings, with Liechtenstein losing six of the previous eight. Pattern is low scoring: Liechtenstein defend deep in a 5-4-1 and Lithuania have struggled to score big, so the main failure is a 1-0 win or a goalless/1-1 draw.",
+        "odds": "Polymarket: Lithuania 87.5%, draw 9.5%, Liechtenstein 3.1% (from 1307204 event); price history over the last 24h is flat at 0.875 (one tick 0.885), draw flat at 0.09-0.095, so no price move to explain. DraftKings via ESPN: home 1.10 / draw 8.5 / away 20, de-vigged 84.4 / 10.9 / 4.6; opening was 1.08 / 9 / 21, a lengthening of about 2% relative, under the 3% line. Preview sites: Squawka bet365 Lithuania 2/15 (1.13), tips.gg 1.10 / 8.00 / 21.00. Totals: DraftKings line 2.5; Footballwhispers/Squawka list under 2.5 goals at 11/10 (2.10, about 47-48% raw), which shows the book expects a low-scoring game, so over-type and big-margin legs are shaded. No Stake or Rainbet price seen.",
+        "models": "World Football Elo (eloratings.net): Lithuania 1280 v Liechtenstein 882, expected score for Lithuania 0.946 (draw counts half); that fits a win of about 90% before the low-scoring and interim-coach adjustments. Squawka projects 2-0 and Sports Mole 3-0, both Lithuania.",
+        "venue_weather": "Darius and Girenas Stadium, Kaunas, Lithuania (the home side's own ground), kick-off 19:00 local (18:00 CET, 17:00 UTC). Forecast cold, 1-7 C, cloudy with light rain possible (timeanddate about 49% precipitation, Weather Underground light rain, theweather.com strong south wind); no extreme weather or pitch problem found, but wet and windy conditions would lower the goal count."
+      },
+      "reason": "Elo and the bookmakers back Lithuania strongly, and the group table leaves Lithuania needing a point for 2nd place, so it is not a dead rubber for the favourite. Probabilities are pulled slightly below the market (home 85.5 v 87.5) because of the interim coach on his second game, a suspended striker, only 3 goals in 3 group games, a goalless friendly, Liechtenstein's deep 5-4-1 and the cold, windy forecast; the draw is shaded up to 10.7%, well under the 25% limit for a straight win. Views are given only for the legs that rest on Liechtenstein's inability to score and on Lithuania's inability to win big: under 3.5, BTTS no and Liechtenstein +2.5. Over 1.5, the -1.5 handicap and Lithuania under 2.5 team goals are left out because the likely failure (a 1-0 win or a 0-0 or 1-1 draw) is exactly what hurts them.",
+      "main_risk": "A cagey 1-0 win or a draw: Lithuania score few goals (3 in 3 group games, 0-0 v Suriname), face a 5-4-1 low block, play without Kucys under an interim coach, and a 1-0 win would sink the -1.5 handicap and over 1.5; the outright win fails if Liechtenstein, who have lost 19 of 21, hold a 0-0 or nick a goal. Lineups not confirmed.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/2026%E2%80%9327_UEFA_Nations_League_D",
+        "https://www.lrt.lt/naujienos/sportas/10/3089098/lietuvos-futbolo-rinktines-vaira-laikinai-perima-mindaugas-cepas",
+        "https://www.lrt.lt/naujienos/sportas/10/3103142/paskelbta-futbolo-rinktines-sudetis-dvikovoms-su-surinamu-ir-lichtensteinu",
+        "https://www.sportsmole.co.uk/football/liechtenstein/uefa-nations-league/preview/lithuania-vs-liechtenstein-prediction-team-news-lineups_609127.html",
+        "https://tips.gg/article/lithuania-vs-liechtenstein-16-11-2026/",
+        "https://www.squawka.com/en/news/previews/lithuania-vs-liechtenstein-predictions-betting-tips-16-11-26/",
+        "https://www.eloratings.net/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116"
+      ],
+      "views": {
+        "ou_3.5_under": 0.705,
+        "btts_no": 0.78,
+        "ah_away_+2.5": 0.6
+      },
+      "prices": []
+    },
+    {
+      "id": "1293084",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1218361",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1307194",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.77,
+        "draw": 0.16,
+        "away": 0.07
+      },
+      "checks": {
+        "team_news": "Iceland: Hordur Bjorgvin Magnusson suspended (yellow vs Bulgaria, fotbolti.net 13 Nov). Stefan Teitur Thordarson went off injured early vs Bulgaria and Kristall Mani Ingason is reported withdrawn (Sports Mole, Visir); one projected XI (tips.gg) still lists both, so their status is unconfirmed. Hjortur Hermannsson, Brynjar Ingi Bjarnason and Saevar Atli Magnusson were called up as cover. Albert Gudmundsson, goalkeeper Elias Rafn Olafsson and Andri Fannar Baldursson are out (Visir). Kristian Nokkvi Hlynsson is back. Luxembourg: Omar Natami suspended (second yellow of the league phase), Dirk Carlson back from suspension (Sports Mole). The previews conflict on some names; no official XI exists yet.",
+        "lineups": "Sports Mole predicts Iceland 4-2-3-1: Valdimarsson; Palsson, Gunnarsson, Gretarsson, Tomasson; Ellertsson, Johannesson, Haraldsson, Sigurdsson; Oskarsson, Gudjohnsen. tips.gg predicts a similar XI but keeps Stefan Teitur and Kristall Mani in it, so the two sources disagree. Luxembourg 4-1-4-1 with Moris in goal, Dardari up front and Carlson in central defence per Sports Mole (tips.gg differs: Jans and Hall at the back). Fotbolti.net says the coach wants to change as little as possible. Nothing is confirmed.",
+        "rotation": "Iceland's last game was a 5-0 win at Bulgaria. This is the final group game, so there is no next fixture to save players for, and rotation is unlikely. The Bulgaria game cost Iceland two defenders (a suspension and an injury doubt), which limits options at the back. Luxembourg lost 0-1 at Estonia in their last match and have the same one-match rest cycle.",
+        "motivation": "Table before the game (Sports Mole; Estonia and Bulgaria figures inferred from its text, not a printed table): 1 Iceland 11 pts from 5, 2 Estonia 9, 3 Bulgaria 4, 4 Luxembourg 3. Iceland need a point for first place and promotion to League B (a win guarantees it; a draw is likely enough on goal difference). Sports Mole adds that a defeat could still be enough if Estonia fail to beat Bulgaria. Luxembourg stay in League C whatever happens, so they are playing for pride only. The favourite has not secured its aim and still needs a point, so this is not a hard exclusion.",
+        "form": "Iceland group results: 1-1 Estonia, 3-0 at Luxembourg, 3-0 Bulgaria, 0-0 at Estonia, 5-0 at Bulgaria. Only one goal conceded in five games and unbeaten under Arnar Gunnlaugsson; the reports vary on how many clean sheets in a row. Luxembourg: 2-1 at Bulgaria, then four straight defeats without scoring (0-3 Iceland, 0-1 Estonia, 0-2 Bulgaria, 0-1 Estonia). Both Iceland draws (1-1 and 0-0) came against Estonia, the other team chasing promotion.",
+        "h2h": "Iceland won 3-0 in Luxembourg on 29 Sept 2026. A Luxembourg win would be their first away win over Iceland, and only their second win at any venue against them (the other was 3-1 in Sept 2023). Iceland have shown they can win by 3+ goals against this side, which matters for the +2.5 handicap.",
+        "odds": "DraftKings via ESPN: Iceland -380 (1.26), draw 5.50, Luxembourg 9.50; opening was 1.31/5.00/8.50. De-vigged 73.4/16.9/9.8, total 2.5. The favourite's price shortened since the open. Polymarket Iceland win moved from 0.745 to 0.775 over 24h (+4%, hourly history checked), so the move favours the favourite and is no warning. Polymarket de-vigged: 77.7/15.7/6.6. Other bookmaker prices were not seen; Stake and Rainbet not checked.",
+        "models": "World Football Elo: Iceland 1632, Luxembourg 1359, expected score for Iceland 0.895 (draw counted as half). That is consistent with a win chance in the mid-to-high 70s. Source: eloratings.net, via the candidates data.",
+        "venue_weather": "Laugardalsvollur, Reykjavik, Mon 16 Nov, 17:00 UTC (home venue, not neutral). Forecasts disagree and none is firm: Yr shows about 11 m/s wind, 1-4C, rain and light sleet. Pogoda.ru shows a northerly wind of 11 m/s with gusts to 14 m/s and about -3C. Expect cold, windy conditions that could slow the game and reduce goals. No pitch problem was found. The Goal listing gives a conflicting kickoff of 12:00 against 17:00 UTC elsewhere."
+      },
+      "reason": "Iceland are clear favourites: Elo 1632 vs 1359, DraftKings 1.26 and an opening Polymarket price of 77.7%, with the home side needing only a point for promotion against a bottom side that has already lost four in a row without scoring. I stay slightly under the market (77% vs 77.7%) and raise the away chance a little to 7% because Iceland lose their suspended defender and have two injury doubts. The draw is held at 16%, with the Estonia-style 0-0 and 1-1 results and the cold, windy forecast as the reasons it stays real. A straight win is allowed since the draw is under 25%.",
+      "main_risk": "A low-scoring draw or a narrow home win: Iceland drew 0-0 and 1-1 with Estonia, their defence is thin (a suspension and a doubtful starter), and the forecast wind and sleet could flatten the game. A Luxembourg side with nothing to lose could also sit deep and scrape a draw. The confirmed XI and the Stefan Teitur and Kristall Mani status are still unknown.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/iceland/uefa-nations-league/preview/iceland-vs-luxembourg-prediction-team-news-lineups_609129.html",
+        "https://www.fotbolti.net/news/13-11-2026/hordur-i-banni-gegn-luxemborg",
+        "https://tips.gg/article/iceland-vs-luxembourg-predicted-lineups-team-news-2026/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116",
+        "https://www.eloratings.net/",
+        "https://www.yr.no/en/forecast/hourly-table/2-3413829/Iceland/Capital%20Region/Reykjav%C3%ADkurborg/Reykjavik?i=0"
+      ],
+      "views": {
+        "ah_away_+2.5": 0.69,
+        "ou_1.5_over": 0.76,
+        "ou_2.5_over": 0.54,
+        "ou_3.5_under": 0.66,
+        "ou_4.5_under": 0.82,
+        "btts_no": 0.585
+      },
+      "prices": []
+    },
+    {
+      "id": "1375598",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.72,
+        "draw": 0,
+        "away": 0.28
+      },
+      "checks": {
+        "team_news": "Neither is out. Cobolli (No.5 seed, Finals debut) retired in tears in Vienna R2 trailing Berrettini 5-2 in the 1st set; scans showed a minor left-leg muscle strain and he skipped the Paris Masters (tennismajors, flashscore). Per tennisworlditalia/tennisitaliano he says the injury is behind him and he trained at the Fan Village on Sunday with no visible problems, but I found no match played since the Vienna retirement. Medvedev (No.4 seed) had no injury reported; he said he was 'a bit tired' in Almaty in October. Sinner is out (knee), so the Finals field is not the original one. Alcaraz, the other group favourite, had a stomach issue and knee worries in practice. De Minaur and Fritz are alternates and nothing says either was called in.",
+        "lineups": "Order of play confirmed by Tennis Majors and tennistale: Mon 16 Nov, Inalpi Arena, Turin. Alcaraz v Tiafoe at 2pm CET; Medvedev v Cobolli is the night session, not before 8:30pm CET (19:30 UTC), matching the listed start. One search snippet claimed a Tuesday slot but the official order of play says Monday. No withdrawal or walkover announced.",
+        "rotation": "This is the first round-robin match for both. ATP group standings page shows all four Lendl Group players at no record yet. Medvedev's last event, the Paris Masters, ended with a 6-4 6-4 R2 loss to Buse on 4 Nov, so he has had about 11 days of rest. Cobolli has played nothing since the Vienna retirement (late Oct), so he comes in with match rust. Medvedev also played a heavy autumn: Almaty, Vienna, Paris. Next matches in the group are Alcaraz and Tiafoe.",
+        "motivation": "Group table before the game: all four 0-0 (Alcaraz, Medvedev, Cobolli, Tiafoe), so both players still have everything to play for. Top two go to the semi-finals, and a loss here leaves a player needing wins against Alcaraz and Tiafoe. No dead-rubber risk. Cobolli has the home crowd and high motivation in Turin.",
+        "form": "Medvedev: 3 titles this season and the most hard-court wins on tour (tennismajors, Oct). He went 11-1 in China, winning Hangzhou and reaching the Beijing SF, then lost the Shanghai SF to Jodar. He also played Almaty and Vienna, whose results I could not verify, then lost to Buse 6-4 6-4 in Paris R2 on 4 Nov. Cobolli: a strong season with a Roland Garros final run, qualifying for Turin for the first time; he beat Medvedev in Madrid in April, retired v Berrettini in Vienna, and withdrew from Paris. I could not retrieve a full last-10 list for either player (Tennis Abstract pages returned no data), so form is only partly verified.",
+        "h2h": "Medvedev leads 2-1 (tennismylife, ATP draw page). Medvedev won Beijing 2024 QF 6-2 6-4 (hard) and US Open 2024 R32 6-3 6-4 6-3 (hard). Cobolli won Madrid R16 on 29 Apr 2026 on clay, 6-3 5-7 6-4. Both Medvedev wins were on hard courts, the surface in Turin (indoor hard). Medvedev's baseline-counterpunching game suits fast indoor hard, while Cobolli's heavy forehand and movement make rallies physical.",
+        "odds": "The only second bookmaker price I found for this fixture is not for the Finals. Dimers and Oddschecker had Medvedev -120 / Cobolli +105 for the April Madrid match (Dimers sim 54.7/45.3), which is old and on clay. data.odds with DraftKings/ESPN is absent for this game, so I have no current second-bookmaker price. Polymarket 76% Medvedev; 24h move 0.765 to 0.760 (relative -0.7%), so there is no price drop to explain. De-vig not possible without a current second price.",
+        "models": "Tennis Abstract Elo (data.rating, tennisabstract.com/reports/atp_elo_ratings.html): Medvedev 1989.4 (hard 1960.6) vs Cobolli 1872.5 (hard 1797.2). Win probability for Medvedev: 66.2% overall, 71.9% hard, 69.1% blended. The bookmaker-free model sits 7 points below the Polymarket 76%, so I lower p to 0.72.",
+        "venue_weather": "Inalpi Arena, Turin, indoor hard court, best-of-three tie-break sets, so no weather risk. The crowd is strongly pro-Cobolli (Italian, debut at home), and the pace is fast, which suits Medvedev. Cobolli's Elo is much weaker on hard than overall."
+      },
+      "reason": "Medvedev is the sensible favourite: higher Elo on hard (about 69-72%), 2-1 head-to-head with both wins on hard, and Cobolli returning from a muscle strain with no match since Vienna. But confidence is low because the brief requires a verified second bookmaker price and a verified recent form list, and I found neither: there is no current non-Polymarket price for this match and no last-10 results for either player. Medvedev also lost early in Paris and Cobolli beat him in April.",
+      "main_risk": "Cobolli wins in front of a home crowd, since his minor leg strain may have healed (he says it is behind him) and he beat Medvedev most recently in Madrid; Medvedev is also coming off a flat Paris loss and a long autumn. Opening group match nerves and a short best-of-three make an upset more plausible. Missing second price and incomplete form data keep confidence at low.",
+      "sources": [
+        "https://www.tennismajors.com/atp/nitto-atp-finals-atp/atp-finals-2026-groups-schedule-format-how-to-watch-866945.html",
+        "https://stats.tennismylife.org/h2h/daniil-medvedev-vs-flavio-cobolli",
+        "https://www.atptour.com/en/news/nitto-atp-finals-2026-draw-resource-page",
+        "https://www.atptour.com/en/scores/current/nitto-atp-finals/605/playergroup-standings",
+        "https://www.tennismajors.com/?p=865268",
+        "https://tennismajors.com/atp/vienna-erste-bank-open-atp-500/medvedev-arrives-tired-in-almaty-but-saw-no-sense-in-a-three-day-break-with-turin-at-stake-863663.html",
+        "https://www.tennisworlditalia.com/en/tennis/news/Interviste_Tennis/108484/flavio-cobolli-ready-for-the-finals-injury-behind-me-sinner-texted-me/",
+        "https://tennistale.com/tournaments/atp/2026/finals",
+        "https://tennisabstract.com/reports/atp_elo_ratings.html"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1293083",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1293082",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1307224",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.66,
+        "draw": 0.2,
+        "away": 0.14
+      },
+      "checks": {
+        "team_news": "Greece: no injury or suspension reported. A Greek City Times headline says Tzolis was given the all-clear after an MRI ahead of Serbia, but the article body has no detail. Koutsoupias was called up for the November window. Serbia: ESPN's match events for Germany 3-1 Serbia on 13 Nov show red cards for Vanja Dragojevic (76') and Andrija Zivkovic (89'), so both are very likely to be banned; the ban length is not confirmed. In September Serbia were also without Vlahovic, Milenkovic, Rajkovic and Mitrovic, and I found no November update on their return. Serbia lost 1-3 at home to Germany (own goal 3', Wirtz 14', Gruda 50' for Germany, Babic for Serbia 56').",
+        "lineups": "Not out; the match is 19:45 UTC. I found no November predicted XI for either side. Unconfirmed, so this check is not clean. Greece lost 0-7 in Amsterdam on 13 Nov (Summerville, Reijnders x3, Timber x2, Malen per the ESPN event feed). Serbia will lack the two red-carded players and probably others.",
+        "rotation": "Greece played at the Netherlands on Fri 13 Nov (0-7) and play at home in Volos (Panthessaliko Stadium) on Mon 16 Nov, so 3 days rest. Serbia also played on 13 Nov (1-3 vs Germany, with two red cards, so a depleted squad). No rotation has been announced; Greece still need a result.",
+        "motivation": "Table before the game (ESPN standings, SportsMole): 1 Netherlands P5 W3 D2 L0 GF14 GA5 11 pts; 2 Germany P5 W2 D2 L1 GF6 GA3 8 pts; 3 Greece P5 W2 D2 L1 GF5 GA10 8 pts; 4 Serbia P5 W0 D0 L5 GF4 GA11 0 pts. Last matchday: Greece v Serbia and Germany v Netherlands, both 19:45 UTC. Greece are level on points with Germany and 3 behind the Netherlands; a Greek source said before the Dutch game that Greece needed 3 points from the last two games for a quarter-final place. A win keeps them in the race and a draw or loss risks dropping behind Germany. Greece still need a result, which is the opposite of the dead-rubber case. Serbia are bottom with 0 points, max 3, and cannot catch Greece or Germany on 8, so they are playing for pride only. Serbia is not a hard-rule case: the opponent has nothing at stake and the favourite does. Rivalry: Balkan neighbours, but not a derby or a fierce rivalry. Greece's coach Ivan Jovanovic is Serbian-born. Both coaches have been in post well over 30 days: Jovanovic since June 2024, Serbia's coach is named as Paunovic in the Oct coverage.",
+        "form": "Greece (Nations League): W 2-1 at Serbia (Douvikas 94'), W 1-0 vs Germany in Augsburg, D 2-2 vs Netherlands (led 2-0 at half-time), D 0-0 vs Germany, L 0-7 at Netherlands. 5 goals for and 10 against in 5 games, so a modest attack and a leaky defence, with a heavy-defeat risk. Serbia: 0 points from 5, lost 0-2 at Germany on 1 Oct, 1-3 vs Germany on 13 Nov, goals 4 for and 11 against, and they now have two red cards. Greece's risk is morale after the 0-7 defeat, not Serbia's quality.",
+        "h2h": "Greece 2-1 Serbia in Belgrade on 24 Sep 2026 (Tzolis, Douvikas 94'); the first competitive meeting. Greece won in 90+ minutes after trailing, so it was a close game and Serbia can score. One Greece win from one meeting, no draw.",
+        "odds": "Polymarket now: Greece 67.5%, draw 19.5%, Serbia 13.5%. The 24h price history from clob.polymarket.com is flat at 0.675 (no move). DraftKings via ESPN (source https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116): Greece 1.42, draw 4.50, Serbia 6.50, opening 1.43/4.50/6.50, de-vigged 65.2/20.5/14.2, total 2.5. DraftKings is about 2 points lower on Greece than Polymarket (65.2 against 67.5), and I give p within that range. Over/under 2.5 total line.",
+        "models": "World Football Elo (eloratings.net, data.rating): Greece 1788, Serbia 1662; expected score for Greece 0.786 (counting a draw as half), so a win chance of about 0.66-0.70. Roughly in line with the market, no bookmaker-free signal of a mispricing.",
+        "venue_weather": "Panthessaliko Stadium, Volos, Greece: Greece's home ground, a normal home venue (ESPN lists it). Serbia travel from a 13 Nov home game. No weather or pitch problem found; I did not check a forecast."
+      },
+      "reason": "Fixture verified on ESPN (Greece v Serbia, UEFA Nations League, Mon 16 Nov 19:45 UTC, Panthessaliko Stadium). No hard exclusion applies: Greece still need a result in a tight group (level on 8 points with Germany, 3 behind the Netherlands), and Serbia have nothing left to play for (bottom, 0 points, two red cards on 13 Nov). Coach in post since 2024, home venue, no derby. Greece are clear favourites on the market (Polymarket 67.5%, DraftKings de-vig 65.2%, Elo 0.786), but the lineup is unconfirmed and Greece have a heavy 0-7 defeat three days earlier. Only soft risks, so medium confidence: p is a touch below the market on Greece because of that, with the draw at 20%. Confidence is low for now: no probable XI was found for either side, Serbia's absentees are unverified, and Greece lost 0-7 three days ago. These are re-checked in the morning from the Greek press.",
+      "main_risk": "A draw or one-goal win. Greece have a leaky defence (10 conceded in 5), their attack is modest (5 scored in 5), and they come from a 0-7 loss only 3 days ago with morale and fatigue open questions and the lineup not yet known. Serbia score now and then (4 goals in 5) and Greece's 2-1 win in September came only at 94'. Serbia's likely suspensions help Greece, but the ban length is not confirmed.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/nations-league/groups.html",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261113",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116",
+        "https://greekcitytimes.com/2026/11/12/greece-netherlands-nations-league-jovanovic/",
+        "https://neoskosmos.com/en/2026/10/05/sport/greece-hold-germany-0-0-secure-third-and-keep-nations-league-quarter-final-hopes-in-their-hands/",
+        "https://clob.polymarket.com/prices-history?market=49228925616908652688144435932467037465963682342556786976539612803319860329826&interval=1d&fidelity=60",
+        "https://www.eloratings.net/"
+      ],
+      "views": {
+        "ah_away_+2.5": 0.76,
+        "ou_1.5_over": 0.77,
+        "ou_3.5_under": 0.65
+      },
+      "prices": []
+    },
+    {
+      "id": "1307209",
+      "exclude": true,
+      "reason": "Hard rule: the favourite has nothing left to play for and the opponent still does. Group D1 is a three-team group. Sky Sports table (updated 15 Nov 21:48): Malta P3 W2 D1 L0 GF4 GA2 Pts7; Andorra P4 W1 D1 L2 GF3 GA3 Pts4 (finished); Gibraltar P3 W0 D2 L1 GF1 GA3 Pts2. This is the last match for Malta and Gibraltar (round 6). Malta (7 pts) cannot be caught, because Andorra max 4, so their group win is secured whatever happens. Gibraltar can still finish second above Andorra (a win gives 5 pts, a draw 3), so they still need a result and Malta do not. The Europa Point Stadium venue is Gibraltar's regular home ground, so it is not an exclusion reason. Malta's price also slid 66.5% to 64.5% (-3% relative) in 24h, and DraftKings moved from 1.43 to 1.49, with no news found to explain it. Lineups are not out, and no squad or injury news was found for either side. I could not confirm what second place is worth, but that does not change the dead-rubber verdict for the favourite.",
+      "main_risk": "Malta already secured the group, so a rotated or unmotivated Malta side faces a Gibraltar side with something to gain. The first meeting finished 1-1, and the draw is priced at about 24%. Gibraltar have drawn 2 of their 3 games.",
+      "sources": [
+        "https://www.skysports.com/football/gibraltar-vs-malta/table/554128",
+        "https://www.365scores.com/football/match/uefa-nations-league-7016/gibraltar-malta-5035-12775-7016",
+        "https://www.sportsmole.co.uk/football/malta/uefa-nations-league/preview/malta-vs-gibraltar-prediction-team-news-lineups_605954.html"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1258853",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1307214",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.15,
+        "draw": 0.25,
+        "away": 0.6
+      },
+      "checks": {
+        "team_news": "Slovenia: centre-back Jaka Bijol suspended (second yellow v Switzerland, RTV SLO, Planet Nogomet); Timi Max Elsnik injured and out; David Brekalo doubtful (Planet Nogomet); Erik Janza and David Zec return from suspension; Sesko was left out of the squad for Switzerland and North Macedonia (24ur), Jure Balkovec also injured; Oblak in the squad. North Macedonia: only Dimitar Mitrovski has a minor knock (Ekipa.mk, Sedloski press conference); no suspensions reported. Slovenia's missing Bijol and Sesko is a soft risk.",
+        "lineups": "Not out yet. Sports Mole probable XIs: North Macedonia Dimitrievski; Ilievski, Mladenovski, Musliu, Alioski; Gastarov, Elmas; Churlinov, Bardhi, Doriev; Rastoder. Slovenia Oblak; Kuzmic, Drkusic, Bijol, Zaletel, Karnicnik; Matko, Zabukovnik, Cerin, Sturm; Vipotnik (that list still has Bijol, so it is stale). Cesar said Bijol will get 'an appropriate replacement', to be decided at the tactical training (Planet Nogomet). Sedloski says North Macedonia will start more offensively (Ekipa.mk). A second confirmed source is not available before kickoff.",
+        "rotation": "No rotation risk found. Slovenia are chasing second place and Cesar asks for maximum effort from everyone, starters and substitutes (Planet Nogomet). Slovenia played Switzerland (0-0, Maribor) on 13 Nov, then travel to Skopje, a 3-day turnaround; this is the last matchday. North Macedonia are playing their sixth Nations League game in this window run, with no next fixture that affects this one.",
+        "motivation": "Group B1 table before this game (Xinhua, 13 Nov): Switzerland 5 P 13 pts (GD +10, group already won); Slovenia 5 P 8 pts (W2 D2 L1, 5-3); Scotland 5 P 7 pts (W2 D1 L2, 5-6); North Macedonia 5 P 0 pts (1-12, already relegated to League C). Other game on 16 Nov: Switzerland v Scotland. Slovenia need a result: a win gives 11 pts, which Scotland (max 10) cannot match, so second place and the League A promotion play-off are secured. A draw (9 pts) is enough only if Scotland fail to beat Switzerland (Football Whispers). Scotland need a win over Switzerland and a Slovenia non-win. So the favourite has plenty to play for; North Macedonia are relegated and play for pride and a first win. No hard exclusion; the dead-rubber rule does not apply.",
+        "form": "Slovenia Nations League: L W D W D (W2 D2 L1, 5 goals for, 3 against), last game 0-0 v Switzerland; they have conceded in all three away games (Sports Mole). North Macedonia: 5 straight Nations League defeats, 1 goal scored and 12 conceded, no win in their last 13 games in all competitions, 8 defeats in the last 10 (Football Whispers, Sports Mole). The Nations League goals data points to a low-scoring game. No xG found.",
+        "h2h": "Reverse fixture in Slovenia: Slovenia 2-0 (Lovric, Matko). Slovenia have lost just one of the last five meetings (Football Whispers). Draws against a low-scoring Slovenia are the main danger; Slovenia's two group draws (v Switzerland 0-0 and one other) show they can fail to break down a deep block.",
+        "odds": "Polymarket: Slovenia 62.7% (market file), 0.625 in the Gamma API now; price history over the last 24h ranged 0.615 to 0.625 and ended at 0.625 (flat, no drop of 3% or more; p_first is the same as now). DraftKings via ESPN (https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116): home 6.00, draw 3.85, away 1.51, de-vigged 15.3% / 23.9% / 60.8%; opening away 1.61 (so DraftKings has shortened Slovenia from 1.61 to 1.51, i.e. the price moved in the favourite's favour); total line 2.5. Football Whispers quotes Slovenia 1.60 and under 2.5 at 1.67. Sources agree.",
+        "models": "World Football Elo (eloratings.net): North Macedonia 1527, Slovenia 1726, expected score for the home side 0.361 (a draw counts as half), which is a smaller edge for Slovenia than the market implies after allowing for a draw share. Statz gives Slovenia 51% / North Macedonia 21% (the rest draw). Because the models are less bullish than the market, p is trimmed to 60% Slovenia.",
+        "venue_weather": "Tose Proeski National Arena, Skopje, 19:45 UTC (20:45 local), a normal home ground, not a neutral venue. wttr.in shows fog and about 47F (8C) in Skopje; no extreme weather or pitch problem reported."
+      },
+      "reason": "Slovenia are clear favourites (Elo 1726 v 1527, all sources 60-63%) and genuinely need the win to lock up second place; North Macedonia are relegated with 0 points and 1 goal in 5 games. No hard rule applies: no derby, no coach change within 7 days found (Cesar was appointed about 10 months ago), normal venue, the favourite has plenty to play for, the Polymarket price is flat. Held at medium because Slovenia lack Bijol and Sesko, scored only 5 goals in 5 games, drew 0-0 with Switzerland, conceded in all away games, and the XI is unconfirmed.",
+      "main_risk": "A draw or narrow result: Slovenia's attack is blunt without Sesko (a 0-0 or 1-1 against a deep North Macedonia block that wants to attack more) and the centre-back pairing changes without Bijol; a Slovenia win by one goal fails any handicap or goal-margin leg.",
+      "sources": [
+        "https://english.news.cn/20261114/9cb0d5dd0c314f93b5f7f2d31060935b/c.html",
+        "https://www.sportsmole.co.uk/football/macedonia/uefa-nations-league/preview/n-macedonia-vs-slovenia-prediction-team-news-lineups_609097.html",
+        "https://footballwhispers.com/blog/north-macedonia-vs-slovenia-prediction-16-11-2026/",
+        "https://planetnogomet.si/reprezentanca/bostjan-cesar-pred-makedonijo-26-11/",
+        "https://rtvslo.si/sport/nogomet/liga-narodov/brez-golov-v-ljudskem-vrtu-brez-bijola-v-skopju/800029",
+        "https://ekipa.mk/sedloski-protiv-slovenija-od-start-ke-trgneme-poofanzivno-odime-na-trite-boda/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116",
+        "https://www.eloratings.net/"
+      ],
+      "views": {
+        "ah_home_+2.5": 0.83,
+        "ou_3.5_under": 0.76,
+        "ou_2.5_under": 0.55,
+        "btts_no": 0.56
+      },
+      "prices": []
+    },
+    {
+      "id": "1218362",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1218359",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1218358",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1218360",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1307189",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1307219",
+      "exclude": true,
+      "reason": "Hard rule: the favourite has nothing left to play for and the opponent still does. The ESPN Nations League standings, before this game, put Group B1 at: Switzerland P5 W4 D1 L0 GD +10, 13 pts; Slovenia P5 W2 D2 L1 GD +2, 8 pts; Scotland P5 W2 D1 L2 GD -1, 7 pts; North Macedonia P5 L5 GD -11, 0 pts. Switzerland can no longer be caught: Slovenia can reach 11 and Scotland 10, so Switzerland have already won the group and promotion to League A. Scotland are third, one point behind Slovenia. They still need a result to take second place and the promotion-playoff spot, so they have something to play for. The group's last matchday is on 16 Nov. Sources disagree on the exact table and on the playoff format. One preview lists Scotland on 4 pts, but the ESPN data matches Switzerland's 0-0 draw in Slovenia on 13 Nov and was used. I could not confirm whether second place or third place goes to the playoffs. Switzerland's 5.3% Polymarket price fall in 24h (0.565 to 0.535) and DraftKings' move from 1.67 to 1.77 also fit a side with nothing at stake. Another reason not to back Switzerland.",
+      "main_risk": "Switzerland, already group winners and promoted, may rotate or ease off in a dead rubber, while Scotland need the result for the playoff spot. The Portugal 1-4 Denmark pattern applies.",
+      "sources": [
+        "https://site.api.espn.com/apis/v2/sports/soccer/uefa.nations/standings",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116",
+        "https://www.sportsmole.co.uk/football/scotland/uefa-nations-league/preview/scotland-vs-switzerland-prediction-team-news-lineups_605863.html"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1307229",
+      "exclude": true,
+      "reason": "Hard rule: a fierce rivalry. Germany v Netherlands is one of international football's best-known rivalries, and the rules exclude derbies and fierce rivalries whatever the table says. It is also close to a coin flip: the market has Germany at about 50%, World Football Elo rates the Netherlands higher (1990 v 1916) and the first meeting this season finished 1-1. Germany are without Musiala and Gnabry, the Netherlands without Van Dijk and De Jong.",
+      "main_risk": "A draw or Dutch win. The Netherlands are higher on Elo (1990 v 1916), unbeaten this season and strong after the 7-0, and the first meeting finished 1-1. A tight, cagey rivalry game with a Germany side missing Musiala and Gnabry would end level, and Opta gives the draw 26.8%. Lineups are unconfirmed.",
+      "sources": [
+        "https://www.aljazeera.com/sports/2026/11/15/germany-vs-netherlands-nations-league-preview-team-news-predictions",
+        "https://www.sportsmole.co.uk/football/germany/uefa-nations-league/preview/germany-vs-netherlands-prediction-team-news-lineups_609122.html",
+        "https://www.vavel.com/en/data/paises-bajos/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1307178",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1307199",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1357577",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1357579",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1357578",
+      "exclude": true,
+      "skipped": true
+    }
+  ]
+}
