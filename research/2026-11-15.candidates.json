@@ -159,9 +159,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115",
           "espn_match": "Jacksonville Jaguars at Tennessee Titans",
           "decimal": {
-            "home": 1.14,
+            "home": 1.15,
             "draw": null,
-            "away": 6
+            "away": 5.9
           },
           "opening": {
             "home": 1.74,
@@ -169,11 +169,11 @@
             "away": 2.14
           },
           "p_devig": {
-            "home": 0.84,
+            "home": 0.837,
             "draw": 0,
-            "away": 0.16
+            "away": 0.163
           },
-          "total": 46.5
+          "total": 45.5
         },
         "move_24h": {
           "side": "home",
@@ -181,7 +181,7 @@
           "to": 0.835,
           "relative_change": 0
         },
-        "fetched_at": "2026-11-15T06:51:28.357Z"
+        "fetched_at": "2026-11-15T16:34:46.477Z"
       }
     },
     {
@@ -194,9 +194,9 @@
       "start": "2026-11-15T19:45:00.000Z",
       "coverage": 1,
       "p_market": {
-        "home": 0.8264,
-        "draw": 0.1172,
-        "away": 0.0564
+        "home": 0.8236,
+        "draw": 0.1129,
+        "away": 0.0635
       },
       "p_first": {
         "home": 0.8036,
@@ -208,7 +208,7 @@
           "key": "home",
           "label": "Match winner",
           "selection": "France",
-          "p_market": 0.8264,
+          "p_market": 0.8236,
           "fair_odds": 1.21
         },
         {
@@ -222,36 +222,57 @@
           "key": "ah_away_+2.5",
           "label": "Handicap",
           "selection": "Türkiye +2.5",
-          "p_market": 0.565,
-          "fair_odds": 1.77
+          "p_market": 0.585,
+          "fair_odds": 1.71
         },
         {
           "key": "ah_away_+3.5",
           "label": "Handicap",
           "selection": "Türkiye +3.5",
-          "p_market": 0.745,
-          "fair_odds": 1.34
+          "p_market": 0.75,
+          "fair_odds": 1.33
         },
         {
           "key": "ou_2.5_over",
           "label": "Total goals",
           "selection": "Over 2.5",
-          "p_market": 0.745,
-          "fair_odds": 1.34
+          "p_market": 0.755,
+          "fair_odds": 1.32
+        },
+        {
+          "key": "ou_3.5_over",
+          "label": "Total goals",
+          "selection": "Over 3.5",
+          "p_market": 0.555,
+          "fair_odds": 1.8
         },
         {
           "key": "ou_4.5_under",
           "label": "Total goals",
           "selection": "Under 4.5",
-          "p_market": 0.665,
-          "fair_odds": 1.5
+          "p_market": 0.655,
+          "fair_odds": 1.53
         },
         {
           "key": "ou_5.5_under",
           "label": "Total goals",
           "selection": "Under 5.5",
-          "p_market": 0.815,
-          "fair_odds": 1.23
+          "p_market": 0.805,
+          "fair_odds": 1.24
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.535,
+          "fair_odds": 1.87
+        },
+        {
+          "key": "tt_home_1.5_over",
+          "label": "France goals",
+          "selection": "Over 1.5",
+          "p_market": 0.82,
+          "fair_odds": 1.22
         },
         {
           "key": "tt_home_2.5_over",
@@ -264,8 +285,15 @@
           "key": "tt_away_0.5_over",
           "label": "Türkiye goals",
           "selection": "Over 0.5",
-          "p_market": 0.53,
-          "fair_odds": 1.89
+          "p_market": 0.56,
+          "fair_odds": 1.79
+        },
+        {
+          "key": "tt_away_1.5_under",
+          "label": "Türkiye goals",
+          "selection": "Under 1.5",
+          "p_market": 0.795,
+          "fair_odds": 1.26
         }
       ],
       "legs_first": {
@@ -274,12 +302,14 @@
         "ah_away_+2.5": 0.605,
         "ah_away_+3.5": 0.775,
         "ou_2.5_over": 0.73,
+        "ou_3.5_over": 0.555,
         "ou_4.5_under": 0.685,
         "ou_5.5_under": 0.82,
+        "btts_yes": 0.53,
+        "tt_home_1.5_over": 0.785,
         "tt_home_2.5_over": 0.56,
         "tt_away_0.5_over": 0.56,
-        "btts_yes": 0.53,
-        "tt_home_1.5_over": 0.785
+        "tt_away_1.5_under": 0.795
       },
       "data": {
         "odds": {
@@ -287,9 +317,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261115",
           "espn_match": "Türkiye at France",
           "decimal": {
-            "home": 1.17,
+            "home": 1.18,
             "draw": 7,
-            "away": 12
+            "away": 11
           },
           "opening": {
             "home": 1.17,
@@ -297,9 +327,9 @@
             "away": 11
           },
           "p_devig": {
-            "home": 0.791,
+            "home": 0.784,
             "draw": 0.132,
-            "away": 0.077
+            "away": 0.084
           },
           "total": 3.5
         },
@@ -309,9 +339,9 @@
           "to": 0.825,
           "relative_change": 0.038
         },
-        "fetched_at": "2026-11-15T06:51:28.545Z"
+        "fetched_at": "2026-11-15T16:34:46.616Z"
       },
-      "p_live_at": "2026-11-15T06:51:27.890Z"
+      "p_live_at": "2026-11-15T16:34:46.068Z"
     },
     {
       "id": "1258833",
@@ -351,9 +381,9 @@
           "to": 0.785,
           "relative_change": -0.013
         },
-        "fetched_at": "2026-11-15T06:51:28.570Z"
+        "fetched_at": "2026-11-15T16:34:46.477Z"
       },
-      "p_live_at": "2026-11-15T06:51:27.890Z"
+      "p_live_at": "2026-11-15T16:34:46.068Z"
     },
     {
       "id": "1258846",
@@ -365,9 +395,9 @@
       "start": "2026-11-15T21:05:00.000Z",
       "coverage": 1,
       "p_market": {
-        "home": 0.795,
+        "home": 0.805,
         "draw": 0,
-        "away": 0.205
+        "away": 0.195
       },
       "p_first": {
         "home": 0.795,
@@ -379,8 +409,8 @@
           "key": "home",
           "label": "Moneyline",
           "selection": "Rams",
-          "p_market": 0.795,
-          "fair_odds": 1.26
+          "p_market": 0.805,
+          "fair_odds": 1.24
         }
       ],
       "legs_first": {
@@ -390,12 +420,12 @@
         "move_24h": {
           "side": "home",
           "from": 0.795,
-          "to": 0.795,
-          "relative_change": 0
+          "to": 0.805,
+          "relative_change": 0.013
         },
-        "fetched_at": "2026-11-15T06:51:28.754Z"
+        "fetched_at": "2026-11-15T16:34:46.477Z"
       },
-      "p_live_at": "2026-11-15T06:51:27.890Z"
+      "p_live_at": "2026-11-15T16:34:46.068Z"
     },
     {
       "id": "1258848",
@@ -407,9 +437,9 @@
       "start": "2026-11-15T21:05:00.000Z",
       "coverage": 1,
       "p_market": {
-        "home": 0.725,
+        "home": 0.715,
         "draw": 0,
-        "away": 0.275
+        "away": 0.285
       },
       "p_first": {
         "home": 0.725,
@@ -421,8 +451,8 @@
           "key": "home",
           "label": "Moneyline",
           "selection": "Seahawks",
-          "p_market": 0.725,
-          "fair_odds": 1.38
+          "p_market": 0.715,
+          "fair_odds": 1.4
         }
       ],
       "legs_first": {
@@ -432,12 +462,12 @@
         "move_24h": {
           "side": "home",
           "from": 0.725,
-          "to": 0.725,
-          "relative_change": 0
+          "to": 0.715,
+          "relative_change": -0.014
         },
-        "fetched_at": "2026-11-15T06:51:28.768Z"
+        "fetched_at": "2026-11-15T16:34:46.795Z"
       },
-      "p_live_at": "2026-11-15T06:51:27.890Z"
+      "p_live_at": "2026-11-15T16:34:46.068Z"
     },
     {
       "id": "1375595",
@@ -510,9 +540,9 @@
       "start": "2026-11-15T18:00:00.000Z",
       "coverage": 1,
       "p_market": {
-        "home": 0.675,
+        "home": 0.655,
         "draw": 0,
-        "away": 0.325
+        "away": 0.345
       },
       "p_first": {
         "home": 0.675,
@@ -524,8 +554,8 @@
           "key": "home",
           "label": "Moneyline",
           "selection": "Texans",
-          "p_market": 0.675,
-          "fair_odds": 1.48
+          "p_market": 0.655,
+          "fair_odds": 1.53
         }
       ],
       "legs_first": {
@@ -537,9 +567,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115",
           "espn_match": "Houston Texans at Cleveland Browns",
           "decimal": {
-            "home": 1.44,
+            "home": 1.51,
             "draw": null,
-            "away": 2.85
+            "away": 2.64
           },
           "opening": {
             "home": 1.46,
@@ -547,21 +577,21 @@
             "away": 2.8
           },
           "p_devig": {
-            "home": 0.664,
+            "home": 0.637,
             "draw": 0,
-            "away": 0.336
+            "away": 0.363
           },
-          "total": 40.5
+          "total": 41.5
         },
         "move_24h": {
           "side": "home",
-          "from": 0.685,
-          "to": 0.675,
-          "relative_change": -0.015
+          "from": 0.675,
+          "to": 0.655,
+          "relative_change": -0.03
         },
-        "fetched_at": "2026-11-15T06:51:28.751Z"
+        "fetched_at": "2026-11-15T16:34:46.711Z"
       },
-      "p_live_at": "2026-11-15T06:51:27.890Z"
+      "p_live_at": "2026-11-15T16:34:46.067Z"
     },
     {
       "id": "1293076",
@@ -600,9 +630,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261115",
           "espn_match": "Indiana Pacers at Philadelphia 76ers",
           "decimal": {
-            "home": 3.35,
+            "home": 3.26,
             "draw": null,
-            "away": 1.35
+            "away": 1.36
           },
           "opening": {
             "home": 3.08,
@@ -610,11 +640,11 @@
             "away": 1.4
           },
           "p_devig": {
-            "home": 0.287,
+            "home": 0.295,
             "draw": 0,
-            "away": 0.713
+            "away": 0.705
           },
-          "total": 224.5
+          "total": 225.5
         },
         "move_24h": {
           "side": "away",
@@ -622,7 +652,7 @@
           "to": 0.725,
           "relative_change": -0.088
         },
-        "fetched_at": "2026-11-15T06:51:29.324Z"
+        "fetched_at": "2026-11-15T16:34:46.804Z"
       }
     },
     {
@@ -662,9 +692,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115",
           "espn_match": "Miami Dolphins at Indianapolis Colts",
           "decimal": {
-            "home": 2.8,
+            "home": 2.85,
             "draw": null,
-            "away": 1.46
+            "away": 1.44
           },
           "opening": {
             "home": 3.35,
@@ -672,19 +702,19 @@
             "away": 1.34
           },
           "p_devig": {
-            "home": 0.343,
+            "home": 0.336,
             "draw": 0,
-            "away": 0.657
+            "away": 0.664
           },
           "total": 37.5
         },
         "move_24h": {
           "side": "away",
           "from": 0.655,
-          "to": 0.655,
-          "relative_change": 0
+          "to": 0.665,
+          "relative_change": 0.015
         },
-        "fetched_at": "2026-11-15T06:51:29.349Z"
+        "fetched_at": "2026-11-15T16:34:46.818Z"
       }
     },
     {
@@ -722,10 +752,10 @@
         "move_24h": {
           "side": "home",
           "from": 0.655,
-          "to": 0.655,
-          "relative_change": 0
+          "to": 0.645,
+          "relative_change": -0.015
         },
-        "fetched_at": "2026-11-15T06:51:29.379Z"
+        "fetched_at": "2026-11-15T16:34:47.031Z"
       }
     },
     {
@@ -763,10 +793,10 @@
         "move_24h": {
           "side": "home",
           "from": 0.625,
-          "to": 0.615,
-          "relative_change": -0.016
+          "to": 0.635,
+          "relative_change": 0.016
         },
-        "fetched_at": "2026-11-15T06:51:29.385Z"
+        "fetched_at": "2026-11-15T16:34:46.945Z"
       }
     },
     {
@@ -910,9 +940,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261115",
           "espn_match": "Czechia at Croatia",
           "decimal": {
-            "home": 1.56,
-            "draw": 4,
-            "away": 5.25
+            "home": 1.45,
+            "draw": 4.2,
+            "away": 6.5
           },
           "opening": {
             "home": 1.49,
@@ -920,17 +950,17 @@
             "away": 5.5
           },
           "p_devig": {
-            "home": 0.593,
-            "draw": 0.231,
-            "away": 0.176
+            "home": 0.637,
+            "draw": 0.221,
+            "away": 0.143
           },
           "total": 2.5
         },
         "move_24h": {
           "side": "home",
           "from": 0.615,
-          "to": 0.615,
-          "relative_change": 0
+          "to": 0.665,
+          "relative_change": 0.081
         },
         "rating": {
           "model": "World Football Elo (eloratings.net)",
@@ -945,7 +975,7 @@
           },
           "expected_score_home": 0.848
         },
-        "fetched_at": "2026-11-15T06:51:29.558Z"
+        "fetched_at": "2026-11-15T16:34:47.021Z"
       },
       "p_live_at": "2026-11-15T06:51:27.890Z"
     },
@@ -1006,7 +1036,7 @@
             "blend_hard": 0.509
           }
         },
-        "fetched_at": "2026-11-15T06:51:29.575Z"
+        "fetched_at": "2026-11-15T16:34:47.356Z"
       }
     },
     {
@@ -1084,11 +1114,11 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.645,
-          "to": 0.585,
-          "relative_change": -0.093
+          "from": 0.625,
+          "to": 0.595,
+          "relative_change": -0.048
         },
-        "fetched_at": "2026-11-15T06:51:29.558Z"
+        "fetched_at": "2026-11-15T16:34:47.540Z"
       }
     },
     {
@@ -1126,8 +1156,8 @@
         "move_24h": {
           "side": "away",
           "from": 0.725,
-          "to": 0.705,
-          "relative_change": -0.028
+          "to": 0.72,
+          "relative_change": -0.007
         },
         "rating": {
           "model": "Tennis Abstract Elo",
@@ -1148,7 +1178,7 @@
             "blend_hard": 0.478
           }
         },
-        "fetched_at": "2026-11-15T06:51:29.758Z"
+        "fetched_at": "2026-11-15T16:34:47.620Z"
       }
     },
     {
@@ -1227,10 +1257,10 @@
         "move_24h": {
           "side": "away",
           "from": 0.585,
-          "to": 0.575,
-          "relative_change": -0.017
+          "to": 0.565,
+          "relative_change": -0.034
         },
-        "fetched_at": "2026-11-15T06:51:29.755Z"
+        "fetched_at": "2026-11-15T16:34:47.534Z"
       }
     },
     {
@@ -1268,10 +1298,10 @@
         "move_24h": {
           "side": "away",
           "from": 0.545,
-          "to": 0.545,
-          "relative_change": 0
+          "to": 0.505,
+          "relative_change": -0.073
         },
-        "fetched_at": "2026-11-15T06:51:29.737Z"
+        "fetched_at": "2026-11-15T16:34:47.526Z"
       }
     },
     {
@@ -1399,9 +1429,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261115",
           "espn_match": "England at Spain",
           "decimal": {
-            "home": 1.91,
-            "draw": 3.65,
-            "away": 3.5
+            "home": 2,
+            "draw": 3.8,
+            "away": 3.2
           },
           "opening": {
             "home": 1.67,
@@ -1409,17 +1439,17 @@
             "away": 4.4
           },
           "p_devig": {
-            "home": 0.483,
-            "draw": 0.253,
-            "away": 0.264
+            "home": 0.465,
+            "draw": 0.245,
+            "away": 0.291
           },
-          "total": 2.5
+          "total": 3.5
         },
         "move_24h": {
           "side": "home",
           "from": 0.555,
-          "to": 0.505,
-          "relative_change": -0.09
+          "to": 0.485,
+          "relative_change": -0.126
         },
         "rating": {
           "model": "World Football Elo (eloratings.net)",
@@ -1434,7 +1464,7 @@
           },
           "expected_score_home": 0.799
         },
-        "fetched_at": "2026-11-15T06:51:29.929Z"
+        "fetched_at": "2026-11-15T16:34:47.705Z"
       }
     },
     {
@@ -1648,9 +1678,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261115",
           "espn_match": "Italy at Belgium",
           "decimal": {
-            "home": 2.1,
-            "draw": 3.45,
-            "away": 3.15
+            "home": 2.3,
+            "draw": 3.5,
+            "away": 2.8
           },
           "opening": {
             "home": 2.1,
@@ -1658,17 +1688,17 @@
             "away": 3.05
           },
           "p_devig": {
-            "home": 0.439,
-            "draw": 0.268,
-            "away": 0.293
+            "home": 0.403,
+            "draw": 0.265,
+            "away": 0.331
           },
           "total": 2.5
         },
         "move_24h": {
           "side": "home",
           "from": 0.445,
-          "to": 0.445,
-          "relative_change": 0
+          "to": 0.415,
+          "relative_change": -0.067
         },
         "rating": {
           "model": "World Football Elo (eloratings.net)",
@@ -1683,7 +1713,7 @@
           },
           "expected_score_home": 0.67
         },
-        "fetched_at": "2026-11-15T06:51:29.929Z"
+        "fetched_at": "2026-11-15T16:34:47.719Z"
       }
     },
     {
@@ -1999,10 +2029,10 @@
         "move_24h": {
           "side": "home",
           "from": 0.795,
-          "to": 0.785,
-          "relative_change": -0.013
+          "to": 0.77,
+          "relative_change": -0.031
         },
-        "fetched_at": "2026-11-15T06:51:30.449Z"
+        "fetched_at": "2026-11-15T16:34:47.817Z"
       }
     },
     {
@@ -2454,6 +2484,1248 @@
           "relative_change": 0
         },
         "fetched_at": "2026-11-15T06:51:31.173Z"
+      }
+    },
+    {
+      "id": "1382771",
+      "league": "Primera B (Chile)",
+      "sport": "football",
+      "event": "CD Cobreloa Calama vs. Puerto Montt",
+      "home": "CD Cobreloa Calama",
+      "away": "Puerto Montt",
+      "start": "2026-11-15T21:00:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.7665,
+        "draw": 0.1621,
+        "away": 0.0714
+      },
+      "p_first": {
+        "home": 0.7665,
+        "draw": 0.1621,
+        "away": 0.0714
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "CD Cobreloa Calama",
+          "p_market": 0.7665,
+          "fair_odds": 1.3
+        }
+      ],
+      "legs_first": {
+        "home": 0.7665
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.395,
+          "to": 0.765,
+          "relative_change": 0.937
+        },
+        "fetched_at": "2026-11-15T16:34:47.979Z"
+      }
+    },
+    {
+      "id": "1299606",
+      "league": "LaLiga2",
+      "sport": "football",
+      "event": "SD Eibar vs. Cádiz CF",
+      "home": "SD Eibar",
+      "away": "Cádiz CF",
+      "start": "2026-11-15T17:30:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.6518,
+        "draw": 0.2113,
+        "away": 0.1369
+      },
+      "p_first": {
+        "home": 0.6518,
+        "draw": 0.2113,
+        "away": 0.1369
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "SD Eibar",
+          "p_market": 0.6518,
+          "fair_odds": 1.53
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "SD Eibar",
+          "p_market": 0.8631,
+          "fair_odds": 1.21
+        },
+        {
+          "key": "ah_away_+1.5",
+          "label": "Handicap",
+          "selection": "Cádiz CF +1.5",
+          "p_market": 0.615,
+          "fair_odds": 1.63
+        },
+        {
+          "key": "ah_away_+2.5",
+          "label": "Handicap",
+          "selection": "Cádiz CF +2.5",
+          "p_market": 0.805,
+          "fair_odds": 1.24
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.795,
+          "fair_odds": 1.26
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.565,
+          "fair_odds": 1.77
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.665,
+          "fair_odds": 1.5
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.835,
+          "fair_odds": 1.2
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.53,
+          "fair_odds": 1.89
+        },
+        {
+          "key": "tt_home_2.5_under",
+          "label": "SD Eibar goals",
+          "selection": "Under 2.5",
+          "p_market": 0.67,
+          "fair_odds": 1.49
+        }
+      ],
+      "legs_first": {
+        "home": 0.6518,
+        "home_dnb": 0.8631,
+        "ah_away_+1.5": 0.615,
+        "ah_away_+2.5": 0.805,
+        "ou_1.5_over": 0.795,
+        "ou_2.5_over": 0.565,
+        "ou_3.5_under": 0.665,
+        "ou_4.5_under": 0.835,
+        "btts_yes": 0.53,
+        "tt_home_2.5_under": 0.67
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.595,
+          "to": 0.655,
+          "relative_change": 0.101
+        },
+        "fetched_at": "2026-11-15T16:34:48.097Z"
+      }
+    },
+    {
+      "id": "1315648",
+      "league": "Liga 1",
+      "sport": "football",
+      "event": "CD Comerciantes Unidos vs. Sport Boys Association",
+      "home": "CD Comerciantes Unidos",
+      "away": "Sport Boys Association",
+      "start": "2026-11-15T18:00:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.565,
+        "draw": 0.24,
+        "away": 0.195
+      },
+      "p_first": {
+        "home": 0.565,
+        "draw": 0.24,
+        "away": 0.195
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "CD Comerciantes Unidos",
+          "p_market": 0.565,
+          "fair_odds": 1.77
+        },
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "CD Comerciantes Unidos or Draw",
+          "p_market": 0.805,
+          "fair_odds": 1.24
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "CD Comerciantes Unidos",
+          "p_market": 0.805,
+          "fair_odds": 1.35
+        },
+        {
+          "key": "ah_away_+1.5",
+          "label": "Handicap",
+          "selection": "Sport Boys Association +1.5",
+          "p_market": 0.685,
+          "fair_odds": 1.46
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.77,
+          "fair_odds": 1.3
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.54,
+          "fair_odds": 1.85
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.69,
+          "fair_odds": 1.45
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.54,
+          "fair_odds": 1.85
+        }
+      ],
+      "legs_first": {
+        "home": 0.565,
+        "home_draw": 0.805,
+        "home_dnb": 0.805,
+        "ah_away_+1.5": 0.685,
+        "ou_1.5_over": 0.77,
+        "ou_2.5_over": 0.54,
+        "ou_3.5_under": 0.69,
+        "btts_yes": 0.54
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.52,
+          "to": 0.565,
+          "relative_change": 0.087
+        },
+        "fetched_at": "2026-11-15T16:34:48.245Z"
+      }
+    },
+    {
+      "id": "1352602",
+      "league": "Liga Portugal 2",
+      "sport": "football",
+      "event": "Leixoes SC vs. GD Chaves",
+      "home": "Leixoes SC",
+      "away": "GD Chaves",
+      "start": "2026-11-15T18:00:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.515,
+        "draw": 0.265,
+        "away": 0.22
+      },
+      "p_first": {
+        "home": 0.515,
+        "draw": 0.265,
+        "away": 0.22
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Leixoes SC or Draw",
+          "p_market": 0.78,
+          "fair_odds": 1.28
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Leixoes SC",
+          "p_market": 0.78,
+          "fair_odds": 1.43
+        },
+        {
+          "key": "ah_away_+1.5",
+          "label": "Handicap",
+          "selection": "GD Chaves +1.5",
+          "p_market": 0.73,
+          "fair_odds": 1.37
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.735,
+          "fair_odds": 1.36
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.735,
+          "fair_odds": 1.36
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.78,
+        "home_dnb": 0.78,
+        "ah_away_+1.5": 0.73,
+        "ou_1.5_over": 0.735,
+        "ou_3.5_under": 0.735
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.48,
+          "to": 0.515,
+          "relative_change": 0.073
+        },
+        "fetched_at": "2026-11-15T16:34:48.255Z"
+      }
+    },
+    {
+      "id": "1382774",
+      "league": "Primera B (Chile)",
+      "sport": "football",
+      "event": "San Marcos de Arica vs. San Luis de Quillota",
+      "home": "San Marcos de Arica",
+      "away": "San Luis de Quillota",
+      "start": "2026-11-15T21:00:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.2266,
+        "draw": 0.2617,
+        "away": 0.5117
+      },
+      "p_first": {
+        "home": 0.2266,
+        "draw": 0.2617,
+        "away": 0.5117
+      },
+      "legs_in_range": [
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "San Luis de Quillota or Draw",
+          "p_market": 0.7734,
+          "fair_odds": 1.29
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "San Luis de Quillota",
+          "p_market": 0.7734,
+          "fair_odds": 1.44
+        }
+      ],
+      "legs_first": {
+        "away_draw": 0.7734,
+        "away_dnb": 0.7734
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.4,
+          "to": 0.51,
+          "relative_change": 0.275
+        },
+        "fetched_at": "2026-11-15T16:34:48.254Z"
+      }
+    },
+    {
+      "id": "1300664",
+      "league": "Liga Nacional de Guatemala",
+      "sport": "football",
+      "event": "Deportivo San Pedro vs. CD Marquense",
+      "home": "Deportivo San Pedro",
+      "away": "CD Marquense",
+      "start": "2026-11-15T21:00:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.5117,
+        "draw": 0.2865,
+        "away": 0.2018
+      },
+      "p_first": {
+        "home": 0.5117,
+        "draw": 0.2865,
+        "away": 0.2018
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Deportivo San Pedro or Draw",
+          "p_market": 0.7982,
+          "fair_odds": 1.25
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Deportivo San Pedro",
+          "p_market": 0.7982,
+          "fair_odds": 1.39
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.7982,
+        "home_dnb": 0.7982
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.565,
+          "to": 0.515,
+          "relative_change": -0.088
+        },
+        "fetched_at": "2026-11-15T16:34:48.527Z"
+      }
+    },
+    {
+      "id": "1344866",
+      "league": "Uruguayan Primera División",
+      "sport": "football",
+      "event": "Danubio FC vs. Liverpool Montevideo",
+      "home": "Danubio FC",
+      "away": "Liverpool Montevideo",
+      "start": "2026-11-15T19:30:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.24,
+        "draw": 0.295,
+        "away": 0.465
+      },
+      "p_first": {
+        "home": 0.24,
+        "draw": 0.295,
+        "away": 0.465
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Danubio FC or Draw",
+          "p_market": 0.535,
+          "fair_odds": 1.87
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Liverpool Montevideo or Draw",
+          "p_market": 0.76,
+          "fair_odds": 1.32
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "Liverpool Montevideo",
+          "p_market": 0.76,
+          "fair_odds": 1.52
+        },
+        {
+          "key": "ah_home_+1.5",
+          "label": "Handicap",
+          "selection": "Danubio FC +1.5",
+          "p_market": 0.785,
+          "fair_odds": 1.27
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.705,
+          "fair_odds": 1.42
+        },
+        {
+          "key": "ou_2.5_under",
+          "label": "Total goals",
+          "selection": "Under 2.5",
+          "p_market": 0.56,
+          "fair_odds": 1.79
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.77,
+          "fair_odds": 1.3
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.535,
+        "away_draw": 0.76,
+        "away_dnb": 0.76,
+        "ah_home_+1.5": 0.785,
+        "ou_1.5_over": 0.705,
+        "ou_2.5_under": 0.56,
+        "ou_3.5_under": 0.77
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.52,
+          "to": 0.465,
+          "relative_change": -0.106
+        },
+        "fetched_at": "2026-11-15T16:34:48.435Z"
+      }
+    },
+    {
+      "id": "1352569",
+      "league": "Primera Nacional",
+      "sport": "football",
+      "event": "CD Godoy Cruz vs. CSD Tristan Suarez",
+      "home": "CD Godoy Cruz",
+      "away": "CSD Tristan Suarez",
+      "start": "2026-11-15T20:00:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.435,
+        "draw": 0.345,
+        "away": 0.22
+      },
+      "p_first": {
+        "home": 0.435,
+        "draw": 0.345,
+        "away": 0.22
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "CD Godoy Cruz or Draw",
+          "p_market": 0.78,
+          "fair_odds": 1.28
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "CSD Tristan Suarez or Draw",
+          "p_market": 0.565,
+          "fair_odds": 1.77
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "CD Godoy Cruz",
+          "p_market": 0.78,
+          "fair_odds": 1.51
+        },
+        {
+          "key": "ou_0.5_over",
+          "label": "Total goals",
+          "selection": "Over 0.5",
+          "p_market": 0.835,
+          "fair_odds": 1.2
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.535,
+          "fair_odds": 1.87
+        },
+        {
+          "key": "ou_2.5_under",
+          "label": "Total goals",
+          "selection": "Under 2.5",
+          "p_market": 0.725,
+          "fair_odds": 1.38
+        },
+        {
+          "key": "btts_no",
+          "label": "Both teams to score",
+          "selection": "No",
+          "p_market": 0.625,
+          "fair_odds": 1.6
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.78,
+        "away_draw": 0.565,
+        "home_dnb": 0.78,
+        "ou_0.5_over": 0.835,
+        "ou_1.5_over": 0.535,
+        "ou_2.5_under": 0.725,
+        "btts_no": 0.625
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.445,
+          "to": 0.435,
+          "relative_change": -0.022
+        },
+        "fetched_at": "2026-11-15T16:34:48.453Z"
+      }
+    },
+    {
+      "id": "1382754",
+      "league": "Primera B (Chile)",
+      "sport": "football",
+      "event": "CD Santa Cruz vs. CSD Rangers",
+      "home": "CD Santa Cruz",
+      "away": "CSD Rangers",
+      "start": "2026-11-15T21:00:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.2734,
+        "draw": 0.2933,
+        "away": 0.4333
+      },
+      "p_first": {
+        "home": 0.2734,
+        "draw": 0.2933,
+        "away": 0.4333
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "CD Santa Cruz or Draw",
+          "p_market": 0.5667,
+          "fair_odds": 1.76
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "CSD Rangers or Draw",
+          "p_market": 0.7266,
+          "fair_odds": 1.38
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "CSD Rangers",
+          "p_market": 0.7266,
+          "fair_odds": 1.63
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.5667,
+        "away_draw": 0.7266,
+        "away_dnb": 0.7266
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.34,
+          "to": 0.435,
+          "relative_change": 0.279
+        },
+        "fetched_at": "2026-11-15T16:34:48.530Z"
+      }
+    },
+    {
+      "id": "1357375",
+      "league": "Primera Nacional",
+      "sport": "football",
+      "event": "Deportivo Moron vs. CA Colegiales",
+      "home": "Deportivo Moron",
+      "away": "CA Colegiales",
+      "start": "2026-11-15T18:00:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.415,
+        "draw": 0.345,
+        "away": 0.24
+      },
+      "p_first": {
+        "home": 0.415,
+        "draw": 0.345,
+        "away": 0.24
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Deportivo Moron or Draw",
+          "p_market": 0.76,
+          "fair_odds": 1.32
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "CA Colegiales or Draw",
+          "p_market": 0.585,
+          "fair_odds": 1.71
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Deportivo Moron",
+          "p_market": 0.76,
+          "fair_odds": 1.58
+        },
+        {
+          "key": "ah_away_+1.5",
+          "label": "Handicap",
+          "selection": "CA Colegiales +1.5",
+          "p_market": 0.83,
+          "fair_odds": 1.2
+        },
+        {
+          "key": "ou_0.5_over",
+          "label": "Total goals",
+          "selection": "Over 0.5",
+          "p_market": 0.835,
+          "fair_odds": 1.2
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.56,
+          "fair_odds": 1.79
+        },
+        {
+          "key": "ou_2.5_under",
+          "label": "Total goals",
+          "selection": "Under 2.5",
+          "p_market": 0.71,
+          "fair_odds": 1.41
+        },
+        {
+          "key": "btts_no",
+          "label": "Both teams to score",
+          "selection": "No",
+          "p_market": 0.615,
+          "fair_odds": 1.63
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.76,
+        "away_draw": 0.585,
+        "home_dnb": 0.76,
+        "ah_away_+1.5": 0.83,
+        "ou_0.5_over": 0.835,
+        "ou_1.5_over": 0.56,
+        "ou_2.5_under": 0.71,
+        "btts_no": 0.615
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.515,
+          "to": 0.415,
+          "relative_change": -0.194
+        },
+        "fetched_at": "2026-11-15T16:34:48.830Z"
+      }
+    },
+    {
+      "id": "1349355",
+      "league": "NWSL",
+      "sport": "football",
+      "event": "NJ/NY Gotham FC vs. Kansas City Current",
+      "home": "NJ/NY Gotham FC",
+      "away": "Kansas City Current",
+      "start": "2026-11-15T20:00:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.4133,
+        "draw": 0.2883,
+        "away": 0.2983
+      },
+      "p_first": {
+        "home": 0.4133,
+        "draw": 0.2883,
+        "away": 0.2983
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "NJ/NY Gotham FC or Draw",
+          "p_market": 0.7016,
+          "fair_odds": 1.43
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Kansas City Current or Draw",
+          "p_market": 0.5866,
+          "fair_odds": 1.7
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "NJ/NY Gotham FC",
+          "p_market": 0.7016,
+          "fair_odds": 1.72
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.7016,
+        "away_draw": 0.5866,
+        "home_dnb": 0.7016
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.405,
+          "to": 0.415,
+          "relative_change": 0.025
+        },
+        "fetched_at": "2026-11-15T16:34:48.851Z"
+      }
+    },
+    {
+      "id": "1315652",
+      "league": "Liga 1",
+      "sport": "football",
+      "event": "ADC Juan Pablo II College vs. CD Garcilaso",
+      "home": "ADC Juan Pablo II College",
+      "away": "CD Garcilaso",
+      "start": "2026-11-15T20:15:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.4067,
+        "draw": 0.2766,
+        "away": 0.3167
+      },
+      "p_first": {
+        "home": 0.4067,
+        "draw": 0.2766,
+        "away": 0.3167
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "ADC Juan Pablo II College or Draw",
+          "p_market": 0.6833,
+          "fair_odds": 1.46
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "CD Garcilaso or Draw",
+          "p_market": 0.5933,
+          "fair_odds": 1.69
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "ADC Juan Pablo II College",
+          "p_market": 0.6833,
+          "fair_odds": 1.78
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.6833,
+        "away_draw": 0.5933,
+        "home_dnb": 0.6833
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.365,
+          "to": 0.405,
+          "relative_change": 0.11
+        },
+        "fetched_at": "2026-11-15T16:34:48.725Z"
+      }
+    },
+    {
+      "id": "1387455",
+      "league": "Categoría Primera B",
+      "sport": "football",
+      "event": "Envigado FC vs. Union Magdalena",
+      "home": "Envigado FC",
+      "away": "Union Magdalena",
+      "start": "2026-11-15T20:50:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.405,
+        "draw": 0.335,
+        "away": 0.26
+      },
+      "p_first": {
+        "home": 0.405,
+        "draw": 0.335,
+        "away": 0.26
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Envigado FC or Draw",
+          "p_market": 0.74,
+          "fair_odds": 1.35
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Union Magdalena or Draw",
+          "p_market": 0.595,
+          "fair_odds": 1.68
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Envigado FC",
+          "p_market": 0.74,
+          "fair_odds": 1.64
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.74,
+        "away_draw": 0.595,
+        "home_dnb": 0.74
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.465,
+          "to": 0.405,
+          "relative_change": -0.129
+        },
+        "fetched_at": "2026-11-15T16:34:48.836Z"
+      }
+    },
+    {
+      "id": "1381833",
+      "league": "Liga de Expansión MX",
+      "sport": "football",
+      "event": "Leones Negros UDEG vs. Atletico Morelia",
+      "home": "Leones Negros UDEG",
+      "away": "Atletico Morelia",
+      "start": "2026-11-15T18:00:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.395,
+        "draw": 0.28,
+        "away": 0.325
+      },
+      "p_first": {
+        "home": 0.395,
+        "draw": 0.28,
+        "away": 0.325
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Leones Negros UDEG or Draw",
+          "p_market": 0.675,
+          "fair_odds": 1.48
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Atletico Morelia or Draw",
+          "p_market": 0.605,
+          "fair_odds": 1.65
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Leones Negros UDEG",
+          "p_market": 0.675,
+          "fair_odds": 1.82
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.53,
+          "fair_odds": 1.89
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.69,
+          "fair_odds": 1.45
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.675,
+        "away_draw": 0.605,
+        "home_dnb": 0.675,
+        "ou_2.5_over": 0.53,
+        "ou_3.5_under": 0.69
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.395,
+          "to": 0.395,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-15T16:34:49.040Z"
+      }
+    },
+    {
+      "id": "1382768",
+      "league": "Primera B (Chile)",
+      "sport": "football",
+      "event": "Deportes Magallanes vs. CD Antofagasta",
+      "home": "Deportes Magallanes",
+      "away": "CD Antofagasta",
+      "start": "2026-11-15T21:00:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.375,
+        "draw": 0.27,
+        "away": 0.355
+      },
+      "p_first": {
+        "home": 0.375,
+        "draw": 0.27,
+        "away": 0.355
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Deportes Magallanes or Draw",
+          "p_market": 0.645,
+          "fair_odds": 1.55
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "CD Antofagasta or Draw",
+          "p_market": 0.625,
+          "fair_odds": 1.6
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.645,
+        "away_draw": 0.625
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.385,
+          "to": 0.375,
+          "relative_change": -0.026
+        },
+        "fetched_at": "2026-11-15T16:34:49.131Z"
+      }
+    },
+    {
+      "id": "1382757",
+      "league": "Primera B (Chile)",
+      "sport": "football",
+      "event": "Union San Felipe vs. Union Espanola",
+      "home": "Union San Felipe",
+      "away": "Union Espanola",
+      "start": "2026-11-15T21:00:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.365,
+        "draw": 0.265,
+        "away": 0.37
+      },
+      "p_first": {
+        "home": 0.365,
+        "draw": 0.265,
+        "away": 0.37
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Union San Felipe or Draw",
+          "p_market": 0.63,
+          "fair_odds": 1.59
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Union Espanola or Draw",
+          "p_market": 0.635,
+          "fair_odds": 1.57
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.57,
+          "fair_odds": 1.75
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.63,
+        "away_draw": 0.635,
+        "btts_yes": 0.57
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.375,
+          "to": 0.37,
+          "relative_change": -0.013
+        },
+        "fetched_at": "2026-11-15T16:34:49.116Z"
+      }
+    },
+    {
+      "id": "1299610",
+      "league": "LaLiga2",
+      "sport": "football",
+      "event": "CD Eldense vs. CE Sabadell FC",
+      "home": "CD Eldense",
+      "away": "CE Sabadell FC",
+      "start": "2026-11-15T17:30:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.3667,
+        "draw": 0.3267,
+        "away": 0.3067
+      },
+      "p_first": {
+        "home": 0.3667,
+        "draw": 0.3267,
+        "away": 0.3067
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "CD Eldense or Draw",
+          "p_market": 0.6934,
+          "fair_odds": 1.44
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "CE Sabadell FC or Draw",
+          "p_market": 0.6334,
+          "fair_odds": 1.58
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "CD Eldense",
+          "p_market": 0.6934,
+          "fair_odds": 1.84
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.63,
+          "fair_odds": 1.59
+        },
+        {
+          "key": "ou_2.5_under",
+          "label": "Total goals",
+          "selection": "Under 2.5",
+          "p_market": 0.645,
+          "fair_odds": 1.55
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.835,
+          "fair_odds": 1.2
+        },
+        {
+          "key": "btts_no",
+          "label": "Both teams to score",
+          "selection": "No",
+          "p_market": 0.545,
+          "fair_odds": 1.83
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.6934,
+        "away_draw": 0.6334,
+        "home_dnb": 0.6934,
+        "ou_1.5_over": 0.63,
+        "ou_2.5_under": 0.645,
+        "ou_3.5_under": 0.835,
+        "btts_no": 0.545
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.405,
+          "to": 0.365,
+          "relative_change": -0.099
+        },
+        "fetched_at": "2026-11-15T16:34:49.081Z"
+      }
+    },
+    {
+      "id": "1357139",
+      "league": "Primera Federación",
+      "sport": "football",
+      "event": "Real Murcia CF vs. AD Alcorcon",
+      "home": "Real Murcia CF",
+      "away": "AD Alcorcon",
+      "start": "2026-11-15T17:45:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.3533,
+        "draw": 0.3133,
+        "away": 0.3333
+      },
+      "p_first": {
+        "home": 0.3533,
+        "draw": 0.3133,
+        "away": 0.3333
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Real Murcia CF or Draw",
+          "p_market": 0.6666,
+          "fair_odds": 1.5
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "AD Alcorcon or Draw",
+          "p_market": 0.6466,
+          "fair_odds": 1.55
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.6666,
+        "away_draw": 0.6466
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.365,
+          "to": 0.355,
+          "relative_change": -0.027
+        },
+        "fetched_at": "2026-11-15T16:34:49.438Z"
       }
     }
   ]

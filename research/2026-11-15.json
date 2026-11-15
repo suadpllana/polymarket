@@ -1,8 +1,8 @@
 {
   "date": "2026-11-15",
-  "researched_at": "2026-11-15T06:54:22Z",
+  "researched_at": "2026-11-15T16:36:47Z",
   "stage": "morning",
-  "summary": "Researched the evening before (Sat 14 Nov) under the stricter rules and re-checked this morning with live prices; lineups and NFL inactives are not out, so this is a draft until the final check. Eight well-covered games were researched: five are kept at medium and three at low; the rest were not reached. No favourite's price fell overnight. Medium: Seahawks at Raiders (p 0.69; Seattle start backup QB Lock behind a line missing two starters, the Raiders start a rookie QB for the first time), Texans at Browns (p 0.63; a road favourite without Hunter, Harrison and now Montgomery, a third tackle questionable, Browns 3-0 at home), Bills at Jets (p 0.77; Bills 7-1, right tackle doubtful, 27 mph gusts), Rams at Cardinals (p 0.77; Cardinals start a rookie QB, Rams without Nacua and Adams and lost to them 16-18 in October), France–Türkiye (p 0.79, raised from low: the coach confirmed Mbappé is available and two French outlets give the same probable XI; France need a point, Türkiye are relegated, but France miss about ten players and field a young back line). Low, so not bet: Croatia–Czechia (Croatia's price fell 4.7% in 24 hours with no news, four straight defeats), Finland–San Marino (no team news, near dead rubber, only goals legs near 60%), Zverev–Jodar (form, fitness and a second price not verified).",
+  "summary": "Researched the evening before (Sat 14 Nov) under the stricter rules and re-checked this morning with live prices; lineups and NFL inactives are not out, so this is a draft until the final check. Eight well-covered games were researched: five are kept at medium and three at low; the rest were not reached. No favourite's price fell overnight. Medium: Seahawks at Raiders (p 0.69; Seattle start backup QB Lock behind a line missing two starters, the Raiders start a rookie QB for the first time), Texans at Browns (p 0.63; a road favourite without Hunter, Harrison and now Montgomery, a third tackle questionable, Browns 3-0 at home), Bills at Jets (p 0.77; Bills 7-1, right tackle doubtful, 27 mph gusts), Rams at Cardinals (p 0.77; Cardinals start a rookie QB, Rams without Nacua and Adams and lost to them 16-18 in October), France–Türkiye (p 0.79, raised from low: the coach confirmed Mbappé is available and two French outlets give the same probable XI; France need a point, Türkiye are relegated, but France miss about ten players and field a young back line). Low, so not bet: Croatia–Czechia (Croatia's price fell 4.7% in 24 hours with no news, four straight defeats), Finland–San Marino (no team news, near dead rubber, only goals legs near 60%), Zverev–Jodar (form, fitness and a second price not verified). Afternoon check (about 16:40 UTC): the Texans are now low and off the slip, because their inactives list ruled out starting guard Teller on top of Rutledge, Hunter, Harrison and Montgomery and the price fell 3%. Seahawks, Bills and Rams were re-checked with no late news against them and stay medium; the 21:05 UTC games publish their inactives only at 19:35 UTC.",
   "games": [
     {
       "id": "1300579",
@@ -92,25 +92,26 @@
         "away": 0.23
       },
       "checks": {
-        "team_news": "ESPN game summary (injuries as of Sat 14 Nov): Bills RT Spencer Brown doubtful (ankle; limited Wed, no practice after; Tylan Grable the fill-in per buffalorumblings/buffalonews), CB Christian Benford (wrist), CB Jordan Hancock (hamstring) and S Sam Franklin Jr. (shoulder) questionable, WR Tyrell Shavers out (ACL). Josh Allen is not on the Bills report. Jets: WR Garrett Wilson (concussion, full practice Friday), WRs Adonai Mitchell and Omar Cooper Jr., S VJ Payne and CB Nahshon Wright all questionable; LB Trevin Wallace out (groin). Final Saturday elevations and downgrades not seen. Sunday morning: Buffalo activated CB Jordan Hancock from injured reserve on Saturday and elevated QB Shane Buechele; nothing newly ruled out. Spencer Brown remains doubtful.",
-        "lineups": "Not official. ESPN lists Josh Allen (Bills) and Geno Smith (Jets) as the passing leaders and no QB injury is listed for either side. Expected: Allen starting; Bills line without Brown (Grable at RT) if he sits; Wilson likely to play. Only one source for the XIs (ESPN plus snippets of Bills beat sites), no official inactives until Sunday.",
+        "team_news": "Checked Sun 15 Nov ahead of the 18:00 UTC kickoff. The official inactives were NOT out in anything I could read. The Jet Press inactives article says to check back around 11:30 a.m. ET, and ESPN's injury feed still shows Saturday and Sunday-morning designations only. Bills (ESPN): RT Spencer Brown doubtful (ankle, set back in Week 9). Tylan Grable is expected to start at RT again (Jet Press, SI, Buffalo Rumblings). Buffalo Rumblings also expects the doubtful tag to become an out. CB Christian Benford (wrist), CB Jordan Hancock (hamstring, activated from IR Saturday) and S Sam Franklin Jr. (shoulder) are still questionable. WR Tyrell Shavers is out (ACL). Josh Allen is not on the Bills report and has no injury designation anywhere I read. Jets (ESPN): WR Garrett Wilson questionable (concussion, updated 12:14Z Sunday); Jet Press says coach Aaron Glenn expects him to play and clear protocol. WRs Adonai Mitchell and Omar Cooper Jr., S VJ Payne and CB Nahshon Wright are questionable. LB Trevin Wallace is out. Nothing new has been ruled out or downgraded since the morning research. Benford's and Hancock's availability is still unconfirmed.",
+        "lineups": "Not official. ESPN lists no QB injury for either side, so Allen is expected to start for the Bills and Geno Smith for the Jets. Allen's start is not formally confirmed until the inactives are out. Buffalo is expected to start Grable at RT in place of Brown. Wilson is expected to play per Glenn but is still questionable. The Bills' CB depth depends on whether Benford and Hancock are active.",
         "rotation": "No rotation issue. Bills' last five (ESPN): L 26-29 vs NE, W 37-34 OT at LAR, W 33-30 at LV, W 36-10 vs BAL, W 23-6 at MIN (10 Nov). Short travel (Buffalo to MetLife, same time zone). Jets played at KC on 8 Nov (L 12-35).",
-        "motivation": "Bills 7-1 and ranked No. 1 in PFF's and several other Week 10 power rankings (PFF), chasing the AFC top seed and the AFC East; Jets 2-7 and ranked 26th to 31st, playing for pride. Bills have plenty to play for, so no dead-rubber exclusion.",
-        "form": "Bills: 4 wins in last 5 (ESPN last-five: points for 29, 37, 33, 36, 23; against 26, 34, 30, 10, 6). Jets: 1 win in last 5, losses to NE 19-26, MIA 25-28, LV 33-38 and KC 12-35; their defence has allowed 25+ in four of those five. ESPN season leaders: Allen's team passing 2,027 yards, 12 TD, 6 INT; Geno Smith 2,078 yards, 12 TD, 3 INT.",
-        "h2h": "AFC East divisional game, so a soft risk (not a famous fierce rivalry like a derby-level feud). Bills beat the Jets in the Week 18 2025 finale (nfl.com report, Allen played through a foot problem). The Jets are playing at their own MetLife Stadium, where the Bills are the visitors.",
-        "odds": "DraftKings via ESPN scoreboard/summary: Bills -7.5 (-112), total 50.5; moneyline Bills -395 / Jets +310 (open -340 / +270). De-vigged Bills about 76.6%, Jets about 23.4% (implied 79.8% and 24.4%, sum 104.2%). Polymarket Bills 79.5% is about 3 points above the de-vigged DK price. Polymarket 24h history flat at 0.795 (first and last point both 0.795); DK line has lengthened mildly from open (-340 to -395 for Bills, i.e. moved toward the Bills). No adverse price move.",
-        "models": "ESPN matchup predictor: Bills 82.6%, Jets 17.4%. Power rankings (PFF Week 10: Bills No. 1; Bleacher Report Jets 26th, consensus 30th, Fox Sports 31st). ESPN FPI game page for this matchup not retrieved; no Elo or DVOA figures found.",
-        "venue_weather": "MetLife Stadium, East Rutherford NJ, outdoors (the Jets' home, so Buffalo is the away team, not at home as the listing labels them; this is a normal venue, not neutral). ESPN forecast: about 50F, gusts 27 mph, 3% precipitation. Gusty wind can trim passing and kicking and compress a 7.5-point spread."
+        "motivation": "Bills 7-1 and ranked No. 1 in PFF's Week 10 power rankings, chasing the AFC top seed and the AFC East. Jets 2-7 and ranked 26th to 31st, playing for pride. No dead-rubber concern.",
+        "form": "Bills: 4 wins in last 5 (points for 29, 37, 33, 36, 23; against 26, 34, 30, 10, 6). Jets: 1 win in last 5, losses to NE, MIA, LV and KC 12-35; their defence has allowed 25+ in four of those five. Unchanged from morning.",
+        "h2h": "AFC East divisional game, so a soft risk. Bills beat the Jets in the Week 18 2025 finale. The Jets are at their own MetLife Stadium and Buffalo is the visitor, although the Polymarket listing labels the Bills as home.",
+        "odds": "Live Polymarket Bills 78.5% (p_first 79.5%, -1.3% relative, about 1 point). The move is small, below the 3% drop threshold, and not adverse enough to matter. DraftKings via ESPN now: Bills -8.5 (-105), total 50.5, moneyline Bills -485 / Jets +370. The opening line was Bills -7 (-110), moneyline -340. The line has moved toward the Bills by 1.5 points of spread and 145 cents of moneyline since open. De-vigged DK is about 79.6% Bills / 20.4% Jets (implied 82.9% and 21.3%). The live Polymarket price is about 1 point below de-vigged DK, so odds and market roughly agree, and DK is stronger on the Bills than the earlier morning snapshot (-395).",
+        "models": "ESPN matchup predictor: Bills 82.6%, Jets 17.4%. PFF Week 10 power rankings have the Bills at No. 1; other rankings put the Jets 26th to 31st. No Elo or DVOA figures found.",
+        "venue_weather": "MetLife Stadium, East Rutherford NJ, outdoors, artificial turf. ESPN forecast unchanged: about 50F, gusts 27 mph, 3% precipitation. Wind can trim passing and kicking, and a banged-up Bills line without Brown makes a one-score game more plausible."
       },
-      "reason": "Fixture verified on ESPN: Buffalo Bills at New York Jets, MetLife Stadium, 15 Nov 2026 18:00 UTC. Note: the Polymarket listing labels the Bills as home, but ESPN has them as the visitors; p.home below is the Bills, matching the market's labelling. No hard rule applies: Joe Brady became Bills head coach in January 2026 (not within 7 days), no QB injury listed, Bills have a lot to play for, price stable. Pre-mortem: the most likely failure is a one-score upset in a divisional game with a banged-up Buffalo offensive line (Brown doubtful) and windy conditions against a Jets side that loses close games. I lowered the Bills to 77% because the de-vigged DK price (76.6%) is below Polymarket's 79.5%.",
-      "main_risk": "Divisional road game against a 2-7 Jets team at MetLife with RT Spencer Brown doubtful, several Bills defensive backs questionable and 27 mph gusts; one-score upset possible. Final Saturday injury designations and Sunday inactives not yet seen.",
+      "reason": "Re-check on game day. Official inactives were not yet out, so the key unknowns (Brown out and Grable at RT, Benford, Hancock, Franklin, Wilson) are still unconfirmed. No new bad news was found. Allen has no designation, no one new was ruled out, the DK line moved further toward the Bills (-340 to -485 moneyline, spread -7 to -8.5), and the live Polymarket price is down only 1.3% (0.795 to 0.785). That is within the allowed range and below the 3% low-confidence trigger. Confidence stays medium, not high, because the inactives are not confirmed. p kept at 77/23, below the live market (78.5%) and the de-vigged DK (79.6%), to allow for the OL injury, thin CB group and 27 mph gusts.",
+      "main_risk": "Divisional road game at MetLife against a 2-7 Jets team with RT Spencer Brown doubtful (likely out), CBs Benford and Hancock and S Franklin questionable, and 27 mph gusts. A one-score upset is possible. Inactives are not yet confirmed. If Allen or several of those defensive backs turn up inactive, the leg should be dropped.",
       "sources": [
         "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115",
         "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873054",
         "https://www.buffalorumblings.com/buffalo-bills-injuries/145232/bills-vs-jets-final-injury-report-and-game-day-designations",
+        "https://thejetpress.com/jets-inactives-list-week-10-game-bills-garrett-wilson-injury-update-01m7fqmgt7dn",
+        "https://www.si.com/nfl/bills/onsi/injury-report-week-10-bills-final-spencer-brown-doubtful-dalton-kincaid-cleared-vs-jets",
         "https://www.pff.com/news/nfl-week-10-power-rankings-bills-move-to-no-1-49ers-climb",
         "https://buffalonews.com/sports/professional/nfl/bills/article_b59b62d1-2a7a-464c-b2c4-1e2fcf33f75f.html",
-        "https://clob.polymarket.com/prices-history?market=58143940831672657190277806878514061226499271064909458189824159543213466682953&interval=1d&fidelity=60",
         "https://www.buffalobills.com/news/db-jordan-hancock-activated-and-qb-shane-buechele-elevated-db-te-cory-couch-released-week-10"
       ],
       "views": {},
@@ -121,26 +122,29 @@
       "exclude": false,
       "confidence": "medium",
       "p": {
-        "home": 0.77,
+        "home": 0.78,
         "draw": 0,
-        "away": 0.23
+        "away": 0.22
       },
       "checks": {
-        "team_news": "Final Friday reports (Nov 13, therams.com and azcardinals.com). Rams: QB Matthew Stafford (right elbow) full all week, no designation. Out: G Steve Avila (hamstring), TE Terrance Ferguson. WR Puka Nacua is on IR (PCL/MCL sprain and turf toe) and WR Davante Adams is on IR; CB Jaylen Watson is out for the season. Questionable: CB Trent McDuffie (back, limited Friday, missed the last 2 games), S Kam Curl (toe, McVay optimistic), OLB Myles Garrett (rest/knee, McVay expects him to play; he had 3 sacks vs Washington), TE Davis Allen, LS Joe Cardona. Cardinals: rookie QB Carson Beck makes his first NFL start (Minshew out with a UCL injury needing surgery, Brissett traded to Baltimore). Out: C Hjalte Froholdt (concussion), RG Jon Gaines II, DL Zach Carter, WR Michael Wilson; RBs Conner and Love on IR. Questionable: LT Jayden Williams, TE Hunter Long, CB Max Melton, S Andrew Wingard, DL Roy Lopez and Darius Robinson. No Saturday elevations or downgrades found yet. Sunday morning: no Saturday injury update found for either side; McDuffie, Curl and Garrett stay unconfirmed until the inactives.",
-        "lineups": "Not confirmed (Saturday evening). Expected: Stafford starting for the Rams with a depleted receiver group (rookie CJ Daniels Jr. in line for more snaps, likely heavy 13 personnel per Last Word on Sports), without Avila at guard. Cardinals: Carson Beck starting at QB (officially named, ESPN/Yardbarker) behind an offensive line missing its center and right guard. Official inactives come about 90 minutes before the 4:05 PM ET kickoff.",
-        "rotation": "No short week or bye issue found. Rams (5-4) have won 3 straight (Raiders, Chargers, Washington 20-13). Cardinals (3-6) lost 17-3 at Seattle last week. Venue note: the game is at State Farm Stadium in Glendale, so the Rams are the road team even though the market lists them first. The trip is a short in-division flight with no time-zone change.",
-        "motivation": "Rams 5-4 and tied with Seattle for second in the NFC West, still fighting for a playoff spot (ESPN FPI playoff odds 37.9%), and they want revenge for the Oct 18 loss. Cardinals 3-6 with 2% playoff odds on Kalshi, a first-year head coach (Mike LaFleur, hired in the offseason, no coaching change in the last 7 days) and a rookie QB, so they are playing for pride. The favourite has plenty to play for, so the hard no-stakes rule does not apply.",
-        "form": "Rams: lost to Arizona 16-18 on Oct 18, then beat Las Vegas, the Chargers and Washington 20-13; the offence is thin without Nacua and Adams. Cardinals: lost 3-17 at Seattle, 3-6 overall, QB position in turmoil (Brissett benched then traded, Minshew hurt), though they scored 18 in the earlier win over the Rams with six Chad Ryland field goals. Scores for the Raiders and Chargers games were not found.",
-        "h2h": "Same-division rivals, so a soft risk (not a famous fierce rivalry). Oct 18 at SoFi: Cardinals won 18-16 on a Ryland 43-yard field goal as time expired, as a 12.5 to 13.5 underdog; the Rams turned the ball over twice in Cardinals territory in the 4th quarter. Rams are 6-4 ATS in the last 10 meetings. Style: low-scoring, field-goal-driven games. Draw impossible, but variance is high with a total of 39.5.",
-        "odds": "Polymarket Rams 79.5%, unchanged over 24h (0.795 to 0.795, 0% move). DraftKings via SI: Rams -450 / Cardinals +350, spread -9.5, total 40 (de-vigged about 78.7% Rams). VegasInsider consensus: Rams -500 / +380 (about 80.0%), opened -535 / +400, spread opened -10.5 and is now -9.5. FanDuel: Rams -521 / +400 (about 80.7%), total 39.5. The total fell from 47.5 to 39.5 on injuries and the QB situation. Books and Polymarket agree at about 79-81%, with no unexplained move.",
-        "models": "numberFire gives the Rams 73.6% (FanDuel research page). ESPN power rankings: Rams 12th, Cardinals 25th. Other outlets rank the Rams 5th to 18th and the Cardinals 25th to 30th. ESPN FPI gives the Rams 37.9% to make the playoffs. No DVOA or Elo found. The bookmaker-free numberFire figure is about 6 points below the market, which supports shading p down.",
-        "venue_weather": "State Farm Stadium, Glendale AZ (retractable roof; the Cardinals are the home team). Forecast for the 4:05 PM ET kickoff is clear, 72-76F, wind 3-4 mph, 0% precipitation (Covers, footballdb). Roof expected open but not confirmed. The weather is not a factor."
+        "team_news": "Sunday-morning re-check (inactives not out before 19:35 UTC). No new Sunday report found; the Friday reports still stand (therams.com, azcardinals.com, SI, Yahoo). Rams: QB Matthew Stafford (right elbow) full all week with no designation, so he is expected to start but this is not officially confirmed. Out: G Steve Avila (hamstring, Beaux Limmer likely at left guard) and TE Terrance Ferguson. WR Puka Nacua and WR Davante Adams are on IR, and CB Jaylen Watson is out for the season. Questionable: CB Trent McDuffie (back; did not practise Thursday, limited Friday, missed last week, status depends on Sunday workload; if out, Emmanuel Forbes and Josh Wallace cover), S Kam Curl (toe, no further detail found), OLB Myles Garrett (rest designation; McVay said Friday he expects him to play, though Garrett said 'we're not 100'), TE Davis Allen, LS Joe Cardona. Cardinals: rookie QB Carson Beck is described as the new starter for his NFL debut (ESPN/Yardbarker, SI, Arizona Sports), not yet confirmed by the inactives. Out: C Hjalte Froholdt (concussion), RG Jon Gaines II, DL Zach Carter, WR Michael Wilson. Darius Robinson (wrist) was added to the report. No Sunday downgrade or surprise scratch found for either side.",
+        "lineups": "Not confirmed. The official inactives are expected about 19:35 UTC (90 minutes before the 21:05 UTC kickoff) and were not out at the time of this check. Expected: Stafford for the Rams with a thin receiver group (Nacua and Adams on IR, rookie CJ Daniels Jr. and Higbee/Atwell/Mumpfield in bigger roles) and Limmer at left guard. Cardinals: Carson Beck at QB behind a line missing its center and right guard. McDuffie, Curl and Garrett remain unconfirmed until the inactives.",
+        "rotation": "No short week or bye issue found. Rams (5-4) have won 3 straight (Raiders, Chargers, Washington 20-13); Garrett's bye-week comment refers to the Rams' bye after this game. Cardinals (3-6) lost 17-3 at Seattle last week. Venue note: the game is at State Farm Stadium in Glendale, so the Rams are the road team even though the market lists them first. Short in-division trip, no time-zone change.",
+        "motivation": "Rams 5-4 and tied with Seattle for second in the NFC West, still fighting for a playoff spot (ESPN FPI playoff odds 37.9%), and they want revenge for the Oct 18 loss. Cardinals 3-6 with about 2% playoff odds, a first-year head coach (Mike LaFleur, no change in the last 7 days) and a rookie QB, so they are playing for pride. The favourite has plenty to play for, so the hard no-stakes rule does not apply.",
+        "form": "Rams: lost to Arizona 16-18 on Oct 18, then beat Las Vegas, the Chargers and Washington 20-13; the offence is thin without Nacua and Adams. Cardinals: lost 3-17 at Seattle, 3-6 overall, with the QB position in turmoil (Minshew out with a UCL injury, Brissett traded), though they scored 18 in the earlier win over the Rams with six Chad Ryland field goals.",
+        "h2h": "Same-division rivals, so a soft risk. Oct 18 at SoFi: Cardinals won 18-16 on a Ryland 43-yard field goal as time expired, as a 12.5 to 13.5 underdog; the Rams turned the ball over twice in Cardinals territory in the 4th quarter. Rams are 6-4 ATS in the last 10 meetings. Low-scoring, field-goal-driven games. Draw impossible, but variance is high with a total of about 39.5 to 40.",
+        "odds": "Price check: live Polymarket Rams 80.5% (p_market 0.805) vs 79.5% at first listing (p_first 0.795), a move of +1.3% relative in the Rams' favour, so nothing has moved against the favourite and no unexplained fall. The candidates file had no fresh DraftKings figures this refresh, so the Friday book numbers are the latest I read: DraftKings (via SI) Rams -450 / Cardinals +350, spread -9.5, total 40 (de-vigged about 78.7% Rams); VegasInsider consensus Rams -500 / +380 (about 80.0%), opened -535 / +400 with the spread opened at -10.5 and now -9.5; FanDuel Rams -521 / +400 (about 80.7%). The total fell from 47.5 to 39.5 on injuries and the QB situation. Books and Polymarket agree at about 79-81%.",
+        "models": "numberFire gives the Rams 73.6% (FanDuel research page), about 7 points below the live market. ESPN power rankings: Rams 12th, Cardinals 25th. ESPN FPI gives the Rams 37.9% to make the playoffs. No DVOA or Elo found. The model gap supports shading p below the market.",
+        "venue_weather": "State Farm Stadium, Glendale AZ (retractable roof; the Cardinals are the home team). Forecast for kickoff is clear, 72-76F, wind 3-4 mph, 0% precipitation (Covers, footballdb). Roof expected open but not confirmed. Weather is not a factor."
       },
-      "reason": "Rams are a 9.5-point road favourite over a 3-6 Cardinals side starting a rookie QB for the first time, with the Cardinals' center and right guard out. Books and Polymarket agree on about 80%. No hard exclusion applies: the venue is the normal Cardinals home stadium, nobody was sacked or hired in the last 7 days, and the Rams still have playoff stakes. Confidence is medium, not high, because the Rams lack both Nacua and Adams, McDuffie and Garrett are questionable, and the same team beat them 18-16 three weeks ago. p is shaded 2.5 points below the market for those reasons and numberFire's lower 73.6%.",
-      "main_risk": "A low-scoring game (total 39.5) decided by one score: the Rams' thin receiving group (Nacua and Adams on IR, Avila out) stalls as it did in the Oct 18 loss, while divisional familiarity and a motivated Cardinals defence keep it close. Other risks: McDuffie or Garrett ruled inactive, and a rookie QB who could still be conservative or surprisingly effective. Starting QBs and inactives are unconfirmed.",
+      "reason": "Pre-kickoff re-check (Sunday morning, inactives not yet out): nothing new is wrong and the price has moved slightly in the Rams' favour (0.795 to 0.805, +1.3%). Rams are a 9.5-point road favourite over a 3-6 Cardinals side starting rookie QB Carson Beck for the first time, with the Cardinals' center and right guard out, and books and Polymarket agree on about 80%. Confidence stays medium, not high, because the official inactives are not out, so Stafford, McDuffie, Curl and Garrett are unconfirmed, the Rams lack both Nacua and Adams, and the same Cardinals beat them 18-16 three weeks ago. p is shaded 2.5 points below the live market for those reasons and numberFire's lower 73.6%.",
+      "main_risk": "A low-scoring game (total about 40) decided by one score: the Rams' thin receiving group stalls as it did on Oct 18 while divisional familiarity keeps it close. Open items until the inactives: McDuffie (back) or Garrett ruled out, Stafford not officially confirmed, and Beck not officially confirmed as the Cardinals' starter. A downgrade of McDuffie or a surprise Stafford scratch would drop this leg to low.",
       "sources": [
         "https://www.therams.com/news/rams-injury-report-week-10-2026-at-cardinals-trent-mcduffie-steve-avila",
         "https://www.azcardinals.com/news/injury-report-week-10-vs-rams",
+        "https://www.si.com/nfl/rams/onsi/rams-injury-report-myles-garrett-trent-mcduffie-cardinals-week-10",
+        "https://arizonasports.com/arizona-cardinals-injury-report/rams-puka-nacua-hjalte-froholdt",
+        "https://sports.yahoo.com/articles/rams-injury-report-myles-garrett-221403874.html",
         "https://www.vegasinsider.com/nfl/matchups/cardinals-vs-rams/",
         "https://www.si.com/betting/rams-vs-cardinals-prediction-odds-spread-injuries-trends-for-nfl-week-10-2026",
         "https://www.fanduel.com/research/rams-vs-cardinals-predictions-odds-picks-best-bets-for-nfl-week-10-2026",
@@ -159,25 +163,27 @@
         "away": 0.31
       },
       "checks": {
-        "team_news": "Friday final reports (seahawks.com, raiders.com via search, Yahoo): Seattle QB Sam Darnold OUT (ribs/quad), expected back for Week 12 vs 49ers; Drew Lock starts (elbow/oblique, no designation, limited all week, 2nd straight start, Seattle 2-0 in his starts). Seattle also OUT: LT Charles Cross (ankle), G Quenton Nelson (knee), DT Leonard Williams (stinger); Nwosu (LB), Shaheed (WR), Pili (DT) returning per seahawks.com (SI lists them as questionable). Raiders: rookie QB Fernando Mendoza (No. 1 overall pick) makes first NFL start after Kirk Cousins was traded to Minnesota on Tuesday; DT Thomas Booker (ankle, full Friday) and WR Dont'e Thornton (back, DNP) questionable; C Trey Zuhn (concussion) was limited midweek and is listed questionable by SI; DEs Johnson and Crawford and CB Anusiem on IR. No Saturday elevations or downgrades verified. Sunday morning: Seattle elevated CB Trevon Diggs and T Bobby Hart on Saturday; Josh Jones starts at tackle for Cross for the third straight week. Coach Macdonald expects Lock to start. No Saturday downgrade found; inactives are due 90 minutes before kick-off.",
-        "lineups": "Starting QBs expected: Lock (SEA) vs Mendoza (LV). Seattle line without both Cross and Nelson (two starting OL out, Yahoo headline 'Seahawks down 2 starting OL'); Seattle has the No. 1 ranked defense, allowing second-fewest passing yards, which is the main obstacle for a first-time starter. Raiders defense ranked last. Official inactives come about 90 minutes before kickoff; not yet available tonight.",
-        "rotation": "No rotation risk (both play full-strength rosters as available). Seattle: Week 8 home loss to Chicago 34-17, Week 9 home win over Arizona 17-3 (Nov 8), now travels to Las Vegas (same Pacific time zone, 4:05 pm ET kickoff). Raiders: lost 38-17 at 49ers Nov 8, normal rest. Seattle's next game is reported as a big divisional game vs 49ers in Week 12; Week 11 not verified.",
-        "motivation": "Seattle 5-4, in the playoff hunt and defending champion ('world champion Seahawks' per raiders.com); Raiders 4-5 and also still live in the standings. Both sides need the win; no dead-rubber risk. Not a divisional game for Seattle (Raiders are in the AFC West, Seahawks NFC West), not a fierce rivalry.",
-        "form": "Seattle: last two games L 17-34 vs CHI (Darnold hurt), W 17-3 vs ARI behind Lock (19/28, 175 yds, 1 TD, no INT); 4-5 ATS, unders 5-4; offense described as below average (Bleeding Green Nation), the defense is the strength. Raiders: lost 4 of last 5, 38-17 at SF with 5 turnovers, defense has allowed 30+ points six straight games; 6-3 ATS, overs 6-3; only 2 wins in last 11 home games (Covers). Last five Seattle results beyond the two above not found.",
-        "h2h": "Only a betting note found: Raiders are 3-1 against the spread in the last four meetings; final scores not found. Non-divisional interconference game, no rivalry.",
-        "odds": "BetMGM via SI: Seahawks -285 / Raiders +230, spread SEA -6.5, total 40.5; de-vigged Seattle about 71.0% (implied 74.0% and 30.3%, sum 104.3%). Covers lists moneyline 73% / 28%; other listings -290 to -300 / +240 to +245. Line opened Seattle -3 and moved to -6.5 after the Cousins trade, total fell 43.5 to 40.5: explained by news (the Raiders QB change), not an unexplained move. Polymarket: built-in data shows the Seahawks at 0.725 now and 24h ago (0% move), p_first 0.725. No DraftKings/ESPN odds block in the candidates data.",
-        "models": "ESPN FPI: Seattle 73.9% by 6.4 points (via ESPN Week 10 preview snippet); numberFire 70% Seattle; OPTIMAL fair odds 73%; BetMGM model gives Raiders 51.7% to cover +6.5 (near a coin flip against the spread). Power rankings: Seattle No. 6-7 (Sharp Football, FTN, Bleeding Green Nation), Raiders No. 23. DVOA values not found.",
-        "venue_weather": "Allegiant Stadium, Las Vegas, a fully enclosed climate-controlled dome (Covers), so no weather risk. NOTE: the venue is the Raiders' home; the brief and the Polymarket 'home' label (Seahawks) say Seattle at home, but every source lists Seahawks at Raiders. The leg is the Seahawks to win regardless of the label, and Seattle is the road side in Las Vegas (Raiders have won only 2 of their last 11 home games)."
+        "team_news": "Re-check Sunday 16:35 UTC. The official inactives are NOT out yet (due about 19:35 UTC), so nothing is confirmed. Latest reports I could read: Seattle QB Sam Darnold ruled out, Drew Lock expected to start (oblique, Week 9; Macdonald said the exam was good and he expects Lock to play through it); Quenton Nelson out (knee procedure) per search snippets of seahawks.com, Bleacher Report, ABC7. Earlier Friday report (kept from last night): Charles Cross (ankle) and Leonard Williams (stinger) out; Seattle elevated CB Trevon Diggs and T Bobby Hart on Saturday. Raiders: rookie Fernando Mendoza expected to make his first start after Kirk Cousins was traded (search summary, ABC7/TSN); I found no Sunday report that changes this, and no Sunday downgrade for either team. ESPN summary API returned 403, so no ESPN inactives or DraftKings numbers could be read.",
+        "lineups": "Expected: Lock (SEA) vs Mendoza (LV), neither confirmed by inactives. Seattle line likely without Cross and Nelson (Josh Jones at tackle, Hart elevated). Seattle has the top-ranked defense against a first-time starter; Raiders defense ranked last. Inactives needed before any upgrade.",
+        "rotation": "No rotation risk. Seattle: Week 9 win over Arizona 17-3, next a Week 12 game vs 49ers. Raiders: lost 38-17 at 49ers, normal rest. Nothing new found.",
+        "motivation": "Seattle 5-4 and in the playoff hunt, Raiders 4-5; both need the win, no dead-rubber risk, not a rivalry. Unchanged.",
+        "form": "Seattle: W 17-3 vs ARI behind Lock (19/28, 175 yds, 1 TD), L 17-34 vs CHI before that; defense is the strength, offense below average. Raiders: lost 4 of last 5, defense has allowed 30+ points six straight games. Unchanged.",
+        "h2h": "Only a betting note: Raiders 3-1 against the spread in the last four meetings; no rivalry. Unchanged.",
+        "odds": "Polymarket live Seahawks 0.715 vs 0.725 at first listing: -1.4% relative (-1.0 point), under the 3% threshold. The candidates file has no DraftKings/ESPN block, so DraftKings now vs opening could not be compared. Last known (BetMGM via SI, from last night): Seahawks -285 / Raiders +230, spread -6.5, total 40.5; line opened at SEA -3 and moved to -6.5 after the Cousins trade, explained by news. The small Polymarket dip has no new news explaining it, but is minor.",
+        "models": "ESPN FPI: Seattle 73.9% by 6.4 points; numberFire 70% Seattle; power rankings Seattle No. 6-7, Raiders No. 23 (from the morning research, not re-fetched).",
+        "venue_weather": "Allegiant Stadium, Las Vegas, enclosed climate-controlled dome: no weather risk. Venue is the Raiders' home; the file's 'home' label (Seahawks) is just the first-named team. Kickoff 21:05 UTC."
       },
-      "reason": "Fixture verified: Seahawks at Raiders, Sun Nov 15, 4:05 pm ET (21:05 UTC), Allegiant Stadium. No hard exclusion: no coach change, not a rivalry, normal indoor venue, no rotation, both teams still have something to play for. Seattle is a clear favourite on the market (about 71-74% de-vigged), FPI 73.9%, and has the top defence against a rookie QB making his first start behind a last-ranked Raiders defense that allows 30+ points. I shade p to 0.69 because Seattle is on its backup QB Lock, who is limited by elbow/oblique, with two starting offensive linemen (Cross, Nelson) and DT Leonard Williams out, which lowers the margin and makes a low-scoring variance game more plausible. Confidence medium, not high, because the QB and OL doubts are real and Saturday and inactive news are not yet in.",
-      "main_risk": "Seattle offense stalls with backup QB Lock (limited with elbow/oblique, he could also be re-injured or struggle) behind a patched offensive line (Cross and Nelson out), keeping a 40.5-total game close, while the Raiders pull a low-scoring upset in a dome; late inactives for Lock or the line could change this.",
+      "reason": "Seahawks to win stays a clear market favourite (live 0.715, about 71% de-vigged earlier) with FPI 73.9% and the top defense against a rookie QB making his first start. Confidence stays medium, not high: the official inactives are not out, so Lock (oblique), Mendoza's start and the Seattle line (Cross and Nelson out) are unconfirmed. The price dipped 1.4% (0.725 to 0.715), below the 3% drop line, and no Sunday news was found that hurts Seattle. Estimate kept at 0.69, a little under the market, because of the backup QB and patched line. Re-check after the 19:35 UTC inactives before upgrading.",
+      "main_risk": "Seattle offense stalls with backup QB Lock (oblique) behind a patched line (Cross and Nelson out) in a 40.5-total game, so a Raiders upset stays plausible; a late Lock inactive or a Sunday surprise would make this low.",
       "sources": [
+        "https://abc7news.com/post/seahawks-start-qb-drew-lock-raiders-giving-sam-darnold-more-time-heal/20027067/",
+        "https://www.tsn.ca/nfl/article/seahawks-to-start-qb-lock-vs-raiders-giving-darnold-more-time-to-heal-n1-50434130/",
+        "https://bleacherreport.com/articles/25529341-sam-darnold-drew-lock-injury-updates-provided-seahawks-hc-ahead-raiders-game",
+        "https://www.fox13seattle.com/news/darnold-ruled-out-seahawks-raiders",
         "https://www.seahawks.com/news/week-10-injury-report-seahawks-at-raiders",
         "https://www.si.com/betting/seahawks-vs-raiders-prediction-odds-spread-injuries-trends-for-nfl-week-10-2026",
         "https://www.covers.com/nfl/seahawks-vs-raiders-prediction-picks-nov-15-2026",
         "https://sports.yahoo.com/articles/lock-again-lifts-seahawks-win-222825680.html",
-        "https://www.espn.com/nfl/story/_/id/50453355/week-10-picks-predictions-schedule-fantasy-odds-2026",
-        "https://www.sharpfootballanalysis.com/analysis/nfl-power-rankings/",
         "https://www.seahawks.com/news/seahawks-elevate-trevon-diggs-bobby-hart-from-practice-squad"
       ],
       "views": {},
@@ -218,34 +224,35 @@
     {
       "id": "1258842",
       "exclude": false,
-      "confidence": "medium",
+      "confidence": "low",
       "p": {
-        "home": 0.63,
+        "home": 0.62,
         "draw": 0,
-        "away": 0.37
+        "away": 0.38
       },
       "checks": {
-        "team_news": "Texans final report (houstontexans.com, updated Fri 13 Nov): OUT LB Azeez Al-Shaair, WR Marvin Harrison Jr. (hamstring), DE Danielle Hunter (hamstring), TE Brevin Jordan, C/G Keylan Rutledge; QUESTIONABLE DE Will Anderson Jr. (ankle), T Trent Brown (illness/wrist), G Wyatt Teller (back/illness), RB David Montgomery (groin), LB Jake Hummel, CB Jaylin Smith. Browns: OUT S Ronnie Hickman (concussion) and FB Michael Burton; WR Denzel Boston (toe) questionable and back to limited on Friday; Ward, Jenkins, Fannin and the rest practised fully or limited with no designation. Saturday elevations and downgrades not yet seen. Sunday morning: on Saturday Houston ruled out RB David Montgomery (groin) and CB Jaylin Smith (hamstring) and added T Braden Smith (illness) as questionable; LB Hummel was activated. No update found on Anderson, Trent Brown or Teller, and no change at quarterback.",
-        "lineups": "Houston: C.J. Stroud starts (Week 9: 5 TD, 44-22 win over the Chargers). Browns: Todd Monken named Deshaun Watson the starter on Wed 11 Nov (NBC Sports, lineups.com); Watson cleared the concussion protocol and sat out Week 9, when Shedeur Sanders started. Houston's offensive line is the weak spot: Rutledge out, Teller and Trent Brown questionable, facing Cleveland's pass rush (26 sacks). Houston's pass rush is also thinner without Hunter, and Anderson is questionable. Rookie S Emannuel McNeil-Warren replaces Hickman. No official inactives yet (they come out about 90 minutes before kickoff).",
-        "rotation": "No rotation issue in the NFL sense. Texans: regular week after the Week 9 win, three wins in the last four after an 0-4 start, travelling to Cleveland (Eastern time, same or one hour ahead of Central), no short week. Browns: lost 23-22 in overtime at New Orleans last week, have a bye in Week 11 so they will not be saving anything.",
-        "motivation": "Texans 3-5, needing to keep the season alive (a loss would leave them very short of the playoffs). Browns 5-4, in the AFC wild-card hunt, two straight losses, home record 3-0, bye next week. Both sides need the game, so there is no dead-rubber case. AFC South against AFC North, so not a divisional game and no famous rivalry. Not a hard exclusion.",
-        "form": "Texans last 5 (where read): beat the Chargers 44-22 in Week 9, lost at home to the Giants as a 10.5-point favourite, won three of the last four after an 0-4 start. Browns: 3-1 start, then 2 wins in 3, then two straight losses, the latest 22-23 in overtime at the Saints (Sanders 297 yards, 2 TD). Full last-5 scores for both teams were not found.",
-        "h2h": "Not a divisional game. No recent head-to-head found in the sources read. Style matchup: Houston leads the league with 29 sacks and has a steadier QB situation; Browns' Judkins (385 rush yards) and Boston lead the offence. Every source expects a low-scoring game.",
-        "odds": "DraftKings via ESPN: Texans 1.44 now vs 1.46 opening, de-vigged 66.4% (Browns 33.6%), total 40.5. SI/Caesars: Texans -4.5, moneyline -225 / +185, total 39.5. ESPN FPI: Texans by 7.2, 77% to win. Polymarket moneyline 0.675 now vs 0.685 24h ago, a relative move of -1.5%, below the 3% threshold, so no unexplained-move flag. Market range 66-69% before FPI. Spread market: Texans -1.5 at 64.5%.",
-        "models": "ESPN FPI: Texans 77% (7.2 points). ESPN power rankings: Texans 17th. DVOA ranks Texans 15th per Yahoo. A computer model cited by SI picks Browns 23-22. Browns are the 5-4 team with the better record, so models and market (about 66%) disagree somewhat on the size of Houston's edge. No ClubElo-style NFL Elo checked.",
-        "venue_weather": "Huntington Bank Field, Cleveland (outdoor). IMPORTANT: this is Houston's AWAY game. ESPN lists Houston Texans at Cleveland Browns, Browns home, neutralSite false. Polymarket lists the Texans first, so p.home in this file means the Texans. The brief's 'Houston at home' is wrong. Not a hard exclusion (it is Cleveland's normal stadium). Forecast: about 45-47F, feels like 41F, NW wind about 10-14 mph with gusts to 16 off Lake Erie, light showers 22-47% (lower from kickoff). Mild effect on passing and long field goals. 1:00 pm ET kickoff."
+        "team_news": "Official inactives are OUT (Texans posted 10:30 ET, Browns 11:30 ET). Texans inactives: LB Azeez Al-Shaair, TE Brevin Jordan, WR Marvin Harrison Jr., RB David Montgomery, DE Danielle Hunter, C/G Keylan Rutledge and G Wyatt Teller. NEW: Teller, who was questionable (back/illness), is OUT, so Houston loses two starting interior linemen (Rutledge and Teller). ACTIVE: DE Will Anderson Jr. (ankle, was questionable; ESPN still had him questionable at 12:29 UTC), T Trent Brown and T Braden Smith (neither is on the inactive list), and QB C.J. Stroud. Browns inactives: QB Dillon Gabriel (3rd QB), QB Taylen Green, LB Justin Jefferson, CB Noah Igbinoghene, S Ronnie Hickman, C Parker Brailsford. So Deshaun Watson and Shedeur Sanders are both active, Denzel Boston (toe, questionable) is active, and Myles Garrett is not listed inactive. Active does not mean full strength: Anderson, Brown and Smith played through ankle, illness and wrist issues, and I found no in-game status.",
+        "lineups": "Houston: Stroud starts, but with Rutledge and Teller out and Trent Brown and Braden Smith active but banged up, the offensive line is thin against Cleveland's pass rush (26 sacks). Hunter and Harrison are also out. Browns: Watson is active as QB1 (named starter by Todd Monken on Wed 11 Nov; Sanders is the backup, Gabriel and Green inactive). Cleveland's inactives are mostly depth players, plus S Hickman (out since Friday) and C Brailsford. I did not find a source that explicitly confirms Watson as the Sunday starter after the inactives.",
+        "rotation": "No rotation issue. Texans: regular week, three wins in the last four after an 0-4 start, no short week. Browns: lost 23-22 in overtime at New Orleans last week, bye in Week 11.",
+        "motivation": "Texans 3-5, needing the win to stay in the season. Browns 5-4, in the AFC wild-card hunt, two straight losses, 3-0 at home. Both teams need it, so there is no dead-rubber case. Not a divisional game.",
+        "form": "Unchanged from the morning: Texans beat the Chargers 44-22 in Week 9 (3 wins in the last 4 after an 0-4 start, but lost at home to the Giants as a 10.5-point favourite). Browns 3-1 start, then 2 wins in 3, then two straight losses, the latest 22-23 in overtime at the Saints. Full last-5 scores not found.",
+        "h2h": "Not a divisional game. No recent head-to-head found. Style matchup: Houston's pass rush against Cleveland's rushing attack (Judkins), a low-scoring game expected.",
+        "odds": "Polymarket Texans now 0.655 vs 0.675 at first listing: relative move -3.0% against the favourite, exactly at the 3% threshold, but there is news that plausibly explains it (Teller out on the 16:30 UTC inactives, the live price was refreshed at 16:34 UTC). DraftKings via ESPN: Texans 1.51 now vs 1.46 opening (Browns 2.64 vs 2.80), de-vigged Texans 63.7%, total 41.5. ESPN summary pickcenter: HOU -4.5, moneyline Texans -198 / Browns +164, total 41.5. The line has softened from -225 earlier to -198 over the last day, and Texans -4.5 was unchanged. Market range 64-66% before FPI.",
+        "models": "ESPN FPI (morning read): Texans 77%, 7.2 points. ESPN power rankings: Texans 17th. DVOA ranks the Texans 15th. A model cited by SI picks the Browns 23-22. Markets (about 64-66%) sit well below FPI (77%), and FPI was set before the Teller scratch.",
+        "venue_weather": "Huntington Bank Field, Cleveland (outdoor), Houston's AWAY game (home in this file = Texans, the first-named team). ESPN game info: 47F, gusts to 21 mph, 46% precipitation, kickoff 1:00 pm ET. Slightly worse than the morning's reading (gusts to 16): a mild effect on the passing game and long field goals."
       },
-      "reason": "Texans are about a 4.5-point road favourite on a market-implied 66-67%, with ESPN FPI at 77%. The game is in Cleveland, not Houston. Houston's edge is the steadier Stroud against a Watson coming back from concussion protocol, plus a good pass rush. Several things could drag it down: Hunter and Harrison are out, the offensive line is banged up, the Browns are 3-0 at home and desperate after two losses, and the weather is breezy and damp. p is lowered from the market to 64% to price this in. No price move or news supports lifting it.",
-      "main_risk": "Road favourite with a depleted offensive line (Rutledge out; Teller and Trent Brown questionable) against a Cleveland front that has 26 sacks, with Hunter and Harrison out, in cold, windy conditions at a Browns team that is 3-0 at home and needs the win. A low-scoring game of about 40 points makes the margin thin. Saturday downgrades and the inactives list are still unseen. Since Saturday Montgomery is out and a third offensive tackle (Braden Smith, illness) is questionable.",
+      "reason": "Houston is still a road favourite (about 64-66% in the market) and Stroud is active, but the late news hurts: Teller is OUT, so Houston plays without two interior linemen (Rutledge, Teller) plus Hunter, Harrison and Montgomery against a Cleveland pass rush with 26 sacks, in gusty, damp weather at a 3-0 home team that has Watson active. Anderson, Trent Brown and Braden Smith are active, which removes the worst case. The price fell 3.0% from 0.675 to 0.655 and DraftKings moved from 1.46 to 1.51, and the Teller scratch explains that move, so it is not an unexplained drop. p is cut to 62% (3.5 points under the live market) to price in the line. Confidence stays medium, not high, because the favourite's price has fallen and a key starter was lost late. Confidence is set to low under the late-news rule: a starting guard (Teller) was ruled out on the inactives list, leaving Houston without two interior linemen as well as Hunter, Harrison and Montgomery, and the price fell 3% on it.",
+      "main_risk": "Texans offensive line: Rutledge and Teller out, Trent Brown and Braden Smith active but playing through illness/wrist problems, facing Cleveland's pass rush (26 sacks) with no Hunter. Gusty, damp weather and a low total (41.5) make the margin thin, and Cleveland is 3-0 at home and desperate after two straight losses. FPI (77%) disagrees with the market (about 64-66%), and the market line has eased through the morning (DraftKings 1.46 to 1.51), so late downside is possible if Anderson is limited.",
       "sources": [
+        "https://www.houstontexans.com/news/texans-inactives-week-10-vs-cleveland-browns",
+        "https://www.clevelandbrowns.com/news/browns-announce-inactives-for-week-10-vs-the-texans",
         "https://www.houstontexans.com/news/week-10-injury-report-texans-at-browns",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873056",
         "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115",
+        "https://www.cbssports.com/nfl/news/nfl-week-10-inactives-injury-tracker-latest-news-updates/live/",
+        "https://sports.yahoo.com/articles/browns-texans-week-10-injuries-211144850.html",
         "https://www.si.com/betting/texans-vs-browns-score-prediction-for-nfl-week-10-can-houston-cover-as-road-favorite-2026",
-        "https://www.footballnationusa.com/post/texans-at-browns-week-10-preview-pressure-quarterbacks-and-the-upset-path",
-        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/todd-monken-i-intend-for-deshaun-watson-being-our-starting-qb",
-        "https://dknetwork.draftkings.com/2026/11/13/nfl-week-10-weather-forecast/",
-        "https://www.dawgsbynature.com/cleveland-browns-news/137974/browns-texans-week-10-injuries-denzel-boston-will-anderson-marvin-harrison-danielle-hunter",
-        "https://www.houstontexans.com/news/houston-texans-transactions-11-14-2026"
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/todd-monken-i-intend-for-deshaun-watson-being-our-starting-qb"
       ],
       "views": {},
       "prices": []
@@ -422,6 +429,96 @@
     },
     {
       "id": "1350021",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1382771",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1299606",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1315648",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1352602",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1382774",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1300664",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1344866",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1352569",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1382754",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1357375",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1349355",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1315652",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1387455",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1381833",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1382768",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1382757",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1299610",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1357139",
       "exclude": true,
       "skipped": true
     }
