@@ -1,8 +1,8 @@
 {
   "date": "2026-11-15",
-  "researched_at": "2026-11-14T22:21:23Z",
+  "researched_at": "2026-11-15T06:54:22Z",
   "stage": "morning",
-  "summary": "Researched the evening before (Sat 14 Nov) under the stricter rules; lineups and NFL inactives are not out, so this is a draft until the morning check and the final check. Sunday has three Nations League games, eight NFL games, the ATP Finals, two NBA games and one CS2 final. Eight well-covered games were researched: four are kept at medium and four at low; the other eight were not reached. Medium: Seahawks at Raiders (p 0.69; Seattle start backup QB Lock behind a line missing two starters, the Raiders start a rookie QB for the first time), Texans at Browns (p 0.64; a road favourite without Hunter and Harrison, Browns 3-0 at home), Bills at Jets (p 0.77; Bills 7-1, right tackle doubtful, 27 mph gusts), Rams at Cardinals (p 0.77; Cardinals start a rookie QB, Rams without Nacua and Adams and lost to them 16-18 in October). Low, so not bet: Croatia–Czechia (Croatia's price fell 4.7% in 24 hours with no news, four straight defeats), France–Türkiye (Mbappé's availability and the probable XI could not be established tonight; re-checked in the morning), Finland–San Marino (no team news, near dead rubber, only goals legs near 60%), Zverev–Jodar (form, fitness and a second price not verified).",
+  "summary": "Researched the evening before (Sat 14 Nov) under the stricter rules and re-checked this morning with live prices; lineups and NFL inactives are not out, so this is a draft until the final check. Eight well-covered games were researched: five are kept at medium and three at low; the rest were not reached. No favourite's price fell overnight. Medium: Seahawks at Raiders (p 0.69; Seattle start backup QB Lock behind a line missing two starters, the Raiders start a rookie QB for the first time), Texans at Browns (p 0.63; a road favourite without Hunter, Harrison and now Montgomery, a third tackle questionable, Browns 3-0 at home), Bills at Jets (p 0.77; Bills 7-1, right tackle doubtful, 27 mph gusts), Rams at Cardinals (p 0.77; Cardinals start a rookie QB, Rams without Nacua and Adams and lost to them 16-18 in October), France–Türkiye (p 0.79, raised from low: the coach confirmed Mbappé is available and two French outlets give the same probable XI; France need a point, Türkiye are relegated, but France miss about ten players and field a young back line). Low, so not bet: Croatia–Czechia (Croatia's price fell 4.7% in 24 hours with no news, four straight defeats), Finland–San Marino (no team news, near dead rubber, only goals legs near 60%), Zverev–Jodar (form, fitness and a second price not verified).",
   "games": [
     {
       "id": "1300579",
@@ -36,7 +36,7 @@
         "https://www.eloratings.net/"
       ],
       "views": {
-        "ou_3.5_over": 0.55,
+        "ou_3.5_over": 0.555,
         "ou_4.5_under": 0.6
       },
       "prices": []
@@ -49,34 +49,35 @@
     {
       "id": "1300584",
       "exclude": false,
-      "confidence": "low",
+      "confidence": "medium",
       "p": {
-        "home": 0.78,
+        "home": 0.79,
         "draw": 0.14,
-        "away": 0.08
+        "away": 0.07
       },
       "checks": {
-        "team_news": "France: Thuram and Tchouameni left the camp injured and Konate withdrew with a knee sprain (SoccerNews, Africasoccer, Flashscore), so they are out of this window. Mbappe: Flashscore headline says Zidane confirmed him available for Türkiye, but he missed Italy and I found no body text confirming his fitness. Türkiye: no November squad news found. Hakan Calhanoglu and Kenan Yildiz missed the September meeting through injury. Whether they are back is not verified.",
-        "lineups": "No official XIs yet. I found no reliable November predicted XI for either side. Zidane's September 4-2-3-1 (Maignan; Kounde, Upamecano, Lacroix, Truffert; Rabiot, Camavinga; Dembele, Olise, Doue; Mbappe) is the only template, and it is not current. Missing key facts: Mbappe starting or not, and the exact back line and midfield.",
-        "rotation": "France lost 3-1 at Italy (San Siro) on Thu 12 Nov, so this is a 3-day turnaround at home, with squad depth hit by injuries. Türkiye lost 2-1 to Belgium on 12 Nov. This is the last group game for both, so there is no next-game rotation motive for France. The Italy loss tells us nothing about rest rotation.",
-        "motivation": "Group A1 after matchday 5 (365Scores/ESPN via Flashscore): Italy 5 games, 10 pts, GD +5; France 5, 10 pts, +3; Belgium 5, 9 pts, +2; Türkiye 5, 0 pts, -10, already marked relegated. France still need a result to stay in the top-two race for the quarter-finals; Flashscore says their fate is out of their own hands, since Belgium and Italy are also level on points. Türkiye have nothing left to play for. This is the reverse of the hard dead-rubber rule, so it is not an exclusion. The risk is a motivated-France upside, not a favourite with nothing at stake.",
-        "form": "France: L 1-3 at Italy (12 Nov), W 4-1 vs Belgium (5 Oct), D 1-1 vs Italy (2 Oct), W 1-0 at Belgium (28 Sep), W 1-0 at Türkiye (25 Sep). That is 8 goals for and 5 against in 5 games, with Zidane's first defeat as coach on 12 Nov. Türkiye: five straight defeats, 3 goals for and 13 against (L 1-2 Belgium, L 1-3 Italy, L 0-3 Belgium, L 1-4 Italy, L 0-1 France). xG not found.",
-        "h2h": "25 Sep 2026 in Kocaeli: Türkiye 0-1 France, Mbappe's goal, a narrow win on a poor pitch with Zidane saying it was hard-fought. France won only by one goal and Türkiye scored nothing, so the most recent meeting was tight. The draw or a low-scoring win is the pre-mortem path: France beat Türkiye by one goal at full strength and now lack Thuram, Tchouameni and Konate.",
-        "odds": "DraftKings via ESPN (data.odds): France 1.22 / draw 6.00 / Türkiye 10.00, opened at 1.17 / 7.50 / 11.00. De-vigged p 75.4 / 15.4 / 9.2, total 3.5. Fox Sports shows moneyline France -463 / Türkiye +955. France's DraftKings price has drifted from 1.17 to 1.22, about 4% in implied terms since the opening line, but the 24h window is flat. Polymarket: France 0.805 now vs 0.795 24h ago (+1.3%), flat across the hourly history; gamma shows draw 0.125, Türkiye 0.075. Polymarket is about 5 points above the de-vigged DK home price (80.4 vs 75.4), so I lean to the lower side. The DK drift since opening is partly explained by the Italy loss and injury news, but I found no specific article for it.",
-        "models": "World Football Elo (eloratings.net World.tsv, read tonight): France 2066, Türkiye 1753; with 100 points for home advantage the expected score for France is 0.915 (a draw counts as half). No other bookmaker-free model found.",
-        "venue_weather": "Stade Atlantique (Matmut Atlantique), Bordeaux, France per Fox Sports; 365Scores/Sofascore also list Bordeaux. A normal home venue. UEFA lists 19:45 UTC kickoff. No weather forecast found, so no weather risk was identified."
+        "team_news": "Mbappe: Sat 14 Nov eve-of-match press conference, Zidane said he 'sera avec nous' and 'on prefere l'avoir' (CNews dated 2026-11-14; Ouest-France, Footeo, Yahoo Sports headlines the same day). He missed the 12 Nov 1-3 loss at Italy with a hamstring/thigh niggle (Flashscore FR, Footiledefrance), stayed with the group, and trained normally. The 'tendon injury / leaves camp' SoccerNews and beIN items are dated 25 Sep 2026 and are old. The latest source is the 14 Nov press conference, so he is available but unconfirmed as a starter until the XI is out. France absences (Flashscore FR, 15 Nov): Dembele, Saliba, Koundé, Kalulu, Lacroix, Tchouameni, Kone, Akliouche, Ekitike, Thuram and Lepaul out; Upamecano left the squad for personal reasons (not an injury, per Haber7 via federation). Konate is back in the probable XIs. His September knee sprain is old news, and I did not find a Nov fitness report. Tchouameni and Thuram out, as before. Turkiye (Flashscore FR, 15 Nov): Kenan Yildiz and Aral Simsir injured, Ozan Kabak suspended, Kahveci and Akturkoglu not in the squad, Bardakci back from suspension. Calhanoglu and Arda Guler appear in the Flashscore FR projected XI, but I did not find a Turkish press source for this window, and Flashscore FR names Sergen Yalcin as coach while September sources name Montella. That coach name conflicts and is unverified. TFF squad news was not read.",
+        "lineups": "Two French outlets, both projections (no official XI yet): Flashscore FR (4-2-3-1) Maignan; Diouf, Jacquet, Konate, Truffert; Da Cunha, Camavinga; Olise, Cherki, Doue; Mbappe. Footiledefrance (15 Nov, 4-3-3) Maignan; Diouf, Jacquet, Konate, Truffert; Zaire-Emery, Da Cunha, Camavinga or Cherki; Olise, Mbappe, Barcola. Topmercato has Mbappe marked 'sous reserve'. Replacing Thuram and Tchouameni: Da Cunha plus Camavinga or Zaire-Emery in midfield, and Cherki, Doue or Barcola in attack. Both outlets name Konate at centre-back. This is a rebuilt side with a young back line (Diouf, Jacquet), not the September XI. Turkiye projected (Flashscore FR): Cakir; Zeki Celik, Bardakci, Demiral, Kadioglu; Calhanoglu, Kokcu; Akgun, Guler, Baris Alper Yilmaz; Enes Unal. Topmercato's version is similar (Aydin, Kaplan, Demiral, Kadioglu; Yuksek, Kokcu; Akgun, Guler, Yilmaz; Unal). Neither Turkiye XI is confirmed.",
+        "rotation": "France lost 1-3 at San Siro on Thu 12 Nov, so this is a 3-day turnaround at home in Bordeaux, and the squad is thinned by many absences, so changes are forced rather than chosen (Diouf, Jacquet, Da Cunha are first-choice-by-necessity). Zidane preparing 'plusieurs changements' (Footiledefrance headline). This is the last group game, so there is no next-match rotation motive. Turkiye lost 1-2 to Belgium on 12 Nov and also play on a 3-day turnaround.",
+        "motivation": "Group A1 after matchday 5 (ESPN via Flashscore, 365Scores): Italy 10 pts (+5), France 10 (+3), Belgium 9 (+2), Turkiye 0 (-10, relegated). Flashscore FR: a draw is enough for France to reach the quarter-finals. With a defeat France still qualify if Belgium do not beat Italy in Brussels. If Belgium win and France lose, France finish third and face a March play-off against a League B runner-up. A win plus an Italy slip gives first place. I checked the arithmetic: draw puts France on 11 against Italy 10 or 11 and Belgium at most 12, so top two holds. France therefore need a point, and Turkiye have nothing to play for. This is the reverse of the dead-rubber exclusion. The kick-off time of Belgium v Italy was not found (ticket pages say 'to be confirmed'; the match is in Brussels).",
+        "form": "France: L 1-3 at Italy (12 Nov), W 4-1 v Belgium (5 Oct), D 1-1 v Italy (2 Oct), W 1-0 at Belgium (28 Sep), W 1-0 at Turkiye (25 Sep). 8 for, 5 against; Zidane's first defeat as coach on 12 Nov. Turkiye: five defeats from five (L 1-2 Belgium, L 1-3 Italy, L 0-3 Belgium, L 1-4 Italy, L 0-1 France), 3 for and 13 against. xG not found.",
+        "h2h": "25 Sep 2026 in Kocaeli: Turkiye 0-1 France (Mbappe goal), a narrow win on a poor pitch. France won by one goal and Turkiye created little, but the scoreline shows a draw or a one-goal win is the realistic failure path against a bottom side. Not a derby or fierce rivalry.",
+        "odds": "Morning live Polymarket (coordinator refresh): France 0.8264 / draw 0.1172 / Turkiye 0.0564, up 2.8% on last night's 0.8036. Last night's 24h history was flat at 0.795 to 0.805. DraftKings via ESPN (data.odds, evening): France 1.22 / draw 6.00 / Turkiye 10.00, opened 1.17 / 7.50 / 11.00, de-vigged 75.4 / 15.4 / 9.2. Betclic (Flashscore FR, 15 Nov): France 1.19 / draw 6.00 / Turkiye 8.75, de-vigged about 79.0 / 15.7 / 5.3 after rounding, which is shorter than DraftKings and in line with Polymarket's rise. Fox Sports: France -463 / Turkiye +955. The price has moved toward France, not against, with no adverse news. Bookmaker draw of about 15 to 16% is above Polymarket's 11.7%, so I keep the draw at 14%.",
+        "models": "World Football Elo read tonight from https://www.eloratings.net/World.tsv: France 2066, Turkiye 1753. With 100 points of home advantage the expected score for France is 0.915, where a draw counts as half. That is a strong bookmaker-free edge for France, consistent with a win chance in the high 70s to low 80s and a draw of 13 to 15%. Source https://www.eloratings.net/ (figures supplied by the coordinator, not re-fetched; my own fetch of the site returned no usable table).",
+        "venue_weather": "Stade Atlantique (Matmut Atlantique), Bordeaux, normal French home venue (Flashscore FR, Fox Sports). Kick-off Sun 15 Nov 20:45 local (19:45 UTC). No weather forecast or pitch problem found."
       },
-      "reason": "France are the clear favourite at home against a Türkiye side on 0 points, five defeats and already relegated, with nothing to play for. France still need the win to stay in the quarter-final race with Italy and Belgium, so motivation favours them. No hard exclusion applies: verified fixture and venue, no coach change in the last 30 days (Zidane was appointed before the September opener), not a derby, and the favourite has not secured its aim. I trimmed p slightly below the Polymarket price (80.4% to 78%) and moved the draw up to 14%, in line with the DraftKings de-vig of 15.4%, because France lost 1-3 at Italy three days earlier, have injuries to Thuram, Tchouameni and Konate, Mbappe's fitness is unclear, and the September win was only 1-0. The draw estimate stays well below the 25% limit for a straight win. Confidence is low for now: Mbappé's availability is contradicted between sources, no current probable XI was found and Türkiye's squad news is unverified. These are re-checked in the morning.",
-      "main_risk": "A draw or low-scoring result: France only won 1-0 in Kocaeli in September, are thin after losing Thuram, Tchouameni and Konate, are playing three days after a 1-3 loss with Mbappe's fitness unconfirmed, and DraftKings shows a draw about 3 points above the market (15.4% de-vigged vs 12.3%). France's wider group-table pressure is a motivation plus, not a risk.",
+      "reason": "France are home favourites against a Turkiye side on 0 points, five defeats and already relegated, while France need only a point to stay in the quarter-final top two. Mbappe's availability is confirmed by Zidane on 14 Nov and two French outlets give near-identical projected XIs with Konate, Olise, Camavinga and Mbappe leading, so the two key facts from the earlier pass are now established, with no official XI yet. No hard exclusion applies: verified fixture, normal venue, Zidane appointed before September, not a derby, and the favourite has not secured its aim. I keep p below Polymarket's 82.6% (79%) because France lost 1-3 three days ago, have a long absence list and a young back line, Mbappe is not a confirmed starter, and bookmakers price the draw at 15 to 16%. Draw at 14% is far below the 25% limit for a straight win. The Elo expected score of 0.915 supports the favourite.",
+      "main_risk": "A draw or one-goal result: France won only 1-0 in Turkiye in September, lost 1-3 at Italy three days ago, are missing Tchouameni, Thuram, Dembele, Saliba, Kounde and others, and Mbappe's hamstring niggle could keep him out of the XI or limit his minutes. Turkiye's Turkish-press squad news and the Turkiye coach's name were not verified, and Belgium v Italy kick-off time is unknown.",
       "sources": [
+        "https://www.flashscore.fr/actualites/football-ligue-des-nations-uefa-france-turquie-ou-regarder-le-match-de-ligue-des-nations-heure-et-compos/pQyS2Z9e/",
+        "https://www.footiledefrance.fr/equipe-de-france-mbappe-attendu-titulaire-contre-la-turquie-zidane-prepare-plusieurs-changements-37287c0499/",
+        "https://www.cnews.fr/sport/2026-11-14/equipe-de-france-kylian-mbappe-sera-avec-nous-contre-la-turquie-affirme-zinedine",
         "https://www.365scores.com/football/league/uefa-nations-league-7016/standings",
-        "https://www.foxsports.com/soccer/nations-league-france-vs-turkiye-nov-15-2026-game-boxscore-689072",
         "https://www.flashscore.com/news/soccer-uefa-nations-league-italy-france-report-12-11-2026/xKlGBhUa/",
-        "https://www.uefa.com/uefanationsleague/news/02aa-21bfd72342bb-2092e5a5aba6-1000--uefa-nations-league-matchday-4-highlights-france-and-italy-r/",
-        "https://www.soccernews.com/mbappe-leaves-france-camp-after-suffering-tendon-injury/405437/",
+        "https://www.foxsports.com/soccer/nations-league-france-vs-turkiye-nov-15-2026-game-boxscore-689072",
+        "https://www.eloratings.net/",
         "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261115",
-        "https://gamma-api.polymarket.com/events?id=1300584",
-        "https://www.eloratings.net/"
+        "https://gamma-api.polymarket.com/events?id=1300584"
       ],
       "views": {},
       "prices": []
@@ -91,7 +92,7 @@
         "away": 0.23
       },
       "checks": {
-        "team_news": "ESPN game summary (injuries as of Sat 14 Nov): Bills RT Spencer Brown doubtful (ankle; limited Wed, no practice after; Tylan Grable the fill-in per buffalorumblings/buffalonews), CB Christian Benford (wrist), CB Jordan Hancock (hamstring) and S Sam Franklin Jr. (shoulder) questionable, WR Tyrell Shavers out (ACL). Josh Allen is not on the Bills report. Jets: WR Garrett Wilson (concussion, full practice Friday), WRs Adonai Mitchell and Omar Cooper Jr., S VJ Payne and CB Nahshon Wright all questionable; LB Trevin Wallace out (groin). Final Saturday elevations and downgrades not seen.",
+        "team_news": "ESPN game summary (injuries as of Sat 14 Nov): Bills RT Spencer Brown doubtful (ankle; limited Wed, no practice after; Tylan Grable the fill-in per buffalorumblings/buffalonews), CB Christian Benford (wrist), CB Jordan Hancock (hamstring) and S Sam Franklin Jr. (shoulder) questionable, WR Tyrell Shavers out (ACL). Josh Allen is not on the Bills report. Jets: WR Garrett Wilson (concussion, full practice Friday), WRs Adonai Mitchell and Omar Cooper Jr., S VJ Payne and CB Nahshon Wright all questionable; LB Trevin Wallace out (groin). Final Saturday elevations and downgrades not seen. Sunday morning: Buffalo activated CB Jordan Hancock from injured reserve on Saturday and elevated QB Shane Buechele; nothing newly ruled out. Spencer Brown remains doubtful.",
         "lineups": "Not official. ESPN lists Josh Allen (Bills) and Geno Smith (Jets) as the passing leaders and no QB injury is listed for either side. Expected: Allen starting; Bills line without Brown (Grable at RT) if he sits; Wilson likely to play. Only one source for the XIs (ESPN plus snippets of Bills beat sites), no official inactives until Sunday.",
         "rotation": "No rotation issue. Bills' last five (ESPN): L 26-29 vs NE, W 37-34 OT at LAR, W 33-30 at LV, W 36-10 vs BAL, W 23-6 at MIN (10 Nov). Short travel (Buffalo to MetLife, same time zone). Jets played at KC on 8 Nov (L 12-35).",
         "motivation": "Bills 7-1 and ranked No. 1 in PFF's and several other Week 10 power rankings (PFF), chasing the AFC top seed and the AFC East; Jets 2-7 and ranked 26th to 31st, playing for pride. Bills have plenty to play for, so no dead-rubber exclusion.",
@@ -109,7 +110,8 @@
         "https://www.buffalorumblings.com/buffalo-bills-injuries/145232/bills-vs-jets-final-injury-report-and-game-day-designations",
         "https://www.pff.com/news/nfl-week-10-power-rankings-bills-move-to-no-1-49ers-climb",
         "https://buffalonews.com/sports/professional/nfl/bills/article_b59b62d1-2a7a-464c-b2c4-1e2fcf33f75f.html",
-        "https://clob.polymarket.com/prices-history?market=58143940831672657190277806878514061226499271064909458189824159543213466682953&interval=1d&fidelity=60"
+        "https://clob.polymarket.com/prices-history?market=58143940831672657190277806878514061226499271064909458189824159543213466682953&interval=1d&fidelity=60",
+        "https://www.buffalobills.com/news/db-jordan-hancock-activated-and-qb-shane-buechele-elevated-db-te-cory-couch-released-week-10"
       ],
       "views": {},
       "prices": []
@@ -124,7 +126,7 @@
         "away": 0.23
       },
       "checks": {
-        "team_news": "Final Friday reports (Nov 13, therams.com and azcardinals.com). Rams: QB Matthew Stafford (right elbow) full all week, no designation. Out: G Steve Avila (hamstring), TE Terrance Ferguson. WR Puka Nacua is on IR (PCL/MCL sprain and turf toe) and WR Davante Adams is on IR; CB Jaylen Watson is out for the season. Questionable: CB Trent McDuffie (back, limited Friday, missed the last 2 games), S Kam Curl (toe, McVay optimistic), OLB Myles Garrett (rest/knee, McVay expects him to play; he had 3 sacks vs Washington), TE Davis Allen, LS Joe Cardona. Cardinals: rookie QB Carson Beck makes his first NFL start (Minshew out with a UCL injury needing surgery, Brissett traded to Baltimore). Out: C Hjalte Froholdt (concussion), RG Jon Gaines II, DL Zach Carter, WR Michael Wilson; RBs Conner and Love on IR. Questionable: LT Jayden Williams, TE Hunter Long, CB Max Melton, S Andrew Wingard, DL Roy Lopez and Darius Robinson. No Saturday elevations or downgrades found yet.",
+        "team_news": "Final Friday reports (Nov 13, therams.com and azcardinals.com). Rams: QB Matthew Stafford (right elbow) full all week, no designation. Out: G Steve Avila (hamstring), TE Terrance Ferguson. WR Puka Nacua is on IR (PCL/MCL sprain and turf toe) and WR Davante Adams is on IR; CB Jaylen Watson is out for the season. Questionable: CB Trent McDuffie (back, limited Friday, missed the last 2 games), S Kam Curl (toe, McVay optimistic), OLB Myles Garrett (rest/knee, McVay expects him to play; he had 3 sacks vs Washington), TE Davis Allen, LS Joe Cardona. Cardinals: rookie QB Carson Beck makes his first NFL start (Minshew out with a UCL injury needing surgery, Brissett traded to Baltimore). Out: C Hjalte Froholdt (concussion), RG Jon Gaines II, DL Zach Carter, WR Michael Wilson; RBs Conner and Love on IR. Questionable: LT Jayden Williams, TE Hunter Long, CB Max Melton, S Andrew Wingard, DL Roy Lopez and Darius Robinson. No Saturday elevations or downgrades found yet. Sunday morning: no Saturday injury update found for either side; McDuffie, Curl and Garrett stay unconfirmed until the inactives.",
         "lineups": "Not confirmed (Saturday evening). Expected: Stafford starting for the Rams with a depleted receiver group (rookie CJ Daniels Jr. in line for more snaps, likely heavy 13 personnel per Last Word on Sports), without Avila at guard. Cardinals: Carson Beck starting at QB (officially named, ESPN/Yardbarker) behind an offensive line missing its center and right guard. Official inactives come about 90 minutes before the 4:05 PM ET kickoff.",
         "rotation": "No short week or bye issue found. Rams (5-4) have won 3 straight (Raiders, Chargers, Washington 20-13). Cardinals (3-6) lost 17-3 at Seattle last week. Venue note: the game is at State Farm Stadium in Glendale, so the Rams are the road team even though the market lists them first. The trip is a short in-division flight with no time-zone change.",
         "motivation": "Rams 5-4 and tied with Seattle for second in the NFC West, still fighting for a playoff spot (ESPN FPI playoff odds 37.9%), and they want revenge for the Oct 18 loss. Cardinals 3-6 with 2% playoff odds on Kalshi, a first-year head coach (Mike LaFleur, hired in the offseason, no coaching change in the last 7 days) and a rookie QB, so they are playing for pride. The favourite has plenty to play for, so the hard no-stakes rule does not apply.",
@@ -157,7 +159,7 @@
         "away": 0.31
       },
       "checks": {
-        "team_news": "Friday final reports (seahawks.com, raiders.com via search, Yahoo): Seattle QB Sam Darnold OUT (ribs/quad), expected back for Week 12 vs 49ers; Drew Lock starts (elbow/oblique, no designation, limited all week, 2nd straight start, Seattle 2-0 in his starts). Seattle also OUT: LT Charles Cross (ankle), G Quenton Nelson (knee), DT Leonard Williams (stinger); Nwosu (LB), Shaheed (WR), Pili (DT) returning per seahawks.com (SI lists them as questionable). Raiders: rookie QB Fernando Mendoza (No. 1 overall pick) makes first NFL start after Kirk Cousins was traded to Minnesota on Tuesday; DT Thomas Booker (ankle, full Friday) and WR Dont'e Thornton (back, DNP) questionable; C Trey Zuhn (concussion) was limited midweek and is listed questionable by SI; DEs Johnson and Crawford and CB Anusiem on IR. No Saturday elevations or downgrades verified.",
+        "team_news": "Friday final reports (seahawks.com, raiders.com via search, Yahoo): Seattle QB Sam Darnold OUT (ribs/quad), expected back for Week 12 vs 49ers; Drew Lock starts (elbow/oblique, no designation, limited all week, 2nd straight start, Seattle 2-0 in his starts). Seattle also OUT: LT Charles Cross (ankle), G Quenton Nelson (knee), DT Leonard Williams (stinger); Nwosu (LB), Shaheed (WR), Pili (DT) returning per seahawks.com (SI lists them as questionable). Raiders: rookie QB Fernando Mendoza (No. 1 overall pick) makes first NFL start after Kirk Cousins was traded to Minnesota on Tuesday; DT Thomas Booker (ankle, full Friday) and WR Dont'e Thornton (back, DNP) questionable; C Trey Zuhn (concussion) was limited midweek and is listed questionable by SI; DEs Johnson and Crawford and CB Anusiem on IR. No Saturday elevations or downgrades verified. Sunday morning: Seattle elevated CB Trevon Diggs and T Bobby Hart on Saturday; Josh Jones starts at tackle for Cross for the third straight week. Coach Macdonald expects Lock to start. No Saturday downgrade found; inactives are due 90 minutes before kick-off.",
         "lineups": "Starting QBs expected: Lock (SEA) vs Mendoza (LV). Seattle line without both Cross and Nelson (two starting OL out, Yahoo headline 'Seahawks down 2 starting OL'); Seattle has the No. 1 ranked defense, allowing second-fewest passing yards, which is the main obstacle for a first-time starter. Raiders defense ranked last. Official inactives come about 90 minutes before kickoff; not yet available tonight.",
         "rotation": "No rotation risk (both play full-strength rosters as available). Seattle: Week 8 home loss to Chicago 34-17, Week 9 home win over Arizona 17-3 (Nov 8), now travels to Las Vegas (same Pacific time zone, 4:05 pm ET kickoff). Raiders: lost 38-17 at 49ers Nov 8, normal rest. Seattle's next game is reported as a big divisional game vs 49ers in Week 12; Week 11 not verified.",
         "motivation": "Seattle 5-4, in the playoff hunt and defending champion ('world champion Seahawks' per raiders.com); Raiders 4-5 and also still live in the standings. Both sides need the win; no dead-rubber risk. Not a divisional game for Seattle (Raiders are in the AFC West, Seahawks NFC West), not a fierce rivalry.",
@@ -175,7 +177,8 @@
         "https://www.covers.com/nfl/seahawks-vs-raiders-prediction-picks-nov-15-2026",
         "https://sports.yahoo.com/articles/lock-again-lifts-seahawks-win-222825680.html",
         "https://www.espn.com/nfl/story/_/id/50453355/week-10-picks-predictions-schedule-fantasy-odds-2026",
-        "https://www.sharpfootballanalysis.com/analysis/nfl-power-rankings/"
+        "https://www.sharpfootballanalysis.com/analysis/nfl-power-rankings/",
+        "https://www.seahawks.com/news/seahawks-elevate-trevon-diggs-bobby-hart-from-practice-squad"
       ],
       "views": {},
       "prices": []
@@ -217,12 +220,12 @@
       "exclude": false,
       "confidence": "medium",
       "p": {
-        "home": 0.64,
+        "home": 0.63,
         "draw": 0,
-        "away": 0.36
+        "away": 0.37
       },
       "checks": {
-        "team_news": "Texans final report (houstontexans.com, updated Fri 13 Nov): OUT LB Azeez Al-Shaair, WR Marvin Harrison Jr. (hamstring), DE Danielle Hunter (hamstring), TE Brevin Jordan, C/G Keylan Rutledge; QUESTIONABLE DE Will Anderson Jr. (ankle), T Trent Brown (illness/wrist), G Wyatt Teller (back/illness), RB David Montgomery (groin), LB Jake Hummel, CB Jaylin Smith. Browns: OUT S Ronnie Hickman (concussion) and FB Michael Burton; WR Denzel Boston (toe) questionable and back to limited on Friday; Ward, Jenkins, Fannin and the rest practised fully or limited with no designation. Saturday elevations and downgrades not yet seen.",
+        "team_news": "Texans final report (houstontexans.com, updated Fri 13 Nov): OUT LB Azeez Al-Shaair, WR Marvin Harrison Jr. (hamstring), DE Danielle Hunter (hamstring), TE Brevin Jordan, C/G Keylan Rutledge; QUESTIONABLE DE Will Anderson Jr. (ankle), T Trent Brown (illness/wrist), G Wyatt Teller (back/illness), RB David Montgomery (groin), LB Jake Hummel, CB Jaylin Smith. Browns: OUT S Ronnie Hickman (concussion) and FB Michael Burton; WR Denzel Boston (toe) questionable and back to limited on Friday; Ward, Jenkins, Fannin and the rest practised fully or limited with no designation. Saturday elevations and downgrades not yet seen. Sunday morning: on Saturday Houston ruled out RB David Montgomery (groin) and CB Jaylin Smith (hamstring) and added T Braden Smith (illness) as questionable; LB Hummel was activated. No update found on Anderson, Trent Brown or Teller, and no change at quarterback.",
         "lineups": "Houston: C.J. Stroud starts (Week 9: 5 TD, 44-22 win over the Chargers). Browns: Todd Monken named Deshaun Watson the starter on Wed 11 Nov (NBC Sports, lineups.com); Watson cleared the concussion protocol and sat out Week 9, when Shedeur Sanders started. Houston's offensive line is the weak spot: Rutledge out, Teller and Trent Brown questionable, facing Cleveland's pass rush (26 sacks). Houston's pass rush is also thinner without Hunter, and Anderson is questionable. Rookie S Emannuel McNeil-Warren replaces Hickman. No official inactives yet (they come out about 90 minutes before kickoff).",
         "rotation": "No rotation issue in the NFL sense. Texans: regular week after the Week 9 win, three wins in the last four after an 0-4 start, travelling to Cleveland (Eastern time, same or one hour ahead of Central), no short week. Browns: lost 23-22 in overtime at New Orleans last week, have a bye in Week 11 so they will not be saving anything.",
         "motivation": "Texans 3-5, needing to keep the season alive (a loss would leave them very short of the playoffs). Browns 5-4, in the AFC wild-card hunt, two straight losses, home record 3-0, bye next week. Both sides need the game, so there is no dead-rubber case. AFC South against AFC North, so not a divisional game and no famous rivalry. Not a hard exclusion.",
@@ -233,7 +236,7 @@
         "venue_weather": "Huntington Bank Field, Cleveland (outdoor). IMPORTANT: this is Houston's AWAY game. ESPN lists Houston Texans at Cleveland Browns, Browns home, neutralSite false. Polymarket lists the Texans first, so p.home in this file means the Texans. The brief's 'Houston at home' is wrong. Not a hard exclusion (it is Cleveland's normal stadium). Forecast: about 45-47F, feels like 41F, NW wind about 10-14 mph with gusts to 16 off Lake Erie, light showers 22-47% (lower from kickoff). Mild effect on passing and long field goals. 1:00 pm ET kickoff."
       },
       "reason": "Texans are about a 4.5-point road favourite on a market-implied 66-67%, with ESPN FPI at 77%. The game is in Cleveland, not Houston. Houston's edge is the steadier Stroud against a Watson coming back from concussion protocol, plus a good pass rush. Several things could drag it down: Hunter and Harrison are out, the offensive line is banged up, the Browns are 3-0 at home and desperate after two losses, and the weather is breezy and damp. p is lowered from the market to 64% to price this in. No price move or news supports lifting it.",
-      "main_risk": "Road favourite with a depleted offensive line (Rutledge out; Teller and Trent Brown questionable) against a Cleveland front that has 26 sacks, with Hunter and Harrison out, in cold, windy conditions at a Browns team that is 3-0 at home and needs the win. A low-scoring game of about 40 points makes the margin thin. Saturday downgrades and the inactives list are still unseen.",
+      "main_risk": "Road favourite with a depleted offensive line (Rutledge out; Teller and Trent Brown questionable) against a Cleveland front that has 26 sacks, with Hunter and Harrison out, in cold, windy conditions at a Browns team that is 3-0 at home and needs the win. A low-scoring game of about 40 points makes the margin thin. Saturday downgrades and the inactives list are still unseen. Since Saturday Montgomery is out and a third offensive tackle (Braden Smith, illness) is questionable.",
       "sources": [
         "https://www.houstontexans.com/news/week-10-injury-report-texans-at-browns",
         "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115",
@@ -241,7 +244,8 @@
         "https://www.footballnationusa.com/post/texans-at-browns-week-10-preview-pressure-quarterbacks-and-the-upset-path",
         "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/todd-monken-i-intend-for-deshaun-watson-being-our-starting-qb",
         "https://dknetwork.draftkings.com/2026/11/13/nfl-week-10-weather-forecast/",
-        "https://www.dawgsbynature.com/cleveland-browns-news/137974/browns-texans-week-10-injuries-denzel-boston-will-anderson-marvin-harrison-danielle-hunter"
+        "https://www.dawgsbynature.com/cleveland-browns-news/137974/browns-texans-week-10-injuries-denzel-boston-will-anderson-marvin-harrison-danielle-hunter",
+        "https://www.houstontexans.com/news/houston-texans-transactions-11-14-2026"
       ],
       "views": {},
       "prices": []
@@ -313,6 +317,111 @@
     },
     {
       "id": "1293077",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1390417",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1258831",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1258840",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1258835",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1300605",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1300574",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1300595",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1300569",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1300564",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1350031",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1350015",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1350022",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1350028",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1350025",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1350030",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1350018",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1383241",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1350013",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1350024",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1350027",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1350021",
       "exclude": true,
       "skipped": true
     }
