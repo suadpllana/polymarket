@@ -27,6 +27,27 @@ const RESEARCH_DEADLINE_HOUR = 12;
 // were picked by an early version of the model.
 const REMOVED_DATES = new Set(['2026-10-31', '2026-11-01', '2026-11-02']);
 
+// Slips the owner asked to show as won before their last game had finished.
+// The mark is provisional: as soon as the markets resolve, the real result
+// replaces it (see settleOpen), so the record cannot stay wrong.
+const EARLY_WON = new Set(['2026-11-15']);
+
+function markEarlyWon(entries) {
+  for (const e of entries) {
+    if (!EARLY_WON.has(e.date) || !e.legs?.length || e.result) continue;
+    for (const l of e.legs) {
+      if (!l.result) {
+        l.result = 'won';
+        l.provisional = true;
+      }
+    }
+    e.result = 'won';
+    e.provisional = true;
+    e.settled_odds = round(e.legs.reduce((o, l) => o * (l.result === 'won' ? l.odds : 1), 1), 2);
+    console.log(`Marked ${e.date} as won early (provisional until the markets resolve).`);
+  }
+}
+
 const OUT = new URL('../public/history.json', import.meta.url);
 const DRY = process.argv.includes('--dry');
 const TOMORROW = process.argv.includes('--tomorrow');
@@ -67,8 +88,10 @@ function settleLeg(leg, resolved) {
 }
 
 async function settleOpen(entries) {
-  const open = entries.filter((e) => e.legs?.length && !e.result);
-  const ids = new Set(open.flatMap((e) => e.legs.filter((l) => !l.result).flatMap((l) => [...l.settle.won, ...l.settle.void, ...l.settle.lost].map((r) => String(r).split('#')[0]))));
+  // A leg or slip marked early (provisional) is still open until its market resolves.
+  const pending = (l) => !l.result || l.provisional;
+  const open = entries.filter((e) => e.legs?.length && (!e.result || e.provisional));
+  const ids = new Set(open.flatMap((e) => e.legs.filter(pending).flatMap((l) => [...l.settle.won, ...l.settle.void, ...l.settle.lost].map((r) => String(r).split('#')[0]))));
   const resolved = new Map();
   for (const id of ids) {
     try {
@@ -79,16 +102,33 @@ async function settleOpen(entries) {
     }
   }
   for (const e of open) {
-    for (const leg of e.legs) if (!leg.result) leg.result = settleLeg(leg, resolved);
-    const rs = e.legs.map((l) => l.result);
-    if (rs.includes('lost')) e.result = 'lost';
-    else if (rs.some((r) => !r)) e.result = null;
-    else if (rs.every((r) => r === 'void')) e.result = 'void';
-    else e.result = 'won';
-    if (e.result) {
+    for (const leg of e.legs) {
+      if (!pending(leg)) continue;
+      const r = settleLeg(leg, resolved);
+      if (r) {
+        leg.result = r;
+        delete leg.provisional;
+      } else if (!leg.provisional) leg.result = null;
+    }
+    // The real result counts only legs whose market has resolved.
+    const rs = e.legs.map((l) => (l.provisional ? null : l.result));
+    let real;
+    if (rs.includes('lost')) real = 'lost';
+    else if (rs.some((r) => !r)) real = null;
+    else if (rs.every((r) => r === 'void')) real = 'void';
+    else real = 'won';
+    if (real) {
+      e.result = real;
+      delete e.provisional;
+      for (const leg of e.legs) {
+        if (leg.provisional) {
+          leg.result = null;
+          delete leg.provisional;
+        }
+      }
       e.settled_odds = e.result === 'lost' ? 0 : round(e.legs.reduce((o, l) => o * (l.result === 'won' ? l.odds : 1), 1), 2);
       console.log(`Settled ${e.date}: ${e.result}`);
-    }
+    } else if (!e.provisional) e.result = null;
   }
 }
 
@@ -269,6 +309,7 @@ async function main() {
     return;
   }
   const history = await loadHistory(process.env.SITE_URL);
+  markEarlyWon(history.entries);
   await settleOpen(history.entries);
 
   // Today, and tomorrow as soon as its research is pushed (research done the
