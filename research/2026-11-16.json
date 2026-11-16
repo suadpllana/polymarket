@@ -1,8 +1,8 @@
 {
   "date": "2026-11-16",
-  "researched_at": "2026-11-16T16:06:27Z",
+  "researched_at": "2026-11-16T19:12:01Z",
   "stage": "pre_kickoff",
-  "summary": "Researched just after midnight on Mon 16 Nov and re-checked this morning with live prices; lineups are not out, so this is a draft until the final check. It is the last Nations League matchday, so every game was checked first for a favourite with nothing left to play for. Eight games were researched: three are kept at medium, two at low and three are excluded. No favourite's price fell overnight. Medium: Iceland–Luxembourg (p 0.775; Iceland need a point for promotion, Luxembourg have lost four straight without scoring; Iceland lose Hordur (suspended), Stefan Teitur and Kristall Mani (injured), the forecast wind and sleet have eased), Lithuania–Liechtenstein (p 0.87; the coach reports a fit squad, Kucys suspended; Liechtenstein have not scored in the group), Slovenia at North Macedonia (p 0.62; Slovenia need the win for second place, North Macedonia are relegated with one goal in five games; Slovenia are without Bijol and Sesko). Low, so not bet: Greece–Serbia (Serbia's absentees and XI are now verified, but Greece have no probable XI after the 0-7 loss), Medvedev–Cobolli (no second bookmaker price; tennis now needs high anyway). Excluded: Switzerland–Scotland and Gibraltar–Malta (the favourite has already won its group and the opponent still needs the result; both prices fell 3–5%), Germany–Netherlands (fierce rivalry, near coin flip). Final check (about 16:05 UTC): the lineups for both 17:00 games are on ESPN. Iceland start an attacking 4-3-3 (Oskarsson, Gudjohnsen, Willumsson) with Hjortur and Victor Palsson covering the suspended Hordur, and the price has risen 6% since first listing; Lithuania play a cautious 5-3-2 with Ruzgis up front, and Liechtenstein, who have not scored in five games, drifted further. Neither lineup is confirmed by its federation, so both stay medium; the under-3.5 view for Iceland is shaded down because a heavy home win is the main risk.",
+  "summary": "Researched just after midnight on Mon 16 Nov and re-checked this morning with live prices; lineups are not out, so this is a draft until the final check. It is the last Nations League matchday, so every game was checked first for a favourite with nothing left to play for. Eight games were researched: three are kept at medium, two at low and three are excluded. No favourite's price fell overnight. Medium: Iceland–Luxembourg (p 0.775; Iceland need a point for promotion, Luxembourg have lost four straight without scoring; Iceland lose Hordur (suspended), Stefan Teitur and Kristall Mani (injured), the forecast wind and sleet have eased), Lithuania–Liechtenstein (p 0.87; the coach reports a fit squad, Kucys suspended; Liechtenstein have not scored in the group), Slovenia at North Macedonia (p 0.62; Slovenia need the win for second place, North Macedonia are relegated with one goal in five games; Slovenia are without Bijol and Sesko). Low, so not bet: Greece–Serbia (Serbia's absentees and XI are now verified, but Greece have no probable XI after the 0-7 loss), Medvedev–Cobolli (no second bookmaker price; tennis now needs high anyway). Excluded: Switzerland–Scotland and Gibraltar–Malta (the favourite has already won its group and the opponent still needs the result; both prices fell 3–5%), Germany–Netherlands (fierce rivalry, near coin flip). Final check (about 16:05 UTC): the lineups for both 17:00 games are on ESPN. Iceland start an attacking 4-3-3 (Oskarsson, Gudjohnsen, Willumsson) with Hjortur and Victor Palsson covering the suspended Hordur, and the price has risen 6% since first listing; Lithuania play a cautious 5-3-2 with Ruzgis up front, and Liechtenstein, who have not scored in five games, drifted further. Neither lineup is confirmed by its federation, so both stay medium; the under-3.5 view for Iceland is shaded down because a heavy home win is the main risk. Evening check for the 19:45 games (19:12 UTC): Greece–Serbia raised to medium after a strong Greek XI; Slovenia stays medium with a weakened XI.",
   "games": [
     {
       "id": "1307204",
@@ -144,7 +144,7 @@
     {
       "id": "1307224",
       "exclude": false,
-      "confidence": "low",
+      "confidence": "medium",
       "p": {
         "home": 0.66,
         "draw": 0.2,
@@ -152,7 +152,7 @@
       },
       "checks": {
         "team_news": "Updated this morning. Greece: Kourbelis is out (Sport24). Ioannidis is also absent (Gazzetta). Tzolis is available. Saliakas and Zafeiris were suspended for the Dutch game and are back. No other injuries were reported. Serbia: Zivkovic and Dragojevic are confirmed out for the red cards against Germany (B92, Mozzart, Novosti), and Dragojevic has been sent to the U21s. Vlahovic is confirmed out. Pavlovic, Terzic, Kostic and Stankovic were already out (Novosti). Milenkovic IS in this squad and is expected to start. Mitrovic is not named in either Serbian article I read, so his status is unverified. Greek press speaks of seven Serbian absentees, which I did not verify. Lukic and Maksimovic return from suspension. Paunovic is back on the bench. The 0-7 loss is confirmed by the Greek press.",
-        "lineups": "Serbia probable XI (Mozzart Sport): Petrovic; Erakovic, Milenkovic, Babic; Nedeljkovic, Maksimovic, Lukic, Bukinac; Samardzic, Jovic, S. Milinkovic-Savic. Greece: no probable XI. Gazzetta (Monday) names only candidates and expects changes from the Dutch XI (Tzolakis; Tsimikas, Retsos, Mavropanos, Rota; Androutsos, Triantis; Tzolis, Karetsas; Ioannidis, Pavlidis). Candidates are Saliakas, Chatzidiakos, Giannoulis, Zafeiris and Vagiannidis, and a switch to 4-2-3-1 is possible. Official XIs come about 60 minutes before the 21:45 Greek time (19:45 UTC) kick-off.",
+        "lineups": "Official XIs (ESPN, 18:45 UTC): Greece 4-2-3-1 Mandas; Rota, Mavropanos, Koulierakis, Tsimikas; Zafeiris, Androutsos; Karetsas, Tzolis, Pavlidis; Douvikas: a strong, not rotated side. Serbia 4-4-2 Petrovic; Erakovic, Milenkovic, Babic, Bukinac; Lukic, Milinkovic-Savic, Maksimovic, Nedeljkovic; Mitrovic, Jovic.",
         "rotation": "Greece play three days after the 0-7 loss, and Gazzetta expects changes in defence, midfield and attack. Jovanovic said the team has the right pride to react and would not accept the favourite's role. Serbia are rested in midfield (Lukic and Maksimovic return) but lose Zivkovic and Dragojevic and have changes at the back (Erakovic in for Gudelj) and in goal (Petrovic).",
         "motivation": "Table taken from last night (Netherlands 11, Germany 8, Greece 8, Serbia 0). I did not re-verify it this morning, and no article I read covered it or the Germany-Netherlands game at the same time. Greece still need a result. Serbia are on 0 points and say they play for pride (Paunovic). The stadium is sold out (about 23,000).",
         "form": "Unchanged. Greece: W 2-1 at Serbia, W 1-0 vs Germany, D 2-2 and L 0-7 vs the Netherlands. Serbia: 0 points from 5.",
@@ -161,7 +161,7 @@
         "models": "Elo: Greece 1788, Serbia 1662, expected score 0.786. This is in line with the market.",
         "venue_weather": "Panthessaliko Stadium, Volos, Greece's home ground. The Serbian press says it is sold out. No weather check."
       },
-      "reason": "Fixture and kick-off confirmed (21:45 Greek time, 19:45 UTC). New this morning: Serbia's absentees and probable XI are verified, with Zivkovic, Dragojevic and Vlahovic out and Milenkovic playing. Greece have no probable XI yet, with only candidates and expected changes after the 0-7 loss. Mitrovic's status is not confirmed. Confidence stays low because the Greek XI is unknown and one Serbian absentee is unchecked. The market move since listing is small and explained.",
+      "reason": "Fixture and kick-off confirmed (21:45 Greek time, 19:45 UTC). New this morning: Serbia's absentees and probable XI are verified, with Zivkovic, Dragojevic and Vlahovic out and Milenkovic playing. Greece have no probable XI yet, with only candidates and expected changes after the 0-7 loss. Mitrovic's status is not confirmed. Confidence stays low because the Greek XI is unknown and one Serbian absentee is unchecked. The market move since listing is small and explained. Final check (19:12 UTC): the Greek XI is out and strong (Pavlidis, Tzolis, Karetsas, Mavropanos, Tsimikas), Serbia are without Zivkovic, Dragojevic and Vlahovic, and the price has not fallen (0.673 to 0.687), so the game is raised to medium.",
       "main_risk": "Greece's unknown XI after the 0-7 loss, which means rotation, morale and a leaky defence, so a draw or one-goal win is the main risk. Serbia have little to lose and have scored 4 in 5. Against that, Serbia's weakened squad and the sold-out home crowd favour Greece.",
       "sources": [
         "https://www.novasports.gr/sport/podosfairo/event/nations-league/article/15232237/giovanovits-exoume-ton-katallilo-egoismo-gia-na-antidrasoume-kontra-sti-servia/",
@@ -171,7 +171,8 @@
         "https://www.novosti.rs/sport/fudbal/1671473/veljko-paunovic-srdjan-babic-konferencija-fudbalska-reprezentacija-srbije-fudbalska-reprezentacija-grcke-liga-nacija-volos",
         "https://www.b92.net/sport/fudbal/srpski-fudbal/285131/srbija-protiv-grcke-u-ln-vracaju-se-lukic-i-maksimovic-zivkovic-i-dragojevic-van-tima/vest",
         "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116",
-        "https://www.sportsmole.co.uk/football/nations-league/groups.html"
+        "https://www.sportsmole.co.uk/football/nations-league/groups.html",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861188"
       ],
       "prices": [],
       "views": {}
@@ -204,7 +205,7 @@
       },
       "checks": {
         "team_news": "Morning re-check, nothing new since last night. Slovenia: Jaka Bijol suspended (second yellow v Switzerland, RTV SLO, Planet Nogomet); Cesar's Sunday press conference gave no named replacement ('appropriate replacement' from the squad, decided at tactical training, Planet Nogomet); FotMob predicted XI lists Oblak in goal with Drkusic, Zec, Zaletel, Karnicnik in defence and Bijol unavailable (prediction only). David Brekalo still doubtful with an injury, no update found; Timi Max Elsnik and Jure Balkovec out; Sesko left out of the squad (24ur); Erik Janza and David Zec back from suspension. Oblak is in the squad, no fitness concern reported. North Macedonia: only Dimitar Mitrovski has a minor knock (Ekipa.mk, Sedloski press conference); no suspensions or new absences reported this morning. Slovenia missing Bijol and Sesko remains a soft risk.",
-        "lineups": "Still not out; official XIs come about 60 minutes before kick-off. Sports Mole probable XIs: North Macedonia Dimitrievski; Ilievski, Mladenovski, Musliu, Alioski; Gastarov, Elmas; Churlinov, Bardhi, Doriev; Rastoder. Slovenia Oblak; Kuzmic, Drkusic, Bijol, Zaletel, Karnicnik; Matko, Zabukovnik, Cerin, Sturm; Vipotnik (stale, still lists Bijol). FotMob's version has Zec in the back line instead of Bijol. Sedloski says North Macedonia will start more offensively (Ekipa.mk). No confirmed XI, so confidence stays at medium.",
+        "lineups": "Official XIs (ESPN, 18:45 UTC): Slovenia 4-4-2 Oblak; Drkusic, Zec, Zaletel, Janza; Karnicnik, Gnezda Cerin, Lovric, Sturm; Vipotnik, Matko (new centre-back pair, no Sesko). North Macedonia 4-3-2-1 Dimitrievski; Ilievski, Musliu, Mladenovski, Alioski; Gashtarov, Bardhi, Elezi; Elmas, Churlinov; Rastoder.",
         "rotation": "No rotation risk found. Slovenia chase second place and Cesar asks maximum effort from starters and substitutes (Planet Nogomet). 3-day turnaround after Switzerland (0-0, 13 Nov); last matchday, so nothing after it to save players for. North Macedonia are relegated with no next fixture affecting this game. No new overnight story on squad changes.",
         "motivation": "Group B1 before this game: Switzerland 13 pts (group won), Slovenia 8, Scotland 7, North Macedonia 0 (relegated to League C). Switzerland v Scotland is played the same day. A Slovenia win gives 11 pts, which Scotland (max 10) cannot match, so second place and the promotion play-off are secured. A draw (9 pts) is enough only if Scotland fail to beat Switzerland. Slovenia have everything to play for; North Macedonia play for pride and a first win. The dead-rubber rule does not apply.",
         "form": "Slovenia Nations League: L W D W D (5 goals for, 3 against), last game 0-0 v Switzerland; conceded in all three away games. North Macedonia: 5 straight Nations League defeats, 1 goal scored and 12 conceded, no win in 13 games in all competitions. Sources point to a low-scoring game (freetips.com and Football Whispers tip under 2.5). No xG found.",
@@ -214,7 +215,7 @@
         "venue_weather": "Tose Proeski National Arena, Skopje, 19:45 UTC (20:45 local), a normal home ground. Fog and about 8C forecast last night; no pitch or extreme weather problem reported."
       },
       "reason": "Slovenia are clear favourites (Elo 1726 v 1527, market 62-64%) and need the win to lock up second place; North Macedonia are relegated with 0 points and 1 goal in 5 games. This morning's re-check found no new negative news: Bijol still out with no confirmed replacement, Brekalo still doubtful, Oblak available, North Macedonia clean apart from Mitrovski's minor knock. The price moved slightly toward Slovenia without a visible news cause. The Slovenia draw-no-bet leg only loses if North Macedonia win (about 12-14% by market and book), and a draw is a push. Held at medium because Slovenia lack Bijol and Sesko, scored only 5 goals in 5 games, and the XI is unconfirmed.",
-      "main_risk": "A North Macedonia win is the only way draw no bet loses, which needs a blunt Slovenia (no Sesko, a changed centre-back pairing without Bijol, possible Brekalo absence) to concede to a side that plans to attack more; a draw only voids the leg. For the other legs, a 0-0 or 1-1 or a one-goal Slovenia win hurts match-winner and handicap legs.",
+      "main_risk": "A North Macedonia win is the only way draw no bet loses, which needs a blunt Slovenia (no Sesko, a changed centre-back pairing without Bijol, possible Brekalo absence) to concede to a side that plans to attack more; a draw only voids the leg. For the other legs, a 0-0 or 1-1 or a one-goal Slovenia win hurts match-winner and handicap legs. The confirmed XI is weakened: a new centre-back pair and no Sesko against a full-strength North Macedonia.",
       "sources": [
         "https://english.news.cn/20261114/9cb0d5dd0c314f93b5f7f2d31060935b/c.html",
         "https://www.sportsmole.co.uk/football/macedonia/uefa-nations-league/preview/n-macedonia-vs-slovenia-prediction-team-news-lineups_609097.html",
@@ -225,7 +226,8 @@
         "https://www.fotmob.com/matches/slovenia-vs-north-macedonia/1mqxn8",
         "https://www.freetips.com/football/north-macedonia-vs-slovenia-predictions-20261115-0004/",
         "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116",
-        "https://www.eloratings.net/"
+        "https://www.eloratings.net/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861187"
       ],
       "views": {
         "ah_home_+2.5": 0.83,
@@ -306,6 +308,21 @@
     },
     {
       "id": "1357578",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1315661",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1315664",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1351197",
       "exclude": true,
       "skipped": true
     }
