@@ -106,17 +106,49 @@ function tally(games) {
   };
 }
 
-function resultCell(g) {
-  if (!g.result) return '<span class="muted">Open</span>';
-  const [cls, icon, label] = MARK[g.result] || ['', '', g.result];
-  const who = g.result === 'fav_lost' && g.winner ? ` (${esc(g.winner)} won)` : '';
-  return `<span class="${cls}">${icon} ${label}</span>${who}`;
+function favouriteText(g) {
+  if (!g.result) return 'Open';
+  const [, icon, label] = MARK[g.result] || ['', '', g.result];
+  const who = g.result === 'fav_lost' && g.winner ? ` (${g.winner} won)` : '';
+  return `${icon} ${label}${who}`;
+}
+
+const LEG_RESULT = {
+  won: ['good', '✓ Won', 'would have won'],
+  lost: ['bad', '✕ Lost', 'would have lost'],
+  void: ['muted', '– Refunded', 'would have been refunded'],
+};
+
+/** What was bet on the game and how it did; for a game not bet, how the favourite did. */
+function betCell(g) {
+  const bets = g.bets || [];
+  if (!bets.length) return `<span class="muted">Not bet</span><div class="muted small">${esc(favouriteText(g))}</div>`;
+  return bets
+    .map((b) => {
+      const [cls, finalText, draftText] = LEG_RESULT[b.result] || ['muted', 'Open', 'still open'];
+      const leg = `<strong>${esc(b.selection)}</strong> <span class="muted small">${esc(b.label)} · ${Number(b.odds).toFixed(2)}</span>`;
+      return b.final
+        ? `<div class="rg-bet">${leg}<div class="${cls}">${finalText}</div></div>`
+        : `<div class="rg-bet rg-bet--dropped"><span class="muted small">Dropped at a check:</span> ${leg}<div class="${cls} small">${draftText}</div></div>`;
+    })
+    .join('');
+}
+
+/** The day's slip result, from its final legs. */
+function slipBadge(r, day) {
+  const legs = r.games.filter((g) => g.date === day).flatMap((g) => (g.bets || []).filter((b) => b.final));
+  if (!legs.length) return '<span class="muted">no slip</span>';
+  if (legs.some((b) => b.result === 'lost')) return '<span class="badge badge--lost">✕ Slip lost</span>';
+  if (legs.some((b) => !b.result)) return '<span class="badge badge--open">Slip open</span>';
+  return '<span class="badge badge--won">✓ Slip won</span>';
 }
 
 function recordHtml(r) {
   if (!r?.games?.length) return '<section class="card"><h2>Research record</h2><p class="muted small">The record appears after the next site build.</p></section>';
   const all = tally(r.games);
   const legs = r.legs || { won: 0, void: 0, lost: 0 };
+  const dropped = r.dropped || { won: 0, void: 0, lost: 0 };
+  const droppedN = dropped.won + dropped.lost + dropped.void;
   const days = [...new Set(r.games.map((g) => g.date))].sort().reverse();
   const rows = RATINGS.map(([k, label]) => [label, k, tally(r.games.filter((g) => g.rating === k))]).filter(([, , t]) => t.n);
   return `<section class="card record-card">
@@ -125,6 +157,7 @@ function recordHtml(r) {
     <div class="tiles tiles--simple record-tiles">
       ${tile('Favourites won', all.n ? `${all.won} of ${all.n}` : '–', '', all.n ? `${pct(all.won / all.n)} · the market expected ${pct(all.expected)}` : '')}
       ${tile('Slip legs', `${legs.won} won`, '', `${legs.void} refunded · ${legs.lost} lost`)}
+      ${droppedN ? tile('Dropped at a check', `${dropped.lost} would have lost`, '', `${dropped.won} would have won${dropped.void ? ` · ${dropped.void} refunded` : ''}`) : ''}
     </div>
     <div class="table-wrap">
       <table class="table table--compact simple">
@@ -141,17 +174,17 @@ function recordHtml(r) {
         const t = tally(games);
         const open = games.filter((g) => !g.result).length;
         return `<details class="record-day"${i === 0 ? ' open' : ''}>
-          <summary><strong>${esc(dayLabel(d))}</strong><span class="muted">${t.n ? `favourites ${t.won} of ${t.n}` : ''}${open ? `${t.n ? ' · ' : ''}${open} open` : ''}</span></summary>
+          <summary><strong>${esc(dayLabel(d))}</strong>${slipBadge(r, d)}<span class="muted">${t.n ? `favourites ${t.won} of ${t.n}` : ''}${open ? `${t.n ? ' · ' : ''}${open} open` : ''}</span></summary>
           <div class="table-wrap"><table class="table table--compact record-games">
-            <thead><tr><th scope="col">Game</th><th scope="col">Rating</th><th scope="col">Result</th></tr></thead>
+            <thead><tr><th scope="col">Game</th><th scope="col">Rating</th><th scope="col">The bet</th></tr></thead>
             <tbody>${games
-              .map((g) => `<tr><td class="rg-event">${g.on_slip ? '<span class="record-star" title="On that day’s slip">★</span> ' : ''}${esc(g.event)}<div class="muted small">Favourite: ${esc(g.favourite)} ${pct(g.fav_p)}</div></td><td><span class="conf conf--${g.rating === 'excluded' ? 'market' : esc(g.rating)}">${esc(g.rating)}</span></td><td class="rg-result">${resultCell(g)}</td></tr>`)
+              .map((g) => `<tr><td class="rg-event">${g.on_slip ? '<span class="record-star" title="On that day’s slip">★</span> ' : ''}${esc(g.event)}<div class="muted small">Favourite: ${esc(g.favourite)} ${pct(g.fav_p)}</div></td><td><span class="conf conf--${g.rating === 'excluded' ? 'market' : esc(g.rating)}">${esc(g.rating)}</span></td><td class="rg-result">${betCell(g)}</td></tr>`)
               .join('')}</tbody>
           </table></div>
         </details>`;
       })
       .join('')}</div>
-    <p class="muted small">★ = on that day’s slip.</p>
+    <p class="muted small">★ = on that day’s final slip. “Dropped at a check” is a leg that was on the site earlier that day (the draft before the final check) and was taken off; it shows how that leg would have done. Drafts are recorded from 13 Nov.</p>
   </section>`;
 }
 

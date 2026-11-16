@@ -348,7 +348,7 @@ h2 { font-size: 16px; font-weight: 700; }
 /* Grid children default to their content's width; let the tables scroll instead. */
 .record-card, .record-card > *, .record-days, .record-day { min-width: 0; }
 .record-card { display: grid; gap: 12px; }
-.record-tiles { grid-template-columns: repeat(2, 1fr); }
+.record-tiles { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
 .record-days { display: grid; gap: 6px; }
 .record-day { border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; background: var(--panel); }
 .record-day summary { cursor: pointer; display: flex; gap: 10px; flex-wrap: wrap; align-items: baseline; font-size: 14px; }
@@ -356,5 +356,7 @@ h2 { font-size: 16px; font-weight: 700; }
 .record-card .rt-first { text-align: left; }
 .record-games td, .record-games th { text-align: left; vertical-align: top; }
 .record-games .rg-event { white-space: normal; min-width: 140px; width: 100%; }
-.record-games .rg-result { white-space: normal; min-width: 92px; }
+.record-games .rg-result { white-space: normal; min-width: 120px; }
+.rg-bet + .rg-bet { margin-top: 6px; }
+.rg-bet--dropped { opacity: 0.85; }
 .record-star { color: var(--amber); }

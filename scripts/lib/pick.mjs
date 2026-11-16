@@ -48,6 +48,13 @@ const pLose = (l) => Math.max(0, 1 - l.p_win - l.p_void);
 /** The only confidence levels that may go on a slip. */
 export const BETTABLE = ['high', 'medium'];
 
+/**
+ * Sports whose legs need high confidence (14 Nov 2026 research record:
+ * tennis favourites won 7 of 12 against 71% expected; one player's bad day
+ * decides it and late fitness news is hard to find).
+ */
+export const HIGH_ONLY = new Set(['tennis']);
+
 export const TIERS = [
   { name: 'researched', range: { min: SLIP.min, max: SLIP.max } },
   { name: 'wider', range: { min: 1.7, max: 2.5 } },
@@ -95,6 +102,7 @@ export function eligibleLegs(games, research) {
   for (const g of games) {
     const v = research?.games.get(g.id);
     if (!v || v.skipped || v.exclude || !BETTABLE.includes(v.confidence)) continue;
+    if (HIGH_ONLY.has(g.sport) && v.confidence !== 'high') continue;
     const problem = driftProblem(g, v);
     if (problem) {
       skipped.push(`${g.event}: ${problem}`);

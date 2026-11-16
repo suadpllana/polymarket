@@ -104,7 +104,24 @@ export async function buildRecord(previous, history) {
     const candidates = await readJson(new URL(`${date}.candidates.json`, RESEARCH_DIR));
     if (!research?.games || !candidates?.games) continue;
     const byId = new Map(candidates.games.map((g) => [String(g.id), g]));
-    const onSlip = new Set((slips.get(date)?.legs || []).map((l) => String(l.game_id)));
+    const slip = slips.get(date);
+    const onSlip = new Set((slip?.legs || []).map((l) => String(l.game_id)));
+    // What was actually bet on each game: the final slip's leg, plus legs that
+    // were on an earlier version of the slip and dropped at a check.
+    const betsFor = (id) => {
+      const finalLegs = (slip?.legs || []).filter((l) => String(l.game_id) === id);
+      const finalKeys = new Set(finalLegs.map((l) => l.key));
+      const out = finalLegs.map((l) => ({ selection: l.selection, label: l.label, odds: l.odds, result: l.provisional ? null : l.result || null, final: true }));
+      const seen = new Set();
+      for (const d of slip?.drafts || []) {
+        for (const l of d.legs) {
+          if (String(l.game_id) !== id || finalKeys.has(l.key) || seen.has(l.key)) continue;
+          seen.add(l.key);
+          out.push({ selection: l.selection, label: l.label, odds: l.odds, result: l.result || null, final: false });
+        }
+      }
+      return out;
+    };
     for (const v of research.games) {
       if (v.skipped) continue;
       const g = byId.get(String(v.id));
@@ -122,6 +139,7 @@ export async function buildRecord(previous, history) {
         fav_p: Math.round(g.p_market[fav] * 1000) / 1000,
         rating: v.exclude ? 'excluded' : ['high', 'medium', 'low'].includes(v.confidence) ? v.confidence : 'low',
         on_slip: onSlip.has(String(g.id)),
+        bets: betsFor(String(g.id)),
         result: null,
         winner: null,
       };
@@ -146,11 +164,14 @@ export async function buildRecord(previous, history) {
       })
     );
   }
-  // Slip legs: how the legs actually bet did (a leg is not always the favourite to win).
+  // Slip legs: how the legs actually bet did (a leg is not always the favourite
+  // to win), and how the legs dropped at a check would have done.
   const legs = { won: 0, void: 0, lost: 0 };
+  const dropped = { won: 0, void: 0, lost: 0 };
   for (const [date, e] of slips) {
     if (date < RECORD_START || SKIP_DAYS.has(date)) continue;
     for (const l of e.legs) if (l.result && !l.provisional && legs[l.result] !== undefined) legs[l.result]++;
   }
-  return { updated_at: new Date().toISOString(), start: RECORD_START, legs, games };
+  for (const g of games) for (const b of g.bets) if (!b.final && b.result && dropped[b.result] !== undefined) dropped[b.result]++;
+  return { updated_at: new Date().toISOString(), start: RECORD_START, legs, dropped, games };
 }

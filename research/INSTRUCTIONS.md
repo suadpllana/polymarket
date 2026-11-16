@@ -84,6 +84,15 @@ of 0, and your `p.draw` must stay 0.
    in the window has been researched and none can make a medium/high slip;
    say so in `summary`.
 
+### Check the research record first
+
+Before choosing games, look at the research record
+(`https://suadpllana.github.io/polymarket/research-record.json`, shown on
+the Stats page): how each rating, sport and price band has done against its
+market odds. Favour the groups that are working (so far: football rated
+medium/high, favourites at 70% or more) and be stricter where they are not.
+Change a rule only when a group has about 30 settled games.
+
 ### Never leave the day without a slip
 
 The user's rule (14 Nov 2026): always show the best slip, no "No bet" days.
@@ -274,6 +283,11 @@ that get excluded.
   leave out the ones you would not back. A view below the market lowers that
   leg's chance in the pick; a view above the market changes nothing, so spend
   the effort on finding what could go wrong with a leg, not on arguing it up.
+- **Tennis needs high.** A tennis leg goes on a slip only at `high`
+  confidence: fitness and recent results checked, the order of play
+  confirmed, and a second bookmaker price found. Medium tennis is never bet
+  (the research record had tennis favourites winning 7 of 12 against 71%
+  expected). Research tennis only when the slip still needs a leg.
 - **Confidence.** `high`: every check is clean and the sources agree.
   `medium`: small doubts that the probabilities already reflect. `low`:
   real doubts or missing facts; **never bet**. Never raise a game to medium

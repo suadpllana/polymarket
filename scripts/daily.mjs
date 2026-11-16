@@ -15,7 +15,7 @@
 import { mkdir, writeFile } from 'node:fs/promises';
 import { SLIP, gatherGames, round } from './lib/football.mjs';
 import { fetchMarket, parseArray } from './lib/polymarket.mjs';
-import { BETTABLE, TIER_NOTE, describe, driftProblem, pickSlip } from './lib/pick.mjs';
+import { BETTABLE, HIGH_ONLY, TIER_NOTE, describe, driftProblem, pickSlip } from './lib/pick.mjs';
 import { loadResearch } from './lib/research.mjs';
 import { buildRecord } from './lib/record.mjs';
 import { TIMEZONE, bettingWindow, localDate, tomorrowWindow, zonedParts } from './lib/time.mjs';
@@ -104,7 +104,10 @@ async function settleOpen(entries) {
   // A leg or slip marked early (provisional) is still open until its market resolves.
   const pending = (l) => !l.result || l.provisional;
   const open = entries.filter((e) => e.legs?.length && (!e.result || e.provisional));
-  const ids = new Set(open.flatMap((e) => e.legs.filter(pending).flatMap((l) => [...l.settle.won, ...l.settle.void, ...l.settle.lost].map((r) => String(r).split('#')[0]))));
+  // Draft legs (earlier versions of a slip) are settled too, for the record.
+  const draftLegs = entries.flatMap((e) => (e.drafts || []).flatMap((d) => d.legs)).filter((l) => !l.result && l.settle);
+  const refIds = (l) => [...l.settle.won, ...l.settle.void, ...l.settle.lost].map((r) => String(r).split('#')[0]);
+  const ids = new Set([...open.flatMap((e) => e.legs.filter(pending).flatMap(refIds)), ...draftLegs.flatMap(refIds)]);
   const resolved = new Map();
   for (const id of ids) {
     try {
@@ -114,6 +117,7 @@ async function settleOpen(entries) {
       console.warn(`Market ${id} lookup failed: ${e.message}`);
     }
   }
+  for (const l of draftLegs) l.result = settleLeg(l, resolved);
   for (const e of open) {
     for (const leg of e.legs) {
       if (!pending(leg)) continue;
@@ -195,6 +199,7 @@ async function buildToday(date, { force = false, window = bettingWindow(), looka
       league: l.game.league,
       extended: Boolean(l.game.extended),
       event: l.game.event,
+      sport: l.game.sport || null,
       home: l.game.home,
       away: l.game.away,
       start: l.game.start,
@@ -249,6 +254,67 @@ async function buildToday(date, { force = false, window = bettingWindow(), looka
   };
 }
 
+/** A leg as kept in a draft: enough to show it and to settle it later. */
+const draftLeg = (l) => ({ game_id: l.game_id, event: l.event, key: l.key, label: l.label, selection: l.selection, odds: l.odds, settle: l.settle, result: l.result || null });
+const legSet = (e) => (e.legs || []).map((l) => `${l.game_id}#${l.key}`).sort().join(',');
+
+/**
+ * When a published slip is replaced, its legs are kept as a draft so the
+ * record can show what was on the site before the final check and how those
+ * legs would have done.
+ */
+function keepDrafts(existing, entry) {
+  const drafts = [...(existing.drafts || [])];
+  if (!existing.no_bet && existing.legs?.length && legSet(existing) !== legSet(entry)) {
+    drafts.push({ built_at: existing.generated_at, stage: existing.research_stage || 'morning', legs: existing.legs.map(draftLeg) });
+  }
+  if (drafts.length) entry.drafts = drafts;
+  if (existing.drafts_backfilled) entry.drafts_backfilled = true;
+}
+
+// Slips shown on the site before the final check, from before drafts were
+// recorded (13–15 Nov 2026). Results are from the final scores: Scotland 2-1
+// North Macedonia, Slovenia 0-0 Switzerland, Portugal 1-4 Denmark, Austria 1-0
+// Ireland, Norway 3-1 Wales, Sweden 3-2 Bosnia, Browns 27-24 Texans,
+// Raiders 13-21 Seahawks.
+const BACKFILL_DRAFTS = {
+  '2026-11-13': [
+    { built_at: '2026-11-13T06:57:22Z', stage: 'morning', legs: [
+      { game_id: '1287687', event: 'Scotland vs. North Macedonia', key: 'tt_away_0.5_under', label: 'North Macedonia goals', selection: 'Under 0.5', odds: 1.47, result: 'lost' },
+      { game_id: '1287697', event: 'Slovenia vs. Switzerland', key: 'away_dnb', label: 'Draw no bet', selection: 'Switzerland', odds: 1.27, result: 'void' },
+    ] },
+  ],
+  '2026-11-14': [
+    { built_at: '2026-11-13T21:53:00Z', stage: 'morning', legs: [
+      { game_id: '1294227', event: 'Portugal vs. Denmark', key: 'tt_away_0.5_over', label: 'Denmark goals', selection: 'Over 0.5', odds: 1.5, result: 'won' },
+      { game_id: '1294232', event: 'Austria vs. Republic of Ireland', key: 'home_dnb', label: 'Draw no bet', selection: 'Austria', odds: 1.25, result: 'won' },
+    ] },
+    { built_at: '2026-11-14T06:56:20Z', stage: 'morning', legs: [
+      { game_id: '1294222', event: 'Norway vs. Wales', key: 'ah_away_+2.5', label: 'Handicap', selection: 'Wales +2.5', odds: 1.52, result: 'won' },
+      { game_id: '1294232', event: 'Austria vs. Republic of Ireland', key: 'home_dnb', label: 'Draw no bet', selection: 'Austria', odds: 1.25, result: 'won' },
+    ] },
+    { built_at: '2026-11-14T15:59:00Z', stage: 'morning', legs: [
+      { game_id: '1294232', event: 'Austria vs. Republic of Ireland', key: 'home_dnb', label: 'Draw no bet', selection: 'Austria', odds: 1.25, result: 'won' },
+      { game_id: '1294242', event: 'Sweden vs. Bosnia and Herzegovina', key: 'ou_3.5_under', label: 'Total goals', selection: 'Under 3.5', odds: 1.48, result: 'lost' },
+    ] },
+  ],
+  '2026-11-15': [
+    { built_at: '2026-11-14T22:22:30Z', stage: 'morning', legs: [
+      { game_id: '1258842', event: 'Texans vs. Browns', key: 'home', label: 'Moneyline', selection: 'Texans', odds: 1.44, result: 'lost' },
+      { game_id: '1258848', event: 'Seahawks vs. Raiders', key: 'home', label: 'Moneyline', selection: 'Seahawks', odds: 1.34, result: 'won' },
+    ] },
+  ],
+};
+
+function backfillDrafts(entries) {
+  for (const e of entries) {
+    const add = BACKFILL_DRAFTS[e.date];
+    if (!add || e.drafts_backfilled) continue;
+    e.drafts = [...add, ...(e.drafts || [])];
+    e.drafts_backfilled = true;
+  }
+}
+
 /**
  * Builds or rebuilds one day's entry. A real slip is final for the day; a
  * "No bet" is retried on every run, so games added later (or a late research
@@ -265,7 +331,7 @@ async function updateDay(history, day, opts) {
     existing.legs.some((l) => {
       if (!BETTABLE.includes(l.confidence)) return true;
       const v = research?.games.get(String(l.game_id));
-      return Boolean(v && (v.exclude || v.skipped || !BETTABLE.includes(v.confidence)));
+      return Boolean(v && (v.exclude || v.skipped || !BETTABLE.includes(v.confidence) || (HIGH_ONLY.has(l.sport) && v.confidence !== 'high')));
     });
   // A slip that can still be placed is checked against the live prices on
   // every run: if the market has moved against one of its games (see
@@ -302,6 +368,7 @@ async function updateDay(history, day, opts) {
     const entry = await buildToday(day, { ...opts, games });
     if (!existing) history.entries.push(entry);
     else if (!entry.no_bet || unbettable || faded) {
+      keepDrafts(existing, entry);
       history.entries[history.entries.indexOf(existing)] = entry;
       if (unbettable) console.log(`Replaced a ${day} slip that had a leg below medium confidence.`);
       else if (faded) console.log(`Replaced the ${day} slip: ${faded}.`);
@@ -322,6 +389,7 @@ async function main() {
     return;
   }
   const history = await loadHistory(process.env.SITE_URL);
+  backfillDrafts(history.entries);
   markEarlyWon(history.entries);
   await settleOpen(history.entries);
 
