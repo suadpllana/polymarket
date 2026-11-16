@@ -86,12 +86,29 @@ of 0, and your `p.draw` must stay 0.
 
 ### Check the research record first
 
-Before choosing games, look at the research record
-(`https://suadpllana.github.io/polymarket/research-record.json`, shown on
-the Stats page): how each rating, sport and price band has done against its
+Before choosing games, run `npm run review` (or look at the Stats page): it
+shows how each rating, sport, price band and kind of leg has done against its
 market odds. Favour the groups that are working (so far: football rated
 medium/high, favourites at 70% or more) and be stricter where they are not.
-Change a rule only when a group has about 30 settled games.
+
+### Weekly review (every Monday, without being asked)
+
+The owner wants weak links found and removed before they cost a bet.
+
+1. `npm run review`. It flags a group as **WEAK** when it has at least 30
+   settled games and is 5 or more points below its market odds.
+2. A **WEAK** group gets a stricter rule the same day: for example its legs
+   need high confidence (as tennis already does), or it is excluded, or a
+   kind of leg is no longer used. Make the change in this file and in
+   `scripts/lib/pick.mjs` if the code must enforce it, test it, push, and tell
+   the owner in a few lines what changed and the numbers behind it.
+3. A group 10 or more points below its odds with 12 to 29 games goes on a
+   watch list in the summary: research it more strictly (an honest "low" when
+   anything is unverified) but do not change a rule yet.
+4. Never loosen a rule on your own. If a restricted group has recovered over
+   30 games or more, propose lifting the restriction and wait for the owner.
+5. The tennis rule (high confidence only) was made early, at 12 games, with
+   the owner's approval; review it once tennis has 30 settled games.
 
 ### Never leave the day without a slip
 

@@ -12,7 +12,8 @@
     "check-research": "node scripts/check-research.mjs",
     "pick": "NODE_USE_ENV_PROXY=1 node --no-warnings scripts/daily.mjs --dry",
     "daily": "NODE_USE_ENV_PROXY=1 node --no-warnings scripts/daily.mjs",
-    "import-bets": "node scripts/import-bets.mjs"
+    "import-bets": "node scripts/import-bets.mjs",
+    "review": "NODE_USE_ENV_PROXY=1 node --no-warnings scripts/review.mjs"
   },
   "devDependencies": {
     "vite": "^6.0.0"
