@@ -1,0 +1,337 @@
+{
+  "date": "2026-11-17",
+  "researched_at": "2026-11-16T19:25:42Z",
+  "stage": "morning",
+  "summary": "Researched the evening before (Mon 16 Nov) under the stricter rules; lineups are not out, so this is a draft until the morning check and the final check. Tuesday has the last Nations League matchday for the other groups and a EuroLeague round. Ten games were researched: four are kept at medium, four at low, and two are excluded; the rest were not reached. Medium: BC Dubai v Anadolu Efes (p 0.74; Dubai at their regular home arena, Efes without Mike James, Cordinier and Bruno Fernando; Dubai miss three forwards and just lost by 29), Hapoel Tel Aviv at Baskonia (p 0.60; Baskonia are 1-11 with three injured and two new signings; Hapoel have lost three straight; the Polymarket market is thin, and bookmakers rate Hapoel higher at 71-74%), Zalgiris v Bayern (p 0.79; Zalgiris on a five-game winning streak against the league's worst defence; point guard Williams-Goss out), Hungary v Northern Ireland (p 0.46, draw 0.31, so only double chance or goals legs; Northern Ireland need just a draw to win the group and have not conceded in five games). Low, so not bet: Virtus v Panathinaikos (Panathinaikos's price fell 6.5% with no news), Barcelona v Paris (Barcelona's price fell 12% with no news, four players out), Wales v Portugal (Portugal miss Dias, Mendes, Bernardo Silva and possibly Palhinha; sources conflict), Ireland v Kosovo (no team news or lineups found). Excluded: Maccabi Tel Aviv v Olympiacos (Maccabi's home games are played in Limassol, Cyprus: neutral venue), Bosnia v Romania (Bosnia's second place is already fixed while Romania need a win to avoid the relegation play-off).",
+  "games": [
+    {
+      "id": "1364549",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.79,
+        "draw": 0,
+        "away": 0.21
+      },
+      "checks": {
+        "team_news": "Zalgiris: coach Tomas Masiulis said point guard Nigel Williams-Goss (recurring thigh injury) will miss both of this week's EuroLeague games (BasketNews.lt); Keenan Evans was brought back from London Lions as cover; no other Zalgiris absence found (Valanciunas, Grigonis, Evans, Butkevicius were rested in a recent domestic game vs Neptunas, which was load management, not injury). Bayern: center Austin Wiley (hip, hurt in warm-up vs MBC) is uncertain per German press (basketball-world.news) but Bayern's own preview hoped to field him and he travelled to Kaunas on Monday. The official EuroLeague Round 12 injury report returned HTTP 429, so it was not read; no Monday injury news found for either side. Coach Masiulis named stopping Andreas Obst as a priority.",
+        "lineups": "Not out on the evening of 16 Nov. Expected Zalgiris: Evans or Jokubaitis at guard without Williams-Goss, Grigonis, Valanciunas at center (17 pts and 20 reb vs Milan). Expected Bayern: Obst plus Wiley at center if fit. This is inferred from the previews; no official or predicted starting five was found from two sources, so it is unconfirmed.",
+        "rotation": "Zalgiris beat Armani Milan 86-83 away on 12/13 Nov (round 11, five-game EuroLeague winning streak), then rested starters in a domestic game; full rest before Tuesday. Bayern lost 102-87 at home to Valencia on 12/13 Nov and travel to Kaunas on Monday, with a home game vs Baskonia on Thursday (EuroLeague double week). A tired or partly rotated Bayern side is possible but not confirmed.",
+        "motivation": "Standings before the game (round 12): Zalgiris 8th at 7-4, one game behind four teams on 8-3; Bayern 18th at 3-8 (one win in their last five), so both need wins; no nothing-to-play-for situation.",
+        "form": "Zalgiris: 5 straight EuroLeague wins; Basketnews power rankings (about 20 days old) had them 10th, called a disappointment so far; 3StepsBasket net rating -5.1 (ORtg 111.1, DRtg 116.2). Bayern: 3-8, three wins all away from home; lost 102-87 to Valencia with 33% from three and 18 turnovers; defense allows about 94-95 ppg, called the worst in the league (bet-experts), net rating -9.9, DRtg 125.8 (3StepsBasket).",
+        "h2h": "Zalgiris won both 2025-26 meetings: 98-70 in Munich and 78-71 in Kaunas (bet-experts). thetopbookies claims a 3-2 Bayern edge over the last five meetings, which conflicts with this; season averages in the EuroLeague game center show Bayern 86.8 and Zalgiris 85.6 ppg. Style: Valanciunas inside against a Bayern defense that gives up many points.",
+        "odds": "Polymarket home 0.815 now vs 0.805 24h ago (+1.2%, favourite price rose, no drop, no flag). Second source: 1xBet via thetopbookies shows Zalgiris 1.19 / Bayern 4.60, de-vigged about 79.4% / 20.6%; bet-experts shows Zalgiris about 1.21 / Bayern about 5.75 (about 81% / 19%), spread Zalgiris -9.5 at 1.93, total 171.5. Market is consistent at roughly 79-82%.",
+        "models": "No bookmaker-free model prediction found. 3StepsBasket net ratings: Zalgiris -5.1 vs Bayern -9.9, a gap of about 4.8 points; with home court of about 3 points that implies roughly an 8 point margin, so a bit under the market's -9.5 line. Bet-experts projects 90-81. Both teams have weak net ratings, so the 81% price looks a little rich.",
+        "venue_weather": "Zalgirio Arena, Kaunas, a genuine home game (Zalgiris official schedule and EuroLeague game center: Tue 17 Nov, 20:00 local = 18:00 UTC). Indoor, no weather issue."
+      },
+      "reason": "Zalgiris is at home on a five-game winning streak against the league's worst-defending side (3-8, 18th), and every price source agrees on about 80%. No hard exclusion applies (home game, no coaching change found, both sides still need wins). Confidence is held at medium, not high, because Williams-Goss is out, both teams have negative net ratings, the lineups and the official injury report were not available, and the model margin is slightly below the market.",
+      "main_risk": "Zalgiris is only about 8 points better on net rating, is missing its starting point guard Williams-Goss, and could lose a close game (such as its 86-83 win in Milan) to a Bayern side that has Obst's shooting and Wiley possibly back. Bayern's 3-8 record and defense argue the other way. Also, the official EuroLeague injury report was unread.",
+      "sources": [
+        "https://fcbayern.com/basketball/en/news/2026-27/11/zalgiris-kaunas---fc-bayern-basketball-game-preview",
+        "https://www.thetopbookies.com/betting-tips/basketball/bc-zalgiris-vs-fcbb-17-nov-2026",
+        "https://www.bet-experts.com/picks/basketball/zalgiris-kaunas-vs-bayern-prediction-betting-tips-17-11-2026",
+        "https://www.basketnews.lt/news-257823-zalgiriui-nerima-keliantys-signalai-del-williamso-gosso-traumos.html",
+        "https://3stepsbasket.com/euroleague/standings/",
+        "https://basketnews.com/news-255835-euroleague-power-rankings-2026-27.html",
+        "https://basketball-world.news/artikel/kuriosum-um-verletzung-von-bayern-center-wiley-gavel-kannte-bbl-regel-nicht-1271906",
+        "https://www.euroleaguebasketball.net/en/euroleague/game-center/2026-27/zalgiris-kaunas-fc-bayern-munich/E2026/112/"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1364552",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.74,
+        "draw": 0,
+        "away": 0.26
+      },
+      "checks": {
+        "team_news": "Dubai: per a single betting preview (basketballsphere.com), Kosta Kondic, Davis Bertans and Mouhammadou Jaiteh are out; Thomas Walkup cleared; Dzanan Musa back from injury but inconsistent. Efes: Mike James and Isaia Cordinier out, Bruno Fernando out 3-4 weeks (calf, hurt late in the first half vs Virtus per Anadolu Ajansi/Fanatik; EuroLeague game notes give the 3-4 weeks), P.J. Dozier returning. Lists not confirmed against an official round-12 injury report (euroleaguebasketball.net returned 429, so not used further).",
+        "lineups": "No confirmed starting fives or predicted XIs found for either side; neither the preview nor the EuroLeague game notes gave them. Efes are short of guards and a centre; Dubai are short in the frontcourt.",
+        "rotation": "Dubai played Thu 12 Nov at Olympiacos (lost 101-72, worst loss of the season, 29 points) and are home for round 12 with 4-5 days rest. Efes beat Virtus 103-91 at home in round 11; one preview says they also played a Turkish league derby vs Fenerbahce less than 48h before tip-off (not confirmed by a second source) and must travel to Dubai. No rotation announcement found.",
+        "motivation": "Dubai 7-4, 9th (scores sites differ on rank), coming off a heavy loss and wanting to avoid a third home defeat (Pascual). Efes 5-6, 12th, in need of wins. Nothing secured by either side in round 12 of a long season; no hard rule applies.",
+        "form": "Dubai last 5 LWWLW, 86.5 scored / 85.6 allowed, 3-2 at home (two home losses already), six straight wins with 93+ points before the Olympiacos loss. Efes last 5 WLWLW, 85.9 scored / 87.5 allowed.",
+        "h2h": "Last season: Dubai won 80-76 at Efes (19 Dec 2025); Efes won 85-69 in Sarajevo (another meeting listed). Split 1-1 on the sources found; Dubai also played at Efes on 10 Apr 2026.",
+        "odds": "Polymarket: Dubai 0.76 (24h move 0.755 to 0.760, +0.7%, no drift). Second sources: 1xBet 1.28 / 3.60 (de-vigged Dubai about 0.74); BetMGM 7/20 (1.35) and 10bet 51/20 (3.55) per oddsscanner snippet; Kalshi 74-76% Dubai. Spread picks around Dubai -5.5 to -7.5 (basketballsphere, thetopbookies). Odds agree with the market within a couple of points. No candidates-file data.odds present (no ESPN price).",
+        "models": "No power ranking or model prediction found. Wikipedia round table after 10 rounds: Dubai +39 points differential (about +3.9 per game), Efes -29 (about -2.9); basketball-reference snapshot 33 days old had Dubai +1.9 per game. Season net ratings favour Dubai by roughly 6-7 points before home court, consistent with about 75% but based on small samples.",
+        "venue_weather": "Coca-Cola Arena, Dubai (about 17,000 seats), Tue 17 Nov, 20:00 local (16:00 UTC), Dubai's regular home arena; EuroLeague game notes say Dubai 'returns home' to host Efes. Indoor, no weather issue."
+      },
+      "reason": "Fixture verified as EuroLeague round 12 at Dubai's regular home arena; no hard exclusion: Pascual was appointed in July (well over 30 days ago), no derby, no rest, not a neutral venue. Dubai are favoured thanks to home court and a depleted Efes roster (James, Cordinier, Fernando out), but Dubai also have three frontcourt/wing absences and just lost by 29, so p is trimmed slightly below the market. Confidence is medium because the injury lists rest mainly on one preview and no lineups are available.",
+      "main_risk": "Dubai are inconsistent (lost 101-72 at Olympiacos and have already lost two home games), thin up front with Bertans, Jaiteh and Kondic out, and Efes could still win a close game with the shortened roster; the Efes fatigue point (derby 48h earlier) comes from one source only. Price held steady, so no unexplained move.",
+      "sources": [
+        "https://basketballsphere.com/en/dubai-vs-anadolu-efes-prediction-odds-euroleague-november-17-2026/",
+        "https://www.eurobasket.com/Euroleague/news/1041549/Euroleague-Round-11-of-Regular-Season",
+        "https://www.euroleaguebasketball.net/en/euroleague/news/tae2627-rs12-game-notes-dub-ist/",
+        "https://www.aa.com.tr/tr/spor/anadolu-efes-virtus-bolognayi-103-91-yendi/4124720",
+        "https://www.dubaibasketball.com/media-article/dubai-lose-in-athens-against-defending-euroleague-champions-olympiacos-piraeus",
+        "https://kalshi.com/markets/kxeuroleaguegame/euroleague-game/kxeuroleaguegame-26nov171100efsdub",
+        "https://en.wikipedia.org/wiki/2026%E2%80%9327_EuroLeague_regular_season"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1364540",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.33,
+        "draw": 0,
+        "away": 0.67
+      },
+      "checks": {
+        "team_news": "No current injury report or press-conference news found for either side for Round 12. Search results only returned older items (e.g. Kendrick Nunn's earlier-season ailments, Richaun Holmes missing the Round 6 game at Bologna with a thigh injury, Scariolo comments from earlier seasons). Status of Nunn, Holmes and Virtus's roster for 17 Nov is unverified.",
+        "lineups": "Not available. No expected starting fives found for either side from any source on the evening of 16 Nov.",
+        "rotation": "Panathinaikos beat Real Madrid 115-112 in overtime on 4 Nov (Eurohoops); their schedule since and any domestic game before Tuesday were not verified. Virtus's recent schedule not verified. Both are in EuroLeague Round 12 on Tuesday 17 Nov.",
+        "motivation": "Early-season regular-season game. A sportschau standings snapshot after round 10 showed Panathinaikos 8-2; I could not confirm Virtus's record from it. No hard-exclusion situation applies.",
+        "form": "Panathinaikos 8-2 after round 10 and won 115-112 in OT at Real Madrid (4 Nov). Full last 6-10 results with points for/against and home/away splits were not found.",
+        "h2h": "Last season's meetings: Virtus won 92-75 at home vs Panathinaikos on 24 Oct 2025 (Sky Sport); Panathinaikos won 84-71 on 8 Jan 2026 (search listing, date uncertain). Virtus has beaten Panathinaikos at home before, so an upset is not remote.",
+        "odds": "Polymarket: Panathinaikos 0.715 now vs 0.765 24h ago, a relative fall of 6.5% (data.move_24h). That is above the 3% threshold and I found no news explaining it (no injury or lineup report surfaced). No second bookmaker price (de-vigged) was obtained; data.odds is absent from the candidates entry. Per the price-move rule the confidence is low.",
+        "models": "No net rating, power ranking or model prediction found; data.rating is absent for this game.",
+        "venue_weather": "Virtus Segafredo Arena, Bologna (home venue, tip 20:00 UTC / 21:00 local per ticket-compare and search results; one site said PalaDozza, which looks like a mislabel). Fixture date, teams and competition (EuroLeague Round 12, Tue 17 Nov 2026) are confirmed. Not a neutral venue; indoor, weather irrelevant."
+      },
+      "reason": "Fixture verified and no hard exclusion found, but the favourite's Polymarket price fell 6.5% in 24h with no news found to explain it, and injury, lineup and second-bookmaker data are all missing. Honest rating is low; p shaded toward the underdog.",
+      "main_risk": "Unexplained 6.5% drop in Panathinaikos's price (possible late absence such as Nunn or Holmes that I could not find), plus Bologna at home with a history of beating Panathinaikos (92-75 in Oct 2025).",
+      "sources": [
+        "https://ticket-compare.com/basketball/euroleague/virtus-bologna-vs-panathinaikos-athens-17-nov-2026/",
+        "https://www.sportschau.de/live-und-ergebnisse/basketball/euroleague-basketball/ma12385925/virtus-bologna_panathinaikos/blitztabelle",
+        "https://www.eurohoops.net/en/euroleague/2030637/nunn-explodes-for-33-points-and-makes-history-panathinaikos-wins-it-against-real-after-ot-drama/",
+        "https://sport.sky.it/basket/2025/10/24/virtus-bologna-panathinaikos-eurolega-risultato",
+        "https://www.euroleaguebasketball.net/euroleague/news/game-center-round-10-el2526"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1364547",
+      "exclude": true,
+      "reason": "HARD rule: neutral/unusual venue. Maccabi's EuroLeague home games are not played in Tel Aviv. EuroLeague approved the Spyros Kyprianou Arena in Limassol, Cyprus as Maccabi's home venue until further notice, starting with Round 11 (Hapoel game on 12 Nov 2026), per Eurohoops and Cyprus Mail on 4 Nov 2026. The 17 Nov game is Round 12, so it falls under this arrangement and is a home game played abroad. The Polymarket favourite price also jumped from 0.43 to 0.695 in 24h (+61.6% relative), which I could not explain from the venue news alone.",
+      "main_risk": "Home game played abroad in Limassol (neutral venue, no real home advantage); also an unexplained 24h price jump on Olympiacos (0.43 to 0.695).",
+      "sources": [
+        "https://www.eurohoops.net/en/euroleague/2030535/maccabi-to-play-euroleague-home-games-in-limassol/",
+        "https://cyprus-mail.com/2026/11/04/euroleague-approves-limassol-as-maccabi-tel-avivs-home-venue",
+        "https://www.eurohoops.net/en/euroleague/2017104/maccabi-tel-aviv-is-leaving-belgrade-and-moving-to-cyprus/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1313253",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.15,
+        "draw": 0.2,
+        "away": 0.65
+      },
+      "checks": {
+        "team_news": "Portugal: Ruben Dias suspended (yellow vs Denmark), Joao Palhinha also reported suspended (Goal), Nuno Mendes injured, Bernardo Silva sent home as physically unfit (Goal) / a knock (Portugoal), Cancelo back from suspension. Portugal's first match since Cristiano Ronaldo's official farewell. Wales (Sports Mole, 16 Nov): Ethan Ampadu suspended, Neco Williams injured, Connor Roberts expected to replace him, David Brooks scored in Norway. Sources conflict on some Portugal absences (Palhinha is in the Portugoal predicted XI but Goal says suspended); no press conference found.",
+        "lineups": "Not out. Sports Mole predicted Portugal: D Costa; A Costa, A Silva, Veiga, Dalot; J Neves, Vitinha; B Silva, Felix, Fernandes; Ramos (lists B Silva although Goal says he left the camp). Portugoal predicted: D Costa, A Costa, Veiga, A Silva, Cancelo, Palhinha, B Fernandes, Vitinha, Forbs, Felix, Ramos. Sports Mole predicted Wales: Darlow; Roberts, Rodon, Davies, Dasilva; Cullen, Sheehan; Johnson, Brooks, Wilson; Koumas. Two sources disagree, so the Portugal XI is unverified.",
+        "rotation": "Portugal played Denmark on Sat 14 Nov (lost 1-4 at home), Wales played in Norway the same day (lost 1-3); both have 3 days' rest. Portugal travel to Cardiff. No further games before the tie-up of the group. Three or four Portugal regulars are out for reasons other than rotation (suspension, injury, fitness).",
+        "motivation": "Sky Sports table (updated 16 Nov 18:55), 5 played each: Portugal 12 pts (W4 L1, GF10 GA8, GD+2), Denmark 9 (GD+3), Norway 6 (GD 0), Wales 3 (GD-5). Last matchday: Wales v Portugal and Denmark v Norway on 17 Nov. Portugal cannot finish below 2nd (Denmark max 12 and Portugal already 12), but first place is NOT secured: a Portugal defeat plus a Denmark win leaves them level on 12 and Denmark won the head-to-head on aggregate (Portugal 4-2 Denmark earlier, Denmark 4-1 Portugal on 14 Nov), so Portugal need at least a draw for sure first place. Sports Mole says Portugal must avoid defeat to keep top spot. Wales are bottom with 3 pts; a win would lift them level with Norway on 6, so they still play for 3rd (relegation play-off) versus 4th (relegation); sources differ (Sports Mole: Wales need a point to secure the play-off; Portugoal: already relegated). Denmark v Norway matters: Denmark need a win and a Portugal slip for first place. Verdict: not a hard exclusion, since the favourite still needs a point; soft risk because Portugal's aim is partly secured (quarter-final place) and Wales and Denmark have more to gain.",
+        "form": "Portugal: five straight wins ended with the 1-4 home loss to Denmark (worst home competitive defeat per press); earlier 1-0 home win over Wales (24 Sep, Felix) and 4-2 win at Denmark. Wales: 1 win in the last 9 matches, 3-1 loss in Norway on 14 Nov (Brooks goal); Wales GF3 GA8 over 5 group games. No xG found.",
+        "h2h": "24 Sep 2026 Portugal 1-0 Wales in Lisbon (Wales faced 23 shots, only a deflected Felix goal separated them). Wales are a low-scoring side so a narrow Portugal win or a draw is the main alternative path.",
+        "odds": "DraftKings via ESPN (data.odds): Wales 6.00, Draw 4.70, Portugal 1.42 (opening 1.40), de-vigged Wales 15.4%, draw 19.6%, Portugal 65.0%, total 3.5. Polymarket Portugal 66.5% -> 68.5% over 24h (+3% relative, a rise, so not a fall). A Wincomparator model page quotes Portugal 52.75% (commercial, unreliable). Market price of 68% is above the de-vigged 65% and above Elo (below), so p is trimmed to 65%.",
+        "models": "World Football Elo (eloratings.net): Portugal 1996, Wales 1673, expected score for Wales 0.217 (draw counts half), which implies roughly Portugal 66-70% before depleted-squad adjustment.",
+        "venue_weather": "Cardiff City Stadium, Tue 17 Nov 2026, 19:45 (Sports Mole, Kickoff.co.uk); ordinary home venue. Cardiff forecast for that evening not found (searches returned undated results), so weather is unverified; no pitch problem reported. Goal's listing shows 13:45 for the time, probably in another time zone."
+      },
+      "reason": "Not a hard exclusion: table checked first, Portugal (12 pts) are through to the quarter-finals but still need a point to guarantee first place over Denmark (9 pts, with the head-to-head advantage), and Wales (3 pts, bottom) still have the 3rd-versus-4th relegation stakes. Portugal also lose Dias, Mendes, Bernardo Silva and possibly Palhinha, and just conceded four at home. Confidence is low because squad and lineup facts conflict across sources and are unconfirmed, the weather is unverified and Portugal's own defeat would not cost them a quarter-final place.",
+      "main_risk": "A draw or upset: depleted Portugal (Dias suspended, Mendes injured, Bernardo Silva out, Palhinha reported suspended) after a 1-4 home loss, against a Wales side that still plays for relegation play-off survival and held Portugal to 1-0 in September; Wales have scored 3 goals in 5 group games, so a narrow 1-0 or a 0-0/1-1 draw is the likely failure for any handicap or goals leg.",
+      "sources": [
+        "https://www.skysports.com/football/portugal-vs-denmark/table/554108",
+        "https://www.sportsmole.co.uk/football/portugal/uefa-nations-league/preview/wales-vs-portugal-prediction-team-news-lineups_609143.html",
+        "https://portugoal.net/selecao/6280-wales-v-portugal-preview-selecao-aim-to-bounce-back-in-final-uefa-nations-league-game",
+        "https://www.goal.com/en/news/portugal-bernardo-silva-ruben-dias-joao-palhinha-wales/bltaa72dc133931ca33",
+        "https://www.eloratings.net/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1375599",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1364543",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.62,
+        "draw": 0,
+        "away": 0.38
+      },
+      "checks": {
+        "team_news": "Barcelona: Kevin Punter (top scorer, 15.9 ppg, ankle sprain, about 6 weeks), Tosan Evbuomwan (oblique tear, about 3 weeks), Umoja Gibson (muscle strain, about 3 weeks) and Yoan Makoundou (knee) are out; Juan Nunez (right ankle sprain) is day-to-day (basketballsphere.com EuroLeague injury page updated 16 Nov; Infobae preview 16 Nov). Paris: no injured players listed; Daulton Hommes missed rounds 9-10 and returned in the French league at the weekend. No Barcelona press-conference quote found, so Nunez's status is unconfirmed.",
+        "lineups": "Not out yet. Infobae (16 Nov) probable fives: Barcelona Robinson, Brizuela, Parra, Martin, Nebo (Nunez on the bench list, not a starter); Paris Hifi, Herrera, Warren, Dokossi, Faye. Only one source found for the XIs, so they are unconfirmed.",
+        "rotation": "Barcelona won 76-74 at Panathinaikos in round 11 (Thursday, about 4 days' rest, a Barcelona win after a 3-day trip to Athens), then host Paris on Tue 17 Nov (round 12). Paris beat Fenerbahce 111-109 in overtime on Wed 11 Nov at home and played the French league at the weekend, so they have a similar rest. The kickoff is listed as 20:30 Spanish time (19:30 UTC). I did not find either side's next fixture.",
+        "motivation": "EuroLeague standings after round 11 (Wikipedia, through 13 Nov): 1 Valencia 8-3, 2 Panathinaikos 8-3, 3 Olympiacos 8-3, 4 Barcelona 8-3 (+30), 5 Real Madrid 7-4 ... 12 Anadolu 5-6, 13 Besiktas 5-6, 14 Paris 5-6 (-36). Both want wins; Barcelona are in the top-4 race, Paris are chasing the play-in places. Nothing is secured, so no hard exclusion.",
+        "form": "Barcelona: 8-3, 978 points for, 948 against (+30); 3-2 at home; won 93-90 at Hapoel on 5 Nov and 76-74 at Panathinaikos in round 11, both close. Justin Robinson has scored 10 or more in 8 straight games. Paris: 5-6, 982 for, 1018 against (-36); four straight wins, including 95-90 at Efes and the 111-109 overtime win over Fenerbahce; Hifi leads the league in scoring (20.8 ppg) and Paris have the third-best offence (about 91 ppg).",
+        "h2h": "The road team won all of the last four Barcelona-Paris meetings by double digits, including Paris 85-74 at the Palau in Feb 2026 and 103-87 in Nov 2024 (Infobae preview; EuroLeague game notes). That is a poor sign for a home favourite, though the squads have changed.",
+        "odds": "Polymarket moneyline for Barcelona: 0.73 at 20:00 UTC on 15 Nov, 0.72 at 11:00 UTC on 16 Nov, then a drop to 0.65 at 12:00 UTC and 0.64 now (move_24h 0.73 to 0.64, -12.3% relative). I found no news that explains it: the Punter, Evbuomwan and Gibson absences were already known, so the confidence is low under the price-move rule. Other books: FanDuel (search snippet) Barcelona -380 / Paris +280, spread Barcelona -8.5, which de-vigs to about 75% / 25% for Barcelona; bet-experts quotes Barcelona about 1.34-1.37 and Paris +7.5 at 1.93. The books are well above Polymarket's 64%, and I could not tell how current the snippets are. Polymarket spread Barcelona -8.5 is priced at 0.23 and the total at 185.5 is 50/50. I did not find a Stake or Rainbet price.",
+        "models": "No bookmaker-free rating, such as net rating or a power ranking, was found for this season. Point difference per game from the Wikipedia table: Barcelona +2.7 (+30 over 11), Paris -3.3 (-36 over 11), a gap of about 6 points per game, plus home court for Barcelona. This points to a Barcelona edge of roughly 6-8 points, and Paris's offence is strong, so the gap is not safe.",
+        "venue_weather": "Palau Blaugrana, Barcelona, is Barcelona's normal home arena (indoor, no weather risk); the Barcelona home record is only 3-2."
+      },
+      "reason": "Barcelona are the clear on-paper favourite: the better record and point difference, at home, and the books price them at about 75%. The confidence is low because the Polymarket price dropped 12% in 24 hours (0.73 to 0.64, mostly at 12:00 UTC on 16 Nov) with no explanatory news found, because Barcelona are missing their top scorer Punter plus Gibson, Evbuomwan and Makoundou with Nunez doubtful, and because the visitor won each of the last four meetings by double digits. Paris are on a four-game winning streak. So p is trimmed below the market within 5 points.",
+      "main_risk": "Paris keep scoring against a Barcelona side without Punter, Gibson and Evbuomwan, with Nunez doubtful, and win or keep it close; the favourite's unexplained price drop (-12% in 24h) could reflect information I did not find, such as a late injury or lineup news.",
+      "sources": [
+        "https://basketballsphere.com/en/injuries/euroleague/",
+        "https://www.infobae.com/america/agencias/2026/11/16/previa-del-barca-paris-basketball/",
+        "https://www.solobasket.com/euroliga/euroliga-jornada-12-horarios-equipos-espanoles",
+        "https://en.wikipedia.org/wiki/2026%E2%80%9327_EuroLeague",
+        "https://www.eurohoops.net/en/euroleague/2031067/euroleague-roundup-payne-scores-33-put-paris-wins-third-in-a-row/",
+        "https://www.bet-experts.com/picks/basketball/barcelona-vs-paris-prediction-betting-tips-17-11-2026",
+        "https://sportsbook.fanduel.com/basketball/euroleague-men's/fc-barcelona-v-paris-basketball-36313383",
+        "https://www.basketeurope.com/euroleague-folie-a-bercy-paris-fait-tomber-le-fenerbahce-dans-le-match-de-lannee/",
+        "https://clob.polymarket.com/prices-history"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1364546",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.4,
+        "draw": 0,
+        "away": 0.6
+      },
+      "checks": {
+        "team_news": "Baskonia (1-11, last in EuroLeague) are without Kenneth Faried (left thigh, no return date), Marcio Santos (left calf tear) and Tadas Sedekerskis (right thigh); Infobae/EFE and the Basketballsphere preview (updated 15 Nov) agree. Perasovic has used up to 11 injured players this season. New signings Rolands Smits and Kenan Kamenjas are due to debut in the EuroLeague; both played in the ACB loss to Real Madrid on 15 Nov (Kamenjas 15 pts and 8 reb; Smits started). Hapoel: Tyler Ennis out (Achilles). One preview (Bet-Experts) lists Micic with a groin injury, and Eurohoops/JPost say he missed the Winner Cup final on 9 Nov with a groin problem. He then played the 12 Nov EuroLeague game at Maccabi (14 pts, 6 TO per the EuroLeague game centre). A Basketballsphere injury tracker also lists Bruno Caboclo out (minor calf tear), but its game preview does not, so Caboclo is unconfirmed. Satoransky missed the Winner Cup final injured and his status for Tuesday is unconfirmed. No official EuroLeague Round 12 injury report was found.",
+        "lineups": "Not out yet (Mon evening). Expected Hapoel core from previews: Micic, Elijah Bryant (2nd highest PIR in the league at 21.6), Antonio Blakeney, Dan Oturu, with German on the wings. Baskonia: thin and rebuilt. Smits and Kamenjas (two bigs) should start or play major minutes, and the guards and wings must carry the scoring with Santos and Faried out. Only previews, no confirmed fives.",
+        "rotation": "Baskonia played ACB at home vs Real Madrid on Sun 15 Nov (84-98) and before that lost at Partizan on 11 Nov, so 2 days of rest, on the second game in 4 days. Hapoel played the derby at Maccabi on Thu 12 Nov (73-80, in Limassol per one report), so 5 days of rest, and travel to Vitoria. Neither side is in a double-week trap. No sign of a rest day for the starters.",
+        "motivation": "Standings before the game: Baskonia 1-11, last. Hapoel 6-5 (6-5 per Basketballsphere, 10th per Infobae), on a 3-game EuroLeague losing run. Nobody has secured anything in Round 12. Hapoel are fighting for the play-in/top-10 line, Baskonia are in a crisis and want their second win, so the hard nothing-to-play-for rule is not triggered. Baskonia's only extra urge is a new coach (Perasovic, appointed 14 Oct, more than 7 days ago) and the two debutants.",
+        "form": "Baskonia: 0-5 in their last five and 0-5 on the road. Last results: lost 66-80 at Partizan (11 Nov), lost 84-98 at home to Real Madrid in the ACB (15 Nov), beat Lleida 98-93 (7 Nov). They average 79.9 points scored and 91.9 conceded (margin -12.0), the worst offence in the league, with the worst 3-point percentage and the most turnovers. Hapoel: LLWWW before the 3 losses per Basketballsphere, with 90.4 scored and 87.2 conceded (margin +3.2), 6th best offence. Lost 73-80 at Maccabi (12 Nov) and the Winner Cup final 75-86 on 9 Nov after leading by 23, and beat Maccabi 105-87 on 1 Nov.",
+        "h2h": "1-1 in 2025-26. Hapoel won 114-89 in Nov 2025, Baskonia won 118-109 on 27 Mar 2026 (played behind closed doors, Basketballsphere/Vavel). Both games were high scoring (about 215 combined). Style: Hapoel's scoring and Bryant against the worst offence and the most turnovers in the league. Baskonia's best weapon is offensive rebounding, and Hapoel also give the ball away a lot (2nd most turnovers), which could keep a Baskonia upset in play.",
+        "odds": "Polymarket moneyline 0.635 Hapoel / 0.365 Baskonia at 19:20 UTC on 16 Nov (the candidates file says 0.625). Spread Hapoel -6.5 is priced 0.50, total 181.5 Over 0.375 / Under 0.625. Polymarket 24h move: Hapoel 0.435 at 20:00 on 15 Nov, then 0.51-0.55 overnight, then 0.56-0.78 in swings on 16 Nov, back to 0.63. The move is a rise in the favourite's price, not a fall, and the market is thin (about $37 volume) and noisy, so I read it as noise, not information. Other books: FanDuel Hapoel -300 / Baskonia +225 (de-vigged about 70.9% Hapoel), spread -6.5 at -110. Bet-Experts quotes 1.34 / 3.92 (de-vigged about 74.5% Hapoel), spread Hapoel -5.5 at 1.71 and -6.5 at 1.98, total 179.5. The bookmakers rate Hapoel higher than Polymarket does, so the 0.625 Polymarket price is not stretched.",
+        "models": "No bookmaker-free ratings source was found, only season stats. Basketballsphere: average margin Hapoel +3.2 vs Baskonia -12.0 (a 15-point gap before home advantage), points for/against 90.4/87.2 vs 79.9/91.9. No named model prediction exists for this game, and Basketballsphere's own pick is Hapoel -5.5. The margin gap alone points to a Hapoel win by a clear but not huge margin.",
+        "venue_weather": "Fernando Buesa Arena, Vitoria-Gasteiz, Spain, Tue 17 Nov, 20:30 CET (19:30 UTC), EuroLeague Round 12. Hapoel are the away side, so this is the home arena of Baskonia and not a neutral venue. In March the games against Israeli teams in Vitoria were played behind closed doors by order of the Basque Government, with a large police presence. I found no announcement for 17 Nov either way, so I do not know if fans are admitted. Empty stands would remove Baskonia's home edge and would help Hapoel. Indoor game, weather irrelevant."
+      },
+      "reason": "Hapoel are a clear favourite: 6-5 and +3.2 margin against a 1-11 Baskonia at -12.0 with three key players out, the weakest offence in the league and two debutants still integrating. The bookmakers (FanDuel about 71%, Bet-Experts about 74%) rate Hapoel above the Polymarket 0.625 price. No hard exclusion applies: the fixture is verified, the coach change was on 14 Oct (more than 7 days ago), the venue is the usual one, and both sides still have something to play for. p is set slightly below market because of the soft risks below.",
+      "main_risk": "Hapoel's three straight defeats and their derby fatigue/motivation issues (they led by 23 and lost the Winner Cup final, then lost again at Maccabi), a possible Micic groin relapse or an absent Satoransky/Caboclo, and a Baskonia side with fresh signings that is dangerous on offensive rebounds and could get a new-coach bounce at home. Hapoel also have the 2nd most turnovers. Baskonia lost both ACB and EuroLeague by wide margins recently, and the line is close to 6.5, so the favourite winning outright is likelier than covering. Polymarket's thin liquidity (about $37) means the price is noisy, but the 0.435 to 0.63 swing is a rise, not a fall.",
+      "sources": [
+        "https://basketballsphere.com/en/baskonia-vs-hapoel-tel-aviv-prediction-euroleague-november-17-2026/",
+        "https://www.infobae.com/espana/agencias/2026/11/16/un-remozado-baskonia-busca-su-segunda-victoria-en-europa-ante-hapoel-tel-aviv/",
+        "https://www.bet-experts.com/picks/basketball/baskonia-vs-hapoel-tel-aviv-prediction-betting-tips-17-11-2026",
+        "https://sportsbook.fanduel.com/basketball/euroleague-men's/baskonia-vitoria-gasteiz-v-hapoel-tel-aviv-36313382",
+        "https://www.eurohoops.net/es/others-es/2032980/el-maccabi-remonta-una-desventaja-de-23-puntos-y-gana-la-winner-cup-de-israel/",
+        "https://www.infobae.com/espana/agencias/2026/11/15/84-98-el-real-madrid-mas-lider-ante-un-baskonia-en-plena-reconstruccion/",
+        "https://acb.com/es/liga/noticias/velimir-perasovic-nuevo-entrenador-de-kosner-baskonia-146224",
+        "https://gamma-api.polymarket.com/events?id=1364546"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1364544",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1313235",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1313241",
+      "exclude": true,
+      "reason": "Hard rule 'favourite has nothing left to play for and the opponent does'. Group B4 table before this game (5 games played): Sweden 13 (group winner, promoted), Bosnia and Herzegovina 8, Poland 4, Romania 3. Bosnia are already assured of second place and the March League A promotion playoff. Poland (4 pts, one game left, away to Sweden) can reach at most 7, so Bosnia's final position cannot change; Klix and RTV Slon say the result does not alter their placement. Romania are bottom and must win in Zenica and also need Sweden not to lose to Poland, otherwise they finish last and face the relegation playoff against a League C runner-up (Klix, Sports Mole, N1). Bosnia lost 3-2 to Sweden on 14 Nov, their first defeat of the campaign, which cost them first place. This is the Portugal-Denmark pattern: a favourite whose aim is already secured against an opponent who needs the result. Other facts: venue is Bilino Polje, Zenica (home, 20:45 local = 19:45 UTC), no venue issue. Bosnia doubts: striker Tabakovic (knee) and Hadzikadunic out. Romania are missing GK Radu, Mihaila, Stanciu and the suspended Baluta; Marin returns. Hagi's squad had 12 changes. No coach change. DraftKings home moved 1.91 to 1.83 (de-vig 50.5%); World Football Elo has Bosnia 1662 vs Romania 1576 (expected score 0.745).",
+      "main_risk": "Bosnia have nothing to gain from the result (second place and the playoff are fixed) while Romania need a win to avoid the relegation playoff, so a draw or Romania win is more likely than the market implies. Possible Bosnia rotation, and Tabakovic and Hadzikadunic are out or doubtful.",
+      "sources": [
+        "https://www.klix.ba/sport/nogomet/rumuniji-u-zenici-treba-pobjeda-i-pomoc-svedske-da-izbjegne-baraz/261116024",
+        "https://www.sportsmole.co.uk/football/bosnia-herzegovina/uefa-nations-league/preview/bosnia-hvina-vs-romania-prediction-team-news-lineups_609182.html",
+        "https://www.nbcsports.com/soccer/news/uefa-nations-league-2026-27-nations-league-format-schedule-standings-scores"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1313229",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.46,
+        "draw": 0.31,
+        "away": 0.23
+      },
+      "checks": {
+        "team_news": "Racing Post preview (read tonight): Hungary without suspended Willi Orban and Milan Vitalis, Damir Redzic a doubt, several others injured; Szoboszlai expected to start despite some knee discomfort after Georgia (Khel Now). Northern Ireland without Conor Bradley, Dan Ballard, Eoin Toal and Jamie McDonnell, and Jamie Donley is suspended; Michael O'Neill is banned from the touchline after a booking v Ukraine. Khel Now lists Donley in its predicted XI, so that list is out of date. No official squad sheet seen.",
+        "lineups": "Not out. Khel Now predicted Hungary 4-2-3-1: Toth; Osvath, Orban, Csinger, Kerkez; Vitalis, Schafer; Sallai, Szoboszlai, Nagy; Varga. That XI includes Orban and Vitalis, who Racing Post says are suspended, so it cannot be right. Northern Ireland expected 5-4-1 (Khel Now and Racing Post agree on the shape) with Donley now suspended. No second reliable XI found.",
+        "rotation": "Hungary beat Georgia 2-0 away on 14 Nov, Northern Ireland beat Ukraine 1-0 at home the same day (Terry Devlin 68'); both then have 3 days' rest and this is the last group game. No sign of planned rotation, but both are missing players through suspension and injury.",
+        "motivation": "Group B2 before this game, from Vavel and Racing Post: Northern Ireland 11 pts from 5 (unbeaten, no goals conceded), Hungary 10 pts from 5 (3W 1D 1L, 5-2). Ukraine, 4 pts after three games, have lost to Northern Ireland and Hungary since and can reach at most 7; Georgia are bottom. The group winner goes up to League A and the runner-up to the A/B play-off. A draw is enough for Northern Ireland to win the group (12 v 11 pts); Hungary must win to top it. Northern Ireland are already sure of the play-off. Neither side has secured its aim, so the nothing-to-play-for exclusion does not apply. The risk is that a draw suits the underdog, which raises draw odds.",
+        "form": "Hungary last five (Khel Now): L-D-W-W-W, incl. 0-0 at Northern Ireland on 28 Sep and 2-0 at Georgia on 14 Nov. Northern Ireland: W-D-W-D-W, 1-0 Georgia, 0-0 Hungary, 3-0 Ukraine, 0-0 Georgia, 1-0 Ukraine; no goals conceded in 5 games and under 2.5 goals in 11 of their last 13 internationals (Racing Post). Kickoff.co.uk projection: Hungary 1.4 goals, Northern Ireland 0.9. No xG found.",
+        "h2h": "8 meetings per Khel Now: Hungary 5 wins, Northern Ireland 1, 2 draws; the latest was 0-0 in Belfast on 28 Sep 2026. A low-scoring matchup in which Northern Ireland sit deep (5-4-1) and Hungary struggle to break them down.",
+        "odds": "Paddy Power (Racing Post): Hungary 9/10 (1.90), draw 21/10 (3.10), Northern Ireland 3/1 (4.00); de-vigged about 48/29/23. DraftKings via ESPN (data.odds): 1.91/3.25/4.00, de-vigged 48.4/28.5/23.1, total 2.5, opening line equal to now. Kickoff.co.uk algorithm: Hungary 51%, draw 27%, away 23%, under 3.5 at 80%, BTTS no 56%. Polymarket favourite 0.495 now v 0.495 24h ago (0% move), so there is no unexplained price drop. Racing Post's best bet is Northern Ireland or draw.",
+        "models": "World Football Elo (data.rating, eloratings.net): Hungary 1755, Northern Ireland 1689, home expected score 0.722 with a draw counted as half. That is consistent with a home win of about 50% and a draw of about 28%. Kickoff.co.uk algorithm gives Hungary 51%.",
+        "venue_weather": "Puskás Aréna, Budapest, Tue 17 Nov 19:45 UTC (BBC NI and BBC Three coverage), a normal home venue. Weather not found in any source; no pitch or weather problem reported."
+      },
+      "reason": "Fixture verified (Nations League Group B2, Puskás Aréna) and no hard exclusion applies: no coach change, no derby, normal venue, and the favourite has not secured its aim, because Hungary must win to top the group while Northern Ireland need only a draw. Hungary are the home favourite on a 3-win run but lose centre-back Orban and midfielder Vitalis to suspension, and a draw wins the group for an unbeaten, nobody-scores-on-us Northern Ireland side, so I move 3 points from the home win to the draw. Price sources agree (Polymarket, DraftKings, Paddy Power, Elo), and the price is flat over 24h. Goals legs: low-scoring matchup and a deep Northern Ireland, so under 3.5 holds up at the market price.",
+      "main_risk": "A draw (0-0 or 1-1): Northern Ireland only need a point and have not conceded in 5 games, they sit in a 5-4-1, and Hungary lack Orban and Vitalis. Second risk: a Northern Ireland win on a counter or set piece. Lineups and Hungary's injury list are unconfirmed, and the one predicted XI I found still included the suspended players.",
+      "sources": [
+        "https://www.racingpost.com/sport/football-tips/nations-league/hungary-vs-northern-ireland-predictions-team-news-odds-betting-tips-bet-builder-aGE8U2f9rSjW/",
+        "https://khelnow.com/football/hungary-vs-northern-ireland-preview-uefa-nations-league-202611",
+        "https://www.kickoff.co.uk/uefa-nations-league-predictions-stats-odds/hungary-vs-northern-ireland/",
+        "https://www.vavel.com/en/data/northern-ireland/results/",
+        "https://news.liga.net/en/society/news/nations-league-ukraine-lose-to-northern-ireland",
+        "https://www.eloratings.net/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117"
+      ],
+      "views": {
+        "ou_3.5_under": 0.82
+      },
+      "prices": []
+    },
+    {
+      "id": "1313265",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.44,
+        "draw": 0.31,
+        "away": 0.25
+      },
+      "checks": {
+        "team_news": "Not verified: searches returned no confirmed injury, suspension or press-conference news for either side before 17 Nov. The one predicted Ireland XI I found is from a source whose photo refers to a November 2025 game, so I treat it as unreliable.",
+        "lineups": "Not verified: no reliable expected XI for either side. Confirmed lineups come about an hour before kick-off.",
+        "rotation": "Ireland played away in Linz on Sat 14 Nov (reported 1-0 loss; the score is from the task brief, I found no match report) and play Kosovo at home 3 days later, then travel to Hungary (Debrecen) for Israel. Kosovo drew 0-0 with Israel on 14 Nov (from the brief, not confirmed by a report). Some Ireland rotation is a soft risk. No coach said so, so no hard rule applies.",
+        "motivation": "Table before this game, after the 14 Nov results given in the brief plus standings after MD4 (UEFA/footballwebpages, 4 Oct: Austria 8, Ireland 5, Kosovo 5, Israel 2): Austria 11 pts, Kosovo 6, Ireland 5, Israel 3. Last matchday is Ireland v Kosovo and Israel v Austria. Austria are clear and cannot be caught by Ireland (max 8) or Kosovo (max 9), so Austria are the group winner. Second place and avoiding the bottom spot are still open: Ireland need a win to go above Kosovo, and Kosovo are one point ahead. Both sides have something to play for, and the favourite has not secured its aim, so the nothing-to-play-for exclusion does not apply. The Nov 14 numbers were not independently confirmed.",
+        "form": "Group results so far: Kosovo 1-0 Ireland (24 Sep), Israel 0-3 Ireland (27 Sep), Ireland 2-2 Austria (1 Oct), Ireland 0-0 Israel (4 Oct), then Austria 1-0 Ireland (14 Nov, from the brief). Ireland have scored 5 in 5 group games, which fits the low-scoring read. I found no xG.",
+        "h2h": "Kosovo won the reverse fixture 1-0 in Pristina on 24 Sep 2026. Kosovo are an organised, hard-to-beat side, and a level result is a live outcome. No older meetings were checked.",
+        "odds": "DraftKings via ESPN (data.odds): 2.10 / 3.10 / 3.60, unchanged from the opening line, de-vigged 44.2 / 30.0 / 25.8. Polymarket 45.3 / 30.3 / 24.3, so the sources agree. The 24h Polymarket move is 0.455 to 0.455 (0%), so there is no unexplained drop. DraftKings total line is 2.5. The Polymarket draw price of about 30% is high for a home favourite.",
+        "models": "data.rating was not present in the candidates entry, and I could not fetch eloratings.net or ClubElo in this pass, so no bookmaker-free rating was read.",
+        "venue_weather": "Aviva Stadium, Dublin, a normal home venue, 19:45 UTC kick-off. Weather was not checked; no pitch problem was found."
+      },
+      "reason": "The fixture is verified (Nations League, Ireland home, 17 Nov, 19:45 UTC). No hard exclusion applies: the table shows both sides still have something to play for, and I found no coach change, derby or confirmed rotation. Confidence is low because lineups, team news and an independent rating are missing, and Ireland face a stubborn Kosovo side that beat them 1-0 in September, after a quick turnaround from the Linz game. P stays near the market, with the home price trimmed by a point and the draw lifted by a point. I would not back the result market.",
+      "main_risk": "A draw or Kosovo win. Kosovo beat Ireland 1-0 earlier in the group and are one point above them. Ireland are on a short turnaround after Linz, and the draw price is about 30%. Missing team news and lineups also lower confidence.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117",
+        "https://www.footballwebpages.co.uk/kosovo",
+        "https://www.uefa.com/uefanationsleague/teams/64/matches",
+        "https://www.flashscore.com/news/soccer-uefa-nations-league-ireland-s-nations-league-promotion-hopes-dented-after-stalemate-with-israel/dYlK1yqg/",
+        "https://www.rte.ie/sport/soccer/2026/0213/1558292-dates-for-irelands-nations-league-fixtures-revealed"
+      ],
+      "views": {
+        "ou_3.5_under": 0.8
+      },
+      "prices": []
+    },
+    {
+      "id": "1313259",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1313247",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1313223",
+      "exclude": true,
+      "skipped": true
+    }
+  ]
+}

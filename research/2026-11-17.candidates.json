@@ -1,0 +1,1336 @@
+{
+  "date": "2026-11-17",
+  "window": {
+    "start": "2026-11-17T08:00:00.000Z",
+    "end": "2026-11-17T22:00:00.000Z"
+  },
+  "games_in_window": 30,
+  "games": [
+    {
+      "id": "1364549",
+      "league": "EuroLeague",
+      "sport": "basketball",
+      "event": "Zalgiris Kaunas vs. FC Bayern Munchen",
+      "home": "Zalgiris Kaunas",
+      "away": "FC Bayern Munchen",
+      "start": "2026-11-17T18:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.815,
+        "draw": 0,
+        "away": 0.185
+      },
+      "p_first": {
+        "home": 0.815,
+        "draw": 0,
+        "away": 0.185
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Zalgiris Kaunas",
+          "p_market": 0.815,
+          "fair_odds": 1.23
+        }
+      ],
+      "legs_first": {
+        "home": 0.815
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.805,
+          "to": 0.815,
+          "relative_change": 0.012
+        },
+        "fetched_at": "2026-11-16T19:19:29.928Z"
+      }
+    },
+    {
+      "id": "1364552",
+      "league": "EuroLeague",
+      "sport": "basketball",
+      "event": "BC Dubai vs. Anadolu Efes",
+      "home": "BC Dubai",
+      "away": "Anadolu Efes",
+      "start": "2026-11-17T16:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.76,
+        "draw": 0,
+        "away": 0.24
+      },
+      "p_first": {
+        "home": 0.76,
+        "draw": 0,
+        "away": 0.24
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "BC Dubai",
+          "p_market": 0.76,
+          "fair_odds": 1.32
+        }
+      ],
+      "legs_first": {
+        "home": 0.76
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.755,
+          "to": 0.76,
+          "relative_change": 0.007
+        },
+        "fetched_at": "2026-11-16T19:19:29.887Z"
+      }
+    },
+    {
+      "id": "1364540",
+      "league": "EuroLeague",
+      "sport": "basketball",
+      "event": "Virtus Bologna vs. Panathinaikos",
+      "home": "Virtus Bologna",
+      "away": "Panathinaikos",
+      "start": "2026-11-17T20:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.29,
+        "draw": 0,
+        "away": 0.71
+      },
+      "p_first": {
+        "home": 0.29,
+        "draw": 0,
+        "away": 0.71
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "Panathinaikos",
+          "p_market": 0.71,
+          "fair_odds": 1.41
+        }
+      ],
+      "legs_first": {
+        "away": 0.71
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.765,
+          "to": 0.715,
+          "relative_change": -0.065
+        },
+        "fetched_at": "2026-11-16T19:19:30.152Z"
+      }
+    },
+    {
+      "id": "1364547",
+      "league": "EuroLeague",
+      "sport": "basketball",
+      "event": "Maccabi Tel Aviv vs. Olympiacos B.C.",
+      "home": "Maccabi Tel Aviv",
+      "away": "Olympiacos B.C.",
+      "start": "2026-11-17T19:05:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.305,
+        "draw": 0,
+        "away": 0.695
+      },
+      "p_first": {
+        "home": 0.305,
+        "draw": 0,
+        "away": 0.695
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "Olympiacos B.C.",
+          "p_market": 0.695,
+          "fair_odds": 1.44
+        }
+      ],
+      "legs_first": {
+        "away": 0.695
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.43,
+          "to": 0.695,
+          "relative_change": 0.616
+        },
+        "fetched_at": "2026-11-16T19:19:30.128Z"
+      }
+    },
+    {
+      "id": "1313253",
+      "league": "Nations League",
+      "sport": "football",
+      "event": "Wales vs. Portugal",
+      "home": "Wales",
+      "away": "Portugal",
+      "start": "2026-11-17T19:45:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.1334,
+        "draw": 0.1831,
+        "away": 0.6835
+      },
+      "p_first": {
+        "home": 0.1334,
+        "draw": 0.1831,
+        "away": 0.6835
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Portugal",
+          "p_market": 0.6835,
+          "fair_odds": 1.46
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "Portugal",
+          "p_market": 0.8666,
+          "fair_odds": 1.2
+        },
+        {
+          "key": "ah_home_+1.5",
+          "label": "Handicap",
+          "selection": "Wales +1.5",
+          "p_market": 0.555,
+          "fair_odds": 1.8
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.825,
+          "fair_odds": 1.21
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.625,
+          "fair_odds": 1.6
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.59,
+          "fair_odds": 1.69
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.77,
+          "fair_odds": 1.3
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.545,
+          "fair_odds": 1.83
+        },
+        {
+          "key": "tt_home_0.5_over",
+          "label": "Wales goals",
+          "selection": "Over 0.5",
+          "p_market": 0.605,
+          "fair_odds": 1.65
+        }
+      ],
+      "legs_first": {
+        "away": 0.6835,
+        "away_dnb": 0.8666,
+        "ah_home_+1.5": 0.555,
+        "ou_1.5_over": 0.825,
+        "ou_2.5_over": 0.625,
+        "ou_3.5_under": 0.59,
+        "ou_4.5_under": 0.77,
+        "btts_yes": 0.545,
+        "tt_home_0.5_over": 0.605
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117",
+          "espn_match": "Portugal at Wales",
+          "decimal": {
+            "home": 6,
+            "draw": 4.7,
+            "away": 1.42
+          },
+          "opening": {
+            "home": 6.5,
+            "draw": 4.7,
+            "away": 1.4
+          },
+          "p_devig": {
+            "home": 0.154,
+            "draw": 0.196,
+            "away": 0.65
+          },
+          "total": 3.5
+        },
+        "move_24h": {
+          "side": "away",
+          "from": 0.665,
+          "to": 0.685,
+          "relative_change": 0.03
+        },
+        "rating": {
+          "model": "World Football Elo (eloratings.net)",
+          "source": "https://www.eloratings.net/",
+          "home": {
+            "name": "Wales",
+            "elo": 1673
+          },
+          "away": {
+            "name": "Portugal",
+            "elo": 1996
+          },
+          "expected_score_home": 0.217
+        },
+        "fetched_at": "2026-11-16T19:19:30.713Z"
+      }
+    },
+    {
+      "id": "1375599",
+      "league": "ATP Tour",
+      "sport": "tennis",
+      "event": "ATP World Tour Finals, John McEnroe Group: Alexander Zverev vs Ben Shelton",
+      "home": "Alexander Zverev",
+      "away": "Ben Shelton",
+      "start": "2026-11-17T19:30:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.645,
+        "draw": 0,
+        "away": 0.355
+      },
+      "p_first": {
+        "home": 0.645,
+        "draw": 0,
+        "away": 0.355
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Alexander Zverev",
+          "p_market": 0.645,
+          "fair_odds": 1.55
+        }
+      ],
+      "legs_first": {
+        "home": 0.645
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.58,
+          "to": 0.645,
+          "relative_change": 0.112
+        },
+        "rating": {
+          "model": "Tennis Abstract Elo",
+          "source": "https://tennisabstract.com/reports/atp_elo_ratings.html",
+          "home": {
+            "name": "Alexander Zverev",
+            "elo": 2089.6,
+            "hard_elo": 2030.1
+          },
+          "away": {
+            "name": "Ben Shelton",
+            "elo": 1987.5,
+            "hard_elo": 1952.4
+          },
+          "p_home": {
+            "overall": 0.643,
+            "hard": 0.61,
+            "blend_hard": 0.627
+          }
+        },
+        "fetched_at": "2026-11-16T19:19:32.641Z"
+      }
+    },
+    {
+      "id": "1364543",
+      "league": "EuroLeague",
+      "sport": "basketball",
+      "event": "Barcelona vs. Paris Basketball",
+      "home": "Barcelona",
+      "away": "Paris Basketball",
+      "start": "2026-11-17T19:30:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.64,
+        "draw": 0,
+        "away": 0.36
+      },
+      "p_first": {
+        "home": 0.64,
+        "draw": 0,
+        "away": 0.36
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Barcelona",
+          "p_market": 0.64,
+          "fair_odds": 1.56
+        }
+      ],
+      "legs_first": {
+        "home": 0.64
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.73,
+          "to": 0.64,
+          "relative_change": -0.123
+        },
+        "fetched_at": "2026-11-16T19:19:30.423Z"
+      }
+    },
+    {
+      "id": "1364546",
+      "league": "EuroLeague",
+      "sport": "basketball",
+      "event": "Kosner Baskonia vs. Hapoel Tel Aviv",
+      "home": "Kosner Baskonia",
+      "away": "Hapoel Tel Aviv",
+      "start": "2026-11-17T19:30:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.375,
+        "draw": 0,
+        "away": 0.625
+      },
+      "p_first": {
+        "home": 0.375,
+        "draw": 0,
+        "away": 0.625
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "Hapoel Tel Aviv",
+          "p_market": 0.625,
+          "fair_odds": 1.6
+        }
+      ],
+      "legs_first": {
+        "away": 0.625
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.435,
+          "to": 0.63,
+          "relative_change": 0.448
+        },
+        "fetched_at": "2026-11-16T19:19:30.478Z"
+      }
+    },
+    {
+      "id": "1364544",
+      "league": "EuroLeague",
+      "sport": "basketball",
+      "event": "Olimpia Milano vs. KK Crvena Zvezda",
+      "home": "Olimpia Milano",
+      "away": "KK Crvena Zvezda",
+      "start": "2026-11-17T19:30:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.45,
+        "draw": 0,
+        "away": 0.55
+      },
+      "p_first": {
+        "home": 0.45,
+        "draw": 0,
+        "away": 0.55
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "KK Crvena Zvezda",
+          "p_market": 0.55,
+          "fair_odds": 1.82
+        }
+      ],
+      "legs_first": {
+        "away": 0.55
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.545,
+          "to": 0.55,
+          "relative_change": 0.009
+        },
+        "fetched_at": "2026-11-16T19:19:32.847Z"
+      }
+    },
+    {
+      "id": "1313235",
+      "league": "Nations League",
+      "sport": "football",
+      "event": "Israel vs. Austria",
+      "home": "Israel",
+      "away": "Austria",
+      "start": "2026-11-17T19:45:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.2166,
+        "draw": 0.2467,
+        "away": 0.5367
+      },
+      "p_first": {
+        "home": 0.2166,
+        "draw": 0.2467,
+        "away": 0.5367
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Austria",
+          "p_market": 0.5367,
+          "fair_odds": 1.86
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Austria or Draw",
+          "p_market": 0.7834,
+          "fair_odds": 1.28
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "Austria",
+          "p_market": 0.7834,
+          "fair_odds": 1.4
+        },
+        {
+          "key": "ah_home_+1.5",
+          "label": "Handicap",
+          "selection": "Israel +1.5",
+          "p_market": 0.685,
+          "fair_odds": 1.46
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.795,
+          "fair_odds": 1.26
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.565,
+          "fair_odds": 1.77
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.645,
+          "fair_odds": 1.55
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.82,
+          "fair_odds": 1.22
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.58,
+          "fair_odds": 1.72
+        }
+      ],
+      "legs_first": {
+        "away": 0.5367,
+        "away_draw": 0.7834,
+        "away_dnb": 0.7834,
+        "ah_home_+1.5": 0.685,
+        "ou_1.5_over": 0.795,
+        "ou_2.5_over": 0.565,
+        "ou_3.5_under": 0.645,
+        "ou_4.5_under": 0.82,
+        "btts_yes": 0.58
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117",
+          "espn_match": "Austria at Israel",
+          "decimal": {
+            "home": 4.1,
+            "draw": 3.8,
+            "away": 1.74
+          },
+          "opening": {
+            "home": 5,
+            "draw": 4.2,
+            "away": 1.57
+          },
+          "p_devig": {
+            "home": 0.226,
+            "draw": 0.243,
+            "away": 0.531
+          },
+          "total": 2.5
+        },
+        "move_24h": {
+          "side": "away",
+          "from": 0.555,
+          "to": 0.535,
+          "relative_change": -0.036
+        },
+        "rating": {
+          "model": "World Football Elo (eloratings.net)",
+          "source": "https://www.eloratings.net/",
+          "home": {
+            "name": "Israel",
+            "elo": 1629
+          },
+          "away": {
+            "name": "Austria",
+            "elo": 1849
+          },
+          "expected_score_home": 0.334
+        },
+        "fetched_at": "2026-11-16T19:19:32.786Z"
+      }
+    },
+    {
+      "id": "1313241",
+      "league": "Nations League",
+      "sport": "football",
+      "event": "Bosnia and Herzegovina vs. Romania",
+      "home": "Bosnia and Herzegovina",
+      "away": "Romania",
+      "start": "2026-11-17T19:45:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.5133,
+        "draw": 0.2533,
+        "away": 0.2333
+      },
+      "p_first": {
+        "home": 0.5133,
+        "draw": 0.2533,
+        "away": 0.2333
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Bosnia and Herzegovina or Draw",
+          "p_market": 0.7666,
+          "fair_odds": 1.3
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Bosnia and Herzegovina",
+          "p_market": 0.7666,
+          "fair_odds": 1.45
+        },
+        {
+          "key": "ah_away_+1.5",
+          "label": "Handicap",
+          "selection": "Romania +1.5",
+          "p_market": 0.72,
+          "fair_odds": 1.39
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.765,
+          "fair_odds": 1.31
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.7,
+          "fair_odds": 1.43
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.54,
+          "fair_odds": 1.85
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.7666,
+        "home_dnb": 0.7666,
+        "ah_away_+1.5": 0.72,
+        "ou_1.5_over": 0.765,
+        "ou_3.5_under": 0.7,
+        "btts_yes": 0.54
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117",
+          "espn_match": "Romania at Bosnia-Herzegovina",
+          "decimal": {
+            "home": 1.83,
+            "draw": 3.6,
+            "away": 3.9
+          },
+          "opening": {
+            "home": 1.91,
+            "draw": 3.45,
+            "away": 3.8
+          },
+          "p_devig": {
+            "home": 0.505,
+            "draw": 0.257,
+            "away": 0.237
+          },
+          "total": 2.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.505,
+          "to": 0.515,
+          "relative_change": 0.02
+        },
+        "rating": {
+          "model": "World Football Elo (eloratings.net)",
+          "source": "https://www.eloratings.net/",
+          "home": {
+            "name": "Bosnia and Herzegovina",
+            "elo": 1662
+          },
+          "away": {
+            "name": "Romania",
+            "elo": 1576
+          },
+          "expected_score_home": 0.745
+        },
+        "fetched_at": "2026-11-16T19:19:32.885Z"
+      }
+    },
+    {
+      "id": "1313229",
+      "league": "Nations League",
+      "sport": "football",
+      "event": "Hungary vs. Northern Ireland",
+      "home": "Hungary",
+      "away": "Northern Ireland",
+      "start": "2026-11-17T19:45:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.4933,
+        "draw": 0.2833,
+        "away": 0.2234
+      },
+      "p_first": {
+        "home": 0.4933,
+        "draw": 0.2833,
+        "away": 0.2234
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Hungary or Draw",
+          "p_market": 0.7766,
+          "fair_odds": 1.29
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Hungary",
+          "p_market": 0.7766,
+          "fair_odds": 1.45
+        },
+        {
+          "key": "ah_away_+1.5",
+          "label": "Handicap",
+          "selection": "Northern Ireland +1.5",
+          "p_market": 0.77,
+          "fair_odds": 1.3
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.635,
+          "fair_odds": 1.57
+        },
+        {
+          "key": "ou_2.5_under",
+          "label": "Total goals",
+          "selection": "Under 2.5",
+          "p_market": 0.625,
+          "fair_odds": 1.6
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.82,
+          "fair_odds": 1.22
+        },
+        {
+          "key": "btts_no",
+          "label": "Both teams to score",
+          "selection": "No",
+          "p_market": 0.565,
+          "fair_odds": 1.77
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.7766,
+        "home_dnb": 0.7766,
+        "ah_away_+1.5": 0.77,
+        "ou_1.5_over": 0.635,
+        "ou_2.5_under": 0.625,
+        "ou_3.5_under": 0.82,
+        "btts_no": 0.565
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117",
+          "espn_match": "Northern Ireland at Hungary",
+          "decimal": {
+            "home": 1.91,
+            "draw": 3.25,
+            "away": 4
+          },
+          "opening": {
+            "home": 1.91,
+            "draw": 3.25,
+            "away": 4
+          },
+          "p_devig": {
+            "home": 0.484,
+            "draw": 0.285,
+            "away": 0.231
+          },
+          "total": 2.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.495,
+          "to": 0.495,
+          "relative_change": 0
+        },
+        "rating": {
+          "model": "World Football Elo (eloratings.net)",
+          "source": "https://www.eloratings.net/",
+          "home": {
+            "name": "Hungary",
+            "elo": 1755
+          },
+          "away": {
+            "name": "Northern Ireland",
+            "elo": 1689
+          },
+          "expected_score_home": 0.722
+        },
+        "fetched_at": "2026-11-16T19:19:32.765Z"
+      }
+    },
+    {
+      "id": "1313265",
+      "league": "Nations League",
+      "sport": "football",
+      "event": "Republic of Ireland vs. Kosovo",
+      "home": "Republic of Ireland",
+      "away": "Kosovo",
+      "start": "2026-11-17T19:45:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.4533,
+        "draw": 0.3033,
+        "away": 0.2434
+      },
+      "p_first": {
+        "home": 0.4533,
+        "draw": 0.3033,
+        "away": 0.2434
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Republic of Ireland or Draw",
+          "p_market": 0.7566,
+          "fair_odds": 1.32
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Kosovo or Draw",
+          "p_market": 0.5467,
+          "fair_odds": 1.83
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Republic of Ireland",
+          "p_market": 0.7566,
+          "fair_odds": 1.54
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.66,
+          "fair_odds": 1.52
+        },
+        {
+          "key": "ou_2.5_under",
+          "label": "Total goals",
+          "selection": "Under 2.5",
+          "p_market": 0.61,
+          "fair_odds": 1.64
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.81,
+          "fair_odds": 1.23
+        },
+        {
+          "key": "btts_no",
+          "label": "Both teams to score",
+          "selection": "No",
+          "p_market": 0.535,
+          "fair_odds": 1.87
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.7566,
+        "away_draw": 0.5467,
+        "home_dnb": 0.7566,
+        "ou_1.5_over": 0.66,
+        "ou_2.5_under": 0.61,
+        "ou_3.5_under": 0.81,
+        "btts_no": 0.535
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117",
+          "espn_match": "Kosovo at Republic of Ireland",
+          "decimal": {
+            "home": 2.1,
+            "draw": 3.1,
+            "away": 3.6
+          },
+          "opening": {
+            "home": 2.1,
+            "draw": 3.1,
+            "away": 3.6
+          },
+          "p_devig": {
+            "home": 0.442,
+            "draw": 0.3,
+            "away": 0.258
+          },
+          "total": 2.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.455,
+          "to": 0.455,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-16T19:19:33.107Z"
+      }
+    },
+    {
+      "id": "1313259",
+      "league": "Nations League",
+      "sport": "football",
+      "event": "Ukraine vs. Georgia",
+      "home": "Ukraine",
+      "away": "Georgia",
+      "start": "2026-11-17T19:45:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.4416,
+        "draw": 0.2916,
+        "away": 0.2667
+      },
+      "p_first": {
+        "home": 0.4416,
+        "draw": 0.2916,
+        "away": 0.2667
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Ukraine or Draw",
+          "p_market": 0.7332,
+          "fair_odds": 1.36
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Georgia or Draw",
+          "p_market": 0.5583,
+          "fair_odds": 1.79
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Ukraine",
+          "p_market": 0.7332,
+          "fair_odds": 1.6
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.69,
+          "fair_odds": 1.45
+        },
+        {
+          "key": "ou_2.5_under",
+          "label": "Total goals",
+          "selection": "Under 2.5",
+          "p_market": 0.57,
+          "fair_odds": 1.75
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.78,
+          "fair_odds": 1.28
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.7332,
+        "away_draw": 0.5583,
+        "home_dnb": 0.7332,
+        "ou_1.5_over": 0.69,
+        "ou_2.5_under": 0.57,
+        "ou_3.5_under": 0.78
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117",
+          "espn_match": "Georgia at Ukraine",
+          "decimal": {
+            "home": 2.15,
+            "draw": 3.25,
+            "away": 3.25
+          },
+          "opening": {
+            "home": 2.15,
+            "draw": 3.3,
+            "away": 3.15
+          },
+          "p_devig": {
+            "home": 0.43,
+            "draw": 0.285,
+            "away": 0.285
+          },
+          "total": 2.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.435,
+          "to": 0.445,
+          "relative_change": 0.023
+        },
+        "rating": {
+          "model": "World Football Elo (eloratings.net)",
+          "source": "https://www.eloratings.net/",
+          "home": {
+            "name": "Ukraine",
+            "elo": 1707
+          },
+          "away": {
+            "name": "Georgia",
+            "elo": 1598
+          },
+          "expected_score_home": 0.769
+        },
+        "fetched_at": "2026-11-16T19:19:33.095Z"
+      }
+    },
+    {
+      "id": "1313247",
+      "league": "Nations League",
+      "sport": "football",
+      "event": "Poland vs. Sweden",
+      "home": "Poland",
+      "away": "Sweden",
+      "start": "2026-11-17T19:45:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.4101,
+        "draw": 0.2598,
+        "away": 0.3301
+      },
+      "p_first": {
+        "home": 0.4101,
+        "draw": 0.2598,
+        "away": 0.3301
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Poland or Draw",
+          "p_market": 0.6699,
+          "fair_odds": 1.49
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Sweden or Draw",
+          "p_market": 0.5899,
+          "fair_odds": 1.7
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Poland",
+          "p_market": 0.6699,
+          "fair_odds": 1.8
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.8,
+          "fair_odds": 1.25
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.585,
+          "fair_odds": 1.71
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.64,
+          "fair_odds": 1.56
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.81,
+          "fair_odds": 1.23
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.615,
+          "fair_odds": 1.63
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.6699,
+        "away_draw": 0.5899,
+        "home_dnb": 0.6699,
+        "ou_1.5_over": 0.8,
+        "ou_2.5_over": 0.585,
+        "ou_3.5_under": 0.64,
+        "ou_4.5_under": 0.81,
+        "btts_yes": 0.615
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117",
+          "espn_match": "Sweden at Poland",
+          "decimal": {
+            "home": 2.25,
+            "draw": 3.55,
+            "away": 2.85
+          },
+          "opening": {
+            "home": 2.05,
+            "draw": 3.6,
+            "away": 3.1
+          },
+          "p_devig": {
+            "home": 0.413,
+            "draw": 0.262,
+            "away": 0.326
+          },
+          "total": 2.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.425,
+          "to": 0.405,
+          "relative_change": -0.047
+        },
+        "rating": {
+          "model": "World Football Elo (eloratings.net)",
+          "source": "https://www.eloratings.net/",
+          "home": {
+            "name": "Poland",
+            "elo": 1663
+          },
+          "away": {
+            "name": "Sweden",
+            "elo": 1784
+          },
+          "expected_score_home": 0.47
+        },
+        "fetched_at": "2026-11-16T19:19:33.101Z"
+      }
+    },
+    {
+      "id": "1313223",
+      "league": "Nations League",
+      "sport": "football",
+      "event": "Denmark vs. Norway",
+      "home": "Denmark",
+      "away": "Norway",
+      "start": "2026-11-17T19:45:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.3933,
+        "draw": 0.2434,
+        "away": 0.3633
+      },
+      "p_first": {
+        "home": 0.3933,
+        "draw": 0.2434,
+        "away": 0.3633
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Denmark or Draw",
+          "p_market": 0.6367,
+          "fair_odds": 1.57
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Norway or Draw",
+          "p_market": 0.6067,
+          "fair_odds": 1.65
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.655,
+          "fair_odds": 1.53
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.565,
+          "fair_odds": 1.77
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.675,
+          "fair_odds": 1.48
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.6367,
+        "away_draw": 0.6067,
+        "ou_2.5_over": 0.655,
+        "ou_3.5_under": 0.565,
+        "btts_yes": 0.675
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117",
+          "espn_match": "Norway at Denmark",
+          "decimal": {
+            "home": 2.35,
+            "draw": 3.7,
+            "away": 2.6
+          },
+          "opening": {
+            "home": 2.4,
+            "draw": 3.55,
+            "away": 2.6
+          },
+          "p_devig": {
+            "home": 0.394,
+            "draw": 0.25,
+            "away": 0.356
+          },
+          "total": 3.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.405,
+          "to": 0.395,
+          "relative_change": -0.025
+        },
+        "rating": {
+          "model": "World Football Elo (eloratings.net)",
+          "source": "https://www.eloratings.net/",
+          "home": {
+            "name": "Denmark",
+            "elo": 1920
+          },
+          "away": {
+            "name": "Norway",
+            "elo": 1909
+          },
+          "expected_score_home": 0.655
+        },
+        "fetched_at": "2026-11-16T19:19:33.152Z"
+      }
+    }
+  ]
+}
