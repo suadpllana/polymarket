@@ -16,9 +16,9 @@
       "start": "2026-11-16T17:00:00.000Z",
       "coverage": 1,
       "p_market": {
-        "home": 0.8833,
-        "draw": 0.0916,
-        "away": 0.0251
+        "home": 0.8846,
+        "draw": 0.0942,
+        "away": 0.0212
       },
       "p_first": {
         "home": 0.8747,
@@ -41,33 +41,56 @@
           "fair_odds": 1.68
         },
         {
+          "key": "ah_away_+3.5",
+          "label": "Handicap",
+          "selection": "Liechtenstein +3.5",
+          "p_market": 0.795,
+          "fair_odds": 1.26
+        },
+        {
           "key": "ou_1.5_over",
           "label": "Total goals",
           "selection": "Over 1.5",
-          "p_market": 0.765,
-          "fair_odds": 1.31
+          "p_market": 0.745,
+          "fair_odds": 1.34
         },
         {
           "key": "ou_3.5_under",
           "label": "Total goals",
           "selection": "Under 3.5",
-          "p_market": 0.705,
-          "fair_odds": 1.42
+          "p_market": 0.725,
+          "fair_odds": 1.38
         },
         {
           "key": "btts_no",
           "label": "Both teams to score",
           "selection": "No",
-          "p_market": 0.785,
-          "fair_odds": 1.27
+          "p_market": 0.83,
+          "fair_odds": 1.2
+        },
+        {
+          "key": "tt_home_1.5_over",
+          "label": "Lithuania goals",
+          "selection": "Over 1.5",
+          "p_market": 0.725,
+          "fair_odds": 1.38
+        },
+        {
+          "key": "tt_home_2.5_under",
+          "label": "Lithuania goals",
+          "selection": "Under 2.5",
+          "p_market": 0.545,
+          "fair_odds": 1.83
         }
       ],
       "legs_first": {
         "ah_home_-1.5": 0.645,
         "ah_away_+2.5": 0.605,
+        "ah_away_+3.5": 0.795,
         "ou_1.5_over": 0.75,
         "ou_3.5_under": 0.705,
         "btts_no": 0.78,
+        "tt_home_1.5_over": 0.725,
         "tt_home_2.5_under": 0.545
       },
       "data": {
@@ -76,9 +99,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116",
           "espn_match": "Liechtenstein at Lithuania",
           "decimal": {
-            "home": 1.1,
-            "draw": 8.5,
-            "away": 20
+            "home": 1.08,
+            "draw": 8,
+            "away": 29
           },
           "opening": {
             "home": 1.08,
@@ -86,17 +109,17 @@
             "away": 21
           },
           "p_devig": {
-            "home": 0.844,
-            "draw": 0.109,
-            "away": 0.046
+            "home": 0.853,
+            "draw": 0.115,
+            "away": 0.032
           },
           "total": 2.5
         },
         "move_24h": {
           "side": "home",
-          "from": 0.885,
+          "from": 0.875,
           "to": 0.885,
-          "relative_change": 0
+          "relative_change": 0.011
         },
         "rating": {
           "model": "World Football Elo (eloratings.net)",
@@ -111,9 +134,9 @@
           },
           "expected_score_home": 0.946
         },
-        "fetched_at": "2026-11-16T06:53:10.782Z"
+        "fetched_at": "2026-11-16T16:05:19.578Z"
       },
-      "p_live_at": "2026-11-16T06:53:10.248Z"
+      "p_live_at": "2026-11-16T16:05:18.966Z"
     },
     {
       "id": "1293084",
@@ -228,9 +251,9 @@
       "start": "2026-11-16T17:00:00.000Z",
       "coverage": 1,
       "p_market": {
-        "home": 0.7895,
-        "draw": 0.1517,
-        "away": 0.0589
+        "home": 0.8236,
+        "draw": 0.1326,
+        "away": 0.0438
       },
       "p_first": {
         "home": 0.7765,
@@ -242,15 +265,15 @@
           "key": "home",
           "label": "Match winner",
           "selection": "Iceland",
-          "p_market": 0.7895,
-          "fair_odds": 1.27
+          "p_market": 0.8236,
+          "fair_odds": 1.21
         },
         {
           "key": "ah_home_-1.5",
           "label": "Handicap",
           "selection": "Iceland -1.5",
-          "p_market": 0.565,
-          "fair_odds": 1.77
+          "p_market": 0.575,
+          "fair_odds": 1.74
         },
         {
           "key": "ah_away_+2.5",
@@ -260,50 +283,68 @@
           "fair_odds": 1.48
         },
         {
+          "key": "ah_away_+3.5",
+          "label": "Handicap",
+          "selection": "Luxembourg +3.5",
+          "p_market": 0.845,
+          "fair_odds": 1.18
+        },
+        {
           "key": "ou_1.5_over",
           "label": "Total goals",
           "selection": "Over 1.5",
-          "p_market": 0.81,
-          "fair_odds": 1.23
-        },
-        {
-          "key": "ou_2.5_over",
-          "label": "Total goals",
-          "selection": "Over 2.5",
-          "p_market": 0.585,
-          "fair_odds": 1.71
+          "p_market": 0.775,
+          "fair_odds": 1.29
         },
         {
           "key": "ou_3.5_under",
           "label": "Total goals",
           "selection": "Under 3.5",
-          "p_market": 0.655,
-          "fair_odds": 1.53
-        },
-        {
-          "key": "ou_4.5_under",
-          "label": "Total goals",
-          "selection": "Under 4.5",
-          "p_market": 0.815,
-          "fair_odds": 1.23
+          "p_market": 0.705,
+          "fair_odds": 1.42
         },
         {
           "key": "btts_no",
           "label": "Both teams to score",
           "selection": "No",
-          "p_market": 0.595,
-          "fair_odds": 1.68
+          "p_market": 0.665,
+          "fair_odds": 1.5
+        },
+        {
+          "key": "tt_home_1.5_over",
+          "label": "Iceland goals",
+          "selection": "Over 1.5",
+          "p_market": 0.685,
+          "fair_odds": 1.46
+        },
+        {
+          "key": "tt_home_2.5_under",
+          "label": "Iceland goals",
+          "selection": "Under 2.5",
+          "p_market": 0.59,
+          "fair_odds": 1.69
+        },
+        {
+          "key": "tt_away_0.5_under",
+          "label": "Luxembourg goals",
+          "selection": "Under 0.5",
+          "p_market": 0.645,
+          "fair_odds": 1.55
         }
       ],
       "legs_first": {
         "home": 0.7765,
         "ah_home_-1.5": 0.565,
         "ah_away_+2.5": 0.705,
+        "ah_away_+3.5": 0.845,
         "ou_1.5_over": 0.775,
-        "ou_2.5_over": 0.56,
         "ou_3.5_under": 0.665,
-        "ou_4.5_under": 0.83,
-        "btts_no": 0.585
+        "btts_no": 0.585,
+        "tt_home_1.5_over": 0.685,
+        "tt_home_2.5_under": 0.59,
+        "tt_away_0.5_under": 0.645,
+        "ou_2.5_over": 0.56,
+        "ou_4.5_under": 0.83
       },
       "data": {
         "odds": {
@@ -311,9 +352,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116",
           "espn_match": "Luxembourg at Iceland",
           "decimal": {
-            "home": 1.21,
+            "home": 1.18,
             "draw": 6,
-            "away": 11
+            "away": 14
           },
           "opening": {
             "home": 1.31,
@@ -321,17 +362,17 @@
             "away": 8.5
           },
           "p_devig": {
-            "home": 0.762,
+            "home": 0.78,
             "draw": 0.154,
-            "away": 0.084
+            "away": 0.066
           },
           "total": 2.5
         },
         "move_24h": {
           "side": "home",
-          "from": 0.75,
-          "to": 0.785,
-          "relative_change": 0.047
+          "from": 0.765,
+          "to": 0.825,
+          "relative_change": 0.078
         },
         "rating": {
           "model": "World Football Elo (eloratings.net)",
@@ -346,9 +387,9 @@
           },
           "expected_score_home": 0.895
         },
-        "fetched_at": "2026-11-16T06:53:10.782Z"
+        "fetched_at": "2026-11-16T16:05:19.578Z"
       },
-      "p_live_at": "2026-11-16T06:53:10.248Z"
+      "p_live_at": "2026-11-16T16:05:18.965Z"
     },
     {
       "id": "1375598",
@@ -384,9 +425,9 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.765,
+          "from": 0.755,
           "to": 0.765,
-          "relative_change": 0
+          "relative_change": 0.013
         },
         "rating": {
           "model": "Tennis Abstract Elo",
@@ -407,7 +448,7 @@
             "blend_hard": 0.691
           }
         },
-        "fetched_at": "2026-11-16T06:53:10.821Z"
+        "fetched_at": "2026-11-16T16:05:19.816Z"
       },
       "p_live_at": "2026-11-16T06:53:10.248Z"
     },
@@ -652,8 +693,8 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116",
           "espn_match": "Serbia at Greece",
           "decimal": {
-            "home": 1.42,
-            "draw": 4.5,
+            "home": 1.41,
+            "draw": 4.6,
             "away": 6.5
           },
           "opening": {
@@ -662,8 +703,8 @@
             "away": 6.5
           },
           "p_devig": {
-            "home": 0.652,
-            "draw": 0.205,
+            "home": 0.657,
+            "draw": 0.201,
             "away": 0.142
           },
           "total": 2.5
@@ -687,7 +728,7 @@
           },
           "expected_score_home": 0.786
         },
-        "fetched_at": "2026-11-16T06:53:10.990Z"
+        "fetched_at": "2026-11-16T16:05:19.740Z"
       },
       "p_live_at": "2026-11-16T06:53:10.248Z"
     },
@@ -776,9 +817,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116",
           "espn_match": "Malta at Gibraltar",
           "decimal": {
-            "home": 7,
-            "draw": 3.75,
-            "away": 1.5
+            "home": 6.5,
+            "draw": 3.6,
+            "away": 1.54
           },
           "opening": {
             "home": 7,
@@ -786,17 +827,17 @@
             "away": 1.43
           },
           "p_devig": {
-            "home": 0.133,
-            "draw": 0.248,
-            "away": 0.619
+            "home": 0.142,
+            "draw": 0.257,
+            "away": 0.601
           },
           "total": 2.5
         },
         "move_24h": {
           "side": "away",
-          "from": 0.655,
-          "to": 0.635,
-          "relative_change": -0.031
+          "from": 0.645,
+          "to": 0.615,
+          "relative_change": -0.047
         },
         "rating": {
           "model": "World Football Elo (eloratings.net)",
@@ -811,7 +852,7 @@
           },
           "expected_score_home": 0.306
         },
-        "fetched_at": "2026-11-16T06:53:11.510Z"
+        "fetched_at": "2026-11-16T16:05:20.070Z"
       }
     },
     {
@@ -886,9 +927,9 @@
       "start": "2026-11-16T19:45:00.000Z",
       "coverage": 1,
       "p_market": {
-        "home": 0.1235,
-        "draw": 0.2331,
-        "away": 0.6434
+        "home": 0.1265,
+        "draw": 0.2369,
+        "away": 0.6366
       },
       "p_first": {
         "home": 0.1365,
@@ -900,29 +941,29 @@
           "key": "away",
           "label": "Match winner",
           "selection": "Slovenia",
-          "p_market": 0.6434,
-          "fair_odds": 1.55
+          "p_market": 0.6366,
+          "fair_odds": 1.57
         },
         {
           "key": "away_dnb",
           "label": "Draw no bet",
           "selection": "Slovenia",
-          "p_market": 0.8765,
-          "fair_odds": 1.19
+          "p_market": 0.8735,
+          "fair_odds": 1.2
         },
         {
           "key": "ah_home_+1.5",
           "label": "Handicap",
           "selection": "North Macedonia +1.5",
-          "p_market": 0.645,
-          "fair_odds": 1.55
+          "p_market": 0.635,
+          "fair_odds": 1.57
         },
         {
           "key": "ah_home_+2.5",
           "label": "Handicap",
           "selection": "North Macedonia +2.5",
-          "p_market": 0.835,
-          "fair_odds": 1.2
+          "p_market": 0.84,
+          "fair_odds": 1.19
         },
         {
           "key": "ou_1.5_over",
@@ -949,8 +990,15 @@
           "key": "btts_no",
           "label": "Both teams to score",
           "selection": "No",
-          "p_market": 0.585,
-          "fair_odds": 1.71
+          "p_market": 0.595,
+          "fair_odds": 1.68
+        },
+        {
+          "key": "tt_away_2.5_under",
+          "label": "Slovenia goals",
+          "selection": "Under 2.5",
+          "p_market": 0.755,
+          "fair_odds": 1.32
         }
       ],
       "legs_first": {
@@ -961,7 +1009,8 @@
         "ou_1.5_over": 0.705,
         "ou_2.5_under": 0.555,
         "ou_3.5_under": 0.77,
-        "btts_no": 0.575
+        "btts_no": 0.575,
+        "tt_away_2.5_under": 0.755
       },
       "data": {
         "odds": {
@@ -971,7 +1020,7 @@
           "decimal": {
             "home": 6.5,
             "draw": 3.9,
-            "away": 1.5
+            "away": 1.49
           },
           "opening": {
             "home": 5.5,
@@ -979,17 +1028,17 @@
             "away": 1.61
           },
           "p_devig": {
-            "home": 0.143,
-            "draw": 0.238,
-            "away": 0.619
+            "home": 0.142,
+            "draw": 0.237,
+            "away": 0.621
           },
           "total": 2.5
         },
         "move_24h": {
           "side": "away",
           "from": 0.625,
-          "to": 0.645,
-          "relative_change": 0.032
+          "to": 0.635,
+          "relative_change": 0.016
         },
         "rating": {
           "model": "World Football Elo (eloratings.net)",
@@ -1004,9 +1053,9 @@
           },
           "expected_score_home": 0.361
         },
-        "fetched_at": "2026-11-16T06:53:11.183Z"
+        "fetched_at": "2026-11-16T16:05:19.914Z"
       },
-      "p_live_at": "2026-11-16T06:53:10.248Z"
+      "p_live_at": "2026-11-16T16:05:18.966Z"
     },
     {
       "id": "1218362",
@@ -1459,9 +1508,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116",
           "espn_match": "Scotland at Switzerland",
           "decimal": {
-            "home": 1.71,
+            "home": 1.77,
             "draw": 3.6,
-            "away": 4.6
+            "away": 4.1
           },
           "opening": {
             "home": 1.67,
@@ -1469,17 +1518,17 @@
             "away": 5
           },
           "p_devig": {
-            "home": 0.541,
-            "draw": 0.258,
-            "away": 0.202
+            "home": 0.52,
+            "draw": 0.256,
+            "away": 0.224
           },
           "total": 2.5
         },
         "move_24h": {
           "side": "home",
-          "from": 0.565,
-          "to": 0.555,
-          "relative_change": -0.018
+          "from": 0.555,
+          "to": 0.525,
+          "relative_change": -0.054
         },
         "rating": {
           "model": "World Football Elo (eloratings.net)",
@@ -1494,7 +1543,7 @@
           },
           "expected_score_home": 0.878
         },
-        "fetched_at": "2026-11-16T06:53:11.170Z"
+        "fetched_at": "2026-11-16T16:05:19.948Z"
       }
     },
     {
@@ -1590,9 +1639,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116",
           "espn_match": "Netherlands at Germany",
           "decimal": {
-            "home": 1.83,
+            "home": 1.87,
             "draw": 4.1,
-            "away": 3.45
+            "away": 3.35
           },
           "opening": {
             "home": 1.83,
@@ -1600,17 +1649,17 @@
             "away": 3.5
           },
           "p_devig": {
-            "home": 0.505,
+            "home": 0.497,
             "draw": 0.226,
-            "away": 0.269
+            "away": 0.277
           },
           "total": 3.5
         },
         "move_24h": {
           "side": "home",
           "from": 0.505,
-          "to": 0.515,
-          "relative_change": 0.02
+          "to": 0.505,
+          "relative_change": 0
         },
         "rating": {
           "model": "World Football Elo (eloratings.net)",
@@ -1625,7 +1674,7 @@
           },
           "expected_score_home": 0.537
         },
-        "fetched_at": "2026-11-16T06:53:11.608Z"
+        "fetched_at": "2026-11-16T16:05:19.998Z"
       }
     },
     {
@@ -1837,8 +1886,8 @@
           "espn_match": "Bulgaria at Estonia",
           "decimal": {
             "home": 2.05,
-            "draw": 3.15,
-            "away": 3.65
+            "draw": 3,
+            "away": 3.9
           },
           "opening": {
             "home": 2.2,
@@ -1846,17 +1895,17 @@
             "away": 3.4
           },
           "p_devig": {
-            "home": 0.452,
-            "draw": 0.294,
-            "away": 0.254
+            "home": 0.453,
+            "draw": 0.309,
+            "away": 0.238
           },
-          "total": 2.5
+          "total": 1.5
         },
         "move_24h": {
           "side": "home",
-          "from": 0.47,
+          "from": 0.465,
           "to": 0.475,
-          "relative_change": 0.011
+          "relative_change": 0.022
         },
         "rating": {
           "model": "World Football Elo (eloratings.net)",
@@ -1871,7 +1920,7 @@
           },
           "expected_score_home": 0.66
         },
-        "fetched_at": "2026-11-16T06:53:11.701Z"
+        "fetched_at": "2026-11-16T16:05:20.161Z"
       }
     },
     {

@@ -1,8 +1,8 @@
 {
   "date": "2026-11-16",
-  "researched_at": "2026-11-16T06:55:15Z",
-  "stage": "morning",
-  "summary": "Researched just after midnight on Mon 16 Nov and re-checked this morning with live prices; lineups are not out, so this is a draft until the final check. It is the last Nations League matchday, so every game was checked first for a favourite with nothing left to play for. Eight games were researched: three are kept at medium, two at low and three are excluded. No favourite's price fell overnight. Medium: Iceland–Luxembourg (p 0.775; Iceland need a point for promotion, Luxembourg have lost four straight without scoring; Iceland lose Hordur (suspended), Stefan Teitur and Kristall Mani (injured), the forecast wind and sleet have eased), Lithuania–Liechtenstein (p 0.87; the coach reports a fit squad, Kucys suspended; Liechtenstein have not scored in the group), Slovenia at North Macedonia (p 0.62; Slovenia need the win for second place, North Macedonia are relegated with one goal in five games; Slovenia are without Bijol and Sesko). Low, so not bet: Greece–Serbia (Serbia's absentees and XI are now verified, but Greece have no probable XI after the 0-7 loss), Medvedev–Cobolli (no second bookmaker price; tennis now needs high anyway). Excluded: Switzerland–Scotland and Gibraltar–Malta (the favourite has already won its group and the opponent still needs the result; both prices fell 3–5%), Germany–Netherlands (fierce rivalry, near coin flip).",
+  "researched_at": "2026-11-16T16:06:27Z",
+  "stage": "pre_kickoff",
+  "summary": "Researched just after midnight on Mon 16 Nov and re-checked this morning with live prices; lineups are not out, so this is a draft until the final check. It is the last Nations League matchday, so every game was checked first for a favourite with nothing left to play for. Eight games were researched: three are kept at medium, two at low and three are excluded. No favourite's price fell overnight. Medium: Iceland–Luxembourg (p 0.775; Iceland need a point for promotion, Luxembourg have lost four straight without scoring; Iceland lose Hordur (suspended), Stefan Teitur and Kristall Mani (injured), the forecast wind and sleet have eased), Lithuania–Liechtenstein (p 0.87; the coach reports a fit squad, Kucys suspended; Liechtenstein have not scored in the group), Slovenia at North Macedonia (p 0.62; Slovenia need the win for second place, North Macedonia are relegated with one goal in five games; Slovenia are without Bijol and Sesko). Low, so not bet: Greece–Serbia (Serbia's absentees and XI are now verified, but Greece have no probable XI after the 0-7 loss), Medvedev–Cobolli (no second bookmaker price; tennis now needs high anyway). Excluded: Switzerland–Scotland and Gibraltar–Malta (the favourite has already won its group and the opponent still needs the result; both prices fell 3–5%), Germany–Netherlands (fierce rivalry, near coin flip). Final check (about 16:05 UTC): the lineups for both 17:00 games are on ESPN. Iceland start an attacking 4-3-3 (Oskarsson, Gudjohnsen, Willumsson) with Hjortur and Victor Palsson covering the suspended Hordur, and the price has risen 6% since first listing; Lithuania play a cautious 5-3-2 with Ruzgis up front, and Liechtenstein, who have not scored in five games, drifted further. Neither lineup is confirmed by its federation, so both stay medium; the under-3.5 view for Iceland is shaded down because a heavy home win is the main risk.",
   "games": [
     {
       "id": "1307204",
@@ -14,33 +14,30 @@
         "away": 0.03
       },
       "checks": {
-        "team_news": "Updated this morning: coach Mindaugas Cepas's eve-of-match press conference (LRT, 15 Nov) says all players are fit and ready, with no injuries or illness reported. Armandas Kucys is confirmed suspended; Cepas did not name the replacement and listed Faustas Steponavicius, Manfredas Ruzgis and Edgaras Dubickas as options, so the attack looks no stronger than expected. He said the three days between games were used to fix the problems seen against Suriname. Liechtenstein: nothing new found this morning; last night's report of a fully fit squad (GK Tim-Tiado Oehri back from an ACL injury, 19-year-old Yonas Abido's first call-up) still stands. Searches did not surface any Vaterland, Volksblatt or lfv.li report with news of absentees or a changed XI.",
-        "lineups": "Not out and no new expected XI found this morning. Cepas did not reveal his side. Sports Mole's predicted XI is unchanged (Lithuania Bartkus; Sirvys, Kazukolovas, Utkus, Lasickas; Gineitis, Vorobjovas, Michelbrink; Jankauskas, Dubickas, Venckus; Liechtenstein 5-4-1 type shape). Official XIs to be checked about 60 minutes before kick-off.",
-        "rotation": "Cepas described the 0-0 v Suriname on 12 Nov as a game with many chances but no goal and said the team must be calmer and more patient in the final third. That points to a settled side, not heavy rotation, though the XI is unconfirmed. Liechtenstein lost 0-1 to Azerbaijan on 13 Nov and travel after a 3-day turnaround.",
-        "motivation": "Unchanged. Azerbaijan's win over Liechtenstein secured first place in the group. Cepas said Lithuania will not lack motivation and will make every effort to win; they need a point for 2nd place, and only a defeat would put it at risk. Liechtenstein have nothing realistic to play for beyond avoiding last place. League D is being abolished, so all teams move up to League C anyway. Interim coach Cepas has been in post 26 days, so the 7-day hard rule does not apply, and this is his second match. Not a derby.",
-        "form": "Lithuania: 2-0 at Liechtenstein, 1-1 v Azerbaijan, 0-1 at Azerbaijan, 0-0 v Suriname (many chances, none scored); only 3 goals in 3 group games. Liechtenstein: 0 goals in all three group games and in their last five matches, 1W 1D 13L in the last 15. Cepas himself describes them as physical and compact, defending in a low block and building through the middle, which fits a low-scoring game.",
-        "h2h": "Lithuania won 2-0 away on 24 Sep 2026, and the last three meetings were all 2-0 Lithuania wins. The pattern is low scoring: a deep Liechtenstein block and few big Lithuanian wins.",
-        "odds": "Live Polymarket (06:53 UTC): Lithuania 88.3%, draw 9.2%, Liechtenstein 2.5%. First listed 87.5 / 9.45 / 3.1, so Lithuania has firmed about 0.9 points since first listing. The 24h move is flat (0.885 to 0.885), so there is no story behind it and no team-news driver found. DraftKings via ESPN: 1.10 / 8.5 / 20 (de-vigged 84.4 / 10.9 / 4.6), opening 1.08 / 9 / 21, with a total line of 2.5. Live legs: Liechtenstein +2.5 at 59.5% (60.5% when first listed), Lithuania -1.5 at 65.5%, over 1.5 at 76.5%, under 3.5 at 70.5%, BTTS no at 78.5%. No Stake or Rainbet price seen.",
-        "models": "World Football Elo (eloratings.net): Lithuania 1280 v Liechtenstein 882, expected score 0.946. Squawka projects 2-0 and Sports Mole 3-0, both Lithuania.",
-        "venue_weather": "Darius and Girenas Stadium, Kaunas, kick-off 19:00 local (17:00 UTC). Forecast cold at 1-7 C, cloudy with light rain possible and a strong wind. No extreme weather or pitch problem found, and the conditions would slightly lower the goal count."
+        "team_news": "New today: no new injury or illness news found. The ESPN summary (event 401861184) now lists a Lithuania XI, with all names from the squad Cepas had named. Kucys is out through suspension; Ruzgis is in his place up front. Morning findings still hold: Cepas said all players are fit, and Liechtenstein reported a fully fit squad (GK Oehri back from an ACL injury). I found no Liechtenstein report from lfv.li or Vaterland and no late news from LFF, LRT or 15min.",
+        "lineups": "Lithuania (ESPN, 5-3-2): GK Voitinovicius; Gineitis, Sluta, Tutyskinas, Sirvys, Jankauskas, Dolznikov, Lasickas, Burba, Ruzgis, Kazukolovas. That is a back-five shape with Ruzgis in attack and Voitinovicius in goal rather than Bartkus. The ESPN list gives no positions beyond the keeper, so it is not a verified official XI, and I could not confirm it against LFF or LRT. Liechtenstein: no XI found anywhere (ESPN roster empty), so I do not know whether they picked a more attacking side than the expected 5-4-1 and could not check their strikers or shape. Searches (Sofascore, Sports Mole, starting11) only gave predicted XIs and the September fixture.",
+        "rotation": "The Lithuania XI looks like a settled, defensive-minded side. I did not check how many changes there are against the Suriname game. Liechtenstein's changes are unknown, since no XI is out.",
+        "motivation": "Unchanged. Lithuania need a point for 2nd place; Liechtenstein have nothing realistic to play for. Cepas is in his second match as interim coach.",
+        "form": "Lithuania scored only 3 goals in 3 group games and drew 0-0 with Suriname despite many chances. Liechtenstein have scored 0 in all three group games and in their last five matches, and have 1W 1D 13L in their last 15. This supports BTTS no.",
+        "h2h": "Lithuania won 2-0 away on 24 Sep 2026, and the last three meetings were all 2-0 Lithuania wins. Liechtenstein did not score in any of them.",
+        "odds": "Live Polymarket: Lithuania 88.5%, draw 9.4%, Liechtenstein 2.1%. First listed 87.5 / 9.5 / 3.1, so Lithuania has firmed about 1 point, with no adverse move. BTTS no is now 83% live, up from 78% when first listed. DraftKings via ESPN is 1.08 / 8 / 29 (opening 1.08 / 9 / 21), with a total line of 2.5. Liechtenstein have drifted out, which fits a low chance of them scoring. Stake and Rainbet prices: none seen.",
+        "models": "Elo (eloratings.net): Lithuania 1280 v Liechtenstein 882, expected score 0.946. Squawka projects 2-0 and Sports Mole 3-0, both Lithuania wins to nil.",
+        "venue_weather": "Darius and Girenas Stadium, Kaunas, kick-off 17:00 UTC. Cold, with a strong wind and possible light rain, which would slightly lower the goal count."
       },
-      "reason": "Nothing overnight changes last night's view. The Lithuania coach reports a fully fit squad, Kucys is confirmed out with the replacement unnamed, and no Liechtenstein absentees or changes were found, so there is no sign of a much stronger attack or a weakened Liechtenstein defence. The price has barely moved (Lithuania 88.3% live). Probabilities sit slightly below the market for the favourite because of the interim coach, a striker missing, only 3 goals in 3 group games and the 0-0 v Suriname, the deep Liechtenstein block and the cold, windy forecast. Views are kept only for legs that rest on Liechtenstein defending deep and Lithuania struggling to score big: under 3.5, BTTS no and Liechtenstein +2.5, which loses only if Lithuania win by 3 or more. The -1.5 handicap and over 1.5 stay without views because their likely failure is a 1-0 win or a draw. The +2.5 view is set a little under its live market price (58% v 59.5%).",
-      "main_risk": "A cagey 1-0 win or a draw, which would sink the handicap -1.5 and over 1.5 legs and hurt the outright win. For the Liechtenstein +2.5 slip leg the risk is a Lithuania win by 3 or more: they had many chances against Suriname and Cepas wants to convert them, a 3-0 win has been predicted by Sports Mole, and Liechtenstein have lost 13 of their last 15. Lineups not confirmed, and the replacement for Kucys is unknown.",
+      "reason": "For BTTS no (loses only if both teams score), the evidence is consistent. Liechtenstein have scored 0 goals in their last five matches, and in all three group games and the September meeting they did not score. Lithuania lined up in a 5-3-2, which points to a cautious side, and their price has firmed with no adverse news. BTTS no sits at 83% on the market. I put the view slightly under that at 79%, because the Liechtenstein XI is unconfirmed (I could not rule out a more attacking side than the expected 5-4-1) and a single goal from a set piece or counter would sink the leg. Confidence stays medium: the Lithuania XI is shown by ESPN but not verified against an official source, and the Liechtenstein XI is unknown. The views on Liechtenstein +2.5 and under 3.5 sit a little below their market prices. The -1.5 and over 1.5 legs get no view.",
+      "main_risk": "Liechtenstein score once, for instance from a set piece or counter, while Lithuania score several, which would turn BTTS no into a loss. The unseen Liechtenstein XI could also hide a more attacking selection. A Lithuania win by 3 or more would sink Liechtenstein +2.5.",
       "sources": [
-        "https://www.lrt.lt/naujienos/sportas/10/3115088/cepas-pries-dvikova-su-lichtensteinu-desime-visas-pastangas-kad-pasiektume-pergale",
-        "https://www.lrt.lt/naujienos/sportas/10/3103142/paskelbta-futbolo-rinktines-sudetis-dvikovoms-su-surinamu-ir-lichtensteinu",
-        "https://15min.lt/sportas/naujiena/futbolas/egzotiskas-isbandymas-lapkricio-zvarboje-lietuva-surinamas-24-2804940",
-        "https://www.sportsmole.co.uk/football/liechtenstein/uefa-nations-league/preview/lithuania-vs-liechtenstein-prediction-team-news-lineups_609127.html",
-        "https://tips.gg/article/lithuania-vs-liechtenstein-16-11-2026/",
-        "https://www.squawka.com/en/news/previews/lithuania-vs-liechtenstein-predictions-betting-tips-16-11-26/",
-        "https://www.eloratings.net/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861184",
         "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116",
-        "https://en.wikipedia.org/wiki/2026%E2%80%9327_UEFA_Nations_League_D"
+        "https://www.lrt.lt/naujienos/sportas/10/3115088/cepas-pries-dvikova-su-lichtensteinu-desime-visas-pastangas-kad-pasiektume-pergale",
+        "https://www.sportsmole.co.uk/football/liechtenstein/uefa-nations-league/preview/lithuania-vs-liechtenstein-prediction-team-news-lineups_609127.html",
+        "https://www.eloratings.net/",
+        "https://starting11.com/fixtures/lithuania-vs-liechtenstein"
       ],
       "views": {
+        "btts_no": 0.79,
         "ou_3.5_under": 0.7,
-        "btts_no": 0.78,
-        "ah_away_+2.5": 0.58
+        "ah_away_+2.5": 0.57
       },
       "prices": []
     },
@@ -59,40 +56,42 @@
       "exclude": false,
       "confidence": "medium",
       "p": {
-        "home": 0.775,
-        "draw": 0.16,
-        "away": 0.065
+        "home": 0.8,
+        "draw": 0.15,
+        "away": 0.05
       },
       "checks": {
-        "team_news": "Updated this morning. Iceland: Hordur Bjorgvin Magnusson is suspended (fotbolti.net, mbl.is 13 Nov). Stefan Teitur Thordarson is ruled out injured (fotbolti.net likely-XI piece, 15 Nov), which settles last night's open question. Kristall Mani Ingason left the Bulgaria game injured, was due to have a scan on Sunday, and Visir lists Saevar Atli Magnusson as his replacement in the squad. The scan result was not found. Fotbolti.net quotes him saying a cruciate ligament tear would be the worst news. Hjortur Hermannsson, Brynjar Ingi Bjarnason and Saevar Atli Magnusson were called up. Albert Gudmundsson, goalkeeper Elias Rafn Olafsson and Andri Fannar Baldursson remain out (Visir, per last night). Luxembourg: Omar Natami suspended, Dirk Carlson back (Sports Mole, per last night). No new Luxembourg news was found.",
-        "lineups": "Fotbolti.net (15 Nov) expects two changes from the 5-0 win at Bulgaria. Hjortur Hermannsson is predicted in central defence for the suspended Hordur, with Gudlaugur Victor Palsson as the alternative and Brynjar Ingi also called up. Another preview has Danil Leo Gretarsson moving to the right and Aron Einar Gunnarsson as a contender at centre-back. Fotbolti.net also has Arnor Sigurdsson likely to replace Kristall Mani, ahead of Jon Dagur Thorsteinsson. Stefan Teitur and Kristall Mani are therefore not expected to start, so the tips.gg XI that kept them is out of date. Sports Mole's predicted Luxembourg XI (4-1-4-1) is unchanged from last night. Nothing is official; the XIs come about 60 minutes before kick-off.",
-        "rotation": "Arnar Gunnlaugsson said on Sunday (Visir and fotbolti.net) that he wants to change as little as possible after the 5-0 win but is forced to make two changes, and that all the players in the squad could start. The changes come from the suspension and the injuries, not from choice. It is the last group game, so there is no later fixture to save players for. Luxembourg lost 0-1 at Estonia and no heavy rotation was reported for them. Depth at centre-back is thin.",
-        "motivation": "Unchanged. Iceland lead the group on 11 points from 5 games. Visir says a loss would let Estonia take first place by beating Bulgaria. A win secures the group and promotion; a draw is likely enough. Winning the group also helps seeding for the Euro 2028 qualifying draw. Luxembourg cannot move up and are playing for pride. The favourite still needs a result, so this is not an exclusion.",
-        "form": "Unchanged. Iceland: 1-1 Estonia, 3-0 at Luxembourg, 3-0 Bulgaria, 0-0 at Estonia, 5-0 at Bulgaria, with one goal conceded in five games. Luxembourg: four straight defeats without scoring (0-3 Iceland, 0-1 Estonia, 0-2 Bulgaria, 0-1 Estonia) after a 2-1 win at Bulgaria. Both Iceland draws came against Estonia.",
-        "h2h": "Unchanged. Iceland won 3-0 in Luxembourg on 29 Sept 2026. Luxembourg have only two wins against Iceland (3-1 in Sept 2023 is the other), and none away.",
-        "odds": "Live Polymarket Iceland win is 0.7895 (draw 0.152, away 0.059). It was first listed at 0.7765, so the favourite is up 1.3 points, and 0.775 last night. DraftKings via ESPN now has Iceland 1.21, draw 6.00, Luxembourg 11.0, against 1.31/5.00/8.50 at the open (de-vigged 76.2/15.4/8.4, total 2.5). Last night it was 1.26/5.50/9.50. The move is small and runs in the favourite's favour. The team-news losses (Stefan Teitur, Kristall Mani, Hordur) were already public and did not move it. No stories were found against Iceland. Stake and Rainbet not seen.",
-        "models": "World Football Elo: Iceland 1632, Luxembourg 1359, expected score for Iceland 0.895 (draw counted as half). Consistent with a win chance in the mid to high 70s.",
-        "venue_weather": "Laugardalsvollur, Reykjavik, 17:00 UTC, home venue. Yr hourly table for today shows -4C at 17:00 rising to -2C at 19:00, a moderate 6 m/s easterly wind, no precipitation (no sleet or snow) and partly cloudy skies. This is calmer and drier than last night's forecasts of 11 m/s with rain and sleet. Fotbolti.net's groundsman says there is no frost in the pitch, it is covered and in fairly good condition, and the undersoil heating has been at maximum for weeks. Little risk to the match. The kick-off listing at 12:00 on one site is a conflict; everything else says 17:00 UTC."
+        "team_news": "New today: ESPN summary (event 401861182) now shows both starting XIs. Iceland start Hakon Valdimarsson (GK), Logi Tomasson, Hjortur Hermannsson, Victor Palsson and Daniel Gretarsson in defence, with Isak Johannesson, Mikael Ellertsson and Hakon Haraldsson in midfield. Orri Oskarsson, Andri Gudjohnsen and Brynjolfur Willumsson lead the attack. Hjortur and Victor Palsson cover for the suspended Hordur, which matches the morning's prediction. Gylfi Sigurdsson, Arnor Sigurdsson, Jon Dagur, Aron Gunnarsson and Brynjar Ingi are on the bench. Luxembourg start Anthony Moris (GK), Carlson, Mahmutovic, Selimovic, De Pina, Moreira, Olesen, Bohnert, Jans, Vincent Thill and Videira. The XIs come from ESPN only. I did not confirm them on KSI, fotbolti.net or Visir, and no late injury news was found. No Luxembourg weakness beyond the already known Natami suspension.",
+        "lineups": "ESPN lists Iceland in a 4-3-3 with three attackers (Orri, Gudjohnsen, Brynjolfur) and Luxembourg in a 3-1-4-2 with Vincent Thill and Videira up front. Iceland's XI is attack-minded, with Gylfi and Arnor held back on the bench. The back four is makeshift, with Hjortur and Victor Palsson at centre-back for the suspended Hordur. Luxembourg's goalkeeper is Moris, their usual number one. Official federation confirmation not seen.",
+        "rotation": "No heavy rotation. The changes come from the suspension and injuries (Hordur, Stefan Teitur, Kristall Mani), not from choice. Nothing in the XI suggests a rested side.",
+        "motivation": "Unchanged. Iceland need a point or a win for the group and promotion. Luxembourg are playing for pride.",
+        "odds": "Live Polymarket Iceland win is 0.8236 (draw 0.1326, away 0.0438), up from 0.7765 first listed. DraftKings via ESPN is now 1.17 (-600) / 6.5 (+550) / 15 (+1400), against -320 / +400 / +750 at the open. The total stays at 2.5, over -140 and under +110. The rise is explained by the confirmed strong, attacking Iceland XI. It runs in the favourite's favour. It also makes a 4+ goal game somewhat more likely, but the 2.5 line has hardly moved. The live Under 3.5 is 0.705 against 0.665 first listed, so that leg's price has risen, not fallen. Stake and Rainbet not seen.",
+        "models": "World Football Elo: Iceland 1632, Luxembourg 1359, expected score for Iceland 0.895. Consistent with the market.",
+        "venue_weather": "Unchanged from the morning: Laugardalsvollur, about -4C, light wind, no precipitation, pitch fine.",
+        "form": "Unchanged. Iceland: 1-1 Estonia, 3-0 at Luxembourg, 3-0 Bulgaria, 0-0 at Estonia, 5-0 at Bulgaria, with one goal conceded in five games. Luxembourg: four straight defeats without scoring (0-3 Iceland, 0-1 Estonia, 0-2 Bulgaria, 0-1 Estonia) after a 2-1 win at Bulgaria. Both Iceland draws came against Estonia. (unchanged from the morning check)",
+        "h2h": "Unchanged. Iceland won 3-0 in Luxembourg on 29 Sept 2026. Luxembourg have only two wins against Iceland (3-1 in Sept 2023 is the other), and none away. (unchanged from the morning check)"
       },
-      "reason": "Iceland are clear favourites: Elo 1632 vs 1359, DraftKings 1.21 and a live Polymarket price of 78.9%. They are at home, need only a point for promotion, and face a bottom side that has lost four in a row without scoring. I sit slightly under the market (77.5% vs 78.9%) and keep the away chance at 6.5% because Iceland lose Stefan Teitur, Kristall Mani and the suspended Hordur, with centre-back depth thin. The draw is held at 16%, with Iceland's two draws against Estonia as the reason it stays real. The weather is now calmer than feared. A straight win is allowed since the draw is under 25%.",
-      "main_risk": "A narrow home win or a draw: Iceland drew 0-0 and 1-1 with Estonia, and they now have a makeshift back line (Hjortur or Gudlaugur Victor at centre-back, Daniel Leo moved across) plus a weaker attack without Kristall Mani and Stefan Teitur. A Luxembourg side with nothing to lose could sit deep. Kristall Mani's scan result and the official XIs are still unknown.",
+      "reason": "The official-looking XIs (ESPN) show a strong, attacking Iceland side at home against a weak Luxembourg that has lost four straight without scoring, and the market has moved up to 82% for Iceland. I sit a little under the market (80%) because the XI is not confirmed on federation sources and the back line is makeshift. For Under 3.5, the attacking 4-3-3 and a Luxembourg 3-1-4-2 raise the chance of a lopsided score a little, so I shade the view below the live 0.705 to 0.67. The DraftKings total of 2.5 has not moved, which supports a low-scoring game as the central case.",
+      "main_risk": "A heavy home win. Iceland's attacking XI against a weak Luxembourg could produce 4+ goals, which would lose the Under 3.5 leg. A makeshift Iceland back line could also concede.",
       "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861182",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116",
         "https://www.fotbolti.net/news/15-11-2026/liklegt-byrjunarlid-islands-arnar-vill-breyta-sem-minnstu",
+        "https://www.eloratings.net/",
         "https://www.visir.is/g/20262963438d/arnar-og-isak-satu-fyrir-svorum",
         "https://www.fotbolti.net/news/14-11-2026/landslidid-maett-heim-i-kuldann-ekkert-frost-i-vellinum",
         "https://www.mbl.is/sport/efstadeild/2026/11/13/hordur_bjorgvin_i_bann/",
         "https://www.fotbolti.net/news/13-11-2026/hordur-i-banni-gegn-luxemborg",
         "https://www.yr.no/en/forecast/hourly-table/2-3413829/Iceland/Capital%20Region/Reykjavik/Reykjavik?i=0",
-        "https://www.sportsmole.co.uk/football/iceland/uefa-nations-league/preview/iceland-vs-luxembourg-prediction-team-news-lineups_609129.html",
-        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116",
-        "https://www.eloratings.net/"
+        "https://www.sportsmole.co.uk/football/iceland/uefa-nations-league/preview/iceland-vs-luxembourg-prediction-team-news-lineups_609129.html"
       ],
       "views": {
-        "ah_away_+2.5": 0.67,
-        "ou_1.5_over": 0.78,
-        "ou_3.5_under": 0.65,
-        "ou_4.5_under": 0.81,
-        "btts_no": 0.58
+        "ah_away_+3.5": 0.83,
+        "ou_1.5_over": 0.76,
+        "ou_3.5_under": 0.67,
+        "btts_no": 0.64,
+        "tt_home_1.5_over": 0.69,
+        "tt_away_0.5_under": 0.62
       },
       "prices": []
     },
