@@ -1,6 +1,6 @@
 import { computeStats, SPORTS } from '../lib/stats.js';
 import { lineChart } from '../ui/charts.js';
-import { addDays, esc, localDate, money, pct, signedPct } from '../ui/format.js';
+import { addDays, dayLabel, esc, localDate, money, pct, signedPct } from '../ui/format.js';
 
 const PERIODS = [
   ['all', 'All time'],
@@ -61,18 +61,125 @@ function takeaways(s) {
   return out;
 }
 
+// --- Research record ---------------------------------------------------------
+// Every game the daily research looked at (research-record.json, written by
+// scripts/daily.mjs), its final rating and whether the market favourite won.
+
+let record = null;
+let recordRequest = null;
+
+function loadRecord() {
+  if (!recordRequest) {
+    recordRequest = fetch(`${import.meta.env.BASE_URL}research-record.json?t=${Date.now()}`, { cache: 'no-store' })
+      .then((r) => (r.ok ? r.json() : null))
+      .catch(() => null)
+      .then((r) => (record = r));
+  }
+  return recordRequest;
+}
+
+const RATINGS = [
+  ['high', 'High'],
+  ['medium', 'Medium'],
+  ['low', 'Low'],
+  ['excluded', 'Excluded'],
+];
+
+const MARK = {
+  fav_won: ['good', '✓', 'Favourite won'],
+  fav_lost: ['bad', '✕', 'Favourite lost'],
+  draw: ['', '=', 'Draw'],
+  not_played: ['muted', '–', 'Not played'],
+};
+
+const settled = (g) => g.result === 'fav_won' || g.result === 'fav_lost' || g.result === 'draw';
+
+function tally(games) {
+  const done = games.filter(settled);
+  const won = done.filter((g) => g.result === 'fav_won').length;
+  return {
+    n: done.length,
+    won,
+    draw: done.filter((g) => g.result === 'draw').length,
+    lost: done.filter((g) => g.result === 'fav_lost').length,
+    expected: done.length ? done.reduce((a, g) => a + g.fav_p, 0) / done.length : null,
+  };
+}
+
+function resultCell(g) {
+  if (!g.result) return '<span class="muted">Open</span>';
+  const [cls, icon, label] = MARK[g.result] || ['', '', g.result];
+  const who = g.result === 'fav_lost' && g.winner ? ` (${esc(g.winner)} won)` : '';
+  return `<span class="${cls}">${icon} ${label}</span>${who}`;
+}
+
+function recordHtml(r) {
+  if (!r?.games?.length) return '<section class="card"><h2>Research record</h2><p class="muted small">The record appears after the next site build.</p></section>';
+  const all = tally(r.games);
+  const legs = r.legs || { won: 0, void: 0, lost: 0 };
+  const days = [...new Set(r.games.map((g) => g.date))].sort().reverse();
+  const rows = RATINGS.map(([k, label]) => [label, k, tally(r.games.filter((g) => g.rating === k))]).filter(([, , t]) => t.n);
+  return `<section class="card record-card">
+    <h2>Research record</h2>
+    <p class="card__sub">Every game the daily research looked at since ${esc(dayLabel(r.start))}, and whether the market favourite won. Ratings are the final ones, after the last check. This is the research, not your bets.</p>
+    <div class="tiles tiles--simple record-tiles">
+      ${tile('Favourites won', all.n ? `${all.won} of ${all.n}` : '–', '', all.n ? `${pct(all.won / all.n)} · the market expected ${pct(all.expected)}` : '')}
+      ${tile('Slip legs', `${legs.won} won`, '', `${legs.void} refunded · ${legs.lost} lost`)}
+    </div>
+    <div class="table-wrap">
+      <table class="table table--compact simple">
+        <thead><tr><th scope="col" class="rt-first">Rating</th><th scope="col">Games</th><th scope="col">Fav. won</th><th scope="col">Draw</th><th scope="col">Lost</th><th scope="col">Market</th></tr></thead>
+        <tbody>${rows
+          .map(([label, k, t]) => `<tr><th scope="row"><span class="conf conf--${k === 'excluded' ? 'market' : k}">${esc(label)}</span></th><td>${t.n}</td><td><strong>${t.won}</strong> <span class="muted">(${pct(t.won / t.n)})</span></td><td>${t.draw}</td><td class="${t.lost ? 'bad' : ''}">${t.lost}</td><td class="muted">${pct(t.expected)}</td></tr>`)
+          .join('')}</tbody>
+      </table>
+    </div>
+    <p class="muted small">“Market” is the favourite’s average market chance in that group, so it shows whether the group did better or worse than its odds. “Low” is not a prediction that the favourite loses: it means too much could not be checked to stake money on it. Excluded games break a hard rule (derby, nothing to play for, rotation and so on).</p>
+    <div class="record-days">${days
+      .map((d, i) => {
+        const games = r.games.filter((g) => g.date === d);
+        const t = tally(games);
+        const open = games.filter((g) => !g.result).length;
+        return `<details class="record-day"${i === 0 ? ' open' : ''}>
+          <summary><strong>${esc(dayLabel(d))}</strong><span class="muted">${t.n ? `favourites ${t.won} of ${t.n}` : ''}${open ? `${t.n ? ' · ' : ''}${open} open` : ''}</span></summary>
+          <div class="table-wrap"><table class="table table--compact record-games">
+            <thead><tr><th scope="col">Game</th><th scope="col">Rating</th><th scope="col">Result</th></tr></thead>
+            <tbody>${games
+              .map((g) => `<tr><td class="rg-event">${g.on_slip ? '<span class="record-star" title="On that day’s slip">★</span> ' : ''}${esc(g.event)}<div class="muted small">Favourite: ${esc(g.favourite)} ${pct(g.fav_p)}</div></td><td><span class="conf conf--${g.rating === 'excluded' ? 'market' : esc(g.rating)}">${esc(g.rating)}</span></td><td class="rg-result">${resultCell(g)}</td></tr>`)
+              .join('')}</tbody>
+          </table></div>
+        </details>`;
+      })
+      .join('')}</div>
+    <p class="muted small">★ = on that day’s slip.</p>
+  </section>`;
+}
+
+function fillRecord(el) {
+  if (!el) return;
+  if (record) {
+    el.innerHTML = recordHtml(record);
+    return;
+  }
+  el.innerHTML = '<section class="card"><h2>Research record</h2><p class="muted small">Loading…</p></section>';
+  loadRecord().then(() => {
+    if (el.isConnected) el.innerHTML = recordHtml(record);
+  });
+}
+
 export function renderStats(root, ctx) {
   const today = localDate();
   const bets = period === 'all' ? ctx.bets : ctx.bets.filter((b) => b.date > addDays(today, -Number(period)));
   root.innerHTML = `
     <section class="page-head">
       <h1>Stats</h1>
-      <p class="muted">How your own bets are doing.</p>
+      <p class="muted">How your own bets are doing, and below, how the daily research has done.</p>
     </section>
     <section class="filters">
       <div class="chips" role="group" aria-label="Period">${PERIODS.map(([v, l]) => `<button type="button" class="chip${period === v ? ' chip--on' : ''}" data-p="${v}" aria-pressed="${period === v}">${l}</button>`).join('')}</div>
     </section>
-    <div class="stats-body"></div>`;
+    <div class="stats-body"></div>
+    <div class="record-body"></div>`;
   root.querySelectorAll('[data-p]').forEach((b) =>
     b.addEventListener('click', () => {
       period = b.dataset.p;
@@ -80,6 +187,7 @@ export function renderStats(root, ctx) {
     })
   );
   const body = root.querySelector('.stats-body');
+  fillRecord(root.querySelector('.record-body'));
   if (!bets.length) {
     body.innerHTML = '<p class="empty">No bets in this period.</p>';
     return;

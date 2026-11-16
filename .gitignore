@@ -1,6 +1,7 @@
 /dist
 /node_modules
 /public/history.json
+/public/research-record.json
 .env
 .env.*
 .DS_Store

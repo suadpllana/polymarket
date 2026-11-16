@@ -17,6 +17,7 @@ import { SLIP, gatherGames, round } from './lib/football.mjs';
 import { fetchMarket, parseArray } from './lib/polymarket.mjs';
 import { BETTABLE, TIER_NOTE, describe, driftProblem, pickSlip } from './lib/pick.mjs';
 import { loadResearch } from './lib/research.mjs';
+import { buildRecord } from './lib/record.mjs';
 import { TIMEZONE, bettingWindow, localDate, tomorrowWindow, zonedParts } from './lib/time.mjs';
 
 // Until this hour the build waits for the morning research; after it, a day
@@ -49,6 +50,18 @@ function markEarlyWon(entries) {
 }
 
 const OUT = new URL('../public/history.json', import.meta.url);
+const RECORD_OUT = new URL('../public/research-record.json', import.meta.url);
+
+/** The published research record, or null (a first run, or the site is unreachable). */
+async function loadRecord(siteUrl) {
+  if (!siteUrl) return null;
+  try {
+    const res = await fetch(new URL('research-record.json', siteUrl.endsWith('/') ? siteUrl : `${siteUrl}/`), { cache: 'no-store' });
+    return res.ok ? await res.json() : null;
+  } catch {
+    return null;
+  }
+}
 const DRY = process.argv.includes('--dry');
 const TOMORROW = process.argv.includes('--tomorrow');
 
@@ -324,6 +337,17 @@ async function main() {
   await mkdir(new URL('.', OUT), { recursive: true });
   await writeFile(OUT, `${JSON.stringify(out, null, 2)}\n`);
   console.log(`Wrote ${out.entries.length} entries.`);
+
+  // The research record for the Stats page. A failure here must not stop the
+  // slip from being published, so it is logged and skipped.
+  try {
+    const record = await buildRecord(await loadRecord(process.env.SITE_URL), history.entries);
+    await writeFile(RECORD_OUT, `${JSON.stringify(record)}\n`);
+    const settled = record.games.filter((g) => g.result && g.result !== 'not_played').length;
+    console.log(`Wrote the research record: ${record.games.length} games, ${settled} settled.`);
+  } catch (e) {
+    console.warn(`Research record not updated: ${e.message}`);
+  }
 }
 
 main().catch((e) => {
