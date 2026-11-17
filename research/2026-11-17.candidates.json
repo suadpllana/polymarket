@@ -16,9 +16,9 @@
       "start": "2026-11-17T18:00:00.000Z",
       "coverage": 1,
       "p_market": {
-        "home": 0.785,
+        "home": 0.795,
         "draw": 0,
-        "away": 0.215
+        "away": 0.205
       },
       "p_first": {
         "home": 0.815,
@@ -30,8 +30,8 @@
           "key": "home",
           "label": "Moneyline",
           "selection": "Zalgiris Kaunas",
-          "p_market": 0.785,
-          "fair_odds": 1.27
+          "p_market": 0.795,
+          "fair_odds": 1.26
         }
       ],
       "legs_first": {
@@ -40,13 +40,13 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.805,
-          "to": 0.785,
-          "relative_change": -0.025
+          "from": 0.81,
+          "to": 0.795,
+          "relative_change": -0.019
         },
-        "fetched_at": "2026-11-17T06:51:50.234Z"
+        "fetched_at": "2026-11-17T14:22:42.662Z"
       },
-      "p_live_at": "2026-11-17T06:51:49.667Z"
+      "p_live_at": "2026-11-17T14:22:42.055Z"
     },
     {
       "id": "1364552",
@@ -58,9 +58,9 @@
       "start": "2026-11-17T16:00:00.000Z",
       "coverage": 1,
       "p_market": {
-        "home": 0.74,
+        "home": 0.765,
         "draw": 0,
-        "away": 0.26
+        "away": 0.235
       },
       "p_first": {
         "home": 0.76,
@@ -72,8 +72,8 @@
           "key": "home",
           "label": "Moneyline",
           "selection": "BC Dubai",
-          "p_market": 0.74,
-          "fair_odds": 1.35
+          "p_market": 0.765,
+          "fair_odds": 1.31
         }
       ],
       "legs_first": {
@@ -82,13 +82,13 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.74,
-          "to": 0.74,
-          "relative_change": 0
+          "from": 0.76,
+          "to": 0.765,
+          "relative_change": 0.007
         },
-        "fetched_at": "2026-11-17T06:51:50.295Z"
+        "fetched_at": "2026-11-17T14:22:42.575Z"
       },
-      "p_live_at": "2026-11-17T06:51:49.668Z"
+      "p_live_at": "2026-11-17T14:22:42.054Z"
     },
     {
       "id": "1364540",
@@ -124,11 +124,11 @@
       "data": {
         "move_24h": {
           "side": "away",
-          "from": 0.725,
-          "to": 0.795,
-          "relative_change": 0.097
+          "from": 0.72,
+          "to": 0.725,
+          "relative_change": 0.007
         },
-        "fetched_at": "2026-11-17T06:51:50.459Z"
+        "fetched_at": "2026-11-17T14:22:42.921Z"
       },
       "p_live_at": "2026-11-17T06:51:49.668Z"
     },
@@ -166,11 +166,11 @@
       "data": {
         "move_24h": {
           "side": "away",
-          "from": 0.43,
-          "to": 0.66,
-          "relative_change": 0.535
+          "from": 0.705,
+          "to": 0.685,
+          "relative_change": -0.028
         },
-        "fetched_at": "2026-11-17T06:51:50.403Z"
+        "fetched_at": "2026-11-17T14:22:42.833Z"
       },
       "p_live_at": "2026-11-17T06:51:49.668Z"
     },
@@ -278,7 +278,7 @@
           "decimal": {
             "home": 6.5,
             "draw": 4.8,
-            "away": 1.39
+            "away": 1.4
           },
           "opening": {
             "home": 6.5,
@@ -286,17 +286,17 @@
             "away": 1.4
           },
           "p_devig": {
-            "home": 0.142,
-            "draw": 0.193,
-            "away": 0.665
+            "home": 0.143,
+            "draw": 0.194,
+            "away": 0.664
           },
           "total": 3.5
         },
         "move_24h": {
           "side": "away",
-          "from": 0.665,
+          "from": 0.685,
           "to": 0.695,
-          "relative_change": 0.045
+          "relative_change": 0.015
         },
         "rating": {
           "model": "World Football Elo (eloratings.net)",
@@ -311,7 +311,7 @@
           },
           "expected_score_home": 0.217
         },
-        "fetched_at": "2026-11-17T06:51:51.226Z"
+        "fetched_at": "2026-11-17T14:22:43.535Z"
       },
       "p_live_at": "2026-11-17T06:51:49.668Z"
     },
@@ -350,8 +350,8 @@
         "move_24h": {
           "side": "home",
           "from": 0.645,
-          "to": 0.645,
-          "relative_change": 0
+          "to": 0.655,
+          "relative_change": 0.016
         },
         "rating": {
           "model": "Tennis Abstract Elo",
@@ -372,7 +372,7 @@
             "blend_hard": 0.627
           }
         },
-        "fetched_at": "2026-11-17T06:51:50.959Z"
+        "fetched_at": "2026-11-17T14:22:43.516Z"
       }
     },
     {
@@ -409,11 +409,11 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.735,
-          "to": 0.67,
-          "relative_change": -0.088
+          "from": 0.67,
+          "to": 0.635,
+          "relative_change": -0.052
         },
-        "fetched_at": "2026-11-17T06:51:50.702Z"
+        "fetched_at": "2026-11-17T14:22:43.236Z"
       },
       "p_live_at": "2026-11-17T06:51:49.668Z"
     },
@@ -427,9 +427,9 @@
       "start": "2026-11-17T19:30:00.000Z",
       "coverage": 1,
       "p_market": {
-        "home": 0.235,
+        "home": 0.295,
         "draw": 0,
-        "away": 0.765
+        "away": 0.705
       },
       "p_first": {
         "home": 0.375,
@@ -441,8 +441,8 @@
           "key": "away",
           "label": "Moneyline",
           "selection": "Hapoel Tel Aviv",
-          "p_market": 0.765,
-          "fair_odds": 1.31
+          "p_market": 0.705,
+          "fair_odds": 1.42
         }
       ],
       "legs_first": {
@@ -451,13 +451,13 @@
       "data": {
         "move_24h": {
           "side": "away",
-          "from": 0.78,
-          "to": 0.765,
-          "relative_change": -0.019
+          "from": 0.765,
+          "to": 0.705,
+          "relative_change": -0.078
         },
-        "fetched_at": "2026-11-17T06:51:50.689Z"
+        "fetched_at": "2026-11-17T14:22:43.236Z"
       },
-      "p_live_at": "2026-11-17T06:51:49.668Z"
+      "p_live_at": "2026-11-17T14:22:42.055Z"
     },
     {
       "id": "1364544",
@@ -492,12 +492,12 @@
       },
       "data": {
         "move_24h": {
-          "side": "away",
-          "from": 0.535,
-          "to": 0.515,
-          "relative_change": -0.037
+          "side": "home",
+          "from": 0.47,
+          "to": 0.505,
+          "relative_change": 0.074
         },
-        "fetched_at": "2026-11-17T06:51:51.415Z"
+        "fetched_at": "2026-11-17T14:22:43.855Z"
       }
     },
     {
@@ -601,8 +601,8 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117",
           "espn_match": "Austria at Israel",
           "decimal": {
-            "home": 3.9,
-            "draw": 3.7,
+            "home": 3.8,
+            "draw": 3.85,
             "away": 1.8
           },
           "opening": {
@@ -611,17 +611,17 @@
             "away": 1.57
           },
           "p_devig": {
-            "home": 0.237,
-            "draw": 0.25,
-            "away": 0.513
+            "home": 0.244,
+            "draw": 0.241,
+            "away": 0.515
           },
-          "total": 2.5
+          "total": 3.5
         },
         "move_24h": {
           "side": "away",
           "from": 0.545,
-          "to": 0.525,
-          "relative_change": -0.037
+          "to": 0.535,
+          "relative_change": -0.018
         },
         "rating": {
           "model": "World Football Elo (eloratings.net)",
@@ -636,7 +636,7 @@
           },
           "expected_score_home": 0.334
         },
-        "fetched_at": "2026-11-17T06:51:51.349Z"
+        "fetched_at": "2026-11-17T14:22:43.660Z"
       }
     },
     {
@@ -740,9 +740,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117",
           "espn_match": "Romania at Bosnia-Herzegovina",
           "decimal": {
-            "home": 2.05,
-            "draw": 3.5,
-            "away": 3.3
+            "home": 2.1,
+            "draw": 3.45,
+            "away": 3.15
           },
           "opening": {
             "home": 1.91,
@@ -750,17 +750,17 @@
             "away": 3.8
           },
           "p_devig": {
-            "home": 0.453,
-            "draw": 0.265,
-            "away": 0.281
+            "home": 0.439,
+            "draw": 0.268,
+            "away": 0.293
           },
           "total": 2.5
         },
         "move_24h": {
           "side": "home",
-          "from": 0.505,
-          "to": 0.465,
-          "relative_change": -0.079
+          "from": 0.515,
+          "to": 0.445,
+          "relative_change": -0.136
         },
         "rating": {
           "model": "World Football Elo (eloratings.net)",
@@ -775,7 +775,7 @@
           },
           "expected_score_home": 0.745
         },
-        "fetched_at": "2026-11-17T06:51:51.440Z"
+        "fetched_at": "2026-11-17T14:22:43.759Z"
       },
       "p_live_at": "2026-11-17T06:51:49.668Z"
     },
@@ -817,36 +817,71 @@
           "key": "ah_away_+1.5",
           "label": "Handicap",
           "selection": "Northern Ireland +1.5",
-          "p_market": 0.77,
-          "fair_odds": 1.3
+          "p_market": 0.755,
+          "fair_odds": 1.32
         },
         {
           "key": "ou_1.5_over",
           "label": "Total goals",
           "selection": "Over 1.5",
-          "p_market": 0.645,
-          "fair_odds": 1.55
+          "p_market": 0.665,
+          "fair_odds": 1.5
         },
         {
           "key": "ou_2.5_under",
           "label": "Total goals",
           "selection": "Under 2.5",
-          "p_market": 0.625,
-          "fair_odds": 1.6
+          "p_market": 0.605,
+          "fair_odds": 1.65
         },
         {
           "key": "ou_3.5_under",
           "label": "Total goals",
           "selection": "Under 3.5",
-          "p_market": 0.815,
-          "fair_odds": 1.23
+          "p_market": 0.805,
+          "fair_odds": 1.24
         },
         {
           "key": "btts_no",
           "label": "Both teams to score",
           "selection": "No",
-          "p_market": 0.565,
-          "fair_odds": 1.77
+          "p_market": 0.545,
+          "fair_odds": 1.83
+        },
+        {
+          "key": "tt_home_0.5_over",
+          "label": "Hungary goals",
+          "selection": "Over 0.5",
+          "p_market": 0.765,
+          "fair_odds": 1.31
+        },
+        {
+          "key": "tt_home_1.5_under",
+          "label": "Hungary goals",
+          "selection": "Under 1.5",
+          "p_market": 0.58,
+          "fair_odds": 1.72
+        },
+        {
+          "key": "tt_home_2.5_under",
+          "label": "Hungary goals",
+          "selection": "Under 2.5",
+          "p_market": 0.825,
+          "fair_odds": 1.21
+        },
+        {
+          "key": "tt_away_0.5_over",
+          "label": "Northern Ireland goals",
+          "selection": "Over 0.5",
+          "p_market": 0.58,
+          "fair_odds": 1.72
+        },
+        {
+          "key": "tt_away_1.5_under",
+          "label": "Northern Ireland goals",
+          "selection": "Under 1.5",
+          "p_market": 0.795,
+          "fair_odds": 1.26
         }
       ],
       "legs_first": {
@@ -856,7 +891,12 @@
         "ou_1.5_over": 0.635,
         "ou_2.5_under": 0.625,
         "ou_3.5_under": 0.82,
-        "btts_no": 0.565
+        "btts_no": 0.565,
+        "tt_home_0.5_over": 0.765,
+        "tt_home_1.5_under": 0.58,
+        "tt_home_2.5_under": 0.825,
+        "tt_away_0.5_over": 0.58,
+        "tt_away_1.5_under": 0.795
       },
       "data": {
         "odds": {
@@ -864,9 +904,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117",
           "espn_match": "Northern Ireland at Hungary",
           "decimal": {
-            "home": 1.91,
+            "home": 1.87,
             "draw": 3.2,
-            "away": 4.1
+            "away": 4.2
           },
           "opening": {
             "home": 1.91,
@@ -874,17 +914,17 @@
             "away": 4
           },
           "p_devig": {
-            "home": 0.485,
-            "draw": 0.289,
-            "away": 0.226
+            "home": 0.493,
+            "draw": 0.288,
+            "away": 0.219
           },
           "total": 2.5
         },
         "move_24h": {
           "side": "home",
-          "from": 0.5,
+          "from": 0.495,
           "to": 0.505,
-          "relative_change": 0.01
+          "relative_change": 0.02
         },
         "rating": {
           "model": "World Football Elo (eloratings.net)",
@@ -899,9 +939,9 @@
           },
           "expected_score_home": 0.722
         },
-        "fetched_at": "2026-11-17T06:51:51.342Z"
+        "fetched_at": "2026-11-17T14:22:43.858Z"
       },
-      "p_live_at": "2026-11-17T06:51:49.668Z"
+      "p_live_at": "2026-11-17T14:22:42.055Z"
     },
     {
       "id": "1313265",
@@ -981,9 +1021,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117",
           "espn_match": "Kosovo at Republic of Ireland",
           "decimal": {
-            "home": 2.05,
-            "draw": 3.1,
-            "away": 3.7
+            "home": 2,
+            "draw": 3.15,
+            "away": 3.85
           },
           "opening": {
             "home": 2.1,
@@ -991,19 +1031,19 @@
             "away": 3.6
           },
           "p_devig": {
-            "home": 0.451,
-            "draw": 0.299,
-            "away": 0.25
+            "home": 0.464,
+            "draw": 0.295,
+            "away": 0.241
           },
           "total": 2.5
         },
         "move_24h": {
           "side": "home",
           "from": 0.455,
-          "to": 0.465,
-          "relative_change": 0.022
+          "to": 0.475,
+          "relative_change": 0.044
         },
-        "fetched_at": "2026-11-17T06:51:51.552Z"
+        "fetched_at": "2026-11-17T14:22:43.967Z"
       },
       "p_live_at": "2026-11-17T06:51:49.668Z"
     },
@@ -1084,9 +1124,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117",
           "espn_match": "Georgia at Ukraine",
           "decimal": {
-            "home": 2.1,
-            "draw": 3.2,
-            "away": 3.4
+            "home": 2.05,
+            "draw": 3.15,
+            "away": 3.6
           },
           "opening": {
             "home": 2.15,
@@ -1094,17 +1134,17 @@
             "away": 3.15
           },
           "p_devig": {
-            "home": 0.44,
-            "draw": 0.289,
-            "away": 0.272
+            "home": 0.45,
+            "draw": 0.293,
+            "away": 0.256
           },
           "total": 2.5
         },
         "move_24h": {
           "side": "home",
-          "from": 0.435,
-          "to": 0.445,
-          "relative_change": 0.023
+          "from": 0.445,
+          "to": 0.465,
+          "relative_change": 0.045
         },
         "rating": {
           "model": "World Football Elo (eloratings.net)",
@@ -1119,7 +1159,7 @@
           },
           "expected_score_home": 0.769
         },
-        "fetched_at": "2026-11-17T06:51:51.535Z"
+        "fetched_at": "2026-11-17T14:22:44.140Z"
       }
     },
     {
@@ -1215,9 +1255,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117",
           "espn_match": "Sweden at Poland",
           "decimal": {
-            "home": 2.15,
+            "home": 2.1,
             "draw": 3.7,
-            "away": 2.85
+            "away": 3
           },
           "opening": {
             "home": 2.05,
@@ -1225,17 +1265,17 @@
             "away": 3.1
           },
           "p_devig": {
-            "home": 0.428,
-            "draw": 0.249,
-            "away": 0.323
+            "home": 0.441,
+            "draw": 0.25,
+            "away": 0.309
           },
           "total": 3.5
         },
         "move_24h": {
           "side": "home",
-          "from": 0.435,
-          "to": 0.435,
-          "relative_change": 0
+          "from": 0.415,
+          "to": 0.455,
+          "relative_change": 0.096
         },
         "rating": {
           "model": "World Football Elo (eloratings.net)",
@@ -1250,7 +1290,7 @@
           },
           "expected_score_home": 0.47
         },
-        "fetched_at": "2026-11-17T06:51:51.627Z"
+        "fetched_at": "2026-11-17T14:22:43.987Z"
       }
     },
     {
@@ -1322,9 +1362,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117",
           "espn_match": "Norway at Denmark",
           "decimal": {
-            "home": 2.2,
-            "draw": 3.9,
-            "away": 2.65
+            "home": 2.5,
+            "draw": 3.85,
+            "away": 2.35
           },
           "opening": {
             "home": 2.4,
@@ -1332,17 +1372,17 @@
             "away": 2.6
           },
           "p_devig": {
-            "home": 0.418,
-            "draw": 0.236,
-            "away": 0.347
+            "home": 0.369,
+            "draw": 0.239,
+            "away": 0.392
           },
           "total": 3.5
         },
         "move_24h": {
-          "side": "home",
-          "from": 0.395,
-          "to": 0.405,
-          "relative_change": 0.025
+          "side": "away",
+          "from": 0.365,
+          "to": 0.395,
+          "relative_change": 0.082
         },
         "rating": {
           "model": "World Football Elo (eloratings.net)",
@@ -1357,7 +1397,7 @@
           },
           "expected_score_home": 0.655
         },
-        "fetched_at": "2026-11-17T06:51:51.567Z"
+        "fetched_at": "2026-11-17T14:22:44.067Z"
       }
     },
     {
@@ -1394,11 +1434,11 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.5,
-          "to": 0.845,
-          "relative_change": 0.69
+          "from": 0.83,
+          "to": 0.825,
+          "relative_change": -0.006
         },
-        "fetched_at": "2026-11-17T06:51:51.883Z"
+        "fetched_at": "2026-11-17T14:22:44.383Z"
       }
     },
     {
@@ -1439,7 +1479,7 @@
           "to": 0.755,
           "relative_change": 0
         },
-        "fetched_at": "2026-11-17T06:51:51.896Z"
+        "fetched_at": "2026-11-17T14:22:44.456Z"
       }
     },
     {
@@ -1476,11 +1516,11 @@
       "data": {
         "move_24h": {
           "side": "away",
-          "from": 0.61,
-          "to": 0.71,
-          "relative_change": 0.164
+          "from": 0.75,
+          "to": 0.715,
+          "relative_change": -0.047
         },
-        "fetched_at": "2026-11-17T06:51:51.952Z"
+        "fetched_at": "2026-11-17T14:22:44.469Z"
       }
     },
     {
@@ -1517,11 +1557,11 @@
       "data": {
         "move_24h": {
           "side": "away",
-          "from": 0.69,
-          "to": 0.675,
-          "relative_change": -0.022
+          "from": 0.68,
+          "to": 0.71,
+          "relative_change": 0.044
         },
-        "fetched_at": "2026-11-17T06:51:51.971Z"
+        "fetched_at": "2026-11-17T14:22:44.340Z"
       }
     },
     {
@@ -1558,11 +1598,11 @@
       "data": {
         "move_24h": {
           "side": "away",
-          "from": 0.555,
-          "to": 0.665,
-          "relative_change": 0.198
+          "from": 0.68,
+          "to": 0.76,
+          "relative_change": 0.118
         },
-        "fetched_at": "2026-11-17T06:51:52.237Z"
+        "fetched_at": "2026-11-17T14:22:44.666Z"
       }
     },
     {
@@ -1603,7 +1643,7 @@
           "to": 0.575,
           "relative_change": 0.018
         },
-        "fetched_at": "2026-11-17T06:51:52.239Z"
+        "fetched_at": "2026-11-17T14:22:44.775Z"
       }
     },
     {
@@ -1640,11 +1680,11 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.59,
-          "to": 0.555,
-          "relative_change": -0.059
+          "from": 0.57,
+          "to": 0.595,
+          "relative_change": 0.044
         },
-        "fetched_at": "2026-11-17T06:51:52.284Z"
+        "fetched_at": "2026-11-17T14:22:44.796Z"
       }
     },
     {
@@ -1686,6 +1726,170 @@
           "relative_change": 0.019
         },
         "fetched_at": "2026-11-17T06:51:52.272Z"
+      }
+    },
+    {
+      "id": "1364550",
+      "league": "EuroLeague",
+      "sport": "basketball",
+      "event": "Fenerbahce vs. ASVEL Lyon-Villeurbanne",
+      "home": "Fenerbahce",
+      "away": "ASVEL Lyon-Villeurbanne",
+      "start": "2026-11-17T18:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.845,
+        "draw": 0,
+        "away": 0.155
+      },
+      "p_first": {
+        "home": 0.845,
+        "draw": 0,
+        "away": 0.155
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Fenerbahce",
+          "p_market": 0.845,
+          "fair_odds": 1.18
+        }
+      ],
+      "legs_first": {
+        "home": 0.845
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.865,
+          "to": 0.845,
+          "relative_change": -0.023
+        },
+        "fetched_at": "2026-11-17T14:22:44.713Z"
+      }
+    },
+    {
+      "id": "1364541",
+      "league": "EuroLeague",
+      "sport": "basketball",
+      "event": "Partizan vs. Valencia",
+      "home": "Partizan",
+      "away": "Valencia",
+      "start": "2026-11-17T19:45:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.545,
+        "draw": 0,
+        "away": 0.455
+      },
+      "p_first": {
+        "home": 0.545,
+        "draw": 0,
+        "away": 0.455
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Partizan",
+          "p_market": 0.545,
+          "fair_odds": 1.83
+        }
+      ],
+      "legs_first": {
+        "home": 0.545
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.48,
+          "to": 0.545,
+          "relative_change": 0.135
+        },
+        "fetched_at": "2026-11-17T14:22:45.113Z"
+      }
+    },
+    {
+      "id": "1389576",
+      "league": "EuroCup",
+      "sport": "basketball",
+      "event": "Rostock Seawolves vs. Hapoel Jerusalem",
+      "home": "Rostock Seawolves",
+      "away": "Hapoel Jerusalem",
+      "start": "2026-11-17T19:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.22,
+        "draw": 0,
+        "away": 0.78
+      },
+      "p_first": {
+        "home": 0.22,
+        "draw": 0,
+        "away": 0.78
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "Hapoel Jerusalem",
+          "p_market": 0.78,
+          "fair_odds": 1.28
+        }
+      ],
+      "legs_first": {
+        "away": 0.78
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.825,
+          "to": 0.79,
+          "relative_change": -0.042
+        },
+        "fetched_at": "2026-11-17T14:22:45.123Z"
+      }
+    },
+    {
+      "id": "1389887",
+      "league": "EuroCup",
+      "sport": "basketball",
+      "event": "London Lions vs. BC Siauliai",
+      "home": "London Lions",
+      "away": "BC Siauliai",
+      "start": "2026-11-17T19:30:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.765,
+        "draw": 0,
+        "away": 0.235
+      },
+      "p_first": {
+        "home": 0.765,
+        "draw": 0,
+        "away": 0.235
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "London Lions",
+          "p_market": 0.765,
+          "fair_odds": 1.31
+        }
+      ],
+      "legs_first": {
+        "home": 0.765
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.78,
+          "to": 0.765,
+          "relative_change": -0.019
+        },
+        "fetched_at": "2026-11-17T14:22:45.069Z"
       }
     }
   ]
