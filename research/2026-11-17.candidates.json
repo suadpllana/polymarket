@@ -100,9 +100,9 @@
       "start": "2026-11-17T20:00:00.000Z",
       "coverage": 1,
       "p_market": {
-        "home": 0.21,
+        "home": 0.275,
         "draw": 0,
-        "away": 0.79
+        "away": 0.725
       },
       "p_first": {
         "home": 0.29,
@@ -114,8 +114,8 @@
           "key": "away",
           "label": "Moneyline",
           "selection": "Panathinaikos",
-          "p_market": 0.79,
-          "fair_odds": 1.27
+          "p_market": 0.725,
+          "fair_odds": 1.38
         }
       ],
       "legs_first": {
@@ -128,9 +128,9 @@
           "to": 0.725,
           "relative_change": -0.065
         },
-        "fetched_at": "2026-11-17T18:00:51.221Z"
+        "fetched_at": "2026-11-17T18:56:17.158Z"
       },
-      "p_live_at": "2026-11-17T06:51:49.668Z"
+      "p_live_at": "2026-11-17T18:56:16.621Z"
     },
     {
       "id": "1364547",
@@ -311,7 +311,7 @@
           },
           "expected_score_home": 0.217
         },
-        "fetched_at": "2026-11-17T18:00:51.380Z"
+        "fetched_at": "2026-11-17T18:56:17.205Z"
       },
       "p_live_at": "2026-11-17T06:51:49.668Z"
     },
@@ -372,7 +372,7 @@
             "blend_hard": 0.627
           }
         },
-        "fetched_at": "2026-11-17T18:00:51.821Z"
+        "fetched_at": "2026-11-17T18:56:17.435Z"
       }
     },
     {
@@ -409,11 +409,11 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.63,
+          "from": 0.64,
           "to": 0.645,
-          "relative_change": 0.024
+          "relative_change": 0.008
         },
-        "fetched_at": "2026-11-17T18:00:52.072Z"
+        "fetched_at": "2026-11-17T18:56:17.345Z"
       },
       "p_live_at": "2026-11-17T06:51:49.668Z"
     },
@@ -455,9 +455,9 @@
           "to": 0.715,
           "relative_change": -0.053
         },
-        "fetched_at": "2026-11-17T18:00:52.171Z"
+        "fetched_at": "2026-11-17T18:56:17.793Z"
       },
-      "p_live_at": "2026-11-17T18:00:50.659Z"
+      "p_live_at": "2026-11-17T18:56:16.621Z"
     },
     {
       "id": "1364544",
@@ -497,7 +497,7 @@
           "to": 0.505,
           "relative_change": -0.065
         },
-        "fetched_at": "2026-11-17T18:00:52.051Z"
+        "fetched_at": "2026-11-17T18:56:17.655Z"
       }
     },
     {
@@ -601,9 +601,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117",
           "espn_match": "Austria at Israel",
           "decimal": {
-            "home": 3.95,
-            "draw": 3.85,
-            "away": 1.77
+            "home": 3.8,
+            "draw": 3.75,
+            "away": 1.8
           },
           "opening": {
             "home": 5,
@@ -611,11 +611,11 @@
             "away": 1.57
           },
           "p_devig": {
-            "home": 0.235,
-            "draw": 0.241,
-            "away": 0.524
+            "home": 0.242,
+            "draw": 0.246,
+            "away": 0.512
           },
-          "total": 2.5
+          "total": 3.5
         },
         "move_24h": {
           "side": "away",
@@ -636,7 +636,7 @@
           },
           "expected_score_home": 0.334
         },
-        "fetched_at": "2026-11-17T18:00:52.124Z"
+        "fetched_at": "2026-11-17T18:56:17.681Z"
       }
     },
     {
@@ -740,9 +740,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117",
           "espn_match": "Romania at Bosnia-Herzegovina",
           "decimal": {
-            "home": 2.05,
+            "home": 1.95,
             "draw": 3.55,
-            "away": 3.2
+            "away": 3.45
           },
           "opening": {
             "home": 1.91,
@@ -750,17 +750,17 @@
             "away": 3.8
           },
           "p_devig": {
-            "home": 0.451,
+            "home": 0.473,
             "draw": 0.26,
-            "away": 0.289
+            "away": 0.267
           },
           "total": 2.5
         },
         "move_24h": {
           "side": "home",
           "from": 0.515,
-          "to": 0.465,
-          "relative_change": -0.097
+          "to": 0.485,
+          "relative_change": -0.058
         },
         "rating": {
           "model": "World Football Elo (eloratings.net)",
@@ -775,7 +775,7 @@
           },
           "expected_score_home": 0.745
         },
-        "fetched_at": "2026-11-17T18:00:52.418Z"
+        "fetched_at": "2026-11-17T18:56:17.688Z"
       },
       "p_live_at": "2026-11-17T06:51:49.668Z"
     },
@@ -904,9 +904,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117",
           "espn_match": "Northern Ireland at Hungary",
           "decimal": {
-            "home": 1.83,
-            "draw": 3.2,
-            "away": 4.5
+            "home": 1.95,
+            "draw": 3.15,
+            "away": 4
           },
           "opening": {
             "home": 1.91,
@@ -914,17 +914,17 @@
             "away": 4
           },
           "p_devig": {
-            "home": 0.505,
-            "draw": 0.289,
-            "away": 0.206
+            "home": 0.474,
+            "draw": 0.294,
+            "away": 0.232
           },
           "total": 2.5
         },
         "move_24h": {
           "side": "home",
           "from": 0.495,
-          "to": 0.505,
-          "relative_change": 0.02
+          "to": 0.475,
+          "relative_change": -0.04
         },
         "rating": {
           "model": "World Football Elo (eloratings.net)",
@@ -939,7 +939,7 @@
           },
           "expected_score_home": 0.722
         },
-        "fetched_at": "2026-11-17T18:00:52.443Z"
+        "fetched_at": "2026-11-17T18:56:17.917Z"
       },
       "p_live_at": "2026-11-17T18:00:50.660Z"
     },
@@ -1021,9 +1021,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117",
           "espn_match": "Kosovo at Republic of Ireland",
           "decimal": {
-            "home": 1.91,
-            "draw": 3.15,
-            "away": 4.1
+            "home": 2,
+            "draw": 3.1,
+            "away": 3.85
           },
           "opening": {
             "home": 2.1,
@@ -1031,19 +1031,19 @@
             "away": 3.6
           },
           "p_devig": {
-            "home": 0.483,
-            "draw": 0.293,
-            "away": 0.225
+            "home": 0.462,
+            "draw": 0.298,
+            "away": 0.24
           },
           "total": 2.5
         },
         "move_24h": {
           "side": "home",
           "from": 0.455,
-          "to": 0.495,
-          "relative_change": 0.088
+          "to": 0.475,
+          "relative_change": 0.044
         },
-        "fetched_at": "2026-11-17T18:00:52.385Z"
+        "fetched_at": "2026-11-17T18:56:18.003Z"
       },
       "p_live_at": "2026-11-17T06:51:49.668Z"
     },
@@ -1124,9 +1124,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117",
           "espn_match": "Georgia at Ukraine",
           "decimal": {
-            "home": 2,
+            "home": 2.1,
             "draw": 3.1,
-            "away": 3.8
+            "away": 3.5
           },
           "opening": {
             "home": 2.15,
@@ -1134,17 +1134,17 @@
             "away": 3.15
           },
           "p_devig": {
-            "home": 0.461,
+            "home": 0.439,
             "draw": 0.297,
-            "away": 0.242
+            "away": 0.263
           },
-          "total": 1.5
+          "total": 2.5
         },
         "move_24h": {
           "side": "home",
           "from": 0.445,
-          "to": 0.465,
-          "relative_change": 0.045
+          "to": 0.445,
+          "relative_change": 0
         },
         "rating": {
           "model": "World Football Elo (eloratings.net)",
@@ -1159,7 +1159,7 @@
           },
           "expected_score_home": 0.769
         },
-        "fetched_at": "2026-11-17T18:00:52.418Z"
+        "fetched_at": "2026-11-17T18:56:17.973Z"
       }
     },
     {
@@ -1255,9 +1255,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117",
           "espn_match": "Sweden at Poland",
           "decimal": {
-            "home": 2.15,
-            "draw": 3.75,
-            "away": 2.85
+            "home": 2.25,
+            "draw": 3.65,
+            "away": 2.75
           },
           "opening": {
             "home": 2.05,
@@ -1265,17 +1265,17 @@
             "away": 3.1
           },
           "p_devig": {
-            "home": 0.43,
-            "draw": 0.246,
-            "away": 0.324
+            "home": 0.411,
+            "draw": 0.253,
+            "away": 0.336
           },
-          "total": 3.5
+          "total": 2.5
         },
         "move_24h": {
           "side": "home",
           "from": 0.405,
-          "to": 0.435,
-          "relative_change": 0.074
+          "to": 0.415,
+          "relative_change": 0.025
         },
         "rating": {
           "model": "World Football Elo (eloratings.net)",
@@ -1290,7 +1290,7 @@
           },
           "expected_score_home": 0.47
         },
-        "fetched_at": "2026-11-17T18:00:52.689Z"
+        "fetched_at": "2026-11-17T18:56:18.062Z"
       }
     },
     {
@@ -1362,7 +1362,7 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117",
           "espn_match": "Norway at Denmark",
           "decimal": {
-            "home": 2.5,
+            "home": 2.55,
             "draw": 3.9,
             "away": 2.35
           },
@@ -1372,17 +1372,17 @@
             "away": 2.6
           },
           "p_devig": {
-            "home": 0.37,
-            "draw": 0.237,
-            "away": 0.393
+            "home": 0.365,
+            "draw": 0.239,
+            "away": 0.396
           },
           "total": 3.5
         },
         "move_24h": {
           "side": "away",
           "from": 0.365,
-          "to": 0.405,
-          "relative_change": 0.11
+          "to": 0.395,
+          "relative_change": 0.082
         },
         "rating": {
           "model": "World Football Elo (eloratings.net)",
@@ -1397,7 +1397,7 @@
           },
           "expected_score_home": 0.655
         },
-        "fetched_at": "2026-11-17T18:00:52.656Z"
+        "fetched_at": "2026-11-17T18:56:18.170Z"
       }
     },
     {
@@ -1796,10 +1796,10 @@
         "move_24h": {
           "side": "home",
           "from": 0.465,
-          "to": 0.52,
-          "relative_change": 0.118
+          "to": 0.525,
+          "relative_change": 0.129
         },
-        "fetched_at": "2026-11-17T18:00:53.088Z"
+        "fetched_at": "2026-11-17T18:56:18.384Z"
       },
       "p_live_at": "2026-11-17T18:00:50.660Z"
     },
@@ -1879,10 +1879,10 @@
         "move_24h": {
           "side": "home",
           "from": 0.785,
-          "to": 0.765,
-          "relative_change": -0.025
+          "to": 0.76,
+          "relative_change": -0.032
         },
-        "fetched_at": "2026-11-17T18:00:52.946Z"
+        "fetched_at": "2026-11-17T18:56:18.258Z"
       }
     }
   ]
