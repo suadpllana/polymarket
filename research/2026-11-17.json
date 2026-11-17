@@ -1,8 +1,8 @@
 {
   "date": "2026-11-17",
-  "researched_at": "2026-11-17T06:54:18Z",
+  "researched_at": "2026-11-17T06:56:55Z",
   "stage": "morning",
-  "summary": "Researched the evening before (Mon 16 Nov) under the stricter rules; lineups are not out, so this is a draft until the morning check and the final check. Tuesday has the last Nations League matchday for the other groups and a EuroLeague round. Ten games were researched: four are kept at medium, four at low, and two are excluded; the rest were not reached. Medium: BC Dubai v Anadolu Efes (p 0.74; Dubai at their regular home arena, Efes without Mike James, Cordinier and Bruno Fernando; Dubai miss three forwards and just lost by 29), Hapoel Tel Aviv at Baskonia (p 0.60; Baskonia are 1-11 with three injured and two new signings; Hapoel have lost three straight; the Polymarket market is thin, and bookmakers rate Hapoel higher at 71-74%), Zalgiris v Bayern (p 0.79; Zalgiris on a five-game winning streak against the league's worst defence; point guard Williams-Goss out), Hungary v Northern Ireland (p 0.46, draw 0.31, so only double chance or goals legs; Northern Ireland need just a draw to win the group and have not conceded in five games). Low, so not bet: Virtus v Panathinaikos (Panathinaikos's price fell 6.5% with no news), Barcelona v Paris (Barcelona's price fell 12% with no news, four players out), Wales v Portugal (Portugal miss Dias, Mendes, Bernardo Silva and possibly Palhinha; sources conflict), Ireland v Kosovo (no team news or lineups found). Excluded: Maccabi Tel Aviv v Olympiacos (Maccabi's home games are played in Limassol, Cyprus: neutral venue), Bosnia v Romania (Bosnia's second place is already fixed while Romania need a win to avoid the relegation play-off). Morning check (Tue): no new team news overnight. Hapoel's price rose from 62% to 77% with no news, the thin Polymarket market catching up with the bookmakers (71-74%); kept at medium. Zalgiris's price fell 3.7% since first listing with no news to explain it, so it is now low. Dubai (-2.6%, injury lists unchanged) and Hungary (price stable, same suspensions) stay medium.",
+  "summary": "Researched the evening before (Mon 16 Nov) under the stricter rules; lineups are not out, so this is a draft until the morning check and the final check. Tuesday has the last Nations League matchday for the other groups and a EuroLeague round. Ten games were researched: four are kept at medium, four at low, and two are excluded; the rest were not reached. Medium: BC Dubai v Anadolu Efes (p 0.74; Dubai at their regular home arena, Efes without Mike James, Cordinier and Bruno Fernando; Dubai miss three forwards and just lost by 29), Hapoel Tel Aviv at Baskonia (p 0.60; Baskonia are 1-11 with three injured and two new signings; Hapoel have lost three straight; the Polymarket market is thin, and bookmakers rate Hapoel higher at 71-74%), Zalgiris v Bayern (p 0.79; Zalgiris on a five-game winning streak against the league's worst defence; point guard Williams-Goss out), Hungary v Northern Ireland (p 0.46, draw 0.31, so only double chance or goals legs; Northern Ireland need just a draw to win the group and have not conceded in five games). Low, so not bet: Virtus v Panathinaikos (Panathinaikos's price fell 6.5% with no news), Barcelona v Paris (Barcelona's price fell 12% with no news, four players out), Wales v Portugal (Portugal miss Dias, Mendes, Bernardo Silva and possibly Palhinha; sources conflict), Ireland v Kosovo (no team news or lineups found). Excluded: Maccabi Tel Aviv v Olympiacos (Maccabi's home games are played in Limassol, Cyprus: neutral venue), Bosnia v Romania (Bosnia's second place is already fixed while Romania need a win to avoid the relegation play-off). Morning check (Tue): no new team news overnight. Hapoel's price rose from 62% to 77% with no news, the thin Polymarket market catching up with the bookmakers (71-74%); kept at medium. Zalgiris's price fell 3.7% since first listing with no news to explain it, so it is now low. Dubai (-2.6%, injury lists unchanged) and Hungary (price stable, same suspensions) stay medium. Four more games checked in the morning: Panathinaikos stays low (its price fell 6.5% on Monday and rose 11% overnight, with no news for either move); Bnei Herzliya v Bonn is excluded (Herzliya's home game is played in Samokov, Bulgaria: neutral venue); Roma v Bahcesehir and Balkan v Ulm are low (no injury news, no second bookmaker price, thin markets).",
   "games": [
     {
       "id": "1364549",
@@ -78,29 +78,30 @@
       "exclude": false,
       "confidence": "low",
       "p": {
-        "home": 0.33,
+        "home": 0.24,
         "draw": 0,
-        "away": 0.67
+        "away": 0.76
       },
       "checks": {
-        "team_news": "No current injury report or press-conference news found for either side for Round 12. Search results only returned older items (e.g. Kendrick Nunn's earlier-season ailments, Richaun Holmes missing the Round 6 game at Bologna with a thigh injury, Scariolo comments from earlier seasons). Status of Nunn, Holmes and Virtus's roster for 17 Nov is unverified.",
-        "lineups": "Not available. No expected starting fives found for either side from any source on the evening of 16 Nov.",
-        "rotation": "Panathinaikos beat Real Madrid 115-112 in overtime on 4 Nov (Eurohoops); their schedule since and any domestic game before Tuesday were not verified. Virtus's recent schedule not verified. Both are in EuroLeague Round 12 on Tuesday 17 Nov.",
-        "motivation": "Early-season regular-season game. A sportschau standings snapshot after round 10 showed Panathinaikos 8-2; I could not confirm Virtus's record from it. No hard-exclusion situation applies.",
-        "form": "Panathinaikos 8-2 after round 10 and won 115-112 in OT at Real Madrid (4 Nov). Full last 6-10 results with points for/against and home/away splits were not found.",
-        "h2h": "Last season's meetings: Virtus won 92-75 at home vs Panathinaikos on 24 Oct 2025 (Sky Sport); Panathinaikos won 84-71 on 8 Jan 2026 (search listing, date uncertain). Virtus has beaten Panathinaikos at home before, so an upset is not remote.",
-        "odds": "Polymarket: Panathinaikos 0.715 now vs 0.765 24h ago, a relative fall of 6.5% (data.move_24h). That is above the 3% threshold and I found no news explaining it (no injury or lineup report surfaced). No second bookmaker price (de-vigged) was obtained; data.odds is absent from the candidates entry. Per the price-move rule the confidence is low.",
-        "models": "No net rating, power ranking or model prediction found; data.rating is absent for this game.",
-        "venue_weather": "Virtus Segafredo Arena, Bologna (home venue, tip 20:00 UTC / 21:00 local per ticket-compare and search results; one site said PalaDozza, which looks like a mislabel). Fixture date, teams and competition (EuroLeague Round 12, Tue 17 Nov 2026) are confirmed. Not a neutral venue; indoor, weather irrelevant."
+        "team_news": "Re-checked this morning (Tue 17 Nov) in English, Italian and Greek. No current injury, illness, return or suspension report found for either side, and no Monday press-conference or media-day comments for Round 12. Results were only older seasons: Nunn/Holmes/Lessort items from Oct 2025 and Jan 2026, Edwards ankle (late 2025), and Brown flu in Nov 2024. Status of Nunn, Holmes and Virtus's roster for tonight is still unverified. Nothing new this morning explains the price move.",
+        "lineups": "Not available. No expected starting fives found for either side this morning; official lineups are for the final check.",
+        "rotation": "Unchanged from last night. Panathinaikos beat Real Madrid 115-112 in OT on 4 Nov (Eurohoops). Schedule since, and Virtus's recent schedule, not verified.",
+        "motivation": "Early-season regular-season game (Round 12). Panathinaikos were 8-2 after round 10 per a sportschau snapshot; Virtus's record not confirmed. No hard-exclusion situation applies.",
+        "form": "Panathinaikos 8-2 after round 10 and won 115-112 in OT at Real Madrid (4 Nov). Full last 6-10 results and home/away splits not found.",
+        "h2h": "Last season: Virtus won 92-75 at home on 24 Oct 2025 (Sky Sport); Panathinaikos won 84-71 in Athens on 8 Jan 2026 (Sky Sport). Virtus has beaten Panathinaikos at home before, so an upset is not remote.",
+        "odds": "Polymarket Panathinaikos: first listed 0.71, last night 0.71 (0.715), live now 0.79 (24h move 0.725 to 0.795, +9.7% relative; +11% vs last night). It fell about 6.5% on Monday and rose about 10-11% overnight with no news found for either swing, so the swings are unexplained both ways. Only bookmaker data found: a BasketballSphere preview dated 15 Nov listing Panathinaikos -8.5 at 1.72 and Virtus +9.5 at 1.78 (22bet). That is a handicap line, not a moneyline price. It shows a clear Panathinaikos favourite but cannot be de-vigged or compared with 0.79, and I did not open the full article. No Stake or Rainbet price seen.",
+        "models": "No net rating, power ranking or model prediction found for this game; data.rating is absent.",
+        "venue_weather": "Virtus Segafredo Arena, Bologna (home venue). Tip 20:00 UTC (21:00 local) on Tue 17 Nov 2026; teams, date and competition confirmed (ticket-compare, BasketballSphere preview). Indoor, weather irrelevant."
       },
-      "reason": "Fixture verified and no hard exclusion found, but the favourite's Polymarket price fell 6.5% in 24h with no news found to explain it, and injury, lineup and second-bookmaker data are all missing. Honest rating is low; p shaded toward the underdog.",
-      "main_risk": "Unexplained 6.5% drop in Panathinaikos's price (possible late absence such as Nunn or Holmes that I could not find), plus Bologna at home with a history of beating Panathinaikos (92-75 in Oct 2025).",
+      "reason": "Fixture verified and no hard exclusion, but the price swung down 6.5% on Monday and up about 10-11% overnight with no team news found for either move. No injury, lineup or press-conference information and no moneyline from a second bookmaker (only a -8.5 handicap that points the same way). Per the brief, medium needs clear team news and bookmakers agreeing with the live price, so it stays low. p is shaded about 3 points below the live 0.79.",
+      "main_risk": "Unexplained two-way price volatility on Panathinaikos (0.765 to 0.715 to 0.79) with team news unknown. A late absence such as Nunn or Holmes could be behind it. Virtus at home beat Panathinaikos 92-75 in Oct 2025.",
       "sources": [
         "https://ticket-compare.com/basketball/euroleague/virtus-bologna-vs-panathinaikos-athens-17-nov-2026/",
+        "https://basketballsphere.com/en/picks/euroleague/",
         "https://www.sportschau.de/live-und-ergebnisse/basketball/euroleague-basketball/ma12385925/virtus-bologna_panathinaikos/blitztabelle",
         "https://www.eurohoops.net/en/euroleague/2030637/nunn-explodes-for-33-points-and-makes-history-panathinaikos-wins-it-against-real-after-ot-drama/",
         "https://sport.sky.it/basket/2025/10/24/virtus-bologna-panathinaikos-eurolega-risultato",
-        "https://www.euroleaguebasketball.net/euroleague/news/game-center-round-10-el2526"
+        "https://sport.sky.it/basket/eurolega/2026/01/08/panathinaikos-virtus-bologna-eurolega-risultato-highlights"
       ],
       "views": {},
       "prices": []
@@ -345,17 +346,78 @@
     {
       "id": "1362618",
       "exclude": true,
-      "skipped": true
+      "reason": "Hard rule: neutral/unusual venue. Bnei Herzliya's nominal home game vs Bonn is not played in Israel. Two ticket-resale listings (ticket-compare.com, Bonn at Herzliya on 17 Nov 2026 and Joventut at Herzliya on 23 Dec 2026) both give Arena Samokov, Samokov, Bulgaria as the venue. Context: Eurohoops (19 Sep 2026) says Israeli clubs still cannot host European games at home and must play home matches abroad, and the Jerusalem Post (7 Oct 2026) calls Samokov Hapoel Holon's 'home away from home' in the BCL. I found no official BCL page naming the venue, so the Samokov detail rests on resale listings. The market also moved from 0.61 to 0.71 on Bonn in 24h (+16.4% relative) with no explanation found, so the game would be low confidence even without the venue issue. Not researched further.",
+      "main_risk": "Neutral venue (Samokov, Bulgaria) removes Herzliya's home court, so the 0.29/0.71 price cannot be read as a normal home/away split. The unexplained 16% move toward Bonn adds a second doubt.",
+      "sources": [
+        "https://ticket-compare.com/basketball/basketball-champions-league/bnei-herzliya-vs-telekom-baskets-bonn-17-nov-2026/",
+        "https://www.eurohoops.net/en/euroleague/2009911/israeli-euroleague-teams-will-continue-not-playing-in-their-home-country/",
+        "https://www.jpost.com/israel-news/sports/article-910935"
+      ],
+      "prices": []
     },
     {
       "id": "1389577",
-      "exclude": true,
-      "skipped": true
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.36,
+        "draw": 0,
+        "away": 0.64
+      },
+      "checks": {
+        "team_news": "NOT FOUND: no injury report or coach comments for either side. euroleaguebasketball.net pre-game page returned HTTP 429 (not used again); Eurohoops, oasport and sportsgambler pages read mention no injuries or absences for Roma or Bahcesehir, which is not confirmation that everyone is fit.",
+        "lineups": "NOT FOUND: no expected starting five or rotation for either side. Last known Roma scorers (11 Nov vs Ulm): Gerald Ayayi 17, Nico Mannion 12, Paul Watson 12. Bahcesehir (11 Nov vs Lietkabelis): Malachi Flynn 15. Marcquise Reed and Flynn led Bahcesehir in the first meeting.",
+        "rotation": "Both teams played the previous EuroCup round on 10-11 Nov (Bahcesehir 99-61 home vs Lietkabelis; Roma 83-78 home vs Ulm, Wed 11 Nov 20:00). Bahcesehir travel Istanbul to Rome. Weekend domestic games (Roma in Italian Serie A, Bahcesehir in Turkish BSL) could not be found, so fatigue and any weekend schedule remain unverified.",
+        "motivation": "Eurocup Group D after round 7: Bahcesehir 1st at 6-1; BC Roma 6th at 3-4. Round 8 is this game; both have reason to win (Roma need wins to climb, Bahcesehir lead the group). No hard nothing-to-play-for case.",
+        "form": "Bahcesehir: 99-61 win over Lietkabelis (11 Nov), 84-81 vs PAOK (27 Oct), 86-77 loss at Bosna (21 Oct), Ulm game 3 Nov; 4-1 in last 5 before the Lietkabelis game, home 4-0, away 2-1 in EuroCup; won BSL games 3-0 early in the season (92-82 vs Karsiyaka). Roma: lost 3 straight before beating Ulm 83-78 at home on 11 Nov (80-85 vs Bosna, 111-113 at PAOK); all 3 EuroCup wins at home. Domestic form for both not found.",
+        "h2h": "30 Sep 2026 in Istanbul: Bahcesehir 91-78 Roma (Mannion 29 for Roma). Return game in Rome now.",
+        "odds": "No second bookmaker price for this game found (ESPN data.odds absent; Eurosport and sportsgambler pages list no odds). Polymarket: Bahcesehir 0.675, Roma 0.325; favourite 0.69 to 0.675 in 24h (-2.2% relative, below the 3% threshold). Context only: BetMGM had Bahcesehir -263 (about 72% implied, not de-vigged) away at Ulm on 3 Nov, a different game.",
+        "models": "No net rating, power ranking or model prediction found for either team. Only proxy: Bahcesehir top of Group D at 6-1, Roma 3-4.",
+        "venue_weather": "Fixture verified: BC Roma Spqr vs Bahcesehir Koleji, EuroCup Group D, Tue 17 Nov 2026, evening in Rome (Eurosport listing 20:00 local, i.e. 19:00 UTC), Palazzetto dello Sport, Roma's home arena (their European home games, incl. the 11 Nov Ulm game, were played there). Normal home venue, no neutral-venue issue. Indoor, no weather issue."
+      },
+      "reason": "Fixture and home venue are verified and no hard exclusion applies. Bahcesehir lead the group, won the first meeting by 13, and are 2-1 away in EuroCup. However, there is no injury or lineup information, no second bookmaker price and no model rating. Roma are unbeaten in Europe at home since the Ulm win (3-0 at home) and the market price already looks fair, so p is trimmed 3.5 points below the market.",
+      "main_risk": "Roma at home in the Palazzetto, where all three of their EuroCup wins came, and a short turnaround for Bahcesehir after travelling; unknown injuries or rotation on either side, since team news could not be found.",
+      "sources": [
+        "https://www.eurohoops.net/en/eurocup/2033529/eurocup-roundup-bahcesehir-wins-by-38/",
+        "https://www.eurosport.it/basket/bkt-eurocup/2026-2027/roma-spqr-bahcesehir-koleji_mtc21917507/live-matches.shtml",
+        "https://www.oasport.it/2026/11/basket-la-bc-roma-batte-in-casa-ulm-e-torna-al-successo-in-eurocup/",
+        "https://www.sportsgambler.com/betting-tips/basketball/ratiopharm-ulm-vs-bahcesehir-koleji-prediction-odds-2026-11-03/"
+      ],
+      "views": {},
+      "prices": []
     },
     {
       "id": "1396476",
-      "exclude": true,
-      "skipped": true
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.36,
+        "draw": 0,
+        "away": 0.64
+      },
+      "checks": {
+        "team_news": "Balkan: karlobag.eu (AI-generated preview page, unverified) says Ivan Alipiev is reportedly out with a serious knee injury and Darnell Edge is doubtful (thigh); I found no club or Bulgarian-press confirmation of either. Ulm: the club's 14 Nov Jena report shows Oluwasimisola Shittu DNP and says Teo Miličić had only just rejoined training after an injury; no other absences named. A German preview (flashscore.de, earlier in the group) flagged Ulm's thin rotation. No suspensions found for either side.",
+        "lineups": "Nothing official; it is Tuesday morning. Only source is karlobag.eu's AI-predicted fives (low reliability): Balkan Toshkov, McCoy, Chomche, Okwera, Mathon; Ulm Heckel, Watson, Sims, Rataj, Traore. Ulm's 14 Nov box score (Sims 21 pts, Faye 18, Rataj 13, Watson 11, Atamna 11) shows the same core in use. Second source for the Balkan five not found.",
+        "rotation": "Ulm: Sun-week sequence EuroCup Wed 11 Nov at Roma (lost 78-83), BBL Sat 14 Nov home vs Jena (won 97-78, 33-11 first quarter, starters played 8-28 min, so they were rested in the blowout), then 17 Nov in Bulgaria: 3 days rest, a short trip, no back-to-back. Next Ulm game is BBL Mon 7 Dec vs Bamberg, so nothing pressing afterwards. Balkan: lost 56-79 at home to PAOK on 10 Nov, won 78-69 at Bosna 4 Nov (earlier lost 65-76 to Manresa 27 Oct); 7 days of rest from PAOK is not confirmed to be all rest, I found no Bulgarian NBL game for them this month in the results.",
+        "motivation": "EuroCup Group D, round 8 of 10 games: Balkan 1-6 (last, 8th of 8; debut season, bottom of the table per Eurobasket/sportal.bg), Ulm 3-4 (4th in the Eurobasket round-7 table, 15th of 20 overall on karlobag with +1 point difference; Bahcesehir 6-1 leads the group). Neither is eliminated or qualified, so the favourite still needs the result and nothing-to-play-for rule does not apply. Ulm is 4-5 and 10th in the BBL after Jena.",
+        "form": "Ulm last five (karlobag): L L W L W; EuroCup losses 82-96 at Bahcesehir (3 Nov) and 78-83 at Roma (11 Nov), then BBL win 97-78 vs Jena. Ulm road record is a concern (both recent EuroCup road games lost). Balkan last five: L W L L L; 1 win, 6 losses, lost 65-76 to Manresa and 56-79 to PAOK at home (arena Botevgrad, capacity 3,500), only win 78-69 at Bosna. Balkan won the 25/26 Bulgarian title (final vs Lokomotiv Plovdiv, 5 June 2026, in Arena Botevgrad), so domestic strength is high but irrelevant at this level.",
+        "h2h": "Only meeting: 30 Sep 2026 in Ulm, Ulm 98-84 (Ulm led 31-17 after one and 75-57 after three; Javante McCoy scored 32 for Balkan). Ulm are the more balanced, deeper team; Balkan lean on McCoy.",
+        "odds": "No current second bookmaker price found for this game: the only bookmaker prices that turned up (sportytrader/wincomparator, Ulm about 1.03 vs Balkan 9.15-9.5) are for the 30 Sep first meeting, so they are not usable. data.odds is absent from the candidates file. Polymarket moneyline Balkan 0.335 / Ulm 0.665 (sum 1.000, so no vig on Polymarket); spread Ulm -5.5 at 0.445 and total 157.5 over 0.53/under 0.47, consistent with a roughly 6-point Ulm edge. Polymarket 24h move: Ulm 0.555 to 0.665 (+19.8% relative; the favourite price ROSE, so the fall rule does not apply) with swings 0.555, 0.61, 0.59, 0.68, 0.675, 0.655, 0.63, 0.665 over the day; market volume is only about $1.4k so the move is thin and noisy and I found no news explaining it (karlobag lists Edge doubtful, Alipiev out, unconfirmed). Missing independent price is why confidence is not high.",
+        "models": "No bookmaker-free rating found. Group-table point difference: Ulm +1 after 7 games vs Balkan clearly negative (heavy losses -11 Manresa, -23 PAOK). karlobag AI score prediction Ulm 85-74 (unverified, low weight). Spread 5.5 on Polymarket is the only model-like anchor.",
+        "venue_weather": "Arena Botevgrad, Botevgrad, Bulgaria (capacity 3,500), tip-off 19:00 local (17:00 UTC) on Tue 17 Nov per sportal.bg and karlobag.eu. Balkan's real home arena, so it is a normal home game, no neutral-venue issue. Indoor, weather irrelevant."
+      },
+      "reason": "Fixture and venue verified (EuroCup Group D round 8, Arena Botevgrad, 17 Nov, 19:00 local). No hard exclusion: no coach change found, not a derby, the favourite Ulm still has stakes (3-4, mid-table, chasing a top-4 place) and Balkan are 1-6 and last, with both sides playing for pride/placing. Ulm beat Balkan by 14 in September, have the deeper roster and play the worst team in the group; Balkan have been poor at home (65-76 Manresa, 56-79 PAOK). Probability cut slightly below the market (0.64 vs 0.665) because of the missing second price, unverified lineups and Ulm's weak road record. Set to low at review: there is no second bookmaker price, the Balkan team news and both predicted fives come only from an AI-generated preview, and the Polymarket price swung 20% in 24h in a thin market (about $1.4k) with no news found, so key facts are missing.",
+      "main_risk": "Ulm's road form (lost at Bahcesehir by 14 and at Roma by 5), a thin rotation, lineup/injury uncertainty (Miličić just back, Shittu out) and a possible lopsided home crowd in a 3,500-seat arena; Balkan star McCoy (32 pts in the first game) can keep it close, and an upset by a few points is plausible. The Polymarket price jumped 20% in 24h in a very thin market with no explaining news and no second bookmaker price to confirm it.",
+      "sources": [
+        "https://karlobag.eu/en/sports/basketball/europe/europecup/balkan-botevgrad-vs-ulm-m67db/",
+        "https://sportal.bg/news-2026111614274844174",
+        "https://ratiopharmulm.com/spielbericht/ratiopharm-ulm-science-city-jena-9-2026-14/",
+        "https://www.oasport.it/2026/11/basket-la-bc-roma-batte-in-casa-ulm-e-torna-al-successo-in-eurocup/",
+        "https://www.gol.bg/a/92-basketball/459984-shampionat-na-balgariya-zagubi-ot-ulm-na-starta-v-evrokap",
+        "https://gamma-api.polymarket.com/events?id=1396476"
+      ],
+      "views": {},
+      "prices": []
     },
     {
       "id": "1365039",
