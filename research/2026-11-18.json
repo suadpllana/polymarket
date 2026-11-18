@@ -1,0 +1,397 @@
+{
+  "date": "2026-11-18",
+  "researched_at": "2026-11-18T06:58:30Z",
+  "stage": "morning",
+  "summary": "Researched on Wednesday morning. No football in the usual leagues (the international break ends), so the day is basketball (EuroLeague, EuroCup, Champions League), KHL and Finnish Liiga hockey. After the 17 Nov loss, every kept game needs a second price that agrees with Polymarket (these markets are thin). Eleven games were researched; three are medium. Medium: Real Madrid at Besiktas (Kalshi 72-73% agrees with Polymarket 72.5%; Madrid without Campazzo, Deck, Jantunen and Garuba, Maledon back), Severstal v Sochi (Severstal far ahead in the table and rested, Sochi on a road back-to-back and scoreless in two games; Fonbet/Winline about 73% incl. OT), JYP v Vaasan Sport (JYP best points rate in the Liiga, 8 wins in 10, Sport on a back-to-back; Veikkaus about 71% incl. OT). Low (no second price, or an unexplained price swing, or missing team news): Galatasaray v Legia, Aris v Le Mans, Derthona v Riga, Avangard v Admiral (goalies unknown), Bosna v Lietkabelis, Cedevita v Burgos, Trento v Neptunas, Frankfurt v Venezia. Tennis needs high confidence and was not researched. Lineups and starting goalies are checked at the final check.",
+  "games": [
+    {
+      "id": "1375609",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1372107",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.3,
+        "draw": 0,
+        "away": 0.7
+      },
+      "checks": {
+        "team_news": "Eurohoops Round 12 injury report (17 Nov, 08:29 UTC): neither club had sent its report for this game yet. Last known Besiktas absences: Jaylen Nowell (out in R11), Berk Ugurlu (out in R11, last played R9; BasketballSphere lists him questionable); BasketballSphere also lists Mady Sissoko out. DaQuan Jeffries (wrist) returned in R11. Real Madrid: Mikael Jantunen (plantar fascia, out since R9), Facundo Campazzo (hamstring, last played R9), Gabriel Deck (shoulder, last played R3, coach said it was more serious than thought), Usman Garuba (Achilles) all out. Theo Maledon (knee sprain) missed R10 and R11 but returned in the ACB on 15 Nov and was the team's best player there (29 PIR). No Round 12 coach press quotes found, and the EuroLeague site returned 429, so I did not use it.",
+        "lineups": "No expected starting fives found in any source. Madrid's R11 win over Zvezda used a thin rotation of 5 absentees (Luwawu-Cabarrot 22 pts, Procida 19, Nick Smith Jr. started). Maledon is back for this game, Campazzo and Deck are not. Lineups for both sides are unconfirmed.",
+        "rotation": "Real Madrid: R11 at home vs Crvena Zvezda on Thu 12 Nov (won 105-84), ACB away at Baskonia on Sun 15 Nov (won 98-84), then this game on Wed 18 Nov. That is 3 days' rest, a trip to Istanbul and a short bench. The minutes load is moderate, with no back-to-back. Besiktas: won at ASVEL 95-91 on Fri 13 Nov (R11), then this home game five days later. I did not find a Turkish league game for Besiktas in between. Next-game schedules were not checked.",
+        "motivation": "Early season, no qualification stakes. Besiktas are 5-6 after the ASVEL win and Madrid are about 7-4 (Sportschau shows 7 games played in its table, so the exact record is uncertain). This is a normal league game, not a derby, and it is the first EuroLeague meeting of these two clubs. Madrid are not close to anything secured, so there is no hard exclusion. Besiktas have struggled at home, with one home win so far (BasketballSphere).",
+        "form": "Madrid: 6 straight wins in all competitions are not confirmed. Confirmed results: 105-84 over Zvezda (17 threes, 38 points in the first quarter) and 98-84 at Baskonia in the ACB, the 8th straight ACB win. Madrid are described as cohesive under Pedro Martinez, though they lost 2 EuroLeague games recently for reasons I did not verify. Besiktas: 95-91 win at ASVEL after trailing for three quarters (30 points in the fourth), but before that lost heavily at Zalgiris (Eurohoops roundup) and are 5-6 overall with one home win. I found no points for/against split for either side.",
+        "h2h": "First-ever EuroLeague meeting between the clubs (BasketballSphere), so there is no head-to-head history. Style: Madrid score heavily from three (17 threes vs Zvezda). Besiktas can be streaky and swing late, as the ASVEL comeback shows.",
+        "odds": "Polymarket moneyline: Besiktas 0.275 / Real Madrid 0.725, total volume only about $263-266 (very thin). The 24h move was 0.665 to 0.725 for Madrid (+9% relative, from about 0.715 by midday on 17 Nov, so the move came after the Round 12 injury reports and Maledon's return; I found no further news explaining all of it). Polymarket spread market: Madrid -4.5 at 0.59, total 175.5 at 0.55, which implies a margin of about 5 points and fits a roughly 72% win chance. Second price: Kalshi KXEUROLEAGUEGAME-26NOV181200RMABJK, Real Madrid bid 0.72 / ask 0.73 / last 0.74, Besiktas bid 0.26 / ask 0.27 / last 0.28, volume tiny (47 and 483 contracts). Kalshi agrees with Polymarket within 2 points. No bookmaker moneyline or de-vigged price was found (built-in DraftKings data is absent for this game), so the only second price is another thin exchange.",
+        "models": "No bookmaker-free rating found: no current-season power rankings, net ratings or model predictions surfaced (Eurohoops power rankings in search are from 2020-2023). The only quantitative anchors are the Polymarket spread of -4.5 and the standings (Madrid 7-4 vs Besiktas 5-6), both weak. This check stays open.",
+        "venue_weather": "Home game in Istanbul, so not a neutral venue. The exact arena was not confirmed by any source I read (a Turkish report mentions Sinan Erdem for an earlier Besiktas home game, nothing for today's). Turkish press gives 20:00 local, which equals 17:00 UTC. Indoor, so weather is not relevant. Besiktas have had trouble winning at home this season (one home win)."
+      },
+      "reason": "No hard exclusion applies: fixture verified for Wed 18 Nov, home side in Istanbul, no derby, no coach change found, nothing to separate the stakes. Madrid are the better side and have Maledon back, and Kalshi (0.72-0.73) agrees with Polymarket (0.725). Confidence is medium rather than high because both prices are very thin (about $265 on Polymarket), the price rose 9% in 24h, there is no bookmaker price or model rating, the injury reports were not final, and Madrid are short-handed (Campazzo, Deck, Jantunen, Garuba out) on 3 days' rest after an away ACB game. p is kept slightly below market.",
+      "main_risk": "Madrid's thin rotation and short rest (Thu, Sun at Baskonia, Wed in Istanbul) away at a Besiktas side that came back from behind at ASVEL; the missing guards (Campazzo) could cost Madrid on the road. A thin Polymarket market that rose 9% in a day could also be overstated.",
+      "sources": [
+        "https://www.eurohoops.net/en/euroleague/2036247/injury-report-round-12-willis-gtd-melli-key-milutinov-out/",
+        "https://basketballsphere.com/en/euroleague-round-12-preview/",
+        "https://www.eurohoops.net/en/euroleague/2034322/madrid-hits-17-threes-but-martinez-keeps-his-feet-on-the-ground/",
+        "https://www.realmadrid.com/fr-FR/actualites/basket/equipe-premiere/article/cronica-baskonia-real-madrid-15-11-2026",
+        "https://www.fanatik.com.tr/en/summary-the-eagles-strike-asvel-in-the-euroleague-an-incredible-comeback-asvel-vs-besiktas-final-score-91-95-2644483",
+        "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXEUROLEAGUEGAME",
+        "https://gamma-api.polymarket.com/events?id=1372107"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1375612",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1370214",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.77,
+        "draw": 0,
+        "away": 0.23
+      },
+      "checks": {
+        "team_news": "Galatasaray: the Wikipedia season page (roster as of 25 Oct) lists only Nikola Ivanovic as injured. No fresh injury report or coach comment for 18 Nov found. A fanatik.com.tr item mentions an older, undated hip-muscle tear for Bugrahan Tuncer. Legia: no absences or injuries reported anywhere, but I found no pre-game report either. Both sides effectively unverified for today.",
+        "lineups": "No predicted XI or starting five found for either side. Galatasaray's last game against Legia (4 Nov) had Chimezie Metu 24 pts and Alen Smailagic in the paint. Legia had Zach Freemantle 23 pts, with Michal Kolenda, Arguster Daniels and Gyorgi Goloman also named.",
+        "rotation": "Galatasaray: BSL is 4-4 (6th) after 8 rounds, with the last results found dated 31 Oct. I could not find the domestic game of the 14-15 Nov weekend or the BSL fixture before this game. Legia: lost the Warsaw derby at home to Dziki Warszawa 77-92 on the Saturday before 4 Nov. Their league game this past weekend is unknown. Legia travel to Istanbul. BCL next dates: Legia home vs Cibona 15 Dec.",
+        "motivation": "Group B, standings as of 4 Nov: Strasbourg 3 games 2-1 (5 pts), Legia 2-1 (5), Cibona 1-2 (4), Galatasaray 1-2 (4). The format sends the winner to the round of 16 and 2nd/3rd to play-ins, so Galatasaray is not eliminated, whatever the Wikipedia table label says. Both sides need the result and no hard exclusion applies. Galatasaray head coach Manuchar Markoishvili replaced Pozzecco on 16 Oct 2026 (33 days ago, outside the 30-day soft window). The team is mid-reset.",
+        "form": "Galatasaray BCL: 1-2, PF 231 / PA 252, and they LOST 72-79 at Legia on 4 Nov (beIN Sports TR, Flashscore PL). BSL: 4-4 with losses at Karsiyaka (OT, 71-78), to Bursaspor (88-93) and at Besiktas (80-83), and wins 102-79, 102-68 and 87-74 vs weaker teams. Legia BCL: 2-1 (lost 62-100 at Strasbourg, won 95-77 at Cibona, beat Galatasaray 79-72). Polish league: lost the derby 77-92 to Dziki Warszawa. Mixed form for the favourite.",
+        "h2h": "Legia won the first leg 79-72 at Torwar on 4 Nov 2026 (quarters 14-21, 20-11, 19-26, 26-14, so Galatasaray led after Q1). The older meetings (2022) were Galatasaray wins, 86-71 and 90-76, and are of little relevance now. Legia beat Galatasaray this season, which is a direct warning against an 81.5% favourite.",
+        "odds": "NO second price found: no bookmaker, odds comparison, Kalshi or dated preview for this game (wincomparator returned 403). The candidates file has no data.odds. Polymarket Galatasaray 0.815 / Legia 0.185. The 24h move is 0.50 to 0.815 (+63% relative) with no news I could find to explain it, so it looks like a thin-market swing. The gamma-api event returned no volume field. Per the SECOND PRICE rule this caps the answer at low.",
+        "models": "No net rating, power ranking or model prediction found for this game. Only the Group B points differential: Galatasaray -21, Legia -13, over 3 games each.",
+        "venue_weather": "Galatasaray's home arena is Sinan Erdem Dome, Istanbul (Wikipedia season page); some home games are at the Basketball Development Center. Legia's schedule page (Basketnews) lists the game as away at Galatasaray, 18 Nov 17:00 (the file start is 17:00 UTC). Flashscore PL says the return leg is in Istanbul. The exact arena for this game is not confirmed. Not a neutral venue; indoor."
+      },
+      "reason": "The fixture is verified: BCL 2026-27 Group B, Galatasaray MCT Technic (home, Istanbul) vs Legia Warszawa, 18 Nov 17:00, men's senior teams. No hard exclusion applies. Both teams need the result, the coach change is 33 days old, and the venue is home. Confidence is low because there is no independent second price, the Polymarket price jumped 0.50 to 0.815 unexplained, and Legia already beat Galatasaray 79-72 two weeks ago. Galatasaray's form is mixed under a new coach (BSL 4-4, BCL 1-2), and no injury or lineup news is available for either side. p is shaded down to 0.77, within 5 points of the market.",
+      "main_risk": "The market price (0.815) looks too high and unconfirmed. Legia beat Galatasaray 79-72 on 4 Nov, Galatasaray is 1-2 in the group and 4-4 in the BSL under a new coach, and the Polymarket price moved 63% in 24h with no explanation and no second price to check it.",
+      "sources": [
+        "https://basketnews.com/teams/683-legia-warsaw/schedules/0.html",
+        "https://en.wikipedia.org/wiki/2026%E2%80%9327_Basketball_Champions_League",
+        "https://en.wikipedia.org/wiki/2026%E2%80%9327_Galatasaray_S.K._(men's_basketball)_season",
+        "https://beinsports.com.tr/haber/galatasaray-mct-technic-polonya-temsilcisine-kaybetti",
+        "https://www.flashscore.pl/wiadomosci/koszykowka-liga-mistrzow-historyczne-zwyciestwo-legii-w-lidze-mistrzow-mistrzowie-polski-pokonali-galatasaray-mct-stambu/8bBUcqVG/",
+        "https://www.eurohoops.net/en/fiba-champions-league/2020723/manuchar-markoishvili-to-replace-gianmarco-pozzecco-at-galatasaray/"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1396759",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.76,
+        "draw": 0,
+        "away": 0.24
+      },
+      "checks": {
+        "team_news": "No injuries for either side on the BasketNews EuroCup injury report (read today, shows both teams with no injured players). I found no club or coach pre-game comments, no Round 8 official injury report (euroleaguebasketball.net returned 429 and was dropped) and no Greek-press report on Aris. Unverified: whether anyone is a day-to-day doubt.",
+        "lineups": "Not available. No predicted starting five found in any source. The only roster info is a Sportschau squad page naming Matt Morgan, Thanasis Antetokounmpo and Khem Birch, with coach Spanoulis; this is not a lineup. Not verified.",
+        "rotation": "Le Mans last played Wed 11 Nov (88-80 vs San Pablo Burgos), so 7 days rest. Its next EuroCup game is 8 Dec, which leaves a gap but is no rotation signal either way. Aris: Greek league 100-78 win over Olympiacos in round 7 (sixth straight league win) per Eurohoops/Karlobag; I could not find the date of Aris's last game or its next one. I found no French LNB fixtures or results for Le Mans (Sportschau lists EuroCup only), so its domestic schedule and fatigue are unverified. Travel: Le Mans flies to Thessaloniki.",
+        "motivation": "EuroCup Group A before this game (BasketNews): Hapoel Jerusalem 8-0, Aris 6-1 (+95, home 4-0), Le Mans 4-3 (+18), Riga 3-4, Derthona 3-4, Cedevita 2-5, Rostock 2-6, Burgos 1-6. Aris is second and Le Mans third, so both are in the qualification places with a real race on and neither has secured its aim; no hard exclusion. Aris is 4-0 at home.",
+        "form": "Aris: 6-1 in the group (only loss 84-73 at Hapoel Jerusalem, 4 Nov), 11 wins in the last 12 games across competitions per Freetips, a Gainblers last-5 of 4-1 with 83.8 scored and 75.8 conceded, and a 100-78 Greek league win over Olympiacos (also beat Panathinaikos 101-91 about two weeks earlier). Le Mans: 4-3, results 74-87 at Aris (29 Sep), 83-89 at Derthona, 82-70 Rostock, 84-66 at Cedevita, 83-90 Hapoel, 71-65 at Riga, 88-80 Burgos; Gainblers last-5 of 3-2 with 84.4 scored and 78.2 conceded. Le Mans starts with two losses then won four of the last five (Freetips). No LNB form found.",
+        "h2h": "Aris won the first meeting 87-74 away at Le Mans on 29 Sep 2026 (Sportschau, Greek City Times). Gainblers lists older meetings where Le Mans won 4 of 5; Sportschau's all-time record is Aris 2, Le Mans 4. Style: Aris wins on defence and rebounding per Greek City Times.",
+        "odds": "No independent two-way moneyline found: Gainblers has no quotes for the match, Freetips shows only Le Mans +13.5 at Stake (about 1.90 decimal, roughly even money), and Wincomparator is the September meeting. Polymarket's own spread market, Aris -13.5, is priced 0.42/0.58, which is consistent with a heavy Aris favourite but is the same venue and not independent. Polymarket volume is thin: event volume about 49.8k USD, moneyline market about 21.0k, liquidity about 2.5k. Polymarket 24h move: Aris fell from 0.855 to 0.795 (-7% relative) with no explanatory news found (candidate data; the clob price-history call returned 403). By the brief's rules, an unexplained fall of 3% or more makes this low, and no second moneyline agrees with the live price.",
+        "models": "No bookmaker-free rating or model prediction found. BasketNews group point differential only: Aris +95 across 7 games (+13.6 per game) vs Le Mans +18 (+2.6 per game), a sizeable gap in Aris's favour.",
+        "venue_weather": "Fixture verified on Polymarket (start 2026-11-18T18:00Z, Wed) and Sportschau (EuroCup Group A, matchday 8, 18.11.2026, 19:00 local CET = 18:00 UTC, status not yet played); Le Mans' own schedule on Sportschau also lists 18.11 at Aris. Aris is the home side in Thessaloniki; a ticketing site names the Alexandreio Melathron / Nick Galis Hall (Aris's home arena, capacity about 5,138). One Sportschau team page showed 17.11, and Gainblers shows 13:00, both look like stale or wrong listings. Indoor, so weather is irrelevant. No neutral venue."
+      },
+      "reason": "Aris is clearly the stronger side on form and point difference (6-1, +95, 4-0 at home, six straight Greek league wins) and beat Le Mans by 13 in September, so a heavy favourite is plausible. But no independent two-way moneyline was found, the Polymarket market is thin (about 50k volume) and fell 7% in 24h with no news to explain it, and neither lineups nor team news are confirmed. Under the brief's rules this is low confidence.",
+      "main_risk": "The unexplained 6-point fall in the Aris price on a thin market, with no second moneyline to check it against, plus unverified lineups and a possible Aris injury or rest that we cannot see. A Le Mans team 4-3 with 3 away wins in the group (Cedevita, Riga plus a narrow loss at Derthona) could keep it close or win.",
+      "sources": [
+        "https://www.sportschau.de/live-und-ergebnisse/basketball/uleb-euro-cup/ma12322150/aris-thessaloniki_le-mans-sarthe/info",
+        "https://www.sportschau.de/live-und-ergebnisse/verein/te2297/le-mans-sarthe/spielplan-team",
+        "https://basketnews.com/leagues/79-eurocup/standings.html",
+        "https://basketnews.com/leagues/79-eurocup/injured.html",
+        "https://www.freetips.com/basketball/aris-vs-le-mans-live-stream-20261117-0025/",
+        "https://gainblers.com/us/bets/basketball/europe/euro-cup/aris-lemans/",
+        "https://greekcitytimes.com/2026/09/30/aris-launch-eurocup-campaign-with-impressive-win-in-france/",
+        "https://gamma-api.polymarket.com/events?id=1396759"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1396477",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.72,
+        "draw": 0,
+        "away": 0.28
+      },
+      "checks": {
+        "team_news": "No injury report found for either side today. Official EuroCup round-8 injury page (euroleaguebasketball.net) returned HTTP 429 and was dropped. Tuttosport, Derthona club site and Sportando (17 Nov previews) give no current injury list. They only note that Eboua and Di Meo missed the first meeting (30 Sep) and do not say whether they are fit now. Nothing found for Riga either (coach Rokas Kondratavicius, no availability news). So team news is unverified for both sides.",
+        "lineups": "No expected starting fives published. Key names in previews: Derthona's Dominik Olejniczak (20 pts, 35 PIR at Cantu) and Prentiss Hubb (16 pts in Riga); Riga's Benjamin Shungu (23 pts, 7 ast, 6 reb in the first meeting; hit the 86-84 winner) and Roland Sulcs (18 pts in the latest league game). Only one source type, club and press previews, so lineups are unconfirmed.",
+        "rotation": "Derthona beat Cantu away in Serie A (second league win in a row), after EuroCup losses at Ljubljana (OT) and 77-91 at home to Jerusalem. No sign of rest-day or travel problems at Derthona, which plays at home. Riga travelled from Latvia (about 2,250 km on the first meeting's route, so a long trip). Its Estonian-Latvian league record is 9-0, latest a 93-72 win over Viimsi; exact date of that game not confirmed. No double-week or back-to-back info found for either side. Next fixtures not checked.",
+        "motivation": "High for both: Group A table before the game (sportschau): 1 Jerusalem 8-0, 2 Aris 6-1, 3 Le Mans 4-3, 4 Derthona 3-4 (558:575), 5 Riga 3-4 (550:597), 6 Cedevita 2-5, 7 Rostock 2-6, 8 Burgos 1-6. Both sit on 3-4 around the last playoff place, and Italian press calls it a 'spareggio-playoff'. Riga also won the first leg 86-84, so it holds the head-to-head tiebreak edge. The favourite does NOT have nothing to play for, so no hard exclusion. Both sides need the result, which narrows Derthona's edge.",
+        "form": "Derthona EuroCup: L at Riga 84-86, L at Aris, W vs Le Mans, W at Cedevita? (unverified), L at Ljubljana (OT), L 77-91 vs Jerusalem. Overall 3-4 with points 558:575 (-17). Serie A: two straight wins incl. away at Cantu, their first away win of the season. Riga EuroCup: L 65-71 vs Le Mans (home), L 81-105 at Aris, L 86-87 at Rostock, W 89-79 vs Ljubljana, L 64-100 at Jerusalem, W at Burgos; overall 3-4 with points 550:597 (-47). Domestic Estonian-Latvian league 9-0. Derthona's point differential is better by 30 over seven games, and Riga's road form in EuroCup is poor (heavy losses at Aris and Jerusalem).",
+        "h2h": "One meeting this season: 30 Sep in Riga, Riga won 86-84 on a last-second Shungu basket, after Derthona had tied from 5 down with under a minute left. Style: Riga plays fast, with intensity and rebounding; coach Fioretti says Derthona must limit easy points and contain Riga's guards. The first leg shows Riga can beat Derthona; a two-point loss on the road is not a mismatch.",
+        "odds": "No independent price for this game found, and the game has no data.odds block. Searches for Italian and English odds found only the 30 Sep game (one comparison site showed Derthona about 1.46 and Riga about 2.57 for that game, which is not today's price). Polymarket is thin: event liquidity about 6,001 USD, moneyline market liquidity about 3,731, best bid 0.75 and ask 0.78. Volume field not returned by the API. Polymarket also lists spread Derthona -7.5 at 0.585 and total 163.5 at 0.56/0.44, which imply a roughly 6 to 8 point expected margin. 24h move: favourite fell from 0.83 to 0.765 (-7.8% relative; data.move_24h). The hourly history swung between 0.685 and 0.83 over the last day (e.g. 0.685, 0.695, 0.805, 0.705 early on) and settled at 0.765, which is noise-like thin-market behaviour. No news explains a real move, and no second source confirms 0.765. Under the 3% rule with no explanation and no second price, the rating is low.",
+        "models": "No bookmaker-free rating found (no net-rating or power-ranking page retrieved). Points differential in the group is the only data: Derthona -17 over 7 games (-2.4 per game), Riga -47 (-6.7 per game), about 4 points per game better for Derthona, plus home court. One AI-generated prediction (83-77 Derthona on karlobag.eu) is not a valid source and is ignored.",
+        "venue_weather": "Nova Arena (Cittadella dello Sport), Tortona, Derthona's home arena (Tuttosport and derthonabasket.it, both 17 Nov); not Casale Monferrato and not a neutral venue. Indoor. Date confirmed as Wed 18 Nov. Tip-off: Tuttosport, Sportschau and ticket sites give 17:30 CET (matches the 16:30 UTC start); one search snippet quoting the club's season calendar said 19:30, so the exact time is slightly unclear. Broadcast on Sky Sport Arena and Now."
+      },
+      "reason": "Fixture verified: EuroCup Group A round 8, Derthona at home in Tortona, men's senior teams, no coach change reported, no derby. No hard exclusion applies: both teams are 3-4 and the game decides a playoff place for each. Derthona is a plausible favourite (home, better point differential, Riga weak on the road in EuroCup), but the 76.5% price is not backed by any second source. The price fell 7.8% in 24h with no explanatory news, the market is thin and swings by 10+ points an hour, injury news is missing for both clubs, and Riga won the first leg. Per the rules (no independent price, unexplained drop of 3% or more) the confidence is low. p is lowered to 0.72 because Riga won the first leg and the game is a must-win for both.",
+      "main_risk": "Riga repeats its first-leg win: a fast, rebounding team with Shungu in form and a 9-0 domestic record, in a game that is a playoff decider for both, with Derthona's EuroCup home form shaky (77-91 home loss to Jerusalem). Also unverified injuries (Eboua, Di Meo) and a thin, volatile Polymarket line with no second price.",
+      "sources": [
+        "https://www.tuttosport.com/news/piemonte-news/2026/11/17-152654880/derthona-riga_zelli_sfida_decisiva_per_un_posto_nei_playoff_di_eurocup",
+        "https://www.derthonabasket.it/sapore-di-spareggio-playoff-con-riga-zelli-in-eurocup-olejniczak-consci-dellimportanza-della-gara/",
+        "https://www.sportschau.de/live-und-ergebnisse/basketball/uleb-euro-cup/ma12322156/derthona-basket_rigas-zelli/blitztabelle",
+        "https://sportando.basketball/derthona-tortona-coach-fioretti-dovremo-togliere-punti-facili-al-riga-zelli/",
+        "https://gamma-api.polymarket.com/events?id=1396477",
+        "https://ticket-compare.com/basketball/eurocup/bertram-derthona-basket-vs-rigas-zelli-18-nov-2026/"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1372583",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.72,
+        "draw": 0,
+        "away": 0.28
+      },
+      "checks": {
+        "team_news": "Only item found: Admiral forward Egor Chezganov suspended 4 KHL games after a fight with Spartak (sportmail.ru preview). No Avangard injury list for 18 Nov found; a Sport-Express note on Avangard's injured list (Boot out until 1 Feb) is undated, so not used. Goalie injuries for either side unverified.",
+        "lineups": "NOT VERIFIED: no expected starting goalie for either side found in any source (sportmail preview lists none; searches returned nothing for 18 Nov). A backup in goal for Avangard, or a hot Admiral goalie, is the key unknown.",
+        "rotation": "Fixture confirmed: KHL week 12, Wed 18 Nov, 16:30 Moscow (13:30 UTC), G-Drive Arena, Omsk, Avangard at home. Admiral played Spartak on 14 Nov (lost) and Barys earlier (2:4) per sportmail; Admiral's road-trip stage and any back-to-back could not be confirmed, and Avangard's previous/next game dates were not found (khl.ru calendar returned 403).",
+        "motivation": "Regular season, no playoff pressure either way. Standings are inconsistent between sources: sportmail says Avangard 36 pts in 25 GP (GF 55, GA 59) and Admiral 33 pts in 26 GP (GF 71, GA 80); sports.ru table shows Avangard 5th East (25 GP, 30 pts) and Admiral 10th (26 GP, 25 pts). Either way Avangard is ahead but not far, and both are mid-table. No hard-exclusion factor found (not a derby, no coach change found).",
+        "form": "Avangard won 4 of its last 5, the loss was 0:4 at Dynamo Minsk (sportmail). Admiral lost to Salavat Yulaev 5:6, Spartak (14 Nov) and Barys 2:4, beat SKA 4:0 on 4 Nov. Full last-10 with goals not obtained. Season goal difference: Avangard -4 (55:59), Admiral -9 (71:80); Avangard is a low-scoring side, Admiral concedes about 3.1 per game.",
+        "h2h": "Avangard won 8 of the last 10 meetings since Jan 2024 (sportmail); sportschedule.tv says 11 of last 17, latest 5:2 Avangard on 26 Jan 2026. Last Omsk-Vladivostok meeting noted: Avangard won 3:2 on shootouts in Vladivostok on 11 Feb 2026, so games can be close.",
+        "odds": "Polymarket 0.75/0.25 (24h ago 0.77, move -2.6%, under the 3% threshold). Polymarket liquidity about 2946 USD, volume field empty, so a thin market. Second price: sportmail.ru shows Fonbet, Paribet and Winline all at 1X2 (60 min) Avangard 1.52 / draw 4.80 / Admiral 5.40. De-vigged (overround about 5.1%): 62.6% / 19.8% / 17.6%. Splitting the draw mass by team strength gives an incl.-OT moneyline of roughly Avangard 0.74-0.75, Admiral 0.25-0.26, which agrees with Polymarket within a point. No Stake/Rainbet price seen. sportschedule.tv model: 61.8/20.4/17.8 (60-min).",
+        "models": "No Elo/xG source found. Only season goal difference (Avangard -4 vs Admiral -9, from sportmail/sports.ru) and sportschedule.tv's own probability (61.8% Avangard 60-min). Points gap is small (3 on sportmail, 5 on sports.ru), so a 75% win price looks high for the quality gap; home ice and h2h record are the support.",
+        "venue_weather": "G-Drive Arena, Omsk (Avangard home arena), indoors, no weather issue. Venue confirmed by sportmail.ru and sportschedule.tv."
+      },
+      "reason": "Fixture and venue verified and a second bookmaker price (Fonbet/Winline via sportmail, de-vigged, OT split) agrees with Polymarket at about 0.75. But the decisive hockey facts are missing: no expected starting goalies, no confirmed rest/travel for Admiral, no full last-10, no independent rating, and the standings sources conflict. Avangard is only a mid-table side (negative goal difference, 55 goals in 25 games) priced as a 75% favourite, so p is trimmed slightly below market.",
+      "main_risk": "Avangard's low-scoring offence plus an unknown goalie situation: a one-goal game decided by a hot Admiral goalie, overtime or shootout (the last Omsk-Vladivostok game went to a shootout). Admiral is a high-scoring but leaky side that can win a shootout lottery. Key facts (starting goalies, Admiral travel, injuries) unverified, so confidence is low.",
+      "sources": [
+        "https://sportmail.ru/hockey-khl/407/match/8129373/",
+        "https://sportschedule.tv/sport_event/avangard-omsk-vs-admiral-vladivostok",
+        "https://www.sports.ru/hockey/tournament/khl/table/",
+        "https://gamma-api.polymarket.com/events?id=1372583",
+        "https://news.sportbox.ru/Vidy_sporta/Hokkej/KHL/spbnews_NI1761295_Avangard_po_bullitam_pobedil_Admiral_v_matche_KKhL_lider_Vostochnoj_konferencii_vsuhuju_proigral_Amuru"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1372581",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.7,
+        "draw": 0,
+        "away": 0.3
+      },
+      "checks": {
+        "team_news": "Severstal injured list (vologda-poisk.ru, stavka.tv): Burenov, Graf, Davydov, Okunev, Chaly, Pyanov, Remezovsky (7 players). Stavka.tv lists Sochi absences Akolzin, Guryev, Li, Petukhov, Slepets, Fedotov. Overbetting says Egor Stepanov's return boosted Severstal's attack. Sochi is led by acting head coach Shaldybin while Mironov is with Russia's juniors (sportmail.ru), not a sacking or appointment. No hard-rule trigger found.",
+        "lineups": "No official starting goalies yet (morning). Stavka.tv expects Samoilov for Severstal (Skotnikov backup), who saved under 89% in his last two games and allowed 3+ goals in each. For Sochi it expects Petr Andreyanov (back from injury, Shaymardanov backup), but Overbetting says Sochi has not named a starter. A Shaymardanov start is a possibility. Only one source named each goalie, so this is unconfirmed.",
+        "rotation": "Home game in Cherepovets, no travel for Severstal. Severstal last played 13 Nov (4:3 vs Traktor, shootout), so about 4 full days of rest (Overbetting). Sochi played 14 Nov (0:2 at Amur) and 16 Nov (0:3 at Lokomotiv), then travels to Cherepovets on 1 day of rest. No back-to-back for Severstal. Sochi is on a short-rest road trip.",
+        "motivation": "Regular season, no hard-rule situation (nobody has qualified or been eliminated). Sportmail table: Severstal 26 GP, 12 W, 9 L, 63-60 goals, 44 pts, fifth in the West per vologda-poisk. Sochi 27 GP, 5 W, 18 L, 45-90 goals, 22 pts, tenth in the West per the same source. Stavka.tv gives different, apparently older, figures (Severstal 6th, 32 pts; Sochi 21st, 17 pts), so the two sources conflict. Either way Severstal is far ahead in the table. The game is Severstal's home date marking the arena's 20th anniversary. Not a derby.",
+        "form": "Severstal's last 5 (sportmail): 4:3 SO vs Traktor, 4:3 vs Lada, 1:3 at Shanghai, 1:5 at Spartak, 3:2 SO vs Spartak. That is 14 goals for and 17 against, with a shaky defence (Overbetting notes it too). Sochi's last results: 0:3 at Lokomotiv (16 Nov), 0:2 at Amur (14 Nov), 1:2 vs Neftekhimik (4 Nov), 2:1 at Salavat (27 Oct), 3:2 OT vs Dinamo Minsk (23 Oct), 2:5 vs Shanghai (19 Oct). Sochi has lost 11 straight to Lokomotiv, scored 0 in its last two games, and has a goal difference of -45 (45-90). I could not get a full last-10 for either side.",
+        "h2h": "Severstal won the latest meeting 4:1 (5 Nov 2026) and, per stavka.tv, has won the last 9 meetings. Sochi did win two OT games 5:4 earlier (21 Jan 2026 and 6 Nov 2025 per sportmail), so one-goal and overtime games are common in this pairing.",
+        "odds": "Polymarket Severstal 0.725 / Sochi 0.275. Its 24h move was 0.72 to 0.725 (+0.7%), so no unexplained drop. Event volume is about $3,052, which is thin. Second price: Fonbet, Paribet and Winline 1X2 (regulation time), per sportmail.ru and stavka.tv: Severstal 1.55 / draw 4.70 / Sochi 5.20. De-vigged (overround 5.0%): 61.4% / 20.3% / 18.3%. Allocating the draw to OT/SO winners at roughly 58/42 for the home side gives a two-way incl. OT of about 73% Severstal, which agrees with Polymarket within about 1 point. This is a derived estimate, as no direct OT-inclusive moneyline was found. Stavka.tv also shows Severstal -1.5 at about 1.92-2.00, so a multi-goal win is not assured.",
+        "models": "No bookmaker-free rating (xG, power ranking) was found. Goal difference per game: Severstal +0.12 (63-60 in 26 GP), Sochi -1.67 (45-90 in 27 GP). Points percentage: Severstal 44/78 = 56%, Sochi 22/81 = 27%. Stavka.tv's editorial estimate is a 55% win in regulation.",
+        "venue_weather": "Ledovy Dvorets, Cherepovets, Severstal's home arena (sportmail.ru, vologda-poisk.ru). Indoor, so weather is irrelevant. Start 19:00 Moscow time = 16:00 UTC, which matches the candidate file."
+      },
+      "reason": "The fixture and the home venue are verified. Severstal has a clear edge in standings, rest (about 4 days vs 1 day, with Sochi on the road after back-to-back-ish games) and head-to-head, and a second price (Fonbet/Paribet/Winline 1X2, de-vigged and OT-adjusted, about 73%) agrees with Polymarket. p is set slightly below the market because of the goalie uncertainty and Severstal's leaky defence. Not a hard exclusion.",
+      "main_risk": "Goalie uncertainty: Severstal's expected starter Samoilov saved under 89% in his last two games. Severstal's defence is leaky (1:5 at Spartak, conceding 3 in each of its last two wins). A game that is level after 60 minutes becomes a coin flip in OT/SO, and Sochi has won two earlier OT games against Severstal. Polymarket volume is thin (about $3k). I found no goalie source for either side beyond one article each, and no direct OT-inclusive moneyline.",
+      "sources": [
+        "https://sportmail.ru/hockey-khl/407/match/8129374/",
+        "https://stavka.tv/matches/ice-hockey/18-11-2026-severstal-cherepovec-sochi",
+        "https://overbetting.ru/tips/hockey/2026-11-18/severstal-soci/1134453/",
+        "https://vologda-poisk.ru/news/sport/severstal-v-den-20-letiya-ledovogo-dvortsa-primet-na-domashnem-ldu-hk-sochi",
+        "https://gamma-api.polymarket.com/events?id=1372581"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1396764",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.67,
+        "draw": 0,
+        "away": 0.33
+      },
+      "checks": {
+        "team_news": "No reliable injury list for either side found. The EuroLeague 'Pregame quotes and injury report: Round 8' page returned HTTP 429 and was not read. The vijesti.ba preview (Gjergja and Gary Browne quotes) mentions no injuries. A Basketnews EuroCup injury page showed none but is undated. Both squads' availability is unverified.",
+        "lineups": "No expected starting five found for either team. Lineups are not out on Wednesday morning.",
+        "rotation": "Round 8 of the EuroCup. Bosna lost 69-78 at home to Balkan, then 82-86 at Manresa on 10 Nov, so two straight losses. Lietkabelis lost 66-80 to Manresa on 4 Nov and 61-99 at Bahcesehir on 11 Nov, after a 68-86 loss to Ulm on 27 Oct. Domestic ABA League and LKL weekend games for either side were not found. Lietkabelis travels to Sarajevo, with no other travel data found.",
+        "motivation": "Group D after round 7: Bahcesehir 6-1, PAOK 5-2, Manresa 5-2, Ulm 3-4, Lietkabelis 3-4, BC Roma 3-4 (one source shows 2-4), Bosna 2-5, Balkan 1-6 (Eurohoops). The standings are nearly level and both teams are in a bad run. Coach Gjergja called it an important game for both sides. Neither side is through or out, and the stakes are even.",
+        "form": "Bosna (SportsGambler): 2-5 in the group, 559 points for and 573 against (-14), home 1-2, road 1-3, two straight losses including a 69-78 home loss to last-placed Balkan. Lietkabelis: 3-4, 516 for and 572 against (-56), home 2-2, road 1-3, three straight losses (66-80 Manresa, 68-86 Ulm, 61-99 at Bahcesehir). Bosna is clearly ahead on net rating, but both are poor. ABA League and Lithuanian LKL form was not found.",
+        "h2h": "30 Sep in Panevezys: Lietkabelis 75-72 over Bosna (Scores24). Bosna lost the first meeting, so it is not a one-sided matchup.",
+        "odds": "No second price for THIS game was found: no bookmaker, odds-comparison, Kalshi or dated preview moneyline. The sites were not usable or returned only the Sept game: sportsgambler.com (no page for this game), wincomparator.com (HTTP 403 and old Sept prices), scores24 and betclan (Sept game only). For context, SportsGambler priced Bosna +230 / Manresa -333 away on 10 Nov, and Bahcesehir -1250 vs Lietkabelis on 11 Nov. Polymarket: Bosna 0.715 / Lietkabelis 0.285, up from 0.665 24h ago (+7.5% relative) with no news found to explain it. The event volume is about 83k (moneyline about 74.5k). The Polymarket spread of Bosna -5.5 is at 0.515 and O/U 158.5 over is at 0.465. The moveless-news price jump and missing independent price make this low.",
+        "models": "No power-rating or model prediction found. The only proxy is group net points per game (Bosna -2.0, Lietkabelis -8.0 over 7 games), which favours Bosna but includes the 38-point loss. This is not a bookmaker-free rating.",
+        "venue_weather": "Zetra Olympic Hall (Zetra arena), Sarajevo, Bosna's home. Wed 18 Nov, 19:30 local (18:30 UTC), Round 8 (vijesti.ba). A ticket-compare listing also names Zetra. Bosna is 1-2 at home in the group, and Gjergja is hoping for a full arena as against Mega. Indoor, so no weather."
+      },
+      "reason": "Fixture verified: EuroCup Group D round 8, Bosna vs Lietkabelis, 18 Nov 18:30 UTC, at Bosna's home Zetra hall. No hard exclusion applies. Bosna is the better team on group net rating (-14 vs -56) and has home court. But it is 2-5, is on a two-game losing streak, lost at home to last-placed Balkan, and lost the first meeting to Lietkabelis 72-75. The price jumped 6.5 -> 7.15 (+7.5%) in 24h without explanation, and no second price or injury report was found, so I cap confidence at low and shade p to 0.67.",
+      "main_risk": "Bosna is a poor 2-5 side (home 1-2, lost at home to last-placed Balkan, lost the first meeting by 3) and a close game can go either way. Lietkabelis' recent form is bad (three straight losses), but it is the more experienced EuroCup side. The unexplained Polymarket move (+7.5%), thin volume, and missing injury news and independent price are the biggest uncertainty.",
+      "sources": [
+        "https://www.eurohoops.net/en/eurocup/2033529/eurocup-roundup-bahcesehir-wins-by-38/",
+        "https://www.sportsgambler.com/betting-tips/basketball/manresa-vs-bosna-royal-prediction-odds-2026-11-10/",
+        "https://www.sportsgambler.com/betting-tips/basketball/bahcesehir-koleji-vs-lietkabelis-prediction-odds-2026-11-11/",
+        "https://www.vijesti.ba/clanak/784843/bosna-igra-vaznu-utakmicu-u-eurocupu-gjergja-pozvao-navijace-da-ispune-zetru",
+        "https://scores24.live/en/basketball/m-30-09-2026-lietkabelis-panevezys-monaco-prediction",
+        "https://ticket-compare.com/basketball/eurocup/bosna-bh-telecom-vs-bc-lietkabelis-18-nov-2026/",
+        "https://gamma-api.polymarket.com/events?id=1396764"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1396789",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.69,
+        "draw": 0,
+        "away": 0.31
+      },
+      "checks": {
+        "team_news": "No injury or suspension news found for either side. Searches for Finnish and English press returned only 2025/26 items, and liiga.fi, jatkoaika, Iltalehti and IS pages did not render. The liiga.fi game feed (api/v2/games/2027/2701456 and the last three games of each club) flags no injured or suspended players on either roster. That is a roster flag, not a club injury report, so full injury status is unverified.",
+        "lineups": "Starting goalies not announced (Wednesday morning). The liiga.fi roster data for the last three games lists JYP goalies Oskari Setanen (line 1 in 2 of 3 games), Oskari Salminen (line 1 in the 1-0 win at KooKoo on 13 Nov) and Otto Hannikainen (third). It lists Sport goalies Masi Harkonen (line 1) and Joni Ortio (line 2). The line numbers are only a roster hint, not a confirmed starter. Sport play at Tappara tomorrow (back-to-back), so tonight's goalie is a real unknown for them. Expected-goalie confirmation is missing, which caps confidence at medium.",
+        "rotation": "JYP's last game was Sat 14 Nov (4-3 vs Pelicans, home), so they have 3 days rest. Next they play Fri 20 Nov at home vs HIFK. Sport's last game was Sat 14 Nov (3-2 vs HPK, home), and they play tonight in Jyvaskyla and again tomorrow, Thu 19 Nov, at Tappara. That is a back-to-back for Sport, with travel Vaasa to Jyvaskyla then on to Tampere, which favours JYP. Source: liiga.fi schedule feed.",
+        "motivation": "Regular season, no clinching. JYP are 5th by the feed ranking (20 games, 44 pts by my 3-2-1 count, 2.20 pts/game, best rate in the league; liiga.fi lists them 5th, so it counts games differently). Sport are 15th by the feed ranking (20 games, 25 pts by my count, 1.25 pts/game, 12th by rate). Both sides still need points: no hard-exclusion situation.",
+        "form": "JYP last 10 (all competition per liiga.fi): W 3-2 SO vs Lukko, L 4-5 OT vs Karpat, W 3-2 HPK, W 4-1 Assat, L 4-6 Tappara, W 6-3 at SaiPa, W 5-4 OT vs Jokerit, W 7-1 Karpat, W 1-0 at KooKoo, W 4-3 Pelicans. That is 8 wins from 10 (3 of them in OT/SO), goals 43 for and 34 against, and 71 for and 52 against in 20 games. Sport last 10: W 2-1 Ilves, W 4-3 KooKoo, W 2-1 at Pelicans, L 0-3 Jukurit, L 3-5 SaiPa, L 1-3 SaiPa, L 2-5 at KalPa, L 1-2 Assat, W 5-3 at K-Espoo, W 3-2 HPK. That is 5 wins and 5 losses, goals 23 for and 28 against, and 41 for and 58 against in 20 games (-17). Sport's last two games were wins.",
+        "h2h": "The 2026-27 meetings are all still to come (JYP-Sport 18 Nov, then Sport-JYP 16 Dec, JYP-Sport 30 Dec, Sport-JYP 16 Mar). The last meeting found was 7 Mar 2026, JYP 3-0 at Vaasa, with JYP ahead 7-3 in the last 10 meetings (matchstat snippet). Not a derby.",
+        "odds": "Polymarket: JYP 0.71 / Sport 0.29, resolves on the official result including overtime and shootout (a draw resolves 50-50, so p.draw = 0). Volume is only about $116, so the market is thin. The 24h move is 0.695 to 0.71 (+2.2%, rising), so there is no price drop. Second price, Veikkaus via the liiga.fi game feed (gamblingEvent, 3-way regulation time): JYP 1.60, draw 4.75, Sport 4.75. De-vigged (overround 4.6%) that is JYP 59.7%, draw 20.1%, Sport 20.1%. Splitting the regulation draw by roughly 55-60% for the favourite gives about 70.7-71.8% for JYP including OT, which agrees with Polymarket within 1 point. No Stake or Rainbet price seen. The DraftKings/ESPN data was not in the candidate entry.",
+        "models": "No external model rating found. My own table from the liiga.fi results feed: JYP 2.20 pts/game and +19 goal difference in 20 games, Sport 1.25 pts/game and -17 in 20 games, so a big gap on paper. The game feed also carries a per-game expectedGoals figure: JYP 4.09 xG vs Pelicans (4 goals), 2.81 vs KooKoo, 4.84 vs Karpat; Sport 3.73 xG vs HPK, 2.75 at K-Espoo, 2.66 vs Assat (1 goal).",
+        "venue_weather": "Jyvaskylan jaahalli (LähiTapiola Areena), Rautpohjankatu 10, Jyvaskyla: JYP's home arena (liiga.fi feed iceRink, confirmed also by sportschedule.tv). Indoor, no weather factor. Face-off 18:30 Finnish time = 16:30 UTC; sportschedule.tv shows 18:30 on its TV table. Fixture is the men's Liiga regular season, verified in the liiga.fi schedule."
+      },
+      "reason": "Fixture and home venue verified. JYP are the league's best team by points per game with 8 wins in their last 10, 3 days of rest and a home game, and Sport are 15th with a -17 goal difference, playing a back-to-back tomorrow. Veikkaus's de-vigged 3-way price converts to about 71% for JYP including OT, close to Polymarket's 0.71. Confidence is only medium because the starting goalies and a club injury report are not confirmed, the Polymarket market is very thin (about $116), and several of JYP's recent wins were by one goal or in OT/SO. p is set 2 points below market for these gaps.",
+      "main_risk": "A one-goal or overtime game: JYP's last 10 include three OT/SO games and a 4-6 home loss to Tappara, and their goals against (52 in 20 games) show they are not tight at the back. A Sport goalie hot streak (their last two games were wins) or a JYP goalie change would also hurt, and the starters are unconfirmed. Hockey moneyline variance is high even at a 70% favourite.",
+      "sources": [
+        "https://liiga.fi/api/v2/games?tournament=runkosarja&season=2027",
+        "https://liiga.fi/api/v2/games/2027/2701456",
+        "https://sportschedule.tv/sport_event/jyp-vs-vaasan-sport",
+        "https://gamma-api.polymarket.com/events?id=1396789",
+        "https://www.veikkaus.fi/fi/vedonlyonti/pitkaveto?t=3-1-1&kohde=1-c_1241557",
+        "https://matchstat.com/predictions-tips/liiga-preview-and-prediction-vaasan-sport-vs-jyp-jyvaskyla-betting-tips-picks-march-7-2026/"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1396758",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.64,
+        "draw": 0,
+        "away": 0.36
+      },
+      "checks": {
+        "team_news": "No current injury report found for either side. The only injury items found date from the late-September preview (Siol.net: Jordon Gainey out with a thigh problem and Brandon Murray out for much longer before the Round 1 game in Burgos); their current status is unconfirmed. Nothing found for Burgos (Spanish and Eurohoops searches returned only older seasons). Key facts missing.",
+        "lineups": "No expected starting fives or rotation reports found for either side as of Wednesday morning. Olimpija coach is Zvezdan Mitrovic (contract extended to 2028, so no coach change). Vlatko Cancar and Ziga Samar play for Burgos (Siol preview).",
+        "rotation": "Olimpija played Crvena zvezda in the ABA League on Sun 15 Nov (a 94-81 loss per a Novosti report, date inferred from sidebar timestamps, not confirmed), then this game on Wed, so a 3-day turnaround at home. Burgos' latest ACB game and travel to Ljubljana not verified; Burgos played Real Madrid on 1 Nov (90-79 loss). Next games not checked.",
+        "motivation": "EuroCup Group A (8 teams), per globalsportsarchive after 7 games: Olimpija 2-5, 6th, points 524-553 (-29); Burgos 1-6, 8th, 538-601 (-63). This is Round 8 of the group stage. Both sides are near the bottom, so neither has secured anything; no hard motivation exclusion. Playoff cut-off not verified.",
+        "form": "Olimpija: ticket-compare lists LLWWW (aggregator, unverified); lost 94-81 at Crvena zvezda on about 15 Nov (Novosti, ABA record 4-3, 3rd) ; 2-5 in EuroCup with -29 point difference. Burgos: 1-6 in EuroCup, -63 point difference, lost 90-79 at Real Madrid on 1 Nov (Real Madrid report); other ACB results for November not found. Home/away splits not found.",
+        "h2h": "30 Sep 2026 in Burgos: Burgos beat Olimpija 85-81 (sportsgambler/ticket pages). Before that game a bookmaker comparison had Burgos the home favourite at about 1.46 vs Olimpija 2.56. Both teams' EuroCup results this season are poor, so the market's 69% for Olimpija rests mainly on home court in Stozice.",
+        "odds": "No second price for this game found: sportsgambler and wincomparator pages were unavailable or only showed the September fixture (Burgos 1.46 / Olimpija 2.56, a different game). Candidates data has no DraftKings line. Polymarket: Olimpija 0.69 / Burgos 0.31, event volume about $284k (moneyline about $272k), liquidity about $5.3k; spread -4.5 at 0.575, total 158.5 at 0.50. The price moved from 0.615 to 0.69 in 24h (+12% relative); the hourly history shows it swinging between 0.615 and 0.725 within the day with no news found to explain it. Without an independent price the answer is low.",
+        "models": "No net rating, power ranking or model prediction found. Only crude evidence: point differences of -29 (Olimpija, 7 games) vs -63 (Burgos, 7 games), which favour Olimpija mildly.",
+        "venue_weather": "Arena Stozice, Ljubljana (capacity 12,480), Wed 18 Nov 17:30 UTC (18:30 local), listed as Group A Round 8 by globalsportsarchive and ticket-compare. Fixture, teams, EuroCup and home venue confirmed; indoor, so weather is irrelevant."
+      },
+      "reason": "Fixture and venue verified, and no hard exclusion applies (no coach change, neutral venue or settled motivation). Confidence is low because no injury or lineup news was found for either side, no independent second price exists, the Polymarket price swung 8-11 points within a day, and Burgos won the first meeting 85-81. p is shaded 5 points below market to 0.64.",
+      "main_risk": "Olimpija is a 2-5 side that lost 85-81 in the September meeting, played in Belgrade on Sunday, and has unconfirmed injuries (Gainey, Murray). A close game is likely and the 69% price rests on thin Polymarket liquidity with no confirming bookmaker line.",
+      "sources": [
+        "https://globalsportsarchive.com/competition/basketball/bkt-eurocup-2026-2027/regular-season/156578/",
+        "https://ticket-compare.com/basketball/eurocup/kk-cedevita-olimpija-vs-san-pablo-burgos-18-nov-2026/",
+        "https://siol.net/sportal/kosarka/eurocup-1-krog-702677",
+        "https://www.novosti.rs/sport/kosarka/1671487/crvena-zvezda-cedevita-olimpija-aba-liga-pobeda-izvestaj-rezultat-tabela-sport-najnovije-vesti",
+        "https://www.realmadrid.com/pt-PT/noticias/basquetebol/primeira-equipa/cronicas/cronica-real-madrid-burgos-01-11-2026",
+        "https://gamma-api.polymarket.com/events?id=1396758"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1396762",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.34,
+        "draw": 0,
+        "away": 0.66
+      },
+      "checks": {
+        "team_news": "No current injury report found for either side. Searches turned up only a 2018 Eurohoops item on Wohlfarth-Bottermann, which is old and irrelevant. Neither club's pre-game notes nor either coach's comments were found. The Hessenschau club page (17 Nov) lists no injuries and no Venezia preview. The sportsgambler page lists no players. Key facts for both sides are missing.",
+        "lineups": "No predicted starting five or rotation found from any source. Not verifiable this morning.",
+        "rotation": "Frankfurt (BBL) lost 15 Nov to Trier, three days before this game. Before that they lost the EuroCup game vs Roma on 12 Nov and the BBL game vs Mitteldeutscher BC on 8 Nov (Hessenschau). Venezia (Serie A) won away at Reggiana 83-78 on 7 Nov (OA Sport). I found no result for Venezia's weekend of 14-15 Nov and nothing on their travel. The next game for either side is unknown.",
+        "motivation": "EuroCup Group B after 7-8 games (Sportschau): Tenerife 7-1, London 5-3, Roma 4-3, Venezia 3-4, Frankfurt 3-4, Ankara 3-5, Siauliai 3-5, Cluj 2-5. Both sides are level on 3-4 in the race for the top-4 places. Neither is secured or eliminated, so this is not a hard 'nothing to play for' case.",
+        "form": "Frankfurt are in a slump: three straight EuroCup losses (Roma 89-113, Ankara 78-98, Tenerife 94-104 earlier), and BBL losses to Mitteldeutscher BC and Trier. Hessenschau quotes the coach and captain criticising the team ('Lasch', 'Ohne Stolz'). Their point differential is -57. Venezia last five EuroCup games: L 76-80 at London, W 98-77 vs Siauliai, L 80-82 at Tenerife, L 79-90 at Roma, W 75-65 vs Ankara. Their point differential is +40. They beat Reggiana in Serie A but lost 99-81 at Napoli the round before. Home/away splits not found.",
+        "h2h": "29 Sept 2026 in Venice: Venezia won 104-72 (Hessenschau, OA Sport, sportsgambler). This is the only recent meeting found. Venezia is the more talented side, and the large margin suggests a strong style mismatch for Frankfurt.",
+        "odds": "Polymarket: Frankfurt 0.325 / Venezia 0.675. The Venezia price fell from 0.74 to 0.675 in 24h, a relative move of -8.8%, and I found no news explaining it. That move alone makes this 'low' under the brief's rule. Volume on the Polymarket event is only 7 and liquidity about $3.5k, so the market is extremely thin. Second price: BetMGM via sportsgambler (captured 17 Nov), Venezia -233 / Frankfurt +175, which de-vigs to about 65.8% / 34.2%. This agrees with Polymarket within 2 points. Spread listed at Venezia -5.5 to -6.5. Polymarket spread Venezia -6.5 is 0.465. DraftKings data was not available in the candidates file.",
+        "models": "No bookmaker-free rating found. The only model figure is a sportsgambler-type model giving Venezia about 67% for the Sept game. Net points in the group (Sportschau) favour Venezia by 97 points over 7 games each. Venezia +40, Frankfurt -57. No net rating or power-ranking page found.",
+        "venue_weather": "Frankfurt home game. The ticket-compare listing puts it at the Süwag Energie Arena (the Skyliners' home hall, formerly Fraport Arena). Sportschau gives 18 Nov 19:30 local, which is 18:30 UTC, matching the brief. A Frankfurt home game in Germany, so not a neutral venue. Indoor, so weather is irrelevant."
+      },
+      "reason": "Fixture is verified: Sportschau gives 18.11.2026 19:30 local, a Frankfurt home game in EuroCup Group B (matchday 8). No hard exclusion applies. Both sides are 3-4, so both still need the result, and I found no coach change. Venezia are the stronger side (Sept win 104-72, better points difference, BetMGM about 66%). But Frankfurt, who are in a bad run, may react at home after public criticism. The Polymarket price is thin, volume 7, and fell 8.8% relative in 24h with no explanation found. Injury and lineup information is missing for both sides. Together these mean 'low'. p is lowered slightly from the market for Frankfurt's home-reaction risk.",
+      "main_risk": "Frankfurt react at home after three straight EuroCup losses and public criticism from coach and captain, and Venezia (Serie A weekend, travel, possible injuries) underperform. Separately, the unexplained 8.8% price drop on a very thin market (volume 7), and no injury or lineup information found for either side.",
+      "sources": [
+        "https://www.sportschau.de/live-und-ergebnisse/basketball/uleb-euro-cup/ma12322165/skyliners_reyer-venezia/blitztabelle",
+        "https://www.hessenschau.de/sport/basketball/skyliners-frankfurt/",
+        "https://www.sportsgambler.com/betting-tips/basketball/frankfurt-skyliners-vs-reyer-venezia-prediction-odds-2026-11-18/",
+        "https://www.oasport.it/2026/11/basket-la-reyer-venezia-supera-in-rimonta-la-reggiana-nellanticipo-di-serie-a/",
+        "https://ticket-compare.com/basketball/eurocup/fraport-skyliners-frankfurt-vs-umana-reyer-venice-18-nov-2026/",
+        "https://gamma-api.polymarket.com/events?id=1396762"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1397314",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.62,
+        "draw": 0,
+        "away": 0.38
+      },
+      "checks": {
+        "team_news": "No current injury report or press-conference news found for either side (searches of Italian and Lithuanian press returned only old items such as Ladurner and Mawugbe from earlier seasons or the opening weeks). SportsGambler lists no injuries for either team, which is not a confirmed report.",
+        "lineups": "No expected starting fives found from any source; lineups unknown. Earlier this season Darius Brown and Olivari were Trento's top scorers (19 and 22-23 points) in the 76-73 win in Klaipeda on 29 Sep.",
+        "rotation": "Trento last played Napoli away on 10-11 Nov (lost 79-90 per SportsGambler) and lost at home to Tofas on 10 Nov per L'Adige; they are on a 2-game losing streak, 1-4 in their last 5. Neptunas lost 79-94 at Tofas on 3 Nov. I did not find either side's domestic league (Serie A, LKL) results or the weekend schedule, so rest and travel are not verified.",
+        "motivation": "Group C after 7 games (Sportschau): Napoli 7-0, Tofas 6-1, Budunost 4-3, Chemnitz 4-3, Bourg 2-5, Neptunas 2-5 (-39), Trento 2-5 (-48), Slask 1-6. Both sides are level on 2-5 and fighting for a top-4 place; Trento is 7th and Neptunas 6th, so neither is through nor safe. This is a soft risk, not a hard exclusion.",
+        "form": "Trento: 1-4 in last 5, only win 94-92 over Budunost on 27 Oct, 2-5 in the group with -48 points difference; a prediction site lists LWWLW. Neptunas: 2-5, -39, 0-3 away, last listed results 79-94 at Tofas and 85-94 at Napoli (28 Oct); prediction site lists LLWLL. Italian Serie A and Lithuanian LKL form was not found.",
+        "h2h": "29 Sep 2026 in Klaipeda: Trento won 76-73 (Olivari basket with 24 seconds left). The market was then Neptunas -100 vs Trento -130, so only a small edge for Trento even then.",
+        "odds": "Polymarket moneyline Trento 0.655 / Neptunas 0.345; spread Trento -4.5 trades 0.505; total 175.5 over 0.46. Polymarket volume 3554 USD on the game event, which is thin. Move in 24h: Trento 0.74 to 0.655, a relative fall of 11.5%, and I found no news that explains it, so the rule makes the confidence low. No second bookmaker price for this game was found (no data.odds in the candidates file; SportsGambler had no price for it; wincomparator returned 403). Without a second price the answer cannot be medium. Reference only: for Trento vs Tofas on 10 Nov, Trento was priced at +116 (about 46%) at home while Tofas is 6-1.",
+        "models": "No net rating, power ranking or model prediction found for this game. Group points difference (Trento -48, Neptunas -39) gives no support for a 65% home favourite.",
+        "venue_weather": "Trento's home arena, BLM Group Arena (ex PalaTrento; listed by one prediction site as Il T Quotidiano Arena), 20:00 local, Wed 18 Nov 2026 (19:00 UTC). Fixture date, teams and venue confirmed by ticket-compare.com and a prediction site; I did not confirm it on the official EuroCup site. Indoor, no weather issue."
+      },
+      "reason": "Fixture and venue check out, and no hard exclusion applies (no derby, neutral venue or confirmed rotation found; both sides sit on 2-5, so neither has nothing to play for). Confidence is low because the 11.5% fall in Trento's price has no explanation, there is no second independent price, no injury or lineup news, and Trento's own record (2-5, 1-4 in last 5, worse points difference than Neptunas) does not back a 65% price. p is cut to 0.62 for Trento.",
+      "main_risk": "Trento is a 2-5 side on a 2-game losing streak with a worse points difference than Neptunas, and the market has dropped Trento from 0.74 to 0.655 with no news found; a close game, as in September (76-73), can go either way.",
+      "sources": [
+        "https://www.sportschau.de/live-und-ergebnisse/basketball/uleb-euro-cup/ma12322045/bc-neptunas_ss-basket-napoli/blitztabelle",
+        "https://www.sportsgambler.com/betting-tips/basketball/trento-vs-tofas-prediction-odds-2026-11-10/",
+        "https://www.eurohoops.net/en/eurocup/2013794/eurocup-roundup-trento-grabs-the-win-after-drama/",
+        "https://ticket-compare.com/basketball/eurocup/dolomiti-trento-vs-klaipedos-neptunas-18-nov-2026/",
+        "https://gamma-api.polymarket.com/events?id=1397314"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1396795",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1370215",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1396794",
+      "exclude": true,
+      "skipped": true
+    }
+  ]
+}
