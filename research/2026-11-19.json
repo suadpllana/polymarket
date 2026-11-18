@@ -1,0 +1,291 @@
+{
+  "date": "2026-11-19",
+  "researched_at": "2026-11-18T19:26:06Z",
+  "stage": "morning",
+  "summary": "Researched the evening before (Wed 18 Nov); lineups and starting goalies are not out, so this is a draft until the morning check and the final check. Thursday has EuroLeague Round 13 (the second game of a double week for every team), Swedish SHL and KHL hockey. Every kept game needs a second price that agrees with Polymarket. Eight games were researched; two are medium. Medium: Valencia v Virtus Bologna (Valencia 9-3 and first, at home; Kalshi 80-83% agrees with Polymarket 82%; Mirotic and Reuvers likely out, third game in five days), Fenerbahce at Olimpia Milano (Fenerbahce 3rd at 8-4 against 2-10 Milano; Kalshi agrees at about 64-65%; Melli, Key and Bitim out, which explains the price easing from 70% to 66.5%). Low: Bayern v Baskonia (Bayern themselves 3-9, three players missing on Tuesday, no traded second price), Växjö v Björklöven ($13 market, no second price, coach sacked 1 Nov), Djurgården v Skellefteå, Färjestad v Frölunda and Brynäs v Luleå (starting goalies unknown, no clean second price). Excluded: Metallurg v Traktor (the 'Ural derby'). Tennis needs high confidence and was not researched.",
+  "games": [
+    {
+      "id": "1379724",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.79,
+        "draw": 0,
+        "away": 0.21
+      },
+      "checks": {
+        "team_news": "Valencia (BasketNews EuroLeague injury report, updated 18 Nov 16:44, Round 13): Nikola Mirotic (muscle) has not played since Round 8 and Nate Reuvers (foot bone injury) since Round 7, both listed Uncertain, so two frontcourt players are likely out; Lucas Mari is listed Uncertain (DNP Rounds 11-12, coach's decision). Mo Gueye (foot, doubt on 12 Nov) played 11 pts in the 15 Nov ACB win. Virtus (BasketNews): Davide Casarin out (bone bruise, until at least Round 21); Tommaso Baldasso Ready (played 1 min in Round 12 after a leg contusion); Daniel Hackett was listed available for Round 12; Matteo Baiocchi is on a coach's-decision DNP. No official club statement for tomorrow seen. Lineups are not out.",
+        "lineups": "Not published (evening before). Valencia expected backcourt TJ Shorts / Armoni Brooks / Kameron Taylor with Gueye; Brooks scored 25 in 18 min on 15 Nov and Taylor 15 at Partizan; Reuvers and Mirotic probably absent. Virtus Round 12 scorers: Diarra 15, Diouf 15, Bello 11, Frazier 10, Kokila 10. Only one source with names, so no confirmed XI.",
+        "rotation": "Both teams are in the Round 12/13 double week. Valencia played Tue 17 Nov at Partizan in Belgrade (76-64 win) after Bayern at home on 12 Nov (102-87) and an ACB home game vs Leyma Coruna on 15 Nov (111-97), so this is their 3rd game in 5 days with the Belgrade trip in between, but they play at home. Virtus: Efes away 13 Nov, then home vs Panathinaikos on 17 Nov (84-79 win), now travel to Valencia for the second game of the week. Both are on short rest. I did not verify whether Virtus also had a domestic game on 15 Nov.",
+        "motivation": "Standings after Round 12 (Eurohoops roundup 17 Nov): Valencia 9-3, first or joint-first with Olympiacos; Virtus 5-7, 15th, having just ended a five-game losing streak. Both sides have something to play for, so no hard exclusion. Neither is rotating on purpose.",
+        "form": "Valencia: 9-3 in EuroLeague, last three results Bayern 102-87 (home, 12 Nov), Leyma Coruna 111-97 (ACB home, 15 Nov), Partizan 76-64 (away, 17 Nov), a defence-led win in a low-scoring game. Virtus: 5-7, won 84-79 vs Panathinaikos on 17 Nov after five straight losses, including at Efes on 13 Nov. Valencia are clearly in better form; Virtus' win is a bounce risk (a good result at home, then a short trip).",
+        "h2h": "Last meeting found: Valencia won 94-81 at Virtus on 3 April 2026 (Reuvers 33 pts; Reuvers is now injured). Earlier Valencia also won 79-68 at home in a prior season (date not verified). Valencia is the better side on the day, but the best performer of the last meeting is absent.",
+        "odds": "Polymarket: Valencia 0.82 / Virtus 0.18, volume only about 306 USD (liquidity about 9,000), so thin. The price moved from 0.79 to 0.82 over 24h (favourite rising +3.8% relative, no fall; hourly history 0.77-0.82). Polymarket spread Valencia -8.5 priced 0.565 and total 184.5 over 0.545. Second price, Kalshi KXEUROLEAGUEGAME-26NOV191500VIBVAL: Valencia yes bid 0.80 / ask 0.83 (mid about 0.815), Virtus yes bid 0.17 / ask 0.19 (mid about 0.18), which agrees with Polymarket within 1 point; Kalshi volume is tiny (4 contracts), so it is an order-book quote rather than traded history. No DraftKings/ESPN data in the candidates entry (data.odds absent). No Stake or Rainbet price seen.",
+        "models": "No bookmaker-free rating found: searches for 2026-27 power rankings or net rating returned only older seasons. Only evidence is the standings gap (9-3 vs 5-7) and the -8.5 spread implied by Polymarket (about a 9-point expected margin). Treated as unverified.",
+        "venue_weather": "Valencia home game at Roig Arena, Valencia, Spain (Spanish club at home, normal venue; Kalshi ticker also lists it as a Virtus-Valencia game at 15:00 ET = 20:00 UTC). Indoor, no weather issue."
+      },
+      "reason": "Valencia are first-placed (9-3) at home vs 15th-placed Virtus (5-7), and two independent prices (Polymarket 0.82, Kalshi mid about 0.815) agree; the favourite's price rose rather than fell over 24h. I lowered p from 0.82 to 0.79 because Mirotic and Reuvers are likely out, Valencia play their third game in five days including the Belgrade trip, and no official lineups or reliable bookmaker line were available.",
+      "main_risk": "Valencia's thin frontcourt (Mirotic, Reuvers uncertain/out) plus the fatigue of a 3-games-in-5-days stretch with the Belgrade trip, while Virtus come off an upset win over Panathinaikos and could keep their form; the Polymarket market is thin (about 306 USD volume), so the price could swing.",
+      "sources": [
+        "https://www.eurohoops.net/en/euroleague/2036457/euroleague-roundup-kabengele-leads-dubai-past-efes/",
+        "https://basketnews.com/news-212393-euroleague-injury-report-updated.html",
+        "https://www.eurohoops.net/en/euroleague/2036247/injury-report-round-12-willis-gtd-melli-key-milutinov-out/",
+        "https://www.eurohoops.net/en/acb/2035498/brooks-and-shorts-lead-valencia-past-leyma-coruna/",
+        "https://www.esdiario.com/comunidad-valenciana/valencia/260403/184159/obra-maestra-reuvers-valencia-rompa-maldicion-bolonia-acerca-playoffs-81-94.html",
+        "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXEUROLEAGUEGAME&status=open",
+        "https://gamma-api.polymarket.com/events?id=1379724"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1379727",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.7,
+        "draw": 0,
+        "away": 0.3
+      },
+      "checks": {
+        "team_news": "Sportando Round 12 report (17 Nov 2026): Bayern no confirmed absences; Baskonia without Faried (left thigh) and Sedekerskis (right thigh), Santos (left calf) uncertain. Basketguru (updated 18 Nov) lists Santos as out indefinitely with a calf tear, Sedekerskis back late November, Faried status conflicting. Bayern DNPs in Round 12: Hollatz, Lucic and Wiley (undisclosed), so their availability for Thursday is unknown. Smits and Kamenjas listed as new Baskonia signings. No coach press-conference comments found for either side.",
+        "lineups": "No predicted XI or starting five found for either side, and no second source. Lineups unverified.",
+        "rotation": "Double week for both. Baskonia hosted Hapoel on Tue 17 Nov (Sportschau: lost 82-85 after leading 48-44 at halftime and 71-64 after three quarters) and so are on one day's less rest than a normal week. Bayern played at Zalgiris on 17 Nov per the brief; I could not find that result or minutes. Baskonia travel to Munich.",
+        "motivation": "Sportschau standings after Round 12: Bayern 18th at 3-9, Baskonia 20th at 1-11. Both are in the bottom of the table and both need wins; neither has anything secured, so no hard exclusion.",
+        "form": "Bayern 3-9 and Baskonia 1-11 this season. Baskonia's last game was a 3-point home loss after leading into the fourth quarter (11-21 in the last quarter). I could not retrieve game logs, points for/against, home/away splits or Bayern's Tuesday result.",
+        "h2h": "No 2026-27 meeting. Last season Bayern hosted Baskonia on 7 Jan 2026 at SAP Garden and Baskonia hosted Bayern on 21 Nov 2025, but I did not read those results.",
+        "odds": "Polymarket 0.725/0.275 (bid 0.72, ask 0.73), moneyline liquidity about $17.4k; event volume not reported by gamma for this game (series figures are not game-specific). Move 24h: 0.735 to 0.725 (-1.4% relative), below the 3% threshold and no news needed. Kalshi KXEUROLEAGUEGAME: Bayern bid 0.72 / ask 0.73, Baskonia bid 0.27 / ask 0.28, but total and 24h volume zero and no trades, so it is a quote only, not a traded independent price. No DraftKings/ESPN prices in the candidate data and no bookmaker moneyline found, so no de-vigged bookmaker price. Polymarket spread market Bayern -6.5 at 0.52.",
+        "models": "No net rating, power ranking or model prediction found (Basketguru has no ratings). Not available.",
+        "venue_weather": "SAP Garden, Munich: Bayern's home arena, a normal home venue (Baskonia travel to Germany). Indoor, no weather issue. No neutral-venue concern."
+      },
+      "reason": "Bayern are home against the 1-11 bottom side, which supports the favourite, but Bayern are themselves 3-9 and 18th, so a 72.5% price for a weak team is hard to verify. Key facts are missing: no lineups, no net rating, no Bayern Tuesday result, no bookmaker price, and Bayern DNPs (Hollatz, Lucic, Wiley) unexplained. Kalshi agrees with Polymarket but has no traded volume. Only 4 sites read (Sportschau, Sportando, Basketguru, Kalshi/Polymarket); fixture itself confirmed in Kalshi and Polymarket.",
+      "main_risk": "Bayern, a 3-9 side playing its second game of a double week with three rotation players out of the Round 12 game for undisclosed reasons, lose at home to a desperate Baskonia (who led their Tuesday game until the final quarter) bolstered by new signings Smits and Kamenjas.",
+      "sources": [
+        "https://www.sportschau.de/live-und-ergebnisse/basketball/euroleague-basketball/ma12385913/saski-baskonia_hapoel-tel-aviv/blitztabelle",
+        "https://sportando.basketball/en/euroleague-injury-report-november-17-2026-round-12-absences-and-game-time-calls/",
+        "https://basketguru.eu/injuries",
+        "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXEUROLEAGUEGAME&status=open",
+        "https://gamma-api.polymarket.com/events?id=1379727"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1375606",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1379728",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.36,
+        "draw": 0,
+        "away": 0.64
+      },
+      "checks": {
+        "team_news": "Fenerbahce: Nicolo Melli (meniscus, possible operation, out for a longer spell) and Braxton Key (dislocated finger with a tear, hurt on 15 Nov in the BSL) are out; a Fenerbahce-sourced report also lists Onuralp Bitim as out. Eurohoops on 18 Nov headlines 'Melli, Key expected to be sidelined for six to eight weeks'. Shavon Shields is fit and returns to the Forum against his old club. Milano: the club's preview reports no injuries; scores24 lists Devin Booker out long-term (hip), which oasport and the club page do not confirm. No Milano injury report beyond that was found. Coach on the bench for Milano is Luca Banchi.",
+        "lineups": "No official lineups yet (evening of 18 Nov). Fenerbahce's usual starters under Jasikevicius, per the Milano club preview, include Shields. With Melli and Key out, the big-man rotation is thinner. No Milano starting five published. Expected fives not confirmed by two sources.",
+        "rotation": "Both sides played Tuesday 17 Nov. Fenerbahce beat ASVEL 115-81 at home (Larkin 25 points in only 15 minutes, so the game was a blowout and starters likely rested), then travel to Milan; it lost 111-109 in overtime to Paris in the previous EuroLeague round and won the BSL game vs Efes on 15 Nov. Milano beat Crvena Zvezda 91-77 at home on 17 Nov, ending a nine-game losing streak, and play Derthona in the LBA on Sun 22 Nov. Milano has the rest edge only in not travelling; both have a 2-day turnaround.",
+        "motivation": "EuroLeague table after 12 rounds: Fenerbahce 3rd at 8-4 (+83), chasing the top 2 (Valencia and Olympiacos 9-3). Milano 19th at 2-10 (-74), one win off the bottom, needing wins to stay in the play-in race. Nothing hard-excluding: the favourite is not through and still has seeding to chase; the underdog is desperate.",
+        "form": "Fenerbahce: 8-4, points 1010-927 (84.2-77.3 per game), second-best points allowed per the club preview; won 115-81 vs ASVEL, lost 111-109 OT at Paris, reported to have lost its last three away games (single source). Milano: 2-10, points 985-1059 (82.1-88.3); last five: W 91-77 vs Zvezda, W 83-70 vs Udinese (LBA), L 83-86 vs Zalgiris, W 88-86 vs Trento (LBA), L 73-84 vs Valencia. Home/away split for Milano not found.",
+        "h2h": "Fenerbahce has won the last three meetings and 19 of 28 since 2011-12 per a search summary; includes 87-72 at home on 18 Dec 2025 (Milano 72-87), Fenerbahce also won 100-76 in an earlier Milan game. Milano's club page gives a different all-time tally (14-18), not reconciled.",
+        "odds": "Polymarket (event 1379728, volume about $155k, liquidity about $7.4k, moderately thin): Milano 0.335 / Fenerbahce 0.665; 24h history for Fenerbahce 0.70 -> 0.665 (-5% relative, over the 3% threshold). The fall is plausibly explained by the Key/Melli injury news (Eurohoops 16 Nov and 18 Nov) and the Tuesday double week, so I did not mark it low on that ground. Second price, Kalshi KXEUROLEAGUEGAME-26NOV191430FENOLM: Milano yes bid 0.34 / ask 0.36, Fenerbahce bid 0.62 / ask 0.67 (mid about 0.645), agreeing within about 2 points of Polymarket. No bookmaker moneyline for this game found; the Polymarket spread market shows a second market at 0.43/0.57 (Fenerbahce handicap side) and total 0.495/0.505 for reference only.",
+        "models": "Net rating from the table: Fenerbahce +6.9 per game (+83 over 12), Milano -6.2 (-74 over 12); a gap of about 13 points per game, with Milano home court worth roughly 3-4 points, still favouring Fenerbahce clearly. No independent power-ranking or model prediction page found for this game.",
+        "venue_weather": "Unipol Forum (Assago, Milan), Milano's real home arena, so a normal home game, not a neutral venue; indoors, no weather issue. Tip-off 20:30 local (19:30 UTC), Sky Sport."
+      },
+      "reason": "Fenerbahce is clearly the better side by table position (3rd vs 19th) and net rating (+6.9 vs -6.2), won its last three meetings, and Kalshi confirms the Polymarket price within 2 points. No hard rule applies (no derby, no coach change reported, normal venue, favourite still has something to play for). The case is held at medium because Fenerbahce lose two rotation players (Melli, Key; Bitim also listed out) on a Tuesday-Thursday double week with travel, Milano is at home and fresh from a morale-lifting win that ended a nine-game losing streak, the lone Fenerbahce reports say it lost its last three away games, and the Polymarket market is thin and has already slid 5% in 24 hours. I shade p down 2.5 points from the market.",
+      "main_risk": "Fenerbahce, short of Melli, Key and Bitim and on a double week with travel, plays a flat or tired road game against a home side that just ended a nine-game losing streak (91-77 over Zvezda) and has nothing to lose; a single-possession loss is the most likely failure given a 111-109 OT defeat at Paris two games ago and a reported run of three straight away losses. Also unverified: Milano's own injury list (scores24 says Booker out long-term, other sources silent) and no confirmed lineups.",
+      "sources": [
+        "https://www.eurohoops.net/en/euroleague/2035850/braxton-key-nicolo-melli-injury-updates-fenerbahce-euroleague/",
+        "https://www.eurohoops.net/en/euroleague/2036727/larkin-shines-with-25-points-in-fenerbahces-victory-this-is-not-a-big-surprise-for-anyone/",
+        "https://www.sportschau.de/live-und-ergebnisse/basketball/euroleague-basketball/ma12385916/olimpia-milano_kk-crvena-zvezda/blitztabelle",
+        "https://www.olimpiamilano.com/nella-notte-di-shields-lolimpia-si-misura-al-livello-piu-alto",
+        "https://www.oasport.it/2026/11/basket-lolimpia-milano-ospita-il-fenerbahce-istanbul-dellex-shields-in-eurolega-per-provare-a-dare-continuita-al-successo-di-martedi-sera/",
+        "https://scores24.live/en/basketball/m-17-11-2026-olimpia-milano-crvena-zvezda-prediction",
+        "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXEUROLEAGUEGAME&status=open",
+        "https://gamma-api.polymarket.com/events?id=1379728"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1375607",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1379730",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1379731",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1379725",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1403492",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.715,
+        "draw": 0,
+        "away": 0.285
+      },
+      "checks": {
+        "team_news": "No injury list found for either side. Hurbra's 12 Nov Växjö-Timrå preview and its 14 Nov Malmö-Växjö report name no Växjö injuries. Nothing found for Björklöven. Växjö sacked head coach Björn Hellkvist on 1 Nov (17 days before the game); Joakim Fagervall and Fredrik Hellgren share the coaching with sporting director Henrik Evertsson. This is a soft risk (coach change 8-30 days ago), not a hard exclusion.",
+        "lineups": "Starting goalies NOT found for either team, and no preview for this game exists yet. Växjö's goalie saved 95.2% of shots in the 2-1 win at Malmö on 14 Nov (name not given). The most important hockey check is missing, so it cannot be rated higher than low.",
+        "rotation": "Växjö: lost 4-3 to Frölunda in the CHL on 10 Nov, beat Timrå 5-0 on 12 Nov, won 2-1 at Malmö on 14 Nov, then play at home on Thu 19 Nov (5 days rest after Malmö). Björklöven: lost 4-1 away at Brynäs on 14 Nov. Their travel from Umeå and their rest days were not confirmed.",
+        "motivation": "SHL table after 14 Nov (hurbra.se): Växjö 9th with 21 pts from 16 games, Björklöven 12th with 17 pts from 16 games, 2 pts above Linköping and HV71 (last, 14 pts). Both sides are mid-to-lower table with no clinched position, so neither has 'nothing to play for'. No hard-exclusion case. The table is from a secondary source, not shl.se.",
+        "form": "Växjö: 3-game losing streak, then a 5-0 win over Timrå (12 Nov) and a 2-1 win at Malmö (14 Nov). Before Malmö they had won 1 of 8 away games, and they had conceded 47 goals in 14 SHL games (about 3.3 per game) while having a 25.7% power play. Björklöven: lost 4-1 at Brynäs (14 Nov); last 10 games with goals not found. Earlier meeting: Björklöven won 4-2 at Växjö on 1 Oct 2026. Växjö's form is shaky and the coaching change is recent.",
+        "h2h": "One known meeting this season, 1 Oct 2026: Björklöven won 4-2 (Hurbra). Hurbra's 1 Oct preview called Växjö the favourite and recommended the over 5.0 goals market. No other h2h data found.",
+        "odds": "No second price found for this game: Svenska Spel, bet365, Hurbra and similar sites had no preview for 19 Nov, and the candidates file has no data.odds. Polymarket Växjö 0.765 / Björklöven 0.235. Volume is only about $13 and liquidity about $1,779, so the market is extremely thin. The 24h move was 0.760 to 0.765 (+0.7%), which is no concern. The market resolves on the final score including overtime and shootouts; the shootout winner counts as +1 goal. Without an independent price that agrees within about 5 points, the rule gives 'low'.",
+        "models": "No bookmaker-free rating found (no data.rating for hockey). Table only: Växjö 21 pts vs Björklöven 17 pts after 16 games each, a 4-point gap, which does not support a 76% favourite. Växjö's 3.3 goals conceded per game is weak.",
+        "venue_weather": "Home game for Växjö; Vida Arena in Växjö (indoor) was not independently confirmed. Polymarket lists the game for Thu 19 Nov, 1:00 PM ET (18:00 UTC), and Hurbra confirms Thu 19 Nov at home vs Björklöven. No neutral-venue signs."
+      },
+      "reason": "The fixture is verified and no hard exclusion applies. The coach change at Växjö was 17 days ago, so it is soft. Both sides are mid-to-lower table, so neither has nothing to play for. The market is a thin $13 with no independent second price, and the starting goalies are unknown. Växjö are only 9th, have a leaky defence and a new coaching setup, and lost at home 2-4 to this opponent on 1 Oct. The table gap does not justify 76%, so p is trimmed to about 70%. Confidence is low because of the missing second price and goalies.",
+      "main_risk": "Växjö (9th, 3.3 goals against per game, caretaker coaches since 1 Nov, only 1 win in 8 away games before Malmö) lose to a Björklöven side that already beat them 4-2 this season. A backup goalie, or a one-goal OT/SO game, is also possible. The Polymarket price is untested at $13 volume.",
+      "sources": [
+        "https://hurbra.se/malmo-vaxjo-14-november-2026/",
+        "https://hurbra.se/shl-resultat-14-november-2026/",
+        "https://hurbra.se/?p=48509",
+        "https://hurbra.se/shl-speltips-1-oktober-2026/",
+        "https://gamma-api.polymarket.com/events?id=1403492"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1403487",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.36,
+        "draw": 0,
+        "away": 0.64
+      },
+      "checks": {
+        "team_news": "No injury report or goalie news found for either side for this game. The only goalie item is a hurbra.se preview saying Djurgården's Magnus Hellberg was unwell and missed the 12 Nov game against Färjestad, with the starter for the 14 Nov Örebro game still unconfirmed. Nothing found on Skellefteå skaters or goalies.",
+        "lineups": "Starting goalies NOT confirmed for either side. No expected-goalie source was found, and lineups are not out on the evening of 18 Nov. This is the key missing fact, so it is not clean.",
+        "rotation": "Skellefteå played Rögle at home in the CHL on Tue 17 Nov (3-2, reached the quarterfinal; tvmatchen.nu), then travels about 750 km to Stockholm for Thursday. That is two games in three days plus travel. Their last SHL away game was a 4-10 loss at Brynäs on 12 Nov (hockeynews.se). Djurgården lost 1-4 in Örebro on 14 Nov (hurbra.se, tvmatchen.nu) and has rested since. A club-less Hellberg illness is the only goalie flag.",
+        "motivation": "hockeytabeller.se, SHL 2026/27: Skellefteå 3rd, 16 GP, 34 pts, GD +18. Djurgården 10th, 17 GP, 20 pts, GD -13, on the playoff line. Neither side has secured anything and no hard-exclusion case applies. Djurgården needs points; Skellefteå is chasing the top 2.",
+        "form": "Skellefteå, last 10 SHL (hockeynews.se): W 5-2 Linköping (14 Nov), L 4-10 at Brynäs (12 Nov), W 5-3 Björklöven, W 3-1 Linköping, W 8-1 at Björklöven, W 4-1 v Djurgården (22 Oct), L 2-3 SO at Frölunda, W 2-1 at Växjö, W 3-2 Rögle, L 1-5 Färjestad. Goals 40 for, 27 against over the 10 (the one 10-goal concession is an outlier). Djurgården: lost 1-3 to Färjestad (12 Nov) and 1-4 at Örebro (14 Nov), 35 goals in 17 games (bettingstugan.se); won five straight at home and has not lost at Hovet this season (tvmatchen.nu), though they lost 0-? to Färjestad earlier in the season.",
+        "h2h": "22 Oct 2026: Skellefteå 4-1 Djurgården in Skellefteå. Last season, Skellefteå won 4-0 at home on 15 Nov 2025. This meeting is not a derby or fierce rivalry.",
+        "odds": "Polymarket (gamma-api event 1403487): Djurgården 0.32 / Skellefteå 0.68, event volume only about 1,970 USD, so the market is thin. 24h move in Skellefteå: 0.675 to 0.68 (+0.7%), no sharp move. Second price is mixed and not clean: Unibet 'Skellefteå vinner' 1.81 at 09:45 on 18 Nov (bettingstugan.se), implied 55% raw, a market that may be regulation-time only; Expekt Djurgården to win incl. OT/penalties 2.75 (tvmatchen.nu), implied 36% raw. The two come from different books and market types and cannot be de-vigged together. Treating the Unibet price as a regulation-time 1X2 price and adding a share of the draw gives roughly 62-66% for Skellefteå, so it is directionally consistent with Polymarket but only loosely, and I found no single bookmaker two-way moneyline incl. OT for this game. Not a clean confirmation.",
+        "models": "No bookmaker-free model found. Table goal difference favours Skellefteå clearly (+18 in 16 games vs -13 in 17). Djurgården scores little (35 in 17), while Skellefteå's 4-10 defeat at Brynäs shows defensive volatility.",
+        "venue_weather": "Hovet, Stockholm (Djurgården's home arena, per tvmatchen.nu). A normal home venue, no neutral-venue issue, indoor. Fixture date 19 Nov 2026, betting stop 19:00 local (18:00 UTC), confirmed by tvmatchen.nu and hockeytabeller-linked previews; the same date is confirmed on the Polymarket event."
+      },
+      "reason": "Fixture and venue are verified (Hovet), there is no hard exclusion, and Skellefteå is the clearly stronger side on the table (3rd vs 10th) and on the October head-to-head. Rated low because the starting goalies are unconfirmed on both sides (Hellberg illness flag for Djurgården), Skellefteå is on short rest after Tuesday's CHL game plus a long trip, Djurgården is unbeaten at Hovet this season, the Polymarket market is thin, and no clean de-vigged two-way second price was found. p is lowered by 4 points from the market.",
+      "main_risk": "Skellefteå plays its second game in three days after Tuesday's CHL tie and a long trip, with a possible backup goalie, against a Djurgården side that has not lost at home this season and needs points; a one-goal or overtime/shootout loss is the likely failure. Goalie status is unknown for both teams.",
+      "sources": [
+        "https://gamma-api.polymarket.com/events?id=1403487",
+        "https://www.tvmatchen.nu/betting/speltips/djurgardens-if-skelleftea-aik-19-11-shl/",
+        "https://bettingstugan.se/speltips/djurgarden-skelleftea-3",
+        "https://www.hockeytabeller.se/shl",
+        "https://hockeynews.se/lag/skelleftea-aik/resultat",
+        "https://hurbra.se/shl-resultat-14-november-2026/"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1403488",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.64,
+        "draw": 0,
+        "away": 0.36
+      },
+      "checks": {
+        "team_news": "No injury report or club/coach news for either side found for 19 Nov (searches returned only undated or old TV4 items). Nothing confirmed for Färjestad or Frölunda; treat as unknown rather than clean.",
+        "lineups": "Expected starting goalies NOT found for either team (no preview named them). Lineups not out on the evening of 18 Nov. Key fact missing; a backup in goal for either side is unchecked.",
+        "rotation": "Frölunda played the CHL round-of-16 second leg vs Växjö on Tue 17 Nov (hurbra.se lists legs 10 and 17 Nov; tvmatchen.nu says Frölunda won it in extra time, Fagemo scoring on the power play), so only 2 days rest and an overtime game; the next SHL game is Sat 21 Nov vs Brynäs (betexplorer). Färjestad last played Sat 14 Nov (tvmatchen.nu), so they are rested. Travel is Gothenburg to Karlstad, short. Slight edge to Färjestad.",
+        "motivation": "Per tvmatchen.nu, tipshunter.com and speltips.se (18 Nov): Färjestad 1st with 45 pts from 16 games, 14 straight wins and a chance at the SHL record; Frölunda 2nd with 37 pts from 18 games. Both need points; no hard no-stakes exclusion. Frölunda's only loss to Färjestad was a 3-2 OT/shootout in Sept (speltips.se: Färjestad won 15 of 16 this season), which Färjestad want to avenge. Hard exclusions checked: not a derby, no coach change found, no neutral venue.",
+        "form": "Per tipster pages (speltips.se, tvmatchen.nu): Färjestad 64 GF / 19 GA after 16 games (+45), unbeaten at home (7 wins, 27-7), beat Luleå on 14 Nov. Frölunda: 3 straight SHL wins, last one 4-0 at Rögle, but outshot 28-8 after two periods in that game, 5 wins from 9 away games. CONFLICT: betexplorer.com lists a very different last-10 for Färjestad (e.g. 1:3 vs Luleå 14.11, 1:5 at Växjö 31.10, 0:4 at Timrå 22.10, 4W-6L, 24 GF / 31 GA) and for Frölunda (0:4 at Rögle 14.11), which contradicts the three tipster pages (14 straight wins, 4-0 win at Rögle). I could not reconcile the sources, so last-10 with goals is unverified.",
+        "h2h": "Last meeting 22 Sept 2026 in Gothenburg: Frölunda 3-2 after OT/penalties (tvmatchen.nu). Earlier, 25 Sept 2025: Färjestad won 4-3; swehockey shows Frölunda 3 wins in the last 5 meetings. Matchup is a top SHL game that tipsters call a 'klassikermöte'; Karlstad v Gothenburg is not a recognised derby or fierce rivalry, so no hard exclusion.",
+        "odds": "Polymarket: Färjestad 0.67 / Frölunda 0.33 (winner including overtime and shootout, confirmed in the market description); 24h move 0.665 to 0.670 (+0.8%), no drop. Volume only about $97 and liquidity about $2.2k, so the market is very thin. Second price: Unibet Färjestad to win 1.88 (tvmatchen.nu, tipshunter.com), Bethard 2.05 on 15 Nov (tipshunter.com), Färjestad -1.5 at 2.35 Dbet (speltips.se). Only the Färjestad side is quoted and it is unclear whether it is 1X2 or incl. OT, so I could not de-vig. 1.88 raw implies about 53% (likely regulation 1X2, which would be roughly 63-67% incl. OT by my own estimate). That is loosely consistent with 0.67 but not a clean de-vigged agreement. No DraftKings data in the candidates file.",
+        "models": "No bookmaker-free rating found. Table-based only: goal difference +45 for Färjestad after 16 games vs Frölunda 55-39 (+16) after 16 (hurbra.se).",
+        "venue_weather": "Löfbergs Arena, Karlstad, home arena owned by Färjestad (internationalhockeywiki/Wikipedia); 19:00 local (18:00 UTC); normal venue, indoor."
+      },
+      "reason": "Strong market-consistent case for Färjestad (league leader, 14 straight wins, unbeaten at home, Frölunda on 2 days rest after a CHL OT game), but key facts are missing: starting goalies, injuries, no de-vigged second price, thin Polymarket market (about $97), and betexplorer results conflict with the tipster pages. p is trimmed below the market for these gaps.",
+      "main_risk": "A one-goal or OT/shootout loss: Frölunda are the only team to beat Färjestad this season (3-2 OT/SO in Sept), and an unknown or backup goalie, plus unverified form data, could swing a hockey game that is close to a coin flip on any single night.",
+      "sources": [
+        "https://www.tvmatchen.nu/betting/speltips/farjestad-bk-frolunda-hc-19-11-shl/",
+        "https://speltips.se/speltips-19-11-infor-farjestad-frolunda-klassikermote",
+        "https://tipshunter.com/tips/5476-farjestad-frolunda-shl-1911",
+        "https://hurbra.se/vaxjo-frolunda-speltips-10-november-2026/",
+        "https://www.betexplorer.com/hockey/sweden/shl/farjestad-frolunda/MVaSpI03/",
+        "https://gamma-api.polymarket.com/events?id=1403488"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1403486",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.63,
+        "draw": 0,
+        "away": 0.37
+      },
+      "checks": {
+        "team_news": "No injury or suspension list for either side found for 19 Nov. Searches returned only older items (Bäckström listed on the Brynäs roster with unknown rehab end date, spring 2026 report; no current goalie injury reports for either club). Unverified.",
+        "lineups": "Expected starting goalies NOT found for either side; no preview naming them. This is the key missing fact for hockey. Lineups are not out on the evening of 18 Nov.",
+        "rotation": "Brynäs last played Sat 14 Nov (won 4-1 away at Björklöven, per hurbra.se); Luleå last played Sat 14 Nov (lost 1-3 at home to Färjestad). Games on 15-18 Nov for either team could not be confirmed. Brynäs is at home in Gävle; Luleå travels about 900 km from the north.",
+        "motivation": "SHL table after 14 Nov (hurbra.se): Färjestad 45, Frölunda 37 (18 GP), Skellefteå 34, Örebro 28, Malmö 25, Luleå 23 (6th, 16 GP), Rögle 23, Brynäs 21 (8th, 16 GP), Växjö 21, Djurgården 20, Timrå 19, Björklöven 17, Linköping 15, HV71 14. Mid-table, both in the race for the top-6 and playoff positions, so nothing to exclude on motivation. Luleå is ahead of Brynäs in the table, which does not fit a 66% Brynäs price.",
+        "form": "Brynäs: beat Skellefteå 10-4 and Björklöven 4-1 away on 14 Nov (14 goals in their last two). Gainblers last 5: 2W-3L, 24 GF (4.8 per game), 18 GA (3.6 per game), a leaky defence. Luleå: last 5 3W-2L, 14 GF, 10 GA (2.8 and 2.0 per game); won 4-2 at HV71 around 12 Nov, lost 1-3 to Färjestad on 14 Nov. Last-10 with goals not fully verified.",
+        "h2h": "Gainblers lists Brynäs 4-2 Luleå (26 Sep 2026), Luleå 4-3 Brynäs (21 Feb 2026), Brynäs 4-2 Luleå (3 Jan 2026); sportschedule.tv also shows Brynäs 3-0 on 15 Nov 2025 and Brynäs winning 9 of the last 17 meetings. Brynäs has been the better side recently in this fixture, mostly in high-scoring games.",
+        "odds": "Polymarket 0.66 Brynäs / 0.34 Luleå (live and candidates file); 24h move 0.655 to 0.66 (+0.8%, no fall). Volume was not returned by the gamma API (null), so thin-market depth is unknown. NO independent second price found (gainblers has no quotas for the game; no Svenska Spel or bookmaker preview or de-vigged price found). Without a second price the rule gives low. Polymarket is the match winner including OT and SO (two-way), as in the brief; settlement wording not re-checked.",
+        "models": "No bookmaker-free rating found for this game. Table position and points favour Luleå (6th, 23 pts vs 8th, 21 pts, equal games). A sportschedule.tv model split (Brynäs 44.3 / draw 23.3 / Luleå 32.5, a regulation 3-way split from an earlier fixture, not confirmed for this game) points to Brynäs as a mild favourite, roughly 58-60% two-way. A 66% price looks full against table and model evidence.",
+        "venue_weather": "Home game at Monitor ERP Arena, Gävle (Visit Gävle listing). Start 19:00 local = 18:00 UTC (gainblers shows 13:00, a time-zone display difference). Indoor, so weather is irrelevant. Normal venue, no hard exclusion."
+      },
+      "reason": "Fixture verified (SHL, Brynäs home, 19 Nov 19:00 local, Monitor ERP Arena). No hard exclusion found: no derby, no coach change found, normal venue, both mid-table with something to play for. Brynäs is in good scoring form and has beaten Luleå in recent meetings, but the 66% price is not backed by the table (Luleå is ahead), starting goalies are unknown, and no independent price exists. p is trimmed 3 points below the market.",
+      "main_risk": "Unknown starting goalies (a backup in goal for Brynäs, or a hot Luleå goalie), a leaky Brynäs defence (3.6 goals against per game over the last 5), Luleå being higher in the table, and no second price to confirm the 66%.",
+      "sources": [
+        "https://hurbra.se/shl-resultat-14-november-2026/",
+        "https://www.visitgavle.se/en/shl-lulea-hockey",
+        "https://gainblers.com/us/bets/icehockey/sweden/shl/brynas-lulea/",
+        "https://sportschedule.tv/sport_event/brynas-vs-lulea",
+        "https://gamma-api.polymarket.com/events?id=1403486"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1402418",
+      "exclude": true,
+      "reason": "HARD rule: derby / fierce rivalry. Metallurg Magnitogorsk vs Traktor Chelyabinsk (both in Chelyabinsk Oblast, about 400 km apart) is branded the 'Ural derby' (Уральское дерби) in Russian press, and Sport-Express headlines the fixture 'Уральское дерби «Магнитки» и «Трактора»' ('В Магнитогорске пройдет уральское дерби между «Металлургом» и «Трактором»'). That article is from 2015, and a search snippet adds that the derby has been 'принципиальным' for years, so the label is long-standing. The sportmail.ru page for this match does not use the word 'derby'. Fixture itself verified: KHL regular season, 19 Nov 2026 17:00 MSK (14:00 UTC), Arena-Metallurg, Magnitogorsk, not started. Other facts, none of which is the exclusion (all soft): Metallurg appointed Konstantin Shafranov as head coach on 23 Oct 2026, 27 days ago, after Razin was suspended (6 Oct) and then left, so this is a soft coach-change risk and outside the 7-day hard window. Standings after 28 games each: Metallurg 15W-6L, 101-68 goals, 56 pts, back in first place on 17 Nov; Traktor 10W-11L, 66-71, 39 pts. Metallurg's last 5: W 7:2 Lada, L 4:5 Barys, L 3:4 OT Avangard, W 8:1 Neftekhimik, L 3:7 CSKA. Traktor lost 1:4 at Sibir on 17 Nov after winning 5:1 at SKA on 15 Nov. H2H, last 10: Metallurg 7-3, but Traktor won the latest meeting 6:2 on 18 Mar 2026. Fonbet, Winline and Paribet 1X2 on sportmail.ru: Metallurg 1.75, X 4.30, Traktor 4.05, consistent with Polymarket 0.65. Metallurg injuries: Mikhailis out until early December; Kozlov taken to hospital with a suspected fracture after the Lada game. Starting goalies were not found.",
+      "main_risk": "Derby with a coach in his first month (Shafranov, 27 days), a shaky recent run (3 losses in the last 5) and a Traktor side that beat Metallurg 6:2 last March. Starting goalies are unconfirmed.",
+      "sources": [
+        "https://www.sport-express.net/hockey/khl/reviews/835474/",
+        "https://sportmail.ru/hockey-khl/407/match/8129379/",
+        "https://sport24.ru/hockey/news-892306-glavnyy-trener-metallurga-shafranov-yeshche-poka-v-dveryakh-putayus-nikak-ne-mogu-vse-osmotret"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1410473",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1402981",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1403490",
+      "exclude": true,
+      "skipped": true
+    }
+  ]
+}
