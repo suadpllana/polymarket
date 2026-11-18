@@ -76,9 +76,9 @@
       "start": "2026-11-18T17:00:00.000Z",
       "coverage": 1,
       "p_market": {
-        "home": 0.275,
+        "home": 0.265,
         "draw": 0,
-        "away": 0.725
+        "away": 0.735
       },
       "p_first": {
         "home": 0.275,
@@ -90,8 +90,8 @@
           "key": "away",
           "label": "Moneyline",
           "selection": "Real Madrid",
-          "p_market": 0.725,
-          "fair_odds": 1.38
+          "p_market": 0.735,
+          "fair_odds": 1.36
         }
       ],
       "legs_first": {
@@ -100,12 +100,13 @@
       "data": {
         "move_24h": {
           "side": "away",
-          "from": 0.665,
-          "to": 0.725,
-          "relative_change": 0.09
+          "from": 0.715,
+          "to": 0.735,
+          "relative_change": 0.028
         },
-        "fetched_at": "2026-11-18T06:51:51.365Z"
-      }
+        "fetched_at": "2026-11-18T14:21:35.829Z"
+      },
+      "p_live_at": "2026-11-18T14:21:35.184Z"
     },
     {
       "id": "1375612",
@@ -141,9 +142,9 @@
       "data": {
         "move_24h": {
           "side": "away",
-          "from": 0.525,
+          "from": 0.555,
           "to": 0.565,
-          "relative_change": 0.076
+          "relative_change": 0.018
         },
         "rating": {
           "model": "Tennis Abstract Elo",
@@ -164,7 +165,7 @@
             "blend_hard": 0.407
           }
         },
-        "fetched_at": "2026-11-18T06:51:51.410Z"
+        "fetched_at": "2026-11-18T14:21:36.038Z"
       }
     },
     {
@@ -201,11 +202,11 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.5,
-          "to": 0.815,
-          "relative_change": 0.63
+          "from": 0.815,
+          "to": 0.825,
+          "relative_change": 0.012
         },
-        "fetched_at": "2026-11-18T06:51:51.373Z"
+        "fetched_at": "2026-11-18T14:21:35.690Z"
       }
     },
     {
@@ -242,11 +243,11 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.855,
+          "from": 0.865,
           "to": 0.795,
-          "relative_change": -0.07
+          "relative_change": -0.081
         },
-        "fetched_at": "2026-11-18T06:51:51.681Z"
+        "fetched_at": "2026-11-18T14:21:35.671Z"
       }
     },
     {
@@ -283,11 +284,11 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.83,
-          "to": 0.765,
-          "relative_change": -0.078
+          "from": 0.8,
+          "to": 0.775,
+          "relative_change": -0.031
         },
-        "fetched_at": "2026-11-18T06:51:51.620Z"
+        "fetched_at": "2026-11-18T14:21:36.349Z"
       }
     },
     {
@@ -341,9 +342,9 @@
       "start": "2026-11-18T16:00:00.000Z",
       "coverage": 2,
       "p_market": {
-        "home": 0.725,
+        "home": 0.73,
         "draw": 0,
-        "away": 0.275
+        "away": 0.27
       },
       "p_first": {
         "home": 0.725,
@@ -355,8 +356,8 @@
           "key": "home",
           "label": "Moneyline",
           "selection": "Severstal Cherepovets",
-          "p_market": 0.725,
-          "fair_odds": 1.38
+          "p_market": 0.73,
+          "fair_odds": 1.37
         }
       ],
       "legs_first": {
@@ -365,12 +366,13 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.72,
-          "to": 0.725,
+          "from": 0.725,
+          "to": 0.73,
           "relative_change": 0.007
         },
-        "fetched_at": "2026-11-18T06:51:51.640Z"
-      }
+        "fetched_at": "2026-11-18T14:21:36.321Z"
+      },
+      "p_live_at": "2026-11-18T14:21:35.183Z"
     },
     {
       "id": "1396764",
@@ -406,11 +408,11 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.665,
-          "to": 0.715,
-          "relative_change": 0.075
+          "from": 0.71,
+          "to": 0.71,
+          "relative_change": 0
         },
-        "fetched_at": "2026-11-18T06:51:51.872Z"
+        "fetched_at": "2026-11-18T14:21:36.238Z"
       }
     },
     {
@@ -451,8 +453,9 @@
           "to": 0.71,
           "relative_change": 0.022
         },
-        "fetched_at": "2026-11-18T06:51:51.916Z"
-      }
+        "fetched_at": "2026-11-18T14:21:36.271Z"
+      },
+      "p_live_at": "2026-11-18T14:21:35.184Z"
     },
     {
       "id": "1396758",
@@ -489,10 +492,10 @@
         "move_24h": {
           "side": "home",
           "from": 0.615,
-          "to": 0.69,
-          "relative_change": 0.122
+          "to": 0.745,
+          "relative_change": 0.211
         },
-        "fetched_at": "2026-11-18T06:51:51.849Z"
+        "fetched_at": "2026-11-18T14:21:36.552Z"
       }
     },
     {
@@ -529,11 +532,11 @@
       "data": {
         "move_24h": {
           "side": "away",
-          "from": 0.74,
-          "to": 0.675,
-          "relative_change": -0.088
+          "from": 0.705,
+          "to": 0.705,
+          "relative_change": 0
         },
-        "fetched_at": "2026-11-18T06:51:51.920Z"
+        "fetched_at": "2026-11-18T14:21:36.676Z"
       }
     },
     {
@@ -570,11 +573,11 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.74,
-          "to": 0.655,
-          "relative_change": -0.115
+          "from": 0.615,
+          "to": 0.695,
+          "relative_change": 0.13
         },
-        "fetched_at": "2026-11-18T06:51:52.124Z"
+        "fetched_at": "2026-11-18T14:21:36.580Z"
       }
     },
     {
@@ -611,11 +614,11 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.625,
+          "from": 0.635,
           "to": 0.64,
-          "relative_change": 0.024
+          "relative_change": 0.008
         },
-        "fetched_at": "2026-11-18T06:51:52.139Z"
+        "fetched_at": "2026-11-18T14:21:36.651Z"
       }
     },
     {
@@ -652,11 +655,11 @@
       "data": {
         "move_24h": {
           "side": "away",
-          "from": 0.5,
-          "to": 0.635,
-          "relative_change": 0.27
+          "from": 0.595,
+          "to": 0.625,
+          "relative_change": 0.05
         },
-        "fetched_at": "2026-11-18T06:51:52.223Z"
+        "fetched_at": "2026-11-18T14:21:36.899Z"
       }
     },
     {
@@ -694,10 +697,1205 @@
         "move_24h": {
           "side": "home",
           "from": 0.6,
-          "to": 0.61,
-          "relative_change": 0.017
+          "to": 0.57,
+          "relative_change": -0.05
         },
-        "fetched_at": "2026-11-18T06:51:52.133Z"
+        "fetched_at": "2026-11-18T14:21:36.952Z"
+      }
+    },
+    {
+      "id": "1396761",
+      "league": "EuroCup",
+      "sport": "basketball",
+      "event": "Niners Chemnitz vs. Tofas SK Bursa",
+      "home": "Niners Chemnitz",
+      "away": "Tofas SK Bursa",
+      "start": "2026-11-18T18:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.41,
+        "draw": 0,
+        "away": 0.59
+      },
+      "p_first": {
+        "home": 0.41,
+        "draw": 0,
+        "away": 0.59
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "Tofas SK Bursa",
+          "p_market": 0.59,
+          "fair_odds": 1.69
+        }
+      ],
+      "legs_first": {
+        "away": 0.59
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.545,
+          "to": 0.59,
+          "relative_change": 0.083
+        },
+        "fetched_at": "2026-11-18T14:21:36.915Z"
+      }
+    },
+    {
+      "id": "1396478",
+      "league": "EuroCup",
+      "sport": "basketball",
+      "event": "FC Universitatea Cluj vs. Maxima Roma",
+      "home": "FC Universitatea Cluj",
+      "away": "Maxima Roma",
+      "start": "2026-11-18T17:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.425,
+        "draw": 0,
+        "away": 0.575
+      },
+      "p_first": {
+        "home": 0.425,
+        "draw": 0,
+        "away": 0.575
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "Maxima Roma",
+          "p_market": 0.575,
+          "fair_odds": 1.74
+        }
+      ],
+      "legs_first": {
+        "away": 0.575
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.525,
+          "to": 0.575,
+          "relative_change": 0.095
+        },
+        "fetched_at": "2026-11-18T14:21:36.989Z"
+      }
+    },
+    {
+      "id": "1396791",
+      "league": "Liiga",
+      "sport": "ice_hockey",
+      "event": "Jukurit Mikkeli vs. Jokerit Helsinki",
+      "home": "Jukurit Mikkeli",
+      "away": "Jokerit Helsinki",
+      "start": "2026-11-18T16:30:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.565,
+        "draw": 0,
+        "away": 0.435
+      },
+      "p_first": {
+        "home": 0.565,
+        "draw": 0,
+        "away": 0.435
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Jukurit Mikkeli",
+          "p_market": 0.565,
+          "fair_odds": 1.77
+        }
+      ],
+      "legs_first": {
+        "home": 0.565
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.545,
+          "to": 0.565,
+          "relative_change": 0.037
+        },
+        "fetched_at": "2026-11-18T14:21:37.321Z"
+      }
+    },
+    {
+      "id": "1372584",
+      "league": "KHL",
+      "sport": "ice_hockey",
+      "event": "KHL: CSKA Moscow vs. Lokomotiv Yaroslavl",
+      "home": "CSKA Moscow",
+      "away": "Lokomotiv Yaroslavl",
+      "start": "2026-11-18T16:30:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.565,
+        "draw": 0,
+        "away": 0.435
+      },
+      "p_first": {
+        "home": 0.565,
+        "draw": 0,
+        "away": 0.435
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "CSKA Moscow",
+          "p_market": 0.565,
+          "fair_odds": 1.77
+        }
+      ],
+      "legs_first": {
+        "home": 0.565
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.535,
+          "to": 0.565,
+          "relative_change": 0.056
+        },
+        "fetched_at": "2026-11-18T14:21:37.218Z"
+      }
+    },
+    {
+      "id": "1397623",
+      "league": "EuroCup",
+      "sport": "basketball",
+      "event": "Basquet Manresa vs. PAOK BC",
+      "home": "Basquet Manresa",
+      "away": "PAOK BC",
+      "start": "2026-11-18T19:30:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.445,
+        "draw": 0,
+        "away": 0.555
+      },
+      "p_first": {
+        "home": 0.445,
+        "draw": 0,
+        "away": 0.555
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "PAOK BC",
+          "p_market": 0.555,
+          "fair_odds": 1.8
+        }
+      ],
+      "legs_first": {
+        "away": 0.555
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.605,
+          "to": 0.555,
+          "relative_change": -0.083
+        },
+        "fetched_at": "2026-11-18T14:21:37.176Z"
+      }
+    },
+    {
+      "id": "1396763",
+      "league": "EuroCup",
+      "sport": "basketball",
+      "event": "JL Bourg Basket vs. Napoli Basket",
+      "home": "JL Bourg Basket",
+      "away": "Napoli Basket",
+      "start": "2026-11-18T18:30:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.45,
+        "draw": 0,
+        "away": 0.55
+      },
+      "p_first": {
+        "home": 0.45,
+        "draw": 0,
+        "away": 0.55
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "Napoli Basket",
+          "p_market": 0.55,
+          "fair_odds": 1.82
+        }
+      ],
+      "legs_first": {
+        "away": 0.55
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.565,
+          "to": 0.55,
+          "relative_change": -0.027
+        },
+        "fetched_at": "2026-11-18T14:21:37.223Z"
+      }
+    },
+    {
+      "id": "1396793",
+      "league": "Liiga",
+      "sport": "ice_hockey",
+      "event": "KalPa Hockey vs. Lukko Rauma",
+      "home": "KalPa Hockey",
+      "away": "Lukko Rauma",
+      "start": "2026-11-18T16:30:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.46,
+        "draw": 0,
+        "away": 0.54
+      },
+      "p_first": {
+        "home": 0.46,
+        "draw": 0,
+        "away": 0.54
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "Lukko Rauma",
+          "p_market": 0.54,
+          "fair_odds": 1.85
+        }
+      ],
+      "legs_first": {
+        "away": 0.54
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.525,
+          "to": 0.54,
+          "relative_change": 0.029
+        },
+        "fetched_at": "2026-11-18T14:21:37.594Z"
+      }
+    },
+    {
+      "id": "1372588",
+      "league": "KHL",
+      "sport": "ice_hockey",
+      "event": "KHL: Shanghai Dragons vs. Amur Khabarovsk",
+      "home": "Shanghai Dragons",
+      "away": "Amur Khabarovsk",
+      "start": "2026-11-18T16:30:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.53,
+        "draw": 0,
+        "away": 0.47
+      },
+      "p_first": {
+        "home": 0.53,
+        "draw": 0,
+        "away": 0.47
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Shanghai Dragons",
+          "p_market": 0.53,
+          "fair_odds": 1.89
+        }
+      ],
+      "legs_first": {
+        "home": 0.53
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.55,
+          "to": 0.53,
+          "relative_change": -0.036
+        },
+        "fetched_at": "2026-11-18T14:21:37.543Z"
+      }
+    },
+    {
+      "id": "1316122",
+      "league": "UEFA Women's Champions League",
+      "sport": "football",
+      "event": "Real Madrid CF Femenino vs. FC Internazionale Milano",
+      "home": "Real Madrid CF Femenino",
+      "away": "FC Internazionale Milano",
+      "start": "2026-11-18T17:45:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.8036,
+        "draw": 0.1229,
+        "away": 0.0735
+      },
+      "p_first": {
+        "home": 0.8036,
+        "draw": 0.1229,
+        "away": 0.0735
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Real Madrid CF Femenino",
+          "p_market": 0.8036,
+          "fair_odds": 1.24
+        },
+        {
+          "key": "ah_home_-1.5",
+          "label": "Handicap",
+          "selection": "Real Madrid CF Femenino -1.5",
+          "p_market": 0.6,
+          "fair_odds": 1.67
+        },
+        {
+          "key": "ah_away_+2.5",
+          "label": "Handicap",
+          "selection": "FC Internazionale Milano +2.5",
+          "p_market": 0.605,
+          "fair_odds": 1.65
+        },
+        {
+          "key": "ah_away_+3.5",
+          "label": "Handicap",
+          "selection": "FC Internazionale Milano +3.5",
+          "p_market": 0.78,
+          "fair_odds": 1.28
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.735,
+          "fair_odds": 1.36
+        },
+        {
+          "key": "ou_3.5_over",
+          "label": "Total goals",
+          "selection": "Over 3.5",
+          "p_market": 0.545,
+          "fair_odds": 1.83
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.655,
+          "fair_odds": 1.53
+        },
+        {
+          "key": "ou_5.5_under",
+          "label": "Total goals",
+          "selection": "Under 5.5",
+          "p_market": 0.81,
+          "fair_odds": 1.23
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.55,
+          "fair_odds": 1.82
+        }
+      ],
+      "legs_first": {
+        "home": 0.8036,
+        "ah_home_-1.5": 0.6,
+        "ah_away_+2.5": 0.605,
+        "ah_away_+3.5": 0.78,
+        "ou_2.5_over": 0.735,
+        "ou_3.5_over": 0.545,
+        "ou_4.5_under": 0.655,
+        "ou_5.5_under": 0.81,
+        "btts_yes": 0.55
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.77,
+          "to": 0.805,
+          "relative_change": 0.045
+        },
+        "fetched_at": "2026-11-18T14:21:37.618Z"
+      }
+    },
+    {
+      "id": "1316133",
+      "league": "UEFA Women's Champions League",
+      "sport": "football",
+      "event": "Juventus FC vs. Oud-Heverlee Leuven Women",
+      "home": "Juventus FC",
+      "away": "Oud-Heverlee Leuven Women",
+      "start": "2026-11-18T20:00:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.7936,
+        "draw": 0.1329,
+        "away": 0.0735
+      },
+      "p_first": {
+        "home": 0.7936,
+        "draw": 0.1329,
+        "away": 0.0735
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Juventus FC",
+          "p_market": 0.7936,
+          "fair_odds": 1.26
+        },
+        {
+          "key": "ah_home_-1.5",
+          "label": "Handicap",
+          "selection": "Juventus FC -1.5",
+          "p_market": 0.57,
+          "fair_odds": 1.75
+        },
+        {
+          "key": "ah_away_+2.5",
+          "label": "Handicap",
+          "selection": "Oud-Heverlee Leuven Women +2.5",
+          "p_market": 0.645,
+          "fair_odds": 1.55
+        },
+        {
+          "key": "ah_away_+3.5",
+          "label": "Handicap",
+          "selection": "Oud-Heverlee Leuven Women +3.5",
+          "p_market": 0.815,
+          "fair_odds": 1.23
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.675,
+          "fair_odds": 1.48
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.545,
+          "fair_odds": 1.83
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.73,
+          "fair_odds": 1.37
+        }
+      ],
+      "legs_first": {
+        "home": 0.7936,
+        "ah_home_-1.5": 0.57,
+        "ah_away_+2.5": 0.645,
+        "ah_away_+3.5": 0.815,
+        "ou_2.5_over": 0.675,
+        "ou_3.5_under": 0.545,
+        "ou_4.5_under": 0.73
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.77,
+          "to": 0.795,
+          "relative_change": 0.032
+        },
+        "fetched_at": "2026-11-18T14:21:37.571Z"
+      }
+    },
+    {
+      "id": "1316144",
+      "league": "UEFA Women's Champions League",
+      "sport": "football",
+      "event": "Chelsea FC vs. Paris Saint-Germain FC",
+      "home": "Chelsea FC",
+      "away": "Paris Saint-Germain FC",
+      "start": "2026-11-18T20:00:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.745,
+        "draw": 0.145,
+        "away": 0.11
+      },
+      "p_first": {
+        "home": 0.745,
+        "draw": 0.145,
+        "away": 0.11
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Chelsea FC",
+          "p_market": 0.745,
+          "fair_odds": 1.34
+        },
+        {
+          "key": "ah_away_+2.5",
+          "label": "Handicap",
+          "selection": "Paris Saint-Germain FC +2.5",
+          "p_market": 0.675,
+          "fair_odds": 1.48
+        },
+        {
+          "key": "ah_away_+3.5",
+          "label": "Handicap",
+          "selection": "Paris Saint-Germain FC +3.5",
+          "p_market": 0.835,
+          "fair_odds": 1.2
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.665,
+          "fair_odds": 1.5
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.565,
+          "fair_odds": 1.77
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.745,
+          "fair_odds": 1.34
+        }
+      ],
+      "legs_first": {
+        "home": 0.745,
+        "ah_away_+2.5": 0.675,
+        "ah_away_+3.5": 0.835,
+        "ou_2.5_over": 0.665,
+        "ou_3.5_under": 0.565,
+        "ou_4.5_under": 0.745
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.71,
+          "to": 0.745,
+          "relative_change": 0.049
+        },
+        "fetched_at": "2026-11-18T14:21:37.870Z"
+      }
+    },
+    {
+      "id": "1316129",
+      "league": "UEFA Women's Champions League",
+      "sport": "football",
+      "event": "BK Häcken FF vs. Manchester City WFC",
+      "home": "BK Häcken FF",
+      "away": "Manchester City WFC",
+      "start": "2026-11-18T17:45:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.1134,
+        "draw": 0.1531,
+        "away": 0.7335
+      },
+      "p_first": {
+        "home": 0.1134,
+        "draw": 0.1531,
+        "away": 0.7335
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Manchester City WFC",
+          "p_market": 0.7335,
+          "fair_odds": 1.36
+        },
+        {
+          "key": "ah_home_+2.5",
+          "label": "Handicap",
+          "selection": "BK Häcken FF +2.5",
+          "p_market": 0.68,
+          "fair_odds": 1.47
+        },
+        {
+          "key": "ah_home_+3.5",
+          "label": "Handicap",
+          "selection": "BK Häcken FF +3.5",
+          "p_market": 0.835,
+          "fair_odds": 1.2
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.725,
+          "fair_odds": 1.38
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.675,
+          "fair_odds": 1.48
+        },
+        {
+          "key": "ou_5.5_under",
+          "label": "Total goals",
+          "selection": "Under 5.5",
+          "p_market": 0.825,
+          "fair_odds": 1.21
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.595,
+          "fair_odds": 1.68
+        }
+      ],
+      "legs_first": {
+        "away": 0.7335,
+        "ah_home_+2.5": 0.68,
+        "ah_home_+3.5": 0.835,
+        "ou_2.5_over": 0.725,
+        "ou_4.5_under": 0.675,
+        "ou_5.5_under": 0.825,
+        "btts_yes": 0.595
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.735,
+          "to": 0.735,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-18T14:21:37.832Z"
+      }
+    },
+    {
+      "id": "1195164",
+      "league": "Copa del Rey",
+      "sport": "football",
+      "event": "CD Alcoyano vs. RCD Mallorca",
+      "home": "CD Alcoyano",
+      "away": "RCD Mallorca",
+      "start": "2026-11-18T19:00:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.122,
+        "draw": 0.2211,
+        "away": 0.6568
+      },
+      "p_first": {
+        "home": 0.122,
+        "draw": 0.2211,
+        "away": 0.6568
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "RCD Mallorca",
+          "p_market": 0.6568,
+          "fair_odds": 1.52
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "RCD Mallorca",
+          "p_market": 0.8779,
+          "fair_odds": 1.19
+        }
+      ],
+      "legs_first": {
+        "away": 0.6568,
+        "away_dnb": 0.8779
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.605,
+          "to": 0.66,
+          "relative_change": 0.091
+        },
+        "fetched_at": "2026-11-18T14:21:37.832Z"
+      }
+    },
+    {
+      "id": "1195178",
+      "league": "Copa del Rey",
+      "sport": "football",
+      "event": "CD Badajoz vs. CD Tenerife",
+      "home": "CD Badajoz",
+      "away": "CD Tenerife",
+      "start": "2026-11-18T19:00:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.1535,
+        "draw": 0.2532,
+        "away": 0.5934
+      },
+      "p_first": {
+        "home": 0.1535,
+        "draw": 0.2532,
+        "away": 0.5934
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "CD Tenerife",
+          "p_market": 0.5934,
+          "fair_odds": 1.69
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "CD Tenerife or Draw",
+          "p_market": 0.8466,
+          "fair_odds": 1.18
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "CD Tenerife",
+          "p_market": 0.8466,
+          "fair_odds": 1.26
+        },
+        {
+          "key": "ah_home_+1.5",
+          "label": "Handicap",
+          "selection": "CD Badajoz +1.5",
+          "p_market": 0.67,
+          "fair_odds": 1.49
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.725,
+          "fair_odds": 1.38
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.725,
+          "fair_odds": 1.38
+        }
+      ],
+      "legs_first": {
+        "away": 0.5934,
+        "away_draw": 0.8466,
+        "away_dnb": 0.8466,
+        "ah_home_+1.5": 0.67,
+        "ou_1.5_over": 0.725,
+        "ou_3.5_under": 0.725
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.54,
+          "to": 0.595,
+          "relative_change": 0.102
+        },
+        "fetched_at": "2026-11-18T14:21:37.862Z"
+      }
+    },
+    {
+      "id": "1195146",
+      "league": "Copa del Rey",
+      "sport": "football",
+      "event": "Utebo FC vs. CE Sabadell FC",
+      "home": "Utebo FC",
+      "away": "CE Sabadell FC",
+      "start": "2026-11-18T18:00:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.1766,
+        "draw": 0.2368,
+        "away": 0.5866
+      },
+      "p_first": {
+        "home": 0.1766,
+        "draw": 0.2368,
+        "away": 0.5866
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "CE Sabadell FC",
+          "p_market": 0.5866,
+          "fair_odds": 1.7
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "CE Sabadell FC or Draw",
+          "p_market": 0.8234,
+          "fair_odds": 1.21
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "CE Sabadell FC",
+          "p_market": 0.8234,
+          "fair_odds": 1.3
+        },
+        {
+          "key": "ah_home_+1.5",
+          "label": "Handicap",
+          "selection": "Utebo FC +1.5",
+          "p_market": 0.655,
+          "fair_odds": 1.53
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.735,
+          "fair_odds": 1.36
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.725,
+          "fair_odds": 1.38
+        }
+      ],
+      "legs_first": {
+        "away": 0.5866,
+        "away_draw": 0.8234,
+        "away_dnb": 0.8234,
+        "ah_home_+1.5": 0.655,
+        "ou_1.5_over": 0.735,
+        "ou_3.5_under": 0.725
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.605,
+          "to": 0.585,
+          "relative_change": -0.033
+        },
+        "fetched_at": "2026-11-18T14:21:38.090Z"
+      }
+    },
+    {
+      "id": "1195196",
+      "league": "Copa del Rey",
+      "sport": "football",
+      "event": "Reus FC Reddis vs. Barakaldo CF",
+      "home": "Reus FC Reddis",
+      "away": "Barakaldo CF",
+      "start": "2026-11-18T19:30:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.2484,
+        "draw": 0.2933,
+        "away": 0.4583
+      },
+      "p_first": {
+        "home": 0.2484,
+        "draw": 0.2933,
+        "away": 0.4583
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Reus FC Reddis or Draw",
+          "p_market": 0.5417,
+          "fair_odds": 1.85
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Barakaldo CF or Draw",
+          "p_market": 0.7516,
+          "fair_odds": 1.33
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "Barakaldo CF",
+          "p_market": 0.7516,
+          "fair_odds": 1.54
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.68,
+          "fair_odds": 1.47
+        },
+        {
+          "key": "ou_2.5_under",
+          "label": "Total goals",
+          "selection": "Under 2.5",
+          "p_market": 0.58,
+          "fair_odds": 1.72
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.79,
+          "fair_odds": 1.27
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.5417,
+        "away_draw": 0.7516,
+        "away_dnb": 0.7516,
+        "ou_1.5_over": 0.68,
+        "ou_2.5_under": 0.58,
+        "ou_3.5_under": 0.79
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.46,
+          "to": 0.46,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-18T14:21:38.170Z"
+      }
+    },
+    {
+      "id": "1315667",
+      "league": "Liga 1",
+      "sport": "football",
+      "event": "Club Alianza Atlético vs. FBC Melgar",
+      "home": "Club Alianza Atlético",
+      "away": "FBC Melgar",
+      "start": "2026-11-18T20:00:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.4466,
+        "draw": 0.2817,
+        "away": 0.2717
+      },
+      "p_first": {
+        "home": 0.4466,
+        "draw": 0.2817,
+        "away": 0.2717
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Club Alianza Atlético or Draw",
+          "p_market": 0.7283,
+          "fair_odds": 1.37
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "FBC Melgar or Draw",
+          "p_market": 0.5534,
+          "fair_odds": 1.81
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Club Alianza Atlético",
+          "p_market": 0.7283,
+          "fair_odds": 1.61
+        },
+        {
+          "key": "ah_away_+1.5",
+          "label": "Handicap",
+          "selection": "FBC Melgar +1.5",
+          "p_market": 0.79,
+          "fair_odds": 1.27
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.725,
+          "fair_odds": 1.38
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.735,
+          "fair_odds": 1.36
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.545,
+          "fair_odds": 1.83
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.7283,
+        "away_draw": 0.5534,
+        "home_dnb": 0.7283,
+        "ah_away_+1.5": 0.79,
+        "ou_1.5_over": 0.725,
+        "ou_3.5_under": 0.735,
+        "btts_yes": 0.545
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.45,
+          "to": 0.445,
+          "relative_change": -0.011
+        },
+        "fetched_at": "2026-11-18T14:21:38.087Z"
+      }
+    },
+    {
+      "id": "1195151",
+      "league": "Copa del Rey",
+      "sport": "football",
+      "event": "Club Portugalete vs. Real Unión Club",
+      "home": "Club Portugalete",
+      "away": "Real Unión Club",
+      "start": "2026-11-18T18:00:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.3133,
+        "draw": 0.2933,
+        "away": 0.3933
+      },
+      "p_first": {
+        "home": 0.3133,
+        "draw": 0.2933,
+        "away": 0.3933
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Club Portugalete or Draw",
+          "p_market": 0.6066,
+          "fair_odds": 1.65
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Real Unión Club or Draw",
+          "p_market": 0.6866,
+          "fair_odds": 1.46
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "Real Unión Club",
+          "p_market": 0.6866,
+          "fair_odds": 1.8
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.715,
+          "fair_odds": 1.4
+        },
+        {
+          "key": "ou_2.5_under",
+          "label": "Total goals",
+          "selection": "Under 2.5",
+          "p_market": 0.535,
+          "fair_odds": 1.87
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.6066,
+        "away_draw": 0.6866,
+        "away_dnb": 0.6866,
+        "ou_1.5_over": 0.715,
+        "ou_2.5_under": 0.535
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.405,
+          "to": 0.395,
+          "relative_change": -0.025
+        },
+        "fetched_at": "2026-11-18T14:21:38.330Z"
+      }
+    },
+    {
+      "id": "1195202",
+      "league": "Copa del Rey",
+      "sport": "football",
+      "event": "CD Minera vs. FC Cartagena",
+      "home": "CD Minera",
+      "away": "FC Cartagena",
+      "start": "2026-11-18T19:30:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.325,
+        "draw": 0.32,
+        "away": 0.355
+      },
+      "p_first": {
+        "home": 0.325,
+        "draw": 0.32,
+        "away": 0.355
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "CD Minera or Draw",
+          "p_market": 0.645,
+          "fair_odds": 1.55
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "FC Cartagena or Draw",
+          "p_market": 0.675,
+          "fair_odds": 1.48
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.645,
+        "away_draw": 0.675
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.365,
+          "to": 0.36,
+          "relative_change": -0.014
+        },
+        "fetched_at": "2026-11-18T14:21:38.517Z"
       }
     }
   ]
