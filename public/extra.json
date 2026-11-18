@@ -3,7 +3,7 @@
     {
       "date": "2026-11-18",
       "title": "Extra slip (your request)",
-      "note": "Extra slip you asked for: both legs are rated LOW. Bookmakers price the chance that both win at about 46%. Bet small, not 10%.",
+      "note": "Extra slip you asked for: both legs are rated LOW (official line-ups were not found before kick-off). Bookmakers price the chance that both win at about 46%. Bet small, not 10%.",
       "legs": [
         {
           "game_id": "1316133",
@@ -103,8 +103,7 @@
       "odds": 1.62,
       "p_hit": 0.46575,
       "place_before": "2026-11-18T19:45:00.000Z",
-      "researched_at": "2026-11-18T19:05:53Z",
-      "research_stage": "pre_kickoff",
+      "research_stage": null,
       "result": null
     }
   ]
