@@ -221,6 +221,27 @@ offered. What changed afterwards:
   loses more than 5% of its market chance is dropped, and research can only
   lower a leg.
 
+### 17 Nov 2026: Panathinaikos lost at Virtus (lost slip)
+
+The rules left a 1-leg slip (Hapoel @1.36, which won). To reach 1.8,
+Panathinaikos was upgraded from low to medium in a 5-minute check an hour
+before tip-off. The injury report and a second price agreed, but the game had
+swung 0.71 → 0.79 → 0.725 that day with no news, and no form or season record
+was confirmed. It lost and took the slip with it. The original afternoon slip
+(Hapoel + Hungary draw no bet) would have paid, since Hungary drew 1-1. What
+changed afterwards:
+
+- **A game rated low stays low on the day.** It may only go back to medium
+  after a full re-research (every checklist item, 4+ sources), never in a
+  last-hour check to reach the odds target. If the rules leave a short slip,
+  show it and say so plainly; the owner decides whether to bet it or skip.
+- **A thin market needs a second price.** A basketball or hockey game is
+  medium only if an independent price (a bookmaker, Kalshi, a dated preview
+  with this game's moneyline) agrees with Polymarket within about 5 points.
+- **Do not swap the slip in the last hour.** A slip that changes several
+  times in a day (as on 17 Nov: three drafts, then a single, then a rushed
+  double) is a warning sign, not a feature.
+
 ## How to research cheaply without losing quality
 
 Excluded games used to get the same depth as kept ones, yet they produced
