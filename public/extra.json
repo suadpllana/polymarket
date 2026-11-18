@@ -1,0 +1,114 @@
+{
+  "slips": [
+    {
+      "date": "2026-11-18",
+      "title": "Extra slip (your request)",
+      "note": "Extra slip you asked for (both legs rated low): won. Juventus 2-0 Leuven, Chelsea 1-0 PSG.",
+      "legs": [
+        {
+          "game_id": "1316133",
+          "league": "UEFA Women's Champions League",
+          "sport": "football",
+          "event": "Juventus FC vs. Oud-Heverlee Leuven Women",
+          "home": "Juventus FC",
+          "away": "Oud-Heverlee Leuven Women",
+          "start": "2026-11-18T20:00:00.000Z",
+          "key": "home",
+          "label": "To win",
+          "selection": "Juventus FC",
+          "odds": 1.2,
+          "book": null,
+          "p_market": {
+            "home": 0.8090452261306532,
+            "draw": 0.12562814070351758,
+            "away": 0.06532663316582914
+          },
+          "p": {
+            "home": 0.75,
+            "draw": 0.16,
+            "away": 0.09
+          },
+          "p_win": 0.69,
+          "p_void": 0,
+          "confidence": "low",
+          "reason": "Fixture verified: Juventus vs OH Leuven, UEFA Women's Champions League 2026/27 matchday 5, 18 Nov, 21:00 Madrid time which is 20:00 UTC. Juventus are the clear favourite on form and league position, but I cut p below the Polymarket price because the bookmaker price (about 68-71%) is well under 79%, line-ups were not out, and Juventus lost 0-6 to Lyon on 11 Nov and played Inter on 15 Nov. Leuven's defence is weak, but Juventus can slip to a draw.",
+          "main_risk": "A draw or upset against a low-ranked side, with possible rotation after the Inter game on 15 Nov. Line-ups unconfirmed, the venue sources conflict, and the market price is 8-10 points above the bookmaker price.",
+          "checks": {
+            "team_news": "No injury or suspension news found for either side. The Juventus pre-match press conference and Leuven news did not surface. Coaches per UEFA.com: Isaac Guerrero (Juventus), Ster Habibzadeh (Leuven). No coach change found.",
+            "lineups": "Official line-ups NOT found. Searches of the UEFA.com line-ups page returned squad lists only, and nothing from Juventus, OHL, Flashscore or Sofascore. Key facts missing.",
+            "rotation": "Juventus played Lyon on 11 Nov (0-6 loss) and then won 2-3 away at Inter on 15 Nov per Futboltotal, so they have 3 days of rest and a domestic game in between. Leuven drew 1-1 with Koge on 11 Nov and lost 1-5 to Servette on 28 Oct. Rotation risk is unverified.",
+            "motivation": "League phase matchday 5. After the Lyon loss Juventus are 8th on 6 points (UEFA.com/Goal snippet). Leuven are 17th by the brief's Goal snippet, which I could not re-verify. The full 2026/27 table was not found. Neither side looks qualified or eliminated, and nothing suggests the favourite has nothing to play for, so no hard exclusion.",
+            "form": "Juventus last five per Futboltotal: 4 wins, 1 loss (0-6 vs Lyon, then 2-3 at Inter). Leuven last five: 1 win, 2 draws, 2 losses, including the 1-5 loss to Servette and the 1-1 draw with Koge. Leuven keeper Seynhaeve has conceded 14 in 8 games. Juventus keeper de Jong has conceded 11 in 7.",
+            "h2h": "No earlier meeting this season found. Futboltotal shows none, and a 22 Sep listing in search results looks like a bad date. Leuven's other 2026/27 results show a weak defence.",
+            "odds": "WinComparator (brief, possibly stale): Juventus 1.40 / draw 4.50 / Leuven 5.75, about 68-71% Juventus after de-vig. Polymarket live is 0.794 / 0.133 / 0.074, so the market is about 8-10 points ABOVE the bookmaker figure. I could not check the 24h move or the Polymarket volume, and found no second fresh price.",
+            "models": "No bookmaker-free rating (ClubElo does not cover women's football) and no model prediction found.",
+            "venue_weather": "Juventus announced the game will be played at Stadio Pozzo-La Marmora, Biella, instead of the originally indicated ground. The club said the move protects the Allianz Stadium pitch, and the home side still plays in its own region, so this is not an exclusion. Futboltotal lists Juventus Center, Turin, instead, so the venue sources conflict. Weather not checked."
+          },
+          "sources": [
+            "https://www.uefa.com/womenschampionsleague/match/2050567--juventus-vs-oh-leuven/lineups/",
+            "https://www.juventus.com/en/news/articles/uwcl-juventus-women-oh-leuven-pozzo-la-marmora-biella",
+            "https://futboltotal.futbol/partido/juventus-w-vs-oh-leuven-w-uefa-champions-league-women-2026-11-18",
+            "https://www.flashscore.com/news/soccer-uefa-champions-league-women-lyon-thrash-juventus-to-go-top-in-women-s-champions-league-koge-draw-with-leuven/0d6Y7B6k/"
+          ],
+          "result": "won",
+          "final_score": "Juventus 2-0 Leuven"
+        },
+        {
+          "game_id": "1316144",
+          "league": "UEFA Women's Champions League",
+          "sport": "football",
+          "event": "Chelsea FC vs. Paris Saint-Germain FC",
+          "home": "Chelsea FC",
+          "away": "Paris Saint-Germain FC",
+          "start": "2026-11-18T20:00:00.000Z",
+          "key": "home",
+          "label": "To win",
+          "selection": "Chelsea FC",
+          "odds": 1.35,
+          "book": null,
+          "p_market": {
+            "home": 0.7185929648241206,
+            "draw": 0.1457286432160804,
+            "away": 0.135678391959799
+          },
+          "p": {
+            "home": 0.7,
+            "draw": 0.19,
+            "away": 0.11
+          },
+          "p_win": 0.675,
+          "p_void": 0,
+          "confidence": "low",
+          "reason": "Chelsea are clear home favourites: unbeaten, no goals conceded, top of the WSL, against a PSG side that is 10th and has injuries. I keep confidence low because official line-ups were not found, key attackers (James, Malard) are out, a bookmaker price implies about 0.675 against Polymarket 0.745, and Chelsea's games are low-scoring (two 0-0 draws).",
+          "main_risk": "A draw: Chelsea have scored 3 goals in 4 league-phase games and drew 0-0 twice, and PSG may be content with a point. Unconfirmed line-ups are a further risk.",
+          "checks": {
+            "team_news": "Chelsea out: Girma, Lauren James (hamstring), Matsukubo, Ramirez (personal), Malard (injured); Buchanan also forced off injured at the weekend (Livescore, StatsZone, Mightytips). PSG out: Karchaoui, Ebayilin, Ajibade, Leuchter (StatsZone); Livescore lists no PSG injuries, so the sources disagree.",
+            "lineups": "Official line-ups NOT found (searches and previews all pre-date them; UEFA/club X/Flashscore not retrievable). Predicted Chelsea XI per StatsZone is 3-4-3: Peng; Bronze, Bjorn, Buurman; Carpenter, Walsh, Potter, Baltimore; Kaptein, Beever-Jones, Nusken. Livescore has Hampton in goal and a back four, so the two sources differ. Predicted PSG XI: Kiedrzynek; Chagas/Isabela, Mbock, Dudek/Samoura, Carmona; Osteras; Kanjinga, Groenen, Echegini; Lafontaine/Jourde. Unconfirmed.",
+            "rotation": "Chelsea played Saturday (1-0 v Man City in the WSL, which put them top), after a 0-0 at Hacken on 10 Nov. PSG beat Marseille 2-0 in the league on Saturday. No sign of heavy rotation, but nothing is confirmed.",
+            "motivation": "Matchday 5 of 6. Chelsea are 5th on 8 points after two wins and two 0-0 draws, with no goals conceded, and are chasing a top-8 finish and a bye. PSG are 10th on 5 points (W5-0 v Leuven, D1-1 Madrid, D1-1 Man City, L1-2 Bayern) and need a result to stay in the playoff places. Neither side has nothing to play for, so the hard motivation rule does not apply.",
+            "form": "Chelsea are unbeaten this season. League phase: W1-0 Austria Wien, D0-0 Lyon, W Roma (listed as 2-0, one source unclear), D0-0 Hacken. They have scored only 3 goals in 4 games and conceded 0. PSG have scored 8 in 4 games but lost 1-2 at home to Bayern.",
+            "h2h": "Chelsea won both 2022-23 group games (1-0 in Paris, 3-0 at home). The Oct 2025 meeting was in the league phase, but I did not get its score. Chelsea's low-scoring, tight games make a draw or a narrow win more likely than the market suggests.",
+            "odds": "Melbet (via Mightytips, 16 Nov): Chelsea 1.36, draw 5.00, PSG 6.50. De-vigged that is about 0.675 / 0.184 / 0.141, so 7 points below Polymarket's 0.745 for Chelsea. Over 2.5 is 1.40 and under 2.5 is 2.87, which gives over about 0.67, in line with the market. Forebet gives Chelsea 63%. Polymarket Chelsea price rose from 0.71 to 0.745 in 24h (+4.9%, a firming of the favourite, not a fall). I did not check market volume. No Stake or Rainbet price seen.",
+            "models": "No Elo or Opta rating found. Forebet gives Chelsea 63%, Livescore predicts 3-1 Chelsea, StatsZone predicts under 2.5 goals, Mightytips predicts BTTS.",
+            "venue_weather": "Cherry Red Records Stadium (Kingsmeadow), Wimbledon, London, Chelsea's normal home ground (Livescore, Mightytips). One preview names Wheatsheaf Park, which looks wrong. Weather not checked."
+          },
+          "sources": [
+            "https://www.livescore.com/en/news/football/more/chelsea-vs-psg-womens-champions-league-preview-predictions-team-news-and-tv-info-the-pride-of-london/",
+            "https://www.thestatszone.com/chelsea-vs-paris-sg-preview-team-news-prediction-2026-27-uefa-womens-champions-league-league-phase-239713",
+            "https://www.mightytips.com/football-predictions/chelsea-fc-women-vs-psg-women-prediction-18-11-2026/",
+            "https://www.uefa.com/womenschampionsleague/news/02a9-2184a4a3a3d8-3d2bf80e5c0e-1000--women-s-champions-league-2026-27-league-phase-fixtures-and-/"
+          ],
+          "result": "won",
+          "final_score": "Chelsea 1-0 PSG"
+        }
+      ],
+      "odds": 1.62,
+      "p_hit": 0.46575,
+      "place_before": "2026-11-18T19:45:00.000Z",
+      "research_stage": null,
+      "result": "won",
+      "extra": true,
+      "settled_odds": 1.62
+    }
+  ]
+}

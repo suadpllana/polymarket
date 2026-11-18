@@ -86,13 +86,16 @@ export async function renderToday(root) {
   }
   // Extra slips the owner asked for on top of the daily slip (public/extra.json).
   // They are shown only on their own day and are not part of the model record.
-  let extras = [];
+  let allExtras = [];
   try {
     const res = await fetch(`${import.meta.env.BASE_URL}extra.json?t=${Date.now()}`, { cache: 'no-store' });
-    if (res.ok) extras = ((await res.json()).slips || []).filter((x) => x.date === localDate() && x.legs?.length);
+    if (res.ok) allExtras = ((await res.json()).slips || []).filter((x) => x.legs?.length);
   } catch {
     /* no extra slips */
   }
+  // Open extra slips sit at the top on their day; settled ones join the record list.
+  const extras = allExtras.filter((x) => x.date === localDate() && !x.result);
+  const settledExtras = allExtras.filter((x) => x.result);
   const entries = (history.entries || []).filter((e) => e.model === 'football-2leg');
   const todayEntry = entries.find((e) => e.date === localDate());
   // Once today's slip is settled (won, lost or void) it leaves the top of the
@@ -102,7 +105,8 @@ export async function renderToday(root) {
   // Research done the evening before publishes tomorrow's slip early.
   const tomorrow = entries.find((e) => e.date === localDate(new Date(Date.now() + 24 * 3600 * 1000)));
   // Days without a bet are left out of the record.
-  const past = entries.filter((e) => e !== today && e !== tomorrow && !e.no_bet);
+  // Extra slips are listed next to their day but are not counted in the win rate.
+  const past = [...entries.filter((e) => e !== today && e !== tomorrow && !e.no_bet), ...settledExtras].sort((a, b) => (a.date === b.date ? Number(Boolean(a.extra)) - Number(Boolean(b.extra)) : a.date < b.date ? 1 : -1));
   const settled = entries.filter((e) => e.result === 'won' || e.result === 'lost');
   const won = settled.filter((e) => e.result === 'won').length;
 
@@ -124,12 +128,12 @@ export async function renderToday(root) {
     ${tomorrow && !tomorrow.no_bet ? slipHtml(tomorrow, 'Tomorrow’s slip') : ''}
     <section class="card">
       <h2>Model record</h2>
-      <p class="card__sub">${settled.length ? `${won} of ${settled.length} slips won (${pct(won / settled.length)}). At odds of 2.0 the break-even rate is 50%.` : 'No settled slips yet. The record starts with the first slip.'}</p>
+      <p class="card__sub">${settled.length ? `${won} of ${settled.length} slips won (${pct(won / settled.length)}). At odds of 2.0 the break-even rate is 50%.` : 'No settled slips yet. The record starts with the first slip.'}${settledExtras.length ? ` Extra slips: ${settledExtras.filter((x) => x.result === 'won').length} of ${settledExtras.length} won (listed below, not counted above).` : ''}</p>
       ${
         past.length
           ? `<ul class="record">${past
               .map(
-                (e) => `<li class="record__row"><div class="record__day">${esc(dayLabel(e.date))}</div><div class="record__legs">${e.legs
+                (e) => `<li class="record__row"><div class="record__day">${esc(dayLabel(e.date))}${e.extra ? '<div class="muted small">Extra slip, not in the win rate</div>' : ''}</div><div class="record__legs">${e.legs
                   .map((l) => `<div>${esc(l.selection)} <span class="muted">${esc(l.label)} · ${odds(l.odds)}</span></div>`)
                   .join('')}</div><div class="record__end"><strong>${odds(e.odds)}</strong>${resultBadge(e.result)}</div></li>`
               )
