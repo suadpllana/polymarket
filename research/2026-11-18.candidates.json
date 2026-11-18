@@ -1,0 +1,704 @@
+{
+  "date": "2026-11-18",
+  "window": {
+    "start": "2026-11-18T07:21:29.209Z",
+    "end": "2026-11-18T22:00:00.000Z"
+  },
+  "games_in_window": 40,
+  "games": [
+    {
+      "id": "1375609",
+      "league": "ATP Tour",
+      "sport": "tennis",
+      "event": "ATP World Tour Finals, Ivan Lendl Group: Carlos Alcaraz vs Daniil Medvedev",
+      "home": "Carlos Alcaraz",
+      "away": "Daniil Medvedev",
+      "start": "2026-11-18T13:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.775,
+        "draw": 0,
+        "away": 0.225
+      },
+      "p_first": {
+        "home": 0.775,
+        "draw": 0,
+        "away": 0.225
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Carlos Alcaraz",
+          "p_market": 0.775,
+          "fair_odds": 1.29
+        }
+      ],
+      "legs_first": {
+        "home": 0.775
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.795,
+          "to": 0.775,
+          "relative_change": -0.025
+        },
+        "rating": {
+          "model": "Tennis Abstract Elo",
+          "source": "https://tennisabstract.com/reports/atp_elo_ratings.html",
+          "home": {
+            "name": "Carlos Alcaraz",
+            "elo": 2194.9,
+            "hard_elo": 2142.2
+          },
+          "away": {
+            "name": "Daniil Medvedev",
+            "elo": 1989.4,
+            "hard_elo": 1960.6
+          },
+          "p_home": {
+            "overall": 0.765,
+            "hard": 0.74,
+            "blend_hard": 0.753
+          }
+        },
+        "fetched_at": "2026-11-18T06:51:51.364Z"
+      }
+    },
+    {
+      "id": "1372107",
+      "league": "EuroLeague",
+      "sport": "basketball",
+      "event": "Besiktas vs. Real Madrid",
+      "home": "Besiktas",
+      "away": "Real Madrid",
+      "start": "2026-11-18T17:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.275,
+        "draw": 0,
+        "away": 0.725
+      },
+      "p_first": {
+        "home": 0.275,
+        "draw": 0,
+        "away": 0.725
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "Real Madrid",
+          "p_market": 0.725,
+          "fair_odds": 1.38
+        }
+      ],
+      "legs_first": {
+        "away": 0.725
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.665,
+          "to": 0.725,
+          "relative_change": 0.09
+        },
+        "fetched_at": "2026-11-18T06:51:51.365Z"
+      }
+    },
+    {
+      "id": "1375612",
+      "league": "ATP Tour",
+      "sport": "tennis",
+      "event": "ATP World Tour Finals, Ivan Lendl Group: Flavio Cobolli vs Frances Tiafoe",
+      "home": "Flavio Cobolli",
+      "away": "Frances Tiafoe",
+      "start": "2026-11-18T19:30:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.435,
+        "draw": 0,
+        "away": 0.565
+      },
+      "p_first": {
+        "home": 0.435,
+        "draw": 0,
+        "away": 0.565
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Frances Tiafoe",
+          "p_market": 0.565,
+          "fair_odds": 1.77
+        }
+      ],
+      "legs_first": {
+        "away": 0.565
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.525,
+          "to": 0.565,
+          "relative_change": 0.076
+        },
+        "rating": {
+          "model": "Tennis Abstract Elo",
+          "source": "https://tennisabstract.com/reports/atp_elo_ratings.html",
+          "home": {
+            "name": "Flavio Cobolli",
+            "elo": 1872.5,
+            "hard_elo": 1797.2
+          },
+          "away": {
+            "name": "Frances Tiafoe",
+            "elo": 1925.2,
+            "hard_elo": 1875.6
+          },
+          "p_home": {
+            "overall": 0.425,
+            "hard": 0.389,
+            "blend_hard": 0.407
+          }
+        },
+        "fetched_at": "2026-11-18T06:51:51.410Z"
+      }
+    },
+    {
+      "id": "1370214",
+      "league": "Basketball Champions League",
+      "sport": "basketball",
+      "event": "Galatasaray vs. Legia Warszawa",
+      "home": "Galatasaray",
+      "away": "Legia Warszawa",
+      "start": "2026-11-18T17:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.815,
+        "draw": 0,
+        "away": 0.185
+      },
+      "p_first": {
+        "home": 0.815,
+        "draw": 0,
+        "away": 0.185
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Galatasaray",
+          "p_market": 0.815,
+          "fair_odds": 1.23
+        }
+      ],
+      "legs_first": {
+        "home": 0.815
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.5,
+          "to": 0.815,
+          "relative_change": 0.63
+        },
+        "fetched_at": "2026-11-18T06:51:51.373Z"
+      }
+    },
+    {
+      "id": "1396759",
+      "league": "EuroCup",
+      "sport": "basketball",
+      "event": "BC Aris Thessaloniki vs. Le Mans Sarthe Basket",
+      "home": "BC Aris Thessaloniki",
+      "away": "Le Mans Sarthe Basket",
+      "start": "2026-11-18T18:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.795,
+        "draw": 0,
+        "away": 0.205
+      },
+      "p_first": {
+        "home": 0.795,
+        "draw": 0,
+        "away": 0.205
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "BC Aris Thessaloniki",
+          "p_market": 0.795,
+          "fair_odds": 1.26
+        }
+      ],
+      "legs_first": {
+        "home": 0.795
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.855,
+          "to": 0.795,
+          "relative_change": -0.07
+        },
+        "fetched_at": "2026-11-18T06:51:51.681Z"
+      }
+    },
+    {
+      "id": "1396477",
+      "league": "EuroCup",
+      "sport": "basketball",
+      "event": "Derthona Basket vs. Rigas Zelli",
+      "home": "Derthona Basket",
+      "away": "Rigas Zelli",
+      "start": "2026-11-18T16:30:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.765,
+        "draw": 0,
+        "away": 0.235
+      },
+      "p_first": {
+        "home": 0.765,
+        "draw": 0,
+        "away": 0.235
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Derthona Basket",
+          "p_market": 0.765,
+          "fair_odds": 1.31
+        }
+      ],
+      "legs_first": {
+        "home": 0.765
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.83,
+          "to": 0.765,
+          "relative_change": -0.078
+        },
+        "fetched_at": "2026-11-18T06:51:51.620Z"
+      }
+    },
+    {
+      "id": "1372583",
+      "league": "KHL",
+      "sport": "ice_hockey",
+      "event": "KHL: Avangard Omsk vs. Admiral Vladivostok",
+      "home": "Avangard Omsk",
+      "away": "Admiral Vladivostok",
+      "start": "2026-11-18T13:30:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.75,
+        "draw": 0,
+        "away": 0.25
+      },
+      "p_first": {
+        "home": 0.75,
+        "draw": 0,
+        "away": 0.25
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Avangard Omsk",
+          "p_market": 0.75,
+          "fair_odds": 1.33
+        }
+      ],
+      "legs_first": {
+        "home": 0.75
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.77,
+          "to": 0.75,
+          "relative_change": -0.026
+        },
+        "fetched_at": "2026-11-18T06:51:51.596Z"
+      }
+    },
+    {
+      "id": "1372581",
+      "league": "KHL",
+      "sport": "ice_hockey",
+      "event": "KHL: Severstal Cherepovets vs. HC Sochi",
+      "home": "Severstal Cherepovets",
+      "away": "HC Sochi",
+      "start": "2026-11-18T16:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.725,
+        "draw": 0,
+        "away": 0.275
+      },
+      "p_first": {
+        "home": 0.725,
+        "draw": 0,
+        "away": 0.275
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Severstal Cherepovets",
+          "p_market": 0.725,
+          "fair_odds": 1.38
+        }
+      ],
+      "legs_first": {
+        "home": 0.725
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.72,
+          "to": 0.725,
+          "relative_change": 0.007
+        },
+        "fetched_at": "2026-11-18T06:51:51.640Z"
+      }
+    },
+    {
+      "id": "1396764",
+      "league": "EuroCup",
+      "sport": "basketball",
+      "event": "KK Bosna Royal Sarajevo vs. BC Lietkabelis Panevezys",
+      "home": "KK Bosna Royal Sarajevo",
+      "away": "BC Lietkabelis Panevezys",
+      "start": "2026-11-18T18:30:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.715,
+        "draw": 0,
+        "away": 0.285
+      },
+      "p_first": {
+        "home": 0.715,
+        "draw": 0,
+        "away": 0.285
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "KK Bosna Royal Sarajevo",
+          "p_market": 0.715,
+          "fair_odds": 1.4
+        }
+      ],
+      "legs_first": {
+        "home": 0.715
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.665,
+          "to": 0.715,
+          "relative_change": 0.075
+        },
+        "fetched_at": "2026-11-18T06:51:51.872Z"
+      }
+    },
+    {
+      "id": "1396789",
+      "league": "Liiga",
+      "sport": "ice_hockey",
+      "event": "JYP Jyvaskyla vs. Vaasan Sport",
+      "home": "JYP Jyvaskyla",
+      "away": "Vaasan Sport",
+      "start": "2026-11-18T16:30:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.71,
+        "draw": 0,
+        "away": 0.29
+      },
+      "p_first": {
+        "home": 0.71,
+        "draw": 0,
+        "away": 0.29
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "JYP Jyvaskyla",
+          "p_market": 0.71,
+          "fair_odds": 1.41
+        }
+      ],
+      "legs_first": {
+        "home": 0.71
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.695,
+          "to": 0.71,
+          "relative_change": 0.022
+        },
+        "fetched_at": "2026-11-18T06:51:51.916Z"
+      }
+    },
+    {
+      "id": "1396758",
+      "league": "EuroCup",
+      "sport": "basketball",
+      "event": "KK Cedevita Olimpija Ljubljana vs. CB San Pablo Burgos",
+      "home": "KK Cedevita Olimpija Ljubljana",
+      "away": "CB San Pablo Burgos",
+      "start": "2026-11-18T17:30:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.69,
+        "draw": 0,
+        "away": 0.31
+      },
+      "p_first": {
+        "home": 0.69,
+        "draw": 0,
+        "away": 0.31
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "KK Cedevita Olimpija Ljubljana",
+          "p_market": 0.69,
+          "fair_odds": 1.45
+        }
+      ],
+      "legs_first": {
+        "home": 0.69
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.615,
+          "to": 0.69,
+          "relative_change": 0.122
+        },
+        "fetched_at": "2026-11-18T06:51:51.849Z"
+      }
+    },
+    {
+      "id": "1396762",
+      "league": "EuroCup",
+      "sport": "basketball",
+      "event": "Skyliners Frankfurt vs. Reyer Venezia",
+      "home": "Skyliners Frankfurt",
+      "away": "Reyer Venezia",
+      "start": "2026-11-18T18:30:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.325,
+        "draw": 0,
+        "away": 0.675
+      },
+      "p_first": {
+        "home": 0.325,
+        "draw": 0,
+        "away": 0.675
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "Reyer Venezia",
+          "p_market": 0.675,
+          "fair_odds": 1.48
+        }
+      ],
+      "legs_first": {
+        "away": 0.675
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.74,
+          "to": 0.675,
+          "relative_change": -0.088
+        },
+        "fetched_at": "2026-11-18T06:51:51.920Z"
+      }
+    },
+    {
+      "id": "1397314",
+      "league": "EuroCup",
+      "sport": "basketball",
+      "event": "Aquila Basket Trento vs. BC Neptunas Klaipeda",
+      "home": "Aquila Basket Trento",
+      "away": "BC Neptunas Klaipeda",
+      "start": "2026-11-18T19:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.655,
+        "draw": 0,
+        "away": 0.345
+      },
+      "p_first": {
+        "home": 0.655,
+        "draw": 0,
+        "away": 0.345
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Aquila Basket Trento",
+          "p_market": 0.655,
+          "fair_odds": 1.53
+        }
+      ],
+      "legs_first": {
+        "home": 0.655
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.74,
+          "to": 0.655,
+          "relative_change": -0.115
+        },
+        "fetched_at": "2026-11-18T06:51:52.124Z"
+      }
+    },
+    {
+      "id": "1396795",
+      "league": "Liiga",
+      "sport": "ice_hockey",
+      "event": "Assat Pori vs. Pelicans Lahti",
+      "home": "Assat Pori",
+      "away": "Pelicans Lahti",
+      "start": "2026-11-18T16:30:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.64,
+        "draw": 0,
+        "away": 0.36
+      },
+      "p_first": {
+        "home": 0.64,
+        "draw": 0,
+        "away": 0.36
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Assat Pori",
+          "p_market": 0.64,
+          "fair_odds": 1.56
+        }
+      ],
+      "legs_first": {
+        "home": 0.64
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.625,
+          "to": 0.64,
+          "relative_change": 0.024
+        },
+        "fetched_at": "2026-11-18T06:51:52.139Z"
+      }
+    },
+    {
+      "id": "1370215",
+      "league": "Basketball Champions League",
+      "sport": "basketball",
+      "event": "Cibona vs. Strasbourg",
+      "home": "Cibona",
+      "away": "Strasbourg",
+      "start": "2026-11-18T19:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.36,
+        "draw": 0,
+        "away": 0.64
+      },
+      "p_first": {
+        "home": 0.36,
+        "draw": 0,
+        "away": 0.64
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "Strasbourg",
+          "p_market": 0.64,
+          "fair_odds": 1.56
+        }
+      ],
+      "legs_first": {
+        "away": 0.64
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.5,
+          "to": 0.635,
+          "relative_change": 0.27
+        },
+        "fetched_at": "2026-11-18T06:51:52.223Z"
+      }
+    },
+    {
+      "id": "1396794",
+      "league": "Liiga",
+      "sport": "ice_hockey",
+      "event": "TPS Turku vs. Karpat Oulu",
+      "home": "TPS Turku",
+      "away": "Karpat Oulu",
+      "start": "2026-11-18T16:30:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.61,
+        "draw": 0,
+        "away": 0.39
+      },
+      "p_first": {
+        "home": 0.61,
+        "draw": 0,
+        "away": 0.39
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "TPS Turku",
+          "p_market": 0.61,
+          "fair_odds": 1.64
+        }
+      ],
+      "legs_first": {
+        "home": 0.61
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.6,
+          "to": 0.61,
+          "relative_change": 0.017
+        },
+        "fetched_at": "2026-11-18T06:51:52.133Z"
+      }
+    }
+  ]
+}
