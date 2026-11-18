@@ -1,0 +1,704 @@
+{
+  "date": "2026-11-19",
+  "window": {
+    "start": "2026-11-19T08:00:00.000Z",
+    "end": "2026-11-19T22:00:00.000Z"
+  },
+  "games_in_window": 30,
+  "games": [
+    {
+      "id": "1379724",
+      "league": "EuroLeague",
+      "sport": "basketball",
+      "event": "Valencia vs. Virtus Bologna",
+      "home": "Valencia",
+      "away": "Virtus Bologna",
+      "start": "2026-11-19T20:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.82,
+        "draw": 0,
+        "away": 0.18
+      },
+      "p_first": {
+        "home": 0.82,
+        "draw": 0,
+        "away": 0.18
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Valencia",
+          "p_market": 0.82,
+          "fair_odds": 1.22
+        }
+      ],
+      "legs_first": {
+        "home": 0.82
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.79,
+          "to": 0.82,
+          "relative_change": 0.038
+        },
+        "fetched_at": "2026-11-18T19:21:49.418Z"
+      }
+    },
+    {
+      "id": "1379727",
+      "league": "EuroLeague",
+      "sport": "basketball",
+      "event": "FC Bayern Munchen vs. Kosner Baskonia",
+      "home": "FC Bayern Munchen",
+      "away": "Kosner Baskonia",
+      "start": "2026-11-19T19:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.725,
+        "draw": 0,
+        "away": 0.275
+      },
+      "p_first": {
+        "home": 0.725,
+        "draw": 0,
+        "away": 0.275
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "FC Bayern Munchen",
+          "p_market": 0.725,
+          "fair_odds": 1.38
+        }
+      ],
+      "legs_first": {
+        "home": 0.725
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.735,
+          "to": 0.725,
+          "relative_change": -0.014
+        },
+        "fetched_at": "2026-11-18T19:21:49.396Z"
+      }
+    },
+    {
+      "id": "1375606",
+      "league": "ATP Tour",
+      "sport": "tennis",
+      "event": "ATP World Tour Finals, John McEnroe Group: Alexander Zverev vs Arthur Fils",
+      "home": "Alexander Zverev",
+      "away": "Arthur Fils",
+      "start": "2026-11-19T19:30:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.695,
+        "draw": 0,
+        "away": 0.305
+      },
+      "p_first": {
+        "home": 0.695,
+        "draw": 0,
+        "away": 0.305
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Alexander Zverev",
+          "p_market": 0.695,
+          "fair_odds": 1.44
+        }
+      ],
+      "legs_first": {
+        "home": 0.695
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.735,
+          "to": 0.695,
+          "relative_change": -0.054
+        },
+        "rating": {
+          "model": "Tennis Abstract Elo",
+          "source": "https://tennisabstract.com/reports/atp_elo_ratings.html",
+          "home": {
+            "name": "Alexander Zverev",
+            "elo": 2089.6,
+            "hard_elo": 2030.1
+          },
+          "away": {
+            "name": "Arthur Fils",
+            "elo": 1992.9,
+            "hard_elo": 1934
+          },
+          "p_home": {
+            "overall": 0.636,
+            "hard": 0.635,
+            "blend_hard": 0.635
+          }
+        },
+        "fetched_at": "2026-11-18T19:21:49.323Z"
+      }
+    },
+    {
+      "id": "1379728",
+      "league": "EuroLeague",
+      "sport": "basketball",
+      "event": "Olimpia Milano vs. Fenerbahce",
+      "home": "Olimpia Milano",
+      "away": "Fenerbahce",
+      "start": "2026-11-19T19:30:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.335,
+        "draw": 0,
+        "away": 0.665
+      },
+      "p_first": {
+        "home": 0.335,
+        "draw": 0,
+        "away": 0.665
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "Fenerbahce",
+          "p_market": 0.665,
+          "fair_odds": 1.5
+        }
+      ],
+      "legs_first": {
+        "away": 0.665
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.7,
+          "to": 0.665,
+          "relative_change": -0.05
+        },
+        "fetched_at": "2026-11-18T19:21:49.458Z"
+      }
+    },
+    {
+      "id": "1375607",
+      "league": "ATP Tour",
+      "sport": "tennis",
+      "event": "ATP World Tour Finals, John McEnroe Group: Ben Shelton vs Rafael Jodar",
+      "home": "Ben Shelton",
+      "away": "Rafael Jodar",
+      "start": "2026-11-19T13:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.665,
+        "draw": 0,
+        "away": 0.335
+      },
+      "p_first": {
+        "home": 0.665,
+        "draw": 0,
+        "away": 0.335
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Ben Shelton",
+          "p_market": 0.665,
+          "fair_odds": 1.5
+        }
+      ],
+      "legs_first": {
+        "home": 0.665
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.645,
+          "to": 0.665,
+          "relative_change": 0.031
+        },
+        "rating": {
+          "model": "Tennis Abstract Elo",
+          "source": "https://tennisabstract.com/reports/atp_elo_ratings.html",
+          "home": {
+            "name": "Ben Shelton",
+            "elo": 1987.5,
+            "hard_elo": 1952.4
+          },
+          "away": {
+            "name": "Rafael Jodar",
+            "elo": 1988.3,
+            "hard_elo": 1918.4
+          },
+          "p_home": {
+            "overall": 0.499,
+            "hard": 0.549,
+            "blend_hard": 0.524
+          }
+        },
+        "fetched_at": "2026-11-18T19:21:49.653Z"
+      }
+    },
+    {
+      "id": "1379730",
+      "league": "EuroLeague",
+      "sport": "basketball",
+      "event": "Maccabi Tel Aviv vs. BC Dubai",
+      "home": "Maccabi Tel Aviv",
+      "away": "BC Dubai",
+      "start": "2026-11-19T17:15:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.385,
+        "draw": 0,
+        "away": 0.615
+      },
+      "p_first": {
+        "home": 0.385,
+        "draw": 0,
+        "away": 0.615
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "BC Dubai",
+          "p_market": 0.615,
+          "fair_odds": 1.63
+        }
+      ],
+      "legs_first": {
+        "away": 0.615
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.63,
+          "to": 0.615,
+          "relative_change": -0.024
+        },
+        "fetched_at": "2026-11-18T19:21:49.747Z"
+      }
+    },
+    {
+      "id": "1379731",
+      "league": "EuroLeague",
+      "sport": "basketball",
+      "event": "Zalgiris Kaunas vs. Panathinaikos",
+      "home": "Zalgiris Kaunas",
+      "away": "Panathinaikos",
+      "start": "2026-11-19T18:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.555,
+        "draw": 0,
+        "away": 0.445
+      },
+      "p_first": {
+        "home": 0.555,
+        "draw": 0,
+        "away": 0.445
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Zalgiris Kaunas",
+          "p_market": 0.555,
+          "fair_odds": 1.8
+        }
+      ],
+      "legs_first": {
+        "home": 0.555
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.465,
+          "to": 0.555,
+          "relative_change": 0.194
+        },
+        "fetched_at": "2026-11-18T19:21:49.738Z"
+      }
+    },
+    {
+      "id": "1379725",
+      "league": "EuroLeague",
+      "sport": "basketball",
+      "event": "Paris Basketball vs. Hapoel Tel Aviv",
+      "home": "Paris Basketball",
+      "away": "Hapoel Tel Aviv",
+      "start": "2026-11-19T19:45:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.465,
+        "draw": 0,
+        "away": 0.535
+      },
+      "p_first": {
+        "home": 0.465,
+        "draw": 0,
+        "away": 0.535
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "Hapoel Tel Aviv",
+          "p_market": 0.535,
+          "fair_odds": 1.87
+        }
+      ],
+      "legs_first": {
+        "away": 0.535
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.625,
+          "to": 0.535,
+          "relative_change": -0.144
+        },
+        "fetched_at": "2026-11-18T19:21:49.735Z"
+      }
+    },
+    {
+      "id": "1403492",
+      "league": "SHL",
+      "sport": "ice_hockey",
+      "event": "SHL: Växjö vs. Bjoerkloeven",
+      "home": "Växjö",
+      "away": "Bjoerkloeven",
+      "start": "2026-11-19T18:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.765,
+        "draw": 0,
+        "away": 0.235
+      },
+      "p_first": {
+        "home": 0.765,
+        "draw": 0,
+        "away": 0.235
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Växjö",
+          "p_market": 0.765,
+          "fair_odds": 1.31
+        }
+      ],
+      "legs_first": {
+        "home": 0.765
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.76,
+          "to": 0.765,
+          "relative_change": 0.007
+        },
+        "fetched_at": "2026-11-18T19:21:50.064Z"
+      }
+    },
+    {
+      "id": "1403487",
+      "league": "SHL",
+      "sport": "ice_hockey",
+      "event": "SHL: Djurgården vs. Skellefteå",
+      "home": "Djurgården",
+      "away": "Skellefteå",
+      "start": "2026-11-19T18:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.32,
+        "draw": 0,
+        "away": 0.68
+      },
+      "p_first": {
+        "home": 0.32,
+        "draw": 0,
+        "away": 0.68
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "Skellefteå",
+          "p_market": 0.68,
+          "fair_odds": 1.47
+        }
+      ],
+      "legs_first": {
+        "away": 0.68
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.675,
+          "to": 0.68,
+          "relative_change": 0.007
+        },
+        "fetched_at": "2026-11-18T19:21:50.071Z"
+      }
+    },
+    {
+      "id": "1403488",
+      "league": "SHL",
+      "sport": "ice_hockey",
+      "event": "SHL: Färjestad vs. Frölunda HC",
+      "home": "Färjestad",
+      "away": "Frölunda HC",
+      "start": "2026-11-19T18:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.67,
+        "draw": 0,
+        "away": 0.33
+      },
+      "p_first": {
+        "home": 0.67,
+        "draw": 0,
+        "away": 0.33
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Färjestad",
+          "p_market": 0.67,
+          "fair_odds": 1.49
+        }
+      ],
+      "legs_first": {
+        "home": 0.67
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.665,
+          "to": 0.67,
+          "relative_change": 0.008
+        },
+        "fetched_at": "2026-11-18T19:21:50.018Z"
+      }
+    },
+    {
+      "id": "1403486",
+      "league": "SHL",
+      "sport": "ice_hockey",
+      "event": "SHL: Brynäs vs. Luleå",
+      "home": "Brynäs",
+      "away": "Luleå",
+      "start": "2026-11-19T18:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.66,
+        "draw": 0,
+        "away": 0.34
+      },
+      "p_first": {
+        "home": 0.66,
+        "draw": 0,
+        "away": 0.34
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Brynäs",
+          "p_market": 0.66,
+          "fair_odds": 1.52
+        }
+      ],
+      "legs_first": {
+        "home": 0.66
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.655,
+          "to": 0.66,
+          "relative_change": 0.008
+        },
+        "fetched_at": "2026-11-18T19:21:50.065Z"
+      }
+    },
+    {
+      "id": "1402418",
+      "league": "KHL",
+      "sport": "ice_hockey",
+      "event": "KHL: Metallurg Magnitogorsk vs. Traktor",
+      "home": "Metallurg Magnitogorsk",
+      "away": "Traktor",
+      "start": "2026-11-19T14:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.65,
+        "draw": 0,
+        "away": 0.35
+      },
+      "p_first": {
+        "home": 0.65,
+        "draw": 0,
+        "away": 0.35
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Metallurg Magnitogorsk",
+          "p_market": 0.65,
+          "fair_odds": 1.54
+        }
+      ],
+      "legs_first": {
+        "home": 0.65
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.65,
+          "to": 0.65,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-18T19:21:50.265Z"
+      }
+    },
+    {
+      "id": "1410473",
+      "league": "DEL",
+      "sport": "ice_hockey",
+      "event": "DEL: Krefeld Pinguine vs. Straubing Tigers",
+      "home": "Krefeld Pinguine",
+      "away": "Straubing Tigers",
+      "start": "2026-11-19T18:30:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.375,
+        "draw": 0,
+        "away": 0.625
+      },
+      "p_first": {
+        "home": 0.375,
+        "draw": 0,
+        "away": 0.625
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "Straubing Tigers",
+          "p_market": 0.625,
+          "fair_odds": 1.6
+        }
+      ],
+      "legs_first": {
+        "away": 0.625
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.625,
+          "to": 0.625,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-18T19:21:50.443Z"
+      }
+    },
+    {
+      "id": "1402981",
+      "league": "KHL",
+      "sport": "ice_hockey",
+      "event": "KHL: Neftekhimik Nizhnekamsk vs. SKA St. Petersburg",
+      "home": "Neftekhimik Nizhnekamsk",
+      "away": "SKA St. Petersburg",
+      "start": "2026-11-19T16:30:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.445,
+        "draw": 0,
+        "away": 0.555
+      },
+      "p_first": {
+        "home": 0.445,
+        "draw": 0,
+        "away": 0.555
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "SKA St. Petersburg",
+          "p_market": 0.555,
+          "fair_odds": 1.8
+        }
+      ],
+      "legs_first": {
+        "away": 0.555
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.51,
+          "to": 0.555,
+          "relative_change": 0.088
+        },
+        "fetched_at": "2026-11-18T19:21:50.357Z"
+      }
+    },
+    {
+      "id": "1403490",
+      "league": "SHL",
+      "sport": "ice_hockey",
+      "event": "SHL: Malmö vs. Rögle",
+      "home": "Malmö",
+      "away": "Rögle",
+      "start": "2026-11-19T18:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.555,
+        "draw": 0,
+        "away": 0.445
+      },
+      "p_first": {
+        "home": 0.555,
+        "draw": 0,
+        "away": 0.445
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Malmö",
+          "p_market": 0.555,
+          "fair_odds": 1.8
+        }
+      ],
+      "legs_first": {
+        "home": 0.555
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.555,
+          "to": 0.555,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-18T19:21:50.352Z"
+      }
+    }
+  ]
+}
