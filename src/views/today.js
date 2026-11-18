@@ -84,6 +84,15 @@ export async function renderToday(root) {
   } catch {
     /* offline */
   }
+  // Extra slips the owner asked for on top of the daily slip (public/extra.json).
+  // They are shown only on their own day and are not part of the model record.
+  let extras = [];
+  try {
+    const res = await fetch(`${import.meta.env.BASE_URL}extra.json?t=${Date.now()}`, { cache: 'no-store' });
+    if (res.ok) extras = ((await res.json()).slips || []).filter((x) => x.date === localDate() && x.legs?.length);
+  } catch {
+    /* no extra slips */
+  }
   const entries = (history.entries || []).filter((e) => e.model === 'football-2leg');
   const todayEntry = entries.find((e) => e.date === localDate());
   // Once today's slip is settled (won, lost or void) it leaves the top of the
@@ -111,6 +120,7 @@ export async function renderToday(root) {
             : `<section class="card slip-none"><h2>Today’s slip is settled</h2><p>It is in the record below. Tomorrow’s slip appears here after the research is pushed.</p></section>`
           : `<section class="card slip-none"><h2>No slip yet</h2><p>The research runs at 07:50 Belgrade time. The slip appears here a few minutes after it is pushed.</p></section>`
     }
+    ${extras.map((x) => `${x.note ? `<p class="slip-card__tier small"><strong>${esc(x.note)}</strong></p>` : ''}${slipHtml(x, x.title || 'Extra slip')}`).join('')}
     ${tomorrow && !tomorrow.no_bet ? slipHtml(tomorrow, 'Tomorrow’s slip') : ''}
     <section class="card">
       <h2>Model record</h2>
