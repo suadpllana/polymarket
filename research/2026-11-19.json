@@ -1,8 +1,8 @@
 {
   "date": "2026-11-19",
-  "researched_at": "2026-11-19T06:59:11Z",
+  "researched_at": "2026-11-19T12:12:07Z",
   "stage": "morning",
-  "summary": "Researched the evening before (Wed 18 Nov); lineups and starting goalies are not out, so this is a draft until the morning check and the final check. Thursday has EuroLeague Round 13 (the second game of a double week for every team), Swedish SHL and KHL hockey. Every kept game needs a second price that agrees with Polymarket. Eight games were researched; two are medium. Medium: Valencia v Virtus Bologna (Valencia 9-3 and first, at home; Kalshi 80-83% agrees with Polymarket 82%; Mirotic and Reuvers likely out, third game in five days), Fenerbahce at Olimpia Milano (Fenerbahce 3rd at 8-4 against 2-10 Milano; Kalshi agrees at about 64-65%; Melli, Key and Bitim out, which explains the price easing from 70% to 66.5%). Low: Bayern v Baskonia (Bayern themselves 3-9, three players missing on Tuesday, no traded second price), Växjö v Björklöven ($13 market, no second price, coach sacked 1 Nov), Djurgården v Skellefteå, Färjestad v Frölunda and Brynäs v Luleå (starting goalies unknown, no clean second price). Excluded: Metallurg v Traktor (the 'Ural derby'). Tennis needs high confidence and was not researched. Morning check (Thu): Valencia stay medium (injury report unchanged, Kalshi 82-83%). Fenerbahce drop to low: their price fell another 4.5% overnight (0.665 to 0.635) with no news (Melli and Key were already known). Four games added this morning: Al Ain v Al Dhafra medium (3rd v 12th, Bovada about 90%), Peñarol v Cerro Largo medium (a win secures the annual table; Kalshi agrees at 67-68%; Peñarol winless in six, mostly draws), Al Wasl v Hatta low (no team news, unlabelled second price), Tappara v Vaasan Sport low (2 wins in 10, goalies unknown). Two more games checked to lift the odds: City Torque at Progreso low (price fell 6% in 24h with no news, no team news), Straubing at Krefeld low (no second price, goalie problems). The slip stays below 1.70 because no other game reached medium.",
+  "summary": "Researched the evening before (Wed 18 Nov); lineups and starting goalies are not out, so this is a draft until the morning check and the final check. Thursday has EuroLeague Round 13 (the second game of a double week for every team), Swedish SHL and KHL hockey. Every kept game needs a second price that agrees with Polymarket. Eight games were researched; two are medium. Medium: Valencia v Virtus Bologna (Valencia 9-3 and first, at home; Kalshi 80-83% agrees with Polymarket 82%; Mirotic and Reuvers likely out, third game in five days), Fenerbahce at Olimpia Milano (Fenerbahce 3rd at 8-4 against 2-10 Milano; Kalshi agrees at about 64-65%; Melli, Key and Bitim out, which explains the price easing from 70% to 66.5%). Low: Bayern v Baskonia (Bayern themselves 3-9, three players missing on Tuesday, no traded second price), Växjö v Björklöven ($13 market, no second price, coach sacked 1 Nov), Djurgården v Skellefteå, Färjestad v Frölunda and Brynäs v Luleå (starting goalies unknown, no clean second price). Excluded: Metallurg v Traktor (the 'Ural derby'). Tennis needs high confidence and was not researched. Morning check (Thu): Valencia stay medium (injury report unchanged, Kalshi 82-83%). Fenerbahce drop to low: their price fell another 4.5% overnight (0.665 to 0.635) with no news (Melli and Key were already known). Four games added this morning: Al Ain v Al Dhafra medium (3rd v 12th, Bovada about 90%), Peñarol v Cerro Largo medium (a win secures the annual table; Kalshi agrees at 67-68%; Peñarol winless in six, mostly draws), Al Wasl v Hatta low (no team news, unlabelled second price), Tappara v Vaasan Sport low (2 wins in 10, goalies unknown). Two more games checked to lift the odds: City Torque at Progreso low (price fell 6% in 24h with no news, no team news), Straubing at Krefeld low (no second price, goalie problems). The slip stays below 1.70 because no other game reached medium. Midday: three more games checked to lift the slip out of the closest tier: Maldonado at Boston River low (price fell 5.7% with no news), Zverev v Fils low (tennis needs high; Zverev already through, Elo 64%), Al Ahli v Al-Shamal low (models make it a coin flip, no second price). No other game reached medium, so the slip stays at about 1.68.",
   "games": [
     {
       "id": "1379724",
@@ -72,8 +72,36 @@
     },
     {
       "id": "1375606",
-      "exclude": true,
-      "skipped": true
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.67,
+        "draw": 0,
+        "away": 0.33
+      },
+      "checks": {
+        "team_news": "No new injury reported for Zverev or Fils (tennisuptodate, 19 Nov). Fils's 2026 season was disrupted by an earlier back injury, but he is back to near his best (beat Jodar 4-6 6-2 6-2 after losing to Shelton 6-2 3-6 6-3). No withdrawal or walkover announced.",
+        "lineups": "Order of play for Thu 19 Nov at Inalpi Arena, as reported by ATP daily schedule and Tennis Tonic: afternoon (14:00 local) Shelton vs Jodar, evening (20:30 local = 19:30 UTC) Zverev vs Fils. One stale schedule snippet listed Zverev vs Shelton in that slot, which conflicts; I read it as a stale listing. Not seen on the official ATP page directly.",
+        "rotation": "Zverev played Sun (Jodar) and Tue (Shelton), so Thursday is his third match in five days. Fils played Sun (Shelton) and Tue (Jodar). Both on equal rest. The semis are Sat 21 Nov.",
+        "motivation": "Zverev has already qualified for the semis (2-0: 6-4 6-4 over Jodar, 6-2 7-6(4) over Shelton). Per tennisuptodate he takes first place in the group if he wins one set against Fils, so his remaining aim is top spot. Fils (1-1) needs a result: he qualifies if he beats Zverev and Jodar beats Shelton. He also qualifies if he beats Zverev in straight sets and Shelton beats Jodar. Even if he loses in three sets to Zverev, he qualifies if Jodar beats Shelton. Shelton's and Jodar's match is played first, so Fils will know what he needs. Borderline on the hard rule 'favourite already qualified while the opponent needs the result'. I did not exclude because Zverev's group win is not yet secured, but it is the main risk.",
+        "form": "Zverev is 2-0 in the group without dropping a set, 25-16 in games. Fils is 1-1, 27-25 in games, and went to three sets in both matches. Tennis Abstract overall Elo is Zverev 2089.6 and Fils 1992.9. Hard Elo is 2030.1 against 1934.",
+        "h2h": "Zverev leads 5-2 over eight listed meetings at tour level (tennisuptodate/StatSniper). Fils won at least some of the recent ones. Indian Wells 2026 pre-match line was Zverev -165 and Fils +146. Fils's power game is a style risk in a fast indoor hard court, and he has taken sets off Zverev before.",
+        "odds": "Polymarket 0.695 Zverev / 0.305 Fils, 24h move 0.695 to 0.705 (+1.4%), so no price-drop flag. I did not read the Polymarket volume. Second price: Kalshi KXATPMATCH-26NOV17ZVEFIL (ticker date says 17 Nov, which looks odd for a 19 Nov match, so only partly reliable): Zverev yes 0.71 bid / 0.72 ask, Fils 0.28 bid / 0.29 ask, de-vigged about 0.71 / 0.29. This agrees with Polymarket within 2 points. No bookmaker moneyline found (data.odds absent from the candidates file). An older Zverev vs Shelton line was -201 at this event.",
+        "models": "Tennis Abstract Elo (https://tennisabstract.com/reports/atp_elo_ratings.html): Zverev 2089.6 overall / 2030.1 hard, Fils 1992.9 / 1934.0. Win probability for Zverev is 0.636 overall and 0.635 hard, about 6 points below the market. StringTension Elo says 80.8% for Zverev but the page's date is unclear.",
+        "venue_weather": "Inalpi Arena, Turin, indoor hard court, 20:30 local start. No weather impact. The venue is the standard one for the tournament."
+      },
+      "reason": "Tennis legs need high confidence, and this one cannot get it. Zverev is already through to the semis and Fils has to win. The Elo model gives Zverev only 0.636 against 0.695-0.71 in the market. The Kalshi second price agrees with the market but its ticker date is doubtful and I found no bookmaker line. p is lowered to 0.67 to reflect the Elo gap and the motivation asymmetry.",
+      "main_risk": "Zverev already qualified for the semis with a 2-0 record while Fils must win to stay alive. Fils also has a big-serve, big-hitting style that has taken sets off Zverev, and Zverev has less reason to push hard once top spot is secured by winning a single set (borderline hard-rule case).",
+      "sources": [
+        "https://tennisuptodate.com/atp/alexander-zverev-holds-key-to-atp-finals-fate-as-shelton-fils-and-jodar-fight-for-semi-final-spot",
+        "https://www.atptour.com/en/scores/current/nitto-atp-finals/605/playergroup-standings",
+        "https://tennistonic.com/tennis-news/1082905/prediction-preview-h2h-zverev-shelton-jodar-and-fils-to-play-on-inalpi-arena-on-thursday-nitto-atp-finals/",
+        "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXATPMATCH",
+        "https://tennisabstract.com/reports/atp_elo_ratings.html",
+        "https://www.tennismajors.com/atp/nitto-atp-finals-atp/shelton-holds-off-fils-fightback-to-join-zverev-on-top-of-the-john-mcenroe-group-867094.html"
+      ],
+      "views": {},
+      "prices": []
     },
     {
       "id": "1379728",
@@ -505,13 +533,67 @@
     },
     {
       "id": "1407575",
-      "exclude": true,
-      "skipped": true
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.27,
+        "draw": 0.27,
+        "away": 0.46
+      },
+      "checks": {
+        "team_news": "NOT FOUND: no injury, suspension or doubt report for either side in the sources I could reach (Montevideo.com.uy preview and Caras y Caretas/ESPN snippets cover only the table, referee and TV). Key fact missing.",
+        "lineups": "NOT FOUND: no expected XI for either side in any source. Referee Esteban Guerra (Montevideo.com.uy). Not verified.",
+        "rotation": "No fatigue info found. Final round of the Clausura for everyone; no sign of a cup or midweek game, but not confirmed from a source.",
+        "motivation": "Per Montevideo.com.uy and Caras y Caretas: Maldonado (3rd Tabla Anual, 63 pts; Peñarol 66, City Torque 64) must win AND needs City Torque not to win and Peñarol to lose to take the Anual. Boston River (14th Anual, 37 pts) has no immediate objective: not in the Anual race, not in the relegation fight (that is Wanderers/Cerro, decided Friday). Favourite (Maldonado) still has something to play for, so no hard exclusion. Maldonado's title route needs two other results, so there is no pure win-or-bust edge. Boston River playing for nothing is a mixed factor (loose side but also nothing to lose); the draw stays live.",
+        "form": "Season to date (Montevideo.com.uy): Maldonado 18W 9D 9L, GF 54 GA 33 in 36; Boston River 10W 7D 19L, GF 34 GA 48. Last 6-10 results not retrieved.",
+        "h2h": "Search snippets (ESPN Deportes) mention Maldonado wins over Boston River (3-2 in an Apertura round 4 game and 2-1 in a 2025 Clausura game) but also older Boston River wins (5-0, 2-0); years uncertain. Not enough to rely on.",
+        "odds": "Polymarket (event volume about $3,786, liquidity about $69k) shows home 0.267, draw 0.257, away 0.477. Kalshi KXURYPDGAME (checked 19 Nov): Maldonado bid 0.49/ask 0.50 (last 0.50, volume ~529), Boston River bid 0.24/ask 0.25 (last 0.25, volume ~644); no draw market seen. DraftKings via ESPN: Maldonado -105 (open -110), draw +245 (open +240), Boston River +250 (open +260); de-vigged about home 0.263, draw 0.266, away 0.471. The second sources agree with Polymarket within 1-3 points. BUT Polymarket's Maldonado price fell from 0.525 to 0.495 in 24h (-5.7% relative, data.move_24h) and then to 0.477, and I found no news that explains it, so confidence is capped at low under the price-move rule. DraftKings also moved only slightly toward Boston River (away -110 to -105, home +260 to +250). DK draw 26.6% de-vigged is the main threat to the double chance/DNB.",
+        "models": "No ClubElo/Opta rating retrieved (data.rating absent in candidates file). Season goal difference favours Maldonado strongly (+21 vs -14), which supports the favourite but is not a bookmaker-free rating.",
+        "venue_weather": "Home game at Campeones Olímpicos, Florida (Boston River's usual home ground), Thu 19 Nov, 16:30 local (19:30 UTC); ESPN lists the venue as Campeones Olímpicos. Not neutral. Weather and pitch not checked."
+      },
+      "reason": "Fixture verified (ESPN uru.1 gameId 401934704: Deportivo Maldonado at Boston River, Campeones Olímpicos, 19:30 UTC; Montevideo.com.uy). No hard exclusion: home venue, no sacking found, and the favourite still has a motive (it must win to keep any Anual chance). Market is consistent across Polymarket, Kalshi and DraftKings at about 47-50% Maldonado, about 26-27% draw, about 25-28% Boston River, so Maldonado or draw (about 0.73) and Maldonado DNB (about 0.73) are fairly priced but not an edge. I would not back either leg today: rated low because team news and lineups are missing and the Maldonado price fell 5.7% in 24h with no explanation found. My p keeps the draw at 0.27 and trims Maldonado to 0.46 (inside 5 points of market).",
+      "main_risk": "A draw or Boston River win. Maldonado needs to win but its title hopes depend on two other results (Peñarol losing, City Torque not winning), so it may play a tense or cautious game, and the home side has nothing to lose. Unconfirmed lineups and injuries, and the unexplained 5.7% fall in Maldonado's Polymarket price.",
+      "sources": [
+        "https://www.montevideo.com.uy/Deportes/Clausura-tres-partidos-abren-este-jueves-la-ultima-fecha-con-la-tabla-Anual-en-pugna-uc982720",
+        "https://www.carasycaretas.com.uy/deportes/los-detalles-la-ultima-fecha-del-clausura-la-que-se-define-la-anual-y-el-descenso-n101139",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uru.1/scoreboard?dates=20261119",
+        "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXURYPDGAME&status=open",
+        "https://gamma-api.polymarket.com/events?id=1407575"
+      ],
+      "views": {},
+      "prices": []
     },
     {
       "id": "1397646",
-      "exclude": true,
-      "skipped": true
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.34,
+        "draw": 0.25,
+        "away": 0.41
+      },
+      "checks": {
+        "team_news": "Not found. No injury, suspension or doubt reports for either side from qsl.qa, Sports Mole or any preview I could reach today.",
+        "lineups": "Not found. No predicted XI from any source; the Sports Mole page has no lineup section. Top scorers listed: Erik Expósito (Al Ahli) and Baghdad Bounedjah (Al-Shamal).",
+        "rotation": "Unknown. Al Ahli drew 2-2 at Al Arabi on 6 Nov and Al-Shamal beat Al-Sailiya 5-0 on 7 Nov, so both have had about 12 days of rest. I found no cup fixture or travel issue.",
+        "motivation": "The current 2026-27 table could not be found: the Sports Mole page lacks it and the search returned only 2025-26 standings. It is Gameweek 10, early in the season, so a hard no-stakes exclusion is unlikely, but I could not confirm what either side needs.",
+        "form": "Last six, all competitions (Sports Mole): Al Ahli D W D L W L, 16 goals this season. Al-Shamal W L L W L D, 18 goals this season. Al-Shamal's form is erratic, with a 5-0 win last time out. No xG data found.",
+        "h2h": "18 meetings on record: Al Ahli 7 wins, 6 draws, Al-Shamal 5 wins. Latest: Al Ahli 4-2 Al-Shamal on 7 Jan 2026 (league) and Al-Shamal 0-1 Al Ahli on 14 Dec 2025 (QSL Cup). Over25tips says Al-Shamal won 4 of the last 9 and Al Ahli none. Mixed picture, so I give no edge to either side. The draw rate is 6 of 18, about one in three.",
+        "odds": "No current second bookmaker price was found. The ESPN and DraftKings feed and Football Critic both returned 403, and the candidates file has no data.odds. The only bookmaker prices I found are from the January 2026 meeting (Al-Shamal 2.25, draw 3.50, Al Ahli 2.80), which are not usable. Polymarket move over 24h: Al-Shamal 0.415 to 0.420 (+1.2%), so no unexplained shortening. I did not check Polymarket volume or thin-market depth. Because there is no independent price, this check stays unconfirmed.",
+        "models": "Two football models disagree with the market. Sports Mole: Al-Shamal 38.5%, draw 24.1%, Al Ahli 37.3%, most likely score 1-1, BTTS 62%, over 2.5 goals 62%. Betmines (undated): Al Ahli 37%, draw 25%, Al-Shamal 39%. Both put Al-Shamal near 38-39%, about 6 points below the Polymarket 45.3%, and make this nearly a coin flip. No Elo or Opta rating found.",
+        "venue_weather": "Sports Mole lists Grand Hamad Stadium (Doha) for the Qatar Stars League, Gameweek 10, 19 Nov 2026 at 15:30 UTC. Starting11's English page showed 27 Nov, but its Spanish page showed 19 Nov 15:30 GMT; Sports Mole and the candidates file agree on 19 Nov. Domestic league game, so not a neutral or unusual venue. Weather not checked."
+      },
+      "reason": "Fixture and venue check out, and nothing triggers a hard exclusion on what I found. But the table, injuries, lineups and a second bookmaker price are all missing, and the two models I found put Al-Shamal at 38-39% against the 45% market price. I would not back Al-Shamal or the draw/DNB legs. Draw no bet at 0.687 has no edge over the market on what I can see: the models put it near 0.62-0.63, which is below the price. Al-Shamal or draw is more defensible at about 0.66, but the evidence is thin and it does not clear a medium-confidence bar.",
+      "main_risk": "The Al-Shamal price is not backed by the models, which see a near-even game with the draw around 24-25% and Al Ahli roughly level. The most likely failure for Al-Shamal is an Al Ahli win (about 34%). A 1-1 draw is the most likely single score. A draw only voids the DNB leg, and it still costs the double-chance leg nothing. Unknown table stakes and team news could move either way.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/qatar-stars-league/al-ahli-vs-al-shamal_game_262987.html",
+        "https://betmines.com/matches/predictions-al-ahli-doha-al-shamal-sc_19764589?tab=match-alerts",
+        "https://www.over25tips.com/football/prediction/al-ahli-doha-vs-al-shamal-sc.html",
+        "https://starting11.com/fixtures/al-ahli-doha-vs-al-shamal",
+        "https://qsl.qa/en/news/qnb-stars-league-week-9-review"
+      ],
+      "views": {},
+      "prices": []
     },
     {
       "id": "1321816",
