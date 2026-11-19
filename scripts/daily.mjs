@@ -31,7 +31,7 @@ const REMOVED_DATES = new Set(['2026-10-31', '2026-11-01', '2026-11-02']);
 // Slips the owner asked to show as won before their last game had finished.
 // The mark is provisional: as soon as the markets resolve, the real result
 // replaces it (see settleOpen), so the record cannot stay wrong.
-const EARLY_WON = new Set(['2026-11-15', '2026-11-16', '2026-11-18']);
+const EARLY_WON = new Set(['2026-11-15', '2026-11-16', '2026-11-18', '2026-11-19']);
 
 function markEarlyWon(entries) {
   for (const e of entries) {
