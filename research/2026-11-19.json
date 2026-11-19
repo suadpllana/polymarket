@@ -1,8 +1,8 @@
 {
   "date": "2026-11-19",
-  "researched_at": "2026-11-18T19:26:06Z",
+  "researched_at": "2026-11-19T06:56:25Z",
   "stage": "morning",
-  "summary": "Researched the evening before (Wed 18 Nov); lineups and starting goalies are not out, so this is a draft until the morning check and the final check. Thursday has EuroLeague Round 13 (the second game of a double week for every team), Swedish SHL and KHL hockey. Every kept game needs a second price that agrees with Polymarket. Eight games were researched; two are medium. Medium: Valencia v Virtus Bologna (Valencia 9-3 and first, at home; Kalshi 80-83% agrees with Polymarket 82%; Mirotic and Reuvers likely out, third game in five days), Fenerbahce at Olimpia Milano (Fenerbahce 3rd at 8-4 against 2-10 Milano; Kalshi agrees at about 64-65%; Melli, Key and Bitim out, which explains the price easing from 70% to 66.5%). Low: Bayern v Baskonia (Bayern themselves 3-9, three players missing on Tuesday, no traded second price), Växjö v Björklöven ($13 market, no second price, coach sacked 1 Nov), Djurgården v Skellefteå, Färjestad v Frölunda and Brynäs v Luleå (starting goalies unknown, no clean second price). Excluded: Metallurg v Traktor (the 'Ural derby'). Tennis needs high confidence and was not researched.",
+  "summary": "Researched the evening before (Wed 18 Nov); lineups and starting goalies are not out, so this is a draft until the morning check and the final check. Thursday has EuroLeague Round 13 (the second game of a double week for every team), Swedish SHL and KHL hockey. Every kept game needs a second price that agrees with Polymarket. Eight games were researched; two are medium. Medium: Valencia v Virtus Bologna (Valencia 9-3 and first, at home; Kalshi 80-83% agrees with Polymarket 82%; Mirotic and Reuvers likely out, third game in five days), Fenerbahce at Olimpia Milano (Fenerbahce 3rd at 8-4 against 2-10 Milano; Kalshi agrees at about 64-65%; Melli, Key and Bitim out, which explains the price easing from 70% to 66.5%). Low: Bayern v Baskonia (Bayern themselves 3-9, three players missing on Tuesday, no traded second price), Växjö v Björklöven ($13 market, no second price, coach sacked 1 Nov), Djurgården v Skellefteå, Färjestad v Frölunda and Brynäs v Luleå (starting goalies unknown, no clean second price). Excluded: Metallurg v Traktor (the 'Ural derby'). Tennis needs high confidence and was not researched. Morning check (Thu): Valencia stay medium (injury report unchanged, Kalshi 82-83%). Fenerbahce drop to low: their price fell another 4.5% overnight (0.665 to 0.635) with no news (Melli and Key were already known). Four games added this morning: Al Ain v Al Dhafra medium (3rd v 12th, Bovada about 90%), Peñarol v Cerro Largo medium (a win secures the annual table; Kalshi agrees at 67-68%; Peñarol winless in six, mostly draws), Al Wasl v Hatta low (no team news, unlabelled second price), Tappara v Vaasan Sport low (2 wins in 10, goalies unknown).",
   "games": [
     {
       "id": "1379724",
@@ -14,26 +14,26 @@
         "away": 0.21
       },
       "checks": {
-        "team_news": "Valencia (BasketNews EuroLeague injury report, updated 18 Nov 16:44, Round 13): Nikola Mirotic (muscle) has not played since Round 8 and Nate Reuvers (foot bone injury) since Round 7, both listed Uncertain, so two frontcourt players are likely out; Lucas Mari is listed Uncertain (DNP Rounds 11-12, coach's decision). Mo Gueye (foot, doubt on 12 Nov) played 11 pts in the 15 Nov ACB win. Virtus (BasketNews): Davide Casarin out (bone bruise, until at least Round 21); Tommaso Baldasso Ready (played 1 min in Round 12 after a leg contusion); Daniel Hackett was listed available for Round 12; Matteo Baiocchi is on a coach's-decision DNP. No official club statement for tomorrow seen. Lineups are not out.",
-        "lineups": "Not published (evening before). Valencia expected backcourt TJ Shorts / Armoni Brooks / Kameron Taylor with Gueye; Brooks scored 25 in 18 min on 15 Nov and Taylor 15 at Partizan; Reuvers and Mirotic probably absent. Virtus Round 12 scorers: Diarra 15, Diouf 15, Bello 11, Frazier 10, Kokila 10. Only one source with names, so no confirmed XI.",
-        "rotation": "Both teams are in the Round 12/13 double week. Valencia played Tue 17 Nov at Partizan in Belgrade (76-64 win) after Bayern at home on 12 Nov (102-87) and an ACB home game vs Leyma Coruna on 15 Nov (111-97), so this is their 3rd game in 5 days with the Belgrade trip in between, but they play at home. Virtus: Efes away 13 Nov, then home vs Panathinaikos on 17 Nov (84-79 win), now travel to Valencia for the second game of the week. Both are on short rest. I did not verify whether Virtus also had a domestic game on 15 Nov.",
-        "motivation": "Standings after Round 12 (Eurohoops roundup 17 Nov): Valencia 9-3, first or joint-first with Olympiacos; Virtus 5-7, 15th, having just ended a five-game losing streak. Both sides have something to play for, so no hard exclusion. Neither is rotating on purpose.",
-        "form": "Valencia: 9-3 in EuroLeague, last three results Bayern 102-87 (home, 12 Nov), Leyma Coruna 111-97 (ACB home, 15 Nov), Partizan 76-64 (away, 17 Nov), a defence-led win in a low-scoring game. Virtus: 5-7, won 84-79 vs Panathinaikos on 17 Nov after five straight losses, including at Efes on 13 Nov. Valencia are clearly in better form; Virtus' win is a bounce risk (a good result at home, then a short trip).",
-        "h2h": "Last meeting found: Valencia won 94-81 at Virtus on 3 April 2026 (Reuvers 33 pts; Reuvers is now injured). Earlier Valencia also won 79-68 at home in a prior season (date not verified). Valencia is the better side on the day, but the best performer of the last meeting is absent.",
-        "odds": "Polymarket: Valencia 0.82 / Virtus 0.18, volume only about 306 USD (liquidity about 9,000), so thin. The price moved from 0.79 to 0.82 over 24h (favourite rising +3.8% relative, no fall; hourly history 0.77-0.82). Polymarket spread Valencia -8.5 priced 0.565 and total 184.5 over 0.545. Second price, Kalshi KXEUROLEAGUEGAME-26NOV191500VIBVAL: Valencia yes bid 0.80 / ask 0.83 (mid about 0.815), Virtus yes bid 0.17 / ask 0.19 (mid about 0.18), which agrees with Polymarket within 1 point; Kalshi volume is tiny (4 contracts), so it is an order-book quote rather than traded history. No DraftKings/ESPN data in the candidates entry (data.odds absent). No Stake or Rainbet price seen.",
-        "models": "No bookmaker-free rating found: searches for 2026-27 power rankings or net rating returned only older seasons. Only evidence is the standings gap (9-3 vs 5-7) and the -8.5 spread implied by Polymarket (about a 9-point expected margin). Treated as unverified.",
-        "venue_weather": "Valencia home game at Roig Arena, Valencia, Spain (Spanish club at home, normal venue; Kalshi ticker also lists it as a Virtus-Valencia game at 15:00 ET = 20:00 UTC). Indoor, no weather issue."
+        "team_news": "Morning update: BasketNews EuroLeague injury report refreshed 19 Nov 08:21 (+02), Round 13. Nothing changed from last night. Valencia: Nikola Mirotic Uncertain (muscle, DNP Rounds 9-12), Nate Reuvers Uncertain (foot bone, DNP Rounds 8-12), Lucas Mari Uncertain (DNP Rounds 11-12, coach's decision). Virtus: Davide Casarin Out (eight weeks, at least until Round 21, bone bruise). Still no Valencia/Virtus club statement or press-conference news found (search returned only older seasons). Mo Gueye played in the 15 Nov ACB win. No new absentee for either side.",
+        "lineups": "Not published. Expected Valencia backcourt TJ Shorts / Armoni Brooks / Kameron Taylor with Gueye, with Mirotic and Reuvers probably absent; Virtus core Diarra, Diouf, Bello, Frazier, Kokila (Round 12 scorers). No fresh morning XI found, so no confirmed lineup; official lineups to be checked at the final check.",
+        "rotation": "Unchanged: both teams in the Round 12/13 double week. Valencia played at Partizan on 17 Nov (76-64 win) after the ACB game on 15 Nov, so this is their 3rd game in 5 days but at home. Virtus beat Panathinaikos at home on 17 Nov and now travel. Nothing new this morning.",
+        "motivation": "Valencia 9-3 at the top; Virtus 5-7, 15th, just ended a five-game losing streak. No rotation signs.",
+        "form": "Valencia 9-3, last three: Bayern 102-87, Leyma Coruna 111-97 (ACB), Partizan 76-64 away. Virtus 5-7, beat Panathinaikos 84-79 after five straight losses. Valencia clearly in better form; Virtus bounce risk remains.",
+        "h2h": "Last meeting found: Valencia won 94-81 at Virtus on 3 April 2026 (Reuvers 33 pts, now injured).",
+        "odds": "LIVE Polymarket Valencia 0.835 / Virtus 0.165 (first listed 0.82, last night 0.82): +1.5 points since first listing and since last night, no fall. The 24h move in the candidates data is 0.78 to 0.835 (+7.1% relative); the favourite is rising and no negative news explains anything (injury report unchanged), so no concern. Second price, Kalshi KXEUROLEAGUEGAME-26NOV191500VIBVAL this morning: Valencia yes bid 0.82 / ask 0.83 (mid about 0.825), Virtus bid 0.16 / ask 0.18 (mid 0.17), agreeing with Polymarket within about 1 point; thin order book. No second bookmaker data in the candidates entry. No Stake or Rainbet price seen. Polymarket volume was thin (about 306 USD) last night.",
+        "models": "No bookmaker-free rating found; evidence is the standings gap (9-3 vs 5-7) and a spread of about -8.5. Unverified.",
+        "venue_weather": "Valencia home game at Roig Arena, indoor, no weather issue. Tip-off 20:00 UTC."
       },
-      "reason": "Valencia are first-placed (9-3) at home vs 15th-placed Virtus (5-7), and two independent prices (Polymarket 0.82, Kalshi mid about 0.815) agree; the favourite's price rose rather than fell over 24h. I lowered p from 0.82 to 0.79 because Mirotic and Reuvers are likely out, Valencia play their third game in five days including the Belgrade trip, and no official lineups or reliable bookmaker line were available.",
-      "main_risk": "Valencia's thin frontcourt (Mirotic, Reuvers uncertain/out) plus the fatigue of a 3-games-in-5-days stretch with the Belgrade trip, while Virtus come off an upset win over Panathinaikos and could keep their form; the Polymarket market is thin (about 306 USD volume), so the price could swing.",
+      "reason": "Valencia (9-3) at home vs 15th-placed Virtus (5-7); the morning injury report is unchanged from last night (Mirotic, Reuvers, Mari Uncertain; Casarin out for Virtus), Kalshi 0.82-0.83 independently agrees with live Polymarket 0.835, and the favourite's price has risen rather than fallen. I keep p at 0.79 (below the market) because Mirotic and Reuvers are likely out, it is Valencia's third game in five days, and no official lineups or bookmaker line exist.",
+      "main_risk": "Valencia's thin frontcourt (Mirotic, Reuvers likely out, Mari uncertain) plus fatigue from a 3-games-in-5-days stretch with the Belgrade trip, while Virtus come off an upset win over Panathinaikos; the Polymarket market is thin, so the price can swing.",
       "sources": [
-        "https://www.eurohoops.net/en/euroleague/2036457/euroleague-roundup-kabengele-leads-dubai-past-efes/",
         "https://basketnews.com/news-212393-euroleague-injury-report-updated.html",
+        "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXEUROLEAGUEGAME&status=open",
+        "https://gamma-api.polymarket.com/events?id=1379724",
+        "https://www.eurohoops.net/en/euroleague/2036457/euroleague-roundup-kabengele-leads-dubai-past-efes/",
         "https://www.eurohoops.net/en/euroleague/2036247/injury-report-round-12-willis-gtd-melli-key-milutinov-out/",
         "https://www.eurohoops.net/en/acb/2035498/brooks-and-shorts-lead-valencia-past-leyma-coruna/",
-        "https://www.esdiario.com/comunidad-valenciana/valencia/260403/184159/obra-maestra-reuvers-valencia-rompa-maldicion-bolonia-acerca-playoffs-81-94.html",
-        "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXEUROLEAGUEGAME&status=open",
-        "https://gamma-api.polymarket.com/events?id=1379724"
+        "https://www.esdiario.com/comunidad-valenciana/valencia/260403/184159/obra-maestra-reuvers-valencia-rompa-maldicion-bolonia-acerca-playoffs-81-94.html"
       ],
       "views": {},
       "prices": []
@@ -78,32 +78,32 @@
     {
       "id": "1379728",
       "exclude": false,
-      "confidence": "medium",
+      "confidence": "low",
       "p": {
-        "home": 0.36,
+        "home": 0.39,
         "draw": 0,
-        "away": 0.64
+        "away": 0.61
       },
       "checks": {
-        "team_news": "Fenerbahce: Nicolo Melli (meniscus, possible operation, out for a longer spell) and Braxton Key (dislocated finger with a tear, hurt on 15 Nov in the BSL) are out; a Fenerbahce-sourced report also lists Onuralp Bitim as out. Eurohoops on 18 Nov headlines 'Melli, Key expected to be sidelined for six to eight weeks'. Shavon Shields is fit and returns to the Forum against his old club. Milano: the club's preview reports no injuries; scores24 lists Devin Booker out long-term (hip), which oasport and the club page do not confirm. No Milano injury report beyond that was found. Coach on the bench for Milano is Luca Banchi.",
-        "lineups": "No official lineups yet (evening of 18 Nov). Fenerbahce's usual starters under Jasikevicius, per the Milano club preview, include Shields. With Melli and Key out, the big-man rotation is thinner. No Milano starting five published. Expected fives not confirmed by two sources.",
-        "rotation": "Both sides played Tuesday 17 Nov. Fenerbahce beat ASVEL 115-81 at home (Larkin 25 points in only 15 minutes, so the game was a blowout and starters likely rested), then travel to Milan; it lost 111-109 in overtime to Paris in the previous EuroLeague round and won the BSL game vs Efes on 15 Nov. Milano beat Crvena Zvezda 91-77 at home on 17 Nov, ending a nine-game losing streak, and play Derthona in the LBA on Sun 22 Nov. Milano has the rest edge only in not travelling; both have a 2-day turnaround.",
-        "motivation": "EuroLeague table after 12 rounds: Fenerbahce 3rd at 8-4 (+83), chasing the top 2 (Valencia and Olympiacos 9-3). Milano 19th at 2-10 (-74), one win off the bottom, needing wins to stay in the play-in race. Nothing hard-excluding: the favourite is not through and still has seeding to chase; the underdog is desperate.",
-        "form": "Fenerbahce: 8-4, points 1010-927 (84.2-77.3 per game), second-best points allowed per the club preview; won 115-81 vs ASVEL, lost 111-109 OT at Paris, reported to have lost its last three away games (single source). Milano: 2-10, points 985-1059 (82.1-88.3); last five: W 91-77 vs Zvezda, W 83-70 vs Udinese (LBA), L 83-86 vs Zalgiris, W 88-86 vs Trento (LBA), L 73-84 vs Valencia. Home/away split for Milano not found.",
-        "h2h": "Fenerbahce has won the last three meetings and 19 of 28 since 2011-12 per a search summary; includes 87-72 at home on 18 Dec 2025 (Milano 72-87), Fenerbahce also won 100-76 in an earlier Milan game. Milano's club page gives a different all-time tally (14-18), not reconciled.",
-        "odds": "Polymarket (event 1379728, volume about $155k, liquidity about $7.4k, moderately thin): Milano 0.335 / Fenerbahce 0.665; 24h history for Fenerbahce 0.70 -> 0.665 (-5% relative, over the 3% threshold). The fall is plausibly explained by the Key/Melli injury news (Eurohoops 16 Nov and 18 Nov) and the Tuesday double week, so I did not mark it low on that ground. Second price, Kalshi KXEUROLEAGUEGAME-26NOV191430FENOLM: Milano yes bid 0.34 / ask 0.36, Fenerbahce bid 0.62 / ask 0.67 (mid about 0.645), agreeing within about 2 points of Polymarket. No bookmaker moneyline for this game found; the Polymarket spread market shows a second market at 0.43/0.57 (Fenerbahce handicap side) and total 0.495/0.505 for reference only.",
-        "models": "Net rating from the table: Fenerbahce +6.9 per game (+83 over 12), Milano -6.2 (-74 over 12); a gap of about 13 points per game, with Milano home court worth roughly 3-4 points, still favouring Fenerbahce clearly. No independent power-ranking or model prediction page found for this game.",
-        "venue_weather": "Unipol Forum (Assago, Milan), Milano's real home arena, so a normal home game, not a neutral venue; indoors, no weather issue. Tip-off 20:30 local (19:30 UTC), Sky Sport."
+        "team_news": "Morning 19 Nov: nothing new beyond Wednesday. Pianetabasket (18 Nov, 23:50) and the club confirm Fenerbahce are without Nicolo Melli and Braxton Key, both operated on, out 6-8 weeks, and both are ruled out for this game; the earlier Bitim 'out' report is not repeated. No new Fenerbahce absence found (Larkin, Hall, Boston and Shields are not on the Round 12 injury report; Shields is back at the Forum against his old club). Pianetabasket notes ex-NBA Dwight Powell has strengthened Fenerbahce's frontcourt. Milano: Devin Booker out (right thigh tendon, per the Round 12 injury report and the Italian press); Banchi's pre-game press conference reports no Milano player returning. A Sportando 'probabili' page that lists other absences is from an older game and is ignored. No news found that explains the price fall since listing.",
+        "lineups": "No official or expected fives for this game found this morning (the Italian previews give only general expectations). Official lineups are for the final check.",
+        "rotation": "Unchanged: both sides played Tue 17 Nov (Fenerbahce 115-81 vs ASVEL, Milano 91-77 vs Zvezda) with a 2-day turnaround; Fenerbahce travel to Milan. Milano play Derthona in the LBA on Sun 22 Nov. Pianetabasket repeats that Fenerbahce lost their last three away games (Real Madrid, Valencia, Paris).",
+        "motivation": "Unchanged: Fenerbahce 3rd at 8-4 (some previews say 4th) chasing the top two; Milano 19th at 2-10 and desperate after ending a nine-game losing streak.",
+        "form": "Unchanged: Fenerbahce 8-4, net +6.9 per game, second-best defence; Milano 2-10, net -6.2; Milano just beat Zvezda 91-77. Fenerbahce shot only 31.4% from three (17th in the competition).",
+        "h2h": "Unchanged: Fenerbahce won the last three meetings (including 87-72 on 18 Dec 2025). Milano's club page gives a different all-time tally, not reconciled.",
+        "odds": "Live Polymarket Fenerbahce 0.635 (Milano 0.365). Since last night (0.665) it is down 3.0 points; since first listing (p_first 0.665) it is down 4.5% relative (0.665 to 0.635), past the 3% line; the 24h move in the data is 0.695 to 0.635 (-8.6% relative). The Melli/Key news was already out before listing (the fall from 0.70 to 0.665 happened before it), and I found no new team news (no further Fenerbahce absence, no Milano player back, no bookmaker line move found) to explain the extra slide since listing, so the move is unexplained and the call is low. Second price, Kalshi KXEUROLEAGUEGAME-26NOV191430FENOLM now: Fenerbahce bid 0.63 / ask 0.64, Milano bid 0.36 / ask 0.37, agreeing with Polymarket within 1 point, so the market is consistent but drifting down on both venues. No bookmaker moneyline found.",
+        "models": "Net rating gap of about 13 points per game (Fenerbahce +6.9, Milano -6.2) against Milano's home court of roughly 3-4 points still favours Fenerbahce, but with Melli and Key out and the drift, the edge is smaller than the 0.665 listing suggested. No independent power ranking found.",
+        "venue_weather": "Unipol Forum (Assago, Milan), Milano's normal home arena, indoors; tip-off 20:30 local (19:30 UTC), Sky Sport. Unchanged."
       },
-      "reason": "Fenerbahce is clearly the better side by table position (3rd vs 19th) and net rating (+6.9 vs -6.2), won its last three meetings, and Kalshi confirms the Polymarket price within 2 points. No hard rule applies (no derby, no coach change reported, normal venue, favourite still has something to play for). The case is held at medium because Fenerbahce lose two rotation players (Melli, Key; Bitim also listed out) on a Tuesday-Thursday double week with travel, Milano is at home and fresh from a morale-lifting win that ended a nine-game losing streak, the lone Fenerbahce reports say it lost its last three away games, and the Polymarket market is thin and has already slid 5% in 24 hours. I shade p down 2.5 points from the market.",
-      "main_risk": "Fenerbahce, short of Melli, Key and Bitim and on a double week with travel, plays a flat or tired road game against a home side that just ended a nine-game losing streak (91-77 over Zvezda) and has nothing to lose; a single-possession loss is the most likely failure given a 111-109 OT defeat at Paris two games ago and a reported run of three straight away losses. Also unverified: Milano's own injury list (scores24 says Booker out long-term, other sources silent) and no confirmed lineups.",
+      "reason": "Fenerbahce are still the better side on table and net rating (3rd vs 19th, +6.9 vs -6.2), won the last three meetings, and Kalshi (0.63/0.64) agrees with Polymarket (0.635). But the favourite's price has fallen 4.5% since first listing (0.665 to 0.635) and 3.0 points since last night, and no news this morning explains it: the Melli/Key absences were already known at listing, and no new Fenerbahce absence or Milano return was found. Under the brief's rule that is a low. I shade p to 0.61, 2.5 points below the live market, because of the thinner frontcourt, the double week with travel and the reported three straight away defeats.",
+      "main_risk": "Unexplained price drift: the market has moved against Fenerbahce by 3 points since last night and 4.5% since listing with no public reason, which may mean information I did not find (a late fitness doubt, e.g. around Larkin or the guards, or a sharp bookmaker move). On court, a Fenerbahce side missing Melli and Key on a Tuesday-Thursday double week with travel can lose a close game away to a Milano side that is desperate and just ended a nine-game losing streak. No confirmed lineups yet.",
       "sources": [
-        "https://www.eurohoops.net/en/euroleague/2035850/braxton-key-nicolo-melli-injury-updates-fenerbahce-euroleague/",
-        "https://www.eurohoops.net/en/euroleague/2036727/larkin-shines-with-25-points-in-fenerbahces-victory-this-is-not-a-big-surprise-for-anyone/",
-        "https://www.sportschau.de/live-und-ergebnisse/basketball/euroleague-basketball/ma12385916/olimpia-milano_kk-crvena-zvezda/blitztabelle",
-        "https://www.olimpiamilano.com/nella-notte-di-shields-lolimpia-si-misura-al-livello-piu-alto",
+        "https://www.pianetabasket.com/euroleague/olimpia-milano-fenerbahce-il-ritorno-di-shavon-shields-al-forum-banchi-una-sfida-estremamente-stimolante",
+        "https://sportando.basketball/en/euroleague-injury-report-november-17-2026-round-12-absences-and-game-time-calls/",
         "https://www.oasport.it/2026/11/basket-lolimpia-milano-ospita-il-fenerbahce-istanbul-dellex-shields-in-eurolega-per-provare-a-dare-continuita-al-successo-di-martedi-sera/",
-        "https://scores24.live/en/basketball/m-17-11-2026-olimpia-milano-crvena-zvezda-prediction",
+        "https://realolimpiamilano.com/2026/11/18/olimpia-milano-fenerbahce-19-novembre-2026-luca-banchi-vigilia/",
+        "https://sportando.basketball/olimpia-milano-arriva-il-fenerbahce-sara-la-notte-di-shavon-shields/",
+        "https://www.eurohoops.net/en/euroleague/2035850/braxton-key-nicolo-melli-injury-updates-fenerbahce-euroleague/",
         "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXEUROLEAGUEGAME&status=open",
         "https://gamma-api.polymarket.com/events?id=1379728"
       ],
@@ -289,8 +289,35 @@
     },
     {
       "id": "1421176",
-      "exclude": true,
-      "skipped": true
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.7,
+        "draw": 0,
+        "away": 0.3
+      },
+      "checks": {
+        "team_news": "liiga.fi game feed (api/v2/games/2027/2701463) lists 32 skaters/goalies per side with no player flagged injured or suspended, but this flag is unreliable pre-game. No club or press injury report found: my searches returned only old articles. Doubts for both sides remain unverified.",
+        "lineups": "Starting goalies NOT confirmed. Feed rosters: Tappara goalies Heljanko, Gammals, Metsola, Hovinen, Kiviaho; Sport goalies Ortio and Harkonen. Line assignments are empty in the feed. No source found for the expected starter on either side, so the key hockey check is missing.",
+        "rotation": "Sport played at JYP on 18 Nov and lost 2-3 in overtime (liiga.fi feed, game 2701456), so this is a back-to-back with travel JYP to Tampere. Tappara last played 14 Nov (1-5 loss at Karpat), so it has 5 days of rest. This favours Tappara. Sport's overtime point is a mild tiring factor.",
+        "motivation": "Regular season, game week 11. Feed ranking: Tappara 9th, Sport 15th. My points-per-game table from the feed (3-2-1-0 for regulation win, overtime win, overtime loss, loss): Tappara 28 pts in 21 games (1.33), Sport 26 in 21 (1.24), so both are in the lower half and close together. Nothing is decided and both need points. No hard rule applies.",
+        "form": "Tappara last 10 results from the feed, most recent first: L 1-5 at Karpat, L 1-3 vs HIFK, L 0-3 vs HPK, L 1-2 vs Ilves, W 6-4 at JYP, L 4-5 at Pelicans, W 3-0 vs Assat, L 2-3 at KooKoo, L 2-3 at Jukurit, L 1-2 vs Lukko. That is 2 wins in 10, with goals 53-54 over 21 games. Home record 5 wins in 10 games. Sport: W 3-2 vs HPK, W 5-3 at K-Espoo, L 1-2 vs Assat, L 2-5 at KalPa, L 1-3 and L 3-5 vs SaiPa, L 0-3 vs Jukurit, W 2-1 at Pelicans, W 4-3 vs KooKoo, and L 2-3 in overtime at JYP. Goals 43-61, the worst goal difference of the pair (-18). Sport away record 3 wins in 9 games. Tappara's form is poor, so 0.74 looks generous.",
+        "h2h": "No meeting yet in 2026-27 in the feed. Next meetings: 21 Dec 2026 at Sport, 3 Feb and 26 Feb 2027. No recent h2h data checked.",
+        "odds": "Polymarket 0.74 / 0.26, unchanged over 24h (prices-history 0.74 throughout; move_24h relative change 0). Polymarket volume is only about $47 (liquidity about $1.1k), so the market is extremely thin and not a reliable price. Second source: Veikkaus via the liiga.fi feed gamblingEvent: Tappara 1.57, tie (regulation 3-way) 4.75, Sport 5.15. De-vigged regulation split is about 61.2% / 20.2% / 18.7%. Splitting the 20% draw by strength gives about 0.70-0.71 Tappara incl. OT/SO and about 0.29-0.30 Sport. This agrees with Polymarket within about 4 points, so the price is supported, but both sit above what the form suggests. No built-in data.odds (DraftKings) for this game.",
+        "models": "No Elo or power rating found. Bookmaker-free proxy from the feed: points per game Tappara 1.33 vs Sport 1.24, goal difference -1 vs -18. Tappara is the better side on goal difference, but the gap in points is small. No independent model supports 74%.",
+        "venue_weather": "Home arena is Tampereen Kansi Areena (Nokia Arena), Tampere, per the liiga.fi feed; start 18:30 Finnish time (16:30 UTC). Normal home venue, no problem."
+      },
+      "reason": "Fixture verified in the liiga.fi feed (Liiga regular season, Tappara home vs Sport). No hard exclusion applies. Tappara has a rest advantage against a Sport team on a back-to-back after an overtime loss, and Sport has the worse goal difference. Veikkaus supports roughly 70% incl. OT. But confidence is low: no starting goalies found, no injury reports, Tappara has won only 2 of its last 10, and the Polymarket price is on $47 of volume. I cut p to 0.70, within 5 points of market.",
+      "main_risk": "Unconfirmed starting goalies (a backup or a poor night for Tappara's goalies), and Tappara's bad form (2 wins in 10, 3 straight home losses to HPK/HIFK/Ilves) in a low-scoring league where one goal and overtime decide many games. Sport's back-to-back is a mild offset only.",
+      "sources": [
+        "https://liiga.fi/api/v2/games/2027/2701463",
+        "https://liiga.fi/api/v2/games?tournament=runkosarja&season=2027",
+        "https://gamma-api.polymarket.com/events?id=1421176",
+        "https://clob.polymarket.com/prices-history?market=77092126559765359992968239345807031146294371521184444253327441259771977040674&interval=1d&fidelity=60",
+        "https://www.veikkaus.fi/fi/vedonlyonti/pitkaveto?t=3-1-1&kohde=1-c_1253110"
+      ],
+      "views": {},
+      "prices": []
     },
     {
       "id": "1403491",
@@ -299,8 +326,37 @@
     },
     {
       "id": "1373159",
-      "exclude": true,
-      "skipped": true
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.84,
+        "draw": 0.11,
+        "away": 0.05
+      },
+      "checks": {
+        "team_news": "Not verified. No current injury or suspension report for either side turned up in searches (English and Arabic); FotMob's only Hatta injury note (Khalil Al Darmaki) is from the April 2024 match and is stale. Al Wasl's head coach for this season could not be confirmed: the last coach I found is Rui Vitoria (spring 2026), so a coach change in the last 7 days is neither confirmed nor ruled out.",
+        "lineups": "Only positional predicted XIs (starting11: 11 positions, no names). It says Al Wasl kept 87% of its XI over the last 6 matches and Hatta 79% over the last 4, and that both named the same eleven in their last two games, which points to no heavy rotation. Confirmed lineups are not out. Only one source, with no player names.",
+        "rotation": "No AFC competition fixture for Al Wasl found this week. Their AFC Champions League Two run ended in the quarter-final in April 2026 (lost 0-4 to Al Nassr). Previous and next league games not verified, so rest cannot be confirmed. Settled XI suggests no heavy rotation.",
+        "motivation": "Soccervital table after 7 games: Al Wasl 6th with 13 pts (4W 1D 2L, GD 18:8), Hatta 13th with 3 pts (1W 0D 6L, GD 6:15). The match is GW9 on Polymarket and starting11. Neither side has secured anything, so the hard rule does not apply. Hatta need points badly, but that is no reason to exclude. I could not fetch a full table.",
+        "form": "Al Wasl last 5: 3W 1D 1L, 11:7 (home form 3W 1D 1L, 13:8). Hatta last 5: 1W 0D 4L, 3:9, all five away. Over 2.5 hit in 80% of Al Wasl games and 67% of Hatta's (soccervital). Hatta have conceded about 2.1 per game and scored under 1.",
+        "h2h": "starting11: 14 meetings, Al Wasl 12 wins, 2 draws, 0 Hatta wins. Most recent: Al Wasl 3-0 at Zabeel Stadium, 15 Apr 2024. Soccervital: Al Wasl won 4 of the last 5 listed, with one 3-3 draw in the League Cup (15 Sep 2023). The listed 2023 H2H score (5-0 Hatta win) is wrong, as it was an Al Wasl win. Draws are rare in the series.",
+        "odds": "Polymarket: Al Wasl 0.875, draw 0.08, Hatta 0.045. Volume is only about $18k, nearly all in the last 24h, so it is thin. Polymarket move 24h: Al Wasl 0.845 to 0.875 (+3.6%), a rise, so it is not a price-fall flag. Second price: soccervital shows unlabelled 1.10 / 7.70 / 15.0, presumably home/draw/away. De-vigged that is about 0.82 / 0.12 / 0.06, which is 5.5 points below Polymarket's home price. The ESPN/DraftKings feed for uae.1 returned nothing, and data.odds is absent from the candidates file. The same page tips over 2.5 goals and a 4:1 score.",
+        "models": "No ClubElo or Opta rating found for either club, and no data.rating in the candidates file. Rough guide from goal difference: Al Wasl +10 after 7 games against Hatta -9. No bookmaker-free model was checked, so this check is thin.",
+        "venue_weather": "Zabeel Stadium, Dubai is Al Wasl's home ground, confirmed by starting11 and soccervital. Kick-off 12:45 GMT (16:45 local). November in Dubai is mild, with no weather or pitch problem found."
+      },
+      "reason": "The fixture, venue and time are verified and Al Wasl are a big favourite over a bottom-half side. Hatta have 1 win in 7, concede about 2 a game, and have lost 12 of 14 meetings with 0 wins. No hard exclusion applies. Confidence is low because I found no current injury news, no confirmed coach status and no named XI. The only second price (about 0.82 de-vigged) is unlabelled and sits 5.5 points under Polymarket, and Polymarket volume is thin. I lowered p to 0.84 home and 0.11 draw.",
+      "main_risk": "A draw or upset: Hatta's 1-0 and 1-1 style results are a real chance on a thin market and a low-scoring game. Unknowns: Al Wasl injuries or a coach change, and whether the side is rotated.",
+      "sources": [
+        "https://www.soccervital.com/al-wasl-fc-vs-hatta-sc-soccer-prediction-jgga258gg.html",
+        "https://starting11.com/fixtures/al-wasl-fc-vs-hatta-sc",
+        "https://gamma-api.polymarket.com/events?id=1373159",
+        "https://www.alwaslsc.ae/en-gb/news-details/AlWasl-lose-in-the-AFC-Champions-League-two-quarter-final?path=4_2",
+        "https://www.fotmob.com/en-GB/matches/al-wasl-vs-hatta/9kvvzr5"
+      ],
+      "views": {
+        "ou_2.5_over": 0.77
+      },
+      "prices": []
     },
     {
       "id": "1321794",
@@ -309,13 +365,68 @@
     },
     {
       "id": "1373983",
-      "exclude": true,
-      "skipped": true
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.83,
+        "draw": 0.1,
+        "away": 0.07
+      },
+      "checks": {
+        "team_news": "No injury or suspension list found for either side. 365scores lists no injuries, and scores24 gives none. Al Ain coach is Vladimir Ivic (club site alainclub.ae); I found no coach change and no pre-match press conference for this game. Unverified, so a small doubt remains.",
+        "lineups": "Not out on Thursday morning. Previews expect a 4-3-3 from both sides (ratingbet snippet via search). 365scores names Alejandro Romero and Sory Kaba as Al Ain key players. No confirmed XI from two sources.",
+        "rotation": "Al Ain has an AFC Champions League Elite home game vs Esteghlal on Mon 23 Nov (sportscafe listing, 16:00 GMT), so some rotation is possible. Previous ACLE game was away at Al Ittihad on 2 Nov, so no midweek game before this one and a full week of rest. No sign of a heavily rotated side. Al Dhafra has no cup game noted.",
+        "motivation": "Round 9 of the 2026-27 ADNOC Pro League. 365scores table: Al Ain 3rd, 14 pts from 7 (W4 D2 L1, GF12 GA7). Al Dhafra 12th, 6 pts from 7 (W2 L5, GF9 GA13). Al Ain is not clear at the top, so it needs the points. Al Dhafra needs points to stay out of the relegation fight (it finished near the drop last season). Neither side has anything secured, so no hard exclusion. Not a derby.",
+        "form": "Al Ain last 5 (365scores): D, L, D, W, W, then W D W W L on scores24. The two sources disagree on order. Either way it is not a dominant run, with 2 draws and 1 loss in 7. Al Dhafra last 5: L W W L L, and lost 3-1 at home to Ittihad Kalba in round 8. Al Dhafra has lost 8 of its last 9 away games and Over 2.5 landed in 6 of its last 8. Al Ain has scored 1.7 a game and conceded 1.0.",
+        "h2h": "Al Ain 5-0 Al Dhafra (10 May 2026), Al Dhafra 1-2 Al Ain (8 Jan 2026), Al Dhafra 1-4 Al Ain (2023), Al Ain 7-0 Al Dhafra (Sep 2022), Al Dhafra 0-1 Al Ain (2022). Al Ain has won its last 4 home H2H games and Over 2.5 landed in the last 4 meetings. The averaged H2H total is 3.74 goals. No recent draws.",
+        "odds": "Polymarket live (gamma API): Al Ain 0.865, draw 0.095, Al Dhafra 0.0505. Volume is about 7,066 USD, of which the Al Ain market is about 5,547 USD. The favourite's price rose from 0.825 to 0.865 in 24h (+4.8%), which is not a drop, so the price-move rule does not apply. Second source: scores24 shows Bovada Al Ain to win at -1250, which is about 92.6% raw and about 90% de-vigged, so it agrees with or is above Polymarket. Scores24 also shows BTTS Yes 1.91, and Dhafra +2.5 handicap 1.64. The DraftKings/ESPN feed returned 403, so I could not cite it.",
+        "models": "No ClubElo or Opta rating found for UAE clubs. Bookmaker-free proxy is the table and goal difference: Al Ain +5 and Dhafra -4. The H2H record (11 wins to 3 in the 365scores summary) and last season's 5-0 and 2-1 results support the favourite. Lowest-confidence check.",
+        "venue_weather": "Hazza bin Zayed Stadium, Al Ain, home venue confirmed by scores24 and 365scores. Kick-off 19:25 local (15:25 UTC). Evening in the UAE in November, so no weather concern. No pitch problem found."
+      },
+      "reason": "Fixture and venue verified: Al Ain vs Al Dhafra, Round 9, ADNOC Pro League, Thu 19 Nov, 15:25 UTC at Hazza bin Zayed Stadium. No hard rule applies. Al Ain is a clear favourite against a weak away side (Dhafra 12th, 6 pts, loses away). The independent Bovada price agrees. I keep p below the market because Al Ain is only 3rd with 2 draws and a loss in 7 matches, there is a Champions League Elite game on Monday that could bring rotation, and no team news or XI was found. Medium. The over 2.5 goals view was dropped at review: the main risk named (Al Dhafra parking the bus, a narrow 1-0) argues against a goals leg.",
+      "main_risk": "A draw or a narrow home result. Al Ain has drawn 2 of 7 and lost 1 at home or away this season. Al Dhafra can park the bus. A secondary risk is rotation before the ACLE game vs Esteghlal on 23 Nov, with no XI or injury news yet. The -1.5 handicap is excluded because the likely failure is a 1-0 or 2-1 win.",
+      "sources": [
+        "https://gamma-api.polymarket.com/events?id=1373983",
+        "https://scores24.live/en/soccer/m-19-11-2026-al-ain-dhafra-prediction",
+        "https://www.365scores.com/en-us/football/match/uae-pro-league-549/al-ain-al-dhafra-8352-8353-549",
+        "https://sportscafe.in/football/live/international/afc-champions-league/ain-vs-est-6723965/match-details",
+        "https://alainclub.ae/fc/9288-2/"
+      ],
+      "views": {},
+      "prices": []
     },
     {
       "id": "1407320",
-      "exclude": true,
-      "skipped": true
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.64,
+        "draw": 0.23,
+        "away": 0.13
+      },
+      "checks": {
+        "team_news": "Per Montevideo Portal and El Observador previews (19 Nov): GK Washington Aguerre and midfielder Eric Remedi return from suspension and are expected to start; Luis Angulo available as a substitute; Nahuel Herrera back from a physical problem, bench only; Jonathan Rodriguez and Tomas Olase train separately, not options; Abel Hernandez on the bench. Nothing found for Cerro Largo's injuries. Official lineups not out.",
+        "lineups": "Predicted Peñarol XI (El Observador/Montevideo Portal): Aguerre; Alegre, Ferreira, Pezzella, Olivera; Remedi, N. Fernandez, Cabrera; Leonel Jaime, Darias; Arezo. One Referi-based report says Jaime starts after being a sub in the 1-1 vs Defensor; an earlier Caras y Caretas note had a double nine, later contradicted. Cerro Largo (coach Bruno Silva) XI not found. Only one outlet group, so lineups are single-source.",
+        "rotation": "Last league round, with no Copa Libertadores or Sudamericana game found for either side in this window. Peñarol's last game was the 1-1 vs Defensor Sporting. No heavy rotation expected: it is the decisive game for the Tabla Anual.",
+        "motivation": "Final round (Clausura 15 of 15), Thu 16:30 local, Estadio Campeon del Siglo, fans present. Peñarol leads the Tabla Anual with 66 pts vs City Torque 64 and Maldonado 63; a win alone secures it. Peñarol is 4th in the Clausura (23 pts, 10 behind Liverpool), so the Clausura is out of reach. Cerro Largo is 15th in the Clausura (10 pts) and in the relegation fight: a win secures its 2027 place, a loss plus wins by Wanderers and Cerro could relegate it. Both sides have a lot at stake, so the hard rule on a favourite with nothing to play for does not apply.",
+        "form": "Peñarol is winless in six games (last win 1-0 vs Racing on 4 Oct; 1 loss to Liverpool, the rest draws including 1-1 vs Defensor, who equalised late). Cerro Largo is winless in two, with a 2-2 home draw vs Progreso last time. Goals and xG not retrieved.",
+        "h2h": "Peñarol 3-0 Cerro Largo at the Campeon del Siglo in the Torneo Intermedio (earlier in 2026), and 3-1 at the Centenario in Sep 2025. A 1 Aug 2026 preview had Peñarol 1.53, draw 3.9, Cerro Largo 5.75. Cerro Largo is usually a low-scoring side that sits deep.",
+        "odds": "ESPN/DraftKings lists no price for this game. Kalshi (KXURYPDGAME, 19 Nov): Peñarol 0.67 bid/0.68 ask, draw 0.21/0.22, Cerro Largo 0.11/0.12, about 0.675/0.215/0.115 de-vigged, so it agrees with Polymarket 0.668/0.214/0.118 within one point. Polymarket 24h move: favourite 0.655 to 0.665 (+1.5%, no concern); total event volume about $110.7k (home leg about $90.6k). The 1 Aug preview price of 1.53 implies about 0.62-0.65, consistent.",
+        "models": "ClubElo returned no data for either club and no other bookmaker-free rating was found, so there is no independent rating check. The Kalshi price is the only independent market read.",
+        "venue_weather": "Estadio Campeon del Siglo, Montevideo (Peñarol's own ground, confirmed by Montevideo Portal and ESPN), 16:30 local = 19:30 UTC, referee Gustavo Tejera. No weather or pitch problem found, but weather was not searched specifically."
+      },
+      "reason": "Fixture and venue are verified. Peñarol is the clear favourite at home with a title at stake, a near-full squad, and the Kalshi price agrees with Polymarket. p is trimmed because Peñarol has not won in six games, mostly drawing, and Cerro Largo needs a result to stay up. Medium, not high: no lineups yet, Cerro Largo news is missing, and no rating-model check was possible.",
+      "main_risk": "A draw. Peñarol has drawn four of its last six, has a weak attack (Jaime/Arezo up front, Rodriguez out), and a desperate Cerro Largo may sit deep and score on a counter. Late-draw pattern (Defensor equalised late) is the clearest precedent.",
+      "sources": [
+        "https://www.montevideo.com.uy/Deportes/Clausura-Penarol-recibe-este-jueves-a-Cerro-Largo-por-ganar-y-quedarse-con-la-Anual-uc982730",
+        "https://montevideo.com.uy/Deportes/Clausura-tablas-de-posiciones-detalles-de-la-proxima-fecha-y-lo-que-estara-en-juego-uc982336",
+        "https://www.elobservador.com.uy/futbol/leonel-jaime-vuelve-la-titularidad-penarol-este-jueves-cerro-largo-el-partido-del-semestre-y-nahuel-herrera-estara-la-convocatoria-n6064308",
+        "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXURYPDGAME&status=open",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uru.1/scoreboard?dates=20261119",
+        "https://gamma-api.polymarket.com/events?id=1407320"
+      ],
+      "views": {},
+      "prices": []
     },
     {
       "id": "1407321",
