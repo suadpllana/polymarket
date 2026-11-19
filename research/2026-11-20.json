@@ -1,0 +1,274 @@
+{
+  "date": "2026-11-20",
+  "researched_at": "2026-11-19T22:35:04Z",
+  "stage": "morning",
+  "summary": "Researched the evening before (Thu 19 Nov); lineups are not out, so this is a draft until the morning check and the final check. Friday has the top football leagues back after the international break, DEL, KHL and Liiga hockey, ATP Finals tennis and esports; basketball is no longer researched (the owner's permanent rule). Eight games were researched; three are medium. Medium: Bayern v Köln (DraftKings about 92% for Bayern; the only leg kept is Bayern over 2.5 team goals, since a 1-0 or 2-1 is the named risk), Athletic v Espanyol (DraftKings and Elo agree on a clear home favourite; legs kept: under 3.5 goals, Espanyol under 1.5 goals; a draw is the main risk), Troyes v Le Havre (a relegation six-pointer; Troyes or draw backed by DraftKings and ClubElo; legs kept: under 3.5, Le Havre +1.5, Troyes under 2.5). Low: Eisbären Berlin v Ingolstadt and JYP v HIFK (no second price), Avangard v Barys (goalies unknown, Barys won 3 of the last 5). Excluded: Shanghai v CSKA (Shanghai play their home games in St Petersburg: neutral venue).",
+  "games": [
+    {
+      "id": "1329693",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.9,
+        "draw": 0.06,
+        "away": 0.04
+      },
+      "checks": {
+        "team_news": "Bayern out: Davies (hamstring), Neuer (foot), Gnabry (hamstring), Saibari (ankle) per Hard Tackle 19 Nov and Sports Mole 18 Nov. Diaz (hamstring) is out or doubtful and likely too early (Sports Mole: out; Hard Tackle: close to a return). Musiala (thigh) is out per Goal.com, or possibly back in the squad per Hard Tackle and Abendzeitung via a search summary. Kimmich and Kane are available; Kane scored in both England games over the break. Kompany returns to the touchline after his Oct 23 collapse (cleared by tests); this is not a coaching change. Koln out: Hubers, van den Berg, and per Hard Tackle Rondic, Skhiri, Dallinga; Ache is a doubt. I could not read a dated transcript of Kompany's press conference tonight; my searches returned only older ones. The goalkeeper is unclear (Urbig vs Ulreich, previews disagree).",
+        "lineups": "Hard Tackle (19 Nov) predicts Bayern 4-2-3-1: Ulreich; Laimer, Upamecano, Tah, Stanisic; Kimmich, Pavlovic; Olise, Karl, Brown; Kane. Sports Mole (18 Nov) has the same outfield with Urbig in goal. Both predict Koln 3-5-2 with Schwabe in goal, Bulter and El Mala up front. Nothing is confirmed, because lineups come out Friday.",
+        "rotation": "Bayern played Mainz (2-1 win) before the break and have no midweek game, so this game is a full-rest home game. I did not check what they play next. Koln lost 2-1 to Leverkusen before the break. No rotation is reported.",
+        "motivation": "Bayern top the table on 21 points from 9, level with Dortmund, who play Saturday, so they need the win. Koln are 15th on 9 points, three behind 8th and two clear of the relegation zone, so both sides have something to play for. This is not a hard-exclusion case.",
+        "form": "Bayern are unbeaten in the league (6W 3D), have scored in 12 straight games across all competitions (42 goals), have a +20 goal difference, and have scored 20 goals in 4 home league games, only 8 of them before half-time. They dropped points in 2 of their last 5. Koln are winless in 4 league games (league form L W L D D L), have won only 2 games this season, and have taken 1 point from 4 away games with no away clean sheet. They have conceded 14 league goals in 9 games. Previews give no xG.",
+        "h2h": "Koln have lost 22 of their last 24 meetings with Bayern and last won in Feb 2011. They have lost their last 5 league meetings, conceding 13 and scoring 3. The last three meetings were 5-1 (May), 3-1 (Jan) and 4-1 (DFB-Pokal), each a Bayern win by 2 or more with Koln scoring once. Koln have not won in their last 10 league visits to Bayern (8 lost).",
+        "odds": "DraftKings via ESPN, close: Bayern -1600 (about 94% raw, about 92% de-vigged), draw +1100 (about 7.7% raw), Koln +1800 (about 5.3% raw). Open was Bayern -1400, draw +800, Koln +1500, so the price has moved slightly toward Bayern and the draw has drifted out. Spread: Bayern -2.5 at -155 (open) moved to -3.5 at +110 (close). Total 4.5: over opened +105 and closed -120. These imply Bayern -1.5 is priced around 80% or higher and over 3.5 well above 70%, so the book agrees with Polymarket and does not price Bayern's goals lower. Polymarket Bayern 0.915 24h ago and now (0% move, data.move_24h). I did not check Polymarket volume. Goal.com's BET99 price shown is Bayern win and BTTS at 2.00. No Stake or Rainbet prices seen.",
+        "models": "Not fetched: the ClubElo API returned 503. Models evidence is limited to previews' scoreline predictions (Sports Mole 4-1, Goal.com 3-1, another 4-0), which are not bookmaker-free ratings.",
+        "venue_weather": "Allianz Arena, Munich, a normal home venue, Fri 20 Nov 19:30 UTC. Bayern have not lost at home this season (5 wins from 7 home games). I found no weather or pitch problem, but I did not check a forecast."
+      },
+      "reason": "A heavy favourite with the book and Polymarket agreeing (DK de-vigged about 92%). Bayern are unbeaten, score heavily at home, and Koln are weak away with a depleted defence. Confidence is medium and not high because Kompany's return, the goalkeeper and the Diaz/Musiala status are unconfirmed, I have no bookmaker-free model rating, and Bayern's recent lineups carry injuries in attack and defence. At review the -1.5 handicap and over 3.5 views were dropped: the main risk named is a 1-0 or 2-1 win, which the rules say rules out a -1.5 view. Bayern over 2.5 team goals is kept (20 goals in 4 home games; DraftKings closed the total at over 4.5 -120 and the spread at -3.5).",
+      "main_risk": "A cagey 1-0 or 2-1 win, or a draw, with Kane in a four-game scoring drought, Diaz and Musiala out or only partly fit, Gnabry and Davies out, and Kompany just back. Koln scored once in each of the last three meetings, so a 2-1 would fail the -1.5 handicap.",
+      "sources": [
+        "https://thehardtackle.com/round-up/2026/11/19/bayern-munich-vs-fc-koln-preview-prediction-probable-lineups-tactics-team-news-key-stats/",
+        "https://www.sportsmole.co.uk/football/bayern-munich/bundesliga-title-race/preview/bayern-vs-fc-koln-prediction-team-news-lineups_609217.html",
+        "https://www.goal.com/en-ca/betting/tips/bayern-munich-vs-k%C3%B6ln-predictions-20-11-2026/A%3Abltd4767557b1ba082a",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261120",
+        "https://khelnow.com/football/bayern-munich-vs-fc-koln-preview-bundesliga-202611"
+      ],
+      "views": {
+        "tt_home_2.5_over": 0.75
+      },
+      "prices": []
+    },
+    {
+      "id": "1375610",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1375611",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1330311",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.635,
+        "draw": 0.225,
+        "away": 0.14
+      },
+      "checks": {
+        "team_news": "NOTE: the brief's 'Valverde' is out of date. Athletic's coach is Edin Terzic (announced 5 May 2026, contract to 2028, so no recent change). Terzic's pre-match press conference (Futbolfantasy, 19/11): Vivian (small calf injury), Guruzeta and Sannadi are unavailable. Egiluz also listed out by Comunio/Jornada Perfecta. Paredes, Yuri, Yeray and Berenguer rejoined full group training on 19/11, so Paredes is probably fit. Terzic said the internationals (Djalo, Canales, Padilla returned that day) came back with no physical problems. Espanyol: Eder Sarabia, appointed 28 Oct 2026 (23 days ago: soft risk, not a hard exclusion). Edu Exposito (discomfort since the Atletico game) reportedly did not travel to Bilbao (TV3/La Grada via Futbolfantasy, squad list still pending); Kike Garcia out; Calatrava out per Comunio; Jofre and Urko doubts. No suspensions found for either side.",
+        "lineups": "Not official. Athletic expected (Comunio): Unai Simon; Hugo Rincon, Yuri, Yeray, Laporte; Gerenabarrena/Galarreta, Canales, Berenguer; Nico Williams, Sancet (or Navarro), Inaki Williams; Jornada Perfecta agrees on Yeray for Vivian. Espanyol (Jornada Perfecta, 3-5-2): Fortuno; El Hilali, Cabrera, Hartman; Santiago, Dolan, Lozano, Exposito (likely replaced), Pere Milla, Roberto Fernandez. Two outlets agree on structure.",
+        "rotation": "Both teams had the international break (last league games: Athletic 1-1 at Osasuna, Espanyol 0-0 v Deportivo), so full rest for both. No European or cup congestion found for either; no hint of rotation from Terzic (said anyone available is ready to start).",
+        "motivation": "Table after matchday 12 (Lagrada/AFP): Athletic 7th, 16 pts with a game in hand; Espanyol 13th, 12 pts, two above the drop zone. The favourite is not safe from anything and the visitor needs points, but nothing is secured, so this is not a hard exclusion. Not a derby.",
+        "form": "Athletic: 4W-4D-3L in 11 games, 15 goals for, 11 against; beat Real Sociedad 2-1 at home, then drew 1-1 at Osasuna (Catena equalised on 90'). Four draws in 11 is the main pre-mortem signal. Espanyol: 3W-3D-6L, 13 goals for, 14 against; 1-0 v Villarreal then 0-0 v Deportivo in Sarabia's debut, two straight clean sheets, 4 points from the last 6. Sarabia moved the side to a 3-5-2; Terzic expects an active, possession-based side. No xG found.",
+        "h2h": "Not researched in depth this evening (no reliable current-season head-to-head found). Style: Athletic's pressing at home against a compact 3-5-2 that has just kept two clean sheets points to a low-scoring game where the draw is the main failure.",
+        "odds": "DraftKings via ESPN (esp.1, event 401882805): moneyline Athletic -205 (1.49), draw +340 (4.40), Espanyol +550 (6.50); opened -175/+295/+450 so it moved toward Athletic. De-vigged about 0.638 / 0.216 / 0.146 versus Polymarket 0.653 / 0.213 / 0.134. Athletic DNB implied by DK is about 0.81 versus Polymarket 0.867, so I took the DNB view down. DK total 2.5: over -125, under +100 (de-vigged over about 0.526; Polymarket 0.535). DK spread Espanyol +1.5 -190 / Athletic -1.5 +135 (de-vigged about 0.606 for +1.5; Polymarket 0.605). Polymarket 24h move for Athletic: 0.665 to 0.655 (-1.5%), under the 3% trigger. Polymarket event volume about 4,170 USD (Athletic-win market about 2,835 USD), liquidity about 302,600 USD.",
+        "models": "World football Elo (clubelo.com): Athletic 1768 (rank 60), Espanyol 1689 (rank 150), a gap of 79 points, which with home advantage supports a clear but not dominant home favourite. Consistent with the market.",
+        "venue_weather": "San Mames (Nuevo San Mames), Bilbao, normal home venue, kick-off 21:00 Spanish time (20:00 UTC) on Friday 20 Nov. No specific forecast found; November climate in Bilbao is wet (about 55% rain probability) but no pitch or weather problem reported."
+      },
+      "reason": "Fixture verified (La Liga matchday 13, Athletic v Espanyol, San Mames, 20 Nov). No hard rule applies: no coach change in the last 7 days (Sarabia 23 days, Terzic since May), no rotation reports, not a derby, Athletic has not secured anything, Espanyol is not in a must-win-or-bust spot beyond normal. Market and DraftKings agree on a clear Athletic home favourite; Elo agrees. Confidence medium because Athletic is missing four players (Vivian, Guruzeta, Sannadi, Egiluz) and Espanyol has a new-coach bounce. At review the views were trimmed to the legs that follow from the analysis (a compact Espanyol, a low-scoring game): under 3.5 goals and Espanyol under 1.5 goals; over 1.5 goals was dropped because a 0-0 or 1-0 is the named risk.",
+      "main_risk": "A draw (Athletic drew 4 of 11, scored once at Osasuna, Espanyol keeps two clean sheets in a row in a compact 3-5-2 under a new coach). Secondary risks: Athletic injuries (Vivian replaced by Yeray, no Guruzeta/Sannadi up front options), and Espanyol being less impacted by Exposito's absence than expected. The brief named Valverde, but Terzic is the Athletic coach.",
+      "sources": [
+        "https://www.futbolfantasy.com/laliga/noticias/155024-terzic-habla-de-vivian-yeray-paredes-sannadi-imga-sancet-los-internacionales-y-el-espanyol",
+        "https://www.futbolfantasy.com/laliga/noticias/155053-edu-exposito-se-cae-de-la-convocatoria-para-viajar-a-san-mames",
+        "https://www.jornadaperfecta.com/blog/alineaciones-athletic-espanyol-j13-26-27/",
+        "https://magazine.comunio.es/jornada-13-alineaciones-probables-del-athletic-espanyol/",
+        "https://lagrada.org/laliga-26-27-jornada-12-resultados-clasificacion-cronica-resumen-partidos-espanyol-deportivo-domingo/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261120",
+        "http://clubelo.com/Athletic",
+        "https://www.eurosport.es/futbol/la-liga/2026-2027/el-espanyol-ya-tiene-nuevo-entrenador-eder-sarabia_sto23350091/story.shtml",
+        "https://www.beinsports.com/en-us/soccer/la-liga/articles/terzic-announced-as-valverdes-successor-at-athletic-2026-05-05"
+      ],
+      "views": {
+        "ou_3.5_under": 0.69,
+        "tt_away_1.5_under": 0.79
+      },
+      "prices": []
+    },
+    {
+      "id": "1329692",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.42,
+        "draw": 0.29,
+        "away": 0.29
+      },
+      "checks": {
+        "team_news": "No pre-match press conference or club report found for either side (searches returned nothing current), so team news is unconfirmed. MediaPronos (19 Nov): Troyes - Michel Diaz suspended (return est. 20 Nov), Anis Ouzenadji injured (est. 30 Nov). Le Havre - Pembele doubtful (groin), Mambimbi and Jelert listed absent (unconfirmed), Mpasi back est. 20 Nov. No key-player news for the first-choice Troyes attack.",
+        "lineups": "No official XIs yet. MediaPronos probable Troyes 4-2-3-1: Beach; Maronnier, Monfray, Gozzi, Boura; Mille, Dermane; Diawara, Diop, Ifnaoui; Ripart. Le Havre: Gallon in goal, Samatta/Maja/Fofana up front, Mwanga, Ebonog, Richardson midfield. Only one outlet gave XIs; the match-day official lineups were not available tonight.",
+        "rotation": "Both sides played their last match on 7-8 Nov (Troyes 0-1 at PSG, Le Havre 0-2 v Lorient), so both come off the international break with 12 days of rest. Friday match, no European or cup congestion for either, no rotation risk found.",
+        "motivation": "Relegation six-pointer. Ontourfootball table: Troyes 17th (8 pts, 10 games), Le Havre 18th (2 pts, 10 games). Neither has anything secured, so the hard no-stakes rule does not apply. Le Havre are desperate, with a new coach.",
+        "form": "Troyes last 5 (all comps): L-L-D-W-L, 1 win; 7 goals scored in the last 6 (SportsMole). Le Havre: five straight league losses, last 6 all losses, 9 goals scored in that run (SportsMole, Ontourfootball). Le Havre sacked Digard on 31 Oct and appointed Valerien Ismael around 11-12 Nov (Maxifoot, Ligue1.com), so about 8 days before kick-off. That is just outside the 7-day hard rule, a soft new-coach-bounce risk; this is his first away game.",
+        "h2h": "Ontourfootball: 8 meetings, Troyes 4 wins, Le Havre 3, 1 draw. The last one was a Ligue 2 game in May 2021 (Le Havre won 3-2), all other meetings are in Ligue 2. Not informative for the current squads.",
+        "odds": "DraftKings via ESPN (fra.1): home 2.20 / draw 3.45 / away 3.30 (opening 2.05 / 3.50 / 3.35), de-vigged 0.434 / 0.277 / 0.289, total 2.5. The home price has lengthened about 7% since the opening line, a small drift against the favourite with no news found to explain it. Polymarket moved the other way (Troyes 0.435 to 0.445 in 24h, relative +2.3%, price history confirms), so the 3% fall rule is not triggered. MediaPronos 19 Nov: 2.24 / 3.45 / 3.40, under 2.5 1.96, BTTS yes 1.71. Polymarket total event volume about 2,238 (Troyes win market about 485, draw market about 1,617, Le Havre win about 135): thin market. Polymarket home_draw 0.727 versus DK de-vigged 0.711, so the second price agrees within 2 points.",
+        "models": "ClubElo page for Troyes: Troyes 43.7% / draw 30.8% / Le Havre 25.5% (Troyes Elo 1600, rank about 332 in Europe), so home or draw about 74.6%. SportsMole data model: 53.7 / 23.9 / 22.3, BTTS 54.9%, over 2.5 54.3%. Elo and the market agree Troyes are only a modest favourite.",
+        "venue_weather": "Complexe Sportif de l'Aube (Stade de l'Aube), Troyes, Friday 20 Nov, 19:45 UTC (20:45 local); SportsMole gives the same time and venue, other aggregators list conflicting kick-off times (14:45 or 21 Nov) but the market and ESPN carry 20 Nov. Normal home venue. No weather or pitch information found."
+      },
+      "reason": "Verified Ligue 1 home game with no hard exclusion: Le Havre's coach change is about 8 days old, which is outside the 7-day hard rule, and both clubs are in the relegation zone, so the favourite is not safe from a must-win opponent but also has little margin itself. Troyes are a modest favourite (44%); market, DraftKings and ClubElo agree to within 3 points. Home-or-draw at about 71-73% is backed by all three prices. Confidence is medium and not high because there is no press conference or official lineup news, Troyes have only one win in five, and there is a new-manager unknown on the Le Havre side. At review the views were trimmed to the legs that follow from the analysis (a low-scoring relegation game): under 3.5 goals, Le Havre +1.5 and Troyes under 2.5 goals. DraftKings lengthened Troyes from 2.05 to 2.20 since opening while Polymarket rose; the morning check must re-test that move.",
+      "main_risk": "Le Havre win through a new-coach reaction (Ismael's first away game, desperate side with Maja scoring) on top of Troyes' poor form (1 win in 5, 7 goals in 6). A Le Havre win is the only way home_draw and Troyes DNB fail (DNB loses only on a Le Havre win). Late news on the Troyes lineup (Diaz suspended) is the other open item. A one-goal Troyes win beats the Le Havre +1.5 handicap, but a 2+ goal Troyes win is the failure for that leg. Not backing BTTS (both teams score about 55% only at the market price) or tt_home_1.5_under (coin flip).",
+      "sources": [
+        "https://mediapronos.com/?p=710691",
+        "https://www.sportsmole.co.uk/football/ligue-1/troyes-vs-le-havre_game_263040.html",
+        "https://ontourfootball.com/fixtures/estac-troyes-vs-le-havre-2026-11-20",
+        "https://m.maxifoot.fr/le-havre/ismael-arrive-sur-le-banc-foot-467527.htm",
+        "https://clubelo.com/Troyes",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261120",
+        "https://gamma-api.polymarket.com/events?id=1329692"
+      ],
+      "views": {
+        "ou_3.5_under": 0.71,
+        "ah_away_+1.5": 0.76,
+        "tt_home_2.5_under": 0.8
+      },
+      "prices": []
+    },
+    {
+      "id": "1415449",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1415450",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1409790",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1410720",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1417669",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.65,
+        "draw": 0,
+        "away": 0.35
+      },
+      "checks": {
+        "team_news": "No injury list for either side found for 20 Nov. berlinecho (preview of the 18 Nov CHL return leg) mentions no injuries. Berliner Kurier reported before the 30 Oct game that Berlin had only four natural defenders and a penalty for Jonas Müller; this is old and unnamed, so current status is unverified. Nothing found on Ingolstadt's injuries.",
+        "lineups": "Starting goalies NOT confirmed. Sportschau squad page (17th matchday, 20.11.2026 19:30) lists Berlin goalies LaFontaine, Neffin, Neiße; Ingolstadt Oswald, Stettmer, Williams. Berlinecho: on 15 Nov LaFontaine replaced Neffin in the third period vs Schwenningen, so Berlin's number one is unclear. Stettmer was Ingolstadt's goalie on 30 Oct. No predicted XI found.",
+        "rotation": "Berlin (CHL): leg 1 at KooKoo on Tue 10 Nov (5:3 win); return leg at home Wed 18 Nov 19:30 (result not found). So Fri 20 Nov is two days after a midweek home game, no back-to-back, no travel. League: lost 3:4 after shootout at Wolfsburg Fri 13 Nov, lost 2:4 at home to Schwenningen Sun 15 Nov (berlinecho: third straight loss). Ingolstadt: played at Mannheim Sun 15 Nov (score not found); anything after that was not found. Berlin may rest players ahead of the CHL quarter-final, which is unverified.",
+        "motivation": "Berlin led the DEL on 33 points from 15 games before the Schwenningen game (Nürnberg 31 from 16, Mannheim 30 from 16, München 30 from 15; berlinecho). Ingolstadt's table position is unknown. Both are in the regular season with nothing decided, so no hard rule applies. I could not confirm the standings after 15 Nov.",
+        "form": "Berlin: 30 Oct won 5:3 at Ingolstadt (fourth straight win, with Berlin on top); 1 Nov home vs Mannheim (result not found); 10 Nov CHL won 5:3 at KooKoo; 13 Nov lost 3:4 SO at Wolfsburg (a 3:3 equaliser 10 seconds from time); 15 Nov lost 2:4 vs Schwenningen at home (Ronning scored both goals); 18 Nov CHL result not found. The full last 10 with goals was not found. Ingolstadt: 13 Nov won 4:1 vs Straubing (three goals in the third period, leagues derby); 15 Nov at Mannheim (result not found). Berlin goal difference +25 after 15 games.",
+        "h2h": "Last meeting 30 Oct 2026 in Ingolstadt: Berlin won 5:3 (1:1, 2:2, 2:0), with Barber, Girduckis and Wasenden scoring for Ingolstadt. Ingolstadt coach Mark French; Berlin coach Eric Dubois was Ingolstadt assistant last season. No further 2026/27 meetings found (Ingolstadt away already played).",
+        "odds": "No second price found. The candidates file has no data.odds (DraftKings not available). Searches for German odds previews (wettbasis etc.) returned only older seasons. Polymarket: Berlin 0.685, Ingolstadt 0.315; move_24h 0.685 to 0.685 (0% change, p_first 0.685). Polymarket volume about 21 dollars and liquidity about 1265 dollars, so the market is thin and unconfirmed. Without an independent price, the rating cannot be above low.",
+        "models": "No bookmaker-free rating found. Only table data: Berlin first with +25 goal difference after 15 games, 33 points. Berlin has since lost two league games (13 and 15 Nov, both in the standings).",
+        "venue_weather": "Uber Arena, Berlin, home game (sportschau 20.11.2026 19:30 local = 18:30 UTC; berlinecho also states Uber Arena for the 15 Nov home game). Indoor, no weather issue. Not a neutral or unusual venue."
+      },
+      "reason": "Fixture verified as a regular DEL home game for league leader Berlin (20 Nov, 19:30 local) with no hard exclusion found. Rated low because there is no independent second price, the Polymarket market is very thin (about 21 dollars volume), Berlin's starting goalie is unclear (LaFontaine came on for Neffin on 15 Nov), and Berlin has lost its last two league games (3:4 SO at Wolfsburg, 2:4 vs Schwenningen) after a midweek CHL game. p is cut from the market by 3.5 points because of this.",
+      "main_risk": "Berlin's recent slump (two league losses, three straight per berlinecho) and an uncertain goalie, combined with fatigue from the Wednesday CHL game and possible rotation before the CHL quarter-final, against an Ingolstadt side that scored 3 goals in the 30 Oct game and won 4:1 on 13 Nov. Also an OT/shootout coin flip. No second price to confirm 68.5%.",
+      "sources": [
+        "https://berlinecho.de/eisbaeren-berlin-kookoo-kouvola-rueckspiel-18-november-2026/",
+        "https://berlinecho.de/eisbaeren-berlin-schwenningen-15-november-2026/",
+        "https://berlinecho.de/eisbaeren-berlin-ingolstadt-5-3-vierter-sieg/",
+        "https://www.leinetal24.de/na-pressemitteilungen/das-stachelt-einen-an-muenchen-wird-zum-augsburger-albtraum-spitzenreiter-berlin-strauchelt-straubings-brandt-nach-derbypleite-sauer-keine-worte-zr-94589938.html",
+        "https://www.sportschau.de/live-und-ergebnisse/eishockey/deutschland-del/ma12189691/eisbaeren-berlin_erc-ingolstadt/spiel-kader",
+        "https://www.volksstimme.de/panorama/chl-achtelfinale-eisbaren-wollen-auf-erfolgskurs-bleiben-4353237",
+        "https://gamma-api.polymarket.com/events?id=1417669"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1410494",
+      "exclude": true,
+      "reason": "Hard rule: unusual/neutral venue. Shanghai Dragons play all 2026/27 'home' games at SKA Arena in St Petersburg, not in Shanghai (club announcement via Sportbox; KHL president says a move to China is only planned for 2027/28). This game is listed at SKA-Arena, St Petersburg, Fri 20 Nov 2026, 19:30 local (16:30 UTC) per peterburg2.ru. It is a home-in-name game with no Shanghai crowd, in the arena shared with SKA, so I treat it as a neutral venue. Fixture, date and teams otherwise verified. Not checked because of the exclusion: goalies, injuries, standings and Fonbet/Winline prices. Polymarket 24h move was small (CSKA 0.675 to 0.685).",
+      "main_risk": "Neutral-style venue: the Polymarket home/away labels may not reflect a real home edge, and Shanghai's 'home' crowd is absent. The market price is unreliable for this setup.",
+      "sources": [
+        "https://news.sportbox.ru/Vidy_sporta/Hokkej/spbnews_NI2306885_Shankhajskije_Drakony_v_sezone2026_27_snova_budut_igrat_v_SanktPeterburge_na_SKA_Arene",
+        "https://peterburg2.ru/events/shanhay-dregons-cska-270774.html",
+        "https://www.rbc.ru/sport/06/03/2026/69aaa7cb9a7947caa07cf8c5"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1417671",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1409609",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.65,
+        "draw": 0,
+        "away": 0.35
+      },
+      "checks": {
+        "team_news": "Sportmail.ru match page (read tonight) says Avangard forward Cedric Paquette was hospitalized after the 18 Nov game against Admiral, having played under 6 minutes. No current status is given, and my follow-up searches found no confirmation or return date. The same page says Barys goalie Hunter Shepard terminated his contract on 17 Nov, and Dmitry Nikolaev arrived from Traktor by trade on 12 Nov. Older Avangard coverage (sport24, undated) has coach Boucher saying the club was in survival mode with 11 injured, 9 of them key players. I could not date it to this season, so it is not weighted. I could not obtain a full injury list for either side.",
+        "lineups": "UNCONFIRMED. No expected starting goalie was found for either side; the sportmail lineups section is empty and no preview names goalies. Nikita Serebryakov appears in the protocol list of the 18 Nov Avangard-Admiral game, but the page did not label which team he played for. Barys' goalie picture is unsettled after the Shepard exit and the Nikolaev trade. This is the key missing fact.",
+        "rotation": "Avangard played at home on Wed 18 Nov and beat Admiral 3:1 (goals Livo, Sharipzyanov, Ponomarev; sportmail.ru match 8129373). Friday is therefore a home game on 1 day of rest with no travel. Before that, Avangard won 5:1 at Neftekhimik on 14 Nov, won 4:3 in overtime at Metallurg Mg on 12 Nov, lost 0:4 to Dinamo Minsk on 10 Nov, and won 4:3 in overtime against Sibir on 7 Nov. Barys played at Salavat Yulaev on 18 Nov and lost (sources conflict on the score, 3:5 or 3:4), so they travel from Ufa to Omsk after one day of rest. Astana-Omsk is a short KHL trip, but it still means a back-to-back-style schedule.",
+        "motivation": "Standings before this game were NOT verified. The only table I could open (sportmail, season 2025-26) is last season's. A sport-express item dated 14 Nov (fetched through sportmail) says Avangard was third in the East on 30 points and Neftekhimik second on 31. The match page also shows inconsistent season stats (26 games, 39 points for Avangard; 27 games, 41 points for Barys), so I cannot rely on it. It is mid-November regular season, so neither side has anything clinched. The hard 'favourite has nothing left' rule does not apply.",
+        "form": "Avangard has won 4 of its last 5: W 3:1 vs Admiral, W 5:1 at Neftekhimik, W 4:3 OT at Metallurg, L 0:4 vs Dinamo Minsk, W 4:3 OT vs Sibir. Two of those wins came in overtime. Barys, from news items on the match page: W 4:2 vs Admiral (12 Nov), W 5:4 vs Metallurg (15 Nov), L vs Salavat Yulaev (18 Nov), L 0:2 at Amur (8 Nov). Barys scores freely and concedes freely (88 GF / 77 GA per the match page). I could not check goal differential or xG.",
+        "h2h": "Last five meetings per sportmail, newest first: Barys 5:1 (10 Oct 2026), Barys 4:2 (30 Dec 2025), Avangard 5:2 (23 Nov 2025), Avangard 4:3 (29 Oct 2025), Barys 6:2 (16 Oct 2025). Barys won 3 of 5, including the most recent game, so the 0.67 favourite price runs against the recent head-to-head.",
+        "odds": "Fonbet, Winline and Paribet (identical, via sportmail.ru match 8129381) price the regulation-time 1X2 at Avangard 1.70 / draw 4.30 / Barys 4.30. De-vigged (overround 5.4%) that is about 55.8% / 22.1% / 22.1%. Splitting the draw by strength gives roughly 0.67-0.69 Avangard including OT/SO, which agrees with Polymarket 0.67 / 0.33 (best bid 0.66, ask 0.68). Polymarket 24h move is flat (0.67 to 0.67). Polymarket liquidity is only about 1,858 and no event volume figure is listed (the khl-2026 series shows about 19.1k 24h volume), so the market is thin. The bookmaker 1X2 is listed on the page but I did not see a dated timestamp for it. No DraftKings/ESPN price was in the candidates data.",
+        "models": "No bookmaker-free rating was available (candidates data has no rating field for KHL). Rough indicators only: Avangard's recent goals 3:1, 5:1, 4:3 OT, 0:4, 4:3 OT. Barys' 88 GF / 77 GA is unreliable given the inconsistent page stats. No xG or points-percentage source was checked, so this check is effectively empty.",
+        "venue_weather": "Home game at G-Drive Arena, Omsk, Fri 20 Nov, 16:30 local (13:30 UTC), indoor. Fixture verified on sportmail.ru (KHL regular season, week 12). Regular venue, no weather or pitch issue."
+      },
+      "reason": "No hard exclusion applies. The fixture is verified, there is no coaching change found, it is not a derby, and the venue is normal. The favourite is not clinched and the Polymarket price has not moved. A bookmaker 1X2 (Fonbet/Winline 1.70/4.30/4.30) de-vigs to roughly the same 0.67-0.69 with OT, so the price is corroborated. Confidence is still low because the key fact for hockey, the starting goalie for both teams, is missing; Barys' goalie room is in flux and Avangard's goalie was not confirmed. Standings could not be verified. Paquette's hospitalization is unresolved. Barys won the last head-to-head 5:1 and 3 of the last 5. The market is thin (liquidity around 1.9k). I trimmed p slightly below the market.",
+      "main_risk": "An unconfirmed or backup goalie for Avangard, plus a lineup thinned by injuries (Paquette hospitalized after Wednesday, other injuries unverified), against a high-scoring Barys side that won the last meeting 5:1 and took 3 of the last 5. Avangard is also on 1 day of rest after Wednesday, though Barys is too after playing Salavat Yulaev on 18 Nov. Several recent Avangard wins needed overtime. The thin Polymarket market adds price noise.",
+      "sources": [
+        "https://sportmail.ru/hockey-khl/407/match/8129381/",
+        "https://sportmail.ru/hockey-khl/407/match/8129373/",
+        "https://sportmail.ru/news/hockey-khl/72987716/",
+        "https://gamma-api.polymarket.com/events?id=1409609"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1424123",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1417672",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1421178",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.6,
+        "draw": 0,
+        "away": 0.4
+      },
+      "checks": {
+        "team_news": "JYP: no absences named in the club's report of the 3-2 OT win over Sport on 18 Nov (jypliiga.fi); no pre-game injury list found yet. HIFK: coach Olli Jokinen was sacked on 21 Oct and Tommi Miettinen took over (mtvuutiset, ess.fi, suomikiekko); HIFK's own Tappara preview listed Jake Leschyshyn out (return week 47) and goalie Tim Juel out (return week 48); I found no newer HIFK injury list for tonight.",
+        "lineups": "NOT CONFIRMED. HIFK's number one is Hugo Alnefelt, who returned in Miettinen's first game after a 4-game absence and was named the starter for the Tappara game 13 Nov (hifk.fi, mtvuutiset); Glifford is the backup. JYP's likely starter is Oskari Salminen (he was in net on 18 Nov per the match report) but the Liiga feed and the JYP preview give no confirmed goalie for Friday. Lineups come out on the day.",
+        "rotation": "JYP played Wed 18 Nov (3-2 OT vs Sport) and has 2 days rest; its next game is Sat 28 Nov. HIFK last played Fri 13 Nov (3-1 win at Tappara), so it has 6 days rest; its next game is Sat 21 Nov at KalPa, which is a back-to-back that could make the coach rest some players or the backup goalie tonight or tomorrow (liiga.fi API schedule).",
+        "motivation": "Regular season. By my count from the liiga.fi feed (3-2-1 points, ties not available) JYP and Lukko lead at 46 points from 21 games (2.19 per game); HIFK is 10th of 17 with 30 points from 21 games (1.43). Nothing is decided for either side. No derby: Jyvaskyla against Helsinki, the clubs' retro-night promotion is not a rivalry.",
+        "form": "JYP: wins in its last 6 (the sequence is 3-2 vs HPK 22 Oct, 4-1 Ässät, 4-6 loss at Tappara 28 Oct, 6-3 at SaiPa, 5-4 OT vs Jokerit, 7-1 Kärpät, 1-0 at KooKoo, 4-3 Pelicans, 3-2 OT Sport); JYP goals for/against 74-54 in 21 games. HIFK: under Miettinen it is 5 wins and 2 losses (3-0 at K-Espoo, 6-3 at HPK, 2-1 Ilves, 2-3 loss at Ässät, 3-1 at KooKoo, 2-5 loss to Jokerit on 11 Nov, 3-1 at Tappara 13 Nov); goals 58-62 in 21 games, worst goal difference of the teams in the top 10.",
+        "h2h": "One meeting this season: HIFK 3-4 JYP (regulation, 25 Sep, in Helsinki). Style: JYP is the higher-scoring side (74 goals vs HIFK's 58); a one-goal margin or overtime is a real possibility in a 62/38 game.",
+        "odds": "NO second price found. I searched Finnish odds sites (vedonlyonti.com, rahapelisanomat, ristikaksi) and found only season outright prices (JYP 9.00 and HIFK 14-25 for the title) and no moneyline for this game; the liiga.fi feed has an empty gamblingEvent, so no Veikkaus price; no data.odds in the candidates file. Polymarket: JYP 0.62 / HIFK 0.38; 24h move 0.615 to 0.62 (+0.8%, no drop); volume on the market is only about $3.64 with $1,128 liquidity, so the price is extremely thin and not evidence on its own. Under the thin-market rule, no second price means low.",
+        "models": "No bookmaker-free rating found. From the liiga.fi feed: JYP 2.19 points per game and +20 goal difference vs HIFK 1.43 per game and -4 goal difference; that points to a JYP edge, in line with the market, but it is a crude standings measure, not a model.",
+        "venue_weather": "LähiTapiola Areena (Jyvaskyla), puck drop 18:30 Finnish time (16:30 UTC), JYP home retro night (jypliiga.fi). Indoor, normal venue, no weather issue."
+      },
+      "reason": "Fixture verified (liiga.fi API id 2701466, JYP home vs HIFK, 2026-11-20 16:30 UTC; men's Liiga regular season). No hard exclusion: the HIFK coach change was 29 days ago (soft), no rotation confirmed, no derby, nothing decided. JYP is the better side on points per game and goal difference and is at home on 2 days rest, but I could not obtain any independent price and the Polymarket market has about $3.64 of volume, so the rule that a hockey game needs a second price within 5 points to be medium cannot be met. Goalies for both sides are unconfirmed. p is set slightly below the market to reflect hockey variance and the thin price.",
+      "main_risk": "JYP wins in regulation or OT is only about 60%: the likely failure is a one-goal or overtime game where HIFK's Alnefelt steals it, after JYP's 3-2 OT game on Wednesday; JYP has also lost 4-6 at Tappara and 4-5 OT vs Kärpät this season. Unconfirmed goalies for both teams and a HIFK side that has gone 5-2 under its new coach. No second price, and thin Polymarket volume.",
+      "sources": [
+        "https://liiga.fi/api/v2/games?tournament=runkosarja&season=2027",
+        "https://www.jypliiga.fi/2026/11/otteluraportti-jyp-jatkoaikavoittoon-sportista/",
+        "https://www.mtvuutiset.fi/artikkeli/hifk-sai-loistouutisia-nain-ketjut-muuttuivat/9410948",
+        "https://www.ess.fi/urheilu/9890277",
+        "https://vedonlyonti.com/jaakiekko/liiga",
+        "https://gamma-api.polymarket.com/events?id=1421178"
+      ],
+      "views": {},
+      "prices": []
+    }
+  ]
+}
