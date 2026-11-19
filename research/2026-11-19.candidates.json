@@ -40,13 +40,13 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.78,
+          "from": 0.82,
           "to": 0.805,
-          "relative_change": 0.032
+          "relative_change": -0.018
         },
-        "fetched_at": "2026-11-19T12:10:32.261Z"
+        "fetched_at": "2026-11-19T17:50:59.126Z"
       },
-      "p_live_at": "2026-11-19T12:10:31.427Z"
+      "p_live_at": "2026-11-19T17:50:58.646Z"
     },
     {
       "id": "1379727",
@@ -82,11 +82,11 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.69,
+          "from": 0.715,
           "to": 0.725,
-          "relative_change": 0.051
+          "relative_change": 0.014
         },
-        "fetched_at": "2026-11-19T12:10:31.924Z"
+        "fetched_at": "2026-11-19T17:50:59.132Z"
       },
       "p_live_at": "2026-11-19T06:53:12.879Z"
     },
@@ -125,8 +125,8 @@
         "move_24h": {
           "side": "home",
           "from": 0.695,
-          "to": 0.705,
-          "relative_change": 0.014
+          "to": 0.735,
+          "relative_change": 0.058
         },
         "rating": {
           "model": "Tennis Abstract Elo",
@@ -147,7 +147,7 @@
             "blend_hard": 0.635
           }
         },
-        "fetched_at": "2026-11-19T12:10:32.028Z"
+        "fetched_at": "2026-11-19T17:50:59.233Z"
       }
     },
     {
@@ -184,11 +184,11 @@
       "data": {
         "move_24h": {
           "side": "away",
-          "from": 0.67,
+          "from": 0.675,
           "to": 0.635,
-          "relative_change": -0.052
+          "relative_change": -0.059
         },
-        "fetched_at": "2026-11-19T12:10:31.953Z"
+        "fetched_at": "2026-11-19T17:50:59.194Z"
       },
       "p_live_at": "2026-11-19T06:53:12.879Z"
     },
@@ -367,12 +367,12 @@
       },
       "data": {
         "move_24h": {
-          "side": "away",
-          "from": 0.565,
-          "to": 0.515,
-          "relative_change": -0.088
+          "side": "home",
+          "from": 0.445,
+          "to": 0.535,
+          "relative_change": 0.202
         },
-        "fetched_at": "2026-11-19T12:10:32.459Z"
+        "fetched_at": "2026-11-19T17:50:59.420Z"
       }
     },
     {
@@ -962,9 +962,9 @@
       "start": "2026-11-19T19:30:00.000Z",
       "coverage": 3,
       "p_market": {
-        "home": 0.685,
-        "draw": 0.205,
-        "away": 0.11
+        "home": 0.6866,
+        "draw": 0.207,
+        "away": 0.1064
       },
       "p_first": {
         "home": 0.6682,
@@ -976,55 +976,71 @@
           "key": "home",
           "label": "Match winner",
           "selection": "CA Penarol Montevideo",
-          "p_market": 0.685,
+          "p_market": 0.6866,
           "fair_odds": 1.46
         },
         {
           "key": "ah_away_+1.5",
           "label": "Handicap",
           "selection": "Cerro Largo FC +1.5",
-          "p_market": 0.58,
-          "fair_odds": 1.72
+          "p_market": 0.585,
+          "fair_odds": 1.71
+        },
+        {
+          "key": "ah_away_+2.5",
+          "label": "Handicap",
+          "selection": "Cerro Largo FC +2.5",
+          "p_market": 0.81,
+          "fair_odds": 1.23
         },
         {
           "key": "ou_1.5_over",
           "label": "Total goals",
           "selection": "Over 1.5",
-          "p_market": 0.735,
-          "fair_odds": 1.36
+          "p_market": 0.705,
+          "fair_odds": 1.42
+        },
+        {
+          "key": "ou_2.5_under",
+          "label": "Total goals",
+          "selection": "Under 2.5",
+          "p_market": 0.55,
+          "fair_odds": 1.82
         },
         {
           "key": "ou_3.5_under",
           "label": "Total goals",
           "selection": "Under 3.5",
-          "p_market": 0.74,
-          "fair_odds": 1.35
+          "p_market": 0.77,
+          "fair_odds": 1.3
         },
         {
           "key": "btts_no",
           "label": "Both teams to score",
           "selection": "No",
-          "p_market": 0.58,
-          "fair_odds": 1.72
+          "p_market": 0.605,
+          "fair_odds": 1.65
         }
       ],
       "legs_first": {
         "home": 0.6682,
         "ah_away_+1.5": 0.58,
+        "ah_away_+2.5": 0.81,
         "ou_1.5_over": 0.735,
+        "ou_2.5_under": 0.55,
         "ou_3.5_under": 0.74,
         "btts_no": 0.58
       },
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.655,
+          "from": 0.665,
           "to": 0.685,
-          "relative_change": 0.046
+          "relative_change": 0.03
         },
-        "fetched_at": "2026-11-19T12:10:33.601Z"
+        "fetched_at": "2026-11-19T17:50:59.463Z"
       },
-      "p_live_at": "2026-11-19T12:10:31.426Z"
+      "p_live_at": "2026-11-19T17:50:58.646Z"
     },
     {
       "id": "1407321",
@@ -1084,11 +1100,11 @@
       "data": {
         "move_24h": {
           "side": "away",
-          "from": 0.67,
-          "to": 0.635,
-          "relative_change": -0.052
+          "from": 0.635,
+          "to": 0.625,
+          "relative_change": -0.016
         },
-        "fetched_at": "2026-11-19T12:10:33.551Z"
+        "fetched_at": "2026-11-19T17:50:59.444Z"
       }
     },
     {
@@ -1198,11 +1214,11 @@
       "data": {
         "move_24h": {
           "side": "away",
-          "from": 0.545,
-          "to": 0.58,
-          "relative_change": 0.064
+          "from": 0.54,
+          "to": 0.565,
+          "relative_change": 0.046
         },
-        "fetched_at": "2026-11-19T12:10:33.656Z"
+        "fetched_at": "2026-11-19T17:50:59.422Z"
       }
     },
     {
@@ -1304,11 +1320,11 @@
       "data": {
         "move_24h": {
           "side": "away",
-          "from": 0.525,
-          "to": 0.495,
-          "relative_change": -0.057
+          "from": 0.53,
+          "to": 0.485,
+          "relative_change": -0.085
         },
-        "fetched_at": "2026-11-19T12:10:33.872Z"
+        "fetched_at": "2026-11-19T17:50:59.691Z"
       }
     },
     {
@@ -1419,10 +1435,10 @@
         "move_24h": {
           "side": "home",
           "from": 0.45,
-          "to": 0.455,
-          "relative_change": 0.011
+          "to": 0.475,
+          "relative_change": 0.056
         },
-        "fetched_at": "2026-11-19T12:10:33.863Z"
+        "fetched_at": "2026-11-19T17:50:59.675Z"
       }
     },
     {
@@ -1590,10 +1606,10 @@
         "move_24h": {
           "side": "home",
           "from": 0.9775,
-          "to": 0.9795,
-          "relative_change": 0.002
+          "to": 0.973,
+          "relative_change": -0.005
         },
-        "fetched_at": "2026-11-19T12:10:34.245Z"
+        "fetched_at": "2026-11-19T17:50:59.676Z"
       }
     },
     {
