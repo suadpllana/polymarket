@@ -55,6 +55,9 @@ export const BETTABLE = ['high', 'medium'];
  */
 export const HIGH_ONLY = new Set(['tennis']);
 
+/** Sports never bet, whatever the research says (owner's permanent rule, 19 Nov 2026). */
+export const BANNED_SPORTS = new Set(['basketball']);
+
 export const TIERS = [
   { name: 'researched', range: { min: SLIP.min, max: SLIP.max } },
   { name: 'wider', range: { min: 1.7, max: 2.5 } },
@@ -102,6 +105,7 @@ export function eligibleLegs(games, research) {
   for (const g of games) {
     const v = research?.games.get(g.id);
     if (!v || v.skipped || v.exclude || !BETTABLE.includes(v.confidence)) continue;
+    if (BANNED_SPORTS.has(g.sport)) continue;
     if (HIGH_ONLY.has(g.sport) && v.confidence !== 'high') continue;
     const problem = driftProblem(g, v);
     if (problem) {

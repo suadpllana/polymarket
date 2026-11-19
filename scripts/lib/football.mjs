@@ -32,11 +32,10 @@ export const LEAGUES = {
  * Other sports, bet on the two-way winner market (overtime and shootouts
  * included, as Polymarket settles them). Top competitions only.
  */
+// The owner's permanent rule (19 Nov 2026): no basketball bets of any kind
+// (NBA, EuroLeague, EuroCup, Champions League or any other), so basketball
+// games are not listed as candidates at all.
 export const OTHER_SPORTS = {
-  nba: { name: 'NBA', kind: 'basketball' },
-  euroleague: { name: 'EuroLeague', kind: 'basketball' },
-  bkeurocup: { name: 'EuroCup', kind: 'basketball' },
-  bkcl: { name: 'Basketball Champions League', kind: 'basketball' },
   nhl: { name: 'NHL', kind: 'ice_hockey' },
   khl: { name: 'KHL', kind: 'ice_hockey' },
   shl: { name: 'SHL', kind: 'ice_hockey' },

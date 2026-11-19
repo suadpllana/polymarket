@@ -23,7 +23,7 @@ A small site with three pages:
    one to three legs, aiming for combined odds of 1.85–2.25 (then 1.70–2.50),
    every leg starting before 23:00 Belgrade. Any sport: football (match winner, double chance, draw no
    bet, total goals, both teams to score, handicaps, a team's goals) plus the
-   winner market in top tennis, basketball, ice hockey, NFL, MLB, UFC and
+   winner market in top tennis, ice hockey, NFL, MLB, UFC and
    tier-1 esports. Only legs the research rated medium or high confidence
    are used: never low-confidence or market-only legs. The market price is
    the starting point and research is a filter: it can lower a leg's chance

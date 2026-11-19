@@ -321,6 +321,11 @@ that get excluded.
   leave out the ones you would not back. A view below the market lowers that
   leg's chance in the pick; a view above the market changes nothing, so spend
   the effort on finding what could go wrong with a leg, not on arguing it up.
+- **No basketball, ever (the owner's permanent rule, 19 Nov 2026).** No
+  basketball leg of any kind: NBA, EuroLeague, EuroCup, Basketball
+  Champions League or any other league or market. Basketball games are not
+  listed as candidates and are never researched; the pick drops them too.
+  Never suggest one in chat either, not even as an "extra" slip.
 - **Tennis needs high.** A tennis leg goes on a slip only at `high`
   confidence: fitness and recent results checked, the order of play
   confirmed, and a second bookmaker price found. Medium tennis is never bet
