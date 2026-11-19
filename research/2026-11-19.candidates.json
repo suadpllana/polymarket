@@ -4,7 +4,7 @@
     "start": "2026-11-19T08:00:00.000Z",
     "end": "2026-11-19T22:00:00.000Z"
   },
-  "games_in_window": 30,
+  "games_in_window": 35,
   "games": [
     {
       "id": "1379724",
@@ -16,9 +16,9 @@
       "start": "2026-11-19T20:00:00.000Z",
       "coverage": 1,
       "p_market": {
-        "home": 0.82,
+        "home": 0.835,
         "draw": 0,
-        "away": 0.18
+        "away": 0.165
       },
       "p_first": {
         "home": 0.82,
@@ -30,8 +30,8 @@
           "key": "home",
           "label": "Moneyline",
           "selection": "Valencia",
-          "p_market": 0.82,
-          "fair_odds": 1.22
+          "p_market": 0.835,
+          "fair_odds": 1.2
         }
       ],
       "legs_first": {
@@ -40,12 +40,13 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.79,
-          "to": 0.82,
-          "relative_change": 0.038
+          "from": 0.78,
+          "to": 0.835,
+          "relative_change": 0.071
         },
-        "fetched_at": "2026-11-18T19:21:49.418Z"
-      }
+        "fetched_at": "2026-11-19T06:53:13.444Z"
+      },
+      "p_live_at": "2026-11-19T06:53:12.878Z"
     },
     {
       "id": "1379727",
@@ -81,12 +82,13 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.735,
+          "from": 0.71,
           "to": 0.725,
-          "relative_change": -0.014
+          "relative_change": 0.021
         },
-        "fetched_at": "2026-11-18T19:21:49.396Z"
-      }
+        "fetched_at": "2026-11-19T06:53:13.459Z"
+      },
+      "p_live_at": "2026-11-19T06:53:12.879Z"
     },
     {
       "id": "1375606",
@@ -122,9 +124,9 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.735,
-          "to": 0.695,
-          "relative_change": -0.054
+          "from": 0.73,
+          "to": 0.705,
+          "relative_change": -0.034
         },
         "rating": {
           "model": "Tennis Abstract Elo",
@@ -145,7 +147,7 @@
             "blend_hard": 0.635
           }
         },
-        "fetched_at": "2026-11-18T19:21:49.323Z"
+        "fetched_at": "2026-11-19T06:53:13.384Z"
       }
     },
     {
@@ -158,9 +160,9 @@
       "start": "2026-11-19T19:30:00.000Z",
       "coverage": 1,
       "p_market": {
-        "home": 0.335,
+        "home": 0.365,
         "draw": 0,
-        "away": 0.665
+        "away": 0.635
       },
       "p_first": {
         "home": 0.335,
@@ -172,8 +174,8 @@
           "key": "away",
           "label": "Moneyline",
           "selection": "Fenerbahce",
-          "p_market": 0.665,
-          "fair_odds": 1.5
+          "p_market": 0.635,
+          "fair_odds": 1.57
         }
       ],
       "legs_first": {
@@ -182,12 +184,13 @@
       "data": {
         "move_24h": {
           "side": "away",
-          "from": 0.7,
-          "to": 0.665,
-          "relative_change": -0.05
+          "from": 0.695,
+          "to": 0.635,
+          "relative_change": -0.086
         },
-        "fetched_at": "2026-11-18T19:21:49.458Z"
-      }
+        "fetched_at": "2026-11-19T06:53:13.518Z"
+      },
+      "p_live_at": "2026-11-19T06:53:12.879Z"
     },
     {
       "id": "1375607",
@@ -223,9 +226,9 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.645,
-          "to": 0.665,
-          "relative_change": 0.031
+          "from": 0.66,
+          "to": 0.685,
+          "relative_change": 0.038
         },
         "rating": {
           "model": "Tennis Abstract Elo",
@@ -246,7 +249,7 @@
             "blend_hard": 0.524
           }
         },
-        "fetched_at": "2026-11-18T19:21:49.653Z"
+        "fetched_at": "2026-11-19T06:53:13.694Z"
       }
     },
     {
@@ -284,10 +287,10 @@
         "move_24h": {
           "side": "away",
           "from": 0.63,
-          "to": 0.615,
-          "relative_change": -0.024
+          "to": 0.605,
+          "relative_change": -0.04
         },
-        "fetched_at": "2026-11-18T19:21:49.747Z"
+        "fetched_at": "2026-11-19T06:53:13.803Z"
       }
     },
     {
@@ -325,10 +328,10 @@
         "move_24h": {
           "side": "home",
           "from": 0.465,
-          "to": 0.555,
-          "relative_change": 0.194
+          "to": 0.51,
+          "relative_change": 0.097
         },
-        "fetched_at": "2026-11-18T19:21:49.738Z"
+        "fetched_at": "2026-11-19T06:53:13.802Z"
       }
     },
     {
@@ -369,7 +372,7 @@
           "to": 0.535,
           "relative_change": -0.144
         },
-        "fetched_at": "2026-11-18T19:21:49.735Z"
+        "fetched_at": "2026-11-19T06:53:13.790Z"
       }
     },
     {
@@ -382,9 +385,9 @@
       "start": "2026-11-19T18:00:00.000Z",
       "coverage": 2,
       "p_market": {
-        "home": 0.765,
+        "home": 0.745,
         "draw": 0,
-        "away": 0.235
+        "away": 0.255
       },
       "p_first": {
         "home": 0.765,
@@ -396,8 +399,8 @@
           "key": "home",
           "label": "Moneyline",
           "selection": "Växjö",
-          "p_market": 0.765,
-          "fair_odds": 1.31
+          "p_market": 0.745,
+          "fair_odds": 1.34
         }
       ],
       "legs_first": {
@@ -407,11 +410,12 @@
         "move_24h": {
           "side": "home",
           "from": 0.76,
-          "to": 0.765,
-          "relative_change": 0.007
+          "to": 0.75,
+          "relative_change": -0.013
         },
-        "fetched_at": "2026-11-18T19:21:50.064Z"
-      }
+        "fetched_at": "2026-11-19T06:53:14.142Z"
+      },
+      "p_live_at": "2026-11-19T06:53:12.879Z"
     },
     {
       "id": "1403487",
@@ -423,9 +427,9 @@
       "start": "2026-11-19T18:00:00.000Z",
       "coverage": 2,
       "p_market": {
-        "home": 0.32,
+        "home": 0.365,
         "draw": 0,
-        "away": 0.68
+        "away": 0.635
       },
       "p_first": {
         "home": 0.32,
@@ -437,8 +441,8 @@
           "key": "away",
           "label": "Moneyline",
           "selection": "Skellefteå",
-          "p_market": 0.68,
-          "fair_odds": 1.47
+          "p_market": 0.635,
+          "fair_odds": 1.57
         }
       ],
       "legs_first": {
@@ -448,11 +452,12 @@
         "move_24h": {
           "side": "away",
           "from": 0.675,
-          "to": 0.68,
-          "relative_change": 0.007
+          "to": 0.635,
+          "relative_change": -0.059
         },
-        "fetched_at": "2026-11-18T19:21:50.071Z"
-      }
+        "fetched_at": "2026-11-19T06:53:14.162Z"
+      },
+      "p_live_at": "2026-11-19T06:53:12.879Z"
     },
     {
       "id": "1403488",
@@ -488,12 +493,13 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.665,
+          "from": 0.655,
           "to": 0.67,
-          "relative_change": 0.008
+          "relative_change": 0.023
         },
-        "fetched_at": "2026-11-18T19:21:50.018Z"
-      }
+        "fetched_at": "2026-11-19T06:53:13.990Z"
+      },
+      "p_live_at": "2026-11-19T06:53:12.879Z"
     },
     {
       "id": "1403486",
@@ -533,8 +539,9 @@
           "to": 0.66,
           "relative_change": 0.008
         },
-        "fetched_at": "2026-11-18T19:21:50.065Z"
-      }
+        "fetched_at": "2026-11-19T06:53:14.141Z"
+      },
+      "p_live_at": "2026-11-19T06:53:12.879Z"
     },
     {
       "id": "1402418",
@@ -571,10 +578,10 @@
         "move_24h": {
           "side": "home",
           "from": 0.65,
-          "to": 0.65,
-          "relative_change": 0
+          "to": 0.655,
+          "relative_change": 0.008
         },
-        "fetched_at": "2026-11-18T19:21:50.265Z"
+        "fetched_at": "2026-11-19T06:53:14.452Z"
       }
     },
     {
@@ -612,10 +619,10 @@
         "move_24h": {
           "side": "away",
           "from": 0.625,
-          "to": 0.625,
-          "relative_change": 0
+          "to": 0.615,
+          "relative_change": -0.016
         },
-        "fetched_at": "2026-11-18T19:21:50.443Z"
+        "fetched_at": "2026-11-19T06:53:14.476Z"
       }
     },
     {
@@ -652,11 +659,11 @@
       "data": {
         "move_24h": {
           "side": "away",
-          "from": 0.51,
-          "to": 0.555,
-          "relative_change": 0.088
+          "from": 0.515,
+          "to": 0.53,
+          "relative_change": 0.029
         },
-        "fetched_at": "2026-11-18T19:21:50.357Z"
+        "fetched_at": "2026-11-19T06:53:14.441Z"
       }
     },
     {
@@ -697,7 +704,806 @@
           "to": 0.555,
           "relative_change": 0
         },
-        "fetched_at": "2026-11-18T19:21:50.352Z"
+        "fetched_at": "2026-11-19T06:53:14.443Z"
+      }
+    },
+    {
+      "id": "1421176",
+      "league": "Liiga",
+      "sport": "ice_hockey",
+      "event": "Tappara Tampere vs. Vaasan Sport",
+      "home": "Tappara Tampere",
+      "away": "Vaasan Sport",
+      "start": "2026-11-19T16:30:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.74,
+        "draw": 0,
+        "away": 0.26
+      },
+      "p_first": {
+        "home": 0.74,
+        "draw": 0,
+        "away": 0.26
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Tappara Tampere",
+          "p_market": 0.74,
+          "fair_odds": 1.35
+        }
+      ],
+      "legs_first": {
+        "home": 0.74
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.74,
+          "to": 0.74,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-19T06:53:14.784Z"
+      }
+    },
+    {
+      "id": "1403491",
+      "league": "SHL",
+      "sport": "ice_hockey",
+      "event": "SHL: Timrå vs. Örebro HK",
+      "home": "Timrå",
+      "away": "Örebro HK",
+      "start": "2026-11-19T18:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.545,
+        "draw": 0,
+        "away": 0.455
+      },
+      "p_first": {
+        "home": 0.545,
+        "draw": 0,
+        "away": 0.455
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Timrå",
+          "p_market": 0.545,
+          "fair_odds": 1.83
+        }
+      ],
+      "legs_first": {
+        "home": 0.545
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.54,
+          "to": 0.545,
+          "relative_change": 0.009
+        },
+        "fetched_at": "2026-11-19T06:53:14.780Z"
+      }
+    },
+    {
+      "id": "1373159",
+      "league": "UAE Pro League",
+      "sport": "football",
+      "event": "Al Wasl FC vs. Hatta SC",
+      "home": "Al Wasl FC",
+      "away": "Hatta SC",
+      "start": "2026-11-19T12:45:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.875,
+        "draw": 0.08,
+        "away": 0.045
+      },
+      "p_first": {
+        "home": 0.875,
+        "draw": 0.08,
+        "away": 0.045
+      },
+      "legs_in_range": [
+        {
+          "key": "ah_home_-1.5",
+          "label": "Handicap",
+          "selection": "Al Wasl FC -1.5",
+          "p_market": 0.72,
+          "fair_odds": 1.39
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.795,
+          "fair_odds": 1.26
+        },
+        {
+          "key": "ou_3.5_over",
+          "label": "Total goals",
+          "selection": "Over 3.5",
+          "p_market": 0.595,
+          "fair_odds": 1.68
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.6,
+          "fair_odds": 1.67
+        }
+      ],
+      "legs_first": {
+        "ah_home_-1.5": 0.72,
+        "ou_2.5_over": 0.795,
+        "ou_3.5_over": 0.595,
+        "ou_4.5_under": 0.6
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.845,
+          "to": 0.875,
+          "relative_change": 0.036
+        },
+        "fetched_at": "2026-11-19T06:53:14.733Z"
+      }
+    },
+    {
+      "id": "1321794",
+      "league": "UEFA Women's Champions League",
+      "sport": "football",
+      "event": "FK Austria Wien vs. FC Bayern München",
+      "home": "FK Austria Wien",
+      "away": "FC Bayern München",
+      "start": "2026-11-19T17:45:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.0319,
+        "draw": 0.0938,
+        "away": 0.8744
+      },
+      "p_first": {
+        "home": 0.0319,
+        "draw": 0.0938,
+        "away": 0.8744
+      },
+      "legs_in_range": [
+        {
+          "key": "ou_3.5_over",
+          "label": "Total goals",
+          "selection": "Over 3.5",
+          "p_market": 0.53,
+          "fair_odds": 1.89
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.665,
+          "fair_odds": 1.5
+        }
+      ],
+      "legs_first": {
+        "ou_3.5_over": 0.53,
+        "ou_4.5_under": 0.665
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.885,
+          "to": 0.875,
+          "relative_change": -0.011
+        },
+        "fetched_at": "2026-11-19T06:53:14.775Z"
+      }
+    },
+    {
+      "id": "1373983",
+      "league": "UAE Pro League",
+      "sport": "football",
+      "event": "Al Ain FC vs. Al Dhafra SSC",
+      "home": "Al Ain FC",
+      "away": "Al Dhafra SSC",
+      "start": "2026-11-19T15:25:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.8623,
+        "draw": 0.0903,
+        "away": 0.0474
+      },
+      "p_first": {
+        "home": 0.8623,
+        "draw": 0.0903,
+        "away": 0.0474
+      },
+      "legs_in_range": [
+        {
+          "key": "ah_home_-1.5",
+          "label": "Handicap",
+          "selection": "Al Ain FC -1.5",
+          "p_market": 0.715,
+          "fair_odds": 1.4
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.785,
+          "fair_odds": 1.27
+        }
+      ],
+      "legs_first": {
+        "ah_home_-1.5": 0.715,
+        "ou_2.5_over": 0.785
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.825,
+          "to": 0.865,
+          "relative_change": 0.048
+        },
+        "fetched_at": "2026-11-19T06:53:15.008Z"
+      }
+    },
+    {
+      "id": "1407320",
+      "league": "Uruguayan Primera División",
+      "sport": "football",
+      "event": "CA Penarol Montevideo vs. Cerro Largo FC",
+      "home": "CA Penarol Montevideo",
+      "away": "Cerro Largo FC",
+      "start": "2026-11-19T19:30:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.6682,
+        "draw": 0.2139,
+        "away": 0.1179
+      },
+      "p_first": {
+        "home": 0.6682,
+        "draw": 0.2139,
+        "away": 0.1179
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "CA Penarol Montevideo",
+          "p_market": 0.6682,
+          "fair_odds": 1.5
+        }
+      ],
+      "legs_first": {
+        "home": 0.6682
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.655,
+          "to": 0.665,
+          "relative_change": 0.015
+        },
+        "fetched_at": "2026-11-19T06:53:15.094Z"
+      }
+    },
+    {
+      "id": "1407321",
+      "league": "Uruguayan Primera División",
+      "sport": "football",
+      "event": "CA Progreso vs. Montevideo City Torque",
+      "home": "CA Progreso",
+      "away": "Montevideo City Torque",
+      "start": "2026-11-19T19:30:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.1634,
+        "draw": 0.2132,
+        "away": 0.6234
+      },
+      "p_first": {
+        "home": 0.1634,
+        "draw": 0.2132,
+        "away": 0.6234
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Montevideo City Torque",
+          "p_market": 0.6234,
+          "fair_odds": 1.6
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Montevideo City Torque or Draw",
+          "p_market": 0.8366,
+          "fair_odds": 1.2
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "Montevideo City Torque",
+          "p_market": 0.8366,
+          "fair_odds": 1.26
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.615,
+          "fair_odds": 1.63
+        }
+      ],
+      "legs_first": {
+        "away": 0.6234,
+        "away_draw": 0.8366,
+        "away_dnb": 0.8366,
+        "ou_3.5_under": 0.615
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.665,
+          "to": 0.625,
+          "relative_change": -0.06
+        },
+        "fetched_at": "2026-11-19T06:53:15.051Z"
+      }
+    },
+    {
+      "id": "1321801",
+      "league": "UEFA Women's Champions League",
+      "sport": "football",
+      "event": "Paris FC vs. HB Køge",
+      "home": "Paris FC",
+      "away": "HB Køge",
+      "start": "2026-11-19T17:45:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.6034,
+        "draw": 0.2133,
+        "away": 0.1834
+      },
+      "p_first": {
+        "home": 0.6034,
+        "draw": 0.2133,
+        "away": 0.1834
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Paris FC",
+          "p_market": 0.6034,
+          "fair_odds": 1.66
+        },
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Paris FC or Draw",
+          "p_market": 0.8167,
+          "fair_odds": 1.22
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Paris FC",
+          "p_market": 0.8167,
+          "fair_odds": 1.3
+        }
+      ],
+      "legs_first": {
+        "home": 0.6034,
+        "home_draw": 0.8167,
+        "home_dnb": 0.8167
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.57,
+          "to": 0.605,
+          "relative_change": 0.061
+        },
+        "fetched_at": "2026-11-19T06:53:15.061Z"
+      }
+    },
+    {
+      "id": "1321820",
+      "league": "UEFA Women's Champions League",
+      "sport": "football",
+      "event": "Arsenal WFC vs. OL Lyonnes",
+      "home": "Arsenal WFC",
+      "away": "OL Lyonnes",
+      "start": "2026-11-19T20:00:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.1967,
+        "draw": 0.2315,
+        "away": 0.5717
+      },
+      "p_first": {
+        "home": 0.1967,
+        "draw": 0.2315,
+        "away": 0.5717
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "OL Lyonnes",
+          "p_market": 0.5717,
+          "fair_odds": 1.75
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "OL Lyonnes or Draw",
+          "p_market": 0.8032,
+          "fair_odds": 1.25
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "OL Lyonnes",
+          "p_market": 0.8032,
+          "fair_odds": 1.34
+        }
+      ],
+      "legs_first": {
+        "away": 0.5717,
+        "away_draw": 0.8032,
+        "away_dnb": 0.8032
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.51,
+          "to": 0.575,
+          "relative_change": 0.127
+        },
+        "fetched_at": "2026-11-19T06:53:15.378Z"
+      }
+    },
+    {
+      "id": "1419094",
+      "league": "ASEAN Club Championship",
+      "sport": "football",
+      "event": "Cong An Ha Noi FC vs. Johor Darul Ta'zim",
+      "home": "Cong An Ha Noi FC",
+      "away": "Johor Darul Ta'zim",
+      "start": "2026-11-19T12:30:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.225,
+        "draw": 0.23,
+        "away": 0.545
+      },
+      "p_first": {
+        "home": 0.225,
+        "draw": 0.23,
+        "away": 0.545
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Johor Darul Ta'zim",
+          "p_market": 0.545,
+          "fair_odds": 1.83
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Johor Darul Ta'zim or Draw",
+          "p_market": 0.775,
+          "fair_odds": 1.29
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "Johor Darul Ta'zim",
+          "p_market": 0.775,
+          "fair_odds": 1.41
+        }
+      ],
+      "legs_first": {
+        "away": 0.545,
+        "away_draw": 0.775,
+        "away_dnb": 0.775
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.555,
+          "to": 0.545,
+          "relative_change": -0.018
+        },
+        "fetched_at": "2026-11-19T06:53:15.290Z"
+      }
+    },
+    {
+      "id": "1407575",
+      "league": "Uruguayan Primera División",
+      "sport": "football",
+      "event": "CA Boston River vs. Deportivo Maldonado",
+      "home": "CA Boston River",
+      "away": "Deportivo Maldonado",
+      "start": "2026-11-19T19:30:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.2667,
+        "draw": 0.2567,
+        "away": 0.4767
+      },
+      "p_first": {
+        "home": 0.2667,
+        "draw": 0.2567,
+        "away": 0.4767
+      },
+      "legs_in_range": [
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Deportivo Maldonado or Draw",
+          "p_market": 0.7334,
+          "fair_odds": 1.36
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "Deportivo Maldonado",
+          "p_market": 0.7334,
+          "fair_odds": 1.56
+        }
+      ],
+      "legs_first": {
+        "away_draw": 0.7334,
+        "away_dnb": 0.7334
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.515,
+          "to": 0.475,
+          "relative_change": -0.078
+        },
+        "fetched_at": "2026-11-19T06:53:15.404Z"
+      }
+    },
+    {
+      "id": "1397646",
+      "league": "Qatar Stars League",
+      "sport": "football",
+      "event": "Al Ahli Doha SC vs. Al-Shamal",
+      "home": "Al Ahli Doha SC",
+      "away": "Al-Shamal",
+      "start": "2026-11-19T15:30:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.3133,
+        "draw": 0.2334,
+        "away": 0.4533
+      },
+      "p_first": {
+        "home": 0.3133,
+        "draw": 0.2334,
+        "away": 0.4533
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Al Ahli Doha SC or Draw",
+          "p_market": 0.5467,
+          "fair_odds": 1.83
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Al-Shamal or Draw",
+          "p_market": 0.6867,
+          "fair_odds": 1.46
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "Al-Shamal",
+          "p_market": 0.6867,
+          "fair_odds": 1.69
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.5467,
+        "away_draw": 0.6867,
+        "away_dnb": 0.6867
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.45,
+          "to": 0.455,
+          "relative_change": 0.011
+        },
+        "fetched_at": "2026-11-19T06:53:15.401Z"
+      }
+    },
+    {
+      "id": "1321816",
+      "league": "UEFA Women's Champions League",
+      "sport": "football",
+      "event": "Sport Lisboa e Benfica vs. AS Roma",
+      "home": "Sport Lisboa e Benfica",
+      "away": "AS Roma",
+      "start": "2026-11-19T20:00:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.4516,
+        "draw": 0.2368,
+        "away": 0.3116
+      },
+      "p_first": {
+        "home": 0.4516,
+        "draw": 0.2368,
+        "away": 0.3116
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Sport Lisboa e Benfica or Draw",
+          "p_market": 0.6884,
+          "fair_odds": 1.45
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "AS Roma or Draw",
+          "p_market": 0.5484,
+          "fair_odds": 1.82
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Sport Lisboa e Benfica",
+          "p_market": 0.6884,
+          "fair_odds": 1.69
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.6884,
+        "away_draw": 0.5484,
+        "home_dnb": 0.6884
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.445,
+          "to": 0.455,
+          "relative_change": 0.022
+        },
+        "fetched_at": "2026-11-19T06:53:15.700Z"
+      }
+    },
+    {
+      "id": "1418922",
+      "league": "Uzbekistan Super League",
+      "sport": "football",
+      "event": "FK Termez Surkhon vs. FC Andijon",
+      "home": "FK Termez Surkhon",
+      "away": "FC Andijon",
+      "start": "2026-11-19T13:00:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.295,
+        "draw": 0.29,
+        "away": 0.415
+      },
+      "p_first": {
+        "home": 0.295,
+        "draw": 0.29,
+        "away": 0.415
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "FK Termez Surkhon or Draw",
+          "p_market": 0.585,
+          "fair_odds": 1.71
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "FC Andijon or Draw",
+          "p_market": 0.705,
+          "fair_odds": 1.42
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "FC Andijon",
+          "p_market": 0.705,
+          "fair_odds": 1.71
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.585,
+        "away_draw": 0.705,
+        "away_dnb": 0.705
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.34,
+          "to": 0.42,
+          "relative_change": 0.235
+        },
+        "fetched_at": "2026-11-19T06:53:15.677Z"
+      }
+    },
+    {
+      "id": "1419091",
+      "league": "ASEAN Club Championship",
+      "sport": "football",
+      "event": "PKR Svay Rieng vs. Port FC",
+      "home": "PKR Svay Rieng",
+      "away": "Port FC",
+      "start": "2026-11-19T12:00:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.4149,
+        "draw": 0.2651,
+        "away": 0.3199
+      },
+      "p_first": {
+        "home": 0.4149,
+        "draw": 0.2651,
+        "away": 0.3199
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "PKR Svay Rieng or Draw",
+          "p_market": 0.68,
+          "fair_odds": 1.47
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Port FC or Draw",
+          "p_market": 0.585,
+          "fair_odds": 1.71
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "PKR Svay Rieng",
+          "p_market": 0.68,
+          "fair_odds": 1.77
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.68,
+        "away_draw": 0.585,
+        "home_dnb": 0.68
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.285,
+          "to": 0.415,
+          "relative_change": 0.456
+        },
+        "fetched_at": "2026-11-19T06:53:15.666Z"
       }
     }
   ]
