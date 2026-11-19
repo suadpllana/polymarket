@@ -1,8 +1,8 @@
 {
   "date": "2026-11-19",
-  "researched_at": "2026-11-19T06:56:25Z",
+  "researched_at": "2026-11-19T06:59:11Z",
   "stage": "morning",
-  "summary": "Researched the evening before (Wed 18 Nov); lineups and starting goalies are not out, so this is a draft until the morning check and the final check. Thursday has EuroLeague Round 13 (the second game of a double week for every team), Swedish SHL and KHL hockey. Every kept game needs a second price that agrees with Polymarket. Eight games were researched; two are medium. Medium: Valencia v Virtus Bologna (Valencia 9-3 and first, at home; Kalshi 80-83% agrees with Polymarket 82%; Mirotic and Reuvers likely out, third game in five days), Fenerbahce at Olimpia Milano (Fenerbahce 3rd at 8-4 against 2-10 Milano; Kalshi agrees at about 64-65%; Melli, Key and Bitim out, which explains the price easing from 70% to 66.5%). Low: Bayern v Baskonia (Bayern themselves 3-9, three players missing on Tuesday, no traded second price), Växjö v Björklöven ($13 market, no second price, coach sacked 1 Nov), Djurgården v Skellefteå, Färjestad v Frölunda and Brynäs v Luleå (starting goalies unknown, no clean second price). Excluded: Metallurg v Traktor (the 'Ural derby'). Tennis needs high confidence and was not researched. Morning check (Thu): Valencia stay medium (injury report unchanged, Kalshi 82-83%). Fenerbahce drop to low: their price fell another 4.5% overnight (0.665 to 0.635) with no news (Melli and Key were already known). Four games added this morning: Al Ain v Al Dhafra medium (3rd v 12th, Bovada about 90%), Peñarol v Cerro Largo medium (a win secures the annual table; Kalshi agrees at 67-68%; Peñarol winless in six, mostly draws), Al Wasl v Hatta low (no team news, unlabelled second price), Tappara v Vaasan Sport low (2 wins in 10, goalies unknown).",
+  "summary": "Researched the evening before (Wed 18 Nov); lineups and starting goalies are not out, so this is a draft until the morning check and the final check. Thursday has EuroLeague Round 13 (the second game of a double week for every team), Swedish SHL and KHL hockey. Every kept game needs a second price that agrees with Polymarket. Eight games were researched; two are medium. Medium: Valencia v Virtus Bologna (Valencia 9-3 and first, at home; Kalshi 80-83% agrees with Polymarket 82%; Mirotic and Reuvers likely out, third game in five days), Fenerbahce at Olimpia Milano (Fenerbahce 3rd at 8-4 against 2-10 Milano; Kalshi agrees at about 64-65%; Melli, Key and Bitim out, which explains the price easing from 70% to 66.5%). Low: Bayern v Baskonia (Bayern themselves 3-9, three players missing on Tuesday, no traded second price), Växjö v Björklöven ($13 market, no second price, coach sacked 1 Nov), Djurgården v Skellefteå, Färjestad v Frölunda and Brynäs v Luleå (starting goalies unknown, no clean second price). Excluded: Metallurg v Traktor (the 'Ural derby'). Tennis needs high confidence and was not researched. Morning check (Thu): Valencia stay medium (injury report unchanged, Kalshi 82-83%). Fenerbahce drop to low: their price fell another 4.5% overnight (0.665 to 0.635) with no news (Melli and Key were already known). Four games added this morning: Al Ain v Al Dhafra medium (3rd v 12th, Bovada about 90%), Peñarol v Cerro Largo medium (a win secures the annual table; Kalshi agrees at 67-68%; Peñarol winless in six, mostly draws), Al Wasl v Hatta low (no team news, unlabelled second price), Tappara v Vaasan Sport low (2 wins in 10, goalies unknown). Two more games checked to lift the odds: City Torque at Progreso low (price fell 6% in 24h with no news, no team news), Straubing at Krefeld low (no second price, goalie problems). The slip stays below 1.70 because no other game reached medium.",
   "games": [
     {
       "id": "1379724",
@@ -274,8 +274,35 @@
     },
     {
       "id": "1410473",
-      "exclude": true,
-      "skipped": true
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.41,
+        "draw": 0,
+        "away": 0.59
+      },
+      "checks": {
+        "team_news": "Straubing: starting goalie Florian Bugl out long-term (lower-body injury); Danjo Leonhardt not available recently; Tyler Madden, Linus Brandl and Moritz Kukuk were not in the lineup vs Frankfurt (Tigers preview, straubing-tigers.de, 18 Nov). Krefeld: no injury list found.",
+        "lineups": "No confirmed lineups or starting goalies. Straubing: Mirko Pantkowski (signed in October) made his first appearance vs Frankfurt, so the Tigers' goalie situation is thin and unsettled. Krefeld: Juha Jatkola and Felix Bick have played most in goal. Starter for either side unconfirmed (key missing fact).",
+        "rotation": "Straubing played Frankfurt (home, 5:1 per the Tigers preview) around the weekend, and next play Sunday 22 Nov 14:00 at home vs Berlin; it is an away trip to Krefeld on Thursday. Krefeld's last results per the preview: 2:4 vs Nürnberg, 0:4 at Munich, 3:4 OT vs Schwenningen. No back-to-back for either side found; travel distance Straubing to Krefeld is long (about 600 km), not confirmed in sources.",
+        "motivation": "DEL regular season, matchday 17. Table (hessenschau.de, 18 Nov 21:21, 16 games each): Straubing 5th with 29 pts, goals 58:46; Krefeld 14th and last with 14 pts, goals 34:53. The Tigers preview lists Krefeld 13th with 17 pts, so the sources disagree on Krefeld's exact points. Both teams still have a full season to play; no hard stakes rule applies.",
+        "form": "Straubing: 5:1 home win vs Frankfurt after a 1:4 loss at Ingolstadt (post Deutschland-Cup break); 29 pts from 16 games. Krefeld: 2:4 Nürnberg, 0:4 Munich, 3:4 OT loss to Schwenningen; goal difference -19 in 16 games. A full last-10 with goals was not found.",
+        "h2h": "Krefeld won the first meeting this season 6:3 in Straubing (opening weekend, Tigers preview). Sportschau lists 62 all-time meetings, Straubing 38 wins, Krefeld 24, goals 187:168. The 6:3 loss earlier is a real caution against a heavy Straubing price.",
+        "odds": "Polymarket (event 1410473): Krefeld 0.385 / Straubing 0.615 now, volume about $28 and liquidity about $2,177 (very thin). 24h history: Straubing 0.625 to 0.615, a 1.6% relative fall, within the 3% threshold. NO second independent price (bookmaker, odds site, Kalshi or dated preview) was found, and no data.odds came with the candidate entry. Per the SECOND PRICE rule this caps the game at low.",
+        "models": "No bookmaker-free rating (net rating, power ranking or model prediction) was found. Only the goal difference gap: Straubing +12 vs Krefeld -19 after 16 games each, and table position 5th vs last.",
+        "venue_weather": "Yayla Arena, Krefeld, Thursday 19 Nov 2026, 19:30 local (18:30 UTC); Krefeld is the home side at its regular arena. Fixture confirmed by the Tigers preview and hessenschau (matchday 17). Indoor, weather irrelevant. Live on MagentaSport."
+      },
+      "reason": "Fixture verified, and Straubing (5th) is clearly stronger on paper than Krefeld (last, goal difference -19), but the game cannot be rated medium: no second independent price was found, the Polymarket market is extremely thin (about $28 volume), neither starting goalie is confirmed, and Straubing's goalie situation is unsettled with Bugl long-term out and Pantkowski only just debuting. Krefeld also beat Straubing 6:3 earlier this season.",
+      "main_risk": "Straubing's goaltending (Bugl out, unproven new goalie) and a one-off hockey upset: Krefeld already won 6:3 in the first meeting, and one game of a two-way OT/SO market is high variance. Starters and the market price are unverified by any second source.",
+      "sources": [
+        "https://www.straubing-tigers.de/tigers-vor-auswaertsspiel-in-krefeld-und-heimduell-mit-dem-deutschen-meister/",
+        "https://www.hessenschau.de/sport/ergebnisse-tabellen/eishockey-102~_matchday-17.html",
+        "https://gamma-api.polymarket.com/events?id=1410473",
+        "https://www.sportschau.de/live-und-ergebnisse/eishockey/deutschland-del/ma12190381/krefeld-pinguine_straubing-tigers/info",
+        "https://www.flashscore.de/news/eishockey-del-nach-funf-niederlagen-krefeld-gelingt-befreiungsschlag-gegen-schwenningen/vXxNZ2t4/"
+      ],
+      "views": {},
+      "prices": []
     },
     {
       "id": "1402981",
@@ -430,8 +457,36 @@
     },
     {
       "id": "1407321",
-      "exclude": true,
-      "skipped": true
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.14,
+        "draw": 0.22,
+        "away": 0.64
+      },
+      "checks": {
+        "team_news": "No injury or suspension report found for either side. Montevideo Portal's last-round preview (referee Javier Feres) and La Diaria's preview list none, and no club or press-conference news was found. Unverified, not confirmed clean.",
+        "lineups": "No predicted XI found from any source (Montevideo Portal, El Observador and La Diaria previews carry none). Only one possible informal sign, nothing on rotation. Lineups unknown.",
+        "rotation": "No fixture-congestion data found. Torque's last two Clausura games are at Racing (Charrúa) and then this one at Progreso. Progreso is already relegated, so a youth-heavy or demotivated side is possible, which favours Torque. No evidence Torque will rotate, since they chase the annual table and the Clausura.",
+        "motivation": "Progreso is already relegated (average table 75 pts, -40, with Danubio per Montevideo Portal and La Diaria) and has no objective. 8th of 16 in Clausura on 20 pts (ESPN), 36 pts and 15th in the annual table. Torque is 2nd in the Anual on 64 pts (Peñarol 66, Maldonado 63), needs a win plus a Peñarol slip (Peñarol v Cerro Largo the same day, Peñarol winless in about 6 weeks). Torque is also on 29 pts, 2nd in the Clausura behind Liverpool (33 pts after 14 games per ESPN), and La Diaria says Torque depends on itself for the Clausura, so a win matters on both fronts. Not a hard exclusion: the favourite has everything to play for.",
+        "form": "Season: Torque 61 GF / 43 GA in 36 games (19W 7D 10L); Progreso 33 GF / 51 GA (10W 6D 20L, -18). Clausura after 14 games: Torque 29 pts (+12), Progreso 20 pts (-2). Last-6 match results were not found, so form is only partly checked.",
+        "h2h": "Progreso 0-0 Torque (Clausura round 1, at Paladino, per search snippet). Torque 2-1 Progreso (10 May 2026, Sportsmole), Torque 5-0 Progreso at the Paladino (1 Nov 2025, hat trick by Neris), also 4-1 at the Paladino in an earlier Apertura game per ESPN snippet. Torque has won most recent meetings, though one 0-0 shows a draw is possible.",
+        "odds": "Polymarket (event volume about $1,409): Progreso 0.163, draw 0.213, Torque 0.623. Favourite was 0.665 24h ago and is 0.625 now (-6% relative); I found no news that explains the fall, so per rule the confidence is low. Kalshi KXURYPDGAME-26NOV19PROTOR: Torque yes bid 0.63 / ask 0.64 (previous trade 0.68, volume 522), draw 0.20 / 0.22, Progreso 0.15 / 0.16, so Kalshi agrees with Polymarket within 1 point but shows the same drop. ESPN/DraftKings close: Torque -210, draw +330, Progreso +425; de-vigged about 0.615 / 0.212 / 0.173 (opened Torque -175 / draw +290 / Progreso +390, so DraftKings also moved toward Torque at close, DK spread -1.5 Torque +130, under 2.5 +125, over 2.5 -175). Second price agrees.",
+        "models": "No ClubElo or Opta figure was fetched. The only bookmaker-free reference found: Sportsmole's model for the May meeting (Torque 51.6% / draw 26.6% / Progreso 21.9%), an older game. Torque is clearly stronger on season goal difference (+18 v -18) and Clausura (+12 v -2).",
+        "venue_weather": "Parque Abraham Paladino, Montevideo (Progreso's home ground, confirmed by ESPN and Montevideo Portal). Kickoff Thu 19 Nov 16:30 local (19:30 UTC). Referee Javier Feres. No weather or pitch information found."
+      },
+      "reason": "Fixture and venue verified: Progreso's own Paladino ground, last Clausura round, not a derby, no coach change found. Progreso is relegated with nothing to play for while Torque needs the win for the annual table and Clausura, so no hard exclusion applies, and Polymarket, Kalshi and DraftKings agree on about 0.62 for Torque. But the favourite's price fell 6% in 24h (0.665 to 0.625, also seen on Kalshi 0.68 to 0.64) with no explanatory news found, and no team news or lineups could be found, so it is rated low per the price-move rule.",
+      "main_risk": "A draw (a relegated side playing freely at home, and Torque lost 4 of its recent meetings with draws possible, one 0-0 this season), plus an unexplained 6% drop in the favourite's price and lineups unknown (Torque may rotate or have absences not yet reported).",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uru.1/scoreboard?dates=20261119",
+        "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXURYPDGAME&status=open",
+        "https://www.montevideo.com.uy/Deportes/Clausura-las-tres-tablas-como-va-el-descenso-y-que-se-juega-cada-club-en-la-ultima-fecha-uc982507",
+        "https://www.montevideo.com.uy/Deportes/Clausura-tres-partidos-abren-este-jueves-la-ultima-fecha-con-la-tabla-Anual-en-pugna-uc982720",
+        "https://ladiaria.com.uy/deporte/articulo/2026/11/se-definen-el-clausura-la-anual-y-los-clasificados-a-copas-internacionales/",
+        "https://www.sportsmole.co.uk/football/uruguayan-primera-division/torque-vs-progreso_game_247728.html"
+      ],
+      "views": {},
+      "prices": []
     },
     {
       "id": "1321801",
