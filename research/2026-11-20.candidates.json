@@ -113,10 +113,10 @@
         "move_24h": {
           "side": "home",
           "from": 0.915,
-          "to": 0.915,
-          "relative_change": 0
+          "to": 0.905,
+          "relative_change": -0.011
         },
-        "fetched_at": "2026-11-20T06:52:56.080Z"
+        "fetched_at": "2026-11-20T18:21:36.568Z"
       },
       "p_live_at": "2026-11-20T06:52:55.544Z"
     },
@@ -214,9 +214,9 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.695,
-          "to": 0.675,
-          "relative_change": -0.029
+          "from": 0.675,
+          "to": 0.715,
+          "relative_change": 0.059
         },
         "rating": {
           "model": "Tennis Abstract Elo",
@@ -237,7 +237,7 @@
             "blend_hard": 0.606
           }
         },
-        "fetched_at": "2026-11-20T06:52:56.016Z"
+        "fetched_at": "2026-11-20T18:21:36.611Z"
       }
     },
     {
@@ -250,9 +250,9 @@
       "start": "2026-11-20T20:00:00.000Z",
       "coverage": 1,
       "p_market": {
-        "home": 0.6534,
-        "draw": 0.2131,
-        "away": 0.1335
+        "home": 0.6634,
+        "draw": 0.2031,
+        "away": 0.1334
       },
       "p_first": {
         "home": 0.6534,
@@ -264,8 +264,8 @@
           "key": "home",
           "label": "Match winner",
           "selection": "Athletic Club",
-          "p_market": 0.6534,
-          "fair_odds": 1.53
+          "p_market": 0.6634,
+          "fair_odds": 1.51
         },
         {
           "key": "home_dnb",
@@ -278,71 +278,78 @@
           "key": "ah_away_+1.5",
           "label": "Handicap",
           "selection": "RCD Espanyol de Barcelona +1.5",
-          "p_market": 0.605,
-          "fair_odds": 1.65
+          "p_market": 0.585,
+          "fair_odds": 1.71
         },
         {
           "key": "ah_away_+2.5",
           "label": "Handicap",
           "selection": "RCD Espanyol de Barcelona +2.5",
-          "p_market": 0.805,
-          "fair_odds": 1.24
+          "p_market": 0.785,
+          "fair_odds": 1.27
         },
         {
           "key": "ou_1.5_over",
           "label": "Total goals",
           "selection": "Over 1.5",
-          "p_market": 0.775,
-          "fair_odds": 1.29
+          "p_market": 0.805,
+          "fair_odds": 1.24
         },
         {
           "key": "ou_2.5_over",
           "label": "Total goals",
           "selection": "Over 2.5",
-          "p_market": 0.535,
-          "fair_odds": 1.87
+          "p_market": 0.585,
+          "fair_odds": 1.71
         },
         {
           "key": "ou_3.5_under",
           "label": "Total goals",
           "selection": "Under 3.5",
-          "p_market": 0.695,
-          "fair_odds": 1.44
+          "p_market": 0.645,
+          "fair_odds": 1.55
         },
         {
           "key": "ou_4.5_under",
           "label": "Total goals",
           "selection": "Under 4.5",
-          "p_market": 0.845,
-          "fair_odds": 1.18
+          "p_market": 0.815,
+          "fair_odds": 1.23
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.535,
+          "fair_odds": 1.87
         },
         {
           "key": "tt_home_1.5_over",
           "label": "Athletic Club goals",
           "selection": "Over 1.5",
-          "p_market": 0.59,
-          "fair_odds": 1.69
+          "p_market": 0.63,
+          "fair_odds": 1.59
         },
         {
           "key": "tt_home_2.5_under",
           "label": "Athletic Club goals",
           "selection": "Under 2.5",
-          "p_market": 0.685,
-          "fair_odds": 1.46
+          "p_market": 0.645,
+          "fair_odds": 1.55
         },
         {
           "key": "tt_away_0.5_over",
           "label": "RCD Espanyol de Barcelona goals",
           "selection": "Over 0.5",
-          "p_market": 0.56,
-          "fair_odds": 1.79
+          "p_market": 0.59,
+          "fair_odds": 1.69
         },
         {
           "key": "tt_away_1.5_under",
           "label": "RCD Espanyol de Barcelona goals",
           "selection": "Under 1.5",
-          "p_market": 0.8,
-          "fair_odds": 1.25
+          "p_market": 0.775,
+          "fair_odds": 1.29
         }
       ],
       "legs_first": {
@@ -354,6 +361,7 @@
         "ou_2.5_over": 0.535,
         "ou_3.5_under": 0.695,
         "ou_4.5_under": 0.845,
+        "btts_yes": 0.535,
         "tt_home_1.5_over": 0.59,
         "tt_home_2.5_under": 0.69,
         "tt_away_0.5_over": 0.555,
@@ -366,9 +374,9 @@
           "to": 0.655,
           "relative_change": -0.015
         },
-        "fetched_at": "2026-11-20T06:52:56.025Z"
+        "fetched_at": "2026-11-20T18:21:36.634Z"
       },
-      "p_live_at": "2026-11-20T06:52:55.544Z"
+      "p_live_at": "2026-11-20T18:21:36.137Z"
     },
     {
       "id": "1329692",
@@ -380,9 +388,9 @@
       "start": "2026-11-20T19:45:00.000Z",
       "coverage": 1,
       "p_market": {
-        "home": 0.4433,
-        "draw": 0.2833,
-        "away": 0.2733
+        "home": 0.4267,
+        "draw": 0.2766,
+        "away": 0.2967
       },
       "p_first": {
         "home": 0.4433,
@@ -394,29 +402,29 @@
           "key": "home_draw",
           "label": "Double chance",
           "selection": "ES Troyes AC or Draw",
-          "p_market": 0.7266,
-          "fair_odds": 1.38
+          "p_market": 0.7033,
+          "fair_odds": 1.42
         },
         {
           "key": "away_draw",
           "label": "Double chance",
           "selection": "Le Havre AC or Draw",
-          "p_market": 0.5566,
-          "fair_odds": 1.8
+          "p_market": 0.5733,
+          "fair_odds": 1.74
         },
         {
           "key": "home_dnb",
           "label": "Draw no bet",
           "selection": "ES Troyes AC",
-          "p_market": 0.7266,
-          "fair_odds": 1.62
+          "p_market": 0.7033,
+          "fair_odds": 1.7
         },
         {
           "key": "ah_away_+1.5",
           "label": "Handicap",
           "selection": "Le Havre AC +1.5",
-          "p_market": 0.78,
-          "fair_odds": 1.28
+          "p_market": 0.795,
+          "fair_odds": 1.26
         },
         {
           "key": "ou_1.5_over",
@@ -429,29 +437,43 @@
           "key": "ou_3.5_under",
           "label": "Total goals",
           "selection": "Under 3.5",
-          "p_market": 0.705,
-          "fair_odds": 1.42
+          "p_market": 0.715,
+          "fair_odds": 1.4
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.565,
+          "fair_odds": 1.77
         },
         {
           "key": "tt_home_0.5_over",
           "label": "ES Troyes AC goals",
           "selection": "Over 0.5",
-          "p_market": 0.78,
-          "fair_odds": 1.28
+          "p_market": 0.775,
+          "fair_odds": 1.29
         },
         {
-          "key": "tt_home_2.5_under",
+          "key": "tt_home_1.5_under",
           "label": "ES Troyes AC goals",
-          "selection": "Under 2.5",
-          "p_market": 0.805,
-          "fair_odds": 1.24
+          "selection": "Under 1.5",
+          "p_market": 0.56,
+          "fair_odds": 1.79
+        },
+        {
+          "key": "tt_away_0.5_over",
+          "label": "Le Havre AC goals",
+          "selection": "Over 0.5",
+          "p_market": 0.7,
+          "fair_odds": 1.43
         },
         {
           "key": "tt_away_1.5_under",
           "label": "Le Havre AC goals",
           "selection": "Under 1.5",
-          "p_market": 0.675,
-          "fair_odds": 1.48
+          "p_market": 0.665,
+          "fair_odds": 1.5
         }
       ],
       "legs_first": {
@@ -461,12 +483,12 @@
         "ah_away_+1.5": 0.78,
         "ou_1.5_over": 0.755,
         "ou_3.5_under": 0.705,
-        "tt_home_0.5_over": 0.78,
-        "tt_home_2.5_under": 0.81,
-        "tt_away_1.5_under": 0.675,
         "btts_yes": 0.555,
+        "tt_home_0.5_over": 0.78,
         "tt_home_1.5_under": 0.55,
-        "tt_away_0.5_over": 0.7
+        "tt_away_0.5_over": 0.7,
+        "tt_away_1.5_under": 0.675,
+        "tt_home_2.5_under": 0.81
       },
       "data": {
         "odds": {
@@ -474,9 +496,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261120",
           "espn_match": "Le Havre AC at Troyes",
           "decimal": {
-            "home": 2.2,
-            "draw": 3.45,
-            "away": 3.3
+            "home": 2.25,
+            "draw": 3.35,
+            "away": 3.25
           },
           "opening": {
             "home": 2.05,
@@ -484,21 +506,21 @@
             "away": 3.35
           },
           "p_devig": {
-            "home": 0.434,
-            "draw": 0.277,
-            "away": 0.289
+            "home": 0.423,
+            "draw": 0.284,
+            "away": 0.293
           },
           "total": 2.5
         },
         "move_24h": {
           "side": "home",
-          "from": 0.435,
-          "to": 0.445,
-          "relative_change": 0.023
+          "from": 0.445,
+          "to": 0.425,
+          "relative_change": -0.045
         },
-        "fetched_at": "2026-11-20T06:52:56.295Z"
+        "fetched_at": "2026-11-20T18:21:36.629Z"
       },
-      "p_live_at": "2026-11-20T06:52:55.544Z"
+      "p_live_at": "2026-11-20T18:21:36.137Z"
     },
     {
       "id": "1415449",
@@ -534,11 +556,11 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.805,
+          "from": 0.77,
           "to": 0.775,
-          "relative_change": -0.037
+          "relative_change": 0.006
         },
-        "fetched_at": "2026-11-20T06:52:56.269Z"
+        "fetched_at": "2026-11-20T18:21:36.818Z"
       }
     },
     {
@@ -575,11 +597,11 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.69,
-          "to": 0.74,
-          "relative_change": 0.072
+          "from": 0.735,
+          "to": 0.745,
+          "relative_change": 0.014
         },
-        "fetched_at": "2026-11-20T06:52:56.176Z"
+        "fetched_at": "2026-11-20T18:21:36.855Z"
       }
     },
     {
@@ -1111,11 +1133,11 @@
       "data": {
         "move_24h": {
           "side": "away",
-          "from": 0.54,
-          "to": 0.565,
-          "relative_change": 0.046
+          "from": 0.535,
+          "to": 0.535,
+          "relative_change": 0
         },
-        "fetched_at": "2026-11-20T06:52:57.177Z"
+        "fetched_at": "2026-11-20T18:21:36.835Z"
       }
     },
     {
@@ -1449,9 +1471,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261120",
           "espn_match": "KVC Westerlo at Cercle Brugge KSV",
           "decimal": {
-            "home": 2.05,
-            "draw": 3.8,
-            "away": 3.25
+            "home": 2.1,
+            "draw": 3.85,
+            "away": 3.1
           },
           "opening": {
             "home": 2,
@@ -1459,11 +1481,11 @@
             "away": 3.1
           },
           "p_devig": {
-            "home": 0.461,
-            "draw": 0.249,
-            "away": 0.291
+            "home": 0.45,
+            "draw": 0.245,
+            "away": 0.305
           },
-          "total": 2.5
+          "total": 3.5
         },
         "move_24h": {
           "side": "home",
@@ -1471,7 +1493,7 @@
           "to": 0.465,
           "relative_change": -0.011
         },
-        "fetched_at": "2026-11-20T06:52:57.811Z"
+        "fetched_at": "2026-11-20T18:21:36.864Z"
       }
     },
     {
@@ -1619,10 +1641,10 @@
         "move_24h": {
           "side": "home",
           "from": 0.835,
-          "to": 0.845,
-          "relative_change": 0.012
+          "to": 0.865,
+          "relative_change": 0.036
         },
-        "fetched_at": "2026-11-20T06:52:58.091Z"
+        "fetched_at": "2026-11-20T18:21:37.063Z"
       }
     },
     {
@@ -2817,7 +2839,7 @@
           "to": 0.565,
           "relative_change": 0.018
         },
-        "fetched_at": "2026-11-20T06:52:59.259Z"
+        "fetched_at": "2026-11-20T18:21:37.079Z"
       }
     },
     {
@@ -2910,11 +2932,11 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.565,
-          "to": 0.555,
-          "relative_change": -0.018
+          "from": 0.58,
+          "to": 0.585,
+          "relative_change": 0.009
         },
-        "fetched_at": "2026-11-20T06:52:59.554Z"
+        "fetched_at": "2026-11-20T18:21:37.112Z"
       }
     },
     {
@@ -2999,11 +3021,11 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.545,
+          "from": 0.555,
           "to": 0.555,
-          "relative_change": 0.018
+          "relative_change": 0
         },
-        "fetched_at": "2026-11-20T06:52:59.447Z"
+        "fetched_at": "2026-11-20T18:21:37.076Z"
       }
     },
     {
@@ -3153,11 +3175,11 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.545,
-          "to": 0.535,
-          "relative_change": -0.018
+          "from": 0.535,
+          "to": 0.555,
+          "relative_change": 0.037
         },
-        "fetched_at": "2026-11-20T06:52:59.558Z"
+        "fetched_at": "2026-11-20T18:21:37.327Z"
       }
     },
     {
@@ -3339,11 +3361,11 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.505,
-          "to": 0.535,
-          "relative_change": 0.059
+          "from": 0.515,
+          "to": 0.515,
+          "relative_change": 0
         },
-        "fetched_at": "2026-11-20T06:52:59.877Z"
+        "fetched_at": "2026-11-20T18:21:37.350Z"
       }
     },
     {
@@ -3567,11 +3589,11 @@
       "data": {
         "move_24h": {
           "side": "away",
-          "from": 0.515,
-          "to": 0.515,
-          "relative_change": 0
+          "from": 0.52,
+          "to": 0.505,
+          "relative_change": -0.029
         },
-        "fetched_at": "2026-11-20T06:53:00.140Z"
+        "fetched_at": "2026-11-20T18:21:37.308Z"
       }
     },
     {
@@ -3616,11 +3638,11 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.555,
-          "to": 0.515,
-          "relative_change": -0.072
+          "from": 0.52,
+          "to": 0.495,
+          "relative_change": -0.048
         },
-        "fetched_at": "2026-11-20T06:53:00.149Z"
+        "fetched_at": "2026-11-20T18:21:37.312Z"
       }
     },
     {
@@ -3669,7 +3691,7 @@
           "to": 0.515,
           "relative_change": 0.02
         },
-        "fetched_at": "2026-11-20T06:53:00.155Z"
+        "fetched_at": "2026-11-20T18:21:37.592Z"
       }
     },
     {
@@ -3787,11 +3809,11 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.54,
-          "to": 0.505,
-          "relative_change": -0.065
+          "from": 0.555,
+          "to": 0.525,
+          "relative_change": -0.054
         },
-        "fetched_at": "2026-11-20T06:53:00.450Z"
+        "fetched_at": "2026-11-20T18:21:37.578Z"
       }
     },
     {
@@ -3836,11 +3858,11 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.44,
-          "to": 0.495,
-          "relative_change": 0.125
+          "from": 0.39,
+          "to": 0.485,
+          "relative_change": 0.244
         },
-        "fetched_at": "2026-11-20T06:53:00.345Z"
+        "fetched_at": "2026-11-20T18:21:37.586Z"
       }
     },
     {
@@ -3950,11 +3972,11 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.475,
-          "to": 0.485,
-          "relative_change": 0.021
+          "from": 0.465,
+          "to": 0.46,
+          "relative_change": -0.011
         },
-        "fetched_at": "2026-11-20T06:53:00.724Z"
+        "fetched_at": "2026-11-20T18:21:37.566Z"
       }
     },
     {
@@ -4000,10 +4022,10 @@
         "move_24h": {
           "side": "home",
           "from": 0.505,
-          "to": 0.485,
-          "relative_change": -0.04
+          "to": 0.535,
+          "relative_change": 0.059
         },
-        "fetched_at": "2026-11-20T06:53:00.766Z"
+        "fetched_at": "2026-11-20T18:21:37.882Z"
       }
     },
     {
@@ -4149,7 +4171,7 @@
           "to": 0.475,
           "relative_change": 0
         },
-        "fetched_at": "2026-11-20T06:53:00.766Z"
+        "fetched_at": "2026-11-20T18:21:37.821Z"
       }
     },
     {
@@ -4267,11 +4289,11 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.47,
-          "to": 0.465,
-          "relative_change": -0.011
+          "from": 0.48,
+          "to": 0.425,
+          "relative_change": -0.115
         },
-        "fetched_at": "2026-11-20T06:53:01.066Z"
+        "fetched_at": "2026-11-20T18:21:37.821Z"
       }
     },
     {
@@ -4360,7 +4382,7 @@
           "to": 0.465,
           "relative_change": -0.011
         },
-        "fetched_at": "2026-11-20T06:53:01.067Z"
+        "fetched_at": "2026-11-20T18:21:37.821Z"
       }
     },
     {
@@ -4421,11 +4443,11 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.445,
-          "to": 0.46,
-          "relative_change": 0.034
+          "from": 0.46,
+          "to": 0.415,
+          "relative_change": -0.098
         },
-        "fetched_at": "2026-11-20T06:53:01.066Z"
+        "fetched_at": "2026-11-20T18:21:38.189Z"
       }
     },
     {
@@ -4487,10 +4509,10 @@
         "move_24h": {
           "side": "away",
           "from": 0.47,
-          "to": 0.465,
-          "relative_change": -0.011
+          "to": 0.435,
+          "relative_change": -0.074
         },
-        "fetched_at": "2026-11-20T06:53:01.327Z"
+        "fetched_at": "2026-11-20T18:21:38.094Z"
       }
     },
     {
@@ -4568,10 +4590,10 @@
         "move_24h": {
           "side": "home",
           "from": 0.475,
-          "to": 0.455,
-          "relative_change": -0.042
+          "to": 0.475,
+          "relative_change": 0
         },
-        "fetched_at": "2026-11-20T06:53:01.338Z"
+        "fetched_at": "2026-11-20T18:21:38.505Z"
       }
     },
     {
@@ -4624,11 +4646,11 @@
       "data": {
         "move_24h": {
           "side": "away",
-          "from": 0.435,
-          "to": 0.455,
-          "relative_change": 0.046
+          "from": 0.455,
+          "to": 0.475,
+          "relative_change": 0.044
         },
-        "fetched_at": "2026-11-20T06:53:01.338Z"
+        "fetched_at": "2026-11-20T18:21:38.087Z"
       }
     },
     {
@@ -4738,11 +4760,11 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.455,
+          "from": 0.45,
           "to": 0.455,
-          "relative_change": 0
+          "relative_change": 0.011
         },
-        "fetched_at": "2026-11-20T06:53:01.658Z"
+        "fetched_at": "2026-11-20T18:21:38.771Z"
       }
     },
     {
@@ -4795,11 +4817,11 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.45,
-          "to": 0.445,
-          "relative_change": -0.011
+          "from": 0.46,
+          "to": 0.415,
+          "relative_change": -0.098
         },
-        "fetched_at": "2026-11-20T06:53:01.618Z"
+        "fetched_at": "2026-11-20T18:21:39.038Z"
       }
     },
     {
@@ -4925,11 +4947,11 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.435,
-          "to": 0.445,
+          "from": 0.43,
+          "to": 0.44,
           "relative_change": 0.023
         },
-        "fetched_at": "2026-11-20T06:53:01.607Z"
+        "fetched_at": "2026-11-20T18:21:38.699Z"
       }
     },
     {
@@ -5314,11 +5336,11 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.435,
+          "from": 0.43,
           "to": 0.425,
-          "relative_change": -0.023
+          "relative_change": -0.012
         },
-        "fetched_at": "2026-11-20T06:53:02.237Z"
+        "fetched_at": "2026-11-20T18:21:38.674Z"
       }
     },
     {
@@ -5372,10 +5394,10 @@
         "move_24h": {
           "side": "home",
           "from": 0.425,
-          "to": 0.42,
-          "relative_change": -0.012
+          "to": 0.415,
+          "relative_change": -0.024
         },
-        "fetched_at": "2026-11-20T06:53:02.260Z"
+        "fetched_at": "2026-11-20T18:21:39.293Z"
       }
     },
     {
@@ -5448,7 +5470,7 @@
           "to": 0.425,
           "relative_change": -0.023
         },
-        "fetched_at": "2026-11-20T06:53:02.246Z"
+        "fetched_at": "2026-11-20T18:21:39.257Z"
       }
     },
     {
@@ -5505,7 +5527,7 @@
           "to": 0.415,
           "relative_change": -0.012
         },
-        "fetched_at": "2026-11-20T06:53:02.249Z"
+        "fetched_at": "2026-11-20T18:21:39.275Z"
       }
     },
     {
@@ -5672,11 +5694,11 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.4,
-          "to": 0.4,
-          "relative_change": 0
+          "from": 0.405,
+          "to": 0.395,
+          "relative_change": -0.025
         },
-        "fetched_at": "2026-11-20T06:53:02.562Z"
+        "fetched_at": "2026-11-20T18:21:39.272Z"
       }
     },
     {
@@ -5729,11 +5751,11 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.425,
-          "to": 0.405,
-          "relative_change": -0.047
+          "from": 0.41,
+          "to": 0.45,
+          "relative_change": 0.098
         },
-        "fetched_at": "2026-11-20T06:53:02.557Z"
+        "fetched_at": "2026-11-20T18:21:39.567Z"
       }
     },
     {
@@ -5834,12 +5856,12 @@
       },
       "data": {
         "move_24h": {
-          "side": "away",
-          "from": 0.46,
-          "to": 0.39,
-          "relative_change": -0.152
+          "side": "home",
+          "from": 0.31,
+          "to": 0.385,
+          "relative_change": 0.242
         },
-        "fetched_at": "2026-11-20T06:53:02.873Z"
+        "fetched_at": "2026-11-20T18:21:39.500Z"
       }
     },
     {
@@ -5884,11 +5906,11 @@
       "data": {
         "move_24h": {
           "side": "away",
-          "from": 0.385,
+          "from": 0.39,
           "to": 0.385,
-          "relative_change": 0
+          "relative_change": -0.013
         },
-        "fetched_at": "2026-11-20T06:53:02.893Z"
+        "fetched_at": "2026-11-20T18:21:39.516Z"
       }
     },
     {
@@ -6055,11 +6077,11 @@
       "data": {
         "move_24h": {
           "side": "home",
-          "from": 0.385,
-          "to": 0.355,
-          "relative_change": -0.078
+          "from": 0.365,
+          "to": 0.36,
+          "relative_change": -0.014
         },
-        "fetched_at": "2026-11-20T06:53:03.167Z"
+        "fetched_at": "2026-11-20T18:21:39.490Z"
       }
     },
     {
@@ -6101,6 +6123,177 @@
           "relative_change": 0.395
         },
         "fetched_at": "2026-11-20T06:53:03.119Z"
+      }
+    },
+    {
+      "id": "1415452",
+      "league": "Valorant",
+      "sport": "esports",
+      "event": "Valorant: QoR vs Oafs (BO3) - VCT Americas Kickoff: North America Swiss Stage",
+      "home": "QoR",
+      "away": "Oafs",
+      "start": "2026-11-20T22:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.33,
+        "draw": 0,
+        "away": 0.67
+      },
+      "p_first": {
+        "home": 0.33,
+        "draw": 0,
+        "away": 0.67
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Oafs",
+          "p_market": 0.67,
+          "fair_odds": 1.49
+        }
+      ],
+      "legs_first": {
+        "away": 0.67
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.495,
+          "to": 0.67,
+          "relative_change": 0.354
+        },
+        "fetched_at": "2026-11-20T18:21:39.812Z"
+      }
+    },
+    {
+      "id": "1332095",
+      "league": "Taça de Portugal",
+      "sport": "football",
+      "event": "FC Porto vs. USC Paredes",
+      "home": "FC Porto",
+      "away": "USC Paredes",
+      "start": "2026-11-20T20:45:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.9095,
+        "draw": 0.0691,
+        "away": 0.0214
+      },
+      "p_first": {
+        "home": 0.9095,
+        "draw": 0.0691,
+        "away": 0.0214
+      },
+      "legs_in_range": [
+        {
+          "key": "ah_home_-1.5",
+          "label": "Handicap",
+          "selection": "FC Porto -1.5",
+          "p_market": 0.745,
+          "fair_odds": 1.34
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.73,
+          "fair_odds": 1.37
+        },
+        {
+          "key": "ou_3.5_over",
+          "label": "Total goals",
+          "selection": "Over 3.5",
+          "p_market": 0.53,
+          "fair_odds": 1.89
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.675,
+          "fair_odds": 1.48
+        },
+        {
+          "key": "ou_5.5_under",
+          "label": "Total goals",
+          "selection": "Under 5.5",
+          "p_market": 0.825,
+          "fair_odds": 1.21
+        }
+      ],
+      "legs_first": {
+        "ah_home_-1.5": 0.745,
+        "ou_2.5_over": 0.73,
+        "ou_3.5_over": 0.53,
+        "ou_4.5_under": 0.675,
+        "ou_5.5_under": 0.825
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.92,
+          "to": 0.905,
+          "relative_change": -0.016
+        },
+        "fetched_at": "2026-11-20T18:21:39.916Z"
+      }
+    },
+    {
+      "id": "1419096",
+      "league": "Primera Federación",
+      "sport": "football",
+      "event": "Villarreal CF B vs. Gimnastic de Tarragona",
+      "home": "Villarreal CF B",
+      "away": "Gimnastic de Tarragona",
+      "start": "2026-11-20T20:00:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.5934,
+        "draw": 0.2382,
+        "away": 0.1684
+      },
+      "p_first": {
+        "home": 0.5934,
+        "draw": 0.2382,
+        "away": 0.1684
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Villarreal CF B",
+          "p_market": 0.5934,
+          "fair_odds": 1.69
+        },
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Villarreal CF B or Draw",
+          "p_market": 0.8316,
+          "fair_odds": 1.2
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Villarreal CF B",
+          "p_market": 0.8316,
+          "fair_odds": 1.28
+        }
+      ],
+      "legs_first": {
+        "home": 0.5934,
+        "home_draw": 0.8316,
+        "home_dnb": 0.8316
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.58,
+          "to": 0.595,
+          "relative_change": 0.026
+        },
+        "fetched_at": "2026-11-20T18:21:39.757Z"
       }
     }
   ]
