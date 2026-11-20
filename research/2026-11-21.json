@@ -1,0 +1,324 @@
+{
+  "date": "2026-11-21",
+  "researched_at": "2026-11-20T21:36:30Z",
+  "stage": "morning",
+  "summary": "Researched the evening before (Fri 20 Nov); lineups are not out, so this is a draft until the morning check and the final check. Saturday is a full football day (Premier League, Bundesliga, Serie A, La Liga, Ligue 1). Every kept game needs a second price; this time a DraftKings drift of 3% or more against the favourite with no news is treated as low (the warning that came before Troyes slipped on 20 Nov). Eight games were researched; four are medium. Medium: Roma at Parma (Roma unbeaten, 27 pts v 8; DraftKings about 73.5%; Svilar, Mancini and Dybala back), Como v Cagliari (5th v 9th, Cagliari lost three straight; DraftKings about 72%), Man City v Fulham (City have beaten Fulham 20 straight times, but lost three league games in a row and have defensive doubts; DraftKings about 68%), Real Madrid v Celta (eight straight wins, Mbappé fit; DraftKings about 82%; Celta draw a lot). Low: Leverkusen v Paderborn, Monaco v Auxerre and Napoli v Torino (DraftKings drifted 3.5-4% against each favourite with no news), Lazio v Lecce (Gattuso announced rotation and DraftKings drifted). Not researched: PSG at Nice, Leipzig at Union, UFC, tennis.",
+  "games": [
+    {
+      "id": "1338750",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.82,
+        "draw": 0.12,
+        "away": 0.06
+      },
+      "checks": {
+        "team_news": "Fixture verified: Sat 21 Nov 2026, 20:00 UTC, Santiago Bernabeu, La Liga matchday 13 (ESPN scoreboard, starting11.com). Madrid out: Rodrygo (ACL and meniscus, back early 2027) and Asencio (tibia stress fracture); Alaba not listed in the reports I read. Internationals back: Mbappe returned from hamstring discomfort (missed Italy-France) without problems and is available; Bernardo Silva (muscle pain, tests cleared an injury) and Tchouameni (right adductor, trained normally Thursday) are expected available; Mendy back from a rectus femoris injury, probably bench; Vinicius has finished his 4-match ban (SI Spanish injury list, Martin's Real Madrid 20 Nov). Coach Mourinho (appointed 11 Jun 2026, so no coaching-change rule) said no serious injuries and 'there are 23 or more players who are going to force me to leave some out of the squad'; he called Celta 'much better than their points tally suggests' (Yahoo/Madrid Universal). Celta: Iglesias (calf) out or doubtful, Starfelt, Nunez, Gonzalez doubtful or out, El-Abdellaoui out after knee surgery, Moriba and Roman listed doubtful or out by different sources; Celta absences are mixed and uncertain. I could not open the realmadrid.com press-conference page (error), so the Mourinho quotes come from Yahoo and Madrid Universal.",
+        "lineups": "Not out yet (about 60 min before kickoff). Two predicted XIs: starting11.com 4-2-3-1 Courtois; Valverde, Huijsen, Konate, Cucurella; Silva, Tchouameni; Guler, Diomande, Bellingham; Mbappe. Martin's Real Madrid (20 Nov): Courtois; Valverde, Konate, Huijsen, Carreras; Camavinga, Guler; Bellingham, Diomande, Vinicius; Mbappe, with possible rest for Silva, Tchouameni and Cucurella and a note that Mourinho may save the strongest XI for the midweek Champions League game vs PSV. That is 2-4 possible changes, not a confirmed heavy rotation (no hard exclusion). Celta predicted (Martin's): Radu; Rodriguez, Lago, Alonso, Rueda, Moriba, Febas, Carreira, Duran; Aspas, Jutgla.",
+        "rotation": "Madrid: Champions League vs PSV midweek (per Martin's preview), so a soft rotation risk; they have won 8 straight in all competitions (23 goals), last league game 3-0 at Valencia, and beat Barcelona 2-1 before the break. Mourinho has said selection is open but nothing confirmed. Celta: I found no European or midweek game confirmed for them; the Mourinho quote mentions their European campaign possibly costing points, so their schedule was not verified.",
+        "motivation": "Table before the game (ESPN standings): Barcelona 12 played 33 pts (+35); Real Madrid 12 played, 10 W 0 D 2 L, 30 pts (+21), 2nd, so 3 behind the leader; Atletico 28; Celta 11th, 12 played, 2 W 7 D 3 L, 13 pts, GD 0, 4 points above the drop zone's edge (Levante 11, Elche 10, Valencia 9, Malaga 5 are below; 18th Elche on 10). Madrid need the points in the title race; Celta are not in a relegation panic but need points. Not a derby, no hard-rule situation.",
+        "form": "Madrid: 5 league wins in a row, 8 in all competitions, only 2 league losses (both away, at Betis and Atletico); Mbappe 13 goals in 12 league games. Celta: 7 draws in 12 league games (4 draws and 1 loss in 5 away games, no away win this season), only 1 win in the last 5 league games including a 3-0 loss to Rayo Vallecano; defensively solid, GD 0. A draw is the real failure mode, and Celta draw often.",
+        "h2h": "Celta won 2-0 at the Bernabeu in Dec 2025 (their only win in Madrid since Nov 2006 per SoccerNews); Madrid won 2-1 at Balaidos in Mar 2026. Madrid were previously unbeaten in 19 meetings before that loss. Celta sit deep and are hard to open up, so a 1-0 or 1-1 is a real path.",
+        "odds": "DraftKings via ESPN (data.odds, source https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261121): Madrid 1.17, draw 8.00, Celta 16.00, de-vigged 0.821 / 0.120 / 0.060, total line 3.5; opened Madrid 1.19, draw 7, Celta 11 (so Madrid shortened slightly, the draw and Celta drifted out). Polymarket 0.844 is about 2.3 points above the DraftKings de-vig, so I lowered p.home to 0.82. Polymarket 24h move: flat at 0.845 all day (price history 24h: 0.845 to 0.845), no move to explain. Polymarket volume about 84,000 USD.",
+        "models": "No ClubElo response (api.clubelo.com returned nothing usable) and data.rating is not present for this club game, so no bookmaker-free rating was obtained. Substitute: Martin's preview predicts 3-0; Madrid GD +21 vs Celta 0 in the table. Models check is not independently verified.",
+        "venue_weather": "Santiago Bernabeu, home game, normal venue. No weather or pitch problem found, but I did not find a forecast for Madrid."
+      },
+      "reason": "Fixture verified, Madrid have the best squad and the better form, Mbappe and the returners (Silva, Tchouameni, Vinicius) look fit, DraftKings agrees within about 2.3 points (0.821 vs 0.844) and the Polymarket price was flat for 24h. No hard exclusion applies: Mourinho has been in charge since June, Madrid are chasing Barcelona, no confirmed rotation. Held at medium because of the draw risk against a deep, draw-heavy Celta, the possible rest ahead of PSV, and no bookmaker-free rating found.",
+      "main_risk": "A draw or a 1-0 / 1-1 result: Celta have 7 draws in 12 games, 4 away draws, a solid defence, and beat Madrid 2-0 at the Bernabeu last December; Mourinho may also rest Silva, Tchouameni, Cucurella or Guler ahead of the PSV Champions League game, and Celta's injury list is unclear. Because of this I give no view on Madrid -1.5, team-goals overs or Over 2.5.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261121",
+        "https://starting11.com/fixtures/real-madrid-vs-celta-vigo",
+        "https://martinsrealmadrid.substack.com/p/real-madrid-celta-vigo-preview",
+        "https://sports.yahoo.com/articles/mourinho-talks-vinicius-endrick-guler-093300171.html",
+        "https://si.com/es-us/lesionados-y-sancionados-del-real-madrid-para-enfrentarse-al-celta-de-vigo-21-11-2026",
+        "https://www.soccernews.com/prediction-real-madrid-vs-celta-vigo/408318",
+        "https://gamma-api.polymarket.com/events?id=1338750"
+      ],
+      "views": {
+        "ah_away_+3.5": 0.76,
+        "ou_5.5_under": 0.83
+      },
+      "prices": []
+    },
+    {
+      "id": "1337870",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.74,
+        "draw": 0.163,
+        "away": 0.097
+      },
+      "checks": {
+        "team_news": "Leverkusen: Rotowire (Fri) says coach Martinez confirmed Kofane (thigh) and Diaby (thigh) available, Kofane possibly as sub first. Bulinews/Yahoo: Tella also expected back, Doue close but behind; Maza (ankle picked up on Algeria duty) doubtful, club hopes he is fit. Sports Mole lists Tella, Terrier and Kofane as out, so sources conflict. Paderborn: only Gayret (knee, out to January) per Sports Mole. No Kettemann press-conference injury list found. Coach Martinez (appointed June 2026) says Paderborn are well prepared and Leverkusen must be strong at the back; Kettemann says it is a demanding away game with focus on defending. Maza's fitness and which internationals returned late are not confirmed.",
+        "lineups": "Predicted (not official; lineups come out ~60 min before kickoff). Bundesliga.com 4-2-3-1: Flekken; Gutierrez, Medina, Tapsoba, Quansah; Aleix Garcia, E. Fernandez; Moreira, Maza, Diaby; Schick. Sports Mole: same names (Diaby, Maza, Moreira behind Schick). Paderborn 3-3-2-2/3-5-2: Noll; Hansen, Scheller, ter Horst; Curda, Baack, Castaneda, Obermair, Vidovic; Pieringer, Marino. Both outlets agree on the core, Maza is the open question.",
+        "rotation": "No European or cup game in the window; the match follows the international break. Leverkusen last played the 2-1 win at Koln (Schick's 8th league goal), before that a 4-2 home loss to Stuttgart and a 3-0 loss at Hoffenheim. No rotation signal; Paderborn run about 122 km per game, 2nd highest in the league.",
+        "motivation": "Table before the game: Leverkusen 5th, 16 pts from 9 (5W 1D 3L, 20:17), 5 points behind Bayern/Dortmund; Paderborn 13th, 10 pts (2W 4D 3L, 8:11), 3 points above the play-off place, so both sides need the points. Not a derby; the favourite has not secured anything, so no hard exclusion. Head coaches: Martinez since June, Kettemann long in post (no change in the last 7 days).",
+        "form": "Leverkusen league last six W W W L L W; leaky at home lately (4-2 vs Stuttgart, 3-0 at Hoffenheim, 17 goals conceded in 9 games), but won their first five home games. Paderborn W L D W D D, unbeaten in 4 (club record equalled in the Bundesliga), only one away loss all season, 11 conceded in 9 (best start of their top-flight history) but only 8 scored in 9, 2-2 draw with Frankfurt last time. Sources: Bundesliga.com, beIN Sports, Sports Mole. No xG found.",
+        "h2h": "Leverkusen have never lost to Paderborn in 7 meetings (6W 1D), including a 3-1 DFB-Pokal win at the BayArena (Bulinews listing). Paderborn are a deep, compact, high-running side with little scoring; the likely path to a Leverkusen non-win is a low-scoring 0-0/1-1.",
+        "odds": "DraftKings via ESPN (https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121): home 1.26, draw 6.0, away 8.0, total 3.5, de-vigged home 0.732, draw 0.153, away 0.115. The opening line was home 1.21, draw 6.5, away 8.0, so the home price has drifted out (implied about 0.826 to 0.794 raw, a fall of about 4% relative). Polymarket over the same period: 0.765 to 0.775 over 24h (+1.3%), so the two sources move in opposite directions and I found no news explaining the DK drift; Kofane/Diaby/Tella return news is positive for Leverkusen, Maza doubt is the only negative. Polymarket volume about $10.9k on the event (home market about $2.3k), liquidity about $305k, so the market is thin. DK de-vigged home is 4 points below Polymarket, hence my p.",
+        "models": "No bookmaker-free rating retrieved (ClubElo returned nothing and candidate data has no rating for club games). Sports Mole's model page gives 58.7% / 22.97% / 18.29% and predicts 2-0 (method unknown, lower than the market). I treat this as a gap and shade the home price down 3-4 points.",
+        "venue_weather": "BayArena, Leverkusen, normal home venue, Sat 21 Nov 14:30 UTC. No weather or pitch problem found, but I did not locate a specific forecast."
+      },
+      "reason": "Verified Bundesliga matchday 10, Leverkusen at home against a mid-table side, no hard exclusion. The favourite's price is supported by the return of Diaby and Kofane, but Leverkusen's defence is leaky, Maza is doubtful, and Paderborn are in record form with the best defensive start of their top-flight history. DraftKings is 4 points below Polymarket on the home win and no rating model was retrieved, so I shade p below the market and rate it medium. Set to low at review: DraftKings lengthened Leverkusen from 1.21 to 1.26 (about 4% against the favourite) with no news found to explain it, the same warning sign that preceded Troyes slipping on 20 Nov; the morning check can restore medium only if the move is explained or reversed.",
+      "main_risk": "A draw (0-0 or 1-1): Paderborn defend deep, concede little, run a lot and are unbeaten in 4, while Leverkusen have conceded 17 in 9 and lost 2 of the last 3 league games; Maza's ankle and returning players' match fitness are unconfirmed, and DraftKings drifted from 1.21 to 1.26 without a clear explanation.",
+      "sources": [
+        "https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/10/bayer-04-leverkusen-vs-sc-paderborn-07/liveticker",
+        "https://www.bundesliga.com/en/bundesliga/table",
+        "https://www.sportsmole.co.uk/football/bayer-leverkusen/preview/b-leverkusen-vs-sc-paderborn-prediction-team-news-lineups_609418.html",
+        "https://www.beinsports.com/en-nz/football/bundesliga/articles/leverkusen-wary-of-paderborn-s-threatening-form-2026-11-20",
+        "https://bulinews.com/key-trio-expected-back-for-leverkusen-clash-paderborn",
+        "https://www.rotowire.com/soccer/headlines/christian-kofane-news-cleared-to-return-against-paderborn-547477",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121",
+        "https://gamma-api.polymarket.com/events?id=1337870"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1336242",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.09,
+        "draw": 0.16,
+        "away": 0.75
+      },
+      "checks": {
+        "team_news": "Roma squad of 21 named Fri 20 Nov (Corriere dello Sport, Forzaroma, RomaForever): Svilar (foot), Mancini and Dybala (about a month out) and Gollini (back) are back and fit per Gasperini's press conference ('recuperati', titolari 'direi di sì'; Dybala's stamina still to be tested). Out: Pellegrini (not before 2027), Rensch (close, expected for Wed's PSG game). Vasquez not in the list. Gasperini called it a 'partita trappola' and said he does not trust Parma or the post-break period. Parma: Romero (shoulder) and Diego Carlos (muscle) are reported out by one preview; Fantamaster still lists Diego Carlos in its XI, so that is unclear. A suspension for Ndiaye appears in some sources. Gilardino has not given a vigilia press conference that I could find.",
+        "lineups": "Expected Roma 3-4-2-1: Svilar; Mancini/Balerdi, N'Dicka, Hermoso; Molina or Wesley, Cristante, Kone, Wesley/Lulli; Soule, Dybala or Mora; Malen. Sources (SportParma/RomaToday/Fantamaster via search) agree on no defensive turnover; the open question is Dybala starting (probably limited minutes) vs Mora/Pisilli. Expected Parma 3-5-2 (Fantamaster): Daffara; Delprato, Troilo, Diego Carlos; Britschgi/Cremaschi, Keita, Sierro, Fabbian, Valeri; Lontani, Toure (Elphege alt). Not official; XIs come about an hour before kick-off.",
+        "rotation": "Roma play PSG in the Champions League on Wednesday 25 Nov, which is the main soft risk. Roma's last game was 3-0 vs Sassuolo on 7 Nov, then the international break, so they are rested for this one. Reports on the squad and Gasperini's comments do not mention rotation plans, and Rensch is the only player singled out for the PSG game. Parma also come off the break (last game 1-2 vs Bologna on 7 Nov).",
+        "motivation": "Table after 11 rounds: Lazio 29, Inter 28, Roma 27 (8W 3D 0L, 31 GF 10 GA, unbeaten), Parma 16th on 8 pts (2W 2D 7L, 9 GF 17 GA), so they are in the relegation fight. Roma are chasing the top and have nothing secured; Parma need points more but there is no hard rule hit.",
+        "form": "Roma last five (rounds 7-11): W D W W W, with 3-0 vs Sassuolo on 7 Nov; unbeaten in the league. Parma last five: L L D W L, scoring only 9 goals in 11 games (0.8 per game), most recently lost 2-1 at Bologna. Gasperini mentions a recent 3-0 win at Atalanta (the one win in that run), which is why he calls it a trap. I did not find Parma's home split or xG figures.",
+        "h2h": "Last meeting in the sources: Parma 2-3 Roma on 10 May 2026 (single source, BetMines; Malen scored for Roma, Strefezza for Parma). Parma conceded 3 at home to Roma then, so both teams scoring is plausible. Roma are a high-possession, high-scoring side (2.8 goals per game this season) against a low-scoring Parma.",
+        "odds": "Polymarket live: Parma 0.0835, draw 0.153, Roma 0.7635. Its 24h move is flat (0.765 to 0.765, 0%), so no price flag. Market volume read from gamma-api is about 3,167, which is thin. DraftKings via ESPN ita.1 (data.odds): 9.5 / 5.5 / 1.26, opening 7.5 / 4.8 / 1.31; de-vigged 0.097 / 0.168 / 0.735, total line 3.5. DraftKings has drifted toward Roma since the open (1.31 to 1.26). The independent price is about 3 points below Polymarket on Roma and 1.5 points above it on the draw, so they agree within 5 points; my p sits between them.",
+        "models": "No bookmaker-free rating: candidates data has no rating for this game and ClubElo was unreachable from here. The substitute is the season record: Roma goal difference +21 in 11 games against Parma -8, 27 pts vs 8. Not an Elo or Opta model.",
+        "venue_weather": "Stadio Ennio Tardini, Parma, normal home venue, 18:00 local (17:00 UTC) on Saturday 21 Nov. I did not check the weather forecast and found no pitch or weather problem. Parma's coach Gilardino was appointed 29 Sep 2026 (about 52 days ago), so no hard coach rule applies."
+      },
+      "reason": "Roma are 27 pts from 11 unbeaten against a Parma side with 8 pts and 9 goals scored, and the key players (Svilar, Mancini, Dybala) are back after the break. Polymarket 0.7635 and DraftKings 0.735 de-vigged agree within about 3 points. The Roma win is backed at slightly below the market price (0.75).",
+      "main_risk": "A draw or upset after the break: Parma are in a relegation fight, Gasperini himself calls it a 'partita trappola', and Dybala is coming back after a month out (expected limited minutes). Roma's Champions League game vs PSG on Wednesday is a soft rotation risk. The DraftKings draw price is higher than Polymarket's (0.168 vs 0.153). Lineups are not out yet, and Parma's own injuries and Ndiaye's suspension status are unclear. I did not give a view on AH -1.5, +2.5, Over 2.5 or the Parma goals leg because a one- or two-goal Roma win, or a Parma blank, is the likely failure.",
+      "sources": [
+        "https://www.corrieredellosport.it/news/calcio/serie-a/roma/2026/11/20-152704714/gasperini_ritrova_svilar_mancini_e_dybala_i_convocati_per_parma-roma",
+        "https://www.calcionews24.com/gasperini-conferenza-stampa-vigilia-parma-roma-serie-a-2026-27-parole/",
+        "https://www.fantamaster.it/probabili-formazioni-parma-roma-seriea-2026-2027-notizie-fantacalcio/",
+        "https://www.bloooog.it/2026/11/07/serie-a-11-giornata-2026-2027-risultati-classifica-tabellini/",
+        "https://www.romaforever.it/2026/11/20/parma-roma-gasperini-sorride-tornano-quattro-giallorossi-tra-i-convocati-due-assenze-per-il-tardini/",
+        "https://www.lapresse.it/calcio/2026/09/29/gilardino-e-il-nuovo-allenatore-del-parma/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261121"
+      ],
+      "views": {
+        "ou_4.5_under": 0.75,
+        "ah_home_+3.5": 0.82,
+        "tt_away_3.5_under": 0.74
+      },
+      "prices": []
+    },
+    {
+      "id": "1336213",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.72,
+        "draw": 0.18,
+        "away": 0.1
+      },
+      "checks": {
+        "team_news": "Como: Kean (long-term), Jesus Rodriguez, Addai and Diao out; Chalobah recovered at best for the bench (pazzidifanta, 20 Nov). Perrone and Nico Paz were reported with Argentina; Paz still in the probable XI, but his and Perrone's return and fitness are unconfirmed. Da Cunha rejoined Thursday after an extra day off. Cagliari: Obert and Fadera back in training; Mina partial; Winks and Sherri individual work; Liteta, Juan Rodriguez and Sugawara away on international duty; Mendy back from Senegal and training with the group (tuttomercatoweb). No suspensions found. Fabregas's press conference for this game not found, so his words are unverified.",
+        "lineups": "Pazzidifanta probable Como 4-2-3-1: Butez; Couto, Ramon, Kempf, Kaiki; Milla, Ricci; Liberali, Paz, Baturina; Douvikas. Cagliari XI unconfirmed (only a headline mentioning Trepy, Mendy, Maldini; Kaiki doubt noted). Only one reliable outlet read for Como, so predicted XIs are thin.",
+        "rotation": "Como's last listed game was a 3-1 win at Torino on 27 Oct, then the international break; no cup or European match, so rest is fine. The weakness is the international returnees (Paz, Perrone) arriving late. Cagliari also have no midweek game.",
+        "motivation": "ESPN standings after 11 games: Como 5th (23 pts, GD +8), Cagliari 9th (16 pts, GD -5). Como still chase the top four, with Milan 4th on 24. Cagliari are mid-table, 6 points clear of the bottom three, so there is no hard-rule situation and the favourite has plenty to play for.",
+        "form": "Como's recent league results (ESPN schedule): W 3-1 at Torino, W 2-0 Sassuolo, W 3-1 at Fiorentina, 0-0 Roma at home, L 0-2 at Frosinone, W 2-1 Parma, W 4-1 at Genoa, W 2-1 at Napoli. Cagliari: L 2-4 at Roma, L 0-2 Bologna, L 0-4 at Monza, D 1-1 Juventus, then three 1-0/2-1 wins in September. Cagliari have lost three straight and conceded 10 in them.",
+        "h2h": "Como won 2-1 at Cagliari in March 2026 (comofootball.com). Earlier Como home games against Cagliari were also Como wins, but the legaseriea figures I read are last-season data with no date, so I do not rely on them. This is a new-season match-up, and Fabregas and Pisacane have met before.",
+        "odds": "DraftKings via ESPN (ita.1): Como 1.29, draw 5.25, Cagliari 8.50 (opening 1.31/4.90/7.50), de-vigged 71.6/17.5/10.8, total line 3.5. Polymarket Como is 0.755-0.757, about 4 points above the de-vigged DraftKings price. The Polymarket 24h move is flat (0.755 to 0.755, no relative change). Cagliari drifted slightly from 7.5 to 8.5 and the draw from 4.9 to 5.25, so the book moved with Como. Polymarket volume is about $4.1k on the event, roughly $3.5k on the Como-win market, which is thin. My p of 0.72 sits on the bookmaker price.",
+        "models": "No ClubElo or Opta page was read tonight (no rating in data). The table gap (+8 vs -5 goal difference, 7 points) and the DraftKings price are the only rating evidence, so models is a weak check.",
+        "venue_weather": "Stadio Sinigaglia, Como, Saturday 21 Nov, 15:00 local (14:00 UTC). A normal home game; no weather or pitch problem found, though I did not read a forecast."
+      },
+      "reason": "Como are the clear favourite at home, in 5th place against a 9th-placed Cagliari side that has lost three in a row with a poor defence. The market price is about 4 points above DraftKings, so I cut p to the bookmaker level. Confidence is medium and not high: Como are missing four players, Paz and Perrone are only just back from Argentina, and neither Fabregas's press conference nor a second predicted XI was found. At review the over 1.5 goals view was dropped: the main risk named is a low-scoring game (0-0, 0-1).",
+      "main_risk": "A draw or a narrow loss. Como are thin up front without Kean, Rodriguez, Addai and Diao, and the jet-lagged Argentina pair may be rested or dull. Como already drew 0-0 at home with Roma and lost 0-2 at Frosinone this season. Their lowest-scoring results were 0-0 and 0-2, so a low-scoring game is the real way the favourite fails.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261121",
+        "https://site.api.espn.com/apis/v2/sports/soccer/ita.1/standings",
+        "https://www.pazzidifanta.com/news/como-filtra-cagliari-fabregas-recupera-chalobah-probabile-formazione-seriea-news-2026-2027-460745",
+        "https://www.tuttomercatoweb.com/serie-a/cagliari-mendy-ultime-infortunati-como-mina-fadera-2295111",
+        "https://gamma-api.polymarket.com/events?id=1336213"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1427547",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1335820",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1335821",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1336238",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.665,
+        "draw": 0.2,
+        "away": 0.135
+      },
+      "checks": {
+        "team_news": "Lazio out: Nuno Tavares, Marusic (minor setback), Sutalo (all in rehab; Gattuso reassesses next week) and Zaccagni (swelling, decision next week). Frattesi is back from the international break with a minor knock, trained all week and is available. Gudmundsson (shoulder) and Rovella available; Cataldi missed one session, nothing serious. The Danish internationals returned the day after their match. No suspensions or yellow-card risks for either side (Lazionews 20 Nov 21:14, Sky Sport and Il Messaggero Gattuso press conference of 20 Nov). Lecce: Ilic and Pierotti out; Monteiro and Berisha back from individual training and called up (26 called up); Camarda to be assessed on the day (Tuttosport, Lazionews, Calcio Lecce 20 Nov).",
+        "lineups": "Expected XIs are not confirmed. Lazionews (20 Nov) has Lazio 4-3-3: Mandas; Floriani Mussolini, Leite, Provstgaard, Pedraza; Dele-Bashiru, Belahyane, Taylor; Isaksen, Pinamonti, Noslin. Fantamaster (18 Nov) has Doekhi in for Provstgaard and Frattesi in midfield. The defence and midfield differ by source and Gattuso named no XI. Lecce: 4-3-3 with Falcone; Veiga, Gaspar, Gabriel, Gallo; Coulibaly, Ngom, Maleh; N'Dri, Stulic, Fatah (Lazionews), or 3-5-1-1 with Geubbels and Fatah (Fantamaster). Di Francesco said Monteiro can start.",
+        "rotation": "Lazio's last game before the break was 1-1 at Napoli on 8 Nov. They went out of the Coppa Italia to Mantova (Lazio Family results 14-18 Nov), so there is no midweek game. The main soft risk is Gattuso's own words: several players who have had little game time will start from the first minute, and he said he will have to rotate (Laziostory, Gold TV 20 Nov). Frattesi and the Danish internationals came back from the break. A derby is next but has no confirmed date in my sources, and Gattuso said it is not on his mind. Lecce took 7 of 10 points away from home and have no stated rotation.",
+        "motivation": "Lazio are first in Serie A with 29 points, one ahead of Inter and two ahead of Roma (365scores). They are unbeaten and want a win to hold first place. Lecce are 14th with 10 points and need points to stay clear of the bottom. Both sides have something to play for, so no hard exclusion applies.",
+        "form": "Lazio: 9W 2D 0L, unbeaten (365scores). Recent results: 2-1 v Cagliari (1 Nov), 1-1 at Napoli (8 Nov) after six straight league wins. They have the league's best defence with 9 conceded in 11. Away from home they scored 12 and conceded 3 in their last 4, but at home 9 scored and 5 conceded in their last 4. They have 11 first-half goals in their last 8. Lecce: 3W 1D 7L, recent form D-L-L-L-W, 12 scored and 22 conceded in 11. The Coppa Italia loss to Mantova shows Lazio can slip when they rotate. I found no xG data.",
+        "h2h": "I did not find recent h2h results in the sources I read, so I am not relying on it. Sarri's older Lazio-Lecce results (2023-24) are not informative with new coaches on both sides. Lecce are well drilled and dangerous on set pieces (Gattuso).",
+        "odds": "DraftKings via ESPN (https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261121): Lazio 1.38, draw 4.70, Lecce 7.00, de-vigged 0.671 / 0.197 / 0.132. The line opened at 1.32 and has drifted out to 1.38, which is a small move away from Lazio. Polymarket 0.704 / 0.183 / 0.114 sits about 3 points above the de-vigged DraftKings price on the favourite. Other Italian books quote Lazio around 1.35-1.40, draw 4.80, Lecce 6.75, over 2.5 at 1.55-1.63 and both teams to score 1.82-1.90 (Spaziocalcio, Agimeg, WebPronostici snippets). The DraftKings total is 2.5. Polymarket 24h move: 0.705 to 0.705, flat. Polymarket event volume is about 42.6k (Lazio win market about 31.6k, Lecce win about 10.8k, draw market about 0.16k), so the draw price is thin.",
+        "models": "No ClubElo or other bookmaker-free rating was retrievable tonight (the ClubElo API returned nothing, and candidates data.rating is absent for clubs). The proxy is the table and goals record: Lazio 1st with the best defence (0.82 goals conceded per game against a 1.55 league average), Lecce 14th conceding 2.0 per game.",
+        "venue_weather": "Stadio Olimpico, Rome, Saturday 21 Nov, 15:00 local (14:00 UTC), live on DAZN, referee Marcenaro. This is Lazio's normal home ground with no unusual venue. I found no reports of weather or pitch problems, but I did not check a forecast."
+      },
+      "reason": "Lazio are the clear table-topper and the best defence against a weak 14th-placed side, and the market is in line with DraftKings at 0.67 to 0.70. I lowered the home win p to 0.665, near the DraftKings de-vig, because of the stated rotation (Gattuso: those who played little will start), the Frattesi/Zaccagni/Danes post-break doubts, and Lazio's 9 goals conceded at home in recent games being less tight than away. No hard rule applies: Gattuso is not new, the fixture is not a derby, the venue is normal, and neither side has nothing left to play for. Confidence is medium because there is no bookmaker-free rating and the XI is not confirmed. Set to low at review: Gattuso said several players with little game time will start (rotation announced by the coach), and DraftKings lengthened Lazio from 1.32 to 1.38 (about 4% against the favourite). News that hurts the favourite plus a price move against it is a low under the rules.",
+      "main_risk": "A draw or a narrow 1-0 or 1-1 result against a well-organised Lecce, which is dangerous on set pieces, while Lazio rotate several fringe players (Gattuso said so) after the break and the 0-0 or 1-1 home draw-type games. Their Coppa Italia loss to Mantova shows the cost of rotating.",
+      "sources": [
+        "https://www.lazionews.eu/notizie/probabili-formazioni-lazio-lecce/",
+        "https://www.365scores.com/it/news/serie-a/lazio-lecce-la-capolista-all-olimpico-senza-quattro-titolari/",
+        "https://www.fantamaster.it/probabili-formazioni-lazio-lecce-12-giornata-seriea-2026-2027/",
+        "https://sport.sky.it/calcio/serie-a/2026/11/20/lazio-lecce-gattuso-conferenza-video",
+        "https://www.laziostory.it/2026/11/20/lazio-lecce-gattuso-pensiamo-solo-a-domani-frattesi-regolarmente-a-disposizione/",
+        "https://www.tuttosport.com/news/calcio/serie-a/lecce/2026/11/20-152700626/di_francesco_la_lazio_ha_entusiasmo_mi_si_chiude_lo_stomaco_prima_di_ogni_gara_monteiro_ci_sar",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261121",
+        "https://gamma-api.polymarket.com/events?id=1336238"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1337800",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.67,
+        "draw": 0.19,
+        "away": 0.14
+      },
+      "checks": {
+        "team_news": "Sports Mole (20 Nov, updated evening): City out Antoine Semenyo (knee); doubtful Matheus Nunes and Abdukodir Khusanov (knock). SixSports (20 Nov): Guehi (hip) a major doubt, Gvardiol a fitness doubt, Semenyo out until about 19 Dec. Another preview says Guehi came off against Nottingham Forest and missed England duty. Fulham out: Emile Smith Rowe (hip) and Benjamin Lecomte (Achilles); Tom Cairney (knee) doubtful; Joshua King's knock not serious. I found no Maresca Friday press-conference text and no list of which internationals returned with knocks, so City's defensive availability is unconfirmed.",
+        "lineups": "Sports Mole predicted City XI: Donnarumma; Lewis, Dias, Guehi, Gvardiol; Anderson, Bouaddi; Ndiaye, Cherki, Doku, Haaland. SixSports predicted City XI (4-2-3-1): Donnarumma; Khusanov, Dias, Guehi, Gvardiol; Enzo Fernandez, Anderson; Ndiaye, Cherki, Doku; Haaland. The two outlets differ at full-back and midfield, which fits the defensive doubts. Fulham (Sports Mole): Leno; Castagne, Affengruber, Bassey, Robinson; Berge, Charles; Bobb, King, Iwobi; Garcia. SixSports has Muniz up front instead of Garcia. Official lineups are not out.",
+        "rotation": "The international break just ended, so City have had a full week without a game. Their last league game was the 3-1 loss at Nottingham Forest on 7 Nov. Fulham drew 1-1 with Newcastle on 7 Nov. No midweek European game was found for either side, and no rotation signal. I could not check whether the Champions League played any part.",
+        "motivation": "League positions for this game were not found. Fulham are reported in 15th on 10+ points (Flashscore, after the Newcastle draw). City have lost three straight league games after seven straight wins, so they need points. Neither side has a hard-rule situation. Not checked in detail: City's exact gap to the leaders.",
+        "form": "City: three straight league defeats (the last 3-1 at Forest, trailing 2-0 by the 18th minute). Maresca said they are 'conceding too many goals'. This is their first three-game losing run since a four-game run in Nov/Dec 2024, before which they had won seven in a row. Fulham under Arbeloa (appointed in the summer, so no coach-change rule applies) are unbeaten in four league games (2W 2D), including the 1-1 draw with Newcastle on 7 Nov. xG not found.",
+        "h2h": "Sports Mole says Fulham are seeking to end a record 20-game losing run against City. The most recent meeting I could confirm was Feb 2026, a 3-0 City win. Draws against City are rare in this sequence.",
+        "odds": "DraftKings via ESPN: home 1.39, draw 5.25, away 7.00 (opening 1.40 / 5.00 / 6.50), de-vigged 0.683 / 0.181 / 0.136, total 3.5. Polymarket: City 0.705, draw 0.175, Fulham 0.125. Polymarket 24h move is flat (data.move_24h 0.705 to 0.705). Polymarket event volume is about 52,900. The two sources agree within about 2 points. The Fulham line drifted slightly shorter (6.5 to 7.0 is longer; draw 5.0 to 5.25), with no sign of a fall in City's price.",
+        "models": "No bookmaker-free rating was available: data.rating is absent and the ClubElo fetch returned HTTP 503. This check is unfilled and rests on the market only.",
+        "venue_weather": "Etihad Stadium, Manchester, a normal home venue at 12:30 UTC. I did not find a weather forecast or any pitch problem, and nothing suggests either."
+      },
+      "reason": "City are clear favourites in the market and in DraftKings, and have beaten Fulham 20 straight times. The price is stable. There is no hard-rule problem: Maresca has been City's coach since the summer, Arbeloa has been Fulham's coach since the summer, and it is a normal home fixture. The reasons for caution are real, though: three straight City league defeats, a leaky defence with Guehi a major doubt and Gvardiol, Khusanov and Nunes also uncertain, and Fulham in a four-game unbeaten run. Because key facts (Maresca's press conference, the table, ratings) stayed missing, I trimmed City's p from the market and rated it medium rather than high. At review the goals and handicap views were dropped: the main risk named is a draw or upset behind a weakened back line, so only the result leg is used.",
+      "main_risk": "A City draw or upset caused by a weakened, shaky back line (Guehi, Gvardiol, Khusanov, Nunes all in doubt) after three straight league defeats, against a Fulham side unbeaten in four. Fulham scoring first would make a draw the most likely failure. The Maresca press-conference update, internationals' fitness, league table and a rating model were not verified.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/man-city/injury-news/team-news/man-city-vs-fulham-injury-suspension-list-predicted-xis_609369.html",
+        "https://sixsports.in/manchester-city-vs-fulham-predicted-lineups-team-news-injuries/",
+        "https://www.soccernews.com/maresca-wants-balance-amid-man-citys-losing-run/407813/",
+        "https://www.flashscore.co.uk/news/munoz-on-target-as-fulham-rescue-point-against-wobbly-newcastle/Qa1Cfekg/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121",
+        "https://gamma-api.polymarket.com/events?id=1337800"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1335825",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1386144",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1337892",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.65,
+        "draw": 0.2,
+        "away": 0.15
+      },
+      "checks": {
+        "team_news": "Monaco (coach Filipe Luis, press conference Fri 20 Nov, asmonaco.com): out Stanis Idumbo, Ansu Fati (hamstring, until the holidays) and Aleksandr Golovin (right calf, 2-3 weeks per eurofootnews, Luis gave no timeline); Christian Mawissa has a pubalgia problem, not 100%, decision on match day. Several internationals are back and will be assessed in training; the coach said the best-form player plays. Mamadou Coulibaly's suspension for his goal celebration only applies from the next matchday, so he is available (eurofootnews). Mika Biereth was not even called up for Le Mans. Auxerre (coach Will Still): Danny Namaso out (swollen ankle), Fredrik Oppegard doubtful (missed early-week training), also absent Okoh, Dioussé, Fofana, Cissokho, Zaddy (eurofootnews, ICI). No Auxerre press conference text was readable on aja.fr.",
+        "lineups": "No official XI yet (comes 1h before the 19:45 UTC kickoff). Eurofootnews expected Monaco: Hradecky; Vanderson, Sané, Dier, Nazinho; Camara, Zakaria; Coulibaly, Abline, Detourbet; Brunner. Auxerre: Nardi; Tuanzebe, Diomandé, Akpa; Senaya, Ahamada, Danois, Siwe; Faivre, Sinayoko or Casimir; Archer. A second independent XI outlet was not found; Monaco have used 3-4-3, 3-5-2, 4-4-2, 4-2-3-1 and 4-3-3 recently, so shape and XI are uncertain.",
+        "rotation": "Domestic league only, after a long international break (Monaco last played Le Mans 1-1 on 8 Nov; Auxerre lost 0-1 to Paris FC on 7 Nov). Both sides rested. Several Monaco internationals returning late is a mild fitness and cohesion risk. No heavy rotation expected; the coach is picking on form.",
+        "motivation": "Before the game (t-online): Monaco 7th, 10 played, 4W 4D 2L, 13:11, 16 pts. Auxerre 15th (ICI says 14th), 3W 1D 6L, 13:24, 10 pts. Monaco want to end a five-league-game winless run (about two months without a win) and get closer to the top five; Auxerre are fighting to climb away from the relegation zone. Neither side has anything secured, so no hard exclusion. Coach Luis was appointed 6 July 2026 (not a recent change), but the climate around him is reported as tense.",
+        "form": "Monaco: five league games without a win (3 draws, 2 defeats), 1-1 at Le Mans with a late Colas equaliser. ICI describes the attack as laboured, Brunner stopped scoring, Camara making mistakes, the high press less intense and more goals conceded. They drew with Strasbourg, Toulouse and Le Mans and lost to Lorient, so they are reported to underperform against lower-table sides. Auxerre last five (fotmob.com): lost 1-4 at Rennes (11 Oct), won 3-1 at Le Havre (18 Oct), drew 1-1 with Le Mans (25 Oct), lost 1-5 at Strasbourg (1 Nov), lost 0-1 to Paris FC (7 Nov): three straight league defeats before this game (the 5-1 and 0-1 results are confirmed by eurofootnews). Season goal difference -11, 24 conceded in 10.",
+        "h2h": "2025-26: Monaco won 2-1 at Auxerre in December 2025 (ESPN/Orange); an April 2026 preview showed Monaco coming into that tie after a 4-1 loss at Paris FC. Monaco won both recent meetings I could confirm. Auxerre are described as compact and quick on the break (Archer, Faivre, wing-backs), which suits a draw or low-margin game away from home. I did not collect the full draw rate of recent meetings.",
+        "odds": "DraftKings via ESPN (data.odds, https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261121): Monaco 1.43, draw 5.00, Auxerre 6.50, opening 1.38/5.00/7.00; de-vigged 0.665 / 0.190 / 0.146; total 3.5. Polymarket live 0.684 / 0.183 / 0.133 agrees with DraftKings within about 2 points. Monaco has drifted from 1.38 to 1.43 at DraftKings (about 3.5% longer in price) and Polymarket 24h move is 0.695 to 0.685 (-1.4% relative); I found no specific late news behind it, but the winless run and tense climate around the coach plausibly explain it. It is under the 3% Polymarket threshold. Polymarket volume was not fetched.",
+        "models": "No bookmaker-free rating found: the candidates file has no data.rating and the ClubElo API returned nothing. I rely on the table (Monaco +2 GD, 7th, vs Auxerre -11 GD, 15th) and bookmaker/market agreement. The model check is therefore incomplete.",
+        "venue_weather": "Stade Louis-II, Monaco (home venue, normal), Sat 21 Nov 2026 20:45 local (19:45 UTC), referee Jeremy Stinat (t-online). Nothing reported about weather or the pitch."
+      },
+      "reason": "Monaco are clear favourites on the table (7th vs 15th), the market (Polymarket 0.684, DraftKings de-vigged 0.665), the goal difference and Auxerre's three straight defeats and 24 goals conceded. But they are winless in five, have been drawing against weaker sides, the coach is under pressure and several internationals only just returned, so I trim home to 0.65 and lift the draw to 0.20. Draw no bet stays solid because Auxerre's chance of winning is only about 0.15. A straight win is allowed because the draw chance is not above 25%. Set to low at review: DraftKings lengthened Monaco from 1.38 to 1.43 (about 3.5% against the favourite) with no new news (the winless run was already known), Monaco are winless in five, and the coach is under pressure.",
+      "main_risk": "A draw (or a narrow Auxerre steal) against a compact Auxerre: Monaco have 4 draws in 10, five league games without a win, laboured attack, weaker press, late-returning internationals, and an uncertain XI and shape. Second risk is a low-scoring 1-0 or 0-0.",
+      "sources": [
+        "https://www.t-online.de/sport/live-ticker/fussball/french-ligue-1/sdc_fm-58234/monaco-auxerre-french-ligue-1-im-liveticker.html",
+        "https://www.asmonaco.com/fr/news/conference-presse-monaco-auxerre-filipe-luis-filipe-luis-prendre-des-risques-pour-mettre-auxerre-en-difficulte",
+        "https://www.eurofootnews.net/monaco-auxerre-ligue-1-11e-journee-compositions-probables-absents-et-enjeux-du-match-21-novembre-2026/20/11/2026/",
+        "https://ici.fr/emissions/la-chronique-de-l-aja-ici-auxerre/le-prochain-match-de-l-aja-contre-monaco-vu-d-en-face-dans-le-jeu-c-est-complique-1566828?at_locale=14",
+        "https://www.fotmob.com/de/teams/8583/overview/players",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261121"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1337801",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1336246",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.62,
+        "draw": 0.22,
+        "away": 0.16
+      },
+      "checks": {
+        "team_news": "Napoli (coach Massimiliano Allegri, not Conte): out are Meret (fractured vertebra), Buongiorno (long-term), Lobotka and Alisson Santos (targeting December), Di Lorenzo and Badiashile (back in group training next week); Milinkovic-Savic in goal. Spinazzola, Favasuli and Neres are back from injury, with Favasuli and Neres expected on the bench; Marianucci is back from suspension. Virgilio says De Bruyne and Anguissa are 'to check' (market talk). Allegri's pre-match press conference on Fri 20 Nov was cancelled for the second league game in a row (club policy: no pressers except after games and before Champions League games), so there is no official coach word. Torino (coach Abate, in charge since the season's start): Ricardo Rodriguez out (hamstring strain); Vlasic (biceps femoris) and Belghali (knee) doubtful, with Casadei, Pattersson or Braganca as cover; Zapata and Pellegri improving.",
+        "lineups": "Not out yet; both lines are predictions. Quotidiano.net/QS: Napoli 4-3-3 Milinkovic-Savic; Beukema, Rrahmani, Marin, Spinazzola; Anguissa, De Bruyne, McTominay; Politano, Hojlund, Lang. Virgilio is similar with Vergara in place of Lang. Goal/Fantamaster have a 3-5-2 with Lang behind Hojlund. Torino 3-5-2: Perri; Coco, Ismajli, Comuzzo; Belghali, Vlasic/Braganca, Mandragora, Fitz-Jim, Cacciamani; Simeone, Adams. The outlets disagree on the Napoli shape and some midfield names. Abate has changed his XI in all of his last six games.",
+        "rotation": "Napoli last played Sat 8 Nov (1-1 vs Lazio), so there are two weeks of rest, and the internationals returned in the break. Next game is Man City away in the Champions League (press says the Torino game comes just before it), so some rotation is possible. I found no source saying a heavily rotated side is planned, and Allegri has never fielded the same XI twice running. Torino drew 1-1 with Lecce on 7 Nov and are fresh. Their next league games are Lazio at home, then Genoa and Inter away.",
+        "motivation": "Table after 11 rounds: Lazio 29, Inter 28, Roma 27, Milan 24, Como 23, Frosinone 20, Juventus 18, Bologna 17, Cagliari 16, Napoli 10th on 15 (4W 3D 4L), Torino 11th on 14, Atalanta 14. The two sides are a point apart in mid-table, so neither is secured or safe: no hard exclusion. Napoli are in a mini-crisis and Allegri's job is under scrutiny, so they need a win. The press calls it a potential turning point for Torino, who have not won at Napoli since 2009.",
+        "form": "Napoli: won 4-1 at Monza on 28 Oct, lost 0-2 at Juventus on 1 Nov, lost 1-4 at Porto in the Champions League on 4 Nov, drew 1-1 with Lazio on 8 Nov (equaliser an own goal). No win since 28 Oct, no league win in two games, and per Yahoo no clean sheet in 8 games. Roughly 9 scored and 11 conceded over the last 5. Allegri has not won two official games in a row. Torino: 14 points from 11 (15 scored, 17 conceded). They had a poor start, then three straight wins (including Parma 3-0 away and Monza 3-2), then a dip in the last three (1-1 vs Lecce, Frosinone 0-2 away, plus a 1-3 loss to Como, order unclear). They have no xG figures found.",
+        "h2h": "Napoli beat Torino 6 Mar 2026 (Torino coached by D'Aversa then); Torino last won at Napoli in May 2009. Historically a favourable fixture for Napoli, but this Napoli is out of form. Allegri's side is described as cautious and reactive, and Abate's Torino press high. A draw is the main risk.",
+        "odds": "DraftKings via ESPN (ita.1): Napoli 1.47, draw 4.40, Torino 6.00, total 2.5, de-vigged 0.634/0.211/0.155. It opened at Napoli 1.41 (draw 4.3, Torino 6.0), so the favourite's raw implied price fell about 4% (0.709 to 0.680). I found no dated news that clearly explains the drift, but Meret's fracture and the cancelled press conferences are plausible reasons. Polymarket: Napoli 0.653 now and 0.655 24h ago (flat, move_24h 0). DraftKings agrees with Polymarket within about 2 points (0.634 vs 0.653). I did not read Polymarket volume. The DK drift is why this is medium, not high.",
+        "models": "I could not fetch ClubElo (HTTP 503), so I have no bookmaker-free rating. Soft substitute: the league table has Napoli and Torino a point apart in mid-table, and Napoli have conceded about 2.2 goals a game recently, which gives no model reason for a 65% favourite. I therefore trimmed p below the market.",
+        "venue_weather": "Stadio Diego Armando Maradona, Naples, 20:45 local (19:45 UTC), Saturday 21 Nov. This is a home game at a normal venue. I did not look up a weather forecast, so I have no weather or pitch concern to report."
+      },
+      "reason": "Fixture verified (Serie A round 12, Maradona, Sat 21 Nov). No hard exclusion applies: both coaches have been in place for the whole season, there is no derby, both sides are mid-table, and no confirmed rotation. Napoli are favourites at home but in poor form with no recent clean sheets, so I trimmed the win probability to 0.62 (DraftKings de-vig 0.634) and raised the draw. The medium rating reflects unconfirmed lineups, the unexplained DraftKings drift, and the missing Elo check. Not high. Set to low at review: DraftKings lengthened Napoli from 1.41 to 1.47 (about 4% against the favourite) with no dated news, Napoli are in a mini-crisis (no win since 28 Oct, no clean sheet in 8) and the coach skipped his press conference.",
+      "main_risk": "A draw or upset: Napoli are in a mini-crisis (no clean sheet in 8 games, no win since 28 Oct, Allegri under pressure, Meret out). They could also rotate before Man City on Tuesday, and Torino under Abate press well. Press conference cancelled, lineups unknown.",
+      "sources": [
+        "https://www.virgilio.it/sport/napoli-torino-probabili-formazioni-allegri-abate-indisponibili-squalificati-980846",
+        "https://sport.quotidiano.net/calcio/napoli/napoli-torino-probabili-formazioni-nervi-tesi-e-altra-conferenza-di-allegri-cancellata-f4d0687b",
+        "https://www.ilfattoquotidiano.it/2026/11/18/torino-napoli-abate-vittoria-notizie/8576088/",
+        "https://www.toro.it/toro/primo-piano/torino-cambiano-gli-allenatori-ma-non-i-punti-abate-ancora-in-linea-con-i-suoi-predecessori/1447578/",
+        "https://www.napolimagazine.com/calcio/articolo/serie-a-napoli-lazio-1-1-allegri-e-gattuso-si-dividono-la-posta-08-11-2026",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261121"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1337890",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1335823",
+      "exclude": true,
+      "skipped": true
+    }
+  ]
+}
