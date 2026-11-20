@@ -93,8 +93,9 @@ export async function renderToday(root) {
   } catch {
     /* no extra slips */
   }
-  // Open extra slips sit at the top on their day; settled ones join the record list.
-  const extras = allExtras.filter((x) => x.date === localDate() && !x.result);
+  // Open extra slips sit at the top from the evening before their day until
+  // they settle (late games start after midnight); settled ones join the record list.
+  const extras = allExtras.filter((x) => x.date >= localDate() && !x.result);
   const settledExtras = allExtras.filter((x) => x.result);
   const entries = (history.entries || []).filter((e) => e.model === 'football-2leg');
   const todayEntry = entries.find((e) => e.date === localDate());

@@ -109,6 +109,106 @@
       "result": "won",
       "extra": true,
       "settled_odds": 1.62
+    },
+    {
+      "date": "2026-11-21",
+      "extra": true,
+      "title": "Extra slip: NBA (your request)",
+      "note": "Extra NBA slip you asked for (basketball allowed for this one slip only). Final check of injuries and prices at about 00:20 Belgrade; place before 00:45.",
+      "legs": [
+        {
+          "game_id": "1323809",
+          "league": "NBA",
+          "sport": "basketball",
+          "event": "Charlotte Hornets at Atlanta Hawks",
+          "home": "Atlanta Hawks",
+          "away": "Charlotte Hornets",
+          "start": "2026-11-21T00:00:00.000Z",
+          "key": "home",
+          "label": "To win (moneyline, overtime counts)",
+          "selection": "Atlanta Hawks",
+          "odds": 1.4,
+          "book": null,
+          "p_market": {
+            "home": 0.695,
+            "away": 0.305
+          },
+          "p": {
+            "home": 0.67,
+            "away": 0.32999999999999996
+          },
+          "p_win": 0.67,
+          "p_void": 0,
+          "confidence": "medium",
+          "reason": "Hawks are the better team (9-6 vs 4-10), have no back-to-back, and have rest and a large injury edge. The Hornets are missing Knueppel, Schroder, Allen and Williams, and the Hawks won the first meeting by 47. DraftKings and Polymarket agree at about 0.67-0.70 and the price did not move against the favourite. I set p_fav slightly below the market (0.67) to reflect the no-vig DK number and the Hawks' own injuries.",
+          "main_risk": "The Hawks are without McCollum and Landale with Flemings day-to-day, and the injury data is from ESPN only (official NBA report not verified). A -7.5 spread is large for a team on a 3-game road swing of rest and a possible letdown, and Hornets +7.5 is a close market on Polymarket. The home/away listing also conflicts with the brief.",
+          "checks": {
+            "Injuries": "Source is ESPN game summary injuries, not the official NBA PDF, which I did not open. Hawks: CJ McCollum out (calf, return around 19 Dec), Jock Landale out (hip, return 22 Nov), Asa Newell out, Mouhamed Gueye out, Kingston Flemings day-to-day (back strain, listed 19 Nov, return date 20 Nov). Jalen Johnson and Nickeil Alexander-Walker (the two Hawks leaders on the ESPN preview) are not on the list. Hornets: Kon Knueppel out (hamstring, to ~12 Dec), Dennis Schroder out (hamstring, to ~25 Nov), Grayson Allen out (concussion, to 23 Nov), Grant Williams out (hamstring, to 23 Nov). No star rest or load management found for either team.",
+            "Rest": "Hawks last played Wed 18 Nov at OKC (W 117-112), so no back-to-back and about 2 days of rest. Hornets last played 17 Nov at LAL (L 118-114 OT), about 3 days of rest, with a road trip PHX/LAC/LAL before this game. Neither team is on a back-to-back.",
+            "form": "ESPN records: Hawks 9-6 (8-2 road, 3-3 home); Hornets 4-10 (1-6 road). Hawks last 5: W BKN, L LAL, L at CHI (OT), W at MIL, W at OKC. Hornets last 5: L BOS 119-80, W CLE, L at PHX, L at LAC, L at LAL (OT), so 1-4. Season series so far: Hawks beat Hornets 128-81 on 23 Oct. I did not pull net ratings.",
+            "odds": "DraftKings via ESPN: ATL -7.5 (-108), total 218.5, moneyline ATL -249 / CHA +205. That is about 71% implied with vig and about 67-68% without. Polymarket moneyline is Hawks 0.695 / Hornets 0.305, and the ATL -7.5 spread market is about 0.50, which agrees with DK. The Hornets moneyline price moved -0.07 over 24h (Hawks up 0.07). The move is consistent with the 19 Nov Hornets injury additions (Allen, Williams) and not against the favourite, so I found no adverse movement.",
+            "Matchup": "No upset angle found. The Hornets are badly short-handed (4 rotation players out) and were blown out by ATL 128-81 earlier this season. The only spot risk is Hawks looking past a weak team, plus Flemings' status and McCollum/Landale being out. Discrepancy: ESPN lists ATL as the home team at State Farm Arena (CHA at ATL), while the task brief says the Hornets are home. The odds and the Polymarket spread both treat ATL as the favourite either way."
+          },
+          "sources": [
+            "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909305",
+            "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261121",
+            "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/atl/schedule",
+            "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/cha/schedule",
+            "https://gamma-api.polymarket.com/events/1323809"
+          ],
+          "result": null,
+          "espn_id": "401909305"
+        },
+        {
+          "game_id": "1323812",
+          "league": "NBA",
+          "sport": "basketball",
+          "event": "Toronto Raptors at Detroit Pistons",
+          "home": "Detroit Pistons",
+          "away": "Toronto Raptors",
+          "start": "2026-11-21T00:30:00.000Z",
+          "key": "home",
+          "label": "To win (moneyline, overtime counts)",
+          "selection": "Detroit Pistons",
+          "odds": 1.36,
+          "book": null,
+          "p_market": {
+            "home": 0.715,
+            "away": 0.285
+          },
+          "p": {
+            "home": 0.7,
+            "away": 0.30000000000000004
+          },
+          "p_win": 0.7,
+          "p_void": 0,
+          "confidence": "medium",
+          "reason": "Detroit is clearly the better and healthier team: 10-4 against 5-10, Toronto on a 5-game losing streak with Leonard and Barrett out, and DK and Polymarket agree at about 0.71. Confidence is medium rather than high only because Cunningham is day-to-day and I could not confirm his status from the official report.",
+          "main_risk": "Cunningham sitting out or being limited (soreness, day-to-day, unconfirmed), plus a possible tired DET team late in a road stretch; a -6.5 spread leaves room for a close game.",
+          "checks": {
+            "Injuries": "ESPN game summary (pulled today): DET - Cade Cunningham day-to-day (soreness, listed 19 Nov, return date 20 Nov, so probably plays but NOT confirmed; I found no official NBA report or dated beat report to confirm), Ronald Holland II day-to-day (knee bruise, GTD), Ugonna Onyenso day-to-day, Taurean Prince out (surgery), Ebuka Okorie out. TOR - Kawhi Leonard OUT (inflammation, return about 3 Dec), RJ Barrett OUT (strain, about 13 Dec), Collin Murray-Boyles OUT, Nate Bittle OUT (fracture). Raptors are missing their two best players. I could not access the official.nba.com PDF; web search returned only old-season articles, so no star-rest/load-management news found for tonight.",
+            "Rest": "No back-to-back for DET: last games were at SA and at NO on consecutive days, then ESPN shows no game on 20 Nov, so a day off before tip, though it is a heavy week and a road game. TOR last played WSH (L 103-99) the night before the DET/TOR slate; dates in ESPN are UTC so exact rest days are approximate. Note ESPN lists DET as the HOME team (TOR away), contrary to the task's note that the Raptors are home.",
+            "form": "DET 10-4 (road 7-2, home 3-2); last 5: W vs WSH 122-111, W at WSH 144-140 2OT, L at MIA 137-117, W at SA 105-93, W at NO 122-109 (4-1). TOR 5-10 (home 2-6, road 3-4); last 5 all losses (BOS 98-93, at PHI 123-112, NY 112-108 OT, NY 111-102, WSH 103-99). Net rating not checked.",
+            "odds": "DraftKings via ESPN: DET -6.5 (spread odds -116), ML DET -264 / TOR +217, total 216.5. No-vig DK implied about 0.71 for DET (-264 = 0.725 raw; after vig about 0.70-0.71). Polymarket 0.715 is in line with DK, so no disagreement. ESPN gives only closing/current lines with no open-to-now history, so I cannot say whether the price moved today; the Cunningham GTD tag (not priced as a risk in the spread, as far as I can tell) is the only visible news.",
+            "Matchup": "No upset angle found. TOR is 5-10 on a 5-game losing streak and without Leonard and Barrett; DET is 10-4 with the better road record. Possible small upset factors: DET heavy travel/schedule spot and Cunningham's soreness; no rivalry or revenge angle found."
+          },
+          "sources": [
+            "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261121",
+            "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909308",
+            "https://www.espn.com/nba/game/_/gameId/401909308",
+            "https://www.espn.com/nba/team/schedule/_/name/det",
+            "https://www.espn.com/nba/team/schedule/_/name/tor",
+            "https://www.espn.com/nba/injuries"
+          ],
+          "result": null,
+          "espn_id": "401909308"
+        }
+      ],
+      "odds": 1.9,
+      "p_hit": 0.469,
+      "place_before": "2026-11-20T23:45:00.000Z",
+      "research_stage": null,
+      "result": null
     }
   ]
 }
