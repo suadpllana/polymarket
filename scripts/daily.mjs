@@ -49,6 +49,27 @@ function markEarlyWon(entries) {
   }
 }
 
+// Slips the owner asked to show as lost before every market had closed: the
+// game ids of legs already known to have lost. Provisional like EARLY_WON.
+const EARLY_LOST = { '2026-11-20': ['1329693'] }; // Bayern 1-1 Köln: Bayern over 2.5 goals lost
+
+function markEarlyLost(entries) {
+  for (const e of entries) {
+    const ids = EARLY_LOST[e.date];
+    if (!ids || !e.legs?.length || e.result) continue;
+    for (const l of e.legs) {
+      if (!l.result && ids.includes(String(l.game_id))) {
+        l.result = 'lost';
+        l.provisional = true;
+      }
+    }
+    e.result = 'lost';
+    e.provisional = true;
+    e.settled_odds = null;
+    console.log(`Marked ${e.date} as lost early (provisional until the markets resolve).`);
+  }
+}
+
 const OUT = new URL('../public/history.json', import.meta.url);
 const RECORD_OUT = new URL('../public/research-record.json', import.meta.url);
 
@@ -391,6 +412,7 @@ async function main() {
   const history = await loadHistory(process.env.SITE_URL);
   backfillDrafts(history.entries);
   markEarlyWon(history.entries);
+  markEarlyLost(history.entries);
   await settleOpen(history.entries);
 
   // Today, and tomorrow as soon as its research is pushed (research done the
