@@ -1,8 +1,8 @@
 {
   "date": "2026-11-20",
-  "researched_at": "2026-11-20T06:54:11Z",
-  "stage": "morning",
-  "summary": "Researched the evening before (Thu 19 Nov); lineups are not out, so this is a draft until the morning check and the final check. Friday has the top football leagues back after the international break, DEL, KHL and Liiga hockey, ATP Finals tennis and esports; basketball is no longer researched (the owner's permanent rule). Eight games were researched; three are medium. Medium: Bayern v Köln (DraftKings about 92% for Bayern; the only leg kept is Bayern over 2.5 team goals, since a 1-0 or 2-1 is the named risk), Athletic v Espanyol (DraftKings and Elo agree on a clear home favourite; legs kept: under 3.5 goals, Espanyol under 1.5 goals; a draw is the main risk), Troyes v Le Havre (a relegation six-pointer; Troyes or draw backed by DraftKings and ClubElo; legs kept: under 3.5, Le Havre +1.5, Troyes under 2.5). Low: Eisbären Berlin v Ingolstadt and JYP v HIFK (no second price), Avangard v Barys (goalies unknown, Barys won 3 of the last 5). Excluded: Shanghai v CSKA (Shanghai play their home games in St Petersburg: neutral venue). Morning check (Fri): nothing new overnight. Troyes stay medium (Polymarket unchanged, DraftKings steady at 2.20 so the earlier drift stopped); Athletic stay medium (Espanyol's Edu Expósito reportedly did not travel; DraftKings unchanged).",
+  "researched_at": "2026-11-20T18:23:35Z",
+  "stage": "pre_kickoff",
+  "summary": "Researched the evening before (Thu 19 Nov); lineups are not out, so this is a draft until the morning check and the final check. Friday has the top football leagues back after the international break, DEL, KHL and Liiga hockey, ATP Finals tennis and esports; basketball is no longer researched (the owner's permanent rule). Eight games were researched; three are medium. Medium: Bayern v Köln (DraftKings about 92% for Bayern; the only leg kept is Bayern over 2.5 team goals, since a 1-0 or 2-1 is the named risk), Athletic v Espanyol (DraftKings and Elo agree on a clear home favourite; legs kept: under 3.5 goals, Espanyol under 1.5 goals; a draw is the main risk), Troyes v Le Havre (a relegation six-pointer; Troyes or draw backed by DraftKings and ClubElo; legs kept: under 3.5, Le Havre +1.5, Troyes under 2.5). Low: Eisbären Berlin v Ingolstadt and JYP v HIFK (no second price), Avangard v Barys (goalies unknown, Barys won 3 of the last 5). Excluded: Shanghai v CSKA (Shanghai play their home games in St Petersburg: neutral venue). Morning check (Fri): nothing new overnight. Troyes stay medium (Polymarket unchanged, DraftKings steady at 2.20 so the earlier drift stopped); Athletic stay medium (Espanyol's Edu Expósito reportedly did not travel; DraftKings unchanged). Final check (18:20-18:35 UTC): Troyes drop to low (their price fell 3.7% since first listing and DraftKings lengthened again to 2.25, with no news to explain it; official XIs not yet out). Athletic stay medium (price up; Espanyol's Expósito probably out; the Espanyol under 1.5 view is cut to 0.75 because both markets moved toward goals).",
   "games": [
     {
       "id": "1329693",
@@ -53,74 +53,71 @@
       "exclude": false,
       "confidence": "medium",
       "p": {
-        "home": 0.635,
-        "draw": 0.225,
-        "away": 0.14
+        "home": 0.655,
+        "draw": 0.21,
+        "away": 0.135
       },
       "checks": {
-        "team_news": "Morning re-check (Fri 20 Nov). Last night's findings still hold; new this morning: Edu Exposito is still reported as not travelling to Bilbao (TV3 via La Grada and Futbolfantasy, 19/11 23:11; Sarabia had been optimistic on Wednesday). The official squad list is only announced about 3h before kick-off (~18:00 Spanish time), so it is still unconfirmed. Alternatives named: Pol Lozano, Rafel Bauza, Javi Hernandez, Alejandro Santiago. Comunio still lists Kike Garcia and Calatrava out, Jofre and Urko doubts (no new update found). Athletic (Comunio, latest): Vivian, Guruzeta, Sannadi, Egiluz out (Vivian muscle injury, at least ~2 weeks); Paredes listed as a doubt but back in full training on 19/11. No suspensions found. No new news this morning that changes the picture.",
-        "lineups": "Not official (official XIs come later, at the final check). Athletic expected: Unai Simon; Rincon, Yuri, Yeray, Laporte; Gerenabarrena/Galarreta, Canales, Berenguer; Nico Williams, Sancet (or Navarro), Inaki Williams. Espanyol expected 3-5-2: Fortuno; El Hilali, Cabrera, Hartman; Santiago, Dolan, Lozano, Javi Hernandez or Exposito (probably not), Pere Milla, Roberto Fernandez. Older previews (EFE, Jornada Perfecta) still include Exposito but pre-date the TV3 report.",
-        "rotation": "Unchanged: both sides had the international break and full rest. No rotation hint from Terzic.",
-        "motivation": "Unchanged: Athletic 7th (16 pts, game in hand), Espanyol 13th (12 pts, two above the drop zone), new-coach bounce under Sarabia. Not a derby, not a hard exclusion.",
-        "form": "Unchanged: Athletic 4W-4D-3L (1-1 at Osasuna last); Espanyol 3W-3D-6L, two straight clean sheets (1-0 Villarreal, 0-0 Deportivo) in a 3-5-2.",
-        "h2h": "Not researched in depth. Style: Athletic's home pressing against a compact 3-5-2 points to a low-scoring game; the draw is the main failure.",
-        "odds": "Live Polymarket 0.6534 / 0.2131 / 0.1335 equals first listing (p_first identical, 0% move since listing; 24h move for Athletic 0.665 to 0.655, -1.5%, under the 3% trigger). DraftKings via ESPN (esp.1, event 401882805) re-read this morning: draw +340 (same as last night), total 2.5 over -125 / under +100 (same), Espanyol +1.5 -190 (same). Athletic moneyline (-205 last night) not returned by the feed this morning, so treated as unchanged. De-vigged DK about 0.638 / 0.216 / 0.146 vs Polymarket 0.653 / 0.213 / 0.134: agrees within 5 points, so the second-price requirement is met. Espanyol +1.5 de-vigged about 0.606 vs Polymarket 0.605.",
-        "models": "Elo (clubelo.com): Athletic 1768 (rank 60), Espanyol 1689 (rank 150), gap 79: consistent with a clear but not dominant home favourite.",
-        "venue_weather": "San Mames, kick-off 21:00 Spanish time (20:00 UTC). No pitch or weather problem reported; Bilbao in November is typically wet."
+        "team_news": "Final check (Fri 20 Nov, ~18:30 UTC). Official squad lists and XIs NOT found yet: the ESPN summary (event 401882805) returned empty rosters and no formations, and searches turned up no official convocatoria or XI. Edu Exposito remains unconfirmed. This afternoon's search snippets (Comuniate) say he again trained apart with slight muscle discomfort, which fits this morning's TV3/Futbolfantasy report that he was not travelling. So he is probably out but not official. Espanyol's attack, expected 3-5-2: Roberto Fernandez with Pere Milla up front, Javi Hernandez or Pol Lozano in midfield; Kike Garcia and Calatrava out. Athletic absences unchanged (Vivian, Guruzeta, Sannadi, Egiluz out; Paredes back in training). No new late injury or suspension news found.",
+        "lineups": "Not official at the time of check. Expected Athletic: Unai Simon; Rincon, Yuri, Yeray, Laporte; Galarreta/Gerenabarrena, Canales, Berenguer; N. Williams, Sancet or Navarro, I. Williams. Expected Espanyol 3-5-2: Fortuno; El Hilali, Cabrera, Hartman; Santiago, Dolan, Lozano, J. Hernandez (Exposito doubtful), Milla; Roberto Fernandez plus a partner.",
+        "rotation": "No rotation expected for either side; both had a full break.",
+        "motivation": "Unchanged: Athletic 7th, Espanyol 13th, two points above the drop zone.",
+        "form": "Unchanged: Athletic 4W-4D-3L; Espanyol two straight clean sheets in a 3-5-2.",
+        "h2h": "Not researched in depth; the draw is the main failure for Athletic.",
+        "odds": "Polymarket live 0.6634 / 0.2031 / 0.1334 vs first listing 0.6534 / 0.2131 / 0.1335: Athletic +1.0 pt, draw -1.0 pt, no drift against the favourite. Espanyol under 1.5 goals fell from 0.795 at listing to 0.775 live (-2 pts). Over 2.5 rose 0.535 to 0.585, Espanyol over 0.5 rose 0.555 to 0.59 and Under 3.5 fell 0.695 to 0.645. The market now expects more goals and a little more Espanyol scoring than this morning. DraftKings via ESPN, fetched now: Athletic moneyline about -210 (was -205/-210 earlier), total 2.5 over -155 / under +125 (this morning -125 / +100, so it also moved toward goals). Only the over/under, moneyline and spread lines came through; the draw price was not parsed. Athletic win prob. de-vigged is roughly 0.65, in line with Polymarket.",
+        "models": "Elo (clubelo.com): Athletic 1768, Espanyol 1689, gap 79, consistent with a clear but not dominant home favourite.",
+        "venue_weather": "San Mames, 20:00 UTC kick-off; no pitch or weather problem reported."
       },
-      "reason": "Market and DraftKings agree on a clear Athletic home favourite, and the live price has not moved since first listing, so no unexplained drift. Overnight news is only Exposito reportedly not travelling (unconfirmed until ~18:00 squad list), which weakens Espanyol's midfield creativity but does not hurt the favourite. Athletic's four absences are unchanged. Espanyol under 1.5 goals is still backed: Espanyol are missing Exposito (probably) and Kike Garcia, Athletic's strikers Guruzeta and Sannadi are out but Inaki and Nico Williams remain, and Espanyol's compact 3-5-2 has kept two clean sheets. Confidence medium.",
-      "main_risk": "A draw (Athletic drew 4 of 11 and scored once at Osasuna; Espanyol compact under a new coach). Secondary: Athletic injuries (Vivian replaced by Yeray, thin up front), and Espanyol being less affected than expected by Exposito's absence. For the Espanyol under 1.5 view, the risk is Espanyol scoring twice on the counter or from set pieces against a possession-heavy Athletic with a makeshift back line.",
+      "reason": "Athletic is still a clear home favourite: the price has not moved against it (up 1 pt since listing), and DraftKings agrees. Confidence is medium and not high because the squad lists and XIs are unconfirmed and Exposito's status is still open. The Espanyol under 1.5 view is kept but cut to 0.75: the leg fell 2 pts since listing and both Polymarket and DraftKings moved toward more goals this afternoon. The Under 3.5 view is dropped because it no longer clears the bar.",
+      "main_risk": "A draw or an Espanyol upset. For the Espanyol under 1.5 leg, the risk is Espanyol scoring twice on the counter or from set pieces against Athletic's makeshift back line, and the market drift toward goals. Late XI news could change this, especially if Exposito starts.",
       "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882805",
+        "https://www.comuniate.com/noticias/39197/la-duda-que-condiciona-al-espanyol-antes-de-san-mames",
         "https://www.futbolfantasy.com/laliga/noticias/155053-edu-exposito-se-cae-de-la-convocatoria-para-viajar-a-san-mames",
         "https://lagrada.org/edu-exposito-no-viaja-bilbao-athletic-espanyol-convocatoria-sarabia/",
         "https://www.jornadaperfecta.com/blog/alineaciones-athletic-espanyol-j13-26-27/",
         "https://magazine.comunio.es/jornada-13-alineaciones-probables-del-athletic-espanyol/",
-        "https://www.futbolfantasy.com/laliga/noticias/155024-terzic-habla-de-vivian-yeray-paredes-sannadi-imga-sancet-los-internacionales-y-el-espanyol",
-        "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261120",
         "http://clubelo.com/Athletic"
       ],
       "views": {
-        "ou_3.5_under": 0.69,
-        "tt_away_1.5_under": 0.78
+        "tt_away_1.5_under": 0.75
       },
       "prices": []
     },
     {
       "id": "1329692",
       "exclude": false,
-      "confidence": "medium",
+      "confidence": "low",
       "p": {
         "home": 0.43,
-        "draw": 0.29,
-        "away": 0.28
+        "draw": 0.28,
+        "away": 0.29
       },
       "checks": {
-        "team_news": "Morning re-check (Fri 20 Nov): still no pre-match press conference, club report or injury update found for either side (searches returned only old or unrelated pages). Nothing new since Thursday. Last night's MediaPronos list still stands, unconfirmed: Troyes - Michel Diaz suspended (return est. 20 Nov), Ouzenadji injured (est. 30 Nov). Le Havre - Pembele doubtful, Mambimbi and Jelert absent, Mpasi back est. 20 Nov. No news hurting the Troyes first-choice side, and none explaining the DraftKings drift.",
-        "lineups": "No official XIs yet (come about an hour before kick-off, for the final check). A morning search gave only partial predicted names consistent with last night (Troyes: Diop, Dermane, Ripart area; Le Havre: Maja, Samatta, Mwanga). Last night's MediaPronos 4-2-3-1 for Troyes stays the best guess; estimates only.",
-        "rotation": "Unchanged: both sides last played 7-8 Nov, so both come off the break with about 12 days of rest. No cup or European congestion, no rotation risk found.",
-        "motivation": "Unchanged: relegation six-pointer, Troyes 17th (8 pts), Le Havre 18th (2 pts). Neither has anything secured. Le Havre desperate with a new coach.",
-        "form": "Unchanged: Troyes L-L-D-W-L (1 win in 5, 7 goals in last 6). Le Havre five straight league losses. Valerien Ismael appointed about 11-12 Nov after Digard's sacking on 31 Oct, so about 8 days in charge, just outside the 7-day hard rule; first away game, soft new-coach-bounce risk. No press conference found to say how he sets up.",
-        "h2h": "Unchanged: 8 meetings, Troyes 4 wins, Le Havre 3, 1 draw; last one Ligue 2, May 2021. Not informative for the current squads.",
-        "odds": "Polymarket live 0.4433 / 0.2833 / 0.2733, identical to first listing (p_first), so 0% change since listing and no 3% fall. DraftKings via ESPN this morning (06:52 UTC): home 2.20 (+120) / draw 3.45 (+245) / away 3.30 (+230), de-vigged 0.434 / 0.277 / 0.289, total 2.5 (over -115, under -110); spread Troyes -0.5 +110, Le Havre +0.5 -150. That is identical to last night, so the lengthening from the 2.05 opening (+105) to 2.20 did NOT continue; it stopped at 2.20. No news found to explain the original move (small, about 7% on the price; Polymarket home rose 0.435 to 0.445 in 24h). Second price check: Polymarket home_draw 0.7266 vs DraftKings de-vigged 0.711, within 2 points, so the independent price agrees. Thin market (about 2.2k total volume).",
-        "models": "Unchanged: ClubElo Troyes 43.7 / draw 30.8 / Le Havre 25.5 (home or draw about 74.6%); SportsMole model 53.7 / 23.9 / 22.3; Foresportia this morning also has Troyes favourite at about 54%. Models agree Troyes are a modest favourite.",
-        "venue_weather": "Complexe Sportif de l'Aube (Stade de l'Aube), Troyes, Friday 20 Nov, 19:45 UTC. One aggregator lists Sat 21 Nov 20:00, but ESPN, Polymarket and a second source carry 20 Nov 19:45 GMT. Normal home venue; no weather or pitch info found."
+        "team_news": "Final check (Fri 20 Nov, about 18:30 UTC): no club, press or injury news found for either side that explains the late move. Morning list still stands, unconfirmed: Troyes - Diaz suspended (return est. 20 Nov), Ouzenadji out; Le Havre - Pembele doubtful, Mambimbi and Jelert absent, Mpasi back. NEW: a Sportsmole probable XI now lists Diaz in the Troyes XI, so his availability is unresolved. Nothing found that hurts Le Havre either. No press conference found.",
+        "lineups": "Official XIs NOT found at the time of check (ESPN summary rosters empty; searches returned only probable XIs). Probable only, per Sportsmole: Troyes Konate; Maronnier, Monfray, Diaz, Boura; Mille, Karim, Diop; Le Douaron, Ripart, Nkada. Le Havre Bodart; Sasso, Koffi, Touba; Ouziad, Ebonog, Mwanga, Richardson; Fofana, Samatta; Maja. Unconfirmed.",
+        "rotation": "Unchanged: both sides last played 7-8 Nov, about 12 days of rest, no cup or European congestion. No rotation risk found, but no confirmed XI either.",
+        "motivation": "Unchanged: relegation six-pointer, Troyes 17th (8 pts), Le Havre 18th (2 pts). Le Havre desperate under a new coach.",
+        "form": "Unchanged: Troyes L-L-D-W-L, Le Havre five straight league losses; Ismael about 8 days in charge, first away game. New this afternoon: Sportsmole's preview now tips a Le Havre win (0-1), a change from its earlier model view.",
+        "h2h": "Unchanged: 8 meetings, Troyes 4 wins, Le Havre 3, 1 draw; last was Ligue 2, May 2021. Not informative.",
+        "odds": "Polymarket LIVE 0.4267 / 0.2766 / 0.2967 vs first listing 0.4433 / 0.2833 / 0.2733: Troyes down 3.7% relative (1.7 pts), Le Havre up 8.6% relative. Past the 3% line. Troyes draw-no-bet / home_draw live 0.7033 vs 0.7266 first. DraftKings (ESPN, fetched about 18:21 UTC): Troyes 2.25 (+125) / draw 3.35 / Le Havre 3.25 (+225), de-vigged 0.423 / 0.284 / 0.293, vs this morning 2.20 / 3.45 / 3.30 and opening 2.05: Troyes has lengthened again (2.20 to 2.25) and draw/away shortened; 24h move on home -4.5% (0.445 to 0.425). So the independent book is drifting the same way as Polymarket. No news found to explain the fall in either market (no injury, no confirmed XI). Under the rule: unexplained fall of 3% or more since p_first = low.",
+        "models": "ClubElo this morning Troyes 43.7 / draw 30.8 / Le Havre 25.5; SportsMole model 53.7 / 23.9 / 22.3 earlier, but its text preview now tips Le Havre 0-1; Foresportia favoured Troyes about 54%. Models still lean Troyes, but market and book have moved toward Le Havre.",
+        "venue_weather": "Complexe Sportif de l'Aube, Troyes, Fri 20 Nov, 19:45 UTC; ESPN status Scheduled (2:45 PM EST). No weather or pitch info found."
       },
-      "reason": "Re-checked this morning: no new team news either way, Polymarket unchanged since first listing, and DraftKings unchanged from last night at 2.20 / 3.45 / 3.30 (the Troyes drift from 2.05 stopped, no further move). Troyes are a modest favourite (about 43-44%) and market, DraftKings (home_draw 0.711 vs 0.727) and ClubElo all agree within 3 points. Home-or-draw / Troyes draw-no-bet at about 71-73% is backed by an independent price. Confidence stays medium, not high, because there is no press conference or official lineup, Troyes have one win in five, and Le Havre's new-coach first away game is an unknown. Not low: no key starter out and no price fall since listing.",
-      "main_risk": "A Le Havre win via a new-coach reaction (Ismael's first away game, desperate side with Maja scoring) after Troyes' poor form (1 win in 5). That is the only outcome where home_draw and Troyes DNB fail (DNB loses only on a Le Havre win). Open items: Diaz suspension and Troyes final XI (check at the lineup stage), and the unexplained early DraftKings drift, now stalled. A one-goal Troyes win beats the Le Havre +1.5 handicap, but a 2+ goal Troyes win fails that leg. Not backing BTTS or tt_home_1.5_under (coin flips).",
+      "reason": "Confidence low, no exceptions rule: Troyes' price is down 3.7% since first listing (0.4433 to 0.4267) and DraftKings has lengthened the same way (2.20 to 2.25 since this morning, from 2.05 opening) while Le Havre shortened, and I found no news that explains it. Official XIs were not available at check time, and Diaz's suspension is unresolved (a probable XI includes him). Troyes DNB is now 0.70 on the market (was 0.73), and the only losing outcome is a Le Havre win, which the market now prices at 29.7%. Not excluded as no key player is confirmed out, but treat as low-confidence and consider dropping from the slip.",
+      "main_risk": "A Le Havre win (new-coach first away game, desperate side, Maja scoring) is the only way Troyes DNB loses, and both Polymarket and DraftKings are moving toward it with no explanation. Troyes form is 1 win in 5. Open: official XIs and Diaz suspension.",
       "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876395",
         "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261120",
         "https://gamma-api.polymarket.com/events?id=1329692",
-        "https://mediapronos.com/?p=710691",
         "https://www.sportsmole.co.uk/football/ligue-1/troyes-vs-le-havre_game_263040.html",
-        "https://ontourfootball.com/fixtures/estac-troyes-vs-le-havre-2026-11-20",
-        "https://m.maxifoot.fr/le-havre/ismael-arrive-sur-le-banc-foot-467527.htm",
+        "https://mediapronos.com/?p=710691",
         "https://clubelo.com/Troyes",
         "https://www.foresportia.com/pronostic/ligue-1/estac-troyes-le-havre-ac-2026-11-20/"
       ],
       "views": {
         "ou_3.5_under": 0.7,
-        "ah_away_+1.5": 0.76,
-        "tt_home_2.5_under": 0.8
+        "ah_away_+1.5": 0.76
       },
       "prices": []
     },
