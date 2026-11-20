@@ -242,6 +242,30 @@ changed afterwards:
   times in a day (as on 17 Nov: three drafts, then a single, then a rushed
   double) is a warning sign, not a feature.
 
+### 20 Nov 2026: the final check swapped out two winning legs (lost slip)
+
+The morning slip was Troyes draw no bet + Espanyol under 1.5 goals. At the
+pre-kickoff check Troyes went to low on a price drift with no news, and the
+Espanyol under view was dropped on a drift toward goals. The rebuild then
+brought in two new legs, Bayern over 2.5 goals and Athletic to win, and both
+lost (Bayern 1-1 Köln, Athletic 0-1 Espanyol). Troyes won 3-1 and Espanyol
+scored once, so the morning slip would have paid. This is the second
+last-hour change in four days (after 17 Nov) that turned a winning slip into
+a loss. What changed afterwards:
+
+- **The final check may only remove legs, never add new ones.** If a morning
+  leg fails the final check, the slip shrinks to the legs that passed, even if
+  the odds fall under the target. Say so plainly; the owner decides whether
+  to bet it. No game or view that was not in the morning slip may enter it
+  after the morning check.
+- **The drift rule above still stands.** One result does not prove that
+  dropping Troyes on an unexplained move was wrong; the damage came from the
+  rebuild adding fresh legs that had not been through the morning check.
+  Until the build itself refuses new legs at the final check, look at the
+  rebuilt slip after pushing: if it holds any leg that was not in the morning
+  slip, tell the owner plainly that it is a new, last-hour leg and recommend
+  betting only the morning legs that passed, or skipping.
+
 ## How to research cheaply without losing quality
 
 Excluded games used to get the same depth as kept ones, yet they produced
