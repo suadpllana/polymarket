@@ -122,9 +122,11 @@ researching enough games, not from loosening a rule.
   a stopgap, not a finish.
 - Midday backup check: if today's research is missing, do the research then.
   A file of `skipped` verdicts only produces "No bet".
-- Final check: if a re-check or a price move drops a leg and the slip
-  disappears or falls to `Tier: closest`, research games that start later the
-  same day (evening football, NBA, NHL, late tennis) and push again.
+- Final check: if a re-check or a price move drops a leg, the slip shrinks to
+  the legs that passed; no new legs are added after the morning check (the
+  20 Nov lesson below, which the owner saw cost a winning slip). If nothing
+  passes, say plainly that it is a no-bet day rather than building a
+  last-hour slip.
 - A slip the research itself rates weak is still shown; say plainly in the
   summary to the user that it is weak and why.
 
