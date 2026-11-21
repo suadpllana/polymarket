@@ -114,7 +114,7 @@
       "date": "2026-11-21",
       "extra": true,
       "title": "Extra slip: NBA (your request)",
-      "note": "Extra NBA slip you asked for (basketball allowed for this one slip only). Final check done at 00:21 Belgrade with the official NBA injury report: the slip stands. Place before 00:45.",
+      "note": "Extra NBA slip you asked for (basketball allowed for this one slip only): lost. Hawks won 111-97, but the Pistons lost 102-105 at home to Toronto with Cunningham playing (23 points).",
       "legs": [
         {
           "game_id": "1323809",
@@ -157,8 +157,9 @@
             "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/cha/schedule",
             "https://gamma-api.polymarket.com/events/1323809"
           ],
-          "result": null,
-          "espn_id": "401909305"
+          "result": "won",
+          "espn_id": "401909305",
+          "final_score": "Hawks 111-97 Hornets"
         },
         {
           "game_id": "1323812",
@@ -202,16 +203,18 @@
             "https://www.espn.com/nba/team/schedule/_/name/tor",
             "https://www.espn.com/nba/injuries"
           ],
-          "result": null,
-          "espn_id": "401909308"
+          "result": "lost",
+          "espn_id": "401909308",
+          "final_score": "Pistons 102-105 Raptors"
         }
       ],
       "odds": 1.9,
       "p_hit": 0.469,
       "place_before": "2026-11-20T23:45:00.000Z",
       "research_stage": "pre_kickoff",
-      "result": null,
-      "researched_at": "2026-11-20T23:21:40Z"
+      "result": "lost",
+      "researched_at": "2026-11-20T23:21:40Z",
+      "settled_odds": null
     }
   ]
 }
