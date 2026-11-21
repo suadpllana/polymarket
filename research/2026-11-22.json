@@ -1,0 +1,523 @@
+{
+  "date": "2026-11-22",
+  "researched_at": "2026-11-21T22:22:10Z",
+  "stage": "morning",
+  "summary": "Researched the evening before (Sat 21 Nov); lineups are not out, so this is a draft until the morning check and the final check. Sunday has Serie A, La Liga, Ligue 1 and Premier League football, seven NFL games and one NHL game; basketball is not researched (the owner's permanent rule). Medium: Juventus, Barcelona, Brighton (at Hull), Inter (at Atalanta), Marseille, and in the NFL the Bears, Cowboys, Lions, Jaguars and Steelers, plus the Lightning in the NHL. Low: Paris FC (ClubElo and the Sports Mole model about 15 points under the market), Milan (price down 3.1% in 24h with no news) and the Chargers (a 1-8 favourite at about 60%). Excluded as derbies or fierce rivalries on a conservative reading: Getafe v Atlético (Madrid-area derby) and Broncos v Raiders (historic AFC West rivalry). Views that contradicted a game's own main risk were dropped (Barcelona over 2.5, Juventus over 1.5, Inter over 2.5 and both teams to score).",
+  "games": [
+    {
+      "id": "1301069",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.17,
+        "draw": 0,
+        "away": 0.83
+      },
+      "checks": {
+        "team_news": "ESPN game summary injuries (read 21 Nov): Bears list CB Kyler Gordon Out (shoulder), WR Zavion Thomas Questionable (ankle), RB Zavier Scott, DT Kentavius Street and OT Braxton Jones on IR. Saints list OT Asim Richards, C Erik McCoy, OT Taliese Fuaga and CB Martin Emerson Jr. all Out, LB Pete Werner Questionable (hamstring). No quarterback appears on either injury list. The Saints' Thursday report (neworleanssaints.com) also shows DT Jeffery Simmons (knee) limited for the Bears and WR Luther Burden (concussion) and RB Kyle Monangai (toe) full for the Bears. I did not find the Bears' Friday final statuses beyond ESPN's list, so Simmons's status is unconfirmed. The Saints are missing three starting offensive linemen.",
+        "lineups": "Not confirmed (inactives come about 90 minutes before kick-off). ESPN's scoreboard leaders show Caleb Williams (1546 yds, 8 TD, 5 INT) for the Bears and Tyler Shough (2173 yds, 15 TD, 7 INT) for the Saints as the starting QBs, and neither is on an injury list. The Saints' offensive line will be heavily patched (Fuaga, McCoy, Richards out). Only one source (ESPN) for the QBs.",
+        "rotation": "The Bears had a bye in Week 10 (no game on 15 Nov); their last game was a 27-24 win over TB on 9 Nov, and they are at home with extra rest. The Saints played at Carolina on 15 Nov (17-20 loss), travel to Chicago on a normal week and play Cincinnati next, then Green Bay. The Bears play Detroit on Thanksgiving (26 Nov), a short week next, so a slight look-ahead is possible but no rest of starters is expected.",
+        "motivation": "Bears 7-2 (4-1 home), in the NFC playoff race; Saints 3-6 (1-5 home, 2-1 road) and out of the race. The favourite has plenty to play for. Nothing points to a fully motivated underdog.",
+        "form": "Bears last 5: W 31-17 at ATL... exact results from the ESPN schedule: W 31-23 ATL (18 Oct), W 30-24 NE, W 34-17 at SEA, W 27-24 TB, so 4 straight wins before the bye; earlier L 7-31 at GB (11 Oct), and a 3-9 loss to MIN (20 Sep). Saints last 5: L 20-17 at CAR (15 Nov), W 23-22 CLE (8 Nov), L 10-16 PIT, W 34-27 NYG, L 13-23 MIN; they have 3 wins in 9 games and allowed 45 to ATL. Bears 7-2 vs Saints 3-6.",
+        "h2h": "Last meeting 19 Oct 2025 at Soldier Field: Bears won 26-14 (Rotowire). No 2026 meeting before this one. Style: Bears' run game (Swift 576 yds, 10 TD) against a Saints line missing three starters.",
+        "odds": "DraftKings via ESPN (read 21 Nov): Bears moneyline -630, Saints +461; de-vigged Bears 0.829, Saints 0.171 (sum of raw implied 1.041). Spread Bears -11.5 (-107), total 48.5. Opening line was Bears -278 ML and -6.5, so the market has moved strongly towards the Bears (consistent with the three Saints offensive linemen out). Polymarket 0.845 agrees within 2 points of DraftKings. Polymarket 24h move: 0.845 to 0.845 (0% change, from data.move_24h). No price drift against the favourite.",
+        "models": "ESPN Matchup Predictor (summary endpoint): Bears 78.6%, Saints 21.2%. No ClubElo or DVOA read. Point differential from the ESPN schedule: Bears strongly positive, Saints negative.",
+        "venue_weather": "Soldier Field, Chicago, outdoor grass, not neutral (ESPN neutralSite false). ESPN weather block: 56 F, gusts 21 mph, precipitation chance 56. Windy and possibly wet conditions help the underdog slightly by shortening the game. Note that ESPN lists the Bears as the home side and Polymarket names the Saints first, so the candidate keys are home=Saints, away=Bears."
+      },
+      "reason": "The Bears are 7-2 at home against a 3-6 Saints side missing three offensive linemen. The DraftKings de-vigged price (0.829) and ESPN's predictor (78.6%) both support the Polymarket 0.845, so the price is slightly rich but within range. The confidence is medium because the starting QBs and Friday final statuses are not confirmed, the spread of -11.5 leaves room for a late game, and the Bears have a Thanksgiving game on Thursday.",
+      "main_risk": "Close game decided late: Caleb Williams turnovers (5 INT) and wind of 21 mph with possible rain on a 11.5-point spread keep the score tight, and a mid-week look-ahead to Detroit on Thanksgiving. Backup-QB risk is low on the evidence (neither QB on the injury list) but inactives are not out yet.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873071",
+        "https://www.neworleanssaints.com/news/injury-report-chicago-bears-vs-new-orleans-saints-2026-nfl-week-11-thursday",
+        "https://sportsbook.draftkings.com/event/34118023",
+        "https://gamma-api.polymarket.com/events?id=1301069"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1301081",
+      "exclude": true,
+      "reason": "HARD rule \"derby or fierce rivalry\", conservative reading (as for Getafe v Atlético the same day): Broncos-Raiders is a historic AFC West rivalry with its own Wikipedia article (73-58-2 series, a 2017 sideline brawl, the 1995 Shanahan dispute, the most Monday Night Football meetings in NFL history). The research otherwise found Denver a clear favourite (7-2, 4-0 at home, rested after a bye; DraftKings about 0.824 de-vigged, ESPN FPI about 86%) against a 4-6 Raiders side with a rookie QB.",
+      "main_risk": "A close, low-scoring division game (total 40.5) decided late or by turnovers: Nix has 4 interceptions, a rookie Mendoza can still hit a big play against Denver, and rivalry games are tighter than the ratings suggest. A late scratch to Nix is the other risk (not on the injury report, inactives not yet out). Rivalry classification is a judgement call: it counts as a notable divisional rivalry, not a derby.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122",
+        "https://www.raiders.com/news/raiders-broncos-week-11-injury-report",
+        "https://www.covers.com/nfl/raiders-vs-broncos-prediction-picks-nov-22-2026",
+        "https://en.wikipedia.org/wiki/Broncos%E2%80%93Raiders_rivalry"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1346996",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.8,
+        "draw": 0.13,
+        "away": 0.07
+      },
+      "checks": {
+        "team_news": "Barcelona: Rodri (hamstring, back early Dec), Xavi Espart (ankle, Jan), Frenkie de Jong and Roony Bardghji (cruciate, Feb 2027) out per Khelnow and Livescore. Khelnow lists Pau Cubarsi (hip, 1-2 weeks) as out, while Livescore says Christensen and Eric Garcia both came back off the bench against Atletico, so centre-back availability is a small open question. No suspensions reported. Villarreal: Gerard Moreno and Juan Foyth doubtful (muscle), Ilias Akhomach doubtful, Alassane Diatta out until early Dec; Saliba and Freeman may return (unconfirmed). Lineups are not out tonight.",
+        "lineups": "Predicted only. Livescore: Garcia; E. Garcia, Cubarsi, Martin, Cancelo; Bernal, Pedri, Fermin; Yamal, Gordon, Raphinha vs Villarreal Gulacsi; Freeman, Costa, Veiga, Romero; Gueye, Saliba, Buchanan, Moleiro, Oluwaseyi; Mikautadze. Khelnow: Joan Garcia; Farinas, Christensen, Martin, Cancelo; Bernal; Fermin, Pedri; Yamal, Raphinha, Gordon vs Villarreal Gulacsi; Mourino, Costa, Veiga, Romero; Macia, Gueye; Buchanan, Moleiro, Oluwaseyi; Mikautadze. The two outlets differ on the back line; both show a full-strength attack. No rotation confirmed.",
+        "rotation": "The last Barcelona game was the 2-1 away win at Atletico before the international break, so they have had a full week of rest. I found no midweek game before this one and no report of rotation plans. Villarreal had the same break (Buchanan scored for Canada). I did not verify either side's next fixture.",
+        "motivation": "Barcelona lead La Liga with 33 points from 12 games (GD +35), level on points with Real Madrid (33 from 13), so they need the win in the title race. Villarreal are 9th on 15 points from 12 games and have nothing secured. They are not in a relegation fight either. Not a derby; the Derbi de la Comunitat is Villarreal vs Valencia. Neither head coach was changed in the last 30 days; Inigo Perez took over from Marcelino in the summer.",
+        "form": "Barcelona: won 10 of their first 11 La Liga games, the only league loss being the Clasico. Recent results include a 2-1 win at Atletico and a 6-1 win over Alaves. Khelnow's form string is W-W-W-L-L, including losses to Real Madrid and PSG. Villarreal: no win in their first 5 league games, then 4 wins in 7, including 2-0 over Getafe and 2-1 over Valencia. A 6-0 loss to PSG appears in the Khelnow form list. I found no xG data.",
+        "h2h": "58 meetings: Barcelona 36 wins, Villarreal 12, 10 draws (about 17% draws). Barcelona won both league meetings last season. Previews (Khelnow, Sportskeeda) predict 3-1.",
+        "odds": "DraftKings via ESPN (site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122): Barcelona 1.20 (-500), draw 7.5 (+650 on the live feed), Villarreal 12.0. De-vigged home 79.4%, draw 12.7%, away 7.9%; total line 4.5 goals. Polymarket home is 81.4%, about 2 points above DraftKings, so the second price agrees within 5 points. The Polymarket 24h move is flat (0.815 to 0.815, 0% change). DraftKings opening home was also 1.20; Villarreal drifted from 9.5 to 12, which favours Barcelona. No price move against the favourite.",
+        "models": "ClubElo API returned nothing, so there is no bookmaker-free rating. The only independent evidence is the league table (Barcelona GD +35 vs Villarreal +2 in 12 games) and the previews' 3-1 predictions. This check is only partly filled.",
+        "venue_weather": "Spotify Camp Nou, Barcelona, kick-off 13:00 UTC (14:00 local). A normal home venue. I found no weather or pitch concerns, but also no forecast."
+      },
+      "reason": "A strong home favourite, top of the table, with a real title incentive against a mid-table side that has nothing at stake. DraftKings (79.4% de-vigged) agrees with Polymarket (81.4%) within 2 points, and the 24h price move is zero. No hard exclusion applies: it is not a derby, no coach change, and a normal venue. Confidence is medium rather than high because lineups are unconfirmed, the centre-back news is conflicting (Cubarsi), and no Elo rating could be read.",
+      "main_risk": "A draw or an away win, most likely through a low-scoring game where Barcelona create chances but Villarreal sit deep, or through defensive weakness if Cubarsi is out. Barcelona already have a league loss and two recent defeats (Real Madrid, PSG) in the form string. A one-goal win would sink the -1.5 handicap and the Over 2.5 goals leg, so I give no view on the handicaps or Barcelona team-goals legs.",
+      "sources": [
+        "https://www.livescore.com/en/news/football/laliga/barcelona-vs-villarreal-la-liga-preview-predictions-team-news-and-tv-info-everything-barca/",
+        "https://khelnow.com/football/barcelona-vs-villarreal-preview-laliga-202611",
+        "https://www.sportskeeda.com/football/barcelona-vs-villarreal-prediction-betting-tips-november-22nd-2026",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122",
+        "https://www.fcbarcelona.com/en/matches/138403/fc-barcelona-villarreal-la-liga-2026-2027"
+      ],
+      "views": {
+        "ou_6.5_under": 0.82
+      },
+      "prices": []
+    },
+    {
+      "id": "1301071",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.25,
+        "draw": 0,
+        "away": 0.75
+      },
+      "checks": {
+        "team_news": "Titans official Week 11 report (tennesseetitans.com, Friday final): Carmona (G) Out; Questionable: S Tony Adams (concussion), LB Anthony Hill Jr. (neck), CB Micah Robinson (hip), RB Tyjae Spears (knee), WR Carnell Tate (shoulder); all of these were full participants Friday. Cowboys: Out: CB DaRon Bland, G Tyler Booker, TE Jake Ferguson, WR Jonathan Mingo; Questionable: CB Devin Moore, TE Luke Schoonmaker, S Jalen Thompson; S P.J. Locke (concussion) did not practice. Dak Prescott is not on the report. Dallas loses a starting TE, a WR and a guard.",
+        "lineups": "No confirmed lineups yet. ESPN lists Dak Prescott (2724 yds, 21 TD, 6 INT) as Dallas QB and Cam Ward (1714 yds, 8 TD, 6 INT) as Titans QB; neither is on the injury report. Tony Pollard (rest day Thursday) returned to full practice Friday.",
+        "rotation": "No Thursday game or travel issue. Titans travel to Arlington (central time zone, same as Nashville). Cowboys' next game is Thanksgiving vs PHI on 11/26, a short week, but not a reason to rest players. Dallas lost 46-40 to SF last week; Titans lost 40-23 to JAX.",
+        "motivation": "Dallas is 4-6 (1-4 at home) and still in the NFC East chase, so it needs the win. Tennessee is 1-8 and out of the race. The favourite has plenty to play for; this is not a hard exclusion.",
+        "form": "Cowboys score 28.6 and allow 28.2 per game; last 6: W 38-21 at PHI, L 30-33 vs ARI, W 27-23 at IND, L 40-46 vs SF, previous L 13-23 at GB, L 16-24 vs TB; they have not won two games in a row all season. Titans score 18.6 and allow 26.6; lost three straight (36-43 at CIN, 23-40 vs JAX), only win 26-20 at IND; 1-8 overall, 0-5 at home, 1-3 on the road.",
+        "h2h": "No recent meetings found; style matchup is Dallas' high-scoring offense against a Titans defense allowing 390.9 yards per game (Fox Sports), while Dallas' own defense is the worst in the league on yards. SI projects an over (total 54.5).",
+        "odds": "DraftKings via ESPN: Cowboys ML 1.28 (-356) vs Titans 3.83, de-vigged Cowboys 0.749 (opening 1.34/3.35, so the line moved toward Dallas); spread DAL -7.5 (open -6.5), total 54.5 (open 48.5). SI shows -425/+330 and -8.5 from another snapshot. Polymarket 0.775 is 2.6 points above the DK de-vig, within 5 points. Polymarket 24h move: 0.775 to 0.775 (0%), no drift against the favourite.",
+        "models": "Opta supercomputer (via Fox Sports power-rankings piece): Cowboys 77.9%. Fox Sports ranks Tennessee 29th, Bleacher Report 31st. Points differential: Dallas about +0.4 per game vs Tennessee about -8.0. No ESPN FPI figure found.",
+        "venue_weather": "AT&T Stadium, Arlington TX, indoor (ESPN), neutralSite false, so weather is irrelevant. Dallas is the true host (ESPN home = Cowboys; the candidates file lists Titans as 'home' only because Polymarket names them first). Kickoff 1:00 PM ET / 18:00 UTC on FOX."
+      },
+      "reason": "Dallas hosts a 1-8 Titans side with the 29th-31st ranked roster, needs the win for the NFC East chase, has no QB doubt and the books and Opta agree at about 75-78%. The Titans' offence has scored 23+ in four straight games.",
+      "main_risk": "Dallas' defence is the league's worst by yards and points allowed (28.2 per game), and the Cowboys are 1-4 at home with no back-to-back wins; with TE Ferguson and WR Mingo out, a shootout that Tennessee wins or stays close in late is the main failure path, along with turnovers (Prescott 6 INT, Ward 6 INT). Cowboys' price is ahead of DraftKings by 2.6 points, so p is trimmed.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122",
+        "https://www.tennesseetitans.com/news/week-11-injury-report-titans-at-cowboys",
+        "https://www.si.com/betting/titans-vs-cowboys-prediction-odds-spread-injuries-trends-for-nfl-week-11-2026",
+        "https://www.foxsports.com/stories/nfl/2026-nfl-power-rankings-week-11",
+        "https://gamma-api.polymarket.com/events?id=1301071"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1346288",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.7,
+        "draw": 0.2,
+        "away": 0.1
+      },
+      "checks": {
+        "team_news": "Paris FC: Jonathan Ikone (dead leg) and Nhoa Sangui (muscle) are out, and Adama Camara (hamstring) and Samir Chergui (knock) are doubts (Sports Mole 21 Nov, Soccernet NG, OneFootball via search). Eurofootnews lists all four as doubtful, so the sources differ on Ikone and Sangui. No key starter such as Sinayoko or Trapp is reported out. Angers: Jordan Lefort suspended (centre-back, accumulated yellows), Bane Diatta out (ankle), goalkeeper Oumar Pona ill. Amine El Ouazzani is back in the squad. Ouest-France headlines say 'Lefort et Diatta seuls absents' and also 'un suspendu, un malade et un blessé', so the Pona report is not fully consistent. The Ouest-France page itself returned 403 and was read only as search snippets. I found no Paris FC press-conference text for this match.",
+        "lineups": "Not official; the teams are expected to be confirmed about 1 hour before kick-off. Sports Mole (21 Nov) has Paris FC as Trapp; Traore, Otavio, Coppola; Simon, Lopez, Lees-Melou, Matondo; Kebbal, Pagis; Sinayoko. Eurofootnews has a 4-2-3-1 with Trapp; Traore, Mbow, Coppola, Otavio; Lopez, Lees-Melou; Kebbal, Pagis, Koleosho; Sinayoko. Angers expected: Lopes; Arcus, O. Camara, Biumla, Kalulu; Belkhdim, Belkebla; Allevinah, van den Boomen, Sbai; Peter (or El Ouazzani). The two outlets differ on shape and on several names, so the XI is provisional.",
+        "rotation": "The league resumed after the international break. Paris FC's last game was a 1-0 win at Auxerre on 7 Nov, and Angers lost 0-2 to Nice on 8 Nov, so both had about two weeks' rest. I found no midweek or cup fixture for either side, and I did not find their next fixtures. No rotation is reported. Sports Mole says Angers' Camara and Sbai were rested on Thursday and trained Friday.",
+        "motivation": "ESPN standings before the game: Paris FC 3rd, 20 pts from 10 games (6W 2D 2L), GD +7, unbeaten at home in the league per Sports Mole. Angers 17th, 8 pts, GD -10, six points above bottom side Le Havre, winless in five and without a goal in their last three league games. Paris FC are chasing the podium and Angers need points, so the hard rule on a favourite with nothing to play for does not apply. Coaches: Liam Rosenior at Paris FC since July 2026 and Stephane Gilli at Angers since 9 June 2026, so no change in the last 7 days. Gilli coached Paris FC until Feb 2026, a mild storyline but not a derby.",
+        "form": "Paris FC (ESPN) W W L W L, Sports Mole last six W W L W L W, with 17 league goals in 10 games and Sinayoko the top scorer on 9. Angers (ESPN and Sports Mole) L L D L L W, with 9 goals in 10 games and no win in five. Angers have failed to score in half their league games. xG not found.",
+        "h2h": "Angers won 1-0 in Aug 2025 and the sides drew 0-0 in Jan 2026, with Gilli then at Paris FC. Paris FC failed to score in both meetings. Both were tight, low-scoring games and one ended level, which is a draw and low-scoring warning for this game.",
+        "odds": "DraftKings via ESPN (data.odds): home 1.32, draw 5.5, away 9.0, de-vigged 72.1/17.3/10.6, opening 1.34/5.0/8.0, so the favourite's price shortened slightly. The Polymarket home price is 0.745 (draw 0.175, away 0.085). DraftKings agrees within 2 points. Polymarket 24h: 0.735 to 0.745 (+1.4%), flat on the hourly history. There is no move against the favourite and no unexplained drift.",
+        "models": "The bookmaker-free models are much less confident than the market. ClubElo (clubelo.com/ParisFC, 21 Nov, Paris FC Elo 1716): 59.0% home, 26.3% draw, 14.8% away. Sports Mole's model: 57.9/24.1/18.0, with a most likely score of 1-0, BTTS 50.3% and over 2.5 at 51.6%. Both are about 15 points below the market win price and put the draw at 24-26%, so p is cut to the 5-point floor.",
+        "venue_weather": "Stade Jean-Bouin, Paris, normal home venue (ESPN). Kick-off 15:00 local, referee Aurelien Petit (eurofootnews). I found no weather forecast or pitch report, so I cannot confirm conditions, but nothing unusual was reported."
+      },
+      "reason": "No hard exclusion applies: the fixture, venue and date are verified, there is no coach change in the last 7 days, no confirmed rotation, and the table shows Paris FC 3rd chasing a podium against 17th-placed Angers who need points. DraftKings (72%) agrees with Polymarket (74.5%) within 2 points and the price is stable. Confidence is medium only because the bookmaker-free models (ClubElo 59%, Sports Mole 58%) sit about 15 points under the market and put the draw at 24-26%, so p is set at the 5-point floor. A Paris FC win is still the most likely result. Set to low when merged: the two bookmaker-free models sit about 15 points under the market, a doubt the 5-point limit on p cannot reflect, and Paris FC failed to score in both recent meetings.",
+      "main_risk": "A draw or a narrow home win: past meetings were 1-0 and 0-0, Paris FC were held scoreless in both, and both bookmaker-free models put the draw at 24-26% against about 17% in the market. Paris FC also have fitness doubts (Camara, Chergui; Ikone and Sangui out) and the lineup is unconfirmed. Angers have scored three goals in five games, which makes goal legs risky when the game ends 1-0.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/paris-fc/preview/paris-fc-vs-angers-prediction-team-news-lineups_609533.html",
+        "https://www.eurofootnews.net/paris-fc-angers-ligue-1-11e-journee-compositions-probables-absents-et-enjeux-du-match-22-novembre-2026/21/11/2026/",
+        "https://soccernet.ng/2026/11/paris-fc-vs-angers-preview-team-news-h2h-moses-simon.html",
+        "http://clubelo.com/ParisFC",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261122",
+        "https://gamma-api.polymarket.com/events?id=1346288",
+        "https://www.ouest-france.fr/sport/football/angers-sco/angers-sco-lefort-et-diatta-seuls-absents-avant-daffronter-le-paris-fc-1ee35afe-e4e5-11f1-bd4e-6f30b8f49e21"
+      ],
+      "views": {
+        "ou_4.5_under": 0.78,
+        "tt_home_3.5_under": 0.78
+      },
+      "prices": []
+    },
+    {
+      "id": "1344712",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.7,
+        "draw": 0.19,
+        "away": 0.11
+      },
+      "checks": {
+        "team_news": "Juventus: Kalulu out (left thigh), Cambiaso and Celik still training apart (Fantacalcio 19 Nov), Nico Gonzalez a doubt per a Fantamaster headline with no detail, Gatti rested after international duty. Juventus have absences on the flanks. Venezia: Nicola has the full squad in training for the first time in a while, Franjic and Sverko improving, Correia was the long-term absentee (Pazzidifanta, Fantacalcio). No suspensions reported for either side. Adams and Yeboah may be rested after international duty per Fantacalcio.",
+        "lineups": "Not official (evening before). Pazzidifanta: Juventus 3-4-2-1 with Vicario; Gatti, Bremer, Lucumi; McKennie, Koopmeiners, Douglas Luiz, Cabal; Kolo Muani, Alajbegovic; Woltemade. Venezia 3-5-2 with Stankovic; Halhal, Moreno, Juan Jesus; Hainaut, Sohm, Basic, Perez, Mazzocchi; Yeboah, Adams. Fantamaster has Juventus in a 4-3-3 with Celik, Bremer, Lucumi, Cabal at the back and the same attackers. Fantacalcio instead has Venezia's Rrahmani and Lauberbach up front, with Bella-Kotchap possibly returning in defence. The sources disagree on shape and on Venezia's front two. Both sides' main starters are expected to play.",
+        "rotation": "The league was on an international break. Juventus' last league game was a 2-2 draw with Fiorentina. Some Juventus players returned late from national teams (Lucumi from Colombia, McKennie from the USA), and Gatti is rested. No midweek European fixture was found for either side. This is a 12:30 local lunch match at home for Juventus. No heavy rotation is reported.",
+        "motivation": "Sportschau table after 11 games: Juventus 8th with 18 points (+3), Venezia 19th with 6 points (-13). Neither side has secured anything. Venezia are in the relegation fight and need points, but the favourite is also chasing a European place, so this is not a hard-exclusion case.",
+        "form": "Juventus are unbeaten in three league games including the 2-2 draw with Fiorentina (Pazzidifanta). Their goal difference is only +3 after 11 games, so they are not dominant. Venezia: 6 points from 11 games, 8 goals scored in 11, no away points yet (livetipsportal). Under Nicola they took 3 points from 4 games (beat Napoli, lost to Genoa, Inter and Como). Pazzidifanta says Nicola's side beat Udinese and ended a run of three defeats. I found no xG data.",
+        "h2h": "No 2026 head-to-head data was read. The previous meetings I could find were from 2024-25, and I did not open them. Style matchup: Juventus have the technical edge. Venezia will probably sit in a 3-5-2 and counter, which fits a low-scoring or drawn game.",
+        "odds": "Polymarket 1X2: Juventus 0.715-0.7235, draw 0.173-0.175, Venezia 0.1035-0.105. The 24h price history shows Juventus at 0.725 falling to 0.715, a drop of about 1.4% relative, below the 3% threshold and with no adverse news. DraftKings via ESPN (data.odds.source): 1.33 / 5.00 / 7.50, opening 1.32 / 4.80 / 7.00, de-vigged 69.2 / 18.5 / 12.3. That agrees with Polymarket within about 3 points. The Juventus price lengthened slightly from the opening 1.32 to 1.33, a 0.8% drift. Livetipsportal lists NetBet at 1.37 for Juventus, Bet365 at 5.25 for the draw and 9.00 for Venezia, which is the same range. Total goals line 2.5.",
+        "models": "ClubElo returned HTTP 503 twice, so no bookmaker-free rating was read. Table position and goal difference favour Juventus (8th, +3 against 19th, -13), but the gap is not large. The bookmaker-free check is therefore missing and is a reason against high confidence.",
+        "venue_weather": "Allianz Stadium, Turin, Juventus home ground, a normal venue. Kick-off 12:30 local on Sunday 22 Nov (11:30 UTC). I did not read a weather forecast; no pitch problem or extreme weather was reported."
+      },
+      "reason": "The fixture is verified (Serie A matchday 12, 12:30 at the Allianz Stadium). No hard rule applies. Nicola was appointed on 14 Oct 2026, 38 days ago, so there is no coach-change exclusion. Juventus are the home favourite with Polymarket and DraftKings agreeing within about 3 points, and the price has been stable. Venezia are 19th, without an away point and with a poor goal difference. Confidence is medium and not high because Juventus have flank absences, the lineup and shape are uncertain, they are only 8th with a +3 goal difference, the recent 2-2 draw with Fiorentina shows they do not always win, and no Elo or other independent rating could be read. p is set slightly below the market, in line with the DraftKings de-vig.",
+      "main_risk": "A draw or a narrow 1-0 win. Venezia will defend deep with a back five under Nicola. Juventus have injuries and doubts on the flanks (Kalulu out, Cambiaso and Celik training apart, Nico Gonzalez a doubt), a changed shape, and players back late from national teams. A 1-0 or 1-1 result fails both the favourite's margin legs and the over legs. Handicap legs such as -1.5 are at risk for the same reason.",
+      "sources": [
+        "https://www.pazzidifanta.com/news/juventus-venezia-probabili-formazioni-12a-giornata-serie-a-2026-27-460764",
+        "https://www.fantacalcio.it/news/calcio-italia/19_11_2026/juventus-in-emergenza-torna-la-difesa-a-tre-senza-kalulu-500839",
+        "https://www.fantacalcio.it/news/calcio-italia/19_11_2026/venezia-domenica-c-e-la-juventus-le-ultime-di-formazione-500857",
+        "https://www.fantamaster.it/probabili-formazioni-juventus-venezia-12-giornata-seriea-2026-2027/",
+        "https://www.sportschau.de/live-und-ergebnisse/fussball/italien-serie-a/ma12131152/juventus-turin_venezia-fc/blitztabelle",
+        "https://www.livetipsportal.com/it/pronostici-scommesse-sportive/juventus-vs-venezia-fc-serie-a-12131152/",
+        "https://www.tuttosport.com/news/notizia-ultima-ora/2026/10/14-151894093/il_venezia_ufficializza_nicola_nuovo_allenatore",
+        "https://gamma-api.polymarket.com/events?id=1344712",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261122"
+      ],
+      "views": {
+        "ah_away_+2.5": 0.74,
+        "ou_4.5_under": 0.8
+      },
+      "prices": []
+    },
+    {
+      "id": "1301077",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.69,
+        "draw": 0,
+        "away": 0.31
+      },
+      "checks": {
+        "team_news": "Candidates-file 'home' (Jaguars) is the AWAY team: ESPN lists Giants as host at MetLife Stadium (neutralSite false), so no hard exclusion. Giants.com Week 11 report (Fri): no Giants player has a game designation (Nic Jones CB knee limited Fri, Isaiah Likely TE groin DNP Fri but expected ready per Harbaugh, Skattebo RB hamstring full, Banks, Harrison, Pinnock full). Giants QB is J.J. McCarthy (took over from Jameis Winston, 2 TD / 2 INT in five starts); Dart shown as Reserve/Injured since Sep 24 on giants.com tracker (one SI item claimed a Dart protocol, unconfirmed and contradicted by the official report). Jaguars (jaguars.com, Nov 21): OUT Robert Hainsey (OL knee), B.J. Green II (DE forearm), Danny Striggow (DE concussion, downgraded, will not travel); QUESTIONABLE Matt Dickerson (DT neck). Trevor Lawrence is not on the report. Tuten, Walker, Meyers, Armstead and others listed with no game status. Lawrence 171/259, 2284 yds, 21 TD, 5 INT (112.8 rating).",
+        "lineups": "No official lineups yet (Saturday evening). Expected: Lawrence (JAX) and McCarthy (NYG) starting, no QB on either injury report. Jaguars OL without Hainsey; Giants OL has Little at left tackle in place of Harrison per one preview. Final inactives come about 90 minutes before kick-off; only one outlet class (team sites plus previews) was used, so lineups are not confirmed by two independent lineup sources.",
+        "rotation": "Giants played Thursday night in Week 10 (lost 24-21 to Washington after a fourth-quarter lead); SI notes the short week gives Jacksonville a rest edge. Jaguars last three games were wins (42-7 IND, 33-10 BAL, 40-23 TEN), blowouts with starters likely resting late; their trip is a short East Coast flight, no time-zone issue. No rotation concerns found.",
+        "motivation": "Jaguars 7-2 on a three-game winning streak, chasing a top seed. Giants 5-3-1 with a 1.5-game NFC East lead (Cowboys also lost), so both sides have playoff stakes; the favourite is not coasting.",
+        "form": "Jaguars: three straight wins by 19, 23 and 17 points (all covered as double-digit favourites), earlier losses at Denver (Week 2) and to Houston; 3-1 on the road; fourth in scoring. Giants: 5-3-1, lost 24-21 to Washington and 28-6 to the Rams; 3-2 at home; SI says their metrics are inflated by the second-easiest schedule in the NFL, with no win yet over a current playoff team.",
+        "h2h": "No recent meeting data was found or read; not relied on. Style matchup per previews: Jaguars lead the league in DVOA and are the only team top five in both EPA/play and opponent EPA/play (SI); the Giants' defence and McCarthy's inexperience are the gap.",
+        "odds": "DraftKings via ESPN (site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122): Jaguars -256, Giants +211, de-vigged about 0.691 / 0.309; spread Jaguars -6 (-109 / -110), total 46.5. Opening line was Jaguars -125 / Giants +105 (de-vigged about 0.53 Jaguars) with spread Jaguars -1.5, so the market moved TOWARD the Jaguars (no drift against the favourite). Dimers shows 71.3% Jaguars, spread -5.5. Polymarket 0.715 flat for the last 24h (prices-history 23 hourly points all 0.715; candidates move_24h 0.715 to 0.715). Independent price agrees within about 2.5 points of Polymarket, so the second-price rule is met.",
+        "models": "Dimers model 71.3% Jaguars / 28.7% Giants, projected 25-19; Fox Sports 1300 model projects Jaguars 29-16; NBC model Jaguars -6.0. SI: Jaguars lead the league in DVOA; Giants rank 13th in net yards per play (+0.2) on an easy schedule. No bookmaker-free Elo/FPI figure was found for this game.",
+        "venue_weather": "MetLife Stadium, East Rutherford NJ, outdoor, real Giants home game (not neutral). Forecast sources agree on rain through the game (Fantasy Alarm about 68% rain 3-5pm, NE wind 9-12 mph, gusts 12-16 mph, 60-62F; DraftKings Network 70% light rain, wind 6-7 mph, 59-60F; AccuWeather via The Spun rain all game). Wet but not extreme; mild upward risk for a lower-scoring, higher-variance game."
+      },
+      "reason": "Jaguars are the better team (7-2, league-leading DVOA, three straight blowout wins) travelling to a Giants side with a first-year starter at QB (McCarthy, 5 starts) and a soft schedule. Official Friday reports are clean for both QBs; Jaguars lose Hainsey (OL) and Striggow (DE) only. DraftKings (69.1% de-vigged), Dimers (71.3%) and Polymarket (71.5%) agree, and the line moved toward the Jaguars from -1.5 to -6. p is set slightly under the market because the Jaguars are a road favourite in rain against a team with playoff stakes.",
+      "main_risk": "Close game decided late: a wet road game as a 6-point favourite, with turnovers or a McCarthy/defence-driven low-scoring game keeping the Giants within one score (Giants 5-3-1 with a division lead, short-week rest question aside). Lineups and inactives are not yet confirmed (Dickerson questionable, Lawrence's Saturday status not independently confirmed beyond not being on the report).",
+      "sources": [
+        "https://www.jaguars.com/news/jaguars-injury-report-update-striggow-out-for-week-11-vs-giants",
+        "https://www.giants.com/news/injury-report-statuses-for-giants-vs-jaguars-week-11",
+        "https://www.giants.com/news/jacksonville-jaguars-week-11-john-harbaugh-jj-mccarthy-malachi-fields-arvell-reese-trevor-lawrence",
+        "https://www.si.com/betting/jaguars-vs-giants-score-prediction-for-nfl-week-11-can-jacksonville-cover-on-road-01m7rg9ep25p",
+        "https://www.dimers.com/nfl/predictions/2026_11_nyg_jax",
+        "https://www.archyde.com/jaguars-6-point-favorites-over-giants-line-moved-from-1-5-to-6-per-nbc-sports/",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122",
+        "https://dknetwork.draftkings.com/2026/11/20/nfl-week-11-weather-forecast/"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1301073",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.34,
+        "draw": 0,
+        "away": 0.66
+      },
+      "checks": {
+        "team_news": "Buccaneers (buccaneers.com Nov 19 report, Fox Sports game page): QB Baker Mayfield (foot/right thumb) did not practice Wed, limited Thu, and is listed questionable; NFL Network (Nov 15) said his status was in doubt. Rookie Jalon Daniels is QB2 and would start if Mayfield cannot go. Fox Sports lists Antoine Winfield Jr. (S, ankle) and Josh Hayes (CB, knee) out, and Yaya Diaby (knee) questionable. Godwin and Irving had Thursday rest days. Lions: Jared Goff is not on the injury report. C Cade Mays (ankle) is out. LB Joe Bachie, CB Khalil Dorsey, DL Tyler Lacy and CB Ennis Rakestraw Jr. are questionable. Aidan Hutchinson is on season-ending IR (Walter Football). I could not find the official Friday final designations or a Saturday roster-move report, so Mayfield's final status is unconfirmed.",
+        "lineups": "Not confirmed tonight. Expected: Goff at QB for Detroit. Tampa Bay expects Mayfield, with Daniels as backup (Fox Sports: coach Bowles reported optimistic that Mayfield starts). Only one lineup source found for the Bucs, so this stays an open fact.",
+        "rotation": "Neither team plays on a short week. Tampa Bay is coming off a Week 10 bye after a 27-24 loss at Chicago in Week 9, so it has had extra rest. Detroit won 35-10 over New England in Week 10. The Bucs travel to Detroit for a 1:00 PM ET game (18:00 UTC), with no time-zone issue. No rest or back-to-back concern for Detroit.",
+        "motivation": "Lions 7-2 are in the NFC playoff race and have everything to play for. Buccaneers 3-6 are on the fringe, so a road win would matter. Neither team has anything left to play for in the hard-rule sense, so there is no exclusion.",
+        "form": "Lions 7-2, +58 point differential, 35-10 win over New England last week, net EPA rank 7, offence EPA rank 10, defence EPA rank 8 (Walter Football). Buccaneers 3-6, +24 point differential, lost 27-24 at Chicago in Week 9 and covered the spread, net EPA rank 15, offence EPA rank 26 and defence EPA rank 3. Tampa's pass-protection pressure allowed is the worst of the group.",
+        "h2h": "The Lions beat Tampa Bay on Monday night in Week 7 of 2025 (Buccaneers.com, NFL.com storylines pages). I did not read the score or a 2026 meeting. Style matchup: a strong Tampa defence (EPA rank 3) against Detroit's offence (rank 10) could keep this close, while Detroit's pass rush (25.6% pressure rate) faces a weak Tampa offence line.",
+        "odds": "DraftKings via Fox Sports page: Lions -4.5, moneyline Lions -226 / Buccaneers +186, total 46.5. De-vigged, the Lions are about 66.5% (implied 69.3% and 35.0%, sum 104.3%). That is within 2 points of Polymarket 0.685, so the second price agrees. Earlier lines were bigger: Kalshi in the Covers article had Lions 71%, spread -6.5; Circa -6.5 (Walter Football); bet365 -7 (Statz). The line tightening from -6.5/-7 to -4.5 points toward Mayfield being expected to play. Polymarket 24h move: Lions 0.705 to 0.685, a relative drop of 2.8%, below the 3% threshold, and explained by the Mayfield news. The Polymarket spread market has Lions -4.5 at 0.795 for the Buccaneers side priced at 0.205.",
+        "models": "No Elo, FPI or DVOA read tonight. Walter Football power rank: Lions 10th, Buccaneers 15th. Net EPA rank: Lions 7th, Buccaneers 15th. Point differential +58 vs +24. Bookmaker spread of 4.5 to 6.5 points implies roughly 66-72% for the Lions. These are rankings, not a bookmaker-free win model.",
+        "venue_weather": "Ford Field, Detroit: indoor stadium, so wind and rain do not matter. Fox Sports lists Detroit weather as sunny, 61F. The Lions are the true home team; in the candidates file 'home' is the Buccaneers only because Polymarket names them first. Domestic game, not neutral or international."
+      },
+      "reason": "Detroit is the better team at home indoors (7-2 vs 3-6, better point differential and EPA) and the bookmaker price (66.5% de-vigged) agrees with Polymarket within 2 points. No hard exclusion applies. Confidence is medium and not high because Mayfield's final status and the Friday designations were not confirmed, and Tampa's defence ranks third. p is lowered 2.5 points from market to reflect that.",
+      "main_risk": "A close game decided late: Mayfield plays through the foot and thumb injuries and Tampa's top-3 defence keeps the Lions' offence in check, or turnovers swing it. Alternative uncertainty: a Daniels start would likely favour Detroit, but the fact stays unconfirmed. Lions also carry minor doubts on their defensive back and line depth, plus a Cade Mays absence at centre.",
+      "sources": [
+        "https://www.buccaneers.com/news/buccaneers-lions-injury-report-nov-19-week-11-2026",
+        "https://www.foxsports.com/nfl/week-11-tampa-bay-buccaneers-vs-detroit-lions-nov-22-2026-game-boxscore-11091",
+        "https://www.covers.com/nfl/when-will-baker-mayfield-return-next-2026",
+        "https://walterfootball.com/nflteamhub2026-week11-buccaneers-at-lions.php",
+        "https://www.foxsports.com/stories/nfl/bucs-qb-baker-mayfield-week-11-status-leg-injury",
+        "https://gamma-api.polymarket.com/events?id=1301073"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1259700",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.35,
+        "draw": 0,
+        "away": 0.65
+      },
+      "checks": {
+        "team_news": "Sabres (9-9-4): Konsta Helenius, Justin Danforth and Matt Grzelcyk on IR per SportBusy; Alex Lyon was listed upper-body on 11 Nov (SportBusy shows him on IR). Lightning (15-5-2): Brayden Point was put on IR on 10 Nov after leaving the 4-3 loss in Winnipeg (CBS/NHL.com); SportBusy now lists Brandon Hagel and Conor Geekie on IR and Zemgus Girgensons day-to-day. I did not find a Saturday Lightning press conference or official injury update.",
+        "lineups": "No starting goalie confirmed or projected for 22 Nov; Daily Faceoff and other pages do not list it yet. Lightning: Andrei Vasilevskiy has been the projected starter in the previous meeting, with Dennis Hildeby as backup. Sabres: Ukko-Pekka Luukkonen started and was pulled on 11 Nov (5 goals on 14 shots), Colten Ellis is the backup. Daily Faceoff shows Lyon as likely Sabres starter in the Saturday 21 Nov game at Florida, so the Sunday Sabres goalie is unknown. A backup in goal for either side is a real risk. Lines are not out.",
+        "rotation": "Sabres play Sat 21 Nov (Florida Panthers, 6 PM ET per Daily Faceoff) and then Sun 22 Nov at Tampa: a back-to-back with travel, which usually means a backup goalie and tired legs. The Lightning last played Thu 19 Nov (3-1 vs Edmonton) after a 5-2 win over Washington on 17 Nov and are off Fri and Sat, so they are rested and at home.",
+        "motivation": "Early season (22 and 24 games played). Lightning 15-5-2, 32 points; Sabres 9-9-4, 22 points, sixth in the Atlantic as of 10 Nov. Nothing special at stake for either side; no hard exclusion applies.",
+        "form": "Lightning last 10: 7-2-1, W2, goals for/against 82/62 (+20). Sabres last 10: 4-5-1, W1 (6-3 vs Washington on 19 Nov, 3-4 loss to Philadelphia on 17 Nov), goals 64/77 (-13). Lightning home record 10-1-0.",
+        "h2h": "11 Nov 2026 in Buffalo: Lightning 8, Sabres 3 (Kucherov hat trick, Carlson 5 points, Luukkonen pulled); the Sabres' own coach and captain said they beat themselves with defensive errors. Previous season meeting 6 Apr 2026: Sabres won 4-2. A single blowout is partly noise; Buffalo beat Tampa in April.",
+        "odds": "Polymarket 0.665 for the Lightning, unchanged over 24h (0.665 to 0.665, 0% move), so no price-drift flag. Second price source Covers.com odds page: Novig Lightning 1.52 / Sabres 2.86 (de-vigged about 65% Lightning), Kalshi 1.45 / 2.78, ProphetX 1.48 / 2.66, Underdog and Crypto.com 1.41 / 2.63; books imply roughly 66 to 71% Lightning, within 5 points of Polymarket. SportBusy shows the Lightning at -181 (about 64% de-vigged to 65%), puck line -1.5 at +134, total 6.5. ESPN/DraftKings feed returned HTTP 403, so DraftKings was not read.",
+        "models": "Bookmaker-free: points 32 vs 22 after 22 games each (goal difference +20 vs -13). I did not read MoneyPuck or another xG model, so no xG figure is claimed.",
+        "venue_weather": "Home team is the Lightning (Tampa Bay Lightning vs Buffalo Sabres, Sun 22 Nov 2026, 5:00 PM ET = 22:00 UTC, per TickPick, Daily Faceoff and SportBusy; Benchmark International Arena, Tampa; SportBusy names the arena Amalie Arena). The candidate file's 'home' (Sabres) is only the Polymarket naming order. Indoor arena, no weather issue; regular home venue, not neutral."
+      },
+      "reason": "The Lightning are the home team, rested since Thursday, with clearly better form and goal difference, while the Sabres are on the second night of a back-to-back with travel. Several independent prices (Novig, Kalshi, ProphetX, Underdog, SportBusy) agree with Polymarket within 5 points and there was no price move. Held at medium rather than high because no starting goalie is confirmed, DraftKings was not readable and no xG/model source was checked. p is set 1.5 points under the market for hockey variance.",
+      "main_risk": "A hockey game is a high-variance coin flip around 65%. Specific risks: Vasilevskiy resting or a Lightning backup in goal, a hot Sabres goalie, and the Lightning losing a one-goal game in regulation or overtime; Point/Hagel absences thin the Lightning forwards. Starting goalies are not confirmed.",
+      "sources": [
+        "https://www.nhl.com/sabres/news/buffalo-sabres-tampa-bay-lightning-recap-highlights-x9512",
+        "https://www.dailyfaceoff.com/teams/tampa-bay-lightning/schedule/2026-11-22",
+        "https://www.sportbusy.com/games/nhl/14173709-buffalo-sabres-at-tampa-bay-lightning-2026-11-22/",
+        "https://www.covers.com/sport/hockey/nhl/odds",
+        "https://www.cbssports.com/nhl/news/lightning-face-sabres-in-first-game-without-brayden-point/",
+        "https://www.nhl.com/news/tampa-bay-lightning-buffalo-sabres-game-preview-november-11-2026"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1346334",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.64,
+        "draw": 0.21,
+        "away": 0.15
+      },
+      "checks": {
+        "team_news": "Marseille out: Emerson Palmieri (knee surgery during the break) and Derek Cornelius (hip), both missed Friday's training; Antoine Valero also absent from training (eurofootnews, madeinmarseillais/Ouest-France). Internationals back without physical problems; no OM suspension found. Le Mans: Sidibe (metatarsal fracture, back in January), Bourabaa (ankle, out for rest of 2026) and Rossignol injured; L. Videira suspended; captain Yohou doubtful after a head knock vs Monaco; Brahimi, Diallo, Quarshie and Vagner left out by choice (20-man squad named by Videira).",
+        "lineups": "Expected OM 4-2-3-1 (eurofootnews and goal.com agree): De Lange; Weah, Egan-Riley, Aguerd, U. Garcia (or Koum); Hojbjerg, Nnadi; Harit, Abdelli, Paixao; Gouiri. Le Mans (sources differ on back line, 3-5-2): Kocik; Bamba, Yohou (or Boisse), Torrente/Voyer; Bretelle, Vercruysse, Calodat, Rabillard/Lauray; Mafouta, Gueye. Not official; XIs come about an hour before kick-off.",
+        "rotation": "OM won five straight in Ligue 1 (Troyes, Angers, Le Havre, Toulouse, Lens) after five straight defeats in all competitions, and the internationals are back. Next: Europa League home to Levski Sofia on Thu 26 Nov, then Auxerre on 29 Nov (Ouest-France calendar), so some rotation before a Thursday game is a soft risk, nothing confirmed. Le Mans last played a 1-1 draw at home to Monaco.",
+        "motivation": "Table before the game: OM 4th, 18 pts, two points off the podium; Le Mans 15th, 8 pts, level with the relegation play-off place. OM still chase a podium and the favourite needs the points, so there is no dead-rubber case; Le Mans need points badly. Coaches: Genesio at OM since 1 Jul 2026, Videira at Le Mans since May 2024 (extended to 2029); no change in the last 30 days. Not a derby.",
+        "form": "OM: 5 straight league wins, beat all six bottom-half sides faced this season, Gouiri 7 league goals and scored in his last three; OM games often open up after half-time (8 of 14). Le Mans: one win in last 10 (none since 19 Sep: 2 draws, 3 defeats), only 3 goals in 5 matchdays since Bourabaa was injured, 19 conceded, winless away and second-worst away record in Ligue 1. No xG found in the previews read.",
+        "h2h": "Le Mans have never won at the Velodrome in Ligue 1 (2 draws, 4 defeats). Previews expect scorelines from 2-0 to 4-1 for OM. Style: Le Mans 3-5-2 counter side (5 of 19 goals conceded were counters or balls behind the defence), OM dominant at home (unbeaten in six of last eight Ligue 1 home games).",
+        "odds": "Polymarket de-vigged: home 66.3 / draw 19.3 / away 14.3, unchanged over 24h (66.5% to 66.5%). DraftKings via ESPN (fra.1 scoreboard): 1.48 / 4.80 / 6.00, de-vigged 64.4 / 19.8 / 15.8, total 3.5; within 2 points of Polymarket. DK home price opened at 1.44 and is now 1.48 (implied 69.4% to 67.6%, about 2.6% relative drift, just under the 3% line; no news found that explains it, but injuries to Palmieri and Cornelius were already known). Unibet (goal.com): OM win about 1.35, OM -1.5 about 1.90.",
+        "models": "ClubElo: Marseille about 1762-1780, Le Mans about 1581-1584, a gap of about 180 points, which gives a clear OM edge (roughly 70% win-or-draw-adjusted expectation at home). Consistent with the market; not used to lift p above it.",
+        "venue_weather": "Orange Velodrome, Marseille, Sun 22 Nov, 20:45 Paris time. Forecast pages disagree and appear stale: rain of 2-12 mm and strong west wind (gusts 60-90 km/h on Infoclimat) versus light drizzle and 31 km/h (Meteo-direct). No Velodrome-specific forecast or weather warning found; not an extreme-weather exclusion, but wind or rain could lower goals and raise the draw chance."
+      },
+      "reason": "OM are a clear favourite at home: 18 pts and chasing the podium against a 15th-placed Le Mans with one win in 10, no away win and several absences. Polymarket, DraftKings and ClubElo all agree on a comfortable OM edge. Medium, not high, because lineups are unconfirmed, the DK home price drifted about 2.6% from its opening, wind and rain are possible, and OM face a Europa League game four days later.",
+      "main_risk": "A draw or one-goal game: Le Mans sit deep in a 3-5-2 and score on counters, and a windy, wet night plus a possible lightly rotated OM before Thursday's Levski game could stall the home side. OM also lost five straight just before this run, so form is recent. Draw chance put at 21%.",
+      "sources": [
+        "https://www.eurofootnews.net/marseille-le-mans-ligue-1-11e-journee-compositions-probables-absents-et-enjeux-du-match-22-novembre-2026/21/11/2026/",
+        "https://www.goal.com/fr/parier-en-ligne/pronostics/marseille-le-mans-22-novembre/A%3Abltfb24efcb77cd1186",
+        "https://madeinmarseillais.ouest-france.fr/infos/article-om-deux-absents-a-l-entrainement-avant-la-reception-du-mans-fc-les-internationaux-tous-de-retour-546369.html",
+        "https://www.ouest-france.fr/sport/football/olympique-de-marseille/om-le-calendrier-complet-de-lolympique-de-marseille-en-ligue-europa-85e9ac44-a2e1-11f1-94d9-ff4da0548a19",
+        "https://clubelo.com/Marseille",
+        "https://www.infoclimat.fr/previsions-meteo/details/2995469/marseille.html",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261122"
+      ],
+      "views": {
+        "ou_4.5_under": 0.75,
+        "ou_3.5_under": 0.57,
+        "ah_away_+1.5": 0.56
+      },
+      "prices": []
+    },
+    {
+      "id": "1301082",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.63,
+        "draw": 0,
+        "away": 0.37
+      },
+      "checks": {
+        "team_news": "Steelers (steelers.com report updated Nov 21 12:15 PM): LB Nick Herbig (hip/ribs) OUT; LB Patrick Queen (hand), WR Michael Pittman Jr. (foot), WR Roman Wilson (hand), S DeShon Elliott (knee), G Gennings Dunker (knee) all Questionable but Full in Friday practice; G Mason McCormick on IR (Spencer Anderson fills in). Aaron Rodgers is not on the report, so no injury listed for the starting QB. Eagles (PhillyVoice, Nov 20): QB Jalen Hurts on IR, season over (blood clots in lungs); LB Zack Baun Out; WR Dontayvion Wicks Out; LB Smael Mondon Doubtful; RB Will Shipley Questionable; WR DeVonta Smith (hamstring) cleared, full Thu and Fri; EDGE Jonathan Greenard did not practice Friday, no designation listed; RT Lane Johnson retired after Week 4; RB Tank Bigsby on IR. Saquon Barkley full all week.",
+        "lineups": "Eagles QB Joe Milton III starts (Sirianni confirmed; second career start, sacked 7 times in his first; Tanner McKee benched). Steelers QB Aaron Rodgers (190/317, 2014 yds, 15 TD, 6 INT) expected to start; no report of any doubt. Eagles expected LBs Jihaad Campbell and Jeremiah Trotter. Official inactives not out until Sunday; only two outlets with details (steelers.com, PhillyVoice) so lineups are expected, not confirmed.",
+        "rotation": "Steelers (6-3) had a bye in Week 9, lost 38-18 at Cincinnati in Week 10 (Burrow 409 yds, 4 TD), so a normal 7-day turnaround; they travel to Philadelphia (same time zone), 1-3 on the road. Eagles (2-7) come off a Week 10 bye, so they are fully rested. No Thursday game or cross-country travel for either side.",
+        "motivation": "Steelers 6-3 in the playoff race and need the win; Eagles 2-7, last in NFC East and 3.5 games back, with low morale reported. Nothing that triggers the hard exclusion (the favourite still has plenty to play for). Soft risk: PhillyVoice calls Pittsburgh 'mostly middling' and 'content with mediocrity'.",
+        "form": "Steelers: 6-3, point differential +16, 27-6 win over Cleveland (Wk 8), 38-18 loss at Cincinnati (Wk 10); 22.0 points per game, pass defence allows 242 yds/game, run defence allows 82 yds/game (best in league against runs). Steelers 6-3 against the spread, 5-1 as favourites. Eagles: 2-7, point differential -73, lost 19-11 to the Giants in Wk 9, 0-5 at home, 1-8 against the spread, offence ranks #29 in EPA/play and #30 in rush EPA.",
+        "h2h": "No recent meeting data found beyond the Dec 2024 game; style matchup per Squawka and PhillyVoice: Eagles cannot run on the Steelers' top run defence, and Milton behind a weakened line faces a pass rush (Watt, Heyward). Pittsburgh's pass defence is its weak spot, but Philadelphia has a backup QB and no Johnson.",
+        "odds": "DraftKings via ESPN: Steelers -191 / Eagles +160 (open Steelers +205 / Eagles -250, flipped after the Hurts news); spread PIT -3.5, total 37.5; de-vigged Steelers 0.636 (data.odds.p_devig). Polymarket 0.655, so it is 1.9 points above DraftKings, inside the 5-point band. Polymarket 24h move: 0.665 to 0.655 (-1.5% relative, under the 3% trigger). DraftKings Nov 16 (PhillyVoice): PIT -205/PHI +170, spread -4.5, total 38.5; de-vigged about 0.645, so a drift of about 1.4% relative to now, also under 3%. Circa line -4.5 (Walter Football). The line has shortened from -4.5 to -3.5 with no new news found to explain it.",
+        "models": "No bookmaker-free probability found (no FPI or Opta figure for this game, no Elo). Walter Football power ranks: Steelers #14, Eagles #29; net EPA rank Steelers #17, Eagles #25; point differential +16 vs -73. All point to the Steelers, but the evidence is thin and the Steelers' own rating is mid-table.",
+        "venue_weather": "Lincoln Financial Field, Philadelphia, outdoor, ESPN neutralSite=false (Eagles host; Steelers are the away team, Polymarket's first-named team). Normal NFL venue, not a neutral or international site. No reliable forecast found for Sunday Nov 22 (only an unconfirmed CBS Philadelphia mention of a chilly day with highs in the 40s); wind and rain unknown. A low total (37.5) suggests a low-scoring game, which raises variance."
+      },
+      "reason": "The Steelers (6-3, strong run defence, +16 point differential) face a 2-7 Eagles side on a bye-week rest with a backup QB (Milton, second start), an offence ranked #29 in EPA/play, and 0-5 at home. DraftKings (de-vigged 0.636) and Polymarket (0.655) agree within 2 points and neither the 24h move nor the Nov 16 drift reaches 3%. No hard exclusion applies: the venue is a normal home game for the Eagles, no coach change was found, it is not a derby, and the favourite still needs the win. Confidence is medium and not high because the Steelers are a mediocre favourite away from home, no independent bookmaker-free model was found, there is no weather forecast, and the lines are expected only until inactives.",
+      "main_risk": "A low-scoring, close game decided late: Pittsburgh is 1-3 on the road, just lost 38-18 at Cincinnati with a leaky pass defence, Rodgers has 6 INT, Herbig is out and several players are Questionable, while a rested Eagles side with Barkley and a returning Smith could stay in it; a turnover or defensive touchdown against Milton could swing a game with a 37.5 total. Unknown weather adds variance.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122",
+        "https://www.steelers.com/news/week-11-injury-report-eagles",
+        "https://www.phillyvoice.com/eagles-steelers-week-11-injury-report-analysis/",
+        "https://www.phillyvoice.com/eagles-steelers-week-11-odds-preview-spread-money-lines-aaron-rodgers-moro-ojomo-jordan-davis-trade/",
+        "https://walterfootball.com/nflteamhub2026-week11-steelers-at-eagles.php",
+        "https://www.squawka.com/ca/?p=24600"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1346290",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.16,
+        "draw": 0.22,
+        "away": 0.62
+      },
+      "checks": {
+        "team_news": "Hull out: Ansah (back), Matazo (knee), Morita (groin), Targett (ankle). Doubtful: Mendy (suspected knee, sent home from Senegal duty; Sports Mole 16 Nov), Belloumi (thigh), Hughes (Hull coach Jakirovic was due to update at Friday's press conference; I found no transcript). One Squawka listing has Crooks suspended and SoccerNews says he returns, so his status is unclear. Brighton out: Ferguson, Hadjam, Mitoma, Yohanna per footballpredictions.com. Doubtful: Andres, Azeez, Minteh, Struijk, Tzimas. SoccerNews says Mitoma may return and Tzimas is out, so the Brighton lists conflict and are unconfirmed. Hull has no key attacker confirmed out except Ansah. Brighton's gaps are in the wide and forward areas.",
+        "lineups": "Not out yet. Squawka predicted XIs have Hull in a 5-3-2 with Tzolakis in goal and Brighton in a 4-2-3-1 with Verbruggen in goal, Dunk and Vuskovic in defence, and Gomez and Kostoulas up front. SoccerNews has Tzolakis in goal, McBurnie leading Hull's attack, and Minteh possibly making his first Premier League start for Brighton. The two outlets differ on who is fit, so the XIs are not firm.",
+        "rotation": "Brighton last played on 8 Nov (2-0 v Brentford) and then had the international break, so they have had two weeks of rest. Their next fixtures are Craiova (home, Europa Conference League) on 26 Nov and Newcastle at home on 29 Nov, per a Sussex Express listing I could not check against an official source. Some rotation before the Thursday European game is possible but not announced. Hull played on 7 Nov (1-0 at Arsenal) and have had the same break. Travel is short and there are no back-to-backs.",
+        "motivation": "Brighton are 2nd on 22 points from 10 games (7W 1D 2L) and chasing Champions League places. Hull are 13th on 11 points, three points above the relegation zone, and winless in the league since August, so they need points. Neither side is safe or already decided, and this is not a derby. Hull's need for points is a modest draw risk. It is not a hard exclusion.",
+        "form": "Brighton: last five league results WWLWW. They average 2.0 goals scored and 0.4 conceded per game over their last 10 in all competitions, have scored 26 league goals (the most in the division) and won 1-0 at Manchester City. Hull: 11 goals in 10 league games, last five league results LDDLD (the sources conflict on whether the league record is 2W-5D-3L or 3 draws and 3 defeats in the last six). They are winless in nine games in all competitions, with 0.8 points per game and 0.9 goals per game, and drew 2-2 with Ipswich. I found no xG figures.",
+        "h2h": "Nine meetings are listed in the footballpredictions.com record: Hull won 3, Brighton 2 and 4 were drawn, and only 2 of the 9 had both teams scoring. Most of those meetings are from 2013 to 2016, so they say little about this fixture. SoccerNews says this is the first meeting in the Premier League era, after a 0-0 Championship draw in February 2016. A low-scoring, compact Hull side with a deep back five is the main style risk.",
+        "odds": "DraftKings via ESPN: Hull 6.5, draw 4.5, Brighton 1.5 (de-vigged 14.8% / 21.3% / 63.9%), opening Brighton 1.53 so the price has shortened slightly, total 2.5. Polymarket: Brighton 64.3%, draw 21.3%, Hull 14.3%, with the favourite's 24h move at 0.645 to 0.645 (no change). The independent price agrees with Polymarket within 1 point, with no drift against the favourite. Other prices: footballpredictions.com lists Brighton draw no bet at 1/6 and under 3.5 goals at 4/9.",
+        "models": "The Sports Mole model gives Brighton 52.3%, draw 26.4%, Hull 21.3%, with the most likely score 0-1 and over 2.5 goals at 43.7%. That is lower than the market for Brighton. ClubElo returned HTTP 503 on both clubs, so I have no Elo figure. Because the one model I could read is more cautious than the market, I put p.away 2 points below the market.",
+        "venue_weather": "The match is at Hull's MKM Stadium, a normal home venue. I found no weather forecast and no pitch problem reported. The kick-off is Sunday 22 Nov at 14:00 UTC, Premier League Gameweek 11."
+      },
+      "reason": "The fixture is verified: Premier League, 22 Nov, MKM Stadium. Neither coach changed recently: Jakirovic is Hull's head coach and Hurzeler is Brighton's, with no reported change in the last 30 days. It is not a derby, and there is no rotation confirmed. The favourite is clearly stronger on form and goals, and two prices agree (Polymarket and DraftKings within 1 point) with no move. The rating is medium rather than high because the lineups and injury lists are unconfirmed and conflict (Mitoma, Minteh, Tzimas, Belloumi, Mendy), Hull need points and Brighton have a European game on Thursday, I have no Elo figure, and the one model I read is below the market.",
+      "main_risk": "A draw or Hull upset. A compact Hull 5-3-2 sits deep, as in their 0-0 and 2-2 draws. Brighton could rotate before the Thursday Europa Conference League tie, and their wide and forward options are uncertain. The pre-mortem points to a 0-0 or 1-1 draw, and the model on Sports Mole gives the draw 26%.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/premier-league/hull-city-vs-brighton-and-hove-albion_game_263259.html",
+        "https://www.sportsmole.co.uk/football/hull-city/injury-news/news/hull-dealt-fresh-gbp21m-injury-problem-before-brighton-clash_609225.html",
+        "https://footballpredictions.com/footballpredictions/premierleaguepredictions/hull-city-vs-brighton-prediction-22-11-2026/",
+        "https://www.soccernews.com/prediction-hull-city-vs-brighton/408354/",
+        "https://www.squawka.com/us/?p=96516",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261122",
+        "https://www.sussexexpress.co.uk/sport/football/brighton-and-hove-albion/brightons-revised-premier-league-dates-for-october-and-november-now-sky-tv-picks-have-been-made-9141715"
+      ],
+      "views": {
+        "ou_3.5_under": 0.65,
+        "ou_4.5_under": 0.82
+      },
+      "prices": []
+    },
+    {
+      "id": "1347027",
+      "exclude": true,
+      "reason": "HARD rule 'derby or fierce rivalry': Getafe v Atlético is a Madrid-area (Community of Madrid) derby. Atlético's own club site titles its Getafe fixtures as derbies (e.g. 'Atleti face Getafe in last LaLiga derby of the season', 'Atleti look to earn three points in the derby against a dangerous Getafe', 'El derbi se queda en Getafe', 'Derbi madrileño para empezar la segunda vuelta'), and the press calls these matches 'derbi' (a March 2026 report described Atlético-Getafe as a derby; Flashscore headline 'Getafe snatch derby points against Atletico'). Real Madrid-Atlético is the main 'Madrid derby', but this fixture is routinely billed as a local derby as well, so it is excluded under the conservative reading of the rule. I could not read the page text (HTTP 403 on the Atlético site fetch), so this rests on the page titles and search snippets. I found no 2026-11-22 lineup, team-news or press-conference reports, so no other checks were completed. Other facts from the candidates file only: DraftKings 1.56 away, de-vigged 0.61 vs Polymarket 0.633; 24h move +1.6% for Atlético (no drop).",
+      "main_risk": "Local Madrid derby: Getafe under Bordalás is physical, defensive and has often held Atlético to narrow results (a 1-1 at the Metropolitano is on record; Atlético won 1-0 in Nov 2025), so a draw or one-goal game is the likely failure of the favourite.",
+      "sources": [
+        "https://en.atleticodemadrid.com/noticias/atleti-face-getafe-in-last-laliga-derby-of-the-season",
+        "https://www.atleticodemadrid.com/noticias/el-derbi-se-queda-en-getafe",
+        "https://www.flashscore.dk/news/getafe-snatch-derby-points-against-atletico/EL8dt3Yo/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1344745",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.595,
+        "draw": 0.22,
+        "away": 0.185
+      },
+      "checks": {
+        "team_news": "Milan out: Tomori, Gabbia, Saelemaekers, Loftus-Cheek, Chukwueze, Terracciano (Eurosport.it, SempreMilan, Pianeta Milan). Pavlovic is a doubt (SempreMilan, Eurosport list him as monitored; Pianeta Milan says he is out). Maignan is back in goal after a national-team problem. Pulisic is listed as a starter by Pianeta Milan and Eurosport; no confirmed doubt found, but one aggregator flags him as uncertain. Frosinone out: Raimondo, Grillitsch, Terzic injured; Bracaglia suspended. No Frosinone key attacker is reported out.",
+        "lineups": "Not official (evening before). Milan expected: Maignan; Gila, De Winter, Diawara, Estupinan or Bartesaghi (Pavlovic doubtful); Musah, Modric, Rabiot; Moreira, Pulisic, Goncalo Ramos. Frosinone expected 4-2-3-1: Palmisani; Oyono, Calvani or Cittadini, Monterisi, Tchato; Calo, Masini; Ghedjemis, Schmid, Kvernadze; Birligea. The outlets agree on the core and differ on the full-back and Pulisic or Pavlovic calls.",
+        "rotation": "Milan come after the international break with two straight league wins, including the derby against Inter. No midweek European game is reported, and I found no sign of heavy rotation. The Milan defence is thin (Tomori and Gabbia out). Frosinone lost 1-0 at Cagliari last time after a four-game unbeaten run. I did not find either side's next fixture.",
+        "motivation": "Table before the game: Milan 4th with 24 points (7W 3D 1L), Frosinone 6th with 20 points (6W 2D 3L). Both sides are in the European race, so the favourite does not lack motivation and the hard exclusion does not apply. This is not a derby. Amorim was named Milan coach on 16 June 2026 (about 5 months ago), so no coach change in the last 30 days; Alvini is Frosinone coach, with no change reported.",
+        "form": "Milan: 4 league wins in the last 5 (Eurosport), including the derby, 7-3-1 overall. Frosinone: 6-2-3, 3 wins in the last 5 (Pianeta Milan). One FotMob page shows recent scores of 4-2, 4-4, 5-1, 2-0, 1-0, but without a clear breakdown by competition, so I do not rely on it. Frosinone are strong on the counter (most counterattacks in advantage situations in Serie A, 22), and have won only 2 of their last 27 away league games across their Serie A seasons. No xG for 2026-27 found.",
+        "h2h": "Milan have never lost to Frosinone in Serie A: 6 meetings, 4 wins, 2 draws, 15 goals scored (Eurosport.it). The draw rate in this fixture is 2 of 6, about a third. Frosinone are an organised, counter-attacking side, which supports a real draw and one-goal-game risk.",
+        "odds": "DraftKings via ESPN: Milan 1.53, draw 4.40, Frosinone 5.00; opening 1.50 / 4.40 / 4.90; de-vigged 60.5 / 21.0 / 18.5; total 3.5 (site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261122). Polymarket Milan win: 63.5% flat through most of the day, 62.5%, then 61.5% at my last read (gamma-api.polymarket.com, event 1344745; CLOB prices-history, 24h); the draw is 20.5%, Frosinone 17.5%. Relative move since the 24h-ago price is about -3.1% on the live price (0.635 to 0.615), and -1.9% against the first listing of 0.6266. DraftKings opened at 1.50 and is now 1.53, a slight drift (about 1.9% in implied terms). The move is small and gradual, there is no big news to explain it, and the second price agrees with Polymarket within 2 points, so this stays medium and not low. It is a watch item for the pre-kickoff check.",
+        "models": "ClubElo could not be fetched (api.clubelo.com returned nothing). The data object has no rating for club sides. No bookmaker-free model found, so DraftKings and Polymarket are the only prices. I note this as a gap and keep p close to the market.",
+        "venue_weather": "San Siro, Milan, Sunday 22 Nov 2026, 18:00 local (17:00 UTC); normal home venue, no neutral-site or pitch issue reported. I did not find a weather forecast; no extreme weather reported."
+      },
+      "reason": "Market 62.7% / 19.7% / 17.7%, with DraftKings de-vigged at 60.5 / 21.0 / 18.5 and Polymarket now at 61.5%, so the two prices agree. I trim Milan to 59.5% and lift the draw to 22% for these reasons: Frosinone are 6th with 20 points and are a counterattacking side, Milan are missing Tomori and Gabbia with Pavlovic doubtful, Milan have never lost to Frosinone in Serie A but drew 2 of 6, lineups are not official, and the Milan price has drifted a little. No hard exclusion applies (no derby, no coach change, home venue, Milan still have something to play for). Set to low when merged: the Milan price fell about 3.1% in 24h (0.635 to 0.615) with no news to explain it, which the rules make low with no exceptions.",
+      "main_risk": "A draw or a one-goal result: Frosinone sit deep and counter against a Milan defence missing Tomori and Gabbia (Pavlovic doubtful), with a high draw chance of about 21-22%. Straight win needs the draw at 25% or less, which holds, but the margin is thin. Goal totals are high (DraftKings line 3.5), so Milan can also lose a high-scoring game on a counter.",
+      "sources": [
+        "https://sempremilan.it/2026/11/21/milan-frosinone-probabili-formazioni-statistiche-e-dove-vedere-la-gara/",
+        "https://www.eurosport.it/calcio/serie-a/2026-2027/milan-frosinone-probabili-formazioni-statistiche-quando-e-dove-vederla_sto23356682/story.shtml",
+        "https://www.pianetamilan.it/partite/probabili-formazioni/milan-frosinone-probabili-formazioni/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261122",
+        "https://gamma-api.polymarket.com/events?id=1344745",
+        "https://www.calcioefinanza.it/?p=229227"
+      ],
+      "views": {
+        "ah_away_+1.5": 0.58,
+        "ah_away_+2.5": 0.75,
+        "ou_2.5_over": 0.69
+      },
+      "prices": []
+    },
+    {
+      "id": "1344749",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.185,
+        "draw": 0.215,
+        "away": 0.6
+      },
+      "checks": {
+        "team_news": "Atalanta (Sarri): out are defenders Hien, Kossonou and Kristensen plus midfielder Gaetano (QS Quotidiano Sportivo, 21 Nov); Il Veggente lists no Atalanta absences, and Sarri still has to choose between Elmas/Zalewski, Bellanova/Bernasconi and Kessie/Pasalic. Inter (Chivu): Zielinski has not trained with the group and is expected to miss the trip, and Bonny is out (Stankovic is also listed as unavailable by Il Veggente). Lautaro Martinez has recovered from a muscle problem but is expected to start on the bench. No suspensions found. This is Saturday-evening press-level news; the pre-match press conferences were not retrievable.",
+        "lineups": "Not official yet. QS Quotidiano Sportivo expects Atalanta in a 4-2-3-1: Carnesecchi; Zappacosta, Scalvini, Kolasinac, Bernasconi; Kessie, Ederson; Elmas, De Ketelaere, Zalewski; Krstovic. Inter 3-5-2 per QS: J. Martinez; Bisseck, Akanji, Bastoni; Spence, Barella, Calhanoglu, Mkhitaryan, Dimarco; Thuram, Esposito. Tribuna/Calcio.com give a very similar Inter XI, with Sucic in midfield and C. Augusto in defence. Both are mostly full-strength sides, but two outlets differ on 2-3 Inter places and QS says Chivu is expected to rotate heavily in this busy stretch.",
+        "rotation": "Inter play Champions League vs Stuttgart on Wed 25 Nov, then Genoa (Serie A) on the Saturday and Coppa Italia vs Genoa on 1 Dec, so some rotation risk exists. Their last games were a 3-0 win at Feyenoord and a 2-0 win over Como. Atalanta also play in the Conference League and had no midweek game before this one. No confirmed heavy rotation, so this is not a hard exclusion.",
+        "motivation": "Inter sit 2nd with 28 points (Tribuna, Il Veggente), one behind Lazio. Sportschau shows them 3rd on 28 points after 11 games, so the exact rank differs by source, but they are in the title race either way. Atalanta are 11th-12th on 14 points (4W 2D 5L) after 11 games, with nothing secured. The favourite still has plenty to play for, so no hard exclusion applies.",
+        "form": "Inter won 9 of their first 11 league games; their only league defeat was the derby vs Milan, then they won 3-0 at Feyenoord (CL) and 2-0 vs Como. Atalanta under Sarri started 2 wins, then lost to Roma, Cagliari, Juventus, Milan and Parma (0-3 at home), drew 4-4 with Frosinone and won 1-0 at Monza two weeks ago. They have conceded 20 goals in 11 games, and Krstovic has 7 goals.",
+        "h2h": "Atalanta have not beaten Inter in Serie A in 15 meetings. Inter have won 7 of the last 8 and have an unbeaten run of 17 against the Dea, 11 of them wins (Il Veggente, 21 Nov). The one non-win in the last 9 was a draw. Style: Sarri's new set-up against Inter's 3-5-2. Il Veggente calls the match less straightforward and more tactical than expected and suggests a 1-2 result.",
+        "odds": "Polymarket now: Inter 0.625, draw 0.205, Atalanta 0.175. DraftKings via ESPN (decimal 1.54 / 4.5 / 4.80, opening 1.57 / 4.2 / 4.4), de-vigged Inter 0.601, draw 0.206, Atalanta 0.193, so the independent price is 2.2 points under Polymarket and within the 5-point band. The Polymarket favourite price over the last 24h went 0.615 to 0.625 (up 1.6%), and DraftKings shortened Inter slightly from 1.57 to 1.54, so there is no drift against Inter. DraftKings total line is 3.5. Italian books quote X2 + Under 3.5 at 2.15 to 2.21 (Il Veggente).",
+        "models": "ClubElo (clubelo.com, 21 Nov): Inter 1949 (world rank 7), Atalanta 1777 (rank 56, 8th in Italy), a 172-point gap. After home advantage this is a clear but not overwhelming Inter edge, consistent with a 60% win chance; I lowered p slightly to the DraftKings level.",
+        "venue_weather": "New Balance Arena, Bergamo, Sunday 22 Nov, 20:45 local (19:45 UTC), a normal Serie A home venue. No weather or pitch issue was found, but I did not retrieve a forecast. Not a derby: Bergamo vs Milan is a regional fixture without derby status, and no source I read describes it as a fierce rivalry. Sarri has been Atalanta coach since the summer and Chivu is Inter's coach, so no coach change within 7 days."
+      },
+      "reason": "No hard exclusion applies: the fixture is verified, it is not a derby or fierce rivalry, there is no coach change in the last 7 days, no neutral venue, and Inter still have a title race to play for against a mid-table side. Inter lead on Elo (1949 vs 1777), a 15-game unbeaten run against Atalanta in Serie A and good form, and DraftKings (0.601) agrees with Polymarket (0.625) within about 2 points, so confidence is medium. The Wed Champions League game, Lautaro starting on the bench and Zielinski missing leave real doubt about the XI, and Atalanta are unpredictable under Sarri, so I did not rate it high. p is set at the DraftKings level.",
+      "main_risk": "A draw or a narrow home win: Inter may rotate with Stuttgart on Wednesday, Lautaro is only fit for the bench, Zielinski and Bonny are out, and Sarri's Atalanta are unpredictable (4-4 with Frosinone, but also a 0-3 home loss to Parma). Sources: lineups come from press, not from officials, and no pre-match press conference was read.",
+      "sources": [
+        "https://www.agenziagiornalisticaopinione.it/opinionmix/tribuna-com-serie-a-atalanta-inter-probabili-formazioni-e-ultime-notizie-chivu-recupera-lautaro-3-ballottaggi-da-sciogliere-2/",
+        "https://sport.quotidiano.net/calcio/inter/atalanta-inter-chivu-con-esposito-e-thuram-probabili-e-orari-tv-9300064f",
+        "https://www.ilveggente.it/2026/11/21/pronostico-atalanta-inter-il-trend-non-si-interrompe/",
+        "https://www.calcio.com/pronostici/pronostico-atalanta-inter-analisi-e-probabili-formazioni-22112026-serie-a",
+        "https://www.sportschau.de/live-und-ergebnisse/fussball/italien-serie-a/ma12131143/atalanta_inter-mailand/blitztabelle",
+        "http://clubelo.com/INT",
+        "https://www.internews24.com/atalanta-analisi-avversario-inter-sarri-modulo-serie-a-2026-2027/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261122"
+      ],
+      "views": {
+        "ah_home_+2.5": 0.76
+      },
+      "prices": []
+    },
+    {
+      "id": "1301078",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.42,
+        "draw": 0,
+        "away": 0.58
+      },
+      "checks": {
+        "team_news": "ESPN game summary (21 Nov): Chargers list Pipkins III OT Q (knee), Waxter CB Q (ankle), Still CB Q (ankle), Williamson S out (calf), Shelley CB on IR. Rotowire adds McConkey WR Q (back), Kolar TE Q (concussion), Thompson WR doubtful (hamstring), Henley LB out (knee). Jets: Parham G Q (knee), Phillips DT Q (ankle), Wallace LB Q (groin), Onyemata DT IR, Omar Cooper out (Glenn confirmed), Isaiah Williams (ribs) won't play. Geno Smith (ankle, hurt vs Buffalo) carries no injury designation per Rotowire; Glenn said he starts if healthy, rookie Cade Klubnik is the backup. Final Friday designations for the QBs not read beyond these snippets.",
+        "lineups": "Not out yet (Saturday evening). Rotowire lists Justin Herbert (Chargers) and Geno Smith (Jets) as the expected starting QBs; no Herbert injury designation found. Second source (newyorkjets.com / Jets preview, 18 Nov) says Smith stays the starter if healthy. Confirmation only at inactives about 90 minutes before kick-off.",
+        "rotation": "Chargers played Monday night 16 Nov at Baltimore (won 23-20), so about 6 days rest, home game; their next game is 29 Nov vs New England. Jets lost 12-31 to Buffalo on 15 Nov, 7 days rest, flying to Los Angeles (3 time zones west), then at Miami on 29 Nov. No Thursday game or bye for either side.",
+        "motivation": "Both seasons are lost on record: Chargers 1-8, Jets 2-8 (ESPN), the Chargers just got their first win on Monday night. Neither side has anything secured; no hard no-motivation case, but the favourite is a 1-8 team, so quality is a real doubt. Jets have lost five straight and the coach Aaron Glenn is under pressure.",
+        "form": "Chargers 1-8: losses 14-26 ARI, 14-26 LV, 16-24 at BUF, 23-30 at SEA, 17-23 DEN, 6-22 at KC, 9-24 at LAR, 22-44 HOU, then 23-20 at BAL (Herbert 12/18 for 129 yards, 51 rush yards and a rushing TD). Jets 2-8: wins at TEN 23-10 and vs CLE 17-12, then five straight losses: 19-26 at NE, 25-28 MIA, 33-38 LV, 12-35 at KC, 12-31 vs BUF; three games at 12 points.",
+        "h2h": "No recent-season meeting data read beyond previews; both are 2026 bottom-feeders, so the matchup is mostly about the Chargers' offence against a Jets side scoring 12 per game lately, and a close game decided late is the main shape. Rotowire projects 22.5-19.0 and DraftKings totals 42.5.",
+        "odds": "DraftKings via ESPN: Chargers -171 / Jets +144 moneyline, spread LAC -3 (-115) / NYJ +3 (-105), total 42.5. De-vigged Chargers about 60.6%, Jets about 39.4%, which agrees with Polymarket 0.605 (gap under 1 point). Walter Football shows the Circa line at LAC -3.5. Polymarket 24h move: 0.605 to 0.605 (0.0%), p_first 0.605. The DraftKings 'open' fields on ESPN (-440, spread -9.5) look like a stale or placeholder line and are not used; no news found that matches such a move.",
+        "models": "ESPN matchup predictor (FPI): Chargers 63.4%, Jets 36.3%. Point differential is poor for both: Chargers about -9 per game over the season to date, Jets -13 in the last three games. Opta / DVOA not read.",
+        "venue_weather": "SoFi Stadium, Inglewood CA (indoor-style canopy stadium, home of the Chargers; not neutral). ESPN forecast: intermittent clouds, about 68 F. No weather risk."
+      },
+      "reason": "Price sources agree (Polymarket 0.605, DraftKings de-vig 0.606, FPI 0.634), no price move, home team, Herbert expected to start, Jets lost five straight and are travelling west. Not rated high because the favourite is a 1-8 team whose only win came by 3, with a questionable WR corps and OL/CB injuries, and Smith's ankle and the final QB statuses could not be confirmed. p shaded 2.5 points below the market for that. Set to low when merged: the instructions ask for stricter ratings outside the groups that work (favourites at 70% or more), and a 1-8 favourite at about 60% whose only win came by 3 points is a real doubt.",
+      "main_risk": "A close game decided late or on turnovers: the 1-8 Chargers are a thin favourite (-3), their offence managed only 18 pass attempts last week and several skill players and defensive backs are questionable, while a Jets side that has scored 12 three times could still win a low-scoring 42.5-total game. Unconfirmed QB status (Smith's ankle, Herbert) adds variance until inactives.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873074",
+        "https://www.rotowire.com/betting/nfl/game.php?id=2978788",
+        "https://www.newyorkjets.com/news/jets-prepare-for-afc-west-matchup-against-los-angeles-chargers-11-18-2026",
+        "https://walterfootball.com/nflteamhub2026-week11-jets-at-chargers.php",
+        "https://gamma-api.polymarket.com/events?id=1301078"
+      ],
+      "views": {},
+      "prices": []
+    }
+  ]
+}
