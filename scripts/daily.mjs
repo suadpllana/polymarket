@@ -51,7 +51,7 @@ function markEarlyWon(entries) {
 
 // Slips the owner asked to show as lost before every market had closed: the
 // game ids of legs already known to have lost. Provisional like EARLY_WON.
-const EARLY_LOST = { '2026-11-20': ['1329693', '1330311'] }; // Bayern 1-1 Köln (over 2.5 lost), Athletic 0-1 Espanyol (Athletic win lost)
+const EARLY_LOST = { '2026-11-20': ['1329693', '1330311'], '2026-11-21': ['1336242'] }; // 20 Nov: Bayern 1-1 Köln, Athletic 0-1 Espanyol. 21 Nov: Parma 1-5 Roma (Parma +3.5 lost)
 
 function markEarlyLost(entries) {
   for (const e of entries) {
