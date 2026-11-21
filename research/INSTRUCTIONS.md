@@ -259,7 +259,14 @@ a loss. What changed afterwards:
   leg fails the final check, the slip shrinks to the legs that passed, even if
   the odds fall under the target. Say so plainly; the owner decides whether
   to bet it. No game or view that was not in the morning slip may enter it
-  after the morning check.
+  after the morning check. **How:** before pushing the final check, set each
+  slip game's `views` to only the leg that is in the morning slip (or none,
+  for a result leg), then run `npm run pick` and confirm it shows the morning
+  legs (or fewer) before pushing. On 21 Nov the final-check agents kept
+  Under 5.5 and Under 4.5 views and the pick swapped them in for the morning
+  handicap legs; it was caught and reverted before the bet. If a fix is
+  pushed with the same `researched_at`, the build will not rebuild the slip,
+  so give the research a new `researched_at`.
 - **The drift rule above still stands.** One result does not prove that
   dropping Troyes on an unexplained move was wrong; the damage came from the
   rebuild adding fresh legs that had not been through the morning check.
