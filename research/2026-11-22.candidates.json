@@ -44,7 +44,7 @@
           "to": 0.845,
           "relative_change": 0
         },
-        "fetched_at": "2026-11-22T06:50:58.222Z"
+        "fetched_at": "2026-11-22T16:36:12.379Z"
       },
       "p_live_at": "2026-11-22T06:50:57.733Z"
     },
@@ -86,7 +86,7 @@
           "to": 0.825,
           "relative_change": 0
         },
-        "fetched_at": "2026-11-22T06:50:58.184Z"
+        "fetched_at": "2026-11-22T16:36:12.379Z"
       }
     },
     {
@@ -309,9 +309,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122",
           "espn_match": "Tennessee Titans at Dallas Cowboys",
           "decimal": {
-            "home": 3.76,
+            "home": 4.09,
             "draw": null,
-            "away": 1.29
+            "away": 1.26
           },
           "opening": {
             "home": 3.35,
@@ -319,9 +319,9 @@
             "away": 1.34
           },
           "p_devig": {
-            "home": 0.256,
+            "home": 0.235,
             "draw": 0,
-            "away": 0.744
+            "away": 0.765
           },
           "total": 54.5
         },
@@ -331,7 +331,7 @@
           "to": 0.765,
           "relative_change": -0.013
         },
-        "fetched_at": "2026-11-22T06:50:58.446Z"
+        "fetched_at": "2026-11-22T16:36:12.608Z"
       },
       "p_live_at": "2026-11-22T06:50:57.733Z"
     },
@@ -655,10 +655,10 @@
         "move_24h": {
           "side": "home",
           "from": 0.715,
-          "to": 0.705,
-          "relative_change": -0.014
+          "to": 0.715,
+          "relative_change": 0
         },
-        "fetched_at": "2026-11-22T06:50:58.621Z"
+        "fetched_at": "2026-11-22T16:36:12.653Z"
       },
       "p_live_at": "2026-11-22T06:50:57.733Z"
     },
@@ -696,11 +696,11 @@
       "data": {
         "move_24h": {
           "side": "away",
-          "from": 0.705,
-          "to": 0.665,
-          "relative_change": -0.057
+          "from": 0.685,
+          "to": 0.655,
+          "relative_change": -0.044
         },
-        "fetched_at": "2026-11-22T06:50:58.670Z"
+        "fetched_at": "2026-11-22T16:36:12.841Z"
       },
       "p_live_at": "2026-11-22T06:50:57.733Z"
     },
@@ -738,11 +738,11 @@
       "data": {
         "move_24h": {
           "side": "away",
-          "from": 0.665,
-          "to": 0.655,
-          "relative_change": -0.015
+          "from": 0.66,
+          "to": 0.665,
+          "relative_change": 0.008
         },
-        "fetched_at": "2026-11-22T06:50:58.907Z"
+        "fetched_at": "2026-11-22T16:36:12.898Z"
       },
       "p_live_at": "2026-11-22T06:50:57.733Z"
     },
@@ -879,9 +879,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261122",
           "espn_match": "Le Mans at Marseille",
           "decimal": {
-            "home": 1.45,
+            "home": 1.43,
             "draw": 5,
-            "away": 6.5
+            "away": 7
           },
           "opening": {
             "home": 1.44,
@@ -889,19 +889,19 @@
             "away": 6
           },
           "p_devig": {
-            "home": 0.66,
+            "home": 0.672,
             "draw": 0.192,
-            "away": 0.148
+            "away": 0.137
           },
           "total": 3.5
         },
         "move_24h": {
           "side": "home",
           "from": 0.665,
-          "to": 0.675,
-          "relative_change": 0.015
+          "to": 0.685,
+          "relative_change": 0.03
         },
-        "fetched_at": "2026-11-22T06:50:58.934Z"
+        "fetched_at": "2026-11-22T16:36:13.014Z"
       },
       "p_live_at": "2026-11-22T06:50:57.733Z"
     },
@@ -915,9 +915,9 @@
       "start": "2026-11-22T18:00:00.000Z",
       "coverage": 1,
       "p_market": {
-        "home": 0.645,
+        "home": 0.655,
         "draw": 0,
-        "away": 0.355
+        "away": 0.345
       },
       "p_first": {
         "home": 0.655,
@@ -929,8 +929,8 @@
           "key": "home",
           "label": "Moneyline",
           "selection": "Steelers",
-          "p_market": 0.645,
-          "fair_odds": 1.55
+          "p_market": 0.655,
+          "fair_odds": 1.53
         }
       ],
       "legs_first": {
@@ -942,9 +942,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122",
           "espn_match": "Pittsburgh Steelers at Philadelphia Eagles",
           "decimal": {
-            "home": 1.53,
+            "home": 1.5,
             "draw": null,
-            "away": 2.59
+            "away": 2.66
           },
           "opening": {
             "home": 3.05,
@@ -952,21 +952,21 @@
             "away": 1.4
           },
           "p_devig": {
-            "home": 0.629,
+            "home": 0.639,
             "draw": 0,
-            "away": 0.371
+            "away": 0.361
           },
           "total": 37.5
         },
         "move_24h": {
           "side": "home",
           "from": 0.655,
-          "to": 0.645,
-          "relative_change": -0.015
+          "to": 0.655,
+          "relative_change": 0
         },
-        "fetched_at": "2026-11-22T06:50:58.876Z"
+        "fetched_at": "2026-11-22T16:36:12.757Z"
       },
-      "p_live_at": "2026-11-22T06:50:57.733Z"
+      "p_live_at": "2026-11-22T16:36:11.867Z"
     },
     {
       "id": "1346290",
@@ -1253,7 +1253,7 @@
           "espn_match": "Atlético Madrid at Getafe",
           "decimal": {
             "home": 7,
-            "draw": 4,
+            "draw": 3.95,
             "away": 1.54
           },
           "opening": {
@@ -1263,8 +1263,8 @@
           },
           "p_devig": {
             "home": 0.137,
-            "draw": 0.24,
-            "away": 0.623
+            "draw": 0.242,
+            "away": 0.621
           },
           "total": 2.5
         },
@@ -1274,7 +1274,7 @@
           "to": 0.635,
           "relative_change": 0.016
         },
-        "fetched_at": "2026-11-22T06:50:59.032Z"
+        "fetched_at": "2026-11-22T16:36:13.229Z"
       }
     },
     {
@@ -1453,9 +1453,9 @@
       "start": "2026-11-22T19:45:00.000Z",
       "coverage": 1,
       "p_market": {
-        "home": 0.1734,
+        "home": 0.1634,
         "draw": 0.2032,
-        "away": 0.6234
+        "away": 0.6334
       },
       "p_first": {
         "home": 0.1734,
@@ -1467,22 +1467,22 @@
           "key": "away",
           "label": "Match winner",
           "selection": "FC Internazionale Milano",
-          "p_market": 0.6234,
-          "fair_odds": 1.6
+          "p_market": 0.6334,
+          "fair_odds": 1.58
         },
         {
           "key": "away_draw",
           "label": "Double chance",
           "selection": "FC Internazionale Milano or Draw",
-          "p_market": 0.8266,
-          "fair_odds": 1.21
+          "p_market": 0.8366,
+          "fair_odds": 1.2
         },
         {
           "key": "away_dnb",
           "label": "Draw no bet",
           "selection": "FC Internazionale Milano",
-          "p_market": 0.8266,
-          "fair_odds": 1.28
+          "p_market": 0.8366,
+          "fair_odds": 1.26
         },
         {
           "key": "ah_home_+1.5",
@@ -1495,8 +1495,8 @@
           "key": "ah_home_+2.5",
           "label": "Handicap",
           "selection": "Atalanta BC +2.5",
-          "p_market": 0.785,
-          "fair_odds": 1.27
+          "p_market": 0.78,
+          "fair_odds": 1.28
         },
         {
           "key": "ou_2.5_over",
@@ -1509,36 +1509,36 @@
           "key": "ou_4.5_under",
           "label": "Total goals",
           "selection": "Under 4.5",
-          "p_market": 0.715,
-          "fair_odds": 1.4
+          "p_market": 0.725,
+          "fair_odds": 1.38
         },
         {
           "key": "btts_yes",
           "label": "Both teams to score",
           "selection": "Yes",
-          "p_market": 0.64,
-          "fair_odds": 1.56
+          "p_market": 0.645,
+          "fair_odds": 1.55
         },
         {
           "key": "tt_home_0.5_over",
           "label": "Atalanta BC goals",
           "selection": "Over 0.5",
-          "p_market": 0.695,
-          "fair_odds": 1.44
+          "p_market": 0.705,
+          "fair_odds": 1.42
         },
         {
           "key": "tt_home_1.5_under",
           "label": "Atalanta BC goals",
           "selection": "Under 1.5",
-          "p_market": 0.67,
-          "fair_odds": 1.49
+          "p_market": 0.665,
+          "fair_odds": 1.5
         },
         {
           "key": "tt_away_1.5_over",
           "label": "FC Internazionale Milano goals",
           "selection": "Over 1.5",
-          "p_market": 0.68,
-          "fair_odds": 1.47
+          "p_market": 0.685,
+          "fair_odds": 1.46
         },
         {
           "key": "tt_away_2.5_under",
@@ -1576,9 +1576,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261122",
           "espn_match": "Internazionale at Atalanta",
           "decimal": {
-            "home": 5,
+            "home": 5.25,
             "draw": 4.5,
-            "away": 1.51
+            "away": 1.5
           },
           "opening": {
             "home": 4.4,
@@ -1586,21 +1586,21 @@
             "away": 1.57
           },
           "p_devig": {
-            "home": 0.185,
-            "draw": 0.205,
-            "away": 0.61
+            "home": 0.176,
+            "draw": 0.206,
+            "away": 0.618
           },
           "total": 3.5
         },
         "move_24h": {
           "side": "away",
-          "from": 0.615,
-          "to": 0.625,
+          "from": 0.625,
+          "to": 0.635,
           "relative_change": 0.016
         },
-        "fetched_at": "2026-11-22T06:50:59.020Z"
+        "fetched_at": "2026-11-22T16:36:13.097Z"
       },
-      "p_live_at": "2026-11-22T06:50:57.733Z"
+      "p_live_at": "2026-11-22T16:36:11.867Z"
     },
     {
       "id": "1301078",
@@ -1640,7 +1640,7 @@
           "to": 0.605,
           "relative_change": 0
         },
-        "fetched_at": "2026-11-22T06:50:59.114Z"
+        "fetched_at": "2026-11-22T16:36:13.189Z"
       }
     },
     {
@@ -1886,7 +1886,7 @@
           "to": 0.595,
           "relative_change": 0.053
         },
-        "fetched_at": "2026-11-22T06:50:59.318Z"
+        "fetched_at": "2026-11-22T16:36:13.147Z"
       }
     },
     {
@@ -1926,7 +1926,7 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261122",
           "espn_match": "Baltimore Ravens at Carolina Panthers",
           "decimal": {
-            "home": 2.23,
+            "home": 2.22,
             "draw": null,
             "away": 1.69
           },
@@ -1936,19 +1936,19 @@
             "away": 2.8
           },
           "p_devig": {
-            "home": 0.431,
+            "home": 0.433,
             "draw": 0,
-            "away": 0.569
+            "away": 0.567
           },
-          "total": 43.5
+          "total": 44.5
         },
         "move_24h": {
           "side": "away",
           "from": 0.585,
-          "to": 0.575,
-          "relative_change": -0.017
+          "to": 0.565,
+          "relative_change": -0.034
         },
-        "fetched_at": "2026-11-22T06:50:59.414Z"
+        "fetched_at": "2026-11-22T16:36:13.401Z"
       }
     },
     {
@@ -2360,9 +2360,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122",
           "espn_match": "Málaga at Osasuna",
           "decimal": {
-            "home": 1.83,
+            "home": 1.8,
             "draw": 3.6,
-            "away": 4.4
+            "away": 4.6
           },
           "opening": {
             "home": 1.74,
@@ -2370,19 +2370,19 @@
             "away": 4.5
           },
           "p_devig": {
-            "home": 0.519,
+            "home": 0.529,
             "draw": 0.264,
-            "away": 0.216
+            "away": 0.207
           },
           "total": 2.5
         },
         "move_24h": {
           "side": "home",
           "from": 0.525,
-          "to": 0.525,
-          "relative_change": 0
+          "to": 0.535,
+          "relative_change": 0.019
         },
-        "fetched_at": "2026-11-22T06:50:59.788Z"
+        "fetched_at": "2026-11-22T16:36:13.399Z"
       }
     },
     {
@@ -3582,10 +3582,10 @@
         "move_24h": {
           "side": "home",
           "from": 0.7,
-          "to": 0.665,
-          "relative_change": -0.05
+          "to": 0.595,
+          "relative_change": -0.15
         },
-        "fetched_at": "2026-11-22T06:51:00.379Z"
+        "fetched_at": "2026-11-22T16:36:13.337Z"
       }
     },
     {
@@ -3712,10 +3712,10 @@
         "move_24h": {
           "side": "home",
           "from": 0.66,
-          "to": 0.645,
-          "relative_change": -0.023
+          "to": 0.635,
+          "relative_change": -0.038
         },
-        "fetched_at": "2026-11-22T06:51:00.429Z"
+        "fetched_at": "2026-11-22T16:36:13.414Z"
       }
     },
     {
@@ -3801,10 +3801,10 @@
         "move_24h": {
           "side": "home",
           "from": 0.66,
-          "to": 0.625,
-          "relative_change": -0.053
+          "to": 0.615,
+          "relative_change": -0.068
         },
-        "fetched_at": "2026-11-22T06:51:00.655Z"
+        "fetched_at": "2026-11-22T16:36:13.662Z"
       }
     },
     {
@@ -4090,10 +4090,10 @@
         "move_24h": {
           "side": "away",
           "from": 0.575,
-          "to": 0.6,
-          "relative_change": 0.043
+          "to": 0.605,
+          "relative_change": 0.052
         },
-        "fetched_at": "2026-11-22T06:51:00.889Z"
+        "fetched_at": "2026-11-22T16:36:13.720Z"
       }
     },
     {
@@ -4238,9 +4238,9 @@
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard?dates=20261122",
           "espn_match": "Mirassol at Fluminense",
           "decimal": {
-            "home": 1.63,
+            "home": 1.59,
             "draw": 4.1,
-            "away": 5
+            "away": 5.25
           },
           "opening": {
             "home": 1.63,
@@ -4248,19 +4248,19 @@
             "away": 5
           },
           "p_devig": {
-            "home": 0.581,
-            "draw": 0.23,
-            "away": 0.189
+            "home": 0.592,
+            "draw": 0.229,
+            "away": 0.179
           },
           "total": 2.5
         },
         "move_24h": {
           "side": "home",
-          "from": 0.59,
-          "to": 0.595,
-          "relative_change": 0.008
+          "from": 0.595,
+          "to": 0.615,
+          "relative_change": 0.034
         },
-        "fetched_at": "2026-11-22T06:51:01.000Z"
+        "fetched_at": "2026-11-22T16:36:13.527Z"
       }
     },
     {
@@ -5042,15 +5042,15 @@
             "draw": 0.251,
             "away": 0.449
           },
-          "total": 2.5
+          "total": 3.5
         },
         "move_24h": {
           "side": "away",
           "from": 0.465,
-          "to": 0.455,
-          "relative_change": -0.022
+          "to": 0.445,
+          "relative_change": -0.043
         },
-        "fetched_at": "2026-11-22T06:51:01.809Z"
+        "fetched_at": "2026-11-22T16:36:13.679Z"
       }
     },
     {
@@ -5164,6 +5164,47 @@
           "relative_change": -0.026
         },
         "fetched_at": "2026-11-22T06:51:01.671Z"
+      }
+    },
+    {
+      "id": "1440594",
+      "league": "Valorant",
+      "sport": "esports",
+      "event": "Valorant: Manticore vs NEXT  (BO3) - VCT Americas Kickoff: Brazil Group Stage",
+      "home": "Manticore",
+      "away": "NEXT",
+      "start": "2026-11-22T20:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.59,
+        "draw": 0,
+        "away": 0.41
+      },
+      "p_first": {
+        "home": 0.59,
+        "draw": 0,
+        "away": 0.41
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Manticore",
+          "p_market": 0.59,
+          "fair_odds": 1.69
+        }
+      ],
+      "legs_first": {
+        "home": 0.59
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.5,
+          "to": 0.59,
+          "relative_change": 0.18
+        },
+        "fetched_at": "2026-11-22T16:36:13.907Z"
       }
     }
   ]
