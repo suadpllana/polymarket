@@ -1,0 +1,454 @@
+{
+  "date": "2026-11-23",
+  "researched_at": "2026-11-23T07:00:05Z",
+  "stage": "morning",
+  "summary": "Researched on the morning of Mon 23 Nov; lineups are not out, so this is a draft until the final check. A thin Monday: Serie A, La Liga and Premier League evening games, AFC Champions League Elite, Allsvenskan, the Bulgarian league, Süper Lig, Ligue 2, Dota 2 BLAST Slam group deciders and one KHL game; basketball is not researched (the owner's permanent rule). Medium: Al-Ittihad (1xbet and a model near 72%), Hammarby (title race, DraftKings agrees), Ludogorets (only the under 4.5 goals leg is in range), Monza v Fiorentina (Fiorentina or draw; thin market) and Team Liquid (elimination decider, Thunderpick agrees). Low: Al Hilal (no second price, nothing verified), Nantes (depleted squads, models well under the market), NaVi (conflicting match dates, stale second price), Xtreme Gaming and Aurora (60-70% favourites with nothing independent confirming them), Başakşehir (price down 4.8% with no news, thin market), Severstal (goalies unconfirmed, a $390 market, a long trip east) and Brentford (top scorer suspended, Everton in form). Excluded: Levante v Elche (Valencian derby). Views that contradicted a game's own main risk were dropped (Al-Ittihad over 2.5, Hammarby over 2.5, Ludogorets over 1.5). Weekly review: no group is weak enough for a rule change; favourites priced 60-70% are on watch (58% hit vs 65% expected over 19 games).",
+  "games": [
+    {
+      "id": "1352656",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.27,
+        "draw": 0.26,
+        "away": 0.47
+      },
+      "checks": {
+        "team_news": "Fiorentina (Vanoli presser, 21 Nov, TMW): almost complete squad; Ndour back in group after ankle issue, Njie knock on Sweden duty described as not serious (final check), Atta fit but minutes managed (expected bench), Oulai and Fagioli back; no suspensions reported. Monza (Juric presser): Maye, Folorunsho and Ngonge out; Pessina available after two weeks of training, Ziolkowski back. One lineup source mentioned Juric as suspended, others do not; not confirmed, so no weight given.",
+        "lineups": "Not out yet; predicted XIs. Firenzeviola: Monza 3-4-2-1 Tornqvist; Kouadio, Goglichidze, Lucchesi; Toure, Akinsanmiro, Colombo, Mangas; Mota, Robinson; Varela. Fiorentina 4-2-3-1 De Gea; Jimenez, Ranieri, Dragusin, Joao Mario; Ndour, Oulai; Mastantuono, Goncalves, Njie (or Gnonto); Pellegrino. Aggregated Italian previews agree on the shape; open spots are Gnonto/Njie and Pessina starting for Monza. Dragusin's availability is mentioned inconsistently (national-team duty in the presser vs listed in the XI), to be confirmed.",
+        "rotation": "No sign of rotation: Monza match is described as the first of four must-win games for Fiorentina. Last Fiorentina games: 2-2 vs Juventus (8 Nov), then international break; Monza lost 0-1 vs Atalanta (8 Nov). Equal rest, no midweek game, short domestic trip.",
+        "motivation": "ESPN standings before the game (12 rounds): Fiorentina 15th on 9 pts from 11 games, Monza 18th on 7 pts from 11 games. Both are in a relegation fight and both need the points, so no hard exclusion (favourite has not secured anything). Fiorentina are closer to safety; Monza are at home with little to lose.",
+        "form": "ESPN results, Fiorentina last 6 (league): D 2-2 Juventus, W 4-2 at Sassuolo, D 2-2 Atalanta, L 1-2 at Inter, L 1-3 Como, L 1-2 at Genoa: 1W 2D 3L, 12 goals for / 12 against, leaky and high-scoring. Monza last 6: L 0-1 Atalanta, L 1-2 at Bologna, L 1-4 Napoli, L 2-3 at Torino, W 4-0 Cagliari, L 1-3 at Lazio: 1W 5L, 9 for / 13 against. No xG found.",
+        "h2h": "Search snippets: Monza have beaten Fiorentina in only 1 of 7 meetings (Serie A and Serie B, last seen January 2025). Both sides' recent games are open (high scoring), so a draw or one-goal game is the main shape; no recent meeting data for 2026-27.",
+        "odds": "DraftKings via ESPN (source https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261123): Monza 3.50, draw 3.65, Fiorentina 1.91; de-vigged 0.264 / 0.253 / 0.483 (total 2.5). Opening: home 3.25, draw 3.55, away 1.91: Fiorentina unchanged, Monza drifted out (3.25 to 3.50). Polymarket: Fiorentina 0.495 now vs 0.495 24h ago (0% move), consistent with DraftKings within 1.5 points. Polymarket event volume about 4.8k USD (thin; the Fiorentina win market about 2.0k, draw market about 2.5k), liquidity about 438 USD-equivalent shown, so thin market.",
+        "models": "ClubElo fetch timed out, no bookmaker-free rating obtained. Proxy only: league table (Fiorentina +0 vs Monza -8 goal difference points gap 2) and form point to a small Fiorentina edge, not a large one.",
+        "venue_weather": "U-Power Stadium (Brianteo), Monza, normal home venue; kick-off Monday 23 Nov, 20:45 local (19:45 UTC); referee Daniele Doveri. No weather or pitch problem found, but weather was not checked for the day itself."
+      },
+      "reason": "Fixture verified on the ESPN scoreboard (Serie A, Monday 23 Nov 19:45 UTC, U-Power Stadium). No hard exclusion: both coaches are established (Juric at Monza, Vanoli at Fiorentina), no derby, no rotation announced, and both sides are in the relegation fight so the favourite is not coasting. DraftKings (0.483) agrees with Polymarket (0.495), the price is flat over 24h, and team news is clean for Fiorentina. Confidence is medium rather than high because the market is thin, no bookmaker-free rating was obtained, both sides are leaky and open, and the favourite is only at 49%. p is shaded slightly below the market toward the draw and the home side.",
+      "main_risk": "A draw or narrow Monza win: Fiorentina have won only 1 of their last 6 and conceded 12 goals in them, Monza are at home in a must-not-lose game under Juric, and Fiorentina's left-wing, Atta's minutes and Dragusin's availability are not settled. Double chance is exposed only to a Monza win (about 27%).",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261123",
+        "https://www.tuttomercatoweb.com/serie-a/fiorentina-vanoli-ndour-njie-bene-torna-atta-2295889",
+        "https://www.firenzeviola.it/copertina/monza-fiorentina-probabili-formazioni-ranieri-torna-titolare-sinistra-dubbio-gnonto-njie-489606",
+        "https://www.pazzidifanta.com/news/monza-juric-fiorentina-conferenza-stampa-12esima-giornata-serie-a-2026-27-460832",
+        "https://lapresse.it/calcio/2026/11/23/monza-fiorentina-oggi-in-serie-a-orario-probabili-formazioni-e-dove-vederla-in-tv",
+        "https://gamma-api.polymarket.com/events?id=1352656"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1354792",
+      "exclude": true,
+      "reason": "Hard rule: derby or fierce rivalry. The fixture is real: ESPN esp.1 scoreboard for 20261123 lists Elche at Levante, 2026-11-23 20:00Z, Estadi Ciutat de València, status Scheduled. Spanish press calls Levante vs Elche a Valencian Community derby (derbi regional/autonómico): Alicante Plaza headlined 'Elche CF gana el derbi al Levante UD' for the first 2025/26 meeting, and Resumen Levante-Elche called the Jan 2026 3-2 a 'derbi de locura', with Levante winning in the 95th minute. The same press shows how volatile these meetings are: Elche won 2-0 away in 2025/26 and Levante won 3-2 late. I found no sacking or new coach, no neutral venue and no pitch problem. I did not run Stage 2 checks (lineups, odds move, models) because the derby exclusion decides it.",
+      "main_risk": "Regional derby: the favourite Levante (about 0.45 on Polymarket, DraftKings de-vigged 0.435) faces high variance and a motivated Elche, and the draw is the likeliest failure for the Levante or draw / draw no bet legs. DraftKings has drifted from 2.15 to 2.20 for Levante.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261123",
+        "https://alicanteplaza.es/alicanteplaza/deportesalicante/elche-cf-gana-el-derbi-al-levante-ud-y-arranca-con-fuerza-en-primera",
+        "https://www.flashscore.es/noticias/futbol-laliga-ea-sports-previa-del-levante-elche-curiosidades-estadisticas-datos-y-anecdotas/t07JggOG/"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1354164",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.39,
+        "draw": 0.28,
+        "away": 0.33
+      },
+      "checks": {
+        "team_news": "Brentford: Igor Thiago suspended (red card at Brighton; three-match ban, also misses Man Utd on 28 Nov), Aaron Hickey (hamstring, several weeks) and Nathan Collins (knee) out per the club preview and Racing Post; Rico Henry, Kaye Furo, Milambo and Carvalho listed out/doubtful by Squawka (the club says Carvalho may return to the squad); Dasilva a doubt (Dave Sport). Everton: no injuries reported, Jack Grealish available again after a club suspension, Moyes expected to have a fully fit squad. Brentford lose their top scorer and a centre-back; Everton are intact. No press-conference quotes read.",
+        "lineups": "Expected only, not confirmed. Racing Post: Brentford 4-2-3-1 Kelleher; Kayode, Ajer, Van den Berg, Lewis-Potter; Sangare, Janelt; Outtara, Jensen, Schade; Wilson (Callum Wilson replaces Thiago). Everton, Racing Post: Pickford; Rohl, Tarkowski, Branthwaite, Mykolenko; Garner, Armstrong; Johnson, Dewsbury-Hall, George; Barry. Brentford club site (Connor O'Neill) gives a similar Everton XI with Dewsbury-Hall and George behind Barry. Both Everton sources agree.",
+        "rotation": "Monday night game (the last fixture of gameweek 11), played after the international break, so there is no midweek congestion for either side. Everton won their last three in all competitions. No rotation signs. Brentford's next game is Man Utd away on 28 Nov.",
+        "motivation": "Mid-table game with nothing decisive at stake. Brentford are 10th (10 played, 14 points, GD +5); Everton are reported sixth, two places above Brentford (Dave Sport; the page is internally inconsistent on the exact spot). Neither side has secured an aim, so there is no hard-exclusion case.",
+        "form": "Brentford: one win in six before the break, lost 2-0 at Brighton with a red card (first league away defeat since 9 May). Everton: unbeaten in their first six league games, one point from nine in October, then won their last three in all competitions (3-1 v Coventry, Thierno Barry 10 goals this season, four in the last three games). xG not found.",
+        "h2h": "2025/26: Brentford won 4-2 at Everton (Thiago hat-trick) and drew 2-2 at home on 11 April 2026 (Thiago scored twice). Both teams scored in the last three meetings and Brentford are unbeaten in their last four. Thiago scored in both and is now suspended. Draws are plausible given the 2-2 and the level of the sides.",
+        "odds": "DraftKings via ESPN: 2.30 / 3.50 / 3.05, de-vigged 41.5 / 27.3 / 31.3. The opening line was 1.87 / 3.65 / 3.80, so Brentford drifted about 19 percent in price; this is explained by the Thiago ban, Hickey and Collins being out and Everton's form, not unexplained. bet365 (via Racing Post): Brentford 23/20 (2.15), draw 12/5 (3.40), Everton 23/10 (3.30), de-vigged about 43.8 / 27.7 / 28.5. Polymarket: Brentford 0.415 and flat over 24h (0.415 to 0.415), draw 0.275, Everton 0.305; Polymarket event volume is about $35k and about $24.5k on the Brentford win market, so the market is moderately thin. Two independent prices agree with Polymarket within 3 points. Racing Post's best tip is Everton at 23/10. No Stake or Rainbet prices seen.",
+        "models": "Brentford were not rated by ClubElo (the fetch failed with a 503/timeout), so no bookmaker-free Elo was read. The only bookmaker-free reference is Opta's predicted table cited in the Brentford club preview, which places Everton eighth. This check is incomplete.",
+        "venue_weather": "Gtech Community Stadium, Brentford (home), Monday 20:00 UTC, Sky Sports, referee Craig Pawson. A normal venue. No weather or pitch report was found, and no problem was reported."
+      },
+      "reason": "The fixture is verified (Premier League, Mon 23 Nov 2026, 8pm GMT at the Gtech Community Stadium). Keith Andrews has been Brentford coach since June 2025 and signed a new deal in February 2026, and David Moyes is Everton's manager, so there is no coach change. It is not a derby, there is no rotation, and the favourite still has something to play for, so no hard exclusion applies. Brentford are only a slight favourite at about 41.5 percent. Independent prices (DraftKings, bet365) agree with Polymarket within 3 points, and the drift from the opening line has a news explanation. Brentford are weakened without their top scorer Thiago, Collins and Hickey, while Everton are fit and in form, so I trimmed the home win and double-chance probabilities slightly below the market. Medium rather than high because lineups are unconfirmed, no Elo rating was read and the market volume is modest. Set to low when merged: news hurts the favourite (top scorer Igor Thiago suspended, Collins and Hickey out) against a fit, in-form Everton, which the rules make low.",
+      "main_risk": "Everton win or draw: Brentford without Thiago (three-match ban), Collins and Hickey, a weaker side that took one win in six before the break and lost 2-0 at Brighton, against an in-form Everton led by Barry. A draw is the single most likely failure, given the 2-2 in April and a 27 percent draw price. Everton +1.5 fails only on a Brentford win by two or more, and Over 1.5 fails on a 0-0 or a 1-0.",
+      "sources": [
+        "https://www.brentfordfc.com/en/news/match-previews-brentford-v-everton-premier-league-23-11-2026",
+        "https://www.racingpost.com/sport/football-tips/premier-league/brentford-vs-everton-betting-tips-predictions-team-news-odds-bet-builder-aahbX3p0D97C/",
+        "https://dave.sport/news/brentford-vs-everton-preview/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261123",
+        "https://gamma-api.polymarket.com/events?id=1354164",
+        "https://www.premierleague.com/en/news/4345296/brentford-appoint-keith-andrews-as-head-coach"
+      ],
+      "views": {
+        "ah_away_+1.5": 0.78,
+        "ou_1.5_over": 0.75
+      },
+      "prices": []
+    },
+    {
+      "id": "1443510",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.72,
+        "draw": 0,
+        "away": 0.28
+      },
+      "checks": {
+        "team_news": "No roster change or stand-in reported for either side in the sources read today. Liquid: m1CKe, Malr1ne, Wisper, Boxi, tOfu (Liquipedia, Dotesports). DO KONCA, the former BetBoom stack: Kiritych, Save-, MieRo, Kataomi, kiyotaka (games.gg, Dotesports). Coach listings differ by source (boolk or TORONTOTOKYO for DO KONCA; Dukalis/Puppey or Blitz for Liquid). A Liquid web page I found still lists Nisha/Ace, but it is older and the other sources list the roster above. A stand-in could not be ruled out completely.",
+        "lineups": "Five players per side as in team_news, taken from tournament listings and match previews. No stand-in is mentioned in the Hotspawn or Kemosabe recaps of the Nov 22 series. The official pre-match roster is not yet visible this morning.",
+        "rotation": "Liquid played Nov 20 (2-0 over DO KONCA) and Nov 22 (1-2 loss to PARIVISION). DO KONCA beat LEGION 2-1 on Nov 22 in a do-or-die loser match. Both sides have played a series on each of the last two or three days; the schedule is equally dense for both.",
+        "motivation": "Group C decider: the winner takes 2nd place and moves to Last Chance, the loser is eliminated (esport.vision, Hotspawn). Both sides are 1-1 and both need it, so no hard exclusion applies. Liquid just lost the group-winner series and could be flat, which is a soft risk.",
+        "form": "Liquid: beat DO KONCA 2-0 on Nov 20 (two roughly 30-minute stomps), then lost 1-2 to PARIVISION on Nov 22, winning game 2 after a 21k net worth deficit and losing game 3 in about 38 minutes. Kemosabe's recap says Liquid could not win fights in game 3. DO KONCA: beat LEGION 2-1 on Nov 22 after losing to Liquid 0-2; described as having struggled all season and looked poor at 1win Essence III. GG score shows DO KONCA with a 20% win rate and a 3-loss streak, which includes older data.",
+        "h2h": "Liquid won 2-0 on Nov 20 at this event. Hotspawn cites a 7-2 head-to-head record for Liquid against this DO KONCA core. The BO3 format means a 2-0 or 2-1 result can go either way. DO KONCA took a game off LEGION and could do the same here.",
+        "odds": "Polymarket series winner: Liquid 0.745 now, 0.69 24h ago (volume about $11.7k on the main market, so reasonably liquid). The favourite's price rose 8% relative over 24h; the price history shows the move happened in the first few hours and has been flat at 0.745 since. I found no news explaining the rise, but it is a move in the favourite's direction, not against it. Second price: Thunderpick 1.32/3.24 (esport.vision), de-vigged Liquid 71.1% / DO KONCA 28.9%; another listing shows Thunderpick 1.27/3.53, de-vigged about 73.5%. Gap to Polymarket is 1 to 3.4 points, within 5, so p is set to 0.72, close to the bookmaker line. Polymarket also prices Liquid -1.5 maps at 0.445 and Over 2.5 maps at 0.44, so a 2-1 series is a live outcome.",
+        "models": "GosuGamers Elo for DO KONCA is 968 (world rank 62, CIS rank 37, 20% win rate), a low rating. I found no Elo for Liquid on the same scale. Dota2ProTips gave a pre-tournament 55/45 split for this matchup, which is much closer than the market, so the rating sources do not fully agree. Hotspawn and Freetips pick Liquid.",
+        "venue_weather": "BLAST Slam IX is played fully online (per Russian press via search summary), so there is no travel or venue factor. Ping and connection issues are the usual online risks."
+      },
+      "reason": "Liquid are the clear favourite: they beat DO KONCA 2-0 on Nov 20, DO KONCA has a weak rating, and an independent bookmaker price (Thunderpick, de-vigged 71 to 73.5%) sits within 5 points of Polymarket (0.745). p is set to 0.72 to reflect the bookmaker gap. Confidence is medium and not high because this is a BO3 where one lost game makes it a coin-flip decider, Liquid just lost to PARIVISION, the lineups and any stand-ins are not officially confirmed today, and the research record shows favourites at 60-75% underperforming.",
+      "main_risk": "Liquid drop a game and lose a 1-2 series. DO KONCA are in a do-or-die spot, took a game off LEGION yesterday, and Liquid showed fragile team fighting in the 1-2 loss to PARIVISION. An unannounced stand-in is a smaller risk. The 8% rise in the favourite's price in 24h has no news explaining it.",
+      "sources": [
+        "https://esport.vision/news/blast-slam-ix-day-4-schedule-november-23-matches",
+        "https://www.hotspawn.com/dota2/news/blast-slam-ix-group-stage-decider-predictions-whos-going-home",
+        "https://kemosabe.substack.com/p/blast-slam-ix-recap-winner-and-loser",
+        "https://www.gosugamers.net/dota2/teams/59403-do-konca",
+        "https://games.gg/news/betboom-team-dota-2-roster-inactive/",
+        "https://gamma-api.polymarket.com/events?id=1443510"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1438890",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.69,
+        "draw": 0,
+        "away": 0.31
+      },
+      "checks": {
+        "team_news": "No stand-in or roster change reported for either side in the sources I could read. The Hawk Live match page lists NAVI as pma, Niku, daze, gotthejuice, Riddys and OG as something wrong, TOPSON, OneJey, Natsumi, skem. The metaratings preview lists the same NAVI five and OG as Natsumi, Topson, SSS, OneJey, skem. Liquipedia returned 403, so I could not read the official roster page. A roster search also returned older, conflicting NAVI lineups that I could not date.",
+        "lineups": "Five names per side from Hawk Live and cybersport.metaratings.ru. They match for NAVI. OG lists 'something wrong' on Hawk Live and SSS on metaratings. Not confirmed by Liquipedia or BLAST.",
+        "rotation": "Group stage of BLAST Slam IX (online). tips.gg lists the match as 14:00 GMT on 23 Nov. Hawk Live and metaratings list a NAVI vs OG group match on 20 Nov 2026, and Hawk Live shows NaVi 2-1 OG in its head-to-head table. I could not tell whether that is a stale or duplicate listing or a real earlier series, so I cannot say whether today's game is a rematch or what it is worth. Schedule density for NAVI is unknown.",
+        "motivation": "Format per tips.gg and esports.gg: 16 teams, four groups of four, all BO3, group winners go to the seeding matches and runners-up to Last Chance. I could not find Group A standings, so what NAVI or OG still need today is unverified.",
+        "form": "metaratings (20 Nov preview): NAVI won 4 of their last 5 series (3:1 GamerLegion, 2:0 Yellow Submarine, 2:0 GamerLegion, 2:0 Nemiga, lost 1:2 to Team Nemesis at Slam VIII). OG lost 4 of their last 5 (0:2 GamerLegion, 2:1 LEGION, 0:2 Yellow Submarine, 0:2 Team Liquid, 0:2 GamerLegion). OG are in poor form.",
+        "h2h": "Hawk Live: NaVi 1-0 OG (Slam VI, 4 Feb 2026), OG 1-0 NaVi (Slam V, Nov 2025), plus an entry of NaVi 2-1 OG dated 20 Nov 2026 that I could not verify. metaratings says 5 meetings, OG 3 wins and NAVI 2, and that the teams have not met with these rosters.",
+        "odds": "Polymarket: NAVI 0.715 now, 0.685 24h ago, a rise of 4.4% for the favourite (not a fall, so no price-move penalty). Volume not checked. The only second price is Winline/Pari NAVI 1.28 moneyline (about 78% before margin, de-vig not possible as the OG price was not stated), quoted in the 20 Nov preview for the match listed on that date, so it may be stale. data.odds from DraftKings is not available for this game. A second price from today is missing.",
+        "models": "No Elo or rating source was reachable (Liquipedia 403). Only the form record above.",
+        "venue_weather": "BLAST Slam IX is played entirely online, with no LAN finals (esports.gg via search snippet). No weather factor. Online play adds some noise."
+      },
+      "reason": "NAVI are the better team on recent form and the market favours them, but several key facts are unverified: the match date conflicts across sources (20 Nov vs 23 Nov, with a possible earlier NaVi 2-1 result), Group A standings are unknown, no rating source was reachable, and the only independent price is a pre-20-Nov quote. My p stays below the market because of this uncertainty.",
+      "main_risk": "NAVI lose a BO3 to a poor-form OG (a 71% favourite in a best-of-three still loses about 3 times in 10), with the added uncertainty about whether this series is a rematch of an earlier 20 Nov game and what it is worth to each side.",
+      "sources": [
+        "https://hawk.live/dota-2/matches/blast-slam-ix-group-stage/natus-vincere-vs-og",
+        "https://cybersport.metaratings.ru/prognozy/dota-2/prognoz-na-match-navi-og-smozhet-li-navi-prodolzhit-pobednuyu-seriyu/",
+        "https://hawk.live/posts/blast-slam-ix-qualifiers-schedule-standings-results",
+        "https://esports.gg/news/dota-2-blast-slam-9-2026-schedule-teams-prize-pool/"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1439983",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.4,
+        "draw": 0,
+        "away": 0.6
+      },
+      "checks": {
+        "team_news": "No roster change or stand-in reported for either side. Esport.vision/Dotesports list Xtreme Gaming as Ame, Xm, zeal, XinQ, BoBoKa (Dotesports adds Maps as coach, a conflict with one list that makes BoBoKa a player; no change announced). Team Nemesis: JaCkky, Ken, Jabz, Jhocam, NARMAN (coach Arthur per Dotesports; Liquipedia/GosuGamers say Astini, so the coach is unconfirmed). No injury or illness news found for either team. Not confirmed from an official team post.",
+        "lineups": "Dota has no lineup release. Both teams have used the same five players in their series at this event (Nemesis 2-0 Spirit, 0-2 GamerLegion; XG 0-2 GamerLegion, 2-1 Spirit). Draft and picks are unknown until the series.",
+        "rotation": "Both played two series on days 1-2 (Fri/Sat 20-21 Nov) and have had a rest day since. XG's last series (2-1 vs Spirit) had a 96-minute Game 3 with FPS and reconnect issues, a possible fatigue point but a day off helps. Nemesis lost 0-2 to GamerLegion on day 2. Winner goes to a Last Chance match on Wednesday.",
+        "motivation": "Group B decider, both teams 1-1 (GamerLegion 2-0, Spirit out). Winner takes 2nd place and goes to Last Chance; loser finishes 3rd and leaves the event. Equal elimination stakes, so no hard exclusion.",
+        "form": "XG: 0-2 GamerLegion, then 2-1 over Spirit after two comebacks (one from about 40k net worth down); Dota2ProTips calls them inconsistent, strong at farming but weak from behind. Nemesis: 2-0 Spirit (52-32, 45-23 kills), then 0-2 GamerLegion; earlier 0-2 to 1win at BLAST Slam VIII (Oct) and 1-2 to GamerLegion at PGL Wallachia S9 (Sep). Hotspawn calls Nemesis a 'coin flip at the moment'. Last-10-series list for both not fully verified.",
+        "h2h": "XG lead 2-0: 2-0 at PGL Wallachia S9 (24 Sep 2026) and 2-1 at PGL Wallachia S7 (Liquipedia, EGamersWorld). Hotspawn's Owen H still picks Nemesis 2-1 on 'fearless Dota' while calling XG the more experienced side and better on paper.",
+        "odds": "Polymarket series winner 0.625 XG / 0.375 Nemesis, volume about 27.5k USD (liquid enough). 24h move: 0.60 (22 Nov 07:00 UTC) to 0.625 (since 22 Nov 13:00), a +4.2% rise for the favourite, flat for the last 18h, no news found to explain it; it moved with the favourite, not against. Second price: Thunderpick 1.51 XG / 2.46 Nemesis (via Esport.vision/search snippet), de-vigged about 61.9% / 38.1%, within 1 point of Polymarket. Game-1 market 0.58 XG, Game-2 0.59 XG, handicap XG -1.5 at 0.35. No DraftKings data in the built-in data for this game.",
+        "models": "No bookmaker-free Elo found (GosuGamers/Datdota/Liquipedia not retrievable; Liquipedia returned 403). Dota2ProTips shows XG at a 45% win rate and Nemesis at 43%, with rank numbers that conflict with the market view, so no usable independent rating. Only the market (Polymarket plus Thunderpick) and the 2-0 h2h support XG.",
+        "venue_weather": "Mostly reported as an online event on EU West servers (Strafe, Esports Central, The Loadout); BLAST.tv lists BLAST Studios Copenhagen for 20-29 Nov, probably a stale entry, not confirmed. Online play means ping and connection issues are a small variance factor (a reconnect problem already hit XG's last series). Weather is not relevant."
+      },
+      "reason": "Fixture verified (Group B decider, BO3, 23 Nov 14:00 UTC, BLAST Slam IX). No hard exclusion: same five players on both sides, both teams face elimination, no coach or venue issue found. XG are favoured by two independent prices (Polymarket 62.5%, Thunderpick de-vigged 61.9%) and lead the h2h 2-0, but Nemesis beat Spirit 2-0 and XG's form is unstable, so p is lowered a little below the market. Set to low when merged: favourites priced 60-70% have underperformed (58% vs 65% over 19 games), and here no independent rating and no full last-10 form could be verified.",
+      "main_risk": "Xtreme Gaming's inconsistency from behind and a coin-flip series against a fearless SEA side that beat Spirit 2-0, with a short best-of-three adding variance. Research record says favourites at 60-70% have underperformed (58% vs 65%). XG also just played a 96-minute game, and no independent Elo or full last-10 form was verified.",
+      "sources": [
+        "https://polymarket.com/esports/dota-2/blast-slam/dota2-nem-xtreme-2026-11-23",
+        "https://esport.vision/news/blast-slam-ix-day-4-schedule-november-23-matches",
+        "https://www.hotspawn.com/dota2/news/blast-slam-ix-group-stage-decider-predictions-whos-going-home",
+        "https://www.hotspawn.com/dota2/news/xtreme-gaming-sends-spirit-packing-just-two-days-into-blast-slam-ix",
+        "https://www.dota2protips.com/blog/blast-slam-ix-preview",
+        "https://egamersworld.com/dota2/news/38616/nemesis-shock-team-spirit-with-victory-in-the-firs-5EkfOnsJ_",
+        "https://www.strafe.com/event/blast-slam-season-9-2026-f707ae/"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1444824",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.57,
+        "draw": 0,
+        "away": 0.43
+      },
+      "checks": {
+        "team_news": "No stand-in or roster change reported for either side. esport.vision's preview mentions no stand-ins, and the hotspawn decider preview names none. Aurora's regular five are listed as skiter, Mikoto, Ws, Mira, kaori. LGD's are Wits, SumaiL, Davai, Thiolicor, Sneyking. I did not find an official team post or Liquipedia page confirming either five (Liquipedia returned 403).",
+        "lineups": "Rosters come from a single aggregated search summary of esport.vision and Liquipedia-style listings, not an independently confirmed pair of sources. No stand-in is flagged for this event. Not cross-checked, so only partly verified.",
+        "rotation": "BLAST Slam IX Group D decider on Day 4 (23 Nov 17:00 UTC). Aurora went 1-1 in the group (beat Astra Invicta 2-1, lost 0-2 to 1w Team). LGD also went 1-1 (lost 0-2 to 1w Team, beat Astra Invicta 2-1). Both have played two series this week, so schedule density is equal. The tournament runs 20-29 Nov, so this is not a long, fatiguing day for either team.",
+        "motivation": "Equal stakes: it is an elimination decider. The winner takes 2nd in Group D and goes to Last Chance on 24 Nov. The loser finishes 3rd and is out. Neither side has anything secured, so the hard no-stakes exclusion does not apply.",
+        "form": "Aurora are in a rough patch since patch 7.42. They barely beat Astra Invicta 2-1 and were swept 0-2 by 1w Team, and hotspawn says they have not adapted well. Hotspawn still ranks Aurora among the top five teams in the world and picks Aurora 2-1. LGD show the same group results (0-2 vs 1w Team, 2-1 vs Astra Invicta). Earlier this year LGD finished BLAST Slam VII group stage 8-3 and Aurora 6-5. Last-10-series detail was not obtained.",
+        "h2h": "Three recent meetings found, all BLAST Slam: 27 May Slam VII group stage LGD won 1-0 (BO1), 6 Jun Slam VII lower-bracket semifinal LGD won 2-1 (Aurora took game 1, LGD won the decider), 9 Oct Slam VIII playoffs Aurora won 2-0. That is 2 series to 1 for LGD, so LGD have beaten Aurora before and the pairing is close.",
+        "odds": "Polymarket series winner Aurora 0.595 / LGD 0.405 (event 1444824). 24h move is mild: 0.585 to 0.595, up 1.7% relative, so no unexplained drop. Series market volume is only about $5.0k, a thin market (event total about $6.6k). The Game Handicap Aurora -1.5 trades at 0.315. Second price, Thunderpick via esport.vision: Aurora 1.65 / LGD 2.14, de-vigged about 0.564 / 0.436. One other quoted price of Aurora 1.59 / LGD 2.24 de-vigs to about 0.585 / 0.415, but that snippet does not name its bookmaker or confirm it is for this match. The independent Thunderpick price is about 3 points below Polymarket for Aurora, within the 5-point range. DraftKings/ESPN data is not available for Dota.",
+        "models": "No bookmaker-free rating found. No GosuGamers or Datdota Elo retrieved, and Liquipedia and egamersworld returned 403. Only qualitative hotspawn view: Aurora top-five team, a scrappy series that can go either way. The 3-point gap to the de-vigged bookmaker price is the only quantitative cross-check.",
+        "venue_weather": "BLAST Slam IX is an online tournament, so there is no travel or weather. Online play can add connection and ping variance."
+      },
+      "reason": "Fixture verified: Aurora vs LGD Gaming is the BLAST Slam IX Group D elimination decider, BO3, 23 Nov 17:00 UTC, online. No hard rule applies, since both sides are fighting for survival and there is no coaching or roster news. I lowered Aurora from 0.595 to 0.57 because Thunderpick de-vigs to about 0.564 and Aurora are out of form on patch 7.42. The favourite is not strong enough to rate medium: Aurora lost 0-2 to 1w Team, LGD beat them 2-1 in June, no rating model was found, rosters are not independently confirmed, and the Polymarket series market is thin at about $5k. The research record also shows 60-70% favourites underperforming.",
+      "main_risk": "Aurora's poor adaptation to patch 7.42 (swept 0-2 by 1w Team, only a 2-1 over Astra Invicta) combined with LGD's 2-1 win over them in June. In a coin-flip-ish elimination BO3 this makes a single upset series quite likely. Secondary risks: an undisclosed stand-in and thin liquidity.",
+      "sources": [
+        "https://esport.vision/news/blast-slam-ix-day-4-schedule-november-23-matches",
+        "https://www.hotspawn.com/dota2/news/blast-slam-ix-group-stage-decider-predictions-whos-going-home",
+        "https://gamma-api.polymarket.com/events?id=1444824",
+        "https://bo3.gg/dota2/news/betboom-team-will-face-lgd-gaming-for-a-place-in-the-blast-slam-vii-grand-final",
+        "https://www.strafe.com/match/lgd-gaming-vs-aurora-lb-semifinals-blast-slam-season-7-2026-640403/"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1431268",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.47,
+        "draw": 0,
+        "away": 0.53
+      },
+      "checks": {
+        "team_news": "Severstal: stavka.tv and the livesport.ru Amur preview (20 Nov) list seven injured: Burenov, Graf, Davydov, Okunev, Pyanov, Remezovsky, Chalyi (Okunev newly added since 13 Nov). Sibir: Osipov injured, Kosolapov ill, Kane out of the squad (a commenter says he is waiting for a visa), per stavka.tv. These are bookmaker-preview lists, not official club statements. Championat and Sovsport report no injuries. No coach change found; Luzenkov (Sibir) and Kozyrev (Severstal) are named as head coaches.",
+        "lineups": "No official lineups yet (vseprosport: starting lineups appear closer to the start). Stavka.tv expected goalies: Sibir Krasotkin (Berdin backup), Severstal Samoylov (Skotnikov backup). That is a single tipster source and could not be confirmed on khl.ru or club sites, so the starting goalies are unverified.",
+        "rotation": "Both teams last played on 20 Nov (Sibir 1:0 vs Avtomobilist, Severstal 3:2 SO vs Amur in Cherepovets) per vseprosport, so about 2 rest days each. Severstal makes the long trip Cherepovets to Novosibirsk, roughly 2,900 km and 4 time zones east, after playing 5 games in about 17 days. Sibir is at home. This is not a back-to-back, but the travel is a real fatigue risk. The next game after this one was not found.",
+        "motivation": "Per stavka.tv: Severstal 36 pts from 28 games (17 W, 11 L), 3rd in the West / 4th overall, in the playoff zone. Sibir 26 pts from 29 games, 10th in the East and 19th overall; Championat says it is last in the East and needs the points at any cost. Sibir needs the game more; Severstal is not secure but is comfortably placed. This is not a hard exclusion. No derby, no neutral venue.",
+        "form": "Severstal has won 5 straight (4:3 SO Traktor, 4:2 Sochi, 3:2 SO Amur, 4:3 Lada, 4:1 at Sochi), scoring 19 and conceding 11 in the last 5 (legalbet). Three of the five wins were by one goal or after regulation. They lost 1:3 at Shanghai on 3 Nov, and Championat notes they conceded 5 goals in each of two earlier losses. Sibir's last 6: W 1:0 Avtomobilist, W 4:1 Traktor, L 1:3 Dynamo, L 1:4 CSKA, L 3:4 OT Avangard, W 3:1 Ak Bars; goals are 64:81 over 29 games (about 2.8 against per game), and the power play is weak (about 15.7%).",
+        "h2h": "Last meeting 31 Aug 2026, a 4:0 Sibir win described as a control (friendly) match. The last official meeting was 13 Jan 2026, which Severstal won 3:2. Per stavka.tv commenters, Sibir has not beaten Severstal in an official home game since 2022, and Severstal won 6 of its last 8 meetings in Novosibirsk (commenter claims, unverified).",
+        "odds": "Polymarket: Severstal 0.555 now vs 0.515 about 24h ago, a rise of 7.8% relative, so no downward-move flag. The history is flat at 0.515 for about 20 hours and then jumped 0.515 to 0.530 to 0.555 in the last 2-3 hours. Market volume is only about $390 total, liquidity about $2.8k, so it is very thin and the jump may be noise. No data.odds from ESPN for this game. Second price (vseprosport 22 Nov): Severstal regulation win 2.20 (Fonbet, Winline, Betcity), Pinnacle 1.80, stavka.tv Severstal incl OT/SO 1.75. Winline 3-way regulation: Sibir 2.80, X 4.15, Severstal 2.20, which de-vigs to roughly 43.2/33.9/22.9; splitting the draw/OT evenly gives Severstal about 54-55% incl OT. Pinnacle 1.80 is about 55.6% raw, about 54% after a rough margin (no opposite-side Pinnacle price seen). Price sources agree with Polymarket within about 1 point. Championat quotes 2.57 Sev / 2.41 Sib in regulation, a conflicting set that I take to be stale or from another market.",
+        "models": "The vseprosport model gives Sibir 47% / Severstal 53%, expected goals 2.15 vs 1.81, with a 2:1 most likely score; this is a site model of unclear independence. Standings: Severstal 36 pts in 28 games, +6 goal difference (70:64); Sibir 26 pts in 29 games, -17 goal difference (64:81). Severstal's points percentage is about 64% vs Sibir's about 45%. Severstal concedes 2.3 per game vs Sibir 2.8. No xG or power-rating source beyond that was found.",
+        "venue_weather": "Sibir Arena, Novosibirsk (capacity 10,634), indoor, home ice for Sibir. Puck drop 15:30 MSK (12:30 UTC), the only KHL game that day. Some ticket sites show 19:30 and the Severstal club schedule page shows 25 Nov, which conflict with the 15:30 MSK given by most sources; the fixture itself is verified on eliteprospects and several previews."
+      },
+      "reason": "Fixture verified, no hard exclusion: no coach change found, no derby, normal home venue, and the table does not leave Severstal with nothing to play for (Sibir needs the points more, so this stays a soft risk). Severstal is the genuine favourite on points, form and goals against, and bookmaker prices (about 54-55% incl OT) agree with Polymarket. Confidence stays low because of unverified starting goalies (only one tipster source), seven reported Severstal injuries, a long trip east on 2 days rest, a thin $390 market that moved 4 points in its last hours, and the research record showing 55-65% favourites underperforming. p is lowered 2.5 points from the market.",
+      "main_risk": "Severstal's travel to Siberia plus its injury list lets Sibir, who need the points and sit at home, win by one goal or in OT/SO; Severstal's last three wins were one-goal or shootout games. The starting goalies are unconfirmed (Krasotkin vs Samoylov from one tipster) and a backup would change the price.",
+      "sources": [
+        "https://stavka.tv/matches/ice-hockey/23-11-2026-sibir-novosibirsk-severstal-cherepovec",
+        "https://www.vseprosport.ru/news/2026/11/22/sibir-severstal-prognoz-kf-2-19-i-stavki-na-match-khl-23-nojabrja-2026-goda",
+        "https://www.championat.com/bets/article-6708074-sibir-severstal-prognoz-na-match-khl-23-noyabrya-2026-goda-vo-skolko-nachalo-pryamaya-translyaciya.html",
+        "https://www.sovsport.ru/predictions/hockey/khl/sibir-severstal-komanda-kozyreva-priehala-v-novosibirsk-za-shestoj-pobedoj-kryadu",
+        "https://legalbet.ru/news/62021132-432027-sibir-sygraet-s-severstalyu-v-edinstvennom-matche/",
+        "https://www.livesport.ru/tips/hockey/2026/11/20/severstal-cherepovets-amur-khabarovsk/",
+        "https://www.eliteprospects.com/team/198/severstal-cherepovets/schedule"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1350329",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.465,
+        "draw": 0.27,
+        "away": 0.265
+      },
+      "checks": {
+        "team_news": "Başakşehir: Yusuf Sarı out (meniscus, mynet); Abbosbek Fayzullaev, Christopher Operi and Muhammed Şengezer listed as doubtful, Fayzullaev and Operi still under treatment (birgun, aksam, mynet); ajansspor instead lists Stancic as unavailable. Sources conflict on the home absentee list and no club confirmation was found. Umut, Ba and Kemen are one yellow from suspension (ajansspor), nobody suspended. Çorum: Berat Özdemir out (calf), Thiam and Cemali Sertel listed unavailable by ajansspor only, Fredy left out of the squad (mynet); aksam says no one else is missing.",
+        "lineups": "No confirmed XI (not out before the morning). Ajansspor predicted Başakşehir: Deniz, Ömer Ali, Emin, Ba, Karbownik, Kaluzinski, Kemen, Shomurodov, Brnic, Skov Olsen, Selke; Çorum: Felipe, Penetra, Çağlar, Smolcic, Borza, Ramadani, Mahmic, Diomande, Cengiz, Kyziridis, Ramirez. Only one outlet gave an XI; mynet, birgun and aksam gave none. Fayzullaev is absent from that predicted XI, consistent with the doubt.",
+        "rotation": "No rotation concern found: Başakşehir's last league games were 2-1 at Göztepe (week 11) and 5-2 v Samsunspor; no midweek fixture found for either side (the tie was announced for Monday 20:00 local, week 12, closing the round). Çorum come off a 0-5 home loss to Fenerbahçe. Başakşehir's Europe run could not be verified, so no European fatigue was assumed.",
+        "motivation": "Mid-table, no hard stake for the favourite: Başakşehir 17 pts (5W 2D 4L, 19-17 goals), 8th/9th depending on source; Çorum 16 pts (5W 1D 5L, 21-21), 9th-11th, a newly promoted side. One point apart, so both sides still need points; nothing to rule the favourite out. Coaches are not new: Nuri Şahin appointed 15 Sep 2025 (hurriyet/sabah), Burak Yılmaz at Çorum announced 25 Sep 2026 (about 59 days ago, cnnturk/gzt), so no coach-change exclusion. No derby.",
+        "form": "Başakşehir last five: D 0-0 Konyaspor, W 2-1 Gaziantep, L 0-2 Beşiktaş, W 5-2 Samsunspor, W 2-1 at Göztepe (ajansspor); two straight wins (birgun); 9 for, 6 against in the last five per mynet. Çorum last five: W 3-0 at Gaziantep, W 2-1 Rizespor, L 0-2 at Göztepe, W 3-1 at Erzurumspor, L 0-5 Fenerbahçe; 21 for and 21 against in 11 games, an open, high-scoring profile.",
+        "h2h": "One recorded meeting: 4 Feb 2025 Turkish Cup, Başakşehir 4-1 Çorum (mynet, ajansspor); no league history because Çorum are in their first Süper Lig season. Too little to read a draw rate; both sides concede about 1.5-1.9 a game, which makes a level game less likely than a 1-goal margin either way.",
+        "odds": "Polymarket 1350329: home 0.4933, draw 0.2533, away 0.2533; volume is thin (about 720 USD for the event, about 469 USD on the home market). 24h move: home 0.52 to 0.495 (-4.8% relative; hourly history shows a single step 0.525 to 0.495, then flat). No confirmed news explains it, only the unconfirmed doubts over Fayzullaev/Operi, so this triggers the rule: low. DraftKings via ESPN (https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/scoreboard?dates=20261123): 1.91 / 3.80 / 3.60, opened 1.87 / 3.75 / 3.55, de-vigged 0.492 / 0.247 / 0.261, agreeing with Polymarket within 1 point but also lengthening about 2% from the open (home implied 0.535 to 0.524 de-vigged-equivalent). Other quotes: LV BET 1.91 / 3.80 / 3.60 (blog.lvbet.pl); an older ajansspor snippet shows 1.68 / 3.41 / 3.34, which is stale and not used.",
+        "models": "ClubElo could not be fetched (api.clubelo.com timed out); no bookmaker-free rating was read, so this check is unverified. A Portuguese preview (apostaganha) puts Başakşehir near 55%, which is a tipster view and not a model; nothing independent confirms the favourite.",
+        "venue_weather": "Başakşehir Fatih Terim Stadium, Istanbul, home ground, Monday 23 Nov 20:00 local (17:00 UTC), beIN Sports 1, referee Direnç Tonusluoğlu. Fixture verified on ajansspor, birgun, aksam and mynet. No weather or pitch problem found, but no weather forecast was read either."
+      },
+      "reason": "Fixture and venue verified, no hard exclusion: no coach change in the last 7 days (both coaches in place for weeks), no derby, no rotation, both sides still need points. Rated low because the favourite's Polymarket price fell 4.8% in 24h with no confirmed news behind it, the market is thin, the home absentee list is contradictory (Fayzullaev, Operi, Şengezer doubtful; Stancic listed by one outlet), no confirmed XI and no bookmaker-free rating could be read. A favourite near 49% with a draw near 25% is not a clean case, and the record shows favourites in this band underperforming. P is lowered slightly from the market.",
+      "main_risk": "A draw or a Çorum win: Çorum are a high-scoring, open side (21-21 in 11 games) and are one point behind, while Başakşehir may lose Fayzullaev and Operi. Unexplained 4.8% Polymarket drop and a thin market.",
+      "sources": [
+        "https://ajansspor.com/haber/basaksehir-corum-fk-maci-ne-zaman-hangi-kanalda-muhtemel-11ler-sakat-ve-cezalilar-739162",
+        "https://www.birgun.net/haber/basaksehir-corum-fk-karsisinda-ust-uste-ucuncu-galibiyetini-ariyor-747743",
+        "https://www.mynet.com/istanbul-basaksehir-arca-corum-fk-2026-11-23-maci-oncesi-analiz-527188-myspor",
+        "https://www.aksam.com.tr/spor/basaksehirin-konugu-corum-fk/haber-1716604",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/scoreboard?dates=20261123",
+        "https://gamma-api.polymarket.com/events?id=1350329",
+        "https://www.cnnturk.com/spor/futbol/corum-fknin-yeni-teknik-direktoru-burak-yilmaz-hizli-baslangic-yapti-3487381",
+        "https://www.hurriyet.com.tr/sporarena/basaksehirde-nuri-sahin-donemi-resmen-basladi-42949193"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1402839",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.84,
+        "draw": 0.11,
+        "away": 0.05
+      },
+      "checks": {
+        "team_news": "Dunav (Sportal, 24chasa, Rusenews, 22-23 Nov): no suspensions; Cabarcas and Apia are back from injury; Minchev and El Bakkali are out until year end; coach Chilikov has one question mark about his XI. Ludogorets: none of the four Bulgarian previews I read (Sportal, Novini247, BGNES, Rusenews) lists any absentee, and I found no Jovicevic pre-match press conference. An undated report names Nedyalkov, Nedelev and Terziev (knee, 6-8 months) as injured. Their current status for this game is unverified.",
+        "lineups": "No official or confirmed XI yet. Only one estimated XI found (Mediapronos, 4-1-4-1, Cruz, Camara, Caio Vidal, Duarte, Zhelyzko, Tekpetey, Nedyalkov, Kurtulus, Abdelmaguid, Son, Bonmann in goal; Dunav 4-2-3-1 with Saint-Louis, Valino, Boytchev up front), and it is labelled as an estimate. I could not find a second outlet's XI.",
+        "rotation": "No sign of rotation. The previous league games were a 2-2 home draw with CSKA 1948 and a 3-0 win at Lokomotiv Plovdiv. The next games are away at Botev Vratsa on 28 Nov and the postponed home game with Levski on 3 Dec (Sportal), so there is no midweek European game in the way. Dunav's trip is short (Ruse to Razgrad), so the team travels on match day.",
+        "motivation": "The home side needs the win. Ludogorets are 4th with 30 points from 13 games; CSKA and Levski lead on 35 (Sportal). A win takes Ludogorets to 33 with a game in hand. Dunav are 11th with 12 points from 14 games, 3 points above the bottom, so both sides have something at stake. The favourite has not secured anything, so no hard exclusion applies. Coach Jovicevic returned to the club in Sept 2026, well over 7 days ago. Chilikov, back at Dunav, has been in place for several weeks.",
+        "form": "Ludogorets last 5, all competitions, most recent first: 2-2 vs CSKA 1948, 3-0 at Lokomotiv Plovdiv, 0-2 at CSKA Sofia, 5-0 vs Arda, 3-0 vs Beroe (Mediapronos). Season: 26 goals in 13 league games (xG 25.8), 11 conceded. At home they average 2.00 scored and 0.62 conceded (xG 2.21 for, 1.03 against). Dunav: 16 scored in 14 games (xG 15.3) and 23 conceded (xG 34.0), 1-1 at Botev Plovdiv, 0-1 home loss to Levski, 2-0 vs Spartak. Away they score 1.43 and concede 1.86 per game (xG 0.85 for, 2.61 against). Mediapronos favours Under 2.5, citing Dunav's weak away xG.",
+        "h2h": "Ludogorets won the last 5 meetings in Mediapronos's list, including 2-0 at Ruse on 27 July 2026. Dunav have not drawn or won in the games listed. The 13-2 aggregate in the 5 games gives 3.0 goals a game, but only one score is shown, so the pattern is thin. The main way they avoid a win is a low-scoring draw or a 1-0, as in their 0-2 loss at CSKA.",
+        "odds": "Polymarket home 0.8565, draw 0.1077, away 0.0358. The 24h move is 0.85 to 0.855 (+0.6%), so no unexplained drop. Nothing was fetched from ESPN/DraftKings (the ESPN endpoint returned 403 and data.odds is absent). Second prices: Novini247 quotes bookmaker implied probabilities of 87.7% / 12.2% / 6.3% (home/draw/away, sum above 100%, so de-vigged home is about 82%; bookmaker not named). Mediapronos shows 1.12 / 8.05 / 17.52 on 17 Nov (opened 1.14 / 7.54 / 15.81). De-vigged that is about 83% home, with a slight drift against the favourite from 1.12 over the week. Both agree with Polymarket within about 5 points. I did not see the Polymarket volume. Football-data prediction sites give Over 2.5 about 61%, in line with the market's 63.5%.",
+        "models": "ClubElo returned HTTP 503 and I found no other bookmaker-free rating, so no Elo is cited. As a stand-in I used the xG record from Mediapronos: Ludogorets 2.21 xG for and 1.03 against at home; Dunav 0.85 for and 2.61 against away; Dunav's season xG difference is about -18.7 over 14 games. This points to a clear gap, but it is not an independent rating.",
+        "venue_weather": "Huvepharma Arena, Razgrad, the home ground, 18:00 local time (16:00 UTC), round 15 of the efbet Liga. Fixture confirmed by Sportal, Novini247 and Rusenews; the police close streets around the stadium (Razgradnews), with an ID ticket check. Referee Georgi Stoyanov (BFS, per search summary). I found no weather forecast and no pitch report, so I could not verify that."
+      },
+      "reason": "Ludogorets are a clear home favourite against a side that has taken 12 points from 14 games and concedes about 2.6 xG per away game. They need the win for the title race, and two independent price sources agree with Polymarket within 5 points, so the result leg holds up. Confidence stays at medium because the Ludogorets injury list and lineups are unconfirmed and no coach press conference was found, there is no independent rating and no weather information, and the team has recently drawn 2-2 at home with CSKA 1948 and lost 0-2 at CSKA Sofia. I took p slightly below the market.",
+      "main_risk": "A draw or a 1-0 win. Ludogorets have only a 2.0-goals home average, drew their last league game 2-2, and lost 0-2 at CSKA; Dunav's coach is planning a deep, defensive game (Chilikov: solid defensive organisation first). The unconfirmed Ludogorets absences and XI add to this. A 1-0 win would also sink the -1.5 handicap and the Over 2.5 leg, so I give no view on them. On the upper side, a heavy win (5+ goals, as in the 5-0 against Arda) is what would sink Under 4.5.",
+      "sources": [
+        "https://sportal.bg/news-2026112305591710980",
+        "https://novini247.com/novini/dvuboya-e-dnes-ot-18-00-chasa-ludogorets-priema-dunav-ruse_11418822.html",
+        "https://mediapronos.com/pronostic-ludogorets-fk-dunav-ruse-compo-probable-23-11/",
+        "https://rusenews.bg/news/georgi-chilikov-dunav-izliza-bez-strah-sreshtu-ludogorec-4353news.html",
+        "https://www.24chasa.bg/sport/article/23974204",
+        "https://bgnes.bg/ludogorec-nqma-pravo-na-greshka-sreshtu-kovarniq-dunav"
+      ],
+      "views": {
+        "ou_4.5_under": 0.77
+      },
+      "prices": []
+    },
+    {
+      "id": "1403726",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.79,
+        "draw": 0.14,
+        "away": 0.07
+      },
+      "checks": {
+        "team_news": "Hammarby: Amin Boudri out for the rest of the season, Oliver Hagen doubtful, otherwise full squad (Forza Football preview, 23 Nov). IFK Goteborg: Heintz and Bager suspended; Sam Larsson, Bergmark Wiberg, Erlingmark and Lundqvist out; Muccolli back in training only. No Hammarby suspensions listed. Coaches: Rydstrom at Hammarby since June, Bjorklund at Goteborg since July, so no coach change within 30 days.",
+        "lineups": "Not out yet. Forza expects an unchanged Hammarby 4-3-3 from the 4-1 win over Elfsborg: Hahn; Persson, Skoglund, Winther, Fofana; Tekie, Karlsson, Adjei; Abraham, Lind, Madjed. Goteborg XI not given; two forced changes (Heintz, Bager). Only one outlet read, a second source was not found.",
+        "rotation": "Hammarby's last league game was 4-1 v Elfsborg on 6 Nov, so about 17 days of rest, no midweek game found. Goteborg last drew 0-0 at Malmo. No rotation signs; the title race makes heavy rotation very unlikely.",
+        "motivation": "Hammarby (1st, 58 pts, GD +37, 18-4-6) are level on points with Sirius (58 pts, GD +23) in the title race (Sirius play before this game; I could not confirm that result or the exact number of rounds left, sources say two or three). Hammarby need the win. Goteborg are 10th on 39 pts (10-9-9) with nothing at stake, but still meet both title contenders in the last rounds. Hammarby still need the result, so this is not the favourite-has-nothing-to-play-for case. Not a derby.",
+        "form": "Hammarby: five straight league wins, latest 4-1 v Elfsborg (Abraham 2). Goteborg: winless in last 5 (four draws, one loss, latest 0-0 v Malmo). xG not found.",
+        "h2h": "No recent meeting results were retrieved, so h2h is unchecked. Style: a strong home attack against a side that has been drawing a lot (4 draws in last 5), so the draw is the main failure route.",
+        "odds": "DraftKings via ESPN (site.api.espn.com swe.1 scoreboard, 23 Nov): home -475 (opened -450), draw +600 (opened +500), away +1000 (opened +900); de-vigged about 78% home / 13.5% draw / 8.6% away, versus Polymarket 81.4/12.3/6.4, so the two agree within about 3.5 points. Bethard at Forza: 1.21 / 6.69 / 12.76, over 2.5 1.44, BTTS yes 1.95. Polymarket 24h move: 0.800 to 0.815 (+1.9% relative, not a fall). DK drifted slightly against the favourite since opening (-450 to -475 is shortening, draw lengthened is not the case; draw shortened +500 to +600 means longer), no adverse move. Polymarket volume not checked.",
+        "models": "ClubElo could not be retrieved (api.clubelo.com redirected with no data). Substitute: table goal difference +37 vs a 10th-place side, and the market models agree. No bookmaker-free rating confirmed, which is a gap.",
+        "venue_weather": "Hammarby home ground in Stockholm (ESPN says Tele2 Arena, Forza says 3Arena; same Stockholm ground, not neutral). Kick-off 19:00 Swedish time = 18:00 UTC, confirmed by ESPN and Forza. Open-Meteo forecast for 18-20 UTC: about 2 C, 0-0.3 mm rain, wind 17-22 km/h; no pitch problem found."
+      },
+      "reason": "Fixture verified as a real Allsvenskan round (the 2026 season runs late), Hammarby are at home, full-strength, in a live title race against a mid-table side missing two suspended players. Independent DraftKings price agrees with Polymarket within about 3.5 points and the Polymarket move is up, not down. Rated medium, not high, because lineups are not out, ClubElo and h2h were not retrieved, and only one outlet gave the expected XI.",
+      "main_risk": "A draw: Goteborg have drawn four of their last five and a 0-0 is plausible against a home side that may be nervous in a title race; a Hammarby slip is also possible if Sirius win on Sunday and add pressure. Late rotation or a Hagen absence are minor.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/scoreboard?dates=20261123",
+        "https://forzafootball.com/sv/spela/speltips/hammarby-vs-ifk-goteborg-allsvenskan-speltips-odds",
+        "https://www.flashscore.com/news/soccer-allsvenskan-hammarby-beat-elfsborg-to-force-response-from-sirius-in-allsvenskan-title-race/zDDzBaCa/",
+        "https://hurbra.se/?p=45593",
+        "https://api.open-meteo.com/v1/forecast"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1440109",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.72,
+        "draw": 0.17,
+        "away": 0.11
+      },
+      "checks": {
+        "team_news": "Al-Ittihad (ysscores, 23 Nov): Hassan Kadesh still in rehab, Mahamadou Doumbia back from a cruciate injury but not match-fit, Richard Rios out with an ankle ligament injury until late Dec to mid Jan. Youssef En-Nesyri is back in training. No suspensions mentioned. Pakhtakor: I found no injury or suspension news. Pakhtakor lost 2-6 at home to Al Nassr on 2 Nov and are winless in their last four.",
+        "lineups": "No confirmed or predicted XI with names from any outlet. Starting11 shows only empty formation layouts, ysscores says lineups are unavailable, and official XIs come about an hour before kick-off. Starting11 rates Al-Ittihad's XI as mixed (78% of the XI kept over six games) and Pakhtakor's as rotating (53% kept).",
+        "rotation": "Pakhtakor played a Uzbek Super League game three days earlier (Starting11) and travel to Jeddah, so more squad rotation and fatigue on their side. Al-Ittihad's previous and next fixtures were not found, so I cannot rule out domestic congestion. Wissing's pre-match comments mention no rotation; he wants a win. No confirmed heavy rotation, so no hard exclusion.",
+        "motivation": "League phase, matchday 5 of 8, West region (arenahub, ysscores). Al-Ittihad are 10th with 4 points from 4 games (1W 1D 2L, GD -3) and need a win to reach the top 8. Wissing says the last two defeats are no excuse. Pakhtakor are 14th with 2 points (0W 2D 2L, GD -5). Both sides still need points, so this is not a hard exclusion. Al-Ittihad are under pressure, which cuts both ways.",
+        "form": "Al-Ittihad last 5 (ysscores): L 1-4 vs Al-Ain, D 1-1 at Abha, W 2-1 at Neftchi, W 2-0 vs Al Diriyah, W 4-1 at Al-Ettifaq. They have lost two in a row in the ACL, including a home 1-4 to Al-Ain, which is a defensive worry. Pakhtakor last 5: L 2-6 vs Al Nassr, L 0-1 at Air Force, D 1-1 vs Al-Qadsiah, D 1-1 at Al-Ahli, W 3-0 vs Al-Hussein. They can hold out for a draw but concede heavily to strong sides. xG not found.",
+        "h2h": "No recent meetings found. Only old results turned up: 1-1 in the 2009 quarter-final and a 4-0 Al-Ittihad win in 2012. Style: Al-Ittihad should dominate possession at home, while Pakhtakor lose to top Saudi sides but drew at Al-Ahli and at home to Al-Qadsiah, so a low-scoring draw is the main shape of failure.",
+        "odds": "Polymarket (live): home 75.35%, draw 14.31%, away 10.34%. The 24h move was 74.5% to 75.5% (+1.3% relative), so no unexplained fall. Market volume not checked. No DraftKings/ESPN price (the ESPN API returned 403 and data.odds is absent). Wincomparator lists 1xbet at 1.24 / 5.44 / 8.30, which de-vigs to about 72.6% / 16.6% / 10.8%. That is within 3 points of Polymarket, and the site's own model says 72.3% / 17% / 10.7%. Ysscores fan poll: 69% / 20% / 11%.",
+        "models": "No Elo rating retrieved (ClubElo page content did not include the clubs, and no candidates data.rating exists for clubs). The only model-type number is Wincomparator's 72.3% home win, plus the table gap (10th vs 14th, GD -3 vs -5). I could not verify a bookmaker-free rating, so this check is thin.",
+        "venue_weather": "Home game at King Abdullah Sports City / Alinma Stadium, Jeddah. This is Al-Ittihad's home ground, so not a neutral venue. Kick-off 21:15 Saudi time (18:15 UTC). No weather or pitch problem found, though I did not read a forecast."
+      },
+      "reason": "Fixture confirmed (matchday 5, Al-Ittihad at home to Pakhtakor). Al-Ittihad's coach Jens Wissing was appointed on 10 July 2026, so there is no recent coach change. No hard exclusion applies: the favourite still needs points and no heavy rotation is confirmed. The Polymarket price is backed by an independent 1xbet price (about 72.6% de-vigged) and a model at 72.3%, within about 3 points. I lowered p slightly below the market because of Al-Ittihad's recent defensive form (1-4 at home to Al-Ain, two straight ACL defeats), missing midfield and attack depth, and no confirmed XI. Not high because lineups are unknown and no Elo or xG was found. The record for favourites priced at 60-70% is weak, but this one is priced above that band.",
+      "main_risk": "A draw or an upset: Al-Ittihad have lost two straight and conceded 4 to Al-Ain at home, and a low-scoring game where Pakhtakor sit deep and draw (as at Al-Ahli and at home to Al-Qadsiah) is the most likely failure. Unconfirmed XIs and possible Al-Ittihad rotation or fatigue add further risk.",
+      "sources": [
+        "https://www.ysscores.com/en/match/6050100/Al-Ittihad-Club-vs-Pakhtakor-Tashkent",
+        "https://www.ysscores.com/en/news/14102882/ittihads-absences-against-pakhtakor-in-afc-champions-league-elite",
+        "https://www.wincomparator.com/predictions/ittihad-jeddah-pakhtakor-tashkent-8754540/",
+        "https://starting11.com/fixtures/al-ittihad-fc-vs-pakhtakor",
+        "https://arenahub.sa/tournaments/afc-champions-league-elite-2026-27/clubs/pakhtakor?lang=en",
+        "https://www.beinsports.com/en-us/soccer/articles/wissing-named-as-conceicaos-successor-at-al-ittihad-2026-07-10"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1440103",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.12,
+        "draw": 0.18,
+        "away": 0.7
+      },
+      "checks": {
+        "team_news": "Not verified: I found no injury, suspension or doubt report for either side, and no Al Hilal or Neftchi coach press conference. My searches did not confirm who coaches Al Hilal now or whether either coach changed in the last 7 days.",
+        "lineups": "Not available: sportscafe lists both squads and benches as unannounced. I found no predicted XI from any outlet.",
+        "rotation": "Not verified: I found no data on Al Hilal's previous or next game, Saudi league schedule or travel to Fergana. I could not rule out rotation.",
+        "motivation": "Partly verified. A search summary of an ESPN Neftchi page (not confirmed by a fetch) shows Neftchi on 1-1-2 and 4 points after 4 games, ninth. The same snippet had Al Ain, Al Hilal and Esteghlal on 9 points after 4, with Al Hilal at +3. The league phase runs 8 games and the top 8 go through, so Al Hilal are probably not yet through while Neftchi still need points. That is not a hard exclusion, but I could not read the table itself because the ESPN standings fetch returned no table.",
+        "form": "Not verified in detail. Neftchi opened the Elite campaign with a win and lost to Al Nassr and then Al Ittihad (a penalty opener, then a late loss), per zamin.uz search snippets. I read no recent Al Hilal scores or xG.",
+        "h2h": "No previous meeting found. Neftchi are a mid-table Uzbek side hosting a Saudi giant.",
+        "odds": "The second price is missing: ESPN scoreboard returned 403 and data.odds is not in the candidates file, so no independent price agrees with Polymarket. Polymarket gives home 11.7%, draw 16.7%, away 71.65% (market is not de-vigged against a second source). The Polymarket move over 24h is Al Hilal 68.5% to 71.5%, up 4.4% relative, with no explanatory news found. Volume not checked.",
+        "models": "No Elo or rating data: data.rating is absent and I did not reach ClubElo.",
+        "venue_weather": "The venue is the Istiqlol Stadium in Fergana, Neftchi's home ground, per sportscafe (kick-off 13:45 UTC on 23 Nov 2026), so not neutral. I did not check weather or pitch."
+      },
+      "reason": "The fixture exists today at Neftchi's home ground and Al Hilal are a strong favourite. But the lineups, injuries, coach status, rotation and an independent price are all unverified. The research record shows 60-70% favourites underperforming, so I rate this low instead of guessing.",
+      "main_risk": "A draw or an away-side letdown: Al Hilal travel to Uzbekistan, may rotate, and have not clearly secured qualification, while Neftchi still need points and play at home. I could not confirm lineups or a second price, so the Al Hilal win is unverified.",
+      "sources": [
+        "https://sportscafe.in/football/live/international/afc-champions-league/nef-vs-hil-6723959/match-details",
+        "https://www.espn.com/soccer/team/_/id/7530",
+        "https://kun.uz/en/news/2026/08/18/ronaldo-may-visit-tashkent-as-pakhtakor-and-neftchi-draw-saudi-giants-in-asian-champions-league",
+        "https://zamin.uz/en/sport/225581-neftchi-opened-the-scoring-from-a-penalty-but-al-ittihad-snatched-the-win-at-the-end-of-the-match.html"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1339007",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.62,
+        "draw": 0.24,
+        "away": 0.14
+      },
+      "checks": {
+        "team_news": "Nantes (coach Poirier press conference, reported by mediasportif, butfootballclub, tribunenantaise): Tati, Sow (meniscus surgery, back Jan/Feb) and Robinet (injured) out; Fodé Doucouré suspended; Mirbach and Merrifield (France U17 World Cup) also listed absent by butfootballclub/shango. Doubts: Lucas Perrin (minor pain last match), Mathieu Cafaro (minor setback), Killian Corredor; Poirier decides after final training, said nothing serious expected. Grenoble (Frapolli press conference Friday): Vidal (calf), Xantippe, N'Gatta, Lallias, Hoogewerf (ill) and Zé Leite out; Zahui back in contention; butfootballclub also lists Bernadou as doubtful. Both squads depleted.",
+        "lineups": "Not official. Nantes probable (butfootballclub): Carlgren; Guilbert, Perrin, Amian; Centonze, Lepenant, Pierret, Hachem or Cafaro; Leroux; Corredor, Joujou. Morning-foot suggests a front three of Joujou, Corredor, Tabibou (Ganago the alternative); Mediapronos (21 Nov) had a different midfield. Grenoble probable (butfootballclub): Olliero; Kouassi, Limouri, Vidal, Maçon; Akpa-Akpro, Bernadou, Corboz, Mouazan; Diba, Bonnet. This list still has Vidal, whom Frapolli confirmed out, so it is stale. Sources disagree and no second reliable XI was found.",
+        "rotation": "Nantes won 2-0 at Pau (about 6-7 Nov) and beat Stade Castelbourgeois 9-1 in the Coupe de France; no midweek fixture found, so no fatigue. Grenoble beat Reims 3-2 in the league and won 2-0 at Chambéry in the Coupe de France. No rotation reports for either side. Nantes next league game is Montpellier.",
+        "motivation": "Ligue 2 matchday 13. Nantes are 14th on 12 points after 12 games; Grenoble 17th on 11 points (one site said 18th). Both are in the lower half and a win matters to both; Nantes would go 4 points clear. Poirier (appointed end of Aug 2026, replacing Der Zakarian) is under pressure in the press (2 wins in 8 games at the start of Nov). Frapolli was appointed 11 June 2026. No coach change inside 30 days on either side. Not a derby.",
+        "form": "Nantes: 0-0 Reims, 2-3 Dunkerque, 0-1 Saint-Étienne, 1-1 Clermont, then 2-0 at Pau; 12 points from 12 games. Corredor has 3 goals in 8 league games and Ganago 1 in 10. Grenoble: lost 4 straight league games (Montpellier 0-2, Boulogne 0-2, Pau 1-2, Dijon 1-3), then beat Reims 3-2. No xG found.",
+        "h2h": "No recent meeting data found: butfootballclub says the clubs have rarely met recently. Style and draw rate unverified.",
+        "odds": "Polymarket: Nantes 65.5% (draw 22%, Grenoble 12.5%), up from 59% 24h ago (+11% relative, a rise not a fall; no explanation found, possibly the Grenoble absences). Volume not shown in the candidate data. No DraftKings/ESPN data (ESPN returned 403). Unibet via RuedesJoueurs/butfootballclub: Nantes 1.49 / draw 4.10-4.20 / Grenoble 6.50-6.60, de-vigged about 63% / 23% / 14%, so Polymarket is about 2.5 points above this bookmaker price and within 5. A separate Unibet page fetch showed 1.30 / 4.50 / 7.50 (de-vigged about 68% home), which conflicts with the other Unibet quote and is not relied on; on that page Over 3.5 was 3.00 and Under 3.5 1.25 (de-vigged Under 3.5 about 71% vs Polymarket 74.5%), Over 2.5 1.80, Under 2.5 1.70, BTTS yes 2.05 / no 1.52. Forebet gives Nantes 49% and Win Comparator 54%.",
+        "models": "No bookmaker-free rating found: ClubElo fetch returned 503 and no Elo or Opta figure turned up, so this check is not verified. Forebet's 49% and Win Comparator's 54% are the only model-type numbers, both well below the market 65.5%.",
+        "venue_weather": "Stade de la Beaujoire, Nantes, Monday 23 Nov 2026, 20:45 local (19:45 UTC). Some sites (Soccerway, FBref) list 21 Nov, but FotMob, Forebet, butfootballclub and Unibet give 23 Nov. No weather forecast or pitch report found (only an unsourced 52F figure on Forebet); no sign of extreme weather."
+      },
+      "reason": "Fixture verified for 23 Nov at Nantes and no hard exclusion applies (no coach change in 30 days, not a derby, home venue, neither side has nothing to play for). Confidence is low because key facts are missing or doubtful. Three Nantes starters are doubtful (Perrin, Cafaro, Corredor) and five or six players are out. The only model-type numbers (Forebet 49%, Win Comparator 54%) sit far below the 65.5% market. No rating (Elo/Opta) was found. Polymarket jumped 59% to 65.5% in 24h with no confirmed news. Nantes are a 14th-placed side with 12 points and a poor run, and favourites priced 60-70% have hit 58% against 65% expected this year. p is shaded below the market toward the bookmaker de-vig of about 63%.",
+      "main_risk": "A draw or upset. Nantes are a struggling 14th-placed side (one win in their last six league games before Pau) with a thin squad and a coach under pressure. Grenoble, one place and one point behind, won 3-2 at Reims last time. The market favourite price rose 11% in 24h with no found explanation, and Polymarket sits about 2.5 points above the Unibet de-vig.",
+      "sources": [
+        "https://www.butfootballclub.fr/1715291-pronostic-fc-nantes-grenoble-23-11-prono-cotes-et-compos/",
+        "https://www.mediasportif.fr/2026/11/22/fc-nantes-gregory-poirier-fait-le-point-sur-un-groupe-decime-avant-grenoble/",
+        "https://www.unibet.fr/paris-football/france/ligue-2-bkt/3400605/nantes-vs-grenoble",
+        "https://www.ruedesjoueurs.com/pronostics/ligue-2-937874.html",
+        "https://morning-foot.com/ligue-2/fc-nantes-un-trio-offensif-qui-pourrait-etre-entierement-remanie-face-a-grenoble/",
+        "https://gf38.fr/olivier-frapolli-nomme-entraineur-du-grenoble-foot-38/"
+      ],
+      "views": {
+        "ou_3.5_under": 0.72
+      },
+      "prices": []
+    }
+  ]
+}
