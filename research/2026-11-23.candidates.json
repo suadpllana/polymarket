@@ -1,0 +1,1350 @@
+{
+  "date": "2026-11-23",
+  "window": {
+    "start": "2026-11-23T07:22:08.546Z",
+    "end": "2026-11-23T22:00:00.000Z"
+  },
+  "games_in_window": 49,
+  "games": [
+    {
+      "id": "1352656",
+      "league": "Serie A",
+      "sport": "football",
+      "event": "AC Monza vs. ACF Fiorentina",
+      "home": "AC Monza",
+      "away": "ACF Fiorentina",
+      "start": "2026-11-23T19:45:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.2533,
+        "draw": 0.2533,
+        "away": 0.4933
+      },
+      "p_first": {
+        "home": 0.2533,
+        "draw": 0.2533,
+        "away": 0.4933
+      },
+      "legs_in_range": [
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "ACF Fiorentina or Draw",
+          "p_market": 0.7466,
+          "fair_odds": 1.34
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "ACF Fiorentina",
+          "p_market": 0.7466,
+          "fair_odds": 1.51
+        },
+        {
+          "key": "ah_home_+1.5",
+          "label": "Handicap",
+          "selection": "AC Monza +1.5",
+          "p_market": 0.735,
+          "fair_odds": 1.36
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.825,
+          "fair_odds": 1.21
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.615,
+          "fair_odds": 1.63
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.605,
+          "fair_odds": 1.65
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.79,
+          "fair_odds": 1.27
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.635,
+          "fair_odds": 1.57
+        },
+        {
+          "key": "tt_home_0.5_over",
+          "label": "AC Monza goals",
+          "selection": "Over 0.5",
+          "p_market": 0.735,
+          "fair_odds": 1.36
+        },
+        {
+          "key": "tt_home_1.5_under",
+          "label": "AC Monza goals",
+          "selection": "Under 1.5",
+          "p_market": 0.625,
+          "fair_odds": 1.6
+        },
+        {
+          "key": "tt_away_1.5_over",
+          "label": "ACF Fiorentina goals",
+          "selection": "Over 1.5",
+          "p_market": 0.55,
+          "fair_odds": 1.82
+        },
+        {
+          "key": "tt_away_2.5_under",
+          "label": "ACF Fiorentina goals",
+          "selection": "Under 2.5",
+          "p_market": 0.72,
+          "fair_odds": 1.39
+        }
+      ],
+      "legs_first": {
+        "away_draw": 0.7466,
+        "away_dnb": 0.7466,
+        "ah_home_+1.5": 0.735,
+        "ou_1.5_over": 0.825,
+        "ou_2.5_over": 0.615,
+        "ou_3.5_under": 0.605,
+        "ou_4.5_under": 0.79,
+        "btts_yes": 0.635,
+        "tt_home_0.5_over": 0.735,
+        "tt_home_1.5_under": 0.625,
+        "tt_away_1.5_over": 0.55,
+        "tt_away_2.5_under": 0.72
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261123",
+          "espn_match": "Fiorentina at Monza",
+          "decimal": {
+            "home": 3.5,
+            "draw": 3.65,
+            "away": 1.91
+          },
+          "opening": {
+            "home": 3.25,
+            "draw": 3.55,
+            "away": 1.91
+          },
+          "p_devig": {
+            "home": 0.264,
+            "draw": 0.253,
+            "away": 0.483
+          },
+          "total": 2.5
+        },
+        "move_24h": {
+          "side": "away",
+          "from": 0.495,
+          "to": 0.495,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-23T06:52:30.496Z"
+      }
+    },
+    {
+      "id": "1354792",
+      "league": "La Liga",
+      "sport": "football",
+      "event": "Levante UD vs. Elche CF",
+      "home": "Levante UD",
+      "away": "Elche CF",
+      "start": "2026-11-23T20:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.4467,
+        "draw": 0.2666,
+        "away": 0.2867
+      },
+      "p_first": {
+        "home": 0.4467,
+        "draw": 0.2666,
+        "away": 0.2867
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Levante UD or Draw",
+          "p_market": 0.7133,
+          "fair_odds": 1.4
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Elche CF or Draw",
+          "p_market": 0.5533,
+          "fair_odds": 1.81
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Levante UD",
+          "p_market": 0.7133,
+          "fair_odds": 1.64
+        },
+        {
+          "key": "ah_away_+1.5",
+          "label": "Handicap",
+          "selection": "Elche CF +1.5",
+          "p_market": 0.775,
+          "fair_odds": 1.29
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.795,
+          "fair_odds": 1.26
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.575,
+          "fair_odds": 1.74
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.655,
+          "fair_odds": 1.53
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.825,
+          "fair_odds": 1.21
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.605,
+          "fair_odds": 1.65
+        },
+        {
+          "key": "tt_home_0.5_over",
+          "label": "Levante UD goals",
+          "selection": "Over 0.5",
+          "p_market": 0.81,
+          "fair_odds": 1.23
+        },
+        {
+          "key": "tt_home_2.5_under",
+          "label": "Levante UD goals",
+          "selection": "Under 2.5",
+          "p_market": 0.765,
+          "fair_odds": 1.31
+        },
+        {
+          "key": "tt_away_0.5_over",
+          "label": "Elche CF goals",
+          "selection": "Over 0.5",
+          "p_market": 0.735,
+          "fair_odds": 1.36
+        },
+        {
+          "key": "tt_away_1.5_under",
+          "label": "Elche CF goals",
+          "selection": "Under 1.5",
+          "p_market": 0.625,
+          "fair_odds": 1.6
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.7133,
+        "away_draw": 0.5533,
+        "home_dnb": 0.7133,
+        "ah_away_+1.5": 0.775,
+        "ou_1.5_over": 0.795,
+        "ou_2.5_over": 0.575,
+        "ou_3.5_under": 0.655,
+        "ou_4.5_under": 0.825,
+        "btts_yes": 0.605,
+        "tt_home_0.5_over": 0.81,
+        "tt_home_2.5_under": 0.765,
+        "tt_away_0.5_over": 0.735,
+        "tt_away_1.5_under": 0.625
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261123",
+          "espn_match": "Elche at Levante",
+          "decimal": {
+            "home": 2.2,
+            "draw": 3.55,
+            "away": 3.25
+          },
+          "opening": {
+            "home": 2.15,
+            "draw": 3.75,
+            "away": 3
+          },
+          "p_devig": {
+            "home": 0.435,
+            "draw": 0.27,
+            "away": 0.295
+          },
+          "total": 2.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.445,
+          "to": 0.445,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-23T06:52:30.457Z"
+      }
+    },
+    {
+      "id": "1354164",
+      "league": "Premier League",
+      "sport": "football",
+      "event": "Brentford FC vs. Everton FC",
+      "home": "Brentford FC",
+      "away": "Everton FC",
+      "start": "2026-11-23T20:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.4167,
+        "draw": 0.2766,
+        "away": 0.3067
+      },
+      "p_first": {
+        "home": 0.4167,
+        "draw": 0.2766,
+        "away": 0.3067
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Brentford FC or Draw",
+          "p_market": 0.6933,
+          "fair_odds": 1.44
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Everton FC or Draw",
+          "p_market": 0.5833,
+          "fair_odds": 1.71
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Brentford FC",
+          "p_market": 0.6933,
+          "fair_odds": 1.74
+        },
+        {
+          "key": "ah_away_+1.5",
+          "label": "Handicap",
+          "selection": "Everton FC +1.5",
+          "p_market": 0.8,
+          "fair_odds": 1.25
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.77,
+          "fair_odds": 1.3
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.695,
+          "fair_odds": 1.44
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.575,
+          "fair_odds": 1.74
+        },
+        {
+          "key": "tt_home_0.5_over",
+          "label": "Brentford FC goals",
+          "selection": "Over 0.5",
+          "p_market": 0.78,
+          "fair_odds": 1.28
+        },
+        {
+          "key": "tt_home_1.5_under",
+          "label": "Brentford FC goals",
+          "selection": "Under 1.5",
+          "p_market": 0.55,
+          "fair_odds": 1.82
+        },
+        {
+          "key": "tt_home_2.5_under",
+          "label": "Brentford FC goals",
+          "selection": "Under 2.5",
+          "p_market": 0.81,
+          "fair_odds": 1.23
+        },
+        {
+          "key": "tt_away_0.5_over",
+          "label": "Everton FC goals",
+          "selection": "Over 0.5",
+          "p_market": 0.725,
+          "fair_odds": 1.38
+        },
+        {
+          "key": "tt_away_1.5_under",
+          "label": "Everton FC goals",
+          "selection": "Under 1.5",
+          "p_market": 0.635,
+          "fair_odds": 1.57
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.6933,
+        "away_draw": 0.5833,
+        "home_dnb": 0.6933,
+        "ah_away_+1.5": 0.8,
+        "ou_1.5_over": 0.77,
+        "ou_3.5_under": 0.695,
+        "btts_yes": 0.575,
+        "tt_home_0.5_over": 0.78,
+        "tt_home_1.5_under": 0.55,
+        "tt_home_2.5_under": 0.81,
+        "tt_away_0.5_over": 0.725,
+        "tt_away_1.5_under": 0.635
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261123",
+          "espn_match": "Everton at Brentford",
+          "decimal": {
+            "home": 2.3,
+            "draw": 3.5,
+            "away": 3.05
+          },
+          "opening": {
+            "home": 1.87,
+            "draw": 3.65,
+            "away": 3.8
+          },
+          "p_devig": {
+            "home": 0.415,
+            "draw": 0.273,
+            "away": 0.313
+          },
+          "total": 2.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.415,
+          "to": 0.415,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-23T06:52:30.449Z"
+      }
+    },
+    {
+      "id": "1443510",
+      "league": "Dota 2",
+      "sport": "esports",
+      "event": "Dota 2: Team Liquid vs DO KONCA (BO3) - BLAST Slam Group C",
+      "home": "Team Liquid",
+      "away": "DO KONCA",
+      "start": "2026-11-23T17:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.745,
+        "draw": 0,
+        "away": 0.255
+      },
+      "p_first": {
+        "home": 0.745,
+        "draw": 0,
+        "away": 0.255
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Team Liquid",
+          "p_market": 0.745,
+          "fair_odds": 1.34
+        }
+      ],
+      "legs_first": {
+        "home": 0.745
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.69,
+          "to": 0.745,
+          "relative_change": 0.08
+        },
+        "fetched_at": "2026-11-23T06:52:30.354Z"
+      }
+    },
+    {
+      "id": "1438890",
+      "league": "Dota 2",
+      "sport": "esports",
+      "event": "Dota 2: Natus Vincere vs OG (BO3) - BLAST Slam Group A",
+      "home": "Natus Vincere",
+      "away": "OG",
+      "start": "2026-11-23T14:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.715,
+        "draw": 0,
+        "away": 0.285
+      },
+      "p_first": {
+        "home": 0.715,
+        "draw": 0,
+        "away": 0.285
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Natus Vincere",
+          "p_market": 0.715,
+          "fair_odds": 1.4
+        }
+      ],
+      "legs_first": {
+        "home": 0.715
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.685,
+          "to": 0.715,
+          "relative_change": 0.044
+        },
+        "fetched_at": "2026-11-23T06:52:30.581Z"
+      }
+    },
+    {
+      "id": "1439983",
+      "league": "Dota 2",
+      "sport": "esports",
+      "event": "Dota 2: Team Nemesis vs Xtreme Gaming (BO3) - BLAST Slam Group B",
+      "home": "Team Nemesis",
+      "away": "Xtreme Gaming",
+      "start": "2026-11-23T14:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.375,
+        "draw": 0,
+        "away": 0.625
+      },
+      "p_first": {
+        "home": 0.375,
+        "draw": 0,
+        "away": 0.625
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Xtreme Gaming",
+          "p_market": 0.625,
+          "fair_odds": 1.6
+        }
+      ],
+      "legs_first": {
+        "away": 0.625
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.6,
+          "to": 0.625,
+          "relative_change": 0.042
+        },
+        "fetched_at": "2026-11-23T06:52:30.728Z"
+      }
+    },
+    {
+      "id": "1444824",
+      "league": "Dota 2",
+      "sport": "esports",
+      "event": "Dota 2: Aurora vs LGD Gaming (BO3) - BLAST Slam Group D",
+      "home": "Aurora",
+      "away": "LGD Gaming",
+      "start": "2026-11-23T17:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.595,
+        "draw": 0,
+        "away": 0.405
+      },
+      "p_first": {
+        "home": 0.595,
+        "draw": 0,
+        "away": 0.405
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Aurora",
+          "p_market": 0.595,
+          "fair_odds": 1.68
+        }
+      ],
+      "legs_first": {
+        "home": 0.595
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.585,
+          "to": 0.595,
+          "relative_change": 0.017
+        },
+        "fetched_at": "2026-11-23T06:52:30.595Z"
+      }
+    },
+    {
+      "id": "1431268",
+      "league": "KHL",
+      "sport": "ice_hockey",
+      "event": "KHL: Sibir Novosibirsk vs. Severstal Cherepovets",
+      "home": "Sibir Novosibirsk",
+      "away": "Severstal Cherepovets",
+      "start": "2026-11-23T12:30:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.445,
+        "draw": 0,
+        "away": 0.555
+      },
+      "p_first": {
+        "home": 0.445,
+        "draw": 0,
+        "away": 0.555
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "Severstal Cherepovets",
+          "p_market": 0.555,
+          "fair_odds": 1.8
+        }
+      ],
+      "legs_first": {
+        "away": 0.555
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.515,
+          "to": 0.555,
+          "relative_change": 0.078
+        },
+        "fetched_at": "2026-11-23T06:52:30.764Z"
+      }
+    },
+    {
+      "id": "1350329",
+      "league": "Süper Lig",
+      "sport": "football",
+      "event": "Rams Başakşehir FK vs. Çorum FK",
+      "home": "Rams Başakşehir FK",
+      "away": "Çorum FK",
+      "start": "2026-11-23T17:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.4933,
+        "draw": 0.2533,
+        "away": 0.2533
+      },
+      "p_first": {
+        "home": 0.4933,
+        "draw": 0.2533,
+        "away": 0.2533
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Rams Başakşehir FK or Draw",
+          "p_market": 0.7466,
+          "fair_odds": 1.34
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Rams Başakşehir FK",
+          "p_market": 0.7466,
+          "fair_odds": 1.51
+        },
+        {
+          "key": "ah_away_+1.5",
+          "label": "Handicap",
+          "selection": "Çorum FK +1.5",
+          "p_market": 0.73,
+          "fair_odds": 1.37
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.815,
+          "fair_odds": 1.23
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.605,
+          "fair_odds": 1.65
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.615,
+          "fair_odds": 1.63
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.795,
+          "fair_odds": 1.26
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.625,
+          "fair_odds": 1.6
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.7466,
+        "home_dnb": 0.7466,
+        "ah_away_+1.5": 0.73,
+        "ou_1.5_over": 0.815,
+        "ou_2.5_over": 0.605,
+        "ou_3.5_under": 0.615,
+        "ou_4.5_under": 0.795,
+        "btts_yes": 0.625
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/scoreboard?dates=20261123",
+          "espn_match": "Çorum FK at Istanbul Basaksehir",
+          "decimal": {
+            "home": 1.91,
+            "draw": 3.8,
+            "away": 3.6
+          },
+          "opening": {
+            "home": 1.87,
+            "draw": 3.75,
+            "away": 3.55
+          },
+          "p_devig": {
+            "home": 0.492,
+            "draw": 0.247,
+            "away": 0.261
+          },
+          "total": 2.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.52,
+          "to": 0.495,
+          "relative_change": -0.048
+        },
+        "fetched_at": "2026-11-23T06:52:31.037Z"
+      }
+    },
+    {
+      "id": "1402839",
+      "league": "efbet Liga",
+      "sport": "football",
+      "event": "PFC Ludogorets 1945 Razgrad vs. FC Dunav Ruse",
+      "home": "PFC Ludogorets 1945 Razgrad",
+      "away": "FC Dunav Ruse",
+      "start": "2026-11-23T16:00:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.8565,
+        "draw": 0.1077,
+        "away": 0.0358
+      },
+      "p_first": {
+        "home": 0.8565,
+        "draw": 0.1077,
+        "away": 0.0358
+      },
+      "legs_in_range": [
+        {
+          "key": "ah_home_-1.5",
+          "label": "Handicap",
+          "selection": "PFC Ludogorets 1945 Razgrad -1.5",
+          "p_market": 0.655,
+          "fair_odds": 1.53
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.835,
+          "fair_odds": 1.2
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.635,
+          "fair_odds": 1.57
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.595,
+          "fair_odds": 1.68
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.78,
+          "fair_odds": 1.28
+        }
+      ],
+      "legs_first": {
+        "ah_home_-1.5": 0.655,
+        "ou_1.5_over": 0.835,
+        "ou_2.5_over": 0.635,
+        "ou_3.5_under": 0.595,
+        "ou_4.5_under": 0.78
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.85,
+          "to": 0.855,
+          "relative_change": 0.006
+        },
+        "fetched_at": "2026-11-23T06:52:31.034Z"
+      }
+    },
+    {
+      "id": "1403726",
+      "league": "Allsvenskan",
+      "sport": "football",
+      "event": "Hammarby IF vs. IFK Goteborg",
+      "home": "Hammarby IF",
+      "away": "IFK Goteborg",
+      "start": "2026-11-23T18:00:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.8136,
+        "draw": 0.1229,
+        "away": 0.0635
+      },
+      "p_first": {
+        "home": 0.8136,
+        "draw": 0.1229,
+        "away": 0.0635
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Hammarby IF",
+          "p_market": 0.8136,
+          "fair_odds": 1.23
+        },
+        {
+          "key": "ah_home_-1.5",
+          "label": "Handicap",
+          "selection": "Hammarby IF -1.5",
+          "p_market": 0.605,
+          "fair_odds": 1.65
+        },
+        {
+          "key": "ah_away_+2.5",
+          "label": "Handicap",
+          "selection": "IFK Goteborg +2.5",
+          "p_market": 0.615,
+          "fair_odds": 1.63
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.695,
+          "fair_odds": 1.44
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.72,
+          "fair_odds": 1.39
+        }
+      ],
+      "legs_first": {
+        "home": 0.8136,
+        "ah_home_-1.5": 0.605,
+        "ah_away_+2.5": 0.615,
+        "ou_2.5_over": 0.695,
+        "ou_4.5_under": 0.72
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.8,
+          "to": 0.815,
+          "relative_change": 0.019
+        },
+        "fetched_at": "2026-11-23T06:52:31.068Z"
+      }
+    },
+    {
+      "id": "1440109",
+      "league": "AFC Champions League Elite",
+      "sport": "football",
+      "event": "Al-Ittihad Club vs. Pakhtakor",
+      "home": "Al-Ittihad Club",
+      "away": "Pakhtakor",
+      "start": "2026-11-23T18:15:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.7535,
+        "draw": 0.1431,
+        "away": 0.1034
+      },
+      "p_first": {
+        "home": 0.7535,
+        "draw": 0.1431,
+        "away": 0.1034
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Al-Ittihad Club",
+          "p_market": 0.7535,
+          "fair_odds": 1.33
+        },
+        {
+          "key": "ah_away_+2.5",
+          "label": "Handicap",
+          "selection": "Pakhtakor +2.5",
+          "p_market": 0.705,
+          "fair_odds": 1.42
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.655,
+          "fair_odds": 1.53
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.575,
+          "fair_odds": 1.74
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.76,
+          "fair_odds": 1.32
+        }
+      ],
+      "legs_first": {
+        "home": 0.7535,
+        "ah_away_+2.5": 0.705,
+        "ou_2.5_over": 0.655,
+        "ou_3.5_under": 0.575,
+        "ou_4.5_under": 0.76
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.745,
+          "to": 0.755,
+          "relative_change": 0.013
+        },
+        "fetched_at": "2026-11-23T06:52:30.949Z"
+      }
+    },
+    {
+      "id": "1440109",
+      "league": "AFC Champions League Elite",
+      "sport": "football",
+      "event": "Al-Ittihad Club vs. Pakhtakor",
+      "home": "Al-Ittihad Club",
+      "away": "Pakhtakor",
+      "start": "2026-11-23T18:15:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.7535,
+        "draw": 0.1431,
+        "away": 0.1034
+      },
+      "p_first": {
+        "home": 0.7535,
+        "draw": 0.1431,
+        "away": 0.1034
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Al-Ittihad Club",
+          "p_market": 0.7535,
+          "fair_odds": 1.33
+        },
+        {
+          "key": "ah_away_+2.5",
+          "label": "Handicap",
+          "selection": "Pakhtakor +2.5",
+          "p_market": 0.705,
+          "fair_odds": 1.42
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.655,
+          "fair_odds": 1.53
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.575,
+          "fair_odds": 1.74
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.76,
+          "fair_odds": 1.32
+        }
+      ],
+      "legs_first": {
+        "home": 0.7535,
+        "ah_away_+2.5": 0.705,
+        "ou_2.5_over": 0.655,
+        "ou_3.5_under": 0.575,
+        "ou_4.5_under": 0.76
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.745,
+          "to": 0.755,
+          "relative_change": 0.013
+        },
+        "fetched_at": "2026-11-23T06:52:31.148Z"
+      }
+    },
+    {
+      "id": "1440103",
+      "league": "AFC Champions League Elite",
+      "sport": "football",
+      "event": "FK Neftchi Fargona vs. Al Hilal SFC",
+      "home": "FK Neftchi Fargona",
+      "away": "Al Hilal SFC",
+      "start": "2026-11-23T13:45:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.1166,
+        "draw": 0.1669,
+        "away": 0.7165
+      },
+      "p_first": {
+        "home": 0.1166,
+        "draw": 0.1669,
+        "away": 0.7165
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Al Hilal SFC",
+          "p_market": 0.7165,
+          "fair_odds": 1.4
+        },
+        {
+          "key": "ah_home_+2.5",
+          "label": "Handicap",
+          "selection": "FK Neftchi Fargona +2.5",
+          "p_market": 0.715,
+          "fair_odds": 1.4
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.655,
+          "fair_odds": 1.53
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.575,
+          "fair_odds": 1.74
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.765,
+          "fair_odds": 1.31
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.53,
+          "fair_odds": 1.89
+        },
+        {
+          "key": "tt_home_0.5_over",
+          "label": "FK Neftchi Fargona goals",
+          "selection": "Over 0.5",
+          "p_market": 0.58,
+          "fair_odds": 1.72
+        },
+        {
+          "key": "tt_home_1.5_under",
+          "label": "FK Neftchi Fargona goals",
+          "selection": "Under 1.5",
+          "p_market": 0.78,
+          "fair_odds": 1.28
+        },
+        {
+          "key": "tt_away_2.5_under",
+          "label": "Al Hilal SFC goals",
+          "selection": "Under 2.5",
+          "p_market": 0.56,
+          "fair_odds": 1.79
+        }
+      ],
+      "legs_first": {
+        "away": 0.7165,
+        "ah_home_+2.5": 0.715,
+        "ou_2.5_over": 0.655,
+        "ou_3.5_under": 0.575,
+        "ou_4.5_under": 0.765,
+        "btts_yes": 0.53,
+        "tt_home_0.5_over": 0.58,
+        "tt_home_1.5_under": 0.78,
+        "tt_away_2.5_under": 0.56
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.685,
+          "to": 0.715,
+          "relative_change": 0.044
+        },
+        "fetched_at": "2026-11-23T06:52:31.249Z"
+      }
+    },
+    {
+      "id": "1440103",
+      "league": "AFC Champions League Elite",
+      "sport": "football",
+      "event": "FK Neftchi Fargona vs. Al Hilal SFC",
+      "home": "FK Neftchi Fargona",
+      "away": "Al Hilal SFC",
+      "start": "2026-11-23T13:45:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.1166,
+        "draw": 0.1669,
+        "away": 0.7165
+      },
+      "p_first": {
+        "home": 0.1166,
+        "draw": 0.1669,
+        "away": 0.7165
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Al Hilal SFC",
+          "p_market": 0.7165,
+          "fair_odds": 1.4
+        },
+        {
+          "key": "ah_home_+2.5",
+          "label": "Handicap",
+          "selection": "FK Neftchi Fargona +2.5",
+          "p_market": 0.715,
+          "fair_odds": 1.4
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.655,
+          "fair_odds": 1.53
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.575,
+          "fair_odds": 1.74
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.765,
+          "fair_odds": 1.31
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.53,
+          "fair_odds": 1.89
+        },
+        {
+          "key": "tt_home_0.5_over",
+          "label": "FK Neftchi Fargona goals",
+          "selection": "Over 0.5",
+          "p_market": 0.58,
+          "fair_odds": 1.72
+        },
+        {
+          "key": "tt_home_1.5_under",
+          "label": "FK Neftchi Fargona goals",
+          "selection": "Under 1.5",
+          "p_market": 0.78,
+          "fair_odds": 1.28
+        },
+        {
+          "key": "tt_away_2.5_under",
+          "label": "Al Hilal SFC goals",
+          "selection": "Under 2.5",
+          "p_market": 0.56,
+          "fair_odds": 1.79
+        }
+      ],
+      "legs_first": {
+        "away": 0.7165,
+        "ah_home_+2.5": 0.715,
+        "ou_2.5_over": 0.655,
+        "ou_3.5_under": 0.575,
+        "ou_4.5_under": 0.765,
+        "btts_yes": 0.53,
+        "tt_home_0.5_over": 0.58,
+        "tt_home_1.5_under": 0.78,
+        "tt_away_2.5_under": 0.56
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.685,
+          "to": 0.715,
+          "relative_change": 0.044
+        },
+        "fetched_at": "2026-11-23T06:52:31.249Z"
+      }
+    },
+    {
+      "id": "1339007",
+      "league": "Ligue 2",
+      "sport": "football",
+      "event": "FC Nantes vs. Grenoble Foot 38",
+      "home": "FC Nantes",
+      "away": "Grenoble Foot 38",
+      "start": "2026-11-23T19:45:00.000Z",
+      "coverage": 3,
+      "p_market": {
+        "home": 0.655,
+        "draw": 0.22,
+        "away": 0.125
+      },
+      "p_first": {
+        "home": 0.655,
+        "draw": 0.22,
+        "away": 0.125
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "FC Nantes",
+          "p_market": 0.655,
+          "fair_odds": 1.53
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "FC Nantes",
+          "p_market": 0.875,
+          "fair_odds": 1.19
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.745,
+          "fair_odds": 1.34
+        }
+      ],
+      "legs_first": {
+        "home": 0.655,
+        "home_dnb": 0.875,
+        "ou_3.5_under": 0.745
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.59,
+          "to": 0.655,
+          "relative_change": 0.11
+        },
+        "fetched_at": "2026-11-23T06:52:31.370Z"
+      }
+    }
+  ]
+}
