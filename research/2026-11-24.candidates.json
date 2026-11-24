@@ -1,0 +1,1759 @@
+{
+  "date": "2026-11-24",
+  "window": {
+    "start": "2026-11-24T07:22:13.979Z",
+    "end": "2026-11-24T22:00:00.000Z"
+  },
+  "games_in_window": 27,
+  "games": [
+    {
+      "id": "1326276",
+      "league": "Champions League",
+      "sport": "football",
+      "event": "Real Madrid CF vs. PSV",
+      "home": "Real Madrid CF",
+      "away": "PSV",
+      "start": "2026-11-24T20:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.8463,
+        "draw": 0.0971,
+        "away": 0.0565
+      },
+      "p_first": {
+        "home": 0.8463,
+        "draw": 0.0971,
+        "away": 0.0565
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Real Madrid CF",
+          "p_market": 0.8463,
+          "fair_odds": 1.18
+        },
+        {
+          "key": "ah_home_-1.5",
+          "label": "Handicap",
+          "selection": "Real Madrid CF -1.5",
+          "p_market": 0.715,
+          "fair_odds": 1.4
+        },
+        {
+          "key": "ah_home_-2.5",
+          "label": "Handicap",
+          "selection": "Real Madrid CF -2.5",
+          "p_market": 0.535,
+          "fair_odds": 1.87
+        },
+        {
+          "key": "ah_away_+3.5",
+          "label": "Handicap",
+          "selection": "PSV +3.5",
+          "p_market": 0.65,
+          "fair_odds": 1.54
+        },
+        {
+          "key": "ah_away_+4.5",
+          "label": "Handicap",
+          "selection": "PSV +4.5",
+          "p_market": 0.8,
+          "fair_odds": 1.25
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.845,
+          "fair_odds": 1.18
+        },
+        {
+          "key": "ou_3.5_over",
+          "label": "Total goals",
+          "selection": "Over 3.5",
+          "p_market": 0.675,
+          "fair_odds": 1.48
+        },
+        {
+          "key": "ou_5.5_under",
+          "label": "Total goals",
+          "selection": "Under 5.5",
+          "p_market": 0.69,
+          "fair_odds": 1.45
+        },
+        {
+          "key": "ou_6.5_under",
+          "label": "Total goals",
+          "selection": "Under 6.5",
+          "p_market": 0.825,
+          "fair_odds": 1.21
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.58,
+          "fair_odds": 1.72
+        },
+        {
+          "key": "tt_home_2.5_over",
+          "label": "Real Madrid CF goals",
+          "selection": "Over 2.5",
+          "p_market": 0.715,
+          "fair_odds": 1.4
+        },
+        {
+          "key": "tt_home_4.5_under",
+          "label": "Real Madrid CF goals",
+          "selection": "Under 4.5",
+          "p_market": 0.685,
+          "fair_odds": 1.46
+        },
+        {
+          "key": "tt_away_0.5_over",
+          "label": "PSV goals",
+          "selection": "Over 0.5",
+          "p_market": 0.595,
+          "fair_odds": 1.68
+        },
+        {
+          "key": "tt_away_1.5_under",
+          "label": "PSV goals",
+          "selection": "Under 1.5",
+          "p_market": 0.765,
+          "fair_odds": 1.31
+        }
+      ],
+      "legs_first": {
+        "home": 0.8463,
+        "ah_home_-1.5": 0.715,
+        "ah_home_-2.5": 0.535,
+        "ah_away_+3.5": 0.65,
+        "ah_away_+4.5": 0.8,
+        "ou_2.5_over": 0.845,
+        "ou_3.5_over": 0.675,
+        "ou_5.5_under": 0.69,
+        "ou_6.5_under": 0.825,
+        "btts_yes": 0.58,
+        "tt_home_2.5_over": 0.715,
+        "tt_home_4.5_under": 0.685,
+        "tt_away_0.5_over": 0.595,
+        "tt_away_1.5_under": 0.765
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124",
+          "espn_match": "PSV Eindhoven at Real Madrid",
+          "decimal": {
+            "home": 1.13,
+            "draw": 10,
+            "away": 16
+          },
+          "opening": {
+            "home": 1.2,
+            "draw": 7.5,
+            "away": 9.5
+          },
+          "p_devig": {
+            "home": 0.844,
+            "draw": 0.096,
+            "away": 0.06
+          },
+          "total": 4.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.835,
+          "to": 0.845,
+          "relative_change": 0.012
+        },
+        "fetched_at": "2026-11-24T06:52:24.395Z"
+      }
+    },
+    {
+      "id": "1326272",
+      "league": "Champions League",
+      "sport": "football",
+      "event": "Como 1907 vs. AEK",
+      "home": "Como 1907",
+      "away": "AEK",
+      "start": "2026-11-24T20:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.7836,
+        "draw": 0.133,
+        "away": 0.0834
+      },
+      "p_first": {
+        "home": 0.7836,
+        "draw": 0.133,
+        "away": 0.0834
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Como 1907",
+          "p_market": 0.7836,
+          "fair_odds": 1.28
+        },
+        {
+          "key": "ah_home_-1.5",
+          "label": "Handicap",
+          "selection": "Como 1907 -1.5",
+          "p_market": 0.585,
+          "fair_odds": 1.71
+        },
+        {
+          "key": "ah_away_+2.5",
+          "label": "Handicap",
+          "selection": "AEK +2.5",
+          "p_market": 0.635,
+          "fair_odds": 1.57
+        },
+        {
+          "key": "ah_away_+3.5",
+          "label": "Handicap",
+          "selection": "AEK +3.5",
+          "p_market": 0.795,
+          "fair_odds": 1.26
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.725,
+          "fair_odds": 1.38
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.685,
+          "fair_odds": 1.46
+        },
+        {
+          "key": "ou_5.5_under",
+          "label": "Total goals",
+          "selection": "Under 5.5",
+          "p_market": 0.825,
+          "fair_odds": 1.21
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.55,
+          "fair_odds": 1.82
+        },
+        {
+          "key": "tt_home_1.5_over",
+          "label": "Como 1907 goals",
+          "selection": "Over 1.5",
+          "p_market": 0.78,
+          "fair_odds": 1.28
+        },
+        {
+          "key": "tt_home_2.5_over",
+          "label": "Como 1907 goals",
+          "selection": "Over 2.5",
+          "p_market": 0.545,
+          "fair_odds": 1.83
+        },
+        {
+          "key": "tt_home_3.5_under",
+          "label": "Como 1907 goals",
+          "selection": "Under 3.5",
+          "p_market": 0.685,
+          "fair_odds": 1.46
+        },
+        {
+          "key": "tt_home_4.5_under",
+          "label": "Como 1907 goals",
+          "selection": "Under 4.5",
+          "p_market": 0.835,
+          "fair_odds": 1.2
+        },
+        {
+          "key": "tt_away_0.5_over",
+          "label": "AEK goals",
+          "selection": "Over 0.5",
+          "p_market": 0.58,
+          "fair_odds": 1.72
+        },
+        {
+          "key": "tt_away_1.5_under",
+          "label": "AEK goals",
+          "selection": "Under 1.5",
+          "p_market": 0.785,
+          "fair_odds": 1.27
+        }
+      ],
+      "legs_first": {
+        "home": 0.7836,
+        "ah_home_-1.5": 0.585,
+        "ah_away_+2.5": 0.635,
+        "ah_away_+3.5": 0.795,
+        "ou_2.5_over": 0.725,
+        "ou_4.5_under": 0.685,
+        "ou_5.5_under": 0.825,
+        "btts_yes": 0.55,
+        "tt_home_1.5_over": 0.78,
+        "tt_home_2.5_over": 0.545,
+        "tt_home_3.5_under": 0.685,
+        "tt_home_4.5_under": 0.835,
+        "tt_away_0.5_over": 0.58,
+        "tt_away_1.5_under": 0.785
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124",
+          "espn_match": "AEK Athens at Como",
+          "decimal": {
+            "home": 1.26,
+            "draw": 6.5,
+            "away": 10
+          },
+          "opening": {
+            "home": 1.31,
+            "draw": 5.75,
+            "away": 7
+          },
+          "p_devig": {
+            "home": 0.758,
+            "draw": 0.147,
+            "away": 0.095
+          },
+          "total": 3.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.765,
+          "to": 0.785,
+          "relative_change": 0.026
+        },
+        "fetched_at": "2026-11-24T06:52:24.383Z"
+      }
+    },
+    {
+      "id": "1326280",
+      "league": "Champions League",
+      "sport": "football",
+      "event": "ŠK Slovan Bratislava vs. Real Betis Balompié",
+      "home": "ŠK Slovan Bratislava",
+      "away": "Real Betis Balompié",
+      "start": "2026-11-24T20:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.0835,
+        "draw": 0.143,
+        "away": 0.7736
+      },
+      "p_first": {
+        "home": 0.0835,
+        "draw": 0.143,
+        "away": 0.7736
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Real Betis Balompié",
+          "p_market": 0.7736,
+          "fair_odds": 1.29
+        },
+        {
+          "key": "ah_away_-1.5",
+          "label": "Handicap",
+          "selection": "Real Betis Balompié -1.5",
+          "p_market": 0.565,
+          "fair_odds": 1.77
+        },
+        {
+          "key": "ah_home_+2.5",
+          "label": "Handicap",
+          "selection": "ŠK Slovan Bratislava +2.5",
+          "p_market": 0.645,
+          "fair_odds": 1.55
+        },
+        {
+          "key": "ah_home_+3.5",
+          "label": "Handicap",
+          "selection": "ŠK Slovan Bratislava +3.5",
+          "p_market": 0.805,
+          "fair_odds": 1.24
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.705,
+          "fair_odds": 1.42
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.705,
+          "fair_odds": 1.42
+        },
+        {
+          "key": "ou_5.5_under",
+          "label": "Total goals",
+          "selection": "Under 5.5",
+          "p_market": 0.845,
+          "fair_odds": 1.18
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.54,
+          "fair_odds": 1.85
+        },
+        {
+          "key": "tt_home_0.5_over",
+          "label": "ŠK Slovan Bratislava goals",
+          "selection": "Over 0.5",
+          "p_market": 0.575,
+          "fair_odds": 1.74
+        },
+        {
+          "key": "tt_home_1.5_under",
+          "label": "ŠK Slovan Bratislava goals",
+          "selection": "Under 1.5",
+          "p_market": 0.79,
+          "fair_odds": 1.27
+        },
+        {
+          "key": "tt_away_1.5_over",
+          "label": "Real Betis Balompié goals",
+          "selection": "Over 1.5",
+          "p_market": 0.755,
+          "fair_odds": 1.32
+        },
+        {
+          "key": "tt_away_3.5_under",
+          "label": "Real Betis Balompié goals",
+          "selection": "Under 3.5",
+          "p_market": 0.705,
+          "fair_odds": 1.42
+        },
+        {
+          "key": "tt_away_4.5_under",
+          "label": "Real Betis Balompié goals",
+          "selection": "Under 4.5",
+          "p_market": 0.845,
+          "fair_odds": 1.18
+        }
+      ],
+      "legs_first": {
+        "away": 0.7736,
+        "ah_away_-1.5": 0.565,
+        "ah_home_+2.5": 0.645,
+        "ah_home_+3.5": 0.805,
+        "ou_2.5_over": 0.705,
+        "ou_4.5_under": 0.705,
+        "ou_5.5_under": 0.845,
+        "btts_yes": 0.54,
+        "tt_home_0.5_over": 0.575,
+        "tt_home_1.5_under": 0.79,
+        "tt_away_1.5_over": 0.755,
+        "tt_away_3.5_under": 0.705,
+        "tt_away_4.5_under": 0.845
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124",
+          "espn_match": "Real Betis at Slovan Bratislava",
+          "decimal": {
+            "home": 10.5,
+            "draw": 6.5,
+            "away": 1.26
+          },
+          "opening": {
+            "home": 8,
+            "draw": 6,
+            "away": 1.29
+          },
+          "p_devig": {
+            "home": 0.091,
+            "draw": 0.147,
+            "away": 0.762
+          },
+          "total": 3.5
+        },
+        "move_24h": {
+          "side": "away",
+          "from": 0.785,
+          "to": 0.775,
+          "relative_change": -0.013
+        },
+        "fetched_at": "2026-11-24T06:52:24.445Z"
+      }
+    },
+    {
+      "id": "1326285",
+      "league": "Champions League",
+      "sport": "football",
+      "event": "Manchester City FC vs. SSC Napoli",
+      "home": "Manchester City FC",
+      "away": "SSC Napoli",
+      "start": "2026-11-24T20:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.7495,
+        "draw": 0.1508,
+        "away": 0.0997
+      },
+      "p_first": {
+        "home": 0.7495,
+        "draw": 0.1508,
+        "away": 0.0997
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Manchester City FC",
+          "p_market": 0.7495,
+          "fair_odds": 1.33
+        },
+        {
+          "key": "ah_home_-1.5",
+          "label": "Handicap",
+          "selection": "Manchester City FC -1.5",
+          "p_market": 0.545,
+          "fair_odds": 1.83
+        },
+        {
+          "key": "ah_away_+2.5",
+          "label": "Handicap",
+          "selection": "SSC Napoli +2.5",
+          "p_market": 0.645,
+          "fair_odds": 1.55
+        },
+        {
+          "key": "ah_away_+3.5",
+          "label": "Handicap",
+          "selection": "SSC Napoli +3.5",
+          "p_market": 0.805,
+          "fair_odds": 1.24
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.745,
+          "fair_odds": 1.34
+        },
+        {
+          "key": "ou_3.5_over",
+          "label": "Total goals",
+          "selection": "Over 3.5",
+          "p_market": 0.545,
+          "fair_odds": 1.83
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.665,
+          "fair_odds": 1.5
+        },
+        {
+          "key": "ou_5.5_under",
+          "label": "Total goals",
+          "selection": "Under 5.5",
+          "p_market": 0.815,
+          "fair_odds": 1.23
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.595,
+          "fair_odds": 1.68
+        },
+        {
+          "key": "tt_home_1.5_over",
+          "label": "Manchester City FC goals",
+          "selection": "Over 1.5",
+          "p_market": 0.77,
+          "fair_odds": 1.3
+        },
+        {
+          "key": "tt_home_2.5_over",
+          "label": "Manchester City FC goals",
+          "selection": "Over 2.5",
+          "p_market": 0.545,
+          "fair_odds": 1.83
+        },
+        {
+          "key": "tt_home_3.5_under",
+          "label": "Manchester City FC goals",
+          "selection": "Under 3.5",
+          "p_market": 0.685,
+          "fair_odds": 1.46
+        },
+        {
+          "key": "tt_home_4.5_under",
+          "label": "Manchester City FC goals",
+          "selection": "Under 4.5",
+          "p_market": 0.835,
+          "fair_odds": 1.2
+        },
+        {
+          "key": "tt_away_0.5_over",
+          "label": "SSC Napoli goals",
+          "selection": "Over 0.5",
+          "p_market": 0.62,
+          "fair_odds": 1.61
+        },
+        {
+          "key": "tt_away_1.5_under",
+          "label": "SSC Napoli goals",
+          "selection": "Under 1.5",
+          "p_market": 0.735,
+          "fair_odds": 1.36
+        }
+      ],
+      "legs_first": {
+        "home": 0.7495,
+        "ah_home_-1.5": 0.545,
+        "ah_away_+2.5": 0.645,
+        "ah_away_+3.5": 0.805,
+        "ou_2.5_over": 0.745,
+        "ou_3.5_over": 0.545,
+        "ou_4.5_under": 0.665,
+        "ou_5.5_under": 0.815,
+        "btts_yes": 0.595,
+        "tt_home_1.5_over": 0.77,
+        "tt_home_2.5_over": 0.545,
+        "tt_home_3.5_under": 0.685,
+        "tt_home_4.5_under": 0.835,
+        "tt_away_0.5_over": 0.62,
+        "tt_away_1.5_under": 0.735
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124",
+          "espn_match": "Napoli at Manchester City",
+          "decimal": {
+            "home": 1.29,
+            "draw": 6,
+            "away": 8.5
+          },
+          "opening": {
+            "home": 1.24,
+            "draw": 6,
+            "away": 9.5
+          },
+          "p_devig": {
+            "home": 0.731,
+            "draw": 0.158,
+            "away": 0.111
+          },
+          "total": 3.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.765,
+          "to": 0.745,
+          "relative_change": -0.026
+        },
+        "fetched_at": "2026-11-24T06:52:24.693Z"
+      }
+    },
+    {
+      "id": "1326289",
+      "league": "Champions League",
+      "sport": "football",
+      "event": "RB Leipzig vs. Racing Club de Lens",
+      "home": "RB Leipzig",
+      "away": "Racing Club de Lens",
+      "start": "2026-11-24T20:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.7135,
+        "draw": 0.1631,
+        "away": 0.1234
+      },
+      "p_first": {
+        "home": 0.7135,
+        "draw": 0.1631,
+        "away": 0.1234
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "RB Leipzig",
+          "p_market": 0.7135,
+          "fair_odds": 1.4
+        },
+        {
+          "key": "ah_away_+2.5",
+          "label": "Handicap",
+          "selection": "Racing Club de Lens +2.5",
+          "p_market": 0.7,
+          "fair_odds": 1.43
+        },
+        {
+          "key": "ah_away_+3.5",
+          "label": "Handicap",
+          "selection": "Racing Club de Lens +3.5",
+          "p_market": 0.845,
+          "fair_odds": 1.18
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.745,
+          "fair_odds": 1.34
+        },
+        {
+          "key": "ou_3.5_over",
+          "label": "Total goals",
+          "selection": "Over 3.5",
+          "p_market": 0.545,
+          "fair_odds": 1.83
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.665,
+          "fair_odds": 1.5
+        },
+        {
+          "key": "ou_5.5_under",
+          "label": "Total goals",
+          "selection": "Under 5.5",
+          "p_market": 0.815,
+          "fair_odds": 1.23
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.635,
+          "fair_odds": 1.57
+        },
+        {
+          "key": "tt_home_1.5_over",
+          "label": "RB Leipzig goals",
+          "selection": "Over 1.5",
+          "p_market": 0.76,
+          "fair_odds": 1.32
+        },
+        {
+          "key": "tt_home_3.5_under",
+          "label": "RB Leipzig goals",
+          "selection": "Under 3.5",
+          "p_market": 0.715,
+          "fair_odds": 1.4
+        },
+        {
+          "key": "tt_away_0.5_over",
+          "label": "Racing Club de Lens goals",
+          "selection": "Over 0.5",
+          "p_market": 0.675,
+          "fair_odds": 1.48
+        },
+        {
+          "key": "tt_away_1.5_under",
+          "label": "Racing Club de Lens goals",
+          "selection": "Under 1.5",
+          "p_market": 0.695,
+          "fair_odds": 1.44
+        }
+      ],
+      "legs_first": {
+        "home": 0.7135,
+        "ah_away_+2.5": 0.7,
+        "ah_away_+3.5": 0.845,
+        "ou_2.5_over": 0.745,
+        "ou_3.5_over": 0.545,
+        "ou_4.5_under": 0.665,
+        "ou_5.5_under": 0.815,
+        "btts_yes": 0.635,
+        "tt_home_1.5_over": 0.76,
+        "tt_home_3.5_under": 0.715,
+        "tt_away_0.5_over": 0.675,
+        "tt_away_1.5_under": 0.695
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124",
+          "espn_match": "Lens at RB Leipzig",
+          "decimal": {
+            "home": 1.37,
+            "draw": 5.75,
+            "away": 7
+          },
+          "opening": {
+            "home": 1.43,
+            "draw": 5.25,
+            "away": 5.5
+          },
+          "p_devig": {
+            "home": 0.697,
+            "draw": 0.166,
+            "away": 0.137
+          },
+          "total": 3.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.705,
+          "to": 0.715,
+          "relative_change": 0.014
+        },
+        "fetched_at": "2026-11-24T06:52:24.894Z"
+      }
+    },
+    {
+      "id": "1326293",
+      "league": "Champions League",
+      "sport": "football",
+      "event": "Arsenal FC vs. BV Borussia 09 Dortmund",
+      "home": "Arsenal FC",
+      "away": "BV Borussia 09 Dortmund",
+      "start": "2026-11-24T20:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.6834,
+        "draw": 0.1931,
+        "away": 0.1235
+      },
+      "p_first": {
+        "home": 0.6834,
+        "draw": 0.1931,
+        "away": 0.1235
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Arsenal FC",
+          "p_market": 0.6834,
+          "fair_odds": 1.46
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Arsenal FC",
+          "p_market": 0.8765,
+          "fair_odds": 1.18
+        },
+        {
+          "key": "ah_away_+1.5",
+          "label": "Handicap",
+          "selection": "BV Borussia 09 Dortmund +1.5",
+          "p_market": 0.585,
+          "fair_odds": 1.71
+        },
+        {
+          "key": "ah_away_+2.5",
+          "label": "Handicap",
+          "selection": "BV Borussia 09 Dortmund +2.5",
+          "p_market": 0.795,
+          "fair_odds": 1.26
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.785,
+          "fair_odds": 1.27
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.555,
+          "fair_odds": 1.8
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.665,
+          "fair_odds": 1.5
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.835,
+          "fair_odds": 1.2
+        },
+        {
+          "key": "tt_home_1.5_over",
+          "label": "Arsenal FC goals",
+          "selection": "Over 1.5",
+          "p_market": 0.625,
+          "fair_odds": 1.6
+        },
+        {
+          "key": "tt_home_2.5_under",
+          "label": "Arsenal FC goals",
+          "selection": "Under 2.5",
+          "p_market": 0.655,
+          "fair_odds": 1.53
+        },
+        {
+          "key": "tt_away_0.5_over",
+          "label": "BV Borussia 09 Dortmund goals",
+          "selection": "Over 0.5",
+          "p_market": 0.56,
+          "fair_odds": 1.79
+        },
+        {
+          "key": "tt_away_1.5_under",
+          "label": "BV Borussia 09 Dortmund goals",
+          "selection": "Under 1.5",
+          "p_market": 0.8,
+          "fair_odds": 1.25
+        }
+      ],
+      "legs_first": {
+        "home": 0.6834,
+        "home_dnb": 0.8765,
+        "ah_away_+1.5": 0.585,
+        "ah_away_+2.5": 0.795,
+        "ou_1.5_over": 0.785,
+        "ou_2.5_over": 0.555,
+        "ou_3.5_under": 0.665,
+        "ou_4.5_under": 0.835,
+        "tt_home_1.5_over": 0.625,
+        "tt_home_2.5_under": 0.655,
+        "tt_away_0.5_over": 0.56,
+        "tt_away_1.5_under": 0.8
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124",
+          "espn_match": "Borussia Dortmund at Arsenal",
+          "decimal": {
+            "home": 1.44,
+            "draw": 4.6,
+            "away": 7
+          },
+          "opening": {
+            "home": 1.4,
+            "draw": 4.7,
+            "away": 7
+          },
+          "p_devig": {
+            "home": 0.658,
+            "draw": 0.207,
+            "away": 0.136
+          },
+          "total": 2.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.705,
+          "to": 0.685,
+          "relative_change": -0.028
+        },
+        "fetched_at": "2026-11-24T06:52:24.780Z"
+      }
+    },
+    {
+      "id": "1326268",
+      "league": "Champions League",
+      "sport": "football",
+      "event": "FK Bodø/Glimt vs. LASK Linz",
+      "home": "FK Bodø/Glimt",
+      "away": "LASK Linz",
+      "start": "2026-11-24T17:45:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.655,
+        "draw": 0.18,
+        "away": 0.165
+      },
+      "p_first": {
+        "home": 0.655,
+        "draw": 0.18,
+        "away": 0.165
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "FK Bodø/Glimt",
+          "p_market": 0.655,
+          "fair_odds": 1.53
+        },
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "FK Bodø/Glimt or Draw",
+          "p_market": 0.835,
+          "fair_odds": 1.2
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "FK Bodø/Glimt",
+          "p_market": 0.835,
+          "fair_odds": 1.25
+        },
+        {
+          "key": "ah_away_+1.5",
+          "label": "Handicap",
+          "selection": "LASK Linz +1.5",
+          "p_market": 0.555,
+          "fair_odds": 1.8
+        },
+        {
+          "key": "ah_away_+2.5",
+          "label": "Handicap",
+          "selection": "LASK Linz +2.5",
+          "p_market": 0.735,
+          "fair_odds": 1.36
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.765,
+          "fair_odds": 1.31
+        },
+        {
+          "key": "ou_3.5_over",
+          "label": "Total goals",
+          "selection": "Over 3.5",
+          "p_market": 0.57,
+          "fair_odds": 1.75
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.635,
+          "fair_odds": 1.57
+        },
+        {
+          "key": "ou_5.5_under",
+          "label": "Total goals",
+          "selection": "Under 5.5",
+          "p_market": 0.785,
+          "fair_odds": 1.27
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.695,
+          "fair_odds": 1.44
+        },
+        {
+          "key": "tt_home_1.5_over",
+          "label": "FK Bodø/Glimt goals",
+          "selection": "Over 1.5",
+          "p_market": 0.745,
+          "fair_odds": 1.34
+        },
+        {
+          "key": "tt_home_3.5_under",
+          "label": "FK Bodø/Glimt goals",
+          "selection": "Under 3.5",
+          "p_market": 0.72,
+          "fair_odds": 1.39
+        },
+        {
+          "key": "tt_away_0.5_over",
+          "label": "LASK Linz goals",
+          "selection": "Over 0.5",
+          "p_market": 0.735,
+          "fair_odds": 1.36
+        },
+        {
+          "key": "tt_away_1.5_under",
+          "label": "LASK Linz goals",
+          "selection": "Under 1.5",
+          "p_market": 0.615,
+          "fair_odds": 1.63
+        }
+      ],
+      "legs_first": {
+        "home": 0.655,
+        "home_draw": 0.835,
+        "home_dnb": 0.835,
+        "ah_away_+1.5": 0.555,
+        "ah_away_+2.5": 0.735,
+        "ou_2.5_over": 0.765,
+        "ou_3.5_over": 0.57,
+        "ou_4.5_under": 0.635,
+        "ou_5.5_under": 0.785,
+        "btts_yes": 0.695,
+        "tt_home_1.5_over": 0.745,
+        "tt_home_3.5_under": 0.72,
+        "tt_away_0.5_over": 0.735,
+        "tt_away_1.5_under": 0.615
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124",
+          "espn_match": "LASK Linz at Bodo/Glimt",
+          "decimal": {
+            "home": 1.48,
+            "draw": 5.25,
+            "away": 5.5
+          },
+          "opening": {
+            "home": 1.51,
+            "draw": 4.9,
+            "away": 5
+          },
+          "p_devig": {
+            "home": 0.645,
+            "draw": 0.181,
+            "away": 0.173
+          },
+          "total": 3.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.635,
+          "to": 0.655,
+          "relative_change": 0.031
+        },
+        "fetched_at": "2026-11-24T06:52:24.964Z"
+      }
+    },
+    {
+      "id": "1326306",
+      "league": "Champions League",
+      "sport": "football",
+      "event": "Feyenoord Rotterdam vs. FC Porto",
+      "home": "Feyenoord Rotterdam",
+      "away": "FC Porto",
+      "start": "2026-11-24T20:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.3033,
+        "draw": 0.2534,
+        "away": 0.4433
+      },
+      "p_first": {
+        "home": 0.3033,
+        "draw": 0.2534,
+        "away": 0.4433
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Feyenoord Rotterdam or Draw",
+          "p_market": 0.5567,
+          "fair_odds": 1.8
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "FC Porto or Draw",
+          "p_market": 0.6967,
+          "fair_odds": 1.44
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "FC Porto",
+          "p_market": 0.6967,
+          "fair_odds": 1.68
+        },
+        {
+          "key": "ah_home_+1.5",
+          "label": "Handicap",
+          "selection": "Feyenoord Rotterdam +1.5",
+          "p_market": 0.775,
+          "fair_odds": 1.29
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.815,
+          "fair_odds": 1.23
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.585,
+          "fair_odds": 1.71
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.635,
+          "fair_odds": 1.57
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.805,
+          "fair_odds": 1.24
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.62,
+          "fair_odds": 1.61
+        },
+        {
+          "key": "tt_home_0.5_over",
+          "label": "Feyenoord Rotterdam goals",
+          "selection": "Over 0.5",
+          "p_market": 0.755,
+          "fair_odds": 1.32
+        },
+        {
+          "key": "tt_home_1.5_under",
+          "label": "Feyenoord Rotterdam goals",
+          "selection": "Under 1.5",
+          "p_market": 0.595,
+          "fair_odds": 1.68
+        },
+        {
+          "key": "tt_home_2.5_under",
+          "label": "Feyenoord Rotterdam goals",
+          "selection": "Under 2.5",
+          "p_market": 0.83,
+          "fair_odds": 1.2
+        },
+        {
+          "key": "tt_away_0.5_over",
+          "label": "FC Porto goals",
+          "selection": "Over 0.5",
+          "p_market": 0.81,
+          "fair_odds": 1.23
+        },
+        {
+          "key": "tt_away_2.5_under",
+          "label": "FC Porto goals",
+          "selection": "Under 2.5",
+          "p_market": 0.765,
+          "fair_odds": 1.31
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.5567,
+        "away_draw": 0.6967,
+        "away_dnb": 0.6967,
+        "ah_home_+1.5": 0.775,
+        "ou_1.5_over": 0.815,
+        "ou_2.5_over": 0.585,
+        "ou_3.5_under": 0.635,
+        "ou_4.5_under": 0.805,
+        "btts_yes": 0.62,
+        "tt_home_0.5_over": 0.755,
+        "tt_home_1.5_under": 0.595,
+        "tt_home_2.5_under": 0.83,
+        "tt_away_0.5_over": 0.81,
+        "tt_away_2.5_under": 0.765
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124",
+          "espn_match": "FC Porto at Feyenoord Rotterdam",
+          "decimal": {
+            "home": 3.15,
+            "draw": 3.7,
+            "away": 2.2
+          },
+          "opening": {
+            "home": 2.8,
+            "draw": 3.65,
+            "away": 2.25
+          },
+          "p_devig": {
+            "home": 0.305,
+            "draw": 0.259,
+            "away": 0.436
+          },
+          "total": 2.5
+        },
+        "move_24h": {
+          "side": "away",
+          "from": 0.395,
+          "to": 0.445,
+          "relative_change": 0.127
+        },
+        "fetched_at": "2026-11-24T06:52:24.921Z"
+      }
+    },
+    {
+      "id": "1326248",
+      "league": "Champions League",
+      "sport": "football",
+      "event": "Galatasaray SK vs. Aston Villa FC",
+      "home": "Galatasaray SK",
+      "away": "Aston Villa FC",
+      "start": "2026-11-24T17:45:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.3167,
+        "draw": 0.2466,
+        "away": 0.4367
+      },
+      "p_first": {
+        "home": 0.3167,
+        "draw": 0.2466,
+        "away": 0.4367
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Galatasaray SK or Draw",
+          "p_market": 0.5633,
+          "fair_odds": 1.78
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Aston Villa FC or Draw",
+          "p_market": 0.6833,
+          "fair_odds": 1.46
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "Aston Villa FC",
+          "p_market": 0.6833,
+          "fair_odds": 1.73
+        },
+        {
+          "key": "ah_home_+1.5",
+          "label": "Handicap",
+          "selection": "Galatasaray SK +1.5",
+          "p_market": 0.77,
+          "fair_odds": 1.3
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.655,
+          "fair_odds": 1.53
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.575,
+          "fair_odds": 1.74
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.755,
+          "fair_odds": 1.32
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.675,
+          "fair_odds": 1.48
+        },
+        {
+          "key": "tt_home_0.5_over",
+          "label": "Galatasaray SK goals",
+          "selection": "Over 0.5",
+          "p_market": 0.79,
+          "fair_odds": 1.27
+        },
+        {
+          "key": "tt_home_1.5_under",
+          "label": "Galatasaray SK goals",
+          "selection": "Under 1.5",
+          "p_market": 0.54,
+          "fair_odds": 1.85
+        },
+        {
+          "key": "tt_home_2.5_under",
+          "label": "Galatasaray SK goals",
+          "selection": "Under 2.5",
+          "p_market": 0.8,
+          "fair_odds": 1.25
+        },
+        {
+          "key": "tt_away_0.5_over",
+          "label": "Aston Villa FC goals",
+          "selection": "Over 0.5",
+          "p_market": 0.845,
+          "fair_odds": 1.18
+        },
+        {
+          "key": "tt_away_1.5_over",
+          "label": "Aston Villa FC goals",
+          "selection": "Over 1.5",
+          "p_market": 0.54,
+          "fair_odds": 1.85
+        },
+        {
+          "key": "tt_away_2.5_under",
+          "label": "Aston Villa FC goals",
+          "selection": "Under 2.5",
+          "p_market": 0.725,
+          "fair_odds": 1.38
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.5633,
+        "away_draw": 0.6833,
+        "away_dnb": 0.6833,
+        "ah_home_+1.5": 0.77,
+        "ou_2.5_over": 0.655,
+        "ou_3.5_under": 0.575,
+        "ou_4.5_under": 0.755,
+        "btts_yes": 0.675,
+        "tt_home_0.5_over": 0.79,
+        "tt_home_1.5_under": 0.54,
+        "tt_home_2.5_under": 0.8,
+        "tt_away_0.5_over": 0.845,
+        "tt_away_1.5_over": 0.54,
+        "tt_away_2.5_under": 0.725
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124",
+          "espn_match": "Aston Villa at Galatasaray",
+          "decimal": {
+            "home": 3,
+            "draw": 3.8,
+            "away": 2.2
+          },
+          "opening": {
+            "home": 2.55,
+            "draw": 3.75,
+            "away": 2.45
+          },
+          "p_devig": {
+            "home": 0.317,
+            "draw": 0.25,
+            "away": 0.432
+          },
+          "total": 3.5
+        },
+        "move_24h": {
+          "side": "away",
+          "from": 0.415,
+          "to": 0.435,
+          "relative_change": 0.048
+        },
+        "fetched_at": "2026-11-24T06:52:25.163Z"
+      }
+    },
+    {
+      "id": "1446637",
+      "league": "Dota 2",
+      "sport": "esports",
+      "event": "Dota 2: GamerLegion vs PARIVISION (BO3) - BLAST Slam Seeding Matches",
+      "home": "GamerLegion",
+      "away": "PARIVISION",
+      "start": "2026-11-24T14:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.175,
+        "draw": 0,
+        "away": 0.825
+      },
+      "p_first": {
+        "home": 0.175,
+        "draw": 0,
+        "away": 0.825
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "PARIVISION",
+          "p_market": 0.825,
+          "fair_odds": 1.21
+        }
+      ],
+      "legs_first": {
+        "away": 0.825
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.84,
+          "to": 0.825,
+          "relative_change": -0.018
+        },
+        "fetched_at": "2026-11-24T06:52:25.150Z"
+      }
+    },
+    {
+      "id": "1443176",
+      "league": "DEL",
+      "sport": "ice_hockey",
+      "event": "DEL: Eisbären Berlin vs. Löwen Frankfurt",
+      "home": "Eisbären Berlin",
+      "away": "Löwen Frankfurt",
+      "start": "2026-11-24T18:30:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.795,
+        "draw": 0,
+        "away": 0.205
+      },
+      "p_first": {
+        "home": 0.795,
+        "draw": 0,
+        "away": 0.205
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Eisbären Berlin",
+          "p_market": 0.795,
+          "fair_odds": 1.26
+        }
+      ],
+      "legs_first": {
+        "home": 0.795
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.795,
+          "to": 0.795,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-24T06:52:25.284Z"
+      }
+    },
+    {
+      "id": "1446636",
+      "league": "Dota 2",
+      "sport": "esports",
+      "event": "Dota 2: Team Yandex vs 1win (BO3) - BLAST Slam Seeding Matches",
+      "home": "Team Yandex",
+      "away": "1win",
+      "start": "2026-11-24T14:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.745,
+        "draw": 0,
+        "away": 0.255
+      },
+      "p_first": {
+        "home": 0.745,
+        "draw": 0,
+        "away": 0.255
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Team Yandex",
+          "p_market": 0.745,
+          "fair_odds": 1.34
+        }
+      ],
+      "legs_first": {
+        "home": 0.745
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.775,
+          "to": 0.745,
+          "relative_change": -0.039
+        },
+        "fetched_at": "2026-11-24T06:52:25.048Z"
+      }
+    },
+    {
+      "id": "1438278",
+      "league": "Liiga",
+      "sport": "ice_hockey",
+      "event": "Ilves Tampere vs. Assat Pori",
+      "home": "Ilves Tampere",
+      "away": "Assat Pori",
+      "start": "2026-11-24T16:30:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.725,
+        "draw": 0,
+        "away": 0.275
+      },
+      "p_first": {
+        "home": 0.725,
+        "draw": 0,
+        "away": 0.275
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Ilves Tampere",
+          "p_market": 0.725,
+          "fair_odds": 1.38
+        }
+      ],
+      "legs_first": {
+        "home": 0.725
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.725,
+          "to": 0.725,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-24T06:52:25.493Z"
+      }
+    },
+    {
+      "id": "1437171",
+      "league": "KHL",
+      "sport": "ice_hockey",
+      "event": "KHL: Traktor vs. Lada Togliatti",
+      "home": "Traktor",
+      "away": "Lada Togliatti",
+      "start": "2026-11-24T14:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.715,
+        "draw": 0,
+        "away": 0.285
+      },
+      "p_first": {
+        "home": 0.715,
+        "draw": 0,
+        "away": 0.285
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Traktor",
+          "p_market": 0.715,
+          "fair_odds": 1.4
+        }
+      ],
+      "legs_first": {
+        "home": 0.715
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.725,
+          "to": 0.715,
+          "relative_change": -0.014
+        },
+        "fetched_at": "2026-11-24T06:52:25.569Z"
+      }
+    },
+    {
+      "id": "1437173",
+      "league": "KHL",
+      "sport": "ice_hockey",
+      "event": "KHL: Metallurg Magnitogorsk vs. Dinamo Minsk",
+      "home": "Metallurg Magnitogorsk",
+      "away": "Dinamo Minsk",
+      "start": "2026-11-24T14:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.69,
+        "draw": 0,
+        "away": 0.31
+      },
+      "p_first": {
+        "home": 0.69,
+        "draw": 0,
+        "away": 0.31
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Metallurg Magnitogorsk",
+          "p_market": 0.69,
+          "fair_odds": 1.45
+        }
+      ],
+      "legs_first": {
+        "home": 0.69
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.675,
+          "to": 0.69,
+          "relative_change": 0.022
+        },
+        "fetched_at": "2026-11-24T06:52:25.862Z"
+      }
+    },
+    {
+      "id": "1443180",
+      "league": "DEL",
+      "sport": "ice_hockey",
+      "event": "DEL: Kölner Haie vs. Nürnberg Ice Tigers",
+      "home": "Kölner Haie",
+      "away": "Nürnberg Ice Tigers",
+      "start": "2026-11-24T18:30:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.625,
+        "draw": 0,
+        "away": 0.375
+      },
+      "p_first": {
+        "home": 0.625,
+        "draw": 0,
+        "away": 0.375
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Kölner Haie",
+          "p_market": 0.625,
+          "fair_odds": 1.6
+        }
+      ],
+      "legs_first": {
+        "home": 0.625
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.635,
+          "to": 0.625,
+          "relative_change": -0.016
+        },
+        "fetched_at": "2026-11-24T06:52:25.546Z"
+      }
+    }
+  ]
+}
