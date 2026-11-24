@@ -1,0 +1,536 @@
+{
+  "date": "2026-11-24",
+  "researched_at": "2026-11-24T07:01:22Z",
+  "stage": "morning",
+  "summary": "Researched on the morning of Tue 24 Nov; lineups are not out, so this is a draft until the final check. A Champions League night (matchday 5) plus DEL, Liiga and KHL hockey and Dota 2 BLAST Slam seeding matches; basketball is not researched (the owner's permanent rule). Medium: Como (DraftKings 75.8%), Betis at Slovan (DraftKings 76.2%), Leipzig (ClubElo, Bet365 and DraftKings near 70%), Bodø/Glimt (books and a model near 65%, title race live), Porto at Feyenoord (DraftKings, Kalshi and ClubElo near 44%) and Eisbären Berlin (1st v last; goalie unconfirmed). Low: Man City (two models about 20 points under the market, winless in four league games), Arsenal (Raya, Saka and Zubimendi out against an in-form Dortmund), Real Madrid (key facts rest on one thin preview), the KHL games Traktor and Metallurg, Ilves, Kölner Haie (goalies unconfirmed, thin markets, no second price for some) and the Dota 2 seeding matches (no second price; Yandex's price fell 3.9% with no news). Excluded: Galatasaray v Aston Villa (pitch problem at Rams Park). Views that contradicted a game's own main risk were dropped (over 2.5 goals for Betis, Como, Leipzig, Bodø and Porto; Man City goals views).",
+  "games": [
+    {
+      "id": "1326276",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.82,
+        "draw": 0.11,
+        "away": 0.07
+      },
+      "checks": {
+        "team_news": "Only one preview page (footballpredictions.com) lists absences. Real Madrid: Asencio, F. Mendy and Rodrygo out. PSV: Nagalo, Ouaissa, Plea and Schouten out, Mauro Junior doubtful. I found no club or press-conference confirmation, and no coach-change check for either side.",
+        "lineups": "Not out yet. Squawka predicts a 4-2-3-1 with Courtois, Mbappe up front, and Bellingham and Vinicius behind him. Footballpredictions expects Cucurella, Valverde and Vinicius back in the XI. Only one independent predicted-XI source and no PSV XI, so unverified. Official XIs come about an hour before kick-off.",
+        "rotation": "Not verified. I found no information on the previous or next Real Madrid league game, rest days or travel. Real Madrid beat AEK 3-2 away on 4 Nov and PSV lost 1-2 at home to Club Brugge that day, which suggests a full-strength Madrid side but is not confirmed.",
+        "motivation": "Footballpredictions (one source) has Real Madrid 2nd with 4 wins from 4 and PSV 24th on 4 points, so PSV need the result. Real Madrid cannot have secured their aim after matchday 4 of 8, so the hard rule does not apply. I could not check the official table, so this is not fully verified.",
+        "form": "Real Madrid have lost once in their last 10 in all competitions (2.70 points per game, 3.00 at home). They won 3-2 at AEK, which shows they conceded. PSV have 1.60 points per game over their last 10, and their last four games each had three or more goals. xG not found.",
+        "h2h": "No prior meeting data was found on the preview page. Style matchup is untested: Madrid heavy favourite at home, PSV leaky but able to score.",
+        "odds": "DraftKings via ESPN: 1.13 / 10 / 16, opening 1.20 / 7.5 / 9.5, de-vigged home 0.844, draw 0.096, away 0.060 (total 4.5), source site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124. This agrees with Polymarket home 0.846. The DraftKings line moved from 1.20 to 1.13 since opening, a shortening of the favourite, so no adverse drift. Polymarket 24h move: 0.835 to 0.845 (+1.2% relative), so no fall to explain. Polymarket volume was not checked. Footballpredictions lists Over 2.5 at 85% and BTTS at 65%.",
+        "models": "No bookmaker-free rating found. ClubElo and Opta were not checked, so this check is not met.",
+        "venue_weather": "Santiago Bernabeu, Madrid, a normal home venue. I found no weather or pitch information."
+      },
+      "reason": "The market and DraftKings agree at about 0.845 for a Real Madrid win and nothing in the news argues against it. But the table, injuries, lineups, rotation and a bookmaker-free model rest on one thin preview or are missing, so the check list is not clean enough for medium. Pre-mortem: the likely failure is a draw or an upset by an attacking PSV side that scores freely (four straight 3+ goal games). Madrid also conceded 2 at AEK. I found no evidence that either risk is reduced.",
+      "main_risk": "A draw, or a PSV upset, in a high-scoring game. Madrid's defence leaks (2 conceded at AEK) and PSV have scored in recent games. Unverified: the official table, Madrid's weekend rotation, the coach situation and the model rating.",
+      "sources": [
+        "https://footballpredictions.com/footballpredictions/championsleaguepredictions/real-madrid-vs-psv-prediction-24-11-2026/",
+        "https://www.squawka.com/us/?p=99664",
+        "https://www.bundesliga.com/en/champions-league/matchday/2026-2027/5/real-madrid-club-de-futbol-vs-psv-eindhoven/lineup",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1326272",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.76,
+        "draw": 0.15,
+        "away": 0.09
+      },
+      "checks": {
+        "team_news": "Como: Kean out (tibia/shin, new setback), Addai, Diao and Jesus Rodriguez injured; Caqueret doubtful (muscular, UEFA); Chalobah fit; no suspensions (Sports Mole 22 Nov, UEFA predicted line-ups MD5, Goal/tips previews). AEK: Koita suspended (two-match ban after red card vs Real Madrid), Zubkov and Zine injured, Arriaga out (collarbone, UEFA); Varga back from a layoff. No coaching change reported for either side.",
+        "lineups": "Predicted, not confirmed (kick-off 20:00 UTC). Sports Mole: Como Butez; Couto, Chalobah, Ramon, Valle; Perrone, Milla; Da Cunha, Paz, Baturina; Douvikas. UEFA: same XI with Yan Couto, Ramon, Chalobah, Valle at the back. AEK (Sports Mole): Brignoli; Rota, Moukoudi, Relvas, Pilios; Majer, Arriaga, Kairinen, Mantalos; Jovic, Varga. UEFA lists Strakosha in goal, Marin for Arriaga (out), so AEK's goalkeeper and midfield are unclear. No rotation reported for Como; this is its first-choice side minus the injured.",
+        "rotation": "Como's last league game was a 2-0 win over Cagliari; next game is Serie A home vs Juventus on Sun 29 Nov (ESPN schedule), so a little rotation or substitution management is possible but no source reports it. Como is at home, no travel. AEK last played a 0-0 draw at Kalamata (Greek competition) after the 3-2 loss to Real Madrid.",
+        "motivation": "League phase matchday 5 of 8: Como 4th with 9 points from 4 games (3 wins, 1 loss, 19 goals for, 6 against); a top-8 place is not yet secured, so Como still needs points. AEK 29th with 3 points (opening 1-0 win over LASK, then three defeats) and needs results to reach the play-off places. Not a hard-rule case: the favourite has not secured its aim. Fabregas said Como will stay with its attacking approach and called AEK a great team who made life hard for Real and Shakhtar.",
+        "form": "Como CL: 4-1 vs RB Leipzig, 3-2 loss at Feyenoord, 4-1 vs Man Utd, 9-1 at Lens; all competitions W W W W L W, seven wins in the last eight. AEK CL: L (3-2 vs Real Madrid), L, L, W (1-0 LASK); all competitions L W L L W D, latest 0-0 at Kalamata. AEK winless away in the Champions League.",
+        "h2h": "No previous senior meeting found (Sports Mole carries no head-to-head). Style: Como attack-minded and high-scoring, AEK leaky, so the main failure route is not a high-scoring game but a draw or one-goal win through chance conversion.",
+        "odds": "Polymarket: Como 78.4%, draw 13.3%, AEK 8.3% (event volume about $86.5k, win market about $52k; thin but active). Polymarket move 24h: Como 0.765 to 0.785 (+2.6% relative, rising, no drift against the favourite). DraftKings via ESPN (data.odds): 1.26 / 6.50 / 10.00, de-vigged 75.8 / 14.7 / 9.5, opening 1.31 / 5.75 / 7.00 (favourite shortened, no drift against). Other books: 1xBet 1.33 / 5.98 / 10.40 (rg.org), 1.37 / 5.36 / 9.90 (Completesports), 1.37 / 6.25 / 9.70 (bet-experts). Independent price agrees within about 3 points of Polymarket; the books' range implies about 70-76% for Como. DK total 3.5.",
+        "models": "ClubElo and World Football Elo not available (no data.rating, ClubElo API timed out). Bookmaker-free signals are only form and goal difference (Como +13 over four CL games vs AEK 3 points, 29th), model splits in previews: bet-experts 74 / 16 / 10, Completesports 64 / 20 / 16. No Elo check was possible, so the rating check is unverified.",
+        "venue_weather": "Stadio Giuseppe Sinigaglia, Como, home venue, normal fixture; FotMob forecast about 6 C on the night, no extreme weather or pitch problem reported."
+      },
+      "reason": "Verified fixture (Como vs AEK Athens, CL league phase MD5, 24 Nov 20:00 UTC, no coach change). Como is a strong home favourite with a 9-1 and two 4-1 wins in this league phase, AEK has three defeats in four, and its suspended and injured players weaken the side. Second price (DraftKings de-vigged 75.8%) agrees with Polymarket within 3 points and the price has not fallen. I put p slightly below market because lineups are unconfirmed, Caqueret is doubtful, Kean and three wingers are out, there is a Juventus game on Sunday, no Elo rating could be read, and favourites around 70-80% have been priced slightly high.",
+      "main_risk": "A draw or narrow result: Como without Kean and three wingers, with Caqueret doubtful and possible rotation before Juventus, fail to convert chances against an AEK that needs points and may sit deep. AEK also has a goalkeeper unclear (Brignoli or Strakosha) and no Elo cross-check was possible. For handicap -1.5 the likely failure is a one-goal win, so no view is given; AEK +3.5 and the team-goals legs also carry blow-out and single-goal risk so they get no view.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/como/champions-league/preview/como-vs-aek-athens-prediction-team-news-lineups_609600.html",
+        "https://www.uefa.com/uefachampionsleague/news/02ab-2223c67db015-c4f7874e074e-1000--champions-league-predicted-line-ups-matchday-5-team-news-/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124",
+        "https://gamma-api.polymarket.com/events?id=1326272",
+        "https://www.bet-experts.com/picks/football/champions-league/como-vs-aek-athens-prediction-betting-tips-24-11-2026",
+        "https://rg.org/en-ca/news/soccer/arsenal-vs-dortmund-man-city-vs-napoli-champions-league-matchday-5-odds-2026",
+        "https://www.completesports.com/match/ucl/aek-athens-fc-vs-como/"
+      ],
+      "views": {
+        "ou_5.5_under": 0.8
+      },
+      "prices": []
+    },
+    {
+      "id": "1326280",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.085,
+        "draw": 0.15,
+        "away": 0.765
+      },
+      "checks": {
+        "team_news": "Per the footballpredictions.com preview, Slovan are without Cerepkai (back) and Medvedev (calf), with Griger and Kianga off the roster and Camara doubtful. Betis are without Ceballos, Losada and Morante, and Antony is listed as doubtful in the table but 'should be fit' in the text. This is one source, and I found no Pellegrini press conference quote for this match. No suspensions found.",
+        "lineups": "Not out yet; official XIs come 60 minutes before kick-off. Predicted Betis XI (footballpredictions.com, Squawka): 4-2-3-1 with Vallés; Natan, Bellerín, Fran García, Bartra; Roca plus one; Antony, Fornals, Abde, Isco; Ruibal. Squawka also lists Llorente. Predicted Slovan XI: 3-4-2-1 with Macik; Wimmer, Tomanek, Pokorny; Mustafic, Ignatenko; Camara and Sporar. No sign of heavy rotation, but nothing is confirmed.",
+        "rotation": "Betis: no evidence of a rested side. They beat Elche 2-0 on 8 Nov. I could not confirm their next La Liga fixture, so weekend rotation is unverified. Slovan are at home with no travel burden.",
+        "motivation": "League-phase table before this game: Slovan 36th of 36 with 0 points from 4 and a 1:17 goal difference. Betis 11th with 9 points from 4 (3W, 1L, 8:6). Betis are inside the 9-24 play-off band and have not secured a top-8 place, so they still have something to play for. Slovan are close to eliminated. This is not a hard exclusion.",
+        "form": "Slovan lost all 4 league-phase games (1 goal scored, 17 conceded). Their last 10 in all competitions (per footballpredictions.com): 1.50 PPG, 2.33 goals conceded per game at home, xG 1.76 for and 1.50 against. Betis last 10: 2.00 PPG, 2.40 PPG at home and 1.60 away, 2.0 scored and 1.5 conceded per game, xG 1.88 for and 1.52 against. Betis' CL record: beat Lille 3-2, Porto 3-2 and Feyenoord 1-0, lost 2-1 at Dortmund. Their games are fairly open.",
+        "h2h": "No previous meetings found. Style matchup: Slovan are a bottom side who lose heavily. Betis' recent European games have been high-scoring, so a one-goal win is more likely than a rout.",
+        "odds": "DraftKings via ESPN: home 10.5, draw 6.5, away 1.26 (opening away 1.29, so the favourite has shortened). De-vigged away 0.762, draw 0.147, home 0.091, total 3.5. Polymarket away is 0.7736, which agrees within 1.2 points. Polymarket 24h move: 0.785 to 0.775 (-1.3% relative), below the 3% threshold. Polymarket event volume is about 37.5k, with 25.4k on the Betis winner market, so it is moderately thin. footballpredictions.com lists Betis -1.5 AH at 60%, BTTS yes 59%, over 2.5 at 74%, and draw no bet Betis at 93%.",
+        "models": "No bookmaker-free rating obtained (ClubElo request timed out). The only model figure is Squawka's, with Betis at 47% in its preview (its comparison to a market figure was garbled), and the xG split above favours Betis only modestly. So the model check is incomplete and I am not leaning on it.",
+        "venue_weather": "Tehelné pole, Bratislava, 20:00 UK time (21:00 CET), the regular home ground. Referee J. Brisard (France). I found no weather or pitch problem reported, but I did not check a forecast."
+      },
+      "reason": "Betis are a clear favourite at a winless bottom side, and DraftKings (0.762 de-vigged) agrees with Polymarket (0.774). No hard rule applies: Slovan's coach Yaya Touré was appointed on 13 June, long past the 7-day window, and Betis still need points. Medium rather than high because lineups are unconfirmed, the team news comes from one preview, no Pellegrini press conference was found, the Elo check failed, and Betis' next fixture is unknown. I trimmed p slightly below the market for the draw and rotation risks.",
+      "main_risk": "A draw or one-goal result: Betis win by only a goal in an open game, concede on a set piece, or ease off or rotate ahead of a league game. Antony is doubtful and Betis are missing three squad players. Slovan have scored once in four CL games, but they score at home more than that suggests (xG 1.76 per game).",
+      "sources": [
+        "https://footballpredictions.com/footballpredictions/championsleaguepredictions/slovan-bratislava-vs-betis-prediction-24-11-2026/",
+        "https://www.squawka.com/ca/?p=24787",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124",
+        "https://ran.joyn.de/sports/ticker/ma12517947-slovan-bratislava-betis-sevilla",
+        "https://www.beinsports.com/en-us/soccer/articles/yaya-toure-lands-first-managerial-job-at-slovan-bratislava-2026-06-13",
+        "https://gamma-api.polymarket.com/events?id=1326280"
+      ],
+      "views": {
+        "ah_home_+3.5": 0.78,
+        "ou_5.5_under": 0.82
+      },
+      "prices": []
+    },
+    {
+      "id": "1326285",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.71,
+        "draw": 0.18,
+        "away": 0.11
+      },
+      "checks": {
+        "team_news": "Man City: Antoine Semenyo is the only confirmed absentee (knee, back near Christmas). Matheus Nunes (ankle, missed the 1-1 draw with Fulham) is fit per Maresca; he said other players have tiredness doubts and he will decide after training (Sports Mole). Napoli visit without 11 players (Yahoo Sports): injured Alisson Santos, Badiashile, Buongiorno, Di Lorenzo, Lobotka, Meret (GK), Neres, Vergara (thigh tear, 2+ months); suspended Rafa Marin; Marianucci and Favasuli not in the UEFA squad. Allegri is missing four of six centre-backs and a stand-in goalkeeper is needed.",
+        "lineups": "Not out yet (morning). Khel Now predicted City 4-2-3-1: Donnarumma; Khusanov, Dias, Guehi, O'Reilly; Fernandez, Anderson; Ndiaye, Foden, Doku; Haaland. Napoli 3-5-1-1: Contini; Beukema, Rrahmani, Marin; Politano, Anguissa, Gilmour, McTominay, Vergara; De Bruyne; Hojlund (this list includes Marin and Vergara, who are out per Yahoo, so it is unreliable). Esteemed Kompany expects a strong City XI with any rotation later in the game. Maresca called the season a 65-game marathon and says he must manage workload. Official XIs not yet announced.",
+        "rotation": "City: previous league game a 1-1 draw with Fulham, next game at Arsenal on Sunday; Maresca talks of fatigue and workload, so a few changes are plausible but no heavy rotation is reported. Last CL game a 3-2 win at RB Leipzig (Haaland winner). Napoli: beat Torino 1-0 on Saturday; Allegri is downplaying this game and says the campaign will be decided against Club Brugge, Sabah and Viking, so he may also manage his squad. Napoli travel with a depleted squad.",
+        "motivation": "League-phase table (ESPN, 4 games each): City 7th, 9 pts (3W 0D 1L, +5), inside the top 8 but level on points with 8th-12th, so a win matters for direct last-16 entry. Napoli 27th, 3 pts (1W 3L, -5), outside the play-off places (top 24) and in need of points. City still need the result, so this is not a hard exclusion.",
+        "form": "City: winless in their last four Premier League games (1 win in the last 6 in all competitions per Esteemed Kompany), including the 1-1 draw with Fulham; two straight CL wins (3-2 at Leipzig). City have conceded 11 goals in four CL games. Napoli: lost 4-1 at Porto on matchday 4, only win 4-3 over Bodo/Glimt, beat Torino 1-0 on Saturday, 8th in Serie A. Both defences leak goals, which favours goals legs, but City's poor domestic run raises the draw risk.",
+        "h2h": "City won 2-0 in the 2025-26 league phase and have won their last three European meetings with Napoli (beIN Sports); Khel Now lists the last five as City 3 wins, Napoli 1 win, 1 draw. Kevin De Bruyne returns to the Etihad with Napoli. Style: City dominate possession against a 3-5-2/3-5-1-1 low-block side; the draw is the usual route to failure.",
+        "odds": "Polymarket (event 1326285, volume about $26.8k, thin): City win 0.745, draw 0.145, Napoli 0.095. Polymarket price 24h ago 0.765, now 0.745 (-2.6% relative, under the 3% threshold; the drop was a single step at about 09-10 hours ago and the price has been flat since). DraftKings via ESPN: home 1.29, draw 6.0, away 8.5, de-vigged 73.1/15.8/11.1; it agrees with Polymarket within 2 points. DraftKings opening was 1.24/6.0/9.5 (home de-vigged about 74.8%, now 73.1%, about -2.3% relative), a small drift that Maresca's fatigue and rotation comments plausibly explain. DraftKings total line 3.5. Khel Now lists Over 3.5 goals at 10/11 (bet365).",
+        "models": "World Football Elo data not provided for this club game. Foresportia (not bookmaker-based) rates City 1557 vs Napoli 1448 and projects 50.1% City / 28.3% draw / 21.6% Napoli; Sports Mole's model gives 54.65% / 21.83% / 23.52%. Both models are well below the 73-75% market, which is a reason to stay cautious and to lower p; they are weak models and do not account for Napoli's 11 absences.",
+        "venue_weather": "Etihad Stadium, Manchester (City's normal home ground, ESPN scoreboard confirms the fixture on 2026-11-24 20:00 UTC, UEFA Champions League league phase matchday 5). Referee Istvan Kovacs (Romania). No weather or pitch problem reported; no weather figures found."
+      },
+      "reason": "Fixture verified on ESPN. No hard exclusion: Maresca was appointed in June 2026 and Allegri in June 2026, so there has been no coach change in the last 7 days; City still need points for a top-8 finish while Napoli, 27th, need points too; no confirmed heavy rotation; not a derby; normal venue. City are strong favourites against a Napoli side missing 11 players including its first-choice goalkeeper and four centre-backs, and the second price (DraftKings 73.1%) agrees with Polymarket. Confidence is medium and not high because lineups are unconfirmed, City are in poor domestic form (winless in four league games), Maresca flags fatigue, Napoli's first-choice XI is not what the predictions assumed, and bookmaker-free models rate City far lower than the market. p is lowered from the market toward the draw. Set to low when merged: the two bookmaker-free models sit about 20 points under the market, a doubt the 5-point limit on p cannot reflect (as for Paris FC on 22 Nov), with City winless in four league games and rotation possible before Arsenal.",
+      "main_risk": "A draw or one-goal game: City in poor league form (winless in four league games, one win in six), fatigue-driven rotation with Arsenal on Sunday, and a deep-sitting Napoli that Allegri may set up to take a point. A 1-0 or 2-0 City win would also fail the goals legs.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124",
+        "https://site.api.espn.com/apis/v2/sports/soccer/uefa.champions/standings",
+        "https://sports.yahoo.com/articles/napoli-visit-man-city-without-123100633.html",
+        "https://www.sportsmole.co.uk/football/man-city/injury-news/news/maresca-delivers-latest-nunes-injury-update-before-man-city-vs-napoli_609687.html",
+        "https://khelnow.com/football/manchester-city-vs-napoli-preview-champions-league-202611",
+        "https://esteemedkompany.com/2026/11/24/manchester-city-vs-napoli-there-is-good-news-on-the-injury-front-for-city-as-another-big-match-awaits/",
+        "https://www.beinsports.com/en-us/soccer/uefa-champions-league/articles/manchester-city-vs-napoli-date-time-and-everything-you-need-to-know-about-this-champions-league-match-2026-11-24",
+        "https://www.foresportia.com/en/prediction/champions-league/manchester-city-fc-ssc-napoli-2026-11-24/",
+        "https://www.aljazeera.com/sports/2026/6/29/enzo-maresca-appointed-man-city-manager-to-succeed-pep-guardiola",
+        "https://gamma-api.polymarket.com/events?id=1326285"
+      ],
+      "views": {
+        "ah_away_+3.5": 0.78
+      },
+      "prices": []
+    },
+    {
+      "id": "1326289",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.7,
+        "draw": 0.17,
+        "away": 0.13
+      },
+      "checks": {
+        "team_news": "Leipzig (coach Martin Demichelis): centre-back Castello Lukeba out with a bruised knee and Maxime Esteve is tipped to replace him next to Willi Orban (RBL press conference 23 Nov via bulinews/Yahoo, OneFootball). Marc Guiu (hamstring) and Assan Ouedraogo (shoulder) also out; sources disagree on whether Zingerle is suspended or just not in the CL squad. Lens: Bulatovic (neck), Edouard (groin), Gradit, Nawrocki (knee) out and Ivanovic (concussion) doubtful, with Aguilar a muscle doubt; Jourdren suspended (tufutbolero, OneFootball). Lens fans are banned from this away game after flares at Club Brugge. No Lens press-conference quotes found.",
+        "lineups": "Not out yet; the official XI comes 60 minutes before kick-off (bundesliga.com). Squawka predicts Leipzig in a 4-3-3 and Lens in a 3-4-2-1 with Thauvin the main threat. OneFootball tips Esteve with Orban in Leipzig's defence. No confirmed XI, so the lineups check cannot be called clean.",
+        "rotation": "No sign of rotation at Leipzig, who play at home and are not yet through. I could not find Leipzig's next league fixture or any Demichelis remark on rotation. Lens drew 1-1 at Toulouse at the weekend, lost 1-2 to Marseille the week before, and travel to Germany.",
+        "motivation": "Both sides sit on 3 points from 4 games (1 win, 3 losses each), Leipzig on goal difference -6 and Lens on -12. Neither has secured anything, so this is not a hard exclusion. Both need points for the top 24; Demichelis said Lens need the three points as well.",
+        "form": "Leipzig scored five goals in each of their last two games (form LWWWL) and have won every home game this season except a 2-3 loss to Man City. They lost 1-4 to Real Madrid in this competition. Lens form is WLWLL: 1-9 at home to Como, 0-3 at Club Brugge, 1-2 vs Marseille, 1-1 at Toulouse; they have lost their last three European games, are 11th in Ligue 1, and have won 1 of 13 away league games. No xG found.",
+        "h2h": "No previous competitive meeting. Lens won a friendly 2-1 in August 2025 (OneFootball). The Lens coach was changed: Cahuzac was sacked around 10-12 Nov and Didier Digard was appointed on 13 Nov, 11 days before kick-off, so this is a soft risk outside the 7-day hard rule. Digard's first match was the 1-1 draw at Toulouse.",
+        "odds": "Polymarket live: home 71.5%, draw 16.5%, away 12.5%; the event had about $11.7k volume and $491k liquidity, so the market is liquid. 24h move: 70.5% to 71.5% (+1.4%), so the favourite did not fall. DraftKings via ESPN: 1.37/5.75/7.00, de-vigged 69.7/16.6/13.7; it opened at 1.43/5.25/5.50, so the favourite has shortened. Bet365 per kickoff.co.uk: 1.36/5.25/7.50. The independent prices are within 2 points of Polymarket.",
+        "models": "ClubElo: Leipzig 1841 (26th), Lens 1777 (55th), a gap of 64 points before home advantage, consistent with about 70% for the home side. Squawka model: 73/15/12. KickOff algorithm: 71/16/13, with 2.8 goals for Leipzig and 1.2 for Lens.",
+        "venue_weather": "Red Bull Arena, Leipzig, 21:00 CET (20:00 UTC), a normal home venue. I did not find a weather report for the night, so I flag no extreme weather."
+      },
+      "reason": "Leipzig are about 70% across Polymarket, DraftKings, Bet365 and the models, there is no hard exclusion, and the favourite's price rose over 24h. Lens come with a coach change 11 days ago, a heavy injury list, and a 1-9 and a 0-3 heavy defeat in this competition. Medium rather than high because no XI is confirmed and Lukeba is out, and because Leipzig have conceded 3 to City and 4 to Real. Draw chance about 17%, under the 25% limit.",
+      "main_risk": "A draw or upset: a Leipzig defence without Lukeba, which has leaked goals against good teams, against a Lens side with a new coach that may play with nothing to lose. A big Leipzig win by 4+ would hurt the Lens +3.5 handicap, and Leipzig's goal tally depends on which XI starts.",
+      "sources": [
+        "https://onefootball.com/en/news/rb-leipzig-vs-lens-preview-team-news-and-predicted-lineups-43825765",
+        "https://www.kickoff.co.uk/uefa-champions-league-predictions-stats-odds/rb-leipzig-vs-lens/",
+        "https://www.squawka.com/us/?p=99638",
+        "https://bulinews.com/demichelis-rules-lukeba-out-meetings-lens-and-freiburg",
+        "http://clubelo.com/RBLeipzig",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124",
+        "https://www.dhnet.be/dernieres-depeches/2026/11/14/ligue-1-didier-digard-remplace-yannick-cahuzac-sur-le-banc-lensois-NRBKZJCO3NAADNY6HTYGNYB5BM/"
+      ],
+      "views": {
+        "ah_away_+3.5": 0.83
+      },
+      "prices": []
+    },
+    {
+      "id": "1326293",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.65,
+        "draw": 0.21,
+        "away": 0.14
+      },
+      "checks": {
+        "team_news": "Arsenal: GK David Raya out (shoulder, sustained vs Newcastle; Arteta Monday: 'not fit for tomorrow, doesn't look too serious', no surgery, more tests Tuesday), Kepa Arrizabalaga the likely replacement; Bukayo Saka out (quad, not back until December per reports); Martin Zubimendi out (hamstring, several weeks); William Saliba back in training but Arteta will ease him in; Max Dowman available after a domestic suspension. Dortmund: coach Niko Kovac said Monday that Serhou Guirassy (thigh/hamstring) and Carney Chukwuemeka are fit and in the squad, starting 'we'll see tomorrow' (bvbwld.de, Sky Germany); out: Emre Can (ACL), Giannis Konstantelias (ACL), Samuele Inacio, Mussa Kaba (Sports Mole, Racing Post). Ethan Nwaneri (Arsenal loanee) is eligible for Dortmund. No suspensions found for the main XI.",
+        "lineups": "No official XIs yet (kick-off 20:00 UTC). Sports Mole predicted Arsenal: Kepa; White, Konsa, Gabriel, Hincapie; Lewis-Skelly, Rice; Madueke, Odegaard, Eze; Gyokeres. Racing Post predicted 4-2-3-1: Arrizabalaga; White, Saliba, Mosquera, Hincapie; Rice, Lewis-Skelly; Madueke, Merino, Tzolis; Gyokeres. The two outlets disagree on the back line and attacking midfield, so the XI is uncertain. Dortmund predicted 3-4-2-1 (Kobel; Schlotterbeck, Anton, Bensebaini; Ryerson, Nmecha/Veerman, Bellingham, Svensson; Beier/Karetsas; Silva), with Guirassy possibly starting up front.",
+        "rotation": "Arsenal drew 2-2 at Newcastle on Saturday and play Manchester City at home on Sunday. Arteta said the squad has been rotated a lot ('they are all starters') and Racing Post says his selection is uncertain ahead of City. Lewis-Skelly, Tzolis, Merino and Gyokeres are likely to start after coming off the bench at Newcastle, so I expect a few changes, not a heavily rotated side. Not confirmed, so this is a soft risk. Dortmund are top of the Bundesliga and travelled to London; no heavy rotation reported.",
+        "motivation": "ESPN standings before the game (4 games each): Arsenal 3rd on 10 pts (+5), PSG and Real Madrid 12, Como 9 on +13. Dortmund 12th on 9 pts (+2), i.e. in the play-off zone just outside the top 8 (Liverpool 8th on 9 pts, +4). Arsenal are not yet safe in the top 8 and Dortmund need the result to climb, so neither side has secured its aim and there is no hard exclusion. A win would nearly settle Arsenal's top-8 place. Arteta says the open league-phase format means every game needs urgency.",
+        "form": "Arsenal, last 6 all competitions (Sports Mole): W L W W W D. League phase: W Napoli, W Lille, D 2-2 Bayern, W Slavia Prague. Won three before the break by one goal each (Liverpool, Slavia, Hull), then drew 2-2 at Newcastle; scored in 17 of 18 games this season and conceded in 2 of the last 3 (Covers). 16 games unbeaten in the league phase. Dortmund: W W D W W W; 3 wins and a 2-2 draw at Bayern in their first four Champions League games (Racing Post); top of the Bundesliga with 7 wins and 3 draws from 10, lost only 1 of their last 16, both teams scored in 4 of their last 5. Dortmund are in good form and Kobel plus Guirassy's return make them dangerous. No xG data found.",
+        "h2h": "Arsenal 4 wins, Dortmund 3 (Sports Mole); the last competitive meeting was a 2-0 Arsenal win in November 2014. Arteta notes Dortmund beat Arsenal in pre-season last summer (friendly, little weight). Not a derby or rivalry. Style: Arsenal are well drilled and win tight, low-margin games; Dortmund (3-4-2-1) score regularly, so a draw or Dortmund goal is the realistic failure.",
+        "odds": "Polymarket (event 1326293, volume about $190k, liquid): home 0.685 / draw 0.195 / away 0.125 live. 24h move for Arsenal: 0.705 to 0.685 (-2.8% relative, under the 3% line). The drift came at about 17:00 UTC Monday and 05:00 UTC Tuesday, which fits the Raya-out news and the Guirassy/Chukwuemeka fitness reports. DraftKings via ESPN: 1.44 / 4.60 / 7.00 (opening 1.40 / 4.70 / 7.00), de-vigged 0.658 / 0.207 / 0.136; its home price lengthened about 2.8% since opening, again explained by the news. bet365 (Racing Post): 4-11 / 4-1 / 7-1, which is about 0.69 / 0.19 / 0.12 once de-vigged (draw taken at 4-1, quoted on the page). Kalshi (Covers): Arsenal 71%, draw 19%, Dortmund 11%. Independent prices sit within about 3 points of Polymarket, so they agree. Total 2.5 line at DraftKings; Kalshi Over 2.5 at 58%.",
+        "models": "Opta supercomputer as reported in a preview (canadasportsbetting.ca snippet): Arsenal 65.2%, draw 19%, Dortmund 15.8%, about 3 points below the market for Arsenal. Sports Mole predicts 2-0. ClubElo was unreachable (timeouts), so no Elo figure. The Opta number is a model, not a bookmaker price, and it shows less margin than the market.",
+        "venue_weather": "Emirates Stadium, London (ESPN lists the venue), home game for Arsenal; no neutral or unusual venue. Forecast for London on Tuesday evening about 5-6 C, 19-25% chance of rain, wind about 12-13 km/h, cloudy (wttr.in, Covers). No pitch or weather problem reported."
+      },
+      "reason": "No hard exclusion: coaches unchanged (Kovac at Dortmund; Arteta in place), not a derby, home venue, and neither side has secured its aim (Arsenal 3rd on 10 pts, Dortmund 12th on 9 pts). Independent prices (DraftKings, bet365, Kalshi, Opta) agree with Polymarket within about 3 points and the 24h drift is below 3% and explained by team news. Arsenal are the clear favourite but the 60-70% favourite band has underperformed, so p is trimmed. Set to low when merged: key starters are out (goalkeeper Raya, Saka, Zubimendi) against an in-form Dortmund, and the favourite is priced in the 60-70% band that has underperformed.",
+      "main_risk": "A draw or a Dortmund win. Raya is out so Kepa starts in goal, Saka and Zubimendi are out, Arteta may rotate before Sunday's home game against Manchester City, and Dortmund (top of the Bundesliga, unbeaten in most of their last 16) get Guirassy and Chukwuemeka back. Arsenal's last four results were narrow (three 1-goal wins, then a 2-2 draw), which also argues against big handicap or team-goal legs. No confirmed XI yet.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/arsenal/champions-league/preview/arsenal-vs-dortmund-prediction-team-news-lineups_609605.html",
+        "https://www.arsenal.com/news/every-word-from-mikel-artetas-pre-dortmund-presser-aYVTD2t14G6R",
+        "https://www.racingpost.com/sport/football-tips/champions-league/arsenal-vs-borussia-dortmund-predictions-team-news-odds-betting-tips-bet-builder-aRfa76J34SNx/",
+        "https://www.covers.com/soccer/arsenal-vs-borussia-dortmund-predictions-picks-nov-24-2026",
+        "https://bvbwld.de/2026/11/23/aufatmen-bei-bvb-trainer-kovac-guirassy-und-chukwuemeka-fit-fuer-arsenal",
+        "https://site.api.espn.com/apis/v2/sports/soccer/uefa.champions/standings",
+        "https://gamma-api.polymarket.com/events?id=1326293"
+      ],
+      "views": {
+        "ou_1.5_over": 0.77,
+        "ou_4.5_under": 0.82,
+        "ah_away_+2.5": 0.78
+      },
+      "prices": []
+    },
+    {
+      "id": "1326268",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.64,
+        "draw": 0.19,
+        "away": 0.17
+      },
+      "checks": {
+        "team_news": "Bodø/Glimt: H. Evjen and A. Mikkelsen out (voetbalwedden.net); footballpredictions.com also lists I. Sjong out and says Aleesami has recovered. Squawka snippet says no fresh fitness concerns. No press-conference quotes from Knutsen found today. LASK: Andrade (major doubt per footballpredictions.com), Bello, Flecker and Harakate listed injured. Neither coach changed recently: Kühbauer was appointed 9 Oct 2025 and extended to 2029 in Aug 2026; Knutsen is long-tenured.",
+        "lineups": "Not confirmed; the official XI is released 60 minutes before kick-off. Predicted Glimt XI (voetbalwedden.net): Haikin; Sjøvold, Bjørtuft, Bjørkan, Berg; Brunstad Fet, Auklend, Helmersen, Blomberg, Aleesami; Hauge. Squawka's predicted XI also has Haikin in goal, Bjørkan, Aleesami and Hauge, in a 4-3-3. LASK predicted: Jungwirth; Mbuyamba, Verhaeghe, Tornich, Jørgensen; Ljubičić, Horvath, Dibango, Adeniran, Usor, Bogarde. The two Glimt predictions broadly agree on a first-choice side.",
+        "rotation": "Glimt: the Eliteserien title race is still live. Wikipedia (as of 22 Nov) has them first on 65 points after 27 of 30 rounds, three ahead of Viking on 62, with Aalesund away, KFUM home and Sarpsborg home left and the season ending 13 Dec. So the domestic season is not over, and rest or rustiness is not the issue. The next league game's date was not found, so a small rotation or fatigue risk remains. LASK played a Bundesliga game on 21 Nov (Hartberg; result not found) and beat Slovan 4-0 on 3 Nov, so their rotation is likely.",
+        "motivation": "League-phase table (kickoff.co.uk): Bodø 25th with 4 points, LASK 16th with 6 points. Both sides still need points for the top 24 and the play-off, and neither has secured its aim. Glimt have a real need, so the nothing-left-to-play-for exclusion does not apply.",
+        "form": "Squawka snippet gives Glimt's league-phase run as W L W L D, not dominant. Kickoff says their forwards scored 2+ in three straight CL games. Domestically Glimt are first in the Eliteserien with 21W 2D 4L, goals 67-25 after 27 games, and L W W W W W in rounds 22-27 (Wikipedia). LASK: 4-0 over Slovan on 3 Nov, 4-2 at Ried on 7 Nov, lost 1-3 to Salzburg on 25 Oct (FotMob via search snippet); they have failed to score in 8 of 20 away league games (kickoff.co.uk). A xG figure was not found.",
+        "h2h": "The only meetings found are old ones on voetbalwedden.net: four meetings with LASK 2W 2L, goals 10-9 to LASK, and Glimt 1W 1D 2L, goals 4-9 (dates not shown). No recent competitive meeting was verified. Style: Glimt are strong at home on Aspmyra and the leg is more likely to fail on a draw or 1-goal result than on a heavy defeat.",
+        "odds": "Bookmakers 1X2 on voetbalwedden.net: bet365 1.48/5.00/5.25, Unibet 1.48/5.25/5.25, 888sport 1.44/4.75/5.00. DraftKings via ESPN (candidates data): 1.48/5.25/5.50 now, opening 1.51/4.90/5.00, de-vigged home 0.645, draw 0.181, away 0.173; total 3.5. Kickoff.co.uk: its model gives Bodø 65%, best price 1.55; double chance 82%, DNB 77%. Polymarket home 0.655 vs 0.635 24h ago, a rise of 3.1% in the favourite's favour (price history: flat 0.635 then 0.655), so it is not a drop. Volume: about $9.1k in total ($7.2k on the home market, $1.0k on the draw market, $0.8k on the away market) with about $457k liquidity, so the market is thin. Independent prices agree with Polymarket within about 1 point.",
+        "models": "Kickoff.co.uk model: 65% Bodø, expected goals 2.6 vs 1.3. Footballpredictions.com predicts 2-1 Bodø (kickoff.co.uk and footballpredictions.com may both be algorithmic). ClubElo page (clubelo.com/Bodo) fetched on 24 Nov but gave no readable Elo values, only rank 52 for Bodø/Glimt and rank 218 for LASK from the page; this is a bookmaker-free rating that favours Glimt but is not a quoted Elo figure.",
+        "venue_weather": "Aspmyra Stadion, Bodø, home venue, kick-off 17:45 UTC (20:45 local per a Turkish listing); referee H. Meler. Search results do not clearly describe the main pitch surface and mention an artificial training pitch only. No forecast for the match day was found (yr.no not checked), so Arctic conditions are unverified; no extreme weather or pitch problem was reported."
+      },
+      "reason": "Fixture verified and not a derby. Neither coach changed in the last 7 days. Both sides still need points, so no hard exclusion applies. Glimt are favourites at home with the domestic title race live, and the second prices agree with Polymarket. The favourite's price rose 3.1% in 24 hours, so the move rule does not apply. Confidence is medium rather than high because lineups are unconfirmed, no Knutsen press-conference news was found, weather and pitch conditions are unverified, Glimt's league-phase form is mixed, and favourites priced 60-70% have under-hit so far. The probabilities sit slightly below market on the win to allow for a draw or a one-goal game.",
+      "main_risk": "A draw or a narrow result: Glimt are 25th with a W L W L D league-phase run, LASK are a motivated 16th-placed side, and Glimt's title race could rotate the XI. Weather and the pitch are unverified.",
+      "sources": [
+        "https://www.kickoff.co.uk/uefa-champions-league-predictions-stats-odds/bodo-glimt-vs-lask-linz/",
+        "https://footballpredictions.com/footballpredictions/championsleaguepredictions/bodo-glimt-vs-lask-linz-prediction-24-11-2026/",
+        "https://www.voetbalwedden.net/wedstrijden/fk-bodoglimt-lask/opstellingen",
+        "https://en.wikipedia.org/wiki/2026_Eliteserien",
+        "https://www.uefa.com/uefachampionsleague/match/2049629--bodo-glimt-vs-lask/lineups/",
+        "https://gamma-api.polymarket.com/events?id=1326268",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124"
+      ],
+      "views": {
+        "ah_away_+2.5": 0.72,
+        "ou_5.5_under": 0.775
+      },
+      "prices": []
+    },
+    {
+      "id": "1326306",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.31,
+        "draw": 0.26,
+        "away": 0.43
+      },
+      "checks": {
+        "team_news": "Feyenoord: Hadj Moussa back and available (Van Bronckhorst: 'geen belemmeringen'; vi.nl, 1908.nl) after missing the Excelsior game; Moder out (match too soon); St. Juste, Bos, Nieuwkoop, Beelen, Wessels reported injured (thestatszone); no suspensions mentioned. Porto: squad fully trained Monday, first time this edition with every registered player; Martim Fernandes trained without limits after a stomach problem; William Gomes ankle was listed out by one preview but 1908.nl says he is back; Smalling, Vasco Sousa, Gabriel Mec are injured and not registered for the Champions League (bolanarede, 1908.nl). No suspensions found for either side.",
+        "lineups": "Not confirmed (morning). Feyenoord expected 4-3-3 with Read, Watanabe/Kraaijeveld, Marmol, Lopez; Zechiel, Vanhoutte, Targhalline; Hadj Moussa, Valente plus Ferri or Van Persie; sources disagree on the goalkeeper (Ernst in thestatszone/search summaries, Kastenmeier in 1908.nl; headline says Ernst risks his place). Porto expected D. Costa; A. Costa, Bednarek, Kiwior, Martim Fernandes/Souza; Froholdt, Rosario, Veiga; Pepe, Sainz, Andre Silva or Samu (1908.nl, thestatszone). Farioli said he had not decided the XI (abola).",
+        "rotation": "Porto: last game a 1-1 draw at Paredes (league, 11 wins in 11 before); lineup shows no sign of rotation, full squad available; Farioli mentioned a clasico at the weekend but said they go game by game. Feyenoord: lost 2-3 at home to Excelsior on Saturday (winless in six), next is the Ajax derby on Sunday; Van Bronckhorst says a win is needed and is reshuffling the lineup, no sign of rested starters. Neither side is expected to rest players.",
+        "motivation": "League-phase table before this game (onefootball): Porto 26th, Feyenoord 32nd, both on 3 points from 4 games, so both need results to reach the 9-24 play-off places (24th PSV has 4 points). The favourite has not secured anything, so no hard exclusion. Feyenoord head coach Van Bronckhorst was appointed in June 2026 (about 5 months ago); a rumour outlet speculated about his dismissal after the Excelsior loss, but nothing official. Farioli is Porto coach, not changed recently. Not a derby.",
+        "form": "Feyenoord: winless in six, three straight defeats, losses 2-3 Excelsior and 3-5 Heerenveen in the league; Champions League 0-3 Inter, 0-1 Betis, 3-2 Como, 1-5 Barcelona (4 goals for, 11 against in 4); conceded first in seven straight Champions League games (covers). Porto: 11 wins from 11 in Liga Portugal but 1-1 at Paredes last; Champions League lost the first three, then beat Napoli 4-1 at home (6 scored, 7 conceded in 4). No xG figures found.",
+        "h2h": "No recent meeting found; sources conflict (one says Porto won the last meeting 3-2, another a narrow Feyenoord edge at De Kuip; the only dated meetings found were 1993). Style: both leak goals, previews expect an open, high-scoring match. Draw is the main failure for Porto: Feyenoord at home in a sold-out De Kuip needing points.",
+        "odds": "Polymarket (event volume about $102k; Porto win market about $97k): Feyenoord 0.305, draw 0.255, Porto 0.445. Polymarket 24h move: Porto 0.395 to 0.445 (+12.7%), a rise toward the favourite, steady through the day (clob prices-history), consistent with Feyenoord's bad form and Hadj Moussa doubts earlier; not a move against the favourite. DraftKings via ESPN (site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124): Feyenoord 3.15, draw 3.70, Porto 2.20 (opening 2.80/3.65/2.25), de-vigged 30.5/25.9/43.6, total 2.5; agrees with Polymarket within 1 point. Kalshi via Covers has Porto 41%; tips.gg average bookmaker Porto about 2.37 (about 42%).",
+        "models": "data.rating not available for clubs. ClubElo page (clubelo.com/FCPorto): Porto Elo 1844, rank 24; its fixture listing shows Porto 44.4%, draw 29.6%, Feyenoord 25.9% (home/away mapping inferred from the page layout, not labelled). Squawka's own model has Feyenoord 49% (outlier against the market); SportyTrader model Porto 48%; Kickoff Porto 43%.",
+        "venue_weather": "De Kuip, Rotterdam, normal home venue, sold out per Dutch press. Open-Meteo forecast for 20:00 UTC: about 0.7 C, no precipitation, wind about 17 km/h; no pitch problem reported."
+      },
+      "reason": "Porto are the market favourite at about 44% with an independent price (DraftKings 43.6% de-vigged, Kalshi 41%) within a point or three, a healthy near-full-strength squad, and no rotation, coach-change or table-motivation exclusion; both sides need points. Feyenoord's run (winless in six, 11 goals conceded in four Champions League games) supports Porto, but Porto lost their first three Champions League games and drew last time out, lineups are unconfirmed and the goalkeeper is unclear on the Feyenoord side. The draw probability is kept slightly above market (26%) and Porto trimmed to 43% (draw no bet about 70% remains the better-protected leg).",
+      "main_risk": "A draw (Feyenoord at home in a sold-out De Kuip needing a result against a Porto side that lost three of four in Europe and drew 1-1 at Paredes last time), or a Feyenoord home bounce with Hadj Moussa back. Lineups unconfirmed.",
+      "sources": [
+        "https://1908.nl/artikelen/matchday-feyenoord-jaagt-tegen-fc-porto-op-eerste-overwinning-in-zeven-wedstrijden",
+        "https://www.vi.nl/nieuws/feyenoord-heeft-hadj-moussa-terug-voor-cl-duel-met-fc-porto",
+        "https://www.abola.pt/noticias/regresso-aos-paises-baixos-classico-e-os-ex-feyenoord-tudo-o-que-disse-farioli-2026112313595803838",
+        "https://bolanarede.pt/nacional/porto/champions-league-boas-noticias-para-francesco-farioli-no-ultimo-treino-antes-do-feyenoord-x-fc-porto/",
+        "https://onefootball.com/en/news/how-the-champions-league-table-looks-after-matchday-4-43729234",
+        "https://www.thestatszone.com/feyenoord-vs-porto-preview-team-news-prediction-2026-27-uefa-champions-league-league-phase-241011",
+        "https://www.covers.com/soccer/champions-league-moneyline-picks-matchday-5-2026",
+        "https://clubelo.com/FCPorto",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124",
+        "https://gamma-api.polymarket.com/events?id=1326306"
+      ],
+      "views": {
+        "ou_1.5_over": 0.8
+      },
+      "prices": []
+    },
+    {
+      "id": "1326248",
+      "exclude": true,
+      "reason": "Hard rule: pitch problem at the venue. Galatasaray are reported to be doing emergency work on the Rams Park pitch, and are considering hybrid turf after the game. Aston Villa did not train on the pitch the day before. Per a Turkish report citing an unnamed source, Galatasaray asked UEFA in writing to keep the routine stadium training off the grass, and UEFA and Villa approved. UEFA is said to be satisfied with the expected condition, with a routine pitch inspection at 10:00 local time on matchday. Emery played down the concern but said he does not know what condition the pitch will be in. Fixture verified: Tue 24 Nov 2026, 17:45 UK, Rams Park, Champions League matchday 5. Neither coach is new. Table: Villa 6th on 9 points, Galatasaray 18th on 6 points, so both still need the result and this rule is not triggered. Other news: Osimhen (knee) and Leao (muscle) are out for Galatasaray, Sallai is struggling and Jakobs is a doubt. Cash and Ruggeri are out for Villa, Onana is out until March or April, and Lindelof is a doubt. DraftKings via ESPN has Villa at 2.20, de-vigged 43.2%, against Polymarket 43.7%, so the prices agree. The Villa price moved from 41.5% to 43.5% in 24h (+4.8% relative), which is in the favourite's favour. The unverified pitch condition and Villa's poor recent run (five games without a win in all competitions) make this too uncertain to back.",
+      "main_risk": "The Rams Park pitch is in poor condition: it is unverified, the matchday inspection is still to come, and it makes a draw or upset more likely. Galatasaray are also top of the Super Lig and playing at home in a loud stadium with a season-defining result to chase.",
+      "sources": [
+        "https://premierleaguenewsnow.com/2026/11/24/galatasaray-aston-villa-preview-team-news-emery/",
+        "https://www.avfc.co.uk/news/2026/november/23/prematch-emery-previews-gala-meeting/",
+        "https://www.bundesliga.com/en/champions-league/matchday/2026-2027/5/galatasaray-sk-istanbul-vs-aston-villa-fc/table"
+      ],
+      "prices": []
+    },
+    {
+      "id": "1446637",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.2,
+        "draw": 0,
+        "away": 0.8
+      },
+      "checks": {
+        "team_news": "No stand-ins or roster changes found for either side. Field Level Media's 21-22 Nov group-stage recap and the egamersworld recap of GamerLegion's group win over Nemesis (page returned 403, so I read only the search snippet) mention none. The 20 Nov metaratings preview (a different PARIVISION series, vs LEGION) lists PARIVISION as Satanic, No[o]ne-, Noticed, 9Class, Dukalis and, oddly, Puppey. I could not confirm which five play this series, and no official BLAST roster page was reachable.",
+        "lineups": "Not confirmed. No source this morning gives the five players for this series, so the absence of a stand-in is unverified rather than checked.",
+        "rotation": "Both teams went through the group stage unbeaten: PARIVISION beat Team Liquid 2-1 in the Group C winner match, GamerLegion beat Nemesis 2-0 in the Group B winner match. This Bo3 is their first game since the 22 Nov group games, so rest is not a concern. The event is online.",
+        "motivation": "Both teams are already in the quarterfinals. The Hawk Live format page says seeding winners go straight to Upper Bracket Semifinals and losers start in the Upper Bracket Quarterfinals; Field Level Media instead says group winners advance to the quarterfinals. The loser therefore gets no elimination here. The worth is the extra upper-bracket round and some prize-money ladder. Neither side has more at stake than the other, so there is no hard-rule exclusion, but PARIVISION is not under pressure either.",
+        "form": "PARIVISION went 2-0 in the group stage; Group C win over Liquid was 2-1. Its previous event, 16-18 Nov (per the metaratings preview), was 4 wins and 1 loss in its last 5 series, with wins over Spirit 3:1, Aurora 2:1 and LGD 2:0. GamerLegion won Group B 2-0, beating Nemesis 2-0. In the metaratings table for 14-17 Nov (the Legion roster, listed as a different team from GamerLegion), results were 2 wins, 3 losses; I did not use it for GamerLegion's form.",
+        "h2h": "PARIVISION beat GamerLegion 1-0 and 2-0 at ESL One Birmingham 2026 (esports.ru forecast pages from March). Their April 2026 PREMIER SERIES and December 2025 DreamLeague meetings exist, but I did not read the scores. The metaratings preview mentions only one 23 Oct 2026 PARI Universe meeting, for a different opponent (Legion). Overall, PARIVISION has beaten GamerLegion in the recent series I could read.",
+        "odds": "No independent bookmaker price found for this series. OddsPortal, GosuGamers and Hawk Live pages did not show it, and the only prices seen were kill and map markets for a different match (PARIVISION -1.5 maps at 1.28 vs Legion, Winline). Polymarket: series 0.825 for PARIVISION, 0.175 for GamerLegion. Its 24h history runs 0.84 to 0.825 (-1.8% relative), a drift with no news behind it. Market volume is thin at about $6.1k on the series (about $9.1k event total). Map-handicap market PARI -1.5 maps at 0.565 implies about 0.565 chance of a 2-0, consistent with a 0.825 series price. Second-price rule not met, so confidence is capped at low.",
+        "models": "No bookmaker-free rating was reachable (no Datdota, GosuGamers Elo or Liquipedia rating page was read). The only rating-like evidence is that PARIVISION has beaten GamerLegion in the recent series I could read, and went through the group unbeaten.",
+        "venue_weather": "Online event (BLAST Slam IX moved fully online per rdy.gg and Hawk Live). No venue or weather risk, but online play adds ping and connection variance."
+      },
+      "reason": "PARIVISION is the clear favourite on recent results and head-to-head, and both teams are already through. The fixture is verified: Field Level Media lists GamerLegion vs PARIVISION among the Tuesday seeding matches. But the favourite is priced at 0.825 on a thin $6k market with no independent price to confirm it. The five-player lineup was also not verified. The research record shows 60-70% favourites underperforming, and the brief caps confidence at low without a second price.",
+      "main_risk": "Bo3 variance against a team that also won its group unbeaten. PARIVISION has no stand-in problem that I could find, but its motivation is only the bye, and the loser stays in the event, so a lazier approach is plausible. The price is unverified against any bookmaker.",
+      "sources": [
+        "https://fieldlevelmedia.com/esports/1w-team-parivision-reach-seeding-matches-at-blast-slam-ix/",
+        "https://hawk.live/posts/blast-slam-ix-qualifiers-schedule-standings-results",
+        "https://cybersport.metaratings.ru/prognozy/dota-2/prognoz-na-match-parivision-legion-favorit-podtverdit-status/",
+        "https://gamma-api.polymarket.com/events?id=1446637",
+        "https://esports.ru/dota-2/forecasts/pari-vs-gl-23-03-2026-dota2/"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1443176",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.77,
+        "draw": 0,
+        "away": 0.23
+      },
+      "checks": {
+        "team_news": "Berlin: tipsterio.de preview of 24 Nov reports no official absences for either side. A PENNY-DEL item about 8 days old says defender Julian Chrobot is out for several months, and that Berlin signed Brandon Davidson (35, from HC Kometa Brno). Frankfurt: the same PENNY-DEL item says Daniel Pfaffengut and Daniel Wirt are out and captain Maksim Matushkin is expected to miss about three months. I found no fresh club injury report from today.",
+        "lineups": "Starting goalies are NOT confirmed (tipsterio: 'Offiziell bestätigt ist noch keiner der Starter'). Berlin has Jonas Neffin (94.81 percent save rate, 5 shutouts, league leader, played the 22 Nov game in Straubing) and Jack LaFontaine as the alternative, so a backup start after the Sunday game is a real risk. Frankfurt: Adam Scheel is the usual number one, with Cody Brenner and Nico Pertuch also used under coach Tom Pokel. No skater lineups available this morning.",
+        "rotation": "Berlin won 6-4 in Straubing on Sunday 22 Nov (14:00 start) and now play at home on Tuesday 24 Nov, so there is one day of rest. Frankfurt lost 3-5 in Iserlohn on a Sunday and 2-3 at home to Schwenningen on the Friday before it; I could not date that weekend exactly. No long travel for Berlin.",
+        "motivation": "Regular-season game, no hard-rule situation. Berlin leads the table (sport.de and ran.de, after matchday 18: 1st, 39 points, goals 66:39). Frankfurt is 14th and last (17 points, goals 40:49) and needs points. Both sides want the result, and the favourite has nothing secured, so this is no exclusion.",
+        "form": "Berlin: 3 wins and 2 losses in the last 5 per tipsterio, with a 6-4 win in Straubing on 22 Nov, and a 4-0 win in Krefeld in October. Frankfurt: 1 win and 4 losses in the last 5, four straight losses per the preview. Frankfurt scored 40 goals in 18 games, the weakest attack in the league, and coach Pokel says they lose too many one-goal games.",
+        "h2h": "Last meeting 2 Oct 2026: Frankfurt 0-2 Berlin (6,597 fans, Frankfurt competitive). All-time per tipsterio: Berlin 49 wins, Frankfurt 35 wins in 87 meetings. Berlin are the reigning DEL champions. Frankfurt tend to keep games close, so the likely failure is a narrow one-goal loss or an upset in a close game.",
+        "odds": "Polymarket home 0.795, unchanged over 24h (0.795 to 0.795, 0% move; thin market, volume not available to me). Second price: tipsterio.de shows Berlin win in regulation time at 1.39 (bookmaker not named), about 72% raw, and Berlin -1.5 at 1.64 (22bet). I found no moneyline including overtime, so I could not de-vig properly. Adding overtime to a 72% regulation win implies a moneyline of roughly 78-80%, which is consistent with Polymarket within 5 points but is not an independent two-way price. No downward drift found. data.odds is absent from the candidate entry.",
+        "models": "No Elo or net-rating model found. Proxy only: Berlin 1st with 39 points from 18 games (66:39 goals, +27) against Frankfurt last with 17 points (40:49, -9). A large gap in quality.",
+        "venue_weather": "Uber Arena, Berlin, indoor, puck drop 19:30 CET (18:30 UTC), doors 18:00. Confirmed by the club schedule, PENNY-DEL and ran.de. One Uber Arena listing carries an Ingolstadt heading for the same slot, which looks like a stale label. No postponement found."
+      },
+      "reason": "Fixture verified, no hard exclusion: no coach change found, not a derby, home arena, and the favourite has nothing secured while last-placed Frankfurt needs points. Berlin are far ahead in the table and Frankfurt have lost four straight. Confidence is capped at medium, with p trimmed to 0.77, because the goalie is unconfirmed after a Sunday game, the second price is regulation-time only, and favourites in this price band have underperformed.",
+      "main_risk": "Backup goalie (LaFontaine) in Berlin's net on one day of rest, or a tight game that Frankfurt win in a one-goal or overtime result. Frankfurt's goalie and the lineups are also unconfirmed. Starting goalies are unverified until pre-game.",
+      "sources": [
+        "https://tipsterio.de/sportwetten-tipps/eisbaeren-berlin-vs-loewen-frankfurt-wett-tipp-prognose-24-11-2026",
+        "https://www.straubing-tigers.de/brandt-hattrick-reicht-nicht-tigers-unterliegen-berlin-mit-46/",
+        "https://news-stadt.de/loewen-frankfurt/loewen-kaempfen-berlin-trifft-frankfurt-verliert-del-duell-vor-6-597-fans-mit-0-2",
+        "https://www.loewen-frankfurt.de/saison/aktuelles/details/loewen-frankfurt-unterliegen-in-iserlohn",
+        "https://www.penny-del.org/news/detail/news-update-kaderplanung-in-der-penny-del-1",
+        "https://www.uber-arena.de/events/detail/eisbaeren-berlin-loewen-frankfurt-8/2026-11-24-1930"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1446636",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.72,
+        "draw": 0,
+        "away": 0.28
+      },
+      "checks": {
+        "team_news": "No stand-in found for either side. The dota2protips.com BLAST Slam IX preview lists Team Yandex as watson, Chira_Junior, ATF, Saksa and Malady, and 1win as Pure, BZM, 33, Ari and Whitemon. I found no injury or visa news today, but I could not read Liquipedia or Dotabuff (Liquipedia returned 403), so the rosters are not confirmed from an official event page.",
+        "lineups": "Only the preview rosters above, from one source. I found no second source and no announced five for the series.",
+        "rotation": "I could not verify today's schedule density or the previous series. A search snippet says BLAST Slam IX runs 20-29 Nov 2026 and lists the seeding match for 24 Nov at 15:00 CET.",
+        "motivation": "The snippet gives the format as: the group winners meet in seeding matches, and the winners get an automatic upper bracket semifinal spot. Both sides therefore appear to have topped their groups and are already through to the playoffs, so the favourite has a spot to win but is not eliminated by a loss. I could not confirm this from the official bracket or standings. It is a soft risk (a loss costs Yandex the bye), not a hard exclusion, because the opponent is not the side that still needs the result.",
+        "form": "Not verified for the last 10 series. Context only: Yandex reached the Slam VII and Slam VIII upper bracket finals or later, per GosuGamers and esports.gg headlines. The preview author calls 1win weak, saying they have declined since March, lost leads, and lost 0-2 to Team Spirit at 1win Essence III. That is one commentator's opinion.",
+        "h2h": "Not verified. Search results show a Team Yandex vs 1win series at PGL Wallachia Season 9 (24 Sep 2026, esports.ru), but I did not read the result.",
+        "odds": "Polymarket home 0.745 now, down from 0.775 24h ago (data.move_24h, -3.9% relative). This exceeds the 3% threshold. I found no news that explains the fall, though I could not check DLTV or Hawk Live. I found no independent second price for this series, only Melbet outright odds from tips.gg (18 Nov): Spirit 2.2, Yandex 2.9, 1win 41. The candidates file has no data.odds or data.rating. Polymarket volume was not checked. Rule: an unexplained fall of 3% or more with no second price means low.",
+        "models": "No Elo or rating found (GosuGamers and Datdota were not read). The outright odds above suggest 1win is a long shot and Yandex a top-two title favourite, which fits a strong favourite here, but this is not a bookmaker-free model.",
+        "venue_weather": "Not verified whether this is LAN or online. The sources do not say."
+      },
+      "reason": "Yandex is the clear class favourite on reputation, with no stand-in found and a weak-looking opponent. But the price fell 3.9% in 24h with no explanation, no independent second price was found, and lineups, venue, form and h2h are unverified. Favourites priced 60-70% have underperformed recently. p is shaved to 0.72.",
+      "main_risk": "A BO3 upset by 1win, helped by the new patch 7.42, with Yandex having less to lose (both sides are already through, the prize is the upper bracket semifinal spot). A late stand-in or a drift in the price unexplained by news is also possible.",
+      "sources": [
+        "https://www.dota2protips.com/ru/blog/blast-slam-ix-preview",
+        "https://tips.gg/article/blast-slam-ix-winner-odds/",
+        "https://esports.gg/news/dota-2-blast-slam-9-2026-schedule-teams-prize-pool/",
+        "https://esports.ru/dota-2/forecasts/1win-vs-ty-24-09-2026-dota2/",
+        "https://www.gosugamers.net/dota2/news/79322-team-yandex-advance-to-upper-bracket-finals-in-blast-slam-viii-playoffs"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1438278",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.69,
+        "draw": 0,
+        "away": 0.31
+      },
+      "checks": {
+        "team_news": "Not verified. I found no injury or suspension report for either side. The liiga.fi game page lists no absences.",
+        "lineups": "Not verified, and this is the key gap. The liiga.fi API has no lineup or starting goalie for game 2701475 yet. A web search found no preview naming the 24.11 goalies. Ilves and Assat have each used two goalies this season (older previews name Pavlat and Armalis for Ilves, Bednar and Lindberg for Assat), so a backup in goal is possible and unchecked.",
+        "rotation": "Ilves won 6-2 at home against Tappara on Fri 20 Nov, so they have 4 days' rest. Their next game is away at Sport on 26 Nov. Assat lost 1-6 at K-Espoo on Sat 21 Nov, so they have 3 days' rest. The game is at Ilves' home rink, Tampereen Kansi Areena, so no travel for Ilves.",
+        "motivation": "Regular season, game week 12, standings before the game (liiga.fi API). Ilves are 2nd with 49 points from 25 games. Assat are 5th with 40 points from 25 games. Neither has secured anything, so no hard exclusion.",
+        "form": "Ilves are 2nd with 73 goals for and 49 against. Their last 5 are K-Espoo away W 5-2, Tappara home W 6-2, SaiPa home W 3-1, SaiPa away L 3-4 and Pelicans home W 4-1. Assat are 5th with 58 goals for and 64 against, a goal difference of -6. Their last 5 are K-Espoo away L 1-6, Pelicans home L 2-5, Jokerit home W 3-0, Pelicans away W 5-2 and Jukurit away L 1-3. Assat lost 3 of those 5.",
+        "h2h": "This season Assat beat Ilves 5-1 in Pori on 4 Sep. The return game is at Tampere on 24 Nov, and there is one more meeting on 19 Jan and a last one in Pori on 13 Mar. Assat have already won once against Ilves, so a loss is not a one-off.",
+        "odds": "Polymarket Ilves 0.725 (volume about $64, so a very thin market). The 24h history stayed between 0.71 and 0.73 and ended at 0.725, so there is no price move. Second price is Veikkaus via the liiga.fi API gamblingEvent: regulation-time 1X2 of Ilves 1.70, tie 4.20, Assat 4.60. De-vigged that is about 0.564 / 0.228 / 0.208. Splitting the tie roughly 55/45 for overtime gives about 0.69 for Ilves including OT/SO. That is within 5 points of Polymarket, though it is the lower number.",
+        "models": "No bookmaker-free rating was available. On the standings Ilves lead Assat by 9 points and 0.36 points per game, and by a goal difference of +24 against -6. That supports Ilves as the favourite, but this is season data and not a model.",
+        "venue_weather": "Home rink Tampereen Kansi Areena in Tampere, a normal venue with no weather or ice issue. Puck drop is 18:30 Finnish time (16:30 UTC)."
+      },
+      "reason": "Ilves are clearly the stronger team (2nd against 5th, a +24 goal difference against -6) and play at home on 4 days' rest. Polymarket and Veikkaus (about 0.69) agree within 5 points, and the price has not moved. There is no hard exclusion. The starting goalies and the injury picture could not be verified this morning, and the Polymarket market is very thin. Assat already beat Ilves 5-1 this season, and favourites priced 60-70% have been over-rated in the research record. Confidence stays low until the goalies are known.",
+      "main_risk": "Unconfirmed goalies: a backup in net for Ilves, or a hot Assat goalie, could swing the game. Hockey is high-variance, and the game can also be lost in overtime or a shootout. The Polymarket volume is only about $64.",
+      "sources": [
+        "https://liiga.fi/api/v2/games/2027/2701475",
+        "https://liiga.fi/api/v2/standings?season=2027&tournament=runkosarja",
+        "https://www.veikkaus.fi/fi/vedonlyonti/pitkaveto?t=3-1-1&kohde=1-c_1278295",
+        "https://gamma-api.polymarket.com/events?id=1438278",
+        "https://assat.com/assat-ilves-otteluennakko/"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1437171",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.68,
+        "draw": 0,
+        "away": 0.32
+      },
+      "checks": {
+        "team_news": "No injury or suspension list found for either side; sportmail.ru match page lists none for Traktor or Lada, and notes goalie Dmitry Nikolaev left Traktor for Barys in a trade. No club or reporter confirmation read today.",
+        "lineups": "Expected starting goalies NOT found for either side (searched sportmail.ru and general press); lineups are not published on the morning of the game. The key goalie check is unverified.",
+        "rotation": "Traktor home game in Chelyabinsk, 17:00 local, KHL week 13. Traktor's last games: L 5:6 OT vs Metallurg Mg (19 Nov), L 1:4 vs Sibir (17 Nov), W 5:1 at SKA (15 Nov), L 3:4 vs Severstal (13 Nov). Lada won 3:2 at Shanghai on 22 Nov and has travelled since. No back-to-back found for Traktor; Lada's travel to Chelyabinsk is a mild plus for Traktor.",
+        "motivation": "Per sportmail.ru, after 29 games each: Traktor 10W-11L, 71-77 goals, 40 pts; Lada 4W-17L, 48-96 goals, 23 pts (bottom side). No hard-exclusion scenario found; Traktor still has a playoff race to run.",
+        "form": "Traktor: 2 wins in last 5 (5:2 Shanghai 10 Nov, 5:1 SKA 15 Nov), lost 3 of the last 4 incl. an OT loss, goal difference -6 over 29 games. Lada: 2:7 at Metallurg (17 Nov), 3:4 vs Severstal (10 Nov), 0:5 at Salavat Yulaev (4 Nov), 3:2 win at Shanghai (22 Nov); goal difference -48.",
+        "h2h": "Last 10 meetings 2023-2026 (sportmail.ru): Traktor 8 wins, Lada 2. Recent: 23 Feb 2026 Traktor 4-2, 25 Dec 2025 Lada 1-6 Traktor, 10 Mar 2025 Lada 0-6, 21 Feb 2025 Traktor 4-1, 7 Jan 2025 Traktor 5-0.",
+        "odds": "Polymarket Traktor 0.715 now vs 0.725 24h ago (-1.4% relative, no alarm); market is thin: volume about $6.9, liquidity about $4.3k. Second price: sportmail.ru shows Fonbet/Paribet/Winline 1X2 regulation 1.60 / 4.40 / 5.00; de-vigged about 59.4% / 21.6% / 19.0%; adding roughly half of the draw share for OT/shootout gives Traktor about 0.70-0.71, in line with Polymarket within 5 points. A first search snippet quoted 2.00 / 4.19 / 3.26 for the same page, so the bookmaker numbers are inconsistent between reads and unconfirmed.",
+        "models": "No bookmaker-free rating found. Season goal difference: Traktor 71-77 (-6), Lada 48-96 (-48), points 40 vs 23 in 29 games each, which supports Traktor as the clear favourite but with a mediocre record for a 71% price.",
+        "venue_weather": "Indoor arena, LA Traktor im. V. Belousova, Chelyabinsk (home venue), 17:00 local. No weather issue."
+      },
+      "reason": "Fixture verified (KHL, 24 Nov 2026, Chelyabinsk). Traktor are the better side by a wide margin and the second price roughly agrees, but starting goalies are unverified, the market is very thin, Traktor are only 10-11 on the season and lost 3 of their last 4. A 71% favourite in this band needs the goalie check clean; it is not.",
+      "main_risk": "Unconfirmed starting goalies (Traktor lost Nikolaev in a trade; a backup in goal is a real risk) combined with Traktor's poor recent form (3 losses in last 4) and a thin Polymarket market; an upset or OT/shootout loss to the bottom side.",
+      "sources": [
+        "https://sportmail.ru/hockey-khl/407/match/8129397/",
+        "https://gamma-api.polymarket.com/events?id=1437171",
+        "https://hctraktor.org/media/news/11778-fourth-time-the-charm/",
+        "https://www.championat.com/hockey/_superleague/tournament/7092/table/"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1437173",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.66,
+        "draw": 0,
+        "away": 0.34
+      },
+      "checks": {
+        "team_news": "Not verified. Searches (English and Russian) returned no 2026-27 injury or suspension news for either side.",
+        "lineups": "Not verified. No expected starting goalie found for Metallurg or Dinamo Minsk. A backup in goal for either side cannot be ruled out.",
+        "rotation": "Not verified. I found no schedule, travel or rest data for either team. Dinamo Minsk's trip to Magnitogorsk (Urals) is long, but I could not confirm their previous game or any back-to-back.",
+        "motivation": "Not verified. I found no current KHL table for 24 Nov 2026. Only undated 2025-26 snapshots turned up, where Metallurg were first (91 pts) and Dinamo Minsk lower (76 pts).",
+        "form": "Not verified for the current season. The search showed only that Metallurg lost 1-4 at Dynamo Moscow on 2 Mar 2026, which is last season.",
+        "h2h": "Not verified. No recent Metallurg v Dinamo Minsk result was found.",
+        "odds": "Polymarket home 0.69 now, against 0.675 24h ago (relative +2.2%, no adverse move; data.move_24h, fetched 2026-11-24 06:52Z). No independent bookmaker price was found, and the candidates file has no data.odds for this game. Polymarket volume was not checked. Under the brief's rule a kept game cannot be medium without an independent price.",
+        "models": "No bookmaker-free rating was found. Only undated 2025-26 points snapshots (Sportradar) favour Metallurg.",
+        "venue_weather": "Home arena in Magnitogorsk (Russia). No neutral-venue or weather issue found, but I did not check this."
+      },
+      "reason": "The fixture was not independently verified beyond the candidates file. The key checks are all missing: the starting goalies, the current-season form and table, Dinamo's travel and schedule, and a second price. Current searches found nothing. The market favourite is Metallurg at 0.69, and I have no evidence to back that price, so I shaded p slightly down.",
+      "main_risk": "Unconfirmed starting goalies, possibly a backup for Metallurg, and Dinamo's travel and schedule are unknown. Favourites priced 60-70% have hit only 58% against 65% expected. KHL games are often close and decided in overtime or a shootout.",
+      "sources": [
+        "https://en.khl.ru/news",
+        "https://sportmail.ru/news/hockey-khl/72723997/",
+        "https://statshub.sportradar.com/admiral/en/match/61811334",
+        "https://www.sport-express.net/hockey/khl/news/1068194/"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1443180",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.58,
+        "draw": 0,
+        "away": 0.42
+      },
+      "checks": {
+        "team_news": "No injury or suspension report for either side found in searches (two German-language searches plus the penny-del.org schedule pages and Sportschau roster pages). Unknown, not clean.",
+        "lineups": "Expected starting goalies NOT found. Sportschau's 2026/27 roster page lists Cologne goalies Felix Brückmann, Janne Juvonen, Aaron Kaiser and Nico Wiens, and Nürnberg goalies Luis Janett and Niklas Treutle. No source says who starts for either side, so the key check is unverified. Only one lineup source, no confirmation.",
+        "rotation": "Both teams played on Sunday 22 Nov (Cologne lost 2-4 at Mannheim, Nürnberg beat Bremerhaven 2-1 at home), so rest is equal at 2 days. Cologne also played 20 Nov at München (3-4 OT loss). Nürnberg played 20 Nov at Augsburg (4-5 SO loss). Next games: Cologne home to Straubing 27 Nov, Nürnberg at Wolfsburg 27 Nov. No travel disadvantage found.",
+        "motivation": "Matchday 19 of the regular season. I could not retrieve the 2026/27 standings table (the penny-del.org table URL gave 404 and Sportschau tables are empty templates), so the table position is unverified. No hard-exclusion facts found: not a derby, no coach change found, normal venue (Cologne home, 19:30 local).",
+        "form": "Cologne, last 10 per penny-del.org: W Bremerhaven 4-1, L OT Schwenningen 2-3, W Straubing 5-3, L OT Mannheim 5-6, W Krefeld 4-0, W Iserlohn 3-2 SO, L Schwenningen 1-2, L Wolfsburg 1-4, L München 3-4 OT, L Mannheim 2-4. That is 4 wins in 10 and 5 losses in the last 6 (two in OT), and scoring is down. The fetch tool reported some scores in a mixed order, so the exact scores are not fully reliable. Nürnberg, last 10: 7 wins, 3 losses (including 6-2 München, 7-2 Krefeld, 8-1 Wolfsburg, 2-1 Bremerhaven); the 2 recent losses were a 4-5 SO loss at Augsburg and a 1-2 loss at München on 1 Nov.",
+        "h2h": "Cologne beat Nürnberg 4-2 at home on 11 Oct 2026 (matchday 8, led 2-0 after the first period). Last season Cologne won 4-2 at Nürnberg on 6 Jan 2026 and 4-2 on 21 Sep 2025 per the search snippets. Nürnberg won at Cologne earlier in the 2025/26 series: not verified. DEL games often go to OT, so the two-way moneyline carries extra variance.",
+        "odds": "Second independent price NOT found (no ESPN/DraftKings entry in the candidates data for this game; data holds only move_24h). Polymarket: Cologne 0.625 now vs 0.635 24h ago (relative -1.6%, flat at 0.635 then a one-tick step to 0.625 in the last 24h price history). Under the 3% threshold, but there is no independent bookmaker price to confirm it. Thin market: liquidity about 3,190, no volume shown for this market.",
+        "models": "No bookmaker-free rating found for DEL (no Elo, goal-difference table or xG source retrieved, standings table unavailable). Nürnberg's recent results (7-3 in the last 10) are better than Cologne's (4-6, 1-5 in the last 6), which argues against a 62.5% Cologne price.",
+        "venue_weather": "Cologne home arena, 19:30 local (18:30 UTC), indoor, normal venue. Fixture verified on the Sportschau and penny-del.org 2026/27 schedule pages as DEL matchday 19 on 24.11.2026."
+      },
+      "reason": "Fixture verified, no hard exclusion found. Confidence is low because the expected starting goalies are unknown, no independent second price was found for a thin market, standings and injury news could not be retrieved, and Cologne enter on a poor run (5 losses in the last 6) against an in-form Nürnberg side. P lowered 4.5 points from the market for that form gap.",
+      "main_risk": "Cologne's recent slump (5 losses in 6, scoring down) meets an in-form Nürnberg; unconfirmed starting goalies; a one-goal or OT game in a market that includes overtime and shootout.",
+      "sources": [
+        "https://www.sportschau.de/live-und-ergebnisse/eishockey/deutschland-del/ma12189742/koelner-haie_nuernberg-ice-tigers/spiel-kader",
+        "https://www.penny-del.org/teams/koelner-haie/spielplan",
+        "https://www.penny-del.org/teams/nuernberg-ice-tigers/spielplan",
+        "https://gamma-api.polymarket.com/events?id=1443180",
+        "https://clob.polymarket.com/prices-history?market=46469651929759168518648098850070483587762356982706175060687585620584560614318&interval=1d&fidelity=60",
+        "https://www.sport.de/eishockey/deutschland-del/ma12189499/koelner-haie_nuernberg-ice-tigers/liveticker/"
+      ],
+      "views": {},
+      "prices": []
+    }
+  ]
+}
