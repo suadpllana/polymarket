@@ -1,0 +1,1320 @@
+{
+  "date": "2026-11-26",
+  "window": {
+    "start": "2026-11-26T07:21:13.327Z",
+    "end": "2026-11-26T22:00:00.000Z"
+  },
+  "games_in_window": 58,
+  "games": [
+    {
+      "id": "1373508",
+      "league": "Europa League",
+      "sport": "football",
+      "event": "FC Red Bull Salzburg vs. Ararat-Armenia FA",
+      "home": "FC Red Bull Salzburg",
+      "away": "Ararat-Armenia FA",
+      "start": "2026-11-26T17:45:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.8563,
+        "draw": 0.0973,
+        "away": 0.0464
+      },
+      "p_first": {
+        "home": 0.8563,
+        "draw": 0.0973,
+        "away": 0.0464
+      },
+      "legs_in_range": [
+        {
+          "key": "ah_home_-1.5",
+          "label": "Handicap",
+          "selection": "FC Red Bull Salzburg -1.5",
+          "p_market": 0.67,
+          "fair_odds": 1.49
+        },
+        {
+          "key": "ah_away_+2.5",
+          "label": "Handicap",
+          "selection": "Ararat-Armenia FA +2.5",
+          "p_market": 0.545,
+          "fair_odds": 1.83
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.755,
+          "fair_odds": 1.32
+        },
+        {
+          "key": "ou_3.5_over",
+          "label": "Total goals",
+          "selection": "Over 3.5",
+          "p_market": 0.545,
+          "fair_odds": 1.83
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.665,
+          "fair_odds": 1.5
+        },
+        {
+          "key": "ou_5.5_under",
+          "label": "Total goals",
+          "selection": "Under 5.5",
+          "p_market": 0.815,
+          "fair_odds": 1.23
+        }
+      ],
+      "legs_first": {
+        "ah_home_-1.5": 0.67,
+        "ah_away_+2.5": 0.545,
+        "ou_2.5_over": 0.755,
+        "ou_3.5_over": 0.545,
+        "ou_4.5_under": 0.665,
+        "ou_5.5_under": 0.815
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.825,
+          "to": 0.855,
+          "relative_change": 0.036
+        },
+        "fetched_at": "2026-11-26T06:51:25.488Z"
+      }
+    },
+    {
+      "id": "1404578",
+      "league": "Europa League",
+      "sport": "football",
+      "event": "Juventus FC vs. AS Omónoia Leukosías",
+      "home": "Juventus FC",
+      "away": "AS Omónoia Leukosías",
+      "start": "2026-11-26T20:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.8336,
+        "draw": 0.1128,
+        "away": 0.0536
+      },
+      "p_first": {
+        "home": 0.8336,
+        "draw": 0.1128,
+        "away": 0.0536
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Juventus FC",
+          "p_market": 0.8336,
+          "fair_odds": 1.2
+        },
+        {
+          "key": "ah_home_-1.5",
+          "label": "Handicap",
+          "selection": "Juventus FC -1.5",
+          "p_market": 0.635,
+          "fair_odds": 1.57
+        },
+        {
+          "key": "ah_away_+2.5",
+          "label": "Handicap",
+          "selection": "AS Omónoia Leukosías +2.5",
+          "p_market": 0.59,
+          "fair_odds": 1.69
+        },
+        {
+          "key": "ah_away_+3.5",
+          "label": "Handicap",
+          "selection": "AS Omónoia Leukosías +3.5",
+          "p_market": 0.775,
+          "fair_odds": 1.29
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.695,
+          "fair_odds": 1.44
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.725,
+          "fair_odds": 1.38
+        },
+        {
+          "key": "btts_no",
+          "label": "Both teams to score",
+          "selection": "No",
+          "p_market": 0.535,
+          "fair_odds": 1.87
+        }
+      ],
+      "legs_first": {
+        "home": 0.8336,
+        "ah_home_-1.5": 0.635,
+        "ah_away_+2.5": 0.59,
+        "ah_away_+3.5": 0.775,
+        "ou_2.5_over": 0.695,
+        "ou_4.5_under": 0.725,
+        "btts_no": 0.535
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.825,
+          "to": 0.835,
+          "relative_change": 0.012
+        },
+        "fetched_at": "2026-11-26T06:51:25.458Z"
+      }
+    },
+    {
+      "id": "1404580",
+      "league": "Europa League",
+      "sport": "football",
+      "event": "Olympique Lyonnais vs. Lillestrøm SK",
+      "home": "Olympique Lyonnais",
+      "away": "Lillestrøm SK",
+      "start": "2026-11-26T20:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.8064,
+        "draw": 0.1271,
+        "away": 0.0665
+      },
+      "p_first": {
+        "home": 0.8064,
+        "draw": 0.1271,
+        "away": 0.0665
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Olympique Lyonnais",
+          "p_market": 0.8064,
+          "fair_odds": 1.24
+        },
+        {
+          "key": "ah_home_-1.5",
+          "label": "Handicap",
+          "selection": "Olympique Lyonnais -1.5",
+          "p_market": 0.605,
+          "fair_odds": 1.65
+        },
+        {
+          "key": "ah_away_+2.5",
+          "label": "Handicap",
+          "selection": "Lillestrøm SK +2.5",
+          "p_market": 0.615,
+          "fair_odds": 1.63
+        },
+        {
+          "key": "ah_away_+3.5",
+          "label": "Handicap",
+          "selection": "Lillestrøm SK +3.5",
+          "p_market": 0.795,
+          "fair_odds": 1.26
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.695,
+          "fair_odds": 1.44
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.725,
+          "fair_odds": 1.38
+        }
+      ],
+      "legs_first": {
+        "home": 0.8064,
+        "ah_home_-1.5": 0.605,
+        "ah_away_+2.5": 0.615,
+        "ah_away_+3.5": 0.795,
+        "ou_2.5_over": 0.695,
+        "ou_4.5_under": 0.725
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.825,
+          "to": 0.805,
+          "relative_change": -0.024
+        },
+        "fetched_at": "2026-11-26T06:51:25.854Z"
+      }
+    },
+    {
+      "id": "1324977",
+      "league": "NFL",
+      "sport": "american_football",
+      "event": "Eagles vs. Cowboys",
+      "home": "Eagles",
+      "away": "Cowboys",
+      "start": "2026-11-26T21:30:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.205,
+        "draw": 0,
+        "away": 0.795
+      },
+      "p_first": {
+        "home": 0.205,
+        "draw": 0,
+        "away": 0.795
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "Cowboys",
+          "p_market": 0.795,
+          "fair_odds": 1.26
+        }
+      ],
+      "legs_first": {
+        "away": 0.795
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261126",
+          "espn_match": "Philadelphia Eagles at Dallas Cowboys",
+          "decimal": {
+            "home": 4.48,
+            "draw": null,
+            "away": 1.22
+          },
+          "opening": {
+            "home": 2,
+            "draw": null,
+            "away": 1.83
+          },
+          "p_devig": {
+            "home": 0.215,
+            "draw": 0,
+            "away": 0.785
+          },
+          "total": 48.5
+        },
+        "move_24h": {
+          "side": "away",
+          "from": 0.795,
+          "to": 0.795,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-26T06:51:25.809Z"
+      }
+    },
+    {
+      "id": "1404574",
+      "league": "Europa League",
+      "sport": "football",
+      "event": "Sunderland AFC vs. Jagiellonia Białystok",
+      "home": "Sunderland AFC",
+      "away": "Jagiellonia Białystok",
+      "start": "2026-11-26T20:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.7865,
+        "draw": 0.1472,
+        "away": 0.0664
+      },
+      "p_first": {
+        "home": 0.7865,
+        "draw": 0.1472,
+        "away": 0.0664
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Sunderland AFC",
+          "p_market": 0.7865,
+          "fair_odds": 1.27
+        },
+        {
+          "key": "ah_home_-1.5",
+          "label": "Handicap",
+          "selection": "Sunderland AFC -1.5",
+          "p_market": 0.555,
+          "fair_odds": 1.8
+        },
+        {
+          "key": "ah_away_+2.5",
+          "label": "Handicap",
+          "selection": "Jagiellonia Białystok +2.5",
+          "p_market": 0.665,
+          "fair_odds": 1.5
+        },
+        {
+          "key": "ah_away_+3.5",
+          "label": "Handicap",
+          "selection": "Jagiellonia Białystok +3.5",
+          "p_market": 0.835,
+          "fair_odds": 1.2
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.835,
+          "fair_odds": 1.2
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.62,
+          "fair_odds": 1.61
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.605,
+          "fair_odds": 1.65
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.785,
+          "fair_odds": 1.27
+        },
+        {
+          "key": "btts_no",
+          "label": "Both teams to score",
+          "selection": "No",
+          "p_market": 0.545,
+          "fair_odds": 1.83
+        }
+      ],
+      "legs_first": {
+        "home": 0.7865,
+        "ah_home_-1.5": 0.555,
+        "ah_away_+2.5": 0.665,
+        "ah_away_+3.5": 0.835,
+        "ou_1.5_over": 0.835,
+        "ou_2.5_over": 0.62,
+        "ou_3.5_under": 0.605,
+        "ou_4.5_under": 0.785,
+        "btts_no": 0.545
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.795,
+          "to": 0.785,
+          "relative_change": -0.013
+        },
+        "fetched_at": "2026-11-26T06:51:26.099Z"
+      }
+    },
+    {
+      "id": "1373520",
+      "league": "Europa League",
+      "sport": "football",
+      "event": "Beşiktaş JK vs. MH Hapoel Be'er Sheva",
+      "home": "Beşiktaş JK",
+      "away": "MH Hapoel Be'er Sheva",
+      "start": "2026-11-26T17:45:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.7736,
+        "draw": 0.143,
+        "away": 0.0835
+      },
+      "p_first": {
+        "home": 0.7736,
+        "draw": 0.143,
+        "away": 0.0835
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Beşiktaş JK",
+          "p_market": 0.7736,
+          "fair_odds": 1.29
+        },
+        {
+          "key": "ah_home_-1.5",
+          "label": "Handicap",
+          "selection": "Beşiktaş JK -1.5",
+          "p_market": 0.555,
+          "fair_odds": 1.8
+        },
+        {
+          "key": "ah_away_+2.5",
+          "label": "Handicap",
+          "selection": "MH Hapoel Be'er Sheva +2.5",
+          "p_market": 0.655,
+          "fair_odds": 1.53
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.695,
+          "fair_odds": 1.44
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.715,
+          "fair_odds": 1.4
+        },
+        {
+          "key": "ou_5.5_under",
+          "label": "Total goals",
+          "selection": "Under 5.5",
+          "p_market": 0.845,
+          "fair_odds": 1.18
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.53,
+          "fair_odds": 1.89
+        }
+      ],
+      "legs_first": {
+        "home": 0.7736,
+        "ah_home_-1.5": 0.555,
+        "ah_away_+2.5": 0.655,
+        "ou_2.5_over": 0.695,
+        "ou_4.5_under": 0.715,
+        "ou_5.5_under": 0.845,
+        "btts_yes": 0.53
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126",
+          "espn_match": "Hapoel Be'er at Besiktas",
+          "decimal": {
+            "home": 1.26,
+            "draw": 6.5,
+            "away": 10
+          },
+          "opening": {
+            "home": 1.25,
+            "draw": 6,
+            "away": 9.5
+          },
+          "p_devig": {
+            "home": 0.757,
+            "draw": 0.147,
+            "away": 0.096
+          },
+          "total": 3.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.805,
+          "to": 0.775,
+          "relative_change": -0.037
+        },
+        "fetched_at": "2026-11-26T06:51:26.028Z"
+      }
+    },
+    {
+      "id": "1458441",
+      "league": "CS2",
+      "sport": "esports",
+      "event": "Counter-Strike: Lynn Vision vs PVISION (BO3) - PGL Major Singapore Stage 1",
+      "home": "Lynn Vision",
+      "away": "PVISION",
+      "start": "2026-11-26T08:30:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.235,
+        "draw": 0,
+        "away": 0.765
+      },
+      "p_first": {
+        "home": 0.235,
+        "draw": 0,
+        "away": 0.765
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "PVISION",
+          "p_market": 0.765,
+          "fair_odds": 1.31
+        }
+      ],
+      "legs_first": {
+        "away": 0.765
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.78,
+          "to": 0.765,
+          "relative_change": -0.019
+        },
+        "fetched_at": "2026-11-26T06:51:26.079Z"
+      }
+    },
+    {
+      "id": "1404585",
+      "league": "Europa League",
+      "sport": "football",
+      "event": "TSG 1899 Hoffenheim vs. SK Puntigamer Sturm Graz",
+      "home": "TSG 1899 Hoffenheim",
+      "away": "SK Puntigamer Sturm Graz",
+      "start": "2026-11-26T20:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.7365,
+        "draw": 0.1569,
+        "away": 0.1066
+      },
+      "p_first": {
+        "home": 0.7365,
+        "draw": 0.1569,
+        "away": 0.1066
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "TSG 1899 Hoffenheim",
+          "p_market": 0.7365,
+          "fair_odds": 1.36
+        },
+        {
+          "key": "ah_away_+2.5",
+          "label": "Handicap",
+          "selection": "SK Puntigamer Sturm Graz +2.5",
+          "p_market": 0.695,
+          "fair_odds": 1.44
+        },
+        {
+          "key": "ah_away_+3.5",
+          "label": "Handicap",
+          "selection": "SK Puntigamer Sturm Graz +3.5",
+          "p_market": 0.845,
+          "fair_odds": 1.18
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.705,
+          "fair_odds": 1.42
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.715,
+          "fair_odds": 1.4
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.575,
+          "fair_odds": 1.74
+        }
+      ],
+      "legs_first": {
+        "home": 0.7365,
+        "ah_away_+2.5": 0.695,
+        "ah_away_+3.5": 0.845,
+        "ou_2.5_over": 0.705,
+        "ou_4.5_under": 0.715,
+        "btts_yes": 0.575
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126",
+          "espn_match": "SK Sturm Graz at TSG Hoffenheim",
+          "decimal": {
+            "home": 1.35,
+            "draw": 5.75,
+            "away": 7.5
+          },
+          "opening": {
+            "home": 1.34,
+            "draw": 5.5,
+            "away": 7
+          },
+          "p_devig": {
+            "home": 0.707,
+            "draw": 0.166,
+            "away": 0.127
+          },
+          "total": 3.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.725,
+          "to": 0.735,
+          "relative_change": 0.014
+        },
+        "fetched_at": "2026-11-26T06:51:26.068Z"
+      }
+    },
+    {
+      "id": "1373512",
+      "league": "Europa League",
+      "sport": "football",
+      "event": "Olympique de Marseille vs. PFK Levski Sofia",
+      "home": "Olympique de Marseille",
+      "away": "PFK Levski Sofia",
+      "start": "2026-11-26T17:45:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.725,
+        "draw": 0.17,
+        "away": 0.105
+      },
+      "p_first": {
+        "home": 0.725,
+        "draw": 0.17,
+        "away": 0.105
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Olympique de Marseille",
+          "p_market": 0.725,
+          "fair_odds": 1.38
+        },
+        {
+          "key": "ah_away_+2.5",
+          "label": "Handicap",
+          "selection": "PFK Levski Sofia +2.5",
+          "p_market": 0.735,
+          "fair_odds": 1.36
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.815,
+          "fair_odds": 1.23
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.595,
+          "fair_odds": 1.68
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.625,
+          "fair_odds": 1.6
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.805,
+          "fair_odds": 1.24
+        }
+      ],
+      "legs_first": {
+        "home": 0.725,
+        "ah_away_+2.5": 0.735,
+        "ou_1.5_over": 0.815,
+        "ou_2.5_over": 0.595,
+        "ou_3.5_under": 0.625,
+        "ou_4.5_under": 0.805
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126",
+          "espn_match": "Levski Sofia at Marseille",
+          "decimal": {
+            "home": 1.35,
+            "draw": 5.5,
+            "away": 8.5
+          },
+          "opening": {
+            "home": 1.48,
+            "draw": 4.4,
+            "away": 6
+          },
+          "p_devig": {
+            "home": 0.712,
+            "draw": 0.175,
+            "away": 0.113
+          },
+          "total": 2.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.715,
+          "to": 0.725,
+          "relative_change": 0.014
+        },
+        "fetched_at": "2026-11-26T06:51:26.287Z"
+      }
+    },
+    {
+      "id": "1373478",
+      "league": "Europa League",
+      "sport": "football",
+      "event": "RU Saint-Gilloise vs. KKS Lech Poznań",
+      "home": "RU Saint-Gilloise",
+      "away": "KKS Lech Poznań",
+      "start": "2026-11-26T17:45:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.7235,
+        "draw": 0.1631,
+        "away": 0.1134
+      },
+      "p_first": {
+        "home": 0.7235,
+        "draw": 0.1631,
+        "away": 0.1134
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "RU Saint-Gilloise",
+          "p_market": 0.7235,
+          "fair_odds": 1.38
+        },
+        {
+          "key": "ah_away_+2.5",
+          "label": "Handicap",
+          "selection": "KKS Lech Poznań +2.5",
+          "p_market": 0.715,
+          "fair_odds": 1.4
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.665,
+          "fair_odds": 1.5
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.565,
+          "fair_odds": 1.77
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.755,
+          "fair_odds": 1.32
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.545,
+          "fair_odds": 1.83
+        }
+      ],
+      "legs_first": {
+        "home": 0.7235,
+        "ah_away_+2.5": 0.715,
+        "ou_2.5_over": 0.665,
+        "ou_3.5_under": 0.565,
+        "ou_4.5_under": 0.755,
+        "btts_yes": 0.545
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.725,
+          "to": 0.725,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-26T06:51:26.376Z"
+      }
+    },
+    {
+      "id": "1404572",
+      "league": "Europa League",
+      "sport": "football",
+      "event": "Ferencvárosi TC vs. NK Celje",
+      "home": "Ferencvárosi TC",
+      "away": "NK Celje",
+      "start": "2026-11-26T20:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.7135,
+        "draw": 0.1731,
+        "away": 0.1134
+      },
+      "p_first": {
+        "home": 0.7135,
+        "draw": 0.1731,
+        "away": 0.1134
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Ferencvárosi TC",
+          "p_market": 0.7135,
+          "fair_odds": 1.4
+        },
+        {
+          "key": "ah_away_+2.5",
+          "label": "Handicap",
+          "selection": "NK Celje +2.5",
+          "p_market": 0.735,
+          "fair_odds": 1.36
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.835,
+          "fair_odds": 1.2
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.625,
+          "fair_odds": 1.6
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.605,
+          "fair_odds": 1.65
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.785,
+          "fair_odds": 1.27
+        }
+      ],
+      "legs_first": {
+        "home": 0.7135,
+        "ah_away_+2.5": 0.735,
+        "ou_1.5_over": 0.835,
+        "ou_2.5_over": 0.625,
+        "ou_3.5_under": 0.605,
+        "ou_4.5_under": 0.785
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126",
+          "espn_match": "NK Celje at Ferencvaros",
+          "decimal": {
+            "home": 1.37,
+            "draw": 5.5,
+            "away": 7.5
+          },
+          "opening": {
+            "home": 1.34,
+            "draw": 5.25,
+            "away": 7
+          },
+          "p_devig": {
+            "home": 0.698,
+            "draw": 0.174,
+            "away": 0.128
+          },
+          "total": 3.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.715,
+          "to": 0.715,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-26T06:51:26.399Z"
+      }
+    },
+    {
+      "id": "1458444",
+      "league": "CS2",
+      "sport": "esports",
+      "event": "Counter-Strike: Wildcard vs Chinggis Warriors (BO3) - PGL Major Singapore Stage 1",
+      "home": "Wildcard",
+      "away": "Chinggis Warriors",
+      "start": "2026-11-26T11:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.685,
+        "draw": 0,
+        "away": 0.315
+      },
+      "p_first": {
+        "home": 0.685,
+        "draw": 0,
+        "away": 0.315
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Wildcard",
+          "p_market": 0.685,
+          "fair_odds": 1.46
+        }
+      ],
+      "legs_first": {
+        "home": 0.685
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.72,
+          "to": 0.685,
+          "relative_change": -0.049
+        },
+        "fetched_at": "2026-11-26T06:51:26.320Z"
+      }
+    },
+    {
+      "id": "1373496",
+      "league": "Europa League",
+      "sport": "football",
+      "event": "FC Viktoria Plzeň vs. Sport Lisboa e Benfica",
+      "home": "FC Viktoria Plzeň",
+      "away": "Sport Lisboa e Benfica",
+      "start": "2026-11-26T17:45:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.1467,
+        "draw": 0.176,
+        "away": 0.6774
+      },
+      "p_first": {
+        "home": 0.1467,
+        "draw": 0.176,
+        "away": 0.6774
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Sport Lisboa e Benfica",
+          "p_market": 0.6774,
+          "fair_odds": 1.48
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "Sport Lisboa e Benfica",
+          "p_market": 0.8534,
+          "fair_odds": 1.22
+        },
+        {
+          "key": "ah_home_+1.5",
+          "label": "Handicap",
+          "selection": "FC Viktoria Plzeň +1.5",
+          "p_market": 0.565,
+          "fair_odds": 1.77
+        },
+        {
+          "key": "ah_home_+2.5",
+          "label": "Handicap",
+          "selection": "FC Viktoria Plzeň +2.5",
+          "p_market": 0.765,
+          "fair_odds": 1.31
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.675,
+          "fair_odds": 1.48
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.545,
+          "fair_odds": 1.83
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.735,
+          "fair_odds": 1.36
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.6,
+          "fair_odds": 1.67
+        }
+      ],
+      "legs_first": {
+        "away": 0.6774,
+        "away_dnb": 0.8534,
+        "ah_home_+1.5": 0.565,
+        "ah_home_+2.5": 0.765,
+        "ou_2.5_over": 0.675,
+        "ou_3.5_under": 0.545,
+        "ou_4.5_under": 0.735,
+        "btts_yes": 0.6
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.665,
+          "to": 0.675,
+          "relative_change": 0.015
+        },
+        "fetched_at": "2026-11-26T06:51:26.645Z"
+      }
+    },
+    {
+      "id": "1458443",
+      "league": "CS2",
+      "sport": "esports",
+      "event": "Counter-Strike: Imperial vs Liquid (BO3) - PGL Major Singapore Stage 1",
+      "home": "Imperial",
+      "away": "Liquid",
+      "start": "2026-11-26T11:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.345,
+        "draw": 0,
+        "away": 0.655
+      },
+      "p_first": {
+        "home": 0.345,
+        "draw": 0,
+        "away": 0.655
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Liquid",
+          "p_market": 0.655,
+          "fair_odds": 1.53
+        }
+      ],
+      "legs_first": {
+        "away": 0.655
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.655,
+          "to": 0.655,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-26T06:51:26.568Z"
+      }
+    },
+    {
+      "id": "1404588",
+      "league": "Europa League",
+      "sport": "football",
+      "event": "SC União Torreense vs. Celtic FC",
+      "home": "SC União Torreense",
+      "away": "Celtic FC",
+      "start": "2026-11-26T20:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.1866,
+        "draw": 0.2167,
+        "away": 0.5966
+      },
+      "p_first": {
+        "home": 0.1866,
+        "draw": 0.2167,
+        "away": 0.5966
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "Celtic FC",
+          "p_market": 0.5966,
+          "fair_odds": 1.68
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Celtic FC or Draw",
+          "p_market": 0.8133,
+          "fair_odds": 1.23
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "Celtic FC",
+          "p_market": 0.8133,
+          "fair_odds": 1.31
+        },
+        {
+          "key": "ah_home_+1.5",
+          "label": "Handicap",
+          "selection": "SC União Torreense +1.5",
+          "p_market": 0.635,
+          "fair_odds": 1.57
+        },
+        {
+          "key": "ah_home_+2.5",
+          "label": "Handicap",
+          "selection": "SC União Torreense +2.5",
+          "p_market": 0.81,
+          "fair_odds": 1.23
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.845,
+          "fair_odds": 1.18
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.655,
+          "fair_odds": 1.53
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.565,
+          "fair_odds": 1.77
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.765,
+          "fair_odds": 1.31
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.615,
+          "fair_odds": 1.63
+        }
+      ],
+      "legs_first": {
+        "away": 0.5966,
+        "away_draw": 0.8133,
+        "away_dnb": 0.8133,
+        "ah_home_+1.5": 0.635,
+        "ah_home_+2.5": 0.81,
+        "ou_1.5_over": 0.845,
+        "ou_2.5_over": 0.655,
+        "ou_3.5_under": 0.565,
+        "ou_4.5_under": 0.765,
+        "btts_yes": 0.615
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126",
+          "espn_match": "Celtic at Torreense",
+          "decimal": {
+            "home": 4.9,
+            "draw": 4.4,
+            "away": 1.63
+          },
+          "opening": {
+            "home": 4.2,
+            "draw": 4,
+            "away": 1.71
+          },
+          "p_devig": {
+            "home": 0.195,
+            "draw": 0.217,
+            "away": 0.588
+          },
+          "total": 3.5
+        },
+        "move_24h": {
+          "side": "away",
+          "from": 0.585,
+          "to": 0.595,
+          "relative_change": 0.017
+        },
+        "fetched_at": "2026-11-26T06:51:26.709Z"
+      }
+    },
+    {
+      "id": "1458442",
+      "league": "CS2",
+      "sport": "esports",
+      "event": "Counter-Strike: 100 Thieves vs 9z (BO3) - PGL Major Singapore Stage 1",
+      "home": "100 Thieves",
+      "away": "9z",
+      "start": "2026-11-26T08:30:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.585,
+        "draw": 0,
+        "away": 0.415
+      },
+      "p_first": {
+        "home": 0.585,
+        "draw": 0,
+        "away": 0.415
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "100 Thieves",
+          "p_market": 0.585,
+          "fair_odds": 1.71
+        }
+      ],
+      "legs_first": {
+        "home": 0.585
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.595,
+          "to": 0.585,
+          "relative_change": -0.017
+        },
+        "fetched_at": "2026-11-26T06:51:26.621Z"
+      }
+    }
+  ]
+}
