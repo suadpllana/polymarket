@@ -1,0 +1,732 @@
+{
+  "date": "2026-11-27",
+  "researched_at": "2026-11-27T07:09:12Z",
+  "summary": "Thin Friday: 20 of 35 games researched (NHL, NFL, KHL, DEL, a Dota 2 and a CS2 series, Bundesliga, Ligue 1, La Liga, Premier League, Eredivisie, Belgian and Turkish football). Two kept at medium: Lokomotiv to win at Lada (KHL; Fonbet and Winline agree with Polymarket within 1-2 points; goalies unconfirmed, and Lada won both meetings this season 1-0) and the Devils to beat the Flames (NHL; DraftKings and Covers agree; Devils rested and healthy, goalies unconfirmed). Excluded: Rizespor v Kasımpaşa (coach status and team news could not be verified). Rated low, mostly for unconfirmed goalies or team news, or a 60-70% favourite with no second price: Flyers, Vegas, Broncos (Steelers released Rodgers; Rudolph starts), Bremen, Brest-Paris FC, Levante, Forest-Chelsea, Groningen (four straight losses), Red Bull München (number-one goalie out), Eisbären Berlin, Ingolstadt, Bremerhaven, SKA, Severstal, OH Leuven, PARIVISION v Liquid and M80 v 100 Thieves. The remaining games are coin flips or under 60%, which the pick cannot use. The slip is two legs at about 1.70, just under the usual range: about 53% to land, still negative expected value.",
+  "games": [
+    {
+      "id": "1289070",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.31,
+        "draw": 0,
+        "away": 0.69
+      },
+      "checks": {
+        "team_news": "DailyFaceoff (updated 26 Nov): Devils IR is Casey, Mantha, Kovacevic only; Jack and Luke Hughes, Hischier, Bratt, Meier and Hamilton are all in the lineup. Flames IR is Bahl and Huberdeau, Pospisil is out and Frost is day-to-day. No major Devils absence found; Flames are thin up front.",
+        "lineups": "Goalies unconfirmed as of this morning. DailyFaceoff's starting-goalies page shows Hellebuyck (9-1-0, 2.62 GAA, .899) for the Devils and Wolf (6-6-2, 3.42 GAA, .878) for Calgary, both marked unconfirmed. The team pages list Wolf ahead of Cooley and Hellebuyck ahead of Jake Allen. Devils lines: Meier-J.Hughes-Brown, Gritsyuk-Hischier-Bratt. Flames lines: Sharangovich-Backlund-Coronato, Farabee-Strome-Klapka. Only DailyFaceoff read; no beat-reporter confirmation or morning-skate report found.",
+        "rotation": "No back-to-back for either side. NJ played 25 Nov at Columbus (3-2 SO win) with no game on 26 Nov. Calgary played 25 Nov at Pittsburgh (6-3 win) with no game on 26 Nov. Calgary is on a road trip (this game, then at the Rangers on 28 Nov, then at Detroit on 1 Dec), so Wolf could be rested for a back-to-back, but the starter here is likely him. NJ's next game is home vs Winnipeg on 28 Nov, which makes a Devils backup goalie today a small risk.",
+        "motivation": "Standings 26 Nov: NJ 17-8-0, 34 pts, .680, 3rd in the East and 2nd in the Metropolitan. CGY 11-13-2, 24 pts, .462, 11th in the West and 4th in the Pacific. Early-season regular game for both, no rivalry. Coach: searches found no coaching change at either club in the last 7 days, but I could not positively confirm both coaches by name.",
+        "form": "NJ is 7-3-0 in its last 10 and 10-3-0 at home. Recent games: L 2-4 at WPG, W 5-2 WSH, W 7-4 at WSH, L 2-3 MTL, L 6-9 at STL, W 3-2 CBJ, W 3-2 SO at CBJ. Season GF/GA is 94/77, but the defence is leaky lately. CGY is 4-5-1 in its last 10 and 5-7-1 on the road, with GF/GA 67/89. Recent games: L 1-6 at ANA, W 5-2 at SJ, L 1-4 MIN, L 3-4 OT CHI, L 1-2 at OTT, W 6-3 at PIT.",
+        "h2h": "No 2026-27 meeting before today. Last season's meetings were not read in detail; the NHL.com previews in search results include a 12 March 2026 Devils-Flames game, with Calgary 25-32-7 and NJ 32-30-2 at that point. Overtime and shootout are a coin flip. NJ's last game went to a shootout, and Calgary's 21 Nov game went to overtime.",
+        "odds": "DraftKings via ESPN (read by the main task): Devils -285 (opened -265), Flames +230 (opened +215), about 71% for the Devils de-vigged. The line has moved slightly toward the Devils. Covers consensus is Flames +219 and Devils -250 (about 70% de-vigged). Covers also lists Novig 72%, ProphetX 72%, OG and Crypto.com 73% for the Devils. Polymarket is 70.5%, with a 24h move from 71.0% to 70.5% (relative -0.7%, under 3%). Independent prices agree with Polymarket within about 2 points.",
+        "models": "No MoneyPuck or Natural Stat Trick xG figures were fetched. Bookmaker-free proxies only: points percentage .680 vs .462, goal difference +17 vs -22, last-10 points 14 vs 9. All favour NJ clearly, consistent with a roughly 68-70% win chance including OT and SO.",
+        "venue_weather": "Prudential Center, Newark, a normal NJ home game at 1 PM ET (18:00 UTC), so Devils are really at home and the candidate file's 'home' (Flames) is the real away team. Neutral venue ruled out. Calgary is in the middle of a long road trip; the Devils are 10-3-0 at home. Indoor arena, so no weather factor."
+      },
+      "reason": "Market 70.5%, DraftKings about 71% and Covers consensus about 70-73% all agree, and the Devils are rested, healthy and clearly better on points percentage, goal difference and home record. I shaded the Devils slightly to 69% because both starters are unconfirmed, the Devils' defence has been leaky (9 goals against at STL), and an OT or SO decision is a coin flip. Within 5 points of p_market.",
+      "main_risk": "Wolf standing on his head, or a backup in net for the Devils (Jake Allen instead of Hellebuyck, with a home game against Winnipeg the next night), with the game going to overtime or a shootout where a 70% favourite is only about 50-50.",
+      "sources": [
+        "https://www.dailyfaceoff.com/starting-goalies",
+        "https://www.dailyfaceoff.com/teams/new-jersey-devils/line-combinations",
+        "https://www.dailyfaceoff.com/teams/calgary-flames/line-combinations",
+        "https://api-web.nhle.com/v1/club-schedule-season/NJD/now",
+        "https://api-web.nhle.com/v1/club-schedule-season/CGY/now",
+        "https://api-web.nhle.com/v1/standings/now",
+        "https://www.covers.com/sport/hockey/nhl/odds",
+        "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261127"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1332035",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.655,
+        "draw": 0.0,
+        "away": 0.345
+      },
+      "checks": {
+        "team_news": "Steelers released QB Aaron Rodgers on Wednesday 25 Nov, so Mason Rudolph starts. Per sportsinteraction.com, Pittsburgh LB Alex Highsmith (ankle) and LB Nick Herbig (hip/ribs) are questionable. WR Ben Skowronek, G Mason McCormick and DT Sebastian Joseph-Day are out. Denver: RB RJ Harvey and DL Eyioma Uwazurike are out; S Brandon Jones (hamstring) and CB Kris Abrams-Draine (ankle) are questionable. Bo Nix is the Broncos QB. I did not see a full final official report with Friday designations for Pat Surtain II, Zach Allen, Waddle or Mims, so Denver's secondary and defensive-line status is unconfirmed.",
+        "lineups": "Rudolph (backup, 19 career starts, one practice with the first team) starts for Pittsburgh. Nix starts for Denver. The sources I read agree on both QBs. I found no confirmed full starting lineup; the offensive-line and linebacker starters for both sides depend on the questionable tags above.",
+        "rotation": "Both teams played Sunday 22 Nov (Denver beat Las Vegas 38-24; Pittsburgh lost 19-16 to Philadelphia). Neither played on Thanksgiving, so both are on a short week, six days of rest. Denver travels to Pittsburgh, a minor factor. No rotation issue is reported.",
+        "motivation": "Denver is 8-2, on a six-game win streak, and in the AFC playoff and seeding race (3-2 on the road, 4-1 in the AFC). Pittsburgh is 6-4, tied with Cleveland for second in the AFC North, and is coming off two straight losses. Both teams still have something to play for. This is not a divisional game and not a fierce rivalry. I found no coaching changes. The Rodgers release is a QB change, not a coaching change.",
+        "form": "Denver: 8-2, six straight wins and covers, 38-24 over the Raiders in Week 11, and 17 straight one-score regular-season wins per sportsinteraction.com (a streak that tends to regress). 3-2 away. Pittsburgh: 6-4, lost 38-18 to Cincinnati and 19-16 to Philadelphia, 4-0 at home. Rodgers was sacked five times against the Eagles.",
+        "h2h": "I found no h2h data in the pages I read, so this is unverified. Style matchup: Denver has a top pass rush (No. 1 PFF pass-rush grade, sixth in pressure rate) against a backup QB behind an offensive line missing McCormick. That favours Denver, but a defence-heavy game with a 36.5-37.5 total tends to stay close. Not a rivalry.",
+        "odds": "DraftKings on ESPN (read by the main task): opening Steelers -102 / Broncos -118, current Steelers +204 / Broncos -247, de-vigged to Denver 68.4%. News that explains the move: the Rodgers release on Wednesday and the switch to Rudolph. The spread moved from Denver -1.5/-2.5 to -3.5/-4.5, and the total is 36.5-37.5. A second price from cbssports.com shows Broncos -228 / Steelers +190, de-vigged to about 66.8% Denver. Polymarket (68.5%), DraftKings (68.4%) and the CBS price (66.8%) agree within about 2 points. Public betting is heavily on Denver (about 88% of tickets), so the price may carry a public premium.",
+        "models": "I found no FPI, Elo or point-differential figures. covers.com notes Denver ranks fifth in EPA per play over the last five weeks, 11th in offensive DVOA and eighth in defensive DVOA. SportsLine's model projects a 40-point total and Denver to cover, per cbssports.com. The spread of -4.5 implies roughly 65-68%, consistent with the market.",
+        "venue_weather": "Acrisure Stadium, Pittsburgh, outdoors, kickoff 3 p.m. ET. Forecasts differ. covers.com has southwest wind about 17 mph with gusts near 28 mph, about 42F, and a 65% chance of rain at kickoff. sportsinteraction.com has about 41F, a 35% chance of precipitation, and a wet field after heavy rain on Thursday. Wind and rain mean lower scoring and more variance, which helps the underdog. Not extreme enough to exclude, and not a neutral venue. The candidate file's 'home' (Broncos) is the real away team."
+      },
+      "reason": "The market (Polymarket 68.5%, DraftKings de-vig 68.4%, CBS de-vig about 66.8%) agrees, and the late move toward Denver is explained by Pittsburgh releasing Rodgers on Wednesday, which leaves Rudolph with one practice. I shaded Denver down to 65.5%, because the big move and the 88% public ticket share may overstate Denver's edge, Denver's 17 straight one-score wins is unlikely to continue, and the wind and rain add variance in a low-total game. Pittsburgh is 4-0 at home. Confidence is low, because favourites at 60-70% and NFL results have underperformed in our record, Denver's injury designations were not fully confirmed, and I found no independent model win probability.",
+      "main_risk": "A low-scoring game in wind and rain where turnovers and a late score decide it. Rudolph plays a clean, conservative game, Pittsburgh's defence and the home crowd keep it within one score, and Denver's luck in close games runs out.",
+      "sources": [
+        "https://www.si.com/betting/broncos-vs-steelers-opening-odds-for-black-friday-game-in-nfl-week-12-denver-favored-on-the-road",
+        "https://www.covers.com/nfl/broncos-vs-steelers-prediction-picks-nov-27-2026",
+        "https://www.cbssports.com/betting/news/broncos-steelers-prediction-odds-time-nfl-week-12-black-friday-picks/",
+        "https://news.sportsinteraction.com/nfl/story/broncos-vs-steelers-odds-prediction-112726-216081",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261127"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1289076",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.33,
+        "draw": 0,
+        "away": 0.67
+      },
+      "checks": {
+        "team_news": "NHL projected-lineup page (read today) lists Canucks out: Elias Pettersson (upper body, out at least 2 more games, went back to Vancouver), Thatcher Demko (hip), Brendan Gallagher (lower body), Guillaume Brisebois. Flyers: only Nikita Grebenkin (back) listed out. Search snippets say Ristolainen is not on the list. No beat-reporter or team X confirmation found.",
+        "lineups": "Goalies NOT confirmed (only the NHL.com projected page, no morning skate for either team). Flyers: Dan Vladar listed first and 'could start' because Joseph Woll played Wednesday 25 Nov (28 saves in a 7-3 loss to Washington); a backup or tired starter for the favourite is a real risk. Canucks: Leevi Merilainen projected, Kevin Lankinen backup. DailyFaceoff, Inquirer and Vancouver Sun pages could not be read (403/not found), so only one lineup source.",
+        "rotation": "Flyers played Wed 25 Nov (L 3-7 vs WSH) and have the Islanders the next night (28 Nov), so this 3 PM Friday matinee is the first half of a back-to-back set, which makes rest for Woll/Vladar a live issue. Nothing found for 26 Nov (no NHL games found). Canucks' previous game and travel (Eastern trip) not verified; I could not confirm whether they played on 25 Nov.",
+        "motivation": "Canucks 6-20-1, last in the NHL (and 6-game losing streak earlier this month); Flyers 9-12-6, also under .500 so not a high-stakes game for either. Coaches: Philadelphia has Rick Tocchet; Vancouver has Manny Malhotra (first season, per THN 10 Nov); no coaching change in the last 7 days found for either team, though I did not check team sites directly. Tocchet is the former Canucks coach, a mild storyline, not a fierce rivalry.",
+        "form": "Flyers 9-12-6 and just lost 3-7 at home vs Washington on 25 Nov; the Canucks are 6-20-1 with a long skid and a weak roster missing Pettersson and Demko. Last-10 goals for/against and home/away splits were not retrieved.",
+        "h2h": "Flyers beat the Canucks 3-1 on 9 Nov 2026 in Vancouver (Merilainen in net for Vancouver, Canucks' skid reached six). Last season's meetings include a 5-2 Flyers win in Philadelphia on 22 Dec 2025. Games ending level in regulation not assessed.",
+        "odds": "DraftKings via ESPN (read by the main task): Flyers -245 (opened -230), Canucks +200 (opened +190), de-vigged about 68.1% Flyers; total 6.5. Bleacher Nation (snippet) shows Flyers -244, which is the same price family, not independent. Polymarket 68.5% is in line. Slight drift toward the favourite, no adverse move. No true second independent book found.",
+        "models": "No MoneyPuck, Natural Stat Trick or Opta page was retrieved, so no independent model view. Points percentage alone (Flyers about .389 vs Canucks about .241) supports the favourite but 9-12-6 is a mediocre team.",
+        "venue_weather": "Real home team is the Flyers (Xfinity Mobile Arena, Philadelphia, standard NHL venue, 3 PM ET Black Friday matinee, indoors). Candidate file maps 'home' = Canucks only because Polymarket names them first. Not a neutral venue. Canucks travel from the West coast for an early-afternoon start (possible fatigue for them)."
+      },
+      "reason": "Market and DraftKings agree at about 68%, and the Canucks (6-20-1, without Pettersson and Demko) look weak, so the Flyers deserve to be the favourite. I shade the Flyers from 0.685 to 0.67 because neither goalie is confirmed, Vladar may start after Woll played on 25 Nov, the Flyers are themselves 9-12-6 and on the first night of a back-to-back, and no independent price or model was found. Favourites at 60-70% have underperformed in our record, so confidence is low.",
+      "main_risk": "Backup goalie (Vladar) in net for the Flyers on the first night of a back-to-back, or a hot Merilainen/Lankinen, with the game decided in overtime or a shootout coin flip.",
+      "sources": [
+        "https://www.nhl.com/news/vancouver-canucks-philadelphia-flyers-game-preview-november-27-2026",
+        "https://northeasttimes.com/2026/11/26/flyers-canucks-preview-black-friday-matinee-islanders-back-to-back-november-27-2026/",
+        "https://www.bleachernation.com/picks/2026/11/26/flyers-vs-canucks-how-to-watch-odds-picks-predictions-4/",
+        "https://thehockeynews.com/nhl/vancouver-canucks/game-day/canucks-losing-streak-hits-six-after-3-1-defeat-to-the-flyers",
+        "https://www.nhl.com/news/philadelphia-flyers-vancouver-canucks-game-preview-november-9-2026",
+        "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261127"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1289079",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.63,
+        "draw": 0,
+        "away": 0.37
+      },
+      "checks": {
+        "team_news": "Sharks: Keyser (G), Sherwood, Chernyshov, Musty and Trouba are out, per the ESPN preview as relayed by search. Beatline also lists Poehling, Sennecke and Greer on IR and Carlsson day-to-day. Vegas: ESPN lists no injuries. The NHL lineup page reportedly lists Hanifin (undisclosed) and one pick site lists a depth forward as day-to-day. I did not confirm Eichel, Stone, Hertl or Pietrangelo statuses. Sources disagree, so Vegas news is unverified.",
+        "lineups": "No confirmed goalies at research time (morning). DailyFaceoff projects Adin Hill (7-2-3, 2.61 GAA, .898) for Vegas and Yaroslav Askarov (6-10-1, 3.27, .889) for San Jose, both unconfirmed. An iHeart blurb mentions Carter Hart (8-4) as Vegas's goalie, which conflicts with DailyFaceoff, so Vegas's starter is uncertain. Sharks coach Warsofsky did not confirm lineup changes on Thursday. Line combinations were not found.",
+        "rotation": "Vegas beat Edmonton 5-3 on Tuesday 24 Nov and finished a three-game road trip. Thanksgiving was 26 Nov. I did not find a Vegas game on 25 or 26 Nov, but I could not fully verify the schedule. The Sharks lost 7-0 to Anaheim and 5-2 to Minnesota in their last two games. San Jose is at home with no travel. No back-to-back found for either team, but not confirmed from a schedule page.",
+        "motivation": "Vegas 15-6-5 is third in the West. San Jose 11-14-2 is 11th in the West and was in the last Pacific playoff spot with 24 points as of Wednesday. Vegas has an 11-game winning streak against San Jose. Pacific Division opponents, but no source describes a fierce rivalry. No coach change was found for either team in the last 7 days, but I did not explicitly verify this.",
+        "form": "Vegas is 15-6-5 and has won 5-3 at Edmonton. San Jose is 11-14-2 (some sources say 11-13-2) after two heavy losses, 0-7 and 2-5. Exact last-10 goals for and against and home/away splits were not found.",
+        "h2h": "First meeting of the 2026-27 season. Vegas has won 11 straight against San Jose per Vegas Hockey Knight. Beatline picks Vegas 5-2.",
+        "odds": "DraftKings via ESPN (read by the main task): Vegas -218 (opened -205), Sharks +180 (opened +170), de-vigged about 65.8% Vegas. One pick site lists Knights -200 with total 6.5. The line has drifted slightly toward Vegas, not against. The second price is a pick-site line, not an independent book page. Polymarket 65.5% (up from 64.5% in 24h) agrees with the books.",
+        "models": "No MoneyPuck or Natural Stat Trick xG numbers found. Rough indicators only: Vegas points pace is much better (15-6-5 vs 11-14-2), and the goalie save percentages favour neither side strongly (.898 vs .889).",
+        "venue_weather": "SAP Center, San Jose. San Jose is the real home team and Vegas the visitor, while the candidate file lists Vegas as home. Puck drop is 1 PM PT / 21:00 UTC. Vegas is on a short trip, with the 3-game road trip ending. Indoor arena, so no weather issue. ESPN, iHeart and Vegas Hockey Knight agree on the fixture."
+      },
+      "reason": "The market and DraftKings agree at roughly 65-66% for Vegas, which fits Vegas's strong record against a weak, injured Sharks team. I shade Vegas down to 63% because the goalies are unconfirmed and sources conflict on Hill versus Hart. Vegas's injury picture is unverified. Favourites priced 60-70% have a weak record with us. Hockey overtime and shootout keep every game close to a coin flip. Confidence is low since several checks (goalie, injuries, schedule) are not confirmed.",
+      "main_risk": "A backup or off-form goalie for Vegas, or a hot Askarov, makes it a low-scoring game that goes to overtime or a shootout, where Vegas's edge is small.",
+      "sources": [
+        "https://www.dailyfaceoff.com/starting-goalies",
+        "https://africa.espn.com/nhl/preview/_/gameId/401892805",
+        "https://vegashockeyknight.com/friday-will-show-whether-the-vegas-golden-knights-face-a-different-san-jose-sharks-team",
+        "https://www.beatlinesports.com/2026/11/25/beatline-nhl-vgk-at-sj-2026-11-27/",
+        "https://www.tonyspicks.com/2026/11/25/golden-knights-vs-sharks-prediction-picks-11-27-26/",
+        "https://www.nhl.com/news/nhl-lineup-projections-2026-27-season",
+        "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261127"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1463997",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.375,
+        "draw": 0,
+        "away": 0.625
+      },
+      "checks": {
+        "team_news": "No stand-ins or roster changes found for either side. Wikipedia lists M80 as JBa, Lake, s1n, slaxz-, Swisher (coach dephh, sub M0nstr) and 100 Thieves as device, Gizmy, poiii, rain, sirah (coach gla1ve, no sub), confirmed 9 Nov. Match reports name the same players. No press-conference injury news was found.",
+        "lineups": "No separate predicted-lineup source exists for CS2. Both teams are expected to play their listed fives, and the Skinsmonkey and Wikipedia pages agree on the names. Veto and map order are not yet known.",
+        "rotation": "Schedule density is moderate. M80 played R1 to R4 on 24 to 26 Nov, most recently losing 1-2 to Eternal Fire. 100 Thieves played R4 on 26 Nov and beat 9z 2-1. Both teams have played four series in three days, so fatigue is similar.",
+        "motivation": "This is a decider. Both teams are 2-2 after Round 4 of the Stage 1 Swiss, and the winner takes one of the last Stage 2 places while the loser is eliminated. The motivation is identical and there is no rivalry or coaching change.",
+        "form": "M80 beat 9z 13-8 (Mirage) and HEROIC 13-10 (Inferno), lost to NIP 10-13 (Mirage), and lost 1-2 to Eternal Fire. Their round record is 56-63, RD -7. 100 Thieves lost to Imperial 11-13 (Nuke), beat Chinggis Warriors 13-6 (Dust2), lost to Eternal Fire 6-13 (Mirage), and beat 9z 2-1. Their round record is 61-56, RD +5. Sources disagree on the map scores and which match was Bo1, so these are only partly reliable. Neither side has a clear edge in the opponents faced.",
+        "h2h": "No recent CS2 series between the two was found. Wikipedia lists no previous meeting at this event. The veto and map pool were not researched.",
+        "odds": "Only the Polymarket price (100 Thieves 64.5%, fair odds 1.55) was found. A second price was not found: searches for OddsPortal, HLTV betting and Bo3.gg odds returned nothing for this match, and HLTV and Liquipedia returned 403. The favourite lengthened from 61.5% to 64.5% in 24h (+4.9% relative) with no news found to explain it. The move is in the favourite's favour, but with no independent price I cannot confirm it.",
+        "models": "No bookmaker-free model was found. Wikipedia says Stage 1 is seeded by Valve Regional Standings, but gives no VRS or HLTV rank for either team. Round difference favours 100 Thieves (+5 vs -7) in a very small sample.",
+        "venue_weather": "All Stage 1 matches are in Singapore (PGL Major Singapore 2026); LAN or online was not stated on the pages read, and the playoffs are at the Singapore Indoor Stadium. Format confirmed: Bo3 at a tier-1 Valve Major, Round 5 on 27 Nov."
+      },
+      "reason": "The event is the PGL Major Singapore 2026 Stage 1, Round 5. It is a Bo3 tier-1 Major, so it passes the format gate, and there are no roster or stand-in issues. The market gives 100 Thieves 64.5%. I trimmed that to 62.5% because both sides are 2-2 with decider pressure, M80 has a stable roster that knows this stage, and CS2 favourites priced 60-70% have a weak record. I found no independent price to back the +4.9% move, and the round-difference gap is small.",
+      "main_risk": "M80 win a high-variance Bo3 decider. A single map upset or a poor veto by 100 Thieves is enough. 100 Thieves lost 6-13 and 5-13 maps in their last two series and are prone to heavy map losses.",
+      "sources": [
+        "https://skinsmonkey.com/blog/singapore-major-stage-1-results/",
+        "https://en.wikipedia.org/wiki/PGL_Major_Singapore_2026",
+        "https://www.cs2.app/pickems/pgl-major-singapore-2026",
+        "https://www.strafe.com/news/read/pgl-major-singapore-pickems-guide-stage-1/",
+        "https://esports.gg/news/counter-strike-2/cs2-pgl-singapore-major-2026-stage-1-overview-results/",
+        "https://rg.org/news/esports/pgl-major-singapore-field-set-100-thieves-first-major-fire-last-chance-wildcard"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1464112",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1289071",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1426725",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.56,
+        "draw": 0.22,
+        "away": 0.22
+      },
+      "checks": {
+        "team_news": "No Thursday press conference text for either coach was found. Searches for Thioune's and Blessin's pre-match comments returned only older seasons, and werder.de returned 429. FotMob lists Bremen's Grüll as doubtful (calf), with Weiser, N'Diaye, Agu, Stage, Alvero, Topp and Musah out. For Gladbach it lists Hashioka as doubtful, with Leszczynski, Ullrich, Leopold, Bolin and Kleindienst out. 365scores lists Njinmah as out for Bremen and Hack as out for Gladbach, so the two sources disagree. Kicker, Ligainsider, Deichstube, Weser-Kurier and Rheinische Post could not be reached or returned nothing current.",
+        "lineups": "Only unconfirmed predictions were found, from FotMob, Bundesliga.com and 365scores (no Kicker or Ligainsider). Bremen are a 4-2-3-1 with Hein, Deman, Friedl, Pieper, Arthur, Reis, Regeer, Chuki, Dinkci and Füllkrug. Njinmah and Weiser appear in some lists and are absent in others. Gladbach are a 3-4-2-1 with Batz, Chiarodia, Sander, Diks or Itakura, Scally, Uno, Neuhaus, Castrop, Mohya and Machino. The sources broadly agree on the core but not on the wide men.",
+        "rotation": "Bremen's last game was a 4-0 home win over Hamburg on 22 Nov, and Gladbach lost 0-1 to Dortmund on 21 Nov. Both are on normal league rhythm and this is a Friday game. I found no sign of European or cup congestion or of expected rotation. The next weekend fixtures were not checked.",
+        "motivation": "Bremen are 6th on 18 points from 10 games (21 scored, 15 conceded) and are unbeaten in five home games. Gladbach are 18th on 4 points (1W 1D 8L, 12 scored, 26 conceded) and need points badly. Bremen is not a derby or a fierce rivalry. The coaches are Daniel Thioune at Bremen (appointed 4 Feb 2026) and Alexander Blessin at Gladbach (appointed 22 Sep 2026), so there was no change in the last 7 days. Gladbach's new-coach bounce is a possible risk.",
+        "form": "Bremen's last five, most recent first, are W 4-0 Hamburg, L 0-1 at Stuttgart, W 2-0 at Hoffenheim, L 2-3 Dortmund, W 3-2 at Mainz. They average about 2.1 goals scored and 1.5 conceded, and are W4 D1 in their last five at home. Gladbach's last five are L 0-1 Dortmund, W 1-0 Standard Liège (cup or Europe), L 1-3 at Hamburg, D 0-0 Paderborn, W 2-0 at Karlsruhe (cup). They average about 1.2 goals scored and 2.6 conceded in the league, and have conceded 9 goals in the last 15 minutes of games. No xG was found.",
+        "h2h": "The last meeting was 1-1 on 31 Jan 2026, when Topp equalised in stoppage time after Tabaković's opener. The last five meetings read 1-1, 0-4, 2-4, 4-1 and 2-2, so goals are common, with 5 of the last 6 over 2.5 on one source, and draws are fairly frequent. Gladbach's all-time H2H record is better than Bremen's, but the sources disagree on the totals.",
+        "odds": "DraftKings (ESPN) is 1.67 / 4.20 / 4.20, de-vigged 55.8 / 22.1 / 22.1 with a total of 3.5. It opened at 1.69 / 4.0 / 3.8, so the away price drifted out from 3.8 to 4.2 and the favourite shortened slightly. Polymarket is 57.7 / 21.7 / 20.6. A second site (SoccerVital) shows 1.80 / 4.40 / 4.30, which is about 53 / 22 / 23 de-vigged and slightly less bullish on Bremen. The 24h move is +1.8% relative for Bremen, so there is no adverse drift.",
+        "models": "No bookmaker-free model such as Opta, ClubElo or Forebet could be read. SoccerVital's tip is Over 2.5 goals with a score prediction of 4-2, and it is an unverified tipster call. The only evidence is the table: 6th against 18th, and goal difference +6 against -14.",
+        "venue_weather": "The Weserstadion in Bremen (grass, capacity 42,100) is a normal home venue. Kick-off is Friday 27 Nov at 19:30 UTC and the referee is Felix Zwayer. FotMob forecasts about -1°C, which is cold but not extreme, and no pitch problem was reported."
+      },
+      "reason": "I started from the market. Polymarket (57.7 / 21.7 / 20.6) and the de-vigged DraftKings price (55.8 / 22.1 / 22.1) agree within 2 points, and SoccerVital's de-vigged 1.80 / 4.40 / 4.30 is slightly lower on Bremen. I trimmed Bremen to 56% and set Gladbach at 22% to match the DraftKings away drift (3.8 to 4.2) and Gladbach's many late goals. Bremen are clearly stronger on table and form (6th against 18th, W4 D1 at home, 4-0 last time out, Füllkrug on 10 goals). Confidence is low because no press conference or reliable injury report was found and the sources disagree on who is out for both sides.",
+      "main_risk": "A draw or late Gladbach equaliser: Gladbach have conceded 9 goals in the last 15 minutes of games, their counter-attacks are dangerous, the last meeting ended 1-1 with a stoppage-time Bremen equaliser, and the new coach Blessin may be reorganising a side with 8 losses.",
+      "sources": [
+        "https://www.fotmob.com/matches/werder-bremen-vs-borussia-monchengladbach/2tq9jn",
+        "https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/11/sv-werder-bremen-vs-borussia-moenchengladbach/liveticker",
+        "https://www.365scores.com/football/match/bundesliga-25/borussia-monchengladbach-werder-bremen-332-349-25",
+        "https://www.soccervital.com/werder-bremen-vs-borussia-m%C3%B6nchengladbach-soccer-prediction-jgga2756g.html",
+        "https://parlae.io/news/soccer/2026/11/werder-bremen-vs-borussia-monchengladbach-november-27",
+        "https://www.zdfheute.de/sport/fussball-bundesliga/bundesliga-borussia-moenchengladbach-blessin-trainer-100.html",
+        "https://www.bundesliga.com/de/bundesliga/news/sv-werder-bremen-daniel-thioune-neuer-trainer-35902"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1289072",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1289075",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1289073",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1289077",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1426855",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.45,
+        "draw": 0.25,
+        "away": 0.3
+      },
+      "checks": {
+        "team_news": "Levante: Manu Sanchez is out for the season (cruciate ligament) and Toljan is out (hamstring). Ratkov is ruled out with muscle overload per Futbolfantasy, but Castro said it is 'nothing very serious' (Comuniate), so his status is mixed. Left-back is covered by Marc Santos (16) or Nacho Perez. Racing: Mantilla is out for the season (cruciate), Andres Martin (hamstring) and Maguette Gueye (hamstring) are out or recovering, and Zabiri is flagged as on a yellow-card warning (apercibido), not suspended. I did not find José Alberto's own Thursday press conference after two searches. I read only Castro's, via Comuniate.",
+        "lineups": "Two sources read. Infobae (agency preview) gives Levante as Ryan; Nacho Perez, Dela, Mandi, Marc Santos; Rey, Olasagasti, Requena; Brugue, Thiago or Ivan Romero, Etta. It gives Racing as Agirrezabala; Pablo Ramon, Pedro, Belocian, Salinas; Luque, Canales, Prati, Ivan Martin, Inigo Vicente; Zabiri. Jornada Perfecta expects no changes for Racing and Marc Santos at left-back for Levante, which agrees with Infobae. Nothing is confirmed yet.",
+        "rotation": "No sign of heavy rotation on either side: Racing are expected to repeat their last XI, and Levante are forced into changes only by injuries. I did not find the next fixtures for either team.",
+        "motivation": "Racing are 7th, their best Primera position since 2007/08, so they are playing with confidence. Levante have 12 points, are outside the drop zone but level on points with the team second from bottom, and need the win. Not a derby. Neither coach has been changed (Castro and Jose Alberto Lopez are both in place). The fixture is confirmed by ESPN for 27 Nov 20:00 UTC at the Ciutat de Valencia (Jornada 14, referee Miguel Sesma).",
+        "form": "Levante are winless in 4 and only equalised against Elche in the 88th minute on Monday (Requena). Racing have won 3 of their last 4, including their first away points at Malaga and a win over Real Sociedad where Zabiri scored twice. Zabiri has 11 league goals, which points to Racing scoring. I did not find the home/away split or xG.",
+        "h2h": "I did not find any recent top-flight meetings; the searches only returned 2024-25 Segunda games. There is no usable h2h evidence.",
+        "odds": "DraftKings (ESPN) is home 2.00, draw 4.00, away 3.30, de-vigged to 47.5/23.7/28.8, with a total of 3.5. The opening line was home 2.05, draw 3.80, away 3.15, so the home price has shortened slightly (+2.2% relative in 24h), which is not a move against the favourite. Polymarket is 47.7/23.7/28.6, close to DraftKings. I did not get a second independent bookmaker price.",
+        "models": "I did not find any bookmaker-free model forecasts (Opta, ClubElo, Forebet) after searching, so this check is missing.",
+        "venue_weather": "Ciutat de Valencia is the normal home ground and the kickoff is Friday evening. I did not find a weather forecast or pitch information. Nothing unusual was seen."
+      },
+      "reason": "I started from the market (47.7/23.7/28.6) and shaded it slightly against Levante. They are winless in 4, are missing Ratkov (or he is doubtful), Toljan and Manu Sanchez, and may play a 16-year-old at left-back. Racing are 7th, have won 3 of their last 4, and have Zabiri in form. That moves home to 0.45, draw to 0.25 and away to 0.30, each within 5 points of the market. Confidence is low because there is no press conference from Racing's coach, no model forecast, no second independent price and no xG. The favourite is below 50% and the draw is not under 25%, so a straight Levante win is not a bet.",
+      "main_risk": "A draw or a Racing win: Levante are short of attackers and have a makeshift left side after four games without a win, while Racing are in form and have Zabiri scoring regularly. A late Racing equaliser, as Levante themselves needed against Elche, is the most likely failure.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261127",
+        "https://www.infobae.com/america/agencias/2026/11/26/levante-y-racing-mismo-objetivo-con-rachas-opuestas-en-laliga-ea-sports/",
+        "https://www.jornadaperfecta.com/blog/alineaciones-levante-racing-j14-26-27/",
+        "https://www.comuniate.com/noticias/39355/luis-castro-deja-abierta-la-titularidad-de-marc-santos-confirma-la-duda-de-ratkov-y-busca-soluciones-para-los-laterales",
+        "https://www.futbolfantasy.com/laliga/noticias/155587-ratkov-descartado-para-recibir-al-racing-por-una-sobreca"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1426933",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.27,
+        "draw": 0.295,
+        "away": 0.435
+      },
+      "checks": {
+        "team_news": "Only one preview found (butfootballclub.fr, matchday 12): Brest without Le Guen and Chardonnet (injured, returning), Doumbia and Lala doubtful; Paris FC lists no absentees. No Thursday press conference from Roy or Rosenior, club-site news or L'Equipe/Ouest-France/Le Telegramme reports surfaced, so this is unconfirmed.",
+        "lineups": "Probable XIs from butfootballclub.fr and mediapronos/goal.com/pensebet (via search summary only). Brest: Selvik; Zogbe, Tousart, Lloris, Locko; Chotard, Magnetti; Edjouma, Nonge, Balde; Ajorque. Paris FC: Trapp; Camara, Coppola, Chergui, Otavio; Lopez, Lees-Melou; Kebbal, Pagis, Koleosho; Sinayoko. The sources broadly agree, with small variants at full-back and wide attack for Paris FC. None are official XIs.",
+        "rotation": "No midweek fixtures or weekend next-game details found, so rotation risk is unknown. Both XIs look like first-choice sides and neither team is reported to be rotating. The Friday kick-off makes a full-strength Paris FC likely but this is unverified.",
+        "motivation": "After 11 matchdays Paris FC are 2nd on 23 pts (7W 2D 2L, GD +11) and Brest 6th on 18 pts (5W 3D 3L, GD +7) per butfootballclub.fr. Not a derby. Liam Rosenior was appointed Paris FC coach on 7 July 2026 (Ouest-France, Orange) and Eric Roy still coaches Brest, so no coach change in the last 7 days found. Both sides have something to play for; nothing suggests a dead rubber.",
+        "form": "Last 5 league games per butfootballclub.fr. Brest 3W 1D 1L (1-0 Strasbourg, 2-0 Lyon, 2-0 at Lorient, lost 1-2 Nice, 1-1 at Lille), 19 scored and 12 conceded in 11 games; pensebet says Brest conceded none in their last 3 league games. Paris FC 4W 0D 1L (4-0 Angers, 1-0 at Auxerre, 3-1 Monaco, 4-3 Rennes, lost 1-2 at Lens), 21 scored and 10 conceded; Sinayoko has 9 goals. Home/away split and xG not found.",
+        "h2h": "Paris FC won both recent meetings: 2-1 at Brest in Sept 2025 and 4-0 at home on 3 May 2026. Brest have not won in that span. Tipsters (Goal.com, But! Football Club) lean to a draw, with Goal.com at 1-1 and mediapronos and pensebet at under 2.5 goals. Draw rate of past meetings is low (0 of 2).",
+        "odds": "DraftKings (ESPN fra.1 scoreboard, read by the main task today): Brest +235 (opened +210), draw +240, Paris FC +120 (opened +125), total 2.5; de-vigged 0.285/0.281/0.434. Second price: butfootballclub.fr 2.90/3.35/2.14, de-vigged about 0.31/0.27/0.42. Polymarket 0.273/0.283/0.443. The two books and Polymarket agree within about 5 points on Paris FC, with Brest higher at the second book.",
+        "models": "No bookmaker-free model forecast found (Opta, ClubElo, Forebet not reached). Only tipster predictions: Goal.com 1-1, But! Football Club draw (2-2 score), mediapronos and pensebet under 2.5 goals.",
+        "venue_weather": "Stade Francis-Le Ble, Brest, Friday 27 Nov 2026, 20:45 local (19:45 UTC), a normal home venue. No weather or pitch report found for Brest (wind and rain on the Atlantic coast not checked), so this is a gap."
+      },
+      "reason": "Started from Polymarket and DraftKings (both about 0.44 Paris FC, 0.28 draw). Pre-mortem: a draw is the likeliest failure. Brest have a strong defensive run, tipsters favour a draw or under 2.5, and Paris FC lost at Lens and played a 4-3 against Rennes, so they are not airtight. I nudged the draw up 1.2 points and Brest down 0.3 and Paris FC down 0.8. Paris FC's better table position, goal difference and 4-0 and 2-1 wins over Brest support them as favourites. Confidence is low because there are no press conference or injury confirmations, no model forecast and no weather check, and the favourite is priced only about 44%.",
+      "main_risk": "A draw (about 1-1) in a tight game: Brest have conceded little recently and have home support, and Paris FC lost the one road test at Lens; the pre-match tips favour a draw.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261127",
+        "https://www.butfootballclub.fr/1715998-pronostic-brest-paris-fc-27-11-prono-cotes-et-compos/",
+        "https://www.goal.com/fr/parier-en-ligne/pronostics/brest-paris-fc-27-novembre/A%3Ablt958003c1d7b976f1",
+        "https://mediapronos.com/pronostic-stade-brestois-paris-fc-compo-probable-27-11/",
+        "https://pensebet.com/pronostic-brest-paris-fc-ligue-1-23-11-2026/",
+        "https://www.ouest-france.fr/sport/football/paris-fc/ligue-1-langlais-liam-rosenior-succede-a-antoine-kombouara-au-poste-dentraineur-du-paris-fc-21d8c7bc-79dd-11f1-a705-e1977a1c2ed8"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1427029",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1427080",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.365,
+        "draw": 0.29,
+        "away": 0.345
+      },
+      "checks": {
+        "team_news": "Sports Mole (25-26 Nov): Forest out Savona (knee) and Dominguez (muscle); Hudson-Odoi back in training, likely bench. Chelsea out James (knee), Hato (back), Pedro (thigh), Lacroix (hamstring, recovering); Gittens back in training but still building fitness. Caicedo's back issue (off vs Leeds) is a doubt in Sports Mole and Goal lists him as injured, but Yahoo/Roundtable (26 Nov 17:40) says fit and available. I found NO Thursday press-conference text from Alonso or Glasner after several searches (club sites, BBC blocked/unavailable), so Caicedo's status is not confirmed.",
+        "lineups": "Two sources, no confirmed XIs. Sports Mole predicted Forest 3-4-2-1: Sels; Cunha, Milenkovic, Murillo; Munoz, McAtee, Schlager, Williams; Gibbs-White, Ndoye; Delap. Chelsea: Martinez; Acheampong, Fofana, Colwill, Chavarria; Henderson, Lavia; Neto, Palmer, Rogers; Emegha. Yahoo/Roundtable agrees on Martinez in goal, Emegha up front, Rogers and Palmer starting. Broad agreement on the two sources, but Caicedo and Gittens are open.",
+        "rotation": "No midweek European game found for either side (Sports Mole mentions none; I could not positively confirm Chelsea's schedule from a fixtures page). Both played in the league last weekend: Forest lost 2-0 to Bournemouth, Chelsea lost 4-1 at home to Leeds. Their next weekend fixtures were not checked. No rotation reported, but a side beaten 4-1 may see 1-3 changes; I found no source quoting expected changes.",
+        "motivation": "Forest 17th on 9 points, above 18th Sunderland only on goal difference, so a relegation fight. Chelsea 8th on 16 points, 5 behind 4th and 2 behind 5th, chasing European places. Not a derby. Managers: Glasner (Forest, since July 2026) and Alonso (Chelsea, appointed 13 July 2026). I found no sacking or appointment at either club in the last 7 days, but Chelsea's two straight league defeats put Alonso under some pressure. Both teams need the points.",
+        "form": "Forest last 6 PL (newest first): L 0-2 Bournemouth, W 3-1 Man City, L 0-2 Brentford, D 1-1 Ipswich, L 0-1 Arsenal, L 1-3 Palace. 4 scored and 7 conceded in the last 5; scored 0 in 3 of 6. Chelsea last 6 PL: L 1-4 Leeds, L 0-1 Sunderland, W 2-0 Man Utd, L 0-2 Spurs, W 2-0 Everton, W 5-1 Bournemouth. Both leak goals; Chelsea scored 0 in 2 of 6. Total goals in last 6: Forest games 2,4,2,2,1,4; Chelsea games 5,1,2,2,2,6. Over 1.5 hit 5/6 for each side; Over 3.5 hit 2/6 for each. FBref blocked and Understat was down for maintenance, so no xG.",
+        "h2h": "Last 5 meetings per Goal: Chelsea 3 wins, Forest 1, one draw; goals 9-6 to Chelsea. Most recent was Forest 3-1 at Stamford Bridge (4 May 2026); earlier results include Forest 0-3 Chelsea (Oct 2025). Chelsea unbeaten in 5 away games at Forest (4W 1D) per Roundtable. Every recent meeting had 3+ goals, and two of four reached 4+ goals, so Under 3.5 is not a safe fit. Draws are rare in this fixture (1 in 5).",
+        "odds": "DraftKings (ESPN, read today): home 2.60, draw 3.35, away 2.75; de-vigged 36.7/28.5/34.7, versus Polymarket 37.3/28.3/34.3, so they agree within 1 point. Opening line was home 2.70, draw 3.45, away 2.45: Forest shortened and Chelsea drifted markedly, a move toward Forest, the Polymarket favourite, so not against it. Total line 2.5. Polymarket 24h move: 0. I could not get a second bookmaker or exchange price.",
+        "models": "No current bookmaker-free model for this fixture found: Opta/The Analyst, ClubElo, Forebet searches returned only older fixtures. Sports Mole predicts 1-1, Roundtable/Yahoo predicts Forest 3-1; the two predictions disagree on score and neither is a probabilistic model. Treated as missing.",
+        "venue_weather": "City Ground, Nottingham, Friday 27 Nov 2026, 20:00 UK, Sky Sports (TV Guide). Normal home venue for Forest, no travel issue for Chelsea. I did not find a weather forecast or pitch report, so I cannot confirm conditions, only that I saw no reports of a pitch problem or postponement."
+      },
+      "reason": "Starts from the market (Polymarket 37.3/28.3/34.3; DraftKings de-vig 36.7/28.5/34.7 agrees). Slight lean toward the draw: both sides are in poor form (Forest 1 win in 7, Chelsea two straight league losses), Sports Mole predicts 1-1, and Forest's attack scored 0 in 3 of their last 6. No side is a safe favourite: the draw is 29%, above the 25% limit for a straight win, so no result bet. Confidence is low because Caicedo's fitness is contradicted across sources, there were no press-conference quotes, no second price, no xG, and no model.",
+      "main_risk": "A draw (likely 1-1 or 0-0) between two out-of-form sides, with Caicedo's availability for Chelsea unresolved and Forest's attack scoring 0 in 3 of its last 6.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/nottingham-forest/relegation-battle/preview/nottm-forest-vs-chelsea-prediction-team-news-lineups_609854.html",
+        "https://www.goal.com/en-gb/news/nottingham-forest-v-chelsea-preview-team-news-injury-latest/blt23ee7328cd769385",
+        "https://sports.yahoo.com/soccer/articles/nottingham-forest-vs-chelsea-premier-174034468.html",
+        "https://www.tvguide.co.uk/sport/football/fixtures/nottingham-forest-vs-chelsea-20261127-fd0315a3a6",
+        "https://www.vavel.com/en/football/2026/10/05/premier-league/1273488-ranking-nottingham-forest-managers-by-win-percentage.html",
+        "https://www.itv.com/news/london/2026-07-13/new-chelsea-boss-xabi-alonso-demands-team-show-hunger-for-success",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261127"
+      ],
+      "views": {
+        "ou_1.5_over": 0.76
+      },
+      "prices": []
+    },
+    {
+      "id": "1453497",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.23,
+        "draw": 0,
+        "away": 0.77
+      },
+      "checks": {
+        "team_news": "Lokomotiv: Radulov out since mid-October, not back until after the December break (Kvartalnov, via metaratings preview); Panik and Fraser recalled from the farm side. Lada: no injuries reported in the previews I could read. I did not find an official club injury list, so this rests on previews.",
+        "lineups": "No confirmed or predicted starting goalies found on any source (searched allhockey, sports.ru, championat, olimpbet, metaratings). Lokomotiv's Melnichuk had a 127+ minute shutout streak going into the SKA game, so he looks like the number one, but a backup start for Lokomotiv is unconfirmed and is a real risk. Lada's goalie is unknown. Lada's November results are said to depend on its goaltending.",
+        "rotation": "Neither team played on 26 Nov (olimpbet review of the 26 Nov game day). Lokomotiv's last game was a 3:2 win at SKA on 25 Nov, so it is on a short road stint, one day of rest, and travels to Togliatti. Lada starts a run of four home games after ten days off and two away games. Next fixtures not checked.",
+        "motivation": "Lokomotiv, the defending Gagarin Cup champion, is 2nd in the Western Conference (about 43 pts in 29 games). Lada is 10th (about 19 pts in 30 games). Stakes are normal regular season, no rivalry. Lada changed coach: Zubov was dismissed and Igor Gorbenko became acting coach, described by sport24 as the first coaching dismissal of the KHL season and reported as early November or about a month into the season, so more than 7 days ago; the hard exclusion does not apply. Lokomotiv: Kvartalnov, no change.",
+        "form": "Lokomotiv last 6: 5W 1L (5:1 Neftekhimik, 5:0 Shanghai, 3:0 Sochi, L 2:4 CSKA, 3:1 Torpedo, 3:2 at SKA); fewest goals allowed in the KHL. Lada last 6: 2W 4L (L 3:4 Severstal, W 4:3 Sochi, L 1:3 Torpedo, L 2:7 Metallurg, W 3:2 Shanghai, L 2:5 Traktor). One preview says Lada lost 8 of its last 11 home games. Home/away splits not checked beyond that.",
+        "h2h": "Lokomotiv has 17 wins to Lada's 6 in 23 KHL meetings, but Lada won both meetings this season 1:0 (one in a shootout) on 2 and 6 Nov, with Lokomotiv failing to score either time. The last four meetings had 12 goals in total (3.0 per game). Games are low scoring and tight, and several have gone to overtime or a shootout.",
+        "odds": "Polymarket 79% for Lokomotiv (1.27), move_24h 78.5% to 79%, essentially flat. Fonbet 3-way (regulation) Lada 7.00 / X 5.20 / Lokomotiv 1.40, de-vigged about 13.6 / 18.3 / 68.1. Converting to a two-way line including OT/SO (giving Lokomotiv about 55% of the draw share) gives Lokomotiv about 78%. Vinline gave Lada incl. OT 4.40 and Lokomotiv 1.20, which de-vigs to about 78.6% / 21.4%. Two independent books agree with Polymarket within 1-2 points. No ESPN/DraftKings price exists for the KHL.",
+        "models": "matchstat (preview of the March 2026 meeting, not this game) gave Lokomotiv 76% from bookmaker odds, and a sportschedule.tv listing showed about 73% (unclear which game). Both are weak, dated, and not model forecasts independent of the books. No Elo or xG source was found; the table gap (2nd vs 10th, fewest goals allowed vs a side that lost 8 of 11 at home) is the bookmaker-free signal.",
+        "venue_weather": "Lada-Arena, Togliatti, Lada's real home; Lada is the true home team, so the candidate file's home and away mapping is correct. Start 18:00 MSK (15:00 UTC). A road trip from Yaroslavl to Togliatti, about 900 km, after the 25 Nov game in St Petersburg. Indoor game, no weather issue, normal venue."
+      },
+      "reason": "Market and two bookmakers (Fonbet and Vinline, converted to a two-way line including OT) agree at about 78-79% for Lokomotiv. I shaved 2 points off Lokomotiv for unconfirmed goalies (a backup is possible after the 25 Nov game and the trip), the road trip, and Lada's two 1:0 wins over Lokomotiv this season, plus a new interim coach who wants a tight, defensive system and strong goaltending. Lokomotiv is far better on the table (2nd versus 10th) and in form (5W in the last 6, the fewest goals allowed in the league). Medium because two independent prices agree, but goalies are unconfirmed.",
+      "main_risk": "A low-scoring game decided by a hot Lada goalie or a backup Lokomotiv goalie, and Lada's two 1:0 wins this season show it can happen. Overtime or a shootout, which is close to a coin flip, is also a way to lose.",
+      "sources": [
+        "https://belarushockey.com/khl/news/2026/11/27/khl.-bukmekery-ocenili-shansy-komand/",
+        "https://metaratings.ru/prognozy/hokkey/lada-lokomotiv-prognoz-na-match-khl-27-noyabrya-2026-goda/",
+        "https://arena.olimpbet.kz/news/stories/igrovoj-den-khl-26-noyabrya-kambek-neftehimika-v-sochi-razgrom-spartaka-ot-czska-i-bullity-vo-vladivostoke",
+        "https://www.sports.ru/hockey/1117449949-fonbet-chempionat-kxl-lokomotiv-v-gostyax-u-lady-severstal-primet-sibi.html",
+        "https://allhockey.ru/news/show/617746-Gde_smotret_Lada_Lokomotiv_Vremya_translyacii_KHL_27_noyabrya_2026_goda",
+        "https://matchstat.com/predictions-tips/khl-preview-and-prediction-lada-togliatti-vs-lokomotiv-yaroslavl-betting-tips-picks-march-13-2026/",
+        "https://sport24.ru/hockey/article-887608-iz-za-skandala-s-razinym-vy-ne-zametili-pervuyu-otstavku-sezona-kkhl-lada-uvolila-zubova-no-eto-ne-pomozhet"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1464261",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.74,
+        "draw": 0,
+        "away": 0.26
+      },
+      "checks": {
+        "team_news": "I found no roster changes or stand-ins for either side. The dota2protips BLAST Slam IX preview lists PARIVISION as Satanic, No[o]ne, Noticed, 9Class and Dukalis. It lists Liquid as miCKe, Malr1ne, Wisper, tOfu and Boxi. It mentions no stand-ins for either team. I did not find an official club or tournament post confirming this for the playoffs, so it is a preview source only.",
+        "lineups": "Not confirmed. I found no official five-player lists for this series. The only lineup source is the pre-event preview, so there is no second source to check against.",
+        "rotation": "Schedule density is not a concern. The cybersport.ru bracket shows Liquid beat 1w 2-0 in the upper quarterfinal on 26 Nov. PARIVISION's only listed playoff match is this semifinal. The winner plays Yandex in the upper final on 28 Nov. All playoff series are Bo3, with a Bo5 grand final.",
+        "motivation": "This is an upper bracket semifinal in a double-elimination playoff, so neither team is eliminated by losing. The loser drops to the lower bracket. The winner reaches the upper final against Yandex. The stakes are moderate for both sides.",
+        "form": "Per the dota2protips preview, PARIVISION beat Team Spirit 3-1 in the 1win Essence III grand final and are rated #2. Liquid went out in the group stage there, losing 1-2 to LGD and 1-2 to LEGION, and are rated #14. Liquid did beat 1w 2-0 here. I did not verify the last 10 series for either team.",
+        "h2h": "PARIVISION beat Liquid 2-0 at BLAST Slam I in November 2024 and 2-1 at BLAST Slam II in February 2025, per search results. I did not verify any meetings from 2026. Bo3 series between them have gone to three maps at least once.",
+        "odds": "I found no independent bookmaker or odds-site price for this series. Searches turned up only older matchups. The Polymarket price of 75.5% (fair 1.32) is the only price I have. It moved from 76.5% to 75.5% in 24h, a relative change of -1.3%, which is small. Because no second price confirms it, I cannot rate confidence above low.",
+        "models": "The dota2protips preview gives PARIVISION an Elo of 1777 (#2) and Liquid 1548 (#14). That gap points to a clear favourite, in line with the market. I did not check GosuGamers or Datdota ratings.",
+        "venue_weather": "BLAST Slam IX is a fully online event, per BLAST and esports.gg search results and Hawk Live. There is no venue or travel effect. Online play brings some risk of ping or technical pauses. It is a tier-1 BLAST Slam with a $750k prize pool, and this series is a Bo3, so the Bo1 exclusion does not apply."
+      },
+      "reason": "I confirmed the event is BLAST Slam IX, an online tier-1 double-elimination playoff, and this match is a Bo3 upper bracket semifinal on 27 Nov at 10:00 UTC. I shaded PARIVISION from 0.755 to 0.74 because I found no independent price and the confirmed lineups are missing. The evidence supports the favourite: an Elo gap of 1777 against 1548, the 3-1 grand final win over Spirit, and earlier wins over Liquid. Liquid are not an easy opponent.",
+      "main_risk": "Liquid steal a Bo3 through a draft upset or a single volatile map. Liquid have won Bo3s against PARIVISION before and are in form, having beaten 1w 2-0. There is no independent price to confirm the 75.5% market.",
+      "sources": [
+        "https://www.cybersport.ru/tournaments/dota-2/blast-slam-ix",
+        "https://www.dota2protips.com/blog/blast-slam-ix-preview",
+        "https://hawk.live/posts/blast-slam-ix-qualifiers-schedule-standings-results",
+        "https://esports.gg/news/dota-2-blast-slam-9-2026-schedule-teams-prize-pool/",
+        "https://blast.tv/dota/news/blast-slam-ix-the-battle-moves-online",
+        "https://www.strafe.com/match/team-liquid-vs-parivision-quaterfinals-blast-slam-i-22ddee/"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1459121",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.3,
+        "draw": 0,
+        "away": 0.7
+      },
+      "checks": {
+        "team_news": "Muenchen: Niederberger (G) out to about 31 Dec, Wagner (D) to about 12 Dec, Kaiser (D) to mid-Jan, Murphy (D, top-scoring D) out several weeks from 25 Nov (penny-del.org, petzpowerplay.de updated 23 Nov, which does not yet list Murphy); Kahun back in full training; Quinney signed 26 Nov. Iserlohn: petzpowerplay lists no injuries; I found no Iserlohn press conference or news from 25-26 Nov.",
+        "lineups": "NOT FOUND. No confirmed or predicted goalie for either side after searches of penny-del.org, redbullmuenchen.de, petzpowerplay.de and general web search. With Niederberger out, Muenchen's goalie is presumably Antoine Bibeau (inferred, not confirmed); a backup or weak goalie is a real risk. Line combinations not found.",
+        "rotation": "Not verified. The Muenchen club site's latest news says they beat Wolfsburg for a sixth straight win and a sold-out home derby against Straubing is next (probably the weekend game, so a mild rotation or look-ahead risk). I did not confirm whether either team played on 25 or 26 Nov or whether Muenchen plays Champions Hockey League this week; no CHL info found.",
+        "motivation": "Standings table not retrieved (OddsPortal table did not render). Muenchen is described by its club site as closing in on league leader Berlin on a six-game win streak; Iserlohn was second-to-last in late October and had the league's worst goals against then (stale). Iserlohn changed coach (Poss to Beaulieu) in mid-October, so no coach change in the last 7 days found for either side (Muenchen coach Oliver David).",
+        "form": "Muenchen: six straight wins (incl. Wolfsburg, two wins over Koeln and Ingolstadt) per its club site; goals for/against and home/away split not found. Iserlohn: recent results for November not found; only October data (4:3 SO vs Straubing, 7:4 vs Mannheim, 0:7 at Wolfsburg).",
+        "h2h": "2026/27: Muenchen won 3:2 at home on 23 Oct (matchday 11) per the club site. Last season: Iserlohn won 3:1 at home on 28 Nov 2025, Muenchen won 6:0 at home 11 Jan 2026 and 4:3 in OT at Iserlohn 5 Mar 2026. Muenchen led the all-time series 34-20 in an old preview. Games are often close, with OT/SO possible.",
+        "odds": "OddsPortal 3-way 1X2 today: Iserlohn 4.60, draw 5.00, Muenchen 1.74 (sum of implied is about 0.99, so probably best odds or a mixed line). Normalised: Iserlohn 0.219, draw 0.202, Muenchen 0.579. Draw (OT/SO) split roughly 45/55 gives two-way incl. OT of about Muenchen 0.69, Iserlohn 0.31, against Polymarket 0.72 (about 3 points lower, within the 5-point band). Only one price source, no opening line or movement found. Polymarket moved 0.715 to 0.72 over 24h (no adverse move).",
+        "models": "No bookmaker-free model found (no MoneyPuck equivalent for DEL; Forebet, Eliteprospects and standings pages not retrieved).",
+        "venue_weather": "Real home team is Iserlohn Roosters (the candidate mapping home=Iserlohn is correct). Eissporthalle Iserlohn (Seilersee/Balver Zinne), a small, loud rink; indoor so no weather. Not neutral. Travel Muenchen to Iserlohn is long, but they appear to have a normal schedule. Fixture confirmed on OddsPortal for 27 Nov."
+      },
+      "reason": "Fixture exists (OddsPortal, 27 Nov) and no hard exclusion applies: no coach change in the last 7 days found, no derby, no neutral venue. The one independent price (OddsPortal 1.74/5.00/4.60 converted to two-way incl. OT) gives Muenchen about 0.69, a bit under the Polymarket 0.72, so I shaded to 0.70. Muenchen is on a six-win streak and beat Iserlohn 3:2 in October, but goalies are unconfirmed and Muenchen is missing its number one goalie plus several defencemen, while standings, form details, rotation and CHL schedule are unverified. Confidence is low because of missing facts.",
+      "main_risk": "Muenchen starts a backup or shaky goalie (Niederberger is out to year end) and, with D depleted (Murphy, Wagner, Kaiser out), is dragged into a one-goal game or overtime/shootout coin flip at Iserlohn, with a possible look-ahead to the sold-out Straubing derby.",
+      "sources": [
+        "https://www.oddsportal.com/hockey/germany/del/",
+        "https://www.redbullmuenchen.de/en/news",
+        "https://www.penny-del.org/news/detail/news-update-kaderplanung-in-der-penny-del-1",
+        "https://petzpowerplay.de/del-verletzungsreport",
+        "https://www.redbullmuenchen.de/en/news/del-vorschau-ehc-red-bull-muenchen-zu-gast-bei-den-iserlohn-roosters"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1449307",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.665,
+        "draw": 0.21,
+        "away": 0.125
+      },
+      "checks": {
+        "team_news": "Groningen: Jeng, Janse and Hernes are out long-term (fcgroningen.nl, 26 Nov). GK Vaessen and right-back Hateboer return from one-match bans (the club and RTV Noord say Vaessen replaces Stubljar). Coach Lukkien is back on the bench on crutches after hip surgery. He missed the Heerenveen game, which Goedkoop led, so there is no new appointment. Willem II: Tjoe-A-On is suspended (red card v Twente), Hoogma (knee) and Lachkar (groin) are out, and GK Didillon is not fit (FCGFans 23 Nov, Sports Mole, FotMob). I found no usable Willem II press-conference quotes from Streppel. Streppel was appointed 28 Oct, about a month ago (Wikipedia).",
+        "lineups": "Four predicted XIs. Sports Mole and JawaPos agree: Groningen Vaessen; Hateboer, Blokzijl, Csinger, Prins; De Jonge, Clement; Schreuders, Van Bergen, Ondrejka; Willumsson. FotMob swaps Van der Werff for Schreuders. 365scores and Betcity predicted Stubljar in goal, which looks stale given Vaessen's return. Willem II: Delanghe; Stam, Dekker, Lemmens, Ter Avest; Boogaard, Twigt; Van Crooij, Van Aalst, Vilhena; Haen. The sources broadly agree apart from the Groningen GK, the right-back and wide-midfield names, and who covers for Tjoe-A-On. Nothing is confirmed yet.",
+        "rotation": "No rotation concern. Groningen played Heerenveen on 21 Nov (lost 1-3), and RTV Noord expects almost the same XI. Willem II played Twente on 22 Nov (lost 1-2). The next league games are the weekend of 4-6 Dec. Both clubs have had a full week. Nothing in the Dutch coverage suggests heavy rotation.",
+        "motivation": "Groningen are 10th with 15 pts (4W 3D 6L, 30-31). They are not in a derby and have nothing to rest for. Willem II are bottom (18th) with 3 pts from 13, winless (0W 3D 10L), 12-42 on goals and about 9 pts from safety, so they are desperate. Streppel took over on 28 Oct and has not turned results around. Groningen are under pressure of their own after 4 straight league losses.",
+        "form": "Groningen's last 5 league games read LLLDL: 1-3 Heerenveen, 3-4 at AZ, 2-3 Sparta, 0-2 at Emmen, 2-2 at NEC. RTV Noord says they have conceded 2+ goals in each of their last 6 official games. They lost their last 3 home league games (Ajax 2-5, Sparta 2-3, Heerenveen 1-3) after a 3-0 home win v Zwolle. Willem II's last 5 are LDLLL: 1-2 Twente, 1-1 Zwolle, 0-7 at home to PSV, then a cup win 4-3 at Helmond and a 1-6 loss to Cambuur. Away they have conceded 25 in 7 league games and never kept a clean sheet. They went behind first in 8 of their last 10 games. I found no xG numbers.",
+        "h2h": "Groningen are unbeaten in the last 6 meetings (4W 2D in Sports Mole's list, 2022-25): 3-1 away (Feb 2025), 2-0 at home (Nov 2024), 1-1, 0-0 and 1-0. They have won the last 4 home league meetings with Willem II, all with clean sheets (RTV Noord). Willem II have lost their last 4 league visits to Euroborg without scoring (JawaPos). Draws are 2 of 6 in the recent list and 6 of 25 all-time (FotMob).",
+        "odds": "DraftKings (ESPN): -270 / +450 / +600, i.e. 1.37 / 5.5 / 7.0. De-vigged about 69.2 / 17.2 / 13.5, total 3.5. The away price lengthened from +500 at the open. BetMGM (365scores) 1.37 / 5.01 / 8.50, about 70 / 19 / 11. Betcity 1.43 / 5.10 / 7.50, about 68 / 19 / 13. Polymarket's 69.4% agrees within about 2 points and moved up 2.2% in 24h, so there is no move against the favourite. Over 3.5 is 2.11 at BetMGM. Betcity BTTS yes is 1.60 and Over 2.5 about 1.44.",
+        "models": "Sports Mole's model gives Groningen 61.2%, draw 19.9% and Willem II 19.0%. Its most likely score is 2-1, with BTTS 59% and Over 2.5 at 63.7%. Football Predictions tips 3-2 with BTTS yes. I could not reach ClubElo (timeout) and found no Opta or Forebet page for this game. The one bookmaker-free model I found is clearly below the market for Groningen (61% against 69%).",
+        "venue_weather": "Euroborg, Groningen, normal home game on grass, referee Richard Martens, kick-off 20:00 local (19:00 UTC). Open-Meteo forecast for kick-off is about -1.5C and dry, with wind about 14 km/h gusting 26 km/h and no snow (FotMob also lists -2C). Cold but playable, and I found no pitch warning. Nothing here is extreme enough to exclude."
+      },
+      "reason": "Market and bookmakers agree on about 68-70% for Groningen, and Willem II are bottom, winless, shipping 3.2 goals a game and missing a suspended defender and their first-choice GK. I trimmed Groningen's win chance by about 3 points, and the draw is raised to 21%. Sports Mole's model has Groningen at 61% and the draw at 20%. Groningen have lost 4 straight league games (3 at home) and conceded 2+ in 6 straight. With a 21% draw the win is still under the 25% limit, but a 60-70% favourite in a slump has a weak record for us, so confidence is low.",
+      "main_risk": "Groningen concede again and the game ends level or Willem II steal it: a desperate bottom side scores first, as they did in 8 of their last 10, and Groningen's leaky defence and 4-game losing run turn it into a draw.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/groningen/preview/groningen-vs-willem-ii-prediction-team-news-lineups_609843.html",
+        "https://www.sportsmole.co.uk/football/eredivisie/groningen-vs-willem-ii_game_263481.html",
+        "https://www.fcgroningen.nl/fcg-tv/lukkien-terug-op-de-bank-tegen-willem-ii/",
+        "https://www.rtvnoord.nl/sport/1455600/fc-groningen-trainer-dick-lukkien-terug-na-heupoperatie-en-is-op-zoek-naar-vastigheden",
+        "https://www.fcgfans.nl/willem-ii-mist-verdediger-tegen-fc-groningen-door-domme-schorsing/",
+        "https://www.fotmob.com/matches/willem-ii-vs-fc-groningen/2g2fuy",
+        "https://www.365scores.com/football/match/eredivisie-57/groningen-willem-ii-692-706-57",
+        "https://club.betcity.nl/voorbeschouwingen/fc-groningen-willem-ii",
+        "https://footballpredictions.com/footballpredictions/netherlands-eredivisie-predictions/groningen-vs-willem-ii-prediction/",
+        "https://www.jawapos.com/sepak-bola-dunia/2611270092/prediksi-skor-groningen-vs-willem-ii-tuan-rumah-terpuruk-tim-tamu-belum-pernah-menang?page=all",
+        "https://en.wikipedia.org/wiki/Jurgen_Streppel",
+        "https://api.open-meteo.com/v1/forecast?latitude=53.2&longitude=6.59",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261127"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1459119",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.63,
+        "draw": 0,
+        "away": 0.37
+      },
+      "checks": {
+        "team_news": "No injury or suspension reports found for either side. The Krefeld club page and the Ingolstadt club page (rate-limited, HTTP 429) gave nothing, and two German-language searches found no press-conference notes. Unverified, so treated as unknown.",
+        "lineups": "Starting goalies not confirmed for either team. Krefeld's Felix Bick kept a 4-0 shutout against Wolfsburg on 22 Nov and is probably the number one. The Ingolstadt goalie is unknown; the club site was blocked. No lineup source found for line combinations.",
+        "rotation": "Krefeld played at Augsburg on Tue 24 Nov (lost 1-5) and has had two days off. Ingolstadt played Bremerhaven on 24/25 Nov in a 3-4/4-3 overtime result; the sources conflict on the date and on who won. Neither team is on a back-to-back for Friday 27 Nov, and travel for Krefeld to Ingolstadt is long.",
+        "motivation": "Exact table positions not found; sportschau.de standings pages showed zeros. Buten un binnen (24 Nov) called the table 'super eng' (very tight). Ingolstadt were described as 'taumelnd' (reeling), with 1 win in their last 7. Krefeld are a newly promoted side (they were in DEL2 in 2025/26), so a first season back. I found no reports of a coaching change at either club, but I could not confirm the current coaches.",
+        "form": "Ingolstadt: 1 win in the last 7, and the league's worst defence at 72 goals against in 19 games (about 3.8 per game). Lost 2-6 at Bremerhaven on 25 Oct and had a 3-4 or 4-3 overtime result against Bremerhaven this week. Krefeld, last 5: L 2-4 vs Nürnberg (13 Nov), L 0-4 at München (15 Nov), W 4-3 vs Straubing (19 Nov), W 4-0 vs Wolfsburg (22 Nov), L 1-5 at Augsburg (24 Nov). Home/away splits not found.",
+        "h2h": "Krefeld won 3-1 at home against Ingolstadt on 2 Oct 2026 (matchday 5, DEL-Refs). No other 2026/27 meeting seen. Not a derby or fierce rivalry (Bavaria vs North Rhine-Westphalia).",
+        "odds": "OddsPortal (bookmaker not named) lists the 3-way price at 1.74 / 5.00 / 4.00 (about 0.561 / 0.195 / 0.244 after de-vigging). Splitting the 0.195 overtime/shootout share about 55/45 gives a two-way price of roughly 0.67 for Ingolstadt, which agrees with Polymarket at 0.665. No opening-line or movement data found; the candidate file shows no 24h move. No ESPN/DraftKings price exists for the DEL.",
+        "models": "No bookmaker-free model found (no MoneyPuck equivalent for the DEL; Eliteprospects returned 403). Only points percentage and goal difference are relevant, and Ingolstadt's goal difference looks poor given the league-worst defence, which does not fit a 66% price.",
+        "venue_weather": "Home game for Ingolstadt (listed first, so the candidate mapping is home) at the Saturn Arena, Ingolstadt, start 19:30 local (18:30 UTC). Not a neutral venue; no weather relevance."
+      },
+      "reason": "The OddsPortal 3-way price converts to about 0.67 for Ingolstadt in a two-way market including overtime, so an independent price agrees with Polymarket at 0.665. I shaded Ingolstadt down to 0.63 because they won once in their last 7 games, have the league's worst defence (72 goals against in 19), and lost 1-3 at Krefeld on 2 Oct. Goalies, injuries and coaches were not confirmed for either team. Favourites priced 60-70% have a weak record in our research.",
+      "main_risk": "Ingolstadt's leaky defence (3.8 goals against per game) and poor recent form, plus an unconfirmed goalie; the game could be decided in overtime or a shootout, or a newly promoted Krefeld side could repeat their 3-1 win from October.",
+      "sources": [
+        "https://www.oddsportal.com/hockey/germany/del/",
+        "https://butenunbinnen.de/sport/eishockey-pinguins-ingolstadt-vorschau-furchner-100.html",
+        "https://www.krefeld-pinguine.de",
+        "https://www.del-refs.de/saison-2026-27-spieltag-5-krefeld-pinguine-erc-ingolstadt-nachbericht",
+        "https://www.erc-ingolstadt.de/saison/pleite-in-krefeld?from=news",
+        "https://www.sportschau.de/live-und-ergebnisse/eishockey/deutschland-del/ma12189436/krefeld-pinguine_erc-ingolstadt/spiel-kader"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1459116",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.64,
+        "draw": 0,
+        "away": 0.36
+      },
+      "checks": {
+        "team_news": "NOT FOUND. Two searches plus a failed penny-del.org fetch (404) gave no injury report or press conference for either team. Search snippets showed no goalie injury for Bremerhaven, but they were old or undated, so this is not evidence the squad is healthy.",
+        "lineups": "NOT FOUND. No starting goalie was confirmed for either team. A Sportschau roster lists Kristers Gudlevskis (#30) as a Bremerhaven goalie, while an undated Eliteprospects 2026-27 page shows a different #91 goalie, so the Bremerhaven number one is unclear. Nothing on Schwenningen's goalie or the lines.",
+        "rotation": "UNVERIFIED. I could not get either team's schedule or confirm whether either played on 26 Nov. Sportschau's team pages gave only table data. Bremerhaven is at home, so no travel for them. Schwenningen travels the length of Germany to the north coast.",
+        "motivation": "Table data is unreliable. The Sportschau team pages I fetched were tagged 2025/26 and showed Bremerhaven 6th (19 games, 29 pts, GD 0) and Schwenningen 8th (21 games, 28 pts, GD -15). Both are mid-table, with no sign of a derby. Coaches could not be confirmed, and nothing confirms a change or no change in the last 7 days.",
+        "form": "NOT FOUND. No last-10 results with scores for either team. The only numbers are the 2025/26-tagged table figures above: Bremerhaven 50:50 goals, Schwenningen 56:71 goals (-15). Treat these as a rough guide only.",
+        "h2h": "NOT FOUND for recent meetings. A search snippet mentions an earlier 4:0 Pinguins win in Schwenningen, but I could not date it. Sportschau also lists 2026/27 meetings on matchday 11 (in Schwenningen) and matchday 36 (15 Jan 2027), but no scores.",
+        "odds": "OddsPortal page lists Bremerhaven vs Schwenninger today (27 Nov) at 1.80 / 4.50 / 4.00 (3-way, bookmaker not named). De-vigged that is about 54.1 / 21.6 / 24.3 in 60 minutes. Moving a normal share of the draw probability into overtime favouring the home side gives a two-way of about 65.5 / 34.5, which agrees with Polymarket 66 / 34. Only one independent source, with an unnamed bookmaker and no line-movement data. Polymarket moved 65.5% to 66.0% in 24h, which is not adverse.",
+        "models": "NOT FOUND. No MoneyPuck-style or xG model exists for the DEL. Points percentage from the table above is the only model-type input and it is weak, with Bremerhaven slightly ahead on GD and Schwenningen clearly negative.",
+        "venue_weather": "Eisarena Bremerhaven, which is the real home arena for Fischtown Pinguins, so no neutral-venue problem. OddsPortal lists the game as the Bremerhaven home game. Kickoff 18:30 UTC (19:30 CET). Indoor arena, so weather is irrelevant."
+      },
+      "reason": "The fixture is confirmed by OddsPortal, which shows a Bremerhaven home game today. A two-way price derived from the 3-way line (about 65.5%) agrees with Polymarket at 66%. I could not find any goalie, injury, schedule, form or coaching information, so I trimmed the favourite by 2 points to 64% for the unknowns and for the weak record of 60-70% favourites. Hockey with overtime and shootout is inherently high variance.",
+      "main_risk": "An unconfirmed backup goalie for Bremerhaven, or a hot Schwenningen goalie, in a low-margin game that is decided by an overtime or shootout coin flip.",
+      "sources": [
+        "https://www.oddsportal.com/hockey/germany/del/",
+        "https://www.sportschau.de/live-und-ergebnisse/verein/te2939/fischtown-pinguins/tabelle-team",
+        "https://www.sportschau.de/live-und-ergebnisse/verein/te3002/schwenninger-wild-wings/tabelle-team",
+        "https://www.eliteprospects.com/team/441/fischtown-pinguins/2025-2026",
+        "https://www.flashscore.de/spieler/broadhurst-alex/dnDcbBRD/verletzungshistorie/"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1459114",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.37,
+        "draw": 0,
+        "away": 0.63
+      },
+      "checks": {
+        "team_news": "No current injury report found for either side after several searches. The latest item is an older preview (22-23 Oct) that listed Augsburg forwards Malone, Lambert and Toporowski as absent, with a return not confirmed. I found no Berlin injury news. Sportschau's matchday-20 squad page names Augsburg goalies Ancicka, Duetzka and Jones, and Berlin goalies LaFontaine, Neffin and Neisse.",
+        "lineups": "No confirmed or predicted lineup or starting goalie found for either team. Sportschau shows rosters only. In the October preview Berlin's Neffin led the league with a 97.3% save percentage (7 games). Augsburg's Ancicka was at 92.9%, with his start unconfirmed. Whether Neffin or LaFontaine starts tonight is unknown, which is the key unchecked item.",
+        "rotation": "Berlin's exact last game (26 Nov or earlier) was not found, so a back-to-back is unverified. Both teams have 19 games played in the table, and the game is a Friday at 19:30 local. Next games: Berlin at home to Bremerhaven on Sun 29 Nov, Augsburg at Straubing on matchday 22. Berlin also plays CHL games this season (round of 16 vs KooKoo in November), which adds load.",
+        "motivation": "Sportschau table (matchday 20): Berlin 1st with 42 pts from 19 games, goals 73:40. Augsburg 9th with 27 pts, goals 64:61, one point behind 8th-placed Schwenningen (28). This is a regular-season game, with nothing decided either way. Augsburg are in the 7-10 pack and need points. Coaches: Bill Peters (Augsburg) is not new. Eric Dubois took over Berlin in summer 2026, so there was no change in the last 7 days. Not a derby.",
+        "form": "I could not retrieve a last-10 breakdown. Berlin: 13 wins, 1 OT win and 1 shootout loss in 19 games, a +33 goal difference, and a 4:0 win in Krefeld (October). Augsburg: 7 wins, 1 OT win and 2 shootout wins in 19 games, +3, with 3:6 losses to Mannheim and Ingolstadt in October. Results for the most recent games were not found.",
+        "h2h": "Berlin 2026/27 meeting on 23 Oct (matchday 11) found only as a preview, no score. Last season Augsburg won 4:3 in OT/shootout (Oct 2025) and Berlin won 6:3 (Jan 2026). Also a 7:0 Berlin pre-season win over Augsburg. Berlin has more shot attempts at 5v5 (about 53% vs 46%). Augsburg's power play is strong (25.9%) but its penalty kill is weak (68.4%).",
+        "odds": "OddsPortal shows 1X2 (regulation) at Augsburg 3.80, Draw 4.75, Berlin 1.83. De-vigged, that is roughly Augsburg 25.8%, Draw 20.7%, Berlin 53.5%. Giving Berlin about 55% of the draw share (OT/SO) puts the two-way including OT at about 65% Berlin, which agrees with Polymarket's 65%. I could not see which book or what opening line these were from. The 24h Polymarket move was flat (64.5% to 65%). No ESPN or DraftKings price is available for the DEL.",
+        "models": "No bookmaker-free model forecast (such as Elo or xG) found for this DEL game. Table-based proxies only: Berlin points per game 2.21 vs Augsburg 1.42, and goal difference +33 vs +3 (per game +1.7 vs +0.2). That clearly favours Berlin but gives no independent probability.",
+        "venue_weather": "Augsburg is really the home team (Curt-Frenzel-Stadion, Augsburg), matching Polymarket's first-named team. Berlin travels about 550 km. Indoor arena, so weather is irrelevant. Start 19:30 local (18:30 UTC)."
+      },
+      "reason": "Start from the market 65% Berlin. The independent bookmaker price (3-way converted to a two-way including OT) comes to about 65%, which supports it. Berlin leads the table (42 pts, +33) against 9th-placed Augsburg (27 pts, +3). I shaded Berlin down 2 points to 63% because favourites priced 60-70% have a weak record, neither starting goalie is confirmed, a back-to-back for Berlin is unchecked, and the data on form, injuries and the odds source is thin. The two-way market includes OT/SO, which adds randomness.",
+      "main_risk": "Augsburg's goalie gets hot or Berlin rests or sends in the backup goalie, and the game goes to overtime or a shootout, which is close to a coin flip.",
+      "sources": [
+        "https://www.oddsportal.com/hockey/germany/del/",
+        "https://www.sportschau.de/live-und-ergebnisse/eishockey/deutschland-del/ma12189757/augsburger-panther_eisbaeren-berlin/spiel-kader",
+        "https://www.sportschau.de/live-und-ergebnisse/eishockey/deutschland-del/ma12189757/augsburger-panther_eisbaeren-berlin/blitztabelle",
+        "https://www.augsburg-journal.de/sport/aev/augsburger-panther-vor-berlin-spiel-eisbaeren-dominieren-die-del-statistiken-1-115547934",
+        "https://www.volksstimme.de/panorama/chl-achtelfinale-eisbaren-wollen-auf-erfolgskurs-bleiben-4353237"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1453702",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.63,
+        "draw": 0.0,
+        "away": 0.37
+      },
+      "checks": {
+        "team_news": "Severstal list five injured skaters (Burenov, Davydov, Okunev, Remezovsky, Chalyi); no goalies among them. Sibir miss only defenceman Maxim Osipov. Sibir sacked assistant coaches Leshchev and Subbotin on 24 Nov (special teams; Krivchenkov now works with the defencemen) and signed Evander Kane (not yet ready for games) and Galchenyuk. Head coaches unchanged: Kozyrev (Severstal), Lyuzenkov (Sibir, in post since Nov 2025). No Kozyrev or Lyuzenkov press-conference text found on injuries.",
+        "lineups": "NOT confirmed. I found no expected starting goalie for either side on khl.ru, sports.ru, sportmail, livesport or the previews. Kozyrev praised Severstal's goalie 'Seva' after the 23 Nov game, so he is probably the starter. Sibir goalie group named by one unreliable site: Berdin, Gabdrakhmanov, Krasotkin. Lines not found. This is the biggest open check.",
+        "rotation": "Severstal: won 4:2 at Sibir on 23 Nov, then lost 1:2 at Barys in Astana on 25 Nov, now home on 27 Nov after a Novosibirsk-Astana-Cherepovets trip (two days rest, long flights). Sibir: lost 2:4 at home to Severstal on 23 Nov, then lost 3:5 at Torpedo in Nizhny Novgorod on 25 Nov, then travel to Cherepovets; shorter hop, same rest. Neither side has a clear rest edge, Severstal's travel is heavier.",
+        "motivation": "Severstal 3rd in the West (sportmail season line: 30 GP, 14W-10L, 52 pts; livesport quotes 38 pts, 8 ahead of 9th, so the two points figures conflict). Sibir 10th in the East, about 5 points short of the playoff zone (sportmail line 31 GP, 10W-16L, 36 pts, 69-90 goals). Both teams need points. Not a derby. Sibir's staff turmoil (assistants sacked 24 Nov; head coach unchanged) could give a new-coaches bounce.",
+        "form": "Severstal: six straight wins (scoring 4+ in five) ended at Barys; 6 wins in last 7; 74% of home points, best in the West. Sibir: 5 losses in last 7, nine goals conceded in last two, lost last five away games conceding 21. Sibir beat Avtomobilist 1:0 on 20 Nov and Traktor 4:1 on 17 Nov, so they are not hopeless.",
+        "h2h": "Severstal won 4:2 at Sibir on 23 Nov (this season's only meeting). Severstal won 6 of the last 7 per sportandbets (ironwin: 3 of last 5; the sources disagree), but Sibir won the last two in Cherepovets (5:2, 3:2). KHL all-time 20-17 Severstal in 37. Last five meetings averaged 6 goals; the 3-way draw price is 4.30, so regulation ties are about 22%, and overtime and shootouts matter.",
+        "odds": "Seen today: Fonbet, Winline, Marathon, Melbet and Paribet 3-way about 1.75 / 4.30 / 4.05. De-vigged 3-way is 54.4 / 22.1 / 23.5; the metaratings page lists a moneyline incl. OT/SO of 1.45 / 2.80 (bookmaker not named), which de-vigs to about 65.9 / 34.1. Two-way from the 3-way, splitting the draw about 56:44, is about 66.8%. Independent Russian prices therefore say about 66-67% against Polymarket 63%, a gap under 5 points. Polymarket slipped 64.5 to 63 (-2.3% relative) in 24h; the likely cause is the Barys loss and the 25 Nov travel, with no injury or goalie news found.",
+        "models": "No bookmaker-free model for KHL found. Vseprosport's own model gives Severstal 53% (3-way, regulation incl. draw), which is roughly consistent with the market's 54%. Season goal difference: Severstal 75-68 (+7), Sibir 69-90 (-21). Points percentage favours Severstal clearly.",
+        "venue_weather": "Ledovy Dvorets, Cherepovets, 19:00 MSK (16:00 UTC), regular home venue for Severstal (candidate file lists Severstal first and Severstal is the real home team, so p mapping is direct). Sibir are the travelling side from Nizhny Novgorod. Indoor, no weather issue. Not neutral."
+      },
+      "reason": "Market is 63% Severstal; Russian books imply about 66-67% two-way incl. OT, so an independent price agrees within 5 points. Severstal are strong at home (74% of points) and Sibir are weak on the road (5 straight away losses, 21 conceded), but I keep p at the Polymarket price and add no upside: goalies are unconfirmed, Severstal have five injured and the heavier travel (Astana on 25 Nov), they just lost to Barys, Sibir may get a staff-change bounce, and 60-70% favourites have underperformed in our record. The 2.3% Polymarket drift is under 3% and is explained by the Barys loss.",
+      "main_risk": "A close game that goes to overtime or a shootout (about 22% regulation-tie price), with Severstal tired after the Astana trip, an unconfirmed or backup goalie, and a Sibir side with a new-staff bounce and a hot goalie; Sibir also won the last two games in Cherepovets.",
+      "sources": [
+        "https://www.livesport.ru/tips/hockey/2026/11/27/severstal-cherepovets-sibir-novosibirsk/",
+        "https://metaratings.ru/prognozy/hokkey/severstal-sibir-prognoz-na-match-khl-27-noyabrya-2026-goda/",
+        "https://ironwin.ru/prognozy/hockey/severstal-sibir-27-11-2026",
+        "https://sportmail.ru/hockey-khl/407/match/8129408/",
+        "https://www.vseprosport.ru/news/2026/11/26/severstal-sibir-prognoz-kf-1-75-i-stavki-na-match-khl-27-nojabrja-2026-goda",
+        "https://sportarena.kz/hockey/1066488-glavnyy-trener-severstali-kozyrev-prokommentiroval-porazhenie-ot-barysa.html",
+        "https://tass.ru/sport/28355171",
+        "https://sport24.ru/hockey/article-816741-treniroval-kaprizova-a-teper-tvorit-chudesa-v-kkhl-lyuzenkov-podnyal-sibir-so-dna-i-vedet-v-pley-off"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1453703",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.62,
+        "draw": 0,
+        "away": 0.38
+      },
+      "checks": {
+        "team_news": "SKA injured per Olimpbet preview (27 Nov): Bardakov, Weissbeck, Zykov, Larionov, Murphy out. Barys: goalie Shutov listed as doubtful, otherwise no absences found; Justin Bailey (KHL scoring leader, 30 pts in 30 games) is in the tour roster. No club or press-conference confirmation found, so team news is only a preview-level source.",
+        "lineups": "Starting goalies not confirmed. Olimpbet projects Pleshkov (Saranchuk backup) for SKA and Nikolaev (Nurek) for Barys; sportnews.kz only names Barys' three touring goalies (Nikolaev, Nurek, Shutov) and gives no SKA goalie. Only one lineup source gave projections, so there is no cross-check, and a backup for SKA is a real risk.",
+        "rotation": "Both teams played on 25 Nov (SKA lost 2:3 to Lokomotiv at home, Barys beat Severstal 2:1 at home), so there is no back-to-back for either side today. For Barys this is game 1 of 3 away (next Neftekhimik 29 Nov, Avtomobilist 1 Dec) after flying Astana to St Petersburg on 26 Nov, which is a moderate travel load with a 2-hour time difference.",
+        "motivation": "Both teams are outside the playoff zone: SKA 9th in the West with 30 pts, Barys 9th in the East with 31 pts, so both need points. SKA changed head coach from Larionov to Andrei Razin around 20-21 Oct 2026 (about 5 weeks ago, outside the 7-day exclusion window; Barys coach is Mikhail Kravets, no change found). SKA have not won at home since 9 Nov.",
+        "form": "SKA won 3:2 vs Neftekhimik and 5:2 vs Sochi, then lost 2:3 vs Lokomotiv; 2 wins in the last 5 and no home win since 9 Nov. Barys beat Severstal 2:1 to end a 3-game losing streak, with only one goal in each of the two games before that; Bailey has 6 goals in the last 5 games.",
+        "h2h": "SKA have won all 9 meetings since Barys last won on 17 Oct 2021 (4:3 shootout), and 17 of 18 in St Petersburg (29 wins in 36 overall); the 2026 meeting in Astana on 27 Sep ended 5:3 to SKA. The record points to SKA, but those meetings were mostly under a different coach, and a one-goal margin is common.",
+        "odds": "Polymarket SKA 63% (up from 61.5% in 24h, in SKA's favour). Independent price: Olimpbet.kz 1X2 1.84 / 4.48 / 3.78 de-vigs to about 52.7% / 21.6% / 25.7%, which is about 65-67% for SKA two-way if the draw is split by proportion, or about 64.6% if OT/SO is split 55/45. The sidebar line on the same page (1.89 / 4.28 / 3.38) gives about 64% two-way. Both agree with Polymarket within 5 points. No ESPN or DraftKings price exists for the KHL, and no second bookmaker was found.",
+        "models": "No bookmaker-free model (xG or rating) was found for this game. The only model-like data is the Olimpbet preview figure of Barys' average xG of 2.83. Points percentage is nearly level (SKA 30, Barys 31), which supports a weaker edge than the bookmaker-implied 65%.",
+        "venue_weather": "The game is at SKA Arena, St Petersburg; SKA is the real home team and Polymarket's first-named team, so the candidate home/away mapping is correct. Kick-off is 16:30 UTC (19:30 Moscow, 21:30 Astana). It is an indoor arena, so weather is not a factor, and the venue is not neutral."
+      },
+      "reason": "Start from the Polymarket 63% and the Olimpbet two-way of about 64-67%, which agree. I trim SKA to 62% because the starting goalie is unconfirmed (Pleshkov or Saranchuk), five SKA players are injured, SKA are winless at home since 9 Nov and sit outside the playoff zone under a coach appointed about five weeks ago, while Barys are in form with Bailey. The strong h2h (9 straight wins) keeps SKA the favourite. The price band 60-70% has underperformed in our record, hence low confidence.",
+      "main_risk": "SKA start the backup goalie or play poorly at home again (no home win since 9 Nov, 2:3 loss to Lokomotiv on 25 Nov), and Bailey's Barys keep it close and win in overtime or a shootout, which is close to a coin flip.",
+      "sources": [
+        "https://arena.olimpbet.kz/news/events/anons-matcha-khl-ska-barys-forma-komand-sostavy-i-klyuchevye-fakty",
+        "https://sportnews.kz/hockey/barys-poprobuet-prervat-seriyu-iz-devyati-porazheniy-ot-ska-v-matche-kkhl-817450216537/",
+        "https://www.dp.ru/a/2026/10/21/buntar-vmesto-professora",
+        "https://www.sports.kz/news/news-673201-baryis-obyyavil-sostav-na-vyiezdnyie-matchi-khl",
+        "https://prosports.kz/news/759862-tri-matcha-za-pyat-dnei-baris-zhdet-proverka-na-prochnost"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1462384",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1460967",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1459122",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1464678",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1457334",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1460966",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1443701",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.5,
+        "draw": 0.255,
+        "away": 0.245
+      },
+      "checks": {
+        "team_news": "OHL: mightytips lists Ogiwara, Verlinden, Teklab and Traore injured; bet-experts and another preview list none. No OHL press conference found in two searches. Kortrijk: GK Ilic, RB Vroninks and De Vlaeminck out, Lambert suspended (second yellow v Union 22 Nov), Philips with Belgium U17. Beichler's 22 Nov comments only covered Alliet in goal (Voetbalkrant).",
+        "lineups": "bet-experts (26 Nov) and mightytips both give OHL 3-4-2-1/3-4-3: Van den Heuvel; Nyakossi, Pletinckx, Lawrence; Gil, Opoku, George, Schrijvers; Balikwisha, Addai, Mirisola. Kortrijk: Alliet in goal (HLN via search) but bet-experts has Mehssatou in goal, so the sources disagree there. Neither source is confirmed; official XIs come 1 hour before kickoff.",
+        "rotation": "No rotation concern found. OHL last played Anderlecht (lost 0-1); Kortrijk last played Union on 22 Nov (lost 0-1). The next fixtures were not checked. Union SG used Den Dreef for a Thursday European home game, so OHL's own XI should not be affected.",
+        "motivation": "After 12 games OHL are 13th with 12 pts (GD -6) and Kortrijk are last with 4 pts (1W 1D 10L, GD -20), so both need points. Not a derby. Kortrijk appointed Beichler on 7 Oct, seven weeks ago, so outside the 7-day window. OHL coach is Timmy Simons; no recent change at either club.",
+        "form": "OHL last 5, all competitions: L 0-1 Anderlecht, W 2-0 Mechelen, W 2-1 STVV, D 2-2 Lommel, W 1-0 Francs Borains (cup); home W2 D2, 1.54 xG per home game, 16.2 shots. Kortrijk last 5: L 0-1 Union, L 0-1 Gent, L 1-3 Mechelen, D 1-1 Standard, L 0-3 Genk; away 5 defeats and 1 draw in 6 with 1 goal scored, conceding 2.19 xG per away game. 4 goals scored in 12 games.",
+        "h2h": "Since 2011: OHL 6 wins, Kortrijk 5, draws 5 (proleague.be). Last meetings: Kortrijk 2-0 OHL (Mar 2025), OHL 1-1 Kortrijk (Sep 2024), Kortrijk 0-0 OHL, OHL 3-0 Kortrijk. Draws are fairly frequent in this fixture.",
+        "odds": "Bookmakers 26-27 Nov: bet-experts average 1.91/3.60/3.40, de-vigged about 47.8/25.4/26.9. 22bet 1.95/3.78/3.70 de-vigs to about 48.9/25.3/25.8. Melbet, Megapari and 20Bet are similar, with O2.5 at 1.60-1.67. Polymarket (51.7/24.7/23.6) is 3-4 pts more bullish on OHL than the books. The Polymarket 24h move was +1% for OHL, so no adverse drift. No DraftKings price available.",
+        "models": "No bookmaker-free model found. Forebet, Opta and ClubElo pages were not found in two searches. Only xG averages from mightytips (OHL 1.54 home xG, Kortrijk concede 2.19 away xG) point to OHL.",
+        "venue_weather": "Den Dreef, Leuven, OHL's own ground, so it is not a neutral venue. Pitch condition after Union's Thursday game is unverified because no source mentions it. Weather not found. Kickoff is 19:45 UTC (20:45 local). Referee Letellier."
+      },
+      "reason": "I started from Polymarket and moved a little toward the bookmakers, who give OHL about 48-49% and a draw of about 25.3%. That gives home 0.50, draw 0.255 and away 0.245. OHL are unbeaten at home in four games (2W 2D) and face the last-placed side, which has 1 away goal in 6 and is missing its first-choice keeper, right-back and Lambert, so the favourite looks sound. Confidence is low because OHL's own news and press conference were not found, the pitch after Union's Thursday game is unverified, no independent model was found, and the books are lower on OHL than Polymarket.",
+      "main_risk": "A draw. The draw is priced at about 25-26%, OHL scored only 12 goals in 12 games, and it has had 3 draws in 12. Kortrijk, with a new coach and a young keeper, could defend deep, and the Den Dreef pitch after Union's Thursday game could slow play.",
+      "sources": [
+        "https://www.proleague.be/wedstrijden/seizoen-2026-2027-jupiler-pro-league-13-oh-leuven-vs-kv-kortrijk-707",
+        "https://www.voetbalprimeur.be/nieuws/2163398/live-discussie-oh-leuven-kv-kortrijk.html",
+        "https://www.bet-experts.nl/nieuws/oh-leuven-kortrijk-voorspelling-wedtips",
+        "https://www.mightytips.com/football-predictions/oh-leuven-vs-kortrijk-prediction-27-11-2026/",
+        "https://www.voetbalkrant.com/nieuws/2026-11-22/opvallende-keuze-loopt-verkeerd-af-bij-kv-kortrijk-coach-beichler-komt-met-uitleg",
+        "https://sporza.be/nl/2026/10/07/na-woelige-weken-heeft-kv-kortrijk-met-oostenrijker-daniel-beichler-ex-salzburg-een-nieuwe-coach-beet~1791372645286/",
+        "https://www.voetbalkrant.com/nieuws/2026-07-27/timmy-simons-haalt-ex-coach-van-oostende-en-lierse-naar-oh-leuven",
+        "https://sporza.be/nl/2026/08/24/na-uitstap-naar-oostende-trekt-union-voor-europa-league-opnieuw-naar-leuven~1787570767088/"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1448653",
+      "exclude": true,
+      "reason": "Not bettable on the evidence: fixture confirmed on FotMob (Süper Lig round 13, Fri 27 Nov 2026 17:00 UTC, Çaykur Didi Stadium, Rize), but the researcher could not confirm either coach's status for the last 7 days (searches returned only older items; one November item names Recep Uçar as Rizespor coach after an 8 Nov win) and found no 25-26 Nov press conferences, injury news, predicted XIs, weather or independent bookmaker prices. Treated as unverifiable rather than guessed.",
+      "main_risk": "Unverified coach-change and team-news status for both clubs. Turkish clubs often change coaches, and a draw or upset at a Black Sea ground is the usual way a 50.7% home favourite fails.",
+      "sources": [
+        "https://www.fotmob.com/matches/rizespor-vs-kasimpasa/dz6cz",
+        "https://beinsports.com.tr/haber/rcep-ucar-cok-degerli-ve-anlamli-bir-galibiyet-oldu"
+      ]
+    },
+    {
+      "id": "1427050",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1448654",
+      "exclude": true,
+      "skipped": true
+    }
+  ]
+}
