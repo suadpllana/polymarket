@@ -44,7 +44,7 @@
           "to": 0.705,
           "relative_change": -0.007
         },
-        "fetched_at": "2026-11-27T06:52:29.675Z"
+        "fetched_at": "2026-11-27T06:56:33.280Z"
       }
     },
     {
@@ -106,7 +106,7 @@
           "to": 0.685,
           "relative_change": 0.046
         },
-        "fetched_at": "2026-11-27T06:52:29.596Z"
+        "fetched_at": "2026-11-27T06:56:33.191Z"
       }
     },
     {
@@ -168,7 +168,7 @@
           "to": 0.685,
           "relative_change": 0.015
         },
-        "fetched_at": "2026-11-27T06:52:29.788Z"
+        "fetched_at": "2026-11-27T06:56:33.558Z"
       }
     },
     {
@@ -209,7 +209,7 @@
           "to": 0.655,
           "relative_change": 0.016
         },
-        "fetched_at": "2026-11-27T06:52:29.905Z"
+        "fetched_at": "2026-11-27T06:56:33.402Z"
       }
     },
     {
@@ -250,7 +250,7 @@
           "to": 0.645,
           "relative_change": 0.049
         },
-        "fetched_at": "2026-11-27T06:52:30.083Z"
+        "fetched_at": "2026-11-27T06:56:33.641Z"
       }
     },
     {
@@ -291,7 +291,7 @@
           "to": 0.605,
           "relative_change": -0.008
         },
-        "fetched_at": "2026-11-27T06:52:30.102Z"
+        "fetched_at": "2026-11-27T06:56:33.670Z"
       }
     },
     {
@@ -353,7 +353,7 @@
           "to": 0.595,
           "relative_change": -0.048
         },
-        "fetched_at": "2026-11-27T06:52:30.096Z"
+        "fetched_at": "2026-11-27T06:56:33.765Z"
       }
     },
     {
@@ -519,7 +519,7 @@
           "to": 0.575,
           "relative_change": 0.018
         },
-        "fetched_at": "2026-11-27T06:52:30.009Z"
+        "fetched_at": "2026-11-27T06:56:33.740Z"
       }
     },
     {
@@ -560,7 +560,7 @@
           "to": 0.565,
           "relative_change": 0.018
         },
-        "fetched_at": "2026-11-27T06:52:30.307Z"
+        "fetched_at": "2026-11-27T06:56:33.845Z"
       }
     },
     {
@@ -601,7 +601,7 @@
           "to": 0.555,
           "relative_change": -0.035
         },
-        "fetched_at": "2026-11-27T06:52:30.303Z"
+        "fetched_at": "2026-11-27T06:56:33.846Z"
       }
     },
     {
@@ -663,7 +663,7 @@
           "to": 0.545,
           "relative_change": -0.018
         },
-        "fetched_at": "2026-11-27T06:52:30.299Z"
+        "fetched_at": "2026-11-27T06:56:33.851Z"
       }
     },
     {
@@ -725,7 +725,7 @@
           "to": 0.535,
           "relative_change": -0.018
         },
-        "fetched_at": "2026-11-27T06:52:30.335Z"
+        "fetched_at": "2026-11-27T06:56:33.847Z"
       }
     },
     {
@@ -851,7 +851,7 @@
           "to": 0.475,
           "relative_change": 0.022
         },
-        "fetched_at": "2026-11-27T06:52:30.495Z"
+        "fetched_at": "2026-11-27T06:56:33.930Z"
       }
     },
     {
@@ -1001,7 +1001,7 @@
           "to": 0.445,
           "relative_change": 0
         },
-        "fetched_at": "2026-11-27T06:52:30.648Z"
+        "fetched_at": "2026-11-27T06:56:33.936Z"
       }
     },
     {
@@ -1143,7 +1143,7 @@
           "to": 0.385,
           "relative_change": -0.115
         },
-        "fetched_at": "2026-11-27T06:52:30.744Z"
+        "fetched_at": "2026-11-27T06:56:34.197Z"
       }
     },
     {
@@ -1293,7 +1293,1076 @@
           "to": 0.375,
           "relative_change": 0
         },
-        "fetched_at": "2026-11-27T06:52:30.778Z"
+        "fetched_at": "2026-11-27T06:56:34.231Z"
+      }
+    },
+    {
+      "id": "1453497",
+      "league": "KHL",
+      "sport": "ice_hockey",
+      "event": "KHL: Lada Togliatti vs. Lokomotiv Yaroslavl",
+      "home": "Lada Togliatti",
+      "away": "Lokomotiv Yaroslavl",
+      "start": "2026-11-27T15:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.21,
+        "draw": 0,
+        "away": 0.79
+      },
+      "p_first": {
+        "home": 0.21,
+        "draw": 0,
+        "away": 0.79
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "Lokomotiv Yaroslavl",
+          "p_market": 0.79,
+          "fair_odds": 1.27
+        }
+      ],
+      "legs_first": {
+        "away": 0.79
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.785,
+          "to": 0.79,
+          "relative_change": 0.006
+        },
+        "fetched_at": "2026-11-27T06:56:34.422Z"
+      }
+    },
+    {
+      "id": "1464261",
+      "league": "Dota 2",
+      "sport": "esports",
+      "event": "Dota 2: PARIVISION vs Team Liquid (BO3) - BLAST Slam Playoffs",
+      "home": "PARIVISION",
+      "away": "Team Liquid",
+      "start": "2026-11-27T10:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.755,
+        "draw": 0,
+        "away": 0.245
+      },
+      "p_first": {
+        "home": 0.755,
+        "draw": 0,
+        "away": 0.245
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "PARIVISION",
+          "p_market": 0.755,
+          "fair_odds": 1.32
+        }
+      ],
+      "legs_first": {
+        "home": 0.755
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.765,
+          "to": 0.755,
+          "relative_change": -0.013
+        },
+        "fetched_at": "2026-11-27T06:56:34.311Z"
+      }
+    },
+    {
+      "id": "1459121",
+      "league": "DEL",
+      "sport": "ice_hockey",
+      "event": "DEL: Iserlohn Roosters vs. EHC Red Bull München",
+      "home": "Iserlohn Roosters",
+      "away": "EHC Red Bull München",
+      "start": "2026-11-27T18:30:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.28,
+        "draw": 0,
+        "away": 0.72
+      },
+      "p_first": {
+        "home": 0.28,
+        "draw": 0,
+        "away": 0.72
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "EHC Red Bull München",
+          "p_market": 0.72,
+          "fair_odds": 1.39
+        }
+      ],
+      "legs_first": {
+        "away": 0.72
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.715,
+          "to": 0.72,
+          "relative_change": 0.007
+        },
+        "fetched_at": "2026-11-27T06:56:34.427Z"
+      }
+    },
+    {
+      "id": "1449307",
+      "league": "Eredivisie",
+      "sport": "football",
+      "event": "FC Groningen vs. Willem II Tilburg",
+      "home": "FC Groningen",
+      "away": "Willem II Tilburg",
+      "start": "2026-11-27T19:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.6935,
+        "draw": 0.1831,
+        "away": 0.1234
+      },
+      "p_first": {
+        "home": 0.6935,
+        "draw": 0.1831,
+        "away": 0.1234
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "FC Groningen",
+          "p_market": 0.6935,
+          "fair_odds": 1.44
+        },
+        {
+          "key": "ah_away_+2.5",
+          "label": "Handicap",
+          "selection": "Willem II Tilburg +2.5",
+          "p_market": 0.73,
+          "fair_odds": 1.37
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.655,
+          "fair_odds": 1.53
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.575,
+          "fair_odds": 1.74
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.76,
+          "fair_odds": 1.32
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.555,
+          "fair_odds": 1.8
+        }
+      ],
+      "legs_first": {
+        "home": 0.6935,
+        "ah_away_+2.5": 0.73,
+        "ou_2.5_over": 0.655,
+        "ou_3.5_under": 0.575,
+        "ou_4.5_under": 0.76,
+        "btts_yes": 0.555
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261127",
+          "espn_match": "Willem II at FC Groningen",
+          "decimal": {
+            "home": 1.37,
+            "draw": 5.5,
+            "away": 7
+          },
+          "opening": {
+            "home": 1.37,
+            "draw": 5.25,
+            "away": 6
+          },
+          "p_devig": {
+            "home": 0.692,
+            "draw": 0.172,
+            "away": 0.135
+          },
+          "total": 3.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.68,
+          "to": 0.695,
+          "relative_change": 0.022
+        },
+        "fetched_at": "2026-11-27T06:56:34.446Z"
+      }
+    },
+    {
+      "id": "1459119",
+      "league": "DEL",
+      "sport": "ice_hockey",
+      "event": "DEL: ERC Ingolstadt vs. Krefeld Pinguine",
+      "home": "ERC Ingolstadt",
+      "away": "Krefeld Pinguine",
+      "start": "2026-11-27T18:30:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.665,
+        "draw": 0,
+        "away": 0.335
+      },
+      "p_first": {
+        "home": 0.665,
+        "draw": 0,
+        "away": 0.335
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "ERC Ingolstadt",
+          "p_market": 0.665,
+          "fair_odds": 1.5
+        }
+      ],
+      "legs_first": {
+        "home": 0.665
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.665,
+          "to": 0.665,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-27T06:56:34.638Z"
+      }
+    },
+    {
+      "id": "1459116",
+      "league": "DEL",
+      "sport": "ice_hockey",
+      "event": "DEL: Bremerhaven vs. Schwenninger Wild Wings",
+      "home": "Bremerhaven",
+      "away": "Schwenninger Wild Wings",
+      "start": "2026-11-27T18:30:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.66,
+        "draw": 0,
+        "away": 0.34
+      },
+      "p_first": {
+        "home": 0.66,
+        "draw": 0,
+        "away": 0.34
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Bremerhaven",
+          "p_market": 0.66,
+          "fair_odds": 1.52
+        }
+      ],
+      "legs_first": {
+        "home": 0.66
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.655,
+          "to": 0.66,
+          "relative_change": 0.008
+        },
+        "fetched_at": "2026-11-27T06:56:34.632Z"
+      }
+    },
+    {
+      "id": "1459114",
+      "league": "DEL",
+      "sport": "ice_hockey",
+      "event": "DEL: Augsburger Panther vs. Eisbären Berlin",
+      "home": "Augsburger Panther",
+      "away": "Eisbären Berlin",
+      "start": "2026-11-27T18:30:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.35,
+        "draw": 0,
+        "away": 0.65
+      },
+      "p_first": {
+        "home": 0.35,
+        "draw": 0,
+        "away": 0.65
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "Eisbären Berlin",
+          "p_market": 0.65,
+          "fair_odds": 1.54
+        }
+      ],
+      "legs_first": {
+        "away": 0.65
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.645,
+          "to": 0.65,
+          "relative_change": 0.008
+        },
+        "fetched_at": "2026-11-27T06:56:34.673Z"
+      }
+    },
+    {
+      "id": "1453702",
+      "league": "KHL",
+      "sport": "ice_hockey",
+      "event": "KHL: Severstal Cherepovets vs. Sibir Novosibirsk",
+      "home": "Severstal Cherepovets",
+      "away": "Sibir Novosibirsk",
+      "start": "2026-11-27T16:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.63,
+        "draw": 0,
+        "away": 0.37
+      },
+      "p_first": {
+        "home": 0.63,
+        "draw": 0,
+        "away": 0.37
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Severstal Cherepovets",
+          "p_market": 0.63,
+          "fair_odds": 1.59
+        }
+      ],
+      "legs_first": {
+        "home": 0.63
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.645,
+          "to": 0.63,
+          "relative_change": -0.023
+        },
+        "fetched_at": "2026-11-27T06:56:34.633Z"
+      }
+    },
+    {
+      "id": "1453703",
+      "league": "KHL",
+      "sport": "ice_hockey",
+      "event": "KHL: SKA St. Petersburg vs. Barys Astana",
+      "home": "SKA St. Petersburg",
+      "away": "Barys Astana",
+      "start": "2026-11-27T16:30:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.63,
+        "draw": 0,
+        "away": 0.37
+      },
+      "p_first": {
+        "home": 0.63,
+        "draw": 0,
+        "away": 0.37
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "SKA St. Petersburg",
+          "p_market": 0.63,
+          "fair_odds": 1.59
+        }
+      ],
+      "legs_first": {
+        "home": 0.63
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.615,
+          "to": 0.63,
+          "relative_change": 0.024
+        },
+        "fetched_at": "2026-11-27T06:56:34.859Z"
+      }
+    },
+    {
+      "id": "1462384",
+      "league": "Liiga",
+      "sport": "ice_hockey",
+      "event": "Lukko Rauma vs. Jukurit Mikkeli",
+      "home": "Lukko Rauma",
+      "away": "Jukurit Mikkeli",
+      "start": "2026-11-27T15:30:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.61,
+        "draw": 0,
+        "away": 0.39
+      },
+      "p_first": {
+        "home": 0.61,
+        "draw": 0,
+        "away": 0.39
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Lukko Rauma",
+          "p_market": 0.61,
+          "fair_odds": 1.64
+        }
+      ],
+      "legs_first": {
+        "home": 0.61
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.615,
+          "to": 0.61,
+          "relative_change": -0.008
+        },
+        "fetched_at": "2026-11-27T06:56:34.855Z"
+      }
+    },
+    {
+      "id": "1460967",
+      "league": "Liiga",
+      "sport": "ice_hockey",
+      "event": "Tappara Tampere vs. Kiekko-Espoo",
+      "home": "Tappara Tampere",
+      "away": "Kiekko-Espoo",
+      "start": "2026-11-27T16:30:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.595,
+        "draw": 0,
+        "away": 0.405
+      },
+      "p_first": {
+        "home": 0.595,
+        "draw": 0,
+        "away": 0.405
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Tappara Tampere",
+          "p_market": 0.595,
+          "fair_odds": 1.68
+        }
+      ],
+      "legs_first": {
+        "home": 0.595
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.595,
+          "to": 0.595,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-27T06:56:34.902Z"
+      }
+    },
+    {
+      "id": "1459122",
+      "league": "DEL",
+      "sport": "ice_hockey",
+      "event": "DEL: Kölner Haie vs. Straubing Tigers",
+      "home": "Kölner Haie",
+      "away": "Straubing Tigers",
+      "start": "2026-11-27T18:30:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.595,
+        "draw": 0,
+        "away": 0.405
+      },
+      "p_first": {
+        "home": 0.595,
+        "draw": 0,
+        "away": 0.405
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Kölner Haie",
+          "p_market": 0.595,
+          "fair_odds": 1.68
+        }
+      ],
+      "legs_first": {
+        "home": 0.595
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.605,
+          "to": 0.595,
+          "relative_change": -0.017
+        },
+        "fetched_at": "2026-11-27T06:56:34.856Z"
+      }
+    },
+    {
+      "id": "1464678",
+      "league": "Dota 2",
+      "sport": "esports",
+      "event": "Dota 2: GamerLegion vs 1win (BO3) - BLAST Slam Playoffs",
+      "home": "GamerLegion",
+      "away": "1win",
+      "start": "2026-11-27T13:30:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.425,
+        "draw": 0,
+        "away": 0.575
+      },
+      "p_first": {
+        "home": 0.425,
+        "draw": 0,
+        "away": 0.575
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "1win",
+          "p_market": 0.575,
+          "fair_odds": 1.74
+        }
+      ],
+      "legs_first": {
+        "away": 0.575
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.57,
+          "to": 0.575,
+          "relative_change": 0.009
+        },
+        "fetched_at": "2026-11-27T06:56:35.082Z"
+      }
+    },
+    {
+      "id": "1457334",
+      "league": "Liiga",
+      "sport": "ice_hockey",
+      "event": "KalPa Hockey vs. JYP Jyvaskyla",
+      "home": "KalPa Hockey",
+      "away": "JYP Jyvaskyla",
+      "start": "2026-11-27T16:30:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.46,
+        "draw": 0,
+        "away": 0.54
+      },
+      "p_first": {
+        "home": 0.46,
+        "draw": 0,
+        "away": 0.54
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "JYP Jyvaskyla",
+          "p_market": 0.54,
+          "fair_odds": 1.85
+        }
+      ],
+      "legs_first": {
+        "away": 0.54
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.535,
+          "to": 0.54,
+          "relative_change": 0.009
+        },
+        "fetched_at": "2026-11-27T06:56:35.087Z"
+      }
+    },
+    {
+      "id": "1460966",
+      "league": "Liiga",
+      "sport": "ice_hockey",
+      "event": "KooKoo vs. HPK Hameenlinna",
+      "home": "KooKoo",
+      "away": "HPK Hameenlinna",
+      "start": "2026-11-27T16:30:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.53,
+        "draw": 0,
+        "away": 0.47
+      },
+      "p_first": {
+        "home": 0.53,
+        "draw": 0,
+        "away": 0.47
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "KooKoo",
+          "p_market": 0.53,
+          "fair_odds": 1.89
+        }
+      ],
+      "legs_first": {
+        "home": 0.53
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.525,
+          "to": 0.53,
+          "relative_change": 0.01
+        },
+        "fetched_at": "2026-11-27T06:56:35.132Z"
+      }
+    },
+    {
+      "id": "1443701",
+      "league": "Belgian Pro League",
+      "sport": "football",
+      "event": "Oud-Heverlee Leuven vs. KV Kortrijk",
+      "home": "Oud-Heverlee Leuven",
+      "away": "KV Kortrijk",
+      "start": "2026-11-27T19:45:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.5167,
+        "draw": 0.2467,
+        "away": 0.2367
+      },
+      "p_first": {
+        "home": 0.5167,
+        "draw": 0.2467,
+        "away": 0.2367
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Oud-Heverlee Leuven or Draw",
+          "p_market": 0.7634,
+          "fair_odds": 1.31
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Oud-Heverlee Leuven",
+          "p_market": 0.7634,
+          "fair_odds": 1.46
+        },
+        {
+          "key": "ah_away_+1.5",
+          "label": "Handicap",
+          "selection": "KV Kortrijk +1.5",
+          "p_market": 0.72,
+          "fair_odds": 1.39
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.805,
+          "fair_odds": 1.24
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.575,
+          "fair_odds": 1.74
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.65,
+          "fair_odds": 1.54
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.82,
+          "fair_odds": 1.22
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.59,
+          "fair_odds": 1.69
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.7634,
+        "home_dnb": 0.7634,
+        "ah_away_+1.5": 0.72,
+        "ou_1.5_over": 0.805,
+        "ou_2.5_over": 0.575,
+        "ou_3.5_under": 0.65,
+        "ou_4.5_under": 0.82,
+        "btts_yes": 0.59
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.51,
+          "to": 0.515,
+          "relative_change": 0.01
+        },
+        "fetched_at": "2026-11-27T06:56:35.084Z"
+      }
+    },
+    {
+      "id": "1448653",
+      "league": "Süper Lig",
+      "sport": "football",
+      "event": "Çaykur Rizespor vs. Kasımpaşa SK",
+      "home": "Çaykur Rizespor",
+      "away": "Kasımpaşa SK",
+      "start": "2026-11-27T17:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.5067,
+        "draw": 0.2467,
+        "away": 0.2467
+      },
+      "p_first": {
+        "home": 0.5067,
+        "draw": 0.2467,
+        "away": 0.2467
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Çaykur Rizespor or Draw",
+          "p_market": 0.7534,
+          "fair_odds": 1.33
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Çaykur Rizespor",
+          "p_market": 0.7534,
+          "fair_odds": 1.49
+        },
+        {
+          "key": "ah_away_+1.5",
+          "label": "Handicap",
+          "selection": "Kasımpaşa SK +1.5",
+          "p_market": 0.73,
+          "fair_odds": 1.37
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.795,
+          "fair_odds": 1.26
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.57,
+          "fair_odds": 1.75
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.655,
+          "fair_odds": 1.53
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.825,
+          "fair_odds": 1.21
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.59,
+          "fair_odds": 1.69
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.7534,
+        "home_dnb": 0.7534,
+        "ah_away_+1.5": 0.73,
+        "ou_1.5_over": 0.795,
+        "ou_2.5_over": 0.57,
+        "ou_3.5_under": 0.655,
+        "ou_4.5_under": 0.825,
+        "btts_yes": 0.59
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.5,
+          "to": 0.505,
+          "relative_change": 0.01
+        },
+        "fetched_at": "2026-11-27T06:56:35.317Z"
+      }
+    },
+    {
+      "id": "1427050",
+      "league": "Primeira Liga",
+      "sport": "football",
+      "event": "CS Marítimo vs. CD Nacional",
+      "home": "CS Marítimo",
+      "away": "CD Nacional",
+      "start": "2026-11-27T20:15:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.43,
+        "draw": 0.305,
+        "away": 0.265
+      },
+      "p_first": {
+        "home": 0.43,
+        "draw": 0.305,
+        "away": 0.265
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "CS Marítimo or Draw",
+          "p_market": 0.735,
+          "fair_odds": 1.36
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "CD Nacional or Draw",
+          "p_market": 0.57,
+          "fair_odds": 1.75
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "CS Marítimo",
+          "p_market": 0.735,
+          "fair_odds": 1.62
+        },
+        {
+          "key": "ah_away_+1.5",
+          "label": "Handicap",
+          "selection": "CD Nacional +1.5",
+          "p_market": 0.81,
+          "fair_odds": 1.23
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.655,
+          "fair_odds": 1.53
+        },
+        {
+          "key": "ou_2.5_under",
+          "label": "Total goals",
+          "selection": "Under 2.5",
+          "p_market": 0.615,
+          "fair_odds": 1.63
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.815,
+          "fair_odds": 1.23
+        },
+        {
+          "key": "btts_no",
+          "label": "Both teams to score",
+          "selection": "No",
+          "p_market": 0.53,
+          "fair_odds": 1.89
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.735,
+        "away_draw": 0.57,
+        "home_dnb": 0.735,
+        "ah_away_+1.5": 0.81,
+        "ou_1.5_over": 0.655,
+        "ou_2.5_under": 0.615,
+        "ou_3.5_under": 0.815,
+        "btts_no": 0.53
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.45,
+          "to": 0.43,
+          "relative_change": -0.044
+        },
+        "fetched_at": "2026-11-27T06:56:35.327Z"
+      }
+    },
+    {
+      "id": "1448654",
+      "league": "Süper Lig",
+      "sport": "football",
+      "event": "Alanyaspor vs. Konyaspor",
+      "home": "Alanyaspor",
+      "away": "Konyaspor",
+      "start": "2026-11-27T17:00:00.000Z",
+      "coverage": 2,
+      "p_market": {
+        "home": 0.3433,
+        "draw": 0.3233,
+        "away": 0.3333
+      },
+      "p_first": {
+        "home": 0.3433,
+        "draw": 0.3233,
+        "away": 0.3333
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Alanyaspor or Draw",
+          "p_market": 0.6666,
+          "fair_odds": 1.5
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Konyaspor or Draw",
+          "p_market": 0.6566,
+          "fair_odds": 1.52
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.65,
+          "fair_odds": 1.54
+        },
+        {
+          "key": "ou_2.5_under",
+          "label": "Total goals",
+          "selection": "Under 2.5",
+          "p_market": 0.625,
+          "fair_odds": 1.6
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.815,
+          "fair_odds": 1.23
+        },
+        {
+          "key": "btts_no",
+          "label": "Both teams to score",
+          "selection": "No",
+          "p_market": 0.53,
+          "fair_odds": 1.89
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.6666,
+        "away_draw": 0.6566,
+        "ou_1.5_over": 0.65,
+        "ou_2.5_under": 0.625,
+        "ou_3.5_under": 0.815,
+        "btts_no": 0.53
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/scoreboard?dates=20261127",
+          "espn_match": "Konyaspor at Alanyaspor",
+          "decimal": {
+            "home": 2.75,
+            "draw": 3,
+            "away": 2.75
+          },
+          "opening": {
+            "home": 2.5,
+            "draw": 3.25,
+            "away": 2.7
+          },
+          "p_devig": {
+            "home": 0.343,
+            "draw": 0.314,
+            "away": 0.343
+          },
+          "total": 2.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.36,
+          "to": 0.345,
+          "relative_change": -0.042
+        },
+        "fetched_at": "2026-11-27T06:56:35.353Z"
       }
     }
   ]
