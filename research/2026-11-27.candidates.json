@@ -1,0 +1,1300 @@
+{
+  "date": "2026-11-27",
+  "window": {
+    "start": "2026-11-27T07:22:20.641Z",
+    "end": "2026-11-27T22:00:00.000Z"
+  },
+  "games_in_window": 40,
+  "games": [
+    {
+      "id": "1289070",
+      "league": "NHL",
+      "sport": "ice_hockey",
+      "event": "Flames vs. Devils",
+      "home": "Flames",
+      "away": "Devils",
+      "start": "2026-11-27T18:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.295,
+        "draw": 0,
+        "away": 0.705
+      },
+      "p_first": {
+        "home": 0.295,
+        "draw": 0,
+        "away": 0.705
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "Devils",
+          "p_market": 0.705,
+          "fair_odds": 1.42
+        }
+      ],
+      "legs_first": {
+        "away": 0.705
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.71,
+          "to": 0.705,
+          "relative_change": -0.007
+        },
+        "fetched_at": "2026-11-27T06:52:29.675Z"
+      }
+    },
+    {
+      "id": "1332035",
+      "league": "NFL",
+      "sport": "american_football",
+      "event": "Broncos vs. Steelers",
+      "home": "Broncos",
+      "away": "Steelers",
+      "start": "2026-11-27T20:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.685,
+        "draw": 0,
+        "away": 0.315
+      },
+      "p_first": {
+        "home": 0.685,
+        "draw": 0,
+        "away": 0.315
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Broncos",
+          "p_market": 0.685,
+          "fair_odds": 1.46
+        }
+      ],
+      "legs_first": {
+        "home": 0.685
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261127",
+          "espn_match": "Denver Broncos at Pittsburgh Steelers",
+          "decimal": {
+            "home": 1.4,
+            "draw": null,
+            "away": 3.04
+          },
+          "opening": {
+            "home": 1.85,
+            "draw": null,
+            "away": 1.98
+          },
+          "p_devig": {
+            "home": 0.684,
+            "draw": 0,
+            "away": 0.316
+          },
+          "total": 37.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.655,
+          "to": 0.685,
+          "relative_change": 0.046
+        },
+        "fetched_at": "2026-11-27T06:52:29.596Z"
+      }
+    },
+    {
+      "id": "1289076",
+      "league": "NHL",
+      "sport": "ice_hockey",
+      "event": "Canucks vs. Flyers",
+      "home": "Canucks",
+      "away": "Flyers",
+      "start": "2026-11-27T20:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.315,
+        "draw": 0,
+        "away": 0.685
+      },
+      "p_first": {
+        "home": 0.315,
+        "draw": 0,
+        "away": 0.685
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "Flyers",
+          "p_market": 0.685,
+          "fair_odds": 1.46
+        }
+      ],
+      "legs_first": {
+        "away": 0.685
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261127",
+          "espn_match": "Vancouver Canucks at Philadelphia Flyers",
+          "decimal": {
+            "home": 3,
+            "draw": null,
+            "away": 1.41
+          },
+          "opening": {
+            "home": 2.9,
+            "draw": null,
+            "away": 1.43
+          },
+          "p_devig": {
+            "home": 0.319,
+            "draw": 0,
+            "away": 0.681
+          },
+          "total": 6.5
+        },
+        "move_24h": {
+          "side": "away",
+          "from": 0.675,
+          "to": 0.685,
+          "relative_change": 0.015
+        },
+        "fetched_at": "2026-11-27T06:52:29.788Z"
+      }
+    },
+    {
+      "id": "1289079",
+      "league": "NHL",
+      "sport": "ice_hockey",
+      "event": "Golden Knights vs. Sharks",
+      "home": "Golden Knights",
+      "away": "Sharks",
+      "start": "2026-11-27T21:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.655,
+        "draw": 0,
+        "away": 0.345
+      },
+      "p_first": {
+        "home": 0.655,
+        "draw": 0,
+        "away": 0.345
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Golden Knights",
+          "p_market": 0.655,
+          "fair_odds": 1.53
+        }
+      ],
+      "legs_first": {
+        "home": 0.655
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.645,
+          "to": 0.655,
+          "relative_change": 0.016
+        },
+        "fetched_at": "2026-11-27T06:52:29.905Z"
+      }
+    },
+    {
+      "id": "1463997",
+      "league": "CS2",
+      "sport": "esports",
+      "event": "Counter-Strike: M80 vs 100 Thieves (BO3) - PGL Major Singapore Stage 1",
+      "home": "M80",
+      "away": "100 Thieves",
+      "start": "2026-11-27T11:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.355,
+        "draw": 0,
+        "away": 0.645
+      },
+      "p_first": {
+        "home": 0.355,
+        "draw": 0,
+        "away": 0.645
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Match winner",
+          "selection": "100 Thieves",
+          "p_market": 0.645,
+          "fair_odds": 1.55
+        }
+      ],
+      "legs_first": {
+        "away": 0.645
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.615,
+          "to": 0.645,
+          "relative_change": 0.049
+        },
+        "fetched_at": "2026-11-27T06:52:30.083Z"
+      }
+    },
+    {
+      "id": "1464112",
+      "league": "CS2",
+      "sport": "esports",
+      "event": "Counter-Strike: Imperial vs Wildcard (BO3) - PGL Major Singapore Stage 1",
+      "home": "Imperial",
+      "away": "Wildcard",
+      "start": "2026-11-27T08:30:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.605,
+        "draw": 0,
+        "away": 0.395
+      },
+      "p_first": {
+        "home": 0.605,
+        "draw": 0,
+        "away": 0.395
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "Imperial",
+          "p_market": 0.605,
+          "fair_odds": 1.65
+        }
+      ],
+      "legs_first": {
+        "home": 0.605
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.61,
+          "to": 0.605,
+          "relative_change": -0.008
+        },
+        "fetched_at": "2026-11-27T06:52:30.102Z"
+      }
+    },
+    {
+      "id": "1289071",
+      "league": "NHL",
+      "sport": "ice_hockey",
+      "event": "Maple Leafs vs. Bruins",
+      "home": "Maple Leafs",
+      "away": "Bruins",
+      "start": "2026-11-27T18:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.405,
+        "draw": 0,
+        "away": 0.595
+      },
+      "p_first": {
+        "home": 0.405,
+        "draw": 0,
+        "away": 0.595
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "Bruins",
+          "p_market": 0.595,
+          "fair_odds": 1.68
+        }
+      ],
+      "legs_first": {
+        "away": 0.595
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261127",
+          "espn_match": "Toronto Maple Leafs at Boston Bruins",
+          "decimal": {
+            "home": 2.3,
+            "draw": null,
+            "away": 1.65
+          },
+          "opening": {
+            "home": 2.4,
+            "draw": null,
+            "away": 1.6
+          },
+          "p_devig": {
+            "home": 0.417,
+            "draw": 0,
+            "away": 0.583
+          },
+          "total": 6.5
+        },
+        "move_24h": {
+          "side": "away",
+          "from": 0.625,
+          "to": 0.595,
+          "relative_change": -0.048
+        },
+        "fetched_at": "2026-11-27T06:52:30.096Z"
+      }
+    },
+    {
+      "id": "1426725",
+      "league": "Bundesliga",
+      "sport": "football",
+      "event": "SV Werder Bremen vs. Borussia Mönchengladbach",
+      "home": "SV Werder Bremen",
+      "away": "Borussia Mönchengladbach",
+      "start": "2026-11-27T19:30:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.5766,
+        "draw": 0.2167,
+        "away": 0.2067
+      },
+      "p_first": {
+        "home": 0.5766,
+        "draw": 0.2167,
+        "away": 0.2067
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Match winner",
+          "selection": "SV Werder Bremen",
+          "p_market": 0.5766,
+          "fair_odds": 1.73
+        },
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "SV Werder Bremen or Draw",
+          "p_market": 0.7933,
+          "fair_odds": 1.26
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "SV Werder Bremen",
+          "p_market": 0.7933,
+          "fair_odds": 1.36
+        },
+        {
+          "key": "ah_away_+1.5",
+          "label": "Handicap",
+          "selection": "Borussia Mönchengladbach +1.5",
+          "p_market": 0.655,
+          "fair_odds": 1.53
+        },
+        {
+          "key": "ah_away_+2.5",
+          "label": "Handicap",
+          "selection": "Borussia Mönchengladbach +2.5",
+          "p_market": 0.835,
+          "fair_odds": 1.2
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.835,
+          "fair_odds": 1.2
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.625,
+          "fair_odds": 1.6
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.595,
+          "fair_odds": 1.68
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.775,
+          "fair_odds": 1.29
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.605,
+          "fair_odds": 1.65
+        },
+        {
+          "key": "tt_home_1.5_over",
+          "label": "SV Werder Bremen goals",
+          "selection": "Over 1.5",
+          "p_market": 0.615,
+          "fair_odds": 1.63
+        },
+        {
+          "key": "tt_home_2.5_under",
+          "label": "SV Werder Bremen goals",
+          "selection": "Under 2.5",
+          "p_market": 0.67,
+          "fair_odds": 1.49
+        },
+        {
+          "key": "tt_away_0.5_over",
+          "label": "Borussia Mönchengladbach goals",
+          "selection": "Over 0.5",
+          "p_market": 0.69,
+          "fair_odds": 1.45
+        },
+        {
+          "key": "tt_away_1.5_under",
+          "label": "Borussia Mönchengladbach goals",
+          "selection": "Under 1.5",
+          "p_market": 0.67,
+          "fair_odds": 1.49
+        }
+      ],
+      "legs_first": {
+        "home": 0.5766,
+        "home_draw": 0.7933,
+        "home_dnb": 0.7933,
+        "ah_away_+1.5": 0.655,
+        "ah_away_+2.5": 0.835,
+        "ou_1.5_over": 0.835,
+        "ou_2.5_over": 0.625,
+        "ou_3.5_under": 0.595,
+        "ou_4.5_under": 0.775,
+        "btts_yes": 0.605,
+        "tt_home_1.5_over": 0.615,
+        "tt_home_2.5_under": 0.67,
+        "tt_away_0.5_over": 0.69,
+        "tt_away_1.5_under": 0.67
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261127",
+          "espn_match": "Borussia Mönchengladbach at Werder Bremen",
+          "decimal": {
+            "home": 1.67,
+            "draw": 4.2,
+            "away": 4.2
+          },
+          "opening": {
+            "home": 1.69,
+            "draw": 4,
+            "away": 3.8
+          },
+          "p_devig": {
+            "home": 0.558,
+            "draw": 0.221,
+            "away": 0.221
+          },
+          "total": 3.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.565,
+          "to": 0.575,
+          "relative_change": 0.018
+        },
+        "fetched_at": "2026-11-27T06:52:30.009Z"
+      }
+    },
+    {
+      "id": "1289072",
+      "league": "NHL",
+      "sport": "ice_hockey",
+      "event": "Stars vs. Blues",
+      "home": "Stars",
+      "away": "Blues",
+      "start": "2026-11-27T19:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.565,
+        "draw": 0,
+        "away": 0.435
+      },
+      "p_first": {
+        "home": 0.565,
+        "draw": 0,
+        "away": 0.435
+      },
+      "legs_in_range": [
+        {
+          "key": "home",
+          "label": "Moneyline",
+          "selection": "Stars",
+          "p_market": 0.565,
+          "fair_odds": 1.77
+        }
+      ],
+      "legs_first": {
+        "home": 0.565
+      },
+      "data": {
+        "move_24h": {
+          "side": "home",
+          "from": 0.555,
+          "to": 0.565,
+          "relative_change": 0.018
+        },
+        "fetched_at": "2026-11-27T06:52:30.307Z"
+      }
+    },
+    {
+      "id": "1289075",
+      "league": "NHL",
+      "sport": "ice_hockey",
+      "event": "Senators vs. Lightning",
+      "home": "Senators",
+      "away": "Lightning",
+      "start": "2026-11-27T20:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.445,
+        "draw": 0,
+        "away": 0.555
+      },
+      "p_first": {
+        "home": 0.445,
+        "draw": 0,
+        "away": 0.555
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "Lightning",
+          "p_market": 0.555,
+          "fair_odds": 1.8
+        }
+      ],
+      "legs_first": {
+        "away": 0.555
+      },
+      "data": {
+        "move_24h": {
+          "side": "away",
+          "from": 0.575,
+          "to": 0.555,
+          "relative_change": -0.035
+        },
+        "fetched_at": "2026-11-27T06:52:30.303Z"
+      }
+    },
+    {
+      "id": "1289073",
+      "league": "NHL",
+      "sport": "ice_hockey",
+      "event": "Red Wings vs. Blue Jackets",
+      "home": "Red Wings",
+      "away": "Blue Jackets",
+      "start": "2026-11-27T20:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.455,
+        "draw": 0,
+        "away": 0.545
+      },
+      "p_first": {
+        "home": 0.455,
+        "draw": 0,
+        "away": 0.545
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "Blue Jackets",
+          "p_market": 0.545,
+          "fair_odds": 1.83
+        }
+      ],
+      "legs_first": {
+        "away": 0.545
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261127",
+          "espn_match": "Detroit Red Wings at Columbus Blue Jackets",
+          "decimal": {
+            "home": 2.1,
+            "draw": null,
+            "away": 1.77
+          },
+          "opening": {
+            "home": 2.1,
+            "draw": null,
+            "away": 1.77
+          },
+          "p_devig": {
+            "home": 0.457,
+            "draw": 0,
+            "away": 0.543
+          },
+          "total": 5.5
+        },
+        "move_24h": {
+          "side": "away",
+          "from": 0.555,
+          "to": 0.545,
+          "relative_change": -0.018
+        },
+        "fetched_at": "2026-11-27T06:52:30.299Z"
+      }
+    },
+    {
+      "id": "1289077",
+      "league": "NHL",
+      "sport": "ice_hockey",
+      "event": "Avalanche vs. Wild",
+      "home": "Avalanche",
+      "away": "Wild",
+      "start": "2026-11-27T21:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.465,
+        "draw": 0,
+        "away": 0.535
+      },
+      "p_first": {
+        "home": 0.465,
+        "draw": 0,
+        "away": 0.535
+      },
+      "legs_in_range": [
+        {
+          "key": "away",
+          "label": "Moneyline",
+          "selection": "Wild",
+          "p_market": 0.535,
+          "fair_odds": 1.87
+        }
+      ],
+      "legs_first": {
+        "away": 0.535
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261127",
+          "espn_match": "Colorado Avalanche at Minnesota Wild",
+          "decimal": {
+            "home": 2.1,
+            "draw": null,
+            "away": 1.77
+          },
+          "opening": {
+            "home": 2.05,
+            "draw": null,
+            "away": 1.8
+          },
+          "p_devig": {
+            "home": 0.457,
+            "draw": 0,
+            "away": 0.543
+          },
+          "total": 6.5
+        },
+        "move_24h": {
+          "side": "away",
+          "from": 0.545,
+          "to": 0.535,
+          "relative_change": -0.018
+        },
+        "fetched_at": "2026-11-27T06:52:30.335Z"
+      }
+    },
+    {
+      "id": "1426855",
+      "league": "La Liga",
+      "sport": "football",
+      "event": "Levante UD vs. Real Racing Club",
+      "home": "Levante UD",
+      "away": "Real Racing Club",
+      "start": "2026-11-27T20:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.4767,
+        "draw": 0.2366,
+        "away": 0.2867
+      },
+      "p_first": {
+        "home": 0.4767,
+        "draw": 0.2366,
+        "away": 0.2867
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Levante UD or Draw",
+          "p_market": 0.7133,
+          "fair_odds": 1.4
+        },
+        {
+          "key": "home_dnb",
+          "label": "Draw no bet",
+          "selection": "Levante UD",
+          "p_market": 0.7133,
+          "fair_odds": 1.6
+        },
+        {
+          "key": "ah_away_+1.5",
+          "label": "Handicap",
+          "selection": "Real Racing Club +1.5",
+          "p_market": 0.725,
+          "fair_odds": 1.38
+        },
+        {
+          "key": "ou_2.5_over",
+          "label": "Total goals",
+          "selection": "Over 2.5",
+          "p_market": 0.695,
+          "fair_odds": 1.44
+        },
+        {
+          "key": "ou_4.5_under",
+          "label": "Total goals",
+          "selection": "Under 4.5",
+          "p_market": 0.72,
+          "fair_odds": 1.39
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.685,
+          "fair_odds": 1.46
+        },
+        {
+          "key": "tt_home_1.5_over",
+          "label": "Levante UD goals",
+          "selection": "Over 1.5",
+          "p_market": 0.59,
+          "fair_odds": 1.69
+        },
+        {
+          "key": "tt_home_2.5_under",
+          "label": "Levante UD goals",
+          "selection": "Under 2.5",
+          "p_market": 0.67,
+          "fair_odds": 1.49
+        },
+        {
+          "key": "tt_away_0.5_over",
+          "label": "Real Racing Club goals",
+          "selection": "Over 0.5",
+          "p_market": 0.785,
+          "fair_odds": 1.27
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.7133,
+        "home_dnb": 0.7133,
+        "ah_away_+1.5": 0.725,
+        "ou_2.5_over": 0.695,
+        "ou_4.5_under": 0.72,
+        "btts_yes": 0.685,
+        "tt_home_1.5_over": 0.59,
+        "tt_home_2.5_under": 0.67,
+        "tt_away_0.5_over": 0.785
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261127",
+          "espn_match": "Racing Santander at Levante",
+          "decimal": {
+            "home": 2,
+            "draw": 4,
+            "away": 3.3
+          },
+          "opening": {
+            "home": 2.05,
+            "draw": 3.8,
+            "away": 3.15
+          },
+          "p_devig": {
+            "home": 0.475,
+            "draw": 0.237,
+            "away": 0.288
+          },
+          "total": 3.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.465,
+          "to": 0.475,
+          "relative_change": 0.022
+        },
+        "fetched_at": "2026-11-27T06:52:30.495Z"
+      }
+    },
+    {
+      "id": "1426933",
+      "league": "Ligue 1",
+      "sport": "football",
+      "event": "Stade Brestois 29 vs. Paris FC",
+      "home": "Stade Brestois 29",
+      "away": "Paris FC",
+      "start": "2026-11-27T19:45:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.2733,
+        "draw": 0.2833,
+        "away": 0.4433
+      },
+      "p_first": {
+        "home": 0.2733,
+        "draw": 0.2833,
+        "away": 0.4433
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Stade Brestois 29 or Draw",
+          "p_market": 0.5566,
+          "fair_odds": 1.8
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Paris FC or Draw",
+          "p_market": 0.7266,
+          "fair_odds": 1.38
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "Paris FC",
+          "p_market": 0.7266,
+          "fair_odds": 1.62
+        },
+        {
+          "key": "ah_home_+1.5",
+          "label": "Handicap",
+          "selection": "Stade Brestois 29 +1.5",
+          "p_market": 0.785,
+          "fair_odds": 1.27
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.755,
+          "fair_odds": 1.32
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.715,
+          "fair_odds": 1.4
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.555,
+          "fair_odds": 1.8
+        },
+        {
+          "key": "tt_home_0.5_over",
+          "label": "Stade Brestois 29 goals",
+          "selection": "Over 0.5",
+          "p_market": 0.695,
+          "fair_odds": 1.44
+        },
+        {
+          "key": "tt_home_1.5_under",
+          "label": "Stade Brestois 29 goals",
+          "selection": "Under 1.5",
+          "p_market": 0.68,
+          "fair_odds": 1.47
+        },
+        {
+          "key": "tt_away_0.5_over",
+          "label": "Paris FC goals",
+          "selection": "Over 0.5",
+          "p_market": 0.785,
+          "fair_odds": 1.27
+        },
+        {
+          "key": "tt_away_1.5_under",
+          "label": "Paris FC goals",
+          "selection": "Under 1.5",
+          "p_market": 0.55,
+          "fair_odds": 1.82
+        },
+        {
+          "key": "tt_away_2.5_under",
+          "label": "Paris FC goals",
+          "selection": "Under 2.5",
+          "p_market": 0.8,
+          "fair_odds": 1.25
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.5566,
+        "away_draw": 0.7266,
+        "away_dnb": 0.7266,
+        "ah_home_+1.5": 0.785,
+        "ou_1.5_over": 0.755,
+        "ou_3.5_under": 0.715,
+        "btts_yes": 0.555,
+        "tt_home_0.5_over": 0.695,
+        "tt_home_1.5_under": 0.68,
+        "tt_away_0.5_over": 0.785,
+        "tt_away_1.5_under": 0.55,
+        "tt_away_2.5_under": 0.8
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261127",
+          "espn_match": "Paris FC at Brest",
+          "decimal": {
+            "home": 3.35,
+            "draw": 3.4,
+            "away": 2.2
+          },
+          "opening": {
+            "home": 3.1,
+            "draw": 3.3,
+            "away": 2.25
+          },
+          "p_devig": {
+            "home": 0.285,
+            "draw": 0.281,
+            "away": 0.434
+          },
+          "total": 2.5
+        },
+        "move_24h": {
+          "side": "away",
+          "from": 0.445,
+          "to": 0.445,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-27T06:52:30.648Z"
+      }
+    },
+    {
+      "id": "1427029",
+      "league": "Serie A",
+      "sport": "football",
+      "event": "Venezia FC vs. Bologna FC 1909",
+      "home": "Venezia FC",
+      "away": "Bologna FC 1909",
+      "start": "2026-11-27T19:45:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.3067,
+        "draw": 0.3067,
+        "away": 0.3867
+      },
+      "p_first": {
+        "home": 0.3067,
+        "draw": 0.3067,
+        "away": 0.3867
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Venezia FC or Draw",
+          "p_market": 0.6134,
+          "fair_odds": 1.63
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Bologna FC 1909 or Draw",
+          "p_market": 0.6934,
+          "fair_odds": 1.44
+        },
+        {
+          "key": "away_dnb",
+          "label": "Draw no bet",
+          "selection": "Bologna FC 1909",
+          "p_market": 0.6934,
+          "fair_odds": 1.79
+        },
+        {
+          "key": "ah_home_+1.5",
+          "label": "Handicap",
+          "selection": "Venezia FC +1.5",
+          "p_market": 0.83,
+          "fair_odds": 1.2
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.715,
+          "fair_odds": 1.4
+        },
+        {
+          "key": "ou_2.5_under",
+          "label": "Total goals",
+          "selection": "Under 2.5",
+          "p_market": 0.545,
+          "fair_odds": 1.83
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.765,
+          "fair_odds": 1.31
+        },
+        {
+          "key": "tt_home_0.5_over",
+          "label": "Venezia FC goals",
+          "selection": "Over 0.5",
+          "p_market": 0.695,
+          "fair_odds": 1.44
+        },
+        {
+          "key": "tt_home_1.5_under",
+          "label": "Venezia FC goals",
+          "selection": "Under 1.5",
+          "p_market": 0.675,
+          "fair_odds": 1.48
+        },
+        {
+          "key": "tt_away_0.5_over",
+          "label": "Bologna FC 1909 goals",
+          "selection": "Over 0.5",
+          "p_market": 0.75,
+          "fair_odds": 1.33
+        },
+        {
+          "key": "tt_away_1.5_under",
+          "label": "Bologna FC 1909 goals",
+          "selection": "Under 1.5",
+          "p_market": 0.625,
+          "fair_odds": 1.6
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.6134,
+        "away_draw": 0.6934,
+        "away_dnb": 0.6934,
+        "ah_home_+1.5": 0.83,
+        "ou_1.5_over": 0.715,
+        "ou_2.5_under": 0.545,
+        "ou_3.5_under": 0.765,
+        "tt_home_0.5_over": 0.695,
+        "tt_home_1.5_under": 0.675,
+        "tt_away_0.5_over": 0.75,
+        "tt_away_1.5_under": 0.625
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261127",
+          "espn_match": "Bologna at Venezia",
+          "decimal": {
+            "home": 2.95,
+            "draw": 3.1,
+            "away": 2.4
+          },
+          "opening": {
+            "home": 3.35,
+            "draw": 3.35,
+            "away": 1.95
+          },
+          "p_devig": {
+            "home": 0.314,
+            "draw": 0.299,
+            "away": 0.386
+          },
+          "total": 2.5
+        },
+        "move_24h": {
+          "side": "away",
+          "from": 0.435,
+          "to": 0.385,
+          "relative_change": -0.115
+        },
+        "fetched_at": "2026-11-27T06:52:30.744Z"
+      }
+    },
+    {
+      "id": "1427080",
+      "league": "Premier League",
+      "sport": "football",
+      "event": "Nottingham Forest FC vs. Chelsea FC",
+      "home": "Nottingham Forest FC",
+      "away": "Chelsea FC",
+      "start": "2026-11-27T20:00:00.000Z",
+      "coverage": 1,
+      "p_market": {
+        "home": 0.3733,
+        "draw": 0.2834,
+        "away": 0.3433
+      },
+      "p_first": {
+        "home": 0.3733,
+        "draw": 0.2834,
+        "away": 0.3433
+      },
+      "legs_in_range": [
+        {
+          "key": "home_draw",
+          "label": "Double chance",
+          "selection": "Nottingham Forest FC or Draw",
+          "p_market": 0.6567,
+          "fair_odds": 1.52
+        },
+        {
+          "key": "away_draw",
+          "label": "Double chance",
+          "selection": "Chelsea FC or Draw",
+          "p_market": 0.6267,
+          "fair_odds": 1.6
+        },
+        {
+          "key": "ah_away_+1.5",
+          "label": "Handicap",
+          "selection": "Chelsea FC +1.5",
+          "p_market": 0.835,
+          "fair_odds": 1.2
+        },
+        {
+          "key": "ou_1.5_over",
+          "label": "Total goals",
+          "selection": "Over 1.5",
+          "p_market": 0.755,
+          "fair_odds": 1.32
+        },
+        {
+          "key": "ou_3.5_under",
+          "label": "Total goals",
+          "selection": "Under 3.5",
+          "p_market": 0.705,
+          "fair_odds": 1.42
+        },
+        {
+          "key": "btts_yes",
+          "label": "Both teams to score",
+          "selection": "Yes",
+          "p_market": 0.575,
+          "fair_odds": 1.74
+        },
+        {
+          "key": "tt_home_0.5_over",
+          "label": "Nottingham Forest FC goals",
+          "selection": "Over 0.5",
+          "p_market": 0.76,
+          "fair_odds": 1.32
+        },
+        {
+          "key": "tt_home_1.5_under",
+          "label": "Nottingham Forest FC goals",
+          "selection": "Under 1.5",
+          "p_market": 0.595,
+          "fair_odds": 1.68
+        },
+        {
+          "key": "tt_home_2.5_under",
+          "label": "Nottingham Forest FC goals",
+          "selection": "Under 2.5",
+          "p_market": 0.83,
+          "fair_odds": 1.2
+        },
+        {
+          "key": "tt_away_0.5_over",
+          "label": "Chelsea FC goals",
+          "selection": "Over 0.5",
+          "p_market": 0.75,
+          "fair_odds": 1.33
+        },
+        {
+          "key": "tt_away_1.5_under",
+          "label": "Chelsea FC goals",
+          "selection": "Under 1.5",
+          "p_market": 0.61,
+          "fair_odds": 1.64
+        },
+        {
+          "key": "tt_away_2.5_under",
+          "label": "Chelsea FC goals",
+          "selection": "Under 2.5",
+          "p_market": 0.845,
+          "fair_odds": 1.18
+        }
+      ],
+      "legs_first": {
+        "home_draw": 0.6567,
+        "away_draw": 0.6267,
+        "ah_away_+1.5": 0.835,
+        "ou_1.5_over": 0.755,
+        "ou_3.5_under": 0.705,
+        "btts_yes": 0.575,
+        "tt_home_0.5_over": 0.76,
+        "tt_home_1.5_under": 0.595,
+        "tt_home_2.5_under": 0.83,
+        "tt_away_0.5_over": 0.75,
+        "tt_away_1.5_under": 0.61,
+        "tt_away_2.5_under": 0.845
+      },
+      "data": {
+        "odds": {
+          "book": "DraftKings",
+          "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261127",
+          "espn_match": "Chelsea at Nottingham Forest",
+          "decimal": {
+            "home": 2.6,
+            "draw": 3.35,
+            "away": 2.75
+          },
+          "opening": {
+            "home": 2.7,
+            "draw": 3.45,
+            "away": 2.45
+          },
+          "p_devig": {
+            "home": 0.367,
+            "draw": 0.285,
+            "away": 0.347
+          },
+          "total": 2.5
+        },
+        "move_24h": {
+          "side": "home",
+          "from": 0.375,
+          "to": 0.375,
+          "relative_change": 0
+        },
+        "fetched_at": "2026-11-27T06:52:30.778Z"
+      }
+    }
+  ]
+}
