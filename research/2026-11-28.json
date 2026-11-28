@@ -1,0 +1,804 @@
+{
+  "date": "2026-11-28",
+  "researched_at": "2026-11-28T07:06:50Z",
+  "summary": "Busy Saturday: 20 of 51 games researched (Ligue 1, Eredivisie, La Liga, Serie A, Bundesliga, Premier League, Liiga, SHL and a Dota 2 series). Two kept at medium, both as goals legs on big home favourites: PSV v Go Ahead Eagles under 5.5 goals and PSG under 3.5 team goals v Lorient. DraftKings, Winamax (PSG) and bet365 (PSV) agree with Polymarket on both results within about 3 points. Excluded: Ilves v HIFK and HV71 v Björklöven (fixture, goalies and coach status could not be verified, and no two-way price was found) and JYP v KalPa (local press calls it the Lakeland derby). Rated low: Real Madrid, Inter, Nice, Atlético, Bayern, Athletic and Lens for unconfirmed team news, a 60-70% favourite or a weak second price; Mainz; Leeds (five draws in 11); Frosinone (lost the last two, models split); Betis (DraftKings drifted from 1.51 to 1.65, likely rotation, four straight draws in this fixture); Stuttgart v Frankfurt (5.6% DraftKings drift after Inter away); Ipswich v Villa (Villa tired after Galatasaray, three of the last four meetings drawn); Malmö v Djurgården (goalies unconfirmed, regulation-only price); PARIVISION v 1w (no second price). Brynäs was skipped after a 3.5% move against them. The rest are under 60% or coin flips. The slip is two legs at about 1.71, under the usual range and under the 1.8 target: about 55% to land, still negative expected value.",
+  "games": [
+    {
+      "id": "1433499",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.84,
+        "draw": 0.108,
+        "away": 0.052
+      },
+      "checks": {
+        "team_news": "Per Prensa Libre (28 Nov), Real Madrid are without Endrick, Asencio and Rodrygo (Fichajes mentions Rodrygo ill). Trent Alexander-Arnold missed Friday's training with an illness. I found no Alavés injury or suspension list and could not open Marca, AS, Relevo or realmadrid.com (the press-conference page returned a site error). Team news is incomplete.",
+        "lineups": "No predicted XI from any source dated today. Two searches returned only old fixtures, and I could not open the lineup pages. Prensa Libre says Mourinho made six changes between the Celta and PSV games and expects more. Whether sources agree is unknown.",
+        "rotation": "Real Madrid beat PSV 5-1 in the Champions League midweek and are on a 10-match winning run. Mourinho spoke on 27 Nov of fixture congestion and said he does not seek one fixed XI. Fichajes reports he said Mbappe, Bellingham and Vinicius are on the same level. Next fixture not verified. Expect several changes, but I saw no confirmed XI, so the 5+ changes exclusion does not apply.",
+        "motivation": "La Liga matchday 14 and Madrid are chasing a winning streak. Prensa Libre has Alaves reaching 2nd early in the season, and I did not verify the current table. No derby. Mourinho was appointed in June 2026 (vozpopuli, elmundo.sv), so no manager change in the last 7 days. Alaves coach is Quique Sanchez Flores, with no change reported.",
+        "form": "Per Prensa Libre, Madrid have won 10 straight. Alaves won their last two, including 3-1 vs Deportivo La Coruna. Away in La Liga they have no win, with 3 draws and 3 defeats, scoring 4 and conceding 11 in 6 games (about 1.8 conceded per away game). I found no xG data.",
+        "h2h": "Per Prensa Libre, Madrid have won the last nine meetings with Alaves, whose last win was in Nov 2020. Squawka separately says Madrid won 15 of the last 17. A draw is rare, but April 2026 saw Alaves equalise at the Bernabeu before Madrid won. I did not research the Alaves tactical style, so I cannot call them a low block.",
+        "odds": "DraftKings (via ESPN): Madrid 1.14, draw 9, Alaves 17, opened 8.5 and 13 for draw and Alaves. De-vigged: Madrid 83.7%, draw 10.6%, Alaves 5.6%, total 3.5. Polymarket has Madrid at 86.3%. The 24h move is -1.1% relative for Madrid, under 3%. The Alaves price drifting out and the draw price shortening slightly is consistent with a small cooling of Madrid. No second independent bookmaker price found.",
+        "models": "No bookmaker-free model forecast found (Opta, ClubElo, Forebet not reached). A bet365 price seen in a Flashscore preview is of unknown date and not used.",
+        "venue_weather": "Santiago Bernabeu, Madrid, kickoff 21:00 local (20:00 UTC). Prensa Libre and Fichajes put it on Saturday 28 Nov. Normal home venue. I found no weather or pitch information."
+      },
+      "reason": "Starting from the market, I trimmed Madrid to 84.0% (vs 86.3%) and moved the draw to 10.8%. Reasons: DraftKings de-vig is a bit lower for Madrid (83.7%); Mourinho rotated six times last week and is expected to rotate again; Trent is ill; Endrick, Asencio and Rodrygo are out. Support for Madrid: ten straight wins, nine straight wins over Alaves, and Alaves have no away win (4 scored, 11 conceded in 6). I could not confirm lineups, find a model forecast or read club pages, so confidence is low.",
+      "main_risk": "A rotated Madrid side after the PSV midweek game fail to break down Alaves and draw, or win by one goal, which fails the -1.5 handicap and the 2-goal legs.",
+      "sources": [
+        "https://prensalibre.com/deportes/futbol-internacional/real-madrid-vs-alaves-horario-en-guatemala-y-donde-ver-el-encuentro-de-la-jornada-14",
+        "https://www.fichajes.com/a5194862078808096426-real-madrid-jose-mourinho-tajante-si-un-dia-van-al-banquillo-y-no-les-gusta-es-su-problema",
+        "https://www.vozpopuli.com/deportes/oficial-el-real-madrid-confirma-el-fichaje-de-jose-mourinho-como-nuevo-entrenador-blanco-hasta-2029.html",
+        "https://diario.elmundo.sv/deportes/jose-mourinho-logra-su-mejor-arranque-liguero-con-real-madrid",
+        "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/ruedas-de-prensa/mourinho-27-11-2026",
+        "https://icndigital.com/mourinho-problemas-vestuario-real-madrid/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261128"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1433546",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.79,
+        "draw": 0.15,
+        "away": 0.06
+      },
+      "checks": {
+        "team_news": "PSG medical update (27 Nov): Nuno Mendes out with a left thigh strain; Kvaratskhelia (cruciate ligament, out for the season), Doue (knee) and Longoni also out. CulturePSG headlines say 4 to 5 absentees, possibly more. Lorient: Katseris (muscle) and Fadiga (hamstring) out, Bamba doubtful, Toure uncertain per previews. I could not read the text of Luis Enrique's 27 Nov press conference, only the headline quote 'On ouvre la porte aux joueurs pour penser de maniere differente'. I did not reach L'Equipe, Le Parisien, RMC or psg.fr directly.",
+        "lineups": "Two sources, and they disagree on PSG's attack. Eurosport/Get French Football News style XI: Safonov; Hakimi, Marquinhos, Pacho, Mendes or Hernandez; Zaire-Emery, Vitinha, Ruiz or Dro Fernandez; Dembele, Mayulu, Godts (Torres also tipped). Eurosport still lists Mendes, which conflicts with the club's medical update. Lorient probable: Mvogo; Adjei, Talbi, Obaretin or Toure; Sylla, Avom, Cadiou, Kouassi; Makengo, Bernardeau; Tosin or Balde. No confirmed XI yet (kick-off 20:45 Paris time).",
+        "rotation": "PSG drew 2-2 at home with Roma in the Champions League on Wed 25 Nov (matchday 5, scoreline from Bundesliga.com stats page and CulturePSG; Zaire-Emery replaced Mendes in the 59th minute). Expected changes are not confirmed; the XIs above imply a few changes and an unsettled attack, but I found no source saying 5 or more. Lorient last played 22 Nov (1-1 vs Rennes), so they have a full week's rest.",
+        "motivation": "PSG lead Ligue 1 on 26 points from 11 (8W 2D 1L), three points ahead of Paris FC, so the game matters for the title race. Lorient are 10th with 16 points, mid-table, nothing decisive at stake. Not a derby. I found no coach sacking or appointment at either club in the last 7 days.",
+        "form": "PSG: five straight league wins before the 2-2 draw with Roma midweek; 4-2 win over Man City and 10 goals in two earlier Champions League games. Lorient: 2W 2D 1L in their last 5 league games, one defeat in their last 6, 1-1 vs Rennes on 22 Nov. Lorient away: 4 goals scored and 4 clean sheets in 5 away league games, only loss 2-1 at Le Mans; 9 goals conceded in 11 games overall, 10 scored from 13.4 xG (Eurosport).",
+        "h2h": "All-time 44 meetings: PSG 24 wins, 10 draws, Lorient 10 wins. Last meeting 2-2 at the Parc des Princes on 2 May 2026 (Luis Enrique 'frustrated' by the draw). PSG have not beaten Lorient at the Parc since a 5-1 on 3 April 2022. Style: PSG dominate possession, Lorient defend deep in a back three and counter.",
+        "odds": "DraftKings (ESPN): PSG 1.19, draw 7.5, Lorient 13, opened 1.21 / 6.5 / 11, de-vigged 80.0 / 12.7 / 7.3, so a small shorten on PSG and no drift against the favourite. Winamax (via Footmercato): PSG 1.14, draw 7.50, Lorient 10.50, de-vigged about 79.4 / 12.1 / 8.6. Eurosport (26 Nov): BTTS No 1.75, Under 2.5 at 2.45, PSG 2-0 correct score 7.00. Polymarket 82.4 / 12.3 / 5.3, move_24h +2.5% for PSG. Independent prices agree with Polymarket within about 3 points. No Stake or Rainbet prices seen.",
+        "models": "Not found: I did not find an Opta, ClubElo or Forebet forecast for this game. The only forecast I read was Eurosport's own tip of PSG 2-0 with BTTS No and Under 2.5, which is an editorial pick, not a bookmaker-free model.",
+        "venue_weather": "Parc des Princes, Paris, home ground, normal venue. I found no weather or pitch report and no sign of a problem; the game is a late kick-off (20:45 Paris, 19:45 UTC) in late November, so cold is the only likely factor."
+      },
+      "reason": "Started from the market (PSG 82.4%) and moved 3 points to the draw. Reasons: PSG drew 2-2 with Roma on Wednesday, drew 2-2 with Lorient at the Parc in May and have not beaten them there since April 2022, and they are missing Mendes, Kvaratskhelia and Doue so the attack is thinner. Offsetting this, five straight league wins, Lorient's 0.8 goals per away game and DraftKings/Winamax both de-vigging to about 79-80% for PSG, so I did not cut further. A straight win is fine under the 25% draw rule.",
+      "main_risk": "A draw (or a late equaliser) as in the 2-2 with Lorient in May: PSG, tired after the Roma draw and without Mendes, Kvaratskhelia and Doue, dominate but fail to convert while Lorient's back three and counters take one chance.",
+      "sources": [
+        "https://www.culturepsg.com/news/match",
+        "https://www.bundesliga.com/en/champions-league/matchday/2026-2027/5/paris-saint-germain-fc-vs-as-rom/stats",
+        "https://www.getfootballnewsfrance.com/2026/psg-full-back-nuno-mendes-ruled-out-of-lorient-match/",
+        "https://www.eurosport.fr/paris-sportifs/pronostics/psg-lorient-pronostics-conseils-et-cotes-ligue-1-28-11-26/",
+        "https://www.footmercato.net/ligue-1/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261128"
+      ],
+      "views": {
+        "ah_away_+3.5": 0.8,
+        "ou_4.5_under": 0.76,
+        "tt_home_3.5_under": 0.75
+      },
+      "prices": []
+    },
+    {
+      "id": "1433616",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.72,
+        "draw": 0.18,
+        "away": 0.1
+      },
+      "checks": {
+        "team_news": "Fantacalcio (updated 27 Nov 18:32): Inter out Bastoni (left quadriceps, back mid-Dec), Calhanoglu (hamstring, 2nd half of Dec), Bonny (hamstring, early Dec); no suspensions. FCInterNews live blog at 19:00 on 27 Nov headlines 'Bastoni more serious than expected', so the Bastoni timeline may be longer than Fantacalcio says. Sky via FCInterNews: Zielinski is back in training. Genoa out Colombo (ACL, season over) and Ostigard (flu); Frendrup doubtful (ankle). I did NOT find Chivu's 27 Nov press conference text or any quotes on rotation.",
+        "lineups": "Only one full predicted XI read (Fantacalcio): Inter 3-5-2 with J. Martinez, Bisseck, Akanji, Carlos Augusto, Diouf, Sucic, Barella, Jones, Dimarco, Pio Esposito, Lautaro (several starters at only 55-60%). Genoa 3-4-2-1 with Bijlow, Marcandalli, Otoa, Vasquez, Ehizibue, Hj. Traore, Frendrup (55%), Ellertsson, Messias, El Shaarawy, Osmajic. The second source is headline-only: Sky (via FCInterNews) says a Zielinski-Sucic contest with Lautaro starting. The sources agree on Lautaro but I could not compare two full XIs.",
+        "rotation": "Inter played VfB Stuttgart in European competition in midweek (FCInterNews shows 2-0). Next Inter fixture after this is Genoa again in the Coppa Italia at San Siro on 1 Dec at 21:00 (genoacfc.it). I could not confirm the number of changes: the Fantacalcio XI looks like a fairly altered side (Diouf, Jones, Esposito at 55-60%), but with three injured regulars some changes are forced. There is no confirmed 5+ change XI, so no exclusion.",
+        "motivation": "Sky table (27 Nov): Inter 3rd, 29 pts from 12 (9W 2D 1L, GD +15, 32 scored/17 conceded); Genoa 10th, 16 pts (5W 1D 6L, GD -3). Not a derby. Genoa coach is Daniele De Rossi (in post since late 2025, no change in the last 7 days per genoacfc.it) and Inter's coach is Chivu; no coaching change found at either club. Genoa face Inter twice in four days, so they may see this as a free hit.",
+        "form": "Inter (Sky, order uncertain): W W L W D in the last five, 2.7 goals scored per league game and 1.4 conceded; won 2-0 vs Stuttgart in midweek. Genoa: W W W L W in the last five, but only 13 goals in 12 league games (about 1.1 per game) and 16 conceded. No xG and no home/away split found.",
+        "h2h": "Not researched in depth. Search results only showed earlier meetings (Dec 2025 at Genoa; a Feb 2026 league game at San Siro, details not read). I have no verified scores or draw-rate, and the Coppa Italia tie on 1 Dec means the same two sides meet again within days.",
+        "odds": "DraftKings via ESPN: Inter 1.29 / draw 5.5 / Genoa 8.5, de-vigged 72.2/16.9/10.9. It opened at 1.24 / 5.5 / 9.0, so Inter drifted from about 80.6% raw implied to 77.5%, a ~4% relative move against the favourite. The explanation found is team news: Bastoni (worse than expected), Calhanoglu and Bonny out, plus the midweek European game and Coppa Italia in 3 days. Polymarket 75.6% sits 3.4 points above the de-vigged DK 72.2%. OddsPortal returned 404, so there is no second bookmaker or exchange.",
+        "models": "ClubElo (clubelo.com): Inter 1952 (7th in Europe), Genoa 1692 (141st), a gap of about 260 before home advantage, which is consistent with a clear Inter favourite; the page showed no fixture probabilities. Forebet returned 403, and Opta and other model sites were not read.",
+        "venue_weather": "San Siro (Giuseppe Meazza), Milan, Saturday 28 Nov, 20:45 local (19:45 UTC), DAZN; referee Ayroldi (genoacfc.it). Genoa travel from Genoa, a short trip. The venue is the normal home ground. I did not find a weather forecast or pitch report."
+      },
+      "reason": "Started from Polymarket (75.6/15.7/8.7) and moved toward the de-vigged DraftKings price (72.2/16.9/10.9) because Inter are missing Bastoni (reported worse than first thought), Calhanoglu and Bonny, the Fantacalcio XI has several 55-60% starters after a midweek European game, and the DK price drifted from 1.24 to 1.29 with the news explaining it. The draw stays under the 25% cap. Genoa are weak in attack (13 goals in 12), but I could not read the press conference, find a second full XI, get a second bookmaker or a model forecast, so I cannot call the favourite safe.",
+      "main_risk": "Inter field a rotated, injury-hit side between the Stuttgart game and the Coppa Italia tie with Genoa on 1 Dec, and De Rossi's organised 3-4-2-1 holds them to a 1-1 or 0-0 draw.",
+      "sources": [
+        "https://www.inter.it/it/notizie",
+        "https://www.fcinternews.it",
+        "https://www.fantacalcio.it/probabili-formazioni-serie-a",
+        "https://sport.sky.it/calcio/serie-a/classifica",
+        "https://www.genoacfc.it/",
+        "http://clubelo.com/INT",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261128"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1431971",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.11,
+        "draw": 0.17,
+        "away": 0.72
+      },
+      "checks": {
+        "team_news": "The 24h drop in Bayern's price is explained by team news. Bayern are without Kane (ankle or syndesmosis ligament injury, reported as out for months), Olise (bruised foot, confirmed out by Kompany on Fri 27 Nov), Neuer and Saibari. Musiala is out with a muscular problem after being reinjured as a sub at Lille, though reports differ on how. Gnabry and Davies only returned to training on Friday and look like bench options at best. Diaz is back. Hamburg are without Remberg (out for the season), Poulsen, Muheim, Lokonga and Nadir, and Vuskovic may debut. I found no suspensions. I could not reach Kicker, Bild or Abendblatt directly, so this rests on Yahoo, Sky, Sports Mole and Bundesliga.com.",
+        "lineups": "Nothing is confirmed; the official XIs come about 60 minutes before kickoff. The two predicted XIs (Yahoo and Sports Mole) agree on the overall shape, with Urbig in goal, Kimmich and Pavlovic in midfield, Karl and Brown in attack and Upamecano in defence. They differ in places: Yahoo has Kim, Stanisic and Bischof, while Sports Mole has Tah, Ito and Diaz. Sports Mole has Hamburg as Fernandes; Nandja, Bornauw, Omari; El Ouahdi, Adeline, Capaldo, Gronbaek, Wolfe; Daka, Vieira.",
+        "rotation": "Bayern lost 1-2 at Lille on Wed 25 Nov, their first defeat of the season, and Olise and Kane missed it. Kompany said he needs 'the whole squad' because of the load until Christmas, and he has named no XI. Most changes will be forced by injuries rather than chosen rest, but a young, patched-up side is likely. I could not confirm 5 or more changes, so there is no exclusion. Hamburg lost 0-4 at Bremen last weekend.",
+        "motivation": "Bayern are 2nd on 22 points, 2 behind Dortmund, unbeaten in 10 league games, and Kompany says the priority is a reaction to the Lille loss. Hamburg are 12th on 12 points (Yahoo's preview lists 10th, so the sources disagree). The game is not a derby for either side. Hamburg's coach is Merlin Polzin and Bayern's is Kompany. I found no manager change at either club in the last 7 days.",
+        "form": "Bayern's league form is D W W D W and in all competitions D W W D L, with a 1-1 draw at home to Cologne last week and a 31-game unbeaten Bundesliga away run. Hamburg are W L L W L in the league, with a 0-4 loss at Bremen last weekend. Before that they won 3 straight home league games (including 3-1 v Gladbach). I found no xG figures.",
+        "h2h": "Hamburg have not beaten Bayern in 19 league meetings. In the last two meetings, Bayern won 5-0 in Munich in September 2025 and the teams drew 2-2 in Hamburg in January 2026. ClubElo's all-time record is 74 Bayern wins, 25 draws and 22 Hamburg wins in 121 games. Without Kane and Olise, Bayern lose their finishing edge, which makes a repeat of the January 2-2 draw the realistic upset.",
+        "odds": "SportsLine's odds table (US books, best price per outcome): Bayern -278 (BetMGM) against an opening -625, draw +500 (FanDuel) against +750, Hamburg +700 (FanDuel) against +1100. The total fell from 4.5 to 3.5 and the Bayern spread from -2.5 to -1.5. De-vigged, that is about 72% Bayern, 16% draw and 12% Hamburg, which agrees with Polymarket's 74.7% to within 5 points. The line has drifted a long way from the open, but the cause is identified: Kane, Olise and Musiala out.",
+        "models": "ClubElo has Bayern at about 2033 and Hamburg at 1672, a gap of roughly 360 points, but I did not get a computed win probability for this match. Sports Mole predicts 1-3, Footballwhispers 1-3, and Bavarian Football Works 2-1, all for a Bayern win. Forebet returned 403 and Opta had no page for this match.",
+        "venue_weather": "The match is at Hamburg's home ground, the Volksparkstadion, on Sat 28 Nov, 15:30 CET (14:30 UTC), a normal home venue. I found no forecast for the day, only the climate average of about 6 C and a 55% chance of precipitation. Nothing suggests a pitch problem or extreme weather."
+      },
+      "reason": "The 3.9% drop in Bayern's price has a clear cause: Kane is out for months, Olise is confirmed out, Musiala is reinjured and Neuer is out. SportsLine's Bayern price has moved from -625 to -278, and the total line from 4.5 to 3.5. I start from the market and take about 2.5 points off Bayern. Bayern's attack is thinner and they have just lost at Lille. The draw is still under the 25% limit. Bayern remain far stronger (Elo gap about 360, 31 away games unbeaten, Hamburg winless in 19 against them). Confidence is low because no XI is confirmed, Musiala's status is disputed, and I found no Kicker or Bild confirmation and no bookmaker-free model forecast.",
+      "main_risk": "Bayern's patched-up attack, without Kane, Olise and Musiala, fails to convert and Hamburg score from a set piece or counter. The game ends level, as the 2-2 in Hamburg in January did, or Bayern drop points after the Lille loss.",
+      "sources": [
+        "https://www.bundesliga.com/de/bundesliga/spieltag/2026-2027/11/hamburger-sv-vs-fc-bayern-muenchen/lineup",
+        "https://www.sportsline.com/bundesliga/game-forecast/BUND_20261128_FCB@HAM/",
+        "https://sports.yahoo.com/soccer/articles/bayern-munich-predicted-xi-vs-185500681.html",
+        "https://sports.yahoo.com/soccer/articles/bayern-looking-reaction-hamburg-155900975.html",
+        "https://sport.sky.de/fussball/artikel/fc-bayern-vor-hsv-spiel-kompany-blendet-musiala-debatte-aus-keine-geldstrafe-fuer-kimmich/13617118/34942",
+        "https://www.sportsmole.co.uk/football/hamburger-sv/bundesliga-title-race/preview/hamburger-sv-vs-bayern-prediction-team-news-lineups_609927.html",
+        "https://footballwhispers.com/blog/hamburger-sv-vs-bayern-munich-prediction-preview-28-11-2026/",
+        "http://clubelo.com/Bayern"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1432878",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.14,
+        "draw": 0.22,
+        "away": 0.64
+      },
+      "checks": {
+        "team_news": "Atlético (squad list of 22, Futbolfantasy 27 Nov 21:37): Cuti Romero (muscle, eighth straight miss), Sørloth (muscle, hurt v Viking) and Lookman (knee) are out. That leaves only Julián Álvarez and Jonathan David as forwards. Pubill is back in training and Le Normand is available. Elche (Football Faithful, Infobae): Lemar and Rubén Sánchez out; Aguado, Yago Santiago, Houary and Boayar are doubts. Fer Niño is fit (6 league goals). I could not find the text of Simeone's 27 Nov press conference, so no quotes.",
+        "lineups": "Four lineup sources roughly agree. Atlético: Oblak; Llorente, Le Normand or Pubill, Hancko, Grimaldo; Cardoso/Barrios/Koke/Baena/Giuliano Simeone in midfield; Álvarez up front, with Kang-In Lee or David as partner. Elche (Infobae, SI, Football Faithful): Dituro; Sangaré, Chust, Redondo, Revivo; Villar, Morcillo, Neto or Buonanotte; Cepeda, Valera, Fer Niño. Sources differ on the centre-back pair, the midfield mix and Elche's front three. No official XIs yet.",
+        "rotation": "Atlético's last games: 2-0 v Viking in the Champions League on Wed 25 Nov and 3-0 at Getafe in the league. Next: Barcelona away on Wed 2 Dec, where the league title race is at stake. Infobae and the Atlético previews expect Simeone to rotate for the Barcelona game, but with two forwards available he cannot rotate up front. Predicted XIs show about 2-4 changes from the Viking side, not a heavy 5+ rotation, and nothing is confirmed. Elche's last game was a 1-1 draw at Levante.",
+        "motivation": "Atlético are 3rd, 31 points after 13 games, five points off Barcelona, so a win keeps the title race alive. Elche are 19th, 11 points, GD -6, two wins in 13, in the relegation zone and desperate. It is not a derby. Managers are Anselmi (Elche) and Simeone (Atlético), and both are named in 27-28 Nov previews, so no coach change in the last 7 days.",
+        "form": "Atlético: won 3-0 at Getafe and 2-0 v Viking, lost 2-1 to Barcelona and 2-0 to Man Utd. Elche: Rayo 3-0 win, Copa del Rey win v Pinatar, home losses to Valencia 0-1 and Betis 0-2, 1-1 at Levante. Elche have taken 1 point from 6 home games this season, the worst home record in the league. That favours Atlético but also shows Elche are a low-scoring home side. No xG found.",
+        "h2h": "Elche have won their last two home games against Atlético: 3-2 last season and 1-0 in 2022-23. Atlético won the other recent meetings, including 11 of 13 since 2013 per an undated Soccerway line. Style: Elche sit deep and are weak at home, and Atlético are expected to dominate possession. The upset history at this ground is the main concern.",
+        "odds": "DraftKings via ESPN: home 6.50, draw 4.70, away 1.47. De-vigged: Elche 14.7%, draw 20.3%, Atlético 65.1%. The line moved toward Atlético (open 5.25/4.20/1.56), and Polymarket's 24h move is +1.5% for Atlético. Polymarket is 13.1/19.9/67.0, so DraftKings is about 2 points below on the away side. The move is not against the favourite. No second bookmaker found.",
+        "models": "No bookmaker-free model forecast found for this game (searches for Opta, Forebet and ClubElo returned only older fixtures). The only forecast I saw is SI's 1-2 score prediction, and it is not a probability model.",
+        "venue_weather": "Estadio Martínez Valero, Elche, Saturday 28 Nov, 17:30 UTC (18:30 local); LaLiga's site confirms the date and time. It is Atlético's normal away trip with no neutral venue. Weather and pitch conditions were not found in any source."
+      },
+      "reason": "I started from the market and moved about 3 points of the favourite's probability to the draw and Elche, within the 5-point limit. Atlético are clearly stronger (3rd against 19th, Elche worst at home). Against that, Simeone is looking ahead to the Barcelona game on Wed 2 Dec, he has only two fit forwards (Sørloth and Lookman out, Cuti Romero out at the back), and Elche have beaten Atlético at home twice recently. DraftKings (65%) agrees with Polymarket (67%) and the price moved toward Atlético, but a 60-70% favourite is only just above the 58% hit rate we have seen. Confidence is low.",
+      "main_risk": "Atlético rotate for Barcelona and have no forward depth, so they win a low-scoring game poorly or draw 0-0 or 1-1, or Elche score from a set piece or counter in a desperate home game, as in their 3-2 win last season.",
+      "sources": [
+        "https://www.futbolfantasy.com/laliga/noticias/155695-el-atletico-viaja-a-elche-sin-cuti-romero-sorloth-ni-loo",
+        "https://www.infobae.com/america/agencias/2026/11/27/previa-del-elche-atletico-de-madrid/",
+        "https://www.estoesatleti.es/liga/alineacion-elche-atletico-laliga/20261127080000043595.html",
+        "https://si.com/es-us/elche-vs-atletico-de-madrid-previa-predicciones-y-alineaciones-28-11-2026",
+        "https://thefootballfaithful.com/elche-vs-atletico-madrid-match-preview/",
+        "https://www.sportsmole.co.uk/football/La-Liga/table.html",
+        "https://www.bundesliga.com/en/champions-league/matchday/2026-2027/5/club-atletico-de-madrid-vs-viking-fk-stavanger/stats",
+        "https://www.laliga.com/en-CA/match/temporada-2026-2027-laliga-ea-sports-elche-cf-atletico-de-madrid-14",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261128"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1431907",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.63,
+        "draw": 0.2,
+        "away": 0.17
+      },
+      "checks": {
+        "team_news": "Frosinone: Bracaglia is back from suspension and Bobcek is expected to make his first start (ANSA, 26 Nov). Raimondo (ankle) and Grillitsch (hernia op) were called up on 27 Nov (TMW, Corriere dello Sport, club site), but Fantacalcio-Online still listed Raimondo as out, and Birligea, Gelli, Kone and Lolice are out. Parma: Gilardino's presser on 27 Nov ruled out Romero and Drobnjak. Diego Carlos is back in the squad and Ndiaye is back in the defensive trio. Fantacalcio-Online has Elphege/Toure and Ndiaye as doubts. Alvini's own pre-match press conference text was not found.",
+        "lineups": "Two sources partly agree; no official XIs. Fantacalcio-Online: Frosinone 4-3-3 with Palmisani; Bracaglia, Calvani, Monterisi, Oyono; Calo, Masini, Schmid; Bobcek, Ghedjemis, Kvernadze. Parma 3-4-3 or 5-2-3 with Daffara; Ndiaye, Del Prato, Troilo; Fabbian, Keita; Elphege, Lontani, Toure. ANSA and SOS Fanta agree on Bracaglia, Bobcek and Ndiaye. Gilardino was keeping the defensive pick open. Parma's XI is the shakier of the two.",
+        "rotation": "Neither side looks heavily rotated. Frosinone's last two games were losses at Cagliari (0-1, 24 shots) and to Milan (22 Nov); next is Inter, but changes should be few. Parma lost 1-5 at home to Roma on 22 Nov; their next fixture was not confirmed. 1-3 changes expected for each side, nothing near the 5+ exclusion level.",
+        "motivation": "Frosinone are 7th on 20 points (6W 2D 4L, goals 25:20); the promoted side is chasing survival. Parma are 17th on 8 points (2W 2D 8L, goals 10:22), one place above the drop zone, so both teams need points. Not a derby. Gilardino has been Parma coach since 27 Sep 2026 and Alvini has been at Frosinone all season; no coach changes in the last 7 days at either club.",
+        "form": "Frosinone have won their last 5 home league games, but lost their last two overall (Cagliari 0-1, Milan). Their matches average about 3.75 goals. Parma have 4 points from 7 under Gilardino, 8 losses in 12, lost their last two at home (Bologna 1-2, Roma 1-5), and have the league's second-worst attack. No xG figures were found.",
+        "h2h": "Recent senior meetings are old (Serie A 2018-19: Frosinone 3-2 at home, and 0-0 at Parma). Since 2017: 2W 1D 1L for each side at home, which is not informative. Style matchup: Frosinone's high press against Parma's leaky defence.",
+        "odds": "DraftKings (ESPN) 1.43 / 4.90 / 5.75, de-vigged 64.8 / 19.0 / 16.2; opened 1.44 / 4.60 / 5.25, so no adverse move against Frosinone. 24h Polymarket move is up 1.5% for the home side. Bet365 via Kickoff.co.uk 1.48 / 5.00 / 5.75, de-vigged about 64.4 / 19.0 / 16.6, which agrees with Polymarket 65.7 / 18.7 / 15.6. A Stake price on Wincomparator (1.53 / 4.10 / 5.50) was not confirmed on Stake. No Rainbet prices found.",
+        "models": "Kickoff.co.uk model: 65 / 19 / 16, xG 2.3 vs 1.1. Foresportia's model is much lower on Frosinone: 46.6 / 28.5 / 24.9. The models disagree, so stay near the market with a modest haircut. ClubElo (503) and Forebet/Opta were not available.",
+        "venue_weather": "Stadio Benito Stirpe, Frosinone, Saturday 28 Nov 15:00 local (14:00 UTC), referee Bonacina. Normal home ground, no neutral venue or pitch issue. One listing showed 29 Nov, but Fantacalcio, Sportschau, Sporza and ANSA all say 28 Nov. No match-day weather forecast was found, so conditions are unverified."
+      },
+      "reason": "Starting from the market (65.7 / 18.7 / 15.6), I take 2.6 points off the home win and add 1.3 to the draw and 1.4 to Parma: Frosinone lost their last two (including 24 shots and no goal at Cagliari), have conceded 20 in 12, Bobcek and Raimondo return with fitness doubts, and Foresportia's model has the home win at only 46.6%. Offsetting that, Frosinone have won 5 straight at home, and Parma are 17th with 10 goals scored and a 1-5 defeat last week. DraftKings and Bet365 support the market with no adverse move. Confidence is low because XIs are unconfirmed, Alvini's press conference was not found, no Stake price was confirmed, and 60-70% favourites have underperformed in our record.",
+      "main_risk": "A draw or narrow Parma result. A rusty Bobcek-led attack could again fail to finish its chances, as at Cagliari, while Parma have scored in each recent game.",
+      "sources": [
+        "https://www.sportschau.de/live-und-ergebnisse/fussball/italien-serie-a/ma12131182/frosinone-calcio_parma-calcio-1913/blitztabelle",
+        "https://sporza.be/nl/sport/voetbal/~3338254/",
+        "https://www.fantacalcio-online.com/it/serie-a/2026-2027/voti/13-giornata/frosinone-parma",
+        "https://www.fantacalcio.it/serie-a/calendario/13/2026-27/frosinone-parma/18077",
+        "https://www.ansa.it/sito/notizie/sport/calcio/2026/11/26/frosinone-bracaglia-e-bobceck-pronti-per-il-parma_2ff2482a-cad7-47ec-9b14-47e7e5038095.html",
+        "https://www.sosfanta.com/news/gilardino-frosinone-parma-conferenza-elphege-romero/",
+        "https://www.kickoff.co.uk/italian-serie-a-predictions-stats-odds/frosinone-vs-parma/",
+        "https://www.tuttomercatoweb.com/altre-notizie/frosinone-lavoro-sfida-milan-tanti-assenti-alvini-2293352",
+        "https://www.parmatoday.it/sport/vigilia-contro-il-frosinone-gilardino-non-e-decisiva-ma-sentiamo-la-responsabilita.html",
+        "https://www.corrieredellosport.it/news/calcio/serie-a/frosinone/2026/11/27-152885899/raimondo_rientra_dopo_l_infortunio_nella_lista_convocati_per_frosinone-parma",
+        "https://www.foresportia.com/en/prediction/serie-a/frosinone-calcio-parma-calcio-1913-2026-11-28/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261128"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1432227",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.64,
+        "draw": 0.225,
+        "away": 0.135
+      },
+      "checks": {
+        "team_news": "Leeds: Farke said at the club's Thursday 26 Nov briefing 'As it stands, everyone is available' (leedsunited.com). Stach and Rodon are back and building fitness on the bench. Okafor is over a groin problem. Mateo Joseph (knee) is listed out by Sports Mole and Stats Zone, but has not played this season. Coventry: Awoniyi (ankle) is out, and Lampard reportedly said he 'won't be available for the weekend' (via The False 9 and Soccernet). Also out: Wright (quad), Eccles, Amenda and Woolfenden. Mason-Clark and Yirenkyi are doubts. Onyeka is back and Hamer is in contention. No suspensions found.",
+        "lineups": "Two sources broadly agree on Leeds: Sports Mole and The False 9 predict the unchanged Chelsea XI in a 3-4-2-1 (Trafford; Justin, Elvedi, Muharemovic; Bogle, Ampadu, Tanaka, Gudmundsson; Longstaff, Okafor; Calvert-Lewin). Stats Zone swaps Stach in for Longstaff. Coventry in a 4-2-3-1 (Rushworth; Van Ewijk, Thomas, Pinnock, Mfuni; Torp, Grimes; Sakamoto, Rudoni, Gboho) with Cherif or Thomas-Asante up front. Nothing is confirmed.",
+        "rotation": "Leeds' last game was the 4-1 win at Chelsea. I found no cup or European game this week, so there is no congestion and an unchanged XI is expected. Coventry beat Crystal Palace 3-2 at home last weekend, and Awoniyi's absence forces one change up front. No heavy rotation is signalled.",
+        "motivation": "Matchday 12. Leeds are 7th on 17 points (4W 5D 2L, 14 for, 9 against) and a win could lift them to 5th. Coventry are 14th on 12 points (4W 0D 7L, 13 for, 21 against), three points above the drop zone. Both teams need the points. It is not a derby. Both managers (Farke, Lampard) are in place and I found no sacking or appointment at either club in the last 7 days.",
+        "form": "Leeds: 5 draws in 11 league games, which is the main concern. Results L D D L W W, with Tottenham 1-0 then Chelsea 4-1 away. They are unbeaten in 9-10 home games (W5-6, D4), so 4 of their last 9-10 home games were draws. They have conceded 9 goals in 11 but scored only 14. Coventry: W4 L7 with no draws. Away they have 3 points from 5 games, scoring 3 and conceding 10. No xG found.",
+        "h2h": "Leeds won both Championship meetings in 2024-25 (5-0 aggregate) and have lost only 1 of their last 23 home league games against Coventry (W16 D6), winning the last three Elland Road meetings 2-0, 3-0 and 1-0. This is the first Premier League meeting since January 2001. Style: Leeds are compact and low-conceding, and Coventry counter-attack.",
+        "odds": "DraftKings (ESPN): Leeds 1.50, draw 4.50, Coventry 6.50, de-vigged 63.9/21.3/14.8. The opening line was 1.61/4.00/5.00, so Leeds have shortened strongly, not a move against the favourite. The 24h Polymarket move on home is about -1.5% relative, under the 3% threshold. Football Whispers lists Leeds at 1.51 (51/100), with BTTS Yes 1.90 and Over 3.5 goals 2.80. That agrees with Polymarket's 65.7% within about 2 points.",
+        "models": "No bookmaker-free model forecast found. Forebet returned 403, ClubElo returned 503, and Opta and Squawka were blocked. Previews gave scoreline picks only: Sports Mole 3-1, LiveScore 3-1, Football Whispers 3-1, 7M 2-0, Soccernet 2-1.",
+        "venue_weather": "Elland Road, Leeds, Saturday 28 Nov, 15:00 UK, normal home venue. Referee Paul Tierney. Open-Meteo forecast for 12:00-17:00 UTC: 3.6-7.0C, light rain, wind 22 km/h at kick-off with gusts of about 44 km/h. Windy and cold but not extreme. No pitch problem and no travel issue."
+      },
+      "reason": "I started from the market (Leeds 65.7%, draw 20.7%, Coventry 13.6%). DraftKings de-vigs to 63.9% for Leeds. Leeds are the clear favourite: a home record of W5 D4 L0, a strong defence, 4-1 at Chelsea, Coventry without striker Awoniyi, and Coventry's 3 points from 5 away games. I trimmed Leeds to 64% and raised the draw to 22.5% because Leeds have drawn 5 of 11 league games and 4 of their last 9-10 at home, and the day is windy. Confidence is low because lineups are unconfirmed, the Leeds draw rate is real, I found no model forecast and no Lampard presser, and 60-70% favourites have underperformed in our record.",
+      "main_risk": "A 1-1 or 0-0 draw. Leeds have drawn 5 of 11 league games, 4 of them at Elland Road, they score only about 1.3 goals a game, and Coventry counter-attack in a windy game.",
+      "sources": [
+        "https://www.leedsunited.com/en/news/the-latest-team-news-and-daniel-farkes-coventry-expectations",
+        "https://www.sportsmole.co.uk/football/leeds-united/preview/leeds-vs-coventry-prediction-team-news-lineups_609877.html",
+        "https://www.thestatszone.com/leeds-vs-coventry-preview-team-news-prediction-242293",
+        "https://thefalse9.com/2026/11/leeds-united-vs-coventry-city-predicted-lineup-team-news-28-november.html",
+        "https://footballwhispers.com/blog/leeds-united-vs-coventry-city-prediction-tips-28-11-2026/",
+        "https://soccernet.ng/2026/11/leeds-united-vs-coventry-city-preview-team-news-h2h.html",
+        "https://www.livescore.com/en/news/football/premier-league/predictions/leeds-coventry-predictions-premier-league/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261128"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1431973",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.61,
+        "draw": 0.24,
+        "away": 0.15
+      },
+      "checks": {
+        "team_news": "Mainz: Kohr out (foot/syndesmosis), Silas doubtful after a long layoff, Mwene out with an ankle problem per SWR/Sportschau on 27 Nov, though bundesliga.com lists his injury as unknown and still has him in its XI. Union: van den Bosch suspended (5 yellows). Nsoki, Uduokhai, Markgraf, Burcu, Skov, Khedira out and Juranovic ill (sources differ on Khedira's status). Kicker, Ligainsider, AZ Mainz, Berliner Zeitung and both Friday press conferences were not retrievable. Only Fischer's comments in Sportschau (27 Nov) were read.",
+        "lineups": "Sports Mole predicts Mainz with Zentner; Potulski, Da Costa, Posch; Sano; Caci, Mwene; Koenigsdorffer, Amiri; Becker, Tietz. Bundesliga.com predicts Zentner; Potulski, Posch, da Costa; Widmer, Sano, Caci; Amiri, Nebel; Tietz, Becker. The two disagree on the wing-backs and the number 10. Union's predicted XIs (Ronnow; Koehn, Friedrich, Querfeld, Haberer or Trimmel; Kemlein; Imeri, Schaefer, Aebischer; Burke/Ilic) broadly agree. None are confirmed.",
+        "rotation": "No evidence of a midweek game for Mainz. They have lost five straight in all competitions including the DFB-Pokal, the latest a 3-1 loss at Augsburg in the league. No European football for them found this season. Union's last game was a 5-1 home loss to Leipzig, and they have nothing else midweek. Rotation is not expected; the changes are forced ones from injuries and suspensions.",
+        "motivation": "Mainz 13th on 10 points (3W 1D 6L, 19:22) and under pressure, with Fischer fielding questions about his future. Union 17th on 7 points (1W 4D 5L, 8:26). Both sides have everything to play for. This is not a derby. Fischer faces his old club (Union coach 2018-23) and is yet to beat Union as Mainz coach. No coach change in the last 7 days: Fischer arrived Dec 2025 and Lustrinelli was appointed in May 2026.",
+        "form": "Mainz: league WLLLL, LLLLL in all competitions, three or more goals conceded in three of the last four losses, one point from five home games (no home win, per Football Whispers/Sports Mole). Union: DDDLL, winless in six, three games without a goal. They have the fewest goals in their Bundesliga history through 10 games (8) and the joint-worst defence (26 conceded), with one point from four away games.",
+        "h2h": "Union are unbeaten in the last 10 Bundesliga meetings (6W 4D). Recent results: 3-1 Union at Mainz in May 2026, 2-2 in Berlin in Jan 2026, and three of the last five were draws. Fischer has not beaten his old club. The pre-mortem is a 1-1 or 2-2 draw.",
+        "odds": "DraftKings (ESPN): 1.45 / 4.50 / 5.75, de-vigged home 63.4%, draw 20.5%, away 16.0%. It opened at 1.45 / 4.30 / 5.25, so the home price is flat and the draw and away prices drifted out slightly. Polymarket home 65.3% (24h move +0.8%). Sportwetten24 (24 Nov) shows 1.52 / 4.75 / 6.00 across different books (about 62% de-vigged home). No move of 3% or more against Mainz. Two prices agree with Polymarket within about 3 points.",
+        "models": "No bookmaker-free model (Opta, ClubElo, Forebet) was found. Football Whispers and Sports Mole both predict 1-1, and Sportwetten24 tips the draw at 4.75.",
+        "venue_weather": "Mewa Arena, Mainz, kick-off 15:30 local (14:30 UTC), a normal home venue. Referee Timo Gerach. No weather or pitch information found, and nothing suggests a problem."
+      },
+      "reason": "The market has Mainz at 65.3% and DraftKings and Sportwetten24 agree. I shade Mainz down 4 points because they have lost five straight, have no home league win (one point from five), and Union are unbeaten in 10 meetings with several draws. The draw rises to 24%, still under the 25% cap. Mainz still hold the clear edge on quality: Union have 1 win, the worst away record, a depleted squad, a 26-goal-conceded defence and a goal drought. Lineups are unconfirmed and the Friday press conferences, Kicker and Ligainsider could not be read, so confidence stays low.",
+      "main_risk": "A 1-1 or 2-2 draw, or a Union win. Mainz are low on confidence at home, Union have a strong h2h record there, and Mainz's attack and defence are both shaky.",
+      "sources": [
+        "https://www.sportschau.de/regional/swr/swr-vor-duell-mit-dem-ex-club-mainz-05-und-urs-fischer-brauchen-dringend-einen-sieg-100.html",
+        "https://www.sportsmole.co.uk/football/mainz-05/preview/mainz-vs-union-berlin-prediction-team-news-lineups_609964.html",
+        "https://www.bundesliga.com/de/bundesliga/spieltag/2026-2027/11/1-fsv-mainz-05-vs-1-fc-union-berlin/liveticker",
+        "https://www.buli-tipphilfe.de/voraussichtliche-aufstellung/union-berlin",
+        "https://wc.sportwetten24.com/wett-tipps/1-bl/1-fsv-mainz-05-1-fc-union-berlin-tipp-prognose-28-11-26/",
+        "https://footballwhispers.com/blog/mainz-05-vs-union-berlin-prediction-28-11-2026/",
+        "https://sports.yahoo.com/soccer/articles/mainz-05-vs-union-berlin-134000343.html",
+        "https://www.sport1.de/news/fussball/bundesliga/2026/05/lustrinelli-neuer-trainer-von-union-berlin"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1431446",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.58,
+        "draw": 0.255,
+        "away": 0.165
+      },
+      "checks": {
+        "team_news": "Betis: Ceballos (back or hamstring) and Lo Celso (knee) are out or doubtful, Ez Abde has a knock, and Losada was not called up (Comuniate, Eurosport, Starting11). Rayo: keeper Batalla (tibia, out until January) and Luiz Felipe (ACL) are out, so Audero starts in goal. Valentín (knee) is doubtful, Álvaro García is back, and Camello is one yellow from a ban. No full transcript of either coach's press conference was found; Rayo's site only has a headline from Beñat San José calling it 'very important'.",
+        "lineups": "Two predicted XIs: Eurosport has Betis 4-2-3-1 (Valles; Bellerín, Natan, Bartra, Fran García; Roca, Fornals; Antony, Isco, Abde; Cucho) and Rayo 4-2-3-1 (Audero; Ratiu, Sadick, Lejeune, Pedrosa; Ciss, Unai López; De Frutos, Palazón, Á. García; Camello). Infobae also expects Pellegrini to rotate, with Roca and Fornals alongside Isco. The two agree on the Betis midfield. Nothing is confirmed.",
+        "rotation": "Betis played in Europe just before this game (Infobae: 0-2 win at Slovan Bratislava; date not independently confirmed). Their last league game was a 1-1 draw in the Seville derby. Pellegrini is expected to rotate, but no official XI or manager statement of 5+ changes, so the exclusion rule is not met. Starting11 says Copa del Rey follows three days later and that Betis kept only 38% of their XI over six games; Rayo 53%.",
+        "motivation": "Betis are 4th on 27 points, chasing Champions League places. Rayo are 16th on 12 points, level with 18th, so they badly need points. Not a derby. Beñat San José was appointed on 18 June 2026 and Pellegrini is in post, so no coach change in the last 7 days.",
+        "form": "Betis' last five: D W W D W, 9 scored and 5 conceded; one home league loss (2-5 to Barcelona), 5 of 6 home wins per scores24. Rayo's last five: L W W L L, 6 scored and 7 conceded, including a 0-1 home loss to Valencia on 21 Nov. Away: 2 draws and 4 losses from 6, 6 scored, 14 conceded, no clean sheets. No xG found.",
+        "h2h": "The last four league meetings were all draws, the latest 1-1 at La Cartuja on 21 Feb 2026. Rayo have not won at Betis since 2012. Draws are the main pattern in this fixture.",
+        "odds": "DraftKings 1.65 / 4.20 / 4.90 now against 1.51 / 4.50 / 5.50 at opening; de-vigged 57.9 / 22.7 / 19.4. Betis' price has drifted out by roughly 8% relative since opening, well past the 3% threshold; Polymarket 24h move 61.5% to 60.5%. Rotation news may explain part of it. scores24 shows Betis about -156 (aggregator, unverified). Eurosport/Codere BTTS Yes 1.62. No Stake or Rainbet pages found.",
+        "models": "No bookmaker-free model forecast found for this fixture. Eurosport and scores24 both tip 2-1 Betis (editorial picks).",
+        "venue_weather": "Estadio La Cartuja, Seville, 14:00 local. Betis' designated home for 2025-26 and 2026-27 while the Villamarín is rebuilt, so a normal home venue, not neutral. No weather or pitch concerns found. Referee Cuadra Fernández."
+      },
+      "reason": "Started from Polymarket (60.3 / 22.3 / 17.3) and moved modestly against the favourite: Betis are expected to rotate after a European away trip and the derby draw, with a cup game three days later; DraftKings drifted from 1.51 to 1.65; the last four league meetings were draws. That gives 58 / 25.5 / 16.5, with the draw above the 25% straight-win limit. Betis' home form and Rayo's poor away defence keep Betis the favourite. Confidence is low because of the large unexplained drift, unconfirmed rotation and missing model data.",
+      "main_risk": "A rotated Betis side, two days after a European away match, fail to break down a pressing, desperate Rayo and draw, as in the last four league meetings and Betis' last league game.",
+      "sources": [
+        "https://www.infobae.com/america/agencias/2026/11/27/previa-el-real-betis-ambiciona-seguir-firme-ante-el-rayo-y-el-athletic-entonarse-en-malaga/",
+        "https://www.eurosport.es/apuestas/pronosticos/betis-vs-rayo-vallecano-pronostico-consejos-y-cuotas-laliga-28-11-26/",
+        "https://www.comuniate.com/partido/26/7/14/betis-rayo-vallecano",
+        "https://starting11.com/es/fixtures/real-betis-vs-rayo-vallecano",
+        "https://scores24.live/es/soccer/m-28-11-2026-real-betis-rayo-vallecano-prediction",
+        "https://www.rayovallecano.es/noticias/benat-san-jose-es-un-partido-muy-importante-para-nosotros-realbetis",
+        "https://es.soccerway.com/noticias/futbol-laliga-ea-sports-al-betis-se-le-complican-las-obras-del-villamarin-y-podria-jugar-en-la-cartuja-hasta-2028/Olzh5AMi",
+        "https://www.record.pt/internacional/paises/espanha/rayo-vallecano/detalhe/oficial-benat-san-jose-e-o-novo-treinador-do-rayo-vallecano"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1432374",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.19,
+        "draw": 0.255,
+        "away": 0.555
+      },
+      "checks": {
+        "team_news": "Lens (Digard press conference 27 Nov, rclens.fr): Aguilar out (thigh), Nawrocki and Édouard out. Cuisance and Chávez are back in the 21-man squad. Antonio, Hazard, Sagnan and Čelik were left out by choice, and the reason was not given. For Angers (coach Gilli) I found no press conference or injury report after two searches, so their absences are unknown. No suspensions found for either side.",
+        "lineups": "No predicted XI from two sources. The Ouest-France (madeinfoot) and butfootballclub squad articles carry no XI, and Sports Mole, 90min and Goal had no 2026 preview indexed. Official XIs come about an hour before kick-off, so lineups are unconfirmed.",
+        "rotation": "Lens lost 1-3 at RB Leipzig in the Champions League on Tue 24 Nov, so they have 4 days' rest and travel to Angers. Before that they drew 1-1 at home with Toulouse on 21 Nov, Digard's first game. Digard says he picks for each opponent. No confirmed rotation count. Angers last played on Sun 22 Nov (lost 0-4 at Paris FC), so they had a full week.",
+        "motivation": "Ligue 1 table after 11 games: Lens 11th on 14 points, 4-2-5 with +2 goal difference. Angers 17th on 8 points, 2-2-7 with -14, so a relegation fight. Not a derby. Lens are on their third coach this season (Toppmöller, Cahuzac, then Digard from 13 Nov, which is 15 days before the game and outside the 7-day window; a soft risk). Angers coach Gilli has been in post since June and I found no change.",
+        "form": "Lens, last 6 in all competitions: 1-1 Toulouse, 1-3 Leipzig (UCL), 1-2 Marseille, 1-9 Como (UCL), 0-1 Lille, 2-1 Paris FC. Away in Ligue 1 they are 1W 1D 3L. Angers league form: lost the last 3 and scored 0 in the last 4 (0-4 Paris FC, 0-2 Nice, 0-2 Lyon, 0-0 Lorient). Angers at home: 1W 1D 4L, 5 goals scored in 6 games. Lens have beaten Angers in 7 straight league meetings (Kickoff.co.uk). No xG found.",
+        "h2h": "Lens have won 7 straight league meetings with Angers (Kickoff.co.uk), including 2-1 at Angers on 30 Nov 2025. In the last 5 at Angers: Lens 4 wins and 1 draw. Lens have been porous at the back, conceding 9 to Como and 3 to Leipzig. The recent head-to-head draw rate is low, but this season's Lens is a different and unstable side.",
+        "odds": "DraftKings (ESPN) 4.70 / 4.10 / 1.69, de-vigged 20.3 / 23.3 / 56.4. It opened 4.20 / 4.00 / 1.71, so Angers drifted out and Lens shortened slightly, which is not a move against the favourite. Bet365 (via Kickoff.co.uk) 4.75 / 4.00 / 1.70, de-vigged about 20.1 / 23.8 / 56.1. Two books agree with Polymarket (19.3 / 23.3 / 57.3) within about 1 point. Total line 2.5. No adverse drift.",
+        "models": "ClubElo: Lens 1772 vs Angers 1585, a gap of 187 points, roughly in line with the market. KickOff.co.uk goal model: Angers 1.2, Lens 1.7, with 1-1 the most likely score at 11%; its win/draw/loss shares (26 / 24 / 50) put Lens lower than the market. Forebet blocked access (403).",
+        "venue_weather": "Stade Raymond-Kopa, Angers (ESPN), a normal home venue, kick-off 16:15 UTC on Sat 28 Nov. Lens travel after a Tuesday Champions League game in Leipzig. I found no weather or pitch report, so these are unchecked."
+      },
+      "reason": "I started from the market (Angers 19.3, draw 23.3, Lens 57.3), and Bet365 and DraftKings agree with it. I raised the draw to 25.5% and cut Lens to 55.5%: Lens are 11th with away form of 1W 1D 3L, play with 4 days' rest after a 1-3 Champions League loss, and are under a coach appointed on 13 Nov. The draw is now above the 25% limit, so a straight Lens win is not a bet. Angers have scored in none of their last 4 league games, which supports a low Angers goal count. No confirmed XIs and no Angers team news, so the picture is incomplete and confidence is low.",
+      "main_risk": "A flat, low-scoring draw or a 1-0 scrap. Angers sit deep and defend, Lens's tired and recently changed side struggles to break through, and a set piece or late goal drops points.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261128",
+        "https://site.api.espn.com/apis/v2/sports/soccer/fra.1/standings",
+        "https://www.rclens.fr/fr/sco-angers-rclens-conference-de-presse-ligue1-20261127",
+        "https://madeinfoot.ouest-france.fr/infos/article-rc-lens-plusieurs-absences-de-taille-dans-le-groupe-lensois-pour-affronter-angers-sco-547258.html",
+        "https://www.butfootballclub.fr/1717078-rc-lens-le-groupe-de-digard-face-a-angers-sans-plusieurs-joueurs-ecartes/",
+        "https://www.kickoff.co.uk/french-ligue-predictions-stats-odds/angers-vs-lens/",
+        "http://clubelo.com/Fixtures",
+        "https://www.dhnet.be/dernieres-depeches/2026/11/14/ligue-1-didier-digard-remplace-yannick-cahuzac-sur-le-banc-lensois-NRBKZJCO3NAADNY6HTYGNYB5BM/"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1432313",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.19,
+        "draw": 0.27,
+        "away": 0.54
+      },
+      "checks": {
+        "team_news": "Malaga (Funes press conference, futbolfantasy and Radio Marca Malaga, 27 Nov): out are Rafita Garrido, Aaron Ochoa and Lobete (long-term). Aznou is back from suspension, and Juan Cruz, Joaquin Munoz and Murillo are returning. Eurosport lists Calero, Murillo and Cajuste as doubts. Athletic (Deia, futbolfantasy, AS via athleticclubinfo): the 23-man squad has no Guruzeta, Vivian, Imga or Sannadi. Yeray, Paredes and Berenguer are back after load management, and Laporte is back. Berchiche was listed as a doubt by Eurosport. I could not open Terzic's press conference text, only a video link.",
+        "lineups": "No confirmed XIs yet. AS (via athleticclubinfo) predicts Simon; Rincon, Yeray, Laporte, Berchiche; Gerenabarrena, Canales; Berenguer or Navarro, Sancet, N. Williams; I. Williams. Futbolfantasy's startup percentages instead show Galarreta and Paredes as rotation-tagged 50% players and Rincon, Sancet and Berenguer at 70%. The two sources agree on the core (I. and N. Williams, Laporte, Berchiche, Sancet, Simon) but disagree on the midfield pair, the other centre-back and whether Berenguer plays. For Malaga, Comuniate expects Herrero; Recio and Murillo; Larrubia, Enriquez, Lorenzo; Adrian Nino plus Dotor or Chupe.",
+        "rotation": "Athletic's last league game was a 0-1 home loss to Espanyol. Their next fixture is a Copa del Rey tie against Numancia, and AS says Terzic may rotate because of it. No source says 5+ changes. Futbolfantasy's summary says 'sin rotaciones' for the round, so I expect about 1-3 changes. I found no European game this week. Malaga lost last time out (Osasuna), and Funes hinted at rotation or a more cautious setup.",
+        "motivation": "Table (laliga.com, today): Malaga 20th with 5 points from 13 games (0W 5D 8L), still without a win. Athletic 8th with 16 points from 12 (4W 4D 4L). Not a derby. Funes has been coach since Nov 2025, so there is no new coach. Malaga sacked sporting director Loren Juarros this week, which adds turbulence but is not a coach change. Terzic is the Athletic coach and nothing suggests he is new.",
+        "form": "Malaga: last five league games L D L L L, 11 goals conceded and no clean sheets (Eurosport). At home this season: 0W 3D 3L, 6 scored and 12 conceded (Comuniate), so they are winless at home but have drawn half of those games. Athletic: last five L W W D L, 8 goals scored, with the latest a 0-1 home loss to Espanyol. Away this season: 1W 3D 2L, 4 scored and 6 conceded. No xG found.",
+        "h2h": "No recent meetings, since Malaga were last in the top flight in 2017/18 (Athletic 2-1 Malaga and Malaga 3-3 Athletic, per Comuniate), so it says little about these squads. Style: Athletic press high and play fast down the wings and cross. Malaga are leaky at home and Athletic score little away, so a draw or a narrow Athletic win is the likeliest shape.",
+        "odds": "DraftKings via ESPN: Malaga 4.70, draw 3.85, Athletic 1.74, total 2.5. De-vigged: 20.3 / 24.8 / 54.9. The opening line was 4.40 / 3.75 / 1.74, so Malaga drifted out slightly and Athletic is flat; this is not a move against the favourite. Polymarket Athletic 56.7% is about 1.8 points above the DraftKings de-vig. Eurosport (26 Nov): BTTS yes 1.80, over 2.5 1.80. Only one 1X2 price (DraftKings) was verified.",
+        "models": "Total Football Analysis model (search snippet): Malaga 10%, draw 45%, Athletic 45%. Foresportia (search snippet, page returned 403): Athletic 43.8%, draw 33.6%, Malaga 22.6%. Both bookmaker-free models I saw put the draw well above the market's 24.7%. No Opta, ClubElo or Forebet page was found.",
+        "venue_weather": "La Rosaleda, Malaga, normal home venue. Kickoff Sat 28 Nov, 16:15 CET (15:15 UTC), confirmed on laliga.com and Comuniate. No weather or pitch information found in the sources read, and no postponement notice. Travel from Bilbao is a normal domestic trip."
+      },
+      "reason": "Start from the market (Athletic 56.7%, draw 24.7%) and move 3 points from Athletic to the draw and 0.4 to Malaga. Athletic are a thin favourite against the 20th-placed side, but they are only 1W 3D 2L away with 4 goals scored, lost their last game, and have a Copa tie next. Malaga are winless but have drawn 5 of 13, and 3 of 6 at home. Both bookmaker-free models I saw put the draw at 34-45%. The draw is above 25%, so a straight Athletic win should not be bet; the draw no bet leg rests on the same doubts, so confidence is low.",
+      "main_risk": "A draw (or narrow Malaga result): Athletic rotate with the Copa tie in mind, struggle to score away from home, and a desperate Malaga side sit deep and take a point. Malaga have drawn 5 of 13 league games.",
+      "sources": [
+        "https://www.laliga.com/en-MX/match/temporada-2026-2027-laliga-ea-sports-malaga-cf-athletic-club-14",
+        "https://www.comuniate.com/partido/26/6/14/malaga-athletic-club",
+        "https://www.comuniate.com/noticias/39288/malaga-athletic-club-previa-alineaciones-probables-y-consejos-fantasy-jornada-14-de-laliga",
+        "https://www.futbolfantasy.com/laliga/equipos/athletic",
+        "https://www.futbolfantasy.com/laliga/noticias/155654-funes-habla-de-la-salida-de-loren-las-bajas-los-recupera",
+        "https://athleticclubinfo.com/noticias/el-athletic-recupera-a-yeray-y-paredes-para-visitar-al-malaga",
+        "https://www.eurosport.es/apuestas/pronosticos/malaga-vs-athletic-club-pronostico-consejos-y-cuotas-laliga-28-11-26/",
+        "https://www.deia.eus/athletic/2026/11/26/yeray-berenguer-recuperar-malaga-la-rosaleda-11799626.html",
+        "https://totalfootballanalysis.com/predictions/malaga-vs-athletic-club-1570469",
+        "https://www.foresportia.com/es/pronostico/laliga/malaga-cf-athletic-bilbao-2026-11-29/",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261128"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1433545",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.55,
+        "draw": 0.255,
+        "away": 0.195
+      },
+      "checks": {
+        "team_news": "Nice: Abergel and Mendy are out long-term (knee) and Bombito is out (leg). Abdelmonem is back from a hamstring problem and trained with the group Thursday, but Sports Mole still lists him as a doubt. Wahi had hamstring fatigue and is expected to play, though not fully fit (ici.fr, Sports Mole, ogcnice.eu summary of Pantaloni's Thursday presser). Troyes: Gozzi (hamstring) and Kone (knee) are out, Ifnaoui faces a fitness test, Titi was rested with a quad pain, Diaz returns from suspension. Source is a secondary summary of the presser, not the transcript.",
+        "lineups": "Only one named predicted XI found (Sports Mole). Nice: Diouf; Seidu, Ndayishimiye, Mandza; Clauss, Witsel, Boudaoui, Nkounkou; Diop, Amoura; Wahi. Troyes: Konate; Maronnier, Monfray, Diaz, Boura; Ifnaoui, Diop, Mille, Karim, Diawara; Ripart. Starting11 lists positions only, with no names, so there is no second source to compare. Official XIs were not out when I read.",
+        "rotation": "Nice's last game was the 2-3 home loss to PSG, and I found no European fixture mentioned, so no rotation signal. Troyes' last game was a 3-1 win over Le Havre. I found no report of heavy rotation on either side, but it is unconfirmed until XIs are announced.",
+        "motivation": "Nice are 7th with 17 pts from 11, Troyes 14th with 11 pts (3W 2D 6L, 10 goals for, 18 against), per the Foot Mercato table. Both need points and neither is safe. Not a derby. Nice coach Pantaloni was appointed on 17 June 2026, so there is no coach change in the last 7 days. Stephane Dumont is still in charge at Troyes and gave the pre-trip press conference.",
+        "form": "Nice last six in Ligue 1 (oldest to newest): W L W W W L, the latest the 2-3 home loss to PSG; 17 goals for and 15 against in 11 games (+2). Troyes last six: L L D W L W, the latest a 3-1 win over Le Havre; 10 for and 18 against in 11 (-8), a weak attack and a leaky defence. I could not find xG or a Troyes away-only split.",
+        "h2h": "Last 10 meetings (ogcnice.eu): Nice 6 wins, Troyes 2, draws 2, with goals 17-11 to Nice. Nice have won the last three and four of the last five. Troyes have not won at the Allianz Riviera since 2017. Troyes are expected to sit in a low block per Pantaloni, so the pre-mortem is a stalemate or a counter-attack goal from them.",
+        "odds": "DraftKings (ESPN): Nice -140, now 1.71, opened 1.65 (-155). Draw 3.90 against 4.10 at the open and Troyes 4.80 against 4.50. De-vigged: 55.7 / 24.5 / 19.9 against Polymarket 56.3 / 24.3 / 19.3, so the two agree within 1 point. The drift against Nice is about 3.5% relative since opening and the 24h move is -1.7%. I found NO clear news to explain it: no European game, and only hamstring doubts over Wahi and Abdelmonem. Under the brief's rule that is unexplained drift, so confidence is low. A second bookmaker or OddsPortal price was not obtained.",
+        "models": "No bookmaker-free model was found: I did not get through to Opta, ClubElo or Forebet pages. The only forecast was a Sports Mole editorial pick of Nice 2-0, which is not a model.",
+        "venue_weather": "Allianz Riviera, Nice, Saturday 28 Nov 2026, kick-off 19:45 UTC (20:45 local). Referee Aurelien Petit. Home fixture, no travel issue for Nice, and Troyes travel across France. I did not find a weather or pitch report, and I saw no sign of a problem."
+      },
+      "reason": "I started from the market and moved Nice down slightly to 0.55 and the draw up to 0.255. Reasons: DraftKings has drifted from 1.65 to 1.71 with no confirmed cause beyond Wahi and Abdelmonem's hamstring doubts; Nice lost to PSG last weekend; and the pre-mortem draw scenario (Troyes low block) is plausible. Supporting Nice: the 6-place gap, 6 wins in the last 10 h2h with Troyes winless at Nice since 2017, and Troyes missing Kone and Gozzi. Confidence is low due to the unexplained drift, only one lineup source, no model forecast and no second bookmaker.",
+      "main_risk": "A draw (or a late equaliser): Troyes defend deep, Nice's attack has been inconsistent and Wahi is short of fitness, and the price drift against Nice has no confirmed explanation.",
+      "sources": [
+        "https://www.sportsmole.co.uk/football/nice/preview/nice-vs-troyes-prediction-team-news-lineups_609865.html",
+        "https://www.ici.fr/provence-alpes-cote-d-azur/alpes-maritimes-06/nice/ligue-1-l-ogc-nice-recoit-troyes-pour-tenter-de-relancer-sa-bonne-dynamique-2245063",
+        "https://www.ogcnice.eu/index.php/le-prochain-match/10098-saison-2026-2027/10587-12eme-journee-de-ligue-1-troyes-nice-les-stats",
+        "https://www.footmercato.net/ligue-1/classement/",
+        "https://www.footmercato.net/live/201900167310163132-nice-vs-troyes",
+        "https://starting11.com/es/fixtures/nice-vs-estac-troyes",
+        "https://www.estac.fr/estac-ogc-nice-j12-la-conf-davant-match/",
+        "https://www.beinsports.com/fr-fr/football/ligue-1/articles-video/ligue-1-le-d%C3%A9part-de-claude-puel-act%C3%A9-olivier-pantaloni-est-le-nouvel-entra%C3%AEneur-de-l-ogc-nice-2026-06-17"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1432826",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.51,
+        "draw": 0.235,
+        "away": 0.255
+      },
+      "checks": {
+        "team_news": "No confirmed absence list found. Bundesliga.com and a search summary indicate no new Stuttgart absences, with Undav (benched at Inter) and Stiller expected to return; Zagadou, Al-Dakhil and Sauer have been recurring injury cases but no current status was found. Frankfurt: Elias Baum was suspended for the Hoffenheim game (21 Nov); not confirmed whether he is back, and Hütter was weighing a back three. Kicker (403), Stuttgarter Zeitung and Friday press conferences were not retrievable.",
+        "lineups": "Only one source: Bundesliga.com predicted Stuttgart 4-2-3-1 (Demirovic up front, Undav behind, Stiller and Promel in midfield) and Frankfurt 4-4-2. No second lineup source (Kicker/Ligainsider) could be read, so the XIs are unverified.",
+        "rotation": "Stuttgart played at Inter on Wed 25 Nov (lost 0-2, Champions League) after 0-0 at Schalke on 21 Nov, so they have 3 days' rest. Frankfurt's last game was 1-0 v Hoffenheim on 21 Nov with no European fixture, so they have had a full week. No official change count. Fatigue and rotation favour Frankfurt slightly.",
+        "motivation": "ESPN table after 10 games: Frankfurt 7th on 15 pts, Stuttgart 8th on 13 pts; both in the European race and need points. Not a derby. Hütter has been Frankfurt coach since 1 July 2026 and Hoeness is still Stuttgart coach, so no coach change in the last 7 days.",
+        "form": "Stuttgart last 6 Bundesliga games: 0-0 at Schalke, 1-0 v Bremen, 4-2 at Leverkusen, 2-3 v Gladbach, 0-1 at Hamburg, 2-0 at Paderborn. Frankfurt: 1-0 v Hoffenheim, 2-2 at Paderborn, 3-1 v Hamburg, 0-1 at Dortmund, 1-0 v Cologne, 0-6 at Leipzig. Over 2.5 hit in only 2 of 6 Stuttgart and 3 of 6 Frankfurt games; BTTS in 2 of 6 for each. No xG found.",
+        "h2h": "The last meeting was 2-2 at Frankfurt on the final day of 2025/26 (Stuttgart led 2-0). No fuller recent h2h record or draw rate was found. Style: Stuttgart man-marking-leaning, Frankfurt a counter-attacking 4-4-2.",
+        "odds": "DraftKings (ESPN): 1.77 / 4.40 / 3.55, de-vigged 52.6/21.2/26.2. Opening was 1.63 / 4.40 / 3.85, so the home price drifted from about 55.7% to 52.6%, a roughly 5.6% relative drift against the favourite with no news found to explain it. Polymarket is flat at 53.7/20.7/25.7 over 24h. No second bookmaker or exchange was reachable.",
+        "models": "No bookmaker-free model found: Forebet returned 403 and ClubElo 503, and Opta was not found.",
+        "venue_weather": "MHPArena, Stuttgart (home, not neutral), Sat 28 Nov 17:30 UTC per ESPN and Bundesliga.com. Short domestic trip for Frankfurt. No weather or pitch report found."
+      },
+      "reason": "Stage 1 passes: fixture verified, not a derby, no coach change in the last 7 days, normal venue, neither team locked in. I moved the home win down 2.7 points and the draw up 2.9 points: Stuttgart played at Inter on Wednesday while Frankfurt had a full week, the previous meeting finished 2-2, Stuttgart's recent league games are low-scoring, and the DraftKings home price drifted from 1.63 to 1.77 with no explanation (over the 3% rule, so low). Only one lineup source and no model were found.",
+      "main_risk": "A draw or a Frankfurt result after Stuttgart's midweek Champions League trip to Inter, with Stuttgart's recent low-scoring league games and the 2-2 in this fixture last May as the template.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261128",
+        "https://site.api.espn.com/apis/v2/sports/soccer/ger.1/standings",
+        "https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/11/vfb-stuttgart-vs-eintracht-frankfurt/liveticker",
+        "https://www.bundesliga.com/en/champions-league/matchday/2026-2027/5/fc-internazionale-mailand-vs-vfb-stuttgart/lineup",
+        "https://www.ligainsider.de/elias-baum_35727/baum-sperre-huetter-laesst-sich-nicht-in-die-karten-blicken-420887/",
+        "https://www.zdfheute.de/sport/fussball-bundesliga/bundesliga-eintracht-frankfurt-huetter-trainer-100.html",
+        "https://www.hessenschau.de/sport/fussball/eintracht-frankfurt/rueckkehr-fix-adi-huetter-wird-erneut-trainer-von-eintracht-frankfurt-v1,eintracht-huetter-142.html",
+        "https://www.uefa.com/uefachampionsleague/match/2049635--inter-vs-stuttgart/lineups/"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1431974",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1432797",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.28,
+        "draw": 0.27,
+        "away": 0.45
+      },
+      "checks": {
+        "team_news": "Villa are without Onana (long-term knee) and Ruggeri (hamstring, training alone). Cash is expected back after concussion protocols (Khelnow lists him out, Racing Post and Football Whispers say available). Lindelof is doubtful with illness (7M, EPL Index). Ipswich's only doubt is Davis (ankle; most sources expect him to start, Khelnow says out). 7M also lists Jack Taylor out. No suspensions found. No full text of the 26/27 Nov press conferences was found; EPL Index only paraphrases O'Neil on Davis and Emery on Ruggeri.",
+        "lineups": "No official XIs yet. The Hard Tackle and EADT both give a 4-2-3-1 for each side and largely agree on the Villa spine (Suzuki; Torres, Maatsen, Kamara, Goretzka, Alysson, Manzambi, Jackson). They differ on the full-backs, on McGinn or Buendia at 10, and on Ipswich's wide and forward players. Predicted XIs are unreliable this early.",
+        "rotation": "Villa lost 1-0 at Galatasaray in the Champions League on Tuesday and have only three days to recover, while Ipswich had a full week. Villa's last league games: 0-0 v Sunderland, 4-4 at Man Utd. Ipswich lost 2-0 at Tottenham. No confirmed Villa XI, so 5+ changes are not confirmed; some changes are likely.",
+        "motivation": "Ipswich are 16th on 11 points from 11 games, two clear of the drop zone. Villa are 12th on 14. Both are winless in five or six, so both need points. Not a derby. O'Neil was appointed on 23 June 2026 and Emery is long-standing, so no manager change in the last 7 days. Fixture confirmed by ESPN: 17:30 UTC, Portman Road.",
+        "form": "Ipswich: LDDLL, one win in eight in all competitions, 22 conceded in 11 league games and no clean sheet in 30 top-flight matches; scored in four straight home games, BTTS in six of seven home games. Villa: winless in six in all competitions (D3 L3), failed to score in four of six, no shot on target at Galatasaray; lost three of their last four away games to nil. Unbeaten in 22 league games against promoted sides under Emery. xG per game (Hard Tackle): Villa 1.40, Ipswich 0.98.",
+        "h2h": "Villa lead 26-20 across 63 meetings; Ipswich have not beaten Villa in the top flight since 1993. Both 2024-25 meetings were draws (2-2, 1-1), and three of the last four meetings ended level. Villa have lost only one of their last 12 visits to Portman Road.",
+        "odds": "DraftKings (ESPN) 3.40 / 3.75 / 2.05, de-vigged 0.280 / 0.254 / 0.465; opened 3.30 / 3.75 / 2.00, so Villa drifted slightly (2.1% relative, below 3%). bet365 via Racing Post 11-4 / 11-4 / 10-11 (about 3.75 / 3.75 / 1.91). Kickoff.co.uk 3.30 / 3.70 / 2.00. Betfair draw 3.90. Prices agree with Polymarket within about 3 points.",
+        "models": "Only bookmaker-free model found: Onside Arena (Poisson-style) 34% / 27% / 39%, page undated so unconfirmed; much less bullish on Villa than the market. Forebet blocked (403); no Opta or ClubElo figures. Previews lean to a draw or narrow Villa win.",
+        "venue_weather": "Portman Road, Ipswich, normal home venue (ESPN). 17:30 GMT, referee Michael Salisbury (Khelnow). No forecast or pitch report found. Villa travelled to Istanbul on Tuesday, which adds fatigue risk."
+      },
+      "reason": "Start from the market (Villa 47%). I take about 2 points off Villa and move them to the draw and Ipswich: Villa are on three days' rest after a Champions League trip, have won once in seven, failed to score in four of six, and have lost three of their last four away games to nil; the Onside model has Villa at 39%; three of the last four meetings were draws and Ipswich score regularly at home. Against that, Ipswich concede freely and Villa are unbeaten in 22 against promoted sides, so I stay close to the market. Lineups are unconfirmed and several team-news items conflict (Davis, Cash, Lindelof), so confidence is low.",
+      "main_risk": "A draw (around 1-1) at Portman Road: a rotated or tired Villa side with weak attacking output cannot break down an Ipswich team that scores at home.",
+      "sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261128",
+        "https://www.eadt.co.uk/sport/26765539.ipswich-town-v-aston-villa---premier-league-match-preview/",
+        "https://thehardtackle.com/round-up/2026/11/27/ipswich-town-vs-aston-villa-preview-prediction-probable-lineups-tactics-team-news-key-stats/",
+        "https://www.racingpost.com/sport/football-tips/premier-league/ipswich-vs-aston-villa-betting-tips-predictions-team-news-odds-bet-builder-aaW7P3j82TT1/",
+        "https://footballwhispers.com/blog/ipswich-town-vs-aston-villa-prediction-28-11-2026/",
+        "https://khelnow.com/football/ipswich-town-vs-aston-villa-preview-premier-league-202611",
+        "https://news.7msport.com/news/newsdata/20261127/276852.shtml",
+        "https://eplindex.com/152824/ipswich-town-vs-aston-villa-match-preview-latest-team-news-and-score-prediction.html",
+        "https://onsidearena.com/predictions/ipswich-vs-aston-villa",
+        "https://www.kickoff.co.uk/english-premier-league-predictions-stats-odds/ipswich-vs-aston-villa/",
+        "https://www.itv.com/news/anglia/2026-06-23/ex-norwich-player-gary-oneil-announced-as-new-ipswich-town-manager"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1433547",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1432759",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1433544",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1432228",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1431972",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1454057",
+      "exclude": false,
+      "confidence": "medium",
+      "p": {
+        "home": 0.79,
+        "draw": 0.13,
+        "away": 0.08
+      },
+      "checks": {
+        "team_news": "PSV Inside (27 Nov) lists Ouaissa, Mauro Junior, Schouten and Pleá as out and Perisic as doubtful. Perisic scored a penalty at Real Madrid and was subbed at half-time. Bosz at the Friday press conference called him a doubt (\"Zo mag je dat wel noemen\"), and the medical check found nothing serious. Several players have minor knocks, with no new injuries reported. No injuries or suspensions for Go Ahead Eagles were found in the ga-eagles.nl preview (Oosting quotes only). I did not reach Eindhovens Dagblad or psv.nl.",
+        "lineups": "Two predictions agree on the shape and differ on one or two places. Voetbalprimeur (27 Nov): Kovar; Dest, Geertruida, Obispo, Kostic; Sano, Mijnans, Til; Bajraktarevic, Pepi, Van Bommel. Voetbalnieuws (27 Nov): the same back five but Wanner in midfield, Mijnans further forward and Pepi left out. Both have Bajraktarevic replacing Perisic. These are predictions only, with no confirmed XI at the time of research. I did not find a predicted GAE XI.",
+        "rotation": "PSV lost 1-5 at Real Madrid on Tue 24 Nov (sportschau.de: 5:1 final; Perisic penalty, 1-0 at 32'). Before that they won 4-1 at NEC on 21 Nov. Voetbalprimeur expects about 2 changes and Voetbalnieuws a few, well below the 5+ exclusion threshold. Wanner played at Madrid after about 2 months out and was managed. GAE last played on Sun 22 Nov (0-1 home loss to Fortuna Sittard).",
+        "motivation": "After 13 rounds (soccernews.nl, 27 Nov), PSV lead with 29 points, one ahead of Ajax (28) and two ahead of Twente (27). They need the win to keep the top spot. GAE are 9th on 17 points, 1 point behind 8th Cambuur (18) and 2 ahead of 10th Groningen (15). No derby or fierce rivalry. Bosz and Oosting are both in post, and no manager change was found for either club in the last 7 days. Kick-off 18:45 local (17:45 UTC).",
+        "form": "PSV won 4-1 at NEC (21 Nov) and lost 1-5 at Real Madrid (24 Nov, Champions League). I did not find a full 6-10 game run, xG or the home/away split. GAE lost 0-1 at home to Fortuna Sittard on 22 Nov without scoring, and Oosting called not scoring \"een kritisch puntje\". A VAVEL snapshot shows undated draws vs Utrecht, Groningen and NEC. I could not verify GAE's away record this season. Form is only partly checked.",
+        "h2h": "Tipster previews (TelecomAsia via search snippet) say PSV have won the last three meetings. PSV beat GAE 3-0 at home in 2024/25 (WhoScored title). I could not confirm the other meetings or how often they end level. Style: GAE are expected to sit deep and try to nick points, as Oosting said they would. The draw price of about 7.0-7.5 implies roughly 12-13%.",
+        "odds": "DraftKings (ESPN): home 1.21, draw 7.5, away 10; de-vigged 78.0/12.6/9.4. It opened at 1.21 / 7.0 / 8.5, so the home price is flat and the draw and away prices have lengthened, a move in the favourite's favour. Sportytrader (search snippet) shows PSV 1.21-1.24, draw about 6.5-7.2, GAE 9.2-11.0. Squawka (snippet) shows bet365 PSV 1.25, about 80% before margin. Polymarket's 80.4% is 2-3 points above the DraftKings de-vig and in line with bet365. The 24h Polymarket move is +1.3% for PSV, so no drift against them.",
+        "models": "Betimate (snippet) gives PSV 85% with a 3-0 projection. The OddAlerts 100k simulation (snippet) gives 75.1% PSV, 13.4% draw and 11.5% GAE, with 2-1 the most likely score. I did not find ClubElo or Opta numbers. The models average about 80%, in line with the market.",
+        "venue_weather": "Philips Stadion, Eindhoven, PSV's normal home ground, so no neutral or unusual venue. Kick-off Saturday 28 Nov at 18:45 local. GAE had to change training times because of weather (ga-eagles.nl). I could not find a reliable forecast for Eindhoven on the day, and I found no pitch problem."
+      },
+      "reason": "Starting from Polymarket (80.4/12.3/7.3), I shaved PSV by 1.4 points, to 79%. Perisic is doubtful, PSV just lost 1-5 in Madrid with a short week, and the lineups are unconfirmed. The draw goes up to 13% and GAE to 8%. Nothing breaks the gate: both coaches are in post, about 2 PSV changes are expected, it is a normal home venue, and PSV still have the league lead to defend. The independent prices (DraftKings de-vig 78%, bet365 about 80%) sit close to Polymarket, and DraftKings has not moved against PSV since opening. Gaps remain (form detail, GAE's away record, h2h detail, weather, confirmed XI), so confidence is capped at medium.",
+      "main_risk": "PSV are emotionally and physically flat after the 1-5 at Real Madrid. Perisic is absent, GAE sit deep, and it ends 1-1 or a narrow 1-0 or 2-1 with a late goal.",
+      "sources": [
+        "https://www.psvinside.nl/nieuws/bosz-komt-met-update-in-aanloop-richting-go-ahead-eagles",
+        "https://www.voetbalnieuws.nl/nieuws/2163673/psv-vreest-voor-absentie-van-perisic-tegen-go-ahead-eagles.html",
+        "https://www.voetbalnieuws.nl/nieuws/2163748/de-vermoedelijke-opstelling-van-psv-voor-het-duel-met-go-ahead-eagles-vn.html",
+        "https://www.voetbalprimeur.nl/nieuws/2163849/vermoedelijke-opstelling-psv-voor-thuisduel-met-go-ahead.html",
+        "https://ga-eagles.nl/vooruitblik-psv-go-ahead-eagles-4",
+        "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league/ma12517644/real-madrid_psv-eindhoven/info",
+        "https://www.soccernews.nl/news/dit-is-de-stand-in-de-eredivisie-voor-speelronde-14/",
+        "https://www.sportytrader.com/en/betting-tips/psv-eindhoven-go-ahead-eagles-390360/",
+        "https://squawka.com/nl/nieuws/eredivisie/psv-go-ahead-eagles-opstellingen-statistieken-voorspelling-tips-odds",
+        "https://betimate.com/en/news/previews/psv-vs-go-ahead-eagles-prediction-odds-betting-tips-11282026-3018969",
+        "https://www.oddalerts.com/simulations/psv-vs-go-ahead-eagles-prediction/420609810"
+      ],
+      "views": {
+        "ou_5.5_under": 0.78
+      },
+      "prices": []
+    },
+    {
+      "id": "1469652",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.25,
+        "draw": 0.0,
+        "away": 0.75
+      },
+      "checks": {
+        "team_news": "No stand-in or roster change found for either side in today's reads. GosuGamers lists PARIVISION's BLAST Slam IX players as Satanic, No[o]ne and Noticed, with 9Class in a support role in a later game; I could not find a full confirmed five. Team news for 1w is not covered in the sources I could open.",
+        "lineups": "Not confirmed. No official five for either team for this series was found, and Liquipedia returned 429. Only a partial PARIVISION player list from GosuGamers; no second lineup source.",
+        "rotation": "Double-elimination playoffs, 26-29 Nov, all series Bo3 (grand final Bo5, per esport.vision). PARIVISION played Liquid on the 27th, then Aurora, so this is their third playoff series in a few days. 1w played Liquid 26 Nov and GamerLegion 27 Nov, so their load is the same. Fatigue is about even.",
+        "motivation": "Lower-bracket semifinal elimination series for both sides (esport.vision, GosuGamers, Hotspawn). The loser is out. PARIVISION lost 1-2 to Liquid in the upper semifinal and beat Aurora 2-1 to stay alive. 1w lost 0-2 to Liquid, then beat GamerLegion 2-0. Both have equal stakes.",
+        "form": "PARIVISION: beat GamerLegion 2-0 in seeding, lost 1-2 to Liquid, beat Aurora 2-1; Hotspawn calls them inconsistent since patch 7.42. 1w: lost 1-2 to Yandex in seeding, lost 0-2 to Liquid, beat GamerLegion 2-0, and Hotspawn says they broke a losing streak. I could not see the last 10 series with opponents' levels.",
+        "h2h": "Only older meetings turned up: PARIVISION won 2-1 over 1win at BLAST Slam VIII on 9 Oct 2026 (Esports Insider). Nothing newer found. The Oct series went to a third map, so a 2-1 is plausible again.",
+        "odds": "No independent price found for today. The only odds seen were from a Slam VIII (October) preview, a different series, so they were not used. Polymarket moved only 77.5% to 76.5% in 24h (-1.3% relative), below the 3% flag. No de-vigged second price, so I stay near the market and rate this low.",
+        "models": "No GosuGamers or Datdota Elo found for today. Hotspawn's Day 3 preview picks PARIVISION 2-1 (a pundit view, not a rating model).",
+        "venue_weather": "BLAST Slam IX is a tier-1 event. Online or LAN was not stated in the sources opened; the candidate note and prior research say online. No weather or venue risk was found."
+      },
+      "reason": "Format confirmed Bo3, tier-1 BLAST Slam IX, no draw possible. PARIVISION is the clear favourite in this lower-bracket semifinal, and Hotspawn also picks them. But there is no independent price, no confirmed lineups and no Elo, and PARIVISION just lost to Liquid and has looked inconsistent. This is an elimination match, so I shade 1.5 points off Polymarket's 76.5% for Bo3 variance and for the lack of any second price.",
+      "main_risk": "PARIVISION's inconsistency since patch 7.42 and Bo3 variance: 1w can steal a 2-1 on a favourable draft, as 1w took a map off PARIVISION at Slam VIII, while PARIVISION may be tired after three playoff series in three days.",
+      "sources": [
+        "https://www.gosugamers.net/dota2/news/79538-team-liquid-reach-upper-bracket-finals-at-blast-slam-ix-gamerlegion-and-aurora-get-eliminated",
+        "https://www.hotspawn.com/dota2/news/is-this-a-new-team-liquid-era-blast-slam-ix-playoffs-day-3-predictions",
+        "https://esport.vision/news/blast-slam-ix-results-playoff-bracket-og-xtreme-gaming-out",
+        "https://esportsinsider.com/betting-odds/dota2/match/1win-dota-2-vs-parivision-dota-2-1709128",
+        "https://www.dotabuff.com/esports/leagues/20208-blast-slam-ix"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1470538",
+      "exclude": true,
+      "reason": "Could not complete the verification gate. The OddsPortal Liiga page lists Ilves vs HIFK at 17:00 local on 28 Nov with Ilves first, but liiga.fi returned empty and Sofascore 403, so the home side and venue were not confirmed on the league or a club site. No confirmed starting goalies for either team, nothing on whether either team played on Fri 27 Nov, and no report on coach changes found. The only independent price is OddsPortal 3-way regulation 1.74 / 4.75 / 4.50 (de-vigged about 57.0 / 20.9 / 22.1), not a two-way price including overtime, so it is not evidence of agreement with Polymarket's 70.5%.",
+      "main_risk": "Unverified goalies, back-to-back status, coach situation and venue; a backup Ilves goalie or a Friday game would make 70.5% too high. The overtime/shootout coin flip is the other risk.",
+      "sources": [
+        "https://www.oddsportal.com/hockey/finland/liiga/",
+        "https://www.mtvuutiset.fi/artikkeli/nyt-tapahtuu-nordiksella/9238056",
+        "https://liiga.fi/fi/peli/2026/92/seuranta",
+        "https://www.sofascore.com/tampereen-ilves-hifk-helsinki/OBbsQBb"
+      ]
+    },
+    {
+      "id": "1468296",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1458818",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1470539",
+      "exclude": true,
+      "reason": "Local press calls JYP vs KalPa a derby: Etelä-Suomen Sanomat headlined their 24 Jan 2026 game 'Järvi-Suomen derbyssä' (Lakeland derby). Under the derby/rivalry gate this is excluded rather than betting a 68.5% favourite. The fixture looks real (OddsPortal lists JYP vs KalPa on 28 Nov at 17:00 local, 3-way regulation 1.71 / 4.50 / 4.40, de-vigged about 57 / 21 / 22), but that is not a two-way price including overtime. Not found: starting goalies, whether either team played on Fri 27 Nov, and liiga.fi venue confirmation (page returned empty); no head-coach change found.",
+      "main_risk": "Derby intensity plus an overtime/shootout coin flip in a low-scoring fixture (the 24 Jan 2026 meeting finished 0-0 after OT), with starting goalies unknown.",
+      "sources": [
+        "https://www.ess.fi/urheilu/9160644",
+        "https://www.oddsportal.com/hockey/finland/liiga/",
+        "https://www.mtvuutiset.fi/artikkeli/jyp-laahaa-synkissa-vesissa-kuudes-perakkainen-tappio-voimahyokkaaja-ajettiin-kentalta/8852236",
+        "https://www.flashscore.com/hockey/finland/liiga/standings/"
+      ]
+    },
+    {
+      "id": "1459295",
+      "exclude": true,
+      "reason": "Stage 1 could not be cleared. The fixture (HV71 home vs IF Björklöven, 28 Nov 2026, 18:00 local) appears on only one site (globalsportsarchive.com, HV71 listed as home); shl.se returned page-not-found and no Swedish preview exists yet. A coach change at Björklöven in the last 7 days could not be ruled out (undated, contradictory search results). No expected goalies found; HV71 has a thin goalie group (TV4 reported them without regular goalies and a 19-year-old debuting). No independent two-way price (OddsPortal returned 429, so it was not used again). HV71 played away at Örebro on Thu 26 Nov (lost 1-2) and only ended a seven-game losing streak on 14 Nov, which makes 68.5% hard to support.",
+      "main_risk": "Backup or unproven HV71 goalie, an unverified coach situation, and no independent price against a market that already drifted down 1.4% in 24h; plus the overtime/shootout coin flip.",
+      "sources": [
+        "https://globalsportsarchive.com/team/ice_hockey/hv71/25662/",
+        "https://www.tv4.se/artikel/tt-261114-shl1-7cdd327b/nervost-hv71-brot-tung-svit-pirrigt",
+        "https://www.tv4.se/artikel/2NMM3CRuS1itP0RQtlEAQF/hv-utan-ordinarie-malvakter-19-aringen-goer-debut",
+        "https://hurbra.se/niklas-eriksson-hv71-spelarmote-26-oktober-2026/"
+      ]
+    },
+    {
+      "id": "1458819",
+      "exclude": false,
+      "confidence": "low",
+      "p": {
+        "home": 0.65,
+        "draw": 0.0,
+        "away": 0.35
+      },
+      "checks": {
+        "team_news": "Not found. Two searches (Swedish and English) plus Flashscore returned no injury, suspension or doubt reports for either club for this game; only older items (March 2026 Malmö suspensions, a 2026 playoff injury).",
+        "lineups": "Not found. No expected or confirmed starting goalie or line combinations for either team (hurbra.se, tv4.se, svt.se searched). Flashscore lists Blomgren and Langhamer among Malmö's goalies on an undated page. The goalie check is unverified, the main risk for a 68% favourite.",
+        "rotation": "Flashscore's Malmö page lists no games on 26 or 27 Nov; next fixtures are Brynäs on 3 Dec and at Örebro on 5 Dec. Djurgården's fixture list did not load (404), so whether they played on 26 or 27 Nov is unverified.",
+        "motivation": "Not verified: no current SHL table found. The last data point is 17 Oct, when Djurgården had 12 points from 10 games and Malmö 14 from 9. No sign of a derby (Malmö vs Stockholm).",
+        "form": "Last 10 games not verified. Known results: 17 Oct 2026 Djurgården 3-2 Malmö after a shootout, 21 Mar 2026 Malmö 3-1, 24 Jan 2026 Djurgården 0-1 Malmö, 29 Nov 2025 Malmö 5-3. No home/away split found.",
+        "h2h": "Malmö won most recent meetings (5-3, 1-0 away, a 2026 playoff series 2-1 in games), but the latest on 17 Oct 2026 went to a shootout after a scoreless overtime.",
+        "odds": "One independent price only: OddsPortal 3-way regulation 1.76 / 4.50 / 4.40, de-vigged about 55.9 / 21.8 / 22.3. Not a two-way price including OT, so not counted as agreement with Polymarket's 68%. No second bookmaker reached. Polymarket moved 67% to 68% in 24h, no red flag.",
+        "models": "No xG or rating model found. An undated Sportschedule page shows Malmö 54.5 / draw 21.6 / Djurgården 23.9 (3-way, regulation), not confirmed for this game.",
+        "venue_weather": "Fixture confirmed on Flashscore's Malmö page with Malmö listed first; shl.se schedule did not load to confirm Malmö Arena, the club's home arena (used for the March 2026 meeting). Domestic trip, no weather concern."
+      },
+      "reason": "Started from Polymarket's 68% and shaded Malmö down 3 points to 65%: starting goalies unconfirmed, no independent two-way price including OT, 60-70% favourites have hit 58% vs 65% expected in our record, and the last meeting was decided by a shootout. No stage 1 exclusion found, but much of stage 2 could not be verified, so confidence is low.",
+      "main_risk": "A backup goalie for Malmö or a hot Djurgården goalie, or overtime and a shootout, as in the 17 Oct meeting.",
+      "sources": [
+        "https://www.flashscore.se/lag/malmo-redhawks/pO1SCzgR/",
+        "https://www.oddsportal.com/hockey/sweden/shl/",
+        "https://hurbra.se/djurgarden-malmo-resultat-17-oktober-2026/",
+        "https://sportschedule.tv/sport_event/djurgarden-vs-malmo-redhawks",
+        "https://www.tv4.se/artikel/tt-261101-shllinkoping1-a022db0b/linkoping-sparkar-tranare",
+        "https://hurbra.se/brynas-tranarstab-4-november-2026/"
+      ],
+      "views": {},
+      "prices": []
+    },
+    {
+      "id": "1470540",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1458821",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1470541",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1458051",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1470542",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1444442",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1432205",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1458679",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1433626",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1458678",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1470543",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1460969",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1458820",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1459297",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1453038",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1438277",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1455075",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1439205",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1453563",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1453717",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1443976",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1433048",
+      "exclude": true,
+      "skipped": true
+    },
+    {
+      "id": "1432204",
+      "exclude": true,
+      "skipped": true
+    }
+  ]
+}
